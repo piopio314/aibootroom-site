@@ -578,6 +578,8 @@ tbody tr.row-open td { border-bottom: none; }
 <div class="pagination" id="pagination"></div>
 </div><!-- /content-wrap -->
 
+<div id="copy-toast" style="position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(12px);background:rgba(34,197,94,0.92);color:#fff;font-size:13px;font-weight:600;padding:9px 20px;border-radius:8px;pointer-events:none;opacity:0;transition:opacity 0.3s,transform 0.3s;z-index:9999;letter-spacing:0.5px;">🔗 Link copied!</div>
+
 <footer>
   <strong>AI Boot Room</strong> — All predictions are for entertainment and educational purposes only.<br>
   Past performance does not guarantee future results. Please gamble responsibly.<br>
@@ -610,6 +612,7 @@ Promise.all([
   renderStats();
   populateLeagues();
   renderTable();
+  handleHashChange();
 }).catch(function(err) {
   document.getElementById('table-body').innerHTML =
     '<tr><td colspan="8"><div class="loading-spinner" style="color:#ef4444">Failed to load data. ' + err.message + '</div></td></tr>';
@@ -802,6 +805,7 @@ var openDetailEl = null;
 
 function closeDetail() {
   if (!openDetailEl) return;
+  if (window.location.hash) history.replaceState(null, '', window.location.pathname + window.location.search);
   var closing = openDetailEl;
   var inner   = closing.querySelector('.detail-inner');
   inner.style.maxHeight = inner.scrollHeight + 'px';
@@ -815,7 +819,8 @@ function closeDetail() {
 function toggleRow(key, trEl) {
   var isSame = openKey === key;
   closeDetail();
-  if (isSame) return;
+  if (isSame) { history.replaceState(null, '', window.location.pathname + window.location.search); return; }
+  history.replaceState(null, '', '#key=' + encodeURIComponent(key));
   openKey = key;
   var m = ALL_MATCHES.find(function(x) { return x.key === key; });
   if (!m) { openKey = null; return; }
@@ -853,7 +858,12 @@ function buildDetailHTML(m) {
   html += '<div class="detail-header">';
   html += '<div><div class="detail-match-title">' + esc(m.home) + ' <span style="color:var(--muted);font-weight:400">vs</span> ' + esc(m.away) + '</div>';
   html += '<div class="detail-match-sub">' + fmtDate(m.date) + ' · ' + esc(m.league) + '</div></div>';
+  html += '<div style="display:flex;align-items:center;gap:8px">';
+  var _sk = escKey(m.key);
+  html += '<button class="share-btn" onclick="shareAnalysis(\''+_sk+'\'\,\'twitter\'\)" title="Share on X / Twitter" style="background:rgba(29,161,242,0.12);border:1px solid rgba(29,161,242,0.35);color:#60a5fa;padding:5px 11px;border-radius:6px;font-size:12px;cursor:pointer;">&#120143; Share</button>';
+  html += '<button class="share-btn" onclick="shareAnalysis(\''+_sk+'\'\,\'copy\'\)" title="Copy link" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.18);color:var(--text);padding:5px 11px;border-radius:6px;font-size:12px;cursor:pointer;">&#128279; Copy link</button>';
   html += '<button class="detail-close" onclick="closeDetail()" title="Close">✕</button>';
+  html += '</div>';
   html += '</div>';
 
   // Verdict strip
@@ -937,6 +947,72 @@ function oddsCard(lbl, val, col) {
 }
 
 document.addEventListener('keydown', function(e){ if (e.key === 'Escape') closeDetail(); });
+
+// ── Deep Link & Share ────────────────────────────────────────────────────────
+function getShareUrl(key) {
+  return window.location.origin + window.location.pathname + '#key=' + encodeURIComponent(key);
+}
+
+function shareAnalysis(key, mode) {
+  var m = ALL_MATCHES.find(function(x){ return x.key === key; });
+  var url = getShareUrl(key);
+  if (mode === 'twitter') {
+    var text = '\uD83D\uDCCA AI Boot Room: ' + (m ? m.home + ' vs ' + m.away + ' \u2014 ' + m.market + ' @' + (m.odds||'') + ' | ' + m.confidence + '% confidence' : 'Match Analysis');
+    window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(url) + '&hashtags=AIBootRoom,football,betting', '_blank', 'width=600,height=400,noopener');
+  } else {
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(url).then(showCopiedToast, function(){ fallbackCopy(url); });
+    } else { fallbackCopy(url); }
+  }
+}
+
+function fallbackCopy(text) {
+  var ta = document.createElement('textarea');
+  ta.value = text; ta.style.cssText = 'position:fixed;opacity:0;top:0;left:0';
+  document.body.appendChild(ta); ta.focus(); ta.select();
+  try { document.execCommand('copy'); showCopiedToast(); } catch(e){}
+  document.body.removeChild(ta);
+}
+
+function showCopiedToast() {
+  var t = document.getElementById('copy-toast');
+  if (!t) return;
+  t.style.opacity = '1'; t.style.transform = 'translateY(0)';
+  setTimeout(function(){ t.style.opacity = '0'; t.style.transform = 'translateY(12px)'; }, 2500);
+}
+
+function deepLinkOpen(key) {
+  // Reset filter to show all so we can find the match
+  var rows = getSorted(getFiltered());
+  var idx = rows.findIndex(function(m){ return m.key === key; });
+  if (idx === -1) {
+    // Match may be filtered out — switch to 'all'
+    document.querySelectorAll('.filter-btn').forEach(function(b){ b.classList.remove('active'); });
+    document.querySelector('.filter-btn[data-filter="all"]').classList.add('active');
+    activeFilter = 'all'; currentPage = 1; renderTable();
+    rows = getSorted(getFiltered());
+    idx = rows.findIndex(function(m){ return m.key === key; });
+    if (idx === -1) return;
+  }
+  var targetPage = Math.floor(idx / PAGE_SIZE) + 1;
+  if (currentPage !== targetPage) { currentPage = targetPage; renderTable(); }
+  setTimeout(function(){
+    var trs = document.querySelectorAll('#table-body tr:not(.detail-row)');
+    var pageIdx = idx - (targetPage - 1) * PAGE_SIZE;
+    if (trs[pageIdx]) {
+      trs[pageIdx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+      setTimeout(function(){ toggleRow(key, trs[pageIdx]); history.replaceState(null, '', '#key=' + encodeURIComponent(key)); }, 300);
+    }
+  }, 120);
+}
+
+function handleHashChange() {
+  var hash = window.location.hash;
+  if (!hash || hash.indexOf('#key=') !== 0) return;
+  var key = decodeURIComponent(hash.slice(5));
+  if (ALL_MATCHES && ALL_MATCHES.length) deepLinkOpen(key);
+}
+window.addEventListener('hashchange', handleHashChange);
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 function esc(s) {
