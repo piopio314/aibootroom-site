@@ -104,6 +104,7 @@ header {
 .filter-btn.f-win.active  { background: var(--green); border-color: var(--green); }
 .filter-btn.f-lose.active { background: var(--red);   border-color: var(--red); }
 .filter-btn.f-nb.active   { background: var(--muted); border-color: var(--muted); }
+.filter-btn.f-bets.active { background: var(--yellow); border-color: var(--yellow); color: #000; }
 .search-box {
   margin-left: auto;
   padding: 6px 14px;
@@ -445,6 +446,7 @@ footer strong { color: var(--text); }
   <button class="filter-btn f-win" data-filter="win">✅ Won</button>
   <button class="filter-btn f-lose" data-filter="lose">❌ Lost</button>
   <button class="filter-btn" data-filter="pending">⏳ Pending</button>
+  <button class="filter-btn f-bets" data-filter="bets">🎯 Bets Only</button>
   <button class="filter-btn f-nb" data-filter="nobet">— No Bet</button>
   <input class="search-box" type="text" id="search" placeholder="Search team or league…">
 </div>
@@ -536,6 +538,7 @@ function getFiltered() {
     if (activeFilter === 'win')     return ['WIN','HALF_WIN'].indexOf(m.settlement) !== -1;
     if (activeFilter === 'lose')    return ['LOSE','HALF_LOSE'].indexOf(m.settlement) !== -1;
     if (activeFilter === 'pending') return m.settlement === 'PENDING' && !m.is_nobet;
+    if (activeFilter === 'bets')    return !m.is_nobet;
     if (activeFilter === 'nobet')   return m.is_nobet;
     // 'all' → everything
     return true;
