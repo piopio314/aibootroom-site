@@ -600,9 +600,10 @@ var currentPage  = 1;
 var PAGE_SIZE    = 50;
 
 // ── Boot ─────────────────────────────────────────────────────────────────────
+var _cv = '?v=' + Date.now();
 Promise.all([
-  fetch('data/matches.json').then(function(r){ return r.json(); }),
-  fetch('data/stats.json').then(function(r){ return r.json(); })
+  fetch('data/matches.json' + _cv).then(function(r){ return r.json(); }),
+  fetch('data/stats.json'   + _cv).then(function(r){ return r.json(); })
 ]).then(function(results) {
   ALL_MATCHES = results[0];
   STATS       = results[1];
