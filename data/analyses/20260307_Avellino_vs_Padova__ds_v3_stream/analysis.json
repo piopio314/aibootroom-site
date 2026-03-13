@@ -1,0 +1,160 @@
+{
+  "key": "20260307_Avellino_vs_Padova__ds_v3_stream",
+  "match": {
+    "home_team": "Avellino",
+    "away_team": "Padova",
+    "league": "Serie B",
+    "date": "2026-03-07",
+    "home_id": 528,
+    "away_id": 870
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 45.0,
+    "score_draw": 28.0,
+    "score_away": 27.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Cascading Form Profiles show a 79% strong convergence on Under 2.5 Goals. Avellino's last five matches average 1.6 total goals, while Padova's away matches average 2.8 but with a 60% Over 2.5 rate that is not supported by their underlying scoring data (1.0 GF/m). The Tactician explicitly predicts a 'tight, cagey, tactical affair' with 'fewer goals than average'. Both teams' structural weaknesses are in attack, not defence. (2) DIRECTION EVIDENCE — The Quant identifies a 17.0 percentage point edge on Under 2.5 Goals (Poisson 65.0% vs market 48.0%). This is the largest gap across all markets. The λ_home + λ_away sum is low, anchored by Avellino's chronic scoring issues (0.40 GF/m last 5) and Padova's blunt away attack (0.93 GF/m). The 79% profile convergence is a primary, objective signal. (3) AGENTS CONSENSUS — Strong alignment. The Quant's value_bets list only Under 2.5 Goals. The Tactician's match character and goals impact directly support a low-scoring outcome. Both Scouts highlight low-scoring profiles and high draw tendencies. The Archivist notes a low-scoring H2H history (1.8 avg goals). The Auditor confirms tactical alignment with the Quant's low-scoring direction. The Sceptic's 'surprise scenario' for a higher-scoring match is the sole dissent, but it is not supported by the data convergence. (4) RISKS — The primary risk is Avellino's manager demanding 'more intensity', which could lead to a more open early phase and an early goal that breaks the pattern. Padova's late-game threat (8 goals in 76-90 mins) directly targets Avellino's vulnerability in that period (conceded 12). High fixture congestion for both sides could lead to defensive errors, though it more likely reduces attacking intensity.",
+    "key_factors": [
+      "79% strong convergence on Under 2.5 Goals from Cascading Form Profiles",
+      "Quant's 17.0pp edge on Under 2.5 Goals, the largest identified gap",
+      "Tactician's prediction of a 'tight, cagey, tactical affair' with fewer goals",
+      "Avellino's severe scoring problems (0.40 goals per match in last 5)"
+    ],
+    "risk_factors": [
+      "Manager Ballardini's public demand for 'more intensity' could increase match tempo",
+      "Padova's late-game scoring pattern directly targets Avellino's final-minute frailty"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Draw",
+        "prediction": "Draw",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 17.0,
+      "edge_source": "Quant probability minus market implied probability",
+      "edge_grade": "STRONG_VALUE (≥10%)",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 2.5 Goals",
+          "edge": 17.0
+        },
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 14.1
+        },
+        {
+          "market": "Over 2.25 Goals",
+          "edge": 13.0
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Quant, Tactician, both Scouts, Archivist, and Auditor all align on a low-scoring, defensively-oriented match character. The Sceptic is the sole dissenting voice with a qualitative 'surprise scenario' for more goals, but this is not supported by the quantitative data convergence.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.9,
+    "max_edge": 14.1
+  },
+  "display_texts": {
+    "home_position": "#11 (33 pts, -15 GD)",
+    "away_position": "#10 (34 pts, -6 GD)",
+    "home_form": "7W-9D-12L in 28 matches, last 5: LDWWW",
+    "away_form": "8W-10D-10L in 28 matches, last 5: LDLWW",
+    "home_stats": "30 goals in 28 matches (avg 1.1/match), 4 clean sheets",
+    "away_stats": "30 goals in 28 matches (avg 1.1/match), 6 clean sheets",
+    "h2h_history": "Avellino 1-0 Padova (07 Mar 2026)\nPadova 2-2 Avellino (30 Sep 2025)\nAvellino 0-1 Padova (03 May 2025)\nAvellino 0-1 Padova (09 Jun 2021)\nPadova 1-1 Avellino (06 Jun 2021)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Padova | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Padova",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Why This Serie B Stalemate Is A Betting Trap",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a manager's public demand for intensity collides with a team's deep-seated inability to score? Avellino versus Padova presents a classic Serie B paradox. On paper, everything points to a low-scoring stalemate. The data screams it. The history confirms it. Yet, the bookmakers have priced this match with a precision that leaves no room for value. Tonight, we dissect why the most obvious bet is the one we cannot take.",
+    "chapter_home": "Avellino are a team in clear distress, their season defined by a chronic lack of goals. Manager Ballardini's recent public demand for 'more intensity' came after a humiliating four-nil defeat to Venezia, a result that laid bare the squad's tactical and morale issues. Their calendar-year form is catastrophic—just eight points from twenty-five games—pointing to deep structural problems beyond the pitch. At home, a flicker of defensive solidity exists, with two clean sheets in their last three at the Stadio Partenio. But this is built on a foundation of sand. They have scored just three goals in those five home matches, averaging a paltry zero point four goals per match over their last five overall. Top scorer Tommaso Biasci carries the burden of an attack that has seen under two point five goals in twenty-five of their twenty-eight league matches this season. Their greatest weakness is a notorious final-minute frailty, having conceded twelve goals in the seventy-six to ninety minute period. Ballardini's call for heart and legs is a desperate plea, but the data suggests this is a side too low on confidence and quality to respond.",
+    "chapter_away": "Padova arrive with their own set of contradictions. They sit just one point and one place above Avellino, a mid-table side with minimal pressure but also minimal attacking threat on the road. Their away record is built on defensive resilience, keeping four clean sheets in fourteen matches, but it comes at a cost. They average less than one goal per away game—zero point nine three—a statistic that reveals a blunt attacking edge. Their season narrative is one of stability, but a critical data point hangs over this fixture: they lost one-nil to Avellino on this ground just four days ago. That recent history, combined with high fixture congestion—four matches in fourteen days—tests their mentality and physical readiness. Padova's pattern shows a clear late-game threat, scoring eight of their thirty goals in the final fifteen minutes, which directly targets Avellino's greatest vulnerability. However, their own vulnerability comes early, conceding twenty of thirty-five goals before half-time. They are draw-prone, with a forty percent draw rate in their last five matches, perfectly encapsulating a team that is organised enough not to lose, but lacking the cutting edge to consistently win.",
+    "chapter_history": "The head-to-head history paints a picture of tight, low-scoring contests that reinforce tonight's narrative. Across the last five meetings, there is no clear dominance: Padova have won two, Avellino one, with two draws—a forty percent draw rate. The average goals per meeting sit at just one point eight, with only one of those five encounters exceeding two point five goals. The most recent clash was that tense one-nil home win for Avellino in March, settled by a late Raffaele Russo goal. A two-two draw in September 2025 showed a rare burst of goals, with four coming in the first half, but that remains the outlier. The pattern is undeniable: this is a fixture historically defined by caution, where neither side has consistently held the upper hand and clear chances are a premium. This historical context sets the stage for another cagey affair, a battle for mid-table bragging rights with little else at stake.",
+    "chapter_analysis": "Synthesising the profiles reveals a powerful convergence. The cascading form profiles from both teams show a seventy-nine percent strong signal for under two point five goals. The Tactician predicts a 'tight, cagey, tactical affair' with fewer goals than average, noting the structural stalemate between Avellino's narrow diamond midfield and Padova's wide 4-4-2. The Quant's Poisson model identifies a seventeen percentage point edge on under two point five, with a sixty-five percent probability against a market-implied forty-eight percent. This is the largest value gap across all markets. However, this is where the Sceptic's challenge gains traction. They warn of a surprise scenario: Avellino's manager demanding 'more intensity' could increase the match tempo, and Padova's first-half defensive frailty might lead to an early goal that breaks the cagey pattern. Furthermore, a fundamental direction conflict emerges from the data. While the Quant and all qualitative agents point to under, the EdgeCalculator's model paradoxically identifies its strongest edge—fourteen point one percent—on over two point seventy-five goals. This statistical contradiction, alongside the Sceptic's qualitative warning, creates significant uncertainty. The Auditor grades the analysis 'approved with caveats', noting this conflict and capping the effective confidence at just fifty-eight percent. The market has moved, with money flowing across all outcomes, sharpening prices to a point where the clear theoretical edge on under two point five goals is not matched by a qualifying betting line that meets our minimum odds threshold.",
+    "chapter_value": "Our market: NO_BET. The Boot Room's analysis confirms a strong directional lean towards a low-scoring match. The seventeen-point edge on under two point five goals is real and supported by converging data. However, our betting framework requires more than just a directional read; it requires a qualifying line with sufficient odds. In this fixture, no such line exists. The market, perhaps alerted by the same low-scoring profiles, has priced the under with odds that do not meet our minimum value threshold of one point seventy. Furthermore, the statistical conflict between models and the tangible risk of a managerial reaction injecting unpredictability mean we cannot assign any confidence to a play. Sometimes, the clearest analysis leads to the simplest conclusion: there is no value bet here.",
+    "ending": "The verdict on Avellino versus Padova is a pass. We see the low-scoring stalemate, we recognise the historical patterns, and we acknowledge the quantitative edge. Yet, the combination of tight market pricing, internal model conflicts, and the unpredictable variable of managerial demands creates a betting trap. The Boot Room's discipline is to only act when value is clear and quantifiable. Tonight, it is not. If you found this deep dive valuable, subscribe to The Boot Room for more forensic match analysis. Boot Room out.",
+    "roundup_summary": "Avellino versus Padova. An eleventh versus tenth place Serie B clash with minimal stakes, separated by just one point. Avellino's form is dire, with one win, two draws, and two losses in their last five, scoring a mere zero point four goals per match in that span. Padova mirror that stability, with one win, three draws, and one loss, averaging one point four goals per game. Both sides are at full strength, but Avellino's manager has publicly demanded more intensity after a four-nil thrashing.\n\nThe head-to-head history points to tight contests. Across the last five meetings, the record shows two Padova wins, one Avellino win, and two draws—a forty percent draw rate. The average goals per meeting is just one point eight, with only one of those five games exceeding two point five goals. This season, Avellino have seen under two point five goals in twenty-five of twenty-eight matches, while Padova have conceded at a rate of one point two five goals per away game.\n\nThe Boot Room analysis identified a seventy-nine percent strong convergence from both teams' form profiles on under two point five goals. The Quant's Poisson model gave this a sixty-five percent probability, creating a seventeen percentage point edge against the market's forty-eight percent implied probability. However, the Sceptic challenged this, warning that the manager's demand for intensity and Padova's first-half defensive frailty could spark a more open match. Crucially, a direction conflict emerged: the EdgeCalculator's model paradoxically showed its strongest edge—fourteen point one percent—on over two point seventy-five goals, directly contradicting the primary low-scoring signal. The Auditor noted this conflict, capping effective confidence at fifty-eight percent. The bookmaker has mis-priced the probability of a low-scoring game, but not sufficiently to create a qualifying value bet at our required odds threshold, given the underlying uncertainty.\n\nThe Boot Room market is a pass. No line offers sufficient mathematical edge when filtered for minimum odds, compounded by conflicting model signals and the risk of a tactical reaction. The value direction is under, but no qualifying bet exists. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Manager's Plea",
+        "voiceover": "What happens when a manager's public cry for intensity meets a team's genetic inability to score? Avellino's boss demanded more heart after a four-nil humiliation. But the data shows a side that has scored just three goals in their last five home games. This is the core tension—a demand for change against a backdrop of chronic failure.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: a frustrated football manager shouting instructions. Right side: a stark statistic '0.40 goals per match' glowing red. The two images are divided by a crack or fissure.",
+        "graphic_text_overlay": "DEMAND VS REALITY"
+      },
+      {
+        "scene": 2,
+        "name": "The Away Contradiction",
+        "voiceover": "Padova arrive as the mirror image—organised but blunt. They keep clean sheets on the road yet average less than one goal per away game. They lost here just four days ago. Their strength is a late-game threat, scoring eight goals in the final fifteen minutes. That pattern directly targets Avellino's greatest weakness: conceding twelve in the same period.",
+        "graphic_type": "away_card",
+        "graphic_description": "A moody, blue-tinted shot of a team bus arriving at a stadium at night. Overlaid are two key stats: '0.93 AWAY GF/M' and '8 LATE GOALS'.",
+        "graphic_text_overlay": "ORGANISED & BLUNT"
+      },
+      {
+        "scene": 3,
+        "name": "The Historical Lock",
+        "voiceover": "History leaves no room for doubt. The last five meetings average just one point eight goals. There have been two draws, two Padova wins, one Avellino win. A forty percent draw rate. Only one of those games saw more than two point five goals. This fixture is a legacy of caution, a pattern both teams are built to repeat tonight.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "An old-fashioned parchment or ledger book showing the last five H2H results with dates and scores. The text 'Avg. Goals: 1.8' is stamped prominently in red.",
+        "graphic_text_overlay": "1.8 GOAL HISTORY"
+      },
+      {
+        "scene": 4,
+        "name": "The Data War",
+        "voiceover": "The analysis converges with seventy-nine percent strength on under two point five goals. Our model gives it a sixty-five percent chance—a seventeen-point edge. But a war breaks out in the data. Another model screams its strongest edge is on over two point seventy-five goals. This direct conflict, alongside the manager's wildcard demand, shatters certainty.",
+        "graphic_type": "conflict",
+        "graphic_description": "A visualisation of two opposing arrows or graphs colliding. One arrow is labelled 'UNDER 2.5 | 65%' and is blue. The opposing arrow is labelled 'OVER 2.75 | 14.1% EDGE' and is red. They smash into each other in the centre.",
+        "graphic_text_overlay": "MODEL COLLISION"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO_BET. The edge on under is real, but no qualifying line meets our odds threshold. The market is tight, the models are at war, and a manager's plea injects chaos. We see the stalemate, but we cannot bet on it. Discipline means knowing when to walk away. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, minimalist screen. The words 'NO BET' are displayed large and central in a bold, decisive font. Below, in smaller text: 'Edge Identified | No Qualifying Line'.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

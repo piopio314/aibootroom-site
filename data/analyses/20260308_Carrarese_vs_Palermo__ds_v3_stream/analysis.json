@@ -1,0 +1,164 @@
+{
+  "key": "20260308_Carrarese_vs_Palermo__ds_v3_stream",
+  "match": {
+    "home_team": "Carrarese",
+    "away_team": "Palermo",
+    "league": "Serie B",
+    "date": "2026-03-08",
+    "home_id": 1581,
+    "away_id": 522
+  },
+  "prediction": {
+    "direction": "home_value",
+    "direction_conviction": "moderate",
+    "selected_market": "AH Home 0.0",
+    "prediction": "AH Home 0.0",
+    "confidence": 61,
+    "confidence_gate": "APPROVE",
+    "odds_target": 2.53,
+    "score_home": 32.3,
+    "score_draw": 30.3,
+    "score_away": 37.4,
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC match. Palermo sits 4th with promotion pressure, while Carrarese are a stagnant mid-table side. However, the tactical and statistical evidence points to a tight, structured contest rather than a dominant away performance. Both teams deploy three-at-the-back systems, Carrarese possess a formidable home defensive record (0.93 GA/G, 8 clean sheets in 14), and Palermo's away win rate is a chronic 31%. The cascading profile convergence is moderate for Under 2.5 Goals (43%), supporting a low-scoring, controlled affair. (2) DIRECTION EVIDENCE — The direction is home_value, specifically on Asian Handicap lines. The Quant's Poisson model shows a 7.8pp edge on AH Home +0.5 (58.1% vs 50.3% market implied). This is empirically supported by Carrarese's 80% home cover rate at this line over a 5-match sample. The EdgeCalculator confirms a STRONG_VALUE edge of 21.9% on AH Home +0.5, with an EV of 0.376. The mathematical case is clear: the market is overpricing Palermo's away advantage relative to their actual inability to win on the road. (3) AGENTS CONSENSUS — The Quant, Auditor, and EdgeCalculator are strongly aligned on the AH home value. The Home Scout highlights Carrarese's defensive solidity and late-game threat. The Sceptic's surprise scenario of a low-scoring Carrarese win aligns with this direction. The primary dissent comes from the Tactician, whose 'tight, low-scoring' character prediction contradicts the Quant's Over 2.5 value bet but does not directly challenge the AH home edge. The Away Scout's mischaracterisation of Palermo's form as 'rising' was corrected by the Sceptic, further undermining the market's bullish stance on the away side. (4) RISKS — The sample size for Carrarese's AH cover rate is small (5 matches). Palermo's superior overall quality and promotion motivation could override their poor away record if they find an early breakthrough. The volatile stadium atmosphere flagged by OSINT could disrupt Carrarese's defensive organisation. Should Palermo's attacking midfielders successfully exploit the spaces between Carrarese's lines, the home side's defensive block could be breached.",
+    "key_factors": [
+      "Carrarese's 80% home cover rate at AH +0.5 provides strong empirical support for the mathematical edge.",
+      "Palermo's chronic away win rate (31%) contradicts their market price as a strong favourite.",
+      "Both teams' three-at-the-back formations and Carrarese's home defensive record (0.93 GA/G) suggest a tight, structured match.",
+      "The Sceptic validated the core home/under narrative and corrected the Away Scout's overly optimistic 'rising' form assessment."
+    ],
+    "risk_factors": [
+      "Small sample size (5 matches) for Carrarese's Asian Handicap cover rate.",
+      "Palermo's superior squad quality and promotion pressure could produce a rare decisive away performance."
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.25 Goals",
+        "prediction": "Under 2.25",
+        "confidence": 55
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 21.9,
+      "edge_source": "EdgeCalculator — our probability (80.0%) minus market implied probability (derived from odds 1.72)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Home 0.25",
+          "edge": 29.7
+        },
+        {
+          "market": "AH Home 0.5",
+          "edge": 21.9
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 9.1
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Quant, Auditor, and EdgeCalculator are strongly aligned on Asian Handicap home value. The Home Scout and Sceptic provide supporting qualitative evidence. The Tactician dissents on the goals market but is neutral on the team result direction. The Away Scout's assessment was challenged and corrected, reducing confidence in the away win narrative.",
+    "_direction": "home_value",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 1.53,
+    "_direction_prob": 100.0,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.5,
+    "max_edge": 29.7
+  },
+  "display_texts": {
+    "home_position": "#12 (32 pts, -5 GD)",
+    "away_position": "#4 (54 pts, +26 GD)",
+    "home_form": "7W-11D-10L in 28 matches, last 5: WDDLD",
+    "away_form": "15W-9D-4L in 28 matches, last 5: WDWWD",
+    "home_stats": "35 goals in 28 matches (avg 1.3/match), 9 clean sheets",
+    "away_stats": "48 goals in 28 matches (avg 1.7/match), 13 clean sheets",
+    "h2h_history": "Carrarese 0-0 Palermo (08 Mar 2026)\nPalermo 5-0 Carrarese (29 Nov 2025)\nPalermo 1-1 Carrarese (13 May 2025)\nCarrarese 1-0 Palermo (07 Dec 2024)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Palermo | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Palermo",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "LOSE",
+    "label": "LOSE",
+    "color": "#ef4444",
+    "pnl": -1.0,
+    "score": "0:1",
+    "market": "AH Home 0.0"
+  },
+  "script": {
+    "title": "Palermo's Promotion Pressure Meets Carrarese's Home Fortress",
+    "thumbnail_text": "AWAY SICKNESS EXPOSED",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a promotion-chasing side with chronic travel sickness meets a defensively stubborn but winless home team? This is the tactical stalemate where history offers no clear guide — but the numbers reveal a market mispricing that demands attention.",
+    "chapter_home": "Carrarese arrive at the Stadio dei Marmi with their home defensive record as their primary asset. Positioned twelfth in Serie B, they are the definition of a stagnant mid-table side — winless in their last five matches, taking just two points from the last fifteen available. Their form is declining, and they have failed to score in half of their home games this season. Yet their defensive numbers tell a different story. They have conceded only 0.93 goals per match at home, keeping eight clean sheets in fourteen fixtures. They operate in a 3-5-2 shape and possess a dangerous late-game threat, with nearly half of their thirty-five goals this season coming after the sixtieth minute. The atmosphere is charged following a recent referee controversy, with the manager appealing for a full stadium to create a twelfth-man advantage. Their narrative is one of defensive resilience clashing with a severe lack of recent victories.",
+    "chapter_away": "Palermo travel north sitting fourth in a ferocious promotion battle, carrying the weight of significant financial investment and expectation. Their overall quality is undeniable — a plus twenty-six goal difference and a fifty-four percent win rate this season. However, their away form reveals a critical flaw. They suffer from chronic travel sickness, winning just thirty-one percent of their away matches. In their last five on the road, they have managed only one victory alongside three draws. They deploy a 3-4-2-1 formation, posing a threat through dual attacking midfielders and scoring over half of their goals in the second half. Yet they are draw-prone away from home and vulnerable just before half-time. The pressure of the 'magnifiche quattro' race is immense, turning this fixture into what local media describes as an 'exam' with derby-level intensity.",
+    "chapter_history": "The head-to-head record between these sides is a perfect coin toss. In the last four meaningful meetings, each team has one win, and there have been two draws. The most dramatic moment was Palermo's 5-0 demolition in November 2025, featuring a Joel Pohjanpalo hat-trick. Yet, crucially, Carrarese have never lost at home to Palermo in the available data, winning one and drawing one of their last two home meetings. The pattern is low-scoring with occasional explosions — three of the four matches saw two goals or fewer. History provides no dominant narrative, only sporadic moments of decisive action that offer little guidance for tonight's tactical clash.",
+    "chapter_analysis": "The synthesis of data points to a tight, structured contest rather than a dominant away performance. Both teams deploy three-at-the-back systems, suggesting a tactical chess match. Carrarese's formidable home defensive record collides with Palermo's chronic inability to secure away victories. The Sceptic challenged the Away Scout's characterisation of Palermo's form as 'rising', correctly identifying it as stable or mixed given their high draw rate. This correction undermines the market's bullish stance on the away side. The Tactician's matchup analysis highlights a neutral edge, with Carrarese's wing-backs potentially exploiting wide channels and Palermo's attacking midfielders seeking space between defensive lines. The key battle will be in the final thirty minutes, where Carrarese scores forty-nine percent of their goals and Palermo concedes forty percent of theirs. The cascading profile shows moderate convergence for a low-scoring affair, supporting the core narrative of a stalemate.",
+    "chapter_value": "Our market: AH Home 0.0. The mathematical case is clear. The Quant's Poisson model shows a 7.8 percentage point edge on the Asian Handicap home line, empirically supported by Carrarese's eighty percent home cover rate at the +0.5 line over a five-match sample. The EdgeCalculator confirms a strong value edge of twenty-one point nine percent on that line. The market has overpriced Palermo's away advantage relative to their actual performance. We are taking the draw-no-bet line at odds of 2.53, reflecting our view that Carrarese's defensive solidity and Palermo's travel sickness create value on the home side avoiding defeat.",
+    "ending": "The Boot Room verdict is in. In a fixture where history offers no guide, the numbers point decisively toward value on the home side. Palermo's promotion pressure is real, but their away form is a chronic weakness that the market continues to overprice. Carrarese's home fortress and late-game threat provide the platform to avoid defeat. Our market: AH Home 0.0 at 2.53, with sixty-one percent confidence. Let us know in the comments if you agree with our read, and subscribe for more data-driven football analysis. Boot Room out.",
+    "roundup_summary": "Carrarese versus Palermo. Twelfth meets fourth in a Serie B clash defined by contrasting ambitions and convergent weaknesses. Carrarese are winless in five, with a declining form trend, but boast a strong home defensive record of 0.93 goals conceded per game. Palermo sit in the promotion places but carry a chronic away win rate of just thirty-one percent, drawing six of their thirteen away matches. Their recent away form reads one win, three draws, and one loss.\n\nThe head-to-head history is perfectly balanced. The last four meetings show one win each and two draws, with an average of 2.5 goals per game. The most recent clash was a 5-0 Palermo rout in November 2025, yet Carrarese are unbeaten in their last two home games against this opponent. This season, Carrarese score 1.27 goals per game and concede 1.33, while Palermo score 1.60 and concede 1.07.\n\nThe Boot Room analysis identifies a market mispricing on Asian Handicap lines favouring Carrarese. The Quant's Poisson model shows a 7.8pp edge on AH Home +0.5, with a 58.1% probability versus a 50.3% market-implied probability. This is supported by Carrarese's empirical 80% home cover rate at that line. The Sceptic's primary concern was the Away Scout's mischaracterisation of Palermo's away form as 'rising', which was corrected to 'stable/mixed', undermining the market's bullish narrative. The bookmaker has overpriced Palermo's away advantage, failing to adequately factor in their poor win rate on the road against a defensively organised home side. The Auditor's effective confidence sits at fifty-five percent, acknowledging the value while flagging sample size concerns.\n\nThe verdict is a play on Carrarese's ability to avoid defeat. The market requires them to win or draw for the bet to succeed, leveraging their home defensive record against Palermo's travel sickness. Boot Room market: AH Home 0.0. Confidence: 61%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Promotion Paradox",
+        "voiceover": "Palermo sit fourth, chasing promotion with a plus twenty-six goal difference. Yet they possess a fatal flaw — a chronic thirty-one percent away win rate. They travel to face a Carrarese side winless in five, but who have built a fortress at home, conceding under a goal per game. This is the clash of narrative versus numbers.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: Palermo's crest with '4th' and '+26 GD' text. Right side: Carrarese's crest with '0.93 GA/H' and '8 Clean Sheets'. A large arrow points from Palermo to Carrarese, labelled '31% Away Win Rate'.",
+        "graphic_text_overlay": "THE TRAVEL SICKNESS"
+      },
+      {
+        "scene": 2,
+        "name": "Carrarese's Defensive Wall",
+        "voiceover": "The home side's story is one of contradiction. They are stagnant in twelfth place, without a victory in their last five matches. But at the Stadio dei Marmi, they transform. Eight clean sheets in fourteen home games. A 3-5-2 formation designed for defensive stability. And a dangerous habit — forty-nine percent of their goals come after the hour mark.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dynamic graphic focused on Carrarese. A shield icon is central, with '8/14 Clean Sheets' emblazoned on it. A clock graphic shows the minute hand at 60, with '17 of 35 Goals' radiating from it. The team's 3-5-2 formation is shown schematically.",
+        "graphic_text_overlay": "THE HOME FORTRESS"
+      },
+      {
+        "scene": 3,
+        "name": "Palermo's Away Reality",
+        "voiceover": "The market sees a promotion contender. Our scouts see a different reality. One win in their last five away matches. Six draws in thirteen on the road. They are difficult to beat but lack the decisive edge to win. The Sceptic exposed the flaw — their form is not 'rising', it is stagnant away from home. The market has overpriced their advantage.",
+        "graphic_type": "away_card",
+        "graphic_description": "A graphic deconstructing Palermo's away form. A map with a winding road leads to a stadium, but the path is marked with 'D' for Draw. Key stats: 'Away Win Rate: 31%', 'Last 5 Away: 1W-3D-1L'. A red 'X' crosses out the word 'RISING'.",
+        "graphic_text_overlay": "STAGNANT ON THE ROAD"
+      },
+      {
+        "scene": 4,
+        "name": "The Mathematical Edge",
+        "voiceover": "The numbers reveal the value. Our Quant model shows a 7.8 percentage point edge on Asian Handicap lines favouring Carrarese. Empirically, they cover the +0.5 line in eighty percent of their home matches. The EdgeCalculator confirms a strong twenty-two percent value edge. The bookmaker's price on Palermo does not reflect their true away capability.",
+        "graphic_type": "evidence",
+        "graphic_description": "A clean, data-focused graphic. A bar chart shows 'Our Probability: 58.1%' versus 'Market Implied: 50.3%', with a green arrow highlighting the 7.8pp gap. Below, text reads 'AH Home +0.5 Cover Rate: 80%' with a checkmark icon.",
+        "graphic_text_overlay": "7.8PP EDGE"
+      },
+      {
+        "scene": 5,
+        "name": "The Boot Room Verdict",
+        "voiceover": "Our market: AH Home 0.0. At odds of 2.53, this represents a sixty-one percent confidence play. We are backing Carrarese's home defensive resilience to hold against a Palermo side that struggles to win on the road. The promotion pressure is on the visitors, but the value sits with the hosts avoiding defeat. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A final, bold verdict screen. The text 'OUR MARKET: AH HOME 0.0' is central and large. To the side, 'ODDS: 2.53' and 'CONFIDENCE: 61%' are displayed prominently. The Carrarese crest is subtly featured in the background.",
+        "graphic_text_overlay": "VERDICT: AH HOME 0.0"
+      }
+    ]
+  }
+}

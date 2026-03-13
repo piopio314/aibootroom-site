@@ -1,0 +1,166 @@
+{
+  "key": "20260307_Huesca_vs_Albacete__ds_v3_stream",
+  "match": {
+    "home_team": "Huesca",
+    "away_team": "Albacete",
+    "league": "Segunda División",
+    "date": "2026-03-07",
+    "home_id": 726,
+    "away_id": 722
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 38.2,
+    "score_draw": 34.1,
+    "score_away": 27.7,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The cascading form profiles show an 86% convergence on Under 2.5 Goals, the strongest signal in the entire dataset. Both teams exhibit DECREASING scoring trends (Huesca 0.80 GF/m, Albacete 0.60 GF/m in last 5) and improving defensive metrics. The Tactician's match character prediction is 'Tight', explicitly stating the setup 'strongly suggests fewer goals than average'. This is not a match of attacking ambition but of structural caution and scoring anxiety. (2) DIRECTION EVIDENCE — The mathematical case for under_goals is overwhelming. The Quant's Poisson model assigns a 65.0% probability to Under 2.5 Goals versus a market-implied 48.3%, creating a 16.7 percentage point value gap. The Edge Calculator identifies even stronger edges on lower goal lines (Under 1.75 Goals at 46.0% edge). The λ sum (implied goal expectancy) is low, and both teams' clean sheet rates (Huesca 40%, Albacete 20% last 5) and failure-to-score rates support a scarcity of goals. (3) AGENTS CONSENSUS — The consensus for a low-scoring match is exceptionally strong. The Scouts both highlight 'severe lack of goals' and chronic scoring issues. The Tactician's analysis points to a tactical stalemate with few chances. The Sceptic elevates the 'overwhelming data convergence on low-scoring' as the dominant narrative. The Quant's sole value bet is Under 2.5 Goals. The Auditor confirms the edge is credible and aligned with qualitative analysis. Only the Archivist's H2H data shows a moderately high-scoring historical pattern, but this is contradicted by the recent run of three consecutive 0-0 draws and the current, severe attacking form of both sides. (4) RISKS — The primary risk is Huesca's desperate relegation pressure manifesting in a late, chaotic goal flurry, which aligns with their noted late-game attacking focus. A single early goal could also break the tactical deadlock and open the match slightly, though neither side is built for sustained attacking output. The historical head-to-head shows some higher-scoring encounters, but the current form profiles are so powerfully aligned for low scores that this historical risk is significantly mitigated.",
+    "key_factors": [
+      "86% cascading profile convergence on Under 2.5 Goals",
+      "Quant's 16.7pp value gap on Under 2.5 Goals with 65.0% Poisson probability",
+      "Both teams show DECREASING scoring trends in recent form",
+      "Tactician's 'Tight' match character prediction and structural analysis favouring defence",
+      "Albacete's away defensive resilience (6 clean sheets in 14 matches)"
+    ],
+    "risk_factors": [
+      "Huesca's late-game scoring threat could produce a late goal in a otherwise tight match",
+      "Historical H2H shows some higher-scoring patterns, though recent meetings have been 0-0"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 1.75 Goals",
+        "prediction": "Under 1.75",
+        "confidence": 59
+      }
+    ],
+    "value_bets": [
+      {
+        "market": "Under 2.5 Goals",
+        "edge": 16.7
+      }
+    ],
+    "edge_assessment": {
+      "selected_market_edge": 16.7,
+      "edge_source": "Quant probability (65.0%) minus market implied probability (48.3%)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 1.75 Goals",
+          "edge": 46.0
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 38.5
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "edge": 16.7
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "Strong consensus on a low-scoring direction. The Scouts, Tactician, Sceptic, Quant, and Auditor all provide evidence supporting under_goals. The only dissenting note comes from the Archivist's historical goals pattern, which is outweighed by the overwhelming current form convergence.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 46.0
+  },
+  "display_texts": {
+    "home_position": "#19 (31 pts, -11 GD)",
+    "away_position": "#13 (36 pts, -6 GD)",
+    "home_form": "8W-6D-14L in 28 matches, last 5: DWWLW",
+    "away_form": "9W-8D-11L in 28 matches, last 5: DLLLD",
+    "home_stats": "26 goals in 28 matches (avg 0.9/match), 7 clean sheets",
+    "away_stats": "33 goals in 28 matches (avg 1.2/match), 11 clean sheets",
+    "h2h_history": "Huesca 0-0 Albacete (07 Mar 2026)\nAlbacete 2-1 Huesca (01 Nov 2025)\nAlbacete 3-2 Huesca (11 May 2025)\nHuesca 2-2 Albacete (13 Oct 2024)\nAlbacete 1-1 Huesca (30 Mar 2024)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Albacete | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Albacete",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "0:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Huesca vs Albacete: The Stalemate That Broke The Model",
+    "thumbnail_text": "NO VALUE",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when two teams with a chronic inability to score meet in a fixture historically defined by stalemate? The data points to one overwhelming conclusion — a low-scoring, tense affair. But sometimes, the most obvious narrative creates the most difficult betting puzzle.",
+    "chapter_home": "Huesca are in a desperate relegation fight, sitting nineteenth in the Segunda División. Their home form at El Alcoraz is their lifeline, but it is a fragile one. They have failed to score more than two goals in any match this entire season, a statistic that defines their campaign. Their tactical setup is a 4-2-3-1, designed to control possession, but their scoring trend is sharply decreasing — just 0.80 goals per match in their last five outings. The squad reports no key injuries, which is a rare positive for a team in their position. Their primary strength is a late-game attacking focus, with eleven of their twenty-six total goals arriving in the final fifteen minutes. Yet, this desperation clashes with a severe lack of cutting edge. Their morale is low, their pressure is immense, and every match becomes a tense, low-scoring battle for survival.",
+    "chapter_away": "Albacete arrive with mid-table security and a clear, stubborn identity. Positioned thirteenth, they are eight points clear of the relegation scrap, playing with significantly less urgency. Their tactical approach is a structured 4-4-2, prioritising defensive solidity above all else. On their travels, this has translated into six clean sheets from fourteen away matches. Like their hosts, their attacking form is in decline, averaging just 0.60 goals per match recently. They are chronically goal-shy away from home and possess a high draw tendency, having shared the points in five of their fourteen away fixtures. Their key threat comes in a specific period — they score ten of their thirty-three goals between the forty-sixth and sixtieth minute. With no reported injuries and a neutral morale, Albacete are the epitome of a disciplined, low-event away side.",
+    "chapter_history": "The head-to-head record tells a story of persistent deadlock. Albacete are unbeaten in the last ten meetings against Huesca, but the defining feature is a remarkable sixty percent draw rate. Six of those ten encounters ended level. Most tellingly, the three most recent meetings have all finished 0-0. While historical data shows a moderately high-scoring pattern overall, the contemporary trend is one of mutual cancellation. This fixture is defined by stalemate, a pattern that has only intensified in recent seasons. Huesca's psychological barrier — zero wins in a decade against this opponent — adds another layer of tension to an already fraught encounter.",
+    "chapter_analysis": "The tactical matchup reinforces the low-scoring expectation. Huesca's 4-2-3-1 seeks a central numerical advantage, but it runs directly into Albacete's compact 4-4-2 defensive block. The Tactician's analysis predicts a 'Tight' match character, stating the setup 'strongly suggests fewer goals than average'. The data convergence is overwhelming — an eighty-six percent alignment from both teams' recent form profiles points squarely to Under 2.5 Goals. The Sceptic challenged the Home Scout's overstatement of Huesca's home form, correctly noting their declining scoring momentum. This challenge was validated — the market has not priced in such an optimistic home win probability. The key battle will be whether Huesca's late-game urgency can break through before Albacete's second-half scoring surge exploits a known defensive vulnerability. Both systems are designed for defensive stability, not attacking flamboyance.",
+    "chapter_value": "Our market: NO_BET. The mathematical case for a low-scoring match is compelling. The Quant's Poisson model assigns a sixty-five percent probability to Under 2.5 Goals, creating a sixteen point seven percentage point value gap versus the market. The Edge Calculator identified even stronger edges on lower lines like Under 1.75 Goals. However, The Gaffer's strict filters require a qualifying line at odds of 1.70 or greater with strong conviction. In this fixture, no single market line meets both the mathematical edge and the required odds threshold to trigger a bet. The value exists directionally, but not in a bettable format. The Auditor's effective confidence sits at sixty-two percent, yet the final verdict is to pass.",
+    "ending": "Sometimes, the clearest analytical story does not translate into a bet. Huesca versus Albacete presents a textbook case for a low-scoring draw, supported by cascading form data, tactical analysis, and historical precedent. The bookmakers have underpriced the likelihood of fewer than two point five goals, but not by enough within our strict parameters to warrant a play. The Boot Room verdict is to observe, not invest. If you found this deep dive into the data valuable, hit subscribe and turn on notifications for every matchday analysis. Boot Room out.",
+    "roundup_summary": "Huesca versus Albacete. Nineteenth hosts thirteenth in a Segunda División fixture defined by contrasting pressures. Huesca's last five matches show one win, one draw, and three defeats, with a decreasing scoring trend of 0.80 goals per match. Albacete are winless in five, drawing three, with an even lower scoring rate of 0.60 goals per match. The home side fights relegation with a full squad; the visitors enjoy mid-table security.\n\nThe head-to-head history is dominated by stalemate. Albacete are unbeaten in the last ten meetings, with six draws — a sixty percent rate. The three most recent encounters all ended 0-0. This season, Huesca average 1.00 goals scored and 1.21 conceded per home game. Albacete average 1.21 scored and 1.36 conceded away. The historical pattern suggests a low-scoring affair, reinforced by the recent run of goalless draws.\n\nThe Boot Room analysis identifies an overwhelming statistical convergence for a low-scoring match. The Poisson model assigns a sixty-five percent probability to Under 2.5 Goals, versus a market-implied forty-eight point three percent — a sixteen point seven percentage point value gap. The Sceptic's concern that the Home Scout overestimated Huesca's home form adjustment is validated by the market's more conservative pricing. The bookmaker has mis-priced the likelihood of a tight game, with the Edge Calculator showing a forty-six percent edge on Under 1.75 Goals. The tactical matchup between Huesca's 4-2-3-1 and Albacete's 4-4-2 strongly favours defensive structure over attacking ambition. The Auditor's effective confidence is sixty-two percent, yet the qualifying odds threshold is not met.\n\nThe Boot Room identifies clear value in the under-goals direction but publishes no qualifying bet. The market recommendation is to pass on this fixture. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Stalemate Paradox",
+        "voiceover": "Three consecutive 0-0 draws. A sixty percent historical draw rate. Two teams whose scoring form is not just bad — it is getting worse. This is the paradox of Huesca versus Albacete. The data screams for a low-scoring match, yet the betting model remains silent. Why?",
+        "graphic_type": "conflict",
+        "graphic_description": "A stark visual split: left side shows '0-0' repeated three times with dates; right side shows two downward-trending arrows labelled 'Huesca Goals' and 'Albacete Goals'.",
+        "graphic_text_overlay": "THREE 0-0 DRAWS"
+      },
+      {
+        "scene": 2,
+        "name": "Huesca's Desperate Drought",
+        "voiceover": "Huesca are in the relegation zone, and their attack has abandoned them. They have not exceeded two point five total goals in a single match all season. Their form is declining, averaging just 0.80 goals per match recently. Their only hope is a late surge — eleven of their goals come in the final fifteen minutes. But hope is not a strategy.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dimly lit, tense shot of El Alcoraz stadium, with a large '19th' position marker and a statistic: '0 matches >2.5 goals all season'.",
+        "graphic_text_overlay": "CHRONIC GOAL DROUGHT"
+      },
+      {
+        "scene": 3,
+        "name": "Albacete's Traveling Wall",
+        "voiceover": "Albacete arrive with mid-table comfort and a simple plan: defend. They have kept six clean sheets in fourteen away matches. Their attack is equally anaemic, scoring just 0.60 goals per match recently. They are draw specialists on the road — five from fourteen. They are not here to win a spectacle; they are here to not lose.",
+        "graphic_type": "away_card",
+        "graphic_description": "A disciplined 4-4-2 formation graphic superimposed over a bus, symbolising their away resilience. Key stat: '6/14 away clean sheets'.",
+        "graphic_text_overlay": "DISCIPLINED 4-4-2"
+      },
+      {
+        "scene": 4,
+        "name": "The Data Convergence",
+        "voiceover": "The numbers align with terrifying clarity. An eighty-six percent convergence from both teams' form profiles points to Under 2.5 Goals. The Poisson model gives it a sixty-five percent probability — a sixteen point seven percentage point edge over the market. The Tactician calls it 'Tight'. Every agent sees the same low-scoring narrative. It is the strongest signal in the dataset.",
+        "graphic_type": "evidence",
+        "graphic_description": "A full-screen infographic showing '86% CONVERGENCE' in large text, with arrows from Huesca and Albacete logos meeting at 'UNDER 2.5 GOALS'. Smaller text shows 'Poisson Prob: 65.0%'.",
+        "graphic_text_overlay": "86% CONVERGENCE"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict of Restraint",
+        "voiceover": "Our market: NO_BET. The direction is clear, but the bettable line is not. The value exists — a sixteen point seven point edge on Under 2.5 Goals — yet it fails to meet the strict odds threshold required for a Boot Room selection. Sometimes the smartest play is to recognise value you cannot touch. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final graphic with the Boot Room logo. Text reads: 'VERDICT: NO BET | Direction: Under Goals | Edge: 16.7pp | Confidence: 0%'.",
+        "graphic_text_overlay": "NO VALUE"
+      }
+    ]
+  }
+}

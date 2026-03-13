@@ -1,0 +1,180 @@
+{
+  "key": "20260313_Modena_vs_Spezia__ds_v3_stream",
+  "match": {
+    "home_team": "Modena",
+    "away_team": "Spezia",
+    "league": "Serie B",
+    "date": "2026-03-13",
+    "home_id": 899,
+    "away_id": 515
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "Under 2.25 Goals",
+    "prediction": "Under 2.25 Goals",
+    "confidence": 67,
+    "confidence_gate": "APPROVE",
+    "odds_target": 2.1,
+    "score_home": 35.0,
+    "score_draw": 40.0,
+    "score_away": 25.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician's analysis is definitive: identical 3-5-2 formations create structural symmetry and midfield congestion, leading to a 'tight, tactical battle with limited open play chances'. This is corroborated by the Archivist's H2H data showing zero matches exceeding 2.5 goals in the last seven meetings, and both Scouts highlighting poor recent attacking form (Modena 0.80 GF/m last five home games, Spezia 1.07 GF/m away). The cascading profiles show a weak 36% convergence on Under 2.5, but this is outweighed by the overwhelming tactical and historical evidence. (2) DIRECTION EVIDENCE — The EdgeCalculator provides a decisive +26.9% edge on Under 2.25 Goals, the highest mathematical edge across all markets. The Auditor's adjusted probabilities heavily favour unders (Under 2.5 at 75%). The Tactician's 'goals_impact' explicitly states 'fewer goals than average'. The Quant's Poisson analysis, while incomplete on goals markets, shows perfect market efficiency on Asian Handicap lines, indicating no clear directional advantage for either side, which supports a low-scoring stalemate rather than a decisive result. (3) AGENTS CONSENSUS — Strong alignment exists for a low-scoring outcome. The Tactician, Archivist, and Auditor all provide robust evidence. The Sceptic's core verdict is a 'low-scoring, tense match' and they recommend PROCEED. The Home Scout notes Modena's defensive solidity (0.87 GA/m at home) and scoring struggles. The Away Scout highlights Spezia's blunt away attack. The only dissent is the cascading profile's 64% convergence on Over 2.5, which the Auditor correctly flags as contradictory to the tactical and historical evidence and downgrades significantly. (4) RISKS — The primary risk is the cascading profile's strong convergence on BTTS Yes (75%) and Over 2.5 Goals (64%), suggesting recent form could override historical patterns. Spezia's morale boost from a 4-2 comeback win could lead to a more adventurous approach. The 31-45' period is a tactical vulnerability where Modena scores strongly against Spezia's weakest defensive phase, potentially producing an early goal that opens the game. Missing starting XI and injury data adds moderate uncertainty.",
+    "key_factors": [
+      "Identical 3-5-2 formations creating midfield congestion and tactical stalemate",
+      "Historical H2H record: 0/7 meetings have produced over 2.5 total goals",
+      "Modena's strong home defensive record (0.87 GA/m, 7 clean sheets in 15)",
+      "Spezia's chronic away attacking bluntness (1.07 GF/m, failed to score in 5 of 14)",
+      "EdgeCalculator identifies a +26.9% mathematical edge on Under 2.25 Goals"
+    ],
+    "risk_factors": [
+      "Cascading form profiles show 75% convergence on BTTS Yes, suggesting both teams can score",
+      "Spezia's recent 4-2 comeback win could boost attacking confidence against the historical trend",
+      "Missing confirmed starting XI and specific injury data introduces moderate uncertainty"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 1.75 Goals",
+        "prediction": "Under 1.75",
+        "confidence": 61
+      },
+      {
+        "market": "Draw",
+        "prediction": "Draw",
+        "confidence": 53
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 26.9,
+      "edge_source": "EdgeCalculator probability (74.5%) minus market implied probability (47.6%)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 26.9
+        },
+        {
+          "market": "Under 1.75 Goals",
+          "edge": 26.4
+        },
+        {
+          "market": "Under 2.75 Goals",
+          "edge": 23.0
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Tactician, Archivist, Auditor, and both Scouts align on a low-scoring, defensively-oriented match character. The Sceptic concurs with the core 'low-scoring, tense' direction and does not veto. The Quant's analysis shows no value on Asian Handicap lines, indirectly supporting a stalemate. The only significant dissent is the cascading profile's Over 2.5 convergence, which is contradicted by stronger historical and tactical evidence.",
+    "_direction": "under_goals",
+    "_direction_conviction": "strong",
+    "_direction_ev": 0.5645,
+    "_direction_prob": 74.5,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.86,
+    "max_edge": 26.9
+  },
+  "display_texts": {
+    "home_position": "#6 (44 pts, +13 GD)",
+    "away_position": "#17 (29 pts, -10 GD)",
+    "home_form": "12W-8D-9L in 29 matches, last 5: WDWWW",
+    "away_form": "7W-8D-14L in 29 matches, last 5: LDDLL",
+    "home_stats": "37 goals in 29 matches (avg 1.3/match), 13 clean sheets",
+    "away_stats": "29 goals in 29 matches (avg 1.0/match), 6 clean sheets",
+    "h2h_history": "Modena 0-0 Spezia (13 Mar 2026)\nSpezia 0-2 Modena (13 Dec 2025)\nModena 1-1 Spezia (15 Feb 2025)\nSpezia 1-0 Modena (02 Nov 2024)\nModena 0-0 Spezia (25 Feb 2024)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Modena | Probabilities: 45%-45%-10% | Recommendation: Double chance : Modena or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "PENDING",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "–",
+    "market": "Under 2.25 Goals"
+  },
+  "script": {
+    "title": "Modena vs Spezia: The Serie B Tactical Stalemate",
+    "thumbnail_text": "7 GAMES, 0 GOALFESTS",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when two teams deploy identical formations, share identical weaknesses, and meet in a fixture that has never produced more than two goals? This is not a match — it is a tactical echo chamber. Modena versus Spezia presents a statistical anomaly so consistent, it defies recent form. Seven consecutive meetings without a single game exceeding two total goals. Tonight, that pattern collides with playoff ambition and relegation desperation.",
+    "chapter_home": "Modena sit sixth in Serie B, clinging to a playoff position that feels increasingly fragile. Their foundation is defensive solidity at home — conceding just 0.87 goals per match and keeping seven clean sheets in fifteen games at the Stadio Alberto Braglia. Yet cracks are appearing. They have won just once in their last five home fixtures, failing to score in three of those games. Their attack has stalled, managing only 0.80 goals per match in that recent stretch. The pressure is tangible — a top-six finish is within reach, but their methodical 3-5-2 system is struggling to convert defensive stability into victories. They are a team built on clean sheets, now searching for a cutting edge they have misplaced.",
+    "chapter_away": "Spezia travel north sitting 17th, deep in a relegation battle that demands every point. Their narrative is split — a morale-boosting 4-2 comeback win against Monza contrasts sharply with their entrenched away sickness. On the road, they are chronically blunt, averaging just 1.07 goals per match and failing to score in five of fourteen away games. Their win rate away from home is a dismal 21 percent. They too deploy a 3-5-2, showing recent resilience with a three-match unbeaten run on their travels, but that run features only one win. Their survival hinges on a cautious, draw-seeking mentality, yet their defensive vulnerability in the first half — conceding 21 of 39 total goals before halftime — presents a critical weakness.",
+    "chapter_history": "The history between these sides is written in narrow margins and stalemates. The last seven meetings have produced a remarkable pattern — not a single match has exceeded 2.5 total goals. That is seven consecutive fixtures defined by defensive organisation and scarcity of chances. The head-to-head draw rate stands at 43 percent, a testament to how evenly matched these teams have been. The most recent clash saw Spezia reduced to ten men, with Modena scoring twice late to secure a 2-0 win — an exception that still adhered to the low-scoring rule. This fixture is a cage, and goals are the rare escape.",
+    "chapter_analysis": "The tactical matchup is a mirror image — Modena's 3-5-2 facing Spezia's identical 3-5-2. This structural symmetry creates midfield congestion, eliminating numerical advantages and promising a battle of individual quality in a congested centre. The Tactician's analysis is clear: a tight, tactical battle with limited open-play chances. Our Sceptic challenged the Away Scout's assessment of Spezia's 'high' morale, arguing that one anomalous home win cannot override their persistent away bluntness. The Sceptic's verdict was to proceed — the core direction of a low-scoring match remains solid. Key factors converge: Modena's strong home defence meets Spezia's blunt away attack. The 31-45 minute period is a danger zone — Modena's strongest scoring phase against Spezia's most vulnerable defensive window. Yet even this vulnerability is constrained by the overarching tactical stalemate.",
+    "chapter_value": "Our market: Under 2.25 Goals. The EdgeCalculator identifies a decisive 26.9 percent mathematical edge on this line — the highest across all analysed markets. The Auditor validates this, adjusting the Under 2.5 probability to 75 percent based on overwhelming historical and tactical evidence. While recent form profiles suggest a potential for goals, they are contradicted by seven years of head-to-head data and the structural symmetry of tonight's clash. The bookmakers have priced this as a typical Serie B encounter, but the numbers reveal a fixture trapped in its own history. At odds of 2.1, the value is clear.",
+    "ending": "The Boot Room verdict is Under 2.25 Goals with 67 percent confidence. We are backing history, tactics, and a mathematical edge to override the noise of recent form. In a clash of identical systems and desperate motivations, the safest prediction is scarcity. The pattern of seven consecutive low-scoring meetings is too powerful to ignore. For more data-driven breakdowns, subscribe to the AI Boot Room and hit the notification bell. Let us know in the comments if you think this stalemate will finally break. Boot Room out.",
+    "roundup_summary": "Modena versus Spezia in Serie B presents a clash between sixth-placed playoff hopefuls and 17th-placed relegation battlers. Modena's form shows one win in their last five home games, scoring just 0.80 goals per match in that stretch while maintaining defensive solidity. Spezia are unbeaten in their last three away matches but have won only three of fourteen on the road all season, averaging 1.07 goals per away game. Both sides report full squads, though specific starting XIs remain unconfirmed.\n\nThe head-to-head history defines this fixture. The last seven meetings between these clubs have produced zero matches with over 2.5 total goals — a perfect streak of low-scoring encounters. The historical draw rate stands at 43 percent. This season, Modena concede 0.87 goals per home match, while Spezia score just 1.07 per away game and have failed to score in five of fourteen road trips. The trend is unequivocally towards unders.\n\nThe Boot Room analysis identifies a 26.9 percent mathematical edge on Under 2.25 Goals, with the EdgeCalculator giving this market a STRONG_VALUE grade. Our probability assessment of 74.5 percent significantly outpaces the market-implied 47.6 percent. The Sceptic's concern centred on the Away Scout overstating Spezia's morale from a single home win, but the core verdict of a low-scoring match was upheld. The tactical matchup of identical 3-5-2 formations creates structural symmetry and midfield congestion, directly supporting fewer goals. The bookmaker has mis-priced this fixture by underestimating the weight of historical patterns and tactical stalemate, offering value on the unders.\n\nThe Boot Room market is Under 2.25 Goals at odds of 2.1 with 67 percent confidence. This requires the match to finish with two or fewer total goals for a full win, or with exactly three goals for a half-loss. The risk scenario involves Spezia's potential morale boost or Modena exploiting the pre-halftime vulnerability period leading to a more open game. Boot Room market: Under 2.25 Goals. Confidence: 67%.",
+    "short_segment": "Modena host Spezia in a crucial Serie B encounter. The sixth-placed playoff contenders face the 17th-placed relegation battlers in a fixture defined by historical scarcity. Modena have won just once in their last five at home, while Spezia are chronically blunt on the road. The defining stat: the last seven meetings between these sides have produced zero matches with over 2.5 total goals. The Boot Room lands on Under 2.25 Goals at 2.1, with 67 percent confidence. The tactical mirror of 3-5-2 formations and a massive mathematical edge point towards another low-scoring stalemate. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Anomaly",
+        "voiceover": "Seven consecutive meetings. Zero matches with more than two total goals. This is the statistical prison that defines Modena versus Spezia — a fixture trapped in its own history of scarcity. Tonight, that pattern faces its greatest test: playoff ambition colliding with relegation desperation.",
+        "graphic_type": "hook",
+        "graphic_description": "A stark, minimalist graphic showing the number 7 with a red cross through '>2.5 Goals'. Dark, tense atmosphere.",
+        "graphic_text_overlay": "7 GAMES, 0 GOALFESTS"
+      },
+      {
+        "scene": 2,
+        "name": "Modena's Fortress",
+        "voiceover": "Modena's playoff position is built on a defensive foundation — seven clean sheets in fifteen home games, conceding just 0.87 goals per match. Yet their fortress shows cracks. One win in five at home, with their attack managing only 0.80 goals per game in that stretch. They are solid, but stagnant.",
+        "graphic_type": "home_card",
+        "graphic_description": "Modena's club badge overlaying a defensive wall graphic. Key stats: 7 clean sheets, 0.87 GA/m, 0.80 GF/m last 5 home.",
+        "graphic_text_overlay": "SOLID BUT STAGNANT"
+      },
+      {
+        "scene": 3,
+        "name": "Spezia's Travel Sickness",
+        "voiceover": "Spezia's dramatic comeback win masks a chronic condition — away bluntness. Just three wins in fourteen on the road, failing to score in five of those games. Their 3-5-2 formation mirrors Modena's, but their 21 percent away win rate reveals a team that travels hoping not to lose.",
+        "graphic_type": "away_card",
+        "graphic_description": "Spezia's badge on a road map with a declining arrow. Stats: 21% away win rate, 1.07 GF/m away, 5/14 failed to score.",
+        "graphic_text_overlay": "CHRONIC AWAY BLUNTNESS"
+      },
+      {
+        "scene": 4,
+        "name": "Tactical Mirror",
+        "voiceover": "The matchup is a mirror image — 3-5-2 versus 3-5-2. This structural symmetry creates midfield congestion, cancelling numerical advantages. The Tactician predicts a tight, tactical battle with limited open-play chances. Two identical systems, cancelling each other out.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Two identical 3-5-2 formation diagrams facing each other, with arrows clashing in midfield. Text: 'Structural Symmetry → Midfield Congestion'.",
+        "graphic_text_overlay": "MIRROR IMAGE BATTLE"
+      },
+      {
+        "scene": 5,
+        "name": "The Mathematical Edge",
+        "voiceover": "The data reveals a decisive mis-pricing. The EdgeCalculator identifies a 26.9 percent edge on Under 2.25 Goals — the highest value across all markets. Our probability assessment of 74.5 percent crushes the market's implied 47.6 percent. The bookmaker has underestimated history's weight.",
+        "graphic_type": "evidence",
+        "graphic_description": "A clean data visualization showing: 'Our Probability: 74.5%' vs 'Market Implied: 47.6%' with a large '+26.9% EDGE' arrow.",
+        "graphic_text_overlay": "+26.9% EDGE"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "Our market: Under 2.25 Goals at 2.1. Confidence: 67 percent. We are backing seven years of history, tactical symmetry, and a mathematical edge to override the noise. In this echo chamber of identical systems, the safest prediction is scarcity. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold text: 'UNDER 2.25 GOALS @ 2.1 | CONFIDENCE: 67%'. Modena and Spezia badges present.",
+        "graphic_text_overlay": "UNDER 2.25 GOALS"
+      }
+    ]
+  }
+}

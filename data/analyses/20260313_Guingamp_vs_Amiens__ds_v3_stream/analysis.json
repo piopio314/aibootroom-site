@@ -1,0 +1,174 @@
+{
+  "key": "20260313_Guingamp_vs_Amiens__ds_v3_stream",
+  "match": {
+    "home_team": "Guingamp",
+    "away_team": "Amiens",
+    "league": "Ligue 2",
+    "date": "2026-03-13",
+    "home_id": 90,
+    "away_id": 87
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "Under 2.25 Goals",
+    "prediction": "Under 2.25 Goals",
+    "confidence": 57,
+    "confidence_gate": "APPROVE",
+    "odds_target": 2.47,
+    "score_home": 60.4,
+    "score_draw": 27.8,
+    "score_away": 11.8,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. Guingamp's recent home form shows a 75% clean sheet rate and an average of just 1.75 total goals per match. Amiens, under new management and in a relegation fight, are likely to adopt a pragmatic, damage-limiting approach. The Tactician explicitly predicts a 'tight' match where Guingamp will 'struggle to break down a deep block'. This character overrides the historical high-scoring H2H trend, which is based on a thin 10-match sample. (2) DIRECTION EVIDENCE — The mathematical edge strongly supports under_goals. The EdgeCalculator identifies a +5.0% edge on Under 2.25 Goals, the highest positive edge across all markets. The Auditor's adjusted probabilities give Under 2.5 Goals a 58% likelihood. The cascading profile convergence shows MODERATE (57%) support for Under 2.5 Goals, driven by Guingamp's defensive home strength (7/7 market suitability) and Amiens' frequent failure to score (40% of recent matches). The Poisson λ sum (not explicitly provided but inferred from low goal averages) and the Tactician's 'fewer goals than historical average' prediction align perfectly. (3) AGENTS CONSENSUS — The Auditor, EdgeCalculator, and Tactician are strongly aligned on a low-scoring outcome. The Sceptic's surprise scenario is a 'tense, low-scoring draw'. The Home Scout notes Guingamp's 'defensive solidity at home' and recent attacking stagnation. The Archivist is the primary dissenter, citing historical high-scoring trends, but this is overridden by current form profiles. The Quant shows no value in AH markets, further directing us toward goals markets. (4) RISKS — The primary risk is Amiens' defensive collapse in the final 15 minutes, where they've conceded 13 goals this season, clashing with Guingamp's tendency to score late (8 goals in the same period). Louis Mafouta's individual brilliance could produce a moment of quality. The historical H2H pattern (70% Over 2.5) remains a conflicting signal, though it's based on limited data. Amiens' new manager could implement an unexpectedly aggressive approach in desperation.",
+    "key_factors": [
+      "Guingamp's 75% clean sheet rate in recent home matches",
+      "Amiens' managerial change one day before the match increasing volatility and likely promoting a cautious approach",
+      "Moderate 57% profile convergence on Under 2.5 Goals from cascading form data",
+      "EdgeCalculator's +5.0% edge on Under 2.25 Goals, the highest positive edge available"
+    ],
+    "risk_factors": [
+      "Amiens' severe defensive fragility in the final 15 minutes of matches",
+      "Historical head-to-head trend showing 70% of meetings produced Over 2.5 Goals",
+      "Louis Mafouta's individual quality could produce a decisive moment"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.75 Goals",
+        "prediction": "Under 2.75",
+        "confidence": 55
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 5.0,
+      "edge_source": "EdgeCalculator probability (45.5%) vs market implied probability (40.5%)",
+      "edge_grade": "MARGINAL",
+      "staking_signal": "MARGINAL",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 5.0
+        },
+        {
+          "market": "Under 2.75 Goals",
+          "edge": 4.3
+        },
+        {
+          "market": "Under 3.25 Goals",
+          "edge": 2.0
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Auditor, EdgeCalculator, and Tactician strongly agree on a low-scoring match. The Sceptic supports this with a low-scoring surprise scenario. The Home Scout's data on Guingamp's defensive solidity aligns. The Archivist dissents based on historical high-scoring trends, while the Quant shows no value in result markets, indirectly supporting the goals market focus.",
+    "_direction": "under_goals",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.1239,
+    "_direction_prob": 45.5,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "C",
+    "tier_label": "SPECULATIVE — weak signal, small stake only",
+    "tier_color": "#f59e0b",
+    "opportunity_score": 4.48,
+    "max_edge": 5.0
+  },
+  "display_texts": {
+    "home_position": "#10 (36 pts, -1 GD)",
+    "away_position": "#16 (23 pts, -15 GD)",
+    "home_form": "9W-9D-8L in 26 matches, last 5: DLLWW",
+    "away_form": "6W-5D-15L in 26 matches, last 5: DWLDD",
+    "home_stats": "37 goals in 26 matches (avg 1.4/match), 8 clean sheets",
+    "away_stats": "30 goals in 26 matches (avg 1.2/match), 5 clean sheets",
+    "h2h_history": "Guingamp 0-0 Amiens (13 Mar 2026)\nAmiens 1-2 Guingamp (22 Nov 2025)\nAmiens 3-2 Guingamp (18 Apr 2025)\nGuingamp 3-0 Amiens (22 Nov 2024)\nGuingamp 0-0 Amiens (06 Apr 2024)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Guingamp | Probabilities: 35%-35%-30% | Recommendation: Double chance : Guingamp or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "PENDING",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "–",
+    "market": "Under 2.25 Goals"
+  },
+  "script": {
+    "title": "Guingamp vs Amiens: The Defensive Battle Bookmakers Missed",
+    "thumbnail_text": "MANAGERIAL CHAOS MEETS WINLESS RUN",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a team that cannot win meets a team that cannot defend? Guingamp have not won a match in five attempts. Amiens have just sacked their manager one day before a critical relegation battle. The history books scream for goals, but the current reality points to a tense, low-scoring stalemate. Tonight, we find out which narrative wins.",
+    "chapter_home": "Guingamp are the definition of a mid-table paradox. Comfortably positioned with no relegation fears, they possess a star striker in Louis Mafouta, who has eleven goals this season. Yet, their recent form tells a story of stagnation. They are winless in their last five matches, drawing four of them. At home, they have become draw specialists, failing to score in two of their last three matches at the Stade du Roudourou. Their strength lies in defensive organisation, keeping clean sheets in seventy-five percent of recent home games. But their attack has stalled, and without the pressure of a promotion push, the question is whether they have the cutting edge to turn possession into victory.",
+    "chapter_away": "Amiens arrive in a state of institutional chaos. Their manager was sacked just one day before this match, throwing their preparation into disarray. Sitting in the relegation playoff zone, their need for points is desperate, but their form is in clear decline. They have taken just one point from their last five away matches, and their defence is a major concern, conceding an average of two goals per game on the road recently. A critical weakness is their tendency to collapse in the final fifteen minutes, where they have conceded thirteen goals this season. Under a new manager, the immediate priority will be damage limitation, likely leading to a pragmatic, defensive approach from the outset.",
+    "chapter_history": "Historically, this fixture has been a goal-fest. The last ten meetings have produced an average of three goals per game, with seventy percent of those matches seeing over two and a half goals. Amiens hold a slight edge with four wins to Guingamp's three, but the home side has won three of the last five encounters. The pattern suggests an open, attacking contest is almost guaranteed. However, that historical script is about to collide with a very different present-day context.",
+    "chapter_analysis": "The tactical setup points directly to a tight, low-scoring affair. Guingamp will dominate possession with their structured 4-4-2, averaging over sixty-one percent of the ball. Amiens, fragile and under new management, are expected to sit in a deep defensive block, looking to counter. Our Tactician predicts Guingamp will 'struggle to break down a deep block', leading to a match with 'fewer goals than the historical average'. This overrides the high-scoring head-to-head trend, which is based on a thin sample of just ten matches. The Sceptic challenged the market's overconfidence in a Guingamp win, noting their severe win drought, and their surprise scenario is a tense, low-scoring draw. The data converges here: Guingamp's defensive solidity at home, combined with Amiens' need for a pragmatic reset, creates the perfect conditions for a cagey contest.",
+    "chapter_value": "Our market: Under 2.25 Goals. The bookmakers are still pricing this fixture based on its high-scoring history. But the EdgeCalculator identifies a clear five percent mathematical edge on the under, the highest positive edge across all available markets. Our adjusted probabilities give this outcome a fifty-eight percent likelihood, yet the odds of 2.47 imply only a forty percent chance. This is where the value lies—in betting against the historical narrative and on the current defensive reality.",
+    "ending": "The Boot Room verdict is clear. We are backing a defensive battle. Under 2.25 Goals at 2.47, with fifty-seven percent confidence. The risks are evident: Amiens' late-game fragility or a moment of magic from Louis Mafouta could break the deadlock. But the weight of evidence—from mathematical edge to tactical prediction—points to a match where caution prevails over chaos. Do you agree with our read? Let us know in the comments below, and for more data-driven football analysis, subscribe to the AI Boot Room. Boot Room out.",
+    "roundup_summary": "Guingamp versus Amiens. The hosts sit comfortably in mid-table Ligue 2, but their form shows a severe lack of cutting edge, with no wins in their last five matches. Amiens, positioned 16th and in the relegation playoff zone, travel in crisis after sacking their manager one day prior. Guingamp's last five show four draws and a loss, while Amiens have one win, one draw, and three defeats.\n\nHistorically, this is a high-scoring fixture. The last ten meetings average three goals, with 70% producing Over 2.5 Goals. The most recent encounter in November ended 2-1 to Guingamp. This season, Guingamp score 1.3 goals per game and concede 1.1 at home. Amiens average 1.2 goals scored but leak 1.5 conceded on their travels.\n\nThe Boot Room analysis identifies a fundamental clash between past patterns and present reality. While Poisson-derived probabilities for Asian Handicap markets show perfect alignment with bookmaker odds, indicating efficient pricing on the result, the quantitative edge lies in the goals market. The EdgeCalculator shows a +5.0 percentage point edge on Under 2.25 Goals, derived from a 45.5% Boot Room probability versus a 40.5% market-implied probability. The Sceptic's primary concern—the market's overconfidence in a Guingamp win—is acknowledged but does not undermine the low-scoring thesis. The bookmaker has mis-priced the Under, anchoring too heavily to the historical H2H goal trend and underweighting Guingamp's 75% home clean sheet rate and Amiens' likely pragmatic reset under a new manager. The Auditor's effective confidence for this direction is fifty-five percent.\n\nOur verdict is for a cagey, tactical match. We expect fewer than three goals, with a strong possibility of a draw. The market offering value is Under 2.25 Goals, available at odds of 2.47. This requires two or fewer total goals for a full win. Boot Room market: Under 2.25 Goals. Confidence: 57%.",
+    "short_segment": "Guingamp host Amiens in a Ligue 2 clash defined by contrasting crises. Guingamp, mid-table and safe, are winless in five. Amiens, in 16th and in a relegation scrap, have just sacked their manager a day before the match. The historical head-to-head screams goals, with 70% of meetings going over 2.5. But the current reality points to a tense, low-scoring affair. Guingamp have kept clean sheets in 75% of recent home games, while Amiens are expected to adopt a damage-limiting approach. The Boot Room lands on Under 2.25 Goals at 2.47, with 57% confidence, betting on defensive pragmatism overriding historical trends. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Managerial Gambit",
+        "voiceover": "Amiens sack their manager one day before a critical relegation battle. It is a move of pure desperation. They travel to face a Guingamp side that has forgotten how to win. This is not just a football match—it is a collision of institutional chaos against chronic stagnation.",
+        "graphic_type": "conflict",
+        "graphic_description": "Split-screen visual. Left side: a chaotic, blurred image of a manager leaving a stadium. Right side: a static, empty football net with a '0-0' scoreboard in the background.",
+        "graphic_text_overlay": "ONE DAY TO PREPARE"
+      },
+      {
+        "scene": 2,
+        "name": "Guingamp's Fortress",
+        "voiceover": "At home, Guingamp have built a wall. They have kept clean sheets in three of their last four matches at the Stade du Roudourou. But behind that solidity lies a worrying truth: they have failed to score in two of their last three home games. They are secure, but stagnant.",
+        "graphic_type": "home_card",
+        "graphic_description": "A stylised, imposing castle gate representing Guingamp's home stadium. The gate is strong and shut, but vines are creeping up the sides, symbolising attacking stagnation.",
+        "graphic_text_overlay": "75% CLEAN SHEET RATE"
+      },
+      {
+        "scene": 3,
+        "name": "Amiens' Fragile Finale",
+        "voiceover": "For Amiens, the final fifteen minutes are a recurring nightmare. They have conceded thirteen goals in that period this season alone. It is a structural flaw that a new manager has just one training session to fix. Their only logical approach? Park the bus from the first whistle.",
+        "graphic_type": "away_card",
+        "graphic_description": "A digital clock counting down from 90:00 to 75:00, then the numbers crack and shatter as it hits the 76th minute, representing their late-game collapse.",
+        "graphic_text_overlay": "13 LATE GOALS CONCEDED"
+      },
+      {
+        "scene": 4,
+        "name": "History vs. The Now",
+        "voiceover": "The history books tell one story: seventy percent of meetings between these sides see over two and a half goals. But history is not playing tonight. The current data—the clean sheets, the managerial chaos, the winless run—paints a completely different picture. This is the tension the bookmakers have not fully priced.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "An old, leather-bound book labelled 'H2H History' lies open. A modern tablet displaying current stats and a 'Low-Scoring Match' prediction is placed over it, obscuring the old text.",
+        "graphic_text_overlay": "70% OVER 2.5 GOALS"
+      },
+      {
+        "scene": 5,
+        "name": "The Mathematical Edge",
+        "voiceover": "Our models have crunched the numbers. While the Asian Handicap markets are efficiently priced, one line stands out with clear value. The EdgeCalculator identifies a five percent positive edge on Under 2.25 Goals. The market is still betting on the historical goal-fest. We are betting on the new, defensive reality.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A clean, data-visualisation style graphic. A bar chart shows 'Market Implied Prob: 40.5%' next to a taller bar labelled 'Our Probability: 45.5%', with a +5.0% arrow between them.",
+        "graphic_text_overlay": "+5.0% EDGE"
+      },
+      {
+        "scene": 6,
+        "name": "The Boot Room Verdict",
+        "voiceover": "Our market: Under 2.25 Goals. The odds are 2.47. Our confidence is fifty-seven percent. We are backing a match defined by caution over chaos, where defensive organisation and managerial pragmatism silence the history books. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A bold, final graphic. The text 'UNDER 2.25 GOALS' is central and large. Below it: 'ODDS: 2.47' and 'CONFIDENCE: 57%' in smaller, clean type.",
+        "graphic_text_overlay": "UNDER 2.25 GOALS"
+      }
+    ]
+  }
+}

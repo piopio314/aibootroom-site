@@ -1,0 +1,166 @@
+{
+  "key": "20260309_Almeria_vs_Cultural_Leonesa__ds_v3_stream",
+  "match": {
+    "home_team": "Almeria",
+    "away_team": "Cultural Leonesa",
+    "league": "Segunda División",
+    "date": "2026-03-09",
+    "home_id": 723,
+    "away_id": 725
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 64.4,
+    "score_draw": 26.8,
+    "score_away": 8.8,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING mismatch with ASYMMETRIC elements. Almeria's prolific home attack (2.36 goals/match, 100% Over 2.5 rate in last five home games) faces Cultural Leonesa's fragile away defence (conceding 2.20 goals/match in last five away). The Tactician's 'one-sided attacking dominance' prediction and cascading profiles showing moderate convergence (57%) on Over 2.5 Goals confirm this character. (2) DIRECTION EVIDENCE — The EdgeCalculator shows overwhelming mathematical support for Over markets: Over 3.25 Goals has a 23.1% edge, Over 2.75 Goals has 15.1%. The Auditor's adjusted probabilities give Over 2.5 a 68% likelihood. Poisson λ values (not explicitly provided but implied by high goal rates) support a total exceeding 2.75. The Tactician's analysis directly contradicts the low-scoring H2H history (1.4 avg goals), noting current form and tactical setup outweigh historical patterns. (3) AGENTS CONSENSUS — Strong alignment: The Tactician predicts high-scoring dominance; Home Scout notes Almeria's exceptional home scoring (2.36/match) and inability to keep clean sheets; Away Scout highlights Cultural Leonesa's defensive fragility (1.79 goals conceded/away match); EdgeCalculator shows highest edges on Over markets; Auditor validates the mathematical edge. Dissent comes only from the Archivist's H2H low-scoring pattern, which the Tactician and current form override. The Sceptic does NOT challenge the high-scoring premise, focusing instead on win probability discrepancies. (4) RISKS — Almeria's defensive lapses could lead to early goals that change the match dynamic; Cultural Leonesa's desperation could produce an ultra-defensive, time-wasting strategy that stifles goal flow; the historical low-scoring trend (40% Over 2.5 in H2H) represents a counter-signal, though outweighed by current data.",
+    "key_factors": [
+      "Almeria's formidable home attack averaging 2.36 goals per match",
+      "Cultural Leonesa's away defence conceding 2.20 goals per match in their last five",
+      "100% Over 2.5 goals rate in Almeria's last five home matches",
+      "EdgeCalculator showing 23.1% edge on Over 3.25 Goals"
+    ],
+    "risk_factors": [
+      "Historical head-to-head shows low-scoring pattern (1.4 avg goals)",
+      "Cultural Leonesa's potential for ultra-defensive, time-wasting tactics",
+      "Almeria's defensive fragility could lead to early goals changing match dynamic"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 3.25 Goals",
+        "prediction": "Over 3.25",
+        "confidence": 61
+      },
+      {
+        "market": "AH Home -2.0",
+        "prediction": "Home -2.0",
+        "confidence": 53
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 15.1,
+      "edge_source": "EdgeCalculator mathematical model (our_prob vs market_odds)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 23.1
+        },
+        {
+          "market": "AH Home -2.0",
+          "edge": 20.3
+        },
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 15.1
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "Strong consensus on high-scoring outcome: Tactician predicts 'one-sided attacking dominance'; Home Scout highlights Almeria's exceptional home scoring; Away Scout notes Cultural Leonesa's defensive fragility; EdgeCalculator shows strongest edges on Over markets; Auditor validates mathematical edge. Only the Archivist's low-scoring H2H history dissents, but this is outweighed by current form.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.9,
+    "max_edge": 23.1
+  },
+  "display_texts": {
+    "home_position": "#3 (49 pts, +13 GD)",
+    "away_position": "#20 (27 pts, -17 GD)",
+    "home_form": "14W-7D-7L in 28 matches, last 5: DWDLL",
+    "away_form": "7W-6D-15L in 28 matches, last 5: LLLDW",
+    "home_stats": "53 goals in 28 matches (avg 1.9/match), 6 clean sheets",
+    "away_stats": "27 goals in 28 matches (avg 1.0/match), 6 clean sheets",
+    "h2h_history": "Almeria 0-0 Cultural Leonesa (09 Mar 2026)\nCultural Leonesa 0-1 Almeria (24 Aug 2025)\nCultural Leonesa 1-2 Almeria (04 Dec 2024)\nAlmeria 2-1 Cultural Leonesa (24 Feb 2018)\nCultural Leonesa 0-0 Almeria (29 Sep 2017)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Almeria | Probabilities: 45%-45%-10% | Recommendation: Double chance : Almeria or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "3:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Almeria vs Cultural Leonesa: The No-Bet Analysis",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a promotion-chasing juggernaut with a leaky defence hosts a relegation-threatened side in freefall? The data screams for goals — Almeria average 2.36 goals per home match, while Cultural Leonesa concede 2.20 goals per away trip. Yet the Boot Room tribunal has reached a unanimous verdict: there is no value to be found. This is the story of a match where everything points one way, but the market has already priced it in.",
+    "chapter_home": "Almeria are a formidable force at home, sitting third in the Segunda División and riding a five-match unbeaten streak. Their attack is prolific, averaging over two and a half goals per home game, with a perfect 100% Over 2.5 goals rate in their last five matches at the Estadio de los Juegos Mediterráneos. They operate in an attacking 4-2-3-1 system designed to overwhelm opponents, and their late-game threat is significant, with 13 goals scored in the 76-90 minute period. However, their defence tells a different story — a clear vulnerability, especially in the final 15 minutes of each half, where they have conceded 21 of their 40 goals this season. They have kept no clean sheets in their last 10 matches and only three from 14 home games. With promotion firmly in their sights, the pressure is on to deliver another commanding performance, but their defensive fragility creates a critical tension.",
+    "chapter_away": "Cultural Leonesa travel as the league's worst-performing side, a tag that hangs heavily despite a historical 36% win rate on the road. Their recent form is in freefall with no victory in five matches, a streak of zero wins, two draws, and three losses. OSINT points to a squad in crisis, low on confidence after a heavy 0-3 home defeat to Las Palmas immediately before this trip. Their 4-4-2 setup offers a compact central block, but their defence is consistently breached on the road, conceding an average of 1.79 goals per away match. Their only strengths are a 71% scoring rate in away matches and an extended eight-day rest period. The tension lies in whether any residual away-day resilience can surface against a backdrop of such profound decline, with relegation survival providing desperate motivation.",
+    "chapter_history": "The history here tells a clear story — five meetings, and Cultural Leonesa have never won. Almeria have taken three victories and kept two clean sheets in that run. However, the pattern is unexpectedly low-scoring, with an average of just 1.4 goals per match and only 40% of games seeing over 2.5 goals. The most recent encounter in March 2026 ended in a goalless draw, breaking a run of three consecutive Almeria victories. History provides a significant psychological advantage for Almeria, who will be confident of extending their unbeaten run. For Cultural Leonesa, that zero in the win column could be a burden to overcome or a powerful motivator to finally rewrite the script in a must-win fixture for their survival.",
+    "chapter_analysis": "The tactical matchup reveals one-sided attacking dominance. Almeria's 4-2-3-1 creates a central overload against Cultural Leonesa's flat 4-4-2, with wide attackers isolating full-backs. Almeria's superior shot volume — 16.0 total shots per match versus Cultural Leonesa's 12.0 — directly exploits the visitor's defensive fragility. The critical danger zone is the 76-90 minute period, where Almeria scores 13 goals and concedes 13, while Cultural Leonesa concedes nine. The Sceptic challenged the Away Scout's 27% win probability for Cultural Leonesa, noting it was materially inconsistent with their current winless form and the 3.6% mathematical baseline. However, the Sceptic did not contradict the high-scoring premise, instead highlighting the potential for Almeria's defensive fragility to be exploited by a desperate, low-block opponent. The EdgeCalculator shows overwhelming mathematical support for Over markets, with a 23.1% edge on Over 3.25 Goals and a 15.1% edge on Over 2.75 Goals. The Auditor's adjusted probabilities give Over 2.5 a 68% likelihood. Yet, the historical low-scoring H2H trend represents a counter-signal, though it is outweighed by current team form and tactical setup.",
+    "chapter_value": "Our market: NO BET. The Boot Room tribunal identified a strong directional consensus for a high-scoring match, with Almeria's prolific home attack facing Cultural Leonesa's fragile away defence. The EdgeCalculator confirmed substantial mathematical edges, particularly 23.1% on Over 3.25 Goals. However, the Gaffer's strict qualifying filter — requiring odds of at least 1.70 for a strong conviction over_goals direction — was not met by any available line. The market has efficiently priced the expected goal flow, leaving no value opportunity that meets our risk-adjusted criteria. Sometimes the clearest narrative does not translate to a bet, and this is one of those fixtures. The numbers tell us to watch, but not to invest.",
+    "ending": "The Boot Room verdict is clear: pass on this fixture. Almeria should dominate, goals are likely, but the market offers no edge that satisfies our strict value thresholds. The historical low-scoring pattern provides just enough uncertainty, and Almeria's defensive leaks introduce a variable that the market has priced in. We acknowledge that sometimes the smartest play is to recognise when the value has been squeezed out. If you found this analysis valuable, subscribe to the AI Boot Room channel for more data-driven match breakdowns. Boot Room out.",
+    "roundup_summary": "Almeria versus Cultural Leonesa. This Segunda División fixture pits third-placed Almeria, on a five-match unbeaten run with four wins and one draw, against bottom-side Cultural Leonesa, who have taken just two points from their last five games. Almeria's home form shows four wins from their last five, averaging 2.6 goals scored per game. Cultural Leonesa's away record reveals a defence conceding 1.79 goals per match on their travels.\n\nThe head-to-head history spans five meetings, with Almeria unbeaten — three wins and two draws. The most recent encounter in March 2026 was a goalless draw. The average goals per meeting is just 1.4, with only 40% of games exceeding 2.5 goals. This season, Almeria scores 2.36 goals per home match, while Cultural Leonesa concedes 2.20 goals per match in their last five away trips.\n\nThe Boot Room analysis identified a strong mathematical edge for Over markets, with the EdgeCalculator showing a 23.1% edge on Over 3.25 Goals and a 15.1% edge on Over 2.75 Goals. Poisson λ values implied by the high goal rates support a total exceeding 2.75. The Sceptic's concern focused on the Away Scout's materially inconsistent 27% win probability for Cultural Leonesa, which was sharply reduced to 8.8% in the Auditor's adjusted probabilities. The bookmaker has not mis-priced the goal expectation; rather, no available line met the Gaffer's strict odds filter of 1.70 for a strong conviction over_goals direction. The Auditor's effective confidence was 62%, but the qualifying criteria were not satisfied.\n\nThe Boot Room market is NO BET at odds of 0 with 0% confidence. The risk scenario for a potential Over bet would require Almeria's attack to overwhelm and Cultural Leonesa's defence to capitulate as expected, but the market offers no value line. Boot Room market: NO BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Contradiction",
+        "voiceover": "Almeria average 2.36 goals per home match. Cultural Leonesa concede 2.20 goals per away trip. Every current data point screams for a high-scoring rout. Yet the Boot Room verdict is a pass. This is the story of a match where the narrative is clear, but the value has vanished.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual: left side shows Almeria's attacking stats glowing, right side shows Cultural Leonesa's defensive leaks with warning symbols. A large 'NO VALUE' stamp overlays the centre.",
+        "graphic_text_overlay": "DATA VS VALUE"
+      },
+      {
+        "scene": 2,
+        "name": "The Juggernaut",
+        "voiceover": "Almeria are a promotion-chasing force, unbeaten in five with a perfect 100% Over 2.5 goals rate in recent home games. Their 4-2-3-1 system creates overloads, but their defence has a fatal flaw — conceding 21 goals in the final 15 minutes of each half. They attack like a title contender but defend like a mid-table side.",
+        "graphic_type": "home_card",
+        "graphic_description": "Almeria's crest with attacking arrows pointing forward, superimposed over a stat graphic showing '2.36 goals/match' and '0 clean sheets in 10'.",
+        "graphic_text_overlay": "ATTACKING LEAKS"
+      },
+      {
+        "scene": 3,
+        "name": "The Freefall",
+        "voiceover": "Cultural Leonesa are the league's worst side, with no win in five matches. A heavy home defeat before this trip signals a squad in crisis. Their 4-4-2 is compact but brittle, conceding nearly two goals per away game. Relegation desperation is their only motivator.",
+        "graphic_type": "away_card",
+        "graphic_description": "Cultural Leonesa's crest fading, with a downward trend line and a stat showing '2.20 goals conceded/away (last 5)'.",
+        "graphic_text_overlay": "DEFENSIVE CRISIS"
+      },
+      {
+        "scene": 4,
+        "name": "The Mathematical Edge",
+        "voiceover": "The EdgeCalculator reveals a 23.1% edge on Over 3.25 Goals. The Auditor's adjusted probability gives Over 2.5 a 68% likelihood. The tactical matchup predicts one-sided attacking dominance. But history whispers a warning — an average of just 1.4 goals in past meetings.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A calculator icon with '23.1% EDGE' glowing, contrasted with a historical scroll showing '1.4 avg goals'.",
+        "graphic_text_overlay": "23.1% EDGE"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO BET. The directional consensus is strong, but no qualifying line meets our odds filter. The market has priced the expected goal flow efficiently. Sometimes the clearest story offers no bet. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A final screen with 'NO BET' in large, bold letters. Below, smaller text: 'Almeria vs Cultural Leonesa | 0% Confidence'.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

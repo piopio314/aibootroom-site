@@ -1,0 +1,169 @@
+{
+  "key": "20260312_HNK_Rijeka_vs_Strasbourg__ds_v3_stream",
+  "match": {
+    "home_team": "HNK Rijeka",
+    "away_team": "Strasbourg",
+    "league": "UEFA Europa Conference League",
+    "date": "2026-03-12",
+    "home_id": 561,
+    "away_id": 95
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 25.0,
+    "score_draw": 30.0,
+    "score_away": 45.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. Rijeka's home defence is exceptional, conceding only 0.25 goals per match with three clean sheets in four games. Strasbourg's away scoring record is strong but based on a single verified match, while their broader profile shows only two of eight matches exceeding 2.5 goals. The Tactician explicitly predicts a 'tight' match with 'fewer goals than average', and the historical H2H baseline is zero goals across two meetings. The cascading profile convergence on Under 2.5 Goals is moderate at 50%, with Rijeka's profile strongly supporting unders (7/7 suitability) while Strasbourg's diverges. (2) DIRECTION EVIDENCE — The mathematical edge strongly supports unders. The EdgeCalculator shows a 41.2% edge on Under 2.25 Goals @ 2.28, with our probability at 85.1%. The Auditor's adjusted probabilities give Under 2.5 a 70% likelihood. The Tactician's structural analysis highlights Rijeka's three-man defence and compact block designed to neutralise Strasbourg's dual-striker threat. The Poisson λ sum is low, and the market's efficient pricing on Asian Handicap lines contrasts with the clear value in the goals markets. (3) AGENTS CONSENSUS — The Tactician, Auditor, and EdgeCalculator all align on a low-scoring outcome. The Sceptic's surprise scenario is a 0-0 stalemate. The Home Scout notes Rijeka's low-scoring tendency (only 2 of 8 matches exceed 2.5 goals). The Archivist highlights the historical goal drought. Dissent comes from the Away Scout's attack strength rating (8) and Strasbourg's perfect away record, but this is critically challenged by the Sceptic as unverified. The Quant could not assess O/U markets due to missing odds, but the mathematical edge is clear elsewhere. (4) RISKS — Strasbourg's claimed away scoring form, if accurate, could breach Rijeka's defence. Early rotation or tactical naivety from either side could open the game. The Sceptic's NO_BET veto is overridden by the strong statistical edge (≥5%) on unders, but the data paucity for Strasbourg and rotation risk from European fixture congestion cap confidence at 55%.",
+    "key_factors": [
+      "Rijeka's exceptional home defensive record (0.25 GA/m, 75% clean sheet rate)",
+      "Tactician's prediction of a 'tight' match with structural advantages for the home defence",
+      "Strong mathematical edge on Under 2.25 Goals (41.2% EdgeCalculator edge)",
+      "Historical H2H baseline of zero goals across two previous meetings",
+      "Moderate cascading profile convergence (50%) on Under 2.5 Goals"
+    ],
+    "risk_factors": [
+      "Severe data paucity for Strasbourg's recent form (only one verified match)",
+      "European fixture congestion for both sides introduces rotation uncertainty",
+      "Sceptic's CRITICAL challenge on Strasbourg's unverified away record",
+      "Market odds heavily favour Strasbourg, suggesting sharp money flow against our thesis"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.75 Goals",
+        "prediction": "Under 2.75",
+        "confidence": 58
+      },
+      {
+        "market": "AH Home 0.0",
+        "prediction": "Home 0.0",
+        "confidence": 47
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 41.2,
+      "edge_source": "EdgeCalculator our_prob (85.1%) minus market implied probability (43.9%)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Home 0.0",
+          "edge": 53.3
+        },
+        {
+          "market": "AH Home 0.25",
+          "edge": 43.3
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 41.2
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Auditor, and EdgeCalculator strongly support a low-scoring match, aligned with the Home Scout's defensive assessment and Archivist's historical context. The Sceptic issues a NO_BET veto due to data gaps, but this is overridden by the mathematical edge. The Away Scout's attack rating is the primary dissent, but is critically challenged as unverified. The Quant could not assess goals markets directly but the mathematical model shows clear value on unders.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 4.87,
+    "max_edge": 53.3
+  },
+  "display_texts": {
+    "home_position": "#16 (9 pts, +3 GD)",
+    "away_position": "#1 (16 pts, +6 GD)",
+    "home_form": "4W-3D-1L in 8 matches, last 5: LWDDW",
+    "away_form": "6W-2D-0L in 8 matches, last 5: DWWDW",
+    "home_stats": "9 goals in 8 matches (avg 1.1/match), 5 clean sheets",
+    "away_stats": "14 goals in 8 matches (avg 1.8/match), 2 clean sheets",
+    "h2h_history": "Strasbourg 0-0 HNK Rijeka (19 Mar 2026)\nHNK Rijeka 0-0 Strasbourg (12 Mar 2026)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: HNK Rijeka | Probabilities: 45%-45%-10% | Recommendation: Combo Double chance : HNK Rijeka or draw and -3.5 goals",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:2",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Rijeka's Fortress vs Strasbourg's Phantom Attack",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a European fortress meets an attack that might not exist? HNK Rijeka have conceded just one goal in four home matches this season — a defensive record that borders on impenetrable. Strasbourg arrive with a perfect away record and a league-leading attack, but our data reveals a critical flaw. The bookmakers see a clear favourite, but the numbers tell a story of fundamental uncertainty.",
+    "chapter_home": "HNK Rijeka have built a genuine fortress at home. In four matches at their own stadium, they have conceded a mere 0.25 goals per game, keeping three clean sheets. Their 3-5-1-1 formation provides structural solidity, with three centre-backs and wing-backs creating a compact defensive block that is exceptionally difficult to breach. Manager Victor Sanchez del Amo has returned from a health scare and frames this European tie as an opportunity for something greater, signalling ambition. However, their domestic league position of 16th in a 36-team competition reveals inconsistency. Their attack can be blunt — they have failed to score in one of four home matches, and only two of their eight total games this season have exceeded 2.5 goals. High fixture congestion poses a fatigue risk, but their squad depth of 30 registered players offers rotation options. The narrative is clear: at home, Rijeka are defined by defensive excellence and a low-scoring tendency.",
+    "chapter_away": "Strasbourg present a fascinating puzzle. They sit top of their league with a perfect away record — four wins from four matches on the road, scoring an average of two goals per game. Their 4-4-2 formation features a dual-striker setup designed to challenge defensive lines. Yet, here lies the critical issue flagged by our analysis. Their recent match data sample is alarmingly thin — only one verified match is available for assessment. Claims of a flawless away record and an attack strength rating of eight are built on unverified information. Their defensive vulnerabilities are clearer, conceding goals in the middle of halves and carrying a high yellow card count. They face severe rotation risk from European fixture congestion, with three matches in fourteen days. Key attacker Panichelli is expected to leave in the summer, potentially affecting squad stability. Strasbourg travel as nominal favourites, but their true capabilities remain shrouded in data paucity.",
+    "chapter_history": "The historical record between these sides is a blank page. They have met only twice before, and remarkably, both matches ended without a single goal being scored. This creates a baseline of defensive stalemate, though the sample size of two matches is too small for reliable pattern analysis. What it does provide is a psychological backdrop — a history of goalless encounters. Tonight's context is a stark contrast. Strasbourg arrive as motivated league leaders in a title race, while Rijeka sit comfortably mid-table with reduced domestic pressure. Both squads report full availability, setting the stage for a fresh chapter. History offers no dominant pattern, only the suggestion that goals have been historically scarce when these teams collide.",
+    "chapter_analysis": "The tactical matchup is a classic clash of styles. Rijeka's three-man defence and wing-back system are structured to smother Strasbourg's dual-striker threat. Our Tactician predicts a 'tight' match with 'fewer goals than average', highlighting Rijeka's midfield numerical advantage in their 3-5-1-1 against Strasbourg's flat 4-4-2. The structural analysis strongly supports a low-scoring encounter. Mathematically, the EdgeCalculator shows a 41.2% edge on Under 2.25 Goals, with our probability assessed at 85.1%. The Auditor's adjusted probabilities give Under 2.5 Goals a 70% likelihood. However, The Sceptic issues a critical challenge: Strasbourg's entire away assessment is built on unverified data from a single match sample. This creates fundamental uncertainty about the away side's true threat. While Rijeka's defensive credentials are rock-solid, we cannot confidently price Strasbourg's attack. The market odds have seen sharp money flow towards Strasbourg, shortening their price from 1.84 to 1.75, which contradicts our qualitative assessment of a closer contest. The Asian Handicap markets show perfect efficiency, with Poisson probabilities matching implied probabilities exactly, leaving no mathematical edge on result lines.",
+    "chapter_value": "Our market: NO_BET. The analysis reveals a data-poor environment with conflicting signals. While the goals market direction strongly points towards unders — supported by Rijeka's exceptional home defence, the Tactician's prediction, and a 41.2% mathematical edge — no specific line qualifies under our conviction and odds filters. The Sceptic's veto on Strasbourg's unverified form creates a confidence ceiling. The Asian Handicap markets are efficiently priced, showing zero probability gaps. The Auditor's effective confidence for a playable market sits at 55%, but the required odds of 1.70 or better for a moderate conviction bet are not met by any qualifying line. Sometimes the clearest analytical insight is that the market offers no value.",
+    "ending": "The Boot Room verdict is to pass on this fixture. Rijeka's defensive fortress is real, but Strasbourg's attacking threat is a phantom in the data. The mathematical edge on unders is compelling, yet the severe data gaps and market efficiency create an environment where no bet meets our strict criteria for value. Confidence: 0%. Remember, disciplined betting means recognising when to step away. If you appreciate this depth of analysis, subscribe to AI Boot Room for more forensic match breakdowns. Boot Room out.",
+    "roundup_summary": "HNK Rijeka versus Strasbourg. Rijeka sit 16th in their 36-team domestic league but boast formidable home form, winning three of their last five. Strasbourg lead their league with four wins from their last five. The Croatian side have conceded just 0.25 goals per home match this season, while the French visitors claim a perfect away record.\n\nThe head-to-head history is minimal but telling: two previous meetings, both ending without a goal scored. Rijeka average 1.13 goals scored and 0.25 conceded at home. Strasbourg's claimed away form shows 2.0 goals scored per match, but this is based on extremely limited data. The historical trend points exclusively towards low-scoring encounters.\n\nThe Boot Room analysis identifies a strong directional bias towards unders, with a Poisson-derived edge of 41.2% on Under 2.25 Goals. Our probability sits at 85.1% versus a market-implied 43.9%. The Quant found no value on Asian Handicap lines, showing perfect market efficiency. The primary Sceptic concern is critical: Strasbourg's recent form assessment is built on unverified claims from a single match sample, undermining any confident analysis of their away threat. The bookmaker has potentially mis-priced the goals market, offering odds of 2.28 on Under 2.25 where our model sees strong value, but the data paucity caps executable confidence. The Auditor's effective confidence for a playable market is 55%, but no line meets the required odds threshold.\n\nThe verdict is a pass. The analysis suggests a low-scoring match is probable, but severe data limitations and market filters prevent a qualified bet. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "HNK Rijeka host Strasbourg in the UEFA Europa Conference League. Rijeka, 16th domestically, are a defensive fortress at home, conceding just 0.25 goals per match. Strasbourg lead their league with a claimed perfect away record. The historical head-to-head shows two meetings with zero total goals. Our forensic analysis reveals a critical data gap: Strasbourg's formidable away form is based on unverified information from a single match sample. While our model shows a 41.2% edge on Under 2.25 Goals, the severe uncertainty and market efficiency lead to a no-bet verdict. The Boot Room lands on NO_BET at odds of 0, with 0% confidence. Sometimes the smartest play is to recognise when the numbers are not clear enough. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Phantom Attack",
+        "voiceover": "Strasbourg travel with a perfect away record and a league-leading attack. But our data reveals a critical flaw. Their formidable form is built on unverified claims from a single match sample. We are asked to trust a phantom.",
+        "graphic_type": "conflict",
+        "graphic_description": "A shadowy, translucent attacker in Strasbourg colours attempts to breach a solid, illuminated wall labelled 'Rijeka Defence'. The attacker's form is indistinct and fading.",
+        "graphic_text_overlay": "UNVERIFIED THREAT"
+      },
+      {
+        "scene": 2,
+        "name": "The Croatian Fortress",
+        "voiceover": "HNK Rijeka's home defensive record is exceptional. Four matches, three clean sheets, just one goal conceded. Their 3-5-1-1 formation is a structured fortress, designed to repel attacks through compactness and discipline.",
+        "graphic_type": "home_card",
+        "graphic_description": "A detailed tactical diagram of Rijeka's 3-5-1-1 formation, overlaid on an image of their stadium. Key defensive stats (0.25 GA/m, 75% CS) glow prominently.",
+        "graphic_text_overlay": "0.25 GOALS CONCEDED"
+      },
+      {
+        "scene": 3,
+        "name": "Tactical Stalemate",
+        "voiceover": "The Tactician predicts a tight, low-scoring match. Rijeka's three centre-backs are structured to neutralise Strasbourg's two strikers. This is a chess match, not a shootout — a clash where defensive structure meets unverified ambition.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "An animated chessboard with pieces representing Rijeka's back three and Strasbourg's twin strikers. The board is locked in a defensive position.",
+        "graphic_text_overlay": "TIGHT ENCOUNTER"
+      },
+      {
+        "scene": 4,
+        "name": "The Mathematical Edge",
+        "voiceover": "Our models see clear value on unders. The EdgeCalculator shows an 85.1% probability for Under 2.25 Goals — a 41.2% edge against market odds. But this signal clashes with The Sceptic's fundamental warning about the data itself.",
+        "graphic_type": "evidence",
+        "graphic_description": "A large, clear digital display showing 'OUR PROB: 85.1%' and 'MARKET IMPLIED: 43.9%' with a bright green arrow indicating the 41.2% edge. A red 'WARNING' banner flashes at the bottom.",
+        "graphic_text_overlay": "41.2% EDGE"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO_BET. The analysis points towards a low-scoring game, but severe data gaps for Strasbourg and perfect market efficiency on result lines create an environment with no qualified value. The smartest bet is sometimes no bet at all. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, minimalist screen with the words 'NO BET' in large, bold type. Below, smaller text reads 'Confidence: 0%'. The background is a neutral grey.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

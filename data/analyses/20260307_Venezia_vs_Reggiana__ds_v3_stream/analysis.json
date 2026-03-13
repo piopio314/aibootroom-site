@@ -1,0 +1,165 @@
+{
+  "key": "20260307_Venezia_vs_Reggiana__ds_v3_stream",
+  "match": {
+    "home_team": "Venezia",
+    "away_team": "Reggiana",
+    "league": "Serie B",
+    "date": "2026-03-07",
+    "home_id": 517,
+    "away_id": 880
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "Under 2.75 Goals",
+    "prediction": "Under 2.75 Goals",
+    "confidence": 53,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 2.15,
+    "score_home": 80.6,
+    "score_draw": 15.8,
+    "score_away": 7.8,
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC match with strong defensive undertones. Venezia's overwhelming superiority at home (12 wins from 14) meets Reggiana's chronic inability to score away (0.93 goals per match). The Tactician's prediction of 'more goals than Reggiana's typical away matches but fewer than Venezia's average home output' points to a controlled, lower-scoring affair rather than a goal fest. Cascading profiles show Venezia's goal involvement trending toward FEWER_GOALS while Reggiana's attack is DECREASING. (2) DIRECTION EVIDENCE — The EdgeCalculator shows a +4.9% edge on Under 2.75 Goals, the highest-edge market without a direction conflict. The Auditor specifically recommends this market as aligning with the Tactician's tempered outlook. Matchup convergence shows Under 2.5 Goals at 43% alignment, with Reggiana's profile strongly fitting under markets (4/7). Reggiana's away form shows 0% Over 2.5 Goals in their last five away matches, averaging just 1.6 total goals. Venezia's home defence concedes only 0.71 goals per match with 7 clean sheets. (3) AGENTS CONSENSUS — The Tactician predicts tempered goal output. The Sceptic's surprise scenario is a low-scoring Venezia win. The Auditor validates Under 2.75 as the most credible edge market. The Archivist notes historical high-scoring patterns but acknowledges current form divergence. The Scouts show Venezia's defence strength (8/10) against Reggiana's attack weakness (2/10). The Quant shows no gaps but market efficiency. (4) RISKS — Historical H2H patterns show nearly three goals per match on average. Venezia's late-game concentration lapses (8 goals conceded in 76-90 minutes) could allow a late consolation. Reggiana's desperation for survival points could lead to a more open contest if they abandon their defensive shell early. Venezia's fixture congestion (4 matches in 14 days) might affect their usual attacking intensity.",
+    "key_factors": [
+      "Reggiana's chronic away scoring issues (0.93 goals per match)",
+      "Venezia's formidable home defence (0.71 goals conceded per match, 7 clean sheets)",
+      "Reggiana's 0% Over 2.5 Goals rate in last five away matches",
+      "Tactician's prediction of tempered goal output despite Venezia's superiority"
+    ],
+    "risk_factors": [
+      "Historical H2H shows high-scoring patterns (average ~3 goals)",
+      "Venezia's late-game concentration lapses could allow consolation goals",
+      "Reggiana's survival desperation might lead to more open play if chasing"
+    ],
+    "alternative_markets": [
+      {
+        "market": "AH Home -1.75",
+        "prediction": "Venezia -1.75",
+        "confidence": 52
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 4.9,
+      "edge_source": "EdgeCalculator our_prob (51.4%) vs market implied probability",
+      "edge_grade": "MARGINAL",
+      "staking_signal": "MARGINAL",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away 1.25",
+          "edge": 22.0
+        },
+        {
+          "market": "AH Away 2.5",
+          "edge": 16.0
+        },
+        {
+          "market": "AH Away 0.25",
+          "edge": 15.0
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Sceptic, and Auditor align on a tempered goal expectation, while the Scouts show defensive strength versus attacking weakness. The Archivist presents conflicting historical data but acknowledges form divergence. The Quant shows market efficiency with no clear gaps.",
+    "_direction": "under_goals",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.1051,
+    "_direction_prob": 51.4,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.32,
+    "max_edge": 22.0
+  },
+  "display_texts": {
+    "home_position": "#1 (60 pts, +33 GD)",
+    "away_position": "#17 (29 pts, -11 GD)",
+    "home_form": "18W-6D-4L in 28 matches, last 5: WDDLW",
+    "away_form": "7W-8D-13L in 28 matches, last 5: LWDDL",
+    "home_stats": "58 goals in 28 matches (avg 2.1/match), 11 clean sheets",
+    "away_stats": "29 goals in 28 matches (avg 1.0/match), 7 clean sheets",
+    "h2h_history": "Venezia 2-0 Reggiana (07 Mar 2026)\nReggiana 1-3 Venezia (10 Jan 2026)\nVenezia 2-3 Reggiana (01 Apr 2024)\nReggiana 1-0 Venezia (22 Oct 2023)\nVenezia 2-1 Reggiana (01 Mar 2021)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Venezia | Probabilities: 45%-45%-10% | Recommendation: Winner : Venezia",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "WIN",
+    "label": "WIN",
+    "color": "#22c55e",
+    "pnl": 1.15,
+    "score": "2:0",
+    "market": "Under 2.75 Goals"
+  },
+  "script": {
+    "title": "Venezia vs Reggiana: Why This Top vs Bottom Clash Won't Explode",
+    "thumbnail_text": "TOP VS BOTTOM SHOCK",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when Serie B's most dominant home force faces a team arriving in crisis? On paper, this looks like a mismatch destined for goals — but the numbers tell a different story. Venezia have won twelve of fourteen home matches this season. Reggiana just suffered a morale-shattering four-nil defeat. Yet our analysis reveals one critical number the bookmakers have not priced correctly.",
+    "chapter_home": "Venezia are not just leading Serie B — they are dominating it at home. Twelve wins from fourteen matches at the Stadio Pier Luigi Penzo represents an eighty-six percent win rate. Their three-five-two system generates waves of attacks, averaging nearly twenty shots per game with sixty-eight percent possession. Top scorer Andrea Adorante has thirteen goals, while John Yeboah leads the assists chart with nine. The defence has been equally impressive — conceding just point-seven-one goals per home match with seven clean sheets. But there are cracks in the fortress. Eight of their twenty-five conceded goals have come in the final fifteen minutes, suggesting late-game concentration lapses. This is also their fourth match in fourteen days — a workload that could impact their usual attacking intensity. The financial pressure is immense, with the club carrying Serie B's third-highest wage bill. Every match is a must-win in their promotion charge.",
+    "chapter_away": "Reggiana travel in a state of genuine crisis. Rooted in the relegation zone, their confidence is shattered after a four-nil home defeat to Sudtirol. Their away record tells a story of chronic impotence — averaging just point-nine-three goals per match on the road. In their last five away fixtures, they have failed to produce a single match exceeding two-point-five total goals. Their three-four-two-one formation is designed for defensive structure, but they are vulnerable in the first half-hour, conceding eleven goals between minutes sixteen and thirty. While they have shown occasional resilience with four away clean sheets, their twenty-one percent away win rate reflects a fundamental struggle. Squad morale is low, and they face the same brutal fixture congestion — four matches in fourteen days. The question is not whether they can win, but whether their survival instincts can forge a defensive performance capable of frustrating the league leaders.",
+    "chapter_history": "Historically, this fixture has been a high-scoring affair. The last eight meetings average nearly three goals per match, with both teams scoring in over sixty percent of encounters. The most dramatic recent moment came just two seasons ago, when Reggiana snatched a three-two victory in Venice — one of only two home defeats Venezia have suffered in this fixture over eight years. But the pattern has shifted. Venezia have won the last two meetings convincingly, with an aggregate score of five-one. While history suggests goals and drama, current form and stakes point toward a different kind of pressure — one where Venezia's title-winning quality must overcome Reggiana's desperate fight for survival.",
+    "chapter_analysis": "The tactical matchup reveals why this might be more controlled than chaotic. Both teams deploy a three-five-two formation, but Venezia's execution is vastly superior. Their midfield trio should dominate possession against Reggiana's limited build-up play. The key battle lies in the wide areas — Venezia's wing-backs will push high to create overloads, while Reggiana will sit in a compact defensive block. The Tactician predicts more goals than Reggiana's typical away matches, but fewer than Venezia's average home output. This aligns with the Sceptic's surprise scenario — a low-scoring Venezia win driven by fatigue and pressure. The Sceptic challenged both scouts' assessments, noting Venezia's form is stable, not rising, and Reggiana's draw tendency is minimal, not moderate. These corrections reinforce the tempered outlook. Reggiana's attack profile shows decreasing goal involvement, while Venezia's late-game lapses remain a risk. The convergence points toward a match where Venezia's superiority is expressed through control, not carnage.",
+    "chapter_value": "Our market: Under two-point-seven-five Goals. The EdgeCalculator shows a four-point-nine percent edge on this line — the highest-edge market without a direction conflict. While mathematical models suggested huge value on Reggiana Asian handicap lines, those fundamentally contradict all qualitative analysis. The Auditor specifically validated Under two-point-seven-five as the most credible edge market, aligning with the Tactician's tempered goal expectation. At odds of two-point-one-five, the market implies a forty-six-point-five percent probability. Our assessment gives it fifty-one-point-four percent. The bookmakers have priced for historical fireworks, but they have not fully accounted for Reggiana's chronic away scoring issues meeting Venezia's formidable home defence.",
+    "ending": "The Boot Room verdict: Under two-point-seven-five Goals. Confidence: fifty-three percent. This is a speculative play, not a certainty. The risks are clear — historical meetings average three goals, and Venezia's late lapses could allow a consolation. But the weight of evidence points toward a controlled, asymmetric match where Venezia's dominance manifests in possession and patience, not a goal fest. Reggiana's survival instincts should produce a defensive performance, but their attacking impotence limits the upside. If you see value in this read, let us know in the comments. Subscribe for more data-driven football analysis. Boot Room out.",
+    "roundup_summary": "Venezia versus Reggiana. Serie B's top side hosts the seventeenth-placed team in a classic top-versus-bottom clash. Venezia arrive unbeaten in five with four wins, boasting a formidable home record of twelve victories from fourteen matches. Reggiana's form is dire — one win in their last five, including a morale-shattering four-nil defeat. Both teams face severe fixture congestion, with this being their fourth match in fourteen days. No key injuries are reported for either side.\n\nThe head-to-head history shows a high-scoring pattern. The last eight meetings average nearly three goals, with both teams scoring in over sixty percent of encounters. Venezia have won the last two meetings by an aggregate score of five-one. This season, Venezia average two-point-two-nine goals scored and point-seven-one conceded per home match. Reggiana average just point-nine-three goals scored and one-point-five-seven conceded on the road. Their last five away matches have produced zero games exceeding two-point-five total goals.\n\nThe Boot Room analysis identifies a four-point-nine percent edge on Under two-point-seven-five Goals. The Poisson model gives this market a fifty-one-point-four percent probability versus the market-implied forty-six-point-five percent. The Sceptic challenged initial scout reports, confirming Venezia's form is stable, not rising, and Reggiana's draw tendency is minimal. These corrections support a tempered goal outlook. The Tactician predicts more goals than Reggiana's typical away matches but fewer than Venezia's average home output. The bookmaker has mis-priced this fixture based on historical high-scoring patterns, underestimating Reggiana's chronic away scoring issues — zero percent Over two-point-five in their last five away matches — and Venezia's defensive solidity at home.\n\nThe Boot Room market: Under two-point-seven-five Goals at odds of two-point-one-five. Confidence: fifty-three percent. This speculative play requires Venezia's dominance to manifest through control rather than a goal fest, with Reggiana's defensive setup limiting spaces. The risk is historical patterns repeating, but current form divergence suggests a lower-scoring affair. Boot Room market: Under two-point-seven-five Goals. Confidence: 53%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Contradiction",
+        "voiceover": "Serie B's most dominant home force faces a team arriving in crisis. The history books promise goals — nearly three per meeting. But the current data reveals a different story. One number has been fundamentally mis-priced.",
+        "graphic_type": "conflict",
+        "graphic_description": "Split screen showing Venezia's majestic home stadium on one side and Reggiana's dejected players after their 4-0 defeat on the other, with 'HISTORY vs FORM' text in the centre.",
+        "graphic_text_overlay": "HISTORY VS FORM"
+      },
+      {
+        "scene": 2,
+        "name": "The Fortress",
+        "voiceover": "Venezia are a machine at home. Twelve wins from fourteen matches. A defence conceding just point-seven-one goals per game. But eight of their twenty-five conceded goals have come in the final fifteen minutes — a critical weakness born of fatigue and fixture congestion.",
+        "graphic_type": "home_card",
+        "graphic_description": "Venezia's team crest with key stats overlaid: 12/14 Home Wins, 0.71 GA/Home, 7 Clean Sheets. A progress bar highlights the 76-90 minute segment.",
+        "graphic_text_overlay": "THE HOME FORTRESS"
+      },
+      {
+        "scene": 3,
+        "name": "The Crisis",
+        "voiceover": "Reggiana travel shattered. A four-nil defeat shattered morale. Their away attack is chronically impotent — averaging under one goal per match. In their last five road trips, not a single game has exceeded two-point-five total goals. Survival instincts demand a defensive shell.",
+        "graphic_type": "away_card",
+        "graphic_description": "Reggiana's crest looking cracked or damaged, with depressing stats: 0.93 GF/Away, 0% Over 2.5 Last 5 Away. A downward trending arrow.",
+        "graphic_text_overlay": "ATTACK IN CRISIS"
+      },
+      {
+        "scene": 4,
+        "name": "The Tactical Lock",
+        "voiceover": "Both teams play three-five-two, but Venezia's execution is superior. Their midfield will dominate possession. Reggiana will sit in a deep, compact block. The Tactician predicts more goals than Reggiana's typical away matches, but fewer than Venezia's average home output. Control, not chaos.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Two identical 3-5-2 formation diagrams side by side. Venezia's is bright, fluid, with arrows showing movement. Reggiana's is static, compact, with a defensive shield icon.",
+        "graphic_text_overlay": "IDENTICAL FORM, DIFFERENT WORLDS"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict",
+        "voiceover": "Our market: Under two-point-seven-five Goals. A four-point-nine percent edge. Odds at two-point-one-five. The bookmakers priced for historical fireworks, but the current data — Reggiana's scoring impotence meeting Venezia's defensive solidity — points to a tempered affair. Confidence: fifty-three percent. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold graphic with 'UNDER 2.75 GOALS' as the central focus. Odds: 2.15 and Confidence: 53% displayed prominently below. The Boot Room logo is present.",
+        "graphic_text_overlay": "UNDER 2.75 GOALS"
+      }
+    ]
+  }
+}

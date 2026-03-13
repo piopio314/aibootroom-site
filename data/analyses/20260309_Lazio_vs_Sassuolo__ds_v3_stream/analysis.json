@@ -1,0 +1,168 @@
+{
+  "key": "20260309_Lazio_vs_Sassuolo__ds_v3_stream",
+  "match": {
+    "home_team": "Lazio",
+    "away_team": "Sassuolo",
+    "league": "Serie A",
+    "date": "2026-03-09",
+    "home_id": 487,
+    "away_id": 488
+  },
+  "prediction": {
+    "direction": "away_value",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — away_value direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 40.0,
+    "score_draw": 29.0,
+    "score_away": 31.0,
+    "reasoning": "(1) MATCH CHARACTER — ASYMMETRIC. The data reveals a clear momentum and tactical advantage for the away side. Sassuolo's cascading profile shows an 80% win rate in their last five matches with a 100% Over 2.5 goals rate, while Lazio's profile is DECLINING with a 0/5 win suitability score and a chronic failure to score. The Tactician's analysis confirms a 'transitional' match where Sassuolo's second-half scoring clusters directly target Lazio's most vulnerable defensive phase. (2) DIRECTION EVIDENCE — The mathematical edge overwhelmingly supports Sassuolo on the Asian Handicap. The EdgeCalculator shows STRONG_VALUE edges on multiple AH Away lines: -0.75 (28.6%), -0.5 (21.5%), and -0.0 (23.9%). This is corroborated by the Auditor's net adjustment recommendation to shift probability +7% to the away win, and the Sceptic's CRITICAL challenge that the Away Scout's 27% win probability severely underestimated Sassuolo's 64% TPM baseline. The cascading matchup convergence shows a STRONG 71% alignment on Over 2.5 goals, but the tactical edge and mathematical value point decisively towards the away team's superiority. (3) AGENTS CONSENSUS — The Tactician (AWAY edge), Sceptic (market overvalues Lazio), Auditor (recommends AH Away), and EdgeCalculator (strong AH Away edges) align on Sassuolo's value. The Quant's sole value bet on Under 2.5 Goals is the primary dissent, but this is contradicted by the 71% form convergence on Over 2.5 and the Tactician's goals expectation. The Home Scout's dire assessment of Lazio's crisis further supports the away value thesis. (4) RISKS — The execution risk is Sassuolo's attack without suspended top scorer Pinamonti. If their tactical reshuffle fails to create chances, they may not capitalise on their superiority. Lazio, despite their struggles, could rally in a derby atmosphere, though the fan boycott mitigates this. The starting XIs remain unconfirmed, adding a layer of uncertainty.",
+    "key_factors": [
+      "Sassuolo's exceptional recent form with four wins from five matches",
+      "Lazio's profound home crisis: fan boycott, managerial conflict, and failure to score in 60% of recent games",
+      "Strong mathematical edge (21.5%+) on Asian Handicap away lines",
+      "Tactical matchup favours Sassuolo's second-half scoring against Lazio's defensive collapses"
+    ],
+    "risk_factors": [
+      "Sassuolo's attack is missing suspended top scorer Andrea Pinamonti",
+      "Unconfirmed starting line-ups for both teams introduce execution risk"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.5 Goals",
+        "prediction": "Over 2.5",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 21.5,
+      "edge_source": "EdgeCalculator our_prob (50.0%) vs market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away -0.75",
+          "edge": 28.6
+        },
+        {
+          "market": "AH Away -0.0",
+          "edge": 23.9
+        },
+        {
+          "market": "AH Away -0.5",
+          "edge": 21.5
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Sceptic, Auditor, and EdgeCalculator align on Sassuolo holding the tactical and value edge. The Quant dissents by flagging Under 2.5 Goals as his sole value bet, a position contradicted by form convergence and tactical analysis. The Scouts are split: the Away Scout underestimates Sassuolo's chances, while the Home Scout's bleak assessment indirectly supports the away value thesis.",
+    "_direction_nobet_reason": "no_line_qualifies (away_value/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 28.6
+  },
+  "display_texts": {
+    "home_position": "#11 (34 pts, -1 GD)",
+    "away_position": "#9 (38 pts, -2 GD)",
+    "home_form": "8W-10D-9L in 27 matches, last 5: LWLLW",
+    "away_form": "11W-5D-11L in 27 matches, last 5: LLWLW",
+    "home_stats": "26 goals in 27 matches (avg 1.0/match), 12 clean sheets",
+    "away_stats": "34 goals in 27 matches (avg 1.3/match), 6 clean sheets",
+    "h2h_history": "Lazio 0-0 Sassuolo (09 Mar 2026)\nSassuolo 1-0 Lazio (14 Sep 2025)\nLazio 1-1 Sassuolo (26 May 2024)\nSassuolo 0-2 Lazio (21 Oct 2023)\nLazio 2-0 Sassuolo (03 May 2023)",
+    "home_injuries": "S. Gigot (Missing Fixture - Ankle Injury), I. Provedel (Missing Fixture - Shoulder Injury), N. Rovella (Missing Fixture - Injury), T. Basic (Questionable - Injury)",
+    "away_injuries": "D. Boloca (Missing Fixture - Muscle Injury), F. Cande (Missing Fixture - Knee Injury), A. Fadera (Missing Fixture - Injury), E. Pieragnolo (Missing Fixture - Knee Injury), A. Pinamonti (Missing Fixture - Red Card)",
+    "api_predictions": "API-Football prediction: Lazio | Probabilities: 35%-35%-30% | Recommendation: Double chance : Lazio or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "2:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Lazio vs Sassuolo: Why The Boot Room Is Passing",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a team's home advantage disappears completely? Lazio host Sassuolo at the Stadio Olimpico with their stadium stripped of its voice by a fan boycott, their manager at war with the board, and their attack having flatlined. Yet the visitors arrive with momentum, winning four of their last five. This should be a clear value opportunity — but our analysis reveals why the smartest move is to walk away.",
+    "chapter_home": "Lazio's season has unravelled into a profound crisis. Sitting eleventh with no European push or relegation threat, they arrive with their home advantage utterly compromised. An active fan boycott against president Lotito will leave the Stadio Olimpico silent, removing any psychological support for a squad already low on confidence. Manager Maurizio Sarri has publicly warned of 'concerning signals' and framed this as a 'year zero', indicating fragile team morale and mounting pressure. Their attack has flatlined, failing to score in three of their last four matches across all competitions. The absence of first-choice goalkeeper Ivan Provedel is a significant blow to a defence already prone to second-half collapses. Lazio's possession-based 4-3-3 produces plenty of passes but precious few goals, with only four of their 27 league games exceeding 2.5 goals. Their cascading form profile shows a DECLINING momentum signal and a 0/5 win suitability score. This is a team in disarray, playing in a stadium without its voice.",
+    "chapter_away": "Sassuolo travel to Rome riding a wave of confidence, having won four of their last five Serie A matches. Their form is IMPROVING, with an 80% win rate in that period and a 100% Over 2.5 goals rate. They sit ninth, with a genuine chance to solidify their position and potentially push for a European spot with a strong finish. Their 4-3-3 setup is structured to exploit opponents in the second half, with 15 of their 34 goals this season coming between the 61st and 75th minutes. However, their momentum faces a critical test. Top scorer Andrea Pinamonti is suspended, removing their primary attacking focal point and forcing a tactical reshuffle. While their recent away victories over Udinese and Pisa show improvement, this represents a significant step up in opponent quality. The Away Scout's assessment slashed their win probability to just 27%, a figure our Sceptic flagged as a critical analytical error that failed to weight their overwhelming recent form evidence against the single absence.",
+    "chapter_history": "The historical pattern between these sides points to a low-scoring, cagey affair. Over ten meetings, Lazio hold a narrow edge with four wins to Sassuolo's three, but the average is just 1.9 goals per match. Only 20% of their encounters have seen over 2.5 goals. The last three meetings have produced just two goals total — two goalless draws and a single 1-0 Sassuolo victory. That most recent clash in September was a tense, ill-tempered affair that featured nine yellow cards. Sassuolo are unbeaten in the last two meetings, but tonight's context flips the script entirely. Both squads are ravaged by absences, with Sassuolo missing five players including their entire attacking unit from that last victory. History suggests caution, but current disruptions make this one of the most unpredictable meetings in recent memory.",
+    "chapter_analysis": "The tactical matchup reveals a clear convergence of weakness and strength. Lazio's possession game, averaging 54% in their last three matches, is likely to dominate the ball but struggle to create against Sassuolo's improving defence. The critical danger zone is the second half. Lazio concede heavily between minutes 46-75 — 13 goals this season — while Sassuolo score 16 in that same period. This creates a direct tactical vulnerability that Sassuolo's system is designed to exploit. Our Tactician identified a clear AWAY edge, citing Sassuolo's superior transition threat and this timing convergence. However, our Quant's analysis created the central conflict. While mathematical edges of over 21% appeared on multiple Asian Handicap away lines, the Quant's sole value bet was on Under 2.5 Goals, citing an 8.3 percentage point edge from his Poisson model. This directly contradicts the 71% STRONG convergence on Over 2.5 Goals from both teams' recent form profiles. The Sceptic challenged the market's overvaluation of Lazio, noting odds implied a 45% home win chance against a data baseline of just 16%. Yet the Auditor flagged the Quant's anchoring to his Poisson model while downplaying contradictory recent form data. The analysis is clear on direction — Sassuolo hold the advantage — but divided on how that advantage manifests.",
+    "chapter_value": "Our market: NO_BET. The mathematical evidence points decisively toward Sassuolo holding value, with the EdgeCalculator showing STRONG_VALUE edges exceeding 21% on Asian Handicap away lines like -0.5 and -0.75. The Auditor recommended shifting probability +7% to the away win. However, our conviction filter requires odds of at least 1.70 with moderate conviction, and no qualifying line meets both criteria. The Quant's alternative value bet on Under 2.5 Goals at 1.83 is directly contradicted by overwhelming form and tactical signals predicting goals. Sometimes the data reveals a clear direction but no executable value. The bookmakers have priced this fixture tightly enough that, despite Sassuolo's apparent edge, no market offers the mathematical security we require. Confidence: 0%.",
+    "ending": "The Boot Room verdict is to pass on Lazio versus Sassuolo. The analysis reveals a home side in profound crisis against a visiting team with surging momentum — a setup that typically creates value. Yet the combination of Sassuolo's missing striker, unconfirmed line-ups, and contradictory signals between mathematical models and recent form creates just enough uncertainty. When our filters cannot find a qualifying edge, discipline demands we wait for the next opportunity. The smartest bet tonight is no bet at all. Boot Room out.",
+    "roundup_summary": "Lazio versus Sassuolo. Lazio sit eleventh in Serie A with one win in their last five at home, their form DECLINING with a failure to score in 60% of recent games. Sassuolo are ninth and rising, with four wins from their last five matches and an 80% win rate in that period. Key absences include Lazio's goalkeeper Ivan Provedel and Sassuolo's suspended top scorer Andrea Pinamonti.\n\nThe head-to-head history is low-scoring, averaging 1.9 goals per meeting. The last three fixtures produced just two goals total — two 0-0 draws and a 1-0 Sassuolo win in September. This season, Lazio score 1.1 and concede 1.1 goals per game, while Sassuolo score 1.3 and concede 1.5. Only 20% of historical meetings saw Over 2.5 goals, though both teams' recent form strongly trends toward higher scores.\n\nThe Boot Room analysis identified a clear tactical edge for Sassuolo, whose second-half scoring clusters directly target Lazio's most vulnerable defensive phase. The EdgeCalculator showed STRONG_VALUE mathematical edges exceeding 21 percentage points on Asian Handicap away lines like -0.5 and -0.75. However, the Quant's Poisson model flagged Under 2.5 Goals as his sole value bet with an 8.3pp edge, a position directly contradicted by the 71% STRONG convergence on Over 2.5 Goals from both teams' cascading form profiles. The Sceptic challenged the market's overvaluation of Lazio, whose implied 45% win probability starkly contrasted with their 16% data baseline. The Auditor noted the Quant anchored too heavily to his Poisson baseline while downplaying contradictory recent evidence. The bookmaker has mis-priced the Asian Handicap away markets, creating theoretical value, but our conviction filter found no qualifying line meeting both odds and conviction thresholds.\n\nThe Boot Room finds no executable value in this fixture. While Sassuolo holds the tactical and momentum advantage, the combination of Pinamonti's absence, unconfirmed line-ups, and contradictory signals between mathematical models and recent form creates insufficient certainty. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Silent Stadium",
+        "voiceover": "What happens when a team's home advantage disappears? Lazio host Sassuolo at a Stadio Olimpico stripped of its voice by a fan boycott. Their manager is at war with the board. Their attack has flatlined. Yet the visitors arrive with four wins from five. This should be value — but our analysis reveals why we are walking away.",
+        "graphic_type": "conflict",
+        "graphic_description": "An empty, silent Stadio Olimpico stands in stark contrast to a vibrant, celebrating Sassuolo squad image. Visual tension between absence and presence.",
+        "graphic_text_overlay": "SILENT HOME ADVANTAGE"
+      },
+      {
+        "scene": 2,
+        "name": "Lazio's Crisis",
+        "voiceover": "Lazio's season has unravelled. An active fan boycott removes psychological support. Manager Sarri warns of 'concerning signals'. Their attack fails to score in 60% of recent games. Goalkeeper Provedel is absent. Their cascading form profile shows DECLINING momentum and a 0/5 win suitability score. This is a team playing in a vacuum.",
+        "graphic_type": "home_card",
+        "graphic_description": "Maurizio Sarri looks isolated on the touchline, with empty stands behind him. Key stats overlay: 0/5 win suitability, 60% failure to score.",
+        "graphic_text_overlay": "CRISIS MODE"
+      },
+      {
+        "scene": 3,
+        "name": "Sassuolo's Momentum",
+        "voiceover": "Sassuolo travel with momentum — four wins from five, an 80% win rate. Their 4-3-3 exploits second-half spaces, scoring 15 goals between minutes 61-75. But their surge faces a critical test: top scorer Pinamonti is suspended. One scout slashed their win probability to 27%. Our Sceptic called this a critical error — failing to weight overwhelming form evidence.",
+        "graphic_type": "away_card",
+        "graphic_description": "Sassuolo players celebrating a goal, with a ghosted image of suspended striker Pinamonti looking on. Stats: 4 wins/5, 80% win rate.",
+        "graphic_text_overlay": "MOMENTUM VS ABSENCE"
+      },
+      {
+        "scene": 4,
+        "name": "The Tactical Convergence",
+        "voiceover": "The matchup reveals a perfect storm of weakness meeting strength. Lazio concede 13 goals between minutes 46-75. Sassuolo score 16 in that exact period. Our Tactician identified a clear AWAY edge — Sassuolo's transition game targets Lazio's most vulnerable phase. But here lies the conflict.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A split-screen timeline showing Lazio's conceded goals (red bars) and Sassuolo's scored goals (green bars) both peaking dramatically between the 46th and 75th minutes.",
+        "graphic_text_overlay": "DANGER ZONE: 46-75'"
+      },
+      {
+        "scene": 5,
+        "name": "The Mathematical Divide",
+        "voiceover": "Our EdgeCalculator shows STRONG_VALUE edges over 21% on Asian Handicap away lines. The Auditor recommended shifting probability +7% to Sassuolo. Yet our Quant's sole value bet was on Under 2.5 Goals — directly contradicting the 71% form convergence on Overs. The data agrees on direction, but divides on execution.",
+        "graphic_type": "evidence",
+        "graphic_description": "A split graphic: left side shows 'AH Away -0.5 | EDGE: 21.5%' in green; right side shows 'Under 2.5 Goals | EDGE: 8.3%' in amber, with a large 'CONTRADICTION' stamp between them.",
+        "graphic_text_overlay": "DATA DIVIDE"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict: Discipline",
+        "voiceover": "Our market: NO_BET. Mathematical edges exist, but no qualifying line meets our conviction and odds filters. The Quant's alternative is contradicted by form. Sometimes the smartest bet is no bet at all — when certainty fractures, discipline demands we wait. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, minimalist card with 'NO BET' in large, bold type. Below, smaller text: 'Confidence: 0% | Edge identified, but no qualifying line.'",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

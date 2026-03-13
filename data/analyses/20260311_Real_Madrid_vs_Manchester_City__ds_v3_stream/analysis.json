@@ -1,0 +1,175 @@
+{
+  "key": "20260311_Real_Madrid_vs_Manchester_City__ds_v3_stream",
+  "match": {
+    "home_team": "Real Madrid",
+    "away_team": "Manchester City",
+    "league": "UEFA Champions League",
+    "date": "2026-03-11",
+    "home_id": 541,
+    "away_id": 50
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 35.0,
+    "score_draw": 27.0,
+    "score_away": 38.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING fixture. The cascading profile convergence shows 86% alignment on Over 2.5 Goals and 92% on BTTS Yes. Both teams score consistently (Real Madrid failed to score in 0/5 home matches, Manchester City in 0/4 away) but defend poorly, with Real Madrid keeping just one clean sheet in five at home and Manchester City one in four away. The Tactician's match character prediction is 'Open and transitional... points toward an open, high-scoring encounter'. (2) DIRECTION EVIDENCE — The Quant identifies a 14.0% edge on Over 2.5 Goals (Poisson 62.0% vs market 48.0%), the largest gap among all markets. The Poisson λ sum (implied by the 62% probability) points to an expected total goals well above 2.5. The Edge Calculator shows positive edges on multiple Over lines (Over 3.25 Goals at 17.7%, Over 2.75 Goals at 11.1%). This is supported by H2H history averaging 3.0 goals with 60% Over 2.5 rate. (3) AGENTS CONSENSUS — The Quant, Tactician, and Archivist all align on a high-scoring outcome. The Tactician's analysis supports the goals market conclusions, and the Archivist notes the historical high-scoring pattern. The Auditor explicitly recommends Over 2.5 Goals as the only viable market, citing convergence between quantitative and qualitative signals. The Sceptic dissents with a NO_BET verdict due to the extreme data-to-market divergence on the result, but this conflict primarily affects Asian Handicap markets, not the goals direction. The Scouts are split on result but both highlight defensive vulnerabilities that support goals. (4) RISKS — The primary risk is that Real Madrid's injury crisis (missing Mbappé, Bellingham, Rodrygo) blunts their attack more severely than historical data suggests, potentially reducing their goal output. Manchester City's away scoring consistency (scored in all 4 away matches) could falter under European pressure. The rotation risk from the Champions League fixture conflict adds uncertainty to team selection and intensity. The Sceptic's veto on confidence due to the market-data divergence caps our conviction, though the statistical edge on Over 2.5 is sufficient to override a full NO_BET.",
+    "key_factors": [
+      "Strong 86% profile convergence on Over 2.5 Goals from both teams' recent form",
+      "Quant identifies 14.0% mathematical edge on Over 2.5 Goals (62.0% Poisson vs 48.0% market)",
+      "Both teams show high BTTS tendency (Real Madrid 75%, Manchester City 50%) and defensive vulnerabilities",
+      "H2H history averages 3.0 goals with 60% Over 2.5 rate"
+    ],
+    "risk_factors": [
+      "Catastrophic injury crisis for Real Madrid may blunt attack beyond model adjustments",
+      "Rotation risk from Champions League fixture conflict in 0 days for both teams",
+      "Market prices Manchester City as favourite contradicting performance data, creating fundamental uncertainty"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 3.25 Goals",
+        "prediction": "Over 3.25",
+        "confidence": 47
+      },
+      {
+        "market": "BTTS Yes",
+        "prediction": "BTTS Yes",
+        "confidence": 52
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 14.0,
+      "edge_source": "Quant probability minus market implied probability",
+      "edge_grade": "STRONG_VALUE (≥10%)",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 2.5 Goals",
+          "edge": 14.0
+        },
+        {
+          "market": "BTTS Yes",
+          "edge": 13.0
+        },
+        {
+          "market": "Over 3.5 Goals",
+          "edge": 10.0
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Quant, Tactician, and Auditor agree on the Over 2.5 Goals direction, supported by the Archivist's historical context. The Sceptic dissents with a NO_BET verdict due to market-data divergence, but this conflict primarily affects result markets. The Scouts are conflicted on the match outcome but both highlight defensive vulnerabilities that support goals.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.19,
+    "max_edge": 48.4
+  },
+  "display_texts": {
+    "home_position": "#9 (15 pts, +9 GD)",
+    "away_position": "#8 (16 pts, +6 GD)",
+    "home_form": "7W-0D-3L in 10 matches, last 5: WWWLW",
+    "away_form": "5W-1D-2L in 8 matches, last 5: WDWWL",
+    "home_stats": "24 goals in 10 matches (avg 2.4/match), 3 clean sheets",
+    "away_stats": "15 goals in 8 matches (avg 1.9/match), 3 clean sheets",
+    "h2h_history": "Manchester City 0-0 Real Madrid (17 Mar 2026)\nReal Madrid 0-0 Manchester City (11 Mar 2026)\nReal Madrid 1-2 Manchester City (10 Dec 2025)\nReal Madrid 3-1 Manchester City (19 Feb 2025)\nManchester City 2-3 Real Madrid (11 Feb 2025)",
+    "home_injuries": "D. Alaba (Missing Fixture - Calf Injury), J. Bellingham (Missing Fixture - Hamstring Injury), A. Carreras (Missing Fixture - Calf Injury), D. Ceballos (Missing Fixture - Muscle Injury), Eder Militao (Missing Fixture - Hamstring Injury)",
+    "away_injuries": "J. Gvardiol (Missing Fixture - Broken Leg), M. Kovacic (Missing Fixture - Heel Injury), R. Lewis (Missing Fixture - Ankle Injury), S. Nypan (Missing Fixture - Inactive)",
+    "api_predictions": "API-Football prediction: Real Madrid | Probabilities: 45%-45%-10% | Recommendation: Double chance : Real Madrid or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "3:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Real Madrid vs Man City: Why We're NOT Betting This UCL Clash",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a 94.8% mathematical probability for a home win collides with a market pricing the visitors as favourites? This isn't just a tactical mismatch — it's a fundamental data crisis. Real Madrid's catastrophic injury crisis has created a statistical black hole where every performance metric contradicts the bookmakers' odds. Tonight, we're not looking for value. We're looking for truth.",
+    "chapter_home": "Real Madrid arrive at the Bernabéu with a formidable home record — four wins from five, averaging four goals per game in recent outings. Yet their squad is a ghost of its former self. The injury list reads like a who's who of world football: Kylian Mbappé, Jude Bellingham, Rodrygo, Éder Militão, and David Alaba. This isn't just missing key players — it's the systematic removal of their entire attacking spine and defensive leadership. The mathematical baseline suggests a 94.8% probability of a home win, but that data was built with a fully-fit squad. The reality is a team forced into a complete tactical recalibration with severely diminished quality. Their home advantage is legendary, but tonight it faces its ultimate stress test against a depleted lineup.",
+    "chapter_away": "Manchester City travel to Madrid with their own narrative. Their away form shows vulnerability — a recent 3-1 defeat and just one clean sheet in four road matches. They're missing Josko Gvardiol and Mateo Kovačić, reducing defensive stability and midfield depth. Yet their attack consistently finds the net away from home, scoring in all four of their recent away fixtures. Pep Guardiola's side averages 66.7% possession in their last three matches, suggesting they can control the midfield battle. The market prices them as 50% favourites, a position that directly contradicts every available performance metric favouring Real Madrid. This creates the central conflict: either the market possesses critical undisclosed information, or a monumental mispricing exists.",
+    "chapter_history": "History between these giants tells a story of high-scoring drama. Their last ten meetings average three goals per game, with 60% finishing over 2.5 goals. Three of the last four encounters have ended in draws, suggesting a recent trend toward stalemate in explosive contests. Manchester City arrive unbeaten in the last three meetings. Yet this historical script is being rewritten in real time. Real Madrid's unprecedented injury crisis overrides any psychological edge from past results. The pattern says goals — but the personnel sheet screams uncertainty.",
+    "chapter_analysis": "The tactical matchup reveals a brutal collision. Real Madrid's 4-2-3-1, stripped of its stars, faces Manchester City's 4-1-4-1 with a structural midfield advantage. Watch the 16-30 minute period — Madrid's strongest scoring window directly targets City's most vulnerable defensive phase. Both teams' cascading profiles show 86% convergence on Over 2.5 goals and 92% on Both Teams to Score. The Quant identifies a 14.0% mathematical edge on Over 2.5, with Poisson probability at 62.0% versus a market price of just 48.0%. Yet here lies the Sceptic's critical challenge. The market's pricing of Manchester City as favourite contradicts every data source, creating an unresolvable conflict. Is this insider knowledge about Madrid's crisis being worse than reported? Or a market error so large it invalidates all models? The Auditor flags this as a fundamental direction conflict — the goals data says one thing, but the result pricing says another.",
+    "chapter_value": "Our market: NO_BET. The mathematical edge on Over 2.5 goals is substantial at 14.0%, with fair odds at 1.61 against a market price of 2.08. Yet the Sceptic's veto stands — the extreme divergence between market pricing and all performance data creates uncertainty that cannot be resolved. When the bookmakers price Manchester City at 50% to win while every metric screams Real Madrid dominance, either critical information is missing or the market is fundamentally broken. In such conditions, no mathematical edge is credible enough to override the qualitative contradiction. Sometimes the smartest play is to walk away.",
+    "ending": "The Boot Room verdict is clear: pass on this fixture. Confidence sits at 0%. The data suggests a high-scoring encounter, but the market's contradictory pricing creates a black box of uncertainty. Real Madrid's injury crisis versus Manchester City's structural advantage — it's a fascinating tactical puzzle, but not a betting opportunity. When the numbers and the market tell completely different stories, the only rational position is no position at all. If you value clear-eyed analysis over forced predictions, subscribe to AI Boot Room for more uncompromising match breakdowns. Boot Room out.",
+    "roundup_summary": "Real Madrid versus Manchester City in the UEFA Champions League presents a statistical anomaly of epic proportions. The hosts sit with formidable home form, winning four of their last five at the Bernabéu while averaging four goals per game. Yet they face this clash without seven first-team players, including their entire attacking spine of Mbappé, Bellingham, and Rodrygo. Manchester City travel with mixed away form, scoring consistently but keeping just one clean sheet in four road matches. Their last away outing ended in a 3-1 defeat.\n\nHead-to-head history favours entertainment, with the last ten meetings averaging 3.0 goals and 60% finishing over 2.5 goals. Three of the last four encounters have ended in draws. This season, Real Madrid have scored in 100% of home matches while conceding in 80%. Manchester City have scored in 100% of away matches while conceding in 75%. The historical trend clearly points toward goals.\n\nThe Boot Room analysis reveals a 14.0% mathematical edge on Over 2.5 goals, with Poisson probability at 62.0% against a market-implied 48.0%. The Quant's model shows strong convergence from both teams' cascading profiles — 86% alignment on Over 2.5 and 92% on Both Teams to Score. Yet the Sceptic raises a critical concern: the market prices Manchester City as 50% favourites, directly contradicting every performance metric that shows a 94.8% mathematical baseline for a Real Madrid win. This extreme data-to-market divergence suggests either insider knowledge about Madrid's injuries being catastrophic beyond reports, or a fundamental market mispricing. The Auditor confirms this conflict invalidates any Asian Handicap value, leaving only goals markets with statistical edges — but even these suffer from the overarching uncertainty.\n\nThe Boot Room verdict is NO_BET at odds of 0 with 0% confidence. While the goals direction appears strong, the market's contradictory pricing on the result creates unresolvable uncertainty that overrides any mathematical edge. When data and market tell completely different stories, the only rational position is to pass. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "Real Madrid host Manchester City in a UEFA Champions League clash defined by contradiction. The hosts are ravaged by injuries — missing Mbappé, Bellingham, and Rodrygo — yet their mathematical home win probability stands at 94.8%. Manchester City travel as market favourites despite recent away vulnerability. Head-to-head history averages three goals per meeting. The Boot Room identifies a 14.0% edge on Over 2.5 goals, but the market's pricing of City as favourites creates a fundamental data conflict that cannot be resolved. The verdict: NO_BET at 0, 0% confidence. When numbers and market tell different stories, the smart move is to walk away. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Data Black Hole",
+        "voiceover": "94.8%. That's the mathematical probability of a Real Madrid win tonight. Yet the market prices Manchester City as favourites. This isn't a tactical puzzle — it's a data crisis. Either the bookmakers know something catastrophic about Madrid's injuries, or we're witnessing a market error of epic proportions.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual: left side shows '94.8% HOME WIN' in bold data font over a Bernabéu backdrop; right side shows '50% AWAY FAVOURITE' in bookmaker odds font over an Etihad silhouette. A large red 'CONFLICT' stamp overlaps both.",
+        "graphic_text_overlay": "94.8% vs 50%"
+      },
+      {
+        "scene": 2,
+        "name": "Madrid's Ghost Squad",
+        "voiceover": "Real Madrid's injury list reads like a Champions League all-star team. Mbappé, Bellingham, Rodrygo — their entire attacking spine removed. Militão and Alaba — their defensive leadership gone. The data says four goals per game at home. The team sheet says a shadow squad fighting for identity.",
+        "graphic_type": "home_card",
+        "graphic_description": "A stylised team sheet with red crosses through the names Mbappé, Bellingham, Rodrygo, Militão, Alaba. The Bernabéu stands loom in the background, partially empty due to UEFA sanctions.",
+        "graphic_text_overlay": "CATASTROPHIC ABSENCES"
+      },
+      {
+        "scene": 3,
+        "name": "City's Contradictory Position",
+        "voiceover": "Manchester City travel with vulnerability — one clean sheet in four away matches, a recent 3-1 defeat. Yet the market installs them as favourites. Their attack scores consistently on the road, but their defensive lapses in the 16-30 minute period directly target Madrid's strongest scoring window.",
+        "graphic_type": "away_card",
+        "graphic_description": "Pep Guardiola looking tactical on touchline, with conflicting stats floating around him: '100% AWAY SCORING' vs '1 CLEAN SHEET IN 4'. A clock highlights the 16-30 minute period.",
+        "graphic_text_overlay": "SCORES BUT LEAKS"
+      },
+      {
+        "scene": 4,
+        "name": "The Goals Evidence",
+        "voiceover": "The numbers scream goals. 86% profile convergence on Over 2.5. 92% on Both Teams to Score. Poisson probability shows a 14.0% edge — 62.0% chance versus a 48.0% market price. History averages three goals per meeting. Every metric points to an open, high-scoring encounter.",
+        "graphic_type": "evidence",
+        "graphic_description": "A clean, data-heavy graphic showing: 'OVER 2.5 GOALS: 86% CONVERGENCE', 'BTTS YES: 92% CONVERGENCE', 'POISSON EDGE: +14.0%'. An upward arrow trends through the numbers.",
+        "graphic_text_overlay": "THE GOALS CASE"
+      },
+      {
+        "scene": 5,
+        "name": "The Unresolvable Conflict",
+        "voiceover": "But here's the rupture. That 14.0% edge exists in a vacuum. The market's pricing of City as favourite contradicts every data source. The Sceptic's warning is critical — this divergence suggests either insider knowledge or a broken market. When qualitative and quantitative signals conflict this severely, no mathematical edge is credible.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A scale balancing on one side: 'QUANTITATIVE: 94.8% HOME WIN, +14.0% GOALS EDGE'. On the other: 'MARKET: 50% AWAY FAVOURITE'. The scale is violently tilted, with a 'WARNING' sign flashing.",
+        "graphic_text_overlay": "DATA vs MARKET"
+      },
+      {
+        "scene": 6,
+        "name": "The Only Rational Verdict",
+        "voiceover": "Our market: NO_BET. Odds: 0. Confidence: 0%. The goals direction is strong, but the market's contradictory pricing creates uncertainty that overrides all edges. When numbers and bookmakers tell completely different stories, the smartest move is to walk away. Sometimes the best bet is no bet at all. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final graphic with 'NO BET' in large, decisive font. Below: 'ODDS: 0 | CONFIDENCE: 0%'. The AI Boot Room logo is prominent.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

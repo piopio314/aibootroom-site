@@ -1,0 +1,107 @@
+{
+  "key": "20260310_Millwall_vs_Derby__ds_v3_stream",
+  "match": {
+    "home_team": "Millwall",
+    "away_team": "Derby",
+    "league": "Championship",
+    "date": "2026-03-10",
+    "home_id": 58,
+    "away_id": 69
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 48.8,
+    "score_draw": 28.4,
+    "score_away": 22.8,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading profiles show a 93% convergence on Over 2.5 Goals, the strongest signal available. Both teams' scoring trends are INCREASING, with Millwall averaging 2.2 goals and Derby 1.8 goals per match over their last five. The historical low-scoring H2H pattern (1.8 average) is directly contradicted by current offensive form and structural vulnerabilities. (2) DIRECTION EVIDENCE — The Quant identifies a 12 percentage point positive gap for Over 2.5 Goals (Poisson 60% vs market 48%), with HIGH confidence. This is supported by the Tactician's 'goals_impact' statement expecting more goals than the historical average, and the EdgeCalculator showing strong value on Over 2.75 Goals (35.5% edge) and Over 2.25 Goals (29.6% edge). The λ sum (implied by Poisson probabilities) points decisively toward a higher-scoring outcome. (3) AGENTS CONSENSUS — The Quant, Tactician, and both Scouts (via their attack strength ratings and goal timing analysis) align on a high-scoring expectation. The Archivist notes the historical low-scoring trend but this is outweighed by current data. The Sceptic's 'surprise scenario' is a high-scoring Derby victory, further supporting the over_goals thesis. The Auditor APPROVES the Over 2.5 market as the recommended play. The only dissent is historical, not current. (4) RISKS — The primary risk is the extensive injury list for both teams (Millwall 5, Derby 7) potentially disrupting attacking cohesion. The Sceptic's CRITICAL challenge regarding Derby's worsening away defensive trend is valid but is already reflected in the high goal expectation model. The mandatory rotation risk confidence cap (max 55%) is acknowledged and applied.",
+    "key_factors": [
+      "93% cascading profile convergence on Over 2.5 Goals from both teams",
+      "Quant's 12pp positive probability gap for Over 2.5 with HIGH confidence",
+      "Both teams show INCREASING scoring trends in recent form",
+      "Tactical timing vulnerabilities: Derby's late-game defence vs Millwall's late surge",
+      "EdgeCalculator shows strong mathematical edge on multiple Over markets"
+    ],
+    "risk_factors": [
+      "Extensive injury lists for both sides (Millwall 5, Derby 7) may disrupt attacking patterns",
+      "Derby's recent away defensive decline (conceding 6 goals in last 2 away matches)",
+      "Mandatory rotation risk confidence cap due to fixture congestion"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 12.0,
+      "edge_source": "Quant probability minus market implied probability",
+      "edge_grade": "STRONG_VALUE (≥10%)",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away -0.75",
+          "edge": 40.3
+        },
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 35.5
+        },
+        {
+          "market": "AH Away -0.5",
+          "edge": 33.8
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Quant, Tactician, Auditor, and both Scouts align on a high-scoring match expectation, supported by 93% profile convergence. The Archivist provides historical context but current data overrides it. The Sceptic's challenges focus on form misrepresentation rather than disputing the goal expectation.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 40.3
+  },
+  "display_texts": {
+    "home_position": "#3 (65 pts, +9 GD)",
+    "away_position": "#7 (54 pts, +7 GD)",
+    "home_form": "19W-8D-9L in 36 matches, last 5: WLWLD",
+    "away_form": "15W-9D-12L in 36 matches, last 5: LLDDW",
+    "home_stats": "50 goals in 36 matches (avg 1.4/match), 14 clean sheets",
+    "away_stats": "54 goals in 36 matches (avg 1.5/match), 8 clean sheets",
+    "h2h_history": "Millwall 0-0 Derby (10 Mar 2026)\nDerby 1-1 Millwall (10 Dec 2025)\nDerby 0-1 Millwall (22 Feb 2025)\nMillwall 1-1 Derby (19 Oct 2024)\nDerby 1-2 Millwall (23 Feb 2022)",
+    "home_injuries": "L. Jensen (Missing Fixture - Muscle Injury), D. Kelly (Missing Fixture - Injury), M. Luongo (Missing Fixture - Knee Injury), J. Bryan (Questionable - Injury), C. Taylor (Questionable - Inactive)",
+    "away_injuries": "D. Batth (Missing Fixture - Muscle Injury), C. Elder (Missing Fixture - Inactive), M. Johnston (Missing Fixture - Hamstring Injury), S. Langas (Missing Fixture - Hamstring Injury), L. Salvesen (Missing Fixture - Muscle Injury)",
+    "api_predictions": "API-Football prediction: Millwall | Probabilities: 45%-45%-10% | Recommendation: Double chance : Millwall or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:0",
+    "market": "NO BET"
+  }
+}

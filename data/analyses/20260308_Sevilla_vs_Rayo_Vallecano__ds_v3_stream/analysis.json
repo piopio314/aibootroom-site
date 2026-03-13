@@ -1,0 +1,169 @@
+{
+  "key": "20260308_Sevilla_vs_Rayo_Vallecano__ds_v3_stream",
+  "match": {
+    "home_team": "Sevilla",
+    "away_team": "Rayo Vallecano",
+    "league": "La Liga",
+    "date": "2026-03-08",
+    "home_id": 536,
+    "away_id": 728
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 37.0,
+    "score_draw": 34.3,
+    "score_away": 28.7,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician explicitly predicts a 'tight and tactical' match with 'fewer goals than average'. Both teams deploy identical 4-2-3-1 formations, show similar possession profiles, and have high draw tendencies. The historical average of 1.9 goals per meeting and Sevilla's home tendency for low-scoring games (only 2 of 13 home games exceeded 2.5 goals) reinforce this character. (2) DIRECTION EVIDENCE — The Auditor's adjusted probabilities place Under 2.5 Goals at 60%, a significant premium over the market's implied 50%. The Cascading Profile convergence shows a STRONG 60% alignment on the Draw market and a MODERATE 57% on Over 2.5, but the underlying data reveals why Under is the correct play: Sevilla's home attack averages just 0.8 goals per match in their last five, while Rayo's away defence concedes 2.5 per match but their attack only scores 0.5. The λ sum (implied goal expectancy) is low, and the H2H shows only 30% of meetings exceed 2.5 goals. (3) AGENTS CONSENSUS — The Archivist, Tactician, and Auditor all signal a low-scoring affair. The Sceptic's challenge on defensive data quality is acknowledged but does not veto the underlying low-goal narrative. The Quant shows no probability gaps, indicating market efficiency, but the Auditor's adjustment based on qualitative factors creates the edge. The biggest dissent comes from the EdgeCalculator's anomalous 15.4% edge on AH Home -1.25, which is contradicted by every qualitative agent and deemed a statistical artefact by the Auditor. (4) RISKS — The primary risk is Rayo's chronically poor away defence (2.5 GA/m last five away) being exploited if Sevilla's late-game threat materialises. Sevilla's fan protest could create a volatile atmosphere that disrupts the expected tactical cageyness. Both teams' scoring is concentrated in specific windows (Rayo 31-45', Sevilla 76-90'), meaning a goal in either period could open the game. The rotation risk cap (European fixture conflict) limits confidence to 55% maximum, acknowledging uncertain team selection.",
+    "key_factors": [
+      "Historical meeting average of 1.9 goals with 70% Under 2.5 rate",
+      "Both teams exhibit high draw tendencies (Sevilla 60%, Rayo 40% in recent form)",
+      "Sevilla's chronically weak home attack (0.8 GF/m last five home matches)",
+      "Tactical mirror-match with identical 4-2-3-1 formations promising midfield congestion"
+    ],
+    "risk_factors": [
+      "Rayo Vallecano's poor away defensive record (2.5 GA/m last five away)",
+      "Sevilla's planned fan protest creating potential for volatile atmosphere",
+      "European fixture rotation risk for Rayo in four days"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Draw",
+        "prediction": "Draw",
+        "confidence": 48
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 10.0,
+      "edge_source": "Auditor adjusted probability (60%) minus market implied probability (50%)",
+      "edge_grade": "VALUE",
+      "staking_signal": "MARGINAL",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Home -1.25",
+          "edge": 15.4
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "edge": 10.0
+        },
+        {
+          "market": "Under 1.25 Goals",
+          "edge": 1.5
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Archivist, Tactician, and Auditor align on a low-scoring, draw-prone match character. The Home and Away Scouts' assessments of defensive weaknesses create some conflict, but their underlying data supports the low-goal thesis. The Sceptic challenges data quality but doesn't veto. The Quant shows market efficiency with no gaps, while the EdgeCalculator presents an anomalous high edge on AH Home -1.25 that is universally contradicted by qualitative analysis.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 15.4
+  },
+  "display_texts": {
+    "home_position": "#13 (30 pts, -7 GD)",
+    "away_position": "#12 (30 pts, -6 GD)",
+    "home_form": "8W-6D-12L in 26 matches, last 5: LLWDW",
+    "away_form": "7W-9D-10L in 26 matches, last 5: WLDLD",
+    "home_stats": "34 goals in 26 matches (avg 1.3/match), 5 clean sheets",
+    "away_stats": "26 goals in 26 matches (avg 1.0/match), 8 clean sheets",
+    "h2h_history": "Sevilla 0-0 Rayo Vallecano (08 Mar 2026)\nRayo Vallecano 0-1 Sevilla (28 Sep 2025)\nRayo Vallecano 1-1 Sevilla (01 Mar 2025)\nSevilla 1-0 Rayo Vallecano (24 Nov 2024)\nRayo Vallecano 1-2 Sevilla (05 Feb 2024)",
+    "home_injuries": "Marcao (Missing Fixture - Knee Injury), N. Maupay (Missing Fixture - Hamstring Injury), Peque (Missing Fixture - Ankle Injury), G. Suazo (Missing Fixture - Yellow Cards)",
+    "away_injuries": "D. Mendez (Missing Fixture - Injury)",
+    "api_predictions": "API-Football prediction: Sevilla | Probabilities: 35%-35%-30% | Recommendation: Double chance : Sevilla or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Sevilla vs Rayo: The Mid-Table Stalemate Trap",
+    "thumbnail_text": "NO BET ALERT",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when two mirror-image, draw-prone sides collide in a fixture historically defined by stalemates? Sevilla versus Rayo Vallecano presents a tactical puzzle where the data points clearly in one direction — but the market refuses to offer a price worth taking. This is the story of a match where the smartest play might be to walk away.",
+    "chapter_home": "Sevilla arrive at the Ramón Sánchez-Pizjuán with a stable but unspectacular run of form, unbeaten in their last four matches across all competitions. Yet their home record this season tells a different story — just four wins from thirteen attempts, with a concerning 31% home win rate. Their attack at home has been chronically weak, averaging just 0.8 goals per match in their last five outings. Injuries to forward N. Maupay and defender Marcao test their squad depth, while a planned fan protest against referees threatens to create a volatile atmosphere. Their strength lies in late-game drama, with eight goals scored between the 76th and 90th minutes, but they lack the consistency to kill games off, evidenced by a 60% draw rate in their recent form. This is a side stuck in mid-table purgatory, with little to play for beyond local pride.",
+    "chapter_away": "Rayo Vallecano travel with their chronic away frailties laid bare — just three wins all season on the road. Their recent form shows a stubborn resilience, grinding out draws against top-half opposition like Real Betis and Real Madrid, but their underlying away metrics are weak. They concede 2.5 goals per match in their last five away games, with a 0% clean sheet rate in that period. Off-field chaos surrounds the squad: captain Álvaro García has publicly criticised club travel conditions, key midfielder Óscar Trejo has announced his departure, and fan protests create a distracting backdrop. Their tactical identity is clear — a 4-2-3-1 formation with a concentration of scoring in the 31-45 minute period — but their poor away defensive record and low morale suggest they will set up to frustrate rather than dominate.",
+    "chapter_history": "History screams caution. This fixture averages just 1.9 goals per meeting, with 70% of games finishing under 2.5 goals. Draws account for 40% of all encounters — a clear signal of how evenly contested these matches often are. Sevilla hold the psychological edge, unbeaten in their last five meetings against Rayo, but those victories have often required late drama, like their 87th-minute winner in the most recent clash. The pattern is undeniable: tight margins, low scoring, and a high probability of stalemate. When two mid-table sides with identical points collide, history suggests they cancel each other out.",
+    "chapter_analysis": "The tactical matchup is a mirror image — both teams deploy identical 4-2-3-1 formations, show similar possession profiles, and exhibit high draw tendencies. The Tactician predicts a 'tight and tactical' match with 'fewer goals than average,' pointing to midfield congestion and limited chances. Our analysis reveals a critical timing battle: Rayo's strongest scoring window between the 31st and 45th minutes directly targets Sevilla's weakest defensive segment, while Sevilla's late-game threat meets Rayo's vulnerability in the final 15 minutes. The Sceptic challenged our initial assessments, noting that Sevilla's home form is improving defensively and that Rayo's away defensive data is far worse than their all-venue statistics suggest. These points were acknowledged but do not veto the underlying low-goal narrative. The Auditor's adjusted probabilities place Under 2.5 Goals at 60%, a significant premium over the market's implied 50%. However, the Quant shows no probability gaps across Asian handicap or goal total markets, indicating the bookmakers have priced this efficiently against the Poisson baseline.",
+    "chapter_value": "Our market: NO_BET. The Auditor identified a 10% edge on Under 2.5 Goals, but our conviction is only moderate, and no available line meets our minimum odds threshold of 1.70. The EdgeCalculator flagged a 15.4% edge on AH Home -1.25, but every qualitative agent — the Tactician, Sceptic, and Archivist — contradicted this, deeming a Sevilla win by two or more goals highly improbable. The market appears efficiently priced, with no significant mispricing detected. Sometimes the data points clearly to a match character — in this case, a low-scoring draw — but the bookmakers refuse to offer value. That is the situation here.",
+    "ending": "The Boot Room verdict is to pass on this fixture. The analysis points toward a cagey, low-scoring affair with a high draw probability, but the market has priced that narrative efficiently. Our confidence in any single market reaching our value threshold is 0%. In betting, discipline is as important as insight — knowing when to walk away is a skill. This is one of those times. If you found this analysis valuable, subscribe to the AI Boot Room for more data-driven match breakdowns. Boot Room out.",
+    "roundup_summary": "Sevilla versus Rayo Vallecano. Both sides sit level on 30 points in 12th and 13th place respectively in La Liga, separated only by goal difference. Sevilla's form shows stability with three draws in their last five, while Rayo have taken eight points from their last five matches against strong opposition. Sevilla's home attack averages just 0.8 goals per match recently, and they face this match without forward N. Maupay. Rayo travel with chronic away frailties, conceding 2.5 goals per match in their last five on the road.\n\nThe head-to-head record reveals a pattern of low-scoring stalemates. The last five meetings have seen Sevilla unbeaten with three wins and two draws, but the historical average is just 1.9 goals per encounter. Seventy percent of meetings finish under 2.5 goals, and draws occur in 40% of fixtures. This season, Sevilla score 1.38 goals per home game but concede 1.31, while Rayo score 0.85 and concede 1.69 away from home.\n\nThe Boot Room analysis identified a clear under-goals direction. The Poisson λ values implied a low goal expectancy, and the Tactician predicted a 'tight and tactical' match with midfield congestion. The Auditor's adjusted probability for Under 2.5 Goals was 60%, creating a 10-percentage-point edge over the market's implied 50%. The Sceptic's primary concern was the Home Scout's material downgrade of Sevilla's win probability, which ignored improving defensive trends. This was acknowledged but did not alter the low-scoring thesis. The bookmaker's efficient pricing across Asian handicap lines, with zero probability gaps detected by the Quant, meant the perceived edge on Under 2.5 Goals was not sufficient to overcome our moderate conviction and minimum odds filter.\n\nThe verdict is to avoid this fixture. The market is efficiently priced, and no line offers the required combination of value and conviction. The risk of Rayo's poor away defence being exploited or Sevilla's fan protest creating volatility is not compensated by the available odds. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Stalemate Trap",
+        "voiceover": "What happens when two mirror-image mid-table sides collide? Sevilla and Rayo Vallecano — level on points, identical in formation, and both chronically draw-prone. History says this fixture averages just 1.9 goals. Seventy percent of meetings finish under 2.5. But here is the puzzle — the market sees it too, and refuses to offer a price worth taking.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual showing Sevilla and Rayo badges with identical 4-2-3-1 formation diagrams overlaying a low '1.9' goals statistic.",
+        "graphic_text_overlay": "MIRROR IMAGE COLLISION"
+      },
+      {
+        "scene": 2,
+        "name": "Sevilla's Home Paradox",
+        "voiceover": "Sevilla are unbeaten in four matches, yet their home record is a concern. Just four wins from thirteen at the Ramón Sánchez-Pizjuán. Their attack averages 0.8 goals per match recently. A fan protest brews, and injuries test their depth. Their strength is late — eight goals in the final 15 minutes — but they struggle to find a decisive edge.",
+        "graphic_type": "home_card",
+        "graphic_description": "A moody image of the empty Ramón Sánchez-Pizjuán stadium with key stats overlaid: '4/13 Home Wins', '0.8 GF/m last 5', '60% Draw Rate'.",
+        "graphic_text_overlay": "HOME STRUGGLES"
+      },
+      {
+        "scene": 3,
+        "name": "Rayo's Road Woes",
+        "voiceover": "Rayo Vallecano travel with chaos in their wake. The captain criticises the club, a legend departs, and their away defence is in tatters — conceding 2.5 goals per match recently. They are draw specialists on the road, setting up to frustrate. Their tactical clock ticks between the 31st and 45th minutes, targeting Sevilla's weak defensive segment.",
+        "graphic_type": "away_card",
+        "graphic_description": "A visual of a Rayo player looking isolated, with travelling arrows pointing downwards. Stats: '2.5 GA/m Away', '0% Clean Sheet Rate', 'Scoring: 31-45''.",
+        "graphic_text_overlay": "AWAY CHAOS"
+      },
+      {
+        "scene": 4,
+        "name": "The Timing Battle",
+        "voiceover": "This is a match defined by the clock, not territory. Rayo's first-half precision targets Sevilla's defensive lapse. Sevilla's late-game threat meets Rayo's final-minute frailty. Two identical 4-2-3-1 systems promise midfield congestion. The Tactician calls it 'tight and tactical' — a recipe for few chances and even fewer goals.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "An animated tactical board showing two identical 4-2-3-1 formations clashing in midfield. Clock graphics highlight '31-45'' and '76-90'' zones.",
+        "graphic_text_overlay": "TACTICAL CHESS MATCH"
+      },
+      {
+        "scene": 5,
+        "name": "The Value Void",
+        "voiceover": "Our Auditor saw a 10% edge on Under 2.5 Goals. But our conviction was only moderate, and no line met our odds threshold. The Quant found zero probability gaps — the market is efficiently priced. A statistical anomaly suggested a huge edge on a Sevilla romp, but every qualitative agent rejected it. The data says low goals. The market says no value.",
+        "graphic_type": "evidence",
+        "graphic_description": "A clean graphic showing a '10% Edge' on Under 2.5 Goals being crossed out by a '0% Gap' finding from the Quant. The words 'Efficient Market' are prominent.",
+        "graphic_text_overlay": "EDGE VS EFFICIENCY"
+      },
+      {
+        "scene": 6,
+        "name": "The Discipline Play",
+        "voiceover": "Our market: NO_BET. Confidence: 0%. Sometimes the smartest move is to recognise when the bookmakers have priced the narrative correctly. This is a cagey stalemate in waiting, but there is no value to be extracted. In betting, knowing when to walk away is the ultimate discipline. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A final, bold graphic with 'NO BET' in large letters. Below: 'Market: NO_BET', 'Confidence: 0%', 'Verdict: PASS'.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "key": "20260312_Celta_Vigo_vs_Lyon__ds_v3_stream",
+  "match": {
+    "home_team": "Celta Vigo",
+    "away_team": "Lyon",
+    "league": "UEFA Europa League",
+    "date": "2026-03-12",
+    "home_id": 538,
+    "away_id": 80
+  },
+  "prediction": {
+    "direction": "away_value",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — away_value direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 26.0,
+    "score_draw": 52.4,
+    "score_away": 21.6,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The mathematical baseline (λ_home=0.43, λ_away=0.37) points to extremely low goal output. The Archivist confirms this with H2H history showing just one goal across three meetings, including two consecutive 0-0 draws. The Tactician's match character prediction is 'tight', and the Cascading Form Profiles show weak convergence on Under 2.5 Goals (29%). This is a structurally low-scoring fixture. (2) DIRECTION EVIDENCE — The declared direction is away_value. The EdgeCalculator shows overwhelming mathematical support for Lyon on the Asian Handicap: AH Away -0.75 has a 63.3% edge, AH Away -0.5 has 57.8%, and AH Away -0.25 has 53.6%. All three are graded STRONG_VALUE. The market is pricing Lyon's away win probability at 27%, but the Poisson baseline is 21.6%, creating a significant mispricing opportunity. Lyon's away form profile shows a 100% win rate and 100% clean sheet rate in their last five away matches, albeit from a thin sample. (3) AGENTS CONSENSUS — The Quant's model and EdgeCalculator provide the strongest mathematical signal for Lyon value. The Archivist's H2H data supports a tight, low-scoring match which aligns with Lyon's strong defensive away record. The Sceptic's NO_BET veto is overridden by the statistical edge exceeding 5%. However, the Home Scout's narrative of Celta's formidable home form and the Tactician's neutral tactical edge create dissent. The biggest conflict is between the mathematical model (strong Lyon value) and the scout narratives (favouring Celta). (4) RISKS — The primary risk is Lyon's extensive injury list (seven players) which could disrupt their usual structure and reduce squad depth in a congested fixture period. Off-field distractions at Lyon and potential rotation due to the European schedule add uncertainty. Celta's strong home record (80% win rate in five matches) and potential for an early goal (Lyon scores 5 goals in 0-15 minute periods) could quickly invalidate the Lyon handicap. The thin data samples for both teams' current form, especially Lyon's away matches, limit confidence.",
+    "key_factors": [
+      "Mathematical edge strongly favours Lyon on Asian Handicap lines",
+      "Historical head-to-head data shows extremely low scoring and Lyon's inability to beat Celta",
+      "Lyon's exceptional away defensive record with 100% clean sheet rate in last five away matches",
+      "Celta Vigo's late-match defensive vulnerability (conceding 8 of 12 goals between minutes 61-90)"
+    ],
+    "risk_factors": [
+      "Lyon's extensive injury list (seven players) threatens squad depth and tactical execution",
+      "European fixture rotation risk for both teams with unconfirmed starting XIs",
+      "Thin data samples for current form analysis reduce statistical reliability"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 1.75 Goals",
+        "prediction": "Under 1.75",
+        "confidence": 52
+      },
+      {
+        "market": "Under 2.25 Goals",
+        "prediction": "Under 2.25",
+        "confidence": 44
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 53.6,
+      "edge_source": "EdgeCalculator mathematical model probability minus market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away -0.75",
+          "edge": 63.3
+        },
+        {
+          "market": "AH Away -0.5",
+          "edge": 57.8
+        },
+        {
+          "market": "AH Away -0.25",
+          "edge": 53.6
+        }
+      ]
+    },
+    "tribunal_consensus_level": "weak",
+    "tribunal_consensus_description": "The Quant and EdgeCalculator provide strong mathematical consensus for Lyon value on Asian Handicap lines. The Archivist supports the low-scoring environment that benefits Lyon's defensive strength. However, the Home Scout strongly favours Celta Vigo's home advantage, the Tactician sees a neutral tactical edge, and the Sceptic recommends NO_BET due to conflicting signals and data gaps. This creates a weak overall tribunal consensus with mathematical models outweighing qualitative narratives.",
+    "_direction_nobet_reason": "no_line_qualifies (away_value/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.01,
+    "max_edge": 63.3
+  },
+  "display_texts": {
+    "home_position": "#16 (13 pts, +4 GD)",
+    "away_position": "#1 (21 pts, +13 GD)",
+    "home_form": "6W-1D-3L in 10 matches, last 5: LWWWL",
+    "away_form": "7W-0D-1L in 8 matches, last 5: WWWLW",
+    "home_stats": "18 goals in 10 matches (avg 1.8/match), 2 clean sheets",
+    "away_stats": "18 goals in 8 matches (avg 2.3/match), 5 clean sheets",
+    "h2h_history": "Lyon 0-0 Celta Vigo (19 Mar 2026)\nCelta Vigo 0-0 Lyon (12 Mar 2026)\nCelta Vigo 1-0 Lyon (29 Jul 2023)",
+    "home_injuries": "F. Cervi (Missing Fixture - Coach's decision), Y. Lago (Missing Fixture - Coach's decision), M. Roman (Missing Fixture - Foot Injury)",
+    "away_injuries": "M. Fofana (Missing Fixture - Ankle Injury), N. Kamara (Missing Fixture - Inactive), R. Kluivert (Missing Fixture - Hamstring Injury), A. Maitland-Niles (Missing Fixture - Injury), A. Moreira (Missing Fixture - Injury)",
+    "api_predictions": "API-Football prediction: Celta Vigo | Probabilities: 35%-35%-30% | Recommendation: Double chance : Celta Vigo or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Celta Vigo vs Lyon: The Europa League Stalemate No One Can Crack",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~8 minutes",
+    "hook": "Three meetings. One goal. Two consecutive goalless draws. When Celta Vigo and Lyon meet, the scoreboard seems to freeze. Tonight, a French league leader with a crippling injury crisis travels to face a Spanish side with formidable home form. The mathematical model screams value on Lyon — but the scouts see a different story. Which side of the data do you trust?",
+    "chapter_home": "Celta Vigo arrive at this European tie with a fortress mentality. They have won four of their five home matches this season, scoring in every single one. Their 3-4-3 formation is designed for attacking width, and their momentum is rising with ten points from their last fifteen available. Yet, a critical season-ending injury to key midfielder Miguel Román has punctured their squad depth at precisely the wrong moment. This creates a significant void in midfield for a congested fixture period. Their narrative is one of attacking verve, but the underlying numbers tell a different tale. Their mathematical goal-scoring rate, known as lambda, sits at a mere 0.43 per match. That is the statistical reality behind the home win rhetoric. Furthermore, a glaring weakness emerges late in games — they have conceded eight of their twelve goals this season between minutes 61 and 90. Can their home advantage overcome this critical injury and late-match fragility?",
+    "chapter_away": "Lyon travel as league leaders, boasting the best away record in the competition. They have won three of their four road matches, keeping three clean sheets and conceding just 0.5 goals per game on average. Their 4-2-3-1 formation provides midfield control and natural counter-attacking channels. However, their situation is far from ideal. A staggering seven players are listed as injured, depleting their squad depth and tactical flexibility. Off-field distractions, including the club president running for mayor, add another layer of uncertainty. Their attack, while efficient, has a mathematical scoring rate of just 0.37 goals per match. The scouts highlight their 75% away win rate, but this is based on a dangerously thin sample of just two away matches. Their strength is defensive solidity, but their ability to execute their game plan with a depleted squad under European pressure remains the central question.",
+    "chapter_history": "The history between these sides is a story of stifling caution. Across three previous meetings, only one goal has been scored — and that was three years ago. The last two encounters, both in 2026, finished as 0-0 stalemates. This gives Celta Vigo the psychological edge of an unbeaten record, while Lyon have yet to record a victory. The head-to-head draw rate stands at 67%, a powerful signal that this fixture consistently produces tactical deadlocks. The pattern is undeniable: when these teams meet, goals are a rare commodity. This historical backdrop sets the stage for another cagey, chess-like encounter where one moment of quality could prove decisive.",
+    "chapter_analysis": "The tactical matchup pits Celta's width against Lyon's midfield control. Celta's wing-backs will look to isolate Lyon's full-backs, while Lyon's double pivot aims to stifle Celta's build-up through the centre. The key battle may be temporal: Lyon scores five of their goals in the opening 15 minutes, while Celta concedes most of theirs in the final half-hour. The Sceptic delivered a critical challenge, arguing both scouts over-relied on thin data samples. The Home Scout's claim of 'exceptional' home form ignores a baseline scoring rate of 0.43. The Away Scout's praise of Lyon's away record is built on just two matches. The fundamental truth both narratives missed is the mathematical picture of two extremely low-scoring teams. The Poisson baseline predicts a 0-0 draw as the most likely outcome, with a 52.4% probability. This creates a fundamental conflict: the EdgeCalculator model shows overwhelming value on Lyon's Asian Handicap lines, with edges exceeding 50%. Yet, the Quant's analysis finds the market efficiently priced, with no probability gaps. The tribunal consensus is weak — mathematics versus narrative, with no clear resolution.",
+    "chapter_value": "Our market: NO_BET. Confidence: 0%. This is the rare fixture where the Boot Room identifies significant mathematical edges but cannot recommend a play. The EdgeCalculator shows a 63.3% edge on Lyon -0.75, a 57.8% edge on Lyon -0.5, and a 53.6% edge on Lyon -0.25 — all graded as STRONG_VALUE. However, these compelling numbers collide with undeniable risks. Lyon's injury crisis threatens their usual structure. Celta's formidable home record and Lyon's thin away data sample create too much uncertainty. The market odds for Lyon sit around 3.60, but the confidence gate remains SPECULATIVE. When the data points in opposite directions, the only prudent call is to step aside. The value may be there mathematically, but the real-world execution risks are too high to justify a position.",
+    "ending": "Sometimes, the smartest bet is no bet at all. Celta Vigo versus Lyon presents a fascinating clash of circumstances — historical stalemates, a home fortress, and an injured league leader. The mathematical model sees clear value, but the narrative risks are overwhelming. For tonight, we watch and learn, but we do not play. The Boot Room verdict is a pass. If you appreciate this level of detailed, conflict-aware analysis, make sure to subscribe to AI Boot Room for every matchday breakdown. Boot Room out.",
+    "roundup_summary": "Celta Vigo versus Lyon. This UEFA Europa League clash features a Spanish side in mid-table comfort against a French league leader. Celta's form shows ten points from their last fifteen available, with a strong 80% home win rate this season. Lyon's away record is impressive on paper with three wins from four, but their current form is stable, not rising. The critical context is a crippling injury list for Lyon, with seven players absent, and a season-ending midfield injury for Celta's Miguel Román.\n\nThe head-to-head history is definitive: three meetings, one goal. The last two matches in 2026 both ended 0-0. The average goals per meeting is a microscopic 0.33. This season, Celta's mathematical goal-scoring rate (λ) is 0.43 per match, while Lyon's is even lower at 0.37. Both teams' data suggests a structurally low-scoring fixture, aligning perfectly with the historical trend of consecutive stalemates.\n\nThe Boot Room analysis reveals a profound data conflict. The Poisson baseline (λ_home=0.43, λ_away=0.37) predicts a 52.4% probability for a draw, with a 0-0 scoreline most likely. The EdgeCalculator identifies massive mathematical value on Lyon's Asian Handicap, with edges exceeding 53 percentage points on three separate lines. However, The Quant's model finds no probability gaps, declaring the market efficiently priced. The Sceptic's core concern was validated: both scouts over-relied on thin data samples, ignoring the fundamental low-scoring nature of both teams. The bookmaker has potentially mis-priced Lyon's chances given their league position, but the Auditor's validation was unavailable, and the injury crisis creates an unquantifiable execution risk.\n\nThe Boot Room lands on NO_BET. The mathematical edge is compelling but clashes with excessive real-world uncertainty from Lyon's injury crisis and thin away data. No single market offers a confident, executable opportunity. The verdict is to pass on this fixture and await clearer signals. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "Celta Vigo host Lyon in a UEFA Europa League fixture defined by historical stalemates. The Spanish side boasts strong home form, while Lyon travel as league leaders but with a devastating injury list. Three previous meetings have produced just one goal, including two consecutive 0-0 draws. The mathematical model shows significant edges on Lyon's Asian Handicap lines, exceeding 53 percentage points. However, the combination of Lyon's seven absent players, Celta's home fortress, and conflicting data signals creates too much uncertainty. The Boot Room lands on NO_BET at odds of 0, with 0% confidence. Sometimes the clearest analysis reveals no clear play. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Stalemate Code",
+        "voiceover": "Three meetings. One goal. For Celta Vigo and Lyon, the scoreboard has a habit of freezing. Two consecutive 0-0 draws. A historical pattern of stifling caution. But tonight, the circumstances have changed. A league leader arrives injured. A home fortress stands firm. The data points to value — but can you trust it?",
+        "graphic_type": "hook",
+        "graphic_description": "A dramatic, abstract visual of a frozen football pitch with a cracked scoreboard showing 0-0. The cracks glow with conflicting data streams.",
+        "graphic_text_overlay": "ONE GOAL. THREE GAMES."
+      },
+      {
+        "scene": 2,
+        "name": "The Fortress & The Void",
+        "voiceover": "Celta Vigo's strength is their home. Four wins from five matches, scoring in every one. But a season-ending injury to midfielder Miguel Román has created a critical void. Their attack looks potent, yet the underlying numbers tell a different story — a goal-scoring rate of just 0.43 per match. The narrative of verve hides a statistical reality.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dynamic shot of Celta Vigo's stadium from a low angle, imposing and full. A ghosted, transparent image of a midfielder with a red 'injured' cross over him is superimposed.",
+        "graphic_text_overlay": "HOME FORTRESS, CRITICAL VOID"
+      },
+      {
+        "scene": 3,
+        "name": "The Leader's Crisis",
+        "voiceover": "Lyon travel as league leaders with the competition's best away record. Three wins, three clean sheets. But their situation is fractured. Seven players are injured. Off-field distractions swirl. Their defensive strength is real, but their attack's mathematical rate is a meagre 0.37. Their impressive stats are built on just two away matches — a dangerously thin sample.",
+        "graphic_type": "away_card",
+        "graphic_description": "A stylised graphic of the Lyon crest, but it is cracked. Seven red injury icons radiate from the cracks. Small text shows defensive stats next to a warning symbol.",
+        "graphic_text_overlay": "LEAGUE LEADER, INJURY CRISIS"
+      },
+      {
+        "scene": 4,
+        "name": "The Data War",
+        "voiceover": "This is where the story splits. The EdgeCalculator screams value on Lyon — edges over 50% on their handicap lines. STRONG_VALUE signals flash. But The Quant's model disagrees, finding the market efficiently priced. The Sceptic exposed the flaw: both scouts ignored the core data. Two low-scoring teams. A 52.4% draw probability. Mathematics versus narrative — and no consensus.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: glowing green graphs and '63.3% EDGE' text for Lyon. Right side: a red 'NO GAP' stamp over market odds. A central question mark pulsates between them.",
+        "graphic_text_overlay": "DATA CONFLICT"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO_BET. Confidence: 0%. The mathematical edge is compelling but collides with unquantifiable risk. Lyon's injury crisis. Celta's home strength. Thin data samples. When the signals conflict this profoundly, the only intelligent move is to step aside. The value may exist in theory, but the path to claiming it is shrouded in too much doubt.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final graphic. The text 'NO BET' is central and bold. Below, smaller text reads 'Confidence: 0%'. The background is a neutral, analytical grey with faint intersecting lines.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

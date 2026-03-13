@@ -1,0 +1,160 @@
+{
+  "key": "20260308_Pescara_vs_Bari__ds_v3_stream",
+  "match": {
+    "home_team": "Pescara",
+    "away_team": "Bari",
+    "league": "Serie B",
+    "date": "2026-03-08",
+    "home_id": 525,
+    "away_id": 508
+  },
+  "prediction": {
+    "direction": "away_value",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — away_value direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 42.6,
+    "score_draw": 33.3,
+    "score_away": 24.1,
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC matchup. While both teams deploy identical 3-4-2-1 formations, the underlying data reveals a clear mispricing. The market heavily favours Pescara based on a recent shock win, but Bari's improving defensive structure and Pescara's systemic defensive frailties create a significant value opportunity on the away side. The cascading profiles show Bari's away defence conceding just 1.0 goals per match in their last five, with a 40% win rate, while Pescara's home defence remains porous. (2) DIRECTION EVIDENCE — The Edge Calculator identifies a 23.5% edge on AH Away -0.0, the strongest mathematical signal across all markets. The Auditor's adjusted probabilities (Home 42.6%, Away 24.1%) still show the market overvaluing Pescara. Bari's cascading away profile shows 'Momentum: IMPROVING' with recent clean sheets, directly contradicting the market's implied probability. The Sceptic's CRITICAL challenge to the Away Scout confirms the market's misreading of Bari's genuine defensive improvement. (3) AGENTS CONSENSUS — The Edge Calculator, Auditor, and Sceptic all align on Bari being undervalued. The Sceptic's veto is overridden by the ≥5% statistical edge. The Quant's Poisson model shows zero gap on AH lines, indicating market efficiency, but this is contradicted by the Edge Calculator's independent, stronger mathematical model. The Tactician's 'NEUTRAL' edge and the Archivist's history of Bari dominance provide supporting context. The primary dissent comes from the market odds themselves and the Home Scout's narrative around Pescara's morale boost. (4) RISKS — The key risk is Bari's historical away scoring woes (0.79 goals/match average) failing to capitalise on Pescara's defensive errors. A tense, low-scoring draw is a plausible outcome given the high stakes, which would see the AH -0.0 bet push. Pescara's late-game scoring threat, particularly through Insigne, could also overturn a match that Bari otherwise controls. Unknown starting XIs add a layer of uncertainty, though squad depth is adequate for both.",
+    "key_factors": [
+      "Edge Calculator shows a 23.5% edge on AH Away -0.0, the strongest value signal.",
+      "Bari's cascading away profile shows defensive improvement with a 40% clean sheet rate in last five away matches.",
+      "Market overvalues Pescara based on a single recent shock win, ignoring their league-worst defensive record.",
+      "The Sceptic's critical analysis validates Bari's improving form, contradicting the Away Scout's overly pessimistic assessment."
+    ],
+    "risk_factors": [
+      "Bari's chronic inability to score away from home (0.79 goals/match average) may prevent them from securing a win.",
+      "A high-pressure relegation six-pointer could lead to a cagey, low-scoring draw, resulting in a push on the AH -0.0 line."
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.25 Goals",
+        "prediction": "Under 2.25",
+        "confidence": 53
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 23.5,
+      "edge_source": "Edge Calculator our_prob (60.0%) vs market implied probability (36.5%)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away -0.0",
+          "edge": 23.5
+        },
+        {
+          "market": "AH Away -0.75",
+          "edge": 20.7
+        },
+        {
+          "market": "AH Away -0.5",
+          "edge": 14.6
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Edge Calculator, Auditor, and Sceptic form a consensus that Bari represents value, supported by Bari's improving defensive data. The Quant's model disagrees, showing no AH edge, and the Tactician offers a neutral tactical view. The Scouts are split, with the Home Scout focused on Pescara's morale and the Away Scout underestimating Bari's improvement.",
+    "_direction_nobet_reason": "no_line_qualifies (away_value/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.9,
+    "max_edge": 23.5
+  },
+  "display_texts": {
+    "home_position": "#20 (22 pts, -20 GD)",
+    "away_position": "#18 (28 pts, -15 GD)",
+    "home_form": "4W-10D-14L in 28 matches, last 5: LLDWL",
+    "away_form": "6W-10D-12L in 28 matches, last 5: LDLLD",
+    "home_stats": "34 goals in 28 matches (avg 1.2/match), 2 clean sheets",
+    "away_stats": "25 goals in 28 matches (avg 0.9/match), 6 clean sheets",
+    "h2h_history": "Pescara 0-0 Bari (08 Mar 2026)\nBari 1-1 Pescara (08 Dec 2025)\nBari 5-0 Pescara (23 Jul 2023)\nPescara 2-2 Bari (14 Apr 2018)\nBari 1-0 Pescara (12 Nov 2017)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Bari | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Bari",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "4:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Pescara vs Bari: The Relegation Mirror Match With No Value",
+    "thumbnail_text": "NO BET ALERT",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when two desperate teams deploy identical formations, with survival on the line? Pescara versus Bari is a tactical mirror match — but the market has priced this six-pointer into a mathematical dead zone. The Edge Calculator screams value on Bari, while the Poisson model shows perfect market efficiency. This is the story of a fixture where the data refuses to agree.",
+    "chapter_home": "Pescara sit rock bottom of Serie B, defined by one brutal statistic: the league's worst defence, conceding 1.9 goals per match. They have managed just two clean sheets all season. Yet morale is paradoxically high after a stunning home win over Palermo, inspired by January signing Lorenzo Insigne. Their 3-4-2-1 formation carries a potent late-game threat — 10 of their 34 goals have come in the final 15 minutes. But that recent spark cannot mask systemic frailty. Their home win rate is just 21%, and their defensive trend is worsening. For a team in a 22-day critical window to avoid the drop, this is their ultimate test of whether belief can overcome a season of leaks.",
+    "chapter_away": "Bari arrive just above the relegation zone, carrying their own chronic weakness: a blunt away attack averaging only 0.79 goals per road match. They have failed to score in six of 14 away fixtures. Yet recent data reveals a crucial shift. Under a defensive reshuffle, Bari's away form shows genuine improvement — a 40% clean sheet rate in their last five matches, conceding just 1.0 goal per game. They deploy the same 3-4-2-1 shape as Pescara, creating a symmetrical battle. Their morale is high following a momentum spike, but off-field ownership restructuring creates background uncertainty. This is a team whose survival hopes hinge on whether their newfound defensive solidity can finally translate into away points.",
+    "chapter_history": "History offers Bari a clear psychological edge — they are unbeaten in five meetings against Pescara, with two wins and three draws. Pescara have never beaten them. The most recent clash was a fiery 1-1 draw where Bari snatched an 82nd-minute equaliser after a Pescara red card. A full 40% of these fixtures have ended level, indicating a pattern of tense, closely contested matches. With both sides now fighting relegation, that historical tendency for stalemate collides with desperate, present-day need. The narrative is set for another battle where past dominance meets current desperation.",
+    "chapter_analysis": "This is a matchup of identical 3-4-2-1 formations, creating structural parity across the pitch. The tactical key lies in timing: Pescara's late-game surge versus Bari's improved defensive resilience in the same period. The Sceptic delivered a critical challenge — the Away Scout severely underestimated Bari's improving away form, dismissing a mathematical baseline that showed a 40% win rate in their last five road matches. The Edge Calculator identified a 23.5% edge on Bari Draw No Bet, the strongest value signal across all markets. Yet here lies the conflict. The Quant's Poisson model shows zero gap on all Asian Handicap lines, implying perfect market efficiency. Meanwhile, the Auditor adjusted probabilities to 42.6% for a Pescara win, 33.3% for the draw, and 24.1% for a Bari victory. The market heavily favours Pescara based on that single shock win, overlooking their league-worst defence and Bari's defensive improvement.",
+    "chapter_value": "Our market: NO BET. The Boot Room identifies clear value on Bari — the Edge Calculator shows a 23.5% edge on AH Away -0.0 — but this faces a fundamental direction conflict with the Quant's model showing zero edge. With odds at 0 and 0% confidence, no qualifying line meets our conviction threshold. The Auditor's effective confidence sits at just 54%. Sometimes the smartest play is recognising when the data disagrees and the market has priced out opportunity. In a relegation six-pointer with mirrored tactics and conflicting signals, we pass.",
+    "ending": "Pescara versus Bari presents a fascinating survival scrap where the story is clearer than the value. Two identical formations, two desperate teams, and a market caught between a recent shock result and underlying defensive trends. The Boot Room sees Bari as undervalued, but without a consensus from our models, we cannot recommend a position. In betting, discipline is as important as insight. Boot Room out.",
+    "roundup_summary": "Pescara versus Bari. A Serie B relegation six-pointer between the bottom-placed hosts and visitors sitting just above the drop zone. Pescara's form shows a shocking win over Palermo but a worsening defensive trend, while Bari arrive with stable form and improving away resilience. Both teams deploy identical 3-4-2-1 formations, setting up a tactical mirror match with survival stakes at their peak.\n\nHistorically, Bari dominate this fixture — unbeaten in five meetings with two wins and three draws. Pescara have never beaten them. The last clash ended 1-1 with a late Bari equaliser. Meetings average 2.4 goals, with Both Teams to Score landing in three of the five encounters. This season, Pescara concede 1.9 goals per game — the league's worst — while Bari score only 0.79 per away match.\n\nThe Boot Room analysis reveals a fundamental statistical conflict. The Edge Calculator identifies a 23.5 percentage point edge on AH Away -0.0, valuing Bari's improving away defence which has kept clean sheets in 40% of recent matches. However, the Quant's Poisson model shows zero gap on all Asian Handicap lines, indicating market efficiency. The Sceptic's critical challenge validated Bari's genuine improvement, contradicting the Away Scout's overly pessimistic assessment. The Auditor adjusted probabilities to 42.6% home win, 33.3% draw, and 24.1% away win, noting the market overvalues Pescara based on one shock result. Yet with models in direct contradiction, no edge qualifies as playable.\n\nBoot Room verdict: NO VALUE — pass on this fixture. The mathematical disagreement between our Edge Calculator and Poisson model, combined with Bari's chronic away scoring issues and the high-pressure context, creates unacceptable uncertainty. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Mirror Match Conflict",
+        "voiceover": "Two relegation-threatened teams. Identical 3-4-2-1 formations. Survival on the line. Pescara versus Bari is a tactical mirror match — but our models are screaming in different directions. One sees a 23.5% edge on the away side. The other sees perfect market efficiency. This is the story of a fixture where the data refuses to agree.",
+        "graphic_type": "conflict",
+        "graphic_description": "Split screen showing Pescara and Bari team crests with identical 3-4-2-1 formation diagrams overlaying each, with a large 'VS' between them and 'RELEGATION BATTLE' text.",
+        "graphic_text_overlay": "MIRROR MATCH CONFLICT"
+      },
+      {
+        "scene": 2,
+        "name": "Pescara's Fatal Flaw",
+        "voiceover": "Pescara sit bottom with the league's worst defence — conceding 1.9 goals per game. Just two clean sheets all season. Yet they arrive with morale sky-high after a shock win over Palermo, inspired by Lorenzo Insigne. Their late-game threat is real, but can one spark overcome a season of leaks?",
+        "graphic_type": "home_card",
+        "graphic_description": "Pescara player in action with 'LEAGUE'S WORST DEFENCE' and '1.9 GA/GP' statistics prominently displayed. Background shows their stadium with relegation zone highlighting.",
+        "graphic_text_overlay": "LEAGUE'S WORST DEFENCE"
+      },
+      {
+        "scene": 3,
+        "name": "Bari's Defensive Shift",
+        "voiceover": "Bari carry their own weakness — a blunt away attack scoring just 0.79 goals per road match. But recent data reveals a crucial shift. A defensive reshuffle has yielded 40% clean sheets in their last five away games. They're conceding only one goal per match. The old narrative of away frailty is being rewritten.",
+        "graphic_type": "away_card",
+        "graphic_description": "Bari defensive line in organized shape with '40% CLEAN SHEETS' and '1.0 GA/GP LAST 5 AWAY' statistics. Momentum arrow pointing upward.",
+        "graphic_text_overlay": "DEFENSIVE RESHUFFLE WORKS"
+      },
+      {
+        "scene": 4,
+        "name": "The Statistical Civil War",
+        "voiceover": "Here lies the conflict. The Edge Calculator screams value — a 23.5% edge on Bari Draw No Bet. But the Quant's Poisson model shows zero gap on all Asian Handicap lines. Perfect market efficiency. The Sceptic validated Bari's improvement, yet our core models are at war. The market favours Pescara based on one shock win, ignoring their defensive collapse.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Visual clash between the Edge Calculator showing '23.5% EDGE' and the Poisson model showing '0% GAP'. Red 'CONFLICT' warning symbol between them.",
+        "graphic_text_overlay": "MODELS AT WAR"
+      },
+      {
+        "scene": 5,
+        "name": "The Discipline of No Bet",
+        "voiceover": "Our market: NO BET. The Boot Room sees Bari as undervalued, but with our models in direct contradiction and odds at zero with zero percent confidence, no qualifying line meets our threshold. Sometimes the smartest play is recognising when the data disagrees. In a relegation mirror match with survival on the line, we pass. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold text on dark background: 'NO BET' with '0% CONFIDENCE' beneath. Small text showing conflicting model outputs in the background.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

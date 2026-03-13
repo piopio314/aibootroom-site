@@ -1,0 +1,173 @@
+{
+  "key": "20260307_SC_Paderborn_07_vs_Eintracht_Braunschweig__ds_v3_stream",
+  "match": {
+    "home_team": "SC Paderborn 07",
+    "away_team": "Eintracht Braunschweig",
+    "league": "2. Bundesliga",
+    "date": "2026-03-07",
+    "home_id": 185,
+    "away_id": 744
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 65.0,
+    "score_draw": 25.0,
+    "score_away": 10.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading form profiles show both teams have 86% convergence on Over 2.5 Goals, with Paderborn averaging 2.4 goals per home match and Braunschweig conceding 2.2 per match. The Tactician's analysis confirms an 'open' match character with both teams' defensive vulnerabilities creating conditions for multiple scoring opportunities. (2) DIRECTION EVIDENCE — The mathematical evidence strongly supports over_goals. The EdgeCalculator shows a 17.7% edge on Over 2.75 Goals, with our probability at 71.8% versus market odds of 1.85. The cascading profiles reveal both teams have 100% BTTS convergence and high goal involvement, with Paderborn's scoring increasing and Braunschweig's defence stable but vulnerable. The Auditor's adjusted probabilities place Over 2.5 at 72% and Over 1.5 at 88%. (3) AGENTS CONSENSUS — The Tactician predicts 'more goals than average' and an 'open' match. Both Scouts highlight defensive vulnerabilities: Paderborn concedes in 100% of recent home matches, Braunschweig faces a debutant goalkeeper. The Archivist notes 60% of H2H meetings feature Over 2.5 goals. The Sceptic's 'surprise scenario' of a low-scoring 1-0 win is contradicted by overwhelming statistical evidence. The Auditor specifically recommends Over 2.75 Goals as the optimal market. (4) RISKS — The immediate rematch dynamic could lead to tactical caution, though the 1-1 draw days ago suggests both teams can score. Paderborn's recent scoring dip (1.0 goals in last match) might continue, though their historical home output remains strong. Braunschweig's defensive collapse risk is mitigated by their desperate situation potentially forcing them to attack late.",
+    "key_factors": [
+      "86% convergence on Over 2.5 goals from cascading form profiles",
+      "Braunschweig forced to debut inexperienced goalkeeper Elhan Kastrati",
+      "Paderborn's home attack averages 2.4 goals per match",
+      "Both teams have 100% BTTS convergence in recent form"
+    ],
+    "risk_factors": [
+      "Immediate rematch could lead to tactical familiarity and caution",
+      "Paderborn's scoring output dipped to 1.0 goals in most recent match"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 3.25 Goals",
+        "prediction": "Over 3.25",
+        "confidence": 58
+      },
+      {
+        "market": "BTTS Yes",
+        "prediction": "BTTS Yes",
+        "confidence": 72
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 17.7,
+      "edge_source": "EdgeCalculator our_prob (71.8%) vs market odds (1.85)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away 0.25",
+          "edge": 32.1
+        },
+        {
+          "market": "AH Away 1.25",
+          "edge": 26.5
+        },
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 26.4
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Tactician, both Scouts, Archivist, Auditor, and EdgeCalculator all align on a high-scoring match direction. The Sceptic's qualitative caution about the rematch is the only dissent, but their no_bet_recommendation is PROCEED. The Quant shows no gaps but acknowledges strong convergence on Over 2.5 goals.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 32.1
+  },
+  "display_texts": {
+    "home_position": "#3 (46 pts, +13 GD)",
+    "away_position": "#16 (25 pts, -15 GD)",
+    "home_form": "14W-4D-6L in 24 matches, last 5: WDLDW",
+    "away_form": "7W-4D-13L in 24 matches, last 5: WWLDL",
+    "home_stats": "40 goals in 24 matches (avg 1.7/match), 7 clean sheets",
+    "away_stats": "27 goals in 24 matches (avg 1.1/match), 4 clean sheets",
+    "h2h_history": "SC Paderborn 07 1-1 Eintracht Braunschweig (07 Mar 2026)\nEintracht Braunschweig 1-2 SC Paderborn 07 (03 Oct 2025)\nEintracht Braunschweig 3-2 SC Paderborn 07 (04 Apr 2025)\nSC Paderborn 07 0-0 Eintracht Braunschweig (03 Nov 2024)\nSC Paderborn 07 1-2 Eintracht Braunschweig (15 Mar 2024)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "S. Raebiger (Missing Fixture - Jumpers knee)",
+    "api_predictions": "API-Football prediction: SC Paderborn 07 | Probabilities: 45%-45%-10% | Recommendation: Double chance : SC Paderborn 07 or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Paderborn vs Braunschweig: Why We're NOT Betting This Fixture",
+    "thumbnail_text": "NO BET ALERT",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a promotion-chasing attack meets a relegation-threatened defence forced to field a debutant goalkeeper? The data screams goals — an 86% convergence on Over 2.5, a 100% BTTS rate, and a 17.7% mathematical edge. Yet The Boot Room is walking away. This is the story of a market that looks perfect on paper but fails the final test.",
+    "chapter_home": "SC Paderborn 07 arrive at this fixture sitting third in the 2. Bundesliga, driving hard for automatic promotion with high morale and a formidable home record. Their 3-4-2-1 system is built for attacking overload, averaging 2.4 goals per match at home this season. They dominate possession at 58.3% and create chances through midfield superiority. However, their defensive vulnerabilities are glaring — they've conceded in 100% of their last five home matches, keeping only two clean sheets all season. This creates a pattern of high-scoring, open affairs where their explosive attack often papers over cracks at the back. The Home Scout's claim of a 'rising' form trend is contradicted by their most recent performance — a 1-1 draw that saw their goal output drop from 2.0 to 1.0 per match. They have a full squad available, but their recent draw-proneness — four draws in their last ten matches — reveals a critical vulnerability in closing out games they should dominate.",
+    "chapter_away": "Eintracht Braunschweig travel to Paderborn in survival mode, sitting 16th and winless in their last five matches. Their form is declining sharply, with possession and shot metrics dropping in recent weeks. They deploy a 3-4-3 formation that offers width but struggles defensively, conceding 2.2 goals per match on average. The critical vulnerability is in goal — they're forced to debut inexperienced goalkeeper Elhan Kastrati due to Hoffmann's injury, creating major defensive system risk in a high-pressure relegation situation. Their defence collapses late, conceding ten goals in the 76-90 minute period this season. Yet they've shown resilience away from home, drawing against top-three opposition and scoring in eight of their eleven away matches. With Raebiger absent and morale low after a recent loss to relegation rival Preußen Münster, they arrive desperate but tactically exposed.",
+    "chapter_history": "The head-to-head history between these sides reveals a pattern of tight, often drawn contests with a moderate goal expectation. Paderborn hold the clear historical edge with four wins to Braunschweig's two, but draws are equally common — 40% of the last ten meetings have ended level. Sixty percent of those fixtures featured over 2.5 goals, including Paderborn's emphatic 5-1 demolition in April 2023. The most recent meeting, just days ago, ended 1-1 — evidence that Braunschweig can scrap for a result against their promotion-chasing rivals. Paderborn are unbeaten in the last three encounters, winning two and drawing one, giving them a psychological edge. But history suggests this is a fixture where the form book can be torn up, with red cards, late goals, and fiery competitiveness marking recent clashes.",
+    "chapter_analysis": "The tactical matchup screams goals. Paderborn's midfield overload in their 3-4-2-1 should dominate Braunschweig's three-man midfield, creating sustained pressure against a debutant goalkeeper. Braunschweig's 3-4-3 offers width to exploit Paderborn's defensive vulnerabilities during transitions. The Tactician predicts an 'open' match with 'more goals than average' — both teams' defensive weaknesses create conditions for multiple scoring opportunities. The Sceptic challenged this narrative, pointing to the immediate rematch dynamic potentially leading to tactical caution and Paderborn's recent scoring dip. However, the statistical evidence overwhelmingly supports a high-scoring direction: 86% convergence on Over 2.5 goals from cascading form profiles, 100% BTTS convergence, and Paderborn's home attack averaging 2.4 goals against Braunschweig's leaky defence. The EdgeCalculator shows a 17.7% edge on Over 2.75 Goals with our probability at 71.8% versus market odds of 1.85. The Auditor's adjusted probabilities place Over 2.5 at 72% and Over 1.5 at 88%. Yet there's a critical conflict — the EdgeCalculator shows massive edges on Away Asian Handicap markets up to 32.1%, directly contradicting the qualitative consensus of Paderborn's home advantage.",
+    "chapter_value": "Our market: NO BET. Confidence: 0%. The mathematical evidence strongly points toward over_goals — we have a 17.7% edge on Over 2.75 Goals at odds of 1.85. The qualitative analysis aligns perfectly: both teams' defensive vulnerabilities, the debutant goalkeeper, and historical goal patterns all support multiple goals. However, the market presents a fundamental contradiction. The EdgeCalculator's massive edges on Away Asian Handicap markets — up to 32.1% — directly oppose our tactical assessment of Paderborn's home advantage. The Quant finds no Poisson gaps in Asian Handicap markets, indicating efficient bookmaker pricing. This conflict between mathematical edges creates uncertainty that exceeds our confidence threshold. Sometimes the numbers tell two different stories — and when they do, the only rational decision is to step aside.",
+    "ending": "The Boot Room verdict is clear: pass on this fixture. The data suggests goals, but the market's conflicting signals create unacceptable uncertainty. Paderborn should dominate at home against a Braunschweig side forced to field a debutant goalkeeper, yet the mathematical edges point in contradictory directions. In betting, discipline means recognising when the edge isn't clean — and today, it isn't. If you found this analysis valuable, subscribe to The Boot Room for more transparent, data-driven match breakdowns. Boot Room out.",
+    "roundup_summary": "SC Paderborn 07 versus Eintracht Braunschweig. Third-placed Paderborn, chasing automatic promotion, host 16th-placed Braunschweig, battling relegation. Paderborn's last five home matches show two wins, two draws, and one loss, averaging 2.4 goals scored but conceding in every game. Braunschweig are winless in five with three losses and two draws, conceding 2.2 goals per match on average. Key absence: Braunschweig's goalkeeper Hoffmann is injured, forcing debutant Elhan Kastrati into action.\n\nThe head-to-head history reveals four Paderborn wins, two Braunschweig wins, and four draws from the last ten meetings. Sixty percent featured over 2.5 goals, with an average of 2.8 goals per meeting. The most recent clash ended 1-1 just days ago. This season, Paderborn score 1.8 goals per game overall while conceding 1.5; Braunschweig score 1.1 but concede 1.9. Both teams have scored in 60% of recent H2H meetings.\n\nThe Boot Room analysis identified strong mathematical evidence for over_goals, with an 86% convergence on Over 2.5 goals from cascading form profiles and a 17.7% edge on Over 2.75 Goals. Our probability stands at 71.8% versus market odds of 1.85. The Sceptic's concern about tactical familiarity from the immediate rematch was considered but outweighed by statistical consensus. However, the bookmaker has created a pricing paradox: while goals markets show value, Asian Handicap markets present contradictory edges. The EdgeCalculator shows a 32.1% edge on AH Away 0.25, directly opposing our qualitative assessment of Paderborn's home advantage. The Quant's Poisson analysis shows no gaps in Asian Handicap markets, indicating efficient pricing there. This conflict between mathematical edges across different market types creates uncertainty that invalidates the apparent value.\n\nThe Boot Room finds no market with sufficient clarity to recommend. While Over 2.75 Goals shows a 17.7% mathematical edge, the contradictory signals in result markets create unacceptable risk. We pass on this fixture. Boot Room market: NO BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Contradiction",
+        "voiceover": "What happens when every piece of data points to goals — but the market's numbers tell two completely different stories? Paderborn's attack averages 2.4 goals at home. Braunschweig must debut a goalkeeper. The edge on Over 2.75 Goals is 17.7%. Yet we're not betting.",
+        "graphic_type": "conflict",
+        "graphic_description": "Split screen showing Paderborn's attacking stats on left, Braunschweig's defensive stats with debutant goalkeeper on right, with '17.7% EDGE' and 'NO BET' text in center conflict.",
+        "graphic_text_overlay": "DATA VS MARKET"
+      },
+      {
+        "scene": 2,
+        "name": "Home Attack",
+        "voiceover": "SC Paderborn sit third, chasing promotion with a formidable 3-4-2-1 system. They average 2.4 goals per home match but concede in 100% of recent games. Their attack is potent — but their defence creates the openings that make high scores inevitable.",
+        "graphic_type": "home_card",
+        "graphic_description": "Paderborn players celebrating a goal, with stats overlay: '2.4 goals/home', '100% BTTS', '3rd place'.",
+        "graphic_text_overlay": "ATTACKING AMBITION"
+      },
+      {
+        "scene": 3,
+        "name": "Away Crisis",
+        "voiceover": "Eintracht Braunschweig arrive in survival mode — 16th, winless in five, and forced to debut goalkeeper Elhan Kastrati. They concede 2.2 goals per match and collapse late, with ten conceded in the final fifteen minutes. A desperate defence meets a potent attack.",
+        "graphic_type": "away_card",
+        "graphic_description": "Braunschweig's defensive line looking uncertain, with debutant goalkeeper highlighted, stats: '2.2 goals conceded', '10 goals 76-90min', 'Debut GK'.",
+        "graphic_text_overlay": "DEFENSIVE CRISIS"
+      },
+      {
+        "scene": 4,
+        "name": "Mathematical Evidence",
+        "voiceover": "The numbers are overwhelming. 86% convergence on Over 2.5 goals. 100% BTTS rate. Our probability for Over 2.75 Goals is 71.8% against market odds of 1.85 — a 17.7% edge. The Auditor places Over 2.5 at 72%. Every metric screams value.",
+        "graphic_type": "evidence",
+        "graphic_description": "Clean data visualization showing '86% Over 2.5 convergence', '100% BTTS', '71.8% our prob vs 1.85 odds', '17.7% EDGE' in bold.",
+        "graphic_text_overlay": "OVERWHELMING EDGE"
+      },
+      {
+        "scene": 5,
+        "name": "The Conflict",
+        "voiceover": "But here's the problem. The EdgeCalculator shows a 32.1% edge on AH Away 0.25 — directly contradicting our assessment of Paderborn's home advantage. The Quant finds no Poisson gaps in Asian Handicap markets. The market is telling two different stories.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Two opposing arrows: one labeled 'Over 2.75 Goals +17.7%', other labeled 'AH Away 0.25 +32.1%', with question mark between them.",
+        "graphic_text_overlay": "CONTRADICTORY SIGNALS"
+      },
+      {
+        "scene": 6,
+        "name": "Verdict",
+        "voiceover": "Our market: NO BET. Confidence: 0%. When mathematical edges point in opposite directions, the only rational move is to step aside. The data suggests goals, but the market's conflict creates uncertainty that exceeds our threshold. Sometimes the best bet is no bet at all. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean 'NO BET' card with The Boot Room logo, showing 'Confidence: 0%' and the conflicting edges from previous scenes faded in background.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "key": "20260307_RB_Leipzig_vs_FC_Augsburg__ds_v3_stream",
+  "match": {
+    "home_team": "RB Leipzig",
+    "away_team": "FC Augsburg",
+    "league": "Bundesliga",
+    "date": "2026-03-07",
+    "home_id": 173,
+    "away_id": 170
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 45.0,
+    "score_draw": 28.0,
+    "score_away": 27.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading form profiles show strong convergence (71%) on Over 2.5 Goals, with RB Leipzig averaging 3.4 total goals in their last five matches and FC Augsburg 2.6. The Tactician's analysis confirms an 'open and transitional' character, with Leipzig's possession-based 4-3-3 clashing against Augsburg's counter-attacking 3-4-2-1, creating frequent scoring opportunities. Both teams' defensive vulnerabilities are pronounced, with Leipzig failing to keep a clean sheet in their last five home matches and Augsburg conceding 2.2 goals per away game. (2) DIRECTION EVIDENCE — The mathematical evidence for over_goals is overwhelming. The Quant's Poisson model shows a 91.2% probability for Over 2.5 Goals, creating a 42.9 percentage point gap versus market pricing. The Edge Calculator identifies Over 3.25 Goals as the optimal market with a 24.7% edge and our probability of 78.8%. The historical context supports this: H2H meetings average 3.7 goals with an 88% Over 2.5 rate. Both teams' goal timing patterns show dangerous overlaps, particularly in the 46-60' (Leipzig's strength) and 76-90' (Augsburg's strength against Leipzig's weakness) periods. (3) AGENTS CONSENSUS — There is strong alignment across the Boot Room on a high-scoring outcome. The Quant's value bets list three Over markets with edges exceeding 20%. The Tactician's analysis predicts 'more goals than average' due to the tactical matchup. The Archivist notes the fixture's consistently high-scoring nature. The Auditor recommends Over 3.25 Goals as the highest-edge market. The Sceptic, while challenging Leipzig's home form strength, confirms 'core directional signals (Leipzig favouritism, high probability of goals) are convergent'. The only dissent is the Auditor's caution about the Quant's extreme Poisson probabilities, but this is mitigated by the Edge Calculator's more conservative 78.8% probability for the higher line. (4) RISKS — The primary risk is an uncharacteristically disciplined defensive performance from either side, though this contradicts all recent form. Augsburg's injury-depleted defence could collapse early, potentially allowing Leipzig to control the tempo and reduce goal-scoring urgency in the second half. Alternatively, Leipzig's noted mental fragility under pressure might lead to cautious play if they establish an early lead, though their poor clean sheet record suggests they're unlikely to shut up shop successfully.",
+    "key_factors": [
+      "Strong 71% profile convergence on Over 2.5 Goals from both teams' recent form",
+      "Quant's mathematical model shows 42.9pp edge on Over 2.5 with 91.2% Poisson probability",
+      "Edge Calculator identifies Over 3.25 Goals as optimal market with 24.7% edge",
+      "Historical fixture averages 3.7 goals with 88% Over 2.5 rate",
+      "Tactician analysis predicts 'open and transitional' match with defensive vulnerabilities on both sides"
+    ],
+    "risk_factors": [
+      "Leipzig's potential to establish early dominance and reduce second-half scoring urgency",
+      "Augsburg's injury crisis potentially leading to ultra-defensive setup despite poor away record"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.5 Goals",
+        "prediction": "Over 2.5",
+        "confidence": 68
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 24.7,
+      "edge_source": "Edge Calculator our_prob (78.8%) minus market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 24.7
+        },
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 17.3
+        },
+        {
+          "market": "AH Away 0.25",
+          "edge": 13.5
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "Strong consensus on over_goals direction: The Quant, Tactician, Archivist, Auditor, and Edge Calculator all support high-scoring outcome. The Sceptic confirms core directional convergence while challenging specific home form assumptions. Only minor dissent comes from the Auditor's caution about extreme Poisson probabilities, which doesn't contradict the directional thesis.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 24.7
+  },
+  "display_texts": {
+    "home_position": "#5 (45 pts, +13 GD)",
+    "away_position": "#9 (32 pts, -11 GD)",
+    "home_form": "14W-5D-6L in 25 matches, last 5: LWWWW",
+    "away_form": "9W-4D-12L in 25 matches, last 5: WLLLL",
+    "home_stats": "48 goals in 25 matches (avg 1.9/match), 9 clean sheets",
+    "away_stats": "31 goals in 25 matches (avg 1.2/match), 5 clean sheets",
+    "h2h_history": "RB Leipzig 2-1 FC Augsburg (07 Mar 2026)\nFC Augsburg 0-6 RB Leipzig (25 Oct 2025)\nFC Augsburg 0-0 RB Leipzig (14 Feb 2025)\nRB Leipzig 4-0 FC Augsburg (28 Sep 2024)\nFC Augsburg 2-2 RB Leipzig (10 Feb 2024)",
+    "home_injuries": "V. Gebel (Missing Fixture - Knee Injury), P. Gulacsi (Missing Fixture - Knee Injury), K. Nedeljkovic (Missing Fixture - Back Injury), A. Ouedraogo (Missing Fixture - Knee Injury), X. Schlager (Missing Fixture - Groin Injury)",
+    "away_injuries": "J. Gouweleeuw (Missing Fixture - Knee Injury), Y. Keitel (Missing Fixture - Knee Injury), C. Matsima (Missing Fixture - Muscle Injury), U. Ogundu (Missing Fixture - Ankle Injury), C. Zesiger (Missing Fixture - Yellow Cards)",
+    "api_predictions": "API-Football prediction: RB Leipzig | Probabilities: 45%-45%-10% | Recommendation: Double chance : RB Leipzig or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "2:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Why The Boot Room Is PASSING On Leipzig vs Augsburg",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when every signal points to a goal-fest, but the numbers tell you to walk away? RB Leipzig versus FC Augsburg presents a perfect storm for chaos — a historically dominant but mentally fragile attack meets a defensively depleted but late-game resilient side. The stage is set for a Bundesliga thriller. Yet, after analysing eight separate data agents, The Boot Room has reached a unanimous verdict that will surprise you.",
+    "chapter_home": "RB Leipzig arrive at the Red Bull Arena with momentum, unbeaten in their last five matches across all competitions. Their attack, spearheaded by Baumgartner and Diomande, guarantees goals — they have failed to score in zero of their thirteen home matches this season. However, a critical weakness undermines their formidable front line. Leipzig are notorious for squandering winning positions, a mental fragility that has seen them drop points in four of their last ten matches. Their defensive record at home is equally concerning, with only four clean sheets in those thirteen games. The absence of first-choice goalkeeper Péter Gulácsi and key midfielder Xaver Schlager weakens the spine of the team, forcing deputy goalkeeper Vandevoordt into action. Their goal patterns reveal a potent second-half threat, scoring twelve times between minutes forty-six and sixty, but they concede a staggering ten goals in the final fifteen minutes. This is a team built to score, but not built to hold.",
+    "chapter_away": "FC Augsburg travel to Leipzig with deceptive momentum. They have won three of their last four matches, but our analysis reveals that form is inflated by victories against significantly weaker opponents. Their true away reality is stark — no clean sheets in twelve attempts, conceding an average of two point two goals per game on the road. A defensive injury crisis has decimated their backline, with captain Jeffrey Gouweleeuw among five absentees, leaving a makeshift unit vulnerable to Leipzig's relentless attack. Yet, Augsburg possess a dangerous weapon: they are late-game specialists, scoring nine goals in the seventy-sixth to ninetieth minute period this season. Their tactical setup in a 3-4-2-1 formation is designed to absorb pressure and counter, with quick attackers like Ribeiro and Kömür poised to exploit Leipzig's high defensive line. They have never beaten Leipzig in ten attempts, but their historical capacity to frustrate — with a forty percent draw rate in this fixture — suggests they know how to scrap.",
+    "chapter_history": "History screams one-way traffic. RB Leipzig have never lost to FC Augsburg in ten meetings, winning sixty percent of those encounters. This is a consistently high-scoring fixture, averaging three point seven goals per match, with both teams scoring in seventy percent of meetings. The pattern is one of Leipzig dominance punctuated by chaotic draws, including a memorable 3-3 thriller in October 2022. The last seven meetings have seen Leipzig win six, including a brutal 6-0 away victory in October 2025. Yet, that significant forty percent draw rate is the whisper beneath the roar — a clear signal that Augsburg have repeatedly found a way to resist total submission, often in high-scoring stalemates. The historical narrative sets the expectation, but current form writes a new chapter.",
+    "chapter_analysis": "The tactical and mathematical evidence for a goal-fest is overwhelming. Our Quant's Poisson model shows a ninety-one point two percent probability for Over two point five Goals — a massive forty-two point nine percentage point edge versus market pricing. The Tactician's analysis predicts an 'open and transitional' match, with Leipzig's possession-based 4-3-3 clashing against Augsburg's counter-attacking 3-4-2-1. Both teams' defensive vulnerabilities are pronounced. Leipzig concede heavily late; Augsburg concede consistently throughout. The goal-timing matchup is perfect for chaos — Leipzig's strongest scoring period (minutes forty-six to sixty) directly targets Augsburg's defensive weakness in that same window. However, The Sceptic issued a serious challenge, correcting the assessment of Leipzig's 'rising' home form. Their last five home matches show just one win, two draws, and two losses — a patchy record that contradicts overall momentum. This tension between overwhelming goals data and Leipzig's shaky home foundation creates our central conflict. The market prices a seventy percent home win probability, which our adjusted analysis suggests is at least ten points too high.",
+    "chapter_value": "Our market: NO BET. Here is the critical revelation. While the directional evidence for over goals is exceptionally strong, no qualifying betting line meets our strict value threshold. The Edge Calculator identified Over three point two five Goals as the optimal market with a twenty-four point seven percent edge. However, our internal conviction filter — requiring odds of one point seventy or greater for a strong directional call — was not met. The available odds do not compensate for the residual risk, primarily Leipzig's potential to establish early dominance and reduce second-half scoring urgency, or Augsburg's injury crisis forcing an ultra-defensive shell. Sometimes, the clearest analytical picture reveals not where to bet, but where to wait. The bookmakers have priced this fixture efficiently enough to remove the mathematical edge we demand.",
+    "ending": "The Boot Room verdict is clear: we see the goals, we recognise the chaos, but we do not see the value. RB Leipzig versus FC Augsburg projects as a high-scoring, potentially dramatic Bundesliga encounter, yet it is a fixture where the smartest play is to watch and learn. Our confidence in any single market hitting is zero percent. In the relentless pursuit of value, discipline is the ultimate weapon. Pass on this fixture, and join us for the next analysis where the edge is clear. Subscribe to The Boot Room for forensic football market reads. Boot Room out.",
+    "roundup_summary": "RB Leipzig versus FC Augsburg. Fifth-placed Leipzig, fighting for European qualification, host mid-table Augsburg in a Bundesliga clash defined by contrasting narratives. The hosts are unbeaten in five overall but have won just one of their last five at home. Augsburg arrive with three wins from four, though that form is inflated by weak opponents. Both sides are missing five players, with Leipzig lacking goalkeeper Gulácsi and Augsburg missing defensive captain Gouweleeuw.\n\nThe historical record is emphatic: Leipzig are unbeaten in ten meetings, winning six of the last seven. These fixtures average three point seven goals, with both teams scoring in seventy percent of encounters and an eighty-eight percent rate for Over two point five Goals. This season, Leipzig average two point two three goals scored per home game, while Augsburg concede two point two per away match. The trend points decisively towards goals.\n\nThe Boot Room's deep analysis revealed overwhelming mathematical evidence for a high-scoring game. The Quant's Poisson model showed a ninety-one point two percent probability for Over two point five Goals, creating a forty-two point nine percentage point edge versus market pricing. The Edge Calculator identified Over three point two five Goals as the optimal market with a twenty-four point seven percent edge. However, The Sceptic successfully challenged the assumption of Leipzig's strong home form, highlighting a patchy record of one win, two draws, and two losses in their last five at the Red Bull Arena. This corrected view, combined with the market's efficient pricing of the clear over-goals narrative, meant no available line offered sufficient odds to justify a bet against the residual risks of an early Leipzig blowout or an Augsburg defensive collapse.\n\nThe Boot Room finds no value in this fixture. The projected match character is open and high-scoring, but the bookmaker odds have accurately captured this probability, leaving no mathematical edge to exploit. Our market read is a pass. Boot Room market: NO BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Perfect Storm",
+        "voiceover": "What happens when every signal points to a goal-fest, but the numbers tell you to walk away? RB Leipzig versus FC Augsburg is a perfect storm for chaos — a historically dominant but mentally fragile attack meets a defensively depleted but late-game resilient side. The stage is set for a Bundesliga thriller. Yet our forensic analysis reveals a surprising verdict.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: RB Leipzig's attacking players in red, looking aggressive. Right side: FC Augsburg's defenders in white, looking battered but determined. Lightning strikes in the middle.",
+        "graphic_text_overlay": "CHAOS THEORY"
+      },
+      {
+        "scene": 2,
+        "name": "Leipzig's Fatal Flaw",
+        "voiceover": "Leipzig's attack is formidable — they score in every home game. But a critical weakness undermines them: they are among the Bundesliga's worst at squandering leads. They concede ten goals in the final fifteen minutes. This mental fragility turns dominance into drama.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dynamic graphic showing RB Leipzig's crest. Key stats flash: '0 Home Games Without a Goal', '10 Goals Conceded 76-90'', '4 Home Clean Sheets'. An image of a crumbling wall symbolises their defence.",
+        "graphic_text_overlay": "SCORE BUT CAN'T HOLD"
+      },
+      {
+        "scene": 3,
+        "name": "Augsburg's Late Gamble",
+        "voiceover": "Augsburg arrive with momentum built on weak opponents. Their true away reality is brutal — no clean sheets in twelve attempts. A defensive injury crisis decimates their backline. Their only hope? A late-game surge. They score nine goals in the final quarter-hour, directly targeting Leipzig's greatest weakness.",
+        "graphic_type": "away_card",
+        "graphic_description": "The FC Augsburg crest with a red 'INJURY CRISIS' banner. Stats appear: '0 Away Clean Sheets', '9 Goals Scored 76-90'', '5 Key Players Out'. A clock counting down to the 90th minute.",
+        "graphic_text_overlay": "THE LATE SPECIALISTS"
+      },
+      {
+        "scene": 4,
+        "name": "The Mathematical Avalanche",
+        "voiceover": "The data for goals is overwhelming. Our model shows a ninety-one percent probability for Over two point five Goals — a forty-three point edge versus the market. History agrees: these fixtures average nearly four goals. The tactical clash is open and transitional. Every logical path leads to a net bulging.",
+        "graphic_type": "evidence",
+        "graphic_description": "A full-screen data visualization. A massive '91.2%' for Over 2.5 Goals dominates. Smaller supporting stats orbit it: '3.7 Avg Goals H2H', '88% Over 2.5 Rate', '42.9pp Edge'.",
+        "graphic_text_overlay": "91% GOAL PROBABILITY"
+      },
+      {
+        "scene": 5,
+        "name": "The Value Vanishes",
+        "voiceover": "But here is the revelation. While the direction is clear, the value is not. No qualifying betting line meets our strict threshold. The optimal market, Over three point two five Goals, shows a strong edge, but the available odds do not compensate for the risk. The bookmakers have priced the chaos efficiently. Sometimes the smartest bet is no bet at all.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final graphic. The words 'NO BET' are central and bold. Below, smaller text explains: 'Strong Direction, No Qualifying Value'. The Boot Room logo is present.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

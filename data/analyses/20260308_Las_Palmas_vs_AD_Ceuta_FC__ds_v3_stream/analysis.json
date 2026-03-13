@@ -1,0 +1,163 @@
+{
+  "key": "20260308_Las_Palmas_vs_AD_Ceuta_FC__ds_v3_stream",
+  "match": {
+    "home_team": "Las Palmas",
+    "away_team": "AD Ceuta FC",
+    "league": "Segunda División",
+    "date": "2026-03-08",
+    "home_id": 534,
+    "away_id": 10139
+  },
+  "prediction": {
+    "direction": "null",
+    "direction_conviction": "weak",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — No directional consensus from Boot Room",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 59.1,
+    "score_draw": 26.6,
+    "score_away": 20.2,
+    "reasoning": "(1) MATCH CHARACTER — This is a VOLATILE match. The data presents fundamental contradictions: Las Palmas's defensive solidity at home (0.79 goals conceded) and low-scoring tendencies clash with Ceuta's recent higher-scoring away matches (3.2 average goals). The Tactician's 'tight' prediction and H2H low-scoring baseline directly oppose the Edge Calculator's strong Over signals. Cascading profiles show moderate convergence on BTTS Yes (67%) but weak alignment on goal totals, indicating unpredictable scoring patterns. (2) DIRECTION EVIDENCE — No clear directional consensus emerges. The Edge Calculator shows strong mathematical edges on Over markets (Over 2.75 Goals: +21% edge), but this is contradicted by qualitative analysis. The Quant's report reveals zero probability gaps across all Asian handicap lines, indicating efficient market pricing. The Auditor identifies a severe DIRECTION_CONFLICT for goals markets, making Over/Under markets unplayable per the absolute rule. (3) AGENTS CONSENSUS — Agents are deeply split. The Edge Calculator and some statistical models strongly favour Over goals. The Tactician, Archivist (H2H baseline), and Home Scout's defensive metrics point toward Under or a tight match. The Sceptic's critical challenges to both scouts' form assessments increase uncertainty. The Quant finds no value in Asian handicap markets. This represents genuine agent conflict with no clear majority alignment. (4) RISKS — The primary risk is the fundamental disagreement between statistical and qualitative models on match goals. Las Palmas's declining home attacking metrics could produce another low-scoring draw, while Ceuta's poor away defence might collapse under pressure. The thin H2H sample (2 matches) provides unreliable guidance, and the Sceptic's data gaps (injured_key_players missing) add unknown variables.",
+    "key_factors": [
+      "Severe direction conflict between statistical models and qualitative analysis on match goals",
+      "Efficient market pricing with zero probability gaps across Asian handicap lines",
+      "High-stakes European qualification context increasing match volatility",
+      "Contradictory team profiles: home defensive solidity vs away scoring momentum"
+    ],
+    "risk_factors": [
+      "Fundamental model disagreement makes any directional bet highly speculative",
+      "Thin H2H history (2 matches) provides unreliable pattern guidance",
+      "Missing injury data creates unknown squad status variables"
+    ],
+    "alternative_markets": [],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 0.0,
+      "edge_source": "No market selected due to direction conflict",
+      "edge_grade": "NO_VALUE",
+      "staking_signal": "PASS",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 21.0
+        },
+        {
+          "market": "AH Away -0.25",
+          "edge": 19.3
+        },
+        {
+          "market": "Over 2.25 Goals",
+          "edge": 18.2
+        }
+      ]
+    },
+    "tribunal_consensus_level": "weak",
+    "tribunal_consensus_description": "The tribunal shows fundamental disagreement: The Edge Calculator and statistical models strongly favour Over goals markets, while the Tactician, Archivist (historical baseline), and Home Scout's defensive metrics point toward a tighter, lower-scoring match. The Quant finds no value in Asian handicap markets, and the Sceptic raises serious challenges to both scouts' form assessments. No clear majority alignment exists on any betting direction.",
+    "_direction_nobet_reason": "direction=null",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.78,
+    "max_edge": 21.0
+  },
+  "display_texts": {
+    "home_position": "#6 (45 pts, +12 GD)",
+    "away_position": "#7 (44 pts, -3 GD)",
+    "home_form": "11W-12D-5L in 28 matches, last 5: DWLDW",
+    "away_form": "13W-5D-10L in 28 matches, last 5: LLLWD",
+    "home_stats": "34 goals in 28 matches (avg 1.2/match), 10 clean sheets",
+    "away_stats": "36 goals in 28 matches (avg 1.3/match), 8 clean sheets",
+    "h2h_history": "Las Palmas 0-0 AD Ceuta FC (08 Mar 2026)\nAD Ceuta FC 1-1 Las Palmas (14 Dec 2025)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Las Palmas | Probabilities: 45%-45%-10% | Recommendation: Double chance : Las Palmas or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "4:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Las Palmas vs Ceuta: The European Six-Pointer With No Clear Edge",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a team that cannot win at home faces a side that cannot win away? You get a European qualification six-pointer where the data presents a fundamental contradiction. Las Palmas's defensive fortress at the Estadio Gran Canaria — conceding just 0.79 goals per match — collides with Ceuta's recent scoring momentum on the road. Yet beneath this apparent clash lies a deeper conflict that makes this fixture impossible to call.",
+    "chapter_home": "Las Palmas sit sixth in the Segunda División, firmly in the playoff hunt with a defensive record that is the envy of the league. At home, they concede less than a goal per game, built on a compact 4-4-2 that prioritises structure over flair. Their recent form shows resilience — unbeaten in their last five matches — but that resilience has a specific character: four of those five matches ended in draws. At the Estadio Gran Canaria, the story is even more concerning. They are winless in their last four home fixtures, with three draws and a loss. Their attack lacks a cutting edge, failing to score in two of those four games. The narrative is one of a team with a solid foundation but a persistent inability to turn control into three points, especially in front of their own fans. Squad depth appears adequate with thirty-five registered players, but the absence of specific injury data creates an unknown variable. Their morale is neutral, but the pressure is tangible — this is a direct battle for a European spot.",
+    "chapter_away": "AD Ceuta FC travel with the wind in their sails, riding a wave of three consecutive victories. Their morale is reported as elevated, and they sit just one point behind their hosts in seventh, making this a genuine six-pointer. Their tactical approach is more expansive — a 4-3-3 that seeks width and transition opportunities. Yet their underlying away form tells a starkly different story. They have won just three of fourteen matches on the road this season, conceding an average of 1.71 goals per away game. This chronic travel sickness is the anchor on their ambitions. The absence of forward Kuki is a noted setback, though squad depth of thirty provides some cover. Their strengths lie in early scoring — eight goals in the opening fifteen minutes — and a perfect penalty record. But their defensive vulnerability away from home, combined with a historical 21% away win rate, creates a massive dichotomy between their overall momentum and their capability on their travels.",
+    "chapter_history": "The history between these two sides is thin but telling. In the two recorded meetings, neither team has managed a victory. It is a pure stalemate. Those matches have been low-scoring affairs, averaging just one goal per game, with both teams scoring in only one of the two fixtures. The last encounter was defined by late drama — a Ceuta equaliser in the 89th minute to snatch a point after Las Palmas had taken a second-half lead. This pattern hints at tense, closely-fought battles where goals are a precious commodity. However, with only two matches to analyse, drawing firm conclusions is inherently unreliable. The history suggests a draw, but with both squads at full strength and the stakes so high, it also demands a winner.",
+    "chapter_analysis": "The tactical matchup is a classic clash of styles. Las Palmas's narrow 4-4-2 gives them numerical superiority in central midfield against Ceuta's 4-3-3, potentially allowing them to control the tempo and stifle Ceuta's build-up. The Tactician predicts a tight match with fewer goals than average, leaning on Las Palmas's defensive solidity. However, this is where the conflict emerges. The Sceptic delivered critical blows to both scouts' assessments, revealing that Las Palmas's 'excellent' form masked a winless home streak, and that Ceuta's 'rising' momentum was almost entirely a home phenomenon. This scrutiny exposes the core volatility. Furthermore, the Edge Calculator's statistical models scream a different story — they identify a strong 21% edge on Over 2.75 Goals, directly contradicting the tactical and historical low-scoring baseline. The Quant's analysis adds another layer: the Asian handicap market shows zero probability gaps, indicating perfectly efficient pricing. The Auditor synthesises this chaos, identifying a severe direction conflict between the statistical push for Over goals and the qualitative pull toward a tight, low-scoring affair. With models fundamentally disagreeing and the market efficiently priced, no clear path forward exists.",
+    "chapter_value": "Our market: NO_BET. The Boot Room finds no value in this fixture. The mathematical edge on Over 2.75 Goals is strong at 21%, but it is contradicted by the tactical matchup, historical patterns, and the Sceptic's valid challenges to the underlying form data. This fundamental disagreement makes any directional bet highly speculative. The Asian handicap markets show zero probability gaps — the bookmaker's pricing is perfectly aligned with the statistical Poisson baseline. With an effective confidence of just 48% from the Auditor and no consensus from our analytical tribunal, the only prudent decision is to pass. The fair odds imply a 59.1% chance for a Las Palmas win, a 26.6% chance for a draw, and a 20.2% chance for an away win, but these come with too much internal conflict to act upon.",
+    "ending": "Sometimes the smartest play is to recognise when the edge simply isn't there. Las Palmas versus AD Ceuta FC presents a fascinating puzzle — defensive solidity against scoring momentum, home struggles against travel sickness — but the pieces do not fit into a clear betting picture. The data contradictions are too severe, the market too efficient, and the historical sample too thin. For this European six-pointer, The Boot Room's verdict is to watch and learn, but not to invest. If you found this deep dive into a no-bet scenario valuable, hit like and subscribe for more forensic match analysis. Boot Room out.",
+    "roundup_summary": "Las Palmas versus AD Ceuta FC. This is a high-stakes Segunda División clash with sixth-placed Las Palmas hosting seventh-placed Ceuta, separated by just one point in the European qualification race. The hosts are unbeaten in their last five overall but winless in their last four at home, drawing three. The visitors arrive with three straight wins but a poor away record of just three wins in fourteen road matches. A key injury unknown exists for Las Palmas, while Ceuta will be without forward Kuki.\n\nThe head-to-head history is limited to two meetings, both ending in draws. The scores were 1-1 and 0-0, producing an average of just one goal per match. This season, Las Palmas score 1.21 and concede 0.93 goals per game on average, while Ceuta score 1.36 and concede 1.29. Their recent away matches, however, have seen an average of 3.2 total goals, creating a statistical divergence from the historical low-scoring trend.\n\nThe Boot Room analysis reveals a fundamental model conflict. The Poisson-derived λ values and Edge Calculator show a strong 21% edge on Over 2.75 Goals, suggesting a 61% probability versus market odds of 2.5. However, this is directly contradicted by the Tactician's 'tight' match prediction and the historical low-scoring baseline. The Sceptic's critical concern — that both scouts misrepresented venue-agnostic form — undermines confidence in the core data. The Quant's report shows zero probability gaps across all Asian handicap lines, indicating the bookmaker has efficiently priced the statistical baseline. The Auditor identified a severe direction conflict, giving an effective confidence of just 48%, making any Over/Under market unplayable. The bookmaker has not mis-priced a clear edge; instead, the analytical signals are cancelling each other out.\n\nThe Boot Room finds no value bet in this volatile fixture. The internal contradiction between statistical models favouring goals and qualitative analysis pointing to a tight match creates unacceptable uncertainty. With zero confidence in any directional outcome and efficient market pricing, the only prudent course is to pass. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Contradiction",
+        "voiceover": "What happens when a defensive fortress meets a team with scoring momentum? Las Palmas concede less than a goal per game at home. Ceuta arrive with three straight wins. But the data holds a deeper, more fundamental conflict that makes this European six-pointer impossible to call.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: a sturdy, medieval castle wall with the Las Palmas crest. Right side: a fiery, speeding arrow with the Ceuta crest. A large 'vs' symbol between them, cracked down the middle.",
+        "graphic_text_overlay": "DEFENCE VS MOMENTUM"
+      },
+      {
+        "scene": 2,
+        "name": "The Home Illusion",
+        "voiceover": "Las Palmas are unbeaten in five — an illusion of strength. The reality is four draws and just one win. At home, they are winless in four. Their 4-4-2 is defensively solid but lacks a cutting edge, turning control into frustrating stalemates instead of victories.",
+        "graphic_type": "home_card",
+        "graphic_description": "The Las Palmas badge imposed over a stats graphic showing 'Last 5: 1W-4D-0L' and 'Last 4 Home: 0W-3D-1L'. A downward trend arrow next to 'Home Attack'.",
+        "graphic_text_overlay": "WINLESS AT HOME"
+      },
+      {
+        "scene": 3,
+        "name": "The Away Dichotomy",
+        "voiceover": "Ceuta's momentum is real — but it is a home phenomenon. On the road, they are a different team. Just three wins in fourteen away matches, conceding nearly two goals per game. Their 4-3-3 offers width, but their defensive frailty travels with them.",
+        "graphic_type": "away_card",
+        "graphic_description": "The AD Ceuta FC badge with a split background. One side shows a trophy and '3 Wins', the other shows a suitcase with a red 'X' and '21% Away Win Rate'. A plane icon is crossed out.",
+        "graphic_text_overlay": "TRAVEL SICKNESS"
+      },
+      {
+        "scene": 4,
+        "name": "The Model War",
+        "voiceover": "Here lies the core conflict. Statistical models see a goal-fest — a 21% edge on Over 2.75. But the Tactician and history see a tight, low-scoring stalemate. The Sceptic exposed flawed form data. The models are at war with each other.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "An abstract visualization of clashing data streams. On one side, 'Over 2.75 Goals' and '+21% EDGE' in green. On the other, 'Tight Match' and 'Avg 1.0 Goals' in blue. They collide in the centre with a warning symbol.",
+        "graphic_text_overlay": "MODEL CONFLICT"
+      },
+      {
+        "scene": 5,
+        "name": "The Efficient Market",
+        "voiceover": "The Quant's report delivers the final blow. Across every Asian handicap line, the probability gap is zero. The market is perfectly priced against the statistical baseline. There is no mis-pricing to exploit, only efficient odds reflecting the genuine uncertainty.",
+        "graphic_type": "evidence",
+        "graphic_description": "A clean, financial-style chart showing multiple Asian handicap lines (Home -0.75, -1.0, etc.). Next to each, a 'Gap' column shows '0.0%' in bold. A checkmark next to 'Market Efficiency'.",
+        "graphic_text_overlay": "ZERO GAPS"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "When the data contradicts itself and the market offers no edge, the only intelligent play is to walk away. Our market: NO_BET. Confidence: zero percent. For this volatile six-pointer, the Boot Room finds no value. Sometimes the best bet is no bet at all. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A simple, stark black screen with white text. 'OUR MARKET: NO BET' in large letters. Below, 'Confidence: 0%'. The Boot Room logo is small in the corner.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

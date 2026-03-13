@@ -1,0 +1,170 @@
+{
+  "key": "20260313_Torino_vs_Parma__ds_v3_stream",
+  "match": {
+    "home_team": "Torino",
+    "away_team": "Parma",
+    "league": "Serie A",
+    "date": "2026-03-13",
+    "home_id": 503,
+    "away_id": 523
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "Under 1.75 Goals",
+    "prediction": "Under 1.75 Goals",
+    "confidence": 67,
+    "confidence_gate": "APPROVE",
+    "odds_target": 2.59,
+    "score_home": 44.4,
+    "score_draw": 34.5,
+    "score_away": 21.1,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. Both teams deploy identical 3-5-2 formations prioritising defensive structure over attacking ambition. Torino's home defensive solidity (0.67 GA/m last three) meets Parma's exceptional away defensive record (seven clean sheets in 14 away matches). The Tactician explicitly classifies this as a 'tight, low-chance match' with 'fewer goals than average', while the cascading profiles show Parma's strong Under 2.5 suitability (6/7) and Torino's stable defensive metrics. (2) DIRECTION EVIDENCE — The Quant's Poisson model shows a 13 percentage point positive edge on Under 2.5 Goals (65% probability vs 52% market implied), the largest gap identified. This is supported by Parma's away defensive form (80% clean sheet rate last five away) and Torino's inconsistent scoring (failing to net in three of 14 home games). The λ sum (implied goal expectation) is low, with both teams averaging under 1.2 goals per match in recent form. Profile convergence is moderate (43%) for Under 2.5, but crucially, Parma's profile strongly supports it while Torino's recent Over tendency is countered by their home defensive improvement. (3) AGENTS CONSENSUS — Strong alignment exists on the low-scoring direction. The Quant identifies Under 2.5 as the sole value bet with HIGH confidence. The Tactician's structural analysis predicts 'fewer goals than average'. Both Scouts highlight defensive strengths and attacking weaknesses. The Auditor validates the mathematical soundness and notes 'strong alignment' between Quant and Tactician. The Sceptic's challenges focus on win probability overstatements, not the low-scoring thesis, and their no-bet recommendation is 'PROCEED'. Only the Archivist's historical BTTS pattern (60% in last 10 meetings) offers mild counter-evidence, but current form overrides historical trends. (4) RISKS — The primary risk is Torino's desperation for survival points leading to late attacking surges that could breach Parma's defence. The timing mismatch in the final 15 minutes (Torino score 25% of goals, Parma concede 24% in this period) could produce a late goal. Additionally, set pieces could break the deadlock given both teams' low open-play scoring. However, these risks are mitigated by Parma's defensive discipline and Torino's blunt attack, making a 0-0 or 1-0 outcome more probable than a goal-fest.",
+    "key_factors": [
+      "Parma's exceptional away defensive record: seven clean sheets in 14 matches, 80% clean sheet rate last five away",
+      "Structural parity with identical 3-5-2 formations creating midfield congestion and limited attacking channels",
+      "Quant's 13 percentage point Poisson edge on Under 2.5 Goals with HIGH confidence",
+      "Both teams' poor attacking metrics: Torino average 1.0 GF/m at home, Parma average 0.64 GF/m away"
+    ],
+    "risk_factors": [
+      "Torino's desperation in relegation battle could lead to late attacking pressure in final 15 minutes",
+      "Set-piece vulnerability given both teams' defensive orientation and low open-play scoring"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.25 Goals",
+        "prediction": "Under 2.25",
+        "confidence": 65
+      },
+      {
+        "market": "Under 1.75 Goals",
+        "prediction": "Under 1.75",
+        "confidence": 63
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 13.0,
+      "edge_source": "Quant probability minus market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 2.5 Goals",
+          "edge": 13.0
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 25.7
+        },
+        {
+          "market": "Under 1.75 Goals",
+          "edge": 30.3
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Quant, Tactician, both Scouts, and Auditor all align on a low-scoring match direction. The Quant provides mathematical evidence (13pp edge on Under 2.5), the Tactician confirms structural defensive parity, both Scouts highlight defensive strengths and attacking weaknesses, and the Auditor validates the alignment. Only the Archivist's historical BTTS pattern offers mild dissent, but this is outweighed by current form analysis.",
+    "_direction": "under_goals",
+    "_direction_conviction": "strong",
+    "_direction_ev": 0.7845,
+    "_direction_prob": 68.9,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.88,
+    "max_edge": 31.3
+  },
+  "display_texts": {
+    "home_position": "#15 (30 pts, -21 GD)",
+    "away_position": "#12 (34 pts, -12 GD)",
+    "home_form": "8W-6D-14L in 28 matches, last 5: LDWLL",
+    "away_form": "8W-10D-10L in 28 matches, last 5: LDLDW",
+    "home_stats": "28 goals in 28 matches (avg 1.0/match), 10 clean sheets",
+    "away_stats": "20 goals in 28 matches (avg 0.7/match), 10 clean sheets",
+    "h2h_history": "Torino 0-0 Parma (13 Mar 2026)\nParma 2-1 Torino (29 Sep 2025)\nParma 2-2 Torino (08 Mar 2025)\nTorino 0-0 Parma (05 Jan 2025)\nTorino 1-0 Parma (03 May 2021)",
+    "home_injuries": "Z. Savva (Missing Fixture - Knee Injury), Z. Aboukhlal (Questionable - Muscle Injury)",
+    "away_injuries": "P. Almqvist (Missing Fixture - Thigh Injury), A. Bernabe (Missing Fixture - Muscle Injury), M. Frigan (Missing Fixture - Knee Injury)",
+    "api_predictions": "API-Football prediction: Torino | Probabilities: 35%-35%-30% | Recommendation: Double chance : Torino or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "PENDING",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "–",
+    "market": "Under 1.75 Goals"
+  },
+  "script": {
+    "title": "Torino vs Parma: The Serie A Stalemate Nobody Can Score In",
+    "thumbnail_text": "DEFENSIVE DEADLOCK",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when two teams deploy identical defensive systems, both desperate not to lose? In Serie A, the answer is often a stalemate. Tonight, Torino host Parma in a match where the bookmakers expect goals — but our data reveals a structural deadlock that the market has completely mispriced.",
+    "chapter_home": "Torino arrive at the Stadio Olimpico with their season on a knife-edge. Just four points above the relegation zone, their form is declining with just one win in their last five matches. Yet, at home, they have shown recent resilience — winning two of their last three and conceding just 0.67 goals per game in that stretch. Their tactical identity is a rigid 3-5-2 formation, prioritising defensive structure over attacking flair. Injuries to squad players Zakaria Aboukhlal and Zinédine Savva have minimal impact on the starting eleven. The real story is their blunt attack — they have failed to score in three of fourteen home games this season, averaging just over one goal per match. Manager D'Aversa is under pressure after a recent defeat, and defender Pellegrino is one yellow card from suspension. This is a team fighting for survival, but their primary weapon is a defensive shell, not an attacking onslaught.",
+    "chapter_away": "Parma travel to Turin with a completely different kind of pressure — the pressure to avoid risk. Sitting four points clear of their hosts in mid-table, their primary objective is consolidation. Their approach is defined by exceptional defensive discipline, especially on the road. They have kept seven clean sheets in fourteen away matches this season — an 80% clean sheet rate in their last five trips alone. They also deploy a 3-5-2 system, creating a mirror image of Torino's setup. Their attack, however, is chronically weak, averaging a mere 0.64 goals per away game and failing to score in half of their fixtures. Injuries to Almqvist, Bernabe, and Frigan reduce squad depth but don't touch the core defensive unit. Parma's narrative is one of containment — they are comfortable playing for a point, and their recent form of two wins and a draw in their last three away games is built on that very foundation.",
+    "chapter_history": "The history between these sides points to tension and fine margins. In their last ten meetings, four have ended in draws — a 40% stalemate rate that signals a historically tight fixture. Both teams have scored in six of those ten encounters, though recent form suggests that pattern may break. Parma are unbeaten in the last three meetings, with two wins and a draw, including a 2-1 victory earlier this season decided by a late winner. The historical narrative is one of parity, but the current context — Torino's relegation desperation versus Parma's defensive consolidation — transforms this from an ordinary match into a high-stakes survival scrap.",
+    "chapter_analysis": "The tactical matchup is a perfect storm for a low-scoring affair. Both teams field identical 3-5-2 formations, creating numerical parity across the pitch and forcing play into congested wide areas. The Tactician classifies this as a 'tight, low-chance match' with 'fewer goals than average'. Our Quant model identifies a significant 13 percentage point edge on the Under 2.5 Goals market, with a Poisson probability of 65% against a market-implied 52%. This is the largest value gap found. The Sceptic challenged the Home Scout's overconfident 55% win probability for Torino, which we have rejected — the data shows Torino's win suitability score is zero out of five. The real risk lies in timing: Torino score 25% of their goals in the final 15 minutes, while Parma concede 24% in that same period. A late surge or a set-piece could break the deadlock. However, these risks are mitigated by Parma's exceptional away defensive record and both teams' poor attacking metrics — Torino average 1.0 goals per home game, Parma average 0.64 away.",
+    "chapter_value": "Our market: Under 1.75 Goals. The bookmakers are offering odds of 2.59, which implies a probability of just 38.6%. Our analysis gives this a 67% probability of landing. This represents a 30.3 percentage point edge — strong value. The market has failed to price in the defensive mirror-match, Parma's away resilience, and the sheer lack of attacking threat from both sides. While a late goal remains a possibility, the structural setup overwhelmingly favours a match with one goal or fewer.",
+    "ending": "The verdict is clear. When two defensively-oriented 3-5-2 systems collide, with one team fighting not to lose and the other unable to score, goals become a premium. Our market is Under 1.75 Goals at 2.59 with 67% confidence. The Boot Room has identified a significant market inefficiency in this Serie A stalemate. If you found this analysis valuable, subscribe to AI Boot Room for data-driven insights on every major fixture. Boot Room out.",
+    "roundup_summary": "Torino versus Parma. A Serie A clash with profound implications at opposite ends of the mid-table. Torino, in 16th and just four points above the drop, have one win in their last five. Parma, in 12th and relatively safe, have taken seven points from their last three away games. The home side's recent defensive solidity — conceding 0.67 goals per game in their last three at home — clashes with the visitors' exceptional away record of seven clean sheets in fourteen matches.\n\nThe head-to-head history shows a 40% draw rate across the last ten meetings, with both teams scoring in six of those. The most recent fixture in September 2025 was a 2-1 Parma win. This season, Torino average exactly 1.0 goals scored per home game, while Parma average a meagre 0.64 goals scored on the road. Their combined recent form points decisively away from a high-scoring affair.\n\nThe Boot Room analysis centres on a profound tactical stalemate. Both teams deploy identical 3-5-2 formations, creating structural parity and congesting the pitch. Our Quant's Poisson model shows a 13 percentage point positive edge on Under 2.5 Goals, with a 65% probability versus a 52% market implied probability. The Sceptic's concern was an overstatement of Torino's win chance, which does not contradict the low-scoring thesis. The bookmaker has mis-priced the goal market by underestimating Parma's defensive away discipline — an 80% clean sheet rate in their last five trips — and the attacking bluntness of both sides. The Auditor's effective confidence sits at 58%, validating the mathematical soundness.\n\nThe Boot Room market is Under 1.75 Goals. At odds of 2.59, this carries a 67% confidence level. The bet wins if the match produces one goal or fewer. A 1-1 draw would see half the stake lost, half refunded, but the data strongly points to a 0-0 or 1-0 outcome. Boot Room market: Under 1.75 Goals. Confidence: 67%.",
+    "short_segment": "Torino host Parma in a critical Serie A encounter. The hosts, 16th and in a relegation fight, face a Parma side sitting 12th and four points clearer. Torino's form is poor with one win in five, but they have tightened up at home. Parma arrive with strong away defensive form, including seven clean sheets in fourteen road trips. The key stat is attacking futility — Torino average one goal per home game, Parma just 0.64 away. The Boot Room lands on Under 1.75 Goals at 2.59, with 67% confidence. The rationale is a defensive mirror-match between two 3-5-2 systems, where structural parity and minimal attacking threat create a stalemate. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Defensive Mirror",
+        "voiceover": "What happens when two teams deploy the exact same defensive system, both terrified of losing? In Serie A, you get a stalemate. Torino versus Parma — a match where the bookmakers see goals, but our data reveals a structural deadlock the market has missed completely.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side shows Torino's 3-5-2 formation schematic. Right side shows an identical Parma 3-5-2 schematic. A large 'VS' symbol in the centre is cracked or frozen.",
+        "graphic_text_overlay": "IDENTICAL SYSTEMS"
+      },
+      {
+        "scene": 2,
+        "name": "Parma's Away Fortress",
+        "voiceover": "Parma travel with one objective: do not concede. They have kept seven clean sheets in fourteen away matches this season. In their last five road trips, they've shut out the opposition 80% of the time. Their 3-5-2 is a defensive bunker, and their attack offers almost no threat, averaging just 0.64 goals per away game.",
+        "graphic_type": "away_card",
+        "graphic_description": "A dramatic, low-angle shot of Parma's defensive wall, players in a disciplined line. Overlaid stats: '7 Clean Sheets in 14 Away Matches', '0.64 Goals Scored/Away'.",
+        "graphic_text_overlay": "AWAY DEFENSIVE DISCIPLINE"
+      },
+      {
+        "scene": 3,
+        "name": "Torino's Blunt Survival Fight",
+        "voiceover": "Torino are desperate for points, sitting just above the drop zone. But their fight is defined by defence, not attack. At home, they've conceded only 0.67 goals per game recently. Yet they fail to score in three of fourteen home matches, averaging one goal. Their 3-5-2 mirrors Parma's — creating a perfect, goalless symmetry.",
+        "graphic_type": "home_card",
+        "graphic_description": "A tense, close-up shot of Torino players in a huddle, faces showing determination and worry. Overlaid stats: '0.67 GA/m Last 3 Home', '1.0 GF/m at Home'.",
+        "graphic_text_overlay": "DESPERATE BUT BLUNT"
+      },
+      {
+        "scene": 4,
+        "name": "The Quant's Edge",
+        "voiceover": "Our probability model reveals the market error. It gives Under 2.5 Goals a 65% chance — a full 13 percentage points above the bookmaker's implied probability. This is the largest value gap identified. The data screams low-scoring, but the odds have not adjusted to Parma's defensive strength or the attacking poverty on both sides.",
+        "graphic_type": "evidence",
+        "graphic_description": "A clean, data-visualisation style graphic. A bar chart shows 'Quant Probability: 65%' significantly higher than 'Market Implied: 52%'. The gap is highlighted and labelled '+13pp EDGE'.",
+        "graphic_text_overlay": "13% POISSON EDGE"
+      },
+      {
+        "scene": 5,
+        "name": "The Boot Room Verdict",
+        "voiceover": "Our market: Under 1.75 Goals. The odds of 2.59 imply a 38.6% chance. We see a 67% probability — a 30 percentage point edge. The structural parity, the defensive records, and the attacking weakness all converge on one outcome: a match with one goal or fewer. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A bold, final graphic. Central text: 'UNDER 1.75 GOALS'. Below: 'Odds: 2.59 | Confidence: 67%'. The AI Boot Room logo is prominent.",
+        "graphic_text_overlay": "VERDICT: UNDER 1.75"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "key": "20260310_Atletico_Madrid_vs_Tottenham__ds_v3_stream",
+  "match": {
+    "home_team": "Atletico Madrid",
+    "away_team": "Tottenham",
+    "league": "UEFA Champions League",
+    "date": "2026-03-10",
+    "home_id": 530,
+    "away_id": 47
+  },
+  "prediction": {
+    "direction": "null",
+    "direction_conviction": "weak",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — No directional consensus from Boot Room",
+    "confidence": 0,
+    "confidence_gate": "REJECT",
+    "odds_target": 0,
+    "score_home": 57.1,
+    "score_draw": 27.0,
+    "score_away": 15.9,
+    "reasoning": "(1) MATCH CHARACTER — This is a VOLATILE match. The data presents irreconcilable contradictions: Atletico's cascading home profile shows high-scoring matches with 100% BTTS, while Tottenham's away profile shows 100% clean sheets and low-scoring wins. The historical H2H points to extremely low-scoring draws (0.3 goals/match, 67% draw rate). The Tactician predicts a transitional game, but the underlying data signals are in violent opposition. (2) DIRECTION EVIDENCE — No clear direction emerges. The EdgeCalculator shows massive mathematical edges on AWAY Asian Handicap lines (e.g., AH Away -0.25 with +61.9% edge), but this directly contradicts all qualitative analysis, market pricing, and the Tactician's HOME edge. The Auditor flags this as a catastrophic DIRECTION_CONFLICT, rendering the mathematical model unreliable. The cascading profile convergence is weak-to-moderate across all markets (40-58%), with no strong signal. The Sceptic's NO_BET veto is supported by these fundamental conflicts. (3) AGENTS CONSENSUS — There is no consensus. The Home Scout and Tactician favour a home advantage. The Away Scout highlights Tottenham's injury crisis but overlooks their perfect recent away form. The Archivist points to low-scoring historical draws. The Quant's model shows no Poisson gaps for AH lines, indicating efficient pricing, yet the EdgeCalculator (a separate model) violently disagrees. The Auditor rejects the entire analysis due to missing data and model conflict. The Sceptic issues a NO_BET verdict due to severe conflicting signals and data flaws. (4) RISKS — The primary risk is betting on a market where the core mathematical model and all qualitative signals point in opposite directions. Tottenham's catastrophic injury list could make their recent form irrelevant if key absentees cripple their structure. Atletico's defensive vulnerabilities could be exploited, or their attack could be stifled by a pragmatic, deep-lying opponent. The rotation risk from the Champions League fixture conflict adds another layer of unpredictability.",
+    "key_factors": [
+      "Severe directional conflict between mathematical model (strong away value) and all qualitative signals (home advantage, injuries, tactics)",
+      "Tottenham's catastrophic injury list (10 players) versus their perfect recent away form (100% wins, clean sheets)",
+      "Atletico Madrid's potent home attack (3.0 goals/match) coupled with a leaky defence (0 clean sheets in 10)",
+      "Historical head-to-head data points to extremely low-scoring, cagey affairs (0.3 goals/match, 67% draw rate)",
+      "Moderate profile convergence (57%) on Over 2.5 Goals/BTTS Yes, but contradicted by Tottenham's defensive away profile"
+    ],
+    "risk_factors": [
+      "DIRECTION_CONFLICT: Poisson/EdgeCalculator model shows massive away value, contradicting all other analysis",
+      "Rotation risk from Champions League fixture conflict (confidence hard cap at 55%)",
+      "Tottenham's starting XI unknown due to extensive injuries, making recent form unreliable",
+      "The Sceptic's NO_BET veto due to severe analytical conflicts and data gaps"
+    ],
+    "alternative_markets": [],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 0.0,
+      "edge_source": "N/A — No Bet selected",
+      "edge_grade": "NO_VALUE",
+      "staking_signal": "PASS",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away -0.25",
+          "edge": 61.9
+        },
+        {
+          "market": "AH Away -0.0",
+          "edge": 39.0
+        },
+        {
+          "market": "AH Away 0.5",
+          "edge": 38.5
+        }
+      ]
+    },
+    "tribunal_consensus_level": "weak",
+    "tribunal_consensus_description": "No consensus exists. The Home Scout and Tactician signal a home edge. The Away Scout acknowledges Tottenham's injuries but underweights their recent form. The Archivist highlights low-scoring historical draws. The Quant's model shows efficient AH pricing, but the EdgeCalculator violently disagrees, showing massive away value. The Auditor rejects the analysis due to model conflict and missing data. The Sceptic vetoes with a NO_BET recommendation.",
+    "_direction_nobet_reason": "direction=null",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.01,
+    "max_edge": 61.9
+  },
+  "display_texts": {
+    "home_position": "#14 (13 pts, +2 GD)",
+    "away_position": "#4 (17 pts, +10 GD)",
+    "home_form": "5W-2D-3L in 10 matches, last 5: LWLWW",
+    "away_form": "5W-2D-1L in 8 matches, last 5: WDDWL",
+    "home_stats": "24 goals in 10 matches (avg 2.4/match)",
+    "away_stats": "17 goals in 8 matches (avg 2.1/match), 6 clean sheets",
+    "h2h_history": "Tottenham 0-0 Atletico Madrid (18 Mar 2026)\nAtletico Madrid 0-0 Tottenham (10 Mar 2026)\nTottenham 0-1 Atletico Madrid (29 Jul 2016)",
+    "home_injuries": "R. Mendoza (Missing Fixture - Injury)",
+    "away_injuries": "R. Bentancur (Missing Fixture - Muscle Injury), L. Bergvall (Missing Fixture - Ankle Injury), Y. Bissouma (Missing Fixture - Inactive), B. Davies (Missing Fixture - Ankle Injury), M. Kudus (Missing Fixture - Muscle Injury)",
+    "api_predictions": "API-Football prediction: Atletico Madrid | Probabilities: 45%-45%-10% | Recommendation: Combo Double chance : Atletico Madrid or draw and +1.5 goals",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "5:2",
+    "market": "NO BET"
+  }
+}

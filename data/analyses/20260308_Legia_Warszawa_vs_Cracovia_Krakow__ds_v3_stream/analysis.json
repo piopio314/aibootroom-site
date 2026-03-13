@@ -1,0 +1,168 @@
+{
+  "key": "20260308_Legia_Warszawa_vs_Cracovia_Krakow__ds_v3_stream",
+  "match": {
+    "home_team": "Legia Warszawa",
+    "away_team": "Cracovia Krakow",
+    "league": "Ekstraklasa",
+    "date": "2026-03-08",
+    "home_id": 339,
+    "away_id": 350
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 17.0,
+    "score_draw": 40.0,
+    "score_away": 43.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. Both teams exhibit profoundly low-scoring profiles this season: Legia have exceeded 2.5 goals in only 2 of 23 matches, Cracovia in only 2 of 23. Cracovia's recent away matches average just 1.0 total goals, while Legia's home matches average 2.33. The Tactician explicitly predicts a 'tight and tactical' encounter pointing towards 'fewer goals than the historical H2H average'. (2) DIRECTION EVIDENCE — The Edge Calculator shows overwhelming mathematical support for Under markets: Under 1.75 Goals has a +43.8% edge, Under 2.25 Goals +36.5%. Both teams' cascading profiles show strong convergence on low-scoring outcomes: Cracovia's profile rates Under 2.5 Goals 7/7, while Legia's recent defensive stability (despite structural issues) aligns. The Auditor's adjusted probabilities give Under 2.5 a 75% probability, directly supporting this direction. (3) AGENTS CONSENSUS — The Tactician, both Scouts, and the Auditor all signal a low-scoring match. The Sceptic's challenge to the historical high-scoring narrative reinforces the current-season divergence. The Quant's Poisson model shows perfect alignment with market on Asian Handicaps but its O/U gaps are unreliable due to missing market data. The Archivist's historical high-scoring pattern is the sole dissenting voice, but this is outweighed by current-season data. (4) RISKS — Legia's late-game scoring threat (37% of goals in final 15 minutes) could produce a late goal that pushes totals over lines. Cracovia's defensive trend is 'worsening' per their cascading profile. The historical H2H average of 2.7 goals suggests potential for a reversion to mean, though both teams' current tactical setups make this less likely.",
+    "key_factors": [
+      "Both teams have exceeded 2.5 goals in only 2 of 23 matches this season",
+      "Cracovia's away defensive solidity: 0.33 goals conceded per match in last five away fixtures",
+      "Edge Calculator shows +36.5% edge on Under 2.25 Goals with 89.4% probability",
+      "Tactician predicts 'tight and tactical' match with 'fewer goals than historical average'"
+    ],
+    "risk_factors": [
+      "Legia's late-game scoring surge (37% of goals in final 15 minutes)",
+      "Historical H2H average of 2.7 goals with 60% Over 2.5 rate"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 1.75 Goals",
+        "prediction": "Under 1.75",
+        "confidence": 63
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 36.5,
+      "edge_source": "Edge Calculator our_prob (89.4%) vs market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 1.75 Goals",
+          "edge": 43.8
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 36.5
+        },
+        {
+          "market": "Under 2.75 Goals",
+          "edge": 28.1
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Tactician, both Scouts, Auditor, and Sceptic all support a low-scoring outcome. The Tactician explicitly predicts 'tight and tactical', Scouts note both teams' low-scoring seasonal profiles, the Auditor's adjusted probabilities give Under 2.5 75%, and the Sceptic challenges the historical high-scoring narrative. Only the Archivist's historical data contradicts, but this is outweighed by current-season evidence.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.7,
+    "max_edge": 43.8
+  },
+  "display_texts": {
+    "home_position": "#16 (25 pts, -2 GD)",
+    "away_position": "#6 (33 pts, +4 GD)",
+    "home_form": "5W-10D-8L in 23 matches, last 5: WDWLL",
+    "away_form": "8W-9D-6L in 23 matches, last 5: WWDLW",
+    "home_stats": "27 goals in 23 matches (avg 1.2/match), 5 clean sheets",
+    "away_stats": "29 goals in 23 matches (avg 1.3/match), 11 clean sheets",
+    "h2h_history": "Legia Warszawa 0-0 Cracovia Krakow (08 Mar 2026)\nCracovia Krakow 2-1 Legia Warszawa (31 Aug 2025)\nCracovia Krakow 3-1 Legia Warszawa (18 May 2025)\nLegia Warszawa 3-2 Cracovia Krakow (23 Nov 2024)\nCracovia Krakow 2-0 Legia Warszawa (20 Dec 2023)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Cracovia Krakow | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Cracovia Krakow",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Legia vs Cracovia: Why This Fixture Is A Betting Trap",
+    "thumbnail_text": "NO BET ALERT",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a relegation-threatened giant in defensive crisis hosts a European-chasing side built on away-day resilience? The history books scream goals — an average of nearly three per meeting. But this season tells a completely different story. Tonight, we have a mathematical contradiction that makes this fixture one of the most dangerous on the board.",
+    "chapter_home": "Legia Warszawa are a club in profound crisis. Sitting sixteenth in the Ekstraklasa, they face an existential threat to their top-flight status. Their home form offers little sanctuary — just four wins from eleven matches this season. A chronic defensive crisis has seen four stoppers lost in eight months with only one replacement signed, creating structural vulnerabilities that limit tactical flexibility. The dressing room is fractured by leadership issues, yet there is a glimmer of competitive resilience. Their recent home form shows signs of stabilisation with a win and three draws from their last five. Crucially, they are a late-game threat — thirty-seven percent of their goals come in the final fifteen minutes. But with a blunt attack averaging just one goal per recent home match, their primary weapon arrives only when time is running out.",
+    "chapter_away": "Cracovia Krakow arrive with a paradox. Positioned sixth and chasing European football, their away form is built on a foundation of stubborn draws. They are unbeaten in their last five away matches — but four of those have ended level. Their defensive record is exceptional, conceding just four goals across those five fixtures, an average of 0.33 per game. They have kept clean sheets in six of their twelve away matches this season. The problem is at the other end. Their attack is chronically blunt on the road, averaging only 0.67 goals per match recently. They are set up not to lose, with a 3-4-3 formation designed for defensive solidity and width, but they consistently lack the cutting edge to turn one point into three. Their momentum is also declining, with recent form signals pointing towards a worsening defensive trend.",
+    "chapter_history": "The historical narrative for this fixture is one of goals and Cracovia dominance. The last ten meetings average 2.7 goals, with sixty percent exceeding 2.5. Cracovia have won half of those encounters, including the last two in a row. The most recent meeting in August 2025 was a fiery 2-1 away win for Cracovia. This is a classic, high-stakes Polish rivalry where the pattern has been clear — goals flow, and the visitors often thrive. Yet this historical script is now directly challenged by the current reality. Both teams have exceeded 2.5 goals in only two of their twenty-three league matches this season. The past says attack; the present screams caution.",
+    "chapter_analysis": "The tactical matchup reveals why this contradiction exists. Legia's defensively vulnerable 4-1-4-1 meets Cracovia's organised 3-4-3. The visitors hold a clear structural advantage, with wing-backs poised to exploit Legia's chronic defensive instability. The Tactician predicts a 'tight and tactical' encounter with 'fewer goals than the historical average.' Our data models scream the same story. The Edge Calculator shows overwhelming mathematical support for Under markets — a plus forty-three point eight percent edge on Under 1.75 Goals, and a plus thirty-six point five percent edge on Under 2.25. Our adjusted probabilities give Under 2.5 Goals a seventy-five percent likelihood. The Sceptic rightly challenged the historical high-scoring narrative, noting it is completely at odds with both teams' current low-scoring profiles. However, the Sceptic also identified the market's critical flaw — it prices Legia as a fifty-two percent favourite, while all our quantitative data suggests they are clear underdogs with just a seventeen percent win probability. This fundamental mispricing creates noise across all markets.",
+    "chapter_value": "Our market: NO_BET. The direction is clear — the weight of evidence points decisively towards a low-scoring match. The mathematical edge on Under markets is strong and credible. Yet, no specific line qualifies for a recommendation under our strict value filters, which require both conviction and odds at 1.70 or greater. Furthermore, the Auditor's effective confidence is just twenty-five percent, citing fundamental misalignment in core pricing models. When the market's baseline price on the favourite is so dramatically wrong, it corrupts the pricing structure around it. Sometimes the clearest analytical insight is that no value bet exists.",
+    "ending": "The Boot Room verdict is to pass on this fixture. The analysis reveals a defensive battle between a crisis club and a resilient but blunt away side — a match likely to feature fewer goals than the history books suggest. Yet the market's severe mispricing of Legia Warszawa creates too much uncertainty for a qualified value bet. We see the edge, but we cannot capture it cleanly. In betting, discipline is everything. Tonight, that discipline means watching from the sidelines. If you found this breakdown valuable, subscribe to the AI Boot Room for more forensic match analysis. Boot Room out.",
+    "roundup_summary": "Legia Warszawa versus Cracovia Krakow. The hosts sit sixteenth in the Ekstraklasa, fighting relegation with a recent home form of one win, three draws, and one loss. The visitors are sixth, chasing Europe, and are unbeaten in their last five away matches, though four of those were draws. A key narrative is Legia's chronic defensive crisis, having lost four stoppers in eight months.\n\nThe head-to-head history tells a story of goals. The last ten meetings average 2.7 goals, with 60% going Over 2.5. Cracovia have won five of those ten, including the last two encounters. This season, however, both teams exhibit profoundly low-scoring profiles. Legia have exceeded 2.5 goals in only two of 23 matches; Cracovia have done so in only two of 23. Cracovia's recent away matches average just 1.0 total goals.\n\nThe Boot Room analysis identifies a strong directional signal towards Under markets, contradicted by a critical market mispricing. The Edge Calculator shows a +43.8% edge on Under 1.75 Goals and a +36.5% edge on Under 2.25 Goals, with our probability for the latter at 89.4%. The Poisson model showed no gaps on Asian Handicaps but was unreliable on Over/Unders due to missing market data. The Sceptic's core challenge was validated: the market prices Legia as a 52% favourite, while all quantitative data (TPM 16.7%, Scout 17%) suggests they are clear underdogs. This fundamental error corrupts the pricing structure, making clean value capture impossible despite the strong under goals thesis.\n\nThe Auditor's effective confidence is just 25%, and no market line passes our strict value filters requiring odds of 1.70 or greater alongside strong conviction. Therefore, the disciplined approach is to avoid a bet where the market's baseline is fundamentally broken. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Contradiction",
+        "voiceover": "History says this fixture averages nearly three goals. The present tells a completely different story. Both Legia and Cracovia have exceeded 2.5 goals in only two of twenty-three matches this season. This is the central tension — a historical pattern of fire meeting a current reality of ice.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split visual: left side shows fiery, historical match footage with a '2.7 AVG GOALS' graphic; right side shows a muted, tactical modern match with '2/23 >2.5 GOALS' graphic.",
+        "graphic_text_overlay": "HISTORY VS REALITY"
+      },
+      {
+        "scene": 2,
+        "name": "Home in Crisis",
+        "voiceover": "Legia Warszawa are a giant in freefall. Sixteenth in the league, their home is no fortress. A chronic defensive crisis has seen four stoppers lost in eight months, creating structural fragility. Their only consistent threat comes late — thirty-seven percent of their goals arrive in the final fifteen minutes.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dimly lit, atmospheric shot of Legia's stadium, with key stats overlaid: '16th Place', '4 Home Wins', '37% Late Goals'.",
+        "graphic_text_overlay": "DEFENSIVE COLLAPSE"
+      },
+      {
+        "scene": 3,
+        "name": "Away Day Paradox",
+        "voiceover": "Cracovia Krakow chase Europe with a paradox. Unbeaten in five away matches, but four were draws. They defend superbly, conceding 0.33 goals per game recently. Yet their attack is blunt, averaging 0.67 goals. They are built not to lose, but struggle to find a way to win.",
+        "graphic_type": "away_card",
+        "graphic_description": "A graphic of a solid, imposing defensive wall with a small, broken arrow trying to pierce it. Stats: '0.33 GA', '0.67 GF', '4/5 Draws'.",
+        "graphic_text_overlay": "SOLID BUT BLUNT"
+      },
+      {
+        "scene": 4,
+        "name": "The Mathematical Scream",
+        "voiceover": "The data screams one direction. Our Edge Calculator shows a plus forty-three point eight percent edge on Under 1.75 Goals. Adjusted probabilities give Under 2.5 a seventy-five percent chance. The Tactician predicts a 'tight and tactical' match. Every current signal points to a low-scoring battle.",
+        "graphic_type": "evidence",
+        "graphic_description": "A full-screen data visualization showing massive green bars for 'Under 1.75 Goals: +43.8% EDGE' and 'Under 2.25 Goals: +36.5% EDGE'.",
+        "graphic_text_overlay": "OVERWHELMING UNDER EDGE"
+      },
+      {
+        "scene": 5,
+        "name": "The Market's Fatal Flaw",
+        "voiceover": "But there is a fatal flaw. The market prices Legia as a fifty-two percent favourite to win. Our models — and the Sceptic — see a clear underdog with just a seventeen percent chance. This fundamental mispricing corrupts everything. It creates noise where we seek a clean signal.",
+        "graphic_type": "conflict",
+        "graphic_description": "A graphic of a bookmaker's odds board showing 'Legia 1.90 (52%)', with a large red 'X' over it. Opposite, our data panel shows 'Legia Win Prob: 17%'.",
+        "graphic_text_overlay": "MISPRICED FAVOURITE"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO_BET. The analysis is clear — a low-scoring direction is strongly supported. Yet no qualifying line meets our strict value criteria. When the market's baseline price is this wrong, the smartest play is to step away. Discipline, sometimes, is the only edge. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final graphic with the Boot Room logo. Text reads: 'VERDICT: NO BET', 'Direction: Under Goals', 'Market Confidence: 0%'.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

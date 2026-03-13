@@ -1,0 +1,172 @@
+{
+  "key": "20260312_Ferencvarosi_TC_vs_SC_Braga__ds_v3_stream",
+  "match": {
+    "home_team": "Ferencvarosi TC",
+    "away_team": "SC Braga",
+    "league": "UEFA Europa League",
+    "date": "2026-03-12",
+    "home_id": 651,
+    "away_id": 217
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 28.0,
+    "score_draw": 40.0,
+    "score_away": 32.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician classifies it as 'tight' with 'fewer goals than average'. Braga's exceptional away defensive record (0.29 goals conceded per match, 5 clean sheets in 7) meets Ferencvarosi's solid home defence (0.80 conceded) and injury-limited attack. The cascading profiles show strong convergence on Draw (60%) and moderate on BTTS No (58%), while both teams' recent form windows display declining goal totals. (2) DIRECTION EVIDENCE — The mathematical evidence for under_goals is overwhelming. The EdgeCalculator shows extreme edges on Under markets: +58.7% on Under 1.25 Goals, +57.5% on Under 1.75 Goals. The Auditor's adjusted probabilities give Under 2.5 Goals a 95% likelihood. The Poisson λ sum is exceptionally low (λ_home=0.36 + λ_away=0.20 = 0.56), predicting just 0.56 total goals. Both Scouts report defensive strength: Braga's 'exceptional defensive record' and Ferencvarosi's 'strong defensive record at home'. (3) AGENTS CONSENSUS — The Sceptic, Tactician, Auditor, and EdgeCalculator all strongly align on low-scoring. The Sceptic's 'missing factors' highlight 'extreme low-scoring potential'. The Tactician's 'goals_impact' states the setup 'suggests fewer goals than average'. The Auditor recommends Under 1.25 Goals as the strongest mathematically supported market. The Archivist notes the H2H is 'extremely low-scoring — zero goals scored across both matches'. The only dissent comes from the Home Scout's optimistic win probability, which the Sceptic correctly flags as CRITICALLY flawed. (4) RISKS — The primary risk is rotation: Braga's critical domestic fixture against Porto in 10 days could lead to unexpected lineup changes that weaken their defensive structure. Ferencvarosi's six-player injury crisis might force them into a more open approach if they fall behind early. A single set-piece goal could push the total over lower lines, though the tactical setup suggests minimal open-play chances.",
+    "key_factors": [
+      "Braga's exceptional away defensive record (0.29 goals conceded per match)",
+      "Ferencvarosi's severe six-player injury crisis limiting attacking options",
+      "Historical H2H pattern of goalless draws (2 matches, 0 goals)",
+      "Mathematical baseline predicting just 0.56 total goals (λ sum)",
+      "Cascading profile convergence on Draw (60%) and BTTS No (58%)"
+    ],
+    "risk_factors": [
+      "Rotation risk due to Braga's critical domestic fixture against Porto in 10 days",
+      "Uncertain starting XIs for both teams with multiple injury absences"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 1.25 Goals",
+        "prediction": "Under 1.25",
+        "confidence": 62
+      },
+      {
+        "market": "Draw",
+        "prediction": "Draw",
+        "confidence": 55
+      },
+      {
+        "market": "AH Home +0.25",
+        "prediction": "Home +0.25",
+        "confidence": 53
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 57.5,
+      "edge_source": "EdgeCalculator mathematical probability minus market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 1.25 Goals",
+          "edge": 58.7
+        },
+        {
+          "market": "Under 1.75 Goals",
+          "edge": 57.5
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 47.3
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Sceptic, Tactician, Auditor, and EdgeCalculator strongly agree on a low-scoring defensive match. The Archivist's historical data supports this with goalless H2H draws. The Away Scout's analysis of Braga's defensive strength aligns. Only the Home Scout's optimistic win probability dissents, which the Sceptic has critically challenged as unsupported by data.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.02,
+    "max_edge": 58.7
+  },
+  "display_texts": {
+    "home_position": "#12 (15 pts, +1 GD)",
+    "away_position": "#6 (17 pts, +6 GD)",
+    "home_form": "5W-3D-2L in 10 matches, last 5: DWWWD",
+    "away_form": "10W-3D-1L in 14 matches, last 5: DWWWW",
+    "home_stats": "15 goals in 10 matches (avg 1.5/match), 2 clean sheets",
+    "away_stats": "25 goals in 14 matches (avg 1.8/match), 10 clean sheets",
+    "h2h_history": "SC Braga 0-0 Ferencvarosi TC (18 Mar 2026)\nFerencvarosi TC 0-0 SC Braga (12 Mar 2026)",
+    "home_injuries": "E. Acolatse (Missing Fixture - Inactive), M. Corbu (Missing Fixture - Inactive), S. Gartenmann (Missing Fixture - Injury), N. Kajan (Missing Fixture - Inactive), A. Osvath (Missing Fixture - Inactive)",
+    "away_injuries": "A. Barisic (Missing Fixture - Muscle Injury), V. Gomez (Missing Fixture - Yellow Cards), Vitor Carvalho (Missing Fixture - Injury)",
+    "api_predictions": "API-Football prediction: SC Braga | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or SC Braga",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "2:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Ferencvarosi vs Braga: The Goalless Europa League Deadlock",
+    "thumbnail_text": "NO BET ALERT",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when an unbeaten Hungarian fortress meets a Portuguese defensive machine? When the historical record shows zero goals across two meetings, and both squads arrive with severe limitations? This Europa League tie presents a statistical anomaly — a match screaming for goals that may never arrive.",
+    "chapter_home": "Ferencvarosi TC defend their Budapest fortress with a formidable home record — unbeaten in five matches this season. Yet their situation is precarious. A six-player injury crisis has decimated their squad depth, with five confirmed absences and one questionable. This comes amid brutal fixture congestion — four matches in fourteen days. Their 3-5-2 formation provides structural width, but their attacking output is concerning. The mathematical baseline predicts just 0.36 goals per match for the hosts. While their home defensive record remains solid at 0.80 goals conceded per match, their recent form shows just one win in five across all venues. The narrative of an impregnable fortress clashes with the reality of a depleted, fatigued squad.",
+    "chapter_away": "SC Braga travel to Hungary with Portuguese defensive discipline. Their away record is exceptional — unbeaten in seven matches with just 0.29 goals conceded per game. They have kept five clean sheets in those seven away fixtures. However, their recent attacking form has completely dried up — zero goals in their last two away matches. Their 4-3-3 formation gives them midfield numerical superiority, but their chance conversion has plummeted. Three squad players are absent through injury, though no confirmed starters are missing. The looming shadow of a critical domestic fixture against Porto in ten days creates significant rotation risk. Braga possess elite defensive organisation but arrive with minimal attacking momentum.",
+    "chapter_history": "The history between these sides is brief — and utterly goalless. Two previous meetings, both ending in nil-nil stalemates. That's a perfect record of zero goals across one hundred eighty minutes of football. While the sample size is too small to be predictive, it establishes a curious pattern. These fixtures have historically been defensive deadlocks, with neither side finding the breakthrough. The historical narrative suggests caution, but current context — Braga's European ambitions and Ferencvarosi's injury crisis — could shatter this pattern.",
+    "chapter_analysis": "The tactical matchup reveals why goals will be scarce. Braga's midfield trio creates a 3v2 numerical advantage against Ferencvarosi's central two, allowing them to control possession with a 58.3% away average. Yet their recent shot creation has declined despite this dominance. Ferencvarosi's compact 3-5-2 block is designed to absorb pressure and counter through wing-backs, but their injury crisis limits this transition threat. The Sceptic challenged the Home Scout's wildly optimistic 55% win probability for Ferencvarosi — our mathematical baseline gives them just 25.8%. The Sceptic's correction was critical. Both teams' goal timing data points to a late-game danger zone where Braga scores 28% of their goals and Ferencvarosi concedes regularly. This suggests any breakthrough may come through fatigue rather than open-play creativity.",
+    "chapter_value": "Our market: NO_BET. The mathematical evidence for extreme low-scoring is overwhelming — the Poisson λ sum predicts just 0.56 total goals. The EdgeCalculator shows massive edges on Under markets: +58.7% on Under 1.25 Goals, +57.5% on Under 1.75 Goals. The Auditor's adjusted probabilities give Under 2.5 Goals a 95% likelihood. Yet no available market line meets our strict qualifying criteria of odds at 1.70 or better with sufficient edge. The Asian handicap markets show perfect efficiency — Poisson probabilities match market implied exactly. While the direction is clear, the specific value bet does not exist.",
+    "ending": "Sometimes the smartest play is to walk away. Ferencvarosi's depleted fortress meets Braga's goal-shy defensive machine in a fixture historically defined by stalemates. The data screams under, but the market has priced this efficiently on available lines. Our verdict: pass on this Europa League deadlock. If you found this analysis valuable, subscribe to AI Boot Room for more data-driven football insights. Boot Room out.",
+    "roundup_summary": "Ferencvarosi TC versus SC Braga in UEFA Europa League action. The Hungarian hosts sit mid-table with reduced pressure, arriving with one win in their last five matches across all venues. Braga are positioned in the European race, unbeaten in seven away matches but with zero goals in their last two on the road. Ferencvarosi's formidable home record — unbeaten in five — is tested by a six-player injury crisis and four matches in fourteen days.\n\nThe historical record shows two meetings, both goalless draws — zero goals across one hundred eighty minutes. Ferencvarosi average 0.36 goals per match at home this season while conceding 0.80. Braga's away defensive record is exceptional at 0.29 goals conceded per match with five clean sheets in seven. The historical pattern suggests another low-scoring affair, though the sample size is minimal.\n\nThe Boot Room analysis reveals overwhelming mathematical evidence for extreme low-scoring. The Poisson λ sum predicts just 0.56 total goals — λ_home 0.36 plus λ_away 0.20. The EdgeCalculator identifies massive value edges: +58.7% on Under 1.25 Goals, +57.5% on Under 1.75 Goals. The Sceptic critically challenged the Home Scout's 55% win probability for Ferencvarosi — our adjusted probabilities give them just 28%. The bookmaker has efficiently priced the Asian handicap markets with Poisson probabilities matching market implied exactly, but the Under goals markets at available odds do not meet our qualifying criteria of 1.70 or better with sufficient edge.\n\nThe Boot Room lands on NO_BET. While the low-scoring direction is strongly supported by defensive data, injury crises, and historical goalless draws, no specific market line offers the required value threshold. The Auditor's effective confidence of 62% on Under 1.25 Goals confirms the direction but not the price. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "Ferencvarosi TC host SC Braga in UEFA Europa League action. The Hungarian side defend an unbeaten home record but face a six-player injury crisis. Braga arrive with an exceptional away defensive record — just 0.29 goals conceded per match — but have failed to score in their last two away fixtures. Historically, these sides have played two goalless draws. The Boot Room's mathematical analysis predicts just 0.56 total goals, with massive edges on Under markets exceeding 57%. However, no available market line meets our strict value criteria. The Boot Room lands on NO_BET at odds of 0 with 0% confidence. Sometimes the smartest play is to pass. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Statistical Anomaly",
+        "voiceover": "Two previous meetings. Zero goals. That's the surprising historical fact between Ferencvarosi and Braga — a perfect record of goalless draws. Tonight, an unbeaten Hungarian fortress meets a Portuguese defensive machine. But both arrive with severe limitations that could extend this curious deadlock.",
+        "graphic_type": "hook",
+        "graphic_description": "A stark visual showing '2 MATCHES, 0 GOALS' in large text over a split image of both team crests, with a broken goal net in the background.",
+        "graphic_text_overlay": "GOALLESS HISTORY"
+      },
+      {
+        "scene": 2,
+        "name": "The Depleted Fortress",
+        "voiceover": "Ferencvarosi's home record is formidable — unbeaten in five matches. Yet their fortress is crumbling. A six-player injury crisis has decimated their squad amid brutal fixture congestion. Their mathematical attack predicts just 0.36 goals per match. The home advantage narrative clashes with depleted reality.",
+        "graphic_type": "home_card",
+        "graphic_description": "Ferencvarosi's crest with six red injury icons surrounding it, alongside stats: 'Unbeaten at home' vs '6 players injured'.",
+        "graphic_text_overlay": "INJURY CRISIS"
+      },
+      {
+        "scene": 3,
+        "name": "The Defensive Machine",
+        "voiceover": "Braga travel with Portuguese defensive discipline. Their away record is exceptional — just 0.29 goals conceded per game with five clean sheets in seven. But their attack has completely dried up — zero goals in their last two away matches. Elite organisation meets attacking paralysis.",
+        "graphic_type": "away_card",
+        "graphic_description": "Braga's crest with a defensive shield graphic, showing stats: '0.29 goals conceded/away' and '0 goals last 2 away'.",
+        "graphic_text_overlay": "DEFENSIVE ELITE"
+      },
+      {
+        "scene": 4,
+        "name": "The Mathematical Reality",
+        "voiceover": "The numbers are overwhelming. The Poisson λ sum predicts just 0.56 total goals — one of the lowest projections you'll see. The EdgeCalculator shows massive edges exceeding 57% on Under markets. The Sceptic demolished the optimistic home win probability — our adjusted numbers give Ferencvarosi just a 28% chance.",
+        "graphic_type": "evidence",
+        "graphic_description": "A calculator graphic showing 'λ sum: 0.56' with large percentage symbols for '+58.7%' and '+57.5%' floating beside it.",
+        "graphic_text_overlay": "0.56 TOTAL GOALS"
+      },
+      {
+        "scene": 5,
+        "name": "The Market Verdict",
+        "voiceover": "Our market: NO_BET. The direction is clear — extreme low-scoring. But no available line meets our strict criteria of odds at 1.70 or better with sufficient edge. The Asian handicap markets show perfect efficiency. Sometimes the smartest play is to walk away from a statistical deadlock. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, bold card with 'NO BET' in large text, smaller text reading 'Market: NO_BET | Odds: 0 | Confidence: 0%'.",
+        "graphic_text_overlay": "NO VALUE"
+      }
+    ]
+  }
+}

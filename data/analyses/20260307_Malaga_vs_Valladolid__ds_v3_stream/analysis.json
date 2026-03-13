@@ -1,0 +1,165 @@
+{
+  "key": "20260307_Malaga_vs_Valladolid__ds_v3_stream",
+  "match": {
+    "home_team": "Malaga",
+    "away_team": "Valladolid",
+    "league": "Segunda División",
+    "date": "2026-03-07",
+    "home_id": 535,
+    "away_id": 720
+  },
+  "prediction": {
+    "direction": "home_value",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — home_value direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 55.0,
+    "score_draw": 30.0,
+    "score_away": 15.0,
+    "reasoning": "(1) MATCH CHARACTER — ASYMMETRIC. The cascading profiles and tactical analysis reveal a clear mismatch. Malaga's home form is formidable (5W-0D-0L, +1.6 avg margin, 60% clean sheet rate), while Valladolid's away profile is dire (1W-1D-3L, conceding 2.4 goals per match). The Tactician confirms a structural midfield overload for Malaga, predicting a 'one-sided' affair. This is not an even contest or a volatile shootout; it's a dominant home side against a struggling visitor. (2) DIRECTION EVIDENCE — The home_value direction is supported by multiple data layers. The EdgeCalculator shows a +9.6% edge on AH Home -1.0, passing its filters. Malaga's cascading home win profile scores 4/5, while Valladolid's away win profile is 0/5. The Auditor's adjusted probabilities give Malaga a 55% win chance, materially above the market's implied 47.6%. The λ sum (implied goals) is moderate, but the tactical expectation is for Malaga to control and score, not for an open, high-scoring game. (3) AGENTS CONSENSUS — The Home Scout, Tactician, and Archivist (on historical dominance) align on Malaga's superiority. The Auditor's adjusted model supports a home win probability edge. The Sceptic permits proceeding but caps confidence due to Valladolid's data gaps. The critical dissent comes from the Quant's model being extreme and the Auditor's note of a tactical contradiction on goals, but this does not negate the home advantage thesis. The net signal points to home value. (4) RISKS — Valladolid's unknown injury status and sudden managerial/tactical shift under Fran Escriba introduce defensive organisation uncertainty. The historical 67% draw rate, though based on an older sample, is a psychological factor. Malaga's potential complacency against a desperate relegation side, or their efficiency in converting dominance into a multi-goal margin, are execution risks.",
+    "key_factors": [
+      "Malaga's perfect 5-win home streak with an average margin of +1.6 goals",
+      "Valladolid's chronic away defensive fragility, conceding 2.4 goals per match in their last five road trips",
+      "The structural midfield overload (Malaga's 4-3-3 vs. Valladolid's 4-4-2) granting possession and control",
+      "Valladolid's complete lack of a historical win against Malaga in nine attempts"
+    ],
+    "risk_factors": [
+      "Valladolid's unknown squad status and impact of a new manager could lead to a more resilient defensive setup",
+      "The exceptionally high historical draw rate (67%) in this fixture, though based on a limited recent sample"
+    ],
+    "alternative_markets": [
+      {
+        "market": "AH Home -1.25",
+        "prediction": "Malaga -1.25",
+        "confidence": 55
+      },
+      {
+        "market": "Under 2.5 Goals",
+        "prediction": "Under 2.5",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 9.6,
+      "edge_source": "EdgeCalculator (our_prob 40.0% vs. market implied 30.4%)",
+      "edge_grade": "VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 26.9
+        },
+        {
+          "market": "Over 2.25 Goals",
+          "edge": 19.5
+        },
+        {
+          "market": "AH Home -1.5",
+          "edge": 15.2
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Home Scout, Tactician, and Archivist agree on Malaga's dominance and home advantage. The Auditor's adjusted model supports a home win probability edge over the market. The Sceptic does not veto but highlights data gaps that moderate confidence. The Quant's model is an outlier (extremely bullish) and is not fully trusted, while the Away Scout's report is undermined by missing data.",
+    "_direction_nobet_reason": "no_line_qualifies (home_value/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 26.9
+  },
+  "display_texts": {
+    "home_position": "#5 (47 pts, +10 GD)",
+    "away_position": "#18 (32 pts, -9 GD)",
+    "home_form": "14W-5D-9L in 28 matches, last 5: DWWDL",
+    "away_form": "8W-8D-12L in 28 matches, last 5: WWDDW",
+    "home_stats": "41 goals in 28 matches (avg 1.5/match), 7 clean sheets",
+    "away_stats": "29 goals in 28 matches (avg 1.0/match), 7 clean sheets",
+    "h2h_history": "Malaga 2-0 Valladolid (07 Mar 2026)\nValladolid 1-1 Malaga (29 Nov 2025)\nMalaga 2-2 Valladolid (09 Apr 2022)\nValladolid 1-1 Malaga (08 Oct 2021)\nMalaga 1-0 Valladolid (23 Aug 2020)",
+    "home_injuries": "Álex Pastor (Missing Fixture - Wound), H. Abaida (Missing Fixture - Jumpers knee)",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Malaga | Probabilities: 45%-45%-10% | Recommendation: Double chance : Malaga or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "3:3",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Malaga vs Valladolid: Why The Boot Room Is Passing",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a promotion-chasing fortress meets a desperate relegation side that has never beaten them? On paper, this looks like a mismatch — Malaga's perfect home record against Valladolid's crumbling away defence. But the numbers tell a more complicated story. Tonight, we're not looking for a winner — we're looking for value. And what we found might surprise you.",
+    "chapter_home": "Malaga arrive at this fixture as the form team of 2026, sitting fifth in the Segunda División and riding a wave of confidence. Their home record is formidable — five consecutive victories with an average winning margin of one point six goals. They've kept clean sheets in sixty percent of those matches, conceding under a goal per game at La Rosaleda. The midfield trio of Dotor, Merino, and Lorenzo provides a structural overload, controlling possession at sixty-three percent in recent matches. Their attack scores in bursts, with twenty-one of their forty-one goals coming after the sixtieth minute. However, their flawless recent run has been built against bottom-half opposition — the real test of their promotion credentials starts now. Two squad players are absent through injury, but the confirmed starting eleven shows a full-strength lineup. The psychological advantage is clear, but the market has already priced in their dominance.",
+    "chapter_away": "Valladolid travel with their season on the line, mired in eighteenth place and a relegation scrap. Their away form is in clear decline — one win, one draw, and three losses in their last five road trips, conceding an average of two point four goals per match. A sudden managerial change sees Fran Escriba take charge, shifting from their season-long 4-2-3-1 to a 4-4-2 formation for this fixture. This tactical uncertainty is compounded by zero recovery days and a critical lack of injury data. Their primary weakness is systemic defensive vulnerability, particularly late in matches where they've conceded ten goals in the final fifteen minutes. While they possess a perfect penalty conversion record and some threat through wingers González and Canós, their chronic away struggles and low morale paint a bleak picture. They are desperate, but desperation alone cannot bridge this gap.",
+    "chapter_history": "History delivers a startling fact — Valladolid have never beaten Malaga in nine recorded meetings. The pattern is defined by draws — six of them, a staggering sixty-seven percent. Both teams have scored in seven of those nine encounters, suggesting a moderate-scoring tradition. The last meeting in March 2026 saw Malaga score two early goals in three minutes to secure a 2-0 victory, breaking a run of four consecutive draws. This fixture presents a classic clash of aspiration versus survival — Malaga chasing European spots, Valladolid fighting for their lives. The historical weight favours the hosts, but that high draw rate lingers in the market's consciousness, creating a psychological barrier that the odds must overcome.",
+    "chapter_analysis": "The tactical matchup reveals a clear structural advantage for Malaga. Their 4-3-3 midfield should dominate Valladolid's two-man central pairing, creating possession control and territorial superiority. The Tactician predicts a 'one-sided affair with transitional moments' but crucially points toward a 'controlled, low-scoring' game. This creates a fundamental conflict with the mathematical models. The EdgeCalculator shows strong value on high-goal markets like Over two point seven five Goals with a twenty-six point nine percent edge. Yet the Tactician's narrative and Valladolid's likely deep defensive block contradict this expectation. The Sceptic raised critical concerns — Valladolid's missing injury data and the unknown impact of their new manager create major uncertainty. The Auditor's adjusted probabilities give Malaga a fifty-five percent win chance, but the market's implied probability is only forty-seven point six percent. While Malaga's dominance is evident across multiple data layers, the bookmakers have priced the Asian Handicap lines efficiently, leaving no clear mathematical edge that passes our conviction filters.",
+    "chapter_value": "Our market: NO_BET. The analysis reveals a fascinating contradiction — overwhelming evidence for Malaga's superiority, yet no betting line that qualifies under our strict criteria. The Asian Handicap Home minus one point zero line shows a nine point six percent edge, but our moderate conviction level and the odds filter at one point seventy eliminate it. The high-goal markets present strong mathematical edges but face a direction conflict with the tactical prediction. The market has priced this fixture tightly, respecting Malaga's form while accounting for Valladolid's desperation and the historical draw tendency. Sometimes the smartest play is recognising when value has been squeezed out — and tonight, that's exactly what we see.",
+    "ending": "The Boot Room verdict is clear — pass on this fixture. Malaga should win, Valladolid are in crisis, and history screams dominance. But in the betting markets, 'should' isn't enough — we need mispriced probability. Tonight, the bookmakers have done their homework. The promotion-chasing fortress meets the desperate visitor, and the only certainty is uncertainty. If you enjoyed this deep dive into why we sometimes walk away, hit subscribe for more forensic match analysis. Boot Room out.",
+    "roundup_summary": "Malaga versus Valladolid. Fifth hosts eighteenth in a Segunda División clash defined by contrasting ambitions. Malaga arrive with five consecutive home victories, boasting a plus one point six average margin and sixty percent clean sheet rate. Valladolid's away form shows one win, one draw, and three losses, conceding two point four goals per match. Malaga report two squad absences, while Valladolid's injury status is unknown under new manager Fran Escriba.\n\nThe head-to-head record is stark — nine meetings, and Valladolid have never won. Six draws define the fixture, a sixty-seven percent rate. Both teams scored in seven of those encounters, with an average of two point six goals per meeting. This season, Malaga score one point six goals per game at home, conceding zero point eight. Valladolid average one point one goals scored and one point eight conceded on their travels. The last meeting in March 2026 ended 2-0 to Malaga.\n\nThe Boot Room analysis reveals a mathematical model contradiction. The Poisson λ values suggest a sixty percent probability for Over two point five Goals, creating a theoretical sixty percentage point gap. The EdgeCalculator identifies a twenty-six point nine percent edge on Over two point seven five Goals. However, the Sceptic's critical concern — Valladolid's missing injury data and managerial uncertainty — undermines confidence in these outputs. The Tactician's prediction of a 'controlled, low-scoring affair' directly conflicts with the high-goal probability. The Auditor's adjusted model gives Malaga a fifty-five percent win probability versus the market's forty-seven point six percent, but this edge fails to translate to a qualifying betting line. The bookmaker has efficiently priced the Asian Handicap markets, leaving no value that meets our conviction and odds threshold.\n\nThe Boot Room finds no value bet for this fixture. The market odds reflect the known risks — Malaga's dominance against Valladolid's desperation and historical draw tendency. While Malaga are likely winners, the required margin for handicap bets carries excessive risk given the data gaps. Our recommendation is to observe rather than invest. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Contradiction",
+        "voiceover": "What happens when every piece of analysis points to one outcome — but the betting markets refuse to cooperate? Malaga's perfect home record against a Valladolid side that has never beaten them. The data screams mismatch. Yet the value has vanished.",
+        "graphic_type": "conflict",
+        "graphic_description": "Split screen showing Malaga's '5W-0D-0L' home form on one side and Valladolid's '0 wins in 9 meetings' H2H record on the other, with a large 'NO VALUE' stamp overlaid.",
+        "graphic_text_overlay": "DOMINANCE VS NO VALUE"
+      },
+      {
+        "scene": 2,
+        "name": "The Fortress",
+        "voiceover": "Malaga are the form team of 2026 — five consecutive home victories with an average margin of one point six goals. Sixty percent clean sheet rate. A midfield trio that dominates possession. They score twenty-one of forty-one goals after the sixtieth minute. This is a promotion-chasing machine at its peak.",
+        "graphic_type": "home_card",
+        "graphic_description": "Malaga's crest with key stats radiating out: '5 Wins', '+1.6 Avg Margin', '60% Clean Sheets', '63% Possession'. Players celebrating a goal in the background.",
+        "graphic_text_overlay": "MALAGA: PERFECT AT HOME"
+      },
+      {
+        "scene": 3,
+        "name": "The Unknown",
+        "voiceover": "Valladolid travel with their season on the line — and their team sheet is a mystery. New manager Fran Escriba. Zero recovery days. Missing injury data. They concede two point four goals per away match. Desperation fuels them, but organisation has crumbled.",
+        "graphic_type": "away_card",
+        "graphic_description": "Valladolid's crest looking fractured or unstable, with red warning symbols around key missing data points: 'Injuries ?', 'Manager Change', '0 Recovery Days'. Stats show '2.4 GA/Away'.",
+        "graphic_text_overlay": "VALLADOLID: DATA BLACK HOLE"
+      },
+      {
+        "scene": 4,
+        "name": "The Mathematical War",
+        "voiceover": "Here's the conflict. The numbers model sees a twenty-six point nine percent edge on high goals. The Tactician sees a controlled, low-scoring game. The Sceptic flags critical data gaps. The Auditor adjusts probabilities — but no line passes our filters. The market has priced out the value.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A chessboard with mathematical equations on one side and a tactical football diagram on the other, clashing in the middle. The EdgeCalculator's '26.9% edge' conflicts with Tactician's 'low-scoring' prediction.",
+        "graphic_text_overlay": "MODEL VS REALITY"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO_BET. Sometimes the smartest analysis leads to the simplest conclusion — walk away. Malaga should win. Valladolid are in crisis. But 'should' doesn't pay bills. The bookmakers have done their homework tonight. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold text on a dark background: 'BOOT ROOM VERDICT: NO BET'. Smaller text below: 'Malaga vs Valladolid | Confidence: 0%'. Minimalist, professional design.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

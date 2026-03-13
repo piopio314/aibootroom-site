@@ -1,0 +1,175 @@
+{
+  "key": "20260310_Leicester_vs_Bristol_City__ds_v3_stream",
+  "match": {
+    "home_team": "Leicester",
+    "away_team": "Bristol City",
+    "league": "Championship",
+    "date": "2026-03-10",
+    "home_id": 46,
+    "away_id": 56
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "Over 2.75 Goals",
+    "prediction": "Over 2.75 Goals",
+    "confidence": 61,
+    "confidence_gate": "APPROVE",
+    "odds_target": 2.15,
+    "score_home": 42.0,
+    "score_draw": 29.5,
+    "score_away": 28.5,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading form profiles show strong convergence for high-scoring outcomes: 83% for Both Teams to Score and 64% for Over 2.5 Goals. Both teams' recent data reveals porous defences and consistent goal involvement, a signal amplified by the Tactician's prediction of an 'open and transitional' encounter. (2) DIRECTION EVIDENCE — The mathematical evidence is compelling. The EdgeCalculator identifies a +10.3% edge on Over 2.75 Goals, the highest credible edge among all markets. The Auditor's adjusted probabilities set Over 2.5 at 64%, significantly above the Poisson baseline of 50%. The tactical analysis confirms both teams' defensive structures are severely weakened by key centre-back absences, creating vulnerabilities that align perfectly with the statistical goal expectation. (3) AGENTS CONSENSUS — The direction is strongly supported. The Tactician explicitly forecasts a high-scoring, open match. Both Scouts, despite rating errors, report critical defensive injuries and poor defensive records. The Archivist notes a historical average of 2.5 goals per meeting. The cascading profiles provide the strongest objective signal with their 83% BTTS convergence. The Sceptic, while challenging scout ratings, recommends proceeding and notes the strong convergence data. The Auditor elevates goal probabilities based on this convergence. The only dissent is the Quant's inability to price the market due to missing odds, but this is a data gap, not a directional disagreement. (4) RISKS — The primary risk is that the immense pressure on Leicester produces a cagey, nervous affair where chances are spurned. Bristol City's attacking inconsistency, highlighted by the Sceptic, could see them fail to contribute. Additionally, the rotation risk warning caps confidence, as unconfirmed starting XIs add uncertainty to the precise defensive vulnerabilities. However, the sheer weight of statistical and tactical evidence pointing towards goals outweighs these concerns.",
+    "key_factors": [
+      "Strong 83% convergence for Both Teams to Score from cascading form profiles",
+      "Critical defensive injuries for both teams compromising backline stability",
+      "EdgeCalculator shows +10.3% mathematical edge on Over 2.75 Goals",
+      "Tactician analysis predicts an open, transitional match with space for attacks",
+      "Historical H2H average of 2.5 goals per match supports the goal expectation"
+    ],
+    "risk_factors": [
+      "Rotation risk warning — confidence capped at 55% due to potential XI changes",
+      "Bristol City's attacking inconsistency — failed to score in 50% of last ten matches",
+      "Immense pressure on Leicester could lead to a tense, low-chance match"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Both Teams to Score - Yes",
+        "prediction": "Yes",
+        "confidence": 65
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 10.3,
+      "edge_source": "EdgeCalculator probability minus market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away -0.75",
+          "edge": 15.3
+        },
+        {
+          "market": "AH Away -0.0",
+          "edge": 11.8
+        },
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 10.3
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "Strong consensus for an over_goals direction. The Tactician, cascading profiles, Auditor, and EdgeCalculator all signal a high-scoring match. The Scouts and Archivist provide supporting context on defensive crises and historical goal averages. The Sceptic, while challenging specific scout ratings, endorses proceeding based on the strong convergence data. The Quant's analysis is neutral on direction due to data gaps but does not contradict the over_goals thesis.",
+    "_direction": "over_goals",
+    "_direction_conviction": "strong",
+    "_direction_ev": 0.2212,
+    "_direction_prob": 56.8,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.64,
+    "max_edge": 15.3
+  },
+  "display_texts": {
+    "home_position": "#22 (35 pts, -9 GD)",
+    "away_position": "#10 (50 pts, +2 GD)",
+    "home_form": "10W-11D-15L in 36 matches, last 5: WLWWD",
+    "away_form": "14W-8D-14L in 36 matches, last 5: WDDWW",
+    "home_stats": "48 goals in 36 matches (avg 1.3/match), 3 clean sheets",
+    "away_stats": "48 goals in 36 matches (avg 1.3/match), 11 clean sheets",
+    "h2h_history": "Leicester 0-0 Bristol City (10 Mar 2026)\nBristol City 2-2 Leicester (10 Dec 2025)\nBristol City 1-0 Leicester (29 Mar 2024)\nLeicester 1-0 Bristol City (23 Sep 2023)\nBristol City 0-4 Leicester (12 Jan 2013)",
+    "home_injuries": "A. Begovic (Missing Fixture - Injury), V. Kristiansen (Missing Fixture - Injury), A. Ramsey (Missing Fixture - Injury), H. Souttar (Missing Fixture - Achilles Tendon Injury), J. Vestergaard (Missing Fixture - Groin Injury)",
+    "away_injuries": "R. Atkinson (Missing Fixture - Ankle Injury), R. Dickie (Missing Fixture - Hamstring Injury), L. McNally (Missing Fixture - Knee Injury), A. Randell (Missing Fixture - Red Card), J. Williams (Missing Fixture - Hamstring Injury)",
+    "api_predictions": "API-Football prediction: Leicester | Probabilities: 45%-45%-10% | Recommendation: Double chance : Leicester or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "LOSE",
+    "label": "LOSE",
+    "color": "#ef4444",
+    "pnl": -1.0,
+    "score": "2:0",
+    "market": "Over 2.75 Goals"
+  },
+  "script": {
+    "title": "Leicester vs Bristol City: The Defensive Collision",
+    "thumbnail_text": "DEFENSIVE CATASTROPHE AWAITS",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when two Championship defences arrive at a match already in ruins? Leicester, anchored in the relegation zone, have kept zero clean sheets in their last five home games. Bristol City travel without their two starting centre-backs. This isn't just a football match — it's a structural failure waiting to be exploited. The only question is how many goals will result.",
+    "chapter_home": "Leicester City are in a state of emergency. Rooted in the Championship relegation zone with just 35 points, they are winless in their last five home matches — a run of four consecutive defeats. The pressure is immense, but their problems run deeper than form. Five first-team players are unavailable, with the defensive unit decimated by the absences of key centre-backs Harry Souttar and Jannik Vestergaard. This has created a critical vulnerability in a backline that already concedes freely, keeping only two clean sheets in 17 home games this season. Their tactical setup in a 4-2-3-1 formation is geared for late surges — they've scored 12 of their 48 goals in the final 15 minutes — but they are alarmingly vulnerable at the start and end of halves. Managerial reports suggest the squad remains committed, but a recent change in sporting director adds another layer of instability to a club fighting for its Championship life.",
+    "chapter_away": "Bristol City arrive at the King Power Stadium with their own defensive crisis. Two key centre-backs, Rob Atkinson and Rob Dickie, are ruled out, severely compromising their preferred 3-4-2-1 structure. While their season is effectively over — sitting comfortably mid-table in tenth with 50 points — their recent form shows a clear decline, with just one win in their last five matches. Their attack has been inconsistent, failing to score in 50% of their last ten outings, a fact that directly contradicts an initial scout assessment of maximum attacking strength. However, their away record provides a glimmer of resilience, with a 41% win rate on their travels and two wins from their last three trips. They will likely dominate possession, averaging 65.7% in recent away games, but struggle to convert that dominance into clear chances, managing only four shots on target per match. With low morale and little to play for, their patched-up defence faces a severe test.",
+    "chapter_history": "The history between these sides is perfectly balanced — three wins each from eight meetings, with just one draw. The most recent encounter, a dramatic 2-2 draw in December, saw Bristol City fight back from two goals down to snatch a point, illustrating the potential for goal-filled drama. On average, their meetings produce 2.5 goals, with both teams scoring in half of the fixtures. The last four clashes have shown every possible outcome — a win for each side, a draw, and a goalless draw — revealing no consistent pattern. This historical unpredictability, combined with the current defensive crises on both sides, sets the stage for a chaotic and potentially high-scoring affair.",
+    "chapter_analysis": "The tactical matchup reveals an open and transitional game. Leicester's 4-2-3-1 will look to counter-attack against Bristol City's possession-based 3-4-2-1, with both formations exposing the other's defensive weaknesses. The key battle lies in the final quarter-hour — Leicester have scored 12 goals in the last 15 minutes, while Bristol City have conceded nine in the same period. The Sceptic rightly challenged the initial overrating of Bristol City's attack, but this does not diminish the core thesis. The cascading form profiles for both teams show a powerful 83% convergence for Both Teams to Score and a 64% signal for Over 2.5 Goals. This objective data, combined with the Tactician's prediction of an open match, creates a compelling statistical narrative. The primary risk is that immense pressure on Leicester produces a tense, low-chance affair, or that Bristol City's attacking inconsistency sees them fail to contribute. However, the sheer weight of evidence pointing towards defensive vulnerability outweighs these concerns.",
+    "chapter_value": "Our market: Over 2.75 Goals. The EdgeCalculator identifies a strong 10.3% mathematical edge on this line, the highest credible edge among all goal markets. The Auditor's adjusted probabilities elevate the chance of Over 2.5 Goals to 64%, significantly above the Poisson baseline of 50%. This value exists because the bookmakers have not fully priced in the compounding effect of two crippled defences and the strong statistical convergence from recent form. At odds of 2.15, this represents a clear mispricing of the match's fundamental character.",
+    "ending": "The verdict is clear. Two wounded defences, one fighting for survival and the other with nothing to lose, collide in a match where goals appear inevitable. The data, the tactics, and the personnel crises all point in one direction. Our market: Over 2.75 Goals at 2.15, with 61% confidence. Do you agree with the breakdown? Let us know in the comments below, and for more data-driven football analysis, subscribe to AI Boot Room. Boot Room out.",
+    "roundup_summary": "Leicester versus Bristol City. A Championship clash with starkly different motivations. Leicester, in 22nd with 35 points, are winless in their last five home matches (LLLLL) and deep in a relegation battle. Bristol City, tenth with 50 points, have little to play for, with form declining to just one win in five. Both sides arrive with critical defensive injuries: Leicester miss Souttar and Vestergaard, while Bristol City are without Atkinson and Dickie.\n\nThe head-to-head record is perfectly balanced with three wins each from eight meetings. Their most recent clash ended 2-2. Historically, matches average 2.5 goals, with both teams scoring in 50% of fixtures. This season, Leicester's defensive record at home is poor with only two clean sheets in 17 games, while Bristol City concede 1.6 goals on average away.\n\nThe Boot Room analysis identifies a strong 10.3% edge on Over 2.75 Goals. The Poisson baseline probability for Over 2.5 sits at 50%, but the Auditor's adjusted probability, informed by cascading form profiles, elevates it to 64%. This divergence is the core of the value. The Sceptic's concern regarding Bristol City's overstated attack strength is acknowledged but does not negate the overwhelming statistical signal. The cascading profiles for both teams show an 83% convergence for Both Teams to Score and 64% for Over 2.5 Goals. The bookmaker has mis-priced the compounding effect of two severely compromised defences and this powerful convergence data, offering odds that imply a probability lower than the Boot Room's assessed 56.8%.\n\nThe Boot Room market is Over 2.75 Goals at odds of 2.15. This requires three or more goals to land in full. The confidence level is 61%, supported by the Auditor's effective confidence of 62%. Boot Room market: Over 2.75 Goals. Confidence: 61%.",
+    "short_segment": "Leicester host Bristol City in a Championship fixture defined by defensive crisis. Leicester, 22nd and in a desperate relegation fight, are winless in five at home. Bristol City, tenth with a season effectively over, travel without two key centre-backs. Both teams' recent form profiles show an 83% convergence for Both Teams to Score. The historical average between these sides is 2.5 goals per match. The Boot Room lands on Over 2.75 Goals at 2.15, with 61% confidence. The edge is built on a 10.3% mathematical advantage, as two crippled defences collide under immense pressure. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Structural Collapse",
+        "voiceover": "Two defences arrive at the King Power Stadium already in ruins. Leicester have kept zero clean sheets in their last five home games. Bristol City travel without their two starting centre-backs. This isn't a tactical battle — it's a structural failure. The only question is how many goals will result.",
+        "graphic_type": "conflict",
+        "graphic_description": "A dramatic split-screen visual. Left side: Leicester's empty defensive line with ghosted player silhouettes and a large '0' for clean sheets. Right side: Bristol City's defensive line with two red 'X' marks over missing players. Central text: 'DEFENSIVE COLLISION'.",
+        "graphic_text_overlay": "DEFENCES IN RUINS"
+      },
+      {
+        "scene": 2,
+        "name": "Leicester's Emergency",
+        "voiceover": "Anchored in the relegation zone, Leicester are in a state of emergency. Winless in five home matches, their defensive unit is decimated. Key centre-backs Souttar and Vestergaard are absent. This patched-up backline concedes freely — only two clean sheets in 17 home games. The pressure is absolute, and their structure is crumbling.",
+        "graphic_type": "home_card",
+        "graphic_description": "A focused shot on the Leicester team badge, cracked and under pressure. Overlaid stats: '22nd Place', '0 Clean Sheets in 5', '2 Key CBs Out'. A visual of a sinking ship or crumbling wall in the background.",
+        "graphic_text_overlay": "RELEGATION PRESSURE"
+      },
+      {
+        "scene": 3,
+        "name": "Bristol City's Hollow Shell",
+        "voiceover": "Bristol City travel with a hollow shell of a defence. Two key centre-backs are ruled out, gutting their three-man structure. Their season is over — mid-table with nothing to play for. Their attack has failed to score in 50% of their last ten matches. They will dominate possession, but their compromised backline is a target.",
+        "graphic_type": "away_card",
+        "graphic_description": "The Bristol City badge with a transparent, ghosted effect. Three defensive player silhouettes, two are faded to red with 'OUT' labels. Text: 'Attack: 50% Fail to Score', '2 Key CBs Out'.",
+        "graphic_text_overlay": "DEFENSIVE CRISIS"
+      },
+      {
+        "scene": 4,
+        "name": "The Data Convergence",
+        "voiceover": "The numbers tell a compelling story. The cascading form profiles for both teams show an 83% convergence for Both Teams to Score. A 64% signal for Over 2.5 Goals. This is objective data, screaming that this match fundamentally favours goals. The historical average of 2.5 goals per meeting only reinforces the signal.",
+        "graphic_type": "evidence",
+        "graphic_description": "A full-screen data visualization. Two converging arrows from Leicester and Bristol City badges meet at a central point displaying 'BTTS: 83%' and 'Over 2.5: 64%'. The background shows flowing data streams.",
+        "graphic_text_overlay": "83% BTTS CONVERGENCE"
+      },
+      {
+        "scene": 5,
+        "name": "The Tactical Reality",
+        "voiceover": "The Tactician predicts an open, transitional match. Leicester's late surges target Bristol City's vulnerability in the final quarter-hour. Both compromised defences create space and opportunity. The Sceptic challenged Bristol City's attack rating, but that doesn't change the core dynamic — two broken systems cannot hold.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A tactical board overlay showing Leicester's 4-2-3-1 formation arrows pointing forward, and Bristol City's 3-4-2-1 with a highlighted gap in the back three. A clock graphic highlights the 76-90 minute period.",
+        "graphic_text_overlay": "OPEN & TRANSITIONAL"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "The bookmakers have not priced this correctly. The EdgeCalculator identifies a 10.3% mathematical edge. Our probability for Over 2.5 Goals sits at 64%, well above the market's implied probability. The value is clear. Our market: Over 2.75 Goals at 2.15. Confidence: 61%. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final graphic. The text 'OUR MARKET' is prominent. Below: 'Over 2.75 Goals' in large font. Odds: '2.15' and Confidence: '61%' displayed clearly. A subtle checkmark icon.",
+        "graphic_text_overlay": "OVER 2.75 GOALS"
+      }
+    ]
+  }
+}

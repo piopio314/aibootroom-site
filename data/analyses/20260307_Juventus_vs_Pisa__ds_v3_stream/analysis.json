@@ -1,0 +1,168 @@
+{
+  "key": "20260307_Juventus_vs_Pisa__ds_v3_stream",
+  "match": {
+    "home_team": "Juventus",
+    "away_team": "Pisa",
+    "league": "Serie A",
+    "date": "2026-03-07",
+    "home_id": 496,
+    "away_id": 801
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 45.0,
+    "score_draw": 28.0,
+    "score_away": 27.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The cascading form profiles show strong convergence on Draw (70%) and moderate convergence on Under 2.5 Goals (57%). Juventus's attack is critically depleted without Vlahovic and Milik, while Pisa's primary away strategy is defensive containment with a 62% away draw rate. Both teams' recent form signals decreasing scoring trends and fewer goals. (2) DIRECTION EVIDENCE — The under_goals direction is supported by multiple independent data streams. The Tactician explicitly predicts a 'tight' match with 'fewer goals than average' and notes both teams' defensive three-back systems promote congestion. The Archivist's H2H data shows an average of just 1.0 goals per meeting, with neither match exceeding 2.5 goals. The Auditor's adjusted probabilities heavily favour unders (Under 2.5 at 65%). While the Quant's Poisson analysis for goals markets is missing, the cascading profile convergence provides objective statistical support. (3) AGENTS CONSENSUS — The Tactician, Archivist, and Auditor all align on a low-scoring outlook. The Home Scout notes Juventus's blunt attack and recent home scoring struggles, while the Away Scout highlights Pisa's chronic inability to score away. The Sceptic's 'surprise scenario' of a 0-0 draw reinforces this narrative. The primary dissent comes from the EdgeCalculator's mathematical model showing strong value on Over markets, but the Auditor flags this as a 'mathematical artefact' contradicted by all qualitative analysis. The Sceptic's no_bet_recommendation is PROCEED, allowing this direction. (4) RISKS — The main risk is Juventus's second-half scoring threat (22 of 46 goals come after 60') meeting Pisa's late-game defensive collapses (43% of goals conceded in final 15 minutes). If Juventus's patient build-up finally breaks through, a single goal could open the match. Pisa's new manager could introduce tactical unpredictability, though their defensive approach is likely to remain. The absence of explicit Poisson gaps for goals markets introduces some uncertainty, but the qualitative and profile consensus is compelling.",
+    "key_factors": [
+      "Juventus's critical striker injuries to Vlahovic and Milik",
+      "Pisa's 62% away draw rate and defensive low-block approach",
+      "Historical H2H average of 1.0 goals per match",
+      "Cascading form profile convergence on Draw (70%) and Under 2.5 Goals (57%)"
+    ],
+    "risk_factors": [
+      "Juventus's second-half scoring pattern vs Pisa's late defensive fragility",
+      "Potential tactical changes under Pisa's new manager Oscar Hiljemark"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Draw",
+        "prediction": "Draw",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 7.2,
+      "edge_source": "Auditor adjusted probability (65%) vs market implied probability",
+      "edge_grade": "VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away 1.25",
+          "edge": 45.9
+        },
+        {
+          "market": "AH Away 1.5",
+          "edge": 38.7
+        },
+        {
+          "market": "AH Away 0.75",
+          "edge": 37.4
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Archivist, Auditor, and both Scouts align on a low-scoring, defensively-oriented match. The Sceptic supports this narrative with a 0-0 'surprise scenario'. The Quant's analysis is incomplete for goals markets but notes cascading profile convergence. The EdgeCalculator's mathematical model showing value on Over markets directly contradicts all qualitative analysis and is flagged as unreliable by the Auditor.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.78,
+    "max_edge": 45.9
+  },
+  "display_texts": {
+    "home_position": "#6 (47 pts, +18 GD)",
+    "away_position": "#19 (15 pts, -24 GD)",
+    "home_form": "13W-8D-6L in 27 matches, last 5: WWWDD",
+    "away_form": "1W-12D-14L in 27 matches, last 5: DLLLD",
+    "home_stats": "46 goals in 27 matches (avg 1.7/match), 9 clean sheets",
+    "away_stats": "20 goals in 27 matches (avg 0.7/match), 5 clean sheets",
+    "h2h_history": "Juventus 0-0 Pisa (07 Mar 2026)\nPisa 0-2 Juventus (27 Dec 2025)",
+    "home_injuries": "E. Holm (Missing Fixture - Foot Injury), A. Milik (Missing Fixture - Injury), D. Vlahovic (Missing Fixture - Groin Injury)",
+    "away_injuries": "D. Denoon (Missing Fixture - Ankle Injury), Lorran (Missing Fixture - Inactive), S. Scuffet (Missing Fixture - Muscle Injury), I. Vural (Missing Fixture - Knee Injury)",
+    "api_predictions": "API-Football prediction: Juventus | Probabilities: 45%-45%-10% | Recommendation: Winner : Juventus",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "4:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Juventus vs Pisa: The No-Bet Derby",
+    "thumbnail_text": "SKIP THIS FIXTURE",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a giant loses its teeth? Juventus, winless in five matches and stripped of their entire strike force, host a Pisa side that hasn't won away all season. This isn't a mismatch — it's a perfect storm for a stalemate. But can the bookmakers' numbers be trusted when both teams have forgotten how to score?",
+    "chapter_home": "Juventus arrive at the Allianz Stadium in a state of genuine crisis. They haven't won a match in five attempts, and their attack has been completely decimated by injuries. Both Dusan Vlahovic and Arkadiusz Milik are unavailable, stripping the squad of its only two recognised centre-forwards. Jonathan David is forced into a lone role, but the system is blunt. Their 3-4-2-1 formation generates goals primarily in the second half — 22 of their 46 this season come after the 60th minute — indicating a patient, often ponderous, build-up. The pressure is immense, with the club sitting sixth and needing points to close the gap to the Champions League places. Yet, their home solidity remains their only lifeline, with just one defeat in 13 matches. The question isn't about quality, but whether a mentally fragile side, playing their fourth game in a fortnight, can find a cutting edge that simply isn't there.",
+    "chapter_away": "Pisa travel as the league's worst away side, with zero wins from 13 matches on the road. Their strategy is built purely on containment, evidenced by a staggering 62% away draw rate. They set up in a defensive 3-5-2 low block, inviting pressure and hoping to survive. Their chronic inability to score is the defining characteristic — they average just 0.2 goals per match in their last five away fixtures and have failed to score in four of 13. A new manager, Oscar Hiljemark, is now in charge, introducing tactical uncertainty, but their primary objective will not change: damage limitation. Their one strength is defensive stubbornness, having kept two clean sheets in their last three away games. However, a critical weakness emerges late: they concede 43% of all their goals in the final 15 minutes. They are a team built to frustrate, not to win.",
+    "chapter_history": "The historical record between these sides is thin but telling. In just two previous meetings, Pisa have never scored against Juventus. The results were a goalless draw in Turin and a 2-0 Juventus win in Pisa, producing an average of just 1.0 goals per match. Neither encounter exceeded 2.5 goals. While the sample size is too small for definitive conclusions, it establishes a clear low-scoring precedent. History suggests a tight, cagey affair where breaking down defences has proven difficult. This pattern aligns perfectly with the current context of a blunt Juventus attack facing a Pisa side whose entire identity is defensive resilience.",
+    "chapter_analysis": "The tactical matchup reinforces the stalemate narrative. Juventus's 3-4-2-1 meets Pisa's 3-5-2 — two defensive three-back systems that promote congestion in central areas. The Tactician predicts a 'tight' match with 'fewer goals than average,' noting Juventus's wing-backs must break down a compact five-man midfield. Jonathan David faces isolation against three centre-backs, with no striker partner for support. The Sceptic challenged the Home Scout's severe underestimation of Juventus's win probability, arguing a five-match winless run and critical injuries make a dominant victory far from certain. Their surprise scenario — a repeat of the recent 0-0 draw — is entirely plausible. Multiple data streams converge: form profiles show a 70% convergence on a Draw and a 57% convergence on Under 2.5 Goals. The Auditor's adjusted probabilities heavily favour unders, with Under 2.5 Goals at 65%. The only dissent comes from a mathematical model showing huge edges on Pisa handicap markets, but this is flagged as a clear artefact, completely contradicting the qualitative reality of a team with a 0% away win rate.",
+    "chapter_value": "Our market: NO_BET. The direction is clear — this fixture screams a low-scoring draw. The Auditor identifies a 7.2% edge on the Under 2.5 Goals market based on adjusted probabilities. However, the Gaffer's conviction is only 'moderate,' and crucially, no specific goal line offers both sufficient value and passes the required odds filter of 1.70 or greater. The Asian handicap markets show perfect efficiency, with Poisson probabilities matching bookmaker prices exactly. While the narrative and data point firmly towards unders, the market has priced this in effectively, leaving no mathematically qualified line to attack. Sometimes, the clearest story offers no bettable edge.",
+    "ending": "The Boot Room verdict is to pass on this fixture. Juventus's attacking crisis meets Pisa's chronic away impotence in a collision that should produce few goals, but the market offers no value line to exploit. Confidence in this assessment is 0% for a betting position. Remember, the smartest move is often recognising when to step away. If you found this analysis valuable, subscribe to The Boot Room for weekly match breakdowns. Boot Room out.",
+    "roundup_summary": "Juventus versus Pisa. Sixth-placed Juventus, winless in their last five matches, host 19th-placed Pisa, who are without an away win all season. The hosts' form reads 0 wins, 3 draws, and 2 losses, while the visitors are 0-3-2 in their last five on the road. A critical injury context defines this match: Juventus are without their entire strike force of Vlahovic and Milik.\n\nThe head-to-head history, though limited to two meetings, shows a low-scoring pattern. The results were a 0-0 draw and a 2-0 Juventus win, averaging just 1.0 goals per match. This season, Juventus score 1.77 goals per game but concede 0.92 at home. Pisa are the league's worst away attack, averaging a meagre 0.62 goals scored and 1.31 conceded on their travels. The trend from recent meetings firmly points to Under 2.5 Goals.\n\nThe Boot Room analysis identifies a strong consensus for a low-scoring stalemate. The Auditor's adjusted probability for Under 2.5 Goals is 65%, representing a 7.2% edge over the market's implied probability. The tactical matchup of two defensive three-back systems promotes congestion, and cascading form profiles show a 57% convergence on the under. The Sceptic's primary concern — the Home Scout's severe miscalculation of Juventus's win probability — was validated, reinforcing the uncertainty around a dominant home performance. The bookmaker has efficiently priced the Asian handicap lines, with zero Poisson probability gaps, but may have slightly mis-priced the total goals market, though not enough to qualify a bet under strict filters.\n\nThe verdict is to avoid a betting position. The clear under direction lacks a qualified line at the required odds threshold. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Toothless Giant",
+        "voiceover": "A Juventus side stripped of its entire strike force — Vlahovic and Milik both absent — and winless in five matches. They face a Pisa team that hasn't won away all season. This isn't a mismatch. It's a perfect storm for a stalemate.",
+        "graphic_type": "conflict",
+        "graphic_description": "A dramatic, shadowy image of an empty Juventus striker's jersey (number 9) hanging in a locker, with a Pisa defender's silhouette standing firm in a defensive block in the background.",
+        "graphic_text_overlay": "ATTACK VS NOTHING"
+      },
+      {
+        "scene": 2,
+        "name": "Juventus's Crisis",
+        "voiceover": "The crisis is real. No wins in five, a mentally fragile squad, and a patient 3-4-2-1 system that has forgotten how to score early. Twenty-two of their 46 goals come after the 60th minute. But without Vlahovic, who provides the finish?",
+        "graphic_type": "home_card",
+        "graphic_description": "A stylised graphic showing Juventus's 3-4-2-1 formation with red 'INJURED' crosses over the striker position. Key stats: '0 wins in last 5', '22/46 goals after 60''.",
+        "graphic_text_overlay": "BLUNT FORCE TRAUMA"
+      },
+      {
+        "scene": 3,
+        "name": "Pisa's Fortress Mentality",
+        "voiceover": "Pisa don't travel to win. They travel to survive. A 62% away draw rate tells the story of a 3-5-2 low block designed for one thing: containment. They average 0.2 goals in their last five away games. Their ambition is a clean sheet.",
+        "graphic_type": "away_card",
+        "graphic_description": "A visual of a deep, compact 3-5-2 defensive block with a large shield emblem. Stats: '0 away wins', '62% away draw rate', '0.2 goals/game last 5 away'.",
+        "graphic_text_overlay": "THE 62% DRAW RATE"
+      },
+      {
+        "scene": 4,
+        "name": "The Mathematical Mirage",
+        "voiceover": "One model screams value on Pisa handicaps — a 45.9% edge. But our Auditor flags it as a mathematical artefact. It contradicts every qualitative fact: Pisa's zero away wins, their impotent attack. The real signal is elsewhere.",
+        "graphic_type": "evidence",
+        "graphic_description": "A split screen. Left: a glowing '45.9% EDGE' on an Asian handicap ticket. Right: the text '0 AWAY WINS', 'CHRONIC LOW SCORING' with a large red 'X' over the ticket.",
+        "graphic_text_overlay": "FALSE SIGNAL"
+      },
+      {
+        "scene": 5,
+        "name": "The Consensus Truth",
+        "voiceover": "The truth emerges from consensus. The Tactician predicts a tight, low-scoring match. Form profiles converge 70% on a Draw, 57% on Under 2.5 goals. History shows an average of just one goal per meeting. The direction is undeniable.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A central vortex pulling in icons: a tactical board (Tactician), a form chart showing 70% draw convergence, and a historical scoreline of 0-0. Text: 'CONSENSUS: LOW SCORING DRAW'.",
+        "graphic_text_overlay": "THE STALEMATE SIGNAL"
+      },
+      {
+        "scene": 6,
+        "name": "The Boot Room Verdict",
+        "voiceover": "Our market: NO_BET. The under direction is clear, but no goal line offers both value and passes our strict odds filter. The Asian markets are efficiently priced. Sometimes the smartest play is to recognise when there is no play. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final graphic with the Boot Room logo. Large text: 'NO BET'. Smaller text: 'Direction: UNDER | Confidence: 0%'. No odds listed.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

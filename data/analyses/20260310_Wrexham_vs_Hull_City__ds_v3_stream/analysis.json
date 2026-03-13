@@ -1,0 +1,106 @@
+{
+  "key": "20260310_Wrexham_vs_Hull_City__ds_v3_stream",
+  "match": {
+    "home_team": "Wrexham",
+    "away_team": "Hull City",
+    "league": "Championship",
+    "date": "2026-03-10",
+    "home_id": 1837,
+    "away_id": 64
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 45.0,
+    "score_draw": 28.0,
+    "score_away": 27.0,
+    "reasoning": "(1) MATCH CHARACTER — ATTACKING. The cascading form profiles show a 93% STRONG convergence for Over 2.5 goals, the highest possible signal. Wrexham's last five home matches average 3.6 total goals, while Hull's last five overall average 3.2. The Tactician's match character prediction is 'Open', citing both teams' tactical setups creating space for attacking transitions. This is not a defensive battle. (2) DIRECTION EVIDENCE — The Quant's Poisson model shows a significant 12 percentage point edge favouring Over 2.5 Goals (60.0% probability vs 48.0% market implied). This is the largest gap identified. The Auditor's adjusted probabilities place Over 2.5 at 54%, still above market. The tactical narrative supports this: Wrexham's high-scoring home attack (1.83 GF/G) meets Hull's consistent away scoring (failed to score in just 2 of 17 away matches), with both sides showing late-game defensive lapses. (3) AGENTS CONSENSUS — The Quant, Tactician, and cascading profiles are strongly aligned on an attacking, high-scoring match. The Archivist notes a historical average of 2.7 goals per meeting. The primary dissent comes from The Sceptic, who issued a NO_BET recommendation due to conflicting signals and data gaps, specifically challenging the underweighting of Hull's strong recent away defensive record (0.25 GA/m in last four away). This is a serious challenge that reduces conviction from 'strong' to 'moderate'. However, the statistical edge (≥5%) and the overwhelming profile convergence provide sufficient grounds to override the qualitative veto. (4) RISKS — Hull's exceptional recent away defensive form could suppress scoring if replicated. The high injury count for both teams (six for Wrexham, seven for Hull) may disrupt attacking cohesion. Unconfirmed starting XIs due to rotation risk add uncertainty. A low-scoring, tactical stalemate driven by playoff pressure is a plausible surprise scenario.",
+    "key_factors": [
+      "93% STRONG profile convergence for Over 2.5 goals from both teams' recent form",
+      "Quant's Poisson model shows a 12pp edge on Over 2.5 Goals",
+      "Both teams possess potent attacks but show defensive vulnerabilities, especially late in matches",
+      "High-stakes playoff six-pointer with both sides needing a win, reducing likelihood of a cagey draw"
+    ],
+    "risk_factors": [
+      "Hull City's exceptional recent away defensive record (0.25 GA/m last four away) contradicts high-scoring trend",
+      "Significant squad depletion through injury for both sides may disrupt attacking patterns",
+      "ROTATION RISK — unconfirmed XIs due to fixture congestion caps confidence at 55%"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Both Teams to Score - Yes",
+        "prediction": "BTTS Yes",
+        "confidence": 55
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 12.0,
+      "edge_source": "Quant probability minus market implied probability",
+      "edge_grade": "STRONG_VALUE (≥10%)",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 2.5 Goals",
+          "edge": 12.0
+        },
+        {
+          "market": "AH Away -0.5",
+          "edge": 48.2
+        },
+        {
+          "market": "AH Away -0.25",
+          "edge": 44.4
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Quant, Tactician, and objective form profiles (cascading data) are strongly aligned on an over_goals direction. The Archivist provides supporting historical context. The Sceptic dissents with a NO_BET recommendation, citing unresolved data conflicts and the underweighting of Hull's away defence. The Auditor approves the Over 2.5 pick but notes the result markets are conflicted.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.82,
+    "max_edge": 48.2
+  },
+  "display_texts": {
+    "home_position": "#6 (57 pts, +9 GD)",
+    "away_position": "#5 (60 pts, +5 GD)",
+    "home_form": "15W-12D-8L in 35 matches, last 5: LLDWL",
+    "away_form": "18W-6D-12L in 36 matches, last 5: DWLLD",
+    "home_stats": "54 goals in 35 matches (avg 1.5/match), 9 clean sheets",
+    "away_stats": "57 goals in 36 matches (avg 1.6/match), 10 clean sheets",
+    "h2h_history": "Wrexham 0-0 Hull City (10 Mar 2026)\nHull City 2-0 Wrexham (10 Dec 2025)\nWrexham 3-3 Hull City (12 Aug 2025)",
+    "home_injuries": "G. Dobson (Missing Fixture - Red Card), A. James (Missing Fixture - Injury), T. O'Connor (Missing Fixture - Injury), L. Cacace (Questionable - Injury), M. James (Questionable - Inactive)",
+    "away_injuries": "M. Belloumi (Missing Fixture - Hamstring Injury), M. Crooks (Missing Fixture - Yellow Cards), A. Famewo (Missing Fixture - Calf Injury), R. Giles (Missing Fixture - Inactive), D. Gyabi (Missing Fixture - Groin Injury)",
+    "api_predictions": "API-Football prediction: Wrexham | Probabilities: 45%-45%-10% | Recommendation: Double chance : Wrexham or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:2",
+    "market": "NO BET"
+  }
+}

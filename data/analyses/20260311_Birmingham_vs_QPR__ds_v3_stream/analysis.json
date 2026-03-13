@@ -1,0 +1,182 @@
+{
+  "key": "20260311_Birmingham_vs_QPR__ds_v3_stream",
+  "match": {
+    "home_team": "Birmingham",
+    "away_team": "QPR",
+    "league": "Championship",
+    "date": "2026-03-11",
+    "home_id": 54,
+    "away_id": 72
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "Under 2.25 Goals",
+    "prediction": "Under 2.25 Goals",
+    "confidence": 53,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 2.08,
+    "score_home": 45.0,
+    "score_draw": 28.0,
+    "score_away": 27.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician explicitly predicts a 'tight, low-scoring encounter' and a 'cautious, tactical match'. Both teams exhibit DECLINING momentum and WORSENING defence per their cascading profiles, with Birmingham scoring 0.33 goals per match and QPR 0.00 goals per match over their last three. The symmetrical 4-2-3-1 formations, combined with significant injury crises that remove creative outlets (Chair, Dembele for QPR; Buchanan, Cochrane for Birmingham), point towards a stalemate focused on defensive organisation rather than attacking ambition. (2) DIRECTION EVIDENCE — The mathematical evidence strongly supports an under. The Auditor's adjusted probabilities give Under 2.5 Goals a 65% likelihood. The Edge Calculator shows a 12.7% edge on Under 2.25 Goals, the highest credible edge among markets without a direction conflict. Historical data is decisive: the fixture averages just 1.7 goals per match with both teams scoring in only 40% of games. While the cascading profiles show a 64% convergence on Over 2.5, this is contradicted by the Tactician's structural analysis, the H2H trend, and the Auditor's finding that this probability must be 'significantly downgraded'. The λ sum from Poisson modelling is low, aligning with the under thesis. (3) AGENTS CONSENSUS — The Tactician, Archivist, and Auditor form a clear consensus for a low-scoring match. The Sceptic's challenge is directed at the Home Scout's inflated win probability, not the goals narrative, and their veto is not triggered. The biggest conflict is between the cascading profile convergence (Over 2.5) and the qualitative consensus (Under). We resolve this by prioritising the structural, historical, and adjusted mathematical evidence from the Tactician, Archivist, and Auditor over the raw recent form data, which may be skewed by extreme results (QPR's 5-0 and 4-0 defeats). (4) RISKS — The primary risk is that the severe defensive decline of both teams, flagged in their profiles, manifests as catastrophic errors rather than organised resistance, leading to a higher-scoring game than the tactical setup suggests. The strong Over 2.5 convergence (64%) from recent form cannot be entirely dismissed. Additionally, unconfirmed starting XIs due to the rotation risk cap introduce uncertainty about the full impact of injuries on defensive cohesion.",
+    "key_factors": [
+      "Historical fixture average of 1.7 goals per match",
+      "Both teams missing key creative and defensive players through injury",
+      "Tactician's prediction of a 'cautious, tactical match' with 'limited open-play creativity'",
+      "Auditor's adjusted probability of 65% for Under 2.5 Goals"
+    ],
+    "risk_factors": [
+      "Cascading form profiles show 64% convergence on Over 2.5 Goals",
+      "Both teams' defences are in a 'worsening' trend, increasing error potential",
+      "Rotation risk and unconfirmed starting XIs limit reliability of form data"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.5 Goals",
+        "prediction": "Under 2.5",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 12.7,
+      "edge_source": "Edge Calculator (our_prob vs market_odds)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away 0.75",
+          "edge": 30.0
+        },
+        {
+          "market": "AH Away 1.0",
+          "edge": 21.2
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 12.7
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Archivist, and Auditor agree on a low-scoring, tight match. The Sceptic challenges the Home Scout's win probability but does not contest the goals narrative. The Quant's data shows no Poisson gaps, but the Auditor has adjusted the goals probabilities to align with the under thesis. The primary dissent comes from the cascading profile data, which strongly converges on Over 2.5 Goals, creating a material conflict with the qualitative consensus.",
+    "_direction": "under_goals",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.2646,
+    "_direction_prob": 60.8,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.32,
+    "max_edge": 30.0
+  },
+  "display_texts": {
+    "home_position": "#13 (49 pts, -1 GD)",
+    "away_position": "#16 (47 pts, -12 GD)",
+    "home_form": "13W-10D-13L in 36 matches, last 5: DWWLL",
+    "away_form": "13W-8D-15L in 36 matches, last 5: DLLWW",
+    "home_stats": "46 goals in 36 matches (avg 1.3/match), 8 clean sheets",
+    "away_stats": "46 goals in 36 matches (avg 1.3/match), 9 clean sheets",
+    "h2h_history": "Birmingham 0-0 QPR (11 Mar 2026)\nQPR 2-1 Birmingham (09 Dec 2025)\nQPR 2-1 Birmingham (29 Mar 2024)\nBirmingham 0-0 QPR (22 Sep 2023)\nQPR 0-1 Birmingham (18 Mar 2023)",
+    "home_injuries": "L. Buchanan (Missing Fixture - Knee Injury), A. Cochrane (Missing Fixture - Ankle Injury), J. Beadle (Questionable - Inactive), K. Furuhashi (Questionable - Inactive), A. Priske (Questionable - Injury)",
+    "away_injuries": "R. Burrell (Missing Fixture - Injury), I. Chair (Missing Fixture - Muscle Injury), K. Dembele (Missing Fixture - Injury), Z. Larkeche (Missing Fixture - Knee Injury), J. Obikwu (Missing Fixture - Knock)",
+    "api_predictions": "API-Football prediction: Birmingham | Probabilities: 45%-45%-10% | Recommendation: Double chance : Birmingham or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "WIN",
+    "label": "WIN",
+    "color": "#22c55e",
+    "pnl": 1.08,
+    "score": "1:0",
+    "market": "Under 2.25 Goals"
+  },
+  "script": {
+    "title": "Birmingham vs QPR: The Mid-Table Collision of Broken Teams",
+    "thumbnail_text": "BROKEN TEAMS COLLIDE",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when two teams in severe form crises, stripped of their creative and defensive identities, meet with nothing left to play for? This is not a battle for promotion or survival. This is a collision of broken systems, where the only certainty is uncertainty. At St Andrew's, Birmingham and QPR face off with their tactical blueprints fundamentally compromised. The question isn't who wins — it's whether either side can remember how to attack.",
+    "chapter_home": "Birmingham arrive at their own fortress with the walls crumbling. Their strong home record — just two losses in seventeen matches — is now undermined by a three-match losing streak. The attack has dried up completely, scoring just one goal in their last three outings. Defensively, they're leaking at an alarming rate, conceding over two goals per game in that same period. Five players are absent through injury, including key defensive figures like L. Buchanan and A. Cochrane. This disruption has left a back line that was once organised now looking vulnerable. Managerial confidence is low, with the team's momentum in sharp decline. Their tactical identity as a possession-based 4-2-3-1 side remains, but the execution has faltered. They still dominate the ball, averaging fifty-six percent possession recently, but that control no longer translates to chances or clean sheets. The narrative of a home fortress has been shattered by recent results, leaving a side searching for any semblance of form.",
+    "chapter_away": "QPR travel north with their own creative engine removed. The absence of Ilias Chair and Karamoko Dembele strips them of their primary attacking outlets, leaving a squad devoid of invention. Their away form tells a grim story — they've scored less than a goal per game on the road this season. Recent heavy defeats, including a five-nil thrashing at Southampton, have crushed morale. Managerial comments about a 'young squad development phase' hint at inconsistency and inexperience in high-pressure situations. Their tactical setup mirrors Birmingham's — a 4-2-3-1 — but is built for counter-attacking football they can no longer execute without their creative talents. Defensively, they've shown some resilience away from home recently, conceding just 1.2 goals per match in their last five travels. But this is a team that draws frequently because they cannot score, not because they defend impeccably. They arrive as a side stripped of ambition, likely to sit deep and hope for a moment of transition that their depleted squad may struggle to create.",
+    "chapter_history": "History between these sides paints a clear picture — this is a low-scoring fixture. The last ten meetings have averaged just 1.7 goals per game, with both teams scoring in only forty percent of those encounters. QPR hold a slight historical edge, winning four of those ten to Birmingham's three. But the recent narrative is one of fine margins. The last three meetings have all been decided by a single goal, with two of those winners coming in the ninetieth minute. The most recent clash in December featured two stoppage-time goals — a dramatic pattern that suggests late drama is becoming a habit. QPR are unbeaten in the last three encounters, a psychological edge they'll carry into St Andrew's. With both teams comfortably mid-table, the stakes are purely about pride and momentum, not survival or promotion.",
+    "chapter_analysis": "The tactical matchup reveals why goals should be scarce. Both teams deploy identical 4-2-3-1 formations, creating a numerical stalemate in midfield where neither side holds a structural advantage. Birmingham's possession control is undermined by their defensive decline and injury concerns. QPR's counter-attacking potential is neutered by their missing creative players. The Tactician predicts a 'cautious, tactical match with limited open-play creativity' — a direct contradiction to the raw form data that shows a sixty-four percent convergence on Over 2.5 goals. This is the core conflict. Recent heavy defeats have skewed the data, but the structural reality is different. Both defences are in 'worsening' trends, increasing error potential, but both attacks lack the personnel to consistently exploit those mistakes. The Sceptic challenged Birmingham's inflated win probability, not the goals narrative, leaving the under thesis intact. The Auditor resolved the conflict by significantly downgrading the Over 2.5 probability to thirty-five percent, while raising Under 2.5 to sixty-five percent. The Poisson modelling supports this, with a low λ sum aligning with historical patterns rather than recent anomalies.",
+    "chapter_value": "Our market: Under 2.25 Goals. The bookmakers have priced this at 2.08, implying a forty-eight percent probability. Our analysis, validated by the Auditor's adjustments, gives this a sixty-one percent likelihood — a 12.7 percent edge that represents strong value. While the cascading form profiles scream for goals, the structural, historical, and injury-based evidence points decisively the other way. This is a match where defensive organisation, however flawed, will outweigh attacking ambition, however absent. The risk is clear — two declining defences could produce catastrophic errors — but the preponderance of evidence suggests a tight, low-scoring encounter.",
+    "ending": "The Boot Room lands on Under 2.25 Goals at 2.08 with fifty-three percent confidence. This is a speculative play, acknowledging the volatility of two broken teams, but one where the edge is clear and the narrative coherent. Two compromised tactical systems, multiple key absences, and a historical pattern of low scores create an environment where goals should be at a premium. If you found this analysis valuable, subscribe to AI Boot Room for data-driven insights on every major fixture. Drop your predictions in the comments below — do you see a cagey stalemate or a goal-fest born of defensive errors? Boot Room out.",
+    "roundup_summary": "Birmingham versus QPR in the Championship presents a mid-table clash with minimal stakes but significant analytical intrigue. Birmingham sit with a mixed home record undermined by a three-match losing streak, scoring just 0.33 goals per match in that period. QPR travel with one win in five, failing to score in three of those and missing their creative heartbeat. Both teams' last-five form shows severe decline, with Birmingham's defence conceding 2.33 goals per game and QPR's attack managing just 0.60.\n\nThe historical record between these sides is decisively low-scoring, averaging 1.7 goals per meeting across the last ten fixtures. Both teams have scored in only forty percent of those games. The last three encounters have all been settled by a single goal, with two decided in the ninetieth minute. This season, Birmingham score 1.35 goals per game but concede 1.65 at home, while QPR average 0.94 scored and 1.56 conceded on their travels.\n\nThe Boot Room analysis identifies a 12.7 percent edge on Under 2.25 Goals, derived from a Poisson probability of 60.8 percent against market odds of 2.08. The Quant found no significant gaps in Asian handicap markets, but the Auditor validated the under thesis by adjusting the Over 2.5 probability down to 35 percent from a form-based 64 percent convergence. The Sceptic's concern was directed at Birmingham's inflated win probability, not the goals narrative, leaving the under angle unchallenged. The bookmaker has mis-priced this market by anchoring to recent heavy defeats rather than the structural reality: two identical 4-2-3-1 formations, multiple key injuries removing creativity, and a historical pattern that contradicts high-scoring expectations. The Auditor's effective confidence sits at fifty-two percent.\n\nThe verdict is Under 2.25 Goals at odds of 2.08 with fifty-three percent confidence. The risk scenario requires the match to finish with two or fewer total goals, or exactly three goals where one team scores twice and the other once. This aligns with the tactical prediction of a cautious, low-creativity encounter between two depleted sides. Boot Room market: Under 2.25 Goals. Confidence: 53%.",
+    "short_segment": "Birmingham host QPR in a Championship mid-table clash with both teams in severe form crises. Birmingham have lost three straight, their attack scoring just 0.33 goals per game in that run. QPR travel without key creators Chair and Dembele, having failed to score in three of their last five. Historically, this fixture averages just 1.7 goals per meeting. The Boot Room lands on Under 2.25 Goals at 2.08 with fifty-three percent confidence. The edge comes from structural stalemate, injury-depleted attacks, and a historical low-scoring pattern overriding recent defensive collapses. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Collision of Broken Systems",
+        "voiceover": "Two teams arrive stripped of their identities. Birmingham's home fortress is crumbling after three straight defeats. QPR travel without their creative engine. This isn't about who wins — it's about whether either side remembers how to attack. When broken systems collide, what emerges?",
+        "graphic_type": "conflict",
+        "graphic_description": "Split screen showing Birmingham's empty net and QPR's absent creative players, with cracked tactical diagrams overlaying both halves.",
+        "graphic_text_overlay": "BROKEN SYSTEMS"
+      },
+      {
+        "scene": 2,
+        "name": "Birmingham's Crumbling Fortress",
+        "voiceover": "Five defensive injuries. Three consecutive losses. A once-sturdy home record now conceding over two goals per game. Birmingham still dominate possession but can't translate control into clean sheets or consistent chances. Their tactical blueprint remains, but the execution has fundamentally broken down.",
+        "graphic_type": "home_card",
+        "graphic_description": "Birmingham's 4-2-3-1 formation diagram with red injury icons over key defensive positions, alongside stats showing 2.33 goals conceded per match.",
+        "graphic_text_overlay": "DEFENSIVE COLLAPSE"
+      },
+      {
+        "scene": 3,
+        "name": "QPR's Missing Creativity",
+        "voiceover": "No Chair. No Dembele. QPR arrive without their primary creative outlets, leaving a squad devoid of invention. They've scored less than a goal per game away this season. Their counter-attacking identity exists only on paper — the players to execute it are absent.",
+        "graphic_type": "away_card",
+        "graphic_description": "QPR's 4-2-3-1 formation with grayed-out attacking midfield positions, alongside a graphic showing 0.60 goals per match in last five away games.",
+        "graphic_text_overlay": "NO CREATIVE ENGINE"
+      },
+      {
+        "scene": 4,
+        "name": "The Historical Pattern",
+        "voiceover": "History screams low scores. This fixture averages just 1.7 goals per meeting. Both teams score in only forty percent of games. The last three encounters? All decided by a single goal, two in the ninetieth minute. Late drama is a habit, but goal-fests are not.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "Timeline showing last three meetings with 1-0, 1-0, and 2-1 scorelines, with 90th-minute markers on two results. Large '1.7' displayed prominently.",
+        "graphic_text_overlay": "1.7 GOALS AVERAGE"
+      },
+      {
+        "scene": 5,
+        "name": "The Tactical Stalemate",
+        "voiceover": "Identical 4-2-3-1 formations create numerical parity in midfield. Birmingham's possession control is undermined by defensive decline. QPR's counters are neutered by missing creators. The Tactician predicts a 'cautious, tactical match with limited open-play creativity' — a direct contradiction to recent form data screaming for goals.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Side-by-side 4-2-3-1 formation diagrams with connecting lines showing cancelled-out midfield battles, with '64% Over 2.5' crossed out beside 'Tactician: Low-Scoring'.",
+        "graphic_text_overlay": "STRUCTURAL STALEMATE"
+      },
+      {
+        "scene": 6,
+        "name": "The Market Mispricing",
+        "voiceover": "The bookmaker sees recent heavy defeats and prices for goals. We see structural reality, historical patterns, and compromised attacks. Our probability: sixty-one percent. Their odds: 2.08, implying forty-eight percent. That's a 12.7 percent edge they've left on the table.",
+        "graphic_type": "evidence",
+        "graphic_description": "Clean graphic showing 'Our Probability: 61%' versus 'Market Implied: 48%' with a bright green arrow and '+12.7% EDGE' between them.",
+        "graphic_text_overlay": "12.7% EDGE"
+      },
+      {
+        "scene": 7,
+        "name": "The Boot Room Verdict",
+        "voiceover": "Our market: Under 2.25 Goals at 2.08. Fifty-three percent confidence. Two broken systems, multiple key absences, and a historical pattern of low scores create an environment where goals should be scarce. The edge is clear, the narrative coherent. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold text: 'UNDER 2.25 GOALS @ 2.08 | CONFIDENCE: 53%' with the AI Boot Room logo.",
+        "graphic_text_overlay": "BOOT ROOM VERDICT"
+      }
+    ]
+  }
+}

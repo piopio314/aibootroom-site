@@ -1,0 +1,169 @@
+{
+  "key": "20260308_Raków_Częstochowa_vs_Pogon_Szczecin__ds_v3_stream",
+  "match": {
+    "home_team": "Raków Częstochowa",
+    "away_team": "Pogon Szczecin",
+    "league": "Ekstraklasa",
+    "date": "2026-03-08",
+    "home_id": 3491,
+    "away_id": 348
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 45.0,
+    "score_draw": 28.0,
+    "score_away": 27.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician classifies it as 'tight', with both teams deploying defensive structures: Raków's 3-4-3 prioritises defensive solidity at home (67% clean sheet rate in last 5 home matches), while Pogoń's 4-1-4-1 is built on a newly implemented defensive, engagement-based system yielding three consecutive clean sheets. The cascading profiles show STRONG convergence (86%) on Under 2.5 Goals, with both teams averaging under 1.6 goals conceded per match recently. (2) DIRECTION EVIDENCE — The mathematical evidence overwhelmingly supports under_goals. The Edge Calculator identifies Under 2.25 Goals with a +55.1% edge — the highest of any market. The Auditor validates this, noting the edge is 'strongly supported by the Tactician's low-scoring matchup analysis, the H2H historical baseline (average 1.6 goals, 20% Over 2.5 rate), and the Sceptic's confirmation of core low-scoring signals.' The historical head-to-head average of 1.6 goals per match and Raków's clean sheets in five of their six victories against Pogoń reinforce this. (3) AGENTS CONSENSUS — The consensus for under_goals is robust. The Tactician's analysis explicitly states the setup 'strongly suggests fewer goals than average.' The Archivist highlights the 'low-scoring' historical pattern. The cascading profiles provide objective, data-driven convergence at 86% for Under 2.5. The Auditor strongly aligns with this direction. The Sceptic, while issuing a CRITICAL challenge on Pogoń's inflated form rating, does not veto the low-scoring narrative and their no_bet_recommendation is 'PROCEED'. The only dissent is the absence of explicit Quant gaps for goals markets, but this is due to missing odds data, not a contradictory signal. (4) RISKS — The primary risk is the potential for a single defensive error or set-piece to breach these organised defences, given Raków's perfect penalty record. Pogoń's recent form, though built against weak opposition, indicates improved defensive cohesion. The mandatory rotation risk cap due to Raków's European fixture in four days limits confidence to 55%, but the overwhelming evidence for a low-scoring match provides a clear, statistically-backed direction that overrides general uncertainty.",
+    "key_factors": [
+      "STRONG 86% profile convergence on Under 2.5 Goals from both teams' defensive form",
+      "Historical H2H average of just 1.6 goals per match with 80% Under 2.5 rate",
+      "Tactical matchup of two defensive systems (3-4-3 vs 4-1-4-1) prioritising structure over attack",
+      "Edge Calculator identifies Under 2.25 Goals with a +55.1% mathematical edge"
+    ],
+    "risk_factors": [
+      "Mandatory rotation risk: Raków has UEFA Europa Conference League in 4 days — confidence hard-capped",
+      "Potential for a single set-piece or defensive error to decide an otherwise tight match",
+      "Pogoń's recent defensive form is built against weak league opposition (#13.4 average rank)"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.75 Goals",
+        "prediction": "Under 2.75",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 55.1,
+      "edge_source": "Edge Calculator mathematical model (our_prob vs market_odds)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 55.1
+        },
+        {
+          "market": "Under 2.75 Goals",
+          "edge": 45.5
+        },
+        {
+          "market": "Under 3.25 Goals",
+          "edge": 32.9
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "Strong consensus for under_goals: The Tactician, Archivist, Auditor, and cascading profiles all align on a low-scoring defensive battle. The Sceptic challenges specific form assessments but does not contradict the low-scoring thesis. The Quant found no edge on result markets but lacked odds data for goals markets.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.7,
+    "max_edge": 55.1
+  },
+  "display_texts": {
+    "home_position": "#5 (34 pts, +2 GD)",
+    "away_position": "#10 (31 pts, -2 GD)",
+    "home_form": "10W-4D-9L in 23 matches, last 5: WLLWL",
+    "away_form": "9W-4D-10L in 23 matches, last 5: LWDLL",
+    "home_stats": "31 goals in 23 matches (avg 1.3/match), 7 clean sheets",
+    "away_stats": "33 goals in 23 matches (avg 1.4/match), 4 clean sheets",
+    "h2h_history": "Raków Częstochowa 0-0 Pogon Szczecin (08 Mar 2026)\nPogon Szczecin 2-0 Raków Częstochowa (31 Aug 2025)\nPogon Szczecin 1-0 Raków Częstochowa (19 Apr 2025)\nRaków Częstochowa 1-0 Pogon Szczecin (20 Oct 2024)\nRaków Częstochowa 2-1 Pogon Szczecin (11 May 2024)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Pogon Szczecin | Probabilities: 10%-45%-45% | Recommendation: Combo Double chance : draw or Pogon Szczecin and -3.5 goals",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "2:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Raków vs Pogoń: The Defensive Stalemate Where No Bet Wins",
+    "thumbnail_text": "NO BET ALERT",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when two defensive systems collide with such force that the market offers no way in? Raków Częstochowa's European ambitions meet Pogoń Szczecin's newly forged resilience in a fixture that has produced just 1.6 goals per match for years. Tonight, the tactical chess match is clear — but the betting value has vanished.",
+    "chapter_home": "Raków Częstochowa arrive with a paradox. Positioned fifth and chasing European football, their home form tells a different story — just four wins from eleven matches at their own stadium. Their 3-4-3 formation provides defensive solidity, boasting a 67% clean sheet rate in their last five home games. Yet their attack is blunt, averaging only one goal per match at home and failing to score in three of those eleven fixtures. Morale is low after a laboured cup win against third-tier opposition, and focus is divided by an upcoming Polish Cup semi-final derby. Their strength lies in structure, not firepower, with a perfect penalty record this season offering their most likely route to goal.",
+    "chapter_away": "Pogoń Szczecin ride a wave of three consecutive 1-0 victories, but the Sceptic raises a critical flag. This form is built against the league's weakest opposition — Widzew Łódź, Arka Gdynia, and Nieciecza — with an average opponent rank of 13.4. Their new defensive 4-1-4-1 system prioritises clean sheets and low-scoring engagements, yet their historical away profile remains deeply flawed. They have won just two of eleven matches on the road this season, averaging 0.82 goals scored. The high-profile signing of Benjamin Mendy provides no immediate sporting benefit. Their narrative is one of tactical reboot against a backdrop of chronic away fragility.",
+    "chapter_history": "History screams low-scoring tension. Raków have dominated this fixture with six wins from the last ten meetings, but the average goals per match is just 1.6 — with 80% of games finishing under 2.5 goals. Raków have kept clean sheets in five of their six victories. The most recent meeting in August saw Pogoń break a four-match losing streak with a 2-0 win, their first victory since 2022. At home, Raków are unbeaten in their last three against Pogoń, winning all three without conceding. This is a classic defensive battle where clean sheets decide outcomes.",
+    "chapter_analysis": "The tactical matchup is a stalemate. Raków's 3-4-3 meets Pogoń's 4-1-4-1 — two systems prioritising defensive structure over attacking fluency. Raków's wing-backs may create width, but Pogoń's compact low block is designed to absorb pressure. The Tactician classifies this as a 'tight' match with 'fewer goals than average'. Our cascading form profiles show an 86% convergence on Under 2.5 Goals from both teams' recent performances. The Edge Calculator identifies Under 2.25 Goals with a massive +55.1% mathematical edge — the highest of any market. Yet the Sceptic's critical challenge on Pogoń's inflated form, combined with Raków's mandatory rotation risk due to a European fixture in four days, creates uncertainty that caps our conviction. The market is efficiently priced on result markets, with the Quant finding zero probability gaps on Asian Handicap lines.",
+    "chapter_value": "Our market: NO_BET. The mathematical edge on Under 2.25 Goals is compelling at +55.1%, but our confidence is hard-capped at 0% by the Gaffer's strict filters. The combination of Raków's rotation risk, the Sceptic's valid critique of Pogoń's form, and key team news unknowns means no qualifying line meets our threshold for a value bet at odds of 1.70 or greater. Sometimes the clearest analytical direction offers no actionable market — and this is one of those fixtures. The bookmakers have not mispriced this defensive battle enough for us to intervene.",
+    "ending": "The Boot Room's verdict is to pass on this fixture. Raków's defensive solidity against Pogoń's resilient low block points to a tense, low-scoring affair likely decided by a single moment — but the risks and market pricing offer no value edge. When the analysis is clear but the market isn't wrong, discipline means walking away. If you found this breakdown valuable, subscribe to the AI Boot Room for more data-driven match analysis. Boot Room out.",
+    "roundup_summary": "Raków Częstochowa versus Pogoń Szczecin. Raków sit fifth with 34 points, their last five matches showing one win, two draws, and two defeats. Pogoń are tenth, riding three consecutive 1-0 wins in their last five, though against weak opposition. At home, Raków average one goal scored and conceded per match, while Pogoń average 0.82 goals scored away.\n\nThe head-to-head history is dominated by low-scoring encounters. The last ten meetings average just 1.6 goals, with 80% finishing under 2.5 goals. Raków have won six of those ten, keeping clean sheets in five of their victories. The most recent match in August 2025 saw Pogoń win 2-0, breaking a four-match losing streak in the fixture.\n\nThe Boot Room analysis identifies a strong defensive convergence. Poisson modelling and the Edge Calculator show a +55.1% edge on Under 2.25 Goals, with our probability at 95.1% versus market odds of 2.50. The Tactician's matchup of Raków's 3-4-3 against Pogoń's 4-1-4-1 creates a 'tight' match expecting fewer goals. The Sceptic's critical challenge — that Pogoń's form is inflated by facing weak opponents — is acknowledged but doesn't contradict the low-scoring thesis. However, the bookmaker's efficient pricing on result markets, combined with Raków's rotation risk ahead of European competition, means no market line qualifies under our strict value filters.\n\nThe verdict is to pass. While the under goals direction is strongly supported, the combination of uncertainty and market efficiency offers no actionable value. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Defensive Wall",
+        "voiceover": "Two teams, one philosophy — don't concede. Raków Częstochowa have kept clean sheets in 67% of their last five home matches. Pogoń Szczecin arrive with three consecutive 1-0 wins. When defensive systems collide this hard, goals become casualties.",
+        "graphic_type": "conflict",
+        "graphic_description": "Two imposing defensive walls made of brick and steel crashing into each other, with a single football trapped between them.",
+        "graphic_text_overlay": "DEFENSIVE COLLISION"
+      },
+      {
+        "scene": 2,
+        "name": "Raków's Paradox",
+        "voiceover": "European ambitions undermined by a blunt attack. Raków sit fifth but win just 36% of home matches, averaging one goal per game. Their 3-4-3 provides structure, but focus is divided by an upcoming cup derby. Strength through stability, not firepower.",
+        "graphic_type": "home_card",
+        "graphic_description": "A Raków Częstochowa player in a defensive stance, looking frustrated while a European trophy glimmers faintly in the distance.",
+        "graphic_text_overlay": "AMBITION VS REALITY"
+      },
+      {
+        "scene": 3,
+        "name": "Pogoń's Mirage",
+        "voiceover": "Three straight wins — but built against the league's weakest teams. The Sceptic flags this as critical overstatement. Their new defensive 4-1-4-1 system shows promise, yet historical away fragility persists. Momentum meets skepticism.",
+        "graphic_type": "away_card",
+        "graphic_description": "A Pogoń Szczecin player celebrating a 1-0 win, with ghostly images of low-ranked opponent logos fading in the background.",
+        "graphic_text_overlay": "FORM OR MIRAGE?"
+      },
+      {
+        "scene": 4,
+        "name": "Historical Blueprint",
+        "voiceover": "The pattern is unmistakable. These meetings average just 1.6 goals — 80% finish under 2.5. Raków have kept clean sheets in five of their six victories. History provides the blueprint for another tense, low-scoring stalemate.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "A historical ledger showing Raków 1-0, 0-0, 1-0 results against Pogoń, with a low '1.6' goals average highlighted.",
+        "graphic_text_overlay": "1.6 GOALS AVERAGE"
+      },
+      {
+        "scene": 5,
+        "name": "The Stalemate Equation",
+        "voiceover": "The Tactician calls it 'tight'. Our models show 86% convergence on Under 2.5 Goals. The Edge Calculator finds a +55.1% edge on Under 2.25 — the highest of any market. Yet rotation risk and efficient pricing create uncertainty no edge can overcome.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A chessboard with defensive pieces locked in position, with mathematical equations showing '+55.1% edge' and '0% confidence' superimposed.",
+        "graphic_text_overlay": "EDGE WITHOUT CONFIDENCE"
+      },
+      {
+        "scene": 6,
+        "name": "The Discipline Call",
+        "voiceover": "Our market: NO_BET. The mathematical evidence is clear, but our confidence is zero. When analysis points one way but the market isn't wrong, discipline means walking away. Sometimes the best bet is no bet at all. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A red 'NO BET' stamp overlaid on the match fixture, with the Boot Room logo prominently displayed.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

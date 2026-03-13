@@ -1,0 +1,161 @@
+{
+  "key": "20260308_Getafe_vs_Real_Betis__ds_v3_stream",
+  "match": {
+    "home_team": "Getafe",
+    "away_team": "Real Betis",
+    "league": "La Liga",
+    "date": "2026-03-08",
+    "home_id": 546,
+    "away_id": 543
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 33.3,
+    "score_draw": 34.7,
+    "score_away": 32.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician's analysis describes a 'tight', 'congested midfield battle with few clear chances'. Getafe's 5-3-2 low-block is designed to absorb pressure, while Betis arrive without their chief creators Isco and Lo Celso. Both teams' key attacking absences (Mayoral for Getafe) further blunt offensive potency. The historical H2H average of 1.8 goals and the cascading profile's moderate convergence (50%) on Under 2.5 reinforce this defensive character. (2) DIRECTION EVIDENCE — The Quant's Poisson model shows a 16.7 percentage point edge for Under 2.5 Goals, with a 65.0% probability versus a market-implied 48.3%. The Auditor's adjusted probabilities confirm a 65.0% likelihood. The Tactician's 'goals_impact' explicitly states this setup 'suggests fewer goals than average'. The cascading profiles show Getafe strongly fits Under 2.5 (7/7 rating) with a total goals average of 1.4 in their last five matches. (3) AGENTS CONSENSUS — The Quant, Tactician, and Auditor are strongly aligned on the under_goals direction. The Sceptic's 'surprise scenario' is a 0-0 draw, reinforcing the low-scoring narrative. The Archivist notes the historical low-scoring pattern. The primary dissent comes from the EdgeCalculator, which identifies its highest edge (12.8%) on 'AH Away -0.75', a result-direction market. However, this conflicts with the qualitative consensus and the Auditor flags it as not credible. The Home Scout's misrepresentation of Getafe's home form (critiqued by the Sceptic) is a data flaw but does not contradict the low-scoring thesis. (4) RISKS — The mandatory rotation risk cap (Betis have a Europa League fixture in four days) limits confidence to 55%. Unconfirmed starting XIs, particularly how Betis manage rotation, introduce uncertainty. A single moment of quality or defensive error in an otherwise tight match could produce a 2-1 scoreline. Betis's away scoring average (1.31 goals/game) provides a pathway to Over 2.5 if they find a rare breakthrough against Getafe's organised block.",
+    "key_factors": [
+      "Critical midfield injuries to Betis's creative hubs Isco and Lo Celso",
+      "Getafe's strong defensive structure and low-block 5-3-2 formation",
+      "Historical head-to-head average of just 1.8 goals per match",
+      "Quantitative edge of 16.7pp on Under 2.5 Goals per the Poisson model"
+    ],
+    "risk_factors": [
+      "Potential for Betis rotation due to Europa League fixture in 4 days",
+      "Unconfirmed starting line-ups for both teams",
+      "A single defensive error could unlock a 2-1 scoreline"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 1.5 Goals",
+        "prediction": "Under 1.5",
+        "confidence": 35
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 12.8,
+      "edge_source": "EdgeCalculator analysis (our_prob vs market odds)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "MARGINAL",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away -0.75",
+          "edge": 12.8
+        },
+        {
+          "market": "AH Away -0.5",
+          "edge": 5.2
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "edge": 12.8
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Quant, Tactician, Auditor, and Sceptic all support a low-scoring match narrative, with the Quant providing a strong mathematical edge on Under 2.5. The Archivist's historical data aligns. The primary conflict is with the EdgeCalculator's top pick (AH Away -0.75), which the Auditor deems not credible against the qualitative consensus. The Home Scout's analysis contained a critical flaw regarding home form but did not challenge the goals expectation.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 12.8
+  },
+  "display_texts": {
+    "home_position": "#11 (32 pts, -8 GD)",
+    "away_position": "#5 (43 pts, +10 GD)",
+    "home_form": "9W-5D-12L in 26 matches, last 5: WWLWL",
+    "away_form": "11W-10D-5L in 26 matches, last 5: DWDLD",
+    "home_stats": "21 goals in 26 matches (avg 0.8/match), 7 clean sheets",
+    "away_stats": "42 goals in 26 matches (avg 1.6/match), 8 clean sheets",
+    "h2h_history": "Getafe 0-0 Real Betis (08 Mar 2026)\nReal Betis 4-0 Getafe (21 Dec 2025)\nGetafe 1-2 Real Betis (23 Feb 2025)\nReal Betis 2-1 Getafe (18 Sep 2024)\nReal Betis 1-1 Getafe (04 Feb 2024)",
+    "home_injuries": "Davinchi (Missing Fixture - Knee Injury), Juanmi (Missing Fixture - Injury), A. Kamara (Missing Fixture - Foot Injury), A. Liso (Missing Fixture - Red Card), B. Mayoral (Missing Fixture - Knee Injury)",
+    "away_injuries": "S. Amrabat (Missing Fixture - Ankle Injury), Isco (Missing Fixture - Ankle Injury), G. Lo Celso (Missing Fixture - Muscle Injury)",
+    "api_predictions": "API-Football prediction: Real Betis | Probabilities: 10%-45%-45% | Recommendation: Combo Double chance : draw or Real Betis and -3.5 goals",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "2:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Getafe vs Betis: Why We're NOT Betting This La Liga Clash",
+    "thumbnail_text": "NO BET ALERT",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when two attacks are stripped of their creative hearts? Getafe arrive without their top scorer. Real Betis travel without their chief creators. Both teams have momentum, yet both face the same critical question — who will score the goals? This isn't just a tactical stalemate. It's a match where the bookmakers have priced the only logical outcome out of reach.",
+    "chapter_home": "Getafe's story is one of contradiction. They stunned Real Madrid at the Bernabéu just weeks ago, a defensive masterclass that validated their pragmatic 5-3-2 low-block. That result should signal a team in form. Yet at the Coliseum Alfonso Pérez, the reality is starkly different. They've won just once in their last five home matches, scoring only three goals in that span. The absence of Borja Mayoral, their top scorer and attacking focal point, strips them of their primary threat. Their defensive structure remains solid — conceding just 0.4 goals per match recently — but without Mayoral, their counter-attacks lack precision. They sit comfortably mid-table with little pressure, but their home venue has been no fortress this season.",
+    "chapter_away": "Real Betis arrive with European ambitions firmly intact, sitting fifth and unbeaten in five. Their away form shows resilience with only two losses in thirteen trips. Yet a defining characteristic haunts them — they are chronically draw-prone on the road, with seven stalemates in those thirteen matches. Now, they face this fixture without their creative heartbeat. Isco and Giovani Lo Celso are both absent, removing the two players most capable of unlocking deep defences. Betis's 4-2-3-1 relies on that creative hub to function. Without it, their possession dominance — averaging 42.3% away — may prove sterile against Getafe's compact block. They have a crucial Europa League fixture in four days, adding rotation risk to an already compromised attack.",
+    "chapter_history": "Recent history paints a clear picture — and it's painted in green and white. Real Betis have dominated this fixture, winning five of the last six meetings. The most recent was a brutal 4-0 demolition at the Benito Villamarín. But look closer, and a more telling pattern emerges. Those matches have been characteristically low-scoring, averaging just 1.8 goals per meeting. Betis may own the psychological edge, but they've rarely blown Getafe away. The historical data screams caution — this is a fixture where chances are scarce and margins are fine. Getafe's last home win against Betis was three years ago, a fact that will weigh on both squads.",
+    "chapter_analysis": "The tactical matchup reveals why goals will be at a premium. Getafe's back five creates a numerical advantage against Betis's lone striker, funelling attacks into crowded areas. Betis's natural width could exploit Getafe's wing-backs, but without Isco and Lo Celso, their ability to deliver the final pass is severely diminished. The Sceptic challenged the Home Scout's assessment of Getafe's 'rising' form, correctly noting their worsening home record. This critique was valid — Getafe's strong away results mask chronic home struggles. The Tactician's analysis describes a 'tight, congested midfield battle with few clear chances.' Both attacks are blunted by key absences. The Quant's Poisson model shows a 65% probability for Under 2.5 goals, a 16.7 percentage point edge over the market. Every signal points toward a low-scoring stalemate.",
+    "chapter_value": "Our market: NO_BET. Here's why. The mathematical edge on Under 2.5 goals is significant — 65% probability versus 48.3% implied by odds around 2.07. However, our conviction is capped at a moderate level. The mandatory rotation risk for Betis ahead of their Europa League fixture, combined with unconfirmed starting line-ups, introduces too much uncertainty. While the direction is clear — fewer goals — the specific line offering value doesn't meet our strict qualifying criteria. The Auditor's effective confidence sits at 55%, below our threshold for a recommended play. Sometimes the smartest move is recognising when the market has correctly priced the most likely outcome.",
+    "ending": "The Boot Room verdict is clear: we see the value in the Under direction, but we cannot recommend a specific market with sufficient conviction. Getafe's defensive solidity meets Betis's depleted creativity in a clash that screams low goals. Yet with rotation risks and line-up uncertainty, we're passing on this fixture. The bookmakers have this one priced about right. Remember — discipline is as important as insight. Sometimes no bet is the best bet. If you found this analysis valuable, subscribe to the AI Boot Room for more data-driven breakdowns. Boot Room out.",
+    "roundup_summary": "Getafe versus Real Betis. Getafe sit 11th with 32 points, comfortably mid-table but with a poor home record of just one win in their last five at the Coliseum. Real Betis occupy fifth place, unbeaten in five and chasing European consolidation, though they've drawn seven of thirteen away matches. Both teams arrive with critical attacking absences — Getafe without top scorer Borja Mayoral, Betis missing creative hubs Isco and Giovani Lo Celso.\n\nThe recent head-to-head history is dominated by Betis, with five wins in the last six meetings including a 4-0 victory in December. Yet these matches have been characteristically low-scoring, averaging just 1.8 goals per encounter. This season, Getafe score 0.77 goals per home game while conceding 1.15. Betis average 1.31 goals scored and conceded per away match, reflecting their balanced but cautious approach on the road.\n\nThe Boot Room analysis identifies a strong mathematical edge for Under 2.5 goals, with the Quant's Poisson model showing a 65.0% probability versus a market-implied 48.3% — a 16.7 percentage point gap. The Tactician's assessment of a 'tight, congested midfield battle' and both teams' blunted attacks supports this direction. The Sceptic's primary concern was the Home Scout's misrepresentation of Getafe's 'worsening' home form as 'rising,' which we've corrected in our assessment. The bookmaker appears to have overpriced goal-scoring potential given the critical creative absences on both sides. However, the Auditor's effective confidence of 55% is capped by Betis's Europa League rotation risk in four days and unconfirmed starting line-ups.\n\nOur verdict is to pass on this fixture. While the Under 2.5 goals direction is well-supported, the combination of moderate conviction and external risks means no market qualifies under our strict value criteria. The smart play is recognising when the edge isn't sharp enough. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Creative Void",
+        "voiceover": "Two attacks, stripped of their creative hearts. Getafe travel without their top scorer. Real Betis arrive without their chief creators. This isn't just a tactical matchup — it's a collision of compromised ambitions. The central tension is simple yet profound: in a match where both teams have forgotten how to score, who finds the net?",
+        "graphic_type": "conflict",
+        "graphic_description": "Split screen showing Getafe's Borja Mayoral and Betis's Isco with red 'OUT' overlays, with a tactical board between them showing minimal attacking arrows.",
+        "graphic_text_overlay": "ATTACKS DISARMED"
+      },
+      {
+        "scene": 2,
+        "name": "Getafe's Home Truth",
+        "voiceover": "Getafe's story is one of contradiction. They stunned Real Madrid at the Bernabéu — a defensive masterpiece. Yet at home, their form tells a different tale. One win in five matches, just three goals scored. Without Borja Mayoral, their 5-3-2 low-block has structure but no spearhead. Their Coliseum has been no fortress this season.",
+        "graphic_type": "home_card",
+        "graphic_description": "Getafe's 5-3-2 formation graphic with Mayoral's position greyed out, alongside stats showing 1W-1D-3L in last five home matches.",
+        "graphic_text_overlay": "HOME FORM FRAUD"
+      },
+      {
+        "scene": 3,
+        "name": "Betis's Road Disease",
+        "voiceover": "Real Betis sit fifth, unbeaten in five with European dreams. But away from home, they suffer from a chronic condition — the draw. Seven stalemates in thirteen trips. Now they face Getafe without Isco and Lo Celso, their creative architects. Possession without penetration is just sterile control.",
+        "graphic_type": "away_card",
+        "graphic_description": "Real Betis's 4-2-3-1 formation with Isco and Lo Celso positions greyed out, alongside a graphic showing 7 draws in 13 away matches.",
+        "graphic_text_overlay": "DRAW DISEASE"
+      },
+      {
+        "scene": 4,
+        "name": "The Numbers Don't Lie",
+        "voiceover": "The data converges on one outcome. The Quant's Poisson model gives Under 2.5 goals a 65% probability — a 16.7 percentage point edge over the market. Historical meetings average just 1.8 goals. The Tactician predicts a 'congested midfield battle with few clear chances.' Every signal points toward scarcity.",
+        "graphic_type": "evidence",
+        "graphic_description": "Large '65%' for Under 2.5 goals next to '48.3%' market implied, with a 16.7pp arrow between them. Historical 1.8 avg goals shown beneath.",
+        "graphic_text_overlay": "65% UNDER 2.5"
+      },
+      {
+        "scene": 5,
+        "name": "Why We Walk Away",
+        "voiceover": "Our market: NO_BET. The edge exists — 65% probability at odds of 2.07 represents value. But our conviction is capped. Betis have Europa League rotation in four days. Line-ups are unconfirmed. The Auditor's effective confidence sits at 55%. Sometimes the smartest play is recognising when the market has it right. Discipline over desperation.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean 'NO BET' card with the Under 2.5 odds (2.07) and 65% probability shown, then crossed out with the 55% effective confidence highlighted.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

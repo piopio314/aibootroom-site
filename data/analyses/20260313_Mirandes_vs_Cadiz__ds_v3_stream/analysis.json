@@ -1,0 +1,155 @@
+{
+  "key": "20260313_Mirandes_vs_Cadiz__ds_v3_stream",
+  "match": {
+    "home_team": "Mirandes",
+    "away_team": "Cadiz",
+    "league": "Segunda División",
+    "date": "2026-03-13",
+    "home_id": 799,
+    "away_id": 724
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 40.0,
+    "score_draw": 33.0,
+    "score_away": 27.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. Both teams deploy structurally cautious formations (Mirandes 5-3-2, Cadiz 4-4-2) and exhibit profound attacking deficiencies. The cascading form profiles show Mirandes averaging 1.8 total goals in their last five matches, Cadiz 2.4, with both failing to score in 60% and 40% of those matches respectively. The Tactician explicitly predicts a 'tight, low-event match' with 'fewer goals than average'. This character directly maps to an under_goals direction. (2) DIRECTION EVIDENCE — The strongest signal is the 64% STRONG convergence on Under 2.5 Goals from both teams' cascading profiles. This objective, data-derived signal outweighs the Archivist's historical 'fireworks' narrative. The Quant's analysis shows the market overpricing Under 2.5 (51.7% implied vs Poisson 40.0%), but crucially notes this is because 'Poisson underestimates low-scoring nature', citing the strong convergence as qualitative support. The Tactician's goals_impact states the setup 'suggests fewer goals than average' and aligns with the Under 2.5 convergence. (3) AGENTS CONSENSUS — The Quant, Tactician, and Sceptic are all aligned on the low-scoring narrative. The Sceptic's 'missing factor' was both scouts ignoring the Under 2.5 convergence, and their surprise scenario is a 0-0 or 1-0. The Auditor confirms the 'core low-scoring thesis is well-supported'. The Archivist is the sole dissenter, citing historical high-scoring H2H, but the Sceptic correctly challenges this as a 'data misread' given current form divergence. The Scouts' reports, while flawed on win probability, support the low-scoring character: Mirandes have 'only one match exceeding 2.5 goals all season', Cadiz 'only 2 of 29 matches exceeding 2.5 goals'. (4) RISKS — The primary risk is the DIRECTION CONFLICT flagged by the Auditor and visible in the EdgeCalculator, where the top mathematical edge (23.1%) is on Over 2.75 Goals. This conflict between the Poisson model's goal expectation and the qualitative consensus creates uncertainty. However, the consensus is built on recent form data and tactical structure, which we judge as more relevant than a historical Poisson baseline. A secondary risk is the late-game defensive frailty both teams exhibit, which could lead to a late flurry of goals, though their attacking impotence makes a multi-goal burst unlikely.",
+    "key_factors": [
+      "STRONG 64% convergence on Under 2.5 Goals from both teams' cascading form profiles",
+      "Both teams deploy defensively-oriented formations (5-3-2 vs 4-4-2) with minimal attacking threat",
+      "Chronic poor form: Mirandes 1 win in last 5, Cadiz 0 wins in last 5",
+      "High failure-to-score rates: Mirandes 60%, Cadiz 40% in recent matches"
+    ],
+    "risk_factors": [
+      "DIRECTION CONFLICT: EdgeCalculator shows highest mathematical edge on Over 2.75 Goals, creating model disagreement",
+      "Both teams concede heavily in final 15 minutes, raising risk of late goal flurry"
+    ],
+    "alternative_markets": [],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": -11.7,
+      "edge_source": "Quant probability minus market implied probability",
+      "edge_grade": "NO_VALUE",
+      "staking_signal": "MARGINAL",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 23.1
+        },
+        {
+          "market": "Over 2.25 Goals",
+          "edge": 20.5
+        },
+        {
+          "market": "AH Home -1.25",
+          "edge": 17.4
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Quant, Tactician, Sceptic, and Auditor are all aligned on a low-scoring match character, supported by the strong 64% convergence on Under 2.5 Goals from the cascading profiles. The Archivist dissents based on historical H2H trends, but this is challenged by the Sceptic as a data misread. The Scouts' qualitative reports, while flawed on win probability, support the low-scoring narrative through team-specific statistics.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 23.1
+  },
+  "display_texts": {
+    "home_position": "#22 (24 pts, -19 GD)",
+    "away_position": "#16 (35 pts, -7 GD)",
+    "home_form": "6W-6D-17L in 29 matches, last 5: LLWWL",
+    "away_form": "9W-8D-12L in 29 matches, last 5: WDWDW",
+    "home_stats": "28 goals in 29 matches (avg 1.0/match), 3 clean sheets",
+    "away_stats": "29 goals in 29 matches (avg 1.0/match), 9 clean sheets",
+    "h2h_history": "Mirandes 0-0 Cadiz (13 Mar 2026)\nCadiz 1-0 Mirandes (17 Aug 2025)\nCadiz 3-1 Mirandes (27 Jan 2025)\nMirandes 2-2 Cadiz (09 Nov 2024)\nCadiz 3-3 Mirandes (15 Jan 2020)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Cadiz | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Cadiz",
+    "osint_signals": "- Mirandes: sygnał kontuzji/absencji — Brandon Shah: 5 things about ROTC instructor Mohamed Jalloh killed in ODU shooti"
+  },
+  "settlement": {
+    "settlement": "PENDING",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "–",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Mirandes vs Cadiz: The Battle of Chronic Decline",
+    "thumbnail_text": "NO VALUE",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when two teams meet who have both forgotten how to win? When desperation for points is undermined by complete attacking impotence? This is Mirandes versus Cadiz — a fixture that on paper promises survival drama, but in reality presents a fundamental analytical conflict. The data points in two completely opposite directions, and tonight we reveal why the Boot Room is walking away.",
+    "chapter_home": "Mirandes are rooted to the foot of the Segunda División, a position that screams desperation. Their home form offers no sanctuary, with just three wins all season and a dismal 21% win rate at the Estadio Municipal de Anduva. The tactical setup is a defensive 5-3-2, a formation designed for compactness and caution. Yet, this structure has been chronically late to collapse — they have conceded 12 of their 47 goals in the final 15 minutes. Their attack is equally anaemic, failing to score in 60% of their recent matches and averaging just 1.8 total goals per game over their last five. The narrative is one of a team in a relegation scrap, but their profile suggests a side structurally incapable of mounting the required response. Morale is low, pressure is immense, and their only strength appears to be a slight tendency to score in the second half.",
+    "chapter_away": "Cadiz arrive with their own chronic condition — terminal travel sickness. They have won just three times on the road all season, mirroring Mirandes' pathetic 21% away win rate. Their form is in freefall, with no victories in their last five matches and four losses in that span. Like their hosts, they deploy a defensively-minded 4-4-2, but it yields minimal attacking threat, with only two of their 29 matches this season exceeding 2.5 total goals. They fail to score in 40% of their recent games. Their sole glimmer of threat comes late — 13 of their 29 goals have arrived after the 60th minute — but this is offset by a defence that also leaks in the final quarter. With mid-table comfort and nine points above the drop, their motivation is questionable, creating a perfect storm of poor form and low urgency.",
+    "chapter_history": "The historical record tells a story of fireworks that completely contradicts the current reality. Cadiz have dominated this fixture, winning half of all meetings. More strikingly, 75% of their past encounters have seen over 2.5 goals, with both teams typically scoring. The last meeting here ended 2-2, and a 2020 thriller finished 3-3. Cadiz are unbeaten in the last three clashes. This historical narrative of goals and Cadiz control creates a powerful, but potentially misleading, anchor. The context, however, has flipped entirely. Mirandes are now fighting for survival, while Cadiz's dominance has given way to a steep decline in form and potency.",
+    "chapter_analysis": "The core tension of this match is a fundamental direction conflict. On one side, a strong qualitative consensus builds a compelling case for a low-scoring affair. Both teams' recent form profiles show a 64% convergence on Under 2.5 Goals. The Tactician predicts a 'tight, low-event match' between two defensively-oriented formations, with both averaging just 0.60 goals for per match recently. The Sceptic correctly challenged the scouts for missing this convergence and the Archivist for clinging to outdated historical trends. The Auditor confirms the low-scoring thesis is well-supported. Yet, the mathematical models scream the opposite. The EdgeCalculator identifies a 23.1% edge on Over 2.75 Goals — the highest value signal on the board. The Poisson model suggests the market has overpriced Under 2.5 Goals. This creates an irreconcilable clash: every analyst points to under, but the core probability engine points to over. Furthermore, both teams exhibit severe late-game defensive frailty, adding a layer of unpredictable risk that could swing the match in its dying moments.",
+    "chapter_value": "Our market: NO_BET. This is the rare fixture where the Boot Room identifies a clear direction — the evidence overwhelmingly suggests a low-scoring match — but finds zero mathematical value to capture it. The market price for Under 2.5 Goals at around 1.93 implies a 51.7% probability. Our adjusted assessment, which heavily weights the qualitative consensus, sees it closer to 52%. This represents a negative edge of nearly 12 percentage points. The opposing signal for Over 2.75 Goals, while showing a large mathematical edge, directly contradicts every piece of current form and tactical analysis. When the data points in two opposite directions with such conviction, the only prudent play is to step aside. The odds offer no compelling value, and the confidence to act is zero.",
+    "ending": "The verdict on Mirandes versus Cadiz is one of analytical stalemate. Two teams in chronic decline, defined by defensive caution and attacking impotence, should logically produce a low-event match. Yet, the market has efficiently priced that narrative, and the mathematical models rebel against it. Sometimes the smartest bet is recognising when no bet exists. The Boot Room sees no value here and passes on the fixture. If you appreciate this level of forensic match analysis and honest valuation, make sure to subscribe to AI Boot Room. Boot Room out.",
+    "roundup_summary": "Mirandes versus Cadiz in the Segunda División pits the league's bottom side against a team in 16th, nine points clear of danger. Mirandes' form is declining with one win in their last five, while Cadiz are in freefall with zero wins in five. The home side has a 21% win rate at home; the visitors mirror that with a 21% win rate on the road. Both teams have high failure-to-score rates recently — 60% for Mirandes, 40% for Cadiz.\n\nHistorically, this has been a high-scoring fixture. Cadiz have won half of all meetings, and 75% of the last eight clashes have seen over 2.5 goals, including a 3-3 draw in 2020. Cadiz are unbeaten in the last three meetings. This contrasts starkly with both teams' current seasonal goals rates: Mirandes average 1.07 goals scored and 1.60 conceded per game; Cadiz average 1.07 scored and 1.24 conceded.\n\nThe Boot Room analysis identifies a profound direction conflict. A strong 64% convergence from both teams' recent form profiles points to Under 2.5 Goals, supported by tactical setups (5-3-2 vs 4-4-2) designed for low events. The Quant's model, however, shows a -11.7 percentage point edge on Under 2.5, meaning the market at 51.7% implied probability is overpriced versus a Poisson baseline of 40.0%. The Sceptic's concern was that scouts missed this Under convergence, which was validated. Yet, the EdgeCalculator's top mathematical signal is a 23.1% edge on Over 2.75 Goals, creating an irreconcilable clash between model probability and qualitative consensus. The Auditor's effective confidence is just 58%, highlighting the uncertainty.\n\nThe Boot Room verdict is a pass. The clear low-scoring narrative is efficiently priced by the bookmakers, offering no positive edge, while the opposing mathematical signal lacks qualitative support. With zero confidence in any market offering value, the only logical decision is to avoid this fixture. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "Mirandes host Cadiz in a Segunda División clash defined by mutual decline. Mirandes are bottom, with Cadiz a comfortable but out-of-form 16th. The hosts have one win in five; the visitors have zero. Both teams have identical, pathetic win rates in this context — 21% at home for Mirandes, 21% away for Cadiz. A key stat reveals the conflict: their recent form shows a 64% convergence on Under 2.5 goals, yet mathematical models flash a 23% edge on Over 2.75. The Boot Room lands on NO_BET at odds of 0, with 0% confidence. When the data points violently in two directions, the only smart play is to walk away. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Conflict",
+        "voiceover": "What happens when every analyst agrees on a match's destiny — but the core mathematical model violently disagrees? This is the irreconcilable tension at the heart of Mirandes versus Cadiz. A strong consensus builds for a low-scoring battle of decline, yet the probability engine screams value on goals. One story, two opposing truths.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side shows a low, defensive block formation with a 'UNDER' arrow pointing down. Right side shows a flashing 'OVER' signal with rising graphs, opposed by a 'CONSENSUS' stamp pointing the other way.",
+        "graphic_text_overlay": "IRRECONCILABLE CONFLICT"
+      },
+      {
+        "scene": 2,
+        "name": "Home: Chronic Collapse",
+        "voiceover": "Mirandes are bottom, desperate, and structurally broken. Their 5-3-2 formation is designed for caution, but it chronically collapses late — conceding 12 goals in the final 15 minutes. They fail to score in 60% of recent games. This is a team whose defensive shape is a prelude to inevitable, late disaster.",
+        "graphic_type": "home_card",
+        "graphic_description": "A visual of a crumbling defensive wall with a '5-3-2' formation graphic superimposed. A large clock highlights the 75-90 minute segment, with arrows representing goals flying in.",
+        "graphic_text_overlay": "LATE COLLAPSE"
+      },
+      {
+        "scene": 3,
+        "name": "Away: Travel Sickness",
+        "voiceover": "Cadiz mirror their hosts' impotence. They have forgotten how to win, with zero victories in five. Their 4-4-2 yields minimal threat — only two of 29 matches have seen over 2.5 goals. They also concede late, creating a perfect symmetry of decline. Two broken teams, one predictable script.",
+        "graphic_type": "away_card",
+        "graphic_description": "A plane with a red cross through it, parked next to a flatlining 'Goals For' graph. The Cadiz badge looks faded. A '4-4-2' formation graphic sits static.",
+        "graphic_text_overlay": "TERMINAL DECLINE"
+      },
+      {
+        "scene": 4,
+        "name": "The Data Divorce",
+        "voiceover": "The evidence splits. A 64% convergence from recent form screams Under 2.5 goals. The Tactician predicts a tight, low-event match. Yet, the EdgeCalculator identifies a 23.1% edge on Over 2.75 Goals — the strongest mathematical signal available. This isn't a minor discrepancy. It's a fundamental divorce between narrative and number.",
+        "graphic_type": "evidence",
+        "graphic_description": "A stark, full-screen graphic showing '64% UNDER CONVERGENCE' on the left, with a massive red 'VS' separating it from '23.1% OVER EDGE' on the right. The numbers are large and opposing.",
+        "graphic_text_overlay": "64% VS 23.1%"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict: Walk Away",
+        "voiceover": "Our market: NO_BET. The clear low-scoring story is already priced in by the bookmakers, offering no edge. The opposing mathematical signal lacks the qualitative support to act upon. When analysis and probability point in opposite directions with such conviction, the only intelligent decision is to pass. Confidence: 0%. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final graphic. The words 'NO BET' are large and central. Below, smaller text reads 'Confidence: 0%'. The Mirandes and Cadiz badges are greyed out in the background.",
+        "graphic_text_overlay": "NO VALUE"
+      }
+    ]
+  }
+}

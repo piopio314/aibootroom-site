@@ -1,0 +1,174 @@
+{
+  "key": "20260308_FC_Andorra_vs_Sporting_Gijon__ds_v3_stream",
+  "match": {
+    "home_team": "FC Andorra",
+    "away_team": "Sporting Gijon",
+    "league": "Segunda División",
+    "date": "2026-03-08",
+    "home_id": 8157,
+    "away_id": 731
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 45.0,
+    "score_draw": 28.0,
+    "score_away": 27.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING/TRANSITIONAL match. The Tactician explicitly predicts a 'transitional' character with 'more goals than average'. Both teams show identical 4/5 attack ratings, and their defensive weaknesses align perfectly with each other's attacking strengths in specific time windows (46-60' and 76-90'). The cascading profiles show FC Andorra's scoring is INCREASING with 3.6 total goals per match in their last five, while Sporting Gijon's away matches average 3.0 goals. This isn't a defensive battle — it's a match where both teams have clear avenues to score.\n\n(2) DIRECTION EVIDENCE — The over_goals direction is supported by multiple converging signals. The Tactician's analysis highlights both teams' defensive vulnerabilities aligning with attacking strengths, particularly in late-game phases. The Archivist notes the H2H average is 2.5 goals with BTTS in 67% of meetings. Most critically, the cascading matchup convergence shows STRONG alignment on BTTS Yes (83%) and MODERATE convergence on Over 2.5 Goals (50%). FC Andorra's profile shows 80% Over 2.5 rate in their last five matches with 3.6 total goals per game — a powerful offensive signal that outweighs Sporting Gijon's lower-scoring recent trend.\n\n(3) AGENTS CONSENSUS — The Tactician provides the strongest directional signal, explicitly stating 'more goals than average' and aligning with the BTTS convergence. The Archivist supports with historical 2.5-goal average. The Home Scout notes FC Andorra's 'late-game attacking threat' and recent 4-1 victory. The Away Scout confirms Sporting Gijon's 'late-game threat' and defensive vulnerabilities. The Sceptic's main challenge was about form trend mislabelling, not the goals assessment, and they recommend PROCEED. The Auditor cannot validate due to missing Quant data, but notes the Tactician's goals alignment. The Quant's incomplete report is the primary weakness — we lack mathematical validation.\n\n(4) RISKS — The absence of Quant pricing and Poisson probabilities creates uncertainty about precise edge calculation. Sporting Gijon's recent away matches show only 40% Over 2.5 rate, and their emotional disruption from the suspended previous match could suppress attacking intent. FC Andorra's home matches average just 2.2 goals in their last five, suggesting their high-scoring trend may be venue-dependent. However, the tactical matchup, timing vulnerabilities, and FC Andorra's surging offensive form provide sufficient evidence for an over_goals position.",
+    "key_factors": [
+      "FC Andorra's scoring trend is INCREASING with 3.6 total goals per match in last five",
+      "Tactical matchup shows both teams' defensive weaknesses align with opponent's attacking strengths in 46-60' and 76-90' windows",
+      "Cascading profiles show STRONG 83% convergence on Both Teams to Score",
+      "Historical average of 2.5 goals per meeting with BTTS in 67% of matches"
+    ],
+    "risk_factors": [
+      "Missing Quant pricing and Poisson probabilities prevent mathematical edge validation",
+      "Sporting Gijon's recent away matches show only 40% Over 2.5 rate",
+      "Emotional disruption from suspended previous match could affect Sporting Gijon's performance"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Both Teams to Score - Yes",
+        "prediction": "BTTS Yes",
+        "confidence": 67
+      },
+      {
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 0.0,
+      "edge_source": "Quant probability data unavailable for calculation",
+      "edge_grade": "NO_VALUE",
+      "staking_signal": "MARGINAL",
+      "top_3_markets_by_edge": [
+        {
+          "market": "N/A - No edge data available",
+          "edge": 0.0
+        },
+        {
+          "market": "N/A - No edge data available",
+          "edge": 0.0
+        },
+        {
+          "market": "N/A - No edge data available",
+          "edge": 0.0
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Archivist, and both Scouts align on an attacking/transitional match with goal potential, particularly highlighting late-game scoring and defensive vulnerabilities. The Sceptic confirms core probability assessments and recommends proceeding. The Quant's incomplete report creates the main gap, while the Auditor cannot validate due to missing mathematical foundation.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "NO_BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 1.74,
+    "max_edge": 0.0
+  },
+  "display_texts": {
+    "home_position": "#14 (35 pts, -5 GD)",
+    "away_position": "#9 (42 pts, +2 GD)",
+    "home_form": "9W-8D-11L in 28 matches, last 5: DWWLW",
+    "away_form": "12W-6D-10L in 28 matches, last 5: WWWLL",
+    "home_stats": "35 goals in 28 matches (avg 1.3/match), 4 clean sheets",
+    "away_stats": "38 goals in 28 matches (avg 1.4/match), 9 clean sheets",
+    "h2h_history": "FC Andorra 0-0 Sporting Gijon (08 Mar 2026)\nSporting Gijon 1-1 FC Andorra (28 Nov 2025)\nSporting Gijon 5-2 FC Andorra (11 May 2024)\nFC Andorra 0-0 Sporting Gijon (23 Sep 2023)\nFC Andorra 1-0 Sporting Gijon (19 Feb 2023)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Sporting Gijon | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Sporting Gijon",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Why This Mid-Table Clash Is A Betting Trap",
+    "thumbnail_text": "NO VALUE HERE",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when two teams with identical attacking ratings and perfectly aligned defensive vulnerabilities meet? On paper, this Segunda División clash between FC Andorra and Sporting Gijon screams goals. Both sides score heavily in the final fifteen minutes. Both concede in the same critical windows. The tactical matchup suggests an open, transitional affair. Yet the Boot Room's verdict is clear: there is no value to be found. Why would we pass on a fixture that appears tailor-made for goals?",
+    "chapter_home": "FC Andorra arrive with momentum, fresh from a four-one away victory just six days ago. Their narrative is one of contradiction — surging attack meets fragile home form. While they've scored nine of their thirty-five goals this season in the final fifteen minutes, showcasing a potent late-game threat, they've managed just four wins from thirteen matches on their own patch. Their defensive structure shows a critical weakness immediately after half-time, conceding twelve goals in the forty-six to sixty minute segment. The Home Scout initially labelled their form trend as 'declining', but the cascading data reveals the opposite: their scoring is increasing, averaging three point six total goals per match across their last five fixtures. With a squad of twenty-eight and no reported injuries, they possess the tools but must overcome their home-ground psychological block.",
+    "chapter_away": "Sporting Gijon present a different puzzle. Positioned ninth with forty-two points, their campaign is defined by draws — three in their last five matches, with a one hundred percent draw rate in their most recent three. Their four-two-three-one formation offers structural balance, and like their hosts, they possess a late-game threat, scoring ten of their thirty-eight goals in the final quarter-hour. However, their recent schedule has been the weakest in the league, facing opponents with an average rank of fifteen point four, which inflates their stable form rating. A critical off-field factor looms large: their previous match against Leganes was suspended and rescheduled due to a spectator death. This emotional disruption, coupled with midweek rescheduling, adds a layer of uncertainty to their typical mid-table resolve and preparation.",
+    "chapter_history": "The historical record between these sides is remarkably even. Across six meetings, Sporting Gijon hold a slight edge with two wins to FC Andorra's one, with three matches ending level. The average goals per meeting sits at two point five, with both teams scoring in four of those six encounters. The most recent narrative is one of late drama: their November clash saw a ninetieth-minute equaliser from Sporting Gijon to cancel out an eightieth-minute opener. The last two fixtures have both ended as draws, suggesting a pattern of tightly contested, often dramatic encounters that are rarely settled early.",
+    "chapter_analysis": "The tactical synthesis points directly toward goal potential. The Tactician predicts a 'transitional' match character with 'more goals than average'. The key battles are timed perfectly: FC Andorra's vulnerability in the forty-six to sixty minute window clashes with Sporting Gijon's strength in that same period. Both teams' potent late-game attacks target the other's documented defensive fragility in the final fifteen minutes. The cascading form profiles show a strong eighty-three percent convergence on Both Teams to Score and a fifty percent convergence on Over two point five Goals. The Sceptic raised a valid concern about the potential for a low-scoring draw, noting Sporting Gijon's away matches have averaged only two point zero total goals recently. However, the core challenge was directed at the Home Scout's mislabelling of form, not the goals assessment, and they ultimately recommended proceeding with the analysis. The fundamental issue lies not in the qualitative picture, but in the quantitative void.",
+    "chapter_value": "Our market: NO_BET. The direction for over goals is clear from the tactical and historical evidence. Yet, without the mathematical foundation, we cannot identify value. The Quant's report is fundamentally incomplete, providing no Poisson probability baseline or market comparisons. The Auditor graded the analysis 'REJECTED', citing an effective confidence of just twenty-five percent due to the missing quantitative data. While alternative markets like Both Teams to Score Yes show promise with sixty-seven percent confidence, and Over two point seventy-five Goals at fifty-eight percent, these are qualitative assessments, not mathematically validated edges. The bookmaker's odds, where available, do not present a clear mispricing we can exploit with conviction. Sometimes the smartest play is to acknowledge when the numbers aren't there to support a bet.",
+    "ending": "The Boot Room's final verdict is to pass on this fixture. The story is compelling — two mid-table sides with aligned attacking strengths and defensive flaws, both capable of late drama. But compelling narratives do not always translate to betting value. Without the quantitative validation from our models, we lack the necessary edge to recommend a market. The confidence level for any selection stands at zero percent. If you found this deep dive into why we sometimes say no valuable, subscribe to the AI Boot Room for more transparent, data-driven football analysis. Boot Room out.",
+    "roundup_summary": "FC Andorra versus Sporting Gijon. This Segunda División fixture pits the fourteenth-placed hosts, who have won two of their last five, against ninth-placed Sporting Gijon, who have drawn three of their last five. FC Andorra's home form is poor with just four wins from thirteen, while Sporting boast a respectable thirty-eight percent away win rate. A critical unknown is the injury status for key players on both sides.\n\nThe head-to-head record is balanced, with Sporting Gijon leading two wins to one, alongside three draws. Their most recent meeting in November 2025 ended one-one with a ninetieth-minute equaliser. The six-match historical average is two point five goals per game, with both teams scoring in sixty-seven percent of meetings. This season, FC Andorra's matches average two point two goals at home in their last five, while Sporting Gijon's away games average three point zero goals, though their last five away show a forty percent Over two point five rate.\n\nThe Boot Room analysis identified a clear over goals direction, supported by an eighty-three percent convergence on Both Teams to Score and tactical alignment of both teams' attacking strengths against the other's defensive weaknesses in the forty-six to sixty and seventy-six to ninety minute windows. FC Andorra's scoring trend is increasing, averaging three point six total goals in their last five. However, the critical quantitative validation is absent. The Quant's report provided no Poisson λ values, preventing any edge calculation in points percentage. The Sceptic's concern about a potential low-scoring draw was noted but did not outweigh the qualitative goal signals. The bookmaker has not demonstrably mis-priced any market due to this lack of core probability data. The Auditor's effective confidence was just twenty-five percent, deeming the analysis not ready for a betting decision.\n\nThe verdict is to take no position. The qualitative case for goals exists, but without mathematical edge validation, no market qualifies under our strict value filters. The recommended approach is to monitor for in-play opportunities based on the identified tactical windows, particularly after half-time and late in the match. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Contradiction",
+        "voiceover": "Two teams with identical attacking ratings. Perfectly aligned defensive vulnerabilities. A historical average of two point five goals per meeting. Every qualitative signal points toward an open, high-scoring affair in the Segunda División. Yet our verdict is to walk away. This is the story of a compelling narrative that lacks one critical ingredient — mathematical value.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side shows FC Andorra's late-game goal graphic (9 goals in 76-90'). Right side shows Sporting Gijon's late-game conceded graphic (11 goals in 76-90'). A large red 'X' is superimposed over the centre.",
+        "graphic_text_overlay": "PERFECT STORM, NO VALUE"
+      },
+      {
+        "scene": 2,
+        "name": "Andorra's Surge",
+        "voiceover": "FC Andorra ride a wave of momentum from a four-one away victory. Their form trend is not declining — it is improving, with three point six goals per match in their last five. But their home record tells a different story: just four wins from thirteen. Their defence holds a fatal flaw, conceding twelve goals immediately after half-time — a window their opponent is primed to exploit.",
+        "graphic_type": "home_card",
+        "graphic_description": "FC Andorra's crest with dynamic upward arrows next to '3.6 goals per match (last 5)'. A countdown clock highlights the 46-60 minute segment with a warning symbol.",
+        "graphic_text_overlay": "MOMENTUM VS. HOME WOES"
+      },
+      {
+        "scene": 3,
+        "name": "Gijon's Disruption",
+        "voiceover": "Sporting Gijon are the draw specialists — three in their last five, with a one hundred percent draw rate in their last three matches. Their campaign carries an unseen weight: their previous match was suspended due to a spectator death. This emotional disruption, combined with midweek rescheduling, clouds their typical mid-table resolve and preparation for a side that attacks relentlessly late.",
+        "graphic_type": "away_card",
+        "graphic_description": "Sporting Gijon's crest surrounded by multiple 'DRAW' indicators. A faint, sombre image of an empty stadium seat is in the background.",
+        "graphic_text_overlay": "EMOTIONAL BAGGAGE"
+      },
+      {
+        "scene": 4,
+        "name": "The Tactical Collision",
+        "voiceover": "The matchup is a tactician's dream for goals. FC Andorra concede heavily from minute forty-six to sixty. Sporting Gijon score heavily in that exact window. Both teams unleash twenty-six percent of their total goals in the final fifteen minutes, targeting the other's late-game defensive fragility. The profiles show an eighty-three percent convergence for Both Teams to Score. The direction is unmistakable.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Two overlapping timeline graphs. One shows FC Andorra's conceded spikes at 46-60' and 76-90'. The other shows Sporting Gijon's scored spikes at the same times. They mirror each other perfectly.",
+        "graphic_text_overlay": "MIRRORED VULNERABILITIES"
+      },
+      {
+        "scene": 5,
+        "name": "The Void in the Data",
+        "voiceover": "But here is the rupture in the analysis. Our quantitative model returned a blank sheet. No Poisson probabilities. No baseline pricing. The Auditor rejected the entire mathematical foundation, citing an effective confidence of just twenty-five percent. We have a compelling story, a clear directional lean — but we have no edge. The bookmaker's odds, where visible, are not demonstrably wrong. Without the numbers, we cannot bet.",
+        "graphic_type": "evidence",
+        "graphic_description": "A stark, empty spreadsheet or calculator screen with 'NO DATA' flashing in red. The FC Andorra and Sporting Gijon crests are greyed out in the corners.",
+        "graphic_text_overlay": "QUANTITATIVE VOID"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO_BET. Confidence: zero percent. The alternative markets like Both Teams to Score show qualitative promise, but they lack the validated mathematical edge required for a Boot Room selection. This fixture illustrates a fundamental principle — sometimes the most disciplined analysis concludes that the best bet is no bet at all. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, final graphic with the text 'BOOT ROOM VERDICT' at the top. The main display shows 'NO BET' in large, bold type with 'Confidence: 0%' beneath. The team crests are small and placed at the bottom.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

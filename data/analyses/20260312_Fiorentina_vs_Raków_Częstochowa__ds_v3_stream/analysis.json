@@ -1,0 +1,170 @@
+{
+  "key": "20260312_Fiorentina_vs_Raków_Częstochowa__ds_v3_stream",
+  "match": {
+    "home_team": "Fiorentina",
+    "away_team": "Raków Częstochowa",
+    "league": "UEFA Europa Conference League",
+    "date": "2026-03-12",
+    "home_id": 502,
+    "away_id": 3491
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 45.0,
+    "score_draw": 28.0,
+    "score_away": 27.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician explicitly predicts a 'tight, tactical encounter'. Raków Częstochowa's cascading profile shows a 100% clean sheet rate and 6/7 suitability for Under 2.5 Goals. The historical head-to-head is a statistical anomaly of zero goals across two matches. While Fiorentina's recent matches have been higher-scoring, they face a side structurally built to suppress goals. (2) DIRECTION EVIDENCE — The matchup convergence shows MODERATE (50%) alignment for Under 2.5 Goals. The Auditor's adjusted probabilities set Under 2.5 at 60%, a significant downward revision from the Edge Calculator's Over-leaning model. Raków's away defensive record (0.5 goals conceded per match, three clean sheets) is the strongest single data point. The Sceptic's 'surprise scenario' is a low-scoring Raków win, and the Tactician's analysis points toward 'fewer goals than Fiorentina's recent average'. (3) AGENTS CONSENSUS — The Tactician, Archivist, and Sceptic's identified risk scenario all point toward a low-scoring match. The Auditor rejects the extreme mathematical edge on Over markets as not credible. The primary dissent comes from the Edge Calculator's model, which shows strong value on Over lines, but this is based on a probability (85% for Raków to win) that is contradicted by every qualitative agent and the Quant's own finding of market efficiency. The Scouts are conflicted: the Home Scout notes Fiorentina's late-game threat but also their defensive crisis, while the Away Scout highlights Raków's defensive solidity. The net signal favours a cagey affair. (4) RISKS — The primary risk is Fiorentina's defensive injury crisis (Gosens, Solomon) leading to early errors that Raków's front three could exploit, triggering a more open game. Raków's potential squad disruption from loan recalls is an unknown. Furthermore, the mandatory rotation risk confidence cap of 55% applies, as uncertain team selection in this European fixture makes historical form data less reliable. The Edge Calculator's extreme Over signals, while deemed unreliable by the Auditor, cannot be entirely ignored and represent a mathematical counter-narrative.",
+    "key_factors": [
+      "Raków Częstochowa's exceptional away defensive record (0.5 GA/match, 3 clean sheets)",
+      "Historical head-to-head: zero goals scored across two previous meetings",
+      "Tactician's prediction of a 'tight, tactical encounter' with a defensive edge to Raków",
+      "Auditor's significant downward adjustment of Over goal probabilities, setting Under 2.5 at 60%"
+    ],
+    "risk_factors": [
+      "Fiorentina's severe defensive injury crisis could lead to early concessions",
+      "Uncertain team selection due to European fixture rotation (mandatory 55% confidence cap)",
+      "Edge Calculator's model shows extreme value on Over markets, creating a fundamental direction conflict"
+    ],
+    "alternative_markets": [
+      {
+        "market": "BTTS No",
+        "prediction": "No",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": -23.4,
+      "edge_source": "Edge Calculator analysis",
+      "edge_grade": "NO_VALUE (<4%)",
+      "staking_signal": "PASS",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away -0.5",
+          "edge": 61.1
+        },
+        {
+          "market": "AH Away -0.25",
+          "edge": 57.9
+        },
+        {
+          "market": "AH Away -0.0",
+          "edge": 52.6
+        }
+      ]
+    },
+    "tribunal_consensus_level": "weak",
+    "tribunal_consensus_description": "A weak consensus exists for a low-scoring match, led by the Tactician, Archivist, and the Auditor's probability adjustments. However, this is fundamentally opposed by the Edge Calculator's mathematical model, which shows extreme value on away wins and Over goals. The Scouts provide mixed signals, and the Quant finds the market efficiently priced with no Poisson gaps.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 4.92,
+    "max_edge": 61.1
+  },
+  "display_texts": {
+    "home_position": "#15 (9 pts, +3 GD)",
+    "away_position": "#2 (14 pts, +7 GD)",
+    "home_form": "6W-0D-4L in 10 matches, last 5: WWWWL",
+    "away_form": "9W-2D-1L in 12 matches, last 5: WWLWW",
+    "home_stats": "19 goals in 10 matches (avg 1.9/match), 4 clean sheets",
+    "away_stats": "20 goals in 12 matches (avg 1.7/match), 7 clean sheets",
+    "h2h_history": "Raków Częstochowa 0-0 Fiorentina (19 Mar 2026)\nFiorentina 0-0 Raków Częstochowa (12 Mar 2026)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Raków Częstochowa | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Raków Częstochowa",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "2:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Fiorentina vs Raków: The Zero-Goal Anomaly",
+    "thumbnail_text": "NO VALUE HERE",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a Serie A side in defensive crisis meets a Polish underdog with an impenetrable away record? The history books show two previous meetings with zero goals scored—a statistical anomaly that defies logic. Tonight, that blank canvas could finally be painted, or the pattern of mutual cancellation could continue. This is the story of a fixture that refuses to write its own history.",
+    "chapter_home": "Fiorentina's season has been defined by fragility. Sitting just one point above the Serie A relegation zone, they carry the psychological weight of a club in crisis. Their home defensive record is alarming—conceding 1.60 goals per match at the Stadio Artemio Franchi. The injury list is critical: left-back Gosens and attacking option Solomon are long-term absentees, stripping the squad of defensive depth and tactical flexibility. Goalkeeper De Gea faces severe fan backlash, undermining confidence in a unit already under siege. Their 3-5-2 formation shows a late-game threat—six of their 19 goals this season have come in the final 15 minutes—but they are vulnerable from the opening whistle, conceding three goals in the first quarter-hour. Manager Vanoli must balance European ambitions with domestic survival, creating intense pressure on a squad showing cracks in both structure and morale.",
+    "chapter_away": "Raków Częstochowa arrive as the disciplined underdog with a story of their own. Unbeaten in six away matches this season, they boast the most impressive defensive record in this competition—conceding just 0.5 goals per match on the road with three clean sheets. Their 3-4-3 system is built for organisation, with a defence rated eight out of ten for solidity. Yet significant distractions cloud their preparation. Internal tension has surfaced, with Michael Ameyaw publicly criticising teammates, suggesting dressing-room conflict. A potential mass recall of up to 20 loan players creates squad integration uncertainty ahead of this fixture. Their attack shows a clear second-half pattern—65% of their goals come after the break—but they have struggled recently against deep defensive blocks. This is a side with proven resilience but facing questions about cohesion at the worst possible moment.",
+    "chapter_history": "The historical record between these sides is not just sparse—it is statistically bizarre. Two previous meetings, zero goals scored, and no result recorded for either team. It is a rivalry that exists only as a blank page, an anomaly that defies typical European fixture patterns. Both encounters ended without a winner, creating a psychological expectation of mutual cancellation. With both squads at full strength tonight—unlike their current situations—this match represents a chance to finally write the first chapter. The stakes have shifted dramatically: Raków are in a domestic title race, while Fiorentina operate with mid-table freedom in Serie A. History provides no guide, only a curious pattern begging to be broken.",
+    "chapter_analysis": "The tactical matchup reveals a classic clash of styles. Fiorentina's 3-5-2, designed for midfield control, faces a defensive crisis that Raków's organised 3-4-3 is perfectly structured to exploit. The Tactician predicts a tight, tactical encounter with fewer goals than Fiorentina's recent average. Raków's front three will press aggressively from the start, testing Fiorentina's fragile backline and goalkeeper confidence. The key battle lies in the wide areas—can Fiorentina's wing-backs establish superiority against Raków's disciplined wide midfielders? The Sceptic challenged both scouts' probability assessments, noting the Home Scout's 'crisis narrative' overstated Fiorentina's woes while underweighting Raków's defensive strength. Yet the Sceptic's own surprise scenario—a low-scoring Raków away win—aligns with the tactical prediction. The Auditor identified a severe direction conflict: the Edge Calculator's model shows extreme value on away Asian Handicaps and Over goals, while all qualitative analysis points toward a cagey, low-scoring affair. This fundamental disagreement creates analytical paralysis.",
+    "chapter_value": "Our market: NO_BET. The Boot Room finds no qualifying value in this fixture. The Quant's analysis reveals perfect alignment between Poisson probabilities and market prices across all Asian Handicap lines—a rare instance of market efficiency. While the Auditor adjusted Over 2.5 goal probability down to 40%, reflecting the tactical and historical low-scoring signals, no available line meets our minimum edge threshold of 4%. The Edge Calculator's extreme value signals—including a 61.1% edge on AH Away -0.5—are deemed not credible due to the severe direction conflict with qualitative inputs. With a mandatory rotation risk confidence cap of 55% for European fixtures and irreconcilable analytical disagreements, the only prudent position is to pass. Sometimes the smartest bet is no bet at all.",
+    "ending": "The Boot Room verdict: NO VALUE. Confidence: 0%. This fixture presents a fascinating tactical puzzle—a wounded Serie A side against a defensively superb Polish underdog—but the market has priced it efficiently, and the analytical conflicts are too severe to ignore. Fiorentina's defensive crisis meets Raków's away resilience in a historical anomaly of goalless stalemates. While the direction points toward Under goals, no specific line offers the mathematical edge required for a recommendation. The Boot Room exercises discipline and passes on this fixture. For more analytical match previews that separate signal from noise, subscribe to AI Boot Room. Boot Room out.",
+    "roundup_summary": "Fiorentina versus Raków Częstochowa in the UEFA Europa Conference League presents a clash of contrasting circumstances. The Serie A side sit just one point above relegation domestically, carrying low morale and a defensive injury crisis. Raków arrive unbeaten in six away matches, boasting an exceptional defensive record but facing internal squad distractions. Fiorentina's last five matches show inconsistent form, while Raków have won four of their last five. The home side concede 1.60 goals per match at home; the visitors concede just 0.5 on the road.\n\nThe head-to-head history is a statistical anomaly: two previous meetings, zero goals scored, and no result recorded for either team. This goalless pattern across both encounters creates a unique psychological backdrop. This season, Fiorentina average 1.67 goals scored and conceded per match in their domestic league, while Raków average 1.5 goals scored and 0.5 conceded away from home. The historical trend strongly suggests a low-scoring affair, though the sample size is minimal.\n\nThe Boot Room analysis reveals a fundamental conflict. The Quant's Poisson model shows perfect alignment with market prices across all Asian Handicap lines—zero gaps—indicating market efficiency. The Auditor adjusted Over 2.5 goal probability down to 40% from higher model outputs, reflecting Raków's defensive strength and the historical pattern. The Sceptic challenged both scouts' probability assessments but identified a low-scoring Raków away win as the surprise scenario. The Edge Calculator shows extreme value on away Asian Handicaps—61.1% edge on AH Away -0.5—but this is contradicted by the Tactician's prediction of a tight match and the historical goalless trend. With a mandatory 55% confidence cap for rotation risk and irreconcilable analytical signals, no market qualifies.\n\nThe Boot Room finds no value in this fixture. While the direction points toward Under goals, no specific line offers the required mathematical edge. The market is efficiently priced, and analytical conflicts create too much uncertainty. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "Fiorentina host Raków Częstochowa in the UEFA Europa Conference League. The Serie A side are in defensive crisis, sitting just above relegation with key injuries. Raków arrive unbeaten in six away matches, conceding only 0.5 goals per game on the road. The historical record is bizarre—two previous meetings with zero goals scored. The Boot Room analysis reveals severe conflicts: the Edge Calculator shows extreme value on away wins, while all qualitative analysis points to a tight, low-scoring match. With perfect market efficiency across Asian Handicap lines and a mandatory rotation risk confidence cap, no value qualifies. The Boot Room lands on NO_BET at odds of 0 with 0% confidence. Sometimes discipline means passing on the puzzle. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Anomaly",
+        "voiceover": "Two previous meetings. Zero goals scored. No result recorded. This fixture exists as a statistical anomaly—a blank page in European football history. Tonight, that pattern faces its greatest test: a wounded Serie A giant against a Polish underdog with an impenetrable away defence. Will the zeros continue, or will someone finally write the first chapter?",
+        "graphic_type": "hook",
+        "graphic_description": "A stark, minimalist graphic showing '0-0' and '0-0' with question marks over both results. The background is a split screen showing Fiorentina's stadium and Raków's crest.",
+        "graphic_text_overlay": "ZERO GOALS HISTORY"
+      },
+      {
+        "scene": 2,
+        "name": "Fiorentina's Fracture",
+        "voiceover": "Fiorentina are a club in crisis. Just one point above Serie A relegation, their defence is stripped bare by injury. Gosens and Solomon are long-term absentees, while goalkeeper De Gea faces fan backlash. They concede 1.60 goals per home match—a vulnerability Raków's organised attack will target from the opening minute.",
+        "graphic_type": "home_card",
+        "graphic_description": "Fiorentina's crest with red warning symbols over defensive positions. Stats show: '1.60 GA/home match', '1 pt above relegation'. Player faces of Gosens and Solomon with 'OUT' overlays.",
+        "graphic_text_overlay": "DEFENSIVE CRISIS"
+      },
+      {
+        "scene": 3,
+        "name": "Raków's Resilience",
+        "voiceover": "Raków Częstochowa travel with iron discipline. Unbeaten in six away matches, they concede just 0.5 goals per game on the road with three clean sheets. Their 3-4-3 system is built for organisation—but internal squad friction and potential loan recalls create uncertainty. Can they maintain their solidity against higher-quality opposition?",
+        "graphic_type": "away_card",
+        "graphic_description": "Raków's crest with a shield graphic. Stats show: '0.5 GA/away match', '3 clean sheets', 'Unbeaten away'. A tension symbol appears next to squad imagery.",
+        "graphic_text_overlay": "AWAY FORTRESS"
+      },
+      {
+        "scene": 4,
+        "name": "Tactical Stalemate",
+        "voiceover": "The Tactician predicts a tight, tactical encounter. Fiorentina's injury-hit 3-5-2 faces Raków's pressing 3-4-3. The wide battles will be decisive—can Fiorentina's wing-backs bypass Raków's solid structure? The historical goalless pattern suggests mutual cancellation, but Fiorentina's late-game threat could test Raków's renowned concentration.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Tactical boards showing 3-5-2 versus 3-4-3 formations. Arrows indicate pressing from Raków's front three and Fiorentina's wing-back movements. A clock graphic highlights '76-90 min: Fiorentina threat'.",
+        "graphic_text_overlay": "TIGHT ENCOUNTER"
+      },
+      {
+        "scene": 5,
+        "name": "The Analytical Conflict",
+        "voiceover": "Here lies the problem. The Edge Calculator shows extreme value on Raków wins—a 61.1% edge. But the Tactician, the historical record, and Raków's own defensive profile all point toward a low-scoring match. The Auditor rejects the mathematical model as not credible. This severe direction conflict creates analytical paralysis.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split brain graphic: one side shows mathematical formulas and '61.1% edge', the other shows tactical diagrams and '0-0 history'. A large 'X' crosses through the middle.",
+        "graphic_text_overlay": "IRRECONCILABLE DATA"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO_BET. The Quant finds perfect alignment between Poisson probabilities and market prices—zero gaps across all Asian Handicap lines. With a mandatory rotation risk confidence cap and fundamental analytical disagreements, no qualifying value exists. The Boot Room exercises discipline. Sometimes the smartest position is to pass on the puzzle. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold text: 'NO BET' in large letters. Below: 'Market Efficiency: 100%', 'Confidence: 0%', 'Edge: 0%'. The background shows the two team crests fading to grey.",
+        "graphic_text_overlay": "NO VALUE"
+      }
+    ]
+  }
+}

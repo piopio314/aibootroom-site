@@ -1,0 +1,173 @@
+{
+  "key": "20260309_Espanyol_vs_Oviedo__ds_v3_stream",
+  "match": {
+    "home_team": "Espanyol",
+    "away_team": "Oviedo",
+    "league": "La Liga",
+    "date": "2026-03-09",
+    "home_id": 540,
+    "away_id": 718
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 42.0,
+    "score_draw": 34.0,
+    "score_away": 24.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading profile convergence shows an 86% STRONG signal for Over 2.5 goals, with both teams' recent form pointing toward high-scoring encounters. Espanyol's last five matches have seen 100% Over 2.5 rate with 4.4 total goals per match, while Oviedo's last five away matches show 80% Over 2.5 rate with 3.8 total goals. The Tactician classifies this as 'open and transitional' with both defences vulnerable, directly contradicting the historical low-scoring H2H pattern. (2) DIRECTION EVIDENCE — The mathematical evidence for over_goals is overwhelming. The Quant's Poisson probability for Over 2.5 is 70.0% versus market implied 48.3%, creating a 21.7pp edge. The EdgeCalculator shows multiple Over markets with strong value, including Over 3.25 Goals (33.3% edge), Over 2.75 Goals (31.9% edge), and Over 2.25 Goals (27.7% edge). The λ_home + λ_away sum from Poisson modelling supports elevated goal expectations. The Tactician's analysis of defensive weaknesses, transition threats, and the specific timing mismatch where Espanyol's late scoring targets Oviedo's late defensive collapse further reinforces the high-scoring narrative. (3) AGENTS CONSENSUS — Strong consensus exists for over_goals. The Quant identifies Over 2.5 as the largest gap market with HIGH confidence. The Tactician predicts 'more goals than average' and an 'open and transitional' match. The Auditor validates the mathematical edge as credible and recommends Over 2.5 Goals. The Sceptic's convergence analysis shows 86% STRONG signal for Over 2.5. The only dissent comes from the Archivist's historical low-scoring pattern, but this is overridden by current form evidence from all other agents. (4) RISKS — The primary risk is Espanyol's severe home scoring drought (0.75 GF/m last 5 home matches) identified by the Sceptic. If their attack remains broken despite Oviedo's defensive vulnerabilities, the match could underperform goal expectations. Additionally, the pressure of this relegation six-pointer could lead to cagey early exchanges, though both teams' defensive records suggest this is unlikely to persist. The absence of key midfielders for Espanyol could blunt their creativity, but Oviedo's defensive collapse (conceding 2.6 goals per away match) provides sufficient margin for error.",
+    "key_factors": [
+      "86% STRONG convergence for Over 2.5 goals from cascading profiles",
+      "Quant's 21.7 percentage point edge on Over 2.5 with 70.0% Poisson probability",
+      "Espanyol's 100% Over 2.5 rate in last 5 matches with 4.4 total goals per match",
+      "Oviedo's away defensive collapse: conceding 2.6 goals per match in last 5 away fixtures"
+    ],
+    "risk_factors": [
+      "Espanyol's chronic home scoring drought (0.75 GF/m last 5 home matches)",
+      "Potential for cagey early exchanges in high-pressure relegation six-pointer"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 3.25 Goals",
+        "prediction": "Over 3.25",
+        "confidence": 63
+      },
+      {
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75",
+        "confidence": 68
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 21.7,
+      "edge_source": "Quant probability minus market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 33.3
+        },
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 31.9
+        },
+        {
+          "market": "Over 2.25 Goals",
+          "edge": 27.7
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "Strong consensus for over_goals direction. The Quant, Tactician, Auditor, and Sceptic's convergence analysis all align on high-scoring expectations. The Archivist's historical low-scoring pattern represents the only dissent, but this is overridden by overwhelming current form evidence. The Scouts provide supporting data with Espanyol's 100% BTTS rate and Oviedo's defensive vulnerabilities.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 33.3
+  },
+  "display_texts": {
+    "home_position": "#7 (36 pts, -6 GD)",
+    "away_position": "#20 (17 pts, -27 GD)",
+    "home_form": "10W-6D-10L in 26 matches, last 5: WDWWL",
+    "away_form": "3W-8D-15L in 26 matches, last 5: LLWLL",
+    "home_stats": "33 goals in 26 matches (avg 1.3/match), 7 clean sheets",
+    "away_stats": "16 goals in 26 matches (avg 0.6/match), 6 clean sheets",
+    "h2h_history": "Espanyol 0-0 Oviedo (09 Mar 2026)\nOviedo 0-2 Espanyol (17 Oct 2025)\nEspanyol 2-0 Oviedo (23 Jun 2024)\nOviedo 1-0 Espanyol (16 Jun 2024)\nEspanyol 2-1 Oviedo (20 May 2024)",
+    "home_injuries": "Exposito (Missing Fixture - Yellow Cards), C. Pickel (Missing Fixture - Red Card), J. Puado (Missing Fixture - Knee Injury), A. Roca (Questionable - Shoulder Injury)",
+    "away_injuries": "L. Ahijado (Missing Fixture - Injury), T. Borbas (Missing Fixture - Injury), D. Costas (Missing Fixture - Muscle Injury), L. Dendoncker (Missing Fixture - Injury)",
+    "api_predictions": "API-Football prediction: Espanyol | Probabilities: 45%-45%-10% | Recommendation: Double chance : Espanyol or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Espanyol vs Oviedo: The Crisis Derby Where Goals Should Flow",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a team that cannot score at home meets a team that cannot defend away? This is the paradox of Espanyol versus Oviedo — a relegation six-pointer where history says caution, but every current data point screams goals. The bookmakers see a clear favourite, but the numbers reveal a more complex story — one where the obvious bet might be the most dangerous.",
+    "chapter_home": "Espanyol arrive at this fixture in a state of profound crisis. A five-match winless run has completely undermined their mid-table security, with zero victories in their last five home matches. Their attack strength rating of four is a statistical illusion — their actual home scoring record shows just 0.75 goals per match over their last five at the RCDE Stadium. The absence of creative heartbeat Edu Expósito, alongside injuries to Javi Puado and Álvaro Roca, has severed their creative core. Their form is declining, their morale is low, and local pressure to beat the bottom side is immense. Yet, their recent matches tell a different story — a 100% Both Teams to Score rate in their last five, with an average of 4.4 total goals per game. This is a team broken at home, yet somehow prolific everywhere else.",
+    "chapter_away": "Oviedo travel as a team in even deeper crisis, rooted to the bottom of La Liga with just one away win all season. Their defensive record is catastrophic, conceding an average of 2.6 goals per match in their last five away fixtures. Managerial criticism following a 4-0 defeat has left morale at rock bottom. They are missing four players, depleting an already fragile squad. Their chronic weakness is a second-half collapse — they have conceded 22 goals between minutes 61 and 90 this season. Yet, like their hosts, their recent away form contradicts their position — 80% of their last five away matches have seen Over 2.5 goals. This is a team that cannot defend, but whose matches consistently produce fireworks.",
+    "chapter_history": "The historical record paints a picture of Espanyol dominance and caution. They have won half of all meetings and kept clean sheets in five of their last eight encounters. Only one of the last eight meetings between these sides has seen more than two goals. The pattern is clear — low-scoring, controlled victories for the hosts. But this historical narrative stands in direct opposition to the current reality. The last three meetings have been tight, but the context tonight is utterly different — a desperate fight for survival versus a European chase, with both defences in complete disarray.",
+    "chapter_analysis": "The tactical matchup reveals why history is irrelevant. Both teams deploy a 4-2-3-1, creating a symmetrical but fragile battle. The key insight is in the timing — Espanyol score 20 of their 34 goals in the 46-60 and 76-90 minute periods. Oviedo concede 18 of their 43 goals in those exact same windows. This is a perfect structural mismatch. The Tactician classifies this as an 'open and transitional' match where neither defence can be trusted. The Sceptic's serious challenge — that Espanyol's home attack is fundamentally broken — is valid, but it is overwhelmed by the counter-evidence: Oviedo's away defence is even more broken. Our convergence analysis shows an 86% strong signal for Over 2.5 goals. The Quant's Poisson model gives that outcome a 70% probability — a 21.7 percentage point edge over the market's implied 48.3%. The mathematical case for goals is overwhelming.",
+    "chapter_value": "Our market: NO BET. Here is the Boot Room's dilemma. The directional analysis is unequivocal — this match should see goals. Multiple Over markets show substantial mathematical edges, with Over 3.25 Goals at a 33.3% edge and Over 2.75 at 31.9%. The Auditor validates this edge with an effective confidence of 68%. However, the Gaffer's strict filter — requiring both strong conviction and odds at or above 1.70 — disqualifies every qualifying line. The market has priced the high-scoring narrative into the available odds, eliminating the value required for a Boot Room recommendation. Sometimes the smartest play is to acknowledge the bookmaker has this one right.",
+    "ending": "The Boot Room verdict is to pass on this fixture. Espanyol's chronic home scoring drought meeting Oviedo's catastrophic away defence creates a volatile mix where goals are likely, but not at a price that offers value. The historical low-scoring pattern is a relic — overridden by two teams in defensive crisis. Yet, without a qualifying edge, we step aside. In betting, discipline is as important as insight. Boot Room out.",
+    "roundup_summary": "Espanyol versus Oviedo. Seventh hosts bottom in a critical La Liga relegation six-pointer. Espanyol's form is declining with zero wins in their last five, though their matches average 4.4 total goals. Oviedo are winless in five away, conceding 2.6 goals per match on the road. Both sides carry significant injury concerns, with Espanyol missing creative midfielder Edu Expósito.\nHistorically, this is a low-scoring fixture. Espanyol have won half of all meetings, keeping five clean sheets in the last eight. Only one of the last eight encounters has seen Over 2.5 goals. This season, Espanyol score 1.6 goals per match on average but concede 2.8 in their last five. Oviedo score 1.2 but concede 1.8 on average, a rate that balloons to 2.6 in recent away games.\nThe Boot Room analysis identifies a powerful contradiction. The historical pattern suggests caution, but current form and tactical matchup scream goals. The Quant's Poisson model gives Over 2.5 Goals a 70.0% probability, creating a 21.7 percentage point edge over the market's implied 48.3%. The Sceptic's serious concern — Espanyol's severe home scoring drought of 0.75 goals per match — is acknowledged but overridden by Oviedo's defensive collapse and the 86% strong convergence signal for Over 2.5. The Tactician notes the perfect timing mismatch: Espanyol's late scoring targets Oviedo's late defensive frailty. The bookmaker has significantly underpriced high-scoring outcomes, with multiple Over markets showing edges above 30%.\nDespite the clear directional bias toward goals, no market line meets the Boot Room's strict value criteria for a recommendation. The required odds threshold for a bet with strong conviction is not met. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Paradox",
+        "voiceover": "What happens when a team that cannot score at home meets a team that cannot defend away? Espanyol average 0.75 goals in their last five home matches. Oviedo concede 2.6 goals in their last five away. History says this fixture is cautious — but every current data point screams chaos.",
+        "graphic_type": "conflict",
+        "graphic_description": "Split screen: left shows Espanyol's 0.75 home goals stat; right shows Oviedo's 2.6 away goals conceded stat. A giant question mark between them.",
+        "graphic_text_overlay": "THE PARADOX"
+      },
+      {
+        "scene": 2,
+        "name": "Home Crisis",
+        "voiceover": "Espanyol are in freefall — winless in five, their creative core shattered by injury. Edu Expósito is missing. Their attack rating is a mirage. At home, they are paralyzed. Yet their matches are fireworks — 100% BTTS rate, 4.4 total goals per game. A team broken in one place, explosive in another.",
+        "graphic_type": "home_card",
+        "graphic_description": "Espanyol badge with downward red arrow. Stats overlay: 0W in last 5 home, 0.75 GF/home, 4.4 total goals/match.",
+        "graphic_text_overlay": "BROKEN AT HOME"
+      },
+      {
+        "scene": 3,
+        "name": "Away Collapse",
+        "voiceover": "Oviedo are the league's worst travellers — one away win all season. Their defence disintegrates late, conceding 22 goals in the final half-hour. Morale is shattered. But their games follow a script — 80% Over 2.5 goals away. They are not just bad; they are consistently, predictably chaotic.",
+        "graphic_type": "away_card",
+        "graphic_description": "Oviedo badge crumbling. Stats overlay: 1 away win, 2.6 GA/away, 22 goals conceded 61-90min.",
+        "graphic_text_overlay": "CHRONIC COLLAPSE"
+      },
+      {
+        "scene": 4,
+        "name": "The Timing Mismatch",
+        "voiceover": "The tactical key is in the clock. Espanyol score 20 goals between minutes 46-60 and 76-90. Oviedo concede 18 in those exact same windows. It is a perfect structural flaw — a late-game surge meeting a late-game collapse. This is not about if goals come, but when.",
+        "graphic_type": "evidence",
+        "graphic_description": "A tactical timeline graphic showing Espanyol's goal bars and Oviedo's concession bars aligning perfectly in the 46-60 and 76-90 minute zones.",
+        "graphic_text_overlay": "PERFECT MISMATCH"
+      },
+      {
+        "scene": 5,
+        "name": "The Value Void",
+        "voiceover": "The data is clear — a 70% probability for Over 2.5 goals, a 21.7 point edge. Over 3.25 goals shows a 33.3% mathematical advantage. The direction is undeniable. Yet, the market has priced it. Our filters find no qualifying line with both strong conviction and the right odds. The edge exists, but the value does not.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A spreadsheet-style graphic showing the edge calculations: Over 2.5 (70% vs 48.3%), Over 3.25 (33.3% edge). A red 'NO QUALIFYING LINE' stamp overlaid.",
+        "graphic_text_overlay": "EDGE WITHOUT VALUE"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO BET. Sometimes the smartest analysis leads to the simplest conclusion — step aside. The goals should flow, but not at a price that offers us value. In the crisis derby, discipline beats desperation. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold text on a dark background: 'BOOT ROOM VERDICT: NO BET'. Espanyol and Oviedo badges faded in the background.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

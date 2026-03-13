@@ -1,0 +1,168 @@
+{
+  "key": "20260313_Wrexham_vs_Swansea__ds_v3_stream",
+  "match": {
+    "home_team": "Wrexham",
+    "away_team": "Swansea",
+    "league": "Championship",
+    "date": "2026-03-13",
+    "home_id": 1837,
+    "away_id": 76
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 48.0,
+    "score_draw": 25.0,
+    "score_away": 27.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading profiles show Wrexham's last five matches average 3.8 total goals with an 80% Over 2.5 rate, while Swansea's away matches average 2.6 goals with a 60% Over 2.5 rate in their last five. The Tactician's match character prediction is 'Transitional' with 'more goals than average', and the strong 75% convergence on BTTS Yes from the matchup profiles confirms both teams are likely to score. (2) DIRECTION EVIDENCE — The EdgeCalculator shows a massive 39.0% edge on Over 2.75 Goals with our probability at 78.8% versus market odds of 2.51. Wrexham's home attack averages 1.8 goals per match in their last five, while Swansea's defence is worsening according to trend signals. Both teams show dangerous late-game scoring patterns (Wrexham 14 goals, Swansea 13 goals in 76-90 minutes), suggesting sustained attacking pressure. (3) AGENTS CONSENSUS — The Auditor explicitly recommends Over 2.75 Goals as the highest-edge market, supported by the Tactician's expectation of 'more goals than average'. The Sceptic notes the strongest market signal is BTTS Yes (75% convergence), which aligns with over goals. However, the Quant shows no value bets and the Home Scout's attack is decreasing, creating dissent. The net signal favours goals due to the overwhelming mathematical edge and tactical alignment. (4) RISKS — Wrexham's attack shows a decreasing trend in the cascading profile, contradicting the Scout's 'rising' assessment. Swansea's missing top scorer Z. Vipotnik (17 goals) significantly reduces their away threat. Both teams have rotation risk from fixture congestion, and the market's heavy discount of Wrexham's statistical edge suggests underlying concerns about their ability to score freely.",
+    "key_factors": [
+      "EdgeCalculator shows 39.0% edge on Over 2.75 Goals with 78.8% probability",
+      "Strong 75% convergence on BTTS Yes from matchup profiles",
+      "Both teams score heavily in final 15 minutes (Wrexham 14, Swansea 13 goals)",
+      "Tactician predicts 'Transitional' match with 'more goals than average'"
+    ],
+    "risk_factors": [
+      "Rotation risk from Championship fixture congestion caps confidence at 55%",
+      "Wrexham's attack shows decreasing trend in cascading profile",
+      "Swansea missing top scorer Z. Vipotnik reduces away goal threat",
+      "Market heavily discounts Wrexham's statistical edge suggesting underlying concerns"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.25 Goals",
+        "prediction": "Over 2.25",
+        "confidence": 58
+      },
+      {
+        "market": "BTTS Yes",
+        "prediction": "BTTS Yes",
+        "confidence": 65
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 39.0,
+      "edge_source": "EdgeCalculator our probability (78.8%) minus market implied probability (39.8%)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 39.0
+        },
+        {
+          "market": "Over 2.25 Goals",
+          "edge": 31.5
+        },
+        {
+          "market": "AH Away -0.75",
+          "edge": 15.8
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Auditor, Tactician, and EdgeCalculator strongly align on over goals, supported by matchup profile convergence on BTTS Yes. The Quant shows no value bets and the Home Scout's attack assessment is challenged by the Sceptic, creating dissent. The Sceptic's NO_BET veto is overridden by the 39% statistical edge.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.78,
+    "max_edge": 39.0
+  },
+  "display_texts": {
+    "home_position": "#6 (57 pts, +8 GD)",
+    "away_position": "#11 (52 pts, +0 GD)",
+    "home_form": "15W-12D-9L in 36 matches, last 5: LLDWL",
+    "away_form": "15W-7D-15L in 37 matches, last 5: LWDWD",
+    "home_stats": "55 goals in 36 matches (avg 1.5/match), 9 clean sheets",
+    "away_stats": "44 goals in 37 matches (avg 1.2/match), 11 clean sheets",
+    "h2h_history": "Wrexham 0-0 Swansea (13 Mar 2026)\nSwansea 2-1 Wrexham (19 Dec 2025)",
+    "home_injuries": "A. James (Missing Fixture - Injury), M. James (Missing Fixture - Inactive), T. O'Connor (Missing Fixture - Injury), B. Sheaf (Missing Fixture - Injury), L. Cacace (Questionable - Injury)",
+    "away_injuries": "A. Idah (Missing Fixture - Groin Injury), Z. Inoussa (Missing Fixture - Injury), Z. Vipotnik (Questionable - Injury)",
+    "api_predictions": "API-Football prediction: Swansea | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Swansea",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "PENDING",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "–",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Wrexham vs Swansea: Why This Welsh Derby Is A NO BET",
+    "thumbnail_text": "NO VALUE HERE",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a playoff-chasing team with a 39% statistical edge faces a market that refuses to believe in them? This is the central tension of tonight's Welsh derby. Wrexham's mathematical dominance suggests a clear path to victory, yet the bookmakers have priced them as if they're the underdog. The gap between what the numbers say and what the market believes is staggering—and it creates a betting puzzle with no clear solution.",
+    "chapter_home": "Wrexham enter this fixture carrying the weight of expectation and disappointment. Sitting sixth in the Championship, their playoff position is under threat, yet their morale has taken consecutive blows. An FA Cup exit to Chelsea was followed by a critical league loss to Hull City, creating a momentum vacuum at the worst possible time. Their tactical identity is built on a 3-4-2-1 formation and a potent late-game attack—they've scored fourteen goals in the final fifteen minutes this season. However, five key injuries, including A. James and M. James, have stripped their squad depth. Their home form is inconsistent with just a 42% win rate, and while their attack shows a dangerous late punch, the underlying data reveals a decreasing scoring trend. This is a team under immense pressure, with their statistical strength contradicted by recent psychological blows.",
+    "chapter_away": "Swansea arrive with the opposite profile—rising form but chronic travel sickness. They've won three of their last five matches, their morale boosted by a spectacular halfway-line goal in a recent 2-0 victory over Stoke. Yet their away record tells a different story: just five wins from eighteen matches on the road, averaging less than a goal per game. Their 4-2-3-1 system aims for possession control, but they are missing their top scorer, Z. Vipotnik, who has seventeen league goals. His absence, along with Adam Idah—who scored the 90th-minute winner in the last meeting—severely weakens their attacking threat. Their strength lies in patience and late surges, having scored thirteen goals in the final quarter-hour, but their defence shows vulnerability just before half-time. Positioned comfortably in mid-table, they play with freedom but lack the tangible stakes that fuel Wrexham's desperation.",
+    "chapter_history": "History offers almost nothing to guide us. These two sides have met only twice. Swansea won the most recent encounter with a dramatic 90th-minute Adam Idah winner last December, while the previous meeting ended goalless. That gives Swansea an unbeaten record in this fixture, but it's a record built on just two data points. The critical narrative twist is that Idah, the hero of that late drama, is missing tonight. This thin historical sample provides no reliable patterns, no dominant trends—just the memory of one moment of late magic that cannot be replicated by the current squad. The past is irrelevant; tonight will be decided by who adapts to their present absences under the pressure of Wrexham's playoff pursuit.",
+    "chapter_analysis": "The tactical matchup reveals why goals are expected but why backing a winner is fraught. Wrexham's wing-backs in their 3-4-2-1 look to exploit spaces behind Swansea's advanced full-backs, while Swansea's double pivot seeks midfield control. The Tactician predicts a transitional match with more goals than average, supported by a 75% convergence on Both Teams to Score. Our EdgeCalculator identifies a massive 39% edge on Over 2.75 Goals, with our probability at 78.8% versus market odds of 2.51. Both teams score heavily in the final fifteen minutes—Wrexham with fourteen, Swansea with thirteen—suggesting sustained attacking pressure. Yet here lies the conflict. The Sceptic challenged the Home Scout's optimistic 'rising form' assessment, noting the cascading profile actually shows decreasing scoring. More critically, the market refuses to believe Wrexham's statistical dominance. Our mathematical baseline gives them a 66.9% win probability, but the market-implied probability is just 43%. This 24-point divergence suggests the bookmakers are pricing in the injury crisis and low morale that our raw models cannot fully capture. The Quant found no Asian handicap value, with all Poisson probabilities matching market prices exactly—a sign of market efficiency on result lines.",
+    "chapter_value": "Our market: NO BET. The evidence points clearly toward goals—the 39% edge on Over 2.75 is compelling—but our conviction gate is set at 'moderate', requiring odds of at least 1.70. No qualifying line meets that threshold. The market has efficiently priced the result markets, leaving no mathematical edge we can confidently exploit. While alternative markets like Over 2.25 Goals show a 31.5% edge and Both Teams to Score shows 65% confidence, the combination of rotation risk from fixture congestion, Wrexham's decreasing attack trend, and Swansea's missing firepower caps our confidence at a speculative level. Sometimes the numbers reveal value; tonight, they reveal a market that has already adjusted for the qualitative risks our scouts identified.",
+    "ending": "The Boot Room verdict is to pass on this fixture. A 39% statistical edge on goals is tantalising, but without a qualifying line at our required odds threshold, we cannot recommend a position. The market's severe discount of Wrexham's home advantage—despite their playoff pressure—tells its own story of underlying concern. In betting, discipline means recognising when the edge isn't quite sharp enough. For this Welsh derby, that time is now. If you found this analysis valuable, subscribe to AI Boot Room for data-driven breakdowns of every major fixture. Boot Room out.",
+    "roundup_summary": "Wrexham versus Swansea in a Championship Welsh derby with contrasting motivations. The hosts sit sixth, fighting for playoff consolidation, but arrive with low morale after consecutive setbacks. Their last five matches show three wins but a decreasing scoring trend. Swansea are mid-table with rising form—three wins from five—but carry a poor away record of just five victories from eighteen trips. They travel without top scorer Z. Vipotnik.\n\nThe head-to-head history is minimal—only two meetings. Swansea won the most recent encounter 1-0 with a 90th-minute Adam Idah goal in December; the previous match was a goalless draw. Wrexham's last five home games average 3.6 total goals, while Swansea's last five away average 2.6. Both teams score heavily late: Wrexham have fourteen goals in minutes 76-90, Swansea have thirteen.\n\nThe Boot Room analysis identifies a profound market divergence. Our Poisson baseline gives Wrexham a 66.9% win probability, but the market-implied probability is just 43%—a 24-point gap the Quant could not explain. The EdgeCalculator shows a 39.0% edge on Over 2.75 Goals, with our probability at 78.8% versus market odds of 2.51. The Sceptic challenged the Home Scout's 'rising form' claim, noting the cascading profile shows decreasing scoring—a concern the market appears to price heavily. The Auditor's effective confidence is 62%, but the Gaffer's conviction gate at 'moderate' requires odds ≥1.70, which no qualifying line meets. The bookmaker has efficiently priced result markets, leaving no value bet that passes our filters.\n\nBoot Room market: NO BET. With no qualifying line meeting the required odds threshold of 1.70 despite a directional lean toward over goals, we pass on this fixture. Confidence: 0%.",
+    "short_segment": "Wrexham host Swansea in a Championship Welsh derby. The playoff-chasing hosts sit sixth but carry low morale after recent setbacks. Swansea arrive with rising form but a poor away record and without top scorer Z. Vipotnik. History offers little—just two meetings, with Swansea winning the last one late. Our analysis reveals a massive 39% edge on Over 2.75 Goals, but the market shows no qualifying line at our required odds threshold. Furthermore, the market discounts Wrexham's 66.9% win probability down to just 43%, suggesting underlying concerns our models can't fully capture. The Boot Room lands on NO BET at odds of 0 with 0% confidence. Sometimes the smartest play is to recognise when the edge isn't sharp enough. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Great Divergence",
+        "voiceover": "A 24-point gap separates what the numbers say and what the market believes. Our models give Wrexham a 67% chance of victory tonight. The bookmakers price them at just 43%. This isn't a minor discrepancy—it's a chasm. And it creates the central tension of this Welsh derby.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual: left side shows 'MODEL: 66.9%' in bold green numbers; right side shows 'MARKET: 43%' in cautious amber. A giant red arrow points between them highlighting the gap.",
+        "graphic_text_overlay": "24-POINT GAP"
+      },
+      {
+        "scene": 2,
+        "name": "Wrexham's Weight",
+        "voiceover": "The hosts carry playoff pressure and recent disappointment. Five key injuries reduce their squad depth, while their potent late-game attack—fourteen goals in the final fifteen minutes—masks a decreasing scoring trend. Their statistical strength collides with psychological fragility.",
+        "graphic_type": "home_card",
+        "graphic_description": "Wrexham's crest overlayed on a dark, tense background. Key stats float around it: '14 LATE GOALS', '5 INJURIES', '42% HOME WIN RATE'. The image feels pressured, not triumphant.",
+        "graphic_text_overlay": "PRESSURE & PAIN"
+      },
+      {
+        "scene": 3,
+        "name": "Swansea's Sickness",
+        "voiceover": "Swansea arrive with momentum but a fundamental flaw: travel sickness. Just five away wins all season, averaging less than a goal per game. Their recent form is rising, but their top scorer—seventeen-goal Z. Vipotnik—is absent. Their threat is blunted before a ball is kicked.",
+        "graphic_type": "away_card",
+        "graphic_description": "Swansea's crest on a road sign pointing downwards. Stats read: '0.89 AWAY GOALS/GAME', 'TOP SCORER OUT', '5/18 AWAY WINS'. The visual suggests movement but no forward progress.",
+        "graphic_text_overlay": "ROAD STRUGGLES"
+      },
+      {
+        "scene": 4,
+        "name": "The Goal Machine",
+        "voiceover": "Despite the conflicts, one signal screams through the data: goals. Our EdgeCalculator identifies a 39% edge on Over 2.75. Both teams score heavily late—twenty-seven combined goals in the final quarter-hour. The Tactician predicts a transitional, high-scoring affair. The math is compelling.",
+        "graphic_type": "evidence",
+        "graphic_description": "A full-screen graphic showing 'OVER 2.75 GOALS' with a huge '39% EDGE' badge. Below, two bars show 'WREXHAM: 14 LATE GOALS' and 'SWANSEA: 13 LATE GOALS' converging.",
+        "graphic_text_overlay": "39% GOALS EDGE"
+      },
+      {
+        "scene": 5,
+        "name": "The Market's Verdict",
+        "voiceover": "Yet the market has spoken. It efficiently prices the result markets, leaving no Asian handicap value. Our required odds threshold isn't met. That massive 39% edge on goals exists, but without a qualifying line, we cannot act. The smartest bet tonight is no bet at all. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, final card with the AI Boot Room logo. Large text reads 'OUR MARKET: NO BET'. Smaller text below: '0% Confidence | Odds: 0'. The background is neutral, decisive grey.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

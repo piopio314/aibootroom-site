@@ -1,0 +1,156 @@
+{
+  "key": "20260308_Valencia_vs_Alaves__ds_v3_stream",
+  "match": {
+    "home_team": "Valencia",
+    "away_team": "Alaves",
+    "league": "La Liga",
+    "date": "2026-03-08",
+    "home_id": 532,
+    "away_id": 542
+  },
+  "prediction": {
+    "direction": "home_value",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — home_value direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 50.0,
+    "score_draw": 28.0,
+    "score_away": 22.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC match. Valencia possess clear structural advantages: superior home defensive record (1.00 goals conceded per match), improving defensive metrics (clean sheet in last home match, 100% CS rate in Last 1 window), and a specific late-game scoring threat that directly targets Alaves's weakest defensive period. Alaves, despite historical H2H dominance, are in a state of flux with a new manager, a depleted squad, and the worst away attack in the division (0.54 goals per game). The tactical setup is symmetrical (4-4-2 vs 4-4-2), but the underlying form and situational dynamics are not. (2) DIRECTION EVIDENCE — The Quant's Poisson model identifies a 21.3 percentage point edge on the home win (68.5% probability vs 47.2% market implied). While extreme, this is supported by corrected qualitative data: the Sceptic confirmed the Home Scout's 'declining form' assessment was wrong, with cascading profiles showing Valencia's defence and momentum as IMPROVING. The Tactician awards a tactical edge to HOME, citing Valencia's late-game prowess against Alaves's vulnerable final period. Matchup convergence shows Valencia with a 40% win profile versus Alaves's 0% away win profile. (3) AGENTS CONSENSUS — The Quant (strong value signal), Tactician (home tactical edge), and corrected Home Scout data (improving defence) align on home value. The Archivist notes Alaves's H2H dominance but frames it within the high-pressure context of a relegation scrap. The Auditor, while flagging the extreme Poisson probability, adjusted the home win probability to a more credible 50% and recommended the 1X2 Home market. The Sceptic's critical challenge on Alaves's attack strength (not a 2/10) introduces dissent, suggesting the away threat is under-modelled, which tempers conviction. (4) RISKS — The primary risk is Alaves's new-manager bounce under Quique Sánchez Flores, which could disrupt tactical predictions. The Sceptic's identified improvement in Alaves's away shot volume (4.7 SOT last 3 away) could translate to goals despite poor historical output. Valencia's injury list (five players) may impact squad depth and late-game execution of their key tactical advantage. The historical H2H pattern (Alaves unbeaten in six, five wins) presents a significant psychological hurdle for Valencia to overcome.",
+    "key_factors": [
+      "Valencia's improving defensive metrics and 100% clean sheet rate in most recent home match",
+      "Alaves's chronic away scoring issues (0.54 goals per game) and managerial instability",
+      "Quant's identified 21.3pp mathematical edge on Valencia win probability",
+      "Tactical matchup favours Valencia's late-game threat against Alaves's weak final-quarter defence",
+      "High-stakes relegation context increasing home advantage pressure"
+    ],
+    "risk_factors": [
+      "New-manager uncertainty for Alaves could disrupt form predictions",
+      "Alaves's recent away shot data suggests a more potent attack than historical record shows",
+      "Valencia must overcome a strong psychological barrier from poor recent H2H record"
+    ],
+    "alternative_markets": [],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 11.2,
+      "edge_source": "Edge Calculator mathematical model (our_prob vs market_odds)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 11.2
+        },
+        {
+          "market": "Over 2.25 Goals",
+          "edge": 10.6
+        },
+        {
+          "market": "AH Home -1.5",
+          "edge": 9.5
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Quant, Tactician, and corrected Home Scout data align on home value, supported by the Auditor's adjusted probabilities. The Archivist provides context but notes historical away dominance. The Sceptic dissents by challenging the modelling of Alaves's attack strength, reducing overall consensus strength.",
+    "_direction_nobet_reason": "no_line_qualifies (home_value/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 11.2
+  },
+  "display_texts": {
+    "home_position": "#15 (29 pts, -12 GD)",
+    "away_position": "#16 (27 pts, -11 GD)",
+    "home_form": "7W-8D-11L in 26 matches, last 5: DLWLW",
+    "away_form": "7W-6D-13L in 26 matches, last 5: WLDWL",
+    "home_stats": "27 goals in 26 matches (avg 1.0/match), 7 clean sheets",
+    "away_stats": "23 goals in 26 matches (avg 0.9/match), 3 clean sheets",
+    "h2h_history": "Valencia 0-0 Alaves (08 Mar 2026)\nAlaves 0-0 Valencia (20 Oct 2025)\nAlaves 1-0 Valencia (14 May 2025)\nValencia 2-2 Alaves (22 Dec 2024)\nValencia 0-1 Alaves (24 Jul 2024)",
+    "home_injuries": "J. Agirrezabala (Missing Fixture - Knee Injury), L. Beltran (Missing Fixture - Knee Injury), J. Copete (Missing Fixture - Ankle Injury), M. Diakhaby (Missing Fixture - Muscle Injury), D. Foulquier (Missing Fixture - Knee Injury)",
+    "away_injuries": "M. Diaz (Missing Fixture - Coach's decision), F. Garces (Missing Fixture - Suspended), P. Ibanez (Missing Fixture - Yellow Cards), V. Parada (Missing Fixture - Red Card)",
+    "api_predictions": "API-Football prediction: Alaves | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Alaves",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "3:2",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Valencia vs Alaves: The Relegation Six-Pointer With No Value",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a team with a 21.3 percentage point mathematical edge faces a side that has beaten them five times in their last six meetings? That is the statistical paradox at the heart of this relegation six-pointer. Valencia versus Alaves presents a fundamental clash between what the numbers say should happen and what history insists will happen. Tonight at the Mestalla, two desperate teams collide with survival on the line—but the bookmakers have priced this one perfectly.",
+    "chapter_home": "Valencia arrive at the Mestalla sitting 15th, a position that belies their historical stature. Their home form shows a team that is hard to beat but struggles to win, with five draws from thirteen outings. The key narrative is their improving defensive discipline—they kept a clean sheet in their last home match and have seen their goals conceded per game drop in recent windows. Manager Rubén Baraja is defending young player Franco Mastantuono from media criticism, which could impact squad harmony. Five players are listed as injured, including Mouctar Diakhaby and Dimitri Foulquier, reducing tactical flexibility. Their greatest weapon is a potent late-game threat—ten of their twenty-seven goals this season have come in the final fifteen minutes. They deploy a consistent 4-4-2 formation, built for structure rather than spectacle. The question is whether their patched-up squad can find the attacking spark to turn one point into three against a disciplined opponent.",
+    "chapter_away": "Alaves travel with the worst attack in the division on the road, managing just two wins from thirteen away trips and scoring a paltry 0.54 goals per game. They sit 16th, just two points behind Valencia, making this a direct survival showdown. Their situation is defined by transition—new manager Quique Sánchez Flores has just been appointed, creating immediate tactical uncertainty. Four players are confirmed absent, including defender Facundo Garcés who is serving a twelve-month ban. Despite their poor scoring record, recent away match data shows an improved attacking process, averaging 4.7 shots on target in their last three away matches. They also deploy a 4-4-2, creating a mirror-image tactical battle. Their greatest strength is psychological—they have dominated this fixture recently. The question is whether a new voice can spark a survival fight from a team that has consistently failed to fire away from home.",
+    "chapter_history": "History tells a story of total Alaves dominance in this fixture. They have won five of the last six competitive meetings between these sides, including a sequence of four consecutive 1-0 victories. This is a chronically low-scoring affair, averaging just 1.6 goals per game, with only thirty percent of matches seeing over 2.5 goals. Every single one of those recent Alaves wins came by a single goal—tight, grinding victories. For Valencia, this represents a significant psychological barrier they must overcome. For Alaves, it provides immense confidence, knowing their game plan has consistently worked against this opponent. But in a relegation dogfight where both teams are separated by just two points, past patterns are under maximum stress. History favours the visitors, but survival pressure rewrites scripts.",
+    "chapter_analysis": "The tactical matchup is a symmetrical 4-4-2 versus 4-4-2, promising a structured, midfield battle rather than a footballing spectacle. Valencia's key structural advantage lies in timing—their strongest scoring period, the final fifteen minutes, directly targets Alaves's weakest defensive period. The Quant's Poisson model identifies a massive 21.3 percentage point edge on the home win, giving Valencia a 68.5% probability versus the market's 47.2%. This is supported by Valencia's improving defensive metrics and Alaves's dire away record. However, The Sceptic delivered a critical challenge—the Away Scout severely misrepresented Alaves's attack strength, ignoring clear data showing improved shot creation in recent away matches. This suggests the away threat is under-modelled. Furthermore, The Tactician predicts a tight, low-scoring affair, which completely contradicts the Edge Calculator's highest-edge markets on Over 2.75 and Over 2.25 goals. The Auditor reconciled this conflict, adjusting the extreme home win probability down to a more credible fifty percent. The consensus is moderate—aligned on home value directionally, but fractured on the scale of that advantage and the goals expectation.",
+    "chapter_value": "Our market: NO_BET. The Boot Room tribunal has analysed twenty-two markets and found no qualifying value. The mathematical edge on a Valencia win is substantial—21.3 percentage points—but the required odds filter of 1.70 or greater was not met for any line that matched our conviction. The market has priced this relegation scrap efficiently, with Valencia around 2.12 to win. While the Quant, Tactician, and corrected data align on a home advantage, the risks are too pronounced: Alaves's new-manager bounce, their improved recent shot data, and Valencia's need to overcome a powerful psychological H2H barrier. Sometimes the smartest play is to acknowledge when the bookmakers have it right. Confidence: 0%.",
+    "ending": "The verdict from the Boot Room is clear—pass on this fixture. Valencia have the form and tactical edge, but Alaves own the history and carry disruptive unknowns. In a match where a single goal has decided the last four meetings, and where both teams average less than a goal per game, the margins are too fine. The value simply is not there. If you enjoyed this deep dive into the data and the drama of La Liga's relegation battle, make sure to subscribe and hit the notification bell. Boot Room out.",
+    "roundup_summary": "Valencia versus Alaves. A critical relegation six-pointer in La Liga with Valencia 15th and Alaves 16th, separated by just two points. Valencia's form shows a recent 1-0 home win, part of a WLWLL sequence in their last five. Alaves's last five read LDDWL, highlighting their struggle for victories. Both teams carry significant injury concerns—Valencia miss five players, Alaves four—and Alaves travel under a new manager.\n\nThe head-to-head history is starkly one-sided. Alaves have won five of the last six competitive meetings, including four consecutive 1-0 victories during the 2023/24 and 2024/25 seasons. This fixture averages just 1.6 goals per game, with only 30% of matches exceeding 2.5 goals. This season, Valencia score 1.0 goals per match overall, while Alaves manage a league-worst 0.54 goals per game on the road. Valencia concede 1.0 per match at home.\n\nThe Boot Room analysis reveals a profound statistical conflict. The Quant's Poisson model gave Valencia a 68.5% win probability—a 21.3 percentage point edge over the market's 47.2% implied probability. This was supported by Valencia's improving defensive metrics and Alaves's poor away record. However, The Sceptic critically challenged the modelling of Alaves's attack, noting recent away data shows 4.7 shots on target per game—far stronger than the '2/10' rating suggested. Furthermore, the Tactician's prediction of a tight, low-scoring match directly contradicted the Edge Calculator's highest-edge markets on Over 2.75 and Over 2.25 goals. The Auditor reconciled this, adjusting the home win probability down to 50.0% and flagging the goals market edges as not credible. The bookmaker has efficiently priced the high uncertainty surrounding Alaves's new manager and their historical dominance.\n\nThe Boot Room finds no qualifying value in any market. The mathematical edge on the home win did not meet the required odds threshold for a bet. In a match defined by single-goal margins, chronic low scoring, and managerial disruption, the risks outweigh the potential reward. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Statistical Paradox",
+        "voiceover": "What happens when a team with a 21.3 percentage point mathematical edge faces a side that has beaten them five times in their last six meetings? That is the paradox at the heart of this relegation six-pointer. Valencia versus Alaves—a clash between what the numbers say should happen, and what history insists will happen.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: a large '68.5%' over a Valencia badge. Right side: a sequence of five Alaves badges in a row, with 'W' marks. A tension line divides them.",
+        "graphic_text_overlay": "68.5% VS HISTORY"
+      },
+      {
+        "scene": 2,
+        "name": "Valencia's Late-Game Weapon",
+        "voiceover": "Valencia's greatest threat is timed. Ten of their twenty-seven goals this season arrive in the final fifteen minutes. They are a team built for the late surge. And this directly targets Alaves's most vulnerable period—where they have conceded twenty-six percent of their away goals. It is a structural advantage written in the match clocks.",
+        "graphic_type": "evidence",
+        "graphic_description": "A stylised match clock graphic. The final 15-minute segment (76-90') is highlighted in Valencia orange, showing '10 Goals'. An arrow points to an Alaves shield cracking in the same segment.",
+        "graphic_text_overlay": "FINAL 15 MINUTES"
+      },
+      {
+        "scene": 3,
+        "name": "Alaves's Disruptive Unknown",
+        "voiceover": "But Alaves are not the same team the data assumes. New manager Quique Sánchez Flores brings immediate tactical uncertainty. And recent away match performance shows 4.7 shots on target per game—a far more potent attack than their dismal 0.54 goals per game record suggests. The model may be missing their rising threat.",
+        "graphic_type": "away_card",
+        "graphic_description": "A portrait of Quique Sánchez Flores looking tactical, overlaid with data points: 'New Manager', '4.7 SOT/away', '0.54 Goals/away'. The visual suggests contradiction and disruption.",
+        "graphic_text_overlay": "MANAGER + DATA SHIFT"
+      },
+      {
+        "scene": 4,
+        "name": "The Contradiction in the Numbers",
+        "voiceover": "This creates the core contradiction. The Quant's model screams value on Valencia. But the Tactician predicts a tight, low-scoring grind. The Edge Calculator sees value on Over 2.75 goals. The head-to-head history shows four straight 1-0 wins. The signals are pointing in completely different directions.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A central 'VALENCIA WIN' value signal with a large upward arrow, being pulled in three different directions by arrows labelled 'Tight Match', 'Low Goals History', and 'New Manager Risk'.",
+        "graphic_text_overlay": "CONTRADICTORY SIGNALS"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict: No Value",
+        "voiceover": "Our market: NO_BET. The mathematical edge on Valencia is substantial, but it did not meet our strict odds threshold. The market has priced this relegation scrap efficiently—factoring in Alaves's new manager, their historical dominance, and the ever-present risk of a single, decisive goal. Sometimes the smartest play is to step away. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold text on a dark background. 'NO BET' is central and large. Below, smaller text: 'Valencia vs Alaves | La Liga | Confidence: 0%'.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

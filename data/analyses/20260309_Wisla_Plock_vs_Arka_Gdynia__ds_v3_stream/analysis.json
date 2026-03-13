@@ -1,0 +1,177 @@
+{
+  "key": "20260309_Wisla_Plock_vs_Arka_Gdynia__ds_v3_stream",
+  "match": {
+    "home_team": "Wisla Plock",
+    "away_team": "Arka Gdynia",
+    "league": "Ekstraklasa",
+    "date": "2026-03-09",
+    "home_id": 341,
+    "away_id": 344
+  },
+  "prediction": {
+    "direction": "home_value",
+    "direction_conviction": "moderate",
+    "selected_market": "AH Home -1.0",
+    "prediction": "AH Home -1.0",
+    "confidence": 58,
+    "confidence_gate": "APPROVE",
+    "odds_target": 2.95,
+    "score_home": 45.8,
+    "score_draw": 29.3,
+    "score_away": 24.9,
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC matchup. Wisla Plock, despite a four-match losing streak, retains a strong home defensive record (0.58 goals conceded per match) and a 5-3-2 formation built for solidity. Arka Gdynia are historically the worst away side in the Ekstraklasa, with 0 wins in 11, an attack averaging 0.27 goals on the road, and a defence conceding 2.45 per away match. The structural advantage lies clearly with the home side. (2) DIRECTION EVIDENCE — The EdgeCalculator shows strong mathematical edges on multiple Asian Handicap lines for the home team, with AH Home -1.5 at +19.4%, AH Home -1.25 at +15.9%, and AH Home -0.75 at +6.5%. The Auditor's adjusted probabilities give Wisla Plock a 45.8% win chance, which, when applied to the AH -0.75 line, creates a positive expected value against market odds of 2.30. The Tactician explicitly awards a 'HOME' tactical edge, citing Plock's defensive setup as a direct counter to Arka's primary weakness. (3) AGENTS CONSENSUS — The Tactician, EdgeCalculator, and Auditor (via adjusted probabilities) align on home advantage. The Away Scout confirms Arka's chronic away incapacity. The Sceptic, while issuing a CRITICAL challenge to the Home Scout's optimism, does NOT veto the bet, instead setting a confidence ceiling of 60% and allowing a bet if a clear edge ≥7% exists. The Quant's model shows no Poisson gaps, indicating market efficiency, but this is contradicted by the EdgeCalculator's strong edge findings. The Archivist notes historical parity but highlights Arka's current desperation. (4) RISKS — Wisla Plock's morale is shattered after four straight losses; they may fail to capitalise even against weak opposition. Arka's survival desperation could produce a rare resilient performance. The new signings for Plock (Savvidis, Hamulic) are unproven in integration. A 0-0 draw, as flagged by the Sceptic, remains a plausible surprise scenario given both teams' attacking struggles.",
+    "key_factors": [
+      "Arka Gdynia's catastrophic away record: 0 wins in 11, 0.27 goals scored per match",
+      "Wisla Plock's strong home defensive foundation: 0.58 goals conceded per match at home",
+      "Tactical matchup favours Plock's 5-3-2 defensive block against Arka's ineffective 3-4-3 away attack",
+      "EdgeCalculator shows strong mathematical edges on multiple Home Asian Handicap lines"
+    ],
+    "risk_factors": [
+      "Wisla Plock's severe form collapse and shattered morale could negate home advantage",
+      "Arka Gdynia's desperation in a relegation battle may inspire an atypical performance"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.5 Goals",
+        "prediction": "Under 2.5",
+        "confidence": 63
+      },
+      {
+        "market": "AH Home -1.0",
+        "prediction": "Wisla Plock -1.0",
+        "confidence": 55
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 6.5,
+      "edge_source": "EdgeCalculator probability vs market implied probability",
+      "edge_grade": "MARGINAL",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Home -1.5",
+          "edge": 19.4
+        },
+        {
+          "market": "AH Home -1.25",
+          "edge": 15.9
+        },
+        {
+          "market": "AH Home -1.0",
+          "edge": 11.5
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, EdgeCalculator, and Auditor align on a home advantage thesis, supported by the Away Scout's confirmation of Arka's away incapacity. The Sceptic challenges the Home Scout's optimism but does not veto, setting conditions. The Quant's model shows no mispricing, creating a mathematical disagreement with the EdgeCalculator. The Archivist provides contextual balance but no strong directional signal.",
+    "_direction": "home_value",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.3393,
+    "_direction_prob": 45.4,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.22,
+    "max_edge": 19.4
+  },
+  "display_texts": {
+    "home_position": "#7 (33 pts, +4 GD)",
+    "away_position": "#16 (26 pts, -19 GD)",
+    "home_form": "8W-9D-6L in 23 matches, last 5: WWWDW",
+    "away_form": "7W-5D-11L in 23 matches, last 5: LDDWL",
+    "home_stats": "24 goals in 23 matches (avg 1.0/match), 6 clean sheets",
+    "away_stats": "22 goals in 23 matches (avg 1.0/match), 4 clean sheets",
+    "h2h_history": "Wisla Plock 0-0 Arka Gdynia (09 Mar 2026)\nArka Gdynia 1-0 Wisla Plock (29 Aug 2025)\nWisla Plock 1-0 Arka Gdynia (12 May 2025)\nArka Gdynia 2-0 Wisla Plock (02 Nov 2024)\nArka Gdynia 2-0 Wisla Plock (21 Apr 2024)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Arka Gdynia | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Arka Gdynia",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "LOSE",
+    "label": "LOSE",
+    "color": "#ef4444",
+    "pnl": -1.0,
+    "score": "0:3",
+    "market": "AH Home -1.0"
+  },
+  "script": {
+    "title": "The Worst Travellers Meet a Team in Crisis | Ekstraklasa",
+    "thumbnail_text": "ZERO AWAY WINS",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a team that cannot win away from home faces a side that has forgotten how to win at all? This is the collision in Płock tonight — a home side in catastrophic form collapse against the league's worst travellers. One statistic defines this fixture: Arka Gdynia have zero away victories all season. But Wisła Płock have lost four consecutive matches. Which broken pattern gets fixed first?",
+    "chapter_home": "Wisła Płock arrive at their home ground in a state of profound crisis. Their season has fractured completely over the last month, with four straight defeats shattering confidence and cohesion. This collapse is particularly jarring because their foundation was supposed to be defensive solidity at home — conceding just 0.58 goals per match with a 5-3-2 formation built for resilience. Yet the attack has dried up, failing to score in 60% of their last five matches. Recent signings Kyriakos Savvidis and Said Hamulić add depth, but they are unproven integrations in a squad with shattered morale. Positioned seventh with 33 points, they are safe from relegation but distant from European contention — a dangerous motivational grey area. The narrative here is not about strength, but about whether a broken structure can still function against the league's weakest opposition.",
+    "chapter_away": "Arka Gdynia travel as the definitive worst away side in the Ekstraklasa. Their record is historically awful: zero wins in eleven away matches, a 0% win rate on the road. Their attack is anaemic away from Gdynia, averaging just 0.27 goals per match and failing to score in eight of those eleven games. Defensively, they are breached consistently, conceding 2.45 goals per away match with only one clean sheet. Manager Szwargi's 3-4-3 formation looks aggressive on paper but has produced nothing on opposition soil. Morale is fractured further by derby disappointment and off-field controversy, heaping immense pressure on a squad deep in a relegation battle at sixteenth place. They are playing for survival, but their travel sickness appears terminal.",
+    "chapter_history": "History paints a picture of perfect parity between these sides. The last ten meetings show an exact mirror: four wins each, one draw — a statistical dead heat. It is one of Ekstraklasa's most balanced rivalries. The pattern is low-scoring, with an average of just 1.9 goals per match and only 30% of games seeing over 2.5 goals. Arka hold the recent psychological edge, unbeaten in the last three encounters including a narrow 1-0 win earlier this season. But Wisła Płock's last home victory in this fixture was a 1-0 win just nine months ago. History suggests a tight, tense affair where one moment decides it — but current trajectories threaten to rewrite that script entirely.",
+    "chapter_analysis": "This matchup is defined by asymmetric weaknesses. Wisła Płock's severe form collapse is undeniable — but their structural advantage at home remains intact. The Tactician awards a clear 'HOME' edge, noting their five-man defensive block is perfectly suited to absorb pressure from Arka's ineffective 3-4-3. The critical battle is whether Płock's wing-backs can exploit the spaces Arka leave wide. The Sceptic issued a CRITICAL challenge, arguing the Home Scout's optimism about historical home form is flawed given the current four-match losing streak. However, the Boot Room acknowledges this but sees a more fundamental mismatch: Arka's chronic away incapacity is a season-long constant, while Płock's collapse is a recent trend. The EdgeCalculator shows strong mathematical edges on multiple Home Asian Handicap lines, with the AH Home -1.0 line showing an 11.5% edge. The Auditor's adjusted probabilities give Wisła Płock a 45.8% win chance, creating positive expected value against market odds. The Quant's Poisson model shows no gaps, indicating market efficiency — but this is contradicted by the EdgeCalculator's findings, creating the tribunal's biggest conflict.",
+    "chapter_value": "Our market: AH Home -1.0 at 2.95. The reasoning is built on structural advantage meeting chronic weakness. Wisła Płock's home defensive record — conceding 0.58 goals per match — directly counters the league's worst away attack. Arka Gdynia concede 2.45 goals per away game, and their desperation for survival points may force them to open up, exposing their vulnerabilities further. The odds at 2.95 imply a market that is sceptical of Płock's ability to overcome their form crisis — but the Boot Room sees that crisis as less significant than Arka's season-long travel sickness. The EdgeCalculator validates this with an 11.5% edge on this specific line.",
+    "ending": "The verdict leans on the one constant in this chaotic fixture: Arka Gdynia cannot win away. Wisła Płock's defensive structure at home provides the platform, and their new signings offer a potential spark against a defence that collapses on the road. The risk is clear — shattered morale could see Płock fail to capitalise, or Arka's desperation could produce a rare resilient performance. But the data points to a home side rediscovering their footing against the perfect opponent. Our market: AH Home -1.0. Confidence: 58%. If you see the value differently, let us know in the comments. Subscribe for data-driven football analysis every matchday. Boot Room out.",
+    "roundup_summary": "Wisła Płock versus Arka Gdynia. The hosts sit seventh with 33 points, their form collapsing with four consecutive losses after a solid home campaign. The visitors are sixteenth in a relegation battle, with stable but desperately poor form, particularly away. Płock's last five: L-L-L-L-W. Arka's last five: L-D-L-W-L. The home side's defensive record remains strong at home, conceding 0.58 goals per match, while Arka travel with zero wins in eleven attempts.\n\nThe head-to-head record shows perfect parity: four wins each in the last ten meetings, with one draw. The most recent encounter saw Arka win 1-0 in October 2023. The average goals per meeting is just 1.9, with only 30% of fixtures exceeding 2.5 goals. This season, Wisła Płock score 1.25 goals per home game and concede 0.58. Arka Gdynia score 0.27 goals per away game and concede 2.45 — the worst away defensive record in the league.\n\nThe Boot Room analysis identifies a structural mismatch that overrides recent form concerns. While the Quant's Poisson model shows no gaps — with a 0.0 pp gap on the AH Home -1.0 line — the EdgeCalculator finds an 11.5% edge, supported by the Auditor's adjusted win probability of 45.8%. The Sceptic's critical challenge focused on the Home Scout overvaluing historical home form amid a four-match losing streak. However, the tribunal concluded Arka's away incapacity is a more reliable constant than Płock's temporary collapse. The bookmaker has mis-priced the home side's ability to leverage their defensive setup against the league's weakest travellers, with odds of 2.95 offering value on the Asian handicap.\n\nThe Boot Room market is AH Home -1.0 at 2.95. This requires Wisła Płock to win by two or more clear goals, capitalising on Arka's chronic away defensive frailty. Confidence is set at 58%, reflecting the conflict between recent form and structural advantage. Boot Room market: AH Home -1.0. Confidence: 58%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Collision of Broken Patterns",
+        "voiceover": "Zero away wins all season. Four consecutive home defeats. This is the collision in Płock — a team that cannot win on the road against a side that has forgotten how to win at home. One broken pattern must give way tonight. But which one?",
+        "graphic_type": "conflict",
+        "graphic_description": "Split screen showing Wisła Płock's '4 LOSSES' stat on left, Arka Gdynia's '0 AWAY WINS' stat on right, with a shattered football between them.",
+        "graphic_text_overlay": "BROKEN PATTERNS COLLIDE"
+      },
+      {
+        "scene": 2,
+        "name": "The Home Crisis",
+        "voiceover": "Wisła Płock are in freefall. Four straight losses have shattered a season built on home defensive solidity. They concede just 0.58 goals per match at home — but their attack has dried up completely. New signings offer hope, but morale is fractured. This is a team playing not for glory, but to stop the rot.",
+        "graphic_type": "home_card",
+        "graphic_description": "Wisła Płock's 5-3-2 formation diagram with defensive stats overlaid: '0.58 goals conceded/home match'. A downward red arrow through their last four results.",
+        "graphic_text_overlay": "DEFENSIVE CRISIS"
+      },
+      {
+        "scene": 3,
+        "name": "The Away Sickness",
+        "voiceover": "Arka Gdynia are the worst travellers in the Ekstraklasa. Zero wins in eleven away matches. Their attack averages 0.27 goals on the road — the lowest in the league. They concede 2.45 goals per away game. This is not poor form; this is a chronic, season-long condition. Survival desperation meets travel sickness.",
+        "graphic_type": "away_card",
+        "graphic_description": "A map of Poland with a red 'X' over Gdynia and a broken bus icon travelling to Płock. Stats: '0 AWAY WINS', '0.27 GOALS SCORED/AWAY'.",
+        "graphic_text_overlay": "TRAVEL SICKNESS"
+      },
+      {
+        "scene": 4,
+        "name": "The Tactical Mismatch",
+        "voiceover": "The Tactician awards a clear home edge. Wisła Płock's 5-3-2 defensive block is designed to absorb pressure — exactly what Arka's 3-4-3 cannot generate away from home. The Sceptic challenged the home optimism, but the data shows a deeper truth: Arka's away weakness is a constant; Płock's collapse may be temporary.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Animated tactical boards showing Płock's 5-3-2 compressing to block Arka's 3-4-3 arrows. Key text: 'Structural advantage vs. chronic weakness'.",
+        "graphic_text_overlay": "STRUCTURAL MISMATCH"
+      },
+      {
+        "scene": 5,
+        "name": "The Market Revelation",
+        "voiceover": "The EdgeCalculator finds strong value on Home Asian Handicaps — an 11.5% edge on the -1.0 line. The Auditor's adjusted probabilities give Płock a 45.8% win chance. The market at 2.95 is sceptical of their form recovery. But against the league's worst travellers, that scepticism creates opportunity.",
+        "graphic_type": "evidence",
+        "graphic_description": "Clean graphic showing the AH Home -1.0 line with '2.95' odds, an '11.5% EDGE' badge, and the Auditor's '45.8% WIN PROB' stat.",
+        "graphic_text_overlay": "11.5% EDGE"
+      },
+      {
+        "scene": 6,
+        "name": "The Boot Room Verdict",
+        "voiceover": "Our market: AH Home -1.0 at 2.95. Confidence: 58%. This is a bet on structure over form, on a home defensive foundation against chronic away frailty. The risk is Płock's shattered morale — but Arka's travel sickness is the more reliable constant. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Final verdict card with the Boot Room logo. Clear text: 'AH HOME -1.0 @ 2.95 | CONFIDENCE: 58%'. Wisła Płock badge slightly larger above Arka Gdynia badge.",
+        "graphic_text_overlay": "BOOT ROOM VERDICT"
+      }
+    ]
+  }
+}

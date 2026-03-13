@@ -1,0 +1,106 @@
+{
+  "key": "20260310_Galatasaray_vs_Liverpool__ds_v3_stream",
+  "match": {
+    "home_team": "Galatasaray",
+    "away_team": "Liverpool",
+    "league": "UEFA Champions League",
+    "date": "2026-03-10",
+    "home_id": 645,
+    "away_id": 40
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 20.0,
+    "score_draw": 22.5,
+    "score_away": 57.5,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading profiles show a STRONG 79% convergence on Over 2.5 goals, the highest signal in the data. Both teams' recent form is defined by high goal output: Galatasaray averages 4.0 total goals per match in their last five, Liverpool averages 4.5. The Tactician's analysis of a 'transitional' clash with rapid counters further supports an open, goal-laden contest, overriding the historical low-scoring H2H pattern.\n\n(2) DIRECTION EVIDENCE — The over_goals direction is anchored by the Quant's mathematical model, which shows a massive 42.9 percentage point edge for Over 2.5 Goals (91.2% Poisson probability vs 48.3% market implied). The Poisson λ sum is exceptionally high, reflecting both teams' potent attacking metrics. The cascading profile convergence of 79% is the strongest objective signal available, outweighing the thin, contradictory H2H history.\n\n(3) AGENTS CONSENSUS — The Quant, Tactician, and Auditor are strongly aligned on a high-scoring outcome. The Sceptic explicitly notes the scouts missed the strong Over 2.5 convergence, reinforcing this direction. The Archivist's low-scoring H2H data is the sole dissenting voice, but its sample size is small (3 matches) and deemed unreliable by the Sceptic. The net signal from the tribunal is overwhelmingly in favour of goals.\n\n(4) RISKS — The primary risk is the historical hoodoo: Liverpool have failed to score in all three prior meetings. Alisson's absence for Liverpool could disrupt their defensive structure, but it may also lead to more goals at both ends. Galatasaray's six injuries could blunt their attack, though their home scoring record remains robust. The rotation risk cap due to Champions League fixture congestion mandates a conservative confidence level, but does not invalidate the core directional thesis.",
+    "key_factors": [
+      "STRONG 79% profile convergence on Over 2.5 goals from both teams' recent form",
+      "Quant's Poisson model shows a 42.9pp edge on Over 2.5 Goals",
+      "Both teams' recent matches average over 4.0 total goals",
+      "Tactician predicts a 'transitional' match with rapid counters supporting goal potential"
+    ],
+    "risk_factors": [
+      "Historical H2H is extremely low-scoring (1 goal in 3 matches)",
+      "Significant squad injuries for both sides (Galatasaray 6, Liverpool 9 including Alisson)",
+      "ROTATION RISK: Confidence hard-capped at 55% due to Champions League fixture congestion and uncertain XIs"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 3.25 Goals",
+        "prediction": "Over 3.25",
+        "confidence": 53
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 42.9,
+      "edge_source": "Quant probability minus market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 3.5 Goals",
+          "edge": 47.1
+        },
+        {
+          "market": "Over 2.5 Goals",
+          "edge": 42.9
+        },
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 14.2
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Quant, Tactician, Auditor, and Sceptic are aligned on a high-scoring match, with the Quant's massive Poisson edge and the 79% profile convergence providing the core evidence. The Archivist dissents based on low-scoring historical H2H, but this is an outlier against the weight of current form data.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.01,
+    "max_edge": 56.2
+  },
+  "display_texts": {
+    "home_position": "#20 (10 pts, -2 GD)",
+    "away_position": "#3 (18 pts, +12 GD)",
+    "home_form": "4W-1D-5L in 10 matches, last 5: LWWWL",
+    "away_form": "6W-0D-2L in 8 matches, last 5: WLWWL",
+    "home_stats": "16 goals in 10 matches (avg 1.6/match), 2 clean sheets",
+    "away_stats": "20 goals in 8 matches (avg 2.5/match), 4 clean sheets",
+    "h2h_history": "Liverpool 0-0 Galatasaray (18 Mar 2026)\nGalatasaray 0-0 Liverpool (10 Mar 2026)\nGalatasaray 1-0 Liverpool (30 Sep 2025)",
+    "home_injuries": "M. Baltaci (Missing Fixture - Suspended), C. Guner (Missing Fixture - Inactive), G. Gurpuz (Missing Fixture - Inactive), R. Nhaga (Missing Fixture - Inactive), A. Unyay (Missing Fixture - Injury)",
+    "away_injuries": "Alisson (Missing Fixture - Injury), S. Bajcetic (Missing Fixture - Hamstring Injury), C. Bradley (Missing Fixture - Knee Injury), F. Chiesa (Missing Fixture - Illness), H. Davies (Missing Fixture - Inactive)",
+    "api_predictions": "API-Football prediction: Liverpool | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Liverpool",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:0",
+    "market": "NO BET"
+  }
+}

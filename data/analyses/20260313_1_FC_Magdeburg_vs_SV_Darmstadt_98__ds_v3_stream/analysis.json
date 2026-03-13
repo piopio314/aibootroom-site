@@ -1,0 +1,161 @@
+{
+  "key": "20260313_1_FC_Magdeburg_vs_SV_Darmstadt_98__ds_v3_stream",
+  "match": {
+    "home_team": "1. FC Magdeburg",
+    "away_team": "SV Darmstadt 98",
+    "league": "2. Bundesliga",
+    "date": "2026-03-13",
+    "home_id": 179,
+    "away_id": 181
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 45.0,
+    "score_draw": 28.0,
+    "score_away": 27.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading profiles show 100% convergence for Over 2.5 Goals, the highest possible signal. Magdeburg's last five home matches average 3.6 total goals, while Darmstadt's last five away average 4.4. Both teams' form is defined by high goal output and defensive fragility, not control. The Tactician's 'match_character_prediction' is explicitly 'open'. (2) DIRECTION EVIDENCE — The mathematical case is overwhelming. The Quant's Poisson model gives Over 2.5 an 80% probability, creating a 10 percentage point edge against the market's 70% implied probability. The λ sum (implied by the 80% probability) is well above 2.5. The EdgeCalculator identifies multiple high-edge Over markets, with Over 3.25 Goals showing a 26.6% edge. Every objective data source points to goals: both teams' market suitability for Over 2.5 is rated 7/7, and their recent match averages (4.8 and 3.4 total goals) confirm the attacking character. (3) AGENTS CONSENSUS — Strong alignment exists. The Quant flags Over 2.5 as a clear VALUE bet. The Tactician predicts an open match with 'more goals than average'. The Auditor strongly approves the analysis, citing the 100% cascading convergence. The Sceptic's main challenge was about underrating Darmstadt's win chance, not the goal expectation; they explicitly noted the 'missing factor' of strong Over 2.5 convergence. The Archivist's H2H shows a moderate 2.1 goal average, but this is outweighed by the current, extreme form profiles. The only dissent is minor: the Away Scout highlights Darmstadt's draw tendency but does not contest the high-scoring nature of those draws. (4) RISKS — The primary risk is a complete Magdeburg collapse, leading to a one-sided, low-event Darmstadt victory. Their catastrophic morale and missing ultras could see them offer no attacking threat. Secondly, Darmstadt's poor away win rate (25%) suggests they may control possession without the cutting edge to rack up a high score. However, these risks are mitigated by Magdeburg's persistent late-game scoring (10 goals in the 76-90' window) and Darmstadt's own defensive vulnerabilities on the road (conceding 1.58 per match).",
+    "key_factors": [
+      "100% cascading profile convergence for Over 2.5 Goals from both teams",
+      "Quant's Poisson model shows a 10% edge on Over 2.5 (80% vs 70% market)",
+      "Magdeburg's home matches average 3.6 total goals, Darmstadt's away matches average 4.4",
+      "Tactician analysis predicts an 'open' match with structural gaps for both attacks to exploit"
+    ],
+    "risk_factors": [
+      "Magdeburg's systemic crisis could lead to a non-competitive, low-event match",
+      "Darmstadt's historical inability to convert away dominance into high scores"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 3.25 Goals",
+        "prediction": "Over 3.25",
+        "confidence": 63
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 10.0,
+      "edge_source": "Quant probability minus market implied probability",
+      "edge_grade": "VALUE (7-10%)",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 26.6
+        },
+        {
+          "market": "AH Away -0.5",
+          "edge": 24.4
+        },
+        {
+          "market": "AH Away -1.0",
+          "edge": 23.6
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Quant, Tactician, Auditor, and cascading profiles are in strong agreement on a high-scoring, open match. The Sceptic raised no material challenge to the goal expectation, instead focusing on the underrating of Darmstadt's win probability. The Scouts' narratives support the premise: Magdeburg's defensive fragility and late goals, combined with Darmstadt's strong attack and leaky away defence.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 26.6
+  },
+  "display_texts": {
+    "home_position": "#18 (23 pts, -13 GD)",
+    "away_position": "#2 (48 pts, +19 GD)",
+    "home_form": "7W-2D-16L in 25 matches, last 5: LWLLL",
+    "away_form": "13W-9D-3L in 25 matches, last 5: WWDLW",
+    "home_stats": "35 goals in 25 matches (avg 1.4/match), 5 clean sheets",
+    "away_stats": "47 goals in 25 matches (avg 1.9/match), 10 clean sheets",
+    "h2h_history": "1. FC Magdeburg 0-0 SV Darmstadt 98 (13 Mar 2026)\nSV Darmstadt 98 0-0 1. FC Magdeburg (19 Oct 2025)\n1. FC Magdeburg 4-1 SV Darmstadt 98 (02 Mar 2025)\nSV Darmstadt 98 1-2 1. FC Magdeburg (28 Sep 2024)\nSV Darmstadt 98 1-0 FC Magdeburg (19 May 2023)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: SV Darmstadt 98 | Probabilities: 10%-45%-45% | Recommendation: Combo Double chance : draw or SV Darmstadt 98 and +1.5 goals",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "PENDING",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "–",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Magdeburg vs Darmstadt: The Goals Trap",
+    "thumbnail_text": "NO BET ALERT",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a team that cannot win away meets a team that cannot defend at home? The numbers scream goals — a 100% convergence from both teams' profiles for Over 2.5, a Poisson model showing an 80% probability. Yet, the Boot Room is walking away. Why would we refuse the most obvious bet on the board?",
+    "chapter_home": "1. FC Magdeburg are not just struggling — they are in systemic collapse. Rooted to the bottom of the 2. Bundesliga, their home record is a horror story: just two wins in twelve matches at the MDCC-Arena. They concede over two goals per game on their own turf, a defence that collapses either side of halftime. The crisis runs deeper than results. A DFB ban means they play without their Ultra-Kurve, stripping away any psychological edge. Internal morale is shattered, with fan-player conflict eroding squad unity. Manager Christian Titz admits to recurring tactical errors and a systemic failure to convert chances. Their only weapon is a bizarre late-game surge — ten of their thirty-five season goals come in the final fifteen minutes. This is a team defined by defensive chaos and attacking desperation, playing a 3-4-3 that promises adventure but delivers only vulnerability.",
+    "chapter_away": "SV Darmstadt 98 travel as promotion contenders, sitting second in the table with thirteen wins from twenty-five matches. Their attack is potent, averaging 1.9 goals per game, and their 4-2-3-1 formation provides midfield control through a double pivot. Morale is high after a decisive win over Kiel, and they face the league's worst defence. But their narrative has a critical flaw: they cannot win away. Their away record shows just three victories from twelve attempts — a 25% win rate. They have failed to win any of their last five road trips, settling for high-scoring draws instead. While they score freely, they also concede 1.58 goals per away match, revealing a leaky defence that undermines their superiority. This creates a profound tension: a team with promotion quality but a chronic inability to translate that into away victories, facing an opponent in freefall.",
+    "chapter_history": "History adds another layer of intrigue to this clash. Magdeburg own this fixture psychologically, unbeaten in the last four meetings with three wins and a draw. They won the most recent home encounter 4-1 in March 2025. The head-to-head average is a moderate 2.1 goals per match, with both teams scoring in 40% of meetings. This historical dominance starkly contradicts the current league table, where Darmstadt sit twenty places above their hosts. It sets up a classic battle: can Magdeburg's psychological hold over Darmstadt override their catastrophic current form, or will Darmstadt finally rewrite the narrative and prove their league standing is no fluke?",
+    "chapter_analysis": "The tactical and quantitative evidence converges overwhelmingly on one outcome: goals. The Tactician predicts an open match, with Magdeburg's 3-4-3 leaving defensive gaps for Darmstadt's efficient attack to exploit. The critical danger zone is the 31-60 minute period, where Magdeburg's defensive lapses align perfectly with Darmstadt's scoring cluster. The Quant's Poisson model gives Over 2.5 Goals an 80% probability — a full ten percentage points above the market's implied 70%. This creates a significant mathematical edge. Every profile screams the same story: Magdeburg's last five home matches average 3.6 total goals; Darmstadt's last five away average 4.4. The Sceptic's main challenge was not about goal expectation — they explicitly noted the strong Over 2.5 convergence — but about the Away Scout severely underrating Darmstadt's win probability. The Auditor approved the analysis, citing the 100% cascading convergence. The data is unanimous: this should be a high-scoring, open contest.",
+    "chapter_value": "Our market: NO_BET. The direction is clear — Over 2.5 Goals is the overwhelming favourite, with the Quant identifying a 10% edge at odds of 1.43. The Edge Calculator even shows a 26.6% edge on Over 3.25 Goals. However, the Gaffer's conviction filter requires both strong directional evidence AND qualifying odds. In this case, while the direction is strong, no available line meets our minimum odds threshold of 1.70 for a playable value bet. The market has correctly identified the high probability of goals, pricing it accordingly at short odds. There is no mis-priced inefficiency large enough to trigger a bet. Sometimes, the clearest narrative does not translate into a value opportunity.",
+    "ending": "The Boot Room verdict is to pass on this fixture. The evidence points decisively towards a high-scoring match, but the market has efficiently priced that expectation, leaving no mathematical edge for us to exploit. Our confidence is 0%. In betting, discipline means recognising when the value isn't there, even when the story is compelling. For Magdeburg, it's about survival against a historical rival. For Darmstadt, it's about overcoming their away demons. For us, it's about waiting for a better opportunity. If you appreciate this level of analytical discipline, subscribe to AI Boot Room for more data-driven match breakdowns. Boot Room out.",
+    "roundup_summary": "1. FC Magdeburg versus SV Darmstadt 98. A clash between 18th and 2nd in the 2. Bundesliga, with immense stakes at both ends of the table. Magdeburg's form is catastrophic, with four consecutive losses and a declining trend. Their home record shows just two wins in twelve. Darmstadt's form is rising, with three wins in their last five, but their away record reveals a critical flaw: only three wins in twelve on the road. Both teams arrive at full strength, but Magdeburg's morale is shattered by internal conflict and a banned ultras section.\n\nThe head-to-head history favours Magdeburg, who are unbeaten in the last four meetings, including a 4-1 home win in March 2025. The average goals per meeting is 2.1. This season, Magdeburg concede 2.0 goals per home match, while Darmstadt score 1.9 on average. Darmstadt's away matches average 4.4 total goals recently, pointing to a clear Over trend that contradicts the historical moderate scoring.\n\nThe Boot Room analysis identified overwhelming convergence for a high-scoring match. The Quant's Poisson model gave Over 2.5 Goals an 80% probability, creating a 10 percentage point edge against the market's 70% implied probability. The λ sum implied by this probability is well above the 2.5 line. The Sceptic's concern was focused on the Away Scout underrating Darmstadt's win chance, not the goal expectation; they explicitly noted the 'missing factor' of 100% cascading profile convergence for Over 2.5. The bookmaker has efficiently priced the high probability of goals, offering odds of 1.43 for Over 2.5 which, while short, reflect the accurate likelihood. The Auditor's effective confidence was 70%, validating the strong directional signal but not the pricing value.\n\nThe Boot Room finds no value bet meeting its strict odds filter. The market is efficient on the goal lines. Therefore, the verdict is to pass. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "1. FC Magdeburg host SV Darmstadt 98 in a critical 2. Bundesliga fixture. The 18th-placed hosts are in freefall, with catastrophic home form and a defence conceding two goals per game. Second-placed Darmstadt are promotion contenders but have a chronic away problem, winning just 25% of their road matches. The data screams goals — both teams' profiles show 100% convergence for Over 2.5, and the Poisson model gives it an 80% probability. However, the market has priced this efficiently at odds of 1.43, leaving no mathematical edge for a value bet. The Boot Room lands on NO_BET at odds of 0, with 0% confidence. Sometimes the clearest story offers no value. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Contradiction",
+        "voiceover": "A promotion contender that cannot win away. A relegation battler that cannot defend at home. Their profiles scream one thing: goals. A 100% convergence for Over 2.5 from both teams. Yet, the Boot Room is walking away. This is the story of a perfect trap.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: Darmstadt crest with an upward arrow and '2nd Place'. Right side: Magdeburg crest with a downward arrow and '18th Place'. A large 'OVER 2.5 GOALS' stamp overlaps both, with a red 'X' through it.",
+        "graphic_text_overlay": "THE GOALS TRAP"
+      },
+      {
+        "scene": 2,
+        "name": "Home: Systemic Collapse",
+        "voiceover": "Magdeburg are not just struggling — they are in collapse. Two home wins all season. A defence conceding over two goals per game. A banned ultras section erodes their atmosphere. Internal conflict shatters morale. Their only threat comes in the final fifteen minutes — a desperate, late surge.",
+        "graphic_type": "home_card",
+        "graphic_description": "The MDCC-Arena stands, but one stand is empty and taped off. A Magdeburg player looks dejected. Stats overlay: '2 Wins in 12 Home Matches', '2.0 Goals Conceded/Home Game', '10 Goals in 76-90 Minute Window'.",
+        "graphic_text_overlay": "FREE-FALL AT HOME"
+      },
+      {
+        "scene": 3,
+        "name": "Away: The Flawed Giant",
+        "voiceover": "Darmstadt sit second, with a potent attack averaging 1.9 goals. But their story has a critical flaw. Away from home, they are draw specialists — just three wins in twelve attempts. They score, but they also leak goals. A promotion contender haunted by an inability to finish the job on the road.",
+        "graphic_type": "away_card",
+        "graphic_description": "A Darmstadt player celebrating a goal, but the background is a blurred, empty away stand. Stats overlay: '2nd in Table', '3 Away Wins in 12', '1.58 Goals Conceded/Away'.",
+        "graphic_text_overlay": "CAN'T WIN AWAY"
+      },
+      {
+        "scene": 4,
+        "name": "The Unanimous Data",
+        "voiceover": "Every analytical lens agrees. The Tactician predicts an open match with structural gaps. The Quant's model gives Over 2.5 an 80% probability — a ten-point edge on the market. Magdeburg's home games average 3.6 goals; Darmstadt's away games average 4.4. The data is not just pointing one way — it is shouting.",
+        "graphic_type": "evidence",
+        "graphic_description": "A central graphic of a football pitch with animated arrows showing attacks from both ends. Large, bold text: 'POISSON PROBABILITY: 80%', 'MARKET IMPLIED: 70%', 'EDGE: +10%'. Icons for 'Tactician', 'Quant', 'Auditor' all have green checkmarks.",
+        "graphic_text_overlay": "DATA SCREAMS GOALS"
+      },
+      {
+        "scene": 5,
+        "name": "The Value Void",
+        "voiceover": "But here is the revelation. The market is listening. Over 2.5 is priced at 1.43 — short odds reflecting that high probability. Our filter demands value at odds of 1.70 or greater. The edge exists, but the price does not qualify. The clearest narrative on the board offers no mathematical opportunity. The best bet is sometimes no bet at all.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, stark graphic. A large red circle with a diagonal line through it. Text inside: 'NO BET'. Below: 'Odds: 0', 'Confidence: 0%'. In the corner, smaller text: 'Over 2.5 Goals @1.43 (Market Efficient)'.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

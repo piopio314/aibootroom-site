@@ -1,0 +1,169 @@
+{
+  "key": "20260313_Clermont_Foot_vs_PAU__ds_v3_stream",
+  "match": {
+    "home_team": "Clermont Foot",
+    "away_team": "PAU",
+    "league": "Ligue 2",
+    "date": "2026-03-13",
+    "home_id": 99,
+    "away_id": 1297
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 41.7,
+    "score_draw": 28.6,
+    "score_away": 29.7,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading profiles show 100% convergence for Over 2.5 goals from both teams, with Clermont averaging 3.6 total goals in their last five and PAU averaging 4.0. The Tactician's character prediction is 'open', citing defensive frailties, high-scoring head-to-head history, and critical late-game vulnerabilities. (2) DIRECTION EVIDENCE — The mathematical case for over_goals is overwhelming. The Quant's Poisson model gives a 91.2% probability for Over 2.5 goals versus a market-implied 48.3%, a 42.9 percentage point gap flagged with HIGH confidence. The EdgeCalculator identifies Over 2.75 Goals as the top-value market with a 35.9% edge. The λ sum (implied goal expectancy) is exceptionally high, supported by both teams conceding heavily in the final 15 minutes (Clermont 10, PAU 12 goals). (3) AGENTS CONSENSUS — Strong alignment exists. The Quant and Auditor both highlight Over 2.5 as the core value market. The Tactician's analysis of structural openness and late collapses supports this. The Archivist notes five of the last six H2H meetings produced Over 2.5 goals. The Sceptic, while critiquing scout assessments, confirms 'strong convergence on Over/BTTS markets' and recommends PROCEED. The only dissent is minor: the Home Scout's low morale assessment (challenged by the Sceptic) and the Auditor's note on the extreme Poisson probability, though they deem it well-supported. (4) RISKS — The primary risk is the statistical outlier nature of the 91.2% Poisson probability, which, while supported, remains exceptionally high and could indicate model overreach. A tactical shift by either manager to prioritise defensive solidity could defy the historical and recent trends. The missing injury data for PAU introduces a minor unknown, though squad depth is reported as reasonable.",
+    "key_factors": [
+      "100% profile convergence for Over 2.5 goals from both teams' recent form",
+      "Quant's Poisson model shows a 42.9pp gap on Over 2.5 with HIGH confidence",
+      "Head-to-head history shows 83% of meetings (5/6) feature Over 2.5 goals",
+      "Both teams concede a league-high number of goals in the 76-90 minute period"
+    ],
+    "risk_factors": [
+      "Extreme Poisson probability (91.2%) could signal model overconfidence",
+      "Potential for a tactical stalemate if both sides address late-game defensive issues"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.5 Goals",
+        "prediction": "Over 2.5",
+        "confidence": 68
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 35.9,
+      "edge_source": "EdgeCalculator — our probability (83.7%) vs market odds (2.09)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 35.9
+        },
+        {
+          "market": "Over 2.25 Goals",
+          "edge": 26.7
+        },
+        {
+          "market": "AH Away -0.75",
+          "edge": 21.3
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Quant, Auditor, Tactician, Archivist, and Sceptic all align on the core thesis of a high-scoring match. The Sceptic validated the convergence, and the Auditor confirmed the edge. The Scouts provided the underlying data on defensive frailties but were challenged on their form interpretations.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.94,
+    "max_edge": 35.9
+  },
+  "display_texts": {
+    "home_position": "#14 (28 pts, -5 GD)",
+    "away_position": "#11 (35 pts, -5 GD)",
+    "home_form": "7W-7D-12L in 26 matches, last 5: DDWDL",
+    "away_form": "9W-8D-9L in 26 matches, last 5: WDWDL",
+    "home_stats": "30 goals in 26 matches (avg 1.2/match), 5 clean sheets",
+    "away_stats": "39 goals in 26 matches (avg 1.5/match), 7 clean sheets",
+    "h2h_history": "Clermont Foot 0-0 PAU (13 Mar 2026)\nPAU 3-1 Clermont Foot (03 Oct 2025)\nPAU 2-2 Clermont Foot (11 Apr 2025)\nClermont Foot 2-2 PAU (16 Aug 2024)\nPAU 2-1 Clermont Foot (10 Apr 2021)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Clermont Foot | Probabilities: 35%-35%-30% | Recommendation: Double chance : Clermont Foot or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "PENDING",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "–",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Clermont vs PAU: The Goal-Fest That's Too Good To Be True",
+    "thumbnail_text": "NO BET ALERT",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when two mid-table sides share one critical flaw? They both collapse in the final fifteen minutes. Clermont Foot have conceded ten goals after the seventy-fifth minute this season. PAU have shipped twelve. This fixture has produced five goal-fests in their last six meetings. The statistical case for goals is overwhelming—so why is the Boot Room walking away?",
+    "chapter_home": "Clermont Foot arrive with a paradox. Their form is officially declining with three losses in their last five, yet their underlying data shows defensive improvement. They operate in a 4-2-3-1 shape, building into games with eighteen of their thirty goals coming after half-time. Their home record is resilient with four wins and four draws from twelve, but they have kept just one clean sheet. The psychological scar from their last home outing is deep—a 2-1 lead over Troyes evaporated after the seventy-eighth minute. That late-game fragility defines their season. They remain dangerous from the penalty spot, converting all seven attempts, but their story is one of concentration lapses when it matters most.",
+    "chapter_away": "PAU present a similar narrative with a twist. Their away record shows a respectable forty-two percent win rate, but recent form tells a different story. They have lost three of their last five, and their defence on the road is deteriorating—conceding four goals in their most recent away trip. Like Clermont, their fatal flaw appears in the final quarter, where they have conceded a league-high twelve goals. They deploy a 4-1-4-1 formation, offering natural width to exploit Clermont's narrower shape. Their playoff push is fading, and the broader French football governance crisis adds a layer of institutional instability. The question is whether their historical away strength can overcome this palpable loss of momentum and defensive solidity.",
+    "chapter_history": "History screams goals. Five of the last six meetings between these sides have produced over two and a half goals, with an average of three per game. PAU hold the recent psychological edge, unbeaten in the last three encounters. The most dramatic moment came in their last clash, where PAU raced into a three-goal lead by the thirty-third minute. Yet the sole anomaly was a goalless draw here in Clermont—a stark departure from the script. With both squads at full strength and little separating them in a congested mid-table, this fixture's historical pattern of end-to-end action looms large over tonight's encounter.",
+    "chapter_analysis": "The tactical matchup reveals why goals are almost inevitable. Clermont's 4-2-3-1 creates a central overload against PAU's single pivot, while PAU's 4-1-4-1 offers superior width to attack Clermont's full-backs. Neither side dominates possession, averaging around forty-three percent, suggesting a contested midfield with frequent turnovers. The critical battle, however, is not tactical—it's temporal. Both teams concede a catastrophic number of goals between the seventy-sixth and ninetieth minutes. This creates a high-probability scenario for late drama. Our Quant's model assigns a ninety-one point two percent probability to Over 2.5 goals—a forty-two point nine percentage point gap versus the market. The Sceptic challenged initial scout assessments, particularly PAU's 'strong' away rating, arguing it ignored recent defensive collapse. That challenge was validated, but the core convergence on a high-scoring match remains intact across all data streams.",
+    "chapter_value": "Our market: NO_BET. The mathematical edge is extraordinary—our model shows an eighty-three point seven percent probability for Over 2.75 Goals versus a market-implied forty-seven point eight percent, a thirty-five point nine percent edge. The Auditor validated this with an effective confidence of sixty-seven percent. Yet, the Gaffer's filter requires conviction at strong levels with odds at one point seventy or better. No available line meets both criteria. Sometimes the clearest narrative and the strongest statistical signal cannot be translated into a qualified value bet. The bookmakers have not made a mistake we can exploit with the required confidence.",
+    "ending": "The verdict is clear: this fixture promises goals, late drama, and statistical fireworks. But our process demands more than a compelling story—it requires a market mispriced to a specific threshold. Tonight, that threshold is not met. The best bet is often no bet at all. We pass on Clermont Foot versus PAU. If you value this rigorous, data-driven approach to football analysis, make sure to subscribe to AI Boot Room for every verdict. Boot Room out.",
+    "roundup_summary": "Clermont Foot versus PAU. Fourteenth hosts twelfth in Ligue 2, with just four points separating the mid-table sides. Clermont's form is declining with three losses in their last five, while PAU have won just once in that same period. At home, Clermont have a single clean sheet from twelve matches. Away, PAU concede heavily but have failed to score only once in twelve travels.\n\nThe head-to-head history is defined by goals. Five of the last six meetings have produced Over 2.5 goals, with an average of three per game. The most recent clash ended 3-1 to PAU. This season, Clermont average 1.25 goals scored and 1.42 conceded per match. PAU average 1.17 scored and 1.33 conceded away from home, with both teams showing a severe trend for late concessions.\n\nThe Boot Room analysis identified an overwhelming statistical case for goals. The Quant's Poisson model gave a ninety-one point two percent probability for Over 2.5 goals, creating a forty-two point nine percentage point edge versus the market's implied forty-eight point three percent. The Sceptic's critical challenge—that PAU's 'strong' away rating ignored recent defensive decline—was validated but did not undermine the core high-scoring thesis. The Edge Calculator identified Over 2.75 Goals as the top-value market with a thirty-five point nine percent edge. However, the bookmaker's pricing on available goal lines did not create a qualified value opportunity meeting the Boot Room's strict odds and conviction filters.\n\nThe Gaffer's final verdict is a pass. No market line offered sufficient mathematical edge at the required odds threshold to trigger a bet. The direction points firmly to over goals, but the value is not captured in the available pricing. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "Clermont Foot host PAU in a Ligue 2 mid-table clash. The fourteenth-placed hosts face the twelfth-placed visitors, with both sides showing declining form. The historical pattern is undeniable—five of the last six meetings have produced over two and a half goals. Both teams share a critical flaw, conceding a combined twenty-two goals in the final fifteen minutes this season. Our Quant's model shows a ninety-one point two percent probability for Over 2.5 goals. Yet, despite this overwhelming statistical signal, no available market line meets our strict value criteria for a qualified bet. The Boot Room lands on NO_BET at odds of zero, with zero percent confidence. Sometimes the clearest story doesn't have a bettable ending. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Fatal Flaw",
+        "voiceover": "Two mid-table sides share one critical defect. Clermont Foot have conceded ten goals in the final fifteen minutes this season. PAU have shipped twelve. This fixture has produced five goal-fests in their last six meetings. The statistical case is overwhelming—so why is there no bet?",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual showing two crumbling defensive walls with clocks striking 75:00, one in Clermont's yellow and blue, the other in PAU's white and navy. The numbers 10 and 12 are prominently displayed.",
+        "graphic_text_overlay": "LATE COLLAPSE"
+      },
+      {
+        "scene": 2,
+        "name": "Clermont's Paradox",
+        "voiceover": "Clermont's form is declining, yet their underlying defensive data shows improvement. They build into games, scoring most goals after half-time. But their home is no fortress—just one clean sheet in twelve matches. The psychological scar from a late collapse against Troyes runs deep.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dynamic graphic of Clermont's 4-2-3-1 formation with arrows showing second-half attacking momentum, superimposed over a low clean sheet counter (1/12).",
+        "graphic_text_overlay": "ONE HOME CLEAN SHEET"
+      },
+      {
+        "scene": 3,
+        "name": "PAU's Fading Strength",
+        "voiceover": "PAU's respectable away record hides a recent collapse. They have lost three of their last five, conceding four goals in their most recent away trip. Their 4-1-4-1 formation offers width, but their playoff push is fading amidst broader league instability.",
+        "graphic_type": "away_card",
+        "graphic_description": "A graphic showing PAU's 4-1-4-1 formation stretching wide, contrasted with a downward trend line chart of recent away form and a large '4' for goals conceded.",
+        "graphic_text_overlay": "AWAY FORM COLLAPSE"
+      },
+      {
+        "scene": 4,
+        "name": "The Historical Blueprint",
+        "voiceover": "History provides the blueprint. Five of the last six meetings have seen over two and a half goals. PAU are unbeaten in the last three. The sole anomaly was a goalless draw—a stark warning that even the most reliable patterns can break.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "A timeline of the last six H2H matches, with five fixtures glowing 'OVER 2.5' and one dimmed '0-0'. The '5/6' statistic is central.",
+        "graphic_text_overlay": "5/6 OVER 2.5 GOALS"
+      },
+      {
+        "scene": 5,
+        "name": "The Statistical Storm",
+        "voiceover": "The numbers are staggering. Our model gives a ninety-one point two percent probability for Over 2.5 goals—a forty-three point gap versus the market. Both teams' form profiles show one hundred percent convergence for high scores. The tactical matchup promises end-to-end action with critical late-game vulnerability.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A dense data visualization showing the 91.2% Poisson probability versus 48.3% market-implied, with converging arrows from 'Clermont Form' and 'PAU Form' meeting at '100% Over 2.5'.",
+        "graphic_text_overlay": "91.2% PROBABILITY"
+      },
+      {
+        "scene": 6,
+        "name": "The Value Void",
+        "voiceover": "Our market: NO_BET. The edge is clear—thirty-five point nine percent on Over 2.75 Goals. But no line meets our strict odds and conviction filter. The bookmakers have not made a mistake we can exploit. The strongest signal sometimes has no bet. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final graphic with 'NO BET' prominently displayed. Below, smaller text shows 'Over 2.75 Goals: 35.9% Edge' and 'Confidence: 0%' with a red 'X' through a betting slip.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

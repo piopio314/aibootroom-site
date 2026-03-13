@@ -1,0 +1,111 @@
+{
+  "key": "20260310_Stoke_City_vs_Ipswich__ds_v3_stream",
+  "match": {
+    "home_team": "Stoke City",
+    "away_team": "Ipswich",
+    "league": "Championship",
+    "date": "2026-03-10",
+    "home_id": 75,
+    "away_id": 57
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 19.0,
+    "score_draw": 25.8,
+    "score_away": 55.2,
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC match with strong ATTACKING tendencies. Ipswich arrive with a potent, late-scoring attack (2.0 goals per match last five) and tactical control, while Stoke are in defensive crisis with 12 injuries and a pattern of late-game collapse. The cascading profiles show STRONG convergence (71%) on Over 2.5 Goals, indicating both teams' recent form points to higher-scoring matches. (2) DIRECTION EVIDENCE — The EdgeCalculator shows a 22.8% edge on Over 2.75 Goals, the highest of any market. The Tactician explicitly states the setup 'suggests more goals than the historical H2H average' and predicts 'one-sided with late drama'. The Auditor's adjusted probabilities give Over 2.5 a 58% likelihood, well above market pricing. The critical goal-timing matchup shows Ipswich scoring 26 goals in the final 15 minutes against Stoke conceding 11 in the same period — a decisive convergence. (3) AGENTS CONSENSUS — The Tactician, EdgeCalculator, and cascading profiles strongly support Over. The Auditor recommends Over 2.75 Goals despite historical conflict. The Sceptic's veto is not triggered (PROCEED verdict). The Archivist provides the only major dissent, noting the historical H2H pattern of extremely low scoring (1.2 goals average, 0% Over 2.5 in six meetings). The Quant shows no Poisson gaps but notes strong Over 2.5 convergence. (4) RISKS — The historical H2H pattern is a powerful contradictory signal that cannot be ignored. Ipswich's fixture congestion could suppress their attacking output. Stoke's injury crisis might force them into an ultra-defensive shell, though their recent home matches have averaged 3.0 total goals. The rotation risk imposes a mandatory confidence cap of 55%.",
+    "key_factors": [
+      "Ipswich's lethal late-game scoring (26 goals in 76-90 minute period)",
+      "Stoke's defensive collapse in final 15 minutes (conceded 11 goals)",
+      "Severe Stoke injury crisis (12 players out) compromising defensive structure",
+      "Strong cascading profile convergence (71%) on Over 2.5 Goals"
+    ],
+    "risk_factors": [
+      "Historical H2H pattern shows 0% Over 2.5 in six meetings",
+      "Ipswich fixture congestion and potential rotation risk",
+      "Mandatory rotation risk confidence cap of 55%"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.25 Goals",
+        "prediction": "Over 2.25",
+        "confidence": 58
+      },
+      {
+        "market": "AH Home +0.75",
+        "prediction": "Stoke +0.75",
+        "confidence": 51
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 22.8,
+      "edge_source": "EdgeCalculator mathematical edge calculation",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 22.8
+        },
+        {
+          "market": "AH Home +0.25",
+          "edge": 22.8
+        },
+        {
+          "market": "Over 2.25 Goals",
+          "edge": 18.8
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, EdgeCalculator, and cascading profiles strongly align on Over goals direction. The Auditor recommends Over 2.75 despite historical conflict. The Sceptic does not veto. The Archivist provides the primary dissent with historical low-scoring data. The Quant shows no value bets but notes strong Over convergence.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.94,
+    "max_edge": 22.8
+  },
+  "display_texts": {
+    "home_position": "#15 (47 pts, +3 GD)",
+    "away_position": "#4 (64 pts, +26 GD)",
+    "home_form": "13W-8D-15L in 36 matches, last 5: WWWLW",
+    "away_form": "18W-10D-7L in 35 matches, last 5: DDLDW",
+    "home_stats": "39 goals in 36 matches (avg 1.1/match), 12 clean sheets",
+    "away_stats": "61 goals in 35 matches (avg 1.7/match), 13 clean sheets",
+    "h2h_history": "Stoke City 0-0 Ipswich (10 Mar 2026)\nIpswich 1-0 Stoke City (10 Dec 2025)\nStoke City 0-0 Ipswich (01 Jan 2024)\nIpswich 2-0 Stoke City (12 Aug 2023)\nIpswich 1-1 Stoke City (16 Feb 2019)",
+    "home_injuries": "A. Ampah (Missing Fixture - Injury), L. Baker (Missing Fixture - Inactive), G. Bazunu (Missing Fixture - Thigh Injury), R. Bozenik (Missing Fixture - Shoulder Injury), A. Cresswell (Missing Fixture - Calf Injury)",
+    "away_injuries": "D. Button (Missing Fixture - Inactive), J. Philogene (Missing Fixture - Injury), C. Townsend (Missing Fixture - Knee Injury), A. Young (Missing Fixture - Hip Injury)",
+    "api_predictions": "API-Football prediction: Ipswich | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Ipswich",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "3:3",
+    "market": "NO BET"
+  }
+}

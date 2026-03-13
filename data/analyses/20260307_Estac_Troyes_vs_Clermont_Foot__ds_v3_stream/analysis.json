@@ -1,0 +1,173 @@
+{
+  "key": "20260307_Estac_Troyes_vs_Clermont_Foot__ds_v3_stream",
+  "match": {
+    "home_team": "Estac Troyes",
+    "away_team": "Clermont Foot",
+    "league": "Ligue 2",
+    "date": "2026-03-07",
+    "home_id": 110,
+    "away_id": 99
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 45.0,
+    "score_draw": 28.0,
+    "score_away": 27.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading profiles show STRONG convergence (100%) on Over 2.5 Goals, with both teams averaging over 3.0 total goals per match in their last five. Troyes' home attack averages 2.14 goals, while Clermont's away defence concedes 1.8 goals per match recently. The Tactician's analysis predicts 'more goals than the historical H2H average of 1.9' due to Troyes' midfield overloads against Clermont's deep block and a critical goal-timing mismatch in the final 15 minutes. (2) DIRECTION EVIDENCE — The mathematical evidence is compelling. The EdgeCalculator shows a 24.1% edge on Over 2.75 Goals, with our probability at 75.9% versus market odds of 1.93. The Poisson λ sum indicates a high-scoring environment, and the Auditor notes the Quant's neutral 50% probability for Over 2.5 is likely understated given current form. The Sceptic identified the 'unanimous but unmentioned convergence on Over 2.5 Goals' as the strongest data-supported opportunity. (3) AGENTS CONSENSUS — The Tactician, both Scouts (via their attack/defence ratings and narrative), the Sceptic (via critique), and the EdgeCalculator all align on a high-scoring environment. The Archivist provides the only dissent, noting the historical H2H is low-scoring (1.9 avg), but acknowledges current context 'flips the historical script'. The net signal is overwhelmingly for goals. (4) RISKS — The primary risk is Clermont's 5-4-1 defensive setup proving more resilient than recent form suggests, potentially frustrating Troyes and keeping the score low. Historical H2H data showing only 30% of meetings exceeding 2.5 goals is a contradictory signal. Unconfirmed starting XIs and potential tactical adjustments could also reduce attacking fluency.",
+    "key_factors": [
+      "STRONG 100% profile convergence on Over 2.5 Goals from both teams' recent form",
+      "Troyes' prolific home attack (2.14 goals/match) versus Clermont's leaky away defence (1.8 goals conceded/match in last 5)",
+      "Critical goal-timing mismatch: Troyes score most in final 15 minutes while Clermont concede most in same period",
+      "Substantial 24.1% mathematical edge on Over 2.75 Goals according to EdgeCalculator"
+    ],
+    "risk_factors": [
+      "Historical head-to-head pattern is low-scoring (1.9 goals avg, 30% Over 2.5 rate)",
+      "Clermont's switch to a 5-4-1 formation indicates a defensive intent that could limit chances"
+    ],
+    "alternative_markets": [
+      {
+        "market": "AH Home -0.75",
+        "prediction": "Home -0.75",
+        "confidence": 62
+      },
+      {
+        "market": "Over 3.25 Goals",
+        "prediction": "Over 3.25",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 24.1,
+      "edge_source": "EdgeCalculator our_prob (75.9%) vs market odds (1.93)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 28.6
+        },
+        {
+          "market": "AH Home -0.75",
+          "edge": 27.4
+        },
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 24.1
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Tactician, both Scouts, the Sceptic, and the EdgeCalculator all support a high-scoring match. The Archivist dissents on historical grounds but acknowledges the current context overrides history. The Quant shows no explicit probability gaps but the market is efficiently priced, which does not contradict the over_goals thesis given the strong EdgeCalculator edge.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 28.6
+  },
+  "display_texts": {
+    "home_position": "#1 (51 pts, +16 GD)",
+    "away_position": "#14 (28 pts, -5 GD)",
+    "home_form": "15W-6D-5L in 26 matches, last 5: WDWLW",
+    "away_form": "7W-7D-12L in 26 matches, last 5: DDWDL",
+    "home_stats": "42 goals in 26 matches (avg 1.6/match), 9 clean sheets",
+    "away_stats": "30 goals in 26 matches (avg 1.2/match), 5 clean sheets",
+    "h2h_history": "Estac Troyes 2-1 Clermont Foot (07 Mar 2026)\nClermont Foot 0-0 Estac Troyes (15 Aug 2025)\nClermont Foot 0-2 Estac Troyes (18 Apr 2025)\nEstac Troyes 0-1 Clermont Foot (23 Aug 2024)\nClermont Foot 1-0 Estac Troyes (29 Jul 2023)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Clermont Foot | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Clermont Foot",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "2:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Troyes vs Clermont: The High-Scoring Trap",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when every piece of data screams goals, but the market refuses to listen? Estac Troyes versus Clermont Foot presents a paradox. The league leaders' relentless attack faces a defensively vulnerable visitor, with every recent form profile converging on a high-scoring match. Yet the bookmakers have priced this fixture with surgical precision, leaving no mathematical edge to exploit. Tonight, we dissect why the most obvious bet is the one we cannot take.",
+    "chapter_home": "Estac Troyes are not just league leaders — they are a home fortress with a psychological edge. At the Stade de l'Aube, they win nearly four out of every five matches, boasting an eleven-win, one-draw, two-loss record. Their attack averages over two goals per home game, failing to score only once in fourteen matches. Key creators Martin Adeline and top scorer Tawfik Bentayeb operate in a fluid 4-1-4-1 system designed for second-half surges. They have scored nine goals in the final fifteen minutes alone, turning pressure into points with remarkable consistency. However, their defensive record reveals a critical vulnerability — just four home clean sheets all season, conceding 1.14 goals per match. Their recent three-match winning streak is impressive, but underlying metrics show a decline in shot creation, a nuance the market has noted. With the title within reach, their motivation is sky-high, but their defensive frailty ensures no clean sheet is guaranteed.",
+    "chapter_away": "Clermont Foot arrive as the perfect counterpoint — a team built for frustration that consistently unravels. Their away record is dismal, with just three wins from fourteen matches and four losses in their last five on the road. They have switched to a 5-4-1 formation for this trip, signalling a deep defensive block aimed at containment. Yet their weakness is tragically predictable — they have conceded ten goals in the final fifteen minutes of matches, the exact period where Troyes are most lethal. While they possess a perfect penalty record and can threaten on the counter, their overall defensive process is in decline. Sitting safely in mid-table with minimal relegation pressure, their motivation pales in comparison to the hosts'. Their narrative is one of a team trying to hold back a tide they have historically struggled against, despite winning sixty percent of past meetings.",
+    "chapter_history": "History tells a contradictory story. Clermont Foot have dominated this fixture, winning six of the last ten encounters. Yet the pattern is one of low-scoring attrition, averaging just 1.9 goals per match with only three of those ten meetings exceeding 2.5 goals. The momentum, however, has shifted. Troyes are unbeaten in the last three meetings, including a dramatic 2-1 comeback victory last March where they scored twice in the final twelve minutes. This historical context creates a fascinating tension — Clermont's psychological advantage from past wins clashes directly with Troyes' recent superiority and overwhelming current motivation. The Archivist notes that tonight's stakes flip the historical script entirely, placing the burden of proof on the visitors to defy current form.",
+    "chapter_analysis": "The tactical matchup reveals why goals are expected. Troyes' 4-1-4-1 creates midfield overloads against Clermont's 5-4-1, pinning the visitors deep. The critical battle occurs in the final fifteen minutes — Troyes' surge mentality meets Clermont's defensive collapse. Our EdgeCalculator identifies a substantial 24.1 percent edge on Over 2.75 Goals, with our probability at 75.9 percent versus market odds of 1.93. The Sceptic challenged the scouts for missing the unanimous convergence on Over 2.5 Goals, which is the strongest data-supported narrative. However, the Quant's analysis presents the counter-argument — the market is efficiently priced against the Poisson baseline, showing zero probability gaps across major markets. The Auditor reconciles this by noting the Quant's neutral fifty percent probability for Over 2.5 may be understated, but the historical low-scoring pattern creates a valid contradiction. While the Tactician predicts more goals than the historical average, and the EdgeCalculator shows strong value on high goal lines, the market's sharp pricing has absorbed all this information, leaving no clear mathematical entry point.",
+    "chapter_value": "Our market: NO BET. The reasoning is one of disciplined restraint. While the directional evidence for a high-scoring match is compelling — with a 24.1 percent edge on Over 2.75 Goals and a 28.6 percent edge on Over 3.25 Goals — no available line meets our strict odds filter of 1.70 or greater with sufficient conviction. The market odds for these value markets, at 1.93 and 2.55 respectively, do not qualify. The Quant finds the market efficiently priced, and the Auditor's effective confidence for the next best alternative, Asian Handicap Home -0.75, sits at just 62 percent. Sometimes the most analytically sound match offers no bettable value — this is one of those fixtures. The bookmakers have priced this perfectly.",
+    "ending": "The Boot Room verdict is clear — pass on this fixture. Estac Troyes should win, and goals are likely, but the market offers no mathematical edge to exploit. Our confidence is zero percent. This is a case study in market efficiency, where all available intelligence is already reflected in the odds. The disciplined approach is to wait for a clearer opportunity. If you found this analysis valuable, subscribe to The Boot Room for more forensic match breakdowns. Turn on notifications so you never miss a value bet. Boot Room out.",
+    "roundup_summary": "Estac Troyes versus Clermont Foot. The league leaders, sitting first, host the fourteenth-placed visitors in a Ligue 2 clash defined by motivational disparity. Troyes are in rising form with three consecutive wins, while Clermont have lost four of their last five away matches. Both teams report no key injuries, setting the stage for a full-strength encounter. The home side averages 2.14 goals per match at the Stade de l'Aube, but concedes 1.14. Clermont's away defence has been leaky, conceding 1.8 goals per match in their last five on the road.\n\nHistorically, this is a low-scoring fixture. Clermont have won six of the last ten meetings, but the average goals per match is just 1.9, with only thirty percent of encounters exceeding 2.5 goals. The most recent meeting in March 2026 saw Troyes win 2-1 with two late goals. This season, Troyes' matches average 3.07 total goals, while Clermont's average 2.64, suggesting a higher-scoring environment than the historical head-to-head record implies.\n\nThe Boot Room analysis identifies a strong directional bias towards goals, with a Poisson lambda sum indicating a high-scoring environment. The EdgeCalculator shows a 24.1 percent edge on Over 2.75 Goals, deriving from our probability of 75.9 percent versus market odds of 1.93. The Sceptic's primary concern was the scouts' failure to highlight the unanimous convergence on Over 2.5 Goals. However, the Quant's analysis reveals zero probability gaps across all major markets, indicating the bookmaker has efficiently priced the fixture. The Auditor notes the Quant's fifty percent probability for Over 2.5 may be understated but acknowledges the historical contradiction. The market has correctly balanced the compelling current form against the low-scoring historical pattern, leaving no mis-priced value.\n\nThe verdict is to avoid this market. While Over 2.75 Goals shows a significant mathematical edge, it does not meet our minimum odds filter for a strong conviction play. The Asian Handicap Home -0.75 offers a 27.4 percent edge but carries only sixty-two percent effective confidence. With no qualifying value bet, the disciplined decision is to pass. Boot Room market: NO BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Paradox",
+        "voiceover": "What happens when every piece of data screams goals, but the market refuses to listen? Estac Troyes versus Clermont Foot presents a perfect paradox. The league leaders' relentless attack faces a defensively vulnerable visitor. Every recent form profile converges on a high-scoring match. Yet the bookmakers have priced this with surgical precision — leaving no mathematical edge to exploit.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split visual showing Estac Troyes' attacking stats on fire on one side, and a perfectly balanced set of bookmaker odds on the other, with a 'NO VALUE' stamp overlaid.",
+        "graphic_text_overlay": "DATA VS. ODDS"
+      },
+      {
+        "scene": 2,
+        "name": "The Home Fortress",
+        "voiceover": "Estac Troyes are a home fortress. They win nearly four out of every five matches at the Stade de l'Aube, averaging over two goals per game. Their system is built for second-half surges — they have scored nine goals in the final fifteen minutes. But their defence has kept just four home clean sheets all season. This attack thrives, but it never travels alone — vulnerability comes with it.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dynamic image of the Stade de l'Aube with key stats overlaid: 11W-1D-2L, 2.14 goals/match, 9 goals in 76-90'.",
+        "graphic_text_overlay": "THE SECOND-HALF SURGE"
+      },
+      {
+        "scene": 3,
+        "name": "The Perfect Weakness",
+        "voiceover": "Clermont Foot are the perfect opponent for this weakness. They have switched to a 5-4-1, aiming to contain. Yet they have conceded ten goals in the final fifteen minutes — the exact period where Troyes are most lethal. Their away record shows just three wins from fourteen matches. Their defensive plan is sound, but their execution has a tragic, predictable flaw.",
+        "graphic_type": "away_card",
+        "graphic_description": "A tactical board showing Clermont's 5-4-1 block, with a giant red arrow and clock graphic highlighting the '76-90 minute' period where they concede most.",
+        "graphic_text_overlay": "THE LATE COLLAPSE"
+      },
+      {
+        "scene": 4,
+        "name": "The Contradiction",
+        "voiceover": "History contradicts the present. This is traditionally a low-scoring fixture, averaging just 1.9 goals. Clermont have won sixty percent of past meetings. But momentum has shifted — Troyes are unbeaten in the last three. The historical pattern of attrition now clashes with current explosive form. This is the core tension the market must price.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "A timeline showing past meeting scores, mostly 1-0 or 2-1, contrasted with a modern graphic showing high goal totals from both teams' recent matches.",
+        "graphic_text_overlay": "HISTORY VS. FORM"
+      },
+      {
+        "scene": 5,
+        "name": "The Market Truth",
+        "voiceover": "Our EdgeCalculator identifies a 24.1 percent edge on Over 2.75 Goals. Our probability is 75.9 percent. But the market odds are 1.93 — they do not meet our strict filter. The Quant finds the market efficiently priced with zero probability gaps. The data screams value, but the odds say otherwise. This is the razor's edge of betting discipline.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A clean graphic showing the EdgeCalculator output: 'Over 2.75 Goals | Our Prob: 75.9% | Market Odds: 1.93 | Edge: 24.1%', with a large red 'X' over the odds.",
+        "graphic_text_overlay": "EDGE WITH NO ENTRY"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO BET. Confidence: zero percent. Sometimes the most analytically sound match offers no bettable value. The bookmakers have priced this perfectly, balancing compelling current form against historical contradiction. The disciplined approach is to wait for a clearer opportunity. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A stark, clean screen with the words 'NO BET' in large, bold typography. Below, smaller text reads 'Confidence: 0% | Market Efficiency: 100%'.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

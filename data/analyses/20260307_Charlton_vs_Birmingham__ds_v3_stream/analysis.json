@@ -1,0 +1,175 @@
+{
+  "key": "20260307_Charlton_vs_Birmingham__ds_v3_stream",
+  "match": {
+    "home_team": "Charlton",
+    "away_team": "Birmingham",
+    "league": "Championship",
+    "date": "2026-03-07",
+    "home_id": 1335,
+    "away_id": 54
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "Under 1.75 Goals",
+    "prediction": "Under 1.75 Goals",
+    "confidence": 58,
+    "confidence_gate": "APPROVE",
+    "odds_target": 2.78,
+    "score_home": 30.0,
+    "score_draw": 28.0,
+    "score_away": 42.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. Both teams exhibit profoundly low-scoring profiles: Charlton have seen Over 2.5 goals in just 2 of 35 matches this season, Birmingham in only 4 of 36. The Tactician's match character prediction is 'Tight', the Archivist notes the H2H average is just 1.5 goals per game, and the cascading profile convergence shows moderate (50%) alignment on Under 2.5 Goals. (2) DIRECTION EVIDENCE — The mathematical foundation is robust: the Quant's Poisson baseline gives Under 2.5 a 70% probability, creating a 38.6% edge according to the EdgeCalculator. The Auditor validates this edge as credible, aligning with H2H history (9 of last 10 Under 2.5), Tactician's tight match prediction, and both teams' profiles. The λ sum (implied goal expectation) is low, supporting a sub-2.5 goals environment. (3) AGENTS CONSENSUS — Strong alignment exists on the under_goals direction. The Home Scout highlights Charlton's 'strong defensive record' and 'blunt attack'. The Away Scout notes Birmingham's low-scoring profile (Under 2.5 in 32 of 36 matches). The Archivist emphasises the 'notoriously low-scoring fixture'. The Tactician predicts a 'cagey, tactical affair with few clear chances'. The Auditor recommends Under 2.5 Goals as the confident bet. The Sceptic's NO_BET veto is overridden by the clear statistical edge (≥5%) and the qualitative consensus on low goals. The only dissent is the market's result pricing favouring Birmingham, but this does not contradict the goals thesis. (4) RISKS — The primary risk is Birmingham's documented late-goal threat (10 goals in 76-90 minutes) exploiting Charlton's fatigue vulnerability (13 conceded in same period), potentially pushing a 0-0 or 1-0 into 1-1 territory. Rotation risk due to Championship fixtures in four days for both sides adds uncertainty to team selection and intensity. The market's strong favouritism towards Birmingham suggests potential information not captured in recent form, though this relates to result, not goal totals.",
+    "key_factors": [
+      "Both teams have profoundly low-scoring seasonal profiles (Charlton 2/35 Over 2.5, Birmingham 4/36)",
+      "Head-to-head history shows 9 of last 10 meetings featured two goals or fewer",
+      "Quant's Poisson model gives Under 2.5 a 70% probability with a 38.6% edge",
+      "Tactician analysis predicts a 'tight, tactical affair' with defensive structures dominant",
+      "Cascading profile convergence shows moderate (50%) alignment on Under 2.5 Goals"
+    ],
+    "risk_factors": [
+      "Birmingham's late-goal threat (10 in 76-90 mins) vs Charlton's late vulnerability (13 conceded same period)",
+      "Rotation risk due to Championship fixtures in four days for both sides",
+      "Market strongly favours Birmingham (49% implied) suggesting potential information gap"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 1.75 Goals",
+        "prediction": "Under 1.75",
+        "confidence": 53
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 38.6,
+      "edge_source": "EdgeCalculator analysis",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 1.75 Goals",
+          "edge": 38.6
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 33.8
+        },
+        {
+          "market": "Under 2.75 Goals",
+          "edge": 27.2
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "Strong consensus on under_goals direction: Home Scout, Away Scout, Archivist, Tactician, Quant (Poisson), Auditor, and EdgeCalculator all signal a low-scoring match. The Sceptic dissents with a NO_BET recommendation due to market-scout divergence on result, but this is overridden by the statistical edge on goals markets.",
+    "_direction": "under_goals",
+    "_direction_conviction": "strong",
+    "_direction_ev": 1.0739,
+    "_direction_prob": 74.6,
+    "_direction_picked": true,
+    "_sceptic_veto_noted": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.52,
+    "max_edge": 38.6
+  },
+  "display_texts": {
+    "home_position": "#18 (41 pts, -11 GD)",
+    "away_position": "#11 (49 pts, +0 GD)",
+    "home_form": "10W-11D-14L in 35 matches, last 5: WDLLD",
+    "away_form": "13W-10D-13L in 36 matches, last 5: DWWLL",
+    "home_stats": "33 goals in 35 matches (avg 0.9/match), 11 clean sheets",
+    "away_stats": "46 goals in 36 matches (avg 1.3/match), 8 clean sheets",
+    "h2h_history": "Charlton 1-0 Birmingham (07 Mar 2026)\nBirmingham 1-1 Charlton (13 Dec 2025)\nBirmingham 1-0 Charlton (15 Feb 2025)\nCharlton 1-0 Birmingham (05 Oct 2024)\nCharlton 0-1 Birmingham (13 Aug 2024)",
+    "home_injuries": "R. Burke (Missing Fixture - Injury), J. Edwards (Missing Fixture - Ankle Injury), M. Godden (Missing Fixture - Hamstring Injury), H. Knibbs (Missing Fixture - Ankle Injury), A. Bell (Questionable - Inactive)",
+    "away_injuries": "L. Buchanan (Missing Fixture - Knee Injury), A. Cochrane (Missing Fixture - Ankle Injury), J. Beadle (Questionable - Inactive), K. Furuhashi (Questionable - Inactive)",
+    "api_predictions": "API-Football prediction: Charlton | Probabilities: 35%-35%-30% | Recommendation: Double chance : Charlton or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "WIN",
+    "label": "WIN",
+    "color": "#22c55e",
+    "pnl": 1.78,
+    "score": "1:0",
+    "market": "Under 1.75 Goals"
+  },
+  "script": {
+    "title": "Charlton vs Birmingham: The Championship's Most Predictable Match?",
+    "thumbnail_text": "THE GOALS LOCK",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when two of the Championship's most goal-shy teams meet? When the numbers tell a story so consistent, it becomes almost mathematical. Charlton have seen over two and a half goals in just two of their thirty-five matches this season. Birmingham? Only four times in thirty-six. This isn't just a trend—it's an identity. Tonight at The Valley, we're not looking for a winner. We're looking for the one number the bookmakers have misjudged.",
+    "chapter_home": "Charlton arrive at The Valley with a clear, stubborn identity. They are defensively solid but chronically short of goals, averaging just one goal per home game. Their three-five-two formation is built for clean sheets, with seven already secured in seventeen home matches. Yet a crippling injury list tells the other half of the story. Six players are absent, including key forwards Matt Godden and Harvey Knibbs. This depletes their attacking depth to the bone, forcing reliance on a confirmed starting eleven with limited options for change. Their recent home form shows flickers of life—two wins and a draw in the last five—but their underlying profile remains unchanged. They are a team that rarely fails to score at home, but even more rarely scores more than once. The big question is whether their rearguard can hold once more, or if fatigue from a punishing schedule of four matches in fourteen days finally cracks their resolve, especially in a period where they've conceded thirteen late goals.",
+    "chapter_away": "Birmingham City travel with a three-match losing streak and a narrative of sharp decline. Their away record is poor—just five wins from nineteen attempts—and their attack averages less than a goal per game on the road. Critically, their recent away form is not the strength some reports suggest; their actual record in the last five away matches is one win and four losses. Morale is low after a heavy home defeat, and with mid-table security assured, their motivation on the road is questionable. They also face fixture congestion, introducing rotation risk. Their tactical setup is a possession-based four-two-three-one, but it has yielded a profoundly low-scoring profile: thirty-two of their thirty-six matches have seen under two and a half goals. Their only notable strength is a late-goal threat, with ten of their forty-six goals coming in the final fifteen minutes—a direct clash with Charlton's greatest vulnerability.",
+    "chapter_history": "History between these sides paints a picture of relentless caution. This is a notoriously low-scoring fixture, averaging just one and a half goals per game over their meetings. Look closer, and the pattern intensifies: nine of the last ten clashes have featured two goals or fewer. Only one of those ten meetings saw over two and a half goals. The recent series shows a slight shift, with Charlton unbeaten in the last two, including a gritty one-nil home win decided by a seventy-fourth-minute goal. The historical narrative is clear: expect a tight, tactical, and low-event contest. The stakes are muted—Charlton seek safety, Birmingham mid-table comfort—which only reinforces the likelihood of a cagey affair without the desperation that often breeds goals.",
+    "chapter_analysis": "Synthesising these profiles creates a compelling case for scarcity. The Tactician predicts a 'tight' match character, with defensive structures dominant and few clear chances. Charlton's three centre-backs are set to nullify Birmingham's attacking midfield trio, while Birmingham's double pivot could control central areas. This is a stalemate in the making. The Sceptic raised a critical challenge: the market strongly favours Birmingham as winners, a direct contradiction to the scouts' assessment of an even match. This divergence creates uncertainty around the result, but not the goal total. The Boot Room overrides this concern because the evidence for low goals is overwhelming and multi-sourced. The key factors are unequivocal: both teams' seasonal profiles scream under, the head-to-head history confirms it, and the Poisson mathematical model gives under two and a half goals a seventy percent probability. The only risk is that late-game convergence—Birmingham's threat against Charlton's fatigue—could turn a goalless draw into a one-one, but even that keeps the scoreline low.",
+    "chapter_value": "Our market: Under one point seven five Goals. The bookmakers offer odds of two point seven eight. This price implies they see a thirty-six percent chance of this outcome. Our analysis, synthesising quantitative models and qualitative intelligence, gives it a seventy-four point six percent probability. That creates a thirty-eight point six percent edge—a significant mispricing. The Auditor validates this edge as credible, aligning with the historical data and tactical setup. While the market is efficiently priced for who might win, it has not correctly valued how many goals will be scored. In a match where both teams' identities are built on defensive solidity and blunt attacks, expecting more than one goal requires a leap of faith the data does not support.",
+    "ending": "The verdict is in. For Charlton versus Birmingham, the Boot Room market is Under one point seven five Goals at two point seven eight, with a fifty-eight percent confidence level. This is a play on the overwhelming statistical convergence, not on guessing a winner in a conflicted match. The numbers, the history, and the tactics all point to one outcome: a cagey, low-scoring affair. Do you agree with the read? Let us know in the comments below. If you found this analysis valuable, please subscribe and hit the notification bell for more data-driven breakdowns. Boot Room out.",
+    "roundup_summary": "Charlton versus Birmingham. The Addicks sit eighteenth in the Championship, with a recent form of one win, two draws, and two losses. Birmingham are eleventh, but their form is declining sharply with three consecutive losses. Charlton's home record shows resilience with two wins in their last five at The Valley, though they are hampered by six key injuries. Birmingham's away form is poor, with just one win in their last five on the road.\n\nThe head-to-head history is defined by low scores. The last ten meetings average just one point five goals per game, with nine of those ten featuring two goals or fewer. The most recent clash at The Valley in March 2026 was a one-nil Charlton win. This season, Charlton score one goal per home game and concede one point one two, while Birmingham average zero point eight nine goals scored and one point five three conceded away from home.\n\nThe Boot Room analysis identifies a thirty-eight point six percent edge on the Under one point seven five Goals market. The Quant's Poisson model gives Under two point five goals a seventy percent probability, creating this substantial value. The Sceptic's concern centred on a market divergence that heavily favoured Birmingham to win, contradicting scout assessments. This was overridden because the evidence for a low-scoring match is independent of the result direction—both teams' profiles and the historical data overwhelmingly support few goals. The bookmaker has mis-priced the goals market by underestimating the combined defensive strength and attacking bluntness of both sides, focusing efficiency on the result market instead.\n\nThe Boot Room market is Under one point seven five Goals at odds of two point seven eight. This requires the match to finish with one goal or fewer for a full win, or with exactly two goals for a half win. The confidence level is fifty-eight percent, supported by a strong mathematical edge and qualitative consensus. Boot Room market: Under one point seven five Goals. Confidence: 58%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Statistical Lock",
+        "voiceover": "Two of the Championship's most predictable teams meet. Charlton: over two and a half goals in just two of thirty-five matches. Birmingham: only four times in thirty-six. This isn't a coincidence—it's an identity. Tonight, we find the number the bookmakers have wrong.",
+        "graphic_type": "hook",
+        "graphic_description": "A stark, split-screen visual. Left side: Charlton badge with '2/35 Over 2.5 Goals' in bold. Right side: Birmingham badge with '4/36 Over 2.5 Goals'. A large padlock symbol dominates the centre.",
+        "graphic_text_overlay": "THE GOALS LOCK"
+      },
+      {
+        "scene": 2,
+        "name": "Charlton's Blunt Edge",
+        "voiceover": "Charlton's strength is their stubborn defence—seven home clean sheets. But their attack is crippled. Six key absences, including forwards Godden and Knibbs, leave them with no depth. They average one goal per home game. Their system is built to not lose, not to win big.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dimly lit image of The Valley. Charlton's 3-5-2 formation diagram is overlaid, with red crosses over the forward positions. Key stats: '1.0 Goals/Home Game', '7 Home Clean Sheets', '6 Players Injured'.",
+        "graphic_text_overlay": "DEFENCE ONLY"
+      },
+      {
+        "scene": 3,
+        "name": "Birmingham's False Dawn",
+        "voiceover": "Birmingham travel with three straight losses and a critical error in their story. Reports of recent away wins are false—their real record is one win in five. Morale is low, motivation is questionable. They too have a blunt attack, with under two point five goals in thirty-two of thirty-six games.",
+        "graphic_type": "away_card",
+        "graphic_description": "A Birmingham player looking dejected, head down. A graph arrow points sharply downwards. Text highlights: '3 Straight Losses', '1 Win in Last 5 Away', '32/36 Under 2.5 Goals'.",
+        "graphic_text_overlay": "DECLINE & BLUNTNESS"
+      },
+      {
+        "scene": 4,
+        "name": "A History of Silence",
+        "voiceover": "When these teams meet, goals vanish. Nine of the last ten meetings featured two goals or fewer. The average? Just one point five per game. This is a fixture with a historical DNA of caution—a pattern that tonight's context of muted stakes only reinforces.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "A timeline of the last ten Charlton-Birmingham matches. Most are highlighted with a low score like 1-0 or 0-0. One game with a higher score is greyed out. Large text: '9/10 UNDER 2.5 GOALS'.",
+        "graphic_text_overlay": "9 OF LAST 10"
+      },
+      {
+        "scene": 5,
+        "name": "The Market's Blind Spot",
+        "voiceover": "The Sceptic saw a conflict: the market heavily favours Birmingham to win. But that's a red herring for goals. Our models see a seventy percent chance of under two point five goals—a thirty-eight point six percent edge. The bookmakers priced the winner, but mis-priced the total.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A betting slip showing 'Birmingham to Win' with a green tick. Next to it, a slip showing 'Under 2.5 Goals' with a large red 'X'. In the centre, the Poisson formula outputs '70% Probability | 38.6% Edge'.",
+        "graphic_text_overlay": "MISPRICED TOTAL"
+      },
+      {
+        "scene": 6,
+        "name": "The Boot Room Verdict",
+        "voiceover": "Our market: Under one point seven five Goals. Odds at two point seven eight. Our confidence is fifty-eight percent. In a clash of two defensive, low-scoring identities, the value lies in expecting nothing to happen. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold typography. 'BOOT ROOM MARKET' header. Central: 'UNDER 1.75 GOALS @ 2.78'. Footer: 'CONFIDENCE: 58%'. A subtle, faint background texture of a football pitch.",
+        "graphic_text_overlay": "UNDER 1.75 GOALS"
+      }
+    ]
+  }
+}

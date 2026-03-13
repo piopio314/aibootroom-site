@@ -1,0 +1,173 @@
+{
+  "key": "20260308_Preußen_Münster_vs_Hertha_BSC__ds_v3_stream",
+  "match": {
+    "home_team": "Preußen Münster",
+    "away_team": "Hertha BSC",
+    "league": "2. Bundesliga",
+    "date": "2026-03-08",
+    "home_id": 1313,
+    "away_id": 159
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 32.0,
+    "score_draw": 25.0,
+    "score_away": 43.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading form profiles show overwhelming convergence: Hertha BSC's away profile has 100% Over 2.5 Goals suitability (7/7), while Preußen Münster's home defence concedes 1.75 goals per match with 0 clean sheets in their last five. Both teams exhibit potent late-game attacks, with 16 of their combined 63 goals coming in the 76-90' period. The Tactician's analysis confirms an 'open and transitional' character with both teams' defensive weaknesses creating conditions for multiple scoring opportunities. (2) DIRECTION EVIDENCE — The mathematical evidence is exceptionally strong. The Edge Calculator shows a 38.7% edge on Over 3.25 Goals with our probability at 77.5% versus market odds of 2.58. The Auditor's adjusted probabilities place Over 2.5 Goals at 65% and Over 3.5 at 45%. Cascading profile convergence shows 57% alignment on Over 2.5 Goals, but more importantly, both teams have 100% BTTS convergence (6/6 each), indicating systemic defensive vulnerability. Hertha's recent away matches average 5.0 total goals, while Münster's home matches average 2.75. (3) AGENTS CONSENSUS — The Tactician, Auditor, and Edge Calculator all strongly support high scoring. The Sceptic's CRITICAL challenge actually reinforces this direction by highlighting both teams' 'systemic defensive vulnerability' and noting the market underestimation of Hertha's attack. The Archivist's goals pattern shows 'moderate-scoring with frequent BTTS'. Only the Quant shows no value bets, but this is due to missing O/U market pricing, not contradictory evidence. (4) RISKS — The primary risk is that Hertha's off-field turmoil leads to a disjointed, low-intensity performance. Münster's poor home attacking record (1.0 goals per match recently) could limit their contribution if Hertha's defence performs unexpectedly well. The 0-0 draw in their last meeting shows a low-scoring outcome is possible, though that was an outlier in their historical pattern.",
+    "key_factors": [
+      "Hertha's away attack averages 2.5 goals per match in their last five away games",
+      "Preußen Münster have 0 clean sheets in their last five home matches",
+      "Both teams score heavily in the 76-90' period (Münster 7 goals, Hertha 9 goals)",
+      "Cascading profiles show 100% BTTS convergence for both teams"
+    ],
+    "risk_factors": [
+      "Hertha's off-field turmoil and managerial uncertainty could affect performance intensity",
+      "Münster's poor home attacking record (1.0 goals per match) may limit goal contribution"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75",
+        "confidence": 68
+      },
+      {
+        "market": "Both Teams to Score - Yes",
+        "prediction": "BTTS Yes",
+        "confidence": 73
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 38.7,
+      "edge_source": "Edge Calculator probability minus market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 38.7
+        },
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 29.4
+        },
+        {
+          "market": "Over 2.25 Goals",
+          "edge": 18.1
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Tactician, Auditor, Edge Calculator, and Sceptic all align on a high-scoring match direction. The Tactician predicts 'open and transitional' play, the Auditor validates the mathematical edge on Over markets, and the Sceptic's critique reinforces the defensive vulnerabilities. The Archivist's goals pattern supports moderate-scoring with BTTS. Only the Quant shows no explicit value bets due to missing O/U pricing, but doesn't contradict the evidence.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.94,
+    "max_edge": 38.7
+  },
+  "display_texts": {
+    "home_position": "#13 (26 pts, -7 GD)",
+    "away_position": "#7 (37 pts, +5 GD)",
+    "home_form": "6W-8D-10L in 24 matches, last 5: LDWWL",
+    "away_form": "10W-7D-7L in 24 matches, last 5: LDDLW",
+    "home_stats": "29 goals in 24 matches (avg 1.2/match), 2 clean sheets",
+    "away_stats": "34 goals in 24 matches (avg 1.4/match), 11 clean sheets",
+    "h2h_history": "Preußen Münster 0-0 Hertha BSC (08 Mar 2026)\nHertha BSC 2-1 Preußen Münster (04 Oct 2025)\nPreußen Münster 0-0 Hertha BSC (18 Aug 2025)\nPreußen Münster 2-0 Hertha BSC (09 May 2025)\nHertha BSC 1-2 Preußen Münster (13 Dec 2024)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Hertha BSC | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Hertha BSC",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:2",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Why Hertha's Attack vs Münster's Defence is a NO BET",
+    "thumbnail_text": "SKIP THIS FIXTURE",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a team that cannot keep a clean sheet at home faces an attack that scores two and a half goals per away match? On paper, this looks like a mathematical certainty for goals. The data screams for action. Yet The Boot Room tribunal has reached a unanimous verdict that might surprise you. This is not a story about what to back — it is a story about why we walk away.",
+    "chapter_home": "Preußen Münster arrive at the Preußenstadion with a clear and concerning identity. They are draw specialists, especially on home soil, with six draws from twelve home matches this season. Their form is stable but underwhelming, rooted in an inability to convert competitive performances into victories. More critically, their defence is a persistent weakness. They have kept just one clean sheet in twelve home matches, conceding an average of one point seven five goals in their last five. Their tactical setup is a narrow 4-3-1-2 diamond, designed to congest the midfield, but it leaves them vulnerable on the flanks. While they possess a potent late-game threat — scoring seven of their twenty-nine goals in the final fifteen minutes — their overall home attacking output is just one goal per match recently. Internal morale may have improved after resolving a captaincy dispute, and a near-capacity crowd could provide energy, but the fundamental defensive fragility remains their defining characteristic.",
+    "chapter_away": "Hertha BSC travel to Münster with European ambitions and a potent attack, but their journey is clouded by internal uncertainty. Positioned seventh and chasing promotion playoffs, their away scoring rate of one point nine one goals per match is formidable. In their last five away fixtures, that average jumps to two point five goals. They deploy a 4-2-3-1 formation that excels at exploiting width, a direct counter to Münster's narrow diamond. Nine of their thirty-four goals this season have come between the seventy-sixth and ninetieth minutes, mirroring their opponent's late threat. However, their defence is suspect, conceding one point three six goals per away match and shipping five in their last away outing at Paderborn. Off-field turmoil adds a layer of risk; a new sporting director, a squad rebuild, and uncertainty over manager Leitl's future create potential for a disjointed performance. Their morale is described as fragile, making their potent attack a powerful but unpredictable weapon.",
+    "chapter_history": "The head-to-head record tells a story of the underdog holding a surprising edge. Preußen Münster have won fifty percent of all meetings against their more established opponents, including three of the last five. However, Hertha are unbeaten in the last two encounters, with the most recent meeting in March ending in a rare goalless draw — the first 0-0 stalemate in their recent history. Historically, this is a moderate-scoring fixture with frequent Both Teams to Score outcomes; exactly half of the meetings have seen over two point five goals. While history favours the home underdog, current stakes are different. Hertha arrive with high motivation for European football, while Münster play with mid-table freedom — a dangerous combination for any favourite.",
+    "chapter_analysis": "The tactical and analytical convergence on this match is overwhelmingly clear. The Tactician predicts an 'open and transitional' match character, with Hertha's width exploiting Münster's narrow diamond. Both teams share a critical vulnerability: neither can defend reliably late in games. Münster have conceded eight goals in the final fifteen minutes this season, while Hertha have scored nine in that same window. This creates a perfect storm for late drama. The Sceptic delivered a critical challenge, identifying that the Away Scout severely underestimated Hertha's win probability at twenty-seven percent against a mathematical baseline of sixty-one point three percent. This flaw actually revealed a potential market undervaluation of Hertha's attack. The Edge Calculator identified a thirty-eight point seven percent edge on Over three point two five Goals, with our probability at seventy-seven point five percent versus market odds of two point five eight. The Auditor validated this, adjusting probabilities to show a sixty-five percent chance for Over two point five Goals. The cascading form profiles show one hundred percent convergence for Both Teams to Score for both sides. Every signal points toward goals.",
+    "chapter_value": "Our market: NO BET. Here is the paradox. The directional evidence for a high-scoring match is exceptionally strong. The mathematical edge on Over three point two five Goals is substantial at thirty-eight point seven percent. Yet, after applying our strict filters — requiring a minimum odds threshold of one point seven zero and a strong conviction — no qualifying line emerges. The market for Asian handicaps is efficiently priced, with the Quant showing zero probability gaps. While Over markets show value, they do not meet our staking criteria for a recommended play. Sometimes the data reveals a clear story but offers no viable entry point. This is one of those fixtures. The bookmakers have not left a door open that we are willing to walk through.",
+    "ending": "The Boot Room verdict is to pass on Preußen Münster versus Hertha BSC. We acknowledge the compelling narrative for goals, driven by systemic defensive weaknesses and potent late attacks. However, our discipline requires us to act only when value is clear and quantifiable across all our agents. Tonight, that threshold is not met. The smart move is to watch, learn, and wait for a clearer opportunity. If you found this analytical walkthrough valuable, subscribe to The Boot Room for more forensic match breakdowns. Hit the notification bell so you never miss a verdict. Boot Room out.",
+    "roundup_summary": "Preußen Münster versus Hertha BSC. The hosts sit thirteenth in the 2. Bundesliga with a stable but poor home form, failing to win any of their last five at the Preußenstadion while conceding one point seven five goals per match. Hertha BSC are seventh, with strong European ambitions, showcasing a potent away attack that has averaged two point five goals in their last five road trips. A key absentee list is unclear for both sides, but squad depth appears adequate.\n\nThe head-to-head history reveals Preußen Münster's surprising edge, winning fifty percent of all meetings, including three of the last five. The most recent clash in March 2026 ended 0-0, an outlier in a fixture that averages two goals per meeting. This season, Hertha score one point nine one goals per away game but concede one point three six, while Münster score one point zero eight at home and concede one point five eight. Recent meetings show a moderate-scoring trend with frequent Both Teams to Score outcomes.\n\nThe Boot Room analysis identifies a thirty-eight point seven percent mathematical edge on Over three point two five Goals, with our Poisson probability at seventy-seven point five percent versus market odds of two point five eight. The Quant showed no edge on Asian handicap markets, with all Poisson probabilities matching market-implied probabilities exactly, indicating efficiency. The Sceptic's critical challenge highlighted the Away Scout's severe underestimation of Hertha's win probability at twenty-seven percent versus a sixty-one point three percent baseline, a flaw that actually reinforced the high-scoring direction. The bookmaker has efficiently priced the result markets, leaving no mis-pricing on Asian lines, while the strong value on Over markets fails to meet our strict odds and conviction filters for a recommended play. The Auditor's effective confidence for the high-scoring direction sits at sixty-two percent.\n\nThe tribunal consensus points to a high-probability, high-scoring match but finds no qualifying value bet that passes our risk-adjusted criteria. Therefore, the verdict is to pass. Boot Room market: NO BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Late-Game Trap",
+        "voiceover": "Two teams. One shared fatal flaw. Both Preußen Münster and Hertha BSC are at their most dangerous — and most vulnerable — in the final fifteen minutes. Münster have scored seven goals in that window this season. Hertha have scored nine. But Münster have also conceded eight during that same period. This fixture is a countdown to chaos.",
+        "graphic_type": "hook",
+        "graphic_description": "A dramatic split-screen showing two stadium clocks both ticking to 75:00, with one side showing a Münster player celebrating a goal and the other showing a Hertha player conceding head in hands.",
+        "graphic_text_overlay": "COUNTDOWN TO CHAOS"
+      },
+      {
+        "scene": 2,
+        "name": "Münster's Home Reality",
+        "voiceover": "The Preußenstadion should be a fortress. Instead, it is a sieve. In their last five home matches, Münster have zero wins and zero clean sheets. They concede nearly two goals per game. Their narrow diamond formation creates a midfield logjam but surrenders the flanks — the exact space Hertha's attack is built to exploit.",
+        "graphic_type": "home_card",
+        "graphic_description": "A visual of the Preußenstadion with a large, cracked shield emblem in the foreground, symbolising their broken defence. Stats float around: '0 clean sheets in last 5 home', 'Avg Conceded: 1.75'.",
+        "graphic_text_overlay": "ZERO CLEAN SHEETS"
+      },
+      {
+        "scene": 3,
+        "name": "Hertha's Berlin Wall of Doubt",
+        "voiceover": "Hertha travel with a formidable attack, averaging two and a half goals per away match recently. Yet they are a club walking a tightrope. A new sporting director, a squad rebuild, and a manager under pressure. That potent attack is shadowed by a defence that conceded five goals in their last away game and a cloud of internal uncertainty.",
+        "graphic_type": "away_card",
+        "graphic_description": "A silhouette of the Berlin skyline with a Hertha player in focus, but the image is partially obscured by swirling grey clouds and question marks. Key stats: 'Attack: 2.5 goals/away', 'Last Away: Conceded 5'.",
+        "graphic_text_overlay": "ATTACK VS. TURMOIL"
+      },
+      {
+        "scene": 4,
+        "name": "The Mathematical Certainty",
+        "voiceover": "The numbers are not subtle. Our Edge Calculator shows a thirty-eight point seven percent edge on Over three point two five Goals. Our probability is seventy-seven point five percent. The Auditor validates a sixty-five percent chance for Over two point five. Both teams' form profiles show one hundred percent convergence for Both Teams to Score. The data screams for goals.",
+        "graphic_type": "evidence",
+        "graphic_description": "A clean, analytical dashboard-style graphic showing the Edge Calculator output: 'Over 3.25 Goals', 'Our Prob: 77.5%', 'Market Odds: 2.58', 'EDGE: 38.7%' in bold, highlighted green.",
+        "graphic_text_overlay": "38.7% EDGE"
+      },
+      {
+        "scene": 5,
+        "name": "The Market's Closed Door",
+        "voiceover": "Here is the paradox. The story is clear, but the door is locked. Our Quant finds the Asian handicap markets perfectly efficient — zero probability gaps. While Over markets show value, they do not meet our strict staking criteria. The bookmakers have left no viable entry point that passes all our filters. The clearest signal sometimes tells you to wait.",
+        "graphic_type": "conflict",
+        "graphic_description": "An image of a vault door labelled 'VALUE' being closed and locked. A green 'GOALS' arrow tries to push through but is blocked. Text on the door reads 'Market Efficiency'.",
+        "graphic_text_overlay": "VALUE LOCKED"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO BET. Confidence: zero percent. The evidence for a high-scoring match is overwhelming, but no qualifying line offers the risk-adjusted value we demand. Discipline over instinct. We pass on Preußen Münster versus Hertha BSC. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final graphic with The Boot Room logo. Large, clear text: 'VERDICT: NO BET', 'CONFIDENCE: 0%'. Smaller text below: 'Market: Pass. Edge identified but no qualifying line.'",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

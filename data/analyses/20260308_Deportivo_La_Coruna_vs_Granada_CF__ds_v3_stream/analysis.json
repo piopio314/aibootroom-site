@@ -1,0 +1,169 @@
+{
+  "key": "20260308_Deportivo_La_Coruna_vs_Granada_CF__ds_v3_stream",
+  "match": {
+    "home_team": "Deportivo La Coruna",
+    "away_team": "Granada CF",
+    "league": "Segunda División",
+    "date": "2026-03-08",
+    "home_id": 544,
+    "away_id": 715
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 50.5,
+    "score_draw": 28.0,
+    "score_away": 21.5,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The cascading form profiles show both teams averaging just 2.4 total goals per match in their last five games, with Deportivo's home defence worsening and Granada's away defence also deteriorating but in a low-scoring context. The Tactician explicitly characterises the match as 'Tight' and predicts 'fewer goals than average'. The historical head-to-head baseline of 2.0 goals per meeting and a 30% Over 2.5 rate reinforces this defensive character. (2) DIRECTION EVIDENCE — The strongest evidence comes from the cascading profile convergence, which shows a STRONG 64% alignment on Under 2.5 Goals. This objective, data-derived signal outweighs individual agent opinions. The Auditor's adjusted probabilities place Under 2.5 at 64%, directly aligning with this convergence. The Tactician's analysis notes both teams' low-scoring tendencies, and the Archivist highlights the fixture's historical low-scoring nature. The Sceptic correctly identified this as the most important overlooked factor. (3) AGENTS CONSENSUS — The Archivist, Tactician, Sceptic, and Auditor all provide evidence supporting a low-scoring outcome. The Scouts' reports, while focusing on team narratives, show Deportivo's 46% home win rate and Granada's 23% away win rate, indicating struggles to dominate, which often correlates with tighter matches. The Quant's methodology note explicitly mentions the 'strong convergence on Under 2.5 Goals (64%)'. The only dissent comes from the Edge Calculator's mathematical model, which shows strong value on Over markets. However, the Auditor has flagged this as fundamentally contradicted by all qualitative and historical data, rendering it unreliable for this match. (4) RISKS — The primary risk is the timing mismatch: Granada's early attacking threat (15 goals in first 30 minutes) against Deportivo's vulnerable opening period could produce an early goal that opens the game. Deportivo's late-game potency (13 goals in final 15 minutes) against Granada's second-half defensive decline could also lead to a late flurry. Both teams' high-stakes motivation could override cautious approaches. However, the weight of evidence from form, history, and tactical analysis suggests these are contained risks within a low-scoring framework.",
+    "key_factors": [
+      "STRONG 64% convergence on Under 2.5 Goals from cascading form profiles",
+      "Historical head-to-head average of just 2.0 goals per meeting with 30% Over 2.5 rate",
+      "Tactician's 'Tight' match character prediction and 'fewer goals than average' assessment",
+      "Both teams' recent form showing identical 2.4 total goals per match averages"
+    ],
+    "risk_factors": [
+      "Timing mismatch: Granada's early threat vs Deportivo's early vulnerability",
+      "High-stakes context could override cautious tactical approaches",
+      "Edge Calculator's mathematical model contradicts the low-scoring consensus"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.75 Goals",
+        "prediction": "Under 2.75",
+        "confidence": 62
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": -21.8,
+      "edge_source": "Auditor adjusted probability minus market implied probability",
+      "edge_grade": "NO_VALUE",
+      "staking_signal": "MARGINAL",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 20.6
+        },
+        {
+          "market": "Over 2.25 Goals",
+          "edge": 18.3
+        },
+        {
+          "market": "AH Away 1.25",
+          "edge": 13.6
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Archivist, Tactician, Sceptic, and Auditor all provide evidence supporting a low-scoring outcome, with the cascading profile convergence (64% on Under 2.5) serving as the strongest objective signal. The Scouts' narratives, while not explicitly focused on goals, describe teams struggling for dominance. Only the Edge Calculator's mathematical model dissents, but this has been invalidated by the Auditor due to fundamental contradictions with all other data sources.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 20.6
+  },
+  "display_texts": {
+    "home_position": "#4 (49 pts, +13 GD)",
+    "away_position": "#17 (32 pts, -1 GD)",
+    "home_form": "14W-7D-7L in 28 matches, last 5: WDDWW",
+    "away_form": "7W-11D-10L in 28 matches, last 5: LLLDL",
+    "home_stats": "44 goals in 28 matches (avg 1.6/match), 8 clean sheets",
+    "away_stats": "32 goals in 28 matches (avg 1.1/match), 8 clean sheets",
+    "h2h_history": "Deportivo La Coruna 0-0 Granada CF (08 Mar 2026)\nGranada CF 1-3 Deportivo La Coruna (16 Aug 2025)\nDeportivo La Coruna 2-3 Granada CF (17 May 2025)\nGranada CF 1-1 Deportivo La Coruna (07 Sep 2024)\nGranada CF 0-1 Deportivo La Coruna (10 Feb 2019)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Deportivo La Coruna | Probabilities: 45%-45%-10% | Recommendation: Double chance : Deportivo La Coruna or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "0:2",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Deportivo vs Granada: The Low-Scoring Trap",
+    "thumbnail_text": "NO BET ALERT",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a promotion-chasing side with late-game potency meets a relegation-threatened team with early attacking threat? The data suggests a low-scoring stalemate. But here's the problem — the bookmakers have priced it perfectly. Tonight, we're not finding an edge. We're finding a market that's too smart for its own good.",
+    "chapter_home": "Deportivo La Coruna arrive at Riazor with momentum, sitting fourth in the Segunda División and winning four of their last five matches. Their narrative is one of late-game potency — thirteen of their forty-four goals have come in the final fifteen minutes, showcasing remarkable fitness and persistence. They operate in a 4-2-3-1 formation, providing a solid base in midfield. Yet, their home record tells a different story — a win rate of only forty-six percent suggests inconsistency on their own patch. They've failed to score in three of thirteen home matches and show defensive vulnerability in the opening fifteen minutes, conceding six goals in that period. The Scout's report of 'rising' form was challenged by The Sceptic, who pointed to declining home momentum with a record of two wins, one draw, and one loss in their last four at Riazor. Their mathematical baseline suggests a sixty-four percent home win probability, but reality paints a picture of a team that struggles to translate general form into home dominance.",
+    "chapter_away": "Granada CF travel with their season on the line, sitting seventeenth and deep in a relegation scrap. Their away form is a major concern — just three wins from thirteen road trips and a twenty-three percent win rate on their travels. They've lost three of their last five matches and their defence consistently leaks goals after half-time, conceding twenty of their thirty-three goals after the forty-sixth minute. Their tactical setup is a 4-3-3, offering numerical superiority in midfield. Their one clear strength is an early attacking threat — fifteen of their thirty-two goals have come in the first thirty minutes. They arrive with eight days' rest, potentially mitigating fixture congestion, but morale is likely low following a derby defeat to Málaga. The mathematical baseline gives them just a sixteen percent chance of an away win, aligning perfectly with their season-long struggles. This is a team defined by desperation and defensive fragility.",
+    "chapter_history": "The history between these sides reveals a clear pattern — stalemates and low scores. Of their ten meetings, forty percent have ended in draws. Deportivo hold a slight edge with three wins to Granada's two. The average goals per meeting is just two, with only three of those ten encounters producing over 2.5 goals. The most recent meeting in March 2026 ended in a goalless stalemate, continuing the fixture's tight character. This historical baseline of cagey, closely-fought contests creates a powerful narrative that both managers must consider, especially given the high stakes of their current league positions.",
+    "chapter_analysis": "The tactical matchup pits Deportivo's 4-2-3-1 against Granada's 4-3-3. The key battles revolve around timing. Granada's early attacking threat — fifteen goals in the first thirty minutes — directly confronts Deportivo's vulnerable opening period. Conversely, Deportivo's late-game potency — thirteen goals in the final fifteen — meets Granada's second-half defensive decline. The Tactician characterises this as a 'Tight' match, predicting fewer goals than average. This is supported by cascading form profiles showing both teams averaging just 2.4 total goals per match in their last five games. The data shows a strong sixty-four percent convergence on Under 2.5 Goals. The Sceptic's main critique was that this overwhelming low-scoring signal was overlooked in all qualitative reports. However, a fundamental contradiction emerged. The Edge Calculator's mathematical model showed a twenty-point-six percent edge on Over 2.75 Goals. The Auditor flagged this as fundamentally unreliable, contradicted by all historical, tactical, and form-based evidence pointing toward a low-scoring match.",
+    "chapter_value": "Our market: NO_BET. The Boot Room's analysis confirms a strong directional bias toward a low-scoring affair. The historical average of two goals, the sixty-four percent convergence on Under 2.5, and the tactical 'tight' character all align. Yet, when we apply our filters — requiring strong conviction and odds at or above 1.70 — no qualifying line emerges. The Auditor's adjusted probability for Under 2.5 Goals sits at sixty-four percent, but the market-implied probability is nearly identical, creating an edge of negative twenty-one point eight percent. The Asian handicap markets show perfect efficiency, with Poisson probabilities matching market prices exactly. Sometimes the smartest play is recognising when the market has priced a narrative correctly. Tonight, that narrative is priced in.",
+    "ending": "The Boot Room verdict is clear: pass on this fixture. The evidence overwhelmingly points to a low-scoring match, but the bookmakers' lines reflect that reality with near-perfect accuracy. There is no mathematical edge to exploit, no mispricing to capitalise on. In the Segunda División, where Deportivo's late surges meet Granada's early threats, the value has been squeezed out. Remember, disciplined betting means knowing when to walk away. If you found this analysis valuable, subscribe to the AI Boot Room for more data-driven breakdowns. Boot Room out.",
+    "roundup_summary": "Deportivo La Coruna versus Granada CF. Fourth hosts seventeenth in a Segunda División clash defined by opposing pressures. Deportivo arrive with four wins from their last five, though their home form shows inconsistency with a forty-six percent win rate. Granada's form is declining with three losses in five, and their away record is poor with just three wins from thirteen trips. Both squads report no significant injuries.\n\nThe head-to-head history reveals a pattern of tight contests. Forty percent of meetings end level, with an average of just two goals per match. Only three of the last ten encounters have produced over 2.5 goals. The most recent meeting in March 2026 finished goalless. This season, Deportivo average 1.7 goals scored and 1.1 conceded per match, while Granada average 1.1 scored and 1.2 conceded, reinforcing the low-scoring trend.\n\nThe Boot Room analysis identified a strong sixty-four percent convergence on Under 2.5 Goals from cascading form profiles, with both teams averaging 2.4 total goals in their last five matches. The Poisson λ values and Quant assessment showed no gaps of five percentage points or more across Asian handicap markets, indicating perfect market efficiency. The Sceptic's concern was that this low-scoring signal was overlooked in qualitative reports, though it was the dominant data point. The Auditor invalidated the Edge Calculator's contradictory twenty-point-six percent edge on Over 2.75 Goals, citing fundamental misalignment with historical and tactical evidence. The bookmaker has efficiently priced the low-scoring narrative, leaving no value on Under markets where the consensus lies.\n\nThe Boot Room finds no qualifying value bet meeting its conviction and odds filters. The adjusted probability for Under 2.5 Goals is sixty-four percent, but the market-implied probability creates a negative twenty-one point eight percent edge. With Asian handicap lines showing perfect pricing alignment, the recommendation is to avoid this fixture. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Contradiction",
+        "voiceover": "The data screams one story — a sixty-four percent convergence on a low-scoring match. Yet one mathematical model screams the opposite — a twenty-point-six percent edge on goals flying in. This is the core tension of Deportivo versus Granada. Which signal do you trust?",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side shows 'UNDER 2.5 - 64%' in cool blue. Right side shows 'OVER 2.75 - +20.6% EDGE' in fiery red, with a large question mark between them.",
+        "graphic_text_overlay": "WHICH SIGNAL?"
+      },
+      {
+        "scene": 2,
+        "name": "Home: Late Surge, Early Leak",
+        "voiceover": "Deportivo La Coruna are defined by timing. They score thirty percent of their goals in the final fifteen minutes — a testament to fitness and persistence. But they leak goals in the first fifteen. This creates a dangerous window for their opponent.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dynamic graphic focused on Deportivo. A clock face highlights the 76-90 minute segment glowing. A separate, smaller clock shows the 1-15 minute segment with a crack in it.",
+        "graphic_text_overlay": "FINAL PUSH, EARLY LEAK"
+      },
+      {
+        "scene": 3,
+        "name": "Away: Early Threat, Late Collapse",
+        "voiceover": "Granada CF are the mirror image. Nearly half of their goals come in the first thirty minutes — an explosive early threat. But their defence collapses after half-time, conceding twenty of thirty-three goals in the second period. Their strength and weakness are perfectly misaligned with Deportivo's.",
+        "graphic_type": "away_card",
+        "graphic_description": "A graphic focused on Granada. A bold arrow points to the first 30 minutes of a match timeline. The second half of the timeline is shaded red and crumbling.",
+        "graphic_text_overlay": "FAST START, FADING FINISH"
+      },
+      {
+        "scene": 4,
+        "name": "The History of Stalemates",
+        "voiceover": "The past tells a clear story. Forty percent of meetings end in draws. The average is just two goals per game. Only three of ten clashes have seen over two and a half goals. History paints this as a fixture of caution and containment.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "A classic head-to-head timeline showing the last several meetings. Most results are 1-0, 0-0, 1-1. A large '40%' is overlaid with the word 'DRAWS'.",
+        "graphic_text_overlay": "40% DRAWS"
+      },
+      {
+        "scene": 5,
+        "name": "The Auditor's Verdict",
+        "voiceover": "The Boot Room's Auditor stepped in. The model showing value on Over goals was fundamentally contradicted by every other data source — history, tactics, and current form. It was invalidated. The true signal was the overwhelming sixty-four percent probability of a low-scoring game.",
+        "graphic_type": "evidence",
+        "graphic_description": "A stamp reading 'INVALIDATED' slams down over a chart showing the Over 2.75 edge. In the background, icons for history (scroll), tactics (chess piece), and form (graph) shine brightly.",
+        "graphic_text_overlay": "MODEL INVALIDATED"
+      },
+      {
+        "scene": 6,
+        "name": "The Efficient Market",
+        "voiceover": "So we have our direction — under. But here's the catch. The market knows. The Asian handicap lines show perfect pricing efficiency. The Auditor's adjusted probability for Under 2.5 is sixty-four percent. The market's price? Almost identical. The edge is negative twenty-one point eight. Our market: NO_BET. Confidence: zero percent. Sometimes, the smartest bet is no bet at all. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, final graphic. The text 'NO BET' is central and bold. Below, smaller text reads 'Under 2.5 | Adj. Prob: 64% | Market Edge: -21.8%'. The AI Boot Room logo is present.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

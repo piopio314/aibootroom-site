@@ -1,0 +1,180 @@
+{
+  "key": "20260313_Radomiak_Radom_vs_Legia_Warszawa__ds_v3_stream",
+  "match": {
+    "home_team": "Radomiak Radom",
+    "away_team": "Legia Warszawa",
+    "league": "Ekstraklasa",
+    "date": "2026-03-13",
+    "home_id": 4248,
+    "away_id": 339
+  },
+  "prediction": {
+    "direction": "away_value",
+    "direction_conviction": "moderate",
+    "selected_market": "AH Away -0.75",
+    "prediction": "AH Away -0.75",
+    "confidence": 63,
+    "confidence_gate": "APPROVE",
+    "odds_target": 2.72,
+    "score_home": 32.0,
+    "score_draw": 26.3,
+    "score_away": 41.7,
+    "reasoning": "(1) MATCH CHARACTER — ASYMMETRIC. While both teams face crises, Legia's superior recent form (2W-3D-0L last five) and Radomiak's managerial chaos create a clear performance differential. The cascading profiles show Legia with a 40% win rate versus Radomiak's 0/5 win suitability, while both teams' defensive vulnerabilities point toward goals rather than a defensive battle. (2) DIRECTION EVIDENCE — The mathematical edge strongly supports away value: EdgeCalculator shows a 13.0% edge on AH Away -0.5, the highest among all markets. The Auditor validates this as credible, supported by Legia's improving form versus Radomiak's crisis. Market convergence shows Legia with a 3/5 win profile while Radomiak scores 0/5. The Tactician notes Legia's transition threat against Radomiak's defensive vulnerabilities, and the Sceptic corrected the Away Scout's excessive pessimism on Legia's chances. (3) AGENTS CONSENSUS — The Quant's mathematical model, Auditor's validation, EdgeCalculator's strong edge, and Sceptic's correction of Scout mispricing all align on Legia value. The Tactician's NEUTRAL edge doesn't contradict this direction. The Home Scout's inflated 55% win probability for Radomiak was critically challenged by the Sceptic and contradicted by market pricing (32% implied). The Archivist notes historical Legia dominance (6 wins from 10) and zero draws in H2H. (4) RISKS — Legia's chronic away inability to win (8% season rate) remains a psychological barrier despite improved form. Radomiak's strong historical home record (58% win rate) could resurface despite current turmoil. Both teams' defensive crises could lead to a chaotic, unpredictable match rather than controlled away dominance. The absence of detailed injury data for key players adds uncertainty.",
+    "key_factors": [
+      "Legia's superior recent form (2W-3D-0L) versus Radomiak's crisis (0/5 win suitability)",
+      "Mathematical edge of 13.0% on AH Away -0.5 validated by Auditor",
+      "Market convergence shows Legia with 3/5 win profile versus Radomiak's 0/5",
+      "Sceptic correction of Scout mispricing aligns Legia probability closer to market",
+      "Radomiak's managerial chaos and defensive vulnerabilities against Legia's transition threat"
+    ],
+    "risk_factors": [
+      "Legia's chronic away win inability (8% season rate) despite improved form",
+      "Radomiak's historical home strength could resurface despite current turmoil",
+      "Both teams' defensive crises could create chaotic, unpredictable match flow"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75",
+        "confidence": 58
+      },
+      {
+        "market": "AH Away -0.75",
+        "prediction": "Legia Warszawa -0.75",
+        "confidence": 56
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 13.0,
+      "edge_source": "EdgeCalculator our_prob (56.7%) minus market implied probability (43.7%)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away -0.5",
+          "edge": 13.0
+        },
+        {
+          "market": "AH Away -1.25",
+          "edge": 8.6
+        },
+        {
+          "market": "AH Away -0.75",
+          "edge": 8.4
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Quant, Auditor, EdgeCalculator, and Sceptic (after correcting Scout mispricing) align on Legia value, supported by the Archivist's historical context. The Tactician is neutral but doesn't contradict. The Home Scout's inflated Radomiak probability is isolated and critically challenged.",
+    "_direction": "away_value",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 1.1243,
+    "_direction_prob": 78.1,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.52,
+    "max_edge": 13.0
+  },
+  "display_texts": {
+    "home_position": "#10 (32 pts, +4 GD)",
+    "away_position": "#16 (28 pts, -1 GD)",
+    "home_form": "8W-8D-8L in 24 matches, last 5: WDWLL",
+    "away_form": "6W-10D-8L in 24 matches, last 5: WDWLL",
+    "home_stats": "40 goals in 24 matches (avg 1.7/match), 4 clean sheets",
+    "away_stats": "28 goals in 24 matches (avg 1.2/match), 6 clean sheets",
+    "h2h_history": "Radomiak Radom 0-0 Legia Warszawa (13 Mar 2026)\nLegia Warszawa 4-1 Radomiak Radom (14 Sep 2025)\nRadomiak Radom 3-1 Legia Warszawa (22 Feb 2025)\nLegia Warszawa 4-1 Radomiak Radom (18 Aug 2024)\nLegia Warszawa 0-0 Radomiak Radom (06 Jul 2024)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Legia Warszawa | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Legia Warszawa",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "PENDING",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "–",
+    "market": "AH Away -0.75"
+  },
+  "script": {
+    "title": "Legia's Survival Bid vs Radomiak's Crumbling Fortress",
+    "thumbnail_text": "CRISIS CLASH",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when two crisis clubs collide with survival on the line? One team's historical home fortress is crumbling under managerial scandal. The other faces an existential threat in the relegation zone. This isn't just a football match—it's a test of which broken system can hold together longest under the most intense pressure.",
+    "chapter_home": "Radomiak Radom's formidable home record—seven wins from twelve matches, averaging over two goals per game—now faces its ultimate test. The club is in complete turmoil. Manager Goncalo Feio was removed after a physical altercation with a city councillor, sparking a police investigation and immediate instability. New manager Kiko Ramirez inherits a squad distracted by off-field chaos. Their winter sale of key winger Capita, a club-record departure, has stripped the attack of its primary creative outlet mid-season. Recent form shows the damage: just five points from the last fifteen available, failing to score in half of their last six matches. Their once-solid home defence, conceding less than a goal per game on average, now protects a fortress with cracks in its foundation. The narrative of a strong home side has been shattered by reality.",
+    "chapter_away": "Legia Warszawa travel with their season on the line. Stuck in 16th place, just one point from safety, they face what the brief calls an 'existential crisis'. Their form tells a contradictory story: unbeaten in five matches with two wins and three draws against strong opposition, yet possessing a solitary away victory all campaign—a chronic 8% win rate on the road. Their defensive personnel is in tatters, with four stoppers lost in eight months and only one replacement signed. They concede 1.58 goals per away match and have kept just one clean sheet in twelve attempts. Yet their attack persists, scoring in ten of those twelve road fixtures, with over 35% of their goals arriving after the 76th minute. This is a team built on survival desperation, not away-day comfort.",
+    "chapter_history": "History paints a clear picture of Legia dominance. They have won six of the last ten meetings between these sides, with Radomiak managing just two victories. Crucially, there have been zero draws in that entire decade-long sample. The most recent encounter was a demolition: Legia's 4-1 victory, scoring four unanswered second-half goals. Yet tonight's context flips the script entirely. Legia, the historical heavyweight, arrives under immense pressure fighting for top-flight status. Radomiak, with nothing tangible to lose, hosts a giant that feels vulnerable. The historical pattern of Legia control now meets a volatile present where motivation and chaos are the true currencies.",
+    "chapter_analysis": "The tactical matchup reveals two flawed systems colliding. Radomiak's 4-2-3-1 seeks central overloads against Legia's single pivot, but their patient build-up has turned blunt, failing to score in 50% of recent games. Legia's 4-1-4-1 offers natural width to exploit Radomiak's full-backs, yet their defensive crisis makes protecting any lead a monumental task. The Sceptic delivered a critical challenge here, flagging the Home Scout's radically inflated 55% win probability for Radomiak as fundamentally contradicted by all data—their form profile shows 0/5 win suitability. Meanwhile, the Away Scout's excessive pessimism on Legia, at 27%, missed their genuine five-match unbeaten momentum. The market corrected both, siding with the data. A key battle emerges in the final thirty minutes: 62.5% of Radomiak's goals come after the 60th minute, while Legia concedes ten in the final fifteen. Both teams are most dangerous when most vulnerable.",
+    "chapter_value": "Our market: AH Away -0.75. The mathematical edge here is compelling. While the Poisson baseline shows alignment, the EdgeCalculator identifies an 8.4% value edge on this line, with our probability assessed at 45.2% against a market-implied 36.8%. This discrepancy is rooted in Legia's superior recent form—a 40% win rate in their last five—clashing with Radomiak's managerial chaos and 0/5 win suitability. The Auditor validates this as credible, with an effective confidence of 62%. At odds of 2.72, the market still prices in Legia's chronic away flaws but undervalues their current momentum against a disintegrating opponent.",
+    "ending": "The Boot Room's verdict lands on Legia Warszawa to cover the -0.75 Asian Handicap. Confidence sits at 63%. This is a bet on survival desperation overcoming historic away frailty, and on a crumbling home fortress finally giving way under the weight of its own chaos. The risk remains Legia's psychological block on the road, but the data convergence on their improving form against Radomiak's crisis is too strong to ignore. Let us know in the comments if you're backing Legia's survival bid or Radomiak's home defiance. For more data-driven breakdowns, subscribe to AI Boot Room. Boot Room out.",
+    "roundup_summary": "Radomiak Radom versus Legia Warszawa. This Ekstraklasa clash pits 12th against 16th, with the visitors just one point from safety. Radomiak's form is dire—one win in their last five across all venues, taking only five points from fifteen available. Legia are unbeaten in five, with two wins and three draws, though their away record shows just one victory in twelve attempts. Radomiak's formidable historical home strength is undermined by a managerial crisis and the mid-season sale of key attacker Capita.\n\nHead-to-head history strongly favours Legia, with six wins from the last ten meetings. Radomiak have won just two, and notably, there have been zero draws in that entire decade. The most recent meeting ended 4-1 to Legia. This season, Radomiak average 1.0 goals scored and 1.2 conceded in their last five, while Legia average 1.0 scored and 1.0 conceded away. The historical average is 2.5 goals per meeting, with both teams scoring in 50% of encounters.\n\nThe Boot Room analysis identifies an 8.4% value edge on the Asian Handicap Away -0.75 market. Our probability assessment sits at 45.2%, versus the market-implied 36.8%. This edge is supported by Legia's superior recent form—a 40% win rate in their last five matches against stronger opposition—and Radomiak's cascading profile showing 0/5 win suitability amid managerial chaos. The Sceptic critically challenged the Home Scout's inflated 55% win probability for Radomiak, which was contradicted by their form and market pricing at 32%. The bookmaker has mis-priced Legia's genuine momentum, still anchoring to their poor seasonal away record rather than their current five-match unbeaten run. The Auditor's effective confidence is 62%.\n\nThe verdict is Asian Handicap Away -0.75 at odds of 2.72. For this to win, Legia must win by two or more goals, or a one-goal victory yields a half-win. The play backs survival desperation overcoming historic travel woes against a disintegrating home side. Boot Room market: AH Away -0.75. Confidence: 63%.",
+    "short_segment": "Radomiak Radom host Legia Warszawa in the Ekstraklasa. The visitors sit 16th, one point from safety, while Radomiak are 12th. Legia are unbeaten in five with two wins and three draws, but have just one away victory all season. Radomiak's form is poor with one win in five, compounded by a managerial crisis after their coach was sacked following a physical altercation. History strongly favours Legia with six wins from ten meetings and zero draws in the last decade. The Boot Room lands on Asian Handicap Away -0.75 at 2.72 with 63% confidence. The play backs Legia's survival momentum against a Radomiak side in complete disarray. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Collision of Crises",
+        "voiceover": "Two crisis clubs collide—one fighting for survival, the other crumbling from within. Radomiak's manager was sacked after a physical altercation with a city councillor. Legia face an existential threat in the relegation zone. This isn't about beautiful football. It's about which broken system holds together longest under the weight of desperation.",
+        "graphic_type": "conflict",
+        "graphic_description": "Split-screen visual: left side shows chaotic, blurred football scene with 'MANAGERIAL SCANDAL' text; right side shows a tense, pressure-filled locker room with 'RELEGATION BATTLE' text. A crack divides the two images.",
+        "graphic_text_overlay": "CRISIS vs CRISIS"
+      },
+      {
+        "scene": 2,
+        "name": "Radomiak's Crumbling Fortress",
+        "voiceover": "Radomiak's historical home strength—seven wins from twelve—is now a memory. Their manager is gone, a police investigation looms, and their star winger was sold mid-season. Recent form shows just five points from fifteen available, failing to score in half their last six matches. The fortress has cracks, and Legia arrive with a sledgehammer.",
+        "graphic_type": "home_card",
+        "graphic_description": "A crumbling, medieval-style castle wall with a Radomiak club badge on it. Cracks are visible, and pieces are falling away. The visual is dark and ominous.",
+        "graphic_text_overlay": "FORTRESS CRUMBLING"
+      },
+      {
+        "scene": 3,
+        "name": "Legia's Survival Desperation",
+        "voiceover": "Legia travel with their season on the line. Unbeaten in five matches, yet with just one away win all campaign—a chronic 8% road record. Their defence has lost four stoppers in eight months. But their attack persists, with over 35% of goals coming in the final fifteen minutes. This is survival mode, not a comfort zone.",
+        "graphic_type": "away_card",
+        "graphic_description": "A determined Legia player in focus, looking intense, with a blurred, chaotic background suggesting a relegation zone table. The player's eyes show focus and desperation.",
+        "graphic_text_overlay": "SURVIVAL MODE"
+      },
+      {
+        "scene": 4,
+        "name": "The Data Divergence",
+        "voiceover": "The Sceptic exposed a critical flaw. The Home Scout claimed a 55% Radomiak win chance—contradicted by their 0/5 win suitability and market pricing at 32%. The Away Scout was too pessimistic on Legia at 27%, missing their five-match unbeaten momentum. The market corrected both, siding with the data over the narrative.",
+        "graphic_type": "evidence",
+        "graphic_description": "A clean, data-visualization style graphic showing three probability bars: 'Home Scout: 55%', 'Market: 32%', 'Win Suitability: 0/5'. A large red 'X' crosses out the Home Scout bar.",
+        "graphic_text_overlay": "DATA OVER NARRATIVE"
+      },
+      {
+        "scene": 5,
+        "name": "The Late-Game Powder Keg",
+        "voiceover": "The final thirty minutes are a powder keg. 62.5% of Radomiak's goals come after the 60th minute. Legia concede ten in the final fifteen. Both teams are most dangerous when they are most vulnerable. This match will be decided not in the first half, but in the frantic, desperate closing stages where flaws are exposed.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A football pitch graphic divided into time segments. The 60-75' and 76-90' segments are highlighted in red and orange, with icons for 'GOALS FOR' and 'GOALS AGAINST' for each team stacking in those zones.",
+        "graphic_text_overlay": "DANGER ZONE: 60'+"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "Our market: Asian Handicap Away -0.75. The EdgeCalculator identifies an 8.4% value edge here. Our probability sits at 45.2% against the market's 36.8%. At odds of 2.72, this backs Legia's survival momentum to finally crack their away-day block against a Radomiak side in complete disarray. Confidence: 63%. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold text on a dark background: 'AH AWAY -0.75' large in the centre. 'ODDS: 2.72' and 'CONFIDENCE: 63%' displayed prominently beneath. The Legia badge is subtly incorporated.",
+        "graphic_text_overlay": "VERDICT"
+      }
+    ]
+  }
+}

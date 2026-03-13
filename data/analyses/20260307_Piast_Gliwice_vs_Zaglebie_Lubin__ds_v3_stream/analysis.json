@@ -1,0 +1,160 @@
+{
+  "key": "20260307_Piast_Gliwice_vs_Zaglebie_Lubin__ds_v3_stream",
+  "match": {
+    "home_team": "Piast Gliwice",
+    "away_team": "Zaglebie Lubin",
+    "league": "Ekstraklasa",
+    "date": "2026-03-07",
+    "home_id": 349,
+    "away_id": 345
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 40.0,
+    "score_draw": 35.0,
+    "score_away": 25.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician predicts a 'tight and transitional' match with 'fewer goals than Piast's recent averages'. Zaglebie Lubin's entire tactical system is built around defensive solidity (5-4-1, conceding 0.40 GA/m in last five), while Piast Gliwice averages only 1.0 goals per home match. The Cascading Profiles show weak convergence (36%) for Under 2.5, but the away team's profile strongly fits it (5/7). (2) DIRECTION EVIDENCE — The Quant's Poisson probability for Under 2.5 is 55%, and the Auditor's adjusted probability is 60%. The historical head-to-head baseline is low-scoring (1.8 average goals, 20% Over 2.5). The Tactician's 'goals_impact' explicitly states fewer goals are expected. The combined goal expectation (λ_home + λ_away) is not provided, but the structural analysis points to scarcity. (3) AGENTS CONSENSUS — The Tactician, Archivist (historical pattern), and Auditor (adjusted probabilities) all support a low-scoring outcome. The Away Scout highlights Zaglebie's defensive strength and attacking vulnerability due to injury. The Home Scout notes Piast's low home goal output. The Sceptic does not veto this direction, and their 'surprise scenario' is a low-scoring draw. The primary dissent comes from the EdgeCalculator's extreme away win probabilities, which the Auditor has rejected as non-credible due to failure to incorporate the Grzybek injury. (4) RISKS — The main risk is Piast's defensive vulnerability in the opening 15 minutes, where they have conceded 6 goals, directly confronting Zaglebie's strongest scoring window (11 goals). A quick away goal could open the match. Additionally, both teams show late-game scoring threat, which could produce a late flurry. The Cascading Profile convergence for Under 2.5 is weak, indicating the data is not unanimous.",
+    "key_factors": [
+      "Zaglebie Lubin's defensive 5-4-1 structure and excellent recent defensive record",
+      "Critical absence of Zaglebie's primary striker Mateusz Grzybek, severely blunting their attack",
+      "Piast Gliwice's chronic lack of cutting edge at home (1.0 goals per match)",
+      "Historical head-to-head trend of low-scoring encounters (1.8 avg goals)"
+    ],
+    "risk_factors": [
+      "Piast's defensive fragility in the opening 15-minute period",
+      "Both teams' demonstrated threat in the final 15 minutes of matches"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Draw",
+        "prediction": "Draw",
+        "confidence": 35
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 0.0,
+      "edge_source": "EdgeCalculator shows negative edge for Under 2.5 lines; using Auditor's adjusted probability as primary signal",
+      "edge_grade": "NO_VALUE",
+      "staking_signal": "MARGINAL",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away -0.75",
+          "edge": 66.2
+        },
+        {
+          "market": "AH Away -0.5",
+          "edge": 61.7
+        },
+        {
+          "market": "AH Away -0.25",
+          "edge": 58.0
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Archivist, and Auditor align on a low-scoring, tight match. The Scouts provide supporting evidence of Piast's poor attack and Zaglebie's strong defence/injury issue. The Sceptic does not veto. The Quant and EdgeCalculator are in severe conflict, producing extreme away win probabilities that are rejected by the Auditor and contradicted by market pricing and qualitative analysis.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.9,
+    "max_edge": 66.2
+  },
+  "display_texts": {
+    "home_position": "#14 (29 pts, -2 GD)",
+    "away_position": "#2 (38 pts, +10 GD)",
+    "home_form": "8W-5D-10L in 23 matches, last 5: LLDDD",
+    "away_form": "11W-8D-5L in 24 matches, last 5: LDDWL",
+    "home_stats": "26 goals in 23 matches (avg 1.1/match), 7 clean sheets",
+    "away_stats": "40 goals in 24 matches (avg 1.7/match), 8 clean sheets",
+    "h2h_history": "Piast Gliwice 1-3 Zaglebie Lubin (07 Mar 2026)\nZaglebie Lubin 2-2 Piast Gliwice (30 Aug 2025)\nZaglebie Lubin 0-1 Piast Gliwice (01 Mar 2025)\nPiast Gliwice 1-0 Zaglebie Lubin (24 Aug 2024)\nPiast Gliwice 2-0 Zaglebie Lubin (15 Apr 2024)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "M. Grzybek (Missing Fixture - Broken leg)",
+    "api_predictions": "API-Football prediction: Piast Gliwice | Probabilities: 45%-45%-10% | Recommendation: Double chance : Piast Gliwice or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:3",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "The Title Race Injury Crisis: Why This Polish Clash Has No Value",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a title-chasing team loses its primary weapon just as they face a defensively stubborn opponent? Zaglebie Lubin arrive in Gliwice with four consecutive away wins — but without the striker who makes their entire system function. This is the story of a tactical stalemate where motivation collides with injury, and where the numbers tell two completely different stories.",
+    "chapter_home": "Piast Gliwice present a paradox at home. They sit fourteenth in the Ekstraklasa, just four points above the relegation playoff spot, yet their defensive record at the Stadion Miejski is surprisingly solid — conceding just 0.91 goals per match with five clean sheets in eleven games. Their weakness is a chronic lack of cutting edge, averaging only one goal per home match. Manager Daniel Myśliwiec has simplified the tactical approach, often deploying a 4-3-3, but the results show a declining trend with two wins and three losses in their last five. Their key vulnerability is timing — they have conceded six goals in the opening fifteen minutes of matches, a period where they are alarmingly fragile. Their strength arrives late, with nine of their twenty-six goals this season coming in the final quarter-hour, suggesting a persistent but often toothless approach.",
+    "chapter_away": "Zaglebie Lubin's situation is defined by contradiction. They arrive second in the table, riding the momentum of four consecutive away victories and a formidable defensive record — conceding just 0.40 goals per match in their last five outings. Their 5-4-1 structure is built for defensive solidity and quick transitions. Yet, their entire attacking system has been gutted by the confirmed absence of primary striker Mateusz Grzybek. He is not just a player; he is their tactical focal point. Without him, their attack becomes predictable and severely diminished, turning a strength into a critical question mark. The pressure is immense — a shock loss by the league leader has opened the title race, meaning every point is vital. But can a system built around one man still function without him under this intensity?",
+    "chapter_history": "Historically, this is a low-scoring fixture. Across their last ten meetings, the average is just 1.8 goals per match, with only twenty percent of games seeing over 2.5 goals. Piast hold a slight edge with four wins to Lubin's three. Yet, the recent narrative has flipped — the last four encounters have all seen both teams score, including a 1-3 away win for Lubin and a 2-2 draw. This suggests a potential shift towards more open affairs, though the foundational pattern of caution remains. The stakes tonight are asymmetrical: for Piast, it is mid-table consolidation; for Zaglebie, it is everything in a tightening title race.",
+    "chapter_analysis": "The tactical matchup paints a clear picture of frustration. Piast's three-man midfield should dominate possession against Zaglebie's two, but they lack the final-third quality to break down a disciplined five-man defensive block. Zaglebie, meanwhile, will sit deep, ceding initiative while waiting for transitional moments that now lack their primary weapon. The Tactician predicts a 'tight and transitional' match with 'fewer goals than Piast's recent averages'. This aligns with the historical low-scoring baseline. However, a fundamental conflict emerges in the data. Quantitative models, anchored to Zaglebie's stellar recent form, project an extreme eighty-five percent probability of an away win. The market — and qualitative analysis — violently disagrees, pricing Zaglebie at just twenty-three percent due to the Grzybek injury. The Sceptic challenged the severe downgrade of Zaglebie's chances, but the Auditor rejected the quantitative model as non-credible for failing to incorporate the injury's tactical impact. The consensus points to a low-scoring stalemate, but the data is at war with itself.",
+    "chapter_value": "Our market: NO_BET. The direction is clear — a defensive battle leaning under on goals. The Auditor's adjusted probability for Under 2.5 Goals sits at sixty percent. Yet, no specific line offers a qualifying mathematical edge against the bookmaker's efficient pricing. The dramatic disconnect between model projections and market reality creates too much uncertainty for a confident play. Sometimes the clearest analytical path leads to a conclusion of no value. The Boot Room's verdict is to pass on this fixture.",
+    "ending": "In Piast Gliwice versus Zaglebie Lubin, we see a compelling narrative clash undone by a critical injury and efficient market pricing. The expectation is for a tight, low-scoring affair, but the numbers refuse to align into a bettable opportunity. When our models conflict this severely with both the market and the qualitative story, the only prudent move is to step aside. The Boot Room finds no value here. If you found this deep dive into a 'no bet' decision valuable, hit like, subscribe, and let us know in the comments which Ekstraklasa fixture we should break down next. Boot Room out.",
+    "roundup_summary": "Piast Gliwice versus Zaglebie Lubin. The hosts sit fourteenth with a declining form of two wins and three losses in their last five, showcasing a solid home defence but a blunt attack averaging just one goal per match. The visitors arrive second, with four consecutive away wins, but are critically missing primary striker Mateusz Grzybek. Historically, this is a low-scoring fixture with an average of just 1.8 goals per meeting, though the last four encounters have all seen both teams score. Piast concede 0.91 goals per home game, while Zaglebie's defensive record is exceptional at 0.40 goals conceded per match in their last five.\n\nThe Boot Room analysis identifies a clear under goals direction, supported by a tactical prediction of a 'tight and transitional' match and a historical low-scoring baseline. The Quant's Poisson probability for Under 2.5 Goals is fifty-five percent, with the Auditor adjusting this to a sixty percent likelihood. However, a severe quantitative-qualitative conflict undermines any edge. The Sceptic's main critique was the dramatic downgrade of Zaglebie's win probability, but this was justified by the Grzybek injury which the quantitative model failed to price. The Auditor rejected the model's extreme away win projections as non-credible. While the under direction is coherent, the bookmaker's pricing for available goal lines shows no significant mispricing, with the market efficiently reflecting the injury-impacted stalemate narrative.\n\nThe Boot Room verdict is to pass on this fixture. The analysis points to a low-scoring match, but no specific market line presents a qualifying mathematical edge against efficient odds. The recommended play is to observe rather than invest. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Contradiction",
+        "voiceover": "Zaglebie Lubin have won four away matches in a row. Their defensive record is among the best in the league. And they have just lost the one player their entire attack is built around. This is the central tension in Gliwice — a title-chasing side stripped of its primary weapon.",
+        "graphic_type": "conflict",
+        "graphic_description": "A dramatic split image. Left side: Zaglebie Lubin players celebrating an away win. Right side: An empty space with a jersey bearing the name 'Grzybek' on a medical table.",
+        "graphic_text_overlay": "TITLE RACE INJURY"
+      },
+      {
+        "scene": 2,
+        "name": "The Home Fortress (With Cracks)",
+        "voiceover": "Piast Gliwice are hard to beat at home, conceding less than a goal per game. But they are also painfully goal-shy, averaging just one score per match. Their defence has a critical flaw — six goals conceded in the opening fifteen minutes, a period where their opponent thrives.",
+        "graphic_type": "home_card",
+        "graphic_description": "The Piast Gliwice club badge imposed over a fortress wall. A large crack runs down the centre of the wall, with a clock showing '0-15' minutes next to it.",
+        "graphic_text_overlay": "SOLID BUT SLOW"
+      },
+      {
+        "scene": 3,
+        "name": "The System vs The Absence",
+        "voiceover": "Zaglebie's 5-4-1 is a machine designed for defensive solidity and quick counters to a single striker. That striker is Mateusz Grzybek, and he is injured. Without him, the machine still runs, but its most critical component — its purpose — is missing. Can they still win?",
+        "graphic_type": "away_card",
+        "graphic_description": "A tactical board showing a 5-4-1 formation. The lone striker icon is greyed out and cracked, with a red 'INJURED' stamp over it.",
+        "graphic_text_overlay": "SYSTEM BROKEN"
+      },
+      {
+        "scene": 4,
+        "name": "The Data War",
+        "voiceover": "Here lies the conflict. One model, seeing Zaglebie's form, projects an eighty-five percent chance of an away win. The market prices it at twenty-three percent. Why? The model ignored the injury. The Auditor rejected it. This isn't just analysis — it's a fundamental disagreement on reality.",
+        "graphic_type": "evidence",
+        "graphic_description": "A stark visual of two giant, clashing percentage signs: '85%' in bold green on the left, '23%' in bold red on the right, with lightning between them.",
+        "graphic_text_overlay": "85% vs 23%"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict: No Value",
+        "voiceover": "The direction is clear — a low-scoring stalemate. The Auditor gives Under 2.5 Goals a sixty percent probability. But the market is efficient. No line offers a true edge. When the story is clear but the value isn't there, the only smart play is to walk away. Our market: NO_BET. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, minimalist screen. A large, bold 'NO BET' stamp in the centre. Smaller text below reads: 'Under direction confirmed. Market efficient. No edge.'",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

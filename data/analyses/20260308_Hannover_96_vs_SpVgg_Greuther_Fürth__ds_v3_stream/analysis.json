@@ -1,0 +1,177 @@
+{
+  "key": "20260308_Hannover_96_vs_SpVgg_Greuther_Fürth__ds_v3_stream",
+  "match": {
+    "home_team": "Hannover 96",
+    "away_team": "SpVgg Greuther Fürth",
+    "league": "2. Bundesliga",
+    "date": "2026-03-08",
+    "home_id": 166,
+    "away_id": 178
+  },
+  "prediction": {
+    "direction": "away_value",
+    "direction_conviction": "moderate",
+    "selected_market": "AH Away 1.25",
+    "prediction": "AH Away 1.25",
+    "confidence": 61,
+    "confidence_gate": "APPROVE",
+    "odds_target": 2.04,
+    "score_home": 67.5,
+    "score_draw": 21.5,
+    "score_away": 11.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC match. Hannover are the clear structural favourite, holding superior form, defensive solidity, and home advantage. However, the asymmetry is not absolute; Fürth possess a genuine late-game attacking threat and their overall scoring rate (1.8 GF/m) is being severely underrated by the market, as flagged by The Sceptic. (2) DIRECTION EVIDENCE — The declared direction (away_value) is supported by the EdgeCalculator, which identifies strong positive edges on multiple Asian Handicap lines for the away team. The AH Away +1.25 line shows a 26.0% edge, the third-highest of all markets analysed. This mathematical signal is underpinned by the Auditor's adjusted probabilities, which increased the away win chance to 11% after accounting for Fürth's stronger-than-perceived attack and Hannover's declining home scoring. The tactical mismatch sees Fürth's 4-2-3-1 designed to exploit spaces on the counter against Hannover's advanced wing-backs. (3) AGENTS CONSENSUS — The consensus is split but leans towards value on the away handicap. The EdgeCalculator and Auditor provide the strongest quantitative support for away handicap value. The Sceptic's CRITICAL challenge that the Away Scout severely underrated Fürth's attack (1.8 GF/m) validates this mathematical edge. The Tactician notes Fürth's clear transition threat. Dissent comes from the Home Scout's high win probability (69%) and the Tactician's tactical edge to Hannover, but these are already efficiently priced by the market (0.0pp gaps on AH Home lines). The Archivist's historical draw tendency (40%) also suggests Hannover may not cover heavy handicaps. (4) RISKS — The primary risk is Fürth's chronic away defensive frailty (0 clean sheets, 2.42 GA/m) leading to a comprehensive Hannover victory that overcomes the +1.25 cushion. Hannover's patient build-up and central overload could systematically break down Fürth's defence before their late-game threat materialises. Additionally, the 'declining home scoring' trend for Hannover may reverse in this high-motivation fixture.",
+    "key_factors": [
+      "EdgeCalculator identifies a 26.0% edge on AH Away +1.25",
+      "The Sceptic validated that Fürth's attack (1.8 GF/m) is severely underrated by the market",
+      "Fürth's 4-2-3-1 offers a structured counter-attacking threat against Hannover's advanced shape",
+      "Historical H2H draw rate of 40% suggests Hannover often fail to win comfortably"
+    ],
+    "risk_factors": [
+      "Fürth's league-worst away defence (2.42 GA/m) could be overwhelmed early",
+      "Hannover's central overload in their 3-3-1-3 may bypass Fürth's midfield too easily"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.75 Goals",
+        "prediction": "Under 2.75",
+        "confidence": 47
+      },
+      {
+        "market": "Draw",
+        "prediction": "Draw",
+        "confidence": 52
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 26.0,
+      "edge_source": "EdgeCalculator (our probability 75.0% vs market implied 49.0%)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 2.75 Goals",
+          "edge": 38.6
+        },
+        {
+          "market": "Under 3.25 Goals",
+          "edge": 32.3
+        },
+        {
+          "market": "AH Away +1.25",
+          "edge": 26.0
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The EdgeCalculator, Auditor, and Sceptic align in identifying value on the away handicap, citing Fürth's underrated attack and mathematical edge. The Home Scout and Tactician dissent, favouring a Hannover victory, but their views are already efficiently priced by the market with zero probability gaps. The Archivist's high draw rate provides contextual support for a close match.",
+    "_direction": "away_value",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.53,
+    "_direction_prob": 75.0,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.64,
+    "max_edge": 38.6
+  },
+  "display_texts": {
+    "home_position": "#5 (45 pts, +12 GD)",
+    "away_position": "#18 (23 pts, -20 GD)",
+    "home_form": "13W-6D-5L in 24 matches, last 5: WWWWL",
+    "away_form": "6W-5D-13L in 24 matches, last 5: WLLWL",
+    "home_stats": "42 goals in 24 matches (avg 1.8/match), 8 clean sheets",
+    "away_stats": "35 goals in 24 matches (avg 1.5/match), 2 clean sheets",
+    "h2h_history": "Hannover 96 0-0 SpVgg Greuther Fürth (08 Mar 2026)\nSpVgg Greuther Fürth 2-2 Hannover 96 (05 Oct 2025)\nHannover 96 1-1 SpVgg Greuther Fürth (11 May 2025)\nSpVgg Greuther Fürth 1-0 Hannover 96 (15 Dec 2024)\nHannover 96 2-1 SpVgg Greuther Furth (16 Feb 2024)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Hannover 96 | Probabilities: 45%-45%-10% | Recommendation: Double chance : Hannover 96 or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "WIN",
+    "label": "WIN",
+    "color": "#22c55e",
+    "pnl": 1.04,
+    "score": "1:2",
+    "market": "AH Away 1.25"
+  },
+  "script": {
+    "title": "Hannover vs Fürth: The Hidden Value in a Relegation Fight",
+    "thumbnail_text": "LEAGUE'S WORST DEFENCE",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a promotion-chasing side with declining home scoring faces the league's worst away defence? On paper, it looks like a routine home win. But the numbers tell a different story — one of severe market mispricing and a hidden attacking threat that could shatter expectations.",
+    "chapter_home": "Hannover 96 arrive in formidable form, unbeaten in five matches with four victories. They sit fifth in a congested promotion race, carrying the pressure of European qualification ambitions. Their defensive solidity has been the foundation of this surge — conceding just 0.8 goals per match in their last five and maintaining a 40% clean sheet rate. Manager Stefan Leitl typically deploys a 3-3-1-3 formation, indicating an attacking structure built on patient build-up and central overloads. Their peak scoring window falls between the 61st and 75th minutes, suggesting effective second-half adjustments. However, beneath this impressive surface lie concerning cracks. Their recent form is inflated by facing significantly weaker opponents, with an average opponent rank of 13th. More critically, their home scoring has decreased recently, averaging only 1.25 goals per match in their last five home games. They have failed to score in four of eleven home matches this season, showing occasional attacking bluntness. Off-field instability with the departure of scout Peter Braund adds another layer of uncertainty during this critical promotion push.",
+    "chapter_away": "SpVgg Greuther Fürth travel as the league's bottom side, carrying the existential weight of a relegation battle. Their away record makes for grim reading — just three wins from twelve attempts, with zero clean sheets and a chronic defensive frailty that sees them concede 2.42 goals per away match. Manager Alexander Zorniger employs a 4-2-3-1 formation designed for structured counter-attacks, but their vulnerability in the first half is stark, conceding 25 goals between minutes 0-45 compared to 20 in the second. Yet here lies the critical market misreading. Despite their position, Fürth possess a genuinely potent attack, averaging 1.8 goals per match in their last five overall. Their late-game threat is formidable — 34% of all their goals come in the final fifteen minutes, with twelve of their thirty-five goals scored in the 76-90 minute period. This creates a dangerous weapon against a Hannover side that concedes 47% of their goals in the final thirty minutes. Their recent away win against Holstein Kiel proves they can take points on their travels when their attack fires.",
+    "chapter_history": "The history between these two tells a story of stubborn resistance. Over the last ten meetings, the draw is the single most likely outcome, occurring 40% of the time. Hannover hold a slight historical edge, winning 30% of meetings compared to Fürth's 20%, but rarely comfortably. Both teams have scored in seven of those ten encounters, with an average of 2.8 goals per match. The last meeting in October 2025 was a dramatic 2-2 draw, featuring a late equaliser from Fürth's D. Abrangao in the 82nd minute. Hannover are currently unbeaten in their last three meetings against Greuther Fürth, with two draws and a win. This historical pattern suggests Hannover often fail to secure comfortable victories against this opponent, a crucial context for today's handicap markets.",
+    "chapter_analysis": "This is an asymmetric match where Hannover are the clear structural favourite, but the asymmetry is not absolute. The EdgeCalculator identifies a 26% edge on the Asian Handicap Away +1.25 line — the third-highest edge of all markets analysed. This mathematical signal is underpinned by the Auditor's adjusted probabilities, which increased Fürth's win chance to 11% after accounting for their stronger-than-perceived attack and Hannover's declining home scoring. The Sceptic delivered a critical challenge, revealing that the Away Scout severely underrated Fürth's attacking capability — rating it a '4' despite an overall scoring rate of 1.8 goals per match. This mischaracterisation created a market blind spot. Tactically, Fürth's 4-2-3-1 offers a structured counter-attacking threat against Hannover's advanced wing-backs in their 3-3-1-3. The key battle will be whether Hannover's central overload can break down Fürth's defence before Fürth's late-game specialists exploit spaces in transition. A critical danger zone exists between minutes 61-90, where Hannover scores 43% of their goals but also concedes 47% — directly colliding with Fürth's strongest scoring phase. The historical 40% draw rate provides further contextual support for a close match where Hannover may not cover heavy handicaps.",
+    "chapter_value": "Our market: Asian Handicap Away +1.25. The bookmakers have priced Hannover's home advantage and form efficiently, with zero probability gaps on all Asian Handicap home lines. But they have severely mispriced Fürth's attacking threat and the historical tendency for close matches. The EdgeCalculator shows our probability at 75% against a market-implied 49% — a 26% edge that represents strong value. At odds of 2.04, this line offers protection through a split handicap: a full win if Fürth avoid defeat by more than one goal, and a half win if they lose by exactly one goal. Given their late-game scoring habit and Hannover's declining home attack, this cushion provides significant coverage against the primary risk of an early Hannover onslaught.",
+    "ending": "The Boot Room sees value where the market sees certainty. Hannover 96 are rightful favourites, but their declining home scoring and Fürth's underrated attack create a mispricing opportunity on the Asian Handicap. With a 61% confidence level and a 26% mathematical edge, the Away +1.25 line offers protection against a narrow Hannover victory while capturing the potential for a Fürth upset or another historical draw. Remember to like this video if you found the analysis insightful, subscribe to The Boot Room for more data-driven breakdowns, and let us know in the comments whether you believe the market has truly underestimated Greuther Fürth's threat. Boot Room out.",
+    "roundup_summary": "Hannover 96 versus SpVgg Greuther Fürth. Hannover sit fifth in the 2. Bundesliga with 45 points, unbeaten in five matches with four wins and one draw. Their last five home games have yielded an average of 1.25 goals scored. Fürth are 18th in a relegation battle, with just three away wins all season. Their last five matches show one win, one draw, and three losses, but they average 1.8 goals scored overall in that period.\n\nThe head-to-head history reveals a 40% draw rate across the last ten meetings. The last encounter in October 2025 ended 2-2. The average goals per meeting is 2.8. This season, Hannover average 1.5 goals scored and 1.1 conceded per match at home. Fürth average 1.5 goals scored but concede a league-worst 2.42 goals per match away from home. Both teams have scored in 70% of their recent meetings.\n\nThe Boot Room analysis identifies a 26% edge on the Asian Handicap Away +1.25 line. The EdgeCalculator shows our probability at 75% versus a market-implied 49%. This edge stems from the market severely underrating Fürth's attacking capability — the Sceptic corrected the Away Scout's rating of '4' against their actual 1.8 goals per match average. The Poisson baseline showed perfect alignment on home handicap lines (0.0pp gaps), confirming market efficiency there, but the away handicap was mispriced. The Auditor adjusted probabilities upward for Fürth after accounting for their stronger attack and Hannover's declining home scoring. The historical 40% draw rate and Fürth's structured 4-2-3-1 counter-attacking threat against Hannover's advanced wing-backs support the handicap cover narrative.\n\nThe Boot Room market is Asian Handicap Away +1.25 at odds of 2.04. This bet wins fully if Fürth avoid defeat by more than one goal, and half if they lose by exactly one goal. The primary risk is Fürth's league-worst away defence being overwhelmed early, but their late-game threat and Hannover's scoring decline provide coverage. Boot Room market: AH Away 1.25. Confidence: 61%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Contradiction",
+        "voiceover": "The league's worst away defence travels to face a promotion-chasing side in formidable form. Everything points to a routine home victory. But one number disrupts that narrative completely — a 26% mathematical edge on the away handicap. Why is the market so wrong?",
+        "graphic_type": "conflict",
+        "graphic_description": "Split screen: left side shows Hannover's rising form graphic with '4 wins in 5', right side shows Fürth's defensive frailty with '0 away clean sheets'. Central overlay: '26% EDGE' in bold.",
+        "graphic_text_overlay": "26% EDGE"
+      },
+      {
+        "scene": 2,
+        "name": "Hannover's Hidden Decline",
+        "voiceover": "Hannover 96 are unbeaten in five with four wins, but their recent form is inflated by weak opponents. More critically, their home scoring is declining — just 1.25 goals per match in their last five at home. They have failed to score in four of eleven home games this season. This attacking bluntness against the league's bottom side creates opportunity.",
+        "graphic_type": "home_card",
+        "graphic_description": "Hannover 96 badge with form line showing downward trend arrow on 'Home Goals' metric. Key stat: '1.25 GF/m last 5 home' highlighted.",
+        "graphic_text_overlay": "DECLINING HOME ATTACK"
+      },
+      {
+        "scene": 3,
+        "name": "Fürth's Misunderstood Threat",
+        "voiceover": "SpVgg Greuther Fürth have the league's worst away defence — zero clean sheets, conceding 2.42 goals per match. But the market has made a critical error. Their attack averages 1.8 goals per match in their last five overall. Thirty-four percent of their goals come in the final fifteen minutes — a direct threat to Hannover's late-game vulnerability.",
+        "graphic_type": "away_card",
+        "graphic_description": "Fürth badge with explosion graphic in final 15-minute segment of a match clock. Stat: '34% of goals 76-90 min' and '1.8 GF/m last 5'.",
+        "graphic_text_overlay": "LATE-GAME WEAPON"
+      },
+      {
+        "scene": 4,
+        "name": "Historical Resistance",
+        "voiceover": "History reveals why Hannover rarely win comfortably here. The draw occurs 40% of the time in this fixture — the single most likely historical outcome. Both teams score in 70% of meetings, with an average of 2.8 goals. The last match ended 2-2 with a Fürth equaliser in the 82nd minute. This is not a fixture of domination.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "Timeline of last three meetings showing two draws and one narrow win. Large central percentage: '40% DRAW RATE'.",
+        "graphic_text_overlay": "40% DRAW RATE"
+      },
+      {
+        "scene": 5,
+        "name": "The Tactical Collision",
+        "voiceover": "Hannover's 3-3-1-3 seeks central overloads against Fürth's 4-2-3-1. But those advanced wing-backs leave space for Fürth's counter-attacking width. The critical window is minutes 61-90 — Hannover scores 43% of their goals here, but concedes 47%. Fürth scores 54% of their goals in this same period. A late surge could decide everything.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Animated tactical board showing Hannover's wing-backs advanced, with arrows indicating Fürth's wide counter-attack channels. Overlay of two clocks highlighting the 61-90 minute danger zone.",
+        "graphic_text_overlay": "61-90 MINUTE DANGER"
+      },
+      {
+        "scene": 6,
+        "name": "The Market Mispricing",
+        "voiceover": "The bookmakers have priced Hannover's home advantage efficiently — zero gaps on all home handicap lines. But they have severely underestimated Fürth's attack and the historical draw tendency. The EdgeCalculator identifies a 26% edge on Asian Handicap Away +1.25. Our probability is 75% against a market-implied 49%. At odds of 2.04, this represents strong value with a 61% confidence level.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean verdict card showing 'AH Away +1.25 @ 2.04'. Large confidence meter at 61%. Edge percentage of 26% displayed prominently.",
+        "graphic_text_overlay": "OUR MARKET"
+      }
+    ]
+  }
+}

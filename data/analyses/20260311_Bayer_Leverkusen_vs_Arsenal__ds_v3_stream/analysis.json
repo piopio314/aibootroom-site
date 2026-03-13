@@ -1,0 +1,174 @@
+{
+  "key": "20260311_Bayer_Leverkusen_vs_Arsenal__ds_v3_stream",
+  "match": {
+    "home_team": "Bayer Leverkusen",
+    "away_team": "Arsenal",
+    "league": "UEFA Champions League",
+    "date": "2026-03-11",
+    "home_id": 168,
+    "away_id": 42
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "Under 2.25 Goals",
+    "prediction": "Under 2.25 Goals",
+    "confidence": 53,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 2.37,
+    "score_home": 15.38,
+    "score_draw": 23.09,
+    "score_away": 66.67,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician's analysis predicts a 'tight, tactical contest' and the structural matchup of Leverkusen's back three against Arsenal's 4-3-3 suggests a cagey affair. The cascading profiles show a 50% convergence on Under 2.5 Goals, with Leverkusen's home form (100% clean sheet rate, 1.5 total goals/match) directly opposing Arsenal's high-scoring away trend. The historical context reinforces this: two of the last three meetings were goalless draws, averaging just 1.7 goals. (2) DIRECTION EVIDENCE — The Auditor's adjusted probabilities shift Under 2.5 Goals to a 65% likelihood, a significant 15 percentage point increase from the market's neutral 50%. This adjustment is based on the strong tactical and historical low-scoring signals that the raw Poisson model missed. The λ sum (implied goal expectancy) is suppressed by Leverkusen's defensive solidity. (3) AGENTS CONSENSUS — The Home Scout, Archivist, Tactician, and Auditor all provide evidence for a low-scoring match. The Home Scout highlights Leverkusen's defensive solidity and low-scoring profile. The Archivist notes the historical goalless draws. The Tactician predicts a tight match. The Auditor mathematically adjusts the probabilities to favour Under. The primary dissent comes from the Away Scout's report of Arsenal's high-scoring away matches, but this is tempered by their key creative absence (Odegaard) and the Sceptic's correction that the Scout severely miscalibrated Arsenal's win probability. The Quant's model shows no initial edge, but the Auditor's correction creates the value. (4) RISKS — The primary risk is Arsenal's attacking quality breaking Leverkusen's defensive resolve early, especially given Leverkusen's vulnerability in the 0-15 minute period. Arsenal's flawless away record and high goal average present a clear threat to the under thesis. Furthermore, the rotation risk flagged for this European fixture caps confidence, as unconfirmed line-ups add uncertainty. The Sceptic's 'surprise scenario' of a 1-0 home win also suggests a low-scoring outcome is possible, but not guaranteed.",
+    "key_factors": [
+      "Leverkusen's 100% clean sheet rate at home in their last five matches",
+      "Historical H2H trend of goalless draws (two in last three meetings)",
+      "Critical absence of Arsenal's creative hub Martin Odegaard",
+      "The Auditor's significant probability adjustment to 65% for Under 2.5 Goals"
+    ],
+    "risk_factors": [
+      "Arsenal's potent away attack averaging 3.0 goals per match",
+      "Leverkusen's defensive vulnerability in the opening 15 minutes",
+      "Rotation risk and unconfirmed starting XIs for a Champions League fixture"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.25 Goals",
+        "prediction": "Under 2.25",
+        "confidence": 53
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 21.1,
+      "edge_source": "EdgeCalculator our_prob (63.3%) vs market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Home 0.25",
+          "edge": 56.0
+        },
+        {
+          "market": "AH Away -1.75",
+          "edge": 50.9
+        },
+        {
+          "market": "AH Home 0.5",
+          "edge": 48.1
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Home Scout, Archivist, Tactician, and Auditor align on a low-scoring, defensive match character. The Away Scout dissents by highlighting Arsenal's high-scoring away form, but the Sceptic critically challenged that assessment. The Quant initially showed no edge, but the Auditor's probability adjustment created the mathematical basis for the Under direction.",
+    "_direction": "under_goals",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.5002,
+    "_direction_prob": 63.3,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 5.33,
+    "max_edge": 56.0
+  },
+  "display_texts": {
+    "home_position": "#16 (12 pts, -1 GD)",
+    "away_position": "#1 (24 pts, +19 GD)",
+    "home_form": "4W-4D-2L in 10 matches, last 5: DDLWW",
+    "away_form": "8W-0D-0L in 8 matches, last 5: WWWWW",
+    "home_stats": "15 goals in 10 matches (avg 1.5/match), 5 clean sheets",
+    "away_stats": "23 goals in 8 matches (avg 2.9/match), 5 clean sheets",
+    "h2h_history": "Arsenal 0-0 Bayer Leverkusen (17 Mar 2026)\nBayer Leverkusen 0-0 Arsenal (11 Mar 2026)\nArsenal 4-1 Bayer Leverkusen (07 Aug 2024)",
+    "home_injuries": "Arthur (Missing Fixture - Ankle Injury), L. Bade (Missing Fixture - Muscle Injury), E. Ben Seghir (Missing Fixture - Ankle Injury), M. Flekken (Missing Fixture - Knee Injury), Lucas (Missing Fixture - Calf Injury)",
+    "away_injuries": "M. Merino (Missing Fixture - Leg Injury), M. Odegaard (Missing Fixture - Knee Injury), B. White (Questionable - Injury)",
+    "api_predictions": "API-Football prediction: Arsenal | Probabilities: 10%-45%-45% | Recommendation: Winner : Arsenal",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "HALF_WIN",
+    "label": "HALF WIN",
+    "color": "#86efac",
+    "pnl": 0.69,
+    "score": "1:1",
+    "market": "Under 2.25 Goals"
+  },
+  "script": {
+    "title": "Arsenal's Fortress Attack vs Leverkusen's Defensive Wall",
+    "thumbnail_text": "CHAMPIONS LEAGUE STALEMATE",
+    "duration_estimate": "~8 minutes",
+    "hook": "Arsenal travel to Germany with a perfect away record, scoring three goals per match on the road. Bayer Leverkusen welcome them with a fortress at home — five consecutive clean sheets. This is a Champions League knockout tie where two irresistible forces are about to collide. But the bookmakers have priced this as a coin flip. They have missed the one number that tells the real story.",
+    "chapter_home": "Bayer Leverkusen arrive with a paradox. Their recent home form is defensively impeccable — five matches, five clean sheets. Yet they sit mid-table, struggling for consistency. Their 3-4-2-1 formation is built for control, but a critical injury to right-back Arthur creates a vulnerable channel. Seven first-team players are absent, forcing tactical compromises. The narrative is one of resilience under pressure — a team difficult to beat but lacking a killer instinct. They are most dangerous between the 46th and 60th minutes, yet they have conceded four goals in the opening quarter-hour. This is a side built for low-scoring, tactical battles, and their entire recent identity suggests they will try to turn this into one.",
+    "chapter_away": "Arsenal travel with formidable credentials. Four away matches, four wins, conceding just once. Their attack averages three goals per game on the road, a relentless machine operating in perfect harmony. But the engine room has lost its conductor. Captain Martin Ødegaard is absent, removing the creative hub from their 4-3-3 setup. Defender Ben White is also missing, weakening the spine. Despite a flawless record, recent matches show vulnerability — no clean sheets in their last five. The Gunners possess immense transition threat, scoring four goals in the opening fifteen minutes this season. Yet, with key absences and a congested schedule, their expansive style faces its sternest test against a disciplined defensive block.",
+    "chapter_history": "The history between these sides speaks in whispers, not shouts. Of their last three meetings, two have finished as goalless draws. The only decisive result was Arsenal's 4-1 victory over two years ago — an outlier in a pattern of cagey stalemates. The average goals per meeting sits at just 1.7, a strong historical signal for a tight affair. While the sample is small, the trend is undeniable: when these teams meet, goals are a precious commodity. This context sets the stage — a precedent of frustration and tactical chess that both managers will be acutely aware of as they plot their knockout strategy.",
+    "chapter_analysis": "The tactical matchup reveals why goals will be scarce. Leverkusen's back three provides numerical superiority against Arsenal's front line, encouraging a controlled, possession-based approach aimed at frustration. Arsenal's natural width should test Leverkusen's compromised right flank, but without Ødegaard, their creativity may become more direct and less precise. The Quant's initial model saw no edge, pricing Over and Under 2.5 Goals at exactly fifty-fifty. This is where the analysis diverged. The Sceptic critically challenged the Away Scout's severe miscalibration of Arsenal's win probability, while the Tactician predicted a 'tight, tactical contest' directly contradicting the open market view. The Auditor reconciled this, adjusting the probability for Under 2.5 Goals up to 65% based on the overwhelming low-scoring signals the raw model missed. The clash isn't about who wins, but how the match is played — and every structural indicator points toward a battle of attrition.",
+    "chapter_value": "Our market: Under 2.25 Goals. The bookmakers offer this at 2.37, implying just a 42% chance. Our analysis, synthesised by the Auditor, gives it a 63.3% probability. That is a 21.1 percentage point edge, graded as strong value. This isn't a bet against Arsenal's attack, but a read on the match character. Leverkusen's defensive fortress, the historical stalemates, the critical midfield absences — they all converge to suppress the goal expectancy. The market has priced the Arsenal away narrative, but it has not fully accounted for the structural and historical forces pushing this toward a chess match.",
+    "ending": "The verdict is a speculative play on a Champions League stalemate. Under 2.25 Goals at 2.37, with 53% confidence. The risks are clear: Arsenal's early blitz or Leverkusen's set-piece vulnerability could break the pattern. But the alignment of evidence — from Leverkusen's clean sheets to the historical goalless draws and the tactical setup — creates a compelling case for a low-scoring affair. The bookmakers see a coin flip. We see a door left slightly ajar. If you found this breakdown valuable, subscribe to AI Boot Room for more data-driven football analysis. Boot Room out.",
+    "roundup_summary": "Bayer Leverkusen versus Arsenal in the UEFA Champions League presents a clash of conflicting narratives. Leverkusen, defensively robust at home with five straight clean sheets, host an Arsenal side with a perfect away record, averaging three goals per game on their travels. The Gunners, however, travel without creative captain Martin Ødegaard. Leverkusen's last five home matches have averaged just 1.5 total goals, while Arsenal's last five away have seen 4.0 goals on average, creating a fundamental statistical collision.\n\nThe head-to-head history strongly favours a cagey affair. Two of the last three meetings between these sides have ended as goalless draws, with an average of just 1.7 goals per match across those fixtures. This season, Leverkusen concede an average of 1.0 goals per home game, while Arsenal score 3.0 per away game. The historical trend directly opposes Arsenal's current attacking form.\n\nThe Boot Room analysis identifies a significant mispricing in the goal markets. The Quant's Poisson model initially showed no edge, aligning with market-implied probabilities of 50% for Over/Under 2.5 Goals. However, this neutral baseline failed to incorporate strong qualitative signals. The Sceptic challenged the Away Scout's severe miscalibration of Arsenal's win probability, while the Tactician's matchup analysis predicted a 'tight, tactical contest'. The Auditor reconciled this, adjusting the probability for Under 2.5 Goals up to 65% — a 15 percentage point increase from the market view. This adjustment is based on Leverkusen's defensive home structure, the historical low-scoring pattern, and the impact of key absences, particularly Ødegaard's, on Arsenal's creative flow. The bookmaker has priced Arsenal's potent attack but undervalued the converging factors that suppress total goals.\n\nThe Boot Room market is Under 2.25 Goals at odds of 2.37. This requires two or fewer goals to be scored in the match for a full win, with a push resulting if exactly three goals are scored. The play anticipates a repeat of the historical stalemates, with Leverkusen's defensive discipline limiting Arsenal's depleted creativity. Confidence is set at 53%, reflecting the speculative nature of opposing Arsenal's formidable away form, but backed by a 21.1% calculated edge. Boot Room market: Under 2.25 Goals. Confidence: 53%.",
+    "short_segment": "Bayer Leverkusen host Arsenal in a UEFA Champions League knockout tie. Leverkusen's BayArena has become a fortress, with five consecutive home clean sheets. Arsenal travel with a perfect away record, averaging three goals per game. Yet history tells a different story — two of the last three meetings between these sides have finished goalless. The Boot Room lands on Under 2.25 Goals at 2.37, with 53% confidence. The convergence of Leverkusen's defensive solidity, the historical stalemate pattern, and Arsenal's absence of creative hub Martin Ødegaard points to a tactical, low-scoring affair. The market has priced the Gunners' attack but undervalued the structural forces suppressing goals. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Collision",
+        "voiceover": "Arsenal's attack averages three goals per away game. Bayer Leverkusen have kept five consecutive clean sheets at home. This is the Champions League's ultimate clash of narratives — an irresistible force meeting an immovable object. But the bookmakers see a fifty-fifty chance of over 2.5 goals. Our data suggests they have missed the mark.",
+        "graphic_type": "conflict",
+        "graphic_description": "A dramatic split-screen visual. Left side: Arsenal's crest with a fiery '3.0 Goals' stat. Right side: Leverkusen's crest with a shield and '5 Clean Sheets' stat. A crack of lightning divides them.",
+        "graphic_text_overlay": "FORTRESS VS FIREPOWER"
+      },
+      {
+        "scene": 2,
+        "name": "Leverkusen's Wall",
+        "voiceover": "The home side's identity is built on defensive resilience. A back-three formation, a 100% clean sheet rate in their last five at the BayArena. But a critical injury to right-back Arthur creates a vulnerable channel. Seven players are absent. This isn't a confident unit — it's a wounded one, digging in for a tactical siege.",
+        "graphic_type": "home_card",
+        "graphic_description": "Bayer Leverkusen's 3-4-2-1 formation graphic, with a highlighted and injured right-back position. Stats overlay: '5 Home Matches', '5 Clean Sheets', '1.5 Goals/Game Avg'.",
+        "graphic_text_overlay": "WOUNDED BUT ORGANISED"
+      },
+      {
+        "scene": 3,
+        "name": "Arsenal's Missing Piece",
+        "voiceover": "The visitors' flawless record masks a critical absence. Captain Martin Ødegaard, their creative heartbeat, is out. Without him, their potent 4-3-3 risks becoming predictable. They score early — four goals in the opening fifteen minutes this season — targeting Leverkusen's one defensive flaw. But can they break the wall without their chief architect?",
+        "graphic_type": "away_card",
+        "graphic_description": "Arsenal's 4-3-3 formation graphic with a greyed-out central attacking midfielder spot. Stats overlay: '4 Away Wins', '3.0 Goals/Game', 'Ødegaard OUT'.",
+        "graphic_text_overlay": "POTENT BUT DEPLETED"
+      },
+      {
+        "scene": 4,
+        "name": "History's Whisper",
+        "voiceover": "The past between these sides speaks volumes. Two of their last three meetings finished goalless. The average goals per encounter? Just 1.7. That decisive 4-1 Arsenal win was an outlier in a pattern of stalemates. This historical precedent sets the stage — a chess match, not a shootout.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "A timeline showing the last three meetings: two '0-0' results and one '1-4' result. A large '1.7' displayed for average goals.",
+        "graphic_text_overlay": "TWO GOALLESS DRAWS"
+      },
+      {
+        "scene": 5,
+        "name": "The Model's Blind Spot",
+        "voiceover": "The raw mathematical model saw no edge — a perfect fifty-fifty split on goal totals. But it missed the qualitative truth. The Tactician predicted a tight contest. The Auditor adjusted the probability, lifting Under 2.5 Goals to a 65% likelihood. The market price implies 42%. That gap is where the value lies.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A balance scale. One side shows 'Market: 50%' for Under 2.5. The other side shows 'Auditor: 65%'. The '65%' side is weighed down.",
+        "graphic_text_overlay": "THE 15% GAP"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "Our market: Under 2.25 Goals. Odds: 2.37. Confidence: 53%. This is a speculative play on the match character over the final score. Leverkusen's defensive discipline, the historical stalemates, and Arsenal's creative absence converge to suppress goals. The bookmakers have priced the attack. We are betting on the structure. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold text on a dark background. 'UNDER 2.25 GOALS' is largest. Underneath: 'ODDS: 2.37' and 'CONFIDENCE: 53%'. The AI Boot Room logo is present.",
+        "graphic_text_overlay": "UNDER 2.25 GOALS"
+      }
+    ]
+  }
+}

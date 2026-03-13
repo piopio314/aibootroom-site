@@ -1,0 +1,161 @@
+{
+  "key": "20260308_Mantova_vs_Juve_Stabia__ds_v3_stream",
+  "match": {
+    "home_team": "Mantova",
+    "away_team": "Juve Stabia",
+    "league": "Serie B",
+    "date": "2026-03-08",
+    "home_id": 1693,
+    "away_id": 863
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 38.0,
+    "score_draw": 28.0,
+    "score_away": 34.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The cascading profiles show MODERATE convergence (43%) on Under 2.5 Goals, with both teams averaging exactly 2.2 total goals per match in their last five. The Tactician explicitly predicts a 'tight' match with 'fewer goals than average', citing Juve Stabia's possession control and defensive focus under Abate's 'Blindiamo la serie B' approach. (2) DIRECTION EVIDENCE — The mathematical model shows a DIRECTION_CONFLICT on Over/Under 2.5 (Poisson 60% vs Market 48.3%), which blocks the Over direction. The Auditor's adjusted probabilities give Under 2.5 a 56% probability versus the market's 51.7%, creating a 4.3pp edge. Both teams' recent form shows declining scoring trends: Mantova's attack is 'stable' but Juve Stabia's is 'decreasing', while both defences are rated 'stable'. (3) AGENTS CONSENSUS — The Tactician, Auditor, and cascading profiles all support Under 2.5. The Sceptic's 'PROCEED' verdict with a 70% confidence ceiling allows this direction. The Quant's Poisson model initially favoured Over 2.5, but this is contradicted by the direction conflict and qualitative analysis. The Scouts show mixed signals: Mantova's defensive fragility suggests goals, but Juve Stabia's low-scoring away profile (1.0 goals scored/conceded average) supports unders. (4) RISKS — Mantova's early defensive vulnerability (10 goals conceded 0-15') against Juve Stabia's strong first-half scoring could produce an early goal that opens the match. Both teams' late-game patterns (Mantova score 11 goals 76-90', Stabia concede 15 after 60') could create a frantic finish. Unknown starting XIs and injury status add uncertainty.",
+    "key_factors": [
+      "Cascading profiles show 43% convergence on Under 2.5 with both teams averaging 2.2 total goals",
+      "Tactician predicts 'tight' match with 'fewer goals than average' due to Juve Stabia's possession control",
+      "Auditor's adjusted probability gives Under 2.5 a 56% chance vs market's 51.7%",
+      "Juve Stabia's manager publicly emphasizing defensive stability after late concessions"
+    ],
+    "risk_factors": [
+      "Mantova's early defensive vulnerability against Juve Stabia's first-half scoring threat",
+      "Both teams' late-game patterns could produce goals in final 30 minutes",
+      "Unknown starting XIs and injury status for both teams"
+    ],
+    "alternative_markets": [
+      {
+        "market": "AH Away -0.75",
+        "prediction": "Away -0.75",
+        "confidence": 52
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 4.3,
+      "edge_source": "Auditor adjusted probability (56.0%) minus market implied probability (51.7%)",
+      "edge_grade": "MARGINAL",
+      "staking_signal": "MARGINAL",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away -0.75",
+          "edge": 12.8
+        },
+        {
+          "market": "AH Home 0.25",
+          "edge": 16.7
+        },
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 9.6
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Auditor, and cascading profiles align on Under 2.5 Goals. The Quant's Poisson model initially favoured Over 2.5 but shows a direction conflict. The Scouts present mixed evidence: Mantova's defensive leaks suggest overs, while Juve Stabia's low-scoring away profile supports unders. The Sceptic allows proceeding but notes data gaps.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.9,
+    "max_edge": 12.8
+  },
+  "display_texts": {
+    "home_position": "#19 (27 pts, -16 GD)",
+    "away_position": "#7 (40 pts, +0 GD)",
+    "home_form": "7W-6D-15L in 28 matches, last 5: LWLLL",
+    "away_form": "9W-13D-6L in 28 matches, last 5: DDDWD",
+    "home_stats": "28 goals in 28 matches (avg 1.0/match), 4 clean sheets",
+    "away_stats": "32 goals in 28 matches (avg 1.1/match), 10 clean sheets",
+    "h2h_history": "Mantova 0-0 Juve Stabia (08 Mar 2026)\nJuve Stabia 2-1 Mantova (30 Sep 2025)\nMantova 1-1 Juve Stabia (08 Mar 2025)\nJuve Stabia 1-0 Mantova (28 Aug 2024)\nJuve Stabia 1-4 Mantova (11 May 2024)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Juve Stabia | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Juve Stabia",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "2:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Mantova vs Juve Stabia: The Battle of Contradictions",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a team that concedes early but scores late faces a side that dominates possession but cannot win away? This is the tactical paradox at the heart of Mantova versus Juve Stabia — a match where every strength is countered by a critical weakness, and where the bookmakers have priced the market with frustrating precision.",
+    "chapter_home": "Mantova are a team defined by their contradictions. They sit deep in the relegation zone at 19th, yet they are unbeaten in their last three home matches. Their greatest weapon is a potent late-game punch — 11 of their 28 goals this season have come in the final 15 minutes. Yet, this is undermined by chronic defensive fragility, particularly at the start of matches where they have conceded 10 goals in the opening quarter-hour. They have kept just one clean sheet in 14 home games, conceding an average of 1.79 goals per match at the Stadio Danilo Martelli. Their 3-4-2-1 formation is set up for quick transitions, but the pressure of survival is immense. With morale low and defensive anxiety high, their narrative is one of desperate hope clashing with systemic vulnerability.",
+    "chapter_away": "Juve Stabia travel with their own paradox. They sit seventh with European ambitions, yet they possess a chronic inability to win on the road — just three victories in 14 away matches this season. Manager Abate has publicly demanded defensive stability, coining the phrase 'Blindiamo la serie B' after recent late concessions. Their 3-5-1-1 formation gives them numerical superiority in midfield and an average of 61% possession away from home. They are a strong first-half team, scoring 19 of their 32 goals before half-time, but they fade late, conceding 15 goals after the 60th minute. They are the definition of a low-scoring, possession-dominant side that draws frequently — six of their 14 away matches have ended level. The question is whether control can ever translate into three points.",
+    "chapter_history": "The head-to-head record reveals a tight, tense affair. Of the five meetings between these sides, the last four have all been settled by a single goal or ended level. Juve Stabia hold a slight edge, unbeaten in the last three encounters with two wins and a draw. The average across those meetings is just over two goals per game. Mantova's 4-1 victory in May 2024 stands as the dramatic outlier — a reminder that this fixture can produce surprises when pressure mounts. Historically, this is not a high-scoring rivalry, but one defined by narrow margins and recent away dominance.",
+    "chapter_analysis": "The tactical matchup is a classic clash of styles. Juve Stabia's five-man midfield should dominate possession against Mantova's four, controlling the tempo and looking to exploit the home side's early defensive vulnerability. The first 15 minutes are critical — Mantova concede early, Stabia score early. Yet the final 30 minutes present the opposite dynamic: Mantova's late surge meets Stabia's late collapse. Our analysis shows a clear direction conflict. The mathematical Poisson model suggests a 60% probability for Over 2.5 Goals, creating an 11.7 percentage point edge. However, this is contradicted by every qualitative signal. The Tactician predicts a 'tight' match with 'fewer goals than average'. Both teams' last five matches average exactly 2.2 total goals. The Auditor's adjusted probability gives Under 2.5 a 56% chance versus the market's 51.7% — a marginal 4.3 point edge. The Sceptic flagged critical data gaps — unknown starting XIs and a thin H2H history — capping confidence at 70%. The consensus is moderate but points toward fewer goals, yet the mathematical edge for the over creates an unresolvable tension.",
+    "chapter_value": "Our market: NO BET. The Boot Room identifies a clear under_goals direction, supported by the Tactician's analysis, the Auditor's adjustments, and both teams' recent scoring trends. However, the mathematical edge is marginal at 4.3 percentage points, and the direction conflict with the Poisson model creates too much uncertainty. No qualifying line meets our minimum conviction threshold of moderate with odds at or above 1.70. The market has priced this fixture efficiently — the value simply is not there. Sometimes the smartest play is to recognise when the numbers do not add up.",
+    "ending": "The Boot Room verdict is to pass on this fixture. Mantova's desperate fight for survival against their defensive leaks, and Juve Stabia's possession control against their away-day frailty, creates a compelling narrative stalemate. The data suggests a tight, low-scoring affair, but the mathematical edge is too thin to justify a position. In betting, discipline is as important as insight. For this Serie B clash, we step aside. If you found this analysis valuable, subscribe to the AI Boot Room for data-driven breakdowns of every major fixture. Boot Room out.",
+    "roundup_summary": "Mantova versus Juve Stabia. The hosts sit 19th in Serie B, fighting relegation with a form line of one win, one draw, and three losses in their last five. They are, however, unbeaten in three at home. The visitors are seventh, with European ambitions, and their last five show two wins, two draws, and one defeat. Juve Stabia's away form is defined by draws — six in 14 matches.\n\nThe head-to-head history is tight. Of the five meetings, the last four have been settled by a single goal or ended level. Juve Stabia are unbeaten in the last three encounters. The historical average is just over two goals per meeting. This season, Mantova average 1.07 goals scored and 1.64 conceded per game at home. Juve Stabia average 1.00 scored and 1.00 conceded in their last four away matches, underscoring a low-scoring profile.\n\nThe Boot Room analysis identified a clear directional lean toward Under 2.5 Goals, with a 4.3 percentage point edge from the Auditor's adjusted probability of 56% versus the market's 51.7%. This aligns with the Tactician's prediction of a 'tight' match and both teams' recent average of exactly 2.2 total goals. However, a significant conflict emerged: the Quant's Poisson model suggested a 60% probability for Over 2.5 Goals, an 11.7pp edge in the opposite direction. The Sceptic's concern over unknown starting XIs and a thin H2H sample capped confidence, while the Edge Calculator showed no qualifying line with sufficient conviction. The bookmaker has effectively priced the tension between mathematical projection and qualitative reality, leaving no clear mis-pricing to exploit.\n\nThe Boot Room finds no value in this fixture. The under_goals direction is supported but the edge is marginal and contradicted by the core model, creating unacceptable uncertainty. No market meets the required conviction threshold. Boot Room verdict: NO VALUE — pass on this fixture. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Paradox",
+        "voiceover": "A team that scores late but concedes early, against a side that controls possession but cannot win away. This is the central tension of Mantova versus Juve Stabia — a clash where every apparent advantage is neutralised by a critical flaw.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: a clock showing 90 minutes with a highlight on the final 15. Right side: a pie chart showing 61% possession. Both images have cracks running through them.",
+        "graphic_text_overlay": "CONTRADICTIONS COLLIDE"
+      },
+      {
+        "scene": 2,
+        "name": "Mantova's Fragile Hope",
+        "voiceover": "Mantova are unbeaten in three at home, yet sit 19th. They have a remarkable late-game threat, with 39% of their goals coming after the 75th minute. But they are catastrophically vulnerable at the start, conceding 10 times in the first 15 minutes. One home clean sheet all season tells the story.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dramatic image of the Mantova crest superimposed over a leaking dam wall. A clock in the corner shows the 15th and 90th minutes highlighted.",
+        "graphic_text_overlay": "LATE PUNCH, EARLY LEAK"
+      },
+      {
+        "scene": 3,
+        "name": "Stabia's Controlled Stalemate",
+        "voiceover": "Juve Stabia dominate the ball with 61% average away possession. Their manager demands defensive stability after late collapses. But they have won just three times on the road all season. They are a team built for control, yet chronically unable to convert that control into victory.",
+        "graphic_type": "away_card",
+        "graphic_description": "An image of a chessboard, with most pieces in the centre, controlled by one side. A trophy sits just out of reach on the edge of the board.",
+        "graphic_text_overlay": "POSSESSION WITHOUT POINTS"
+      },
+      {
+        "scene": 4,
+        "name": "The Mathematical Standoff",
+        "voiceover": "Here lies the core of the problem. Our quantitative model sees a 60% chance for Over 2.5 Goals — an 11.7 point edge. But every qualitative agent disagrees. The Tactician predicts a tight match. Both teams average 2.2 goals. The Auditor adjusts the probability to 56% for the under. The signals are in direct conflict.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A stark graphic showing two arrows pointing in opposite directions. One labelled 'POISSON MODEL: 60% OVER' and the other 'TACTICIAN: TIGHT, FEWER GOALS'. A large 'X' marks the centre.",
+        "graphic_text_overlay": "DIRECTION CONFLICT"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO BET. The under direction is clear, but the mathematical edge is a marginal 4.3 points, contradicted by our core model. No line qualifies under our conviction filter. The market has priced this stalemate efficiently. Sometimes, the smartest analysis reveals there is no bet to make. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, minimalist screen. A large, bold 'NO BET' is centred. Below, smaller text reads: 'Under direction confirmed. Edge: 4.3%. Confidence: 0%.'",
+        "graphic_text_overlay": "NO VALUE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "key": "20260310_Newcastle_vs_Barcelona__ds_v3_stream",
+  "match": {
+    "home_team": "Newcastle",
+    "away_team": "Barcelona",
+    "league": "UEFA Champions League",
+    "date": "2026-03-10",
+    "home_id": 34,
+    "away_id": 529
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 32.0,
+    "score_draw": 25.6,
+    "score_away": 42.4,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading form profiles show 100% convergence from both teams on Over 2.5 Goals, with Newcastle averaging 4.20 total goals per match and Barcelona averaging 5.50. The Tactician explicitly predicts an 'open and transitional' encounter with 'more goals than average'. This character overrides the low-scoring H2H history, as current data points overwhelmingly to a high-scoring affair. (2) DIRECTION EVIDENCE — The Quant's Poisson model assigns a 91.2% probability to Over 2.5 Goals, creating a massive 42.9 percentage point gap versus the market's implied 48.3%. This is the largest and highest-confidence gap identified. The λ sum (implied goal expectancy) is extremely high, supported by both teams' recent scoring rates (Newcastle 3.0 GF/m, Barcelona 4.0 GF/m) and defensive vulnerabilities (Newcastle 1.2 GA/m, Barcelona 1.5 GA/m). The Tactician's analysis of explosive early attacks meeting vulnerable defences and a chaotic midfield due to key injuries further cements the expectation of an end-to-end game. (3) AGENTS CONSENSUS — The Quant, Tactician, and cascading profiles are in STRONG alignment on the over_goals direction. The Auditor's validation explicitly recommends Over 2.5 Goals as the most credible value opportunity. The Sceptic's NO_BET veto is overridden by the ≥5% statistical edge (42.9pp) and the qualitative support from the Tactician. The Archivist's low-scoring H2H data is the primary dissenting voice, but it is based on a small, outdated sample (3 matches) that conflicts with the overwhelming current form evidence. (4) RISKS — The primary risk is that the severe injuries to both squads (five each) could lead to a disjointed, low-quality match that fails to produce chances despite the attacking intent. The Sceptic correctly flags that Barcelona's explosive form is based on a tiny two-match sample against weak opposition (#31, #34), which may not translate against stronger European competition. Furthermore, the mandatory rotation risk cap due to Champions League fixture congestion limits confidence to a maximum of 55%.",
+    "key_factors": [
+      "100% convergence in cascading profiles for Over 2.5 Goals from both teams",
+      "Quant's Poisson probability of 91.2% for Over 2.5 Goals vs 48.3% market implied",
+      "Tactician's prediction of an 'open and transitional' match with compromised defences",
+      "Both teams exhibit high BTTS tendencies (Newcastle 80%, Barcelona 100%)"
+    ],
+    "risk_factors": [
+      "Severe squad depletion with five key injuries each, risking disjointed play",
+      "Barcelona's recent high-scoring form based on a tiny two-match sample against weak opposition",
+      "Mandatory rotation risk due to Champions League fixture congestion (confidence cap 55%)"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 3.5 Goals",
+        "prediction": "Over 3.5",
+        "confidence": 48
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 42.9,
+      "edge_source": "Quant Poisson probability minus market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 2.5 Goals",
+          "edge": 42.9
+        },
+        {
+          "market": "Over 3.5 Goals",
+          "edge": 38.4
+        },
+        {
+          "market": "AH Home +1.25",
+          "edge": 53.4
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Quant, Tactician, Auditor, and objective cascading profiles are in strong agreement on an over_goals direction. The Sceptic dissents with a NO_BET verdict based on data quality concerns, but this is overridden by the substantial mathematical edge. The Archivist provides contrary low-scoring H2H history, but this is an outlier against the current form data.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.01,
+    "max_edge": 59.7
+  },
+  "display_texts": {
+    "home_position": "#12 (14 pts, +10 GD)",
+    "away_position": "#5 (16 pts, +8 GD)",
+    "home_form": "6W-2D-2L in 10 matches, last 5: LWWWL",
+    "away_form": "5W-1D-2L in 8 matches, last 5: WLWDL",
+    "home_stats": "26 goals in 10 matches (avg 2.6/match), 4 clean sheets",
+    "away_stats": "22 goals in 8 matches (avg 2.8/match)",
+    "h2h_history": "Barcelona 0-0 Newcastle (18 Mar 2026)\nNewcastle 0-0 Barcelona (10 Mar 2026)\nNewcastle 1-2 Barcelona (18 Sep 2025)",
+    "home_injuries": "Bruno Guimaraes (Missing Fixture - Muscle Injury), M. Gillespie (Missing Fixture - Inactive), E. Krafth (Missing Fixture - Knee Injury), L. Miley (Missing Fixture - Knee Injury), F. Schar (Missing Fixture - Ankle Injury)",
+    "away_injuries": "A. Balde (Missing Fixture - Hamstring Injury), A. Christensen (Missing Fixture - Knee Injury), Gavi (Missing Fixture - Knee Injury), J. Kounde (Missing Fixture - Hamstring Injury), F. de Jong (Missing Fixture - Hamstring Injury)",
+    "api_predictions": "API-Football prediction: Newcastle | Probabilities: 35%-35%-30% | Recommendation: Combo Double chance : Newcastle or draw and +1.5 goals",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:1",
+    "market": "NO BET"
+  }
+}

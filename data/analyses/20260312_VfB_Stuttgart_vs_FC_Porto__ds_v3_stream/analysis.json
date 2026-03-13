@@ -1,0 +1,162 @@
+{
+  "key": "20260312_VfB_Stuttgart_vs_FC_Porto__ds_v3_stream",
+  "match": {
+    "home_team": "VfB Stuttgart",
+    "away_team": "FC Porto",
+    "league": "UEFA Europa League",
+    "date": "2026-03-12",
+    "home_id": 172,
+    "away_id": 212
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 47.0,
+    "score_draw": 30.0,
+    "score_away": 23.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading matchup profiles show STRONG convergence on Over 2.5 Goals (64%) and BTTS Yes (83%). Stuttgart's scoring trend is INCREASING, averaging 3.25 total goals per match in their last five. Porto's away matches, while low-scoring, feature a 100% BTTS rate. This data-driven character outweighs the H2H goalless history and the Tactician's 'tight' prediction. (2) DIRECTION EVIDENCE — The over_goals direction is supported by the strongest objective signal: the 83% convergence on BTTS Yes. Both teams' profiles show moderate-to-high goal involvement. Stuttgart's home attack (2.20 GF/G) is potent, and Porto's away defence (1.00 GA/G) is solid but faces an improving attack. The EdgeCalculator shows positive edges on several Under markets, but these are contradicted by the profile convergence and the Auditor's adjusted probabilities, which show Under 2.5 at 60% (fair odds ~1.67) versus market odds of ~1.63, offering no clear value. The mathematical conflict in the result markets (AH) does not extend to the goals markets, leaving Over/Under lines available for independent evaluation. (3) AGENTS CONSENSUS — The Scouts are split: the Home Scout highlights Stuttgart's strong home attack but recent blanks, while the Away Scout emphasises Porto's poor away scoring. The Archivist notes the 100% goalless H2H history. The Sceptic's main critique is that no scout highlighted the strong BTTS/Over 2.5 convergence, which is the key signal. The Tactician predicts a 'tight' match, contradicting the data. The Quant's analysis is heavily focused on AH markets and lacks explicit goals probabilities. The Auditor's adjusted probabilities give Under 2.5 a 60% chance, but this is based on reconciling conflicting signals, not pure data. The net signal from the most objective source (Cascading Profiles) is strongly for goals. (4) RISKS — The primary risk is the H2H goalless pattern repeating, reinforced by Porto's cautious away approach. Stuttgart's recent failure to score in 50% of matches and defensive injuries could lead to a disjointed performance. Porto's low away goal output (0.75 GF/G) is a concern. The rotation risk from the European fixture conflict caps confidence and adds XI uncertainty.",
+    "key_factors": [
+      "STRONG 83% profile convergence on BTTS Yes",
+      "Stuttgart's INCREASING scoring trend and 2.20 home goals per game average",
+      "Porto's 100% BTTS rate in their last five away matches",
+      "Both teams show potent late-game scoring threat (76-90 minute period)"
+    ],
+    "risk_factors": [
+      "Two-match H2H history shows 100% goalless draws",
+      "Stuttgart failed to score in 50% of last four matches",
+      "European fixture conflict introduces rotation/XI uncertainty"
+    ],
+    "alternative_markets": [
+      {
+        "market": "BTTS Yes",
+        "prediction": "Yes",
+        "confidence": 63
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": -9.4,
+      "edge_source": "EdgeCalculator probability minus market implied probability",
+      "edge_grade": "NO_VALUE",
+      "staking_signal": "MARGINAL",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away 1.0",
+          "edge": 15.1
+        },
+        {
+          "market": "AH Away -0.5",
+          "edge": 10.6
+        },
+        {
+          "market": "AH Away 1.25",
+          "edge": 10.4
+        }
+      ]
+    },
+    "tribunal_consensus_level": "weak",
+    "tribunal_consensus_description": "Consensus is weak and conflicted. The Cascading Profiles strongly signal goals (BTTS Yes 83%, Over 2.5 64%). However, the Tactician predicts a 'tight' match, the H2H is goalless, and the Scouts present mixed attacking form. The Quant and EdgeCalculator are in fundamental DIRECTION_CONFLICT on result markets, and the Auditor rejects the Quant's analysis. The only clear, data-driven agreement is from the objective profiles.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 4.97,
+    "max_edge": 10.6
+  },
+  "display_texts": {
+    "home_position": "#11 (15 pts, +6 GD)",
+    "away_position": "#5 (17 pts, +6 GD)",
+    "home_form": "6W-0D-4L in 10 matches, last 5: WLLWW",
+    "away_form": "5W-2D-1L in 8 matches, last 5: WWLDW",
+    "home_stats": "19 goals in 10 matches (avg 1.9/match), 2 clean sheets",
+    "away_stats": "13 goals in 8 matches (avg 1.6/match), 2 clean sheets",
+    "h2h_history": "FC Porto 0-0 VfB Stuttgart (19 Mar 2026)\nVfB Stuttgart 0-0 FC Porto (12 Mar 2026)",
+    "home_injuries": "N. Darvich (Missing Fixture - Inactive), S. Drljaca (Missing Fixture - Inactive), Jeremy Arevalo (Missing Fixture - Inactive), L. Jovanovic (Missing Fixture - Back Injury), P. Stenzel (Missing Fixture - Inactive)",
+    "away_injuries": "Y. Karamoh (Missing Fixture - Inactive), N. Perez (Missing Fixture - Achilles Tendon Injury), O. Pietuszewski (Missing Fixture - Inactive), Samu (Missing Fixture - Knee Injury), L. de Jong (Missing Fixture - Knee Injury)",
+    "api_predictions": "API-Football prediction: VfB Stuttgart | Probabilities: 35%-35%-30% | Recommendation: Double chance : VfB Stuttgart or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:2",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Stuttgart vs Porto: Why We're NOT Betting on This Europa League Clash",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a formidable home attack meets a team with chronic travel sickness? VfB Stuttgart versus FC Porto presents a classic European puzzle. The data screams for goals — an 83% convergence on Both Teams to Score — yet the history books show only goalless draws. Tonight, we must decide: does the past repeat itself, or does the present data finally break the deadlock?",
+    "chapter_home": "VfB Stuttgart's season is built on their home fortress. At the Mercedes-Benz Arena, they boast an 80% win rate and average over two goals per game. Their 4-2-3-1 formation creates natural overloads in central areas, with a potent late-game threat — 32% of their goals arrive in the final 15 minutes. Yet cracks have appeared. They've failed to score in half of their last four matches. Defensive injuries to key figures like Dan-Axel Zagadou and Josha Vagnoman strain their backline, a vulnerability highlighted by recent late concessions. Manager Sebastian Hoeneß is implementing a 'crisis management' approach, and a morale-dipping stoppage-time defeat just four days ago raises questions about their defensive resolve. The narrative is clear: a potent attack capable of brilliance, but one facing recent inconsistency and defensive fragility.",
+    "chapter_away": "FC Porto arrive with significant baggage. Their away form is anaemic — just one win from four trips, scoring a mere 0.75 goals per match on the road. Their 4-3-3 offers defensive solidity, conceding only one goal per away game, but it translates into a 100% draw rate in their last five away fixtures. Morale is fragile following heavy supporter backlash, with a defender deactivating social media due to abuse. A lengthy injury list compounds their problems, missing five players including target man Luuk de Jong. This is a team under pressure, draw-prone, and struggling to find a cutting edge away from home. Their European pedigree is their only counter-argument to these grim numbers.",
+    "chapter_history": "The head-to-head record presents the most surprising contradiction. In two previous meetings, this fixture has never produced a goal — both ended as goalless draws. It's a 100% stalemate rate from a very small sample, creating a psychological template of caution. History whispers that this is a tactical chess match where neither side wants to be the first to blink. Yet, with fresh squads, different managers, and European stakes, that historical blank slate is there to be rewritten. The past says stalemate; everything else suggests that pattern is ready to break.",
+    "chapter_analysis": "The tactical matchup pits Stuttgart's possession-dominant 4-2-3-1 against Porto's compact 4-3-3. Stuttgart will look to impose their game, averaging 64% possession recently, while Porto will sit in a mid-block, absorbing pressure and waiting to counter. The key battle lies in whether Stuttgart's attacking midfield overload can break Porto's central structure before Porto's transition game exploits Stuttgart's injured defensive flanks. Both teams share a critical trait: a lethal threat in the 76th to 90th minute. This sets the stage for a potentially explosive finale. The Sceptic challenged the scouts for missing the strongest data signal: the cascading matchup profiles show an 83% convergence on Both Teams to Score and a 64% signal for Over 2.5 Goals. This objective data points to an open, high-scoring affair, directly contradicting the historical goalless pattern and the Tactician's prediction of a 'tight' match.",
+    "chapter_value": "Our market: NO_BET. Here is the Boot Room's dilemma. The data direction is clear — we see moderate conviction for an over_goals outcome, supported by that powerful 83% BTTS signal. However, when we run the numbers through our edge models, a fundamental conflict emerges. The Quant's Poisson model identifies value on Stuttgart Asian Handicaps, while the EdgeCalculator finds stronger edges on Porto handicaps and Under markets. The Auditor rejected the Quant's analysis due to this severe direction conflict and missing core probabilities. The Auditor's adjusted probabilities give Under 2.5 Goals a 60% chance, but the market odds around 1.63 offer no clear value. With an effective confidence of just 25% and no line qualifying under our strict odds filter, we cannot identify a mathematically sound edge. Sometimes the smartest play is to recognise when the market has it priced correctly.",
+    "ending": "The Boot Room verdict is to pass on this fixture. The story is compelling — Stuttgart's potent but inconsistent home attack against Porto's travel sickness, with history demanding goals where none have existed before. Yet, the mathematical models are in direct conflict, and the bookmaker's lines reflect the uncertainty. We see the direction, but we cannot find the value. Confidence: 0%. If you appreciate this level of transparent, data-driven analysis that tells you when NOT to bet, make sure to subscribe to AI Boot Room. Boot Room out.",
+    "roundup_summary": "VfB Stuttgart versus FC Porto. Stuttgart sit mid-table domestically with little pressure, carrying a strong 80% home win rate but showing recent inconsistency with two wins and two losses in their last five. Porto are firmly in a European qualification race, yet their away form is poor, with just one win from four trips and a 100% draw rate in their last five road matches. Both sides carry injury concerns, with Stuttgart missing seven players including key defenders, and Porto absent five.\n\nThe head-to-head history is stark but limited: two meetings, both goalless draws. Stuttgart average 2.20 goals scored per home game this season but have conceded in their last four matches. Porto average only 0.75 goals scored away but have a 100% Both Teams to Score rate in recent away fixtures. The historical trend points to stalemate, while current form suggests goal involvement.\n\nThe Boot Room analysis identified a powerful data signal: cascading matchup profiles converged 83% on Both Teams to Score Yes and 64% on Over 2.5 Goals. This created a clear over_goals direction with moderate conviction. However, mathematical evaluation revealed a fundamental conflict. The Quant's Poisson model showed edges of 8.3 to 9.8 percentage points on Stuttgart Asian Handicap lines like AH Home +0.5. The EdgeCalculator contradicted this, showing its highest edges on Porto handicaps, such as a 15.1% edge on AH Away 1.0. The Sceptic's main critique — that no scout highlighted the strong BTTS convergence — was valid, but the quantitative models could not reconcile their opposing views. The Auditor rejected the Quant's analysis, citing this direction conflict and adjusted the Under 2.5 Goals probability to 60%. The bookmaker has not mis-priced a clear edge; instead, the market accurately reflects the conflicting signals.\n\nThe Boot Room lands on NO_BET. The over_goals direction is confirmed, but no specific line offers a qualified mathematical edge under our strict filters. The Auditor's effective confidence is just 25%, and the tribunal consensus is weak and conflicted. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "VfB Stuttgart host FC Porto in the UEFA Europa League. Stuttgart, comfortable mid-table domestically, rely on a formidable home attack averaging over two goals per game. Porto, in a European qualification race, struggle on the road with just one away win this season. The head-to-head history is bizarre: two previous meetings, both goalless draws. Our data showed an 83% convergence on Both Teams to Score, pointing to an open match. However, quantitative models entered a fundamental direction conflict — one favoured Stuttgart handicaps, another favoured Porto. With no reconcilable edge and an Auditor-adjusted confidence of just 25%, the Boot Room lands on NO_BET. Sometimes the clearest signal is to wait for a better opportunity. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Contradiction",
+        "voiceover": "Two meetings, zero goals — that is the entire history between Stuttgart and Porto. Yet, the data for tonight screams the opposite. Our matchup profiles converge 83% on Both Teams to Score. This is the tension: a past of stalemate against a present screaming for goals.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: a classic, faded football scoreboard showing 0-0. Right side: modern data visualisations with 'BTTS YES 83%' and 'OVER 2.5 64%' glowing prominently.",
+        "graphic_text_overlay": "HISTORY VS DATA"
+      },
+      {
+        "scene": 2,
+        "name": "Stuttgart's Fortress & Cracks",
+        "voiceover": "Stuttgart's season is built at home — an 80% win rate, over two goals per game. Their 4-2-3-1 creates overloads and a lethal late threat. But the fortress has cracks. They've failed to score in half their last four matches. Key defenders are injured, and a recent stoppage-time defeat questions their resolve.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dynamic graphic focused on VfB Stuttgart. The Mercedes-Benz Arena is in the background. Key stats like '80% Home Win Rate' and '2.20 GF/G' are highlighted, with red warning icons next to 'Recent Blanks' and 'Defensive Injuries'.",
+        "graphic_text_overlay": "POTENT BUT FRAGILE"
+      },
+      {
+        "scene": 3,
+        "name": "Porto's Travel Sickness",
+        "voiceover": "Porto arrive with chronic away struggles. Just one win from four trips, scoring a mere 0.75 goals per game. They are draw-prone and defensively solid, but morale is low after fan backlash. Injuries blunt their attack. This is a team that digs in on the road but rarely digs out a win.",
+        "graphic_type": "away_card",
+        "graphic_description": "A graphic focused on FC Porto with a gloomy, travel-themed aesthetic. Stats like '0.75 GF/G Away' and '100% Draw Rate (Last 5 Away)' are central. Icons suggest low morale and a lengthy injury list.",
+        "graphic_text_overlay": "AWAY STRUGGLES"
+      },
+      {
+        "scene": 4,
+        "name": "The Model War",
+        "voiceover": "Here lies our core conflict. One quantitative model sees value in backing Stuttgart on Asian Handicaps, with edges over eight percentage points. Another, completely contradictory model, finds even stronger edges on Porto handicaps and Under markets. The Auditor rejected the first analysis entirely. This is a fundamental direction conflict.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A visual representation of two opposing data models clashing. On one side, charts and arrows point towards 'VfB Stuttgart' with '+8.3% Edge'. On the other, charts point towards 'FC Porto' with '+15.1% Edge'. A large 'X' or 'REJECTED' stamp overlays the first model.",
+        "graphic_text_overlay": "FUNDAMENTAL CONFLICT"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict: No Edge",
+        "voiceover": "Our market: NO_BET. The story is compelling, and the direction points towards goals. But when our mathematical models fight each other to a standstill, and the Auditor's effective confidence sits at just 25%, we cannot identify a qualified edge. The bookmaker's lines reflect the uncertainty. Sometimes the smartest bet is no bet at all. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final graphic. The text 'BOOT ROOM VERDICT' is prominent. Below, in large, clear text: 'MARKET: NO BET', 'CONFIDENCE: 0%'. The background is neutral, perhaps a blurred tactical pitch.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

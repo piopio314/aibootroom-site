@@ -1,0 +1,175 @@
+{
+  "key": "20260307_Osasuna_vs_Mallorca__ds_v3_stream",
+  "match": {
+    "home_team": "Osasuna",
+    "away_team": "Mallorca",
+    "league": "La Liga",
+    "date": "2026-03-07",
+    "home_id": 727,
+    "away_id": 798
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 45.0,
+    "score_draw": 28.0,
+    "score_away": 27.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING/TRANSITIONAL match. Osasuna's formidable home scoring record (scored in all 13 home games, 2.0 goals per match at El Sadar) directly targets Mallorca's porous away defence (conceding nearly 2.4 goals per away match). The Tactician's character prediction is 'transitional', with Osasuna controlling possession and Mallorca posing a late-game counter-attacking threat. This creates a setup where both teams have clear paths to goal. (2) DIRECTION EVIDENCE — Multiple independent signals point to higher scoring. The EdgeCalculator shows strong mathematical edges on Over markets (37.2% on Over 2.5 Goals, 34.0% on Over 3.25 Goals). The H2H average is 2.6 goals per match, with the last two meetings both finishing 2-2. Cascading profile convergence shows MODERATE (50%) alignment on Over 2.5 Goals, with Mallorca's away profile strongly supporting it (5/7 rating). The Auditor adjusted Over 2.5 probability to 65% based on tactical alignment and historical data. (3) AGENTS CONSENSUS — The Tactician explicitly states 'more goals than average' and 'transitional' character. The Archivist notes the H2H goals pattern is 'moderate-scoring' with both teams scoring common. The Auditor recommends Over 2.5 Goals as the 'credible value opportunity'. The Sceptic does not veto (PROCEED verdict). The Quant's data gaps prevent full alignment, but the Poisson baseline shows 60% probability for Over 2.5. The only dissent comes from the Home Scout's focus on Osasuna's defensive vulnerabilities rather than attacking strength, but this actually supports the Over thesis. (4) RISKS — Mallorca's survival desperation could lead to an ultra-defensive approach that stifles the game. Osasuna's historical draw tendency (50% of H2H matches) could produce a cagey 1-1 rather than an open affair. The Sceptic's 'surprise scenario' of a low-scoring Mallorca win, while unlikely, represents the main counter-narrative. The motivational asymmetry (Mallorca fighting relegation vs Osasuna with little to play for) could affect intensity levels.",
+    "key_factors": [
+      "Osasuna's perfect home scoring record (scored in all 13 home games)",
+      "Mallorca's catastrophic away defence (conceding 2.4 goals per away match)",
+      "Historical pattern of goals (2.6 average, last two meetings 2-2)",
+      "Tactical matchup favors transitions and late-game surges",
+      "EdgeCalculator shows strong mathematical edges on Over markets"
+    ],
+    "risk_factors": [
+      "Mallorca's survival desperation could lead to ultra-defensive setup",
+      "Historical 50% draw rate between the sides",
+      "Osasuna's second-half defensive vulnerability timing aligns with Mallorca's late scoring"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 3.25 Goals",
+        "prediction": "Over 3.25",
+        "confidence": 58
+      },
+      {
+        "market": "AH Home -1.5",
+        "prediction": "Home -1.5",
+        "confidence": 55
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 37.2,
+      "edge_source": "EdgeCalculator mathematical model (our_prob vs market_odds)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Home -1.5",
+          "edge": 37.2
+        },
+        {
+          "market": "AH Home -1.75",
+          "edge": 36.4
+        },
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 34.0
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Archivist, Auditor, and EdgeCalculator all support higher scoring through tactical analysis, historical patterns, mathematical edges, and profile convergence. The Sceptic does not veto and confirms the data basis. The Quant's data is incomplete but shows a 60% Poisson baseline for Over 2.5. The Home Scout's focus on defensive issues actually reinforces the Over narrative rather than contradicts it.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 37.2
+  },
+  "display_texts": {
+    "home_position": "#10 (34 pts, +0 GD)",
+    "away_position": "#18 (25 pts, -13 GD)",
+    "home_form": "9W-7D-11L in 27 matches, last 5: LWLWL",
+    "away_form": "6W-7D-14L in 27 matches, last 5: LDLLD",
+    "home_stats": "32 goals in 27 matches (avg 1.2/match), 6 clean sheets",
+    "away_stats": "31 goals in 27 matches (avg 1.1/match), 3 clean sheets",
+    "h2h_history": "Osasuna 2-2 Mallorca (07 Mar 2026)\nMallorca 2-2 Osasuna (29 Nov 2025)\nMallorca 1-1 Osasuna (10 Feb 2025)\nOsasuna 1-0 Mallorca (24 Aug 2024)\nOsasuna 1-1 Mallorca (14 May 2024)",
+    "home_injuries": "I. Benito (Missing Fixture - Knee Injury)",
+    "away_injuries": "T. Asano (Missing Fixture - Muscle Injury), M. Kumbulla (Missing Fixture - Muscle Injury), J. Llabres (Missing Fixture - Muscle Injury), J. Salas (Missing Fixture - Knee Injury)",
+    "api_predictions": "API-Football prediction: Osasuna | Probabilities: 45%-45%-10% | Recommendation: Double chance : Osasuna or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "2:2",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Osasuna vs Mallorca: Why The Boot Room Is Passing",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when the most reliable home attack in La Liga meets the league's worst away defence? On paper, it looks like a mismatch destined for goals. But tonight at El Sadar, history and desperation collide. The numbers scream one thing — the context whispers another. This is the story of a fixture where the obvious bet is the most dangerous one.",
+    "chapter_home": "Osasuna arrive at El Sadar with a fortress-like reputation. They are unbeaten in their last five home matches and, crucially, have scored in every single one of their thirteen home games this season. That is a perfect scoring record, averaging two goals per match in Pamplona. Their 4-2-3-1 setup, led by striker Ante Budimir, creates consistent pressure. Yet, a significant flaw runs through this formidable facade. They are notoriously vulnerable in the second half, conceding twenty-five of their thirty-two goals after halftime. This defensive fragility has led to a high draw tendency — three draws in their last five at home. With only one minor injury and little pressure in mid-table, the question is not whether they will score, but whether they can hold a lead.",
+    "chapter_away": "Mallorca travel with their season on the line. Sitting in the relegation zone, they are in desperate need of points, but their form offers little hope. They possess the worst away record in La Liga — just one win from fourteen attempts, conceding nearly two and a half goals per game on the road. Their form is in freefall with four defeats in their last five. Four squad players are injured, testing their defensive depth. Their only glimmer of threat comes late; nineteen of their thirty-one goals this season have arrived after the sixtieth minute. This is a team built for survival-mode defending and opportunistic, late surges, but their chronic away frailty suggests they are ill-equipped to withstand a sustained onslaught.",
+    "chapter_history": "The head-to-head record between these sides tells a story of stalemate and drama. Half of all their meetings — five out of ten — have ended in draws. The last two clashes were pure theatre, both finishing 2-2 after Mallorca surrendered two-goal leads in dramatic late comebacks. This creates a three-match draw streak. The average goals per meeting is a moderate 2.6, with both teams scoring common in recent encounters. History paints this as a coin-toss fixture, where Osasuna's home advantage is consistently neutralised by Mallorca's resilience, or their own inability to close games out.",
+    "chapter_analysis": "The tactical matchup appears clear-cut. Osasuna's 4-2-3-1 should overload Mallorca's midfield, creating sustained pressure against a defence that leaks goals away from home. The EdgeCalculator shows strong mathematical edges on Over markets — a thirty-seven percent edge on Over 2.5 Goals, supported by a Poisson baseline probability of sixty percent. The Tactician predicts a 'transitional' match with 'more goals than average', noting the perfect storm: Osasuna's second-half defensive wobble aligns exactly with the period when Mallorca score most of their goals. However, the Sceptic raised a critical challenge. The market has already heavily discounted the extreme statistical baseline for a home win, likely due to the historical draw pattern and the motivational asymmetry. Mallorca's survival desperation could manifest not as attacking intent, but as an ultra-defensive, low-block setup designed solely to stifle the game. This conflict — between overwhelming statistical signals for goals and the contextual factors that could suppress them — creates too much uncertainty for a confident play.",
+    "chapter_value": "Our market: NO BET. The analysis reveals a market efficiently priced against the noise. While the EdgeCalculator identifies a thirty-seven percent edge on Over 2.5 Goals, the Gaffer's conviction is only moderate. The required odds threshold of 1.70 or better for a qualifying bet is not met, as the market correctly prices in the historical draw tendency and Mallorca's potential for a defensive rearguard. The Auditor's effective confidence sits at sixty-two percent, but this is below the threshold for a sanctioned value bet. Sometimes, the clearest data points lead to the murkiest conclusions. In this case, the Boot Room sees the value but cannot sanction the risk.",
+    "ending": "The final verdict is to pass. Osasuna's formidable home attack against Mallorca's porous away defence is a compelling narrative, but it is countered by a fifty percent historical draw rate and a desperate away side that may park the bus. The mathematical edge exists, but the qualitative uncertainty is too high. The smart move here is to watch and learn, not to wager. If you found this deep dive valuable, hit subscribe and turn on notifications for every Boot Room analysis. Boot Room out.",
+    "roundup_summary": "Osasuna versus Mallorca. The hosts sit comfortably in mid-table, unbeaten in five at home and scoring in all thirteen of their El Sadar fixtures this season. Mallorca languish in the relegation zone, with just one away win all campaign and four defeats in their last five. The head-to-head history is defined by draws — five of the ten meetings have ended level, including the last three. The last two clashes both finished 2-2 after Mallorca surrendered two-goal leads. The average goals per meeting is 2.6.\n\nThe Boot Room analysis identified a strong directional signal for goals. Osasuna's perfect home scoring record targets Mallorca's catastrophic away defence, which concedes 2.4 goals per game. The Poisson baseline probability for Over 2.5 Goals is sixty percent, and the EdgeCalculator showed a thirty-seven point two percent mathematical edge on that market. The Tactician confirmed a 'transitional' match character expecting more goals. However, the Sceptic's concern was validated: the market has efficiently priced out value, accounting for the fifty percent historical draw rate and the risk that Mallorca's survival desperation leads to an ultra-defensive, low-scoring setup. The motivational asymmetry — Mallorca fighting for their lives versus Osasuna with little to play for — adds further uncertainty that the odds already reflect.\n\nThe Auditor's effective confidence was sixty-two percent, but this fell short of the Gaffer's threshold for a bet, with no qualifying line meeting the required odds of 1.70 or better. The apparent value on Over markets is negated by contextual risks the bookmaker has priced correctly. Therefore, no market presents a clear, actionable edge. Boot Room verdict: NO VALUE — pass on this fixture. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Perfect Storm",
+        "voiceover": "A team that scores in every home game this season. An opponent that concedes nearly two and a half goals every time they travel. On the surface, this is a mismatch screaming for goals. But history tells a different story — one of stalemate, desperation, and late drama.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: '13/13 Home Games Scored' in bold green. Right side: '2.4 Goals Conceded/Away' in bold red. A large 'vs' symbol in the centre.",
+        "graphic_text_overlay": "SCORING VS SURRENDER"
+      },
+      {
+        "scene": 2,
+        "name": "The Fortress with a Crack",
+        "voiceover": "Osasuna are unbeaten at El Sadar in five, a formidable home force. Yet their strength hides a critical flaw. They concede seventy-eight percent of their goals in the second half — a defensive wobble that has led to three draws in their last five home matches. They can score, but can they hold on?",
+        "graphic_type": "home_card",
+        "graphic_description": "A dynamic graphic of El Sadar stadium. Key stats pulse: 'Unbeaten in 5', 'Scored in 13/13', '78% Goals Conceded 2nd Half'. An image of Ante Budimir is inset.",
+        "graphic_text_overlay": "OSASUNA: FLAWED DOMINANCE"
+      },
+      {
+        "scene": 3,
+        "name": "The Desperate Travellers",
+        "voiceover": "Mallorca are in freefall, deep in a relegation scrap with the worst away record in La Liga. One win from fourteen attempts. Their only threat arrives late — nineteen of their thirty-one goals come after the hour mark. This is a team built for desperate, late surges against a backdrop of chronic defensive failure.",
+        "graphic_type": "away_card",
+        "graphic_description": "A stark, downward-trending arrow over a map of Spain. Stats appear: '1 Win in 14 Away', '19/31 Goals After 60 mins'. The Mallorca badge looks faded under pressure.",
+        "graphic_text_overlay": "MALLORCA: SURVIVAL MODE"
+      },
+      {
+        "scene": 4,
+        "name": "History's Whisper",
+        "voiceover": "The data screams for an Osasuna onslaught. But history whispers a warning. Half of all meetings between these sides end in draws. The last two finished 2-2, with Mallorca throwing away two-goal leads. This is a fixture where the obvious outcome is rarely the one that arrives.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "A timeline showing the last three H2H results: '2-2', '2-2', '1-1'. The number '50%' is highlighted in yellow, with the text 'DRAW RATE' underneath.",
+        "graphic_text_overlay": "50% DRAW RATE"
+      },
+      {
+        "scene": 5,
+        "name": "The Value That Wasn't",
+        "voiceover": "Our models see a thirty-seven percent edge on Over 2.5 Goals. The tactical matchup is transitional. But the market is efficient — it has priced in the draw history and Mallorca's potential for a defensive siege. The Sceptic's warning holds: desperation can stifle games, not open them. The edge exists, but the risk is priced.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A scale balancing on a knife's edge. On one side, '37.2% EDGE' glows. On the other, '50% DRAW HISTORY' and 'DESPERATION DEFENCE' weigh it down. The scale is perfectly balanced.",
+        "graphic_text_overlay": "EDGE VS CONTEXT"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO BET. The numbers point one way, but the context points another. When the clearest signal is clouded by historical precedent and survival stakes, the only smart play is to watch and learn. The Boot Room finds no qualifying value here. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final graphic. The words 'NO BET' are central and bold. Underneath, smaller text reads: 'Confidence: 0%'. The Osasuna and Mallorca badges are present but faded into the background.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

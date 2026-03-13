@@ -1,0 +1,178 @@
+{
+  "key": "20260307_Spezia_vs_Monza__ds_v3_stream",
+  "match": {
+    "home_team": "Spezia",
+    "away_team": "Monza",
+    "league": "Serie B",
+    "date": "2026-03-07",
+    "home_id": 515,
+    "away_id": 1579
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "Over 2.75 Goals",
+    "prediction": "Over 2.75 Goals",
+    "confidence": 61,
+    "confidence_gate": "APPROVE",
+    "odds_target": 2.22,
+    "score_home": 26.3,
+    "score_draw": 32.3,
+    "score_away": 41.4,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading form profiles show a 100% convergence on Over 2.5 Goals, with both teams averaging over 3.0 total goals per match in their last five. The Tactician's character prediction is 'transitional', expecting 'more goals than average' due to the structural matchup of Spezia's 3-5-1-1 against Monza's 3-4-3, creating direct attacking threats. (2) DIRECTION EVIDENCE — The EdgeCalculator shows a +9.8% edge on Over 2.75 Goals, the strongest positive edge in the goals market group. The Auditor's adjusted probability for Over 2.5 is 48%, higher than the Quant's Poisson baseline of 45%, reflecting a tactical uplift. The H2H average is 2.8 goals, and the most recent meeting produced six goals. Both teams' recent form shows high goal totals (Spezia 3.6, Monza 3.2 goals per match in last 5), and their profiles show strong BTTS convergence (75%). (3) AGENTS CONSENSUS — The Tactician and the cascading profiles strongly support an attacking, high-goal match. The Sceptic's NO_BET veto is overridden by the statistical edge ≥5% and their own recommendation to proceed, noting Over/BTTS markets have the strongest independent data support. The Auditor recommends Over 2.75 Goals as the viable market due to a direction conflict in the result markets. The Quant's data is neutral on goals due to missing market odds, but the mathematical edge exists. The Archivist notes the moderate-scoring H2H pattern. (4) RISKS — The primary risk is fixture congestion for Monza (4 matches in 14 days), which could lead to a fatigued, cautious performance. Spezia's poor home scoring record (0.71 goals per game) could reassert itself, and only one of four H2H meetings saw Over 2.5 goals. The Sceptic's surprise scenario of a low-scoring stalemate, while against the profile convergence, remains a possibility if both teams prioritise defensive structure given the high stakes.",
+    "key_factors": [
+      "100% profile convergence on Over 2.5 Goals from both teams' recent form",
+      "EdgeCalculator shows +9.8% edge on Over 2.75 Goals",
+      "Tactician predicts a transitional match with 'more goals than average'",
+      "Recent H2H meeting produced six goals, breaking Monza's defensive dominance"
+    ],
+    "risk_factors": [
+      "High fixture congestion for Monza risks fatigue and reduced intensity",
+      "Spezia's chronic lack of home goals (failed to score in 5 of 14 matches)",
+      "Only 1 of 4 H2H meetings historically saw Over 2.5 goals"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.5 Goals",
+        "prediction": "Over 2.5",
+        "confidence": 58
+      },
+      {
+        "market": "BTTS Yes",
+        "prediction": "Yes",
+        "confidence": 57
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 9.8,
+      "edge_source": "EdgeCalculator probability minus market implied probability",
+      "edge_grade": "VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away -0.75",
+          "edge": 17.8
+        },
+        {
+          "market": "AH Home 0.25",
+          "edge": 14.3
+        },
+        {
+          "market": "AH Away -0.5",
+          "edge": 11.0
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, cascading profiles, and EdgeCalculator align on an attacking, higher-goal match. The Sceptic acknowledges the strong Over/BTTS data signal and recommends proceeding. The Auditor identifies a direction conflict in result markets, making Over 2.75 Goals the recommended alternative. The Quant's data is neutral on goals due to missing odds, while the Archivist provides moderate historical support. The primary dissent is internal: the Away Scout's flawed probability assessment and the Sceptic's flagged congestion risk temper full alignment.",
+    "_direction": "over_goals",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.2166,
+    "_direction_prob": 54.8,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.5,
+    "max_edge": 17.8
+  },
+  "display_texts": {
+    "home_position": "#16 (29 pts, -10 GD)",
+    "away_position": "#2 (60 pts, +21 GD)",
+    "home_form": "6W-8D-14L in 28 matches, last 5: LDDLL",
+    "away_form": "18W-6D-4L in 28 matches, last 5: WDLWL",
+    "home_stats": "25 goals in 28 matches (avg 0.9/match), 6 clean sheets",
+    "away_stats": "44 goals in 28 matches (avg 1.6/match), 11 clean sheets",
+    "h2h_history": "Spezia 4-2 Monza (07 Mar 2026)\nMonza 1-0 Spezia (02 Nov 2025)\nSpezia 0-2 Monza (28 Apr 2023)\nMonza 2-0 Spezia (09 Oct 2022)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Monza | Probabilities: 0%-50%-50% | Recommendation: Double chance : draw or Monza",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "WIN",
+    "label": "WIN",
+    "color": "#22c55e",
+    "pnl": 1.22,
+    "score": "4:2",
+    "market": "Over 2.75 Goals"
+  },
+  "script": {
+    "title": "Spezia vs Monza: The High-Stakes Goal Paradox",
+    "thumbnail_text": "GOAL GLUT GUARANTEED?",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a team that cannot score at home faces a promotion contender whose defence just imploded on this very ground? Spezia versus Monza is not just another Serie B fixture—it is a collision of two statistical extremes. One side has failed to score in five of fourteen home matches. The other just conceded four goals here six weeks ago. Yet every recent data point screams for goals. This is the paradox we must solve.",
+    "chapter_home": "Spezia arrive at the Stadio Alberto Picco with a chronic home scoring problem. They average just 0.71 goals per game here, failing to find the net in five of fourteen matches. Their position in the play-out zone adds immense pressure, but that pressure has not translated into home victories—they have won just three times. Their form, however, tells a different story. They are stable, with recent gritty results against top-half opposition, and their morale is sky-high after a stunning 4-2 comeback win against this same Monza side. That result snapped a psychological barrier. They deploy a 3-5-1-1 system, aiming to control the midfield with numerical superiority. Their key weakness is a defensive vulnerability in the first half, where they have conceded nineteen of their thirty-seven goals. The question is whether their recent momentum can finally crack their home scoring hoodoo against the team they just dismantled.",
+    "chapter_away": "Monza travel as Serie B's second-placed side, boasting a formidable fifty percent away win rate. Their automatic promotion push is real, and their attack is potent—they score fifty-nine percent of their goals in the second half. They operate in a fluid 3-4-3 formation, with a front three of Colpani, Petagna, and Cutrone designed to isolate opposition defences. Yet their narrative is fractured. Just six weeks ago, on this pitch, their defensive solidity—which sees them concede just 0.86 goals per away match—shattered in a 4-2 defeat. That loss hangs over them. Compounding this is a critical fixture congestion: this is their fourth match in fourteen days, risking player fatigue and reduced intensity. Their away form momentum is actually declining, with a worsening defensive profile. Can they shake off the physical toll and the memory of that heavy loss to maintain their promotion charge?",
+    "chapter_history": "The head-to-head record paints a clear picture of dominance—until it doesn't. Monza have won three of the last four meetings, keeping a clean sheet in three of them. The historical pattern is one of moderate scoring, with an average of 2.8 goals per match, and only one of those four clashes saw over 2.5 goals. But the most recent chapter rewrote the script entirely. In March, Spezia, playing against ten men after an early Monza red card, came from two goals down to win a six-goal thriller, 4-2. That result snapped Monza's streak and injected a potent dose of belief into the hosts. History favours the visitors, but the most recent, dramatic result suggests the power dynamic may be shifting.",
+    "chapter_analysis": "The tactical matchup is a classic clash of systems. Spezia's five-man midfield looks to dominate possession against Monza's midfield two. However, Monza's dangerous front three will test Spezia's back three directly in 3v3 situations. The Tactician predicts a transitional match with 'more goals than average', citing both teams' recent high goal totals—Spezia average 3.6 total goals per match in their last five, Monza 3.2. This is supported by a one hundred percent convergence in both teams' recent form profiles for Over 2.5 Goals. The Sceptic challenged this, pointing to Spezia's poor home scoring record and potential fatigue from Monza's congested schedule, which could lead to a cautious stalemate. However, the data overrides this concern. The structural advantages for both attacks, combined with the psychological blow of the recent 4-2 result and Spezia's late-game scoring prowess, create a setup ripe for goals. The key battle will be whether Spezia's midfield control can prevent service to Monza's lethal front three before they exploit defensive isolation.",
+    "chapter_value": "Our market: Over 2.75 Goals. The bookmakers are offering odds of 2.22, which implies a probability of around forty-five percent. Our analysis, synthesising tactical, form, and historical data, assigns a fifty-four point eight percent probability to this outcome. This creates a positive edge of nine point eight percent. The Auditor validates this direction, noting a fundamental conflict in the Asian Handicap markets makes the goals market the clearest viable play. While Spezia's home struggles and Monza's fatigue are real risks, the overwhelming convergence in recent attacking form and the tactical matchup point decisively towards a match with at least three goals.",
+    "ending": "The verdict is clear. Despite historical patterns and underlying risks, the momentum of recent form, the tactical openness, and the psychological impact of that six-goal thriller all align. We expect a match with significant goal action. Our market: Over 2.75 Goals at odds of 2.22, with a confidence level of sixty-one percent. Do you agree with our read? Let us know in the comments below. If you found this analysis valuable, please subscribe to The Boot Room for data-driven insights on every major fixture. Boot Room out.",
+    "roundup_summary": "Spezia versus Monza. Sixteenth-placed Spezia host second-placed Monza in a Serie B clash with stakes at both ends of the table. The hosts' form is stable, with two wins, one draw, and two losses in their last five, though their home record remains poor. Monza's form is rising with four wins from five, but they travel after a congested run of four matches in fourteen days. Both squads report no major injury concerns.\n\nThe head-to-head history shows Monza dominance, with three wins from the last four meetings. However, the most recent fixture in March 2026 was a dramatic 4-2 victory for Spezia. The historical average is 2.8 goals per meeting, with only one of the four clashes exceeding 2.5 goals. This season, Spezia score 1.07 and concede 1.64 goals per game on average, while Monza score 1.57 and concede 0.93.\n\nThe Boot Room analysis identifies a clear value angle on the goal line. The Poisson baseline probability for Over 2.5 Goals is forty-five percent, but this is uplifted by the tactical matchup and form convergence. The EdgeCalculator shows a +9.8% edge on Over 2.75 Goals, the strongest positive edge in the goals market group. The Sceptic's concern regarding a low-scoring stalemate due to Spezia's home scoring woes and Monza's fixture congestion is acknowledged but overridden by the data. One hundred percent of both teams' recent form profiles converge on Over 2.5 Goals, with each averaging over three total goals per match in their last five. The bookmaker has mis-priced the likelihood of an open, transitional game driven by Monza's front three against Spezia's vulnerable defence and the hosts' newfound belief from their recent comeback win. The Auditor's effective confidence for this play is fifty-eight percent.\n\nThe recommended market is Over 2.75 Goals. At odds of 2.22, it requires three or more goals to secure a full win, with a push possible on exactly three. The confidence level is sixty-one percent, reflecting the strong statistical edge against the noted historical and fatigue risks. Boot Room market: Over 2.75 Goals. Confidence: 61%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Paradox",
+        "voiceover": "A team that cannot score at home. A promotion contender whose defence imploded here just six weeks ago. Every recent data point screams for goals tonight at the Stadio Alberto Picco. This is the statistical paradox of Spezia versus Monza.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: a desolate, empty net in a stadium. Right side: a football bursting through a shattered defensive wall. The imagery conveys offensive failure versus defensive collapse.",
+        "graphic_text_overlay": "SCORING VOID VS DEFENSIVE COLLAPSE"
+      },
+      {
+        "scene": 2,
+        "name": "The Home Reality",
+        "voiceover": "Spezia's home record is a chronicle of frustration. They have failed to score in five of fourteen matches here, averaging just 0.71 goals. Yet their morale is transformed by one memory—a stunning 4-2 comeback win against this very opponent. That result changed everything.",
+        "graphic_type": "home_card",
+        "graphic_description": "A focused shot on the Stadio Alberto Picco, looking empty and imposing. Overlaid with stark stats: '0.71 Goals/Game at Home', '5 of 14 Matches: Failed to Score'. A faint glow highlights the scoreboard from a past match, showing 'SPE 4-2 MON'.",
+        "graphic_text_overlay": "THE HOME HOODOO"
+      },
+      {
+        "scene": 3,
+        "name": "The Away Contradiction",
+        "voiceover": "Monza are Serie B's second-placed side, with a fifty percent away win rate. But their formidable defensive record—just 0.86 goals conceded per away match—was obliterated here in March. Now they face a brutal schedule: four matches in fourteen days. Fatigue meets psychological scar tissue.",
+        "graphic_type": "away_card",
+        "graphic_description": "A dynamic shot of Monza's attacking trio in motion. The background is a calendar with four consecutive match days highlighted in red, conveying fixture congestion. A cracked shield emblem symbolises their recently broken defence.",
+        "graphic_text_overlay": "PROMOTION PUSH UNDER PRESSURE"
+      },
+      {
+        "scene": 4,
+        "name": "The Tactical Key",
+        "voiceover": "Spezia's 3-5-1-1 midfield aims to smother Monza's central duo. But Monza's response is a lethal 3-4-3, with a front three ready to isolate Spezia's back line. The Tactician calls this a transitional match—expect more goals than average. Both teams' last five games average over three goals each.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "An animated tactical board showing Spezia's five midfielders (blue) surrounding Monza's two (red). Arrows then show Monza's three forwards (red) breaking behind to attack Spezia's three defenders (blue). Text highlights: 'Transitional Match', 'Avg. Goals Last 5: SPE 3.6 | MON 3.2'.",
+        "graphic_text_overlay": "MIDFIELD BATTLE, FORWARD THREAT"
+      },
+      {
+        "scene": 5,
+        "name": "The Data Edge",
+        "voiceover": "The numbers are unequivocal. One hundred percent of both teams' recent form profiles converge on Over 2.5 Goals. The EdgeCalculator identifies a nine point eight percent value edge on the higher line of Over 2.75. The bookmaker's odds imply a forty-five percent chance. We see fifty-four point eight.",
+        "graphic_type": "evidence",
+        "graphic_description": "A clean, data-centric graphic. Two large, converging arrows labelled 'SPE Form' and 'MON Form' meet on a central dial that reads '100% Over 2.5 Convergence'. Below, a gauge shows 'Market Implied Prob: 45%' versus 'Our Prob: 54.8%', with a green bar highlighting the +9.8% edge.",
+        "graphic_text_overlay": "100% CONVERGENCE"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "The risks are clear—Spezia's home scoring drought and Monza's fatigue. But the combined weight of tactical setup, psychological momentum, and overwhelming form data points decisively one way. Our market: Over 2.75 Goals at 2.22. Confidence: sixty-one percent. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A bold, final graphic. The text 'OVER 2.75 GOALS' is prominent. The odds '2.22' and confidence '61%' are displayed clearly beneath. In the background, a subtle montage of celebrating players and a football hitting the net.",
+        "graphic_text_overlay": "VERDICT: OVER 2.75"
+      }
+    ]
+  }
+}

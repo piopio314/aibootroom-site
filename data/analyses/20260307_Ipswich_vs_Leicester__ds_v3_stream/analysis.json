@@ -1,0 +1,169 @@
+{
+  "key": "20260307_Ipswich_vs_Leicester__ds_v3_stream",
+  "match": {
+    "home_team": "Ipswich",
+    "away_team": "Leicester",
+    "league": "Championship",
+    "date": "2026-03-07",
+    "home_id": 57,
+    "away_id": 46
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 62.0,
+    "score_draw": 23.0,
+    "score_away": 15.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading form profiles show strong convergence on Over 2.5 Goals (64%) and Both Teams to Score (75%). Ipswich's high-volume attack (14.7 shots per match) meets Leicester's vulnerable defence, which has conceded an average of 1.68 goals per away match and kept zero clean sheets in their last five. The Tactician's character prediction of 'one-sided with transitional moments' and 'more goals than average' reinforces this classification. (2) DIRECTION EVIDENCE — The mathematical evidence supports an over_goals direction. The Auditor's adjusted probabilities give Over 2.5 a 64% likelihood. The cascading profiles show Ipswich averaging 3.2 total goals in their last five matches and Leicester averaging 3.4. Leicester's away form shows 100% BTTS rate in their last five, indicating they both score and concede consistently. The structural mismatch—Ipswich's high-possession, high-shot system against Leicester's makeshift defence with six injuries—creates conditions for multiple goals. (3) AGENTS CONSENSUS — The Tactician explicitly states 'more goals than average' and aligns with the strong convergence data. The Sceptic's 'no_bet_recommendation' is PROCEED, noting strong convergence on BTTS/Over markets. The Auditor's adjusted probabilities support higher goal totals. The primary dissent comes from the EdgeCalculator's anomalous Leicester Asian handicap edges, which are contradicted by every qualitative agent and the Quant's own Poisson analysis showing no mispricing on Asian lines. The net signal strongly favours goals. (4) RISKS — The mandatory rotation risk cap limits confidence to 55% due to potential XI changes from fixture congestion. Leicester's chronic inability to win away could lead to a defensive, survival-mode approach that limits goal output. Ipswich's possession-heavy approach might not translate to high shots on target (averaging 5.3 in last three matches). Confirmed team news showing significant rotation could invalidate the form-based projections.",
+    "key_factors": [
+      "Strong convergence on Over 2.5 Goals (64%) and BTTS Yes (75%) from cascading profiles",
+      "Leicester's defensive crisis with six injuries including both first-choice centre-backs",
+      "Ipswich's high-volume attack (14.7 shots per match) at home where they average 1.6 goals",
+      "Leicester's 100% BTTS rate in last five away matches, showing they both score and concede"
+    ],
+    "risk_factors": [
+      "Rotation risk from fixture congestion for both sides (confidence cap at 55%)",
+      "Leicester's potential to adopt an ultra-defensive survival approach",
+      "Ipswich's shots not always converting to high-quality chances (5.3 shots on target average)"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Both Teams to Score - Yes",
+        "prediction": "BTTS Yes",
+        "confidence": 65
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 7.2,
+      "edge_source": "Auditor adjusted probability (64%) vs market implied probability",
+      "edge_grade": "VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away 0.25",
+          "edge": 38.1
+        },
+        {
+          "market": "AH Away 0.5",
+          "edge": 30.4
+        },
+        {
+          "market": "AH Away 1.25",
+          "edge": 28.2
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Sceptic, and Auditor align on a higher-scoring match supported by strong convergence data. The Scouts' extreme probability assessments (Home 82%, Away 4%) are outliers not supported by market pricing. The Quant's Poisson analysis shows no Asian handicap mispricing, while the EdgeCalculator's anomalous Leicester edges create a fundamental direction conflict with all qualitative analysis.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 38.1
+  },
+  "display_texts": {
+    "home_position": "#4 (63 pts, +26 GD)",
+    "away_position": "#23 (34 pts, -9 GD)",
+    "home_form": "18W-9D-7L in 34 matches, last 5: DDLDW",
+    "away_form": "10W-11D-15L in 36 matches, last 5: WLWWD",
+    "home_stats": "60 goals in 34 matches (avg 1.8/match), 13 clean sheets",
+    "away_stats": "48 goals in 36 matches (avg 1.3/match), 3 clean sheets",
+    "h2h_history": "Ipswich 1-1 Leicester (07 Mar 2026)\nLeicester 3-1 Ipswich (13 Dec 2025)\nLeicester 2-0 Ipswich (18 May 2025)\nIpswich 1-1 Leicester (02 Nov 2024)\nLeicester 1-1 Ipswich (22 Jan 2024)",
+    "home_injuries": "D. Button (Missing Fixture - Inactive), J. Philogene (Missing Fixture - Injury), C. Townsend (Missing Fixture - Knee Injury), A. Young (Missing Fixture - Hip Injury)",
+    "away_injuries": "A. Begovic (Missing Fixture - Injury), H. Choudhury (Missing Fixture - Knee Injury), V. Kristiansen (Missing Fixture - Injury), A. Ramsey (Missing Fixture - Injury), H. Souttar (Missing Fixture - Achilles Tendon Injury)",
+    "api_predictions": "API-Football prediction: Ipswich | Probabilities: 45%-45%-10% | Recommendation: Double chance : Ipswich or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Ipswich vs Leicester: Why We're NOT Betting This Fixture",
+    "thumbnail_text": "NO BET ALERT",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a promotion-chasing fortress meets a relegation-threatened side with a decimated defence? The data screams goals — but the market has already priced it perfectly. Tonight at Portman Road, we face a tactical mismatch that should produce fireworks — yet the bookmakers have left us with no mathematical edge to exploit.",
+    "chapter_home": "Ipswich Town arrive at Portman Road as a genuine Championship fortress. They sit fourth in the table with automatic promotion still within reach, boasting a formidable home record of twelve wins from eighteen matches. Kieran McKenna's side have conceded just 0.67 goals per game on their own patch, keeping nine clean sheets. Their 4-2-3-1 system generates a high volume of shots — 14.7 per match recently — and they possess a lethal late-game threat, scoring fifteen goals in the 76-90 minute period. Morale is high with ten points from their last five matches, but there are concerns. Four players are listed as injured, and a punishing schedule of five games in fourteen days presents a significant rotation risk. Their possession-heavy approach does not always translate to high-quality chances, averaging just 5.3 shots on target in their last three outings. This is a team with everything to play for, but potentially heavy legs.",
+    "chapter_away": "Leicester City present the polar opposite narrative. Rooted in the relegation zone, they arrive with a chronic inability to win on the road — just four victories in nineteen away matches this season. Their form is winless in five, and morale is understandably low. The Foxes' defensive crisis is the story: six players are unavailable through injury, including both first-choice centre-backs Harry Souttar and Jannik Vestergaard. This forces a makeshift backline that has conceded an average of 1.68 goals per away match and kept zero clean sheets in their last five. Their 4-2-3-1 formation is built for survival, looking to absorb pressure and launch counter-attacks through pacy wingers. They do possess one strength — they rarely fail to score away, finding the net in seventeen of nineteen trips. But with a win probability of just four percent, they are in pure survival mode.",
+    "chapter_history": "History tells a story of Leicester dominance — they have won half of all meetings between these sides. Ipswich have managed just one win in ten. Yet the pattern is more nuanced: draws account for forty percent of these fixtures, a clear signal of competitive balance. The last four meetings have seen Leicester unbeaten, with two wins and two draws. The last two encounters featured both teams scoring, with an average of 2.7 goals per match historically. But tonight's context flips the script entirely. The historical favourites arrive desperate and wounded, while the traditional underdogs are flying high. History meets desperation, and the pattern is under severe threat.",
+    "chapter_analysis": "The tactical matchup creates a perfect storm for goals. Ipswich's high-possession, high-volume attack directly targets Leicester's greatest weakness — their patched-up central defence. The Tactician predicts a one-sided affair with transitional moments, where Leicester's pacy wingers could exploit spaces behind Ipswich's advanced full-backs. The data convergence is overwhelming: a sixty-four percent likelihood of Over 2.5 Goals and a seventy-five percent chance of Both Teams to Score. Leicester's last five away matches show a one hundred percent BTTS rate — they both score and concede consistently. The Sceptic challenged the Home Scout's assessment of 'rising' form, noting Ipswich's momentum has plateaued with a recent draw. More importantly, the Sceptic highlighted a massive divergence: the scouts gave Ipswich an eighty-two percent win probability, while the market prices them at just sixty-seven percent. This suggests the market sees more risk — from fatigue and Leicester's scoring threat — than the scouts acknowledged. The critical battle will be whether Leicester's makeshift defence can withstand Ipswich's relentless pressure long enough to launch effective counters.",
+    "chapter_value": "Our market: NO_BET. The mathematical evidence confirms the over_goals direction — but no specific line offers sufficient edge to qualify. The Auditor's adjusted probabilities give Over 2.5 Goals a sixty-four percent likelihood, yet the market has priced this efficiently. The Quant's Poisson analysis reveals no gaps — all Asian handicap probabilities align perfectly with market prices. While the EdgeCalculator shows massive thirty-eight percent edges on Leicester Asian handicaps, this is fundamentally contradicted by every qualitative agent and the Quant's own data. This is a direction conflict we cannot ignore. The rotation risk from fixture congestion caps our confidence, and the bookmakers have left us with no mispriced line to attack. Sometimes the smartest play is to walk away.",
+    "ending": "The Boot Room verdict is clear: pass on this fixture. The data points toward a higher-scoring match, but the market has priced that narrative correctly. With no mathematical edge above our threshold and conflicting signals on the result markets, there is no value bet to recommend. Confidence sits at zero percent. Remember, disciplined betting means recognising when to stay out. If you found this analysis valuable, hit subscribe and turn on notifications for all our Championship coverage. Boot Room out.",
+    "roundup_summary": "Ipswich versus Leicester. Fourth-placed Ipswich host relegation-threatened Leicester in a Championship clash defined by contrasting ambitions. The hosts have taken ten points from their last five matches, boasting a formidable home record with twelve wins at Portman Road. Leicester are winless in five, with just four away victories all season, and arrive with six defensive injuries. Their last five away matches have seen both teams score every time.\n\nThe head-to-head record favours Leicester historically, with five wins in ten meetings. Ipswich have just one victory. The last four encounters have seen Leicester unbeaten, with two wins and two draws. The average goals per meeting is 2.7, with both teams scoring in the last two fixtures. This season, Ipswich average 1.6 goals scored per home game, while Leicester concede 1.68 per away match. Leicester's recent away form shows a one hundred percent Both Teams to Score rate.\n\nThe Boot Room analysis identifies a strong over_goals direction with a sixty-four percent Poisson probability for Over 2.5 Goals. The Quant's edge assessment shows zero gap on all Asian handicap lines, indicating perfect market efficiency. The Sceptic's primary concern was the massive divergence between scout probabilities — eighty-two percent for Ipswich — and market-implied probabilities of sixty-seven percent. This suggests the market is pricing in Ipswich's fatigue risk and Leicester's scoring threat more heavily. The Auditor rejected the analysis due to missing probability data and a severe direction conflict, with the EdgeCalculator showing thirty-eight percent edges on Leicester handicaps that contradict all qualitative assessment. The bookmaker has not mis-priced any qualifying line above our edge threshold.\n\nThe verdict is to pass. No market offers sufficient mathematical edge to qualify as a value bet. The over_goals narrative is confirmed but efficiently priced, while conflicting signals on result markets create unacceptable uncertainty. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Contradiction",
+        "voiceover": "The data screams goals — a sixty-four percent chance of Over 2.5, a seventy-five percent chance of Both Teams to Score. A promotion-chasing fortress meets a relegation-threatened side with six defensive injuries. Yet the market gives us nothing to attack. This is the Ipswich versus Leicester paradox.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual: on one side, Ipswich's attacking stats and Portman Road fortress imagery; on the other, Leicester's defensive injury list and relegation zone table position. A large '64%' and '75%' overlay for the goal probabilities.",
+        "graphic_text_overlay": "DATA VS MARKET"
+      },
+      {
+        "scene": 2,
+        "name": "The Fortress",
+        "voiceover": "Ipswich at Portman Road are a different beast. Twelve wins from eighteen home matches. Nine clean sheets. A high-volume attack averaging nearly fifteen shots per game. But five matches in fourteen days threatens their legs — and their shots do not always find the target.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dynamic graphic showing Ipswich's home record: 12W-5D-1L. Icons for shots (14.7) and clean sheets (9). A subtle fatigue meter graphic in the corner.",
+        "graphic_text_overlay": "PORTMAN ROAD FORTRESS"
+      },
+      {
+        "scene": 3,
+        "name": "The Wounded Visitor",
+        "voiceover": "Leicester arrive in survival mode. Four away wins all season. A decimated defence missing six players, including both starting centre-backs. They concede 1.68 goals per away game — but they also score in seventeen of nineteen trips. They are wounded, but not toothless.",
+        "graphic_type": "away_card",
+        "graphic_description": "A graphic focused on Leicester's defensive crisis: red crosses over six player silhouettes. Stats showing 1.68 goals conceded away and a 100% BTTS rate in last five away matches.",
+        "graphic_text_overlay": "DEFENSIVE CRISIS"
+      },
+      {
+        "scene": 4,
+        "name": "The Tactical Mismatch",
+        "voiceover": "This is a perfect storm. Ipswich's possession-heavy attack directly targets Leicester's greatest weakness. The Tactician predicts a one-sided affair with transitional moments — Leicester's pacy wingers against Ipswich's advanced full-backs. The conditions for goals are all here.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A tactical board showing Ipswich's 4-2-3-1 pressing high against Leicester's deep 4-2-3-1 block. Arrows indicating Ipswich's shot volume targeting the centre-back area, and Leicester's counter-attack arrows down the wings.",
+        "graphic_text_overlay": "PERFECT STORM"
+      },
+      {
+        "scene": 5,
+        "name": "The Market Reality",
+        "voiceover": "But here is the problem. The Quant's Poisson analysis shows zero gap — the market is perfectly efficient on Asian lines. The EdgeCalculator screams thirty-eight percent edges on Leicester, but this contradicts every qualitative assessment. A direction conflict we cannot ignore. The bookmakers have priced the goal narrative correctly.",
+        "graphic_type": "evidence",
+        "graphic_description": "A clean graphic showing two conflicting data streams: one side with 'Poisson Gap: 0.0%' and 'Market Efficiency', the other with 'EdgeCalculator: 38.1%' and a large red 'CONFLICT' stamp overlaid.",
+        "graphic_text_overlay": "DIRECTION CONFLICT"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO_BET. Confidence: zero percent. The data confirms the over_goals direction, but no line qualifies. The rotation risk caps our conviction. Sometimes the smartest move is to recognise when the market has won — and walk away. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final card with 'NO BET' in large, bold typography. Below, smaller text: 'Confidence: 0%'. The Boot Room logo prominent.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

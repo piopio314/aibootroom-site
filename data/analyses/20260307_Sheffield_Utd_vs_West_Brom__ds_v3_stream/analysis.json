@@ -1,0 +1,173 @@
+{
+  "key": "20260307_Sheffield_Utd_vs_West_Brom__ds_v3_stream",
+  "match": {
+    "home_team": "Sheffield Utd",
+    "away_team": "West Brom",
+    "league": "Championship",
+    "date": "2026-03-07",
+    "home_id": 62,
+    "away_id": 60
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "Under 2.25 Goals",
+    "prediction": "Under 2.25 Goals",
+    "confidence": 53,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 2.15,
+    "score_home": 56.9,
+    "score_draw": 28.3,
+    "score_away": 21.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The cascading form profiles show a STRONG 71% convergence on Under 2.5 Goals, with Sheffield United's home defence worsening and West Brom averaging just 1.8 total goals in their last five matches. The Tactician explicitly predicts a 'tight, low-scoring tactical contest'. Both teams' recent sequences are dominated by draws and low-scoring outcomes, not attacking fluency. (2) DIRECTION EVIDENCE — The mathematical edge supports Under markets, with Under 2.25 Goals showing a +6.7% edge. The Auditor's adjusted probabilities give Under 2.5 a 60% likelihood. Sheffield United's home attack, while potent on paper, has been inflated by facing weak opposition, while West Brom's chronic away scoring struggles (0.84 goals per game) are well-documented. The structural matchup suggests control rather than chaos. (3) AGENTS CONSENSUS — The Tactician, Auditor, and cascading profiles all point towards a low-scoring match. The Home Scout notes Sheffield United's 100% BTTS rate at home recently, but this is countered by the Away Scout's emphasis on West Brom's goal-shy attack. The Sceptic's challenge regarding Sheffield United's overrated form does not contradict the low-scoring thesis; if anything, it reinforces it by questioning their attacking potency against sterner opposition. The Quant's goals market data is invalid, but the EdgeCalculator's positive edge on Under 2.25 provides the mathematical anchor. (4) RISKS — The primary risk is Sheffield United's documented defensive lapse in the 46-60 minute period, which West Brom could exploit. A single early goal could open the game up, though West Brom's away mentality suggests they would prioritise defensive solidity. The motivational differential could see a more aggressive West Brom than expected if they fall behind, but their poor away record suggests they lack the quality to force a high-scoring game.",
+    "key_factors": [
+      "Strong 71% profile convergence on Under 2.5 Goals from both teams' recent form",
+      "West Brom's chronic away scoring struggles (0.84 goals per game, 7/19 failed to score)",
+      "Sheffield United's defensive decline at home (no clean sheets in last five, 100% BTTS)",
+      "Tactician's prediction of a 'tight, low-scoring tactical contest'"
+    ],
+    "risk_factors": [
+      "Sheffield United's documented concentration lapse in the 46-60 minute period",
+      "High fixture congestion and rotation risk for both sides, capping confidence at 55%",
+      "Significant motivational differential (West Brom HIGH, Sheffield United LOW) could alter game state"
+    ],
+    "alternative_markets": [
+      {
+        "market": "AH Away +0.75",
+        "prediction": "West Brom +0.75",
+        "confidence": 47
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 6.7,
+      "edge_source": "EdgeCalculator probability minus market implied probability",
+      "edge_grade": "MARGINAL",
+      "staking_signal": "MARGINAL",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away 1.25",
+          "edge": 14.6
+        },
+        {
+          "market": "AH Away 0.75",
+          "edge": 9.7
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 6.7
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Auditor, and cascading form profiles align strongly on a low-scoring match. The Scouts are split: the Home Scout highlights Sheffield United's attacking form but acknowledges defensive issues, while the Away Scout emphasises West Brom's poor attack. The Sceptic challenges the Home Scout's 'rising' form narrative but does not veto the low-scoring direction. The Quant's goals data is missing, but the EdgeCalculator provides mathematical support for Under markets.",
+    "_direction": "under_goals",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.1438,
+    "_direction_prob": 53.2,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.2,
+    "max_edge": 9.7
+  },
+  "display_texts": {
+    "home_position": "#13 (48 pts, +2 GD)",
+    "away_position": "#22 (35 pts, -18 GD)",
+    "home_form": "15W-3D-17L in 35 matches, last 5: LLLLL",
+    "away_form": "9W-9D-18L in 36 matches, last 5: WWDWL",
+    "home_stats": "50 goals in 35 matches (avg 1.4/match), 9 clean sheets",
+    "away_stats": "35 goals in 36 matches (avg 1.0/match), 7 clean sheets",
+    "h2h_history": "Sheffield Utd 1-1 West Brom (07 Mar 2026)\nWest Brom 2-0 Sheffield Utd (12 Dec 2025)\nSheffield Utd 1-1 West Brom (29 Dec 2024)\nWest Brom 2-2 Sheffield Utd (08 Dec 2024)\nSheffield Utd 2-0 West Brom (26 Apr 2023)",
+    "home_injuries": "T. Davies (Missing Fixture - Injury), S. McCallum (Missing Fixture - Injury), K. Phillips (Missing Fixture - Red Card), J. Shackleton (Missing Fixture - Foot Injury)",
+    "away_injuries": "T. Bany (Missing Fixture - Muscle Injury), K. Grant (Missing Fixture - Injury), M. Johnston (Missing Fixture - Injury), C. Mepham (Missing Fixture - Inactive)",
+    "api_predictions": "API-Football prediction: Sheffield Utd | Probabilities: 45%-45%-10% | Recommendation: Double chance : Sheffield Utd or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "WIN",
+    "label": "WIN",
+    "color": "#22c55e",
+    "pnl": 1.15,
+    "score": "1:1",
+    "market": "Under 2.25 Goals"
+  },
+  "script": {
+    "title": "Sheffield Utd vs West Brom: The Low-Score Trap",
+    "thumbnail_text": "RELEGATION DESPERATION MEETS MID-TABLE COMFORT",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a team with nothing to play for faces a side fighting for their lives? Sheffield United, comfortable in mid-table, host a desperate West Bromwich Albion. On paper, it looks like a routine home win. But the numbers tell a different story — a story of chronic scoring struggles, defensive decline, and a fixture historically prone to stalemates. This is not about who wins. This is about how few goals will be scored.",
+    "chapter_home": "Sheffield United arrive at Bramall Lane with what appears to be rising form — three wins from their last five matches. Yet, a deeper look reveals a troubling illusion. Those victories came against opponents with an average league rank of 16.2, the Championship's weaker sides. Their home defence is in clear decline, failing to keep a clean sheet in any of their last five matches at Bramall Lane. Chris Wilder's side consistently concede, with a 100% Both Teams to Score rate in that same period. They possess a potent home attack, averaging 1.65 goals, but their form is inflated. More concerning is a documented concentration lapse: they have conceded 18 of their 48 goals this season in the 46-60 minute period immediately after half-time. With four squad players injured and their season effectively over, their motivation is low. The narrative of a confident, in-form side is fragile.",
+    "chapter_away": "West Bromwich Albion travel north entrenched in a desperate relegation battle, sitting 22nd in the table. Their situation is dire, but their recent performances tell a story of stubborn resistance, not collapse. They are unbeaten in three of their last five away matches, drawing three of them. However, their fundamental flaw is a chronic inability to score on the road. They average a meagre 0.84 goals per away game and have failed to find the net in seven of nineteen away trips this season. Their recent form shows zero wins in five, but a 60% draw rate highlights their resilience. Missing four players, including creative forward M. Johnston, further depletes their already goal-shy attack. Their morale is low, but their pressure is immense. For the Baggies, this is not about flair — it is about survival through organisation and avoiding defeat.",
+    "chapter_history": "The history between these sides points unequivocally towards tight, finely balanced contests. In their last five meetings, three have ended in draws — a 60% draw rate in the recent sequence. The most recent encounter in March featured a dramatic 83rd-minute West Brom equaliser, showcasing the fixture's tendency for late drama and narrow margins. Sheffield United hold a slight historical edge, but West Brom are unbeaten in the last two meetings. The average goals per meeting sits at 2.4, but the recent trend is towards cagey, low-scoring affairs where neither side can secure a decisive advantage. This historical pattern of draws and tight scorelines sets the stage perfectly for another controlled battle.",
+    "chapter_analysis": "Synthesising these profiles reveals a compelling convergence. Both teams' recent form shows a strong 71% signal for Under 2.5 goals. Sheffield United's matches average 2.2 total goals recently, while West Brom's average just 1.8. The Tactician predicts a 'tight, low-scoring tactical contest'. The Sceptic forcefully challenged the Home Scout's claim of 'rising' form, noting declining momentum and a patchy home record that inflates Sheffield United's perceived strength. This critique is valid — it reinforces the low-scoring thesis by questioning United's attacking potency against sterner opposition. Tactically, Sheffield United's 4-2-3-1 seeks to control possession, but faces a West Brom 4-4-2 set up to absorb pressure and counter. The key battle lies in whether United can break down a organised, desperate block before their own post-half-time defensive lapse becomes a factor. The significant motivational differential — high for West Brom, low for Sheffield United — further encourages a cautious, risk-averse approach from both sides.",
+    "chapter_value": "Our market: Under 2.25 Goals. The bookmakers are offering odds of 2.15, implying a probability of just 46.5%. Our analysis, validated by the Auditor's adjusted probabilities which give Under 2.5 Goals a 60% likelihood, suggests the true probability is closer to 53%. This creates a positive mathematical edge of 6.7%. The market has mis-priced this fixture, overestimating the attacking threat and underestimating the structural and motivational forces driving it towards a low-scoring outcome. While the Asian Handicap markets show larger edges, they contradict the qualitative consensus; the Under market aligns both data and narrative.",
+    "ending": "The verdict is clear. Expect a cagey, tense affair at Bramall Lane, where desperation meets comfort and control outweighs chaos. Sheffield United's defensive leaks and West Brom's chronic away scoring woes point towards a match decided by fine margins, not a flurry of goals. We are taking the value on Under 2.25 Goals at 2.15, with a speculative 53% confidence. Do you agree this becomes a defensive battle? Let us know in the comments below. For more data-driven football analysis, subscribe and hit the notification bell. Boot Room out.",
+    "roundup_summary": "Sheffield United versus West Brom. The Blades sit 13th, comfortably mid-table, while the Baggies are 22nd and deep in a relegation fight. Sheffield United's form reads three wins, one draw, and one loss from their last five, though this is inflated by facing weak opposition. West Brom have no wins in five, with three draws and two defeats, showcasing their stubbornness and scoring struggles. A key injury note: West Brom are without creative forward M. Johnston.\n\nThe head-to-head record reveals a tight fixture. The last five meetings have seen two Sheffield United wins, three draws, and no West Brom victories, with scores including a 1-1 draw in March 2026 and a 2-1 United win in December 2025. The average goals per meeting is 2.4. This season, Sheffield United score 1.65 goals per home game but concede consistently, while West Brom average a dire 0.84 goals per away game and have failed to score in seven of nineteen away matches.\n\nThe Boot Room analysis identifies a 71% convergence from both teams' recent form profiles on Under 2.5 goals. The Poisson-derived probability for Under 2.25 goals is 53.2%, creating a Quant edge of +6.7 percentage points over the market-implied probability of 46.5%. The Sceptic's serious challenge was that Sheffield United's 'rising' form narrative was contradicted by declining momentum and a patchy home record. We reject the notion of strong rising form, but this actually strengthens the low-scoring case by questioning United's ability to blow away a disciplined, desperate side. The bookmaker has mis-priced the market by overestimating the attacking threat, failing to fully account for West Brom's chronic away scoring woes (0.84 goals per game) and the motivational dynamic that will encourage a cagey contest. The Auditor's effective confidence for this direction is 58%.\n\nOur verdict is Under 2.25 Goals, available at odds of 2.15. This requires the match to feature two or fewer total goals for a full win, with the possibility of a push with exactly three goals. The confidence level is a speculative 53%, reflecting the risk of an early goal altering the game's defensive posture. Boot Room market: Under 2.25 Goals. Confidence: 53%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Illusion of Form",
+        "voiceover": "Sheffield United's three wins from five suggest a team in form. But look closer. Those victories came against the league's weakest sides. Their home defence is leaking goals, with no clean sheets in five. This is not rising form — it is an illusion built on flat-track bullying.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split image: on one side, a Sheffield United player celebrating a goal; on the other, a chart showing their declining defensive stats and the low league rank of recent opponents.",
+        "graphic_text_overlay": "FORM VS REALITY"
+      },
+      {
+        "scene": 2,
+        "name": "The Desperate Traveller",
+        "voiceover": "West Brom arrive desperate, sitting in the relegation zone. Their mission is simple: survive. And their method is clear — be hard to beat. They are draw specialists on the road recently, but possess a fatal flaw. They simply cannot score away from home, failing to net in over a third of their trips.",
+        "graphic_type": "away_card",
+        "graphic_description": "A stark, moody visual of a West Brom player looking determined, overlaid with the damning statistic: '0.84 Goals Per Away Game'.",
+        "graphic_text_overlay": "SURVIVAL MODE"
+      },
+      {
+        "scene": 3,
+        "name": "A History of Stalemates",
+        "voiceover": "History tells us what to expect. Three of the last five meetings between these sides have ended all square. The most recent saw a late, dramatic equaliser. This is a fixture defined by fine margins, where neither side can land a knockout blow. The pattern is set for another stalemate.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "A timeline showing the last five H2H results, with three prominent 'DRAW' indicators highlighted. A faint image of a scoreboard showing 1-1 in the background.",
+        "graphic_text_overlay": "60% DRAW RATE"
+      },
+      {
+        "scene": 4,
+        "name": "The Convergence",
+        "voiceover": "When two forces collide, the data converges. Sheffield United's matches are trending under. West Brom's matches are trending under. Combined, their recent form screams a 71% probability for a low-scoring game. The Tactician predicts a tight, tactical contest. The motivation is there for a cagey, risk-averse battle — not a goal fest.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Two arrows, one labelled 'Sheffield Utd', the other 'West Brom', both pointing downwards towards a large 'UNDER 2.5' symbol. The percentage '71%' is displayed prominently.",
+        "graphic_text_overlay": "71% UNDER SIGNAL"
+      },
+      {
+        "scene": 5,
+        "name": "The Market Mispricing",
+        "voiceover": "But there is one number the bookmakers have not priced correctly. They see a mid-table side at home and assume goals. They have not fully accounted for the desperation of the visitor, the chronic scoring woes, or the historical draw tendency. Our probability is 53%. Theirs is just 46.5%. That gap is our edge.",
+        "graphic_type": "evidence",
+        "graphic_description": "A simple, clean graphic showing two probability bars: one labelled 'Market Implied Prob: 46.5%' and a longer, overlapping bar labelled 'Our Prob: 53%'. The gap between them is highlighted.",
+        "graphic_text_overlay": "THE 6.7% EDGE"
+      },
+      {
+        "scene": 6,
+        "name": "The Boot Room Verdict",
+        "voiceover": "Our market: Under 2.25 Goals. At odds of 2.15, this represents a speculative value play with 53% confidence. Expect control, caution, and a battle where every chance is precious. In a match defined by desperation meeting comfort, the smart money is on a shortage of goals. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A final, bold graphic with the text 'UNDER 2.25 GOALS' central. The odds '2.15' and confidence '53%' are displayed clearly beneath.",
+        "graphic_text_overlay": "VERDICT: UNDER 2.25"
+      }
+    ]
+  }
+}

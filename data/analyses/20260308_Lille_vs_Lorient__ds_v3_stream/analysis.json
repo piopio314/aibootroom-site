@@ -1,0 +1,155 @@
+{
+  "key": "20260308_Lille_vs_Lorient__ds_v3_stream",
+  "match": {
+    "home_team": "Lille",
+    "away_team": "Lorient",
+    "league": "Ligue 1",
+    "date": "2026-03-08",
+    "home_id": 79,
+    "away_id": 97
+  },
+  "prediction": {
+    "direction": "null",
+    "direction_conviction": "weak",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — No directional consensus from Boot Room",
+    "confidence": 0,
+    "confidence_gate": "REJECT",
+    "odds_target": 0,
+    "score_home": 50.0,
+    "score_draw": 30.0,
+    "score_away": 20.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a VOLATILE match. The historical data screams an attacking, high-scoring affair (90% Over 2.5 goals in H2H, average 4 goals per game). However, current form and qualitative analysis point to a DEFENSIVE_BATTLE. Lille's last five home matches average just 1.0 total goals, and both teams have critical attacking injuries (Mbappe, Sahraoui for Lille; Pagis for Lorient). The Tactician explicitly predicts a 'tight, cautious, tactical contest'. This fundamental clash between historical trend and present reality creates maximum uncertainty. (2) DIRECTION EVIDENCE — There is no clear directional consensus. The Edge Calculator shows massive statistical edges on Away Asian Handicap markets (e.g., AH Away -0.0 with +54.9% edge), but this is fundamentally contradicted by all qualitative reports, Lorient's 17% away win rate, and the Auditor's flag that such an edge is 'not credible'. The Over/Under markets are similarly conflicted: H2H and some form profiles suggest goals, but the Tactician, both Scouts (citing blunt attacks), and Lille's low-scoring home profile argue for unders. The cascading profiles show a 90% convergence on the Draw, but this is undermined by a 0% historical draw rate in ten meetings. (3) AGENTS CONSENSUS — The agents are deeply split. The Archivist and some form data point to goals. The Tactician and both Scouts point to a low-scoring, tight match. The Quant's model shows no Poisson gaps, indicating market efficiency. The Sceptic issues a NO_BET verdict due to 'conflicting signals too pronounced'. The Auditor grades the analysis 'REJECTED' due to 'irreconcilable conflicts'. There is no majority alignment on any single outcome. (4) RISKS — The primary risk is the direction conflict itself. Betting on goals ignores the clear current attacking limitations. Betting on a low-scoring match ignores a decade of historical fireworks. Betting on either side ignores the strong form convergence on a draw, which history says never happens. The Europa League rotation risk for Lille adds another layer of unpredictability, capping confidence at 55% even if a direction were clear.",
+    "key_factors": [
+      "Severe attacking injuries to key players for both sides",
+      "Historical H2H pattern of high-scoring matches with 0% draw rate",
+      "Strong current form convergence (90%) on a Draw outcome",
+      "Lille's poor 2026 home form and low goal output"
+    ],
+    "risk_factors": [
+      "Fundamental conflict between historical data and current form profiles",
+      "Europa League rotation risk for Lille in four days",
+      "Sceptic's NO_BET recommendation and Auditor's REJECTED grade"
+    ],
+    "alternative_markets": [],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 0.0,
+      "edge_source": "N/A — No bet placed",
+      "edge_grade": "NO_VALUE",
+      "staking_signal": "PASS",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away -0.0",
+          "edge": 54.9
+        },
+        {
+          "market": "AH Away 0.5",
+          "edge": 41.8
+        },
+        {
+          "market": "AH Away 0.75",
+          "edge": 36.3
+        }
+      ]
+    },
+    "tribunal_consensus_level": "weak",
+    "tribunal_consensus_description": "There is no consensus. The Archivist and historical data argue for goals. The Tactician, both Scouts, and recent form argue for a tight, low-scoring match. The Sceptic and Auditor recommend against any bet due to irreconcilable conflicts. The Quant's model finds the market efficiently priced.",
+    "_direction_nobet_reason": "direction=null",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 54.9
+  },
+  "display_texts": {
+    "home_position": "#6 (40 pts, +6 GD)",
+    "away_position": "#10 (33 pts, -4 GD)",
+    "home_form": "12W-4D-8L in 24 matches, last 5: DWWWL",
+    "away_form": "8W-9D-7L in 24 matches, last 5: LWLLD",
+    "home_stats": "37 goals in 24 matches (avg 1.5/match), 8 clean sheets",
+    "away_stats": "34 goals in 24 matches (avg 1.4/match), 5 clean sheets",
+    "h2h_history": "Lille 0-0 Lorient (08 Mar 2026)\nLorient 1-7 Lille (30 Aug 2025)\nLille 3-0 Lorient (14 Jan 2024)\nLorient 4-1 Lille (27 Aug 2023)\nLille 3-1 Lorient (02 Apr 2023)",
+    "home_injuries": "M. Caillard (Missing Fixture - Injury), H. Igamane (Missing Fixture - Knee Injury), E. Mbappe (Missing Fixture - Thigh Injury), O. Sahraoui (Missing Fixture - Injury), O. Toure (Missing Fixture - Knee Injury)",
+    "away_injuries": "L. Abergel (Missing Fixture - Ankle Injury), Igor Silva (Missing Fixture - Injury), P. Pagis (Missing Fixture - Red Card), B. Fadiga (Questionable - Injury), B. Leroy (Questionable - Injury)",
+    "api_predictions": "API-Football prediction: Lille | Probabilities: 45%-45%-10% | Recommendation: Double chance : Lille or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Lille vs Lorient: The Fiery Rivalry That's Gone Silent",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "Ten meetings. Zero draws. An average of nearly four goals per game. That's the explosive history of Lille versus Lorient. But tonight, something feels different. Both attacks are missing their sharpest weapons. Both teams are playing a cautious, tactical game. The question isn't who will win — it's whether history itself can be rewritten.",
+    "chapter_home": "Lille arrive at Stade Pierre-Mauroy with European ambitions but a puzzling home record. Sitting sixth, they need points to close the gap on the teams above them. Yet their 2026 form at home has been erratic — one win, one draw, and two losses from their last four matches here. Their attack is severely blunted, missing key forwards E. Mbappe and O. Sahraoui. This has translated into a low-scoring profile: their last five home matches have averaged just one goal total. They show defensive solidity with clean sheets, but their late-game scoring threat — 21 of their goals come in the final 15 minutes — faces a critical test against a weakened opponent. With a Europa League clash looming in four days, rotation risk hangs over their selection. Their narrative is one of control without cutting edge, a team built for dominance but currently lacking the spark to deliver it.",
+    "chapter_away": "Lorient travel north with chronic away frailties and a squad in disarray. Positioned comfortably in mid-table, their pressure is lower, but their problems are numerous. They've won just twice on the road all season — a 17% away win rate. Their attack is decimated by the absence of top scorer Pierre Pagis, who has eight league goals, and captain Laurent Abergel is suspended. Morale is damaged following a heartbreaking Coupe de France elimination on penalties, and their president is stranded abroad, creating a leadership vacuum. Yet their recent away form shows surprising resilience — two wins, two draws, and one loss in their last five trips. Their 3-4-2-1 formation provides natural width, but their tendency to concede late — 13 of their 38 goals come in the final 15 minutes — directly clashes with Lille's strength. They are a team of contradictions: mathematically inflated but qualitatively fragile.",
+    "chapter_history": "The historical record between these sides is astonishingly clear. In ten recorded meetings, there has never been a draw. Lille dominate with six wins, though Lorient have won three of the last five encounters. The goals pattern is even more dramatic — nine of those ten meetings have seen over 2.5 goals, averaging nearly four per game. The most emphatic result was a 7-1 demolition by Lille in August 2025, a scoreline that still lingers in the memory. This fixture has traditionally been a fireworks display, with both teams finding the net regularly. Yet that historical narrative — goals, wins, and no draws — stands in direct opposition to everything we see in the current squads and form. The tension is palpable: will tonight break a decade-long pattern, or will history repeat itself against all odds?",
+    "chapter_analysis": "The analysis reveals a fundamental conflict that makes this match unreadable. The historical data screams goals and a Lille edge. The current reality shows two severely blunted attacks — Lille missing Mbappe and Sahraoui, Lorient without Pagis and Abergel. The Tactician predicts a tight, cautious, tactical contest with limited chances, directly contradicting the high-scoring history. The Sceptic issued a CRITICAL challenge, noting the Home Scout's severe overestimation of Lille's 55% win probability against their poor home form. The Quant's model finds no statistical edge — Poisson probabilities match market prices exactly across Asian Handicap lines, indicating market efficiency. The Edge Calculator shows massive theoretical edges on Away Asian Handicap markets, but the Auditor flags these as 'not credible' given Lorient's chronic away issues. Meanwhile, cascading form profiles show a 90% convergence on a Draw outcome, yet the historical draw rate is 0%. Every data thread pulls in a different direction — goals versus no goals, home win versus away resilience, draw convergence versus draw impossibility. The agents are deeply split, with no majority alignment on any single outcome.",
+    "chapter_value": "Our market: NO_BET. The Boot Room finds no value in this fixture. The mathematical baseline shows no Poisson gaps — 0.0% edge across all Asian Handicap lines — indicating the market is efficiently priced. While the Edge Calculator suggests theoretical value on Away Asian Handicap markets with edges exceeding 50%, these signals are fundamentally contradicted by qualitative analysis and deemed not credible. The Over/Under markets are similarly conflicted: historical data suggests goals, but current form and injuries argue for unders. The draw shows strong convergence in profiles but contradicts a decade of history. With the Auditor grading the analysis 'REJECTED' due to irreconcilable conflicts, and the Sceptic recommending no bet due to 'conflicting signals too pronounced', we cannot identify a single market with sufficient conviction. Sometimes the smartest play is to recognize when the data refuses to align.",
+    "ending": "The Boot Room verdict is clear: pass on Lille versus Lorient. This fixture presents a perfect storm of conflicting signals — historical fireworks meeting current bluntness, mathematical edges that defy qualitative sense, and a draw convergence that history says never happens. The market is efficiently priced, and no single outcome carries enough convergent evidence to warrant a bet. Our confidence is 0%. Remember, disciplined betting means knowing when to walk away. If you found this analysis valuable, subscribe to the AI Boot Room for more data-driven match breakdowns. Turn on notifications so you never miss a verdict. Boot Room out.",
+    "roundup_summary": "Lille versus Lorient. Lille sit sixth in Ligue 1 with European ambitions, while Lorient occupy a comfortable mid-table position. The hosts' last five home matches show one win, one draw, and three losses, averaging just 0.75 goals scored per game. Lorient's last five away trips show two wins, two draws, and one loss, averaging 1.6 goals scored. Both sides face severe attacking injuries: Lille miss E. Mbappe and O. Sahraoui, while Lorient are without top scorer Pierre Pagis and captain Laurent Abergel.\n\nThe head-to-head history is dramatic. In ten recorded meetings, there has never been a draw. Lille have six wins, Lorient four. Nine of those ten matches saw over 2.5 goals, with an average of nearly four goals per meeting. The most recent clash was a 7-1 Lille victory in August 2025. This season, Lille average 1.5 goals scored and 1.2 conceded per home match, while Lorient average 0.83 scored and 1.5 conceded away.\n\nThe Boot Room analysis reveals irreconcilable conflicts. The Quant's Poisson model shows zero gaps — 0.0% edge across all Asian Handicap lines — indicating market efficiency. The Edge Calculator suggests a +54.9% edge on AH Away -0.0, but the Auditor deems this 'not credible' given Lorient's 17% away win rate. The Sceptic challenged the Home Scout's 55% win probability for Lille, noting it contradicts their poor home form and 8.6% mathematical baseline. Cascading form profiles show 90% convergence on a Draw, directly opposing the 0% historical draw rate. The Tactician predicts a 'tight, cautious contest' with fewer goals, while historical data screams goals. The bookmaker has not mis-priced a specific market; rather, the entire fixture is a collision of contradictory signals.\n\nThe Boot Room finds no value. With the Auditor grading the analysis 'REJECTED' and effective confidence at 25%, no market offers sufficient edge or convergent evidence. The conflicting narratives — historical goals versus current blunt attacks, draw convergence versus no-draw history — create maximum uncertainty. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Historical Fireworks",
+        "voiceover": "Ten meetings. Zero draws. An average of nearly four goals per game. That's the explosive legacy of Lille versus Lorient — a fixture built on fireworks. But tonight, both attacks are missing their sharpest weapons. The question isn't who will win. It's whether history itself can be rewritten.",
+        "graphic_type": "conflict",
+        "graphic_description": "Split screen: left side shows historical match graphics with high scores (7-1, 3-2). Right side shows current team sheets with red injury icons over key attackers.",
+        "graphic_text_overlay": "FIREWORKS VS SILENCE"
+      },
+      {
+        "scene": 2,
+        "name": "Lille's Blunted Ambition",
+        "voiceover": "Lille sit sixth, fighting for Europe, but their home form is a puzzle. One win from their last four at Stade Pierre-Mauroy. Their attack is missing E. Mbappe and O. Sahraoui. Their last five home matches averaged just one goal total. They control possession but lack the cutting edge to turn ambition into victory.",
+        "graphic_type": "home_card",
+        "graphic_description": "Lille's club crest with a downward trending arrow over a graph showing 'Goals Scored at Home: 0.75 per game'. Injury icons hover over player silhouettes.",
+        "graphic_text_overlay": "CONTROL WITHOUT EDGE"
+      },
+      {
+        "scene": 3,
+        "name": "Lorient's Contradictions",
+        "voiceover": "Lorient arrive with chronic away frailties — just two road wins all season. Their top scorer Pagis is absent, captain Abergel suspended. Morale is low after cup heartbreak. Yet their recent away form shows resilience: two wins, two draws in five trips. They are mathematically inflated but qualitatively fragile — a team of contradictions.",
+        "graphic_type": "away_card",
+        "graphic_description": "Lorient's crest with a road sign showing 'Away Wins: 2/12'. A broken trophy and a stranded airplane icon represent morale and leadership issues.",
+        "graphic_text_overlay": "THE TRAVEL SICKNESS"
+      },
+      {
+        "scene": 4,
+        "name": "The Unresolvable Conflict",
+        "voiceover": "Here lies the conflict. History screams goals. Current form shows blunt attacks. The Tactician predicts a tight, cautious contest. The Sceptic challenges Lille's inflated win probability. The Quant finds zero statistical edges. Cascading profiles show 90% draw convergence — but the historical draw rate is 0%. Every signal points in a different direction.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A central vortex with arrows pulling in opposite directions labeled 'History: Goals', 'Current: Blunt', 'Tactics: Tight', 'Math: No Edge'. The vortex is chaotic and unresolved.",
+        "graphic_text_overlay": "IRRECONCILABLE SIGNALS"
+      },
+      {
+        "scene": 5,
+        "name": "The Only Logical Conclusion",
+        "voiceover": "When the data refuses to align, the only smart play is to walk away. The Edge Calculator shows theoretical value on Away markets, but the Auditor deems it not credible. The market is efficiently priced with no Poisson gaps. The agents are split, the conflicts irreconcilable. Our market: NO_BET. Confidence: 0%.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, minimalist card with 'NO BET' in large, bold text. Below, smaller text reads 'Confidence: 0%'. The background is a neutral grey, suggesting absence of action.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

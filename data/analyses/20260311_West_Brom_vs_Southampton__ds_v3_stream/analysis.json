@@ -1,0 +1,171 @@
+{
+  "key": "20260311_West_Brom_vs_Southampton__ds_v3_stream",
+  "match": {
+    "home_team": "West Brom",
+    "away_team": "Southampton",
+    "league": "Championship",
+    "date": "2026-03-11",
+    "home_id": 60,
+    "away_id": 41
+  },
+  "prediction": {
+    "direction": "away_value",
+    "direction_conviction": "moderate",
+    "selected_market": "AH Away -0.75",
+    "prediction": "AH Away -0.75",
+    "confidence": 53,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 2.79,
+    "score_home": 25.0,
+    "score_draw": 25.0,
+    "score_away": 50.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC match. The cascading profiles show a stark contrast: Southampton's away profile has a 5/5 win suitability score and 80% win rate in their last five matches, while West Brom's home profile shows a 0/5 win suitability score and is winless in five. The Tactician's analysis of a 'one-sided' contest with Southampton's structural width advantages confirms this imbalance. (2) DIRECTION EVIDENCE — The direction towards away value is supported by multiple converging signals. The Edge Calculator shows a 24.2% edge on AH Away -0.75, the strongest edge in the result-direction markets without a direction conflict. The Auditor's adjusted probabilities give Southampton a 50% win chance, significantly above the market's implied ~43%. Southampton's cascading away form (3W-1D-1L, scoring 2.0 goals per match) starkly outperforms West Brom's catastrophic home attack (0.6 goals per match, 0 wins in five). (3) AGENTS CONSENSUS — The Sceptic, Auditor, and Tactician all provide strong evidence for Southampton's superiority, challenging the Away Scout's dismissal of their high win probability. The Archivist notes Southampton's 70% win rate in the last ten H2H meetings. The conflict lies with The Quant, whose Poisson model shows no edge on AH lines, but the Auditor flags this as potential anchoring to a single model, contradicted by the Edge Calculator's strong mathematical edges. (4) RISKS — The mandatory confidence cap of 55% due to rotation risk is the primary constraint. Southampton's poor away clean sheet record (one in 18 matches) means they could win but not cover a -0.75 handicap if they concede. West Brom's extreme desperation as a relegation-threatened side could inspire a backs-against-the-wall defensive performance, limiting the margin of victory.",
+    "key_factors": [
+      "Southampton's dominant recent away form with a 5/5 win suitability score in cascading profiles",
+      "West Brom's catastrophic home attack, failing to score in 40% of recent matches and winless in five",
+      "Historical dominance: Southampton have won 70% of the last ten meetings",
+      "Clear tactical edge for Southampton's 3-4-2-1 creating width overloads against West Brom's narrow setup"
+    ],
+    "risk_factors": [
+      "Rotation risk — confidence hard-capped at 55% due to potential XI changes",
+      "Southampton's chronic defensive fragility on the road (one clean sheet in 18 away matches)",
+      "West Brom's extreme desperation as a relegation-threatened side could inspire a stubborn defensive display"
+    ],
+    "alternative_markets": [
+      {
+        "market": "AH Away -0.5",
+        "prediction": "Southampton -0.5",
+        "confidence": 51
+      },
+      {
+        "market": "Southampton to Win",
+        "prediction": "Southampton",
+        "confidence": 50
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 24.2,
+      "edge_source": "Edge Calculator — our probability (60.0%) vs market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 26.4
+        },
+        {
+          "market": "AH Away -0.75",
+          "edge": 24.2
+        },
+        {
+          "market": "Over 2.25 Goals",
+          "edge": 20.2
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Sceptic, Auditor, Tactician, and Archivist align in signalling Southampton's superiority and the asymmetric nature of the match. The Home Scout's dire assessment of West Brom supports this. The primary dissenter is The Quant, whose model shows no edge on AH markets, but the Auditor challenges this conclusion as potentially anchored. The Away Scout also dissents by downplaying Southampton's win probability, a position the Sceptic criticises as flawed.",
+    "_direction": "away_value",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.674,
+    "_direction_prob": 60.0,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.32,
+    "max_edge": 26.4
+  },
+  "display_texts": {
+    "home_position": "#22 (36 pts, -18 GD)",
+    "away_position": "#8 (53 pts, +11 GD)",
+    "home_form": "9W-9D-18L in 36 matches, last 5: WWDWL",
+    "away_form": "14W-11D-10L in 35 matches, last 5: WDLDD",
+    "home_stats": "35 goals in 36 matches (avg 1.0/match), 7 clean sheets",
+    "away_stats": "57 goals in 35 matches (avg 1.6/match), 8 clean sheets",
+    "h2h_history": "West Brom 0-0 Southampton (11 Mar 2026)\nSouthampton 3-2 West Brom (09 Dec 2025)\nSouthampton 3-1 West Brom (17 May 2024)\nWest Brom 0-0 Southampton (12 May 2024)\nWest Brom 0-2 Southampton (16 Feb 2024)",
+    "home_injuries": "T. Bany (Missing Fixture - Muscle Injury), K. Grant (Missing Fixture - Injury), M. Johnston (Missing Fixture - Injury), C. Mepham (Missing Fixture - Inactive)",
+    "away_injuries": "M. Roerslev Rasmussen (Missing Fixture - Achilles Tendon Injury), Welington (Missing Fixture - Muscle Injury), J. Robinson (Questionable - Thigh Injury)",
+    "api_predictions": "API-Football prediction: Southampton | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Southampton",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "LOSE",
+    "label": "LOSE",
+    "color": "#ef4444",
+    "pnl": -1.0,
+    "score": "1:1",
+    "market": "AH Away -0.75"
+  },
+  "script": {
+    "title": "West Brom vs Southampton: The Relegation Trap",
+    "thumbnail_text": "PSYCHOLOGICAL COLLAPSE",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a team's attack flatlines completely? West Brom have failed to score in half of their last ten matches. They're winless in five at home, trapped in the relegation zone, and facing a Southampton side riding a wave of attacking momentum. This isn't just a football match — it's a psychological examination.",
+    "chapter_home": "West Brom arrive at The Hawthorns in a state of profound crisis. Their home form reads zero wins in five matches, with three defeats and two draws. The attack has completely flatlined, averaging just 0.6 goals per game in recent home fixtures and failing to score in 40% of their last ten matches overall. The absence of key creative outlet Mikey Johnston removes one of their few remaining offensive sparks. High-confidence OSINT reports detail a 'weak mentality' and psychological fragility within the squad, suggesting a team prone to collapse under the immense pressure of this relegation decider. Off-field turbulence from ownership uncertainty compounds the institutional instability. Their only recent strength has been a slight defensive tightening at home, conceding just one goal per game in their last three outings at The Hawthorns. But a chronically draw-prone nature — six draws in their last ten matches — speaks to a side that can organise defensively but possesses zero cutting edge to turn resistance into victory.",
+    "chapter_away": "Southampton travel with momentum, unbeaten in five and winning their last three away matches. Their 3-4-2-1 formation generates high-scoring contests on the road, where they average 1.72 goals scored. Their cascading away form profile shows a perfect five out of five win suitability score and an 80% win rate across their last five matches. The core first-team unit remains intact despite three squad-player injuries, with a deep 31-man squad mitigating selection issues. Morale is high following a recent FA Cup victory over Premier League opposition. However, a critical weakness persists — Southampton have kept just one clean sheet in their last 18 away matches, exposing chronic defensive fragility. They are particularly vulnerable to conceding late goals, with twelve conceded in the 76-90 minute period this season. This creates a fascinating paradox: a team with dominant attacking form but a defence that consistently leaks goals away from home.",
+    "chapter_history": "History screams Southampton dominance in this fixture. The Saints have won seven of the last ten meetings between these sides — a commanding 70% win rate. West Brom have managed just one victory in that entire decade-long span. The current series sees Southampton unbeaten in the last six encounters, winning five of them. The most recent meeting in December was a dramatic five-goal thriller where Southampton raced to a 3-0 lead before West Brom mounted a late two-goal comeback. Historically, this is a high-scoring fixture averaging 2.7 goals per match, with 60% of games seeing over 2.5 goals. For West Brom, this historical weight represents a psychological mountain to climb — they must defy a pattern of consistent inferiority against their bogey team.",
+    "chapter_analysis": "The tactical matchup reveals a profound asymmetry. Southampton's 3-4-2-1 creates natural width overloads against West Brom's narrow defensive setup, with wing-backs targeting full-backs in isolated battles. The Tactician predicts a 'one-sided' contest where Southampton dominate possession and chance creation while West Brom retreat into a defensive shell. A critical danger zone emerges immediately after half-time — Southampton score most frequently between the 46th and 60th minutes, while West Brom concede most often in that exact window. The Sceptic delivered a critical challenge to the Away Scout's assessment, arguing Southampton's recent form justifies a win probability much closer to their mathematical baseline of 80.8%, not the dismissed figure. However, The Quant's Poisson model showed no significant edge on Asian Handicap markets, creating a fundamental disagreement with the Edge Calculator's strong away win signals. The Auditor flagged this as potential anchoring to a single model. The convergence point is clear — Southampton's structural advantages and current momentum clash with West Brom's psychological fragility and goal drought, creating a match where one team should control proceedings but may struggle to keep a clean sheet.",
+    "chapter_value": "Our market: Asian Handicap Away -0.75. The Edge Calculator shows a 24.2% edge on this line, the strongest away value without statistical direction conflict. The Auditor's adjusted probabilities give Southampton a 50% win chance, significantly above the market's implied probability of approximately 43%. At odds of 2.79, this represents a clear mathematical opportunity. The market appears to be overrating West Brom's desperate home situation and underrating Southampton's current dominant form profile. While Southampton's poor away clean sheet record means they could win but not cover if they concede, their attacking superiority against West Brom's impotent offence suggests they can create the margin needed.",
+    "ending": "The Boot Room lands on Asian Handicap Away -0.75 for Southampton at 2.79 with 53% confidence. This is a speculative play — rotation risk caps our confidence, and Southampton's defensive vulnerabilities mean a narrow 1-0 win wouldn't cover. But the convergence of historical dominance, current form asymmetry, and tactical mismatch creates a value proposition the market hasn't fully priced. Can a psychologically fragile, goal-starved West Brom resist a Southampton side riding this wave of momentum? The data suggests not by enough. Boot Room out.",
+    "roundup_summary": "West Brom versus Southampton. The Baggies sit in the Championship relegation zone with 36 points, winless in their last five home matches and showing catastrophic attacking form with just 0.6 goals per game at The Hawthorns. Southampton occupy eighth place with 53 points, riding momentum with three consecutive away wins and four victories in their last five overall. Mikey Johnston's absence further weakens West Brom's already impotent attack.\n\nSouthampton dominate this historical matchup, winning seven of the last ten meetings. The most recent encounter in December finished 3-2 to the Saints. This fixture averages 2.7 goals historically, with 60% of games exceeding 2.5 goals. This season, Southampton score 1.72 goals per away game but concede 1.78, while West Brom manage just 0.6 goals per recent home match while conceding 1.0.\n\nThe Boot Room analysis identifies a 24.2% edge on Asian Handicap Away -0.75, with our probability at 60.0% versus the market's implied 35.8%. The Quant's Poisson model showed no gap on this line — a 0.0 percentage point difference — but the Auditor challenged this as potential model anchoring. The Sceptic's concern about Southampton's chronic defensive fragility on the road is acknowledged but discounted because West Brom's attack has effectively ceased to function, unable to exploit those vulnerabilities. The bookmaker has mis-priced Southampton's current dominant form profile, which shows a 5/5 win suitability score away from home, against West Brom's psychological collapse and relegation pressure.\n\nOur verdict is Asian Handicap Away -0.75 at 2.79 odds. Southampton need to win by two or more clear goals for full payout, or win by one for a half-stake return. The risk is a narrow 1-0 Southampton victory or a West Brom backs-against-the-wall draw. Boot Room market: AH Away -0.75. Confidence: 53%.",
+    "short_segment": "West Brom host Southampton in a Championship clash defined by desperation versus momentum. The Baggies languish in the relegation zone, winless in five at home and averaging just 0.6 goals per game at The Hawthorns. Southampton sit eighth, riding a wave of three consecutive away victories. Historically, the Saints dominate this fixture with seven wins from the last ten meetings. The Boot Room lands on Asian Handicap Away -0.75 at 2.79 odds with 53% confidence. The convergence of Southampton's tactical width advantages, current form profile showing 80% win rate in their last five, and West Brom's psychological fragility creates value the market hasn't fully priced. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Psychological Collapse",
+        "voiceover": "What happens when a team's attack flatlines completely? West Brom have failed to score in half of their last ten matches. They're winless in five at home, trapped in the relegation zone. OSINT reports detail psychological fragility — a squad prone to collapse under pressure. This isn't just a football match. It's an examination.",
+        "graphic_type": "hook",
+        "graphic_description": "A dramatic, shadowy image of a lone West Brom player looking defeated on an empty pitch, with '0 GOALS IN 50% OF LAST 10' text burning into the screen.",
+        "graphic_text_overlay": "ATTACK FLATLINED"
+      },
+      {
+        "scene": 2,
+        "name": "Southampton's Momentum Machine",
+        "voiceover": "Against this stands Southampton — unbeaten in five, winning their last three away matches. Their 3-4-2-1 formation generates width and creativity. Their cascading away form shows a perfect five out of five win suitability score. But one critical flaw persists — just one clean sheet in eighteen away trips. They score freely but leak goals chronically.",
+        "graphic_type": "away_card",
+        "graphic_description": "Dynamic graphic of Southampton's 3-4-2-1 formation with arrows showing width overloads, contrasted with a stark stat: '1 CLEAN SHEET IN 18 AWAY'.",
+        "graphic_text_overlay": "MOMENTUM VS LEAKS"
+      },
+      {
+        "scene": 3,
+        "name": "Historical Dominance",
+        "voiceover": "History offers West Brom no comfort. Southampton have won seven of the last ten meetings — a 70% win rate. The Saints are unbeaten in six against the Baggies. The most recent meeting saw Southampton race to a 3-0 lead before a late West Brom rally. This psychological mountain must be climbed by a side showing every sign of collapse.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "A timeline showing Southampton's seven wins in the last ten head-to-head meetings, with the most recent 3-2 victory highlighted.",
+        "graphic_text_overlay": "70% DOMINANCE"
+      },
+      {
+        "scene": 4,
+        "name": "The Tactical Mismatch",
+        "voiceover": "The Tactician predicts a one-sided contest. Southampton's wing-backs create width overloads against West Brom's narrow setup. A critical danger zone emerges immediately after half-time — Southampton score most between minutes 46 and 60, while West Brom concede most in that exact window. The Sceptic challenged those dismissing Southampton's probability — their form profile overwhelmingly supports favourite status.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Split-screen tactical diagram showing Southampton's wing-backs stretching play versus West Brom's compact defence, with a clock graphic highlighting the 46-60 minute danger zone.",
+        "graphic_text_overlay": "WIDTH OVERLOADS"
+      },
+      {
+        "scene": 5,
+        "name": "The Market Revelation",
+        "voiceover": "The Edge Calculator shows a 24.2% edge on Asian Handicap Away -0.75. The Auditor's adjusted probabilities give Southampton a 50% win chance — well above the market's implied 43%. The Quant's model showed no edge, but this was flagged as potential anchoring. The market hasn't priced Southampton's current dominant form against West Brom's psychological collapse. Our market: Asian Handicap Away -0.75 at 2.79. Confidence: 53%. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold graphic showing 'AH AWAY -0.75' at odds '2.79' with 'CONFIDENCE: 53%' beneath, alongside the Edge Calculator's 24.2% edge figure.",
+        "graphic_text_overlay": "24.2% EDGE"
+      }
+    ]
+  }
+}

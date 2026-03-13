@@ -1,0 +1,188 @@
+{
+  "key": "20260313_Nieciecza_vs_Motor_Lublin__ds_v3_stream",
+  "match": {
+    "home_team": "Nieciecza",
+    "away_team": "Motor Lublin",
+    "league": "Ekstraklasa",
+    "date": "2026-03-13",
+    "home_id": 3487,
+    "away_id": 14562
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 40.5,
+    "score_draw": 29.0,
+    "score_away": 30.5,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The tactical setup, historical data, and team profiles all point towards a low-scoring affair. The Tactician explicitly predicts a 'tight, cagey, tactical encounter'. The historical H2H average is just 1.2 goals per match, with none of the last five meetings exceeding 2.5 goals. Nieciecza's home profile shows 0% Over 2.5 in their last three home matches, averaging only 1.67 total goals. While Motor Lublin's away profile suggests higher scoring, this is based on a tiny two-match sample and is contradicted by the broader tactical and historical context. (2) DIRECTION EVIDENCE — The mathematical evidence strongly supports an under_goals thesis. The Quant's Poisson model shows a 12% positive edge on Under 2.5 Goals (55% Poisson probability vs 43% market implied). The Auditor validates this as the most credible value opportunity. The Tactician's 'tight, low-scoring' character prediction directly aligns. Cascading profile convergence on Under 2.5 is moderate (43%), but crucially, Nieciecza's home profile is extremely strong for unders (4/7 rating, 0% Over 2.5 in last 3 home games). The Auditor's adjusted probabilities maintain the 55% probability for Under 2.5. (3) AGENTS CONSENSUS — The Quant, Auditor, and Tactician are aligned on the low-scoring direction. The Archivist's H2H analysis (1.2 average goals, 0/5 Over 2.5) provides powerful historical support. The Home Scout notes Nieciecza's 'lack of cutting edge' and involvement in 'low-scoring affairs'. The Sceptic does not veto the bet and their 'surprise scenario' is a narrow 1-0 win, consistent with low goals. The primary dissent comes from the Away Scout's report on Motor Lublin's away defensive vulnerabilities and the EdgeCalculator's strong AH Away signals, but these are based on a flawed 'our_prob' of 50% that contradicts the Quant's model and is flagged as not credible by the Auditor. (4) RISKS — The main risk is Motor Lublin's away defensive record (conceding 2.00 goals per match) leading to a higher-scoring game than historical patterns suggest. Their last two away matches both went Over 2.5, though this sample is small. Nieciecza's desperate relegation motivation could force a more open game if they chase a winner late on, potentially exposing them to counter-attacks. The Sceptic's valid challenge regarding the Home Scout's flawed 'stable' form assessment reduces confidence in the 1X2 markets but does not materially impact the goals-based analysis.",
+    "key_factors": [
+      "Historical H2H pattern: 0/5 last meetings exceeded 2.5 goals, averaging 1.2 goals per match",
+      "Quant's Poisson model shows 12% edge on Under 2.5 Goals (55% vs 43% market implied)",
+      "Nieciecza's home profile: 0% Over 2.5 in last 3 home matches, averaging 1.67 total goals",
+      "Tactician's match character prediction: 'tight, cagey, tactical encounter'"
+    ],
+    "risk_factors": [
+      "Motor Lublin's away defensive vulnerabilities (2.00 goals conceded per away match)",
+      "Small sample size for Motor Lublin's recent away goal trends (last 2 matches both Over 2.5)",
+      "Nieciecza's desperate relegation motivation could force a more open game if chasing a result"
+    ],
+    "alternative_markets": [
+      {
+        "market": "BTTS Yes",
+        "prediction": "BTTS Yes",
+        "confidence": 58
+      },
+      {
+        "market": "Draw",
+        "prediction": "Draw",
+        "confidence": 52
+      }
+    ],
+    "value_bets": [
+      {
+        "market": "Under 2.5 Goals",
+        "pick": "Under 2.5 Goals",
+        "edge": 12.0,
+        "market_odds": 2.33
+      },
+      {
+        "market": "BTTS Yes",
+        "pick": "BTTS Yes",
+        "edge": 15.0,
+        "market_odds": 2.0
+      }
+    ],
+    "edge_assessment": {
+      "selected_market_edge": 12.0,
+      "edge_source": "Quant probability minus market implied probability",
+      "edge_grade": "VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "BTTS Yes",
+          "edge": 15.0
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "edge": 12.0
+        },
+        {
+          "market": "Draw",
+          "edge": 8.5
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Quant, Auditor, Tactician, and Archivist align on a low-scoring match character, supported by historical data and mathematical edge. The Home Scout's narrative on Nieciecza's low goal output provides additional support. The Sceptic raises valid data quality concerns but does not veto. The primary conflict is with the EdgeCalculator's strong AH Away signals, which the Auditor flags as not credible due to contradictory probability inputs.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.7,
+    "max_edge": 20.4
+  },
+  "display_texts": {
+    "home_position": "#18 (22 pts, -14 GD)",
+    "away_position": "#13 (31 pts, -5 GD)",
+    "home_form": "5W-7D-12L in 24 matches, last 5: WLDWL",
+    "away_form": "7W-10D-7L in 24 matches, last 5: WLDDL",
+    "home_stats": "28 goals in 24 matches (avg 1.2/match), 3 clean sheets",
+    "away_stats": "32 goals in 24 matches (avg 1.3/match), 6 clean sheets",
+    "h2h_history": "Nieciecza 0-0 Motor Lublin (13 Mar 2026)\nMotor Lublin 1-1 Nieciecza (14 Sep 2025)\nMotor Lublin 1-0 Nieciecza (15 Nov 2024)\nMotor Lublin 1-0 Nieciecza (24 Feb 2024)\nNieciecza 0-2 Motor Lublin (13 Aug 2023)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Motor Lublin | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Motor Lublin",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "PENDING",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "–",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Nieciecza vs Motor Lublin: The No-Bet Analysis",
+    "thumbnail_text": "SKIP THIS FIXTURE",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a desperate, winless home side fighting relegation faces an organised but defensively vulnerable away team? When the historical data screams low-scoring, but the mathematical edge fails to meet our strict criteria? This is the story of Nieciecza versus Motor Lublin — a fixture where the Boot Room analysis reveals everything except a bet worth taking.",
+    "chapter_home": "Nieciecza are rooted to the bottom of the Ekstraklasa, a position defined by a desperate lack of home wins. Their recent story is one of stubborn draws, grinding out three in their last five matches without a single victory. The pressure is immense — they sit in the relegation zone with just 22 points, making this a must-win fixture for any realistic survival hope. Their tactical setup typically features a 3-4-3 formation, but their goal patterns show a team that struggles to score multiple goals, with only one match exceeding 2.5 goals all season. They are involved in low-scoring affairs, averaging just 0.67 goals per game at home recently while conceding one. The narrative of 'draw resilience' is fading — the Sceptic flagged a serious misreading of their form as 'stable' when in reality they are winless and stagnant. Their morale is low, their pressure is high, and their attack consistently lacks the punch to turn resilience into three points.",
+    "chapter_away": "Motor Lublin travel with mid-table comfort, sitting on 31 points with significantly reduced pressure. Their form rating is a solid five, showing stability rather than dramatic improvement. They typically deploy a 4-1-4-1 formation, providing a solid central block that can disrupt Nieciecza's attacking patterns. Their key strength lies in a recent away victory against Piast Gliwice, demonstrating capacity on the road, and positive media narratives framing them as 'building momentum'. However, their defensive record away from home is a major concern — they concede an average of two goals per away match and have kept only one clean sheet in eleven away fixtures this season. Late-game defensive fragility is another weakness, with ten goals conceded in the 76-90 minute period. Their win probability sits at 27%, aligning with their away record of three wins from eleven matches. The question is whether their defensive frailties will resurface under pressure against a desperate opponent.",
+    "chapter_history": "The historical head-to-head tells a clear and consistent story. Motor Lublin have dominated the recent history, winning three of the last five meetings and remaining unbeaten in all five. However, the most striking pattern is the goals — or lack thereof. This is a consistently low-scoring fixture with an average of just 1.2 goals per match. None of the last five encounters have seen over 2.5 goals. The most recent meeting in March 2026 was a goalless draw, breaking Motor Lublin's three-match winning streak. History gives the visitors a psychological edge, but it also sets a powerful precedent for a cagey, tactical affair. The context tonight is stark — survival desperation versus mid-table comfort — but the historical pattern of low-scoring matches provides a crucial baseline.",
+    "chapter_analysis": "Synthesising the data reveals a compelling but conflicted picture. The Tactician predicts a 'tight, cagey, tactical encounter', directly aligning with the historical low-scoring pattern. Nieciecza's home profile shows 0% Over 2.5 in their last three home matches, averaging 1.67 total goals. The Quant's Poisson model identifies a 12% positive edge on Under 2.5 Goals, with a 55% Poisson probability versus a 43% market implied probability. The Auditor validates this as the most credible value opportunity. However, the Sceptic raised a serious challenge regarding the Home Scout's flawed assessment of Nieciecza's 'stable' form, correctly identifying a winless, stagnant team. Motor Lublin's away defensive vulnerabilities — conceding two goals per match — present a clear risk that could override historical patterns. Their last two away matches both went Over 2.5, though this sample is dangerously small. Furthermore, Nieciecza's desperate relegation motivation could force a more open game if they chase a winner late on, potentially exposing them to counter-attacks. The EdgeCalculator showed strong signals for Asian Handicap Away markets, but the Auditor flagged these as not credible due to contradictory probability inputs. The tribunal reached a moderate consensus on a low-scoring direction, but with clear conflicts.",
+    "chapter_value": "Our market: NO_BET. The Boot Room's analysis confirms a clear under_goals direction for this fixture. The mathematical evidence is compelling — a 12% edge on Under 2.5 Goals at odds of 2.33. The historical H2H pattern, tactical prediction, and Nieciecza's home profile all converge on a low-scoring thesis. However, our strict betting protocol requires not just a directional edge, but one that meets specific conviction and odds thresholds. In this case, the moderate conviction combined with the available odds fails to qualify. The market has identified the value — it's simply not enough for us to act. Sometimes the most disciplined analysis leads to the most disciplined conclusion: pass.",
+    "ending": "The Boot Room's final verdict on Nieciecza versus Motor Lublin is a pass. We see the under_goals narrative, we respect the historical data, and we acknowledge the mathematical edge. But our standards are high, and this fixture does not meet them. The risks — Motor Lublin's away defensive leaks and Nieciecza's desperate motivation — create just enough uncertainty to cap our conviction. In betting, knowing when not to bet is as crucial as knowing when to bet. This is one of those times. If you value this level of disciplined, data-driven analysis, make sure to subscribe to AI Boot Room for more insights that separate signal from noise. Boot Room out.",
+    "roundup_summary": "Nieciecza versus Motor Lublin. The home side sit 18th in the Ekstraklasa with 22 points, winless in their last five matches but drawing three of those. Their recent home form shows 0% Over 2.5 goals. Motor Lublin occupy a mid-table position with 31 points, showing stable form with a recent away victory. Their away matches average 2.00 goals conceded.\n\nThe head-to-head history is definitive: Motor Lublin are unbeaten in the last five meetings, winning three. The most recent was a 0-0 draw in March 2026. The average goals per meeting is just 1.2, with none of the last five exceeding 2.5 goals. Nieciecza average 0.67 goals scored and 1.00 conceded per recent home game, while Motor Lublin average 1.27 scored and 2.00 conceded away.\n\nThe Boot Room analysis identified a 12% mathematical edge on Under 2.5 Goals, with the Quant's Poisson model showing a 55% probability versus a 43% market implied probability at odds of 2.33. The Tactician's 'tight, cagey' match character prediction and Nieciecza's home profile (0% Over 2.5 in last three) strongly support this direction. However, the Sceptic successfully challenged the Home Scout's flawed 'stable' form assessment, revealing a winless, stagnant team. Motor Lublin's away defensive vulnerabilities (2.00 goals conceded per match) and small sample of recent high-scoring away games create material risk. The Auditor validated the Under 2.5 edge as credible but noted conflicting signals from other models.\n\nThe Boot Room's strict protocol requires qualifying conviction and odds thresholds. While the under_goals direction is confirmed, the combination of moderate conviction and available odds does not meet our criteria for a value bet. The market has not been sufficiently mis-priced to warrant action. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "Nieciecza host Motor Lublin in the Ekstraklasa. The home side are bottom with 22 points, winless in five but drawing three. Motor Lublin sit comfortably mid-table with 31 points and a stable form rating. The key historical stat is glaring: none of the last five meetings have exceeded 2.5 goals, averaging just 1.2 per match. The Boot Room analysis confirms an under_goals direction with a 12% mathematical edge on Under 2.5, but our strict protocol finds no qualifying bet. The risks from Motor Lublin's leaky away defence and Nieciecza's desperate motivation cap conviction. The Boot Room lands on NO_BET at odds of 0 with 0% confidence. Sometimes the smartest play is to pass. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Tension",
+        "voiceover": "A desperate, winless home side fighting relegation. An organised but defensively vulnerable away team. And a historical record that screams low-scoring. This is Nieciecza versus Motor Lublin — a fixture where the data points clearly in one direction, but the betting value remains just out of reach.",
+        "graphic_type": "conflict",
+        "graphic_description": "Split screen showing Nieciecza's relegation zone position contrasted with Motor Lublin's mid-table comfort, with a low '1.2' goals average superimposed.",
+        "graphic_text_overlay": "DESPERATION VS COMFORT"
+      },
+      {
+        "scene": 2,
+        "name": "The Home Reality",
+        "voiceover": "Nieciecza are rooted to the bottom, winless in five matches. Their story is one of stubborn draws, not victories. They average just 0.67 goals at home recently. The narrative of 'stable form' is a serious misreading — this is a stagnant, winless team under immense survival pressure.",
+        "graphic_type": "home_card",
+        "graphic_description": "Nieciecza's 3-4-3 formation diagram with low goal output stats (0.67 avg) and a red '18th' league position highlighted.",
+        "graphic_text_overlay": "WINLESS AND STAGNANT"
+      },
+      {
+        "scene": 3,
+        "name": "The Away Paradox",
+        "voiceover": "Motor Lublin travel with mid-table comfort and positive momentum. But their away record hides a critical flaw: they concede two goals per away match. Only one clean sheet in eleven away fixtures. Their defensive fragility, especially late in games, threatens to override any historical low-scoring pattern.",
+        "graphic_type": "away_card",
+        "graphic_description": "Motor Lublin's 4-1-4-1 formation with a glaring '2.00 GA' (goals against) stat and a clock highlighting the 76-90 minute defensive weakness.",
+        "graphic_text_overlay": "LEAKY AWAY DEFENCE"
+      },
+      {
+        "scene": 4,
+        "name": "The Historical Blueprint",
+        "voiceover": "The head-to-head history is unequivocal. Motor Lublin are unbeaten in five meetings. But more importantly, none of those five matches exceeded 2.5 goals. The average is a meagre 1.2 goals per game. This fixture has a DNA of cagey, low-scoring encounters that cannot be ignored.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "A timeline of the last five H2H results, all showing 0-0, 1-0, 1-0 scores, with 'AVG 1.2 GOALS' and '0/5 OVER 2.5' stamped across.",
+        "graphic_text_overlay": "1.2 GOALS AVERAGE"
+      },
+      {
+        "scene": 5,
+        "name": "The Mathematical Edge",
+        "voiceover": "The numbers back the history. The Quant's Poisson model shows a 55% probability for Under 2.5 Goals — a 12% edge over the market's 43% implied probability at odds of 2.33. The Auditor validates this as the most credible value opportunity. The direction is clear. But is it strong enough?",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A clean graphic showing 'Poisson Prob: 55%' vs 'Market Implied: 43%' with a +12% edge arrow, next to the odds '2.33'.",
+        "graphic_text_overlay": "12% EDGE - UNDER 2.5"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO_BET. We see the under_goals thesis. We respect the 12% edge. But our protocol demands more than direction — it requires qualifying conviction and odds. Here, the combination of moderate conviction and available odds fails to meet our threshold. The smartest bet is sometimes no bet at all. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A bold, clean 'NO BET' stamp overlaid on the match logo, with the text 'Under 2.5 Direction Confirmed' and 'Edge: 12%' shown smaller below.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

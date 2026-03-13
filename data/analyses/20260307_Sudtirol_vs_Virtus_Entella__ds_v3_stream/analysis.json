@@ -1,0 +1,156 @@
+{
+  "key": "20260307_Sudtirol_vs_Virtus_Entella__ds_v3_stream",
+  "match": {
+    "home_team": "Sudtirol",
+    "away_team": "Virtus Entella",
+    "league": "Serie B",
+    "date": "2026-03-07",
+    "home_id": 1578,
+    "away_id": 527
+  },
+  "prediction": {
+    "direction": "null",
+    "direction_conviction": "weak",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — No directional consensus from Boot Room",
+    "confidence": 0,
+    "confidence_gate": "REJECT",
+    "odds_target": 0,
+    "score_home": 60.0,
+    "score_draw": 30.0,
+    "score_away": 10.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician's analysis is definitive: two mirrored 3-5-2 formations create symmetrical congestion, with Sudtirol's poor home scoring (0.33 GF/m last 3) meeting Entella's chronically weak away attack (0.40 GF/m last 5). Both teams' defensive trends are improving, and the H2H average is 2.0 goals. (2) DIRECTION EVIDENCE — The logical direction is under_goals, supported by the Tactician's 'tight, low-chance affair' prediction, the Auditor's adjusted Under 2.5 probability of 70%, and the Edge Calculator's highest positive edge (3.7%) being on Under 1.75 Goals. However, this is directly contradicted by the most objective data source: the Cascading Profile Market Convergence shows a STRONG 71% convergence on Over 2.5 Goals. This fundamental contradiction between tactical/qualitative analysis and pure form-based data creates an unresolvable conflict. (3) AGENTS CONSENSUS — There is no consensus. The Tactician, Auditor, and Edge Calculator signal under_goals. The Cascading Profiles and the Quant's methodology note (citing 71% Over 2.5 probability) signal over_goals. The Sceptic flagged a critical flaw in the Away Scout's analysis and a material market divergence, while the Quant found zero Poisson gaps, indicating market efficiency. The agents are deeply split on the core question of match character. (4) RISKS — The primary risk is the data contradiction itself. Betting on unders ignores the strong statistical convergence from recent form. Betting on overs ignores the clear tactical and qualitative evidence for a low-scoring, congested match. With the Edge Calculator showing no market with a positive edge ≥4% and this analytical deadlock, a disciplined pass is the only rational course.",
+    "key_factors": [
+      "Mirrored 3-5-2 formations creating tactical congestion",
+      "Sudtirol's poor home conversion rate (38% win rate) despite strong overall form",
+      "Virtus Entella's chronic away attacking poverty (0.40 GF/m last 5)",
+      "Strong data convergence on Over 2.5 Goals (71%) conflicting with tactical under signals",
+      "Edge Calculator shows zero markets with a positive edge ≥4%"
+    ],
+    "risk_factors": [
+      "The 71% Over 2.5 convergence from form profiles could prove correct, invalidating the defensive thesis",
+      "Sudtirol's late-scoring tendency (76-90 min) against Entella's late defensive vulnerability could produce a late flurry",
+      "Fixture congestion for both sides could lead to uncharacteristic defensive errors"
+    ],
+    "alternative_markets": [],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 0.0,
+      "edge_source": "N/A",
+      "edge_grade": "NO_VALUE",
+      "staking_signal": "PASS",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 1.75 Goals",
+          "edge": 3.7
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 1.3
+        },
+        {
+          "market": "AH Away -0.75",
+          "edge": 0.6
+        }
+      ]
+    },
+    "tribunal_consensus_level": "weak",
+    "tribunal_consensus_description": "The tribunal is deeply divided. The Tactician, Auditor, and Edge Calculator align on a defensive, low-scoring match character. The Cascading Profiles and the Quant's cited data present a strong, contradictory signal for an attacking, higher-scoring match. The Sceptic challenged key data interpretations but did not veto proceeding, while the Quant found the Asian Handicap markets efficiently priced with zero gaps.",
+    "_direction_nobet_reason": "direction=null",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 3.3,
+    "max_edge": 3.7
+  },
+  "display_texts": {
+    "home_position": "#9 (37 pts, +2 GD)",
+    "away_position": "#14 (31 pts, -13 GD)",
+    "home_form": "8W-13D-7L in 28 matches, last 5: DWLDW",
+    "away_form": "6W-10D-12L in 28 matches, last 5: DDWLL",
+    "home_stats": "31 goals in 28 matches (avg 1.1/match), 7 clean sheets",
+    "away_stats": "26 goals in 28 matches (avg 0.9/match), 4 clean sheets",
+    "h2h_history": "Sudtirol 0-1 Virtus Entella (07 Mar 2026)\nVirtus Entella 1-1 Sudtirol (21 Dec 2025)\nVirtus Entella 1-2 Sudtirol (11 Aug 2019)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Sudtirol | Probabilities: 45%-45%-10% | Recommendation: Double chance : Sudtirol or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "0:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "The Serie B Mirror Match That Broke Our Model",
+    "thumbnail_text": "ANALYTICAL DEADLOCK",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when two identical tactical systems collide — and every data point points in opposite directions? Sudtirol versus Virtus Entella is not just another Serie B fixture. It is a perfect analytical storm. Two mirrored 3-5-2 formations, a home side soaring in the calendar year but chronically unable to win at home, and an away team whose only road victory this season came against this very opponent. The Boot Room tribunal is split down the middle. This is the story of a match where the numbers refuse to agree.",
+    "chapter_home": "Sudtirol are a team of two starkly different realities. In the 2026 calendar year, they have been one of Serie B's form sides, amassing twenty-one points and positioning themselves in the promotion conversation. Their defensive foundation is solid, conceding less than a goal per game at home. Yet, their home record reveals a critical flaw — just five wins from thirteen attempts, a thirty-eight percent conversion rate that defies their overall momentum. They are draw specialists, with thirteen stalemates in twenty-eight matches, often grinding out low-scoring contests. Key players like wing-backs Zedadka and Molina provide width in their 3-5-2, but a recent run of no wins in their last three home games, including draws against top sides Venezia and Monza, highlights their struggle for a clinical edge. With four matches in fourteen days, fixture congestion adds a layer of fatigue to a side that must prove its promotion credentials are not just built on away form.",
+    "chapter_away": "Virtus Entella arrive with a narrative built around a single, powerful data point — their one and only away win this entire season was a 1-0 victory at Sudtirol back in March. That result is an anomaly against a backdrop of chronic away failure: zero wins from fourteen attempts across the campaign. Their recent defensive metrics show slight improvement, conceding 1.40 goals per match in their last five road trips, but their attack remains poverty-stricken, averaging just 0.40 goals per game in that same period. They mirror Sudtirol's 3-5-2 formation, suggesting a compact, mid-block approach focused on frustrating their hosts. However, the Sceptic delivered a scathing critique of their Scout's assessment, which assigned them a twenty-seven percent win probability — a figure wholly unsupported by their zero percent season-long away win rate. Their reality is one of defensive resilience searching for any semblance of an away threat.",
+    "chapter_history": "The head-to-head history is a study in minimalism and recent tension. With only three meetings on record, the ledger shows one win apiece and one draw — perfect symmetry. The average goals per meeting sit at exactly two. But the recent encounters tell a more compelling story. Virtus Entella are unbeaten in the last two, including that narrow 1-0 win in March, while Sudtirol snatched a dramatic ninetieth-minute equaliser in a 1-1 draw last December. This creates a psychological backdrop where both sides have recent evidence they can edge a tight contest. History points decisively towards close, low-margin affairs, often decided by a single moment — a pattern that feeds directly into the tactical forecast for this clash.",
+    "chapter_analysis": "The tactical preview is unequivocal. Two mirrored 3-5-2 formations create symmetrical congestion in midfield and wide channels. The Tactician predicts a 'tight, low-chance affair,' citing Sudtirol's poor home scoring — 0.33 goals per match in their last three at home — meeting Entella's chronically weak away attack. The Edge Calculator's highest positive edge, albeit a marginal 3.7%, is on Under 1.75 Goals. The Auditor adjusted the Under 2.5 Goals probability to seventy percent. Yet, here lies the unresolvable conflict. The Quant's cascading profile models show a strong seventy-one percent convergence on Over 2.5 Goals, a direct contradiction from pure form-based data. This is the core of the analytical deadlock: qualitative and tactical analysis screams a defensive battle, while recent statistical trends shout for goals. The Sceptic further complicated matters by flagging the Away Scout's severe overstatement of Entella's chances and noting the market's tempered view of Sudtirol's home advantage. With the Quant finding zero Poisson probability gaps across Asian Handicap markets — indicating efficiency — and no consensus among our agents, the path to a clear value bet vanishes.",
+    "chapter_value": "Our market: NO_BET. Confidence: 0%. The reasoning is rooted in that fundamental contradiction. Betting on unders ignores the strong seventy-one percent statistical signal for a higher-scoring match. Betting on overs ignores the clear tactical and qualitative evidence for a congested, low-scoring battle. The Edge Calculator shows three markets with positive edges, but none pass our minimum four percent threshold for a value recommendation. The highest edge is just 3.7% on Under 1.75 Goals. With the tribunal deeply divided on the very character of the match and the Asian Handicap markets priced with perfect efficiency, a disciplined pass is the only rational course. The odds reflect the uncertainty — Sudtirol at around 1.67, the draw at 2.90 — but offer no exploitable margin.",
+    "ending": "The final verdict from The Boot Room is a pass. Sometimes the most sophisticated analysis leads to a simple conclusion: when the data points in two diametrically opposed directions, the smartest play is to step aside. Sudtirol's home frailties against their overall momentum, versus Entella's historic away woes against their recent defensive grit, creates a fixture too balanced by its own contradictions. There is no value edge to be seized here. If you found this deep dive into analytical conflict valuable, make sure to subscribe and hit the notification bell. We break down the data so you don't have to. Boot Room out.",
+    "roundup_summary": "Sudtirol versus Virtus Entella. The hosts sit ninth in Serie B, enjoying superb form in the 2026 calendar year with twenty-one points, but their recent home record shows no wins in three (D2, L1). The visitors are fourteenth, having lost three straight, with a dire season-long away record of zero wins from fourteen. The head-to-head history is minimal but tense. In three meetings, each side has one win with one draw, averaging two goals per game. Virtus Entella are unbeaten in the last two encounters, including a 1-0 win in March. This season, Sudtirol score 1.07 goals per game and concede 1.04, while Entella score 0.86 and concede 1.43.\n\nThe Boot Room analysis hit an unresolvable contradiction. The Tactician's assessment of mirrored 3-5-2 formations predicted a 'tight, low-chance affair,' supported by Sudtirol's poor home scoring (0.33 GF/m last three) and Entella's weak away attack (0.40 GF/m last five). The Edge Calculator's highest positive edge was a marginal 3.7% on Under 1.75 Goals. However, the Quant's cascading profile models showed a strong seventy-one percent convergence on Over 2.5 Goals, directly opposing the tactical view. The Sceptic critically challenged the Away Scout's grossly inflated twenty-seven percent win probability for Entella. The Quant found zero Poisson probability gaps across Asian Handicap markets, indicating efficient pricing. The bookmaker has not mis-priced a specific line; rather, the market accurately reflects the profound uncertainty between two equally plausible but opposite match outcomes — a defensive grind or a higher-scoring game based on recent form trends.\n\nWith the tribunal deeply split and no mathematical edge reaching our four percent threshold, no value bet is recommended. The core risk is the data contradiction itself: betting on unders ignores the strong statistical signal for overs, and vice versa. In a match defined by its analytical deadlock, the disciplined approach is to pass.\n\nBoot Room verdict: NO VALUE — pass on this fixture. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Mirror Match Paradox",
+        "voiceover": "Two identical 3-5-2 formations. A home side that cannot win at home despite soaring form. An away team with one solitary road victory all season — against this very opponent. Sudtirol versus Virtus Entella is a perfect analytical storm. And our models are screaming in opposite directions.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side shows Sudtirol's 3-5-2 formation diagram with a 'PROMOTION FORM' label. Right side shows Virtus Entella's identical 3-5-2 diagram with a '0 AWAY WINS' label. A large '?' symbol sits between them.",
+        "graphic_text_overlay": "MIRROR MATCH PARADOX"
+      },
+      {
+        "scene": 2,
+        "name": "Sudtirol's Home Conundrum",
+        "voiceover": "Sudtirol's 2026 has been spectacular — twenty-one points and promotion-zone form. But their home record tells a different story. Just five wins from thirteen attempts. They are draw specialists, defensively solid but lacking a cutting edge. Their momentum collides with a tangible lack of home conviction.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dynamic graphic focusing on Sudtirol. Key stats float around an image of their stadium: '21 PTS IN 2026' in green, '38% HOME WIN RATE' in amber, '13 DRAWS' in grey.",
+        "graphic_text_overlay": "SPLIT PERSONALITY"
+      },
+      {
+        "scene": 3,
+        "name": "Entella's Lone Victory",
+        "voiceover": "Virtus Entella's entire away season is defined by one result — a 1-0 win at Sudtirol in March. It is an anomaly against fourteen matches of failure. Their defence has tightened recently, but scoring remains a chronic issue. They are a team built to frustrate, hoping to replicate that one magical night.",
+        "graphic_type": "away_card",
+        "graphic_description": "A graphic featuring Virtus Entella's crest. A large, isolated '1-0' scoreline from March is highlighted. Fading in the background are stats: '0 AWAY WINS (SEASON)', '0.40 GF/m (LAST 5 AWAY)'.",
+        "graphic_text_overlay": "ONE-WIN WONDERS"
+      },
+      {
+        "scene": 4,
+        "name": "The Unresolvable Conflict",
+        "voiceover": "This is where the analysis breaks down. Our Tactician sees a congested, low-scoring battle. The Edge Calculator's best signal is for under 1.75 goals. But our pure data models scream the opposite — a seventy-one percent probability for over 2.5 goals. Two independent systems, two completely different forecasts.",
+        "graphic_type": "conflict",
+        "graphic_description": "A visual clash. On the left, a shield icon with 'UNDER' and tactical diagrams. On the right, a fire icon with 'OVER' and trending graphs. A large '71%' figure pulses on the right side.",
+        "graphic_text_overlay": "DATA CIVIL WAR"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict: No Bet",
+        "voiceover": "When the evidence points in two opposite directions, the smartest move is to step aside. Betting on unders ignores a powerful statistical signal. Betting on overs ignores clear tactical and qualitative warnings. With no consensus and zero markets offering a sufficient edge, our call is straightforward. Our market: NO BET. Confidence: zero percent. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final graphic. The Boot Room logo is prominent. Text reads: 'VERDICT: NO BET | CONFIDENCE: 0% | REASON: ANALYTICAL DEADLOCK'.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

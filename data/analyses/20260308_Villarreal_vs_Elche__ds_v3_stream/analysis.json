@@ -1,0 +1,183 @@
+{
+  "key": "20260308_Villarreal_vs_Elche__ds_v3_stream",
+  "match": {
+    "home_team": "Villarreal",
+    "away_team": "Elche",
+    "league": "La Liga",
+    "date": "2026-03-08",
+    "home_id": 533,
+    "away_id": 797
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 67.6,
+    "score_draw": 20.9,
+    "score_away": 15.5,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading form profiles show a 93% convergence for Over 2.5 goals, with both teams averaging over 3.0 total goals per match in their last five. Villarreal's home attack averages 2.23 goals, while Elche's away defence concedes 2.25. The Tactician's analysis confirms an 'Open' character with 'more goals than average', driven by Villarreal's direct 4-4-2 exploiting Elche's 3-5-2 vulnerabilities and critical second-half timing mismatches. (2) DIRECTION EVIDENCE — The Quant's Poisson model gives a 70% probability for Over 2.5 goals, a 21.7 percentage point edge over the market's implied 48.3%. This is the largest gap identified. The λ sum (implied goal expectancy) is high, supported by the Auditor's adjusted probability of 70%. The cascading profiles show both teams have 80% BTTS rates in their last five matches, with Villarreal scoring 1.8 and conceding 1.6, and Elche scoring 1.0 but conceding 2.0. This creates a perfect storm for goals. (3) AGENTS CONSENSUS — Strong alignment exists. The Quant flags Over 2.5 as the primary value bet. The Sceptic notes the scouts missed the 'STRONG market convergence' for Over 2.5 (93%) and BTTS (100%) but recommends PROCEED. The Tactician predicts an open match with more goals. The Archivist notes 60% of H2H meetings feature Over 2.5. The Auditor recommends Over 2.5 as the 'most robust value proposition'. The only dissent is the Home Scout's understated win probability, which does not contradict the goals thesis. (4) RISKS — The primary risk is Villarreal's recent 4-1 defeat damaging morale and leading to a cautious, low-scoring performance. Elche's severe off-field distractions (Rafa Mir's legal issues) could deflate their attacking intent, making them overly defensive. Injuries for both sides (5 for Villarreal, 4 for Elche) could disrupt attacking fluency, though specific positional impacts are unknown. A scenario where Villarreal score early and then control the game, limiting further goals, is possible but contradicted by Elche's persistent away scoring (1.25 GF/m away) and Villarreal's own defensive lapses.",
+    "key_factors": [
+      "93% profile convergence for Over 2.5 goals from both teams' cascading form",
+      "Quant's Poisson shows a 21.7% edge for Over 2.5 (70% vs 48.3% market)",
+      "Villarreal's potent home attack (2.23 GF/m) meets Elche's leaky away defence (2.25 GA/m)",
+      "Tactical mismatch favours open play and second-half scoring surges"
+    ],
+    "risk_factors": [
+      "Villarreal's morale dip after heavy 4-1 defeat to Barcelona",
+      "Elche's severe off-field distractions potentially crippling performance",
+      "Unknown tactical impact of multiple injuries on both sides"
+    ],
+    "alternative_markets": [
+      {
+        "market": "BTTS Yes",
+        "prediction": "Yes",
+        "confidence": 67
+      },
+      {
+        "market": "Over 3.25 Goals",
+        "prediction": "Over 3.25",
+        "confidence": 63
+      }
+    ],
+    "value_bets": [
+      {
+        "market": "Over 2.5 Goals",
+        "edge": 21.7
+      },
+      {
+        "market": "BTTS Yes",
+        "edge": 16.7
+      }
+    ],
+    "edge_assessment": {
+      "selected_market_edge": 21.7,
+      "edge_source": "Quant probability minus market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 22.6
+        },
+        {
+          "market": "Over 2.5 Goals",
+          "edge": 21.7
+        },
+        {
+          "market": "BTTS Yes",
+          "edge": 16.7
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Quant, Sceptic, Tactician, Auditor, and cascading profiles all strongly align on an Over 2.5 goals direction. The Archivist provides supporting historical context. The Scouts' qualitative concerns about morale and injuries are acknowledged but do not contradict the overwhelming statistical evidence for a high-scoring match.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 22.6
+  },
+  "display_texts": {
+    "home_position": "#4 (51 pts, +17 GD)",
+    "away_position": "#17 (26 pts, -5 GD)",
+    "home_form": "16W-3D-7L in 26 matches, last 5: WWDLW",
+    "away_form": "5W-11D-10L in 26 matches, last 5: DDWDW",
+    "home_stats": "48 goals in 26 matches (avg 1.8/match), 8 clean sheets",
+    "away_stats": "34 goals in 26 matches (avg 1.3/match), 6 clean sheets",
+    "h2h_history": "Villarreal 0-0 Elche (08 Mar 2026)\nElche 1-3 Villarreal (03 Jan 2026)\nElche 3-1 Villarreal (04 Feb 2023)\nVillarreal 4-0 Elche (04 Sep 2022)\nElche 1-0 Villarreal (16 Jan 2022)",
+    "home_injuries": "P. Cabanes (Missing Fixture - Knee Injury), L. Costa (Missing Fixture - Knee Injury), J. Foyth (Missing Fixture - Achilles Tendon Injury), W. Kambwala (Missing Fixture - Hamstring Injury), A. Perez (Missing Fixture - Contusion)",
+    "away_injuries": "H. Fort (Missing Fixture - Shoulder Injury), Y. Santiago (Missing Fixture - Red Card), P. Bigas (Questionable - Injury), J. Donald (Questionable - Injury)",
+    "api_predictions": "API-Football prediction: Villarreal | Probabilities: 45%-45%-10% | Recommendation: Winner : Villarreal",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "2:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Villarreal vs Elche: Why The Boot Room Is Passing",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a home fortress with Champions League ambition faces a desperate, winless away side? The data screams for goals — a 93% convergence for Over 2.5, a 21.7 percentage point edge, a perfect storm of attacking form and defensive collapse. Yet The Boot Room is walking away. Here is why.",
+    "chapter_home": "Villarreal are a fortress at home — fourth in La Liga with a 77% win rate at their own ground. Their attack averages over two goals per home match, and they are firmly in the Champions League race. Yet that formidable record is shadowed by a recent 4-1 thrashing at Barcelona, a result that has shaken confidence and revealed a soft defensive underbelly. Five players are listed as injured, though specific roles are unclear, potentially disrupting squad depth. Their form is officially 'rising' based on three wins from their last five, but the nature of that heavy defeat and the injury list temper confidence. The question is whether their home strength can instantly repair the damage done eight days ago.",
+    "chapter_away": "Elche arrive with a mission defined by desperation, not form. They are winless in twelve away matches this season and carry the weight of a severe off-field scandal involving striker Rafa Mir. Their only hope lies in a stubborn, low-block approach, but their chronic tendency to concede late goals is a fatal flaw. Four confirmed absences deplete their squad, and their form is declining with just one draw from their last five away games. Can a team in such disarray muster the defensive discipline required to even scrape a point on the road? Their narrative is one of survival instinct clashing with statistical reality.",
+    "chapter_history": "History favours the home side decisively. In the last five meetings, the host has won four times. Villarreal have already beaten Elche twice this season, home and away, suggesting a current superiority that transcends venue. Sixty percent of historical matches feature over two and a half goals, pointing to a moderately high-scoring tradition. The pattern is clear — home advantage is everything in this fixture. But tonight pits Champions League ambition against survival desperation, adding a volatile element to a usually predictable clash.",
+    "chapter_analysis": "The tactical and statistical synthesis creates a compelling case for goals. Villarreal's direct 4-4-2 can stretch Elche's 3-5-2, exploiting spaces behind advanced wing-backs. The timing mismatch is critical — Villarreal score twelve goals between the 46th and 60th minutes, while Elche concede fifteen in the final quarter-hour. Our Quant's Poisson model gives a 70% probability for Over 2.5 goals, a 21.7 percentage point edge over the market's implied 48.3%. This is the largest gap identified. The Sceptic challenged the Home Scout's significant understatement of Villarreal's win probability but confirmed the overwhelming data convergence for a high-scoring match. Every agent — The Quant, The Tactician, The Auditor — aligns on an open match with more goals than average. The risk factors are real: Villarreal's morale dip, Elche's off-field distractions, and unknown injury impacts. Yet the directional signal for goals remains robust.",
+    "chapter_value": "Our market: NO_BET. Here is the crucial distinction. While the analysis strongly points to Over 2.5 goals as the correct direction, and our models show a significant 21.7% edge, no available betting line meets our strict qualifying criteria for value. Our conviction is strong on the outcome, but the market pricing does not offer a mathematical edge we can confidently recommend. The Auditor's effective confidence sits at 67%, but the final gate requires odds at or above 1.70 with a clear line — a threshold not met here. Sometimes the most disciplined play is to acknowledge the value simply is not on the table.",
+    "ending": "The Boot Room verdict is a pass. Villarreal versus Elche presents a narrative and statistical case for goals, but the market has not mis-priced it to a degree that triggers our betting protocol. We see the edge, we acknowledge the direction, but we will not force a recommendation where the numbers do not align. Honest analysis sometimes means walking away. If you appreciate this level of discipline, subscribe to The Boot Room for more clear-eyed football analysis. Boot Room out.",
+    "roundup_summary": "Villarreal versus Elche. The hosts sit fourth in La Liga with Champions League ambitions, boasting ten wins from thirteen home matches. Their last five form shows three wins and two losses, though they were thrashed 4-1 by Barcelona just eight days ago. Elche are deep in a relegation scrap, winless in twelve away games this season, with a form of zero wins, one draw, and three losses in their last five on the road. Key injuries affect both sides, with five players missing for Villarreal and four for Elche.\n\nIn head-to-head meetings, the home side has won four of the last five encounters. Villarreal have already beaten Elche twice this season. Historically, 60% of matches feature over two and a half goals. This season, Villarreal average 2.23 goals scored per home game, while Elche concede 2.25 goals per away match. Both teams score in 80% of their respective last five fixtures.\n\nThe Boot Room analysis identified a powerful statistical convergence. Our Quant's Poisson model gave a 70% probability for Over 2.5 goals, representing a 21.7 percentage point edge over the market's implied 48.3%. The λ sum, or implied goal expectancy, was high. The Sceptic's primary concern was the Home Scout's significant understatement of Villarreal's win probability, but this did not contradict the overwhelming goals thesis supported by a 93% form profile convergence for Over 2.5. The Tactician confirmed an open match character with a direct attacking mismatch. The Auditor validated the edge with an effective confidence of 67%. The bookmaker has significantly underpriced the likelihood of a high-scoring game, but no specific line qualified under our value filter.\n\nDespite the clear directional signal for goals, no market offers a qualified edge. The risk scenario involved Villarreal's damaged morale and Elche's off-field distractions suppressing the expected goal flow. The disciplined verdict is to pass. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Statistical Scream",
+        "voiceover": "A 93% convergence for Over 2.5 goals. A 21.7 percentage point mathematical edge. The data for Villarreal versus Elche screams for a high-scoring match — a perfect storm of attacking form meeting defensive collapse. Yet The Boot Room is walking away. This is why.",
+        "graphic_type": "conflict",
+        "graphic_description": "A dramatic split-screen visual. Left side: Villarreal's crest with '2.23 GF/H' glowing. Right side: Elche's crest with '2.25 GA/A' burning. A large '93%' overlay in the centre.",
+        "graphic_text_overlay": "93% CONVERGENCE"
+      },
+      {
+        "scene": 2,
+        "name": "The Fortress & The Shadow",
+        "voiceover": "Villarreal are a home fortress, fourth in La Liga with a 77% win rate. But a shadow hangs over the Estadio de la Cerámica — a 4-1 humiliation by Barcelona just eight days ago. Five players are injured, morale is low, and a Champions League dream now feels fragile.",
+        "graphic_type": "home_card",
+        "graphic_description": "Villarreal's yellow shirt draped over a throne-like chair, with a cracked Barcelona crest on the floor beside it. Stats float nearby: '4th in La Liga', '77% Home Win Rate', 'Last: L 1-4'.",
+        "graphic_text_overlay": "FORTRESS CRACKED"
+      },
+      {
+        "scene": 3,
+        "name": "The Desperate Travellers",
+        "voiceover": "Elche arrive defined by desperation. Winless in twelve away matches. A striker facing a potential prison sentence. Their only hope is a stubborn defensive block, but they concede an average of two and a quarter goals every time they travel. This is survival instinct versus statistical reality.",
+        "graphic_type": "away_card",
+        "graphic_description": "A lone Elche player in green-and-white stripes, back against a wall covered in '0 AWAY WINS' graffiti. A gavel icon and '10.5 YEARS' text looms in the background.",
+        "graphic_text_overlay": "0 AWAY WINS"
+      },
+      {
+        "scene": 4,
+        "name": "The Timing Mismatch",
+        "voiceover": "The tactical key is timing. Villarreal score twelve goals between the 46th and 60th minutes — their strongest period. Elche concede fifteen in the final fifteen minutes — their weakest. This creates a double-danger zone in the second half where the match could be blown open.",
+        "graphic_type": "evidence",
+        "graphic_description": "A tactical pitch diagram. A large yellow arrow labelled 'Villarreal Attack' points at the 46-60 minute segment. A large red warning symbol labelled 'Elche Collapse' covers the 76-90 minute segment.",
+        "graphic_text_overlay": "SECOND-HALF STORM"
+      },
+      {
+        "scene": 5,
+        "name": "The Value That Wasn't",
+        "voiceover": "Our models see a 70% chance for Over 2.5 goals — a massive 21.7% edge. The direction is clear. But no available betting line meets our strict criteria for a qualified value bet. The market has not mis-priced it enough. Sometimes the smartest move is not to play.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A clean analytical dashboard. A large gauge points to '70%' (Our Probability) versus '48.3%' (Market Implied). A red 'X' is stamped over a betting slip icon.",
+        "graphic_text_overlay": "EDGE: 21.7% | NO BET"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO_BET. We acknowledge the overwhelming case for goals, but we will not force a recommendation where the numbers do not align. Honest analysis demands discipline. The Boot Room is passing on Villarreal versus Elche. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "The Boot Room logo centred. Text below reads: 'VERDICT: NO BET | CONFIDENCE: 0%'. The background is a neutral, analytical grey.",
+        "graphic_text_overlay": "NO BET | 0%"
+      }
+    ]
+  }
+}

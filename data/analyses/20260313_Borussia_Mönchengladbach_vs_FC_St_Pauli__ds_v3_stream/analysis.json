@@ -1,0 +1,162 @@
+{
+  "key": "20260313_Borussia_Mönchengladbach_vs_FC_St_Pauli__ds_v3_stream",
+  "match": {
+    "home_team": "Borussia Mönchengladbach",
+    "away_team": "FC St. Pauli",
+    "league": "Bundesliga",
+    "date": "2026-03-13",
+    "home_id": 163,
+    "away_id": 186
+  },
+  "prediction": {
+    "direction": "home_value",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — home_value direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 48.8,
+    "score_draw": 30.3,
+    "score_away": 20.9,
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC matchup. The home side holds clear structural advantages: superior recent home form (2W-1D-1L last 5, 1.0 GA/m), better attacking metrics, and faces an opponent with the Bundesliga's worst away record (1W-0D-4L last 5 away, conceding 2.2 goals per match). The tactical mirror (both 3-4-2-1) suggests congestion, but the quality differential is pronounced. (2) DIRECTION EVIDENCE — The mathematical edge supports home value. EdgeCalculator shows a 9.2% edge on AH Home -0.75, the strongest positive edge among all Asian Handicap lines. The market heavily discounts Gladbach (48.8% implied win probability vs. TPM baseline 73.7%), pricing in injuries and motivation, but this overlooks their recent defensive solidity at home and St. Pauli's chronic away fragility. Cascading profiles show Gladbach's home defence is STABLE and scoring INCREASING, while St. Pauli's away defence, despite a recent clean sheet outlier, concedes 2.2 goals per match on average. (3) AGENTS CONSENSUS — The Tactician gives a tactical edge to HOME. The Quant's Poisson model shows no Asian Handicap gaps, but EdgeCalculator's independent calculation finds value on AH Home -0.75. The Auditor recommends this market to avoid the goals direction conflict. The Sceptic's CRITICAL challenge on the Home Scout's 'declining form' assessment is valid but does not veto the bet; their no_bet_recommendation is PROCEED. The Archivist notes St. Pauli's high motivation but also their severe squad concerns. The biggest dissent comes from the goals market: The Quant and EdgeCalculator show strong edges for Over markets, but the Tactician predicts a 'tight and tactical' match with fewer goals, creating a direction conflict that blocks all goal-total markets. (4) RISKS — St. Pauli's desperation could produce a shock result, as seen at Hoffenheim. Gladbach's missing captain Reitz and striker Kleindienst could blunt their attack. Unconfirmed starting XIs add uncertainty. If Gladbach's motivation is as low as feared, they may not cover the -0.75 line. However, their recent home defensive record (1.0 GA/m last 5) and St. Pauli's away scoring woes (0.77 goals/away match season average) provide a solid floor.",
+    "key_factors": [
+      "Gladbach's recent home defensive solidity (1.0 goals conceded per match last 5 home games)",
+      "St. Pauli's dire away record (1 win in last 5 away, conceding 2.2 goals per match)",
+      "Clear tactical edge to the home side in identical 3-4-2-1 formations",
+      "Market over-discounts Gladbach due to injuries and motivation, creating value on Asian Handicap"
+    ],
+    "risk_factors": [
+      "St. Pauli's high-pressure relegation fight could inspire an outlier performance",
+      "Gladbach's missing key players (Reitz, Kleindienst) may reduce attacking potency",
+      "Unconfirmed starting XIs for both injury-depleted squads"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 9.2,
+      "edge_source": "EdgeCalculator our_prob (50.0%) vs market implied probability (40.8%)",
+      "edge_grade": "VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 37.0
+        },
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 35.6
+        },
+        {
+          "market": "Over 2.25 Goals",
+          "edge": 30.8
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Auditor, and EdgeCalculator align on home value through the AH Home -0.75 market. The Quant finds no Asian Handicap gaps but identifies strong Over 2.5 goals value. The Sceptic does not veto but flags critical flaws in the Home Scout's assessment. The Archivist provides balanced context but notes St. Pauli's desperation. The goals market has a direction conflict between the Quant/Tactician, blocking all goal-total selections.",
+    "_direction_nobet_reason": "no_line_qualifies (home_value/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 37.0
+  },
+  "display_texts": {
+    "home_position": "#12 (25 pts, -15 GD)",
+    "away_position": "#16 (24 pts, -17 GD)",
+    "home_form": "6W-7D-12L in 25 matches, last 5: DLLDL",
+    "away_form": "6W-6D-13L in 25 matches, last 5: DWWLL",
+    "home_stats": "28 goals in 25 matches (avg 1.1/match), 9 clean sheets",
+    "away_stats": "23 goals in 25 matches (avg 0.9/match), 5 clean sheets",
+    "h2h_history": "Borussia Mönchengladbach 0-0 FC St. Pauli (13 Mar 2026)\nBorussia Mönchengladbach 1-2 FC St. Pauli (02 Dec 2025)\nFC St. Pauli 0-4 Borussia Mönchengladbach (01 Nov 2025)\nFC St. Pauli 1-1 Borussia Mönchengladbach (06 Apr 2025)\nBorussia Mönchengladbach 2-0 FC St. Pauli (24 Nov 2024)",
+    "home_injuries": "R. Hack (Missing Fixture - Muscle Injury), N. Ngoumou (Missing Fixture - Achilles Tendon Injury), R. Reitz (Missing Fixture - Red Card), K. Takai (Missing Fixture - Muscle Injury), H. Bolin (Questionable - Injury)",
+    "away_injuries": "R. Jones (Missing Fixture - Injury), K. Mets (Missing Fixture - Calf Injury), M. Saliakas (Missing Fixture - Injury), J. Sands (Missing Fixture - Ankle Injury), A. Hountondji (Questionable - Ankle Injury)",
+    "api_predictions": "API-Football prediction: FC St. Pauli | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or FC St. Pauli",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "PENDING",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "–",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Gladbach vs St. Pauli: The Bundesliga's Most Volatile No-Bet",
+    "thumbnail_text": "SKIP THIS FIXTURE",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a team with nothing to play for hosts a side with everything to lose? Borussia Mönchengladbach versus FC St. Pauli presents a classic Bundesliga paradox — a match where the numbers scream for action, but the analysis demands restraint. The market sees a clear favourite, but our tribunal sees a trap. Tonight, we reveal why the smartest play might be to walk away.",
+    "chapter_home": "Borussia Mönchengladbach arrive at Borussia-Park with their season effectively over. Sitting 12th with 25 points, they face no relegation threat and possess minimal upward momentum. Their home record is concerning — just three wins from twelve matches — but recent trends tell a different story. In their last five home games, they've conceded only one goal per match and kept two clean sheets. The loss of captain Rocco Reitz and striker Kleindienst to injury strips away leadership and attacking threat, yet their defensive structure remains intact. Managerial decisions and squad instability create an atmosphere of apathy, but the raw defensive numbers suggest a team that is hard to beat at home, even if they struggle to win.",
+    "chapter_away": "FC St. Pauli travel with desperation as their only fuel. One point above the relegation zone, every match is a survival fight. Their overall form is officially 'rising' with three wins in five, but that masks a critical flaw — the worst away record in the Bundesliga. They've won just one of their last five on the road, conceding 2.2 goals per match. A shock win at Hoffenheim stands as a glaring outlier against a backdrop of chronic away fragility. Manager Blessin is implementing a defensive reshuffle after a 4-0 defeat, but seven injuries — including key defenders — undermine any tactical plan. This is a team defined by contradiction: high motivation meets fundamental structural weakness.",
+    "chapter_history": "The head-to-head record adds another layer of complexity. Gladbach hold the overall historical edge with five wins from nine meetings, but the recent pattern defies logic. In the last four encounters, the away side has won three times. Their most recent meeting in November saw Gladbach secure a dominant 4-0 away victory. This fixture averages nearly three goals per game, with both teams scoring in four of the last six. History suggests a competitive, goal-prone affair, but it offers no clear guide for tonight's severely depleted squads.",
+    "chapter_analysis": "The tactical matchup is a mirror image — both teams deploy identical 3-4-2-1 formations. This creates midfield congestion and suggests a tight, tactical battle. Gladbach's structural advantages are clear: superior pass accuracy, higher shot volume, and a critical goal-timing convergence. They score heavily in the 31-45' and 76-90' periods — the exact windows where St. Pauli concede most frequently. Our Sceptic agent issued a critical challenge, revealing that initial assessments of Gladbach's 'declining' home form were flawed. The data shows stable defence and increasing scoring at Borussia-Park. However, the market has already priced in this qualitative discount, offering Gladbach at implied odds of just 48.8% to win — far below their 73.7% mathematical baseline. The biggest conflict emerges in the goals market. Our Quant model identifies an 11.7 percentage point edge on Over 2.5 Goals, but our Tactician predicts a 'tight and tactical' match with fewer chances. This fundamental direction conflict blocks any clear value path.",
+    "chapter_value": "Our market: NO_BET. The mathematical edge on Asian Handicap Home -0.75 is a modest 9.2%, but it fails to meet our conviction threshold. The goals markets, while showing stronger edges up to 37%, are contradicted by tactical analysis. The market odds of 2.45 for Gladbach to cover -0.75 reflect the uncertainty we've quantified. With both squads missing over a dozen players combined, unconfirmed line-ups, and a clash between desperation and apathy, the volatility is too high. Sometimes the clearest signal is to recognise when no signal is strong enough.",
+    "ending": "The Boot Room verdict is clear: pass on this fixture. The data presents a compelling case for Gladbach's home advantage against St. Pauli's away frailties, but the confluence of injuries, motivational asymmetry, and internal analytical conflict creates unacceptable uncertainty. In betting, discipline is as valuable as insight. When our tribunal cannot find consensus above our strict gates, we walk away. If you value this level of forensic match analysis, make sure to subscribe to AI Boot Room for every Bundesliga breakdown. Boot Room out.",
+    "roundup_summary": "Borussia Mönchengladbach versus FC St. Pauli. Gladbach sit 12th with 25 points, their season effectively over, while St. Pauli occupy 15th, just one point above the relegation zone. The hosts' last five home matches show a 2-1-2 record with a solid 1.0 goals conceded per game. St. Pauli's away form is dire — 1 win, 0 draws, and 4 losses in their last five, conceding 2.2 goals per match on average. Key absences include Gladbach's Reitz and Kleindienst, while St. Pauli list seven injured players.\n\nThe head-to-head record is split. Gladbach have five wins from nine historical meetings, but the away side has won three of the last four. Their most recent clash in November 2025 ended in a 4-0 Gladbach away victory. This fixture averages 2.9 goals per meeting, with both teams scoring in 67% of the last six encounters. This season, Gladbach score 1.2 goals per home game and concede 1.5, while St. Pauli score only 0.8 and concede 1.7 on the road.\n\nThe Boot Room analysis identified significant market divergence. The Poisson model gave Gladbach a 73.7% win probability baseline, but the market prices them at just 48.8% — a 24.9 percentage point discount reflecting injury and motivation concerns. Our Quant found an 11.7pp edge on Over 2.5 Goals, with Poisson probability at 60.0% versus market implied 48.3%. However, our Sceptic successfully challenged the initial 'declining form' assessment of Gladbach, revealing stable defensive metrics. The critical conflict emerged between the Quant's goal expectation and the Tactician's prediction of a 'tight, tactical' match in identical 3-4-2-1 formations. EdgeCalculator showed a 9.2% edge on AH Home -0.75, but this failed our conviction filter. The Auditor's effective confidence was 58%, but recommended avoiding goals markets due to the direction conflict.\n\nThe Boot Room finds no qualifying value. The mathematical edges exist but are contradicted by qualitative factors or fail to meet our strict confidence gates. With severe squad depletion on both sides and unconfirmed line-ups, the volatility is too high. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "Borussia Mönchengladbach host FC St. Pauli in a Bundesliga clash defined by contradiction. Gladbach, 12th with nothing to play for, face St. Pauli, who sit 15th and one point above the drop zone. The hosts have shown recent defensive solidity at home, while St. Pauli possess the league's worst away record. History shows the away side has won three of the last four meetings. The Boot Room lands on NO_BET at odds of 0 with 0% confidence. While mathematical edges exist on goal markets and Asian Handicaps, severe injuries, motivational asymmetry, and internal analytical conflict create unacceptable volatility. Sometimes the smartest play is to pass. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Bundesliga Paradox",
+        "voiceover": "What happens when a team with nothing to lose meets a side with everything to gain? Borussia Mönchengladbach versus FC St. Pauli — a fixture where the numbers scream for action, but the analysis demands restraint. The market sees a clear favourite. Our tribunal sees a trap.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: Gladbach players looking disengaged. Right side: St. Pauli players in desperate, determined poses. A large 'VS' between them with question marks.",
+        "graphic_text_overlay": "DESPERATION VS APATHY"
+      },
+      {
+        "scene": 2,
+        "name": "The Flawed Narrative",
+        "voiceover": "Initial reports labelled Gladbach's home form as 'declining'. Our Sceptic agent challenged this — critically. The data reveals a different story: one goal conceded per match in their last five at home, with defensive stability actually increasing. The market has priced in the negative narrative, creating a 25-point gap between perception and probability.",
+        "graphic_type": "evidence",
+        "graphic_description": "A data card showing Gladbach's last five home matches: results, goals conceded (1.0 avg), clean sheets. A red 'X' over the word 'DECLINING'.",
+        "graphic_text_overlay": "THE DATA DISAGREES"
+      },
+      {
+        "scene": 3,
+        "name": "St. Pauli's Fatal Flaw",
+        "voiceover": "St. Pauli's desperation is real — but so is their fundamental weakness. They possess the Bundesliga's worst away record: one win in five, conceding 2.2 goals per match. A shock win at Hoffenheim is an outlier against a backdrop of chronic fragility. Seven injuries, including key defenders, turn their survival fight into a tactical crisis.",
+        "graphic_type": "away_card",
+        "graphic_description": "A stark graphic showing St. Pauli's away form: W1 D0 L4, 2.2 GA/match. The Hoffenheim win is highlighted in a different colour as an 'outlier'.",
+        "graphic_text_overlay": "WORST AWAY RECORD"
+      },
+      {
+        "scene": 4,
+        "name": "The Tactical Mirror",
+        "voiceover": "Both teams deploy identical 3-4-2-1 formations — a mirror image that congests the midfield. Gladbach's late-game scoring threat directly targets St. Pauli's second-half defensive collapses. But our Tactician predicts a tight, low-chance affair, directly contradicting our Quant's model that sees value in Over 2.5 Goals. This is our core conflict.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Two identical 3-4-2-1 formation diagrams overlapping. Arrows show Gladbach's attack in the 76-90' period hitting St. Pauli's defensive weak zone.",
+        "graphic_text_overlay": "MIRROR IMAGE CLASH"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict: Walk Away",
+        "voiceover": "Our market: NO_BET. A 9.2% edge on Asian Handicap exists but fails our conviction threshold. Goal markets show stronger edges — up to 37% — but are vetoed by tactical contradiction. With over a dozen combined absences and unconfirmed line-ups, the volatility is too high. The clearest signal tonight is that no signal is strong enough. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold text on a dark background: 'BOOT ROOM VERDICT: NO BET'. Below: 'Edge: 9.2% | Confidence: 0%'. A red 'X' over a betting slip.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

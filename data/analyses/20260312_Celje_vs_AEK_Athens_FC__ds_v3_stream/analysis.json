@@ -1,0 +1,163 @@
+{
+  "key": "20260312_Celje_vs_AEK_Athens_FC__ds_v3_stream",
+  "match": {
+    "home_team": "Celje",
+    "away_team": "AEK Athens FC",
+    "league": "UEFA Europa Conference League",
+    "date": "2026-03-12",
+    "home_id": 4360,
+    "away_id": 575
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 30.3,
+    "score_draw": 27.0,
+    "score_away": 42.7,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING, transitional match. The Tactician explicitly predicts a 'transitional' affair with 'more goals than the historical H2H average'. This is powerfully supported by the Cascading Form Profiles, which show STRONG convergence (100%) on Over 2.5 Goals for both teams. Celje's recent matches average 3.33 total goals, while AEK Athens's single-match sample shows 5.0. This character overrides the historical low-scoring narrative. (2) DIRECTION EVIDENCE — The direction towards over_goals is driven by profile convergence and tactical structure, not by the Quant's mathematical model. The Edge Calculator shows massive edges on Under markets (e.g., Under 2.25 Goals at +55.7%), but the Auditor flags this as 'astronomically high' and 'contradicts the Tactician's analysis'. The model's output is built on critically thin data for AEK Athens (one match) and a small H2H sample, making it unreliable. The stronger evidence is the 100% profile alignment on high-scoring matches for both sides in their current form. (3) AGENTS CONSENSUS — The Tactician and the Cascading Profiles provide a clear, aligned signal for a higher-scoring, open match. The Sceptic's CRITICAL challenge on data quality and subsequent NO_BET veto is the primary dissent. The Quant's model and the Auditor both reject the over_goals direction mathematically, but their conclusions are based on a flawed data foundation. The net signal is a moderate conviction for over_goals, supported by the most reliable current-form data, but heavily caveated by severe data limitations. (4) RISKS — The primary risk is that the mathematical model, despite its suspect inputs, proves correct and the historical low-scoring pattern repeats. The Sceptic's veto due to asymmetric and insufficient data is a fundamental concern. High rotation risk from European fixture congestion for both teams could disrupt attacking fluency. Unknown starting XIs and key player availability add further unpredictability.",
+    "key_factors": [
+      "STRONG 100% profile convergence on Over 2.5 Goals for both teams",
+      "Tactician's prediction of a 'transitional', higher-scoring match than historical average",
+      "Both teams show recent high goal involvement (Celje 3.33 avg, AEK 5.0 avg)",
+      "Market odds for Over 2.5 are within the playable range, offering a speculative position against a flawed model"
+    ],
+    "risk_factors": [
+      "Sceptic's NO_BET veto due to critically insufficient data sample for AEK Athens",
+      "Mathematical model (Edge Calculator) shows extreme edges on Under markets, creating a fundamental contradiction",
+      "High rotation risk from European fixture congestion in 0 days",
+      "Unknown starting line-ups and key player availability"
+    ],
+    "alternative_markets": [
+      {
+        "market": "BTTS Yes",
+        "prediction": "Yes",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": -49.9,
+      "edge_source": "Edge Calculator probability minus market implied probability for Over 2.75 Goals (closest proxy to Over 2.5)",
+      "edge_grade": "NO_VALUE",
+      "staking_signal": "PASS",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 55.7
+        },
+        {
+          "market": "Under 2.75 Goals",
+          "edge": 46.5
+        },
+        {
+          "market": "AH Home 0.25",
+          "edge": 38.1
+        }
+      ]
+    },
+    "tribunal_consensus_level": "weak",
+    "tribunal_consensus_description": "The tribunal is deeply split. The Tactician and Cascading Profiles align strongly for an attacking, high-scoring match. The Sceptic, Quant, and Auditor form a opposing bloc, with the Sceptic issuing a NO_BET veto and the mathematical models showing extreme value on Under markets. The Scouts' reports are compromised by data gaps and overstatements, providing little reliable directional weight.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.01,
+    "max_edge": 55.7
+  },
+  "display_texts": {
+    "home_position": "#13 (10 pts, +1 GD)",
+    "away_position": "#3 (13 pts, +7 GD)",
+    "home_form": "8W-1D-3L in 12 matches, last 5: WLWWW",
+    "away_form": "7W-4D-1L in 12 matches, last 5: WDDWD",
+    "home_stats": "24 goals in 12 matches (avg 2.0/match), 5 clean sheets",
+    "away_stats": "23 goals in 12 matches (avg 1.9/match), 5 clean sheets",
+    "h2h_history": "AEK Athens FC 0-0 Celje (19 Mar 2026)\nCelje 0-0 AEK Athens FC (12 Mar 2026)\nCelje 3-1 AEK Athens FC (02 Oct 2025)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: AEK Athens FC | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or AEK Athens FC",
+    "osint_signals": "- Celje: pozytywny sygnał — Would a New Supercar Above the 911 Solve Porsche's Financial Problems? The New C\n- Celje: pozytywny sygnał — Fitness fans swap cardio for weights to ‘feel and look strong’, gym boss says - "
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "0:4",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Celje vs AEK Athens: The Data Contradiction That Kills The Bet",
+    "thumbnail_text": "NO BET ALERT",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when the mathematical model screams for a low-scoring match, but every piece of current form data points to an open, high-scoring contest? This is the fundamental contradiction at the heart of Celje versus AEK Athens — a fixture where the numbers tell two completely different stories, and where the only logical conclusion is to walk away.",
+    "chapter_home": "Celje arrive with a solid home record and a clear tactical identity. Deploying a 3-4-2-1 system, their primary weapon is a blistering first-half attack — 14 of their 24 goals this season have come before half-time. They boast a 67% win rate at home and have been flawless from the penalty spot. However, their recent unbeaten run comes with a major caveat: it was built against significantly weaker opposition, with an average opponent ranking of 24th out of 36. Their defence shows vulnerability in the opening 15 minutes, and they face a punishing schedule with four matches in the last 14 days. While their form profile shows a 100% convergence on high-scoring matches, the foundation of their success appears inflated by the level of competition they've faced.",
+    "chapter_away": "AEK Athens travel with the weight of a domestic title challenge and a curious historical record against this opponent. Their tactical setup is a possession-dominant 4-2-3-1, averaging over 62% possession in recent matches. They show a dangerous pattern of scoring early and late in games, but their away form is defined by draws, not wins, with just two victories from six on the road. Their defensive structure is vulnerable in the first half-hour. Crucially, their entire recent statistical profile is built on a sample size of one — a single 3-2 home win. This creates a critical data gap, making any assessment of their true current form or tactical reliability virtually impossible. Their motivation is high, but their profile is built on sand.",
+    "chapter_history": "The head-to-head history paints a picture of low-scoring, cagey affairs. In three previous meetings, the average is just 1.3 goals per match, with only one game exceeding 2.5 goals. The most striking fact is that AEK Athens have never beaten Celje, with the Slovenian side claiming the only decisive victory — a 3-1 win in October 2025. The other two meetings ended goalless. This historical pattern suggests a tactical stalemate, but the sample is too small — only three matches — to draw any strong conclusions. It provides a narrative, but not a reliable predictive foundation for tonight's clash.",
+    "chapter_analysis": "The tactical matchup sets up a classic contrast: AEK's possession control against Celje's rapid transitions. The Tactician predicts a 'transitional' match with more goals than the historical average, supported by both teams' recent high-scoring form profiles. Celje's last five matches averaged 3.33 total goals, while AEK's single-match sample shows 5.0. This creates a powerful, 100% aligned signal for an open game. Yet, this clashes violently with the mathematical model. The Edge Calculator shows a massive +55.7% edge on Under 2.25 Goals, implying a 94.5% probability of a low-scoring affair. The Sceptic delivers the critical blow: this entire analysis is compromised. AEK's data comes from one match, the H2H sample is just three games, and starting line-ups are unknown. The Auditor rejects the mathematical edge as 'not credible', citing this flawed data foundation and the direct contradiction with the tactical assessment. We are left with a tribunal deeply split, offering no clear, conflict-free direction.",
+    "chapter_value": "Our market: NO_BET. The Boot Room finds no qualifying edge. The mathematical model points to extreme value on Under markets, but that model is built on critically insufficient and unreliable data. The qualitative analysis points to an over-goals direction, but the Sceptic's veto on data quality is fundamental and correct. With an effective confidence of just 25% from the Auditor and a tribunal consensus described as 'weak', no market meets our threshold for a recommendation. The odds context shows the Asian Handicap market in perfect alignment with the flawed Poisson baseline, offering no mispricing to exploit. Sometimes, the smartest play is to acknowledge when the puzzle has too many missing pieces.",
+    "ending": "The verdict on Celje versus AEK Athens is a pass. When the data tells two contradictory stories and the foundation of that data is itself unreliable, the only responsible conclusion is to step aside. The Boot Room will not force a bet where no clear, credible edge exists. For more match breakdowns where we separate the signal from the noise, make sure to subscribe to AI Boot Room. Boot Room out.",
+    "roundup_summary": "Celje versus AEK Athens FC in the UEFA Europa Conference League presents a mid-table Slovenian side against Greek title challengers. Celje's last five show two wins, one draw, and two losses, though their form is inflated by facing weak opposition. AEK Athens are unbeaten in their last five with three wins and two draws, but their profile is based on a single recent match. The head-to-head history is brief and low-scoring: three meetings averaging just 1.3 goals, with Celje winning one, drawing none, and AEK Athens failing to win any. The most recent was a 3-1 Celje home win in October 2025.\n\nThe Boot Room analysis reveals a fundamental data contradiction. The Poisson model, derived from thin data, suggests a low-scoring match with extreme edges on Under markets — for example, a +55.7% edge on Under 2.25 Goals. However, the Tactician's qualitative assessment and 100% form profile convergence for both teams point decisively towards a high-scoring, transitional game. The Sceptic's critical concern — that AEK Athens's analysis is built on a one-match sample — invalidates the reliability of the mathematical baseline. The Auditor grades the analysis 'REJECTED', citing the unreliable data and severe tactical contradiction, assigning an effective confidence of just 25%. The bookmaker's odds for Asian Handicap lines show perfect alignment with this flawed Poisson model, meaning any perceived 'value' is an artifact of bad data, not a genuine market mispricing.\n\nThe Boot Room verdict is a pass. With core data for one team virtually non-existent, creating an asymmetric and unreliable comparison, no market can be recommended with confidence. The tribunal is deeply split, and the uncertainty is too high to identify a credible edge. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "Celje host AEK Athens FC in a UEFA Europa Conference League clash defined by contradictory data. The Slovenian side, comfortable in mid-table, face Greek title challengers AEK. Celje's form is solid but built against weak opposition, while AEK's profile is critically based on just one recent match. The head-to-head history is low-scoring, but the sample is only three games. The Boot Room lands on NO_BET at odds of 0 with 0% confidence. The analysis is fundamentally compromised by insufficient and unreliable data for AEK Athens, creating a split tribunal with no clear, conflict-free edge to exploit. Sometimes the smartest play is to acknowledge when the puzzle has too many missing pieces. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Contradiction",
+        "voiceover": "What if every piece of current form data screams for a high-scoring match — but the mathematical model, built on shaky foundations, predicts a low-scoring stalemate? This is the core tension of Celje versus AEK Athens. Two completely different stories, one fixture.",
+        "graphic_type": "conflict",
+        "graphic_description": "A visual split screen: one side shows 'OVER' in fiery letters with attacking football imagery; the other shows 'UNDER' in cold, analytical text with defensive shapes. A large question mark dominates the centre.",
+        "graphic_text_overlay": "DATA CONTRADICTION"
+      },
+      {
+        "scene": 2,
+        "name": "The Flawed Foundation",
+        "voiceover": "The analysis for AEK Athens is built on a sample size of one — a single 3-2 home win. Their entire statistical profile, from form to tactics, rests on this unreliable foundation. The Sceptic issues a critical veto: with data this thin, any comparative assessment is fundamentally compromised.",
+        "graphic_type": "evidence",
+        "graphic_description": "A single, isolated football match icon on a vast, empty data field. Text highlights '1 MATCH SAMPLE' and 'UNRELIABLE BASELINE'.",
+        "graphic_text_overlay": "SAMPLE SIZE: ONE"
+      },
+      {
+        "scene": 3,
+        "name": "The Form Signal",
+        "voiceover": "Despite the data gaps, the current form signal is powerful and unified. Both Celje and AEK Athens show a 100% convergence on high-scoring matches in their recent profiles. The Tactician predicts a transitional, open affair with more goals than the historical average of 1.3.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Two team crests, Celje and AEK Athens, with a large '100%' and 'OVER 2.5 GOALS' connecting them. An arrow points upwards from a small '1.3' to a larger expected goals figure.",
+        "graphic_text_overlay": "100% OVER CONVERGENCE"
+      },
+      {
+        "scene": 4,
+        "name": "The Mathematical Mirage",
+        "voiceover": "The Edge Calculator identifies a massive +55.7% edge on Under 2.25 Goals. But the Auditor rejects this outright. The edge is a mirage — generated by a model using that critically insufficient AEK data. It directly contradicts the tactical read, creating an unresolvable conflict.",
+        "graphic_type": "conflict",
+        "graphic_description": "A calculator showing '+55.7% EDGE' on one side, being crossed out by a large red 'X' labelled 'AUDITOR REJECTED'. The Tactician's report icon sits opposed to the calculator.",
+        "graphic_text_overlay": "EDGE REJECTED"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict",
+        "voiceover": "With a tribunal deeply split, unreliable core data, and a direct contradiction between qualitative and quantitative analysis, no clear edge emerges. Our market: NO_BET. Confidence: 0%. When the data foundation crumbles, the only smart move is to step back. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, final graphic. The words 'NO BET' are central and prominent. Below, smaller text states 'Confidence: 0%'. The team crests are present but faded into the background.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

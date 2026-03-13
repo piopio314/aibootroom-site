@@ -1,0 +1,181 @@
+{
+  "key": "20260310_Sheffield_Wednesday_vs_Watford__ds_v3_stream",
+  "match": {
+    "home_team": "Sheffield Wednesday",
+    "away_team": "Watford",
+    "league": "Championship",
+    "date": "2026-03-10",
+    "home_id": 74,
+    "away_id": 38
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "Under 2.25 Goals",
+    "prediction": "Under 2.25 Goals",
+    "confidence": 53,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 2.32,
+    "score_home": 11.0,
+    "score_draw": 28.0,
+    "score_away": 61.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician explicitly predicts a 'tight and tactical' match with low-scoring tendencies. Both teams' empirical data supports this: Sheffield Wednesday have never exceeded 2.5 goals in any home match this season (0% O2.5 frequency), while Watford average just 1.12 goals scored away. The cascading profile convergence for Under 2.5 Goals is weak (29%), but the qualitative evidence from multiple agents is overwhelming. Historical H2H shows only 20% of matches feature Over 2.5 goals. This is not an attacking spectacle. (2) DIRECTION EVIDENCE — The EdgeCalculator identifies Under 2.25 Goals as the highest-edge market at +5.6%, with our probability (48.7%) significantly above the market's implied 43.1%. The Auditor's adjusted probabilities show Under 2.5 at 65% and Under 1.5 at 30%, anchoring the low-scoring expectation. The Poisson λ sum (home 0.50 + away 1.12 = 1.62) suggests an expected total below 2.0 goals. The Tactician's structural analysis notes both teams struggle offensively, with Sheffield Wednesday's defensive approach limiting scoring and Watford's away matches averaging just 2.0 total goals in their last five. (3) AGENTS CONSENSUS — The Tactician, Archivist, and Auditor all align on a low-scoring outcome. The Archivist highlights the historical 80% Under 2.5 rate in H2H matches. The Auditor recommends Under 2.25 Goals as the strongest mathematically supported market. The Home Scout notes Sheffield Wednesday's catastrophic defence but also their inability to score (failed in 11 of 18 home matches). The Away Scout emphasises Watford's blunt away attack (five scoreless away games). The Sceptic's surprise scenario is a low-scoring draw. The Quant's Poisson model shows a 20.3pp gap favouring Under 1.5 Goals, though this is contradicted by their Over 2.5 probability. The biggest dissent comes from the Quant's Over 2.5 probability (68.3%), but this is flagged as having 'qualitative contradiction' and is directly challenged by the Auditor's adjustment to 35%. (4) RISKS — The primary risk is Sheffield Wednesday's defensive collapse, which could see Watford score multiple goals despite their away limitations. Watford's recent away form shows some scoring (2.0 goals in last two away matches), and Sheffield Wednesday concede heavily in the final 15 minutes (15 goals). The extensive injury lists for both teams create unknown XI selection risks, capped by the rotation risk confidence limit of 55%. A Watford early goal could open the match, but their historical draw tendency (60% in last five away) suggests they lack the killer instinct to run up a score.",
+    "key_factors": [
+      "Sheffield Wednesday have a 0% Over 2.5 goals frequency at home this season",
+      "Historical head-to-head shows 80% of matches feature Under 2.5 goals",
+      "Watford average only 1.12 goals scored per away match",
+      "The Tactician predicts a 'tight and tactical' match with low-scoring tendencies",
+      "EdgeCalculator shows +5.6% edge on Under 2.25 Goals"
+    ],
+    "risk_factors": [
+      "Sheffield Wednesday's catastrophic defensive record (2.11 GA/home) creates collapse risk",
+      "Extensive injury lists for both teams create uncertain starting XI selection",
+      "Watford's recent away form shows improved scoring (2.0 goals in last two away matches)",
+      "Rotation risk confidence cap of 55% due to European fixture conflict"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.75 Goals",
+        "prediction": "Under 2.75",
+        "confidence": 61
+      },
+      {
+        "market": "Draw",
+        "prediction": "Draw",
+        "confidence": 28
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 5.6,
+      "edge_source": "EdgeCalculator our probability minus market implied probability",
+      "edge_grade": "MARGINAL",
+      "staking_signal": "MARGINAL",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 5.6
+        },
+        {
+          "market": "AH Away -1.5",
+          "edge": 4.8
+        },
+        {
+          "market": "Under 2.75 Goals",
+          "edge": 4.3
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Archivist, and Auditor strongly support a low-scoring match, while both Scouts emphasise offensive weaknesses. The Quant's Poisson model shows conflicting signals with high Over 2.5 probability but also a large gap favouring Under 1.5. The Sceptic does not veto and their surprise scenario aligns with low scoring. The net signal favours under_goals despite the Quant's partial dissent.",
+    "_direction": "under_goals",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.1298,
+    "_direction_prob": 48.7,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "C",
+    "tier_label": "SPECULATIVE — weak signal, small stake only",
+    "tier_color": "#f59e0b",
+    "opportunity_score": 4.56,
+    "max_edge": 5.6
+  },
+  "display_texts": {
+    "home_position": "#24 (-7 pts, -51 GD)",
+    "away_position": "#9 (51 pts, +4 GD)",
+    "home_form": "1W-8D-27L in 36 matches, last 5: LLDLL",
+    "away_form": "13W-12D-10L in 35 matches, last 5: LWDDL",
+    "home_stats": "22 goals in 36 matches (avg 0.6/match), 3 clean sheets",
+    "away_stats": "45 goals in 35 matches (avg 1.3/match), 6 clean sheets",
+    "h2h_history": "Sheffield Wednesday 0-0 Watford (10 Mar 2026)\nWatford 1-1 Sheffield Wednesday (09 Dec 2025)\nWatford 1-1 Sheffield Wednesday (03 May 2025)\nSheffield Wednesday 2-6 Watford (02 Nov 2024)\nSheffield Wednesday 0-0 Watford (31 Jan 2024)",
+    "home_injuries": "D. Bernard (Missing Fixture - Knee Injury), G. Brown (Missing Fixture - Injury), L. Cooper (Missing Fixture - Injury), M. Lowe (Missing Fixture - Injury), E. Weaver (Missing Fixture - Leg Injury)",
+    "away_injuries": "K. Baah (Missing Fixture - Injury), H. Kyprianou (Missing Fixture - Ankle Injury), O. Maamma (Missing Fixture - Injury), R. Vata (Missing Fixture - Hamstring Injury), S. Goglichidze (Questionable - Injury)",
+    "api_predictions": "API-Football prediction: Watford | Probabilities: 0%-50%-50% | Recommendation: Double chance : draw or Watford",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "HALF_WIN",
+    "label": "HALF WIN",
+    "color": "#86efac",
+    "pnl": 0.66,
+    "score": "1:1",
+    "market": "Under 2.25 Goals"
+  },
+  "script": {
+    "title": "Sheffield Wednesday vs Watford: The Championship's Most Desperate Clash",
+    "thumbnail_text": "ZERO HOME WINS",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when the Championship's most desperate home side — winless at Hillsborough all season — faces a team with chronic away struggles and nothing to play for? This isn't just a football match. This is a pressure cooker waiting to explode. Sheffield Wednesday's survival hopes hang by a thread, while Watford arrive with their season effectively over. The tension is not about who will dominate — but whether anyone can score at all.",
+    "chapter_home": "Sheffield Wednesday are a team in absolute crisis. Rooted to the bottom of the Championship, they have not won a single home match all season — zero victories from eighteen attempts. Their form is in freefall with five consecutive defeats, and they face this fixture with a defensive unit ravaged by injuries. Six players are absent, including multiple defenders, which exacerbates an already catastrophic record of conceding over two goals per game at Hillsborough. Their attack is equally blunt — they have failed to score in eleven of those eighteen home matches. Managerial rhetoric has shifted from fighting talk to public acceptance of their dire situation, suggesting a potential lack of belief. Their only statistical bright spot is a tendency to score occasionally in the second half, but even that meets Watford's most resilient defensive period. The Owls are not just struggling — they are a team whose fundamental structure is collapsing under the weight of desperation and injury.",
+    "chapter_away": "Watford arrive in ninth place, their season drifting without tangible pressure. Their narrative is one of chronic away limitation — just four wins from seventeen attempts on the road, with a blunt attack averaging only 1.12 goals per away game. They are profoundly draw-prone away from home, with seven stalemates in those seventeen matches and a sixty percent draw rate in their last five trips. Like their hosts, they carry an extensive injury list of six players, reducing squad depth ahead of a congested period. Their recent away form shows resilience with only one loss in five, but it is built on draws, not victories. The market prices them as heavy favourites, but their own historical profile suggests a team lacking the cutting edge to dominate. With little to play for beyond pride, the question is whether they can muster the urgency required to break down a desperate, if fragile, opponent.",
+    "chapter_history": "History casts a long shadow over this fixture. Sheffield Wednesday have not beaten Watford in their last ten attempts — a run stretching back a decade. Half of those meetings ended in draws, creating a strong signal for tight, evenly contested matches. The most emphatic result was Watford's 2-6 victory at Hillsborough earlier this season, but that outlier aside, this is a historically low-scoring rivalry. Eighty percent of head-to-head matches feature under 2.5 goals. The psychological burden on Sheffield Wednesday is immense — a decade without a win against this opponent, now compounded by their desperate league position. For Watford, history breeds a relaxed confidence that has served them well, but it does not guarantee goals.",
+    "chapter_analysis": "The tactical matchup reveals why goals will be scarce. Sheffield Wednesday's injury-ravaged 3-5-2 must withstand Watford's 4-4-2, which naturally exploits wide areas. However, Watford's own away metrics show declining possession and shot numbers — they may not impose themselves. The Tactician predicts a 'tight and tactical' match with low-scoring tendencies, a view supported by both teams' empirical data: Sheffield Wednesday have a zero percent over 2.5 goals frequency at home this season. The Sceptic challenged the Away Scout's severe downgrade of Watford's win probability, arguing it ignored recent resilient away form. Yet, that very resilience has been built on draws and low scores, not attacking flurries. The Quant's Poisson model initially suggested a high probability for over 2.5 goals, but this was flagged for direct contradiction by historical trends and team-specific data. The Auditor adjusted that probability down to thirty-five percent, aligning with the qualitative consensus. The key factor is not which team attacks better, but which fragile unit breaks first under minimal offensive pressure.",
+    "chapter_value": "Our market: Under 2.25 Goals. The EdgeCalculator identifies this as the highest-edge play at plus 5.6 percent, with our probability of 48.7 percent significantly above the market's implied 43.1 percent. The Poisson lambda sum — Sheffield Wednesday's 0.50 expected goals at home plus Watford's 1.12 away — suggests an expected total below 2.0. The bookmakers are pricing based on Watford's qualitative superiority and Wednesday's defensive record, but they are discounting the overwhelming evidence of offensive incapacity on both sides. At odds of 2.32, this represents a marginal but mathematically supported position against the market's scoring expectations.",
+    "ending": "The verdict from the Boot Room is clear. This is a fixture defined by desperation meeting apathy, by historical weight against present crisis. The data points not to a Watford rout, but to a grinding, low-event stalemate where both teams' fundamental weaknesses cancel each other out. We are taking the under on goals. Our market: Under 2.25 Goals at 2.32, with 53 percent confidence. This is a speculative play in a volatile matchup, but the alignment of historical trends, tactical analysis, and mathematical edge makes it our clearest read. If you found this breakdown valuable, subscribe to AI Boot Room for daily, data-driven football analysis. Boot Room out.",
+    "roundup_summary": "Sheffield Wednesday versus Watford. The Championship's bottom side, with zero home wins all season, hosts a mid-table Watford team with little left to play for. Wednesday's form is catastrophic — five straight losses, rooted to the foot of the table. Watford are unbeaten in two away but have drawn three of their last five on the road. The home side's defence is ravaged by six injuries, while Watford also carry a lengthy absentee list.\n\nThe head-to-head history is stark: Sheffield Wednesday have not beaten Watford in ten attempts over a decade. Half of those matches ended in draws. Eighty percent of historical meetings featured under 2.5 goals. This season, Wednesday average 0.50 goals scored per home game and concede 2.11. Watford average just 1.12 goals scored away. The historical and current data converges on low-scoring encounters.\n\nThe Boot Room analysis identifies Under 2.25 Goals as the value market. The Poisson lambda sum is 1.62 — home 0.50 plus away 1.12 — suggesting an expected total below 2.0 goals. The EdgeCalculator shows a plus 5.6 percentage point edge, with our probability at 48.7 percent versus the market's implied 43.1 percent. The Sceptic's main challenge was the Away Scout's severe downgrade of Watford's win probability, but this did not contradict the low-scoring thesis — Watford's resilience has been built on draws, not attacking dominance. The Quant's initial model showed a high probability for Over 2.5 goals, but this was directly contradicted by historical H2H trends, Wednesday's 0% home O2.5 frequency, and Watford's 4% away O2.5 rate. The Auditor adjusted the Over 2.5 probability down to 35 percent. The bookmaker has mis-priced the market by overestimating the attacking threat from two blunt offences and underestimating the structural factors that grind this fixture to a halt.\n\nThe Boot Room market is Under 2.25 Goals at odds of 2.32. The risk scenario is a Watford early goal opening the match, or a collapse of Wednesday's fragile defence. However, the weight of evidence points to a tight, low-scoring affair. Confidence is set at 53 percent. Boot Room market: Under 2.25 Goals. Confidence: 53%.",
+    "short_segment": "Sheffield Wednesday host Watford in the Championship. The league's bottom side, winless at home all season, faces a Watford team in ninth with chronic away struggles. Wednesday's form is five straight losses, with a defence ravaged by injuries. Watford are draw-prone on the road — three stalemates in their last five away. Historically, Wednesday have not beaten Watford in ten attempts, with eighty percent of meetings featuring under 2.5 goals. The Boot Room lands on Under 2.25 Goals at 2.32, with 53 percent confidence. The data points to a grinding, low-event match where desperation meets apathy, and both offences struggle to fire. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Pressure Mismatch",
+        "voiceover": "Zero home wins all season. A defence conceding over two goals per game. Six players injured. This is Sheffield Wednesday's reality at Hillsborough. Now they face a Watford side with nothing tangible to play for — their season effectively over. This is not a clash of titans. It is a collision between desperate survival and mid-table apathy.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: Sheffield Wednesday's empty trophy cabinet with a '0 WINS' stamp. Right side: A Watford player looking disinterested, clock ticking. Stark contrast in pressure.",
+        "graphic_text_overlay": "DESPERATION VS APATHY"
+      },
+      {
+        "scene": 2,
+        "name": "Home Side in Freefall",
+        "voiceover": "The numbers are brutal. Eighteen home matches, zero victories. Five consecutive defeats. They have failed to score in eleven of those eighteen games. Their defensive unit is ravaged by injuries — six players absent. This is a team whose structure is collapsing under the weight of their own crisis.",
+        "graphic_type": "home_card",
+        "graphic_description": "A crumbling Hillsborough Stadium graphic. Key stats floating: '0 Home Wins', '5 Straight Losses', '6 Injuries'. The Sheffield Wednesday badge appears fractured.",
+        "graphic_text_overlay": "0 HOME WINS"
+      },
+      {
+        "scene": 3,
+        "name": "Away Side's Travel Sickness",
+        "voiceover": "Watford's away profile tells its own story. Just four wins in seventeen attempts on the road. A blunt attack averaging only 1.12 goals per away game. They are draw specialists — seven stalemates in those seventeen matches. They carry their own injury list, but their biggest limitation is a chronic lack of cutting edge when travelling.",
+        "graphic_type": "away_card",
+        "graphic_description": "A Watford bus stuck in mud on a country road. Stats on signposts: '4 Away Wins', '1.12 Goals/Game', '7 Draws'. The Watford crest looks faded.",
+        "graphic_text_overlay": "CHRONIC AWAY STRUGGLES"
+      },
+      {
+        "scene": 4,
+        "name": "A History of Stalemates",
+        "voiceover": "Sheffield Wednesday have not beaten Watford in ten attempts — a decade-long curse. But here is the crucial twist: half of those games ended in draws. Eighty percent featured under 2.5 goals. This is not a fixture of fireworks. It is a grinding, low-scoring rivalry where history itself argues against a goal fest.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "A timeline stretching back ten years. Sheffield Wednesday and Watford badges connected by a series of 'D' for Draw and 'L' for Wednesday Loss. The '80% Under 2.5' stat pulses prominently.",
+        "graphic_text_overlay": "10 GAMES, 0 WINS"
+      },
+      {
+        "scene": 5,
+        "name": "The Tactical Grind",
+        "voiceover": "The Tactician predicts a 'tight and tactical' match. Sheffield Wednesday's injured back three must face Watford's wide attacks, but Watford's own away metrics show declining possession. Both teams struggle offensively. The Poisson expected goals sum is just 1.62. The Quant's model initially screamed for goals, but it directly contradicted every piece of historical and team-specific evidence. The real story is two blunt attacks meeting two fragile, but not catastrophically leaky, defences.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A tactical board showing Sheffield Wednesday's 3-5-2 vs Watford's 4-4-2. Arrows show Watford's wide attacks, but they are blunted. A large 'λ = 1.62' dominates the centre.",
+        "graphic_text_overlay": "EXPECTED GOALS: 1.62"
+      },
+      {
+        "scene": 6,
+        "name": "The Market Read",
+        "voiceover": "The bookmakers see Watford's quality and Wednesday's defensive record. They are pricing for goals. But they have missed the overwhelming convergence of data — historical low scores, empirical offensive incapacity, and a tactical grind. Our market: Under 2.25 Goals. A 5.6 percent edge at odds of 2.32. Confidence: 53 percent. This is a speculative play on a match where desperation meets limitation, and the most likely outcome is silence. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold graphic. 'UNDER 2.25 GOALS' in large type. Odds: 2.32. Confidence: 53%. The Boot Room logo is prominent.",
+        "graphic_text_overlay": "UNDER 2.25 GOALS"
+      }
+    ]
+  }
+}

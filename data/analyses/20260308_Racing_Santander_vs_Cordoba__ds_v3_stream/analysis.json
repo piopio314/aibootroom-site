@@ -1,0 +1,165 @@
+{
+  "key": "20260308_Racing_Santander_vs_Cordoba__ds_v3_stream",
+  "match": {
+    "home_team": "Racing Santander",
+    "away_team": "Cordoba",
+    "league": "Segunda División",
+    "date": "2026-03-08",
+    "home_id": 4665,
+    "away_id": 713
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 46.3,
+    "score_draw": 28.6,
+    "score_away": 25.1,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading profiles show Racing Santander's scoring trend INCREASING at home (2.00 GF/m last 5) while Cordoba's defence is WORSENING away (conceding 1.60 GA/m last 5). Cordoba's away matches have seen 100% Over 2.5 goals in their last five, averaging 3.40 total goals. The Tactician predicts 'open and transitional' play with 'more goals than average', directly supporting this characterisation.\n\n(2) DIRECTION EVIDENCE — The Quant's Poisson analysis shows a 10% edge on Over 2.5 Goals (50% probability vs 40% market implied). The Auditor's adjusted probabilities maintain the 50/50 split for Over/Under 2.5, which aligns with the H2H average of 2.2 goals. Matchup convergence shows MODERATE (50%) alignment for Over 2.5, with Cordoba's profile scoring 7/7 suitability outweighing Racing's 0/7. The structural mismatch — Racing's attacking 4-2-3-1 overloading Cordoba's vulnerable midfield — creates conditions for sustained goal threat.\n\n(3) AGENTS CONSENSUS — The Tactician, Quant, and Auditor all support higher goal expectation. The Tactician's 'open and transitional' prediction aligns with the Quant's 10% edge. The Auditor specifically recommends Over 2.5 as the only market where 'mathematical and qualitative signals converge without contradiction'. The Sceptic's critical challenge focuses on Cordoba's away form assessment, not the goal expectation, and their veto remains PROCEED. The Home Scout's 'attack_strength: 8' rating and Cordoba's defensive weaknesses further support goal involvement.\n\n(4) RISKS — The primary risk is Racing Santander's recent home trend toward tighter matches (two consecutive 1-0 wins). If Cordoba's defensive collapse stabilises or Racing adopts a more conservative approach to protect their lead, the match could underperform goal expectations. Additionally, the market divergence on the result (48% implied home win vs 76% baseline) suggests underlying factors not captured in our analysis that could affect attacking intensity.",
+    "key_factors": [
+      "Cordoba's away matches have seen 100% Over 2.5 goals in their last five fixtures",
+      "Racing Santander's home scoring trend is INCREASING with 2.00 goals per match average",
+      "Quant's Poisson analysis shows 10% edge on Over 2.5 Goals market",
+      "Tactician predicts 'open and transitional' match character with 'more goals than average'"
+    ],
+    "risk_factors": [
+      "Racing Santander's recent home matches show tighter results (1-0, 1-0)",
+      "Significant market divergence on result suggests unknown factors affecting confidence"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75",
+        "confidence": 58
+      },
+      {
+        "market": "BTTS Yes",
+        "prediction": "Both Teams to Score",
+        "confidence": 57
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 10.0,
+      "edge_source": "Quant probability minus market implied probability",
+      "edge_grade": "VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Home +0.75",
+          "edge": 11.2
+        },
+        {
+          "market": "AH Home +0.5",
+          "edge": 10.9
+        },
+        {
+          "market": "Over 2.5 Goals",
+          "edge": 10.0
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Quant, and Auditor align on higher goal expectation, with the Tactician predicting 'open and transitional' play and the Quant showing 10% edge on Over 2.5. The Sceptic challenges data quality but doesn't veto the goal direction. The Home Scout's attack strength rating and Cordoba's defensive profile support this. The Archivist notes moderate-scoring H2H history (2.2 average). The main dissent comes from Racing's recent home trend toward tighter matches, creating moderate rather than strong consensus.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.86,
+    "max_edge": 38.6
+  },
+  "display_texts": {
+    "home_position": "#1 (53 pts, +20 GD)",
+    "away_position": "#10 (41 pts, +1 GD)",
+    "home_form": "16W-5D-7L in 28 matches, last 5: WWWWL",
+    "away_form": "11W-8D-9L in 28 matches, last 5: LLDWL",
+    "home_stats": "56 goals in 28 matches (avg 2.0/match), 7 clean sheets",
+    "away_stats": "38 goals in 28 matches (avg 1.4/match), 7 clean sheets",
+    "h2h_history": "Racing Santander 0-0 Cordoba (08 Mar 2026)\nCordoba 2-2 Racing Santander (21 Sep 2025)\nCordoba 1-2 Racing Santander (25 Jan 2025)\nRacing Santander 2-0 Cordoba (23 Oct 2024)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Racing Santander | Probabilities: 45%-45%-10% | Recommendation: Double chance : Racing Santander or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "4:3",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Racing Santander vs Cordoba: The Goal Storm That Never Was",
+    "thumbnail_text": "NO VALUE HERE",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a league leader's fortress meets a defence in freefall? The numbers scream goals — a perfect statistical storm. But sometimes, the market sees what the data cannot. Tonight at El Sardinero, the story is not about what will happen, but why we cannot trust it.",
+    "chapter_home": "Racing Santander sit atop the Segunda División with genuine title momentum, built upon a formidable home record. They have scored in every single match at El Sardinero this season, averaging over two goals per game. Their recent 3-1 demolition of second-placed Castellón showcased their championship credentials. Manager José Alberto returns to the bench after vascular surgery, though this brings potential for tactical communication delays. The squad is at full strength, with no key injuries reported, supporting tactical flexibility. Their 4-2-3-1 setup creates consistent threat across all phases, with a slight scoring peak in the 61-75 minute window. However, recent home matches show a shift towards tighter, more defensively-oriented 1-0 victories, hinting at a pragmatic approach to protect their lead. Their morale is high, but the pressure to maintain their position at the summit is immense.",
+    "chapter_away": "Cordoba arrive in a state of flux. Positioned comfortably in mid-table with little tangible pressure, their recent form is sharply declining with three consecutive losses. Their defence has collapsed, shipping seven goals in their last two away trips alone. Off-field turmoil from a stadium incident involving a Nazi salute has triggered LaLiga protocol and potential sanctions, creating a significant distraction this squad does not need. Their tactical 4-3-3 offers width, but their defensive vulnerabilities are glaring, particularly in the 16-30 minute period where they have conceded ten goals. Their one redeeming feature is a respectable away scoring record, having failed to score in only two of fourteen road matches. Their recent away fixtures tell a chaotic story: one hundred percent have seen Over 2.5 goals, averaging 3.4 total goals per match. This is a team capable of scoring but seemingly incapable of stopping anyone.",
+    "chapter_history": "Recent history firmly favours the league leaders. Racing Santander are unbeaten in the last four meetings against Cordoba, taking seven points from the available nine. The encounters have been moderately high-scoring, averaging 2.2 goals, with both teams scoring in three of those four matches. The most dramatic moment came in their last meeting — a 2-2 draw in September where Cordoba staged a dramatic late comeback with two goals in the final seventeen minutes, including a ninetieth-minute equaliser after Racing had led 2-0. This pattern suggests Racing's dominance but also Cordoba's latent capacity for a fightback, especially when trailing. The historical narrative sets the stage for a home advantage, yet the visitors have shown they possess the spirit to disrupt it.",
+    "chapter_analysis": "The tactical and statistical convergence points squarely towards goals. Racing Santander's attacking 4-2-3-1 naturally overloads Cordoba's vulnerable three-man midfield. The Tactician predicts an 'open and transitional' match character with 'more goals than average'. The Quant's Poisson analysis identifies a ten percent edge on the Over 2.5 goals market, with a fifty percent probability versus a forty percent market-implied chance. Cordoba's last five away matches have all seen Over 2.5 goals. However, this clear directional signal is undermined by critical uncertainties. The Sceptic delivered a devastating critique, highlighting a fundamental contradiction in the assessment of Cordoba's away form within the scout reports. More importantly, there is a massive divergence between our mathematical baseline — which gives Racing a seventy-six percent chance of winning — and the market's implied probability of just forty-eight percent. This suggests the bookmakers are pricing in substantial risk that our data has not captured, possibly related to the manager's return from surgery or the true value of Cordoba's chaotic away record. While the path to goals is evident, the confidence to walk it is not.",
+    "chapter_value": "Our market: NO BET. The analysis reveals a compelling narrative for goals, with a quantifiable ten percent edge on Over 2.5. Yet, the Boot Room's core mandate is to bet only where conviction is high and data is clean. Here, we face a critical data integrity issue flagged by the Sceptic and a market signal that screams caution. The Auditor's adjusted probabilities show a balanced fifty-fifty split for Over and Under 2.5 goals, reflecting this uncertainty. When the qualitative story and the quantitative edge are contradicted by the market's stark warning and internal data flaws, the only prudent play is to step aside. The odds offered do not compensate for the unresolved risks.",
+    "ending": "The verdict from the Boot Room is a pass. Sometimes the most valuable insight is recognising when the numbers tell a story you cannot fully trust. Racing Santander should win, and goals seem likely — but the market's skepticism and internal contradictions in the data build a wall of uncertainty too high to climb. For tonight, we watch and learn. If you found this deep dive into the value of walking away valuable, subscribe to the AI Boot Room for more clear-eyed football analysis. Boot Room out.",
+    "roundup_summary": "Racing Santander versus Cordoba. The league leaders, sitting first, host a mid-table side in fifteenth. Racing's form is rising with three wins in their last five, while Cordoba's is declining sharply with three consecutive losses. The hosts boast a formidable home record, scoring in every match at El Sardinero, while the visitors' defence is in freefall, conceding seven goals in their last two away trips.\n\nThe head-to-head record shows Racing Santander's dominance, unbeaten in the last four meetings. The last encounter ended 2-2 in September 2025, with Cordoba scoring a late equaliser. The four most recent meetings average 2.2 goals, with both teams scoring in seventy-five percent of them. This season, Racing average 2.21 goals scored per home game, while Cordoba concede 1.60 on average away.\n\nThe Boot Room analysis identified a clear directional bias towards goals. The Quant's Poisson model showed a fifty percent probability for Over 2.5 goals, creating a ten percentage point edge over the market's forty percent implied probability. The Tactician predicted an 'open and transitional' match, aligning with this view. However, the Sceptic raised a critical challenge regarding contradictory data on Cordoba's away form, severely undermining the reliability of the defensive assessment. Furthermore, a massive market divergence emerged: our baseline gave Racing a seventy-six percent win probability, but bookmaker odds implied just forty-eight percent. This signal suggests priced-in risks our data missed. The Auditor's adjusted probabilities reflected this uncertainty, showing a balanced fifty-fifty split for Over/Under 2.5 goals.\n\nThe confluence of data integrity issues and a warning market signal means no single line offers a clear, high-conviction value opportunity. Therefore, the Boot Room advises passing on this fixture. Boot Room market: NO BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Perfect Storm",
+        "voiceover": "A league leader's fortress. A defence in total freefall. Every statistic screams a goal storm is coming to El Sardinero. But the market is whispering a warning — and in football, sometimes the loudest story is the one you should not believe.",
+        "graphic_type": "conflict",
+        "graphic_description": "A dramatic, stormy visual split down the middle. One side shows Racing Santander's crest glowing over a full stadium. The other shows Cordoba's crest cracking, with defensive stats shattering like glass.",
+        "graphic_text_overlay": "STATS VS MARKET"
+      },
+      {
+        "scene": 2,
+        "name": "The Fortress",
+        "voiceover": "Racing Santander are not just top — they are relentless at home. They have scored in every single match here this season. Their 4-2-3-1 formation creates constant overloads, and with a full squad available, their attack is primed. But their last two home wins were just 1-0. A hint of pragmatism has crept in.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dynamic graphic focusing on Racing Santander. Their crest is prominent, surrounded by key stats: '1st Place', 'Goals in 14/14 Home Games', and a formation graphic of 4-2-3-1.",
+        "graphic_text_overlay": "UNBEATABLE AT HOME"
+      },
+      {
+        "scene": 3,
+        "name": "The Collapse",
+        "voiceover": "Cordoba are in disarray. Three straight losses. Their defence has conceded seven goals in two away games. Off-field turmoil adds distraction. Yet, their away matches are pure chaos — the last five all saw Over 2.5 goals. They can score, but they cannot stop a thing.",
+        "graphic_type": "away_card",
+        "graphic_description": "A graphic for Cordoba showing a downward trend line. Key stats flash: '3 Consecutive Losses', '7 Goals Conceded in 2 Away Games', '100% Over 2.5 Goals Last 5 Away'.",
+        "graphic_text_overlay": "DEFENCE IN FREEFALL"
+      },
+      {
+        "scene": 4,
+        "name": "The Contradiction",
+        "voiceover": "The Tactician predicts an open, high-scoring game. The Quant's model shows a ten percent edge for Over 2.5 goals. The data aligns perfectly. But our Sceptic found a critical flaw — contradictory reports on Cordoba's true away form. And the market sees a different fight, pricing Racing's win chance at half our estimate.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A split-screen analysis. One side shows the Tactician's 'Open & Transitional' tag and the Quant's '10% Edge' stat. The other side shows a large red 'X' over a scout report and a market odds graphic showing a huge probability gap.",
+        "graphic_text_overlay": "DATA VS REALITY"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict",
+        "voiceover": "When the story is this compelling but the foundations are this cracked, there is only one intelligent move. Our market: NO BET. The edge on paper is negated by uncertainty in the data and a market screaming caution. Sometimes, the best bet is the one you do not make. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final graphic. The words 'NO BET' are displayed prominently in the centre. Below, smaller text reads: 'Edge: 10% | Market Warning: High | Confidence: 0%'.",
+        "graphic_text_overlay": "NO VALUE"
+      }
+    ]
+  }
+}

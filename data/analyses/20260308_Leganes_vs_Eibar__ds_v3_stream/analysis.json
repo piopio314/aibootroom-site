@@ -1,0 +1,173 @@
+{
+  "key": "20260308_Leganes_vs_Eibar__ds_v3_stream",
+  "match": {
+    "home_team": "Leganes",
+    "away_team": "Eibar",
+    "league": "Segunda División",
+    "date": "2026-03-08",
+    "home_id": 537,
+    "away_id": 545
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 43.5,
+    "score_draw": 33.3,
+    "score_away": 23.2,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The cascading profiles show STRONG convergence (64%) for Under 2.5 Goals, with Leganes's home defensive record (0.40 GA/m last five, 60% clean sheet rate) clashing with Eibar's away attack (0.25 GF/m last five, 0% Over 2.5 rate). The Tactician's analysis confirms a 'tight, low-event match' with both teams deploying structured, defensively-oriented formations. (2) DIRECTION EVIDENCE — The mathematical evidence is overwhelming. The Quant's Poisson model shows a 15.7pp edge on Under 2.5 Goals (64% vs 48.3% market implied). The EdgeCalculator identifies Under 1.75 Goals with a 35.2% edge — the highest of any market — supported by an 79.3% internal probability. The λ sum (home + away goal expectancy) is exceptionally low, anchored by Eibar's 0.25 away goals per match. (3) AGENTS CONSENSUS — The direction is strongly aligned: The Quant flags Under 2.5 as a top value bet; The Tactician predicts 'fewer goals than average'; The Archivist notes a historical average of 1.7 goals and two consecutive 0-0 draws; The Auditor recommends Under 1.75 as the strongest value opportunity; The Sceptic's 'surprise scenario' is a narrow 1-0. The only dissent is the Away Scout's flawed 'rising' form assessment, which The Sceptic critically challenged. (4) RISKS — The primary risk is a single early goal altering the match dynamic, though both teams' profiles suggest they lack the attacking potency to force a high-scoring game. The unknown injury status of key players introduces minor execution risk, but squad depth figures suggest adequate cover. The psychological impact of Leganes's recently suspended match remains an unquantified variable.",
+    "key_factors": [
+      "STRONG 64% profile convergence for Under 2.5 Goals from both teams' cascading form data",
+      "Eibar's catastrophic away scoring record: 0 wins, 0.25 GF/m last five, 0% Over 2.5 rate",
+      "Leganes's formidable home defence: 0.40 GA/m, 60% clean sheet rate last five home matches",
+      "Historical H2H pattern: average 1.7 goals, two consecutive 0-0 draws, 40% draw rate"
+    ],
+    "risk_factors": [
+      "A single early goal could shift match tempo, though both teams lack attacking consistency to sustain a high-scoring game",
+      "Unknown starting XIs and potential late tactical changes if either manager abandons caution"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Draw",
+        "prediction": "Draw",
+        "confidence": 58
+      },
+      {
+        "market": "AH Home 0.0",
+        "prediction": "Leganes 0.0",
+        "confidence": 53
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 35.2,
+      "edge_source": "EdgeCalculator our_prob (79.3%) vs market implied probability (44.1%) from odds 2.27",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 1.75 Goals",
+          "edge": 35.2
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 27.5
+        },
+        {
+          "market": "AH Home -1.25",
+          "edge": 19.8
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "Strong consensus on under_goals direction: The Quant, Tactician, Archivist, Auditor, and Sceptic all provide evidence supporting a low-scoring match. The only significant dissent is the Away Scout's flawed 'rising' form assessment, which was critically challenged by The Sceptic and contradicted by the cascading away profile data.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 35.2
+  },
+  "display_texts": {
+    "home_position": "#16 (34 pts, +1 GD)",
+    "away_position": "#11 (38 pts, +1 GD)",
+    "home_form": "8W-10D-10L in 28 matches, last 5: DDDDW",
+    "away_form": "10W-8D-10L in 28 matches, last 5: DWLWL",
+    "home_stats": "29 goals in 28 matches (avg 1.0/match), 10 clean sheets",
+    "away_stats": "31 goals in 28 matches (avg 1.1/match), 9 clean sheets",
+    "h2h_history": "Leganes 0-0 Eibar (08 Mar 2026)\nEibar 0-0 Leganes (25 Oct 2025)\nLeganes 0-2 Eibar (03 Mar 2024)\nEibar 0-1 Leganes (03 Sep 2023)\nEibar 0-0 Leganes (28 Jan 2023)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Leganes | Probabilities: 35%-35%-30% | Recommendation: Combo Double chance : Leganes or draw and -3.5 goals",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "0:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Leganes vs Eibar: The Fortress vs The Road Ghosts",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when an impenetrable home defence meets a team that cannot score on the road? Leganes have conceded just two goals in their last five home matches. Eibar have failed to win in thirteen away attempts this season. This is a statistical collision that should create betting value — but the bookmakers have already priced it perfectly.",
+    "chapter_home": "Leganes arrive with a paradox. Their home form shows remarkable defensive resilience — just 0.40 goals conceded per match over their last five at the Estadio Municipal de Butarque, with clean sheets in 60% of those games. Yet their overall results lack conviction, with just one win in their last five matches across all venues. Manager Asier Garitano typically deploys a compact 4-4-2 that prioritises defensive structure over attacking flair. Their squad depth of 34 registered players suggests adequate cover, though the psychological impact of their recently suspended match against Sporting Gijon remains an unquantified variable. The narrative here is one of a fortress built on sand — solid at the back but struggling to translate that security into three points.",
+    "chapter_away": "Eibar present a tale of two forms. Their overall momentum appears positive with three wins in their last five matches, but this masks a catastrophic away record. They are yet to win on the road this season — zero victories from thirteen attempts — and their attack has been virtually non-existent, scoring just 0.25 goals per game in their last five away matches. Manager Joseba Etxeberria favours a 4-2-3-1 setup that becomes cautious and draw-prone when travelling. While their defensive numbers away are respectable at 0.75 goals conceded per match, their chronic inability to score creates a fundamental problem. The central tension is whether their improved home momentum can finally breach a fortress they have consistently failed to conquer.",
+    "chapter_history": "The historical pattern between these sides reinforces the low-scoring narrative. Across ten meetings, there is no dominant side — Leganes have won 30%, Eibar just 20%, with a significant 40% ending level. The average goals per match stands at just 1.7, with only 30% of games seeing over 2.5 goals. Most tellingly, the last two meetings have finished 0-0 — consecutive stalemates that highlight the cagey, risk-averse nature of this fixture. This history creates a psychological backdrop where both sides may approach the match tentatively, fearing the first mistake that could break the pattern.",
+    "chapter_analysis": "The tactical matchup reveals why goals should be scarce. Leganes's compact 4-4-2 provides a solid defensive block that matches up well against Eibar's 4-2-3-1. The home side will likely dominate possession, but their slow build-up and lack of attacking potency play directly into Eibar's preferred away strategy of sitting in a mid-block and looking to counter. The Sceptic critically challenged the Away Scout's assessment of Eibar's 'rising' form, highlighting how their overall results mask a historically awful and currently stagnant away attack. This challenge was validated by the cascading data showing Eibar's away momentum as 'stable' at a very poor level. The Tactician's analysis predicts a 'tight, low-event match' with both teams deploying structured, defensively-oriented formations. The mathematical evidence is overwhelming — the Quant's Poisson model shows a 15.7 percentage point edge on Under 2.5 Goals, while the EdgeCalculator identifies Under 1.75 Goals with a 35.2% edge, the highest of any market.",
+    "chapter_value": "Our market: NO BET. The Boot Room's analysis confirms a strong directional consensus toward a low-scoring match, with 64% profile convergence for Under 2.5 Goals and an internal probability of 79.3% for Under 1.75 Goals. However, the bookmakers have priced this reality into the market with remarkable efficiency. While the mathematical edge exists on paper, no available line meets our strict qualifying criteria of conviction equalling strong with odds at 1.70 or greater. The value has been extracted before we could reach it. Sometimes the smartest play is recognising when the market has already adjusted.",
+    "ending": "The Boot Room's verdict is clear: pass on this fixture. The analysis points overwhelmingly toward a low-scoring stalemate between Leganes's home defensive fortress and Eibar's chronic away-day impotence. Yet the bookmakers have priced this narrative perfectly, leaving no qualifying value opportunity. Confidence in any market recommendation stands at 0%. In betting, discipline means knowing when to walk away. Boot Room out.",
+    "roundup_summary": "Leganes versus Eibar. Sixteenth hosts eleventh in the Segunda División, with just four points separating the sides. Leganes arrive with poor overall form — just one win in their last five — but an excellent home defensive record of 0.40 goals conceded per match over their last five at Butarque. Eibar show positive momentum with three wins in five, but this masks a catastrophic away record: zero wins in thirteen attempts, scoring just 0.25 goals per game in their last five road trips.\n\nThe historical head-to-head record reveals a cagey, low-scoring fixture. Across ten meetings, the average goals per match is just 1.7, with a significant 40% ending level. The last two encounters finished 0-0, extending a pattern of stalemates. This season, Leganes have failed to score in 38% of home matches, while Eibar have failed to score in seven of thirteen away games.\n\nThe Boot Room's analysis identified overwhelming evidence for a low-scoring match. The Poisson model showed a 15.7 percentage point edge on Under 2.5 Goals, with team profile convergence at 64%. The EdgeCalculator identified Under 1.75 Goals with a 35.2% edge — the highest of any market — supported by an internal probability of 79.3%. The λ sum of home and away goal expectancy was exceptionally low, anchored by Eibar's 0.25 away goals per match. The Sceptic critically challenged the Away Scout's 'rising' form assessment, highlighting how it masked Eibar's historically awful away attack. The bookmakers have significantly underpriced the likelihood of a low-scoring match relative to the mathematical evidence, but no qualifying line met our strict criteria.\n\nThe Boot Room market is NO BET. While the directional analysis strongly favours under goals, no available market offers sufficient mathematical edge to qualify for a recommendation. The bookmakers have priced the low-scoring narrative efficiently, leaving no value opportunity that meets our conviction and odds thresholds. Boot Room market: NO BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Statistical Collision",
+        "voiceover": "What happens when an impenetrable home defence meets a team that cannot score on the road? Leganes have conceded just two goals in their last five home matches. Eibar have failed to win in thirteen away attempts this season. This is a statistical collision that should create betting value — but the bookmakers have already priced it perfectly.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual: left side shows Leganes's defensive wall with clean sheet statistics; right side shows Eibar's empty away goals tally with a zero wins graphic.",
+        "graphic_text_overlay": "FORTRESS VS GHOSTS"
+      },
+      {
+        "scene": 2,
+        "name": "Leganes: The Paradox",
+        "voiceover": "Leganes present a paradox. Their home form shows remarkable defensive resilience — just 0.40 goals conceded per match, with clean sheets in 60% of their last five at Butarque. Yet they've won just once in their last five matches overall. Manager Asier Garitano's compact 4-4-2 creates a fortress, but one built on sand — solid at the back but struggling to translate that security into victories.",
+        "graphic_type": "home_card",
+        "graphic_description": "Leganes players in defensive formation with key stats overlaid: 0.40 GA/m last 5 home, 60% clean sheet rate, 1 win in last 5 overall.",
+        "graphic_text_overlay": "THE PARADOX"
+      },
+      {
+        "scene": 3,
+        "name": "Eibar: The Away Sickness",
+        "voiceover": "Eibar's story is one of two forms. Overall momentum appears positive with three wins in five, but this masks a catastrophic away record. Zero wins in thirteen attempts. Just 0.25 goals scored per game in their last five road trips. Their 4-2-3-1 becomes cautious and draw-prone when travelling — a chronic away sickness that undermines their entire season.",
+        "graphic_type": "away_card",
+        "graphic_description": "Eibar players looking dejected during an away match with stark statistics: 0 wins in 13 away, 0.25 GF/m last 5 away, 0% Over 2.5 rate.",
+        "graphic_text_overlay": "AWAY SICKNESS"
+      },
+      {
+        "scene": 4,
+        "name": "The Historical Pattern",
+        "voiceover": "History reinforces the low-scoring narrative. Across ten meetings, 40% have ended level with an average of just 1.7 goals per match. Most tellingly — the last two meetings finished 0-0. Consecutive stalemates that create a psychological backdrop where both sides approach tentatively, fearing the first mistake that could break the pattern.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "Timeline of recent Leganes vs Eibar matches showing two consecutive 0-0 draws, with overall statistics: 40% draw rate, 1.7 avg goals.",
+        "graphic_text_overlay": "TWO 0-0 DRAWS"
+      },
+      {
+        "scene": 5,
+        "name": "The Mathematical Reality",
+        "voiceover": "The numbers are overwhelming. The Poisson model shows a 15.7 percentage point edge on Under 2.5 Goals. The EdgeCalculator identifies Under 1.75 Goals with a 35.2% edge — the highest of any market. Team profile convergence hits 64% for low scoring. The Sceptic validated this, challenging Eibar's 'rising' form as masking their awful away attack. The evidence is clear — this should be a low-event stalemate.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Multiple statistical overlays showing: 64% profile convergence for Under 2.5, 35.2% edge on Under 1.75, 15.7pp Poisson gap.",
+        "graphic_text_overlay": "OVERWHELMING EVIDENCE"
+      },
+      {
+        "scene": 6,
+        "name": "The Market Truth",
+        "voiceover": "Our market: NO BET. The analysis confirms a strong directional consensus toward a low-scoring match. But the bookmakers have priced this reality with remarkable efficiency. No available line meets our strict qualifying criteria. The value has been extracted before we could reach it. Sometimes the smartest play is recognising when the market has already adjusted. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold text on dark background: NO BET at 0% confidence. Below: 'Market priced efficiently. No qualifying value.'",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

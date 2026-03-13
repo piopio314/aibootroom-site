@@ -1,0 +1,164 @@
+{
+  "key": "20260307_Auxerre_vs_Strasbourg__ds_v3_stream",
+  "match": {
+    "home_team": "Auxerre",
+    "away_team": "Strasbourg",
+    "league": "Ligue 1",
+    "date": "2026-03-07",
+    "home_id": 108,
+    "away_id": 95
+  },
+  "prediction": {
+    "direction": "null",
+    "direction_conviction": "weak",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — No directional consensus from Boot Room",
+    "confidence": 0,
+    "confidence_gate": "REJECT",
+    "odds_target": 0,
+    "score_home": 20.0,
+    "score_draw": 45.0,
+    "score_away": 35.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE with strong EVEN characteristics. The cascading profiles show a 90% convergence on Draw, with both teams scoring under 1.6 goals per match in recent form. Auxerre's home scoring drought (failed to score in six of twelve) meets Strasbourg's away defensive fragility (one clean sheet in twelve). The Tactician's 'tight and tactical' prediction and the H2H average of 1.9 goals confirm a low-scoring, cagey affair. (2) DIRECTION EVIDENCE — The mathematical evidence is fundamentally split. The EdgeCalculator shows strong value on Over markets (Over 3.25 Goals at 16.0% edge), but this directly contradicts every qualitative signal. The Auditor flags this as a DIRECTION CONFLICT between the Poisson model and tactical/historical data, rendering all goal-total markets unplayable. For result markets, the cascading profiles show 0/5 win suitability for both teams, strongly supporting a draw, but the Asian Handicap analysis reveals no edge exceeding 5%. (3) AGENTS CONSENSUS — The Sceptic, Tactician, and cascading profiles all converge on a Draw as the most likely outcome. The Home Scout highlights Auxerre's defensive solidity and inability to score, while the Away Scout notes Strasbourg's draw-prone away form. However, the Quant's analysis finds no mathematical edge on Asian Handicap lines, and the EdgeCalculator's Over value is contradicted by qualitative analysis. The Auditor's adjusted probabilities (Draw 45%) reflect this consensus but lack supporting market value. (4) RISKS — The primary risk is the statistical direction conflict in goals markets, which creates maximum uncertainty. Auxerre's seven injuries could finally break their defensive resolve, while Strasbourg's fixture congestion (four matches in fourteen days) might lead to unexpected rotation or fatigue collapse. The market's efficient pricing on Asian Handicap lines leaves no clear mathematical entry point.",
+    "key_factors": [
+      "90% profile convergence on Draw with 0/5 win suitability for both teams",
+      "Auxerre's chronic home scoring drought (0.83 goals/game) and defensive organisation",
+      "Strasbourg's draw-prone away form (60% draw rate in last five away)",
+      "Statistical direction conflict between Poisson model and qualitative analysis on goals markets",
+      "No Asian Handicap edge exceeding 5% threshold according to Quant analysis"
+    ],
+    "risk_factors": [
+      "DIRECTION CONFLICT in goals markets blocks all Over/Under selections",
+      "Auxerre's seven injuries could overwhelm their defensive structure",
+      "Strasbourg's fixture congestion may lead to unpredictable squad rotation"
+    ],
+    "alternative_markets": [],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 0.0,
+      "edge_source": "No market selected — direction conflict and lack of value",
+      "edge_grade": "NO_VALUE",
+      "staking_signal": "PASS",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 16.0
+        },
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 15.6
+        },
+        {
+          "market": "Over 2.25 Goals",
+          "edge": 12.5
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Sceptic, Tactician, and cascading profiles strongly agree on a Draw outcome, supported by both Scouts' observations of defensive organisation and attacking limitations. The Auditor endorses this qualitative consensus with adjusted probabilities. However, the Quant finds no mathematical edge on Asian Handicap lines, and the EdgeCalculator's Over value signals are contradicted by qualitative analysis, creating a fundamental split on market direction.",
+    "_direction_nobet_reason": "direction=null",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 16.0
+  },
+  "display_texts": {
+    "home_position": "#16 (18 pts, -16 GD)",
+    "away_position": "#8 (35 pts, +9 GD)",
+    "home_form": "4W-6D-14L in 24 matches, last 5: WLLLW",
+    "away_form": "10W-5D-9L in 24 matches, last 5: WWLWW",
+    "home_stats": "19 goals in 24 matches (avg 0.8/match), 5 clean sheets",
+    "away_stats": "40 goals in 24 matches (avg 1.7/match), 7 clean sheets",
+    "h2h_history": "Auxerre 0-0 Strasbourg (07 Mar 2026)\nStrasbourg 3-0 Auxerre (29 Oct 2025)\nAuxerre 0-1 Strasbourg (02 Mar 2025)\nStrasbourg 3-1 Auxerre (05 Jan 2025)\nStrasbourg 2-0 Auxerre (19 Mar 2023)",
+    "home_injuries": "N. Buayi-Kiala (Missing Fixture - Knee Injury), L. Coulibaly (Missing Fixture - Injury), T. Devernois (Missing Fixture - Injury), O. El Azzouzi (Missing Fixture - Injury), R. Faivre (Missing Fixture - Injury)",
+    "away_injuries": "A. Anselmino (Missing Fixture - Muscle Injury), E. Emegha (Missing Fixture - Leg Injury), D. Moreira (Missing Fixture - Ankle Injury), J. Mwanga (Missing Fixture - Arm Injury)",
+    "api_predictions": "API-Football prediction: Strasbourg | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Strasbourg",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "0:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Auxerre vs Strasbourg: The Stalemate No One Can Bet On",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a team fighting for survival cannot score, and a team with nothing to play for cannot win? This is the statistical deadlock facing Auxerre and Strasbourg — a match where every signal points to a draw, yet the market offers no way to profit from it. Tonight, we examine a fixture so perfectly balanced, the only smart play is to walk away.",
+    "chapter_home": "Auxerre are entrenched in a desperate relegation battle, but their survival hopes are undermined by a profound attacking crisis. At home, they have failed to score in six of twelve matches, averaging just 0.83 goals per game. Their recent form shows a stubbornness to avoid defeat, with three draws in their last five, but the weight of seven confirmed injuries severely limits tactical flexibility and squad depth. Managerial pressure and fragile morale create a volatile environment, yet their defensive organisation has shown recent resilience with two clean sheets in their last three home games. The critical question is not whether they can win, but whether their defensive resolve can hold once more against a side that has historically dominated them.",
+    "chapter_away": "Strasbourg arrive with mid-table comfort but a narrative of contradiction. Their mathematical baseline suggests a strong away win probability, yet their actual performance tells a different story. They have won just three of twelve away matches this season, conceding nearly two goals per game on the road. Their recent form is draw-prone, with three draws in their last five matches and a 60% draw rate in their last five away fixtures. Compounding this, they face severe fixture congestion — this is their fourth match in fourteen days — raising major fatigue and rotation risks. While they possess superior firepower on paper, their leaky away defence and lack of recent win momentum make them unreliable favourites.",
+    "chapter_history": "History strongly favours Strasbourg in this fixture. They have won the last four consecutive meetings, keeping a clean sheet in three of them. The overall pattern shows Strasbourg winning six of the last ten encounters. However, these meetings have been characteristically low-scoring, with an average of just 1.9 goals per match. Only 30% of historical games have seen over 2.5 goals. The context tonight flips the script: Auxerre's desperate survival fight and significant squad issues collide with Strasbourg's mid-table comfort and recent poor form. While psychological confidence rests with the visitors, motivation overwhelmingly favours the hosts.",
+    "chapter_analysis": "The tactical matchup reveals a classic clash of styles destined for stalemate. Strasbourg's possession-based 4-2-3-1, averaging 64% away possession, will crash against Auxerre's compact 4-4-2 defensive block. The visitors have a natural width advantage, but face a team that has proven stubborn at home. Our analysis shows a 90% convergence on a Draw outcome from cascading form profiles, with both teams showing 0 out of 5 for win suitability. The Sceptic challenged Strasbourg's inflated win probability, noting it contradicts their own draw-prone away form. The Tactician predicts a 'tight and tactical' affair, aligning with the historical low-scoring nature. However, a fundamental conflict emerges: the Poisson model shows strong value on Over goals markets — a 16% edge on Over 3.25 goals — but this directly contradicts every qualitative signal pointing to a cagey, low-scoring match. This direction conflict creates maximum uncertainty.",
+    "chapter_value": "Our market: NO_BET. The Auditor's adjusted probabilities give a 45% chance of a draw, which aligns with the qualitative consensus. However, the Quant's analysis finds no mathematical edge on Asian Handicap lines exceeding our 5% threshold. The market appears efficiently priced for result markets, while the goals markets suffer from an irreconcilable statistical conflict. With no clear mathematical entry point and opposing signals on goal totals, the Boot Room finds no value worth pursuing. Sometimes the smartest bet is recognising when the market has it right.",
+    "ending": "The Boot Room verdict is clear: pass on this fixture. The evidence overwhelmingly points to a draw, but the market offers no profitable angle to exploit it. Between Auxerre's scoring drought and Strasbourg's draw-prone travel sickness, this match screams stalemate — yet that knowledge alone is not enough. When our models conflict and the edge disappears, discipline demands we wait for a clearer opportunity. If you found this analysis valuable, subscribe to The Boot Room for more data-driven match breakdowns. Boot Room out.",
+    "roundup_summary": "Auxerre versus Strasbourg. The hosts sit 16th in Ligue 1 with 18 points, entrenched in a relegation battle. Their last five form reads one win, three draws, and one loss, though they have failed to score in their last three home matches. Strasbourg are comfortably 8th with 35 points, their last five showing one win, three draws, and one loss. Their away form is particularly draw-prone, with three stalemates in their last five on the road. Key absences include seven injured players for Auxerre and four for Strasbourg, including attacker Diego Moreira.\n\nHistorically, Strasbourg dominate this fixture, winning the last four consecutive meetings. The most recent was a 3-0 victory for Strasbourg. The average goals per meeting is just 1.9, with only 30% of historical games exceeding 2.5 goals. This season, Auxerre average 0.83 goals scored and 1.42 conceded per home game. Strasbourg average 1.6 goals scored and 1.83 conceded per away match. The recent trend strongly points towards low-scoring affairs.\n\nThe Boot Room analysis reveals a profound statistical conflict. Poisson modelling suggests strong value on Over markets, with a 16% edge on Over 3.25 goals. However, this directly contradicts every qualitative signal. The Tactician predicts a 'tight and tactical' match, while cascading form profiles show a 90% convergence on a Draw outcome with 0/5 win suitability for both teams. The Sceptic's core concern was Strasbourg's inflated win probability contradicting their draw-prone away form. The Auditor adjusted probabilities to a 45% draw likelihood, but the Quant found no Asian Handicap edge exceeding the 5% threshold. The bookmaker has efficiently priced the result markets, while the goals markets present an unplayable direction conflict between mathematical and tactical evidence.\n\nThe Boot Room finds no value in this fixture. The most likely outcome is a draw, but the market offers no mathematical edge to exploit this view. With conflicting signals on goal totals and efficiently priced handicaps, the prudent decision is to pass. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Statistical Deadlock",
+        "voiceover": "What happens when a team fighting for survival cannot score, and a team with nothing to play for cannot win? Auxerre have failed to net in six of twelve home matches. Strasbourg have won just three of twelve on the road. This is a fixture where every signal points to a stalemate — yet the market offers no clear path to profit.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual: left side shows Auxerre's empty net with a '0' glowing, right side shows Strasbourg's away record with a low win percentage. A large 'DRAW' arrow points between them, conflicting with a 'NO VALUE' stamp overlaid.",
+        "graphic_text_overlay": "STALEMATE OR NO VALUE?"
+      },
+      {
+        "scene": 2,
+        "name": "Auxerre's Scoring Crisis",
+        "voiceover": "Auxerre's relegation fight is undermined by a chronic inability to score at home. Just 0.83 goals per game, with six blanks in twelve matches. Seven injuries ravage their squad depth, but their defensive structure has shown recent resilience — two clean sheets in their last three at home. They are organised, desperate, and utterly goal-shy.",
+        "graphic_type": "home_card",
+        "graphic_description": "Auxerre's crest with a broken goalpost graphic. Stats overlay: 0.83 goals/game at home, 7 injuries, 2 clean sheets in last 3 home games.",
+        "graphic_text_overlay": "DESPERATE & GOAL-SHY"
+      },
+      {
+        "scene": 3,
+        "name": "Strasbourg's Travel Sickness",
+        "voiceover": "Strasbourg's mathematical favouritism is a mirage. They've won only 25% of away matches this season, conceding nearly two goals per game. Their recent form is draw-prone — 60% of their last five away games ended level. Fatigue is a critical factor: this is their fourth match in fourteen days. They have the quality, but not the consistency or the stamina.",
+        "graphic_type": "away_card",
+        "graphic_description": "Strasbourg's crest with a tired player graphic and a calendar showing 4 matches in 14 days. Stats overlay: 25% away win rate, 1.83 goals conceded/away, 60% away draw rate.",
+        "graphic_text_overlay": "FATIGUED & DRAW-PRONE"
+      },
+      {
+        "scene": 4,
+        "name": "History vs. The Present",
+        "voiceover": "History screams Strasbourg dominance — four consecutive wins against Auxerre. But context flips the script. Those wins came under different pressure. Now, Auxerre fight for survival while Strasbourg coast in mid-table. The historical pattern is low-scoring: just 1.9 goals per meeting. Past dominance meets present desperation.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "A timeline showing Strasbourg's four consecutive wins over Auxerre. A contrasting image shows Auxerre's relegation zone position versus Strasbourg's mid-table comfort.",
+        "graphic_text_overlay": "HISTORY VS. DESPERATION"
+      },
+      {
+        "scene": 5,
+        "name": "The Unplayable Conflict",
+        "voiceover": "Here lies the trap. Our quantitative model detects strong value — a 16% edge on Over 3.25 goals. But every qualitative agent disagrees. The Tactician predicts a cagey affair. The Sceptic notes the draw convergence. History shows low scores. This is a fundamental direction conflict between data and narrative. When models fight, certainty vanishes.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A brain split in half: one side glowing with 'POISSON MODEL' and '16% EDGE OVER', the other side with 'TACTICIAN', 'SKEPTIC', 'LOW-SCORING HISTORY' with a large 'X' between them.",
+        "graphic_text_overlay": "MODEL CONFLICT"
+      },
+      {
+        "scene": 6,
+        "name": "The Only Smart Play",
+        "voiceover": "Our market: NO_BET. The Auditor's adjusted probability gives a 45% chance of a draw — the consensus outcome. But the Quant finds no Asian Handicap edge exceeding our threshold. The market is efficiently priced. The goals markets are unplayable due to statistical conflict. Sometimes the best bet is recognising when there is no bet to make. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, bold card with 'NO BET' in large letters. Smaller text: 'Auxerre vs Strasbourg', '0% Confidence', 'Market: Efficiently Priced'.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

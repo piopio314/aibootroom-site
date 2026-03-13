@@ -1,0 +1,167 @@
+{
+  "key": "20260312_Crystal_Palace_vs_AEK_Larnaca__ds_v3_stream",
+  "match": {
+    "home_team": "Crystal Palace",
+    "away_team": "AEK Larnaca",
+    "league": "UEFA Europa Conference League",
+    "date": "2026-03-12",
+    "home_id": 52,
+    "away_id": 614
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 65.0,
+    "score_draw": 25.0,
+    "score_away": 10.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician explicitly predicts a 'tight' match, citing AEK Larnaca's low-block system designed for low-scoring contests. This is corroborated by the cascading form profiles showing moderate convergence (50%) on Under 2.5 Goals, with AEK's profile rating 6/7 for unders and Palace's home matches averaging only 3.0 total goals. The historical baseline is extreme: three prior meetings averaged 0.3 goals with no match exceeding 2.5 goals. (2) DIRECTION EVIDENCE — The mathematical case is overwhelming. The EdgeCalculator identifies a 55.8% edge on Under 2.25 Goals, the strongest value signal across all markets. The Auditor validates this edge as credible, supported by tactical setup, historical meetings, and defensive records. Poisson λ values (not explicitly provided but inferred from low goal averages) and the Auditor's adjusted probabilities (Under 2.5 at 75%) anchor the under judgement. (3) AGENTS CONSENSUS — Multiple independent agents align: The Tactician (match character: tight), The Archivist (historical goals pattern: extremely low-scoring), The Auditor (recommends Under 2.25 Goals), and the EdgeCalculator (strongest edge on unders). The Sceptic dissents with a NO_BET verdict due to data paucity and market contradictions, but their surprise scenario is a 0-0 draw, which aligns with the under thesis. The net signal is a clear under_goals direction. (4) RISKS — The Sceptic's CRITICAL challenge on AEK's thin data sample (1 match) and the rotation risk cap (confidence ≤55%) due to European fixture congestion introduce uncertainty. A new manager debut for AEK could disrupt their defensive organisation, while Palace's need for a result might force a more open game than anticipated. However, the statistical edge and multi-agent alignment on a defensive match character override these qualitative concerns for a speculative position.",
+    "key_factors": [
+      "AEK Larnaca's exceptional defensive record: 5 clean sheets in 6 matches",
+      "Historical H2H pattern: 3 meetings, 0.3 goals per match, no Over 2.5 results",
+      "Tactical setup: AEK's low-block vs Palace's possession-based 3-4-3 favours a tight contest",
+      "EdgeCalculator identifies 55.8% edge on Under 2.25 Goals, the market's strongest value signal"
+    ],
+    "risk_factors": [
+      "Sceptic's NO_BET veto due to critical data paucity for AEK Larnaca (1-match sample)",
+      "Rotation risk cap: European fixture congestion limits confidence to 55% maximum",
+      "New manager debut for AEK Larnaca introduces tactical uncertainty"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.75 Goals",
+        "prediction": "Under 2.75",
+        "confidence": 49
+      },
+      {
+        "market": "AH Away +1.25",
+        "prediction": "AEK Larnaca +1.25",
+        "confidence": 42
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 55.8,
+      "edge_source": "EdgeCalculator our_prob (92.7%) vs market_odds (2.71)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 55.8
+        },
+        {
+          "market": "Under 2.75 Goals",
+          "edge": 49.0
+        },
+        {
+          "market": "AH Away +1.25",
+          "edge": 42.2
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Archivist, Auditor, and EdgeCalculator strongly align on an under_goals direction, citing defensive structure, historical low-scoring, and mathematical edge. The Sceptic dissents with a NO_BET verdict due to data quality concerns, while the Quant shows no value bets but perfect market alignment. The Home Scout's assessment of Palace's attacking capability is contradicted by the broader defensive evidence.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 4.86,
+    "max_edge": 55.8
+  },
+  "display_texts": {
+    "home_position": "#10 (10 pts, +5 GD)",
+    "away_position": "#8 (12 pts, +6 GD)",
+    "home_form": "5W-3D-2L in 10 matches, last 5: WDWLW",
+    "away_form": "3W-3D-0L in 6 matches, last 5: WWDDD",
+    "home_stats": "15 goals in 10 matches (avg 1.5/match), 5 clean sheets",
+    "away_stats": "7 goals in 6 matches (avg 1.2/match), 5 clean sheets",
+    "h2h_history": "AEK Larnaca 0-0 Crystal Palace (19 Mar 2026)\nCrystal Palace 0-0 AEK Larnaca (12 Mar 2026)\nCrystal Palace 0-1 AEK Larnaca (23 Oct 2025)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: AEK Larnaca | Probabilities: 10%-45%-45% | Recommendation: Combo Double chance : draw or AEK Larnaca and -3.5 goals",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "0:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Why Palace vs AEK Larnaca Is A NO BET For The Boot Room",
+    "thumbnail_text": "NO BET ALERT",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when the numbers scream value, but the data whispers caution? Crystal Palace have never scored against AEK Larnaca in three attempts. Not a single goal. Yet tonight, the market sees a comfortable home win. The Boot Room sees a trap. This is the story of a mathematical edge so strong it should be a bet, and the critical flaws that force us to walk away.",
+    "chapter_home": "Crystal Palace arrive at Selhurst Park with momentum from a convincing 3-1 Premier League victory over Tottenham. Their form is stable, built on a foundation of defensive solidity that has seen them keep five clean sheets in ten matches. At home, they concede just 0.8 goals per game, operating primarily in a 3-4-3 formation designed to stretch opponents. Their key scoring period is the 31-45 minute window, where they have netted six of their fifteen goals this season. However, their recent form is built against modest opposition, and they remain draw-prone, with three draws in their last five matches across all venues. Squad depth is adequate with 31 registered players, but high fixture congestion—a Premier League match in three days and a European return leg in seven—raises significant rotation risk. Their morale is high, but the pressure is low, creating a potential intensity gap in this European fixture.",
+    "chapter_away": "AEK Larnaca travel to London with a narrative built on defensive defiance. Their tactical identity is a low-block 4-2-3-1 system, engineered to produce tight, low-scoring contests. The evidence is stark: five clean sheets in their last six matches and an unbeaten away record this season, albeit from a small sample. They average a meagre 0.67 goals per match on the road, prioritising structure over adventure. Yet, a critical shadow hangs over their preparation: new manager Javi Rozada takes charge for his very first match immediately before this European tie. This introduces profound tactical uncertainty. While their squad of 32 suggests depth, the core of their challenge is data paucity—their recent form assessment is based on a dangerously thin one-match sample, making their proclaimed defensive stability difficult to verify.",
+    "chapter_history": "The historical record between these sides is brief but definitive. In three prior meetings, Crystal Palace have failed to score a single goal against AEK Larnaca. The matches have averaged a microscopic 0.3 goals, with none exceeding 2.5 goals. AEK Larnaca even secured a 1-0 away win at Selhurst Park in their first encounter. This pattern paints a clear picture: AEK Larnaca have Crystal Palace's number. However, all meetings are over a year old, from the 2025/26 season, making this a fresh tactical slate. The psychological hurdle for Palace is real, but the historical data quality is low, offering a blueprint for the visitors rather than a prophecy.",
+    "chapter_analysis": "The tactical matchup is a classic clash of styles: Palace's progressive 3-4-3 against AEK's disciplined low-block. The Tactician predicts a tight match, a verdict supported by AEK's profile showing Under 2.5 goals in five of six games. The EdgeCalculator identifies a colossal 55.8% mathematical edge on Under 2.25 Goals—the strongest value signal across all markets. This is corroborated by historical low-scoring and AEK's exceptional defensive record. However, The Sceptic launches a critical challenge. The analysis of AEK Larnaca is built on a one-match sample, a foundation too thin for conviction. Furthermore, there is an extreme, unresolved divergence: the market prices a Palace win at 81-85%, the Home Scout assesses it at 55%, and the mathematical baseline sits at just 33%. This contradiction suggests potential information asymmetry the Boot Room cannot ignore. While the under direction is overwhelming, the data uncertainty and new manager variable for AEK cap any workable confidence.",
+    "chapter_value": "Our market: NO_BET. The mathematical case for Under 2.25 Goals is compelling, with a 55.8% edge at odds of 2.71. The Auditor validates this as credible, supported by tactical and historical evidence. However, The Sceptic's veto on data quality is decisive. When critical intelligence is based on a single match and the market presents fundamental, unexplained pricing contradictions, the only prudent position is to pass. The Boot Room's confidence in any single market line is 0%. Sometimes, the clearest edge is the one you choose not to take.",
+    "ending": "The Boot Room verdict is clear: walk away. The under direction is strong, but the data gaps are too wide and the market signals too conflicted to justify a stake. In European football, discipline is not just a tactical concept—it's a betting principle. When the picture is blurred, preservation of capital is the smartest play. For razor-sharp match analysis that tells you when to bet and, just as importantly, when not to, subscribe to AI Boot Room. Boot Room out.",
+    "roundup_summary": "Crystal Palace versus AEK Larnaca in the UEFA Europa Conference League presents a fascinating analytical puzzle. Palace are stable, with a 60% home win rate built on defensive solidity, conceding only 0.8 goals per match at Selhurst Park. Their last five matches show a draw-heavy trend. AEK Larnaca travel with a formidable defensive record—five clean sheets in six—but their attack is blunt, averaging 0.67 goals away. A new manager takes charge for his debut, adding uncertainty.\n\nThe head-to-head history is stark but limited. In three meetings, Crystal Palace have failed to score against AEK Larnaca, with matches averaging just 0.3 goals and none exceeding 2.5 goals. AEK won the first encounter 1-0 at Selhurst Park. This season, Palace's home matches average 3.0 total goals, while AEK's low-block system sees 83% of their games finish Under 2.5 Goals, creating a clear historical and stylistic trend for a low-scoring affair.\n\nThe Boot Room analysis identifies a powerful mathematical edge of 55.8% on Under 2.25 Goals, with the EdgeCalculator giving it a 92.7% probability against market odds of 2.71. The Auditor validates this edge as credible, supported by the tactical matchup and historical baseline. However, The Sceptic raises a critical, unanswerable concern: AEK Larnaca's form assessment is based on a one-match sample, making their defensive stability unverifiable. Furthermore, a major contradiction exists between the market's implied 81-85% home win probability, the scout's 55% assessment, and the Poisson baseline of 33%. This unresolved divergence and critical data paucity mean the bookmaker's pricing, while efficient on result markets, cannot be confidently challenged despite the apparent goals market value.\n\nThe Boot Room finds no market that qualifies under its strict conviction filters. The under direction is confirmed, but the required confidence threshold cannot be met due to foundational data gaps. The verdict is to pass on this fixture. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "Crystal Palace host AEK Larnaca in the UEFA Europa Conference League. Palace are stable defensively but draw-prone, while AEK Larnaca travel with a new manager and a reputation for defensive, low-scoring football. The historical record is definitive: in three meetings, Palace have never scored against AEK, with matches averaging just 0.3 goals. The Boot Room's models detect a massive 55.8% edge on Under 2.25 Goals. However, critical data paucity for the away team and unresolved market contradictions create too much uncertainty. The Boot Room lands on NO_BET at odds of 0, with 0% confidence. When the data is thin, discipline is the only play. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Unbreakable Code",
+        "voiceover": "Three meetings. Zero goals for Crystal Palace against AEK Larnaca. It is a statistical anomaly that defines this fixture. Yet tonight, the bookmakers see a routine home victory. But the Boot Room sees a different story—one of defensive walls, thin data, and a mathematical edge so large it should be irresistible. But is it?",
+        "graphic_type": "conflict",
+        "graphic_description": "A stark visual split: on one side, a '0' next to Crystal Palace's crest; on the other, glowing odds for a home win. A large '55.8%' figure pulses in the centre.",
+        "graphic_text_overlay": "0 GOALS IN 3 GAMES"
+      },
+      {
+        "scene": 2,
+        "name": "The Disciplined Visitors",
+        "voiceover": "AEK Larnaca's blueprint is no secret. A deep, organised low-block that has produced five clean sheets in six matches. They are unbeaten on the road this season. But their entire recent profile is built on just one match of data. And tonight, a new manager makes his debut. Their strength is also their greatest uncertainty.",
+        "graphic_type": "away_card",
+        "graphic_description": "A tactical diagram showing a compact 4-2-3-1 low-block formation. The text '5 CLEAN SHEETS / 6' is prominent. A small, cautionary 'NEW MANAGER' tag flashes.",
+        "graphic_text_overlay": "LOW-BLOCK SPECIALISTS"
+      },
+      {
+        "scene": 3,
+        "name": "The Contradiction",
+        "voiceover": "Here lies the core tension. The market believes Palace have an 81% chance of winning. Our scouts see 55%. The raw mathematical baseline suggests just 33%. This is not a minor discrepancy—it is a chasm. It signals that the market knows something we do not, or that critical information is missing from our picture.",
+        "graphic_type": "evidence",
+        "graphic_description": "Three wildly different percentage figures (81%, 55%, 33%) stacked vertically with question marks between them. The Crystal Palace crest sits beside them, looking isolated.",
+        "graphic_text_overlay": "81% vs 55% vs 33%"
+      },
+      {
+        "scene": 4,
+        "name": "The Edge That Wasn't",
+        "voiceover": "Our models scream value. A 55.8% edge on Under 2.25 Goals. The probability sits at 92.7%. Every tactical and historical factor supports it. But an edge is only valuable if you trust the data it's built upon. And with AEK's form based on a single game, that trust evaporates. The Sceptic's veto stands.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A central, glowing '55.8% EDGE' on a dark card. Smaller supporting stats orbit it: '92.7% Prob', '0.3 H2H Goals'. A red 'DATA SAMPLE: 1 MATCH' warning cuts across the bottom.",
+        "graphic_text_overlay": "55.8% EDGE - NO TRUST"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO_BET. Confidence: 0%. The mathematical signal is powerful, but the foundational intelligence is flawed. In the Boot Room, we bet on clarity, not contradiction. When the data is thin and the market signals conflict, the only smart move is to wait for a better opportunity. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold text on a dark background. 'NO BET' is large and central. Below it: 'Confidence: 0%'. The logos of both teams are faded in the background.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

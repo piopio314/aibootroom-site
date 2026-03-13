@@ -1,0 +1,166 @@
+{
+  "key": "20260307_Atletico_Madrid_vs_Real_Sociedad__ds_v3_stream",
+  "match": {
+    "home_team": "Atletico Madrid",
+    "away_team": "Real Sociedad",
+    "league": "La Liga",
+    "date": "2026-03-07",
+    "home_id": 530,
+    "away_id": 548
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 56.0,
+    "score_draw": 26.2,
+    "score_away": 17.8,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading form profiles show 100% convergence on Over 2.5 Goals for both teams, the strongest possible signal. The Tactician classifies the game as 'open', predicting more goals than average due to symmetrical 4-4-2 formations and mutual defensive frailty, especially in the final 15 minutes where both sides are simultaneously potent and vulnerable. (2) DIRECTION EVIDENCE — The mathematical case for over_goals is overwhelming. The Edge Calculator shows a massive +32.4% edge on Over 3.25 Goals, with strong edges also on Over 2.75 Goals (+25.3%) and Over 2.25 Goals (+15.9%). The Auditor explicitly recommends Over 3.25 Goals, noting the tactical and quantitative signals are fully aligned. The Poisson λ sum (implied by form) is high, and there is no direction conflict blocking the goals markets. (3) AGENTS CONSENSUS — The Tactician, Auditor, and Edge Calculator are in full agreement on a high-scoring outcome. The Sceptic's 'high-scoring draw' surprise scenario supports the over narrative, not contradicts it. The Scouts highlight both teams' late-game scoring threats and defensive lapses. The only dissent is the Quant's inability to price goals markets due to missing odds, but this is a data gap, not a contradictory analysis. (4) RISKS — The primary risk is rotation from Atletico Madrid due to their Champions League fixture in three days, which could dampen early intensity. However, this is partially offset by Real Sociedad's own severe fatigue (four matches in 14 days, zero recovery) and injury crisis, which may exacerbate their defensive issues. A low-possession, cagey start is possible, but the structural vulnerabilities in both defences, particularly late on, make a goal-heavy conclusion the most probable outcome.",
+    "key_factors": [
+      "100% profile convergence on Over 2.5 Goals for both teams",
+      "Massive +32.4% mathematical edge on Over 3.25 Goals",
+      "Both teams exhibit extreme vulnerability in the 76-90 minute period",
+      "Real Sociedad's away defence has kept only one clean sheet in 13 matches",
+      "The Tactician's 'open' match prediction with symmetrical attacking formations"
+    ],
+    "risk_factors": [
+      "Atletico Madrid rotation risk ahead of Champions League fixture",
+      "Potential for a slow start if both teams manage fatigue cautiously"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75",
+        "confidence": 61
+      },
+      {
+        "market": "AH Home -0.75",
+        "prediction": "Atletico Madrid -0.75",
+        "confidence": 55
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 32.4,
+      "edge_source": "Edge Calculator probability vs. market odds",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 32.4
+        },
+        {
+          "market": "AH Home -0.75",
+          "edge": 30.5
+        },
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 25.3
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Tactician, Auditor, and Edge Calculator are in strong agreement on an attacking, high-scoring match. The Scouts' data on late-game vulnerabilities and poor away defence supports this. The Sceptic raises valid concerns about fatigue and rotation but their 'high-scoring draw' scenario aligns with the over_goals direction. The Quant provided no contradictory analysis for goals markets.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 32.4
+  },
+  "display_texts": {
+    "home_position": "#3 (51 pts, +20 GD)",
+    "away_position": "#8 (35 pts, +0 GD)",
+    "home_form": "15W-6D-5L in 26 matches, last 5: LDDWD",
+    "away_form": "9W-8D-9L in 26 matches, last 5: DDLLL",
+    "home_stats": "43 goals in 26 matches (avg 1.7/match), 11 clean sheets",
+    "away_stats": "38 goals in 26 matches (avg 1.5/match), 2 clean sheets",
+    "h2h_history": "Atletico Madrid 0-0 Real Sociedad (18 Apr 2026)\nAtletico Madrid 3-2 Real Sociedad (07 Mar 2026)\nReal Sociedad 1-1 Atletico Madrid (04 Jan 2026)\nAtletico Madrid 4-0 Real Sociedad (10 May 2025)\nReal Sociedad 1-1 Atletico Madrid (06 Oct 2024)",
+    "home_injuries": "P. Barrios (Missing Fixture - Muscle Injury)",
+    "away_injuries": "T. Kubo (Missing Fixture - Hamstring Injury), A. Munoz (Missing Fixture - Injury), A. Odriozola (Missing Fixture - Knee Injury), I. Ruperez (Missing Fixture - Knee Injury)",
+    "api_predictions": "API-Football prediction: Atletico Madrid | Probabilities: 45%-45%-10% | Recommendation: Double chance : Atletico Madrid or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "3:2",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Atletico vs Sociedad: The Fortress Meets The Fatigued",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when an unstoppable force meets an immovable object? Tonight, it's not about force—it's about timing. Atletico Madrid are a fortress at home, unbeaten in ten straight meetings against Real Sociedad. But both teams share one critical vulnerability: the final fifteen minutes. Eighteen goals conceded between them in that quarter-hour alone. The stage is set for chaos—but does the market see it?",
+    "chapter_home": "Atletico Madrid arrive at the Metropolitano with an aura of invincibility. Their home record reads eleven wins from thirteen matches—an eighty-five percent win rate. They average over two goals per game here, with a direct four-four-two setup designed to overwhelm opponents. The attack is potent, especially late: ten of their forty-three goals this season have come in the final fifteen minutes. Yet, that same period reveals their Achilles' heel—they've conceded eight goals in those dying moments. Diego Simeone's side is juggling multiple priorities: a Champions League tie against Tottenham looms in just three days, raising significant rotation risk. The only confirmed absence is Pablo Barrios, a minor midfield depth issue. Morale is high, sitting third in the title race, but the fixture congestion—five matches in fourteen days—threatens to dull their famed intensity. This is a team built for victory at home, but their defensive lapses and European distraction introduce a note of genuine uncertainty.",
+    "chapter_away": "Real Sociedad travel to Madrid with high morale but heavy legs. Their qualification for the Copa del Rey final provides a psychological boost, but their physical state tells a different story. They've played four matches in the last fourteen days with zero days of recovery since their last outing—a critical level of fatigue. Their away form is stable but unspectacular, with just three wins from thirteen road trips. A twenty-three percent away win rate underscores their struggle to convert performances into points. Tactically, they also deploy a four-four-two, but they are missing their creative spark: Takefusa Kubo is absent through injury, alongside three other squad players. Their strength, paradoxically, mirrors Atletico's weakness: they are most dangerous in the final fifteen minutes, scoring ten goals there this season. Yet, they are equally vulnerable, conceding nine in that same period. With only one clean sheet in thirteen away matches, their defence is porous. They can play with relative freedom from mid-table security, but their battered squad faces a severe test of resilience against a historical bogey team.",
+    "chapter_history": "The head-to-head record paints a picture of total dominance for Atletico Madrid. They are unbeaten in the last ten meetings against Real Sociedad, winning five and drawing three. The most recent encounter, a five-goal thriller in March 2026, ended three-two to Atletico after a frantic second half. Historically, this is a moderate-scoring fixture, averaging just over two goals per match, with both teams scoring in six of the last ten clashes. Real Sociedad's failure to win in a decade creates a significant psychological hurdle. However, recent meetings have been narrow—three of the last five ended in draws, suggesting the visitors often find a way to frustrate. The historical narrative meets a present-day context of mismatched stakes: Atletico are fighting for the title, while Sociedad are comfortably mid-table. History points toward an Atletico victory, but rarely a straightforward one.",
+    "chapter_analysis": "The tactical matchup is a symmetrical clash of four-four-two formations, but with contrasting conditions. The Tactician classifies this as an 'open' match, predicting more goals than average. This is supported by a one hundred percent convergence in the form profiles for Over two point five Goals for both teams—the strongest possible signal. The structural vulnerability is identical for both sides: the seventy-six to ninety minute period. Atletico score ten and concede eight there; Sociedad score ten and concede nine. This creates a high-probability window for a goal-laden finish. The Sceptic raised a serious challenge, noting the Home Scout's claim of 'rising' form was contradicted by declining goal output in recent matches. They also highlighted the massive divergence between the Scout's eighty-three percent home win probability and the market's implied fifty-six percent—a twenty-seven point gap indicating the market is pricing in significant risks like fatigue and rotation. The Edge Calculator identified overwhelming mathematical value in Over markets, with a plus thirty-two point four percent edge on Over three point two five Goals. The Auditor validated this, recommending that same market. Yet, the Quant found no Asian handicap value, with market odds perfectly aligned to Poisson probabilities. The consensus is clear: this should be a high-scoring affair, but the precise outcome is clouded by external factors.",
+    "chapter_value": "Our market: NO BET. The Boot Room's analysis reveals a compelling direction—over goals—with strong quantitative and tactical backing. The Edge Calculator shows a massive thirty-two point four percent edge on Over three point two five Goals. However, the Gaffer's strict filter requires a minimum odds threshold of one point seven zero and a qualifying line, which this market does not meet. Furthermore, the Asian handicap markets show perfect efficiency, with zero Poisson gaps. The market has accurately priced the qualitative risks our Sceptic identified: Atletico's rotation risk ahead of their Champions League fixture and Sociedad's severe fatigue. While the narrative points to goals, the available betting lines do not offer the mathematical edge we require to proceed. Sometimes, the clearest analysis leads to the simplest conclusion: pass.",
+    "ending": "The verdict from the Metropolitano is one of fascinating contradiction. All signs point to a chaotic, high-scoring conclusion, driven by mutual defensive frailty in the final quarter-hour. Yet, the market has efficiently priced the risks, leaving no value edge on the qualifying lines. Our market is NO BET at implied odds of zero, with zero percent confidence. The Boot Room operates on mathematical edge, not narrative—and tonight, the edge is absent. If you enjoyed this deep dive, subscribe to The Boot Room for more forensic match analysis. Boot Room out.",
+    "roundup_summary": "Atletico Madrid versus Real Sociedad. The hosts sit third in La Liga, fighting for the title with a formidable home record of eleven wins from thirteen. Their last five form shows volatility. The visitors are eighth, with mid-table security, and have won two of their last five away. Atletico's only key absence is Pablo Barrios, while Sociedad are without Takefusa Kubo and three others, battling severe fatigue from four matches in fourteen days.\n\nHistorically, Atletico dominate this fixture, unbeaten in the last ten meetings with five wins and three draws. The last encounter was a three-two Atletico victory in March 2026. The average goals per meeting is two point one, with both teams scoring in six of the last ten. This season, Atletico average two point three one goals scored at home, while Sociedad concede frequently on the road, keeping just one clean sheet in thirteen away matches.\n\nThe Boot Room analysis identifies a massive quantitative edge for over goals, with a Poisson-derived probability gap of plus thirty-two point four percent on the Over three point two five Goals line. The Tactician's 'open' match prediction and both teams' one hundred percent form convergence on Over two point five Goals support this. The Sceptic's concern—a material divergence between the Scout's eighty-three percent home win probability and the market's fifty-six percent—is validated, indicating the market has priced in rotation and fatigue risks. The bookmaker has not mis-priced the Asian handicap markets, which show zero probability gaps, but the overwhelming directional signal for high scoring is clear. The Auditor's effective confidence for the over direction is seventy percent.\n\nDespite the strong directional evidence, no qualifying betting line meets the Boot Room's strict value criteria. The market is efficiently priced for the identified risks. Therefore, the verdict is to pass. Boot Room market: NO BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Final Fifteen",
+        "voiceover": "Eighteen goals conceded. One shared fifteen-minute window. Atletico Madrid and Real Sociedad are simultaneously most potent and most vulnerable in the final quarter-hour. This isn't just a match—it's a countdown to chaos. But with Atletico's eyes on the Champions League and Sociedad's legs heavy from fatigue, can the market price the inevitable explosion?",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: Atletico Madrid's crest with a fiery '10 Goals Scored (76-90')' text. Right side: Real Sociedad's crest with a cracked shield and '9 Goals Conceded (76-90')'. A large digital countdown clock in the centre reads '76:00'.",
+        "graphic_text_overlay": "18 GOALS. 15 MINUTES."
+      },
+      {
+        "scene": 2,
+        "name": "The Fortress",
+        "voiceover": "Atletico Madrid's Metropolitano is a fortress. Eighty-five percent home win rate. Over two goals per game. But their strength hides a critical flaw—eight goals conceded in the final fifteen minutes. With a Champions League tie in three days, rotation risk is high. Diego Simeone must balance domestic dominance with European ambition, creating a potential crack in the armour.",
+        "graphic_type": "home_card",
+        "graphic_description": "A wide, imposing shot of the Estadio Metropolitano at night, bathed in red and white light. Overlaid stats: '11W-1D-1L at home', '2.31 Goals/Game', '8 Goals Conceded (76-90')'.",
+        "graphic_text_overlay": "FORTRESS WITH A FLAW"
+      },
+      {
+        "scene": 3,
+        "name": "The Fatigued",
+        "voiceover": "Real Sociedad arrive with cup-final euphoria but brutal fatigue. Four matches in fourteen days with zero recovery. Missing creative star Takefusa Kubo. Their away defence has kept just one clean sheet. Yet, they share Atletico's late-game threat—scoring ten in the final quarter-hour. They are the perfect opponent to exploit a distracted giant's weakness.",
+        "graphic_type": "away_card",
+        "graphic_description": "A player from Real Sociedad looking exhausted, hands on knees. Behind him, a blurred calendar with four consecutive matches highlighted. Text: '4 Games, 14 Days, 0 Recovery', '1 Clean Sheet in 13 Away'.",
+        "graphic_text_overlay": "FATIGUED BUT DANGEROUS"
+      },
+      {
+        "scene": 4,
+        "name": "The Mathematical Case",
+        "voiceover": "The data is overwhelming. One hundred percent form convergence for Over two point five Goals. The Edge Calculator identifies a massive thirty-two point four percent edge on Over three point two five Goals. The Tactician predicts an 'open', high-scoring match. Every analytical signal screams goals. But our Sceptic spotted the catch: the market's home win probability is twenty-seven points lower than the Scout's, pricing in the very risks we see.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A clean, data-visualization style graphic. A large '100%' icon for 'Over 2.5 Convergence'. A bold upward arrow labelled '+32.4% EDGE' pointing to 'Over 3.25 Goals'. A smaller, cautionary arrow pointing down labelled 'Market Prob: 56% vs Scout: 83%'.",
+        "graphic_text_overlay": "DATA VS. THE MARKET"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict",
+        "voiceover": "The story is clear, but the value is not. The market has efficiently priced the fatigue, rotation, and historical frustration. While Over three point two five Goals carries a huge mathematical edge, it does not meet our strict qualifying criteria. The Asian handicap lines show perfect efficiency. Our analysis leads to a definitive conclusion. Our market: NO BET. Confidence: zero percent. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A stark, minimalist screen. The words 'NO BET' in large, bold typography. Below, smaller text: 'Market: NO_BET | Odds: 0 | Confidence: 0%'. The Boot Room logo is present but subdued.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

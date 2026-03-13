@@ -1,0 +1,171 @@
+{
+  "key": "20260311_Oxford_United_vs_Blackburn__ds_v3_stream",
+  "match": {
+    "home_team": "Oxford United",
+    "away_team": "Blackburn",
+    "league": "Championship",
+    "date": "2026-03-11",
+    "home_id": 1338,
+    "away_id": 67
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 38.0,
+    "score_draw": 27.3,
+    "score_away": 34.7,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING, transitional match. The cascading profiles show strong convergence for high goal involvement: 71% for Over 2.5 Goals and 83% for BTTS Yes. Both teams average over 2.6 total goals per match in their last five, with Oxford's attack improving and Blackburn's defence worsening. The Tactician confirms a 'transitional' character with both sides showing defensive vulnerabilities and scoring capability. (2) DIRECTION EVIDENCE — The mathematical foundation supports over_goals: the Auditor's adjusted Poisson probability for Over 1.5 Goals is 85%, while the Over 2.5 probability sits at 60%. The λ sum (implied goal expectancy) from both teams' recent form exceeds 2.5. The cascading convergence (71% for Over 2.5) is the strongest objective signal available, outweighing individual scout assessments. (3) AGENTS CONSENSUS — The Tactician, Quant (via Poisson), and Auditor all align on a higher-scoring expectation. The Archivist notes this is historically a high-scoring fixture (57% Over 2.5). The Sceptic's CRITICAL challenge was on win probability miscalculation, not the goal expectation, and their no_bet_recommendation is PROCEED. The primary dissent comes from the Home Scout's emphasis on Oxford's defensive caution at home, but this is contradicted by the objective cascading data showing increasing goal involvement. (4) RISKS — The rotation risk cap (confidence ≤55%) due to uncertain XIs is significant. Blackburn's six injuries could blunt their attack, though their defensive decline may offset this. The emotional impact of Oxford's academy tragedy is unquantifiable and could disrupt performance. The EdgeCalculator shows no positive edge on Over markets due to missing odds, though the qualitative and statistical convergence is compelling. The match's high-stakes nature could lead to initial caution, but both teams' defensive records suggest goals are likely.",
+    "key_factors": [
+      "Strong 71% convergence for Over 2.5 Goals in cascading profiles",
+      "Auditor-adjusted Poisson probability of 85% for Over 1.5 Goals",
+      "Both teams show defensive vulnerabilities and scoring trends",
+      "Historical H2H average of 2.6 goals per match"
+    ],
+    "risk_factors": [
+      "Rotation risk cap limits confidence to 55% maximum",
+      "Blackburn's six injuries could reduce attacking potency",
+      "Unquantifiable psychological impact of Oxford's academy tragedy",
+      "High-stakes relegation pressure may induce initial caution"
+    ],
+    "alternative_markets": [
+      {
+        "market": "BTTS Yes",
+        "prediction": "Both Teams to Score",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 0.0,
+      "edge_source": "EdgeCalculator shows no edge due to missing market odds for verification",
+      "edge_grade": "NO_VALUE",
+      "staking_signal": "MARGINAL",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away -1.0",
+          "edge": 6.3
+        },
+        {
+          "market": "Under 1.75 Goals",
+          "edge": 4.2
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 2.8
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Quant (via Poisson probabilities), Auditor, and Archivist align on a higher-scoring expectation supported by strong profile convergence. The Sceptic's primary challenge was on win probability miscalculation, not goal markets, and they recommend PROCEED. The Scouts provide conflicting signals, with the Home Scout emphasising defensive caution while the Away Scout notes Blackburn's late-game defensive frailty.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 4.5,
+    "max_edge": 6.3
+  },
+  "display_texts": {
+    "home_position": "#23 (35 pts, -14 GD)",
+    "away_position": "#20 (39 pts, -13 GD)",
+    "home_form": "8W-11D-17L in 36 matches, last 5: LLLDD",
+    "away_form": "10W-9D-17L in 36 matches, last 5: LLWLW",
+    "home_stats": "34 goals in 36 matches (avg 0.9/match), 6 clean sheets",
+    "away_stats": "34 goals in 36 matches (avg 0.9/match), 9 clean sheets",
+    "h2h_history": "Oxford United 0-0 Blackburn (11 Mar 2026)\nBlackburn 1-1 Oxford United (09 Dec 2025)\nOxford United 1-0 Blackburn (18 Jan 2025)\nBlackburn 2-1 Oxford United (24 Aug 2024)\nBlackburn 2-1 Oxford United (05 May 2018)",
+    "home_injuries": "B. De Keersmaecker (Missing Fixture - Inactive), T. Goodrham (Missing Fixture - Injury), G. Leigh (Missing Fixture - Inactive)",
+    "away_injuries": "T. Cantwell (Missing Fixture - Injury), A. Kargbo (Missing Fixture - Injury), L. Miller (Missing Fixture - Achilles Tendon Injury), A. Pears (Missing Fixture - Injury), S. Tronstad (Missing Fixture - Inactive)",
+    "api_predictions": "API-Football prediction: Blackburn | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Blackburn",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Oxford vs Blackburn: The Relegation Six-Pointer Breakdown",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a team with fragile momentum meets a side in defensive freefall? Oxford United versus Blackburn is more than a Championship fixture—it's a relegation six-pointer where every statistic screams goals, yet the bookmakers refuse to price it correctly. The Boot Room has crunched the numbers, analysed the injuries, and weighed the emotional backdrop. Here is why, despite overwhelming evidence, we are walking away.",
+    "chapter_home": "Oxford United arrive at this fixture with a story of stark contradictions. They sit 23rd in the Championship with one of the division's worst home records—just four wins from seventeen matches at the Kassam Stadium. Yet their recent form tells a different tale: back-to-back victories, including a stunning away win at league leaders Leicester City. Their attack is trending upward, with an increasing scoring rate across their last five matches. However, three first-team injuries reduce squad depth, and a tragic off-field event—the death of a fifteen-year-old academy player—hangs over the squad as an unquantifiable psychological weight. The pressure is immense: this is a must-win fixture to close the gap on safety. Their tactical setup, a 4-2-3-1, is built for compact defence and rapid transition, but they concede heavily in the first half, particularly between minutes thirty-one and forty-five. Can their fragile momentum survive the intense scrutiny of a home relegation battle?",
+    "chapter_away": "Blackburn Rovers travel south sitting 20th, just four points above their opponents but equally entrenched in the survival scrap. Their away form shows just one win in their last five, and they arrive with a squad decimated by six confirmed injuries. Key midfielder Sondre Tronstad and goalkeeper Aynsley Pears are among the absentees, forcing reliance on fringe players and disrupting their preferred 3-4-1-2 system. Their statistical profile reveals a team in defensive decline, conceding a remarkable thirty-two percent of their goals in the final fifteen minutes of matches. While they possess a respectable thirty-five percent away win rate, their attack frequently misfires, failing to score in seven of seventeen away fixtures. The tension is clear: can a side that collapses late hold its nerve under the intense pressure of a direct relegation clash?",
+    "chapter_history": "Historically, this fixture has favoured Blackburn, who have won four of the last seven meetings. It is typically a high-scoring affair, with over two point five goals landing in fifty-seven percent of encounters and an average of two point six goals per match. However, the most recent meeting in March ended in a goalless draw—a stark contrast to the historical trend. Oxford are now unbeaten in the last two head-to-heads, suggesting they may have found a formula to frustrate their opponents. With both sides deep in relegation trouble, the stakes have never been higher for this particular clash. History suggests goals, but recent resilience points toward a tense, cagey battle for survival.",
+    "chapter_analysis": "The tactical matchup reveals why goals are expected. Oxford's 4-2-3-1 could create central overloads against Blackburn's three-man defence, especially given the visitors' depleted midfield. Blackburn's wing-backs should enjoy width superiority, but their chronic late-game frailty—conceding thirty-two percent of goals in the final quarter—meets Oxford's improving scoring trend. The Boot Room's internal consensus is strong: our cascading profiles show seventy-one percent alignment for Over two point five goals and eighty-three percent for Both Teams to Score. The Quant's Poisson model assigns an eighty-five percent probability to Over one point five goals. The Sceptic's primary challenge was on win probability miscalculation, not the goal expectation, and they recommended proceeding with analysis. However, significant risks cap our confidence. Blackburn's six injuries could blunt their attack, while Oxford's emotional trauma from the academy tragedy is unquantifiable. The high-stakes nature may induce initial caution, and crucially, the EdgeCalculator found no positive mathematical edge on any Over market due to missing or mispriced odds. The data screams goals, but the market refuses to offer value.",
+    "chapter_value": "Our market: NO_BET. The Boot Room's analysis confirms a clear directional bias toward over goals, supported by an eighty-five percent Poisson probability for Over one point five. However, after running every available line through our EdgeCalculator, we found zero positive value. The highest mathematical edge was a six point three percent margin on Asian Handicap Away -1.0, but this directly contradicts our qualitative assessment of a close, high-stakes match. For the Over markets where our conviction lies, the bookmaker's odds are either unavailable or priced with no discernible edge. Sometimes the smartest play is recognising when the market has it covered. At implied odds of zero with zero percent confidence, we pass.",
+    "ending": "The Boot Room verdict is clear: Oxford versus Blackburn presents a compelling narrative and strong statistical signals for goals, but no bettable value exists in the current market. The emotional weight on Oxford, Blackburn's injury crisis, and the sheer pressure of a relegation six-pointer create too much volatility without a priced edge. We acknowledge the direction—over goals—but we cannot recommend a wager. If you found this deep dive valuable, make sure to subscribe to AI Boot Room for more data-driven football analysis. Boot Room out.",
+    "roundup_summary": "Oxford United versus Blackburn in the Championship pits 23rd against 20th in a direct relegation six-pointer. Oxford's form shows improvement with two consecutive wins, though their home record remains poor. Blackburn arrive with just one win in their last five away matches and a squad weakened by six injuries. The last five matches for both sides average over two point six total goals, indicating an attacking trend.\n\nThe head-to-head history shows Blackburn have won four of the last seven meetings, with the most recent in March 2026 ending goalless. Historically, fifty-seven percent of meetings see Over two point five goals, averaging two point six per match. This season, both teams show defensive vulnerabilities, with Blackburn conceding thirty-two percent of their goals in the final fifteen minutes.\n\nThe Boot Room's analysis identifies strong convergence for a high-scoring match: cascading profiles align seventy-one percent for Over two point five goals and eighty-three percent for Both Teams to Score. The Quant's Poisson model gives an eighty-five percent probability to Over one point five goals, with a lambda sum implying a goal expectancy exceeding two point five. The Sceptic's critical challenge was on win probability miscalculation, not goal markets, and they recommended proceeding. However, the EdgeCalculator found no positive mathematical edge on any Over market due to missing odds for verification. The bookmaker has effectively priced out value, despite the compelling statistical case. Rotation risk from uncertain line-ups and the unquantifiable psychological impact of Oxford's academy tragedy further cap confidence.\n\nThe Boot Room market is NO_BET. With zero percent confidence and no odds offering a quantifiable edge, we pass on this fixture. The directional signal points to over goals, but the market provides no value opportunity. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "Oxford United host Blackburn Rovers in a critical Championship relegation six-pointer. Oxford sit 23rd but arrive with back-to-back wins, while 20th-placed Blackburn travel with a squad missing six players due to injury. Historically a high-scoring fixture, the last five meetings average two point six goals. The Boot Room's data shows strong convergence for over goals, with an eighty-five percent Poisson probability for Over one point five. However, after running the numbers, we found no positive edge in the market. The Boot Room lands on NO_BET at odds of zero with zero percent confidence. Sometimes the smartest play is to recognise when value isn't there. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Tension",
+        "voiceover": "What happens when fragile momentum meets chronic defensive collapse? Oxford United versus Blackburn is a relegation six-pointer where every statistic screams goals—seventy-one percent convergence for Over two point five, an eighty-five percent Poisson probability. Yet the bookmakers see it differently. This is the conflict.",
+        "graphic_type": "conflict",
+        "graphic_description": "Split screen showing Oxford's rising attack trend graph clashing with Blackburn's late-game concession chart. Dramatic, contrasting colours.",
+        "graphic_text_overlay": "MOMENTUM VS COLLAPSE"
+      },
+      {
+        "scene": 2,
+        "name": "Oxford's Weight",
+        "voiceover": "Oxford sit 23rd with a dire home record, yet they arrive with back-to-back wins. Their attack is improving, but three injuries weaken the squad. And an unquantifiable shadow hangs over them—the tragic death of a fifteen-year-old academy player. Emotional weight meets must-win pressure.",
+        "graphic_type": "home_card",
+        "graphic_description": "Sombre, atmospheric shot of the Kassam Stadium, with key stats overlaid: '23rd', '4 Home Wins', '3 Injuries', 'Academy Tragedy'.",
+        "graphic_text_overlay": "EMOTIONAL BATTLEGROUND"
+      },
+      {
+        "scene": 3,
+        "name": "Blackburn's Crisis",
+        "voiceover": "Blackburn travel with six players missing—a squad in crisis. Their tactical structure is compromised. And they have a fatal flaw: thirty-two percent of all goals they concede arrive in the final fifteen minutes. In a high-stakes battle, that is a time bomb waiting to explode.",
+        "graphic_type": "away_card",
+        "graphic_description": "Visual of a depleted Blackburn team sheet with six red 'OUT' markers. A clock graphic highlights the 76-90 minute period.",
+        "graphic_text_overlay": "SIX OUT, LATE FRAILTY"
+      },
+      {
+        "scene": 4,
+        "name": "The Data Says Goals",
+        "voiceover": "The evidence is overwhelming. Cascading profiles show eighty-three percent alignment for Both Teams to Score. The Poisson model gives an eighty-five percent chance of Over one point five goals. The Tactician predicts a transitional match with defensive vulnerabilities exposed. The data builds an irrefutable case.",
+        "graphic_type": "evidence",
+        "graphic_description": "Clean, data-centric graphic showing the key stats: '71% Over 2.5', '83% BTTS', '85% Poisson Over 1.5'. Animated arrows pointing upward.",
+        "graphic_text_overlay": "IRREFUTABLE EVIDENCE"
+      },
+      {
+        "scene": 5,
+        "name": "Why We Walk Away",
+        "voiceover": "But here is the revelation. Despite this compelling case, our EdgeCalculator found zero positive value. The market odds are either unavailable or priced with no mathematical edge. The highest edge was on a market that contradicts our entire assessment. The numbers say goals—the market says no bet.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A graphic of the EdgeCalculator output showing 'EDGE: 0.0%' for Over markets, with a large red 'X' over a betting slip.",
+        "graphic_text_overlay": "ZERO EDGE"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO_BET. Confidence: zero percent. The direction is clear, but the value is not. In a volatile relegation clash filled with injury and emotion, the smartest play is sometimes to wait. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Final, bold graphic with 'NO BET' in large, clear text. Below: 'Confidence: 0%' and 'Odds: 0'. Clean and definitive.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

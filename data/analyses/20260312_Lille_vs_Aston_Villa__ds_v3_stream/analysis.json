@@ -1,0 +1,175 @@
+{
+  "key": "20260312_Lille_vs_Aston_Villa__ds_v3_stream",
+  "match": {
+    "home_team": "Lille",
+    "away_team": "Aston Villa",
+    "league": "UEFA Europa League",
+    "date": "2026-03-12",
+    "home_id": 79,
+    "away_id": 66
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 32.3,
+    "score_draw": 30.8,
+    "score_away": 36.9,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The cascading profiles show a 67% STRONG convergence on 'BTTS No', with both teams' recent form pointing towards low-scoring encounters. Lille's home matches average just 1.0 total goals, while Aston Villa's away games average 1.0 total goals with a 100% clean sheet rate. The Tactician explicitly predicts a 'tight and tactical' low-scoring match, and the H2H features two consecutive goalless draws. This character is systemic, not coincidental. (2) DIRECTION EVIDENCE — The mathematical evidence for under_goals is overwhelming. The Edge Calculator shows a +55.5% edge on Under 1.75 Goals, the highest of any market. The Auditor's adjusted probabilities give Under 2.5 Goals a 75% likelihood. The Poisson λ sum (λ_home + λ_away) is low, aligning with the tactical prediction of fewer goals. The cascading matchup convergence of 57% for Under 2.5 Goals provides strong contextual support. Every quantitative tool points decisively towards a low-scoring outcome. (3) AGENTS CONSENSUS — The consensus for under_goals is exceptionally strong. The Tactician's character prediction, the Auditor's edge validation, and the Edge Calculator's top recommendation all align perfectly. The Archivist notes the recent goalless H2H draws and a historical average of 1.5 goals. The Sceptic's 'surprise scenario' is a repeat goalless draw. The only dissent is minor: the Away Scout notes Villa 'have not failed to score away', but this is outweighed by their 100% away clean sheet rate which supports low totals. The net signal is a powerful, multi-source endorsement of an under play. (4) RISKS — The primary risk is Aston Villa's depleted midfield leading to a structural collapse that Lille's inconsistent attack could exploit, potentially opening the game. Lille's late-game threat (5 of 13 goals between 76th-90th minutes) could break a deadlock. The rotation risk cap due to the European fixture conflict introduces XI uncertainty, though both teams' defensive trends are robust enough to withstand minor personnel changes. A single early goal could shift the dynamic, but the preponderance of evidence suggests a cagey, structured affair.",
+    "key_factors": [
+      "STRONG 67% profile convergence on BTTS No",
+      "Edge Calculator shows +55.5% edge on Under 1.75 Goals",
+      "Aston Villa's 100% away clean sheet rate in last 5 away matches",
+      "Two consecutive goalless draws in the most recent H2H meetings"
+    ],
+    "risk_factors": [
+      "Significant midfield injuries for Aston Villa could lead to structural vulnerability",
+      "Lille possess a noted late-game scoring threat (76th-90th minutes)",
+      "European fixture conflict imposes a mandatory confidence cap of 55%"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.25 Goals",
+        "prediction": "Under 2.25",
+        "confidence": 63
+      },
+      {
+        "market": "BTTS No",
+        "prediction": "No",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 55.5,
+      "edge_source": "Edge Calculator mathematical model (our_prob 88% vs market_odds 3.08)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 1.75 Goals",
+          "edge": 55.5
+        },
+        {
+          "market": "AH Away -0.75",
+          "edge": 50.9
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 46.1
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Tactician, Auditor, Edge Calculator, and Archivist are in strong agreement on a low-scoring, defensive match character. The Sceptic's critique supports this by challenging the Home Scout's overstatement of Lille's attack and highlighting the plausibility of a goalless draw. The Quant finds no value on Asian Handicaps, which indirectly supports the goals market focus. The only minor dissent is the Away Scout's note on Villa's scoring record, but this does not contradict the low total goals thesis.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.05,
+    "max_edge": 55.5
+  },
+  "display_texts": {
+    "home_position": "#18 (12 pts, +3 GD)",
+    "away_position": "#2 (21 pts, +8 GD)",
+    "home_form": "5W-0D-5L in 10 matches, last 5: WWLLW",
+    "away_form": "7W-0D-1L in 8 matches, last 5: WWLWW",
+    "home_stats": "13 goals in 10 matches (avg 1.3/match), 4 clean sheets",
+    "away_stats": "14 goals in 8 matches (avg 1.8/match), 4 clean sheets",
+    "h2h_history": "Aston Villa 0-0 Lille (19 Mar 2026)\nLille 0-0 Aston Villa (12 Mar 2026)\nLille 2-1 Aston Villa (18 Apr 2024)\nAston Villa 2-1 Lille (11 Apr 2024)",
+    "home_injuries": "M. Caillard (Missing Fixture - Injury), H. Igamane (Missing Fixture - Knee Injury), E. Mbappe (Missing Fixture - Thigh Injury), O. Sahraoui (Missing Fixture - Injury), O. Toure (Missing Fixture - Knee Injury)",
+    "away_injuries": "Alysson (Missing Fixture - Inactive), H. Elliott (Missing Fixture - Injury), A. Garcia (Missing Fixture - Muscle Injury), B. Kamara (Missing Fixture - Knee Injury), B. Madjo (Missing Fixture - Inactive)",
+    "api_predictions": "API-Football prediction: Aston Villa | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Aston Villa",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "0:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Lille vs Aston Villa: The Europa League Stalemate",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a team with a perfect away record meets a side struggling for goals at home? On paper, Aston Villa's European campaign should be straightforward. But football is rarely that simple. Their midfield is decimated by injury, while Lille's attack has lost its identity. This isn't a clash of titans — it's a collision of two teams whose strengths perfectly cancel each other out. The result? A tactical stalemate where the most compelling story might be what doesn't happen.",
+    "chapter_home": "Lille arrive at this Europa League fixture with a profile full of contradictions. Domestically, they sit 18th in Ligue 1, a position that belies their European pedigree. Their home form is the central puzzle: while they maintain a solid defensive base, conceding just 1.2 goals per match at the Stade Pierre-Mauroy, their attack has stagnated. They failed to score in one of their last five home games, and tactical reports indicate they are 'struggling at home in 2026'. Five players are missing through injury, including notable attacking options like E. Mbappe and O. Sahraoui, which tests their squad depth significantly. Their one clear strength is a late-game threat — five of their 13 total goals this season have come between the 76th and 90th minutes. However, with institutional distractions from a Ligue 1 governance crisis and recent matches seeing them 'pass up' clear chances, the question isn't whether Lille can win — it's whether they can score at all.",
+    "chapter_away": "Aston Villa present the mirror image. They are flying high in second place domestically with five consecutive wins, and their away record is statistically impeccable: a 75% win rate from four matches, with a 100% clean sheet rate in their last five away games. They have not failed to score in any away match this season. Yet, this formidable facade hides severe structural cracks. Their midfield engine room has been decimated, with key figures John McGinn, Youri Tielemans, and Boubacar Kamara all absent. Off-field uncertainty swirls around manager Unai Emery's future, and squad morale is reported as damaged following a heavy defeat. While their results suggest a juggernaut, their squad tells a story of a team held together by resilience and a superb defensive organisation that has conceded only 0.75 goals per away match. Can they compartmentalise the chaos and deliver another flawless performance on foreign soil?",
+    "chapter_history": "The head-to-head history between these sides is brief but telling. Across four meetings, not a single match has ended in a draw — until you look at the most recent encounters. The pattern shifted dramatically in their last two fixtures, both of which finished goalless. This marks a sharp departure from earlier 2-1 results where home advantage proved decisive. Historically, these teams traded narrow wins, but the recent stalemates suggest a mutual learning curve. Both managers have seen their teams successfully nullify each other, creating a blueprint for caution. With an average of just 1.5 goals per meeting, the historical narrative has evolved from end-to-end contests to tightly controlled, defensive chess matches.",
+    "chapter_analysis": "The tactical matchup reveals why goals will be at a premium. Both teams deploy mirror-image 4-2-3-1 formations, setting the stage for a congested midfield battle. Lille's potential numerical advantage in central areas, due to Villa's injury crisis, is counterbalanced by Villa's exceptional away defensive structure. The Tactician predicts a 'tight and tactical' low-scoring match, a view supported by the data: Lille's home games average just 1.0 total goals, while Villa's away matches average the same. A 67% strong convergence in form profiles points decisively towards 'Both Teams to Score — No'. The Sceptic critically challenged the Home Scout's overstatement of Lille's home form, correctly noting their actual 50% win rate and recent home loss. This correction aligns with the quantitative picture. Meanwhile, the Quant found perfect market efficiency on Asian Handicap lines, with all Poisson probabilities matching market prices exactly — a rare indication that the bookmakers see no clear advantage either. The only dissent was the Away Scout's note on Villa's scoring record, but this is outweighed by their 100% away clean sheet rate, which supports low totals, not high scores.",
+    "chapter_value": "Our market: NO_BET. The analysis presents a paradox. Every qualitative and quantitative signal screams for a low-scoring match. The Edge Calculator shows a massive +55.5% edge on Under 1.75 Goals, and the Auditor's adjusted probabilities give Under 2.5 Goals a 75% likelihood. The Poisson λ sum is low, and the cascading matchup convergence is 57% for Under 2.5 Goals. Yet, despite this overwhelming directional evidence for under goals, no specific line qualifies under our strict value filters, which require both strong conviction and odds at or above 1.70. The market has priced the unders correctly at the thresholds that matter, leaving no mathematically exploitable edge. Sometimes the clearest read offers no betting value — and this is one of those occasions.",
+    "ending": "The Boot Room's final verdict is to pass on this fixture. Confidence: 0%. Lille's defensive solidity meets Aston Villa's impeccable away record in a clash where both teams' attacking deficiencies and midfield disruptions point towards a cagey affair. The smart play is to watch this tactical stalemate unfold without financial stake. Remember, disciplined betting means recognising when the edge has been erased by the market. If you found this deep dive into the data valuable, make sure to subscribe to AI Boot Room for more forensic match analysis. Boot Room out.",
+    "roundup_summary": "Lille versus Aston Villa in the UEFA Europa League presents a clash between teams at opposite ends of their domestic form curves. Lille languish in 18th place in Ligue 1, with a mixed home record of one win and one loss in their last five at the Stade Pierre-Mauroy. Aston Villa soar in second place in their league, boasting a perfect record of five wins from their last five matches overall. The visitors' away form is particularly formidable, with a 100% clean sheet rate in their last five road trips. Both sides face significant squad challenges, with Lille missing five players and Villa's midfield decimated by the absence of McGinn, Tielemans, and Kamara.\n\nThe head-to-head history across four meetings shows an average of 1.5 goals per game. The most recent two encounters, however, both ended goalless — a stark shift from earlier 2-1 results. This season, Lille's home matches average just 1.0 total goals, while Aston Villa's away games average the same. The trend from recent meetings strongly points towards low-scoring encounters, with a clear pattern emerging for 'Both Teams to Score — No'.\n\nThe Boot Room analysis identifies a powerful consensus for a low-scoring match, yet finds no value to bet. The Poisson λ values are low, aligning with the tactical prediction of a defensive battle. The Edge Calculator shows a massive +55.5% mathematical edge on Under 1.75 Goals, with our probability assessed at 88% versus market odds of 3.08. The Quant found perfect market efficiency on Asian Handicaps, with zero probability gaps, indicating the result market is accurately priced. The Sceptic's primary concern — that the Home Scout materially overstated Lille's home form — was validated and corrected, reinforcing the view of a stagnant attack facing a robust defence. The bookmaker has not mis-priced the goal lines at the specific thresholds that meet our value criteria; while the under direction is clear, the required odds of 1.70 or greater are not available on qualifying lines. The Auditor's effective confidence for low-scoring outcomes is 62%, but this does not translate to a bet recommendation under our strict filters.\n\nThe Boot Room verdict is to pass on this fixture. No market offers the required combination of strong conviction and sufficient odds to qualify as a value bet. The anticipated tactical stalemate and defensive battle, while likely, is correctly priced by the market. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "Lille host Aston Villa in a UEFA Europa League encounter defined by defensive resilience. Lille, 18th in Ligue 1, have a solid home defence but a stagnant attack, averaging just 1.0 total goals per home game. Aston Villa arrive second in their league with five straight wins and a perfect away clean sheet record in their last five matches. Their midfield, however, is crippled by injury. The most recent two head-to-head meetings both finished goalless. The Boot Room's deep analysis confirms a strong low-scoring direction, with a +55.5% edge on Under 1.75 Goals. However, no specific line meets our strict value filters, leading to a final verdict of NO_BET at odds of 0, with 0% confidence. Sometimes the clearest analysis reveals no bet. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Perfect Record Meets The Stagnant Attack",
+        "voiceover": "Aston Villa have a 100% clean sheet rate in their last five away matches. Lille have failed to score in one of their last five at home. This is the foundation of tonight's stalemate — a perfect defensive record colliding with an attack that has lost its way.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: Aston Villa's crest with a large '100% CLEAN SHEETS' stat. Right side: Lille's crest with a 'FAILED TO SCORE' warning. A symbolic wall separates them.",
+        "graphic_text_overlay": "PERFECT VS STAGNANT"
+      },
+      {
+        "scene": 2,
+        "name": "Lille's Contradictory Home",
+        "voiceover": "Lille's story is one of contradiction. They sit 18th domestically, described as 'struggling at home'. Yet they maintain a solid defensive base. Five key injuries, including attacking talent, test their depth. Their one reliable threat comes very late — five of their 13 goals this season arrive after the 75th minute.",
+        "graphic_type": "home_card",
+        "graphic_description": "The Stade Pierre-Mauroy at night, but with a subdued, almost cautious atmosphere. A spotlight highlights a '76''-90'' graphic in one corner, representing their late goals.",
+        "graphic_text_overlay": "LATE THREAT, EARLY DOUBT"
+      },
+      {
+        "scene": 3,
+        "name": "Villa's Crumbling Engine Room",
+        "voiceover": "Behind Villa's formidable stats lies a crisis. Their midfield — the creative hub — has been decimated. McGinn, Tielemans, Kamara — all absent. Off-field uncertainty swirls around the manager. Their impeccable results are a testament to defensive organisation, but the structure is now dangerously thin.",
+        "graphic_type": "away_card",
+        "graphic_description": "Aston Villa's crest with three ghosted-out player silhouettes labelled 'McGinn', 'Tielemans', 'Kamara' overlaid. In the foreground, a strong defensive wall graphic stands, but with visible cracks.",
+        "graphic_text_overlay": "JUGGERNAUT ON CRUTCHES"
+      },
+      {
+        "scene": 4,
+        "name": "A History of Silence",
+        "voiceover": "The last two times these teams met, nothing happened. Goalless draws. A complete shift from earlier 2-1 battles. This history isn't about winners — it's a blueprint for mutual cancellation. Both managers have learned how to nullify the other, setting the stage for another cautious, chess-like encounter.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "A timeline showing four match results. The first two show '2-1' scores. The last two show large, bold '0-0' results, visually dominating the timeline.",
+        "graphic_text_overlay": "TWO GOALLESS DRAWS"
+      },
+      {
+        "scene": 5,
+        "name": "The Mathematical Impasse",
+        "voiceover": "The data converges powerfully. A 67% strong signal for 'Both Teams to Score — No'. The Edge Calculator shows a huge +55.5% edge on Under 1.75 goals. Yet, the Quant finds perfect market efficiency — zero probability gaps on Asian lines. The bookmakers see this stalemate too. The direction is clear, but the value has been priced out.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A central dial pointing to 'UNDER'. Surrounding it are key stats: '67% BTTS NO', '+55.5% EDGE', '0.0 GAP PP'. The imagery suggests clarity but also a dead end.",
+        "graphic_text_overlay": "DATA SAYS UNDER, MARKET AGREES"
+      },
+      {
+        "scene": 6,
+        "name": "The Boot Room Verdict",
+        "voiceover": "Our market: NO_BET. Confidence: 0%. Every analysis points to a low-scoring, tactical stalemate. But our strict filters find no qualifying line with both strong conviction and sufficient odds. The clearest read sometimes offers no bet. Recognising that is the discipline that separates smart analysis from forced action. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final graphic. The words 'NO BET' are large and central. Below, smaller text: 'Confidence: 0%'. The background is a neutral, analytical grey, not a celebratory colour.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

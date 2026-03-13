@@ -1,0 +1,160 @@
+{
+  "key": "20260307_Burgos_vs_Mirandes__ds_v3_stream",
+  "match": {
+    "home_team": "Burgos",
+    "away_team": "Mirandes",
+    "league": "Segunda División",
+    "date": "2026-03-07",
+    "home_id": 9580,
+    "away_id": 799
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 52.0,
+    "score_draw": 30.0,
+    "score_away": 18.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The cascading form profiles show a STRONG 86% convergence on Under 2.5 Goals. Burgos averages just 1.07 goals per home match and has a 60% clean sheet rate in their last five home games. Mirandés fails to score in 60% of their recent matches and averages only 0.60 goals per game away. The Tactician's analysis confirms a 'tight and tactical' match with Burgos controlling possession against Mirandés's deep 5-3-2 block, predicting 'limited goalmouth action and few clear chances.' (2) DIRECTION EVIDENCE — The Quant's Poisson model shows a 12.3 percentage point edge on Under 2.5 Goals (64.0% probability vs 51.7% market-implied). This is the largest identified gap and is rated HIGH confidence. The λ sum (implied goal expectancy) is low, consistent with both teams' scoring profiles. The Auditor's adjusted probabilities (64.0% for Under 2.5) directly support this direction. (3) AGENTS CONSENSUS — Strong alignment exists on the under_goals thesis. The Quant identified it as the sole value bet. The Tactician's structural analysis and 'goals_impact' statement strongly support fewer goals. Both Scouts highlight low-scoring outputs and defensive strengths. The Archivist notes a 50% historical chance of Over 2.5, but this is outweighed by current form. The Sceptic's 'no_bet_recommendation' is PROCEED and specifically mentions the 'strong convergence on Under 2.5 goals' as a solid basis. The Auditor validates the Quant's probability. (4) RISKS — The primary risk is Mirandés's extreme relegation pressure sparking an unexpectedly spirited performance, though their zero-day recovery severely limits this. A second risk is Burgos's noted late-game scoring (8 of 30 goals in the 76-90 minute period) coinciding with Mirandés's late defensive fragility, potentially leading to a late goal that pushes the total to three. However, the overwhelming defensive data and fatigue factor make a high-scoring outcome statistically improbable.",
+    "key_factors": [
+      "STRONG 86% profile convergence on Under 2.5 Goals from cascading form data",
+      "Quant's Poisson model shows a 12.3pp edge on Under 2.5 Goals",
+      "Burgos's excellent home defensive record (0.71 goals conceded per match)",
+      "Mirandés's chronic away scoring struggles and zero-day recovery fatigue",
+      "Tactician predicts a 'tight and tactical' match with limited chances"
+    ],
+    "risk_factors": [
+      "Mirandés's extreme relegation pressure could inspire a rare performance",
+      "Convergence of Burgos's late scoring and Mirandés's late conceding in the 76-90 minute window"
+    ],
+    "alternative_markets": [],
+    "value_bets": [
+      {
+        "market": "Under 2.5 Goals",
+        "edge": 12.3
+      }
+    ],
+    "edge_assessment": {
+      "selected_market_edge": 12.3,
+      "edge_source": "Quant probability minus market implied probability",
+      "edge_grade": "STRONG_VALUE (≥10%)",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 2.5 Goals",
+          "edge": 12.3
+        },
+        {
+          "market": "Over 2.25 Goals",
+          "edge": 4.8
+        },
+        {
+          "market": "AH Home 0.0",
+          "edge": 5.9
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Quant, Tactician, both Scouts, and the Auditor all provide evidence supporting a low-scoring match. The Sceptic raises challenges on win probability accuracy but concurs the analysis is sufficient for markets aligned with the strong Under 2.5 convergence. The Archivist provides neutral historical context that does not contradict the current defensive thesis.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 36.1
+  },
+  "display_texts": {
+    "home_position": "#8 (43 pts, +4 GD)",
+    "away_position": "#22 (24 pts, -17 GD)",
+    "home_form": "12W-7D-9L in 28 matches, last 5: WDLDW",
+    "away_form": "6W-6D-16L in 28 matches, last 5: LLWWL",
+    "home_stats": "30 goals in 28 matches (avg 1.1/match), 9 clean sheets",
+    "away_stats": "28 goals in 28 matches (avg 1.0/match), 3 clean sheets",
+    "h2h_history": "Burgos 2-0 Mirandes (07 Mar 2026)\nMirandes 0-2 Burgos (16 Nov 2025)\nMirandes 2-1 Burgos (26 Apr 2025)\nBurgos 0-1 Mirandes (13 Oct 2024)\nMirandes 2-1 Burgos (21 Apr 2024)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Burgos | Probabilities: 45%-45%-10% | Recommendation: Combo Double chance : Burgos or draw and -3.5 goals",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "2:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Burgos vs Mirandés: The No-Bet Analysis",
+    "thumbnail_text": "NO VALUE HERE",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a team playing their second match in two days meets a fortress that hasn't lost at home in five? The data screams one direction — but the market has already priced it perfectly. This is the story of a match where the edge has vanished.",
+    "chapter_home": "Burgos arrive at El Plantío with their home form firmly on an upward curve — unbeaten in five matches, with four wins. Their foundation is a miserly defence, conceding just four goals across those five home fixtures and keeping clean sheets in sixty percent of their recent matches. The recent victory over a managerless Real Zaragoza has injected confidence, and the Retro Matchday buzz should lift the stadium atmosphere. Yet, for all their solidity, a critical question remains: can they find the consistent attacking thrust to turn these tight, controlled performances into three points? Their tactical setup is a stable 4-4-2, producing low-scoring matches with a heavy reliance on late goals — eight of their thirty this season have come in the final fifteen minutes. With a full squad available and medium pressure, they are the clear structural favourites.",
+    "chapter_away": "Mirandés arrive at the Estadio Municipal de El Plantío rooted to the foot of the table and in severe decline on the road. Their solitary away win in the last five came against a struggling Huesca side, and they failed to score in their most recent outing. The pressing question is whether a squad with zero recovery time — having played a match just yesterday — can muster the physical and mental resolve to defy a mathematical model that gives them almost no chance. Their away setup is a defensive 5-3-2, but it masks chronic fragility, especially late in matches where they have conceded twelve goals. With extreme relegation pressure but low morale and a declining trend, their task appears monumental.",
+    "chapter_history": "History suggests a close contest, but recent meetings tell a different story. Over ten encounters, Mirandés hold a slight edge with five wins to Burgos's four. Yet the last two fixtures reveal a dominant shift — two convincing wins for Burgos, two clean sheets, and six goals scored. This is rarely a draw fixture, with just one stalemate in ten meetings, and it's often fiery; the last meeting featured a late red card for Mirandés. The historical fifty percent chance of over two point five goals is now challenged by current defensive trends, setting the stage for a potential break from tradition.",
+    "chapter_analysis": "The tactical matchup reveals a classic clash of control versus desperation. Burgos's 4-4-2, with its midfield quartet, should outnumber Mirandés's three-man midfield, creating numerical superiority in possession. Mirandés's back five provides defensive numbers but offers little attacking threat against Burgos's organised block, especially with zero recovery time. Our analysis shows an eighty-six percent convergence signal on Under two point five Goals, directly supported by the Tactician's prediction of a 'tight and tactical' match with limited chances. The Quant's Poisson model identifies a significant twelve point three percentage point edge on the under, rating it high confidence. However, the Sceptic raised a critical challenge regarding win probability accuracy, and the Auditor flagged that the market's pricing on the Asian handicap lines shows no verifiable gap. The convergence of Burgos's late scoring and Mirandés's late conceding remains a risk, but the overwhelming defensive data makes a high-scoring outcome statistically improbable.",
+    "chapter_value": "Our market: NO_BET. Here is the reality — while the directional analysis for Under two point five Goals is strong, with the Quant showing a twelve point three percentage point edge at fair odds of one point five six, the available market odds do not meet our minimum threshold for value. Our filter requires odds of at least one point seventy with strong conviction, and no qualifying line exists. The Asian handicap markets show zero Poisson gap, and the EdgeCalculator's recommendation lacks verification. Sometimes the clearest narrative meets the most efficient market. Tonight, that is the case.",
+    "ending": "The Boot Room verdict is to pass on this fixture. Confidence: zero percent. The data paints a compelling picture of a low-scoring affair, but the bookmakers' pricing has absorbed that likelihood. In betting, discipline is as important as insight — recognising when the edge has been priced out is a skill in itself. If you found this no-bet analysis valuable, subscribe to The Boot Room for clear, data-driven match breakdowns every week. Boot Room out.",
+    "roundup_summary": "Burgos versus Mirandés. Burgos sit eighth in the Segunda División, arriving unbeaten in their last five home matches with four wins. Mirandés are bottom, with one win in their last five away games and playing their second match in just two days. Both squads report full availability. The head-to-head record shows Mirandés with five wins from ten meetings, but Burgos have won the last two without conceding. Historically, fifty percent of meetings see over two point five goals. This season, Burgos average one point zero seven goals per home match and concede zero point seven one. Mirandés average just zero point six goals away. The Boot Room analysis identified a strong eighty-six percent convergence on Under two point five Goals, supported by the Quant's Poisson model which shows a sixty-four percent probability versus a fifty-one point seven percent market-implied probability — a twelve point three percentage point edge. The Tactician's matchup analysis predicts a 'tight and tactical' match with limited chances, reinforcing the low-scoring thesis. However, the Sceptic challenged the accuracy of the Scouts' win probabilities, and the Auditor validated that while the Under two point five direction is credible, the Asian handicap markets show no verifiable edge. The available odds for the qualifying Under two point five lines do not meet our minimum value threshold of one point seventy with strong conviction. Boot Room verdict: NO VALUE — pass on this fixture. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Fatigue Wall",
+        "voiceover": "Mirandés played a match yesterday. Zero days' recovery. They now face a Burgos side unbeaten at home in five. This is not just a football match — it's a collision between a fortress and a team running on empty.",
+        "graphic_type": "conflict",
+        "graphic_description": "Split screen: left side shows a tired Mirandés player head in hands after a match, clock showing '24 HRS AGO'. Right side shows Burgos's sturdy home stadium, El Plantío, with '5 UNBEATEN' glowing.",
+        "graphic_text_overlay": "ZERO DAYS RECOVERY"
+      },
+      {
+        "scene": 2,
+        "name": "Burgos: The Fortress",
+        "voiceover": "El Plantío has become a bastion. Four wins from their last five here, conceding just four goals. A sixty percent clean sheet rate. Their 4-4-2 is built for control, not chaos. But they average just over one goal per home game — their strength is also their limitation.",
+        "graphic_type": "home_card",
+        "graphic_description": "A stylised, imposing castle wall with the Burgos crest. Stats overlay: '5 Home Games: 4W, 1D', 'Goals Conceded: 4', 'Clean Sheets: 60%'.",
+        "graphic_text_overlay": "THE HOME FORTRESS"
+      },
+      {
+        "scene": 3,
+        "name": "Mirandés: The Desperate",
+        "voiceover": "Rooted to the bottom. One away win in five. They've failed to score in sixty percent of recent matches. Their 5-3-2 is a defensive shell, but it cracks late — conceding twelve goals in the final fifteen minutes. Relegation pressure is extreme, but fatigue is a heavier weight.",
+        "graphic_type": "away_card",
+        "graphic_description": "A lone, exhausted Mirandés player in a defensive stance, shadows under his eyes. A large '22nd' glows behind him. Stats: 'Away Form: 1W-0D-4L', 'Goals/Game: 0.60'.",
+        "graphic_text_overlay": "BOTTOM & EXHAUSTED"
+      },
+      {
+        "scene": 4,
+        "name": "The Data Convergence",
+        "voiceover": "Our models converge with eighty-six percent strength on one outcome: Under two point five Goals. The Poisson probability is sixty-four percent — a twelve point three percentage point edge over the market. The Tactician sees a 'tight and tactical' match with limited chances. The evidence is overwhelming.",
+        "graphic_type": "evidence",
+        "graphic_description": "A central, glowing 'UNDER 2.5' with converging data streams from different sources (Poisson chart, tactical diagram, form stats) hitting the target. '86% CONVERGENCE', '12.3pp EDGE'.",
+        "graphic_text_overlay": "86% CONVERGENCE"
+      },
+      {
+        "scene": 5,
+        "name": "The Vanishing Edge",
+        "voiceover": "But there is one number the bookmakers have not priced correctly — the value threshold. Our market: NO BET. The edge on Under two point five is real, but the odds needed to qualify do not exist. The Asian handicap shows zero gap. The clearest story meets the most efficient market. Sometimes the best bet is no bet at all. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A pair of hands releasing betting chips that dissolve into pixels. Text appears: 'EDGE IDENTIFIED, VALUE ABSENT'. Final card shows 'BOOT ROOM MARKET: NO BET' and 'CONFIDENCE: 0%'.",
+        "graphic_text_overlay": "NO VALUE FOUND"
+      }
+    ]
+  }
+}

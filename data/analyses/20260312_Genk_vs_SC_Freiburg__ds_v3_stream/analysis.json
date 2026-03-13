@@ -1,0 +1,174 @@
+{
+  "key": "20260312_Genk_vs_SC_Freiburg__ds_v3_stream",
+  "match": {
+    "home_team": "Genk",
+    "away_team": "SC Freiburg",
+    "league": "UEFA Europa League",
+    "date": "2026-03-12",
+    "home_id": 742,
+    "away_id": 160
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "Under 2.25 Goals",
+    "prediction": "Under 2.25 Goals",
+    "confidence": 53,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 2.2,
+    "score_home": 36.0,
+    "score_draw": 32.3,
+    "score_away": 31.7,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The cascading profiles show a fundamental stylistic clash: Genk's high-scoring home profile (3.75 total goals average) meets Freiburg's away shutout pattern (1.0 total goals average, 0 goals scored in last five away matches). The Tactician explicitly predicts a 'tight and tactical' match with 'fewer goals than Genk's average', while the historical head-to-head record shows two consecutive goalless draws. This creates a defensive structural setup, not an attacking one. (2) DIRECTION EVIDENCE — The mathematical evidence strongly supports an under_goals thesis. The EdgeCalculator shows positive edges only on Under markets: Under 1.75 Goals (+7.2%), Under 2.25 Goals (+5.6%). All Over markets show negative edges, with Over 2.5 Goals at -9.6%. The Auditor's adjusted probabilities favour Under 2.5 at 55%. The cascading profile convergence is MODERATE (50%) for Under 2.5 Goals, with Freiburg's profile scoring a perfect 7/7 suitability. The λ sum from Poisson is suppressed by Freiburg's away goal drought, creating a low total expectancy. (3) AGENTS CONSENSUS — The Tactician, Auditor, and EdgeCalculator align on a low-scoring outcome. The Sceptic's surprise scenario is a 1-0 Genk win (Under 2.5, BTTS No). The Archivist notes the historical goalless pattern. The primary dissent comes from The Quant, whose Poisson model shows extreme Over probabilities (91.2% for O2.5). However, the Auditor has flagged this as 'over-anchored' and 'directionally conflicted', and the EdgeCalculator shows no positive edge on any Over line. The net signal from the tribunal, after weighing objective data over a single conflicted model, points to under_goals. (4) RISKS — The main risk is Genk's high-scoring home form overwhelming Freiburg's defensive structure. If Freiburg's injury-depleted side collapses early, the match could open up. Additionally, the small sample sizes for Freiburg's away data (2 matches) and venue-specific cover rates introduce uncertainty. The rotation risk for this European fixture also caps confidence, as unconfirmed lineups could alter the tactical dynamic.",
+    "key_factors": [
+      "Freiburg's chronic away scoring drought — 0 goals in last five away matches",
+      "Historical head-to-head pattern — two consecutive goalless draws",
+      "Tactician's prediction of a 'tight and tactical' match with suppressed goal dynamics",
+      "EdgeCalculator shows positive mathematical edges only on Under markets (Under 1.75 +7.2%, Under 2.25 +5.6%)"
+    ],
+    "risk_factors": [
+      "Genk's high-scoring home form could overwhelm Freiburg's defensive block",
+      "Small sample sizes for Freiburg's away data and venue cover rates create uncertainty",
+      "European fixture rotation risk — unconfirmed lineups may alter tactical setup"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 1.75 Goals",
+        "prediction": "Under 1.75",
+        "confidence": 53
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 5.6,
+      "edge_source": "Auditor adjusted probability vs market implied probability",
+      "edge_grade": "MARGINAL",
+      "staking_signal": "MARGINAL",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Home 0.25",
+          "edge": 23.7
+        },
+        {
+          "market": "AH Home 0.5",
+          "edge": 17.9
+        },
+        {
+          "market": "Under 1.75 Goals",
+          "edge": 7.2
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Auditor, EdgeCalculator, and Sceptic's scenario align on a low-scoring match character. The Archivist's historical data supports this. The primary dissent comes from The Quant's extreme Over probabilities, which the Auditor has flagged as conflicted and over-anchored. The Scouts are split: the Home Scout highlights Genk's high-scoring form, while the Away Scout emphasises Freiburg's away defensive solidity and goal drought.",
+    "_direction": "under_goals",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.1242,
+    "_direction_prob": 51.1,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "C",
+    "tier_label": "SPECULATIVE — weak signal, small stake only",
+    "tier_color": "#f59e0b",
+    "opportunity_score": 4.17,
+    "max_edge": 7.2
+  },
+  "display_texts": {
+    "home_position": "#9 (16 pts, +4 GD)",
+    "away_position": "#7 (17 pts, +6 GD)",
+    "home_form": "7W-2D-3L in 12 matches, last 5: WLWLD",
+    "away_form": "5W-2D-1L in 8 matches, last 5: WDWWD",
+    "home_stats": "23 goals in 12 matches (avg 1.9/match), 3 clean sheets",
+    "away_stats": "10 goals in 8 matches (avg 1.3/match), 4 clean sheets",
+    "h2h_history": "SC Freiburg 0-0 Genk (19 Mar 2026)\nGenk 0-0 SC Freiburg (12 Mar 2026)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "M. Eggestein (Missing Fixture - Red Card), D. Kyereh (Missing Fixture - Lacking Match Fitness), L. Kubler (Questionable - Hamstring Injury), M. Rosenfelder (Questionable - Injury)",
+    "api_predictions": "API-Football prediction: SC Freiburg | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or SC Freiburg",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "WIN",
+    "label": "WIN",
+    "color": "#22c55e",
+    "pnl": 1.2,
+    "score": "1:0",
+    "market": "Under 2.25 Goals"
+  },
+  "script": {
+    "title": "Genk vs Freiburg: The Goalless History vs The Scoring Machine",
+    "thumbnail_text": "GOALLESS HISTORY RETURNS?",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a team that hasn't scored an away goal in five matches meets a side that hasn't conceded a goal to them in two meetings? This Europa League knockout tie presents a fundamental clash of identities — Genk's free-scoring home momentum colliding with Freiburg's chronic away scoring drought. The history books show two goalless draws. The form guide shows a Belgian side averaging 2.5 goals per game. One of these patterns must break tonight.",
+    "chapter_home": "Genk arrive with undeniable momentum, unbeaten in five matches and scoring an average of 2.5 goals per game during that run. Their 4-2-3-1 system is built for attacking football, with 75% of their last five matches seeing over 2.5 goals. They are particularly dangerous between the 31st and 45th minutes, where they have scored six goals this season. However, a critical warning flashes beneath this impressive form. Their recent unbeaten run has been built against weak opposition, with the average rank of their last five opponents sitting at 28th in a 36-team league. More concerning is their home record — just two wins from six matches at the Cegeka Arena, with a leaky defence conceding 1.33 goals per game. They have kept only one clean sheet in those six home fixtures. With a full squad available and domestic comfort allowing full focus on Europe, the question is whether their attacking prowess can finally translate into a commanding home performance, or if their defensive frailties will once again undermine their progress.",
+    "chapter_away": "SC Freiburg present a study in contradictions. They arrive with historic European ambition, sitting firmly in the domestic European race, yet their away form tells a story of chronic deficiency. The German side have failed to score in their last five away matches — a goalless run that starkly contrasts with their high morale from Grifo's record-equalling form. Their 4-2-3-1 system is built on defensive solidity, conceding just 0.75 goals per away match, but they carry significant vulnerabilities into this knockout tie. Four key first-team players are unavailable through injury, including midfielder Eggestein and forward Kyereh, severely reducing their attacking options and midfield control. Their away win rate stands at just 25% from four matches, and their recent away results are inflated by facing weak opposition. With a goalkeeper distracted by World Cup aspirations and transfer rumours, Freiburg's defensive resilience faces its sternest test against Genk's attacking waves.",
+    "chapter_history": "The history between these two clubs is defined by one remarkable statistic — two meetings, and not a single goal. Both previous encounters ended as goalless draws, creating a perfect record of stalemate. This 100% draw rate across their limited history suggests these sides have historically cancelled each other out completely. While only two matches provide a small sample, the pattern is undeniable — when Genk and Freiburg meet, goals have been exceptionally scarce. This historical backdrop creates a psychological barrier both managers will be acutely aware of tonight. Will they approach this fixture with caution, respecting the goalless pattern, or will they aggressively seek to break it with European progression at stake? The history books whisper caution, but current context screams for change.",
+    "chapter_analysis": "This fixture presents a fundamental stylistic clash that the data reveals with stark clarity. Genk's profile shows perfect 7 out of 7 suitability for Over 2.5 goals, while Freiburg's away profile shows perfect 7 out of 7 suitability for Under 2.5 goals — a 50% convergence that signals a tactical battle. The Tactician predicts a 'tight and tactical' match with 'fewer goals than Genk's average', noting Freiburg's defensive away structure and injury-limited attack should suppress high-scoring dynamics. The Sceptic challenged both scouts' assessments, particularly Freiburg's 'high' morale rating despite their goalless away run, and proposed a surprise 1-0 Genk victory that would deliver an Under 2.5 outcome. While The Quant's Poisson model shows extreme probabilities for Over markets — 91.2% for Over 2.5 goals — The Auditor has flagged this as 'over-anchored' and 'directionally conflicted', noting the model underweights Freiburg's away defensive record and the historical goalless pattern. The EdgeCalculator shows positive mathematical edges only on Under markets, with Under 1.75 Goals at +7.2% and Under 2.25 Goals at +5.6%. All Over markets show negative edges, with Over 2.5 Goals at -9.6%. The tribunal consensus, after weighing objective data, points toward a low-scoring encounter.",
+    "chapter_value": "Our market: Under 2.25 Goals. The bookmakers have significantly underpriced the defensive character of this fixture. At odds of 2.2, the market implies a 45.5% probability, but our adjusted analysis gives this outcome a 51.1% likelihood — creating a 5.6 percentage point edge. This market selection balances mathematical value with tactical and historical evidence, avoiding the direction conflict present in the Over markets. It accounts for Genk's high-scoring home form potentially being suppressed by Freiburg's organised defensive block and chronic away scoring drought, while also respecting the historical goalless pattern between these sides. The 2.25 line provides protection should the match follow the historical template of a single goal deciding matters.",
+    "ending": "The Boot Room verdict: Under 2.25 Goals at 2.2 with 53% confidence. This is a speculative play that acknowledges the risks — Genk's attacking form could overwhelm Freiburg's defence, and small sample sizes create uncertainty. However, the convergence of Freiburg's away scoring drought, the historical goalless pattern, tactical predictions of a tight match, and positive mathematical edges on Under markets creates a compelling case for fewer goals than the market expects. If you found this analysis valuable, subscribe to AI Boot Room for data-driven football insights. Turn on notifications so you never miss a verdict. Boot Room out.",
+    "roundup_summary": "Genk versus SC Freiburg in the UEFA Europa League presents a clash of conflicting narratives. The Belgian hosts sit 9th domestically with reduced pressure, arriving unbeaten in five matches with three wins and two draws. Their attack averages 2.5 goals per game during this run. Freiburg, firmly in the European race in Germany, show only one defeat in eight matches overall but carry a dire away record — no wins in their last five away fixtures and, critically, zero goals scored in that period. Their 25% away win rate contrasts sharply with Genk's 33% home win rate.\n\nThe head-to-head history reveals an extraordinary pattern: two meetings, both ending as goalless draws. This 100% stalemate rate across their limited encounters suggests these sides historically cancel each other out. Genk's matches average 3.75 total goals at home this season, while Freiburg's away matches average just 1.0 total goals. The German side have failed to score in five consecutive away games, creating a clear Under trend in their travels.\n\nThe Boot Room analysis identifies a fundamental market mispricing. While The Quant's Poisson model shows extreme probabilities for Over markets — 91.2% for Over 2.5 goals, representing a 42.9 percentage point gap versus market implied probability — this signal is contradicted by multiple layers of evidence. The Auditor flagged this as 'over-anchored' to Genk's recent form while underweighting Freiburg's away defensive record and the historical goalless pattern. The Tactician predicts a 'tight and tactical' match with 'fewer goals than Genk's average'. The EdgeCalculator shows positive mathematical edges only on Under markets: Under 1.75 Goals at +7.2% and Under 2.25 Goals at +5.6%. All Over markets show negative edges. The Sceptic's concern about Freiburg's 'high' morale assessment despite their goalless away run reinforces the defensive narrative. The bookmaker has mis-priced goal expectancy by over-relying on Genk's attacking form without adequately accounting for Freiburg's chronic away scoring drought and the historical stalemate pattern.\n\nThe Boot Room lands on Under 2.25 Goals at odds of 2.2 with 53% confidence. This market balances the mathematical edge with tactical and historical evidence, providing protection should the match follow the historical template of a single goal. The risk scenario requires the match to finish with two or fewer total goals. Boot Room market: Under 2.25 Goals. Confidence: 53%.",
+    "short_segment": "Genk host SC Freiburg in a crucial UEFA Europa League knockout tie. The Belgian side arrive unbeaten in five matches, averaging 2.5 goals per game, but their home record shows just two wins from six. Freiburg present a contradiction — strong overall form but a chronic away scoring drought, failing to find the net in their last five away fixtures. Historically, these sides have produced two goalless draws from two meetings. The Boot Room identifies a market mispricing, with mathematical edges only appearing on Under markets despite one model showing extreme Over probabilities. The convergence of Freiburg's away struggles, historical stalemates, and tactical predictions of a tight match leads to our verdict. The Boot Room lands on Under 2.25 Goals at 2.2 with 53% confidence, anticipating a lower-scoring encounter than the market expects. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Scoring Drought",
+        "voiceover": "Five consecutive away matches. Zero goals scored. SC Freiburg arrive in Belgium carrying a chronic scoring drought that defies their European ambition. Meanwhile, Genk's attack averages 2.5 goals per game. This is the fundamental clash — a team that cannot score away from home versus a side that scores freely at home. One of these patterns must break tonight.",
+        "graphic_type": "conflict",
+        "graphic_description": "Split screen showing Freiburg's '0 goals in last 5 away matches' stat on left versus Genk's '2.5 goals per game average' on right, with the Europa League trophy in the centre.",
+        "graphic_text_overlay": "GOALLESS VS GOAL MACHINE"
+      },
+      {
+        "scene": 2,
+        "name": "Genk's Home Reality",
+        "voiceover": "Look beyond Genk's unbeaten run. Their home record reveals vulnerability — just two wins from six matches at the Cegeka Arena, conceding 1.33 goals per game. Their recent form is inflated by weak opposition. While their attack threatens, their defence has kept only one clean sheet in those six home fixtures. European progression requires them to solve this home paradox.",
+        "graphic_type": "home_card",
+        "graphic_description": "Genk's home form statistics displayed over an atmospheric night shot of the Cegeka Arena, highlighting the 2W-2D-2L record and 1.33 goals conceded per game.",
+        "graphic_text_overlay": "HOME PARADOX"
+      },
+      {
+        "scene": 3,
+        "name": "Freiburg's Missing Pieces",
+        "voiceover": "Four key first-team players are absent through injury — including midfielder Eggestein and forward Kyereh. This significantly reduces Freiburg's attacking options for a must-win knockout tie. Their defensive solidity away from home remains, conceding just 0.75 goals per match, but their already-struggling attack is further depleted. Can organisation overcome absence?",
+        "graphic_type": "away_card",
+        "graphic_description": "Visual of Freiburg's injury list with player silhouettes and red crosses, overlaid on a tactical formation graphic showing gaps in midfield and attack.",
+        "graphic_text_overlay": "CRIPPLED ATTACK"
+      },
+      {
+        "scene": 4,
+        "name": "The Goalless History",
+        "voiceover": "Two meetings. Zero goals. One hundred percent draw rate. The history between these clubs is defined by complete stalemate. While only two matches provide a small sample, the pattern is undeniable — when Genk and Freiburg meet, goals disappear. This historical backdrop creates a psychological barrier both managers must overcome tonight.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "Minimalist graphic showing two zeros side by side with '0-0' between them, representing the two goalless draws, against a dark background with subtle Europa League motif.",
+        "graphic_text_overlay": "TWO MEETINGS, ZERO GOALS"
+      },
+      {
+        "scene": 5,
+        "name": "The Mathematical Conflict",
+        "voiceover": "Here lies the core tension. One statistical model shows a 91.2% probability for Over 2.5 goals — an extreme signal. Yet the EdgeCalculator reveals positive mathematical edges only on Under markets. The Tactician predicts a tight, tactical match. The Auditor flags the Over probability as 'over-anchored' and 'directionally conflicted'. Which data do we trust?",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Data visualization showing the conflict: a large '91.2%' for Over 2.5 goals with a warning symbol, versus 'Under 2.25 Goals +5.6% edge' with a checkmark, with tactical and historical icons weighing in.",
+        "graphic_text_overlay": "DATA COLLISION"
+      },
+      {
+        "scene": 6,
+        "name": "The Boot Room Verdict",
+        "voiceover": "Our market: Under 2.25 Goals at 2.2. Confidence: 53%. The bookmakers have underpriced the defensive character of this fixture. The convergence of Freiburg's away scoring drought, historical goalless pattern, tactical predictions, and positive edges on Under markets outweighs the conflicting Over signal. We anticipate fewer goals than the market expects. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold display of 'UNDER 2.25 GOALS' at odds '2.20' with '53% CONFIDENCE' beneath, set against a dark background with subtle Genk and Freiburg crests in the corners.",
+        "graphic_text_overlay": "UNDER 2.25 GOALS"
+      }
+    ]
+  }
+}

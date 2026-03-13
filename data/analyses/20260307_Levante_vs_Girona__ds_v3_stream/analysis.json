@@ -1,0 +1,166 @@
+{
+  "key": "20260307_Levante_vs_Girona__ds_v3_stream",
+  "match": {
+    "home_team": "Levante",
+    "away_team": "Girona",
+    "league": "La Liga",
+    "date": "2026-03-07",
+    "home_id": 539,
+    "away_id": 547
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 36.4,
+    "score_draw": 30.3,
+    "score_away": 33.3,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician explicitly predicts a 'tight' match with 'fewer goals than the historical H2H average'. Levante's cascading profile shows Under 2.5 Goals suitability at 5/7 with just 1.4 total goals per match in their last five home games, while Girona's away profile shows 2.2 total goals per match. Both teams' recent form points toward low-scoring encounters, overriding the historical high-scoring H2H pattern due to current squad crises. (2) DIRECTION EVIDENCE — The mathematical evidence overwhelmingly supports under_goals. The EdgeCalculator shows a massive 49.2% edge on Under 1.75 Goals, with strong edges on Under 2.25 Goals (45.0%) and Under 2.75 Goals (38.2%). The Auditor's adjusted probabilities show Under 2.5 at 77% and Under 1.5 at 55%. The Tactician's analysis of Girona's possession dominance against Levante's deep block creates a controlled, patient match rather than an open encounter. The cascading profile convergence on Under 2.5 Goals is weak (36%), but this reflects Girona's historical BTTS tendency rather than their current injury-ravaged state. (3) AGENTS CONSENSUS — Strong alignment on low-scoring outcome. The Tactician predicts 'tight' with 'fewer goals'. The Sceptic's surprise scenario is a 'low-scoring Levante win'. The Auditor recommends Under 1.75 Goals as 'the most credible value opportunity'. The Quant's narrative supports 'low total expectation'. The Archivist notes current squad crises could disrupt the high-scoring historical pattern. Only the historical H2H data (75% Over 2.5) contradicts, but this is based on outdated matches with different squads. (4) RISKS — The primary risk is Girona's possession dominance creating more chances than anticipated, or Levante's late-game scoring threat (10 goals in 76-90') materialising against Girona's vulnerability in that period. A red card could open the game up, as seen in the last H2H meeting. However, both teams' severe injury lists and Levante's improving defensive stability at home make a goal-fest unlikely.",
+    "key_factors": [
+      "Girona's severe injury crisis removes their most experienced attacking threats (Stuani, Portu, van de Beek)",
+      "Levante's recent home defensive improvement (0.8 GA/m in last 5 home matches)",
+      "Massive mathematical edge on Under 1.75 Goals (49.2% from EdgeCalculator)",
+      "Tactician predicts a 'tight' match with Girona controlling possession but lacking cutting edge"
+    ],
+    "risk_factors": [
+      "Historical H2H pattern shows 75% Over 2.5 goals across eight meetings",
+      "Levante's late-game scoring threat meets Girona's vulnerability in final 15 minutes",
+      "Red card scenario could dramatically change match dynamics"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.25 Goals",
+        "prediction": "Under 2.25",
+        "confidence": 67
+      },
+      {
+        "market": "AH Home 0.25",
+        "prediction": "Levante +0.25",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 49.2,
+      "edge_source": "EdgeCalculator our_prob (76.6%) minus market implied probability (27.4%)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 1.75 Goals",
+          "edge": 49.2
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 45.0
+        },
+        {
+          "market": "Under 2.75 Goals",
+          "edge": 38.2
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Tactician, Sceptic, Auditor, and EdgeCalculator all strongly align on a low-scoring match outcome. The Quant's narrative supports fewer goals, and the Scouts note both teams' scoring limitations. Only the Archivist's historical data contradicts, but this is appropriately caveated by squad changes and current context.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 49.2
+  },
+  "display_texts": {
+    "home_position": "#19 (21 pts, -16 GD)",
+    "away_position": "#14 (30 pts, -15 GD)",
+    "home_form": "5W-7D-15L in 27 matches, last 5: LLLDW",
+    "away_form": "7W-9D-10L in 26 matches, last 5: LLLDL",
+    "home_stats": "29 goals in 27 matches (avg 1.1/match), 5 clean sheets",
+    "away_stats": "27 goals in 26 matches (avg 1.0/match), 4 clean sheets",
+    "h2h_history": "Levante 1-1 Girona (07 Mar 2026)\nGirona 0-4 Levante (20 Sep 2025)\nGirona 1-2 Levante (12 May 2019)\nLevante 2-2 Girona (04 Jan 2019)\nGirona 1-1 Levante (31 Mar 2018)",
+    "home_injuries": "C. Alvarez (Missing Fixture - Injury), R. Brugue (Missing Fixture - Knee Injury), U. Elgezabal (Missing Fixture - Knee Injury), P. Martinez (Missing Fixture - Knee Injury), U. Raghouber (Missing Fixture - Muscle Injury)",
+    "away_injuries": "R. Artero (Missing Fixture - Ankle Injury), B. Gil (Missing Fixture - Knee Injury), Juan Carlos (Missing Fixture - Knee Injury), A. Moreno (Missing Fixture - Muscle Injury), Portu (Missing Fixture - Knee Injury)",
+    "api_predictions": "API-Football prediction: Girona | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Girona",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Levante vs Girona: Why We're NOT Betting This La Liga Clash",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a desperate, relegation-threatened side meets an opponent whose entire attacking spine has been ripped out by injury? At the Ciutat de València, Levante's fight for survival collides with Girona's possession-based system operating on life support. The history screams goals — six of eight meetings have seen over two point five. But tonight, the numbers tell a different story — one of defensive battles, mathematical edges, and a market that offers no clear path to value.",
+    "chapter_home": "Levante are anchored in the relegation zone with a home record that inspires little confidence. They have won just two of fourteen matches at the Ciutat de València this season. Their primary threat comes late — ten of their twenty-nine total goals have arrived in the final fifteen minutes, a pattern of persistence against tiring defences. Five players are listed as injured, severely limiting tactical flexibility and squad depth. Yet, there are flickers of defensive improvement. In their last five home matches, they have conceded just four goals — an average of zero point eight per game. The narrative is one of desperation meeting a fragile stability. Manager Julián Calero must find a way to turn defensive resilience into three precious points against a wounded opponent.",
+    "chapter_away": "Girona travel with a profile defined by draws and a chronic inability to score freely on the road. Their twenty-three percent away win rate tells the story of a side that struggles to turn possession into victories. But the real story is their crippling injury crisis. The Archivist reports eight players absent — a severe selection crisis that decimates their spine. Key striker Cristhian Stuani, creative midfielder Donny van de Beek, and goalkeeper Marc-André ter Stegen are all missing. This removes their most experienced attacking threats and organisational core. Their tactical identity — built on fifty-nine point seven percent average possession and eighty-nine percent pass accuracy — remains, but the cutting edge has been surgically removed. They control matches but lack the personnel to finish them.",
+    "chapter_history": "Historically, this is a high-scoring fixture. Six of the eight meetings have produced over two point five goals, averaging three per match. Levante hold a slight edge with three wins to Girona's two. The most recent clash, a four-nil Levante rout in September, was defined by Girona finishing with nine men. Yet, a five-year gap exists in the head-to-head data, meaning the middle three meetings involved completely different squads. The last encounter before that, a one-one draw, suggests a new equilibrium. While history points to entertainment, the current context of severely depleted squads creates a volatile clash where survival instinct may override all historical trends.",
+    "chapter_analysis": "The tactical setup predicts a tight, controlled affair. Girona will dominate possession through their technical midfield, but their injury-ravaged attack must find a way past a Levante defence showing recent resilience. The Tactician gives the structural edge to the visitors but predicts 'fewer goals than the historical average'. This aligns with the mathematical evidence. The EdgeCalculator shows a massive forty-nine point two percent edge on Under one point seven five Goals. The Auditor's adjusted probabilities place Under two point five Goals at seventy-seven percent. The Sceptic challenged the initial assessment of Girona's strength, highlighting the critical flaw in their injury data and predicting a low-scoring Levante win. The Quant identified significant Poisson gaps favouring Levante on Asian Handicap lines, but a fundamental contradiction exists — the Tactician's possession edge for Girona versus the Quant's handicap support for Levante. The overwhelming consensus is for a low-scoring match, yet the market offers no qualifying line that meets our strict value threshold.",
+    "chapter_value": "Our market: NO BET. The analysis is clear — this fixture points strongly toward a low-scoring outcome. The mathematical edge on Under one point seven five Goals is exceptional at forty-nine point two percent. However, our betting framework requires a minimum odds threshold of one point seven zero, and no qualifying line from the under-goals markets meets this criterion. While alternative markets like AH Home plus zero point two five show a thirteen point two percent edge, the Auditor's effective confidence sits at just sixty-two percent due to the tactical contradiction and sample size concerns. Sometimes, the strongest analytical signal does not translate into a bettable opportunity. The bookmakers have not mis-priced this match egregiously enough for us to act.",
+    "ending": "The Boot Room verdict is to pass on Levante versus Girona. The evidence converges on a defensive battle shaped by Girona's devastating injury crisis and Levante's desperate, improving home defence. The value simply is not there at the required odds. In betting, discipline is as important as insight — knowing when to walk away preserves capital for clearer opportunities. If you found this deep dive valuable, subscribe to The Boot Room for more forensic match analysis. Drop a comment below on whether you see value we missed. Boot Room out.",
+    "roundup_summary": "Levante versus Girona. Nineteenth hosts twelfth in La Liga. Levante's last five home form reads draw, win, loss, loss, draw — averaging just one point four total goals per match. Girona's last five away show three draws, a win, and a loss, averaging two point two goals. Levante miss five players, while Girona's crisis is severe with eight absences decimating their spine.\n\nThe head-to-head history is explosive. Six of eight meetings have seen Over two point five goals, averaging three per match. Levante won the last clash four-nil in September 2025, with Girona reduced to nine men. The previous meeting in May 2025 ended one-one. This season, Levante scores zero point nine three goals per home game and concedes one point five seven. Girona scores one point zero eight away and concedes one point three one.\n\nThe Boot Room analysis identifies a massive forty-nine point two percent mathematical edge on Under one point seven five Goals, with Poisson probabilities strongly favouring a low-scoring match. The Quant's edge on Asian Handicap lines like Home plus one point zero reached fifteen point nine percentage points, supported by Girona's injury-depleted attack. The Sceptic's critical concern was the flawed assessment of Girona's injury crisis, which the analysis corrected, leading to a low-scoring expectation. The bookmaker has not mis-priced the match sufficiently — while Under markets show huge edges, the available odds fail to meet the minimum one point seven zero threshold for a qualifying bet. The Auditor's effective confidence is sixty-two percent, tempered by a tactical contradiction between Girona's possession edge and Levante's handicap value.\n\nThe verdict is to pass. No market offers the combination of clear edge and acceptable odds required for a Boot Room recommendation. The strong under-goals direction lacks a bettable line. Boot Room market: NO BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Collision",
+        "voiceover": "A desperate fight for survival meets a team playing without its spine. Levante, anchored in the relegation zone, face a Girona side missing eight players — their striker, creator, and goalkeeper all absent. History says goals. Reality says crisis.",
+        "graphic_type": "conflict",
+        "graphic_description": "Split visual: Levante's desperate manager on one side, Girona's empty treatment room with eight missing player silhouettes on the other.",
+        "graphic_text_overlay": "SURVIVAL VS CRISIS"
+      },
+      {
+        "scene": 2,
+        "name": "Levante's Flicker of Hope",
+        "voiceover": "Levante's home form is dire — just two wins all season. But a flicker of hope emerges from the data. In their last five home matches, they have conceded only four goals. An average of zero point eight per game. Their threat comes late — ten goals in the final fifteen minutes. It is desperation with a plan.",
+        "graphic_type": "home_card",
+        "graphic_description": "Levante's crest with a stark stat: 'Last 5 Home: 0.8 GA/m' and a timeline highlighting the 76-90' period.",
+        "graphic_text_overlay": "LATE PERSISTENCE"
+      },
+      {
+        "scene": 3,
+        "name": "Girona's Hollow Control",
+        "voiceover": "Girona's identity is possession — fifty-nine point seven percent average, eighty-nine percent pass accuracy. But their attack has been gutted. Stuani, van de Beek, ter Stegen — eight players missing. They will control the ball but lack the personnel to hurt Levante. This is a system running on fumes.",
+        "graphic_type": "away_card",
+        "graphic_description": "Girona's crest superimposed over a midfield schematic, with red crosses over key attacking player silhouettes.",
+        "graphic_text_overlay": "POSSESSION WITHOUT TEETH"
+      },
+      {
+        "scene": 4,
+        "name": "The Mathematical Truth",
+        "voiceover": "The numbers scream one outcome. The EdgeCalculator shows a forty-nine point two percent edge on Under one point seven five Goals. The Auditor's model gives Under two point five a seventy-seven percent probability. Every qualitative check — the Tactician's 'tight' prediction, the Sceptic's low-scoring scenario — aligns. The market has not priced this correctly.",
+        "graphic_type": "evidence",
+        "graphic_description": "A full-screen data card showing 'Under 1.75 Goals EDGE: 49.2%' and 'Auditor Prob: Under 2.5 @ 77%' in bold typography.",
+        "graphic_text_overlay": "49.2% EDGE"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO BET. The analysis is unequivocal — a low-scoring match is the overwhelming probability. Yet, no qualifying line meets our strict odds threshold of one point seven zero. The value is clear, but the bettable opportunity is not. Sometimes the strongest signal requires the discipline to pass. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, final graphic with the Boot Room logo, the words 'NO BET', and the key reasoning: 'Edge: 49.2% | Odds Threshold: 1.70 | Verdict: PASS'.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

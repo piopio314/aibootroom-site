@@ -1,0 +1,166 @@
+{
+  "key": "20260308_Motor_Lublin_vs_Gornik_Zabrze__ds_v3_stream",
+  "match": {
+    "home_team": "Motor Lublin",
+    "away_team": "Gornik Zabrze",
+    "league": "Ekstraklasa",
+    "date": "2026-03-08",
+    "home_id": 14562,
+    "away_id": 340
+  },
+  "prediction": {
+    "direction": "home_value",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — home_value direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 38.0,
+    "score_draw": 28.0,
+    "score_away": 34.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC matchup. Motor Lublin's stable home form, consistent scoring threat, and improving defence contrast sharply with Gornik Zabrze's declining away momentum, poor defensive record, and inability to secure away victories. The cascading profiles show Motor Lublin's home win suitability at 4/5 versus Gornik's away win suitability at 0/5, creating a clear structural imbalance. (2) DIRECTION EVIDENCE — The mathematical edge strongly supports home value. The EdgeCalculator identifies a 16.5% edge on AH Home 0.25, the highest among all markets. This aligns with the Quant's identification of significant Poisson gaps favouring Motor Lublin on positive handicaps (+1.0 and +1.25 lines showing 8.7% edges). The Tactician's structural analysis awards the tactical edge to the home side, citing their consistent home scoring directly exploiting Gornik's porous away defence. The cascading matchup convergence shows STRONG alignment (67%) on BTTS Yes, indicating both teams' profiles support goal involvement, which further benefits the home side's attacking credentials. (3) AGENTS CONSENSUS — The Quant, Tactician, and EdgeCalculator are aligned on home value. The Home Scout's assessment of rising form is challenged by the Sceptic, but their core conclusion of home advantage remains. The Archivist notes historical low-scoring patterns but acknowledges the context flip with Gornik's high motivation. The Auditor recommends the AH Home 0.25 market as the optimal balance of edge and risk. The primary dissent comes from the market itself, which prices Gornik's motivation and cup morale higher than quantitative models suggest, creating the value opportunity. (4) RISKS — The Sceptic correctly identifies the motivation differential as underweighted in quantitative models; a highly motivated Gornik performance could override their poor away statistics. Motor Lublin's late-match vulnerability (10 goals conceded in the 76-90 minute period) could be exploited by a Gornik side that scores in that window. The small sample size for some cover rates (4 matches) introduces statistical uncertainty. However, the 16.5% mathematical edge on AH Home 0.25 provides sufficient buffer to override the Sceptic's qualitative veto, as it represents clear statistical value.",
+    "key_factors": [
+      "Motor Lublin's consistent home scoring record, failing to score only once in 12 home matches",
+      "Gornik Zabrze's poor away defensive record, conceding 1.73 goals per match on the road",
+      "Strong mathematical edge (16.5%) on AH Home 0.25 identified by EdgeCalculator",
+      "STRONG BTTS convergence (67%) in cascading profiles supporting goal involvement"
+    ],
+    "risk_factors": [
+      "Gornik Zabrze's high motivation for European qualification could override poor away form",
+      "Motor Lublin's pronounced vulnerability in the final 15 minutes of matches",
+      "Small sample sizes for some statistical cover rates (4 matches)"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75",
+        "confidence": 58
+      },
+      {
+        "market": "BTTS Yes",
+        "prediction": "Both Teams to Score",
+        "confidence": 63
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 16.5,
+      "edge_source": "EdgeCalculator our_prob minus market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Home 0.25",
+          "edge": 16.5
+        },
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 15.7
+        },
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 14.1
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Quant, Tactician, and EdgeCalculator are aligned on home value, supported by the Auditor's recommendation. The Home Scout's assessment provides qualitative support, though their form trend is challenged. The Sceptic and market pricing dissent, highlighting Gornik's motivation as a counter-factor.",
+    "_direction_nobet_reason": "no_line_qualifies (home_value/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.56,
+    "max_edge": 16.5
+  },
+  "display_texts": {
+    "home_position": "#13 (30 pts, -5 GD)",
+    "away_position": "#4 (34 pts, +2 GD)",
+    "home_form": "7W-9D-7L in 23 matches, last 5: WLDDL",
+    "away_form": "10W-4D-9L in 23 matches, last 5: WWLLW",
+    "home_stats": "32 goals in 23 matches (avg 1.4/match), 5 clean sheets",
+    "away_stats": "33 goals in 23 matches (avg 1.4/match), 4 clean sheets",
+    "h2h_history": "Motor Lublin 0-0 Gornik Zabrze (08 Mar 2026)\nGornik Zabrze 0-1 Motor Lublin (30 Aug 2025)\nGornik Zabrze 4-0 Motor Lublin (15 Mar 2025)\nMotor Lublin 1-0 Gornik Zabrze (13 Sep 2024)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Motor Lublin | Probabilities: 45%-45%-10% | Recommendation: Double chance : Motor Lublin or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "0:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Motor Lublin vs Gornik Zabrze: The Motivation vs Reality Clash",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a team with everything to play for meets a side with nothing to lose? Gornik Zabrze travel to Motor Lublin with European qualification on the line, but their away form tells a story of chronic failure. The market believes motivation will override statistics — but does the data support that faith?",
+    "chapter_home": "Motor Lublin arrive with back-to-back victories and a sense of building momentum. Sitting thirteenth in the Ekstraklasa, they are comfortably clear of relegation but too far from European contention — this is a classic mid-table fixture with reduced pressure. Their strength lies in a remarkably consistent scoring threat at home, having failed to find the net just once in twelve matches at their own stadium. They deploy a structured 4-1-4-1 formation, with shot numbers trending upwards to four point three on target per match. Defensively, they have shown recent improvement at home, conceding just one point two five goals per game over their last five. However, a thirty-three percent home win rate reveals a persistent inability to convert performances into victories. A pronounced vulnerability in the final fifteen minutes is their Achilles heel — they have conceded ten goals in the seventy-six to ninety minute period this season. With a full squad available, their narrative is one of a team playing for pride and momentum, free from the weight of expectation.",
+    "chapter_away": "Gornik Zabrze travel with morale sky-high after a famous Polish Cup victory over Lech Poznan. Sitting fourth in the table, they are locked in a fierce battle for European qualification — every single point is vital. That cup-winning euphoria, however, masks a dismal league reality on the road. Their away form is declining, with just one win in their last five matches. They have won only three of eleven away fixtures all season, conceding one point seven three goals per match as visitors. Like their hosts, they typically deploy a 4-1-4-1, with a concentration of scoring in the thirty-one to forty-five minute period. While they score in nine of eleven away matches, showing they are rarely shut out, their defensive frailties are chronic. The question hanging over them is stark — can the psychological boost from their cup heroics translate into a league performance that defies their miserable travelling statistics? The market believes it can, pricing their win chance at thirty-nine percent, far above what their form suggests.",
+    "chapter_history": "The head-to-head record between these sides is brief but revealing. In four meetings, there has never been a draw. Motor Lublin hold a slight edge with two victories, both by a single goal. Gornik Zabrze's one win, however, was emphatic — a comprehensive four-nil thrashing in March 2025. Historically, this has been a low-scoring fixture, averaging just one point five goals per match, with only one of the four encounters seeing over two point five goals. The pattern suggests cagey, tense affairs where one decisive moment settles it. Yet the current context flips this historical script on its head — Gornik's high-stakes pursuit of Europe could override all previous patterns.",
+    "chapter_analysis": "This is a clash of asymmetric profiles. Motor Lublin's stable home form and consistent scoring directly exploit Gornik Zabrze's porous away defence. The tactical matchup is a mirror — both in 4-1-4-1 shapes — creating a congested midfield battle. The real story may unfold in two critical windows. The thirty-one to forty-five minute period is a danger zone where Gornik scores eight goals and Motor Lublin concedes eight. Then, the final quarter-hour pits Motor Lublin's late collapse against Gornik's own scoring in that window. The Sceptic forcefully challenged the narrative, highlighting the massive motivation differential. The market prices Gornik's win probability at thirty-nine percent, vastly higher than quantitative models suggest, effectively betting that cup morale and European hunger will override poor away form. While mathematical models identified a sixteen point five percent edge on an Asian Handicap favouring Motor Lublin, this value is contingent on the home side's form holding firm against a highly motivated opponent. The Auditor's reconciliation notes the conflict — strong directional signals for the home side are countered by the market's heavy pricing of situational intangibles.",
+    "chapter_value": "Our market: NO BET. The mathematical edge exists, but it is built on a foundation the market does not trust. Bookmakers have priced Gornik Zabrze's motivation and cup-winning morale aggressively, creating odds that offer no clear value. The highest identified edge of sixteen point five percent on Asian Handicap Home zero point two five is compelling on paper, but it requires us to dismiss the market's core thesis — that a team fighting for Europe can transcend its statistics. With the Auditor's effective confidence at fifty-eight percent and the Gaffer's tribunal showing only moderate consensus, the uncertainty is too high. The odds do not compensate for the risk that motivation overrides form. Sometimes, the smartest play is to watch and learn.",
+    "ending": "The Boot Room verdict is to pass on this fixture. Confidence: zero percent. The analysis reveals a fascinating tension between statistical reality and narrative momentum, but no market line offers sufficient mathematical edge after accounting for the priced-in motivation. For Motor Lublin, it is about proving their rising form is genuine. For Gornik Zabrze, it is about proving the market right. We will be watching closely. If you found this deep dive valuable, subscribe to The Boot Room for more forensic match analysis. Boot Room out.",
+    "roundup_summary": "Motor Lublin versus Gornik Zabrze. The hosts sit thirteenth with stable mid-table security, arriving with two consecutive victories. Their last five matches show two wins, one draw, and two losses. The visitors occupy fourth place, embroiled in a European qualification race, but their form is declining with just one win in their last five league outings. A key narrative is Gornik's sky-high morale following a major cup win, contrasted against their poor away defensive record of one point seven three goals conceded per match on the road.\n\nThe head-to-head history spans four meetings, with zero draws. Motor Lublin have won two, including the last encounter, while Gornik Zabrze's sole victory was a emphatic four-nil result in March 2025. The average goals per meeting is just one point five. This season, Motor Lublin average one point three three goals scored and one point five eight conceded per game overall, while Gornik average one point three eight scored and one point five four conceded. The historical trend leans towards low-scoring affairs, but the current context suggests a potential override.\n\nThe Boot Room analysis identified a significant mathematical edge of sixteen point five percent on the Asian Handicap Home zero point two five market, derived from Poisson probability gaps. The Quant's assessment showed an eight point seven percent edge on the Home plus one point zero line, supported by Motor Lublin's strong home cover rates. However, the Sceptic's primary concern was validated: the market has heavily priced Gornik Zabrze's situational motivation for European football, creating a thirty-nine percent implied win probability that dwarfs their quantitative baseline of seven point seven percent. The bookmaker has effectively judged that intangible factors — cup morale and high stakes — outweigh Gornik's dismal away form and Motor Lublin's home scoring consistency. The Auditor's adjusted probabilities of thirty-eight percent home win, twenty-eight percent draw, and thirty-four percent away win reflect this tension, resulting in an effective confidence of just fifty-eight percent for any directional market.\n\nThe verdict is to avoid a position. No qualifying market line offers sufficient value after the market's aggressive pricing of motivational factors. The risk that Gornik's European pursuit produces a performance beyond their statistical profile is too great at the available odds. Boot Room market: NO BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Motivation Premium",
+        "voiceover": "The market believes motivation can rewrite form. Gornik Zabrze fight for Europe — but they have won just one of their last five away league matches. Their price implies a thirty-nine percent chance of victory. The data suggests that faith is expensive.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split visual: on one side, a trophy and a European football badge; on the other, a chart showing a steep decline in away form with red downward arrows.",
+        "graphic_text_overlay": "MOTIVATION VS REALITY"
+      },
+      {
+        "scene": 2,
+        "name": "Motor Lublin's Home Fortress",
+        "voiceover": "Motor Lublin are building something at home. They have failed to score just once in twelve matches here. Their defence is tightening, conceding only one point two five goals per game recently. But a thirty-three percent home win rate asks a persistent question — can they close the deal?",
+        "graphic_type": "home_card",
+        "graphic_description": "A dynamic graphic showing Motor Lublin's home stadium, with key stats overlaid: '12 Home Matches', '1 Failed to Score', '1.25 GA/Last 5'.",
+        "graphic_text_overlay": "CONSISTENT THREAT"
+      },
+      {
+        "scene": 3,
+        "name": "Gornik's Travel Sickness",
+        "voiceover": "For Gornik Zabrze, the road has been a path of frustration. They concede nearly two goals per away game. One win in their last five travels tells the story. Yet, after a famous cup win, they carry a belief that this time will be different. The data is sceptical.",
+        "graphic_type": "away_card",
+        "graphic_description": "A stark graphic of a lonely football on a road, with damaging stats appearing: '1.73 Goals Conceded/Away', '27% Away Win Rate', '1 Win in Last 5'.",
+        "graphic_text_overlay": "AWAY FORM CRISIS"
+      },
+      {
+        "scene": 4,
+        "name": "The Tactical Deadlock",
+        "voiceover": "Both teams deploy identical 4-1-4-1 formations — a mirror that promises a congested midfield. The clash points are in the timing. The half-hour mark and the final fifteen minutes are critical danger zones where both teams' pronounced strengths and weaknesses violently collide.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Two mirrored 4-1-4-1 formation diagrams clashing in the centre. Highlighted zones show '31-45 min' and '76-90 min' with goal icons for each team.",
+        "graphic_text_overlay": "MIRROR MATCHUP"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict: No Value",
+        "voiceover": "Our market: NO BET. A sixteen point five percent mathematical edge exists, but it is built on dismissing the market's core bet — that motivation overrides statistics. The odds price in Gornik's hope, leaving no value for us. Sometimes, the smartest play is to watch. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final graphic with the Boot Room logo. Large text states 'NO BET'. Smaller text below shows 'Market: NO BET', 'Confidence: 0%', 'Edge: 16.5% (Priced Out)'.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

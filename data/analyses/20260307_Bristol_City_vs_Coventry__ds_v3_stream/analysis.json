@@ -1,0 +1,174 @@
+{
+  "key": "20260307_Bristol_City_vs_Coventry__ds_v3_stream",
+  "match": {
+    "home_team": "Bristol City",
+    "away_team": "Coventry",
+    "league": "Championship",
+    "date": "2026-03-07",
+    "home_id": 56,
+    "away_id": 1346
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 27.8,
+    "score_draw": 27.8,
+    "score_away": 51.3,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match with strong ASYMMETRIC elements. The cascading form profiles show 71% convergence on Over 2.5 goals, the highest convergence level in the matchup analysis. Bristol City's defensive crisis (two key centre-backs out) meets Coventry's potent away attack (2.0 goals per away match), creating structural conditions for multiple goals. (2) DIRECTION EVIDENCE — The Edge Calculator shows a 19.6% edge on Over 3.25 Goals, the highest among all markets. The Tactician predicts a 'transitional with attacking emphasis' match with 'more goals than the historical average'. Both teams' recent form shows high goal involvement: Bristol City conceding 2.2 goals per home match in their last five, Coventry scoring 2.2 goals per match in their last five. The Sceptic directly challenges the historical low-scoring narrative, noting the strong convergence data overrides past patterns. (3) AGENTS CONSENSUS — Strong alignment: The Tactician (match character prediction), The Sceptic (challenge to historian), The Auditor (recommends Over 3.25), Edge Calculator (19.6% edge), and cascading profiles (71% convergence) all support high goals. Dissent comes only from The Archivist citing historical low-scoring patterns, but this is overridden by current form convergence. The Quant shows no value bets but acknowledges the 71% convergence signal. (4) RISKS — Rotation risk with both teams facing Championship matches in 3-4 days could lead to conservative approaches. Bristol City's defensive reshuffle might unexpectedly hold firm. Coventry's away form shows some vulnerability in the 61-75 minute period where they've conceded 11 goals, but this actually supports goal-scoring rather than undermines it. The confidence is capped at 53% due to the mandatory rotation risk penalty and unverified edge persistence.",
+    "key_factors": [
+      "71% convergence on Over 2.5 goals from cascading form profiles",
+      "Bristol City's defensive injury crisis removing two key centre-backs",
+      "Coventry's formidable away attack averaging 2.0 goals per match",
+      "Edge Calculator shows 19.6% edge on Over 3.25 Goals"
+    ],
+    "risk_factors": [
+      "Rotation risk with both teams playing Championship matches in 3-4 days",
+      "Unverified edge persistence for all markets in Edge Calculator analysis",
+      "Historical H2H pattern shows low-scoring matches averaging 1.9 goals"
+    ],
+    "alternative_markets": [
+      {
+        "market": "AH Away -0.75",
+        "prediction": "Coventry -0.75",
+        "confidence": 48
+      },
+      {
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75",
+        "confidence": 51
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 19.6,
+      "edge_source": "Edge Calculator probability minus market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 19.6
+        },
+        {
+          "market": "AH Away -0.75",
+          "edge": 16.7
+        },
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 16.4
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "Strong consensus for high goals: The Tactician predicts attacking emphasis, The Sceptic challenges historical low-scoring narrative, The Auditor recommends Over 3.25, Edge Calculator shows 19.6% edge, and cascading profiles show 71% convergence. Only The Archivist dissents based on historical patterns.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 19.6
+  },
+  "display_texts": {
+    "home_position": "#10 (50 pts, +4 GD)",
+    "away_position": "#1 (71 pts, +34 GD)",
+    "home_form": "14W-8D-13L in 35 matches, last 5: WDDWW",
+    "away_form": "22W-8D-6L in 36 matches, last 5: DWWDD",
+    "home_stats": "48 goals in 35 matches (avg 1.4/match), 11 clean sheets",
+    "away_stats": "74 goals in 36 matches (avg 2.1/match), 12 clean sheets",
+    "h2h_history": "Bristol City 0-2 Coventry (07 Mar 2026)\nCoventry 1-0 Bristol City (13 Dec 2025)\nCoventry 1-0 Bristol City (18 Jan 2025)\nBristol City 1-1 Coventry (24 Aug 2024)\nBristol City 0-1 Coventry (13 Aug 2024)",
+    "home_injuries": "R. Atkinson (Missing Fixture - Ankle Injury), R. Dickie (Missing Fixture - Hamstring Injury), L. McNally (Missing Fixture - Knee Injury), J. Williams (Missing Fixture - Hamstring Injury)",
+    "away_injuries": "O. Dovin (Missing Fixture - Knee Injury), M. Brau (Questionable - Muscle Injury)",
+    "api_predictions": "API-Football prediction: Coventry | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Coventry",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "0:2",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Bristol City vs Coventry: Why We're NOT Betting This Fixture",
+    "thumbnail_text": "NO BET ALERT",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a league-leading attack meets a defence in crisis? On paper, Bristol City versus Coventry looks like a perfect storm for goals. Coventry arrive as Championship leaders, scoring two goals per away match. Bristol City face them without their first-choice centre-back pairing. Yet despite all the signals pointing toward a high-scoring affair, The Boot Room is taking a highly unusual stance tonight. We are not placing a bet.",
+    "chapter_home": "Bristol City arrive at Ashton Gate in a state of disarray. Their defensive injury crisis has stripped them of two key centre-backs, Rob Dickie and Ross Atkinson, forcing a complete reshuffle at the back. This comes at the worst possible time, with their recent home form showing just one win in their last five matches. Manager Liam Manning's public plea for fan support betrays a squad low on confidence following their FA Cup exit. While they maintain a solid home scoring average of one point five six goals per match, their defensive structure is critically compromised. Their three-four-two-one formation is built on defensive stability, but that foundation is now missing. With a congested schedule offering little respite, the big question is whether this patched-up defence can withstand any serious pressure from the league's most potent attack.",
+    "chapter_away": "Coventry City are the Championship's form team, riding a five-match winning streak and sitting top of the table. Their away record is formidable, winning forty-seven percent of their road trips while averaging two goals per away match. Their four-two-three-one setup generates consistent threat, with a notable concentration of goals in the thirty-one to sixty minute windows. However, they are not invincible. They concede an average of one point three two goals per away match, showing particular vulnerability in the sixty-one to seventy-five minute period where they have shipped eleven goals. Fixture congestion is also a material risk, with four matches in fourteen days potentially prompting squad rotation. While their mathematical baseline projects an extraordinarily high win probability, their actual away win rate suggests a strong but not overwhelming favourite.",
+    "chapter_history": "The historical pattern between these sides tells a story of tight, low-scoring chess matches. Across their last ten meetings, the average is just one point nine goals per game, with only twenty percent of matches seeing over two point five goals. Four of those ten meetings ended in draws—a forty percent draw rate highlighting how evenly contested this fixture often is. Coventry hold the recent edge, unbeaten in the last four meetings with three wins and one draw. Their last encounter in March was a fiery two-nil Coventry victory that saw two red cards. History suggests caution, but tonight's context—a title-chasing leader against a depleted mid-table side—could rewrite that narrative entirely.",
+    "chapter_analysis": "The tactical collision here is stark. Bristol City's narrow back three must withstand Coventry's relentless wide attacks from their four-two-three-one formation. The home side's central overload seeks to puncture Coventry's double pivot, but their patched-up defence faces constant counter-threats. Our cascading form profiles show a seventy-one percent convergence on Over two point five goals, the highest signal in our matchup analysis. The Edge Calculator identifies a nineteen point six percent edge on Over three point two five Goals. The Sceptic directly challenged the historical low-scoring narrative, arguing current form overrides past patterns. The Tactician predicts a transitional match with attacking emphasis, suggesting more goals than the historical average. Yet, despite this strong directional consensus for high goals, our quantitative analysis reveals a critical flaw. The Asian handicap market shows precise alignment between Poisson probabilities and market-implied probabilities, with no significant mispricing detected. While the qualitative story screams goals, the numbers tell us the bookmakers have already priced it in efficiently.",
+    "chapter_value": "Our market: NO BET. The Boot Room operates on one principle—we only act when we identify a clear mathematical edge. Tonight, that edge does not exist in a qualifying market. The Over three point two five Goals line shows a nineteen point six percent edge, but it fails our minimum odds filter of one point seven zero. The Asian handicap markets are efficiently priced, with Poisson probabilities matching market-implied probabilities exactly. The Auditor's effective confidence sits at sixty-two percent, but this is for a market direction, not a specific bet. Sometimes the strongest analysis leads to the simplest conclusion: the market is correctly priced. We have conviction in the over goals direction, but no line qualifies for a wager at our required confidence threshold.",
+    "ending": "The Boot Room verdict is clear: pass on this fixture. Bristol City's defensive crisis meets Coventry's formidable attack in what should be a high-scoring affair, but the bookmakers have priced the probability correctly. Our analysis shows a seventy-one percent convergence for Over two point five goals and a nineteen point six percent edge on Over three point two five, yet no market meets our strict value criteria. In betting, discipline is everything. Recognising when to stay out is as important as knowing when to go in. Boot Room out.",
+    "roundup_summary": "Bristol City versus Coventry. The Championship leaders travel to Ashton Gate to face a mid-table side in defensive crisis. Coventry sit top with fifty-one points, riding a five-match winning streak. Bristol City are sixteenth with thirty-five points, showing poor recent home form of one win in five. The hosts are without key centre-backs Rob Dickie and Ross Atkinson, forcing a major defensive reshuffle.\n\nThe head-to-head history shows a tight, low-scoring fixture. The last ten meetings average one point nine goals, with only twenty percent exceeding two point five. Coventry are unbeaten in the last four encounters, winning three and drawing one. Their most recent meeting in March ended two-nil to Coventry. This season, Bristol City average one point five six goals scored and one point six two conceded per home match. Coventry average two goals scored and one point three two conceded per away match.\n\nThe Boot Room analysis identified a seventy-one percent convergence on Over two point five goals from cascading form profiles, the highest signal in the matchup. The Poisson λ values showed no probability gap exceeding five percentage points in Asian handicap markets, indicating efficient pricing. The Quant's edge assessment found a nineteen point six percent edge on Over three point two five Goals, but this market failed the minimum odds filter. The Sceptic's critical challenge—that the Home Scout grossly overstated Bristol City's win probability at thirty-nine percent—was validated, with the implied probability from market odds at twenty-seven point eight percent. The bookmaker has not mis-priced this fixture; the Asian handicap lines show perfect alignment between Poisson and market-implied probabilities, while the high goal expectation is already reflected in the totals markets.\n\nThe Boot Room market is NO BET. No qualifying line offers sufficient mathematical edge at the required odds threshold of one point seven zero. While the directional analysis strongly favours over goals, the market is efficiently priced. Confidence: zero percent. Boot Room market: NO BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Perfect Storm",
+        "voiceover": "A league-leading attack averaging two goals per away match. A home defence stripped of its first-choice centre-back pairing. On paper, Bristol City versus Coventry is a perfect storm for goals. Yet despite every signal pointing toward a high-scoring affair, The Boot Room is taking a stand. We are not betting.",
+        "graphic_type": "conflict",
+        "graphic_description": "Split-screen visual: Coventry's attacking stats on fire on one side, Bristol City's defensive injury crisis with red crosses on the other.",
+        "graphic_text_overlay": "STORM WITHOUT VALUE"
+      },
+      {
+        "scene": 2,
+        "name": "Home in Disarray",
+        "voiceover": "Bristol City are in crisis. Rob Dickie and Ross Atkinson are out, forcing a complete defensive reshuffle. Their manager has publicly pleaded for fan support, betraying a squad low on confidence. One win in their last five home matches tells the story—a patched-up defence facing the league's most potent attack.",
+        "graphic_type": "home_card",
+        "graphic_description": "Bristol City's empty defensive line with question marks, overlayed with injury icons for Dickie and Atkinson.",
+        "graphic_text_overlay": "DEFENSIVE CRISIS"
+      },
+      {
+        "scene": 3,
+        "name": "Away Momentum",
+        "voiceover": "Coventry are the Championship's form team. Five consecutive wins. Top of the table. They score two goals per away game. But they are not invincible—they concede in the final half-hour, and fixture congestion threatens rotation. Their mathematical win probability is extreme, but their actual forty-seven percent away win rate tells a more balanced story.",
+        "graphic_type": "away_card",
+        "graphic_description": "Coventry's crest with a fiery momentum trail, stats showing 5 wins, 2.0 goals/away.",
+        "graphic_text_overlay": "TITLE MOMENTUM"
+      },
+      {
+        "scene": 4,
+        "name": "History vs Now",
+        "voiceover": "History says this is a tight, low-scoring fixture—averaging just one point nine goals. But current form screams the opposite. Our cascading profiles show a seventy-one percent convergence on Over two point five goals. The Sceptic challenged the historian, arguing today's data overrides yesterday's patterns. The collision is set.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "An old, dusty book labelled 'History' with '1.9 goals' on the page, being shattered by a modern data graph showing '71% Over 2.5'.",
+        "graphic_text_overlay": "PAST VS PRESENT"
+      },
+      {
+        "scene": 5,
+        "name": "The Mathematical Truth",
+        "voiceover": "The Edge Calculator shows a nineteen point six percent edge on Over three point two five Goals. The Tactician predicts a transitional, high-scoring match. Every qualitative signal points toward goals. But here is the truth the numbers reveal: the Asian handicap market is perfectly priced. Poisson probabilities match market-implied probabilities exactly. The bookmakers have not made a mistake.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A scale balancing qualitative analysis icons on one side and precise mathematical equations on the other, showing perfect equilibrium.",
+        "graphic_text_overlay": "PRICED TO PERFECTION"
+      },
+      {
+        "scene": 6,
+        "name": "The Only Verdict",
+        "voiceover": "Our market: NO BET. The nineteen point six percent edge on Over three point two five fails our minimum odds filter. The Asian lines show zero gap. The Auditor's effective confidence is sixty-two percent for the direction, but no qualifying bet exists. Sometimes the strongest analysis leads to the simplest conclusion—the market is right. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A bold, red 'NO BET' stamp overlaid on the match fixture graphic, with mathematical symbols fading in the background.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

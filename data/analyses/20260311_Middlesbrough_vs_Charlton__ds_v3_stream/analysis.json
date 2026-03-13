@@ -1,0 +1,175 @@
+{
+  "key": "20260311_Middlesbrough_vs_Charlton__ds_v3_stream",
+  "match": {
+    "home_team": "Middlesbrough",
+    "away_team": "Charlton",
+    "league": "Championship",
+    "date": "2026-03-11",
+    "home_id": 70,
+    "away_id": 1335
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "Under 2.25 Goals",
+    "prediction": "Under 2.25 Goals",
+    "confidence": 53,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 2.5,
+    "score_home": 55.0,
+    "score_draw": 34.4,
+    "score_away": 10.6,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician's match character prediction is 'tight', forecasting 'fewer goals than average'. Middlesbrough's recent home form shows a dramatic drop in attacking output (0.5 goals per match in last two home games) and a 100% draw rate, while Charlton's away profile is defined by defensive resilience (two consecutive 1-1 draws) and a chronic inability to win on the road. The cascading profiles show a MODERATE convergence (43%) on Under 2.5 Goals, with Charlton's away profile strongly favouring it (4/7). (2) DIRECTION EVIDENCE — The mathematical baseline supports this. The Quant's Poisson probabilities show Under 2.5 Goals at 52.0%, slightly above the market-implied 48.0%. The Auditor recommends Under 2.5 Goals as the most credible market, citing support from the Tactician's 'tight' prediction, low-scoring H2H history (avg 1.6 goals), and recent low-scoring form. The EdgeCalculator shows positive edges on Under 2.25 Goals (+10.5%) and Under 2.75 Goals (+9.4%), confirming mathematical value in lower goal totals. (3) AGENTS CONSENSUS — The Tactician, Archivist, and Auditor align on a low-scoring, tight match. The Sceptic's 'surprise scenario' is a 0-0 draw. The Home Scout notes Middlesbrough's 'attack can be blunt at home', and the Away Scout highlights Charlton's 'blunt' attack. The primary dissent comes from the market's heavy home favouritism, which the Auditor flags as anchored to season-long reputation, not recent form. The Sceptic's NO_BET veto is not triggered (verdict: PROCEED). (4) RISKS — The rotation risk cap (confidence ≤55%) is a major factor, as uncertain XIs make form data less reliable. Middlesbrough's late-game scoring prowess (11 goals in 76-90 mins) versus Charlton's vulnerability in the same period could produce a late goal. A single defensive error from Middlesbrough's Fry-less backline could open the scoring. The 31-45 minute period is a danger zone where Middlesbrough scores heavily, which could break the low-scoring pattern early.",
+    "key_factors": [
+      "Middlesbrough's recent home attacking bluntness (0.5 goals per match in last two)",
+      "Charlton's improving away defensive resilience and high draw tendency",
+      "Strong cascading profile convergence (70%) on a Draw outcome",
+      "Tactician's 'tight' match character prediction favouring fewer goals",
+      "Historical H2H pattern of low-scoring matches (avg 1.6 goals)"
+    ],
+    "risk_factors": [
+      "Rotation risk cap due to uncertain team selections",
+      "Middlesbrough's strength in the 31-45 minute scoring window",
+      "Late-game vulnerability of Charlton's defence (13 goals conceded 76-90')"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Draw",
+        "prediction": "Draw",
+        "confidence": 47
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 4.0,
+      "edge_source": "Quant probability (52.0%) minus market implied probability (48.0%)",
+      "edge_grade": "MARGINAL",
+      "staking_signal": "MARGINAL",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away 0.25",
+          "edge": 51.5
+        },
+        {
+          "market": "AH Away 0.5",
+          "edge": 44.2
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 10.5
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Archivist, and Auditor agree on a low-scoring, tight match character, supported by the Sceptic's surprise scenario of a 0-0 draw. The Home and Away Scouts both note attacking deficiencies. The primary disagreement is with the market's implied heavy home win probability, which the Auditor and Sceptic challenge as misaligned with recent form and profile convergence.",
+    "_direction": "under_goals",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.2625,
+    "_direction_prob": 50.5,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.32,
+    "max_edge": 51.5
+  },
+  "display_texts": {
+    "home_position": "#2 (69 pts, +23 GD)",
+    "away_position": "#18 (44 pts, -10 GD)",
+    "home_form": "20W-9D-7L in 36 matches, last 5: WWWWD",
+    "away_form": "11W-11D-14L in 36 matches, last 5: WDLLD",
+    "home_stats": "58 goals in 36 matches (avg 1.6/match), 11 clean sheets",
+    "away_stats": "34 goals in 36 matches (avg 0.9/match), 12 clean sheets",
+    "h2h_history": "Middlesbrough 0-0 Charlton (11 Mar 2026)\nCharlton 1-2 Middlesbrough (09 Dec 2025)\nCharlton 0-1 Middlesbrough (07 Mar 2020)\nMiddlesbrough 1-0 Charlton (07 Dec 2019)\nCharlton 2-0 Middlesbrough (13 Mar 2016)",
+    "home_injuries": "A. Bangura (Missing Fixture - Injury), A. Jones (Missing Fixture - Injury), D. Lenihan (Missing Fixture - Achilles Tendon Injury), S. Silvera (Missing Fixture - Injury), D. Fry (Questionable - Injury)",
+    "away_injuries": "R. Burke (Missing Fixture - Injury), J. Edwards (Missing Fixture - Ankle Injury), M. Godden (Missing Fixture - Hamstring Injury), H. Knibbs (Missing Fixture - Ankle Injury), T. Kaminski (Questionable - Inactive)",
+    "api_predictions": "API-Football prediction: Middlesbrough | Probabilities: 45%-45%-10% | Recommendation: Double chance : Middlesbrough or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "WIN",
+    "label": "WIN",
+    "color": "#22c55e",
+    "pnl": 1.5,
+    "score": "0:1",
+    "market": "Under 2.25 Goals"
+  },
+  "script": {
+    "title": "Middlesbrough vs Charlton: The Fortress With A Crack",
+    "thumbnail_text": "DEFENSIVE STALEMATE",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a promotion-chasing fortress loses its defensive anchor? Middlesbrough's Riverside has been a fortress all season, conceding less than a goal a game. But tonight, with key defender Darragh Fry missing, that fortress shows a crack. And they face a Charlton side that has forgotten how to win away but has learned how to draw. This is not a match about who wins. This is a match about what doesn't happen.",
+    "chapter_home": "Middlesbrough arrive at the Riverside sitting second in the Championship, a position built on a formidable home record. They have conceded just 0.71 goals per match here and kept eight clean sheets. Yet their last two home matches have both ended in draws, scoring just once across those 180 minutes. The promotion pressure is immense, but their attack has gone blunt at the worst possible time. The critical injury to central defender Darragh Fry removes a primary organiser from a back line that has been exceptionally solid. Their tactical setup is a 4-2-3-1 focused on control and defensive solidity, but recent form shows a clear stall. They are draw-prone at home, with 50% of their last four ending level. The narrative is one of a team that knows how to defend but has forgotten how to kill games.",
+    "chapter_away": "Charlton arrive with a clear survival mandate, sitting 18th and deep in a relegation battle. Their away form is defined by an inability to win, securing just three victories all season on the road. But a recent spike in draws shows a stubborn defensive resolve, with consecutive 1-1 results against West Brom and Southampton. Their attack is blunt, averaging only 0.89 goals per away match, and they are missing multiple attacking options through injury. Their tactical approach is a 3-1-4-2, designed to absorb pressure and counter, but their primary strength is frustration. They concede heavily late in games, with 13 goals against in the 76-90 minute period, which could be their undoing. The question is whether their newfound defensive resilience can withstand the pressure of a must-not-lose fixture.",
+    "chapter_history": "History strongly favours Middlesbrough in this fixture. They have won 70% of the last ten meetings and kept a clean sheet in seven of those encounters. The pattern is consistently low-scoring, with an average of just 1.6 goals per match. Both teams have scored in only 30% of meetings. The most recent clash in December saw a 2-1 Middlesbrough win, but the sheer weight of history comes from a different era. Only two meetings have occurred in the last six years. While the record suggests dominance, the current context—with Middlesbrough's defensive injury and Charlton's survival fight—creates a very different kind of tension.",
+    "chapter_analysis": "The tactical matchup reveals a clash of styles destined for congestion. Middlesbrough's 4-2-3-1 seeks to control possession and overload Charlton's single pivot in midfield. Charlton's back three provides numerical superiority against the lone striker, inviting pressure into wide areas they aim to defend. The Tactician predicts a 'tight' match character with 'fewer goals than average'. This aligns perfectly with the cascading form profiles, which show a 70% convergence on a Draw outcome. The Sceptic challenged the Home Scout's assessment of 'stable' form, pointing to the clear recent decline in Middlesbrough's home attacking output. This critique stands—their last two home games produced just one goal total. The Auditor flags the market's heavy home favouritism as being anchored to season-long reputation, not this recent stall. The key factors are clear: Middlesbrough's blunt attack, Charlton's defensive resilience, and a structural setup that congests the midfield. The risk lies in Middlesbrough's strength in the 31-45 minute window and Charlton's late-game vulnerability, but the overarching narrative points to scarcity, not abundance.",
+    "chapter_value": "Our market: Under 2.25 Goals. The mathematical baseline supports this direction. The Quant's Poisson model shows a 52.0% probability for Under 2.5 Goals, creating a 4.0 percentage point edge over the market's implied probability. The EdgeCalculator identifies a stronger 10.5% edge on the Under 2.25 line. At odds of 2.5, this represents value in a match where the Tactician, the historical data, and the recent form profiles all converge on a low-scoring, tense affair. The bookmakers have priced this for a routine Middlesbrough win, but the data tells a story of stalemate.",
+    "ending": "The Boot Room verdict is a speculative play on scarcity. Under 2.25 Goals at 2.5, with 53% confidence. This is a match where the defences, one missing its leader and the other finding new resolve, are likely to outweigh the blunt attacks. The market expects goals from a promotion contender; we see a fortress with a crack, but one that's still hard to breach. If you found this analysis valuable, subscribe to AI Boot Room for data-driven breakdowns of every major fixture. Boot Room out.",
+    "roundup_summary": "Middlesbrough versus Charlton. The hosts sit second in the Championship, chasing automatic promotion, while Charlton occupy 18th place, embroiled in a relegation battle. Middlesbrough's form shows a concerning stall at home with two consecutive draws, scoring just once. Charlton's away form is defined by draws, with two straight 1-1 results, but they have won just three times on the road all season. A key injury sidelines Middlesbrough's defensive anchor, Darragh Fry.\n\nThe head-to-head history strongly favours Middlesbrough, who have won seven of the last ten meetings. The pattern is low-scoring, with an average of just 1.6 goals per match across those fixtures, and both teams scoring in only 30% of them. This season, Middlesbrough average 1.53 goals scored and concede 0.71 per home game. Charlton average a blunt 0.89 goals scored and concede 1.56 per away match. Recent meetings and current profiles suggest an Under trend.\n\nThe Boot Room analysis identifies a mathematical edge in the goals market. The Quant's Poisson model gives Under 2.5 Goals a 52.0% probability, a 4.0 percentage point edge over the market-implied 48.0%. The EdgeCalculator shows a stronger 10.5% edge on Under 2.25 Goals. The Sceptic's primary concern was the mischaracterisation of Middlesbrough's home form as 'stable' when recent data shows a clear attacking decline. This critique is validated and central to the verdict, as the market appears anchored to Middlesbrough's season-long reputation, not their recent bluntness. The Tactician's 'tight' match character prediction and the 70% profile convergence on a Draw further support a low-scoring outcome. The Auditor's effective confidence aligns at 52%.\n\nThe verdict is a speculative position on a lack of goals. Boot Room market: Under 2.25 Goals. This requires two or fewer total goals for a full win, with a push resulting from exactly three. The odds are 2.5 with a confidence level of 53%. Boot Room market: Under 2.25 Goals. Confidence: 53%.",
+    "short_segment": "Middlesbrough host Charlton in the Championship. The promotion-chasing hosts, second in the table, have seen their home form stall with two straight draws. The visitors, 18th and in a relegation fight, are draw specialists on the road but have a blunt attack. History shows a low-scoring trend, with an average of just 1.6 goals in past meetings. The Boot Room lands on Under 2.25 Goals at odds of 2.5, with 53% confidence. The data points to a tense, congested match where defensive concerns outweigh attacking quality. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Cracked Fortress",
+        "voiceover": "A promotion-chasing fortress, built on conceding less than a goal a game at home, faces its toughest test without its defensive anchor. Darragh Fry is out. And into that crack walks a Charlton side that has forgotten how to win away but has mastered the art of the draw. This is the tension.",
+        "graphic_type": "conflict",
+        "graphic_description": "A dramatic, low-angle shot of a football stadium fortress wall with a single, prominent crack running through it. The home team badge is on the wall, slightly fractured.",
+        "graphic_text_overlay": "THE ANCHOR IS GONE"
+      },
+      {
+        "scene": 2,
+        "name": "Middlesbrough's Stall",
+        "voiceover": "Middlesbrough's Riverside form has stalled. Two consecutive home draws. Just one goal scored. Their attack has gone blunt under promotion pressure. The system is a controlling 4-2-3-1, but the recent output tells a story of congestion and frustration, not dominance.",
+        "graphic_type": "home_card",
+        "graphic_description": "A visual of Middlesbrough's last two home results (D, D) fading into a single, isolated goal graphic. A downward trend arrow overlays their attacking stats.",
+        "graphic_text_overlay": "BLUNT AT HOME"
+      },
+      {
+        "scene": 3,
+        "name": "Charlton's Resilience",
+        "voiceover": "Charlton arrive with a survival mandate and a new defensive resolve. Consecutive 1-1 draws on the road against strong opposition. Their 3-1-4-2 is built to absorb. Their attack is chronically weak, but their recent point-taking suggests they have learned how to be stubborn.",
+        "graphic_type": "away_card",
+        "graphic_description": "A shot of a Charlton defender making a last-ditch block. The graphic highlights their two recent 1-1 away draw results.",
+        "graphic_text_overlay": "STUBBORN ON THE ROAD"
+      },
+      {
+        "scene": 4,
+        "name": "The Tactical Gridlock",
+        "voiceover": "The matchup creates a gridlock. Middlesbrough's midfield overload meets Charlton's deep block. The Tactician calls it 'tight', forecasting fewer goals. The cascading form profiles scream a 70% convergence on a draw. This is not a match about breaking lines. It is a match about surviving them.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A tactical board showing Middlesbrough's 4-2-3-1 midfield overload pressing against Charlton's compact 3-1-4-2 defensive block. A large '70%' is overlaid, pointing to the draw convergence.",
+        "graphic_text_overlay": "70% DRAW CONVERGENCE"
+      },
+      {
+        "scene": 5,
+        "name": "The Market Mispricing",
+        "voiceover": "The market is priced for a routine Middlesbrough win, anchored to their season-long reputation. But the mathematical baseline tells a different story. The Quant's model shows a 52% probability for Under 2.5 goals—a 4% edge. The real value lies one step further down.",
+        "graphic_type": "evidence",
+        "graphic_description": "A clean graphic showing two probability bars: 'Market Implied: 48%' and 'Poisson Model: 52%' for Under 2.5 Goals. A +4% edge is highlighted.",
+        "graphic_text_overlay": "THE 4% EDGE"
+      },
+      {
+        "scene": 6,
+        "name": "The Boot Room Verdict",
+        "voiceover": "Our market: Under 2.25 Goals. At odds of 2.5, with 53% confidence. This is a speculative play on scarcity in a match defined by a cracked fortress and a stubborn survivor. The bookmakers see a promotion party. We see a tense, low-scoring stalemate. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, bold final graphic. The text 'UNDER 2.25 GOALS' is central. Below it: 'ODDS: 2.50' and 'CONFIDENCE: 53%'.",
+        "graphic_text_overlay": "UNDER 2.25 GOALS"
+      }
+    ]
+  }
+}

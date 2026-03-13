@@ -1,0 +1,161 @@
+{
+  "key": "20260307_Athletic_Club_vs_Barcelona__ds_v3_stream",
+  "match": {
+    "home_team": "Athletic Club",
+    "away_team": "Barcelona",
+    "league": "La Liga",
+    "date": "2026-03-07",
+    "home_id": 531,
+    "away_id": 529
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 21.7,
+    "score_draw": 23.8,
+    "score_away": 54.5,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading form profiles show a STRONG 79% convergence for Over 2.5 Goals, the single strongest data signal in the entire analysis. Both teams' recent five-match windows average high goal totals (Athletic 2.80, Barcelona 3.60). The Tactician's character prediction is 'transitional', highlighting Barcelona's possession dominance meeting Athletic's counter-attacking threat and both teams' defensive vulnerabilities, which structurally supports a higher-scoring affair. (2) DIRECTION EVIDENCE — The mathematical evidence for an Over direction is compelling. The Auditor's adjusted probability for Over 2.5 is 65%, significantly above the implied probability from a typical market price. The Tactician explicitly states the setup 'suggests more goals than average' and aligns with the strong convergence data. Barcelona have scored in every away match this season (13/13) and average 1.80 goals per away match in their last five. Athletic, while missing Nico Williams, have seen Both Teams To Score in 80% of their last five matches, indicating they both score and concede reliably. (3) AGENTS CONSENSUS — The direction is supported by the cascading profile convergence (79%), the Tactician's goals expectation, and the Archivist's H2H average of 2.5 goals per match. The Sceptic notes the strong Over 2.5 convergence as a 'missing factor' not highlighted by the scouts, adding weight to the signal. The primary dissent comes from the Quant and Auditor, who find the 1X2/AH markets efficiently priced and show no edge on goals markets due to missing odds data. However, their analysis does not contradict the Over thesis; it merely cannot price it. The Scouts are split on the result but both acknowledge attacking threats and defensive issues that feed the Over narrative. (4) RISKS — The primary risk is Barcelona's rotation ahead of their Champions League tie, which could dampen their attacking intensity or lead to a more controlled, lower-tempo game. Athletic's attack is flagged as 'DECREASING' and they are without their key creative outlet, Nico Williams, which could blunt their ability to contribute to the goal tally. Furthermore, Barcelona have kept six clean sheets in the last ten H2H meetings, showing they can nullify Athletic historically. A low-scoring Barcelona victory, as suggested by the Sceptic, remains a plausible surprise scenario.",
+    "key_factors": [
+      "STRONG 79% profile convergence for Over 2.5 Goals from both teams' recent form",
+      "Barcelona's 100% away scoring record this season and high average goals",
+      "Athletic Club's high BTTS rate (80% last 5) indicating defensive vulnerability",
+      "Tactician's analysis of a 'transitional' match with spaces for counter-attacks"
+    ],
+    "risk_factors": [
+      "Barcelona's significant rotation risk due to Champions League fixture in 3 days",
+      "Athletic Club's attack shows a 'DECREASING' trend and is missing Nico Williams",
+      "Historical H2H shows Barcelona can keep clean sheets against Athletic"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Both Teams To Score - Yes",
+        "prediction": "BTTS Yes",
+        "confidence": 60
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 0.0,
+      "edge_source": "N/A - Quant provided no goals market odds for edge calculation",
+      "edge_grade": "NO_VALUE",
+      "staking_signal": "PASS",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Home 0.25",
+          "edge": 43.8
+        },
+        {
+          "market": "AH Home 0.5",
+          "edge": 36.7
+        },
+        {
+          "market": "AH Home 0.75",
+          "edge": 31.5
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "Consensus for an Over goals direction is moderate, built on the strong convergence data and tactical analysis, but is challenged by the lack of quantifiable edge from the Quant and the significant qualitative risks flagged by the Sceptic and rotation warning.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 43.8
+  },
+  "display_texts": {
+    "home_position": "#9 (35 pts, -6 GD)",
+    "away_position": "#1 (64 pts, +45 GD)",
+    "home_form": "10W-5D-11L in 26 matches, last 5: WWWLL",
+    "away_form": "21W-1D-4L in 26 matches, last 5: WWDWW",
+    "home_stats": "30 goals in 26 matches (avg 1.2/match), 5 clean sheets",
+    "away_stats": "71 goals in 26 matches (avg 2.7/match), 10 clean sheets",
+    "h2h_history": "Athletic Club 0-0 Barcelona (07 Mar 2026)\nBarcelona 5-0 Athletic Club (07 Jan 2026)\nBarcelona 4-0 Athletic Club (22 Nov 2025)\nAthletic Club 0-3 Barcelona (25 May 2025)\nAthletic Club 0-2 Barcelona (08 Jan 2025)",
+    "home_injuries": "Y. Alvarez (Missing Fixture - Doping), U. Egiluz (Missing Fixture - Knee Injury), A. Paredes (Missing Fixture - Contusion), B. Prados Diaz (Missing Fixture - Knee Injury), M. Sannadi (Missing Fixture - Knee Injury)",
+    "away_injuries": "A. Balde (Missing Fixture - Hamstring Injury), A. Christensen (Missing Fixture - Knee Injury), Gavi (Missing Fixture - Knee Injury), J. Kounde (Missing Fixture - Hamstring Injury), F. de Jong (Missing Fixture - Hamstring Injury)",
+    "api_predictions": "API-Football prediction: Barcelona | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Barcelona",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "0:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Barcelona's Title Test at San Mamés — Why We're Passing",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "Seventy-nine percent. That's the overwhelming statistical signal screaming from the data for Athletic Club versus Barcelona. Both teams' recent form converges on one outcome — goals. Yet, the league leaders travel with a patched-up defence and one eye on Europe. The market sees the tension. But does it see the trap?",
+    "chapter_home": "Athletic Club arrive at San Mamés with momentum, unbeaten in their last five league matches. Their form is rising, built on a solid 4-2-3-1 structure and a reputation for late surges — thirty percent of their goals come in the final fifteen minutes. However, the underlying trend reveals a critical flaw: their attack is decreasing. The absence of Nico Williams, their key creative outlet, strips them of pace and directness. While their home record shows resilience — a fifty-four percent win rate and just 1.15 goals conceded per match — their recent unbeaten run has come against an average opponent rank of thirteenth. The question is whether this form, built against weaker sides, can withstand the step up in quality against the league leaders.",
+    "chapter_away": "Barcelona travel as league leaders, but they carry heavy baggage. Their formidable away record is undeniable — scoring in every single one of their thirteen away matches this season, with an average of 1.80 goals in their last five. Yet, their defence is vulnerable, conceding 1.54 goals per away match. The squad is stripped bare, missing five key players including defensive stalwarts Christensen and Koundé. Morale is low after Copa del Rey elimination, and a crucial Champions League tie looms in just three days, creating a severe rotation risk. They possess the firepower but are wrapped in uncertainty — a high-scoring machine with a fragile chassis, distracted by Europe and internal crisis.",
+    "chapter_history": "History heavily favours the visitors. Barcelona have won seven of the last ten meetings, keeping a clean sheet in six of those fixtures. The most recent encounter in January was a brutal five-goal demonstration of their superiority. The average goals per meeting sits at 2.5, with both teams scoring in forty percent of matches. Athletic's solitary win in this period — a 4-2 home victory in 2024 — serves as a blueprint but remains the anomaly in a pattern of Barcelona control. Recent history provides immense psychological confidence for the Catalans, but their current defensive absences present the first real crack in that armour for years.",
+    "chapter_analysis": "The tactical matchup is a classic clash of styles. Barcelona will dominate possession with their 4-3-3, averaging over seventy percent away from home. Athletic's 4-2-3-1 is set up to absorb and counter, targeting the spaces behind Barcelona's advanced full-backs. The Tactician identifies this as a 'transitional' match, structurally supporting more goals than average. The key battle lies in Athletic's central overload against Barcelona's depleted defence. The Sceptic challenged both scouts' extreme win probabilities — a bullish fifty-five percent for Athletic and a pessimistic twenty-seven percent for Barcelona — noting they were poorly calibrated against the mathematical baseline. The market implied probabilities, at twenty-two percent and sixty-one percent respectively, align more closely with the raw data. The strongest signal of all is the seventy-nine percent convergence from both teams' recent form for Over 2.5 goals, a deafening statistical chorus.",
+    "chapter_value": "Our market: NO BET. The Auditor's adjusted probability for Over 2.5 goals sits at sixty-five percent, suggesting clear value in that direction. However, the Quant's analysis reveals a critical data gap — no market odds were available to calculate a mathematical edge for any goals-based market. The Asian Handicap market is efficiently priced, showing perfect alignment with the Poisson mathematical model. While the EdgeCalculator flagged massive theoretical edges on home Asian handicaps, these are contradicted by every other quantitative signal and create an unresolvable direction conflict. With an effective confidence of just fifty percent and no verifiable edge, the only prudent position is to pass. The bookmakers have this one priced correctly.",
+    "ending": "Sometimes the smartest play is to watch from the sidelines. The data screams for goals, but the market offers no line to qualify our conviction. Barcelona's defensive crisis and European distraction clash with Athletic's resilient home form and blunt attack. It's a fascinating tactical puzzle, but not a betting puzzle we can solve with an edge today. Boot Room out.",
+    "roundup_summary": "Athletic Club versus Barcelona. The hosts sit mid-table with reduced pressure, arriving unbeaten in their last five league matches. Barcelona lead La Liga, but their form is a paradox of formidable away scoring and vulnerable defending. Athletic's last five matches average 2.80 total goals, while Barcelona's average a remarkable 3.60. The Basques are without creative winger Nico Williams. Barcelona miss five key players, including four defenders, with a Champions League tie looming.\n\nThe head-to-head record is one-sided. Barcelona have won seven of the last ten meetings, including a 5-0 victory in January 2026. They have kept six clean sheets in that period. The average goals per meeting is 2.5. This season, Athletic score 1.38 and concede 1.15 goals per home match. Barcelona average 1.80 scored and 1.54 conceded on their travels. Both Teams To Score has landed in eighty percent of Athletic's last five games.\n\nThe Boot Room analysis identifies a seventy-nine percent convergence from both teams' recent form for Over 2.5 goals, the strongest signal in the data. The Auditor's adjusted probability for this outcome is sixty-five percent. However, the Quant found no market odds for goals markets, making edge calculation impossible. The Sceptic successfully challenged the scouts' miscalibrated win probabilities, which the market corrected. The Asian Handicap market is efficiently priced, showing zero probability gaps against the Poisson baseline. While the EdgeCalculator showed a forty-three point eight percent edge on AH Home 0.25, this was an outlier contradicted by all other data, creating a direction conflict. The bookmaker has not mis-priced an opportunity; they have priced the uncertainty perfectly.\n\nThe verdict is to pass. With no quantifiable edge on any market and an effective confidence of fifty percent, there is no value bet. The Over 2.5 goals direction is compelling but unplayable at current odds. Boot Room market: NO BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Screaming Statistic",
+        "voiceover": "Seventy-nine percent. That's the number. The overwhelming convergence from both teams' recent form — screaming for goals. But the league leaders travel wounded, and the market sees the trap. This is the tension at San Mamés.",
+        "graphic_type": "hook",
+        "graphic_description": "A dramatic, abstract visual of the number 79% glowing prominently, with faint silhouettes of Athletic Club and Barcelona players clashing in the background.",
+        "graphic_text_overlay": "79% CONVERGENCE"
+      },
+      {
+        "scene": 2,
+        "name": "The Fortress with a Crack",
+        "voiceover": "Athletic Club are unbeaten in five, a fortress built on late goals and defensive grit. But their attack is decreasing, and they are without their spark — Nico Williams. Their form is real, but built against weaker opposition. Can it withstand the ultimate test?",
+        "graphic_type": "home_card",
+        "graphic_description": "A focused shot of San Mamés stadium, with Athletic Club's crest and key stats like 'Unbeaten in 5' and '30% goals 76-90'' overlaid. Nico Williams is shown faded out.",
+        "graphic_text_overlay": "MOMENTUM MEETS ABSENCE"
+      },
+      {
+        "scene": 3,
+        "name": "The Wounded Giant",
+        "voiceover": "Barcelona are a paradox. They score in every away match — a perfect thirteen from thirteen. Yet their defence is vulnerable, stripped of five key players. Morale is low, Europe looms, and rotation is inevitable. A high-scoring machine with a fragile chassis.",
+        "graphic_type": "away_card",
+        "graphic_description": "Barcelona's crest alongside contrasting stats: '100% Away Scoring' vs '1.54 GA/Away'. Icons for injured players (Balde, Christensen, Koundé) are crossed out.",
+        "graphic_text_overlay": "SCORES ALWAYS, DEFENDS RARELY"
+      },
+      {
+        "scene": 4,
+        "name": "The Market's Perfect Price",
+        "voiceover": "The data points to goals. The Tactician predicts a transitional, high-scoring affair. But the Quant's analysis reveals the truth — the Asian Handicap market is perfectly efficient, with zero gap against the mathematical model. The bookmakers see everything we see.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A clean, analytical graphic showing a Poisson probability curve perfectly aligned with a market-implied probability line. Text highlights '0.0pp GAP' and 'MARKET EFFICIENCY'.",
+        "graphic_text_overlay": "NO PROBABILITY GAP"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict: Walk Away",
+        "voiceover": "Our market: NO BET. The Auditor sees a sixty-five percent chance for Over 2.5 goals, but with no odds to calculate an edge, it's an unplayable direction. The theoretical edges elsewhere are contradictions. The smart move is to watch a fascinating puzzle we cannot solve. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A bold, clear card with 'NO BET' as the central verdict. Smaller text shows 'Confidence: 0%' and 'Odds: N/A'. The Boot Room logo is prominent.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

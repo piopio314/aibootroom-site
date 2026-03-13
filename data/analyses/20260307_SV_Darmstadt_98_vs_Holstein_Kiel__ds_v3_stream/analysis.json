@@ -1,0 +1,165 @@
+{
+  "key": "20260307_SV_Darmstadt_98_vs_Holstein_Kiel__ds_v3_stream",
+  "match": {
+    "home_team": "SV Darmstadt 98",
+    "away_team": "Holstein Kiel",
+    "league": "2. Bundesliga",
+    "date": "2026-03-07",
+    "home_id": 181,
+    "away_id": 191
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 50.0,
+    "score_draw": 30.0,
+    "score_away": 20.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING fixture. The cascading profiles show STRONG convergence (93%) on Over 2.5 Goals, the highest possible alignment. Darmstadt's home attack averages 2.20 goals per match, while Kiel's away defence concedes 2.60. The tactical setup is one-sided with transitional moments, not a defensive battle. (2) DIRECTION EVIDENCE — The mathematical case is overwhelming. The Quant's Poisson gap for Over 2.5 Goals is 70 percentage points, the largest identified. The Auditor's adjusted probability is 65%. The Tactician explicitly states 'more goals than average' due to Darmstadt's strong home attack meeting Kiel's porous defence. The historical average for this fixture is 2.7 goals, with both teams scoring in 60% of recent meetings. (3) AGENTS CONSENSUS — The direction is supported by the Tactician (goals impact), the Quant (largest gap), the Auditor (recommended market), and the cascading profiles (93% convergence). The Archivist notes a moderately high-scoring pattern. The Sceptic's 'surprise scenario' of a low-scoring win is the sole dissent, but it is explicitly flagged as a surprise against the strong convergence. The Home Scout's tactical shift to caution is noted but is outweighed by the structural attacking advantages. (4) RISKS — The primary risk is Darmstadt's potential tactical over-adjustment following their first defeat, leading to a more controlled, possession-heavy game that limits their own output. Kiel's chronic inability to score (0 goals in their last match) could also see them fail to contribute. However, Kiel's away record shows they rarely fail to score (only once in 12), and Darmstadt's defensive solidity at home is offset by Kiel's specific vulnerability in the 46-60 minute period where Darmstadt scores heavily.",
+    "key_factors": [
+      "STRONG 93% profile convergence on Over 2.5 Goals from both teams' recent form",
+      "Kiel's away defence concedes 2.60 goals per match on average",
+      "Historical fixture average of 2.7 goals with frequent BTTS",
+      "Tactician's analysis predicts 'more goals than average' due to the structural mismatch"
+    ],
+    "risk_factors": [
+      "Darmstadt's potential tactical shift towards a more cautious, possession-dominant approach",
+      "Kiel's recent attacking form is poor, with 0 goals in their last match"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75",
+        "confidence": 61
+      },
+      {
+        "market": "AH Home -0.75",
+        "prediction": "Home -0.75",
+        "confidence": 59
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 39.1,
+      "edge_source": "EdgeCalculator our_prob (85.0%) vs market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Home -0.75",
+          "edge": 39.1
+        },
+        {
+          "market": "AH Home -1.5",
+          "edge": 30.1
+        },
+        {
+          "market": "AH Home -1.25",
+          "edge": 26.6
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "Strong consensus for a high-scoring match. The Tactician, Quant, Auditor, and cascading profiles all align on Over 2.5 Goals. The Sceptic's lone dissenting 'surprise scenario' is acknowledged but does not constitute a veto, as their overall recommendation is to PROCEED.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 39.1
+  },
+  "display_texts": {
+    "home_position": "#4 (45 pts, +17 GD)",
+    "away_position": "#15 (25 pts, -6 GD)",
+    "home_form": "12W-9D-3L in 24 matches, last 5: WWDLW",
+    "away_form": "6W-7D-11L in 24 matches, last 5: LLWLW",
+    "home_stats": "45 goals in 24 matches (avg 1.9/match), 9 clean sheets",
+    "away_stats": "29 goals in 24 matches (avg 1.2/match), 5 clean sheets",
+    "h2h_history": "SV Darmstadt 98 2-0 Holstein Kiel (07 Mar 2026)\nHolstein Kiel 1-1 SV Darmstadt 98 (04 Oct 2025)\nSV Darmstadt 98 1-2 Holstein Kiel (06 Jan 2024)\nHolstein Kiel 0-3 SV Darmstadt 98 (30 Apr 2023)\nSV Darmstadt 98 1-1 Holstein Kiel (21 Oct 2022)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "P. Erras (Missing Fixture - Concussion)",
+    "api_predictions": "API-Football prediction: SV Darmstadt 98 | Probabilities: 45%-45%-10% | Recommendation: Winner : SV Darmstadt 98",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "2:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Darmstadt vs Kiel: The Fortress Meets The Crisis",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when an impenetrable fortress meets a defence in freefall? SV Darmstadt 98 have not lost a single home match all season — twelve games unbeaten with a defence conceding less than a goal per game. Holstein Kiel arrive leaking nearly three goals per away match, their form rating at rock bottom. The data screams for goals — a 93% convergence on Over 2.5. Yet The Boot Room is walking away. Why?",
+    "chapter_home": "SV Darmstadt 98 are a fortress. Fourth in the table, they are unbeaten in twelve home matches this season, winning nine and drawing three. Their defence at the Merck-Stadion is exceptional, conceding just 0.75 goals per match on average. The attack is multi-faceted, scoring consistently across all phases of play, with a particular strength in the 46-60 minute window where they have netted ten times. A recent tactical shift towards a more cautious, possession-heavy approach following their first defeat in months introduces a note of uncertainty. Their morale is neutral after a controversial red card ended a thirteen-game unbeaten streak, but with a full squad available, they maintain complete tactical flexibility. This is a side built for control and defensive solidity at home.",
+    "chapter_away": "Holstein Kiel are in crisis. Languishing in 15th place and deep in a relegation scrap, their form is in freefall with just one point from their last five matches. Their away record is dire — only two wins all season and a defence that concedes 2.60 goals per match on the road. They are missing key defender Philipp Erras, further weakening an already porous backline. Coach Tim Walter's public criticism of refereeing standards on set-pieces reveals deep tactical anxiety. While they rarely fail to score away from home, their chronic inability to secure points — a 17% away win rate — points to a fundamental structural flaw. This is a desperate team, but desperation alone is not a tactical plan.",
+    "chapter_history": "History firmly favours the hosts. Darmstadt have won four of the last ten meetings, losing just twice, with a significant 40% of those fixtures ending in draws. The average goals per meeting is a moderately high 2.7, with both teams scoring in six of those ten clashes. The most recent meeting in March was defined by a first-half red card for Kiel's M. Muller, which swung a 2-0 victory decisively to Darmstadt. This fixture has a stubborn habit of producing shared points, a pattern that looms large given Kiel's desperate need for them and Darmstadt's promotion ambitions.",
+    "chapter_analysis": "The tactical and quantitative case for a high-scoring match is overwhelming. Darmstadt's strong home attack, averaging 2.20 goals, directly targets Kiel's crumbling away defence. The Quant identified a massive 70 percentage point gap for Over 2.5 Goals, the largest of any market, supported by a 93% convergence in both teams' recent form profiles. The Tactician predicts 'more goals than average' due to this structural mismatch. However, The Sceptic flagged a critical surprise scenario: a low-scoring Darmstadt win driven by their new cautious approach. This is compounded by Kiel's recent attacking impotence — zero goals in their last match. While the direction points clearly to goals, the precise line where value exists becomes the problem. The Auditor adjusted the Over 2.5 probability down to 65% to account for these risks, validating the direction but questioning the extreme probabilities.",
+    "chapter_value": "Our market: NO BET. The analysis reveals a clear directional bias — this should be a high-scoring affair. The mathematical edge for Over 2.5 Goals is theoretically strong at 39.1%, but crucially, no qualifying betting line met our minimum odds filter of 1.70. The market has effectively priced out the value. Alternative markets like Asian Handicap Home -0.75 show similar edges, but the Quant's own assessment flags a minimal 4.1 percentage point gap, suggesting the edge calculation may be overly optimistic. When the bookmakers' numbers align too closely with our risk-adjusted probabilities, the smartest play is to pass. Confidence: 0%.",
+    "ending": "Sometimes the strongest analytical signal meets a market that has already caught on. Darmstadt's fortress and Kiel's crisis create the perfect narrative for goals, but the value has been squeezed dry. The Boot Room will not force a bet where the edge is theoretical, not actionable. We pass on this fixture. If you found this deep dive valuable, subscribe to The Boot Room for clear-eyed analysis that knows when to hold back as well as when to strike. Boot Room out.",
+    "roundup_summary": "SV Darmstadt 98 versus Holstein Kiel. The hosts sit fourth with a formidable home record of nine wins and three draws from twelve matches. Their last five at home read five straight victories. Kiel are 15th, deep in relegation trouble, with a dismal away record of two wins all season and no victories in their last five on the road. They will be without defender Philipp Erras.\n\nThe head-to-head history favours Darmstadt, with four wins to Kiel's two in the last ten meetings, alongside four draws. The average goals in those fixtures is 2.7, with both teams scoring in 60% of them. This season, Darmstadt average 2.20 goals scored per home game, while Kiel concede a staggering 2.60 goals per away match.\n\nThe Boot Room analysis identified an overwhelming quantitative case for goals. The Poisson model showed a 70 percentage point gap for Over 2.5 Goals, the largest of any market, supported by a 93% convergence in both teams' recent form profiles. The Tactician's assessment predicted 'more goals than average' due to the structural mismatch between Darmstadt's strong home attack and Kiel's porous away defence. However, The Sceptic's concern about a potential low-scoring surprise scenario — driven by Darmstadt's new cautious tactical approach — was validated by the Auditor, who adjusted the probability down to 65%. The bookmaker's pricing for goal markets has effectively neutralised the theoretical edge, with no line meeting the required odds threshold for a value bet.\n\nThe verdict is to pass. The directional analysis is sound, but the market offers no actionable value. Boot Room market: NO BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Perfect Storm",
+        "voiceover": "An unbeaten home fortress with a perfect record. A visiting defence in total freefall, conceding nearly three goals per away match. The data screams for a goal fest — a 93% convergence points overwhelmingly to Over 2.5. This should be the easiest call of the week. So why is The Boot Room walking away?",
+        "graphic_type": "conflict",
+        "graphic_description": "A stark visual split: left side shows a formidable medieval castle (Darmstadt fortress), right side shows a crumbling, leaking dam (Kiel defence).",
+        "graphic_text_overlay": "FORTRESS VS FREEFALL"
+      },
+      {
+        "scene": 2,
+        "name": "The Darmstadt Fortress",
+        "voiceover": "SV Darmstadt 98 are impregnable at home. Twelve matches unbeaten, conceding less than a goal per game. Their attack is multi-faceted, but a recent tactical shift towards caution after their first defeat introduces uncertainty. They have the tools for dominance, but will they use them aggressively?",
+        "graphic_type": "home_card",
+        "graphic_description": "A powerful, stoic defender in Darmstadt colours standing firm in front of a goal, with a shield bearing the club crest.",
+        "graphic_text_overlay": "12 UNBEATEN"
+      },
+      {
+        "scene": 3,
+        "name": "Kiel's Collapsing Defence",
+        "voiceover": "Holstein Kiel are in crisis. Fifteenth place, one point from fifteen, and a defence that leaks 2.60 goals every away trip. Missing key defender Erras, their coach is publicly criticising referees — a sign of deep tactical anxiety. They are desperate, but desperation is not a plan.",
+        "graphic_type": "away_card",
+        "graphic_description": "A chaotic scene of a football net bursting at the seams, with multiple footballs flying through it. A dejected Kiel player looks on.",
+        "graphic_text_overlay": "2.60 GA AWAY"
+      },
+      {
+        "scene": 4,
+        "name": "The Value Vanishes",
+        "voiceover": "The Quant's model shows a massive 70-point gap for Over 2.5 goals. The direction is crystal clear. But The Sceptic warned of a low-scoring surprise. The Auditor listened, adjusting the probability down. The market has priced this in perfectly — the theoretical edge is there, but the betting value has vanished.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A large, clear 'OVER 2.5' graphic with a 70% next to it, being crossed out by a red 'X' that represents market pricing.",
+        "graphic_text_overlay": "70% GAP, 0% VALUE"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO BET. Confidence: 0%. The analysis was right — this fixture points to goals. But when the bookmakers' numbers align too closely with our risk-adjusted view, the smartest play is to walk away. The Boot Room knows when to hold back. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, minimalist shot of a hand placing a red 'PASS' chip on a green betting table, next to a discarded 'BET' chip.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

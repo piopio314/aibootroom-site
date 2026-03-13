@@ -1,0 +1,113 @@
+{
+  "key": "20260310_Atalanta_vs_Bayern_München__ds_v3_stream",
+  "match": {
+    "home_team": "Atalanta",
+    "away_team": "Bayern München",
+    "league": "UEFA Champions League",
+    "date": "2026-03-10",
+    "home_id": 499,
+    "away_id": 157
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 21.7,
+    "score_draw": 25.0,
+    "score_away": 53.3,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The Tactician's analysis explicitly predicts an 'open' encounter with 'more goals than average'. Both teams' cascading profiles show strong attacking tendencies: Atalanta's home windows average 5.0 total goals with 100% Over 2.5 rates, while Bayern's away windows show 100% Over 2.5 rates and consistent scoring. The matchup convergence shows moderate alignment on Over 2.5 Goals (57%) and BTTS Yes (58%), confirming the attacking character. (2) DIRECTION EVIDENCE — The mathematical evidence supports goals. The Auditor's adjusted probabilities give Over 2.5 a 57% likelihood. The EdgeCalculator shows strong value on higher goal lines, with Over 3.25 Goals offering an 18.2% edge at odds of 2.03. Both scouts report defensive vulnerabilities: Atalanta concedes in 80% of home matches with zero clean sheets, while Bayern has zero away clean sheets and concedes 1.5 goals per away match. The Tactician notes both teams' attacking intent and defensive weaknesses create conditions for multiple chances. (3) AGENTS CONSENSUS — The Tactician, Auditor, and EdgeCalculator all align on a high-scoring outcome. The Sceptic's surprise scenario is a high-scoring Atalanta home win (3-2), acknowledging the goal potential. The Quant's methodology note cites 'moderate convergence on Over 2.5 Goals (57%)'. The primary dissent comes from the Quant's Poisson gaps showing perfect market alignment (no edge), but this is contradicted by the EdgeCalculator's strong mathematical edge on goal markets. The Sceptic's no_bet_recommendation is 'PROCEED' with conditions, not a veto. (4) RISKS — The rotation risk warning imposes a mandatory confidence cap of 55% due to uncertain XI selection. Atalanta's severe injury crisis (four key players) could blunt their attack more than anticipated. Bayern's absence of Neuer creates goalkeeper vulnerability but might not be fully exploited if Atalanta's depleted attack cannot capitalise. The historical H2H shows zero goals in two meetings, though this sample is too small to be predictive. The Asian Handicap markets show a direction conflict between the Quant and EdgeCalculator, making those markets unplayable, but the goals markets remain available with positive edge.",
+    "key_factors": [
+      "Atalanta's home attack averages 3.0 goals per match with 100% Over 2.5 rates in recent windows",
+      "Bayern's away attack scores consistently (2.5 goals per match) with 100% scoring record",
+      "Both defences show vulnerabilities: Atalanta concedes in 80% of home matches, Bayern has zero away clean sheets",
+      "Matchup convergence shows moderate alignment on Over 2.5 Goals (57%) and BTTS Yes (58%)",
+      "EdgeCalculator shows 18.2% edge on Over 3.25 Goals at odds of 2.03"
+    ],
+    "risk_factors": [
+      "Rotation risk — European fixture conflict imposes mandatory confidence cap of 55%",
+      "Atalanta's severe injury crisis removes four first-team players including key attackers",
+      "Historical H2H shows zero goals in two meetings (though sample is statistically unreliable)",
+      "Starting XIs unconfirmed for both teams, particularly impacting assessment of injury impacts"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75",
+        "confidence": 57
+      },
+      {
+        "market": "Both Teams to Score - Yes",
+        "prediction": "BTTS Yes",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 18.2,
+      "edge_source": "EdgeCalculator our_prob (67.5%) vs market implied probability (49.3%)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away -0.75",
+          "edge": 32.1
+        },
+        {
+          "market": "AH Away -0.5",
+          "edge": 25.8
+        },
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 18.2
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Auditor, and EdgeCalculator align on a high-scoring outcome, supported by both teams' attacking profiles and defensive vulnerabilities. The Sceptic acknowledges the goal potential in their surprise scenario. The Quant shows no edge on Asian Handicap markets but notes convergence on Over 2.5 Goals. The primary conflict is between the Quant's Poisson gaps (showing perfect market alignment) and the EdgeCalculator's strong mathematical edge on goal markets, with the EdgeCalculator's evidence being more compelling for this specific direction.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 4.97,
+    "max_edge": 32.1
+  },
+  "display_texts": {
+    "home_position": "#15 (13 pts, +0 GD)",
+    "away_position": "#2 (21 pts, +14 GD)",
+    "home_form": "5W-1D-4L in 10 matches, last 5: LWDWW",
+    "away_form": "7W-0D-1L in 8 matches, last 5: WWWWL",
+    "home_stats": "14 goals in 10 matches (avg 1.4/match), 3 clean sheets",
+    "away_stats": "22 goals in 8 matches (avg 2.8/match), 2 clean sheets",
+    "h2h_history": "Bayern München 0-0 Atalanta (18 Mar 2026)\nAtalanta 0-0 Bayern München (10 Mar 2026)",
+    "home_injuries": "C. De Ketelaere (Missing Fixture - Knee Injury), Ederson (Missing Fixture - Muscle Injury), G. Raspadori (Missing Fixture - Thigh Injury), G. Scalvini (Missing Fixture - Red Card)",
+    "away_injuries": "H. Ito (Missing Fixture - Muscle Injury), C. Kiala (Missing Fixture - Ankle Injury), B. Ndiaye (Missing Fixture - Inactive), M. Neuer (Missing Fixture - Calf Injury)",
+    "api_predictions": "API-Football prediction: Bayern München | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Bayern München",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:6",
+    "market": "NO BET"
+  }
+}

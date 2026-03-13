@@ -1,0 +1,169 @@
+{
+  "key": "20260308_Frosinone_vs_Sampdoria__ds_v3_stream",
+  "match": {
+    "home_team": "Frosinone",
+    "away_team": "Sampdoria",
+    "league": "Serie B",
+    "date": "2026-03-08",
+    "home_id": 512,
+    "away_id": 498
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 52.6,
+    "score_draw": 28.6,
+    "score_away": 18.8,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading profiles show strong convergence (71%) for Over 2.5 goals, with Frosinone averaging 3.6 total goals in their last five matches and Sampdoria conceding 1.6 per away match. The Tactician's analysis explicitly states a 'strong convergence for Over 2.5 goals' due to Frosinone's attacking 4-3-3 against Sampdoria's leaky defence. (2) DIRECTION EVIDENCE — The Quant's Poisson model shows a 12 percentage point gap favouring Over 2.5 goals (60% Poisson probability vs 48% market implied). The λ sum (implied goal expectation) points to high output. Both teams' recent matches show elevated totals (Frosinone 3.6, Sampdoria 2.8). The cascading profiles show 92% convergence for Both Teams to Score, further supporting goal involvement. (3) AGENTS CONSENSUS — The Quant, Tactician, and cascading profiles all strongly align on over_goals. The Home Scout notes Frosinone's 'consistent goal threat' and 'defensive fragility', while the Away Scout highlights Sampdoria's 'poor defensive record'. The Sceptic confirms the analysis and recommends PROCEED, though notes missing injury data. The Auditor validates the Quant's Over 2.5 probability as credible. (4) RISKS — The EdgeCalculator shows NO positive edge on any market that passes minimum thresholds, creating a fundamental mathematical barrier. While qualitative analysis strongly supports over_goals, the absence of statistical value makes this unplayable. Frosinone's recent draw tendency (four draws in last five) could lead to a lower-scoring stalemate. Sampdoria's survival mentality might produce an unusually defensive performance despite their poor away record.",
+    "key_factors": [
+      "Strong 71% profile convergence for Over 2.5 goals from cascading analysis",
+      "Quant's Poisson model shows 12pp edge on Over 2.5 goals (60% vs 48% market)",
+      "Frosinone's defensive fragility - conceding two goals in each of last three matches",
+      "Sampdoria's chronic away weakness with just one clean sheet in 14 away matches"
+    ],
+    "risk_factors": [
+      "EdgeCalculator shows NO VALUE on any market passing minimum thresholds",
+      "Frosinone's recent draw tendency (four draws in last five) could suppress goal output",
+      "Missing injury data for Frosinone creates squad uncertainty"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.5 Goals",
+        "prediction": "Over 2.5",
+        "confidence": 65
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 0.0,
+      "edge_source": "EdgeCalculator analysis shows no market with positive edge passing minimum thresholds",
+      "edge_grade": "NO_VALUE",
+      "staking_signal": "PASS",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away 1.25",
+          "edge": 12.0
+        },
+        {
+          "market": "AH Away 1.5",
+          "edge": 8.7
+        },
+        {
+          "market": "AH Home 0.25",
+          "edge": 4.2
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Quant, Tactician, cascading profiles, and both Scouts all align on over_goals direction. The Sceptic confirms the analysis and recommends PROCEED. The Auditor validates the Quant's probabilities. The only dissent comes from the EdgeCalculator which shows no mathematical value.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 12.0
+  },
+  "display_texts": {
+    "home_position": "#3 (55 pts, +24 GD)",
+    "away_position": "#15 (30 pts, -8 GD)",
+    "home_form": "15W-10D-3L in 28 matches, last 5: WDWDW",
+    "away_form": "7W-9D-12L in 28 matches, last 5: LLLLD",
+    "home_stats": "52 goals in 28 matches (avg 1.9/match), 10 clean sheets",
+    "away_stats": "29 goals in 28 matches (avg 1.0/match), 5 clean sheets",
+    "h2h_history": "Frosinone 0-0 Sampdoria (08 Mar 2026)\nSampdoria 1-1 Frosinone (25 Oct 2025)\nSampdoria 0-3 Frosinone (29 Mar 2025)\nFrosinone 2-2 Sampdoria (18 Aug 2024)\nSampdoria 0-1 Frosinone (10 Feb 2019)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Frosinone | Probabilities: 45%-45%-10% | Recommendation: Winner : Frosinone",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "3:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Frosinone vs Sampdoria: The Promotion Trap",
+    "thumbnail_text": "NO VALUE ALERT",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a promotion-chasing side with a leaky defence hosts a survivalist team that cannot win away? The data screams for goals, the tactical matchup promises fireworks, and yet the Boot Room says: no bet. This is the story of a perfect storm that the bookmakers have already priced correctly.",
+    "chapter_home": "Frosinone sit third in Serie B, their promotion ambitions clear. But their recent form tells a different story. They have drawn four of their last five matches, with three of those ending 2-2. This is a team that scores freely, averaging 3.6 total goals in their last five outings, but cannot shut the back door, conceding two goals in each of their last three. Manager Alvini is reportedly planning tactical changes, a sign of instability. Their 4-3-3 formation generates consistent threat, particularly in the second half where they have scored 11 goals in the 46-60 minute segment alone. However, their momentum is declining, and the pressure of the promotion race is mounting. The missing injury data adds a layer of uncertainty, but with a squad of 33, they have depth. The narrative is one of a potent attack undermined by defensive fragility at the worst possible time.",
+    "chapter_away": "Sampdoria travel with a survivalist mentality, not a winning one. Their away record is dire: just one win in 14 attempts, a 7% win rate that defines their season. They have taken only five points from their last five matches. Their 3-4-2-1 formation is built for resilience and late drama, with 11 of their 29 total goals coming in the final 15 minutes. They are draw-prone, with five in their last ten, reflecting a cautious shift under manager Alvini. Off the pitch, financial instability and a wage bill crisis threaten squad morale. The only confirmed absence is S. Romagnoli, but their defensive unit has kept just one clean sheet in 14 away matches anyway. They concede 1.5 goals per away match on average. Their narrative is pure survival: grind out draws, hope for a late goal, and avoid risk at all costs.",
+    "chapter_history": "History whispers caution for this fixture. The last four meetings have produced three draws and a single win, with Frosinone unbeaten in that run. The encounters are typically moderate-scoring, averaging 2.4 goals per match, with both teams scoring in half of them. This is not a fierce rivalry but a remarkably balanced affair that resists a clear winner. The most recent clash last October ended one-all, continuing the theme of stalemate. While Frosinone hold a narrow historical edge, the pattern of recent draws suggests both sides may approach with initial caution, aware that one mistake could decide it. The context tonight, however, is starkly different: promotion ambition versus relegation fear.",
+    "chapter_analysis": "The tactical and quantitative analysis converges powerfully on one outcome: goals. Frosinone's 4-3-3 creates a midfield overload against Sampdoria's two-man central pairing, promising sustained pressure. The Quant's Poisson model shows a 12 percentage point edge for Over 2.5 goals—a 60% probability versus the market's implied 48%. Cascading profiles show 71% convergence for Over 2.5 and a staggering 92% for Both Teams to Score. The Tactician explicitly states a 'strong convergence for Over 2.5 goals' due to Frosinone's attack against Sampdoria's leaky defence. The Sceptic confirmed the analysis but issued a serious challenge: Frosinone's form is 'declining', not 'stable', and the missing injury data creates uncertainty. This was acknowledged. The Auditor validated the Quant's 60% probability for Over 2.5 as credible, with an effective confidence of 58%. Every qualitative agent—the Scouts, Tactician, and Sceptic—aligns on the over_goals direction. The story is compelling: attack meets fragility, ambition meets desperation, and the numbers point to a high-scoring stalemate.",
+    "chapter_value": "Our market: NO_BET. Here is the critical conflict. While the qualitative story and probability models strongly favour Over 2.5 goals, the EdgeCalculator's mathematical verdict is clear: no market shows a positive edge that passes our minimum thresholds. The Quant identified value on Over 2.5 at odds of 2.08, but after rigorous filtering for conviction and minimum odds, the edge evaporates. The market has efficiently priced this fixture. Furthermore, Frosinone's recent draw tendency—four in five—could suppress goal output despite the attacking profiles. Sometimes the most disciplined play is to recognise when the bookmaker has it right. There is no value to exploit here.",
+    "ending": "The Boot Room's final verdict is a pass. Frosinone versus Sampdoria presents a fascinating clash of narratives and a strong directional case for goals, but the mathematical edge required for a confident play does not exist. The promotion chaser's leaky defence and the survivalist's chronic away weakness create the perfect conditions for a high-scoring stalemate that the market has already accurately priced. When our models align but the edge calculator says no, we listen. Boot Room out.",
+    "roundup_summary": "Frosinone versus Sampdoria. The hosts sit third in Serie B with promotion ambitions, but their form shows four draws in their last five matches. They average 3.6 total goals in that span but have conceded two goals in each of their last three. Sampdoria languish just above the relegation zone, with a dire away record of just one win in 14 attempts. Their last five have yielded only five points.\n\nThe head-to-head history shows a trend towards stalemate, with three draws and one win in the last four meetings. Those matches averaged 2.4 goals, with both teams scoring in half of them. This season, Frosinone score 2.2 goals per match on average but concede 1.3. Sampdoria score 1.0 per match away but concede 1.6, keeping just one clean sheet in 14 away trips.\n\nThe Boot Room analysis identified a powerful convergence for goals. The Quant's Poisson model showed a 60% probability for Over 2.5 goals, a 12 percentage point edge over the market's implied 48%. Cascading profiles showed 71% convergence for Over 2.5 and 92% for Both Teams to Score. The Tactician's analysis of Frosinone's attacking 4-3-3 against Sampdoria's leaky defence explicitly stated a 'strong convergence for Over 2.5 goals'. The Sceptic's serious challenge was that Frosinone's form should be assessed as 'declining', not 'stable', and that missing injury data created uncertainty—this was incorporated. The Auditor validated the Quant's 60% probability as credible. However, the bookmaker has not mis-priced this fixture sufficiently; the EdgeCalculator showed no market with a positive edge passing our minimum conviction and odds thresholds.\n\nThe verdict is a disciplined pass. The strong directional case for Over 2.5 goals is countered by the absence of mathematical value after rigorous filtering. Frosinone's recent draw tendency adds risk. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Perfect Storm",
+        "voiceover": "What happens when a promotion-chasing side with a leaky defence hosts a survivalist team that cannot win away? The data screams for goals. The tactical matchup promises fireworks. And yet, the Boot Room says: no bet. This is the story of a perfect storm that the bookmakers have already priced correctly.",
+        "graphic_type": "hook",
+        "graphic_description": "A dramatic, stormy visual metaphor. On one side, a football crest (Frosinone) cracks with light leaking out. On the other, a crest (Sampdoria) is anchored by heavy chains. Lightning strikes between them.",
+        "graphic_text_overlay": "THE PERFECT STORM"
+      },
+      {
+        "scene": 2,
+        "name": "Frosinone: The Fragile Ambition",
+        "voiceover": "Frosinone sit third, but their promotion push is cracking. They have drawn four of their last five—three ending 2-2. A potent 4-3-3 attack averages 3.6 total goals recently, but they concede two per game. Manager Alvini is planning changes. The momentum is declining, and the pressure is mounting. They score, but they cannot stop conceding.",
+        "graphic_type": "home_card",
+        "graphic_description": "Frosinone's crest with a prominent '3rd' beside it. Below, a jagged line graph showing high 'Goals For' but equally high 'Goals Against' bars. A cracked shield icon in the corner.",
+        "graphic_text_overlay": "LEAKY AMBITION"
+      },
+      {
+        "scene": 3,
+        "name": "Sampdoria: The Survivalist Mentality",
+        "voiceover": "Sampdoria do not travel to win. They travel to survive. One win in 14 away matches—a 7% win rate. Their 3-4-2-1 formation grinds out draws, hoping for a late goal. Financial turmoil brews off the pitch. They have kept one clean sheet in 14 away games. Their mission is simple: avoid defeat at all costs.",
+        "graphic_type": "away_card",
+        "graphic_description": "Sampdoria's crest with a large, red '7%' overlaid. A map with a single green pin (win) and many red pins (losses/draws) for away matches. A padlock icon, but it's broken.",
+        "graphic_text_overlay": "7% AWAY WIN RATE"
+      },
+      {
+        "scene": 4,
+        "name": "The Data Screams Goals",
+        "voiceover": "The analysis converges with startling clarity. The Quant's model shows a 60% chance for Over 2.5 goals—a 12-point edge on the market. Cascading profiles show 71% convergence for Over 2.5, 92% for Both Teams to Score. The Tactician cites a 'strong convergence' due to Frosinone's attack versus Sampdoria's leaky defence. Every agent points to one direction: goals.",
+        "graphic_type": "evidence",
+        "graphic_description": "A clean, data-focused card. A large '60%' for 'Poisson: Over 2.5' next to a smaller '48%' for 'Market Implied'. Arrows point from multiple agent icons (Scout, Tactician, Quant) converging on an 'Over 2.5' box.",
+        "graphic_text_overlay": "60% vs 48%"
+      },
+      {
+        "scene": 5,
+        "name": "The Mathematical Wall",
+        "voiceover": "But here is the conflict. The story is compelling, yet the EdgeCalculator hits a mathematical wall. No market shows a positive edge that passes our strict thresholds for conviction and minimum odds. The value on Over 2.5 evaporates after filtering. The bookmaker has this one priced efficiently. Furthermore, Frosinone's four draws in five games could suppress the very goal frenzy the data predicts.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split screen. Left side: glowing arrows and 'GOALS' text from previous scene. Right side: a stark, red 'NO EDGE' stamp over a spreadsheet with zero values. A wall graphic divides them.",
+        "graphic_text_overlay": "STORY vs MATH"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict: No Bet",
+        "voiceover": "Our market: NO_BET. Confidence: 0%. The promotion chaser's fragility meets the survivalist's weakness in a perfect storm for goals. But the market is efficient. When our models align directionally but the edge calculator shows zero value, the only disciplined call is to pass. Sometimes the smartest play is recognising when there is no play to make. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A final, decisive card. The text 'NO BET' is large and central. Below, 'Confidence: 0%'. In the background, faint visuals of the two team crests from Scene 1, now static.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

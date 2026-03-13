@@ -1,0 +1,178 @@
+{
+  "key": "20260307_Swansea_vs_Stoke_City__ds_v3_stream",
+  "match": {
+    "home_team": "Swansea",
+    "away_team": "Stoke City",
+    "league": "Championship",
+    "date": "2026-03-07",
+    "home_id": 76,
+    "away_id": 75
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "Under 1.75 Goals",
+    "prediction": "Under 1.75 Goals",
+    "confidence": 53,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 2.89,
+    "score_home": 52.3,
+    "score_draw": 30.2,
+    "score_away": 17.5,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician explicitly predicts a 'tight' match with 'fewer goals than the historical H2H average'. Swansea's home form shows strong defensive metrics (0.40 GA/m last 5 home, 60% CS rate), while Stoke's away profile is defined by scoring failure (0.40 GF/m last 5 away, 20% CS rate). The cascading profile convergence is MODERATE (57%) for Under 2.5 Goals, with Swansea's profile scoring 7/7 for this market. This structural setup points towards a low-scoring contest.\n\n(2) DIRECTION EVIDENCE — The mathematical evidence supports under_goals. The EdgeCalculator shows positive edges on Under 1.75 Goals (+4.5%) and Under 2.25 Goals (+2.7%), while all Over markets show negative edges. The Auditor's adjusted probabilities set Under 2.5 at 60%. The Poisson λ sum (implied by team form) is low, and the Tactician's analysis of Swansea's 'subdued attack' meeting Stoke's 'defensive away approach' directly supports a low total. The historical H2H average of 2.7 goals is an outlier against current team trends.\n\n(3) AGENTS CONSENSUS — The Tactician, Auditor, and cascading profiles align on a low-scoring expectation. The Sceptic's 'surprise scenario' is a low-scoring draw. The Home Scout notes Swansea's attack can be 'subdued' (0.80 GF/m last 5 overall). The Away Scout highlights Stoke's 'chronic inability to score away'. The primary dissent comes from the Archivist's H2H data showing 60% Over 2.5, but this historical pattern is contradicted by current form. The Quant shows no Poisson gaps, indicating market efficiency, but the EdgeCalculator's positive Under edges provide the mathematical signal.\n\n(4) RISKS — The main risk is Swansea's late-game scoring surge (12 goals in 76-90 mins) exploiting Stoke's late defensive fragility (10 conceded). If this specific tactical window opens, a 2-0 or 2-1 result could push the total over. Additionally, fixture congestion for both sides could lead to uncharacteristic defensive errors. Stoke's extensive injury list might force a more open, disorganised shape, though their fundamental scoring issues suggest this is a secondary concern.",
+    "key_factors": [
+      "Swansea's formidable home defensive record (0.40 GA/m, 60% CS last 5)",
+      "Stoke City's chronic away scoring failure (0.40 GF/m last 5 away)",
+      "Tactician's prediction of a 'tight' match with 'fewer goals'",
+      "EdgeCalculator shows positive edges on Under 1.75 and Under 2.25 markets"
+    ],
+    "risk_factors": [
+      "Swansea's potent late-game scoring targeting Stoke's late defensive weakness",
+      "European fixture conflict imposes a mandatory confidence cap of 55%",
+      "Unconfirmed starting line-ups due to high squad rotation risk"
+    ],
+    "alternative_markets": [
+      {
+        "market": "AH Home -1.0",
+        "prediction": "Swansea -1.0",
+        "confidence": 48
+      },
+      {
+        "market": "Under 1.75 Goals",
+        "prediction": "Under 1.75",
+        "confidence": 47
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 4.5,
+      "edge_source": "EdgeCalculator probability minus market implied probability (Under 1.75 Goals)",
+      "edge_grade": "MARGINAL (4-7%)",
+      "staking_signal": "MARGINAL",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Home -1.5",
+          "edge": 23.6
+        },
+        {
+          "market": "AH Home -1.25",
+          "edge": 20.1
+        },
+        {
+          "market": "AH Home -1.0",
+          "edge": 15.6
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Auditor, and both Scouts agree on a low-scoring, home-advantaged match character. The Sceptic supports the defensive narrative with a low-scoring draw scenario. The Archivist's H2H data (high goals) is the primary dissenting voice, but it is an outlier against current form. The Quant shows market efficiency with no Poisson gaps, but the EdgeCalculator provides marginal positive edges on Under markets.",
+    "_direction": "under_goals",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.13,
+    "_direction_prob": 39.1,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.32,
+    "max_edge": 23.6
+  },
+  "display_texts": {
+    "home_position": "#16 (46 pts, -3 GD)",
+    "away_position": "#14 (47 pts, +5 GD)",
+    "home_form": "14W-7D-15L in 36 matches, last 5: LWDWD",
+    "away_form": "13W-8D-15L in 36 matches, last 5: WWWLW",
+    "home_stats": "42 goals in 36 matches (avg 1.2/match), 11 clean sheets",
+    "away_stats": "39 goals in 36 matches (avg 1.1/match), 12 clean sheets",
+    "h2h_history": "Swansea 2-0 Stoke City (07 Mar 2026)\nStoke City 2-1 Swansea (13 Dec 2025)\nStoke City 3-1 Swansea (15 Feb 2025)\nSwansea 0-0 Stoke City (05 Oct 2024)\nSwansea 3-0 Stoke City (10 Apr 2024)",
+    "home_injuries": "A. Idah (Missing Fixture - Groin Injury), Z. Inoussa (Missing Fixture - Injury)",
+    "away_injuries": "A. Ampah (Missing Fixture - Injury), L. Baker (Missing Fixture - Inactive), G. Bazunu (Missing Fixture - Thigh Injury), R. Bozenik (Missing Fixture - Shoulder Injury), A. Cresswell (Missing Fixture - Calf Injury)",
+    "api_predictions": "API-Football prediction: Stoke City | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Stoke City",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "HALF_LOSE",
+    "label": "HALF LOSE",
+    "color": "#fca5a5",
+    "pnl": -0.5,
+    "score": "2:0",
+    "market": "Under 1.75 Goals"
+  },
+  "script": {
+    "title": "Swansea vs Stoke: The Liberty Fortress Meets The Goal-Shy Travellers",
+    "thumbnail_text": "GOAL DROUGHT INCOMING",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a team that cannot score away from home visits a fortress that concedes almost nothing? Swansea City have kept three clean sheets in their last five home matches, conceding just two goals. Stoke City have failed to score in nine of their nineteen away fixtures this season. This is not just a Championship match — it is a structural collision between defensive strength and attacking impotence.",
+    "chapter_home": "Swansea arrive at the Liberty Stadium with a formidable home record that defines their season. Unbeaten in their last five matches here, they have collected four wins and one draw while conceding just two goals — a remarkable defensive rate of 0.40 goals against per match. Their 4-3-3 system dominates possession, averaging sixty-one percent in recent games, but their attack has shown a specific pattern. Over a quarter of their goals this season — twelve of forty-two — have arrived between the seventy-sixth and ninetieth minutes, suggesting a team that grinds opponents down late. However, their overall attacking output has been subdued, averaging only 0.80 goals per match across their last five fixtures. With two attacking players absent and navigating a punishing schedule of four matches in fourteen days, the question is whether their intensity can match their impressive defensive statistics. Mid-table security removes external pressure, but their home form remains their primary asset.",
+    "chapter_away": "Stoke City travel to Wales in a state of significant decline and disruption. Winless in their last five away matches, they have managed just two points from those fixtures while scoring only two goals — an identical rate of 0.40 goals per match. Their chronic inability to find the net on the road is the defining characteristic of their season, having failed to score in nearly half their away games. Compounding this issue is an extensive injury list featuring ten players, which severely depletes squad depth and tactical options during a period of high fixture congestion. Their 4-2-3-1 formation is designed for defensive compactness, and they have shown a vulnerability in the final fifteen minutes, conceding ten goals in that period this season. With morale low and no wins in their recent travels, their primary threat is a stubborn defensive shape, not any genuine attacking prowess.",
+    "chapter_history": "Historically, this fixture has favoured the visitors. Stoke City have won half of the last ten meetings, double Swansea's tally in the same period. The encounters have typically been open, averaging 2.7 goals per game with over 2.5 goals landing in sixty percent of matches. The most recent meeting at the Liberty Stadium saw Stoke reduced to ten men early on, with Swansea scoring twice late to secure a 2-0 victory. However, the last three meetings have produced three different results — a win for each side and a draw — indicating recent volatility. This historical pattern of higher scoring clashes now stands in direct contradiction to the current form profiles of both teams.",
+    "chapter_analysis": "The tactical matchup reveals a classic clash of styles destined for minimal goals. Swansea's possession-based 4-3-3 will look to control the tempo against Stoke's deep, organised 4-2-3-1 defensive block. The Tactician predicts a 'tight' match with 'fewer goals than the historical average', a view supported by the stark convergence of defensive metrics. Swansea's formidable home defence meets Stoke's chronic away scoring failure — a structural expectation for a low-scoring contest. The Sceptic challenged the Away Scout's assessment of a twenty-seven percent win probability for Stoke, calling it critically flawed given their winless away streak. This challenge was validated, with the Auditor adjusting Stoke's win probability down to just seventeen point five percent. The primary risk to a low-scoring narrative is that specific seventy-sixth to ninetieth minute window, where Swansea's potent late scoring directly targets Stoke's well-documented defensive fragility. Yet, the overarching dynamic is one of territorial dominance meeting defensive resilience, with limited clear chances expected from open play.",
+    "chapter_value": "Our market: Under 1.75 Goals. The mathematical evidence supports this direction. The EdgeCalculator shows a positive four point five percent edge on this specific line, while all Over markets display negative edges. The Auditor's adjusted probabilities set the likelihood of Under 2.5 Goals at sixty percent, reinforcing the low-scoring expectation. The bookmakers have priced this fixture with odds of 2.89 for Under 1.75 Goals, a number that fails to fully account for the convergence of Swansea's home defensive strength and Stoke's away attacking impotence. This creates the marginal value opportunity we identify.",
+    "ending": "The Boot Room's verdict for Swansea versus Stoke City is a speculative play on a low-scoring affair. We project a match defined by defensive organisation and a scarcity of clear chances, with the most likely path to goals being Swansea's late-game surge. Our market is Under 1.75 Goals at odds of 2.89, carrying a fifty-three percent confidence level. The risk remains that late drama or a rare Stoke counter could push the total over, but the structural setup points firmly towards a tight, goal-shy contest. Let us know your thoughts in the comments below, and subscribe for more analytical match previews. Boot Room out.",
+    "roundup_summary": "Swansea versus Stoke City. Sixteenth hosts fourteenth in a mid-table Championship fixture with minimal external pressure. Swansea's form shows inconsistency overall but formidable strength at home — four wins and one draw in their last five at the Liberty, conceding just two goals. Stoke's away form is in sharp decline, with no wins and only two points from their last five travels, failing to score in three of those matches. Both sides navigate high fixture congestion, with Stoke particularly hampered by an injury list of ten players.\n\nThe head-to-head history tells a different story to current form. Stoke have won five of the last ten meetings, with the fixture averaging 2.7 goals per game. Over 2.5 goals has landed in sixty percent of those clashes, including Swansea's 2-0 win in the most recent Liberty Stadium encounter. This season, Swansea average 1.29 goals scored and 1.29 conceded per match overall, while Stoke average 1.03 scored and 1.34 conceded. Their away-specific metrics are far weaker, scoring just 0.84 goals per away game.\n\nThe Boot Room analysis identifies a critical divergence between historical precedent and current reality. The Poisson λ values derived from current team form are low, supporting a tight match. The Quant's analysis showed no significant probability gaps in Asian Handicap markets, indicating general efficiency, but the EdgeCalculator revealed a positive four point five percent edge specifically on Under 1.75 Goals. The Sceptic's primary concern was the Away Scout's flawed twenty-seven percent win probability for Stoke, which was rejected as unsupported by their zero wins in five away matches. The bookmaker has mis-priced the Under 1.75 line by not fully accounting for the structural collision between Swansea's home defensive record — 0.40 goals against per match last five home — and Stoke's chronic away scoring failure — 0.40 goals for per match last five away. The Auditor's effective confidence for a low-scoring outcome sits at fifty-eight percent.\n\nThe verdict is a speculative play on a lack of goals. Our market is Under 1.75 Goals, available at odds of 2.89. This requires a maximum of one goal in the match for a full win, or two goals for a half loss. The confidence level is fifty-three percent, tempered by the risk of Swansea's late-game scoring surge exploiting Stoke's defensive fragility. Boot Room market: Under 1.75 Goals. Confidence: 53%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Structural Collision",
+        "voiceover": "What happens when a fortress meets a void? Swansea City concede just 0.40 goals per match at home. Stoke City score an identical 0.40 goals per match away. This is not a football match — it is a mathematical collision between defensive strength and attacking impotence.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: Swansea's Liberty Stadium bathed in light, a giant padlock over the goal. Right side: A dimly lit Stoke City bus on a rainy motorway, a broken goal net draped over it.",
+        "graphic_text_overlay": "FORTRESS VS VOID"
+      },
+      {
+        "scene": 2,
+        "name": "Swansea's Liberty Fortress",
+        "voiceover": "The Liberty Stadium has become a bastion of defensive resilience. Unbeaten in five, with three clean sheets and just two goals conceded in that run. Their attack awakens late — twelve goals this season between the seventy-sixth and ninetieth minutes. But with fixture congestion and mid-table comfort, can they maintain the siege?",
+        "graphic_type": "home_card",
+        "graphic_description": "A dynamic graphic showing Swansea's 4-3-3 formation. Key defensive stats pulse: '5 Home Games: 2 Goals Conceded'. A clock graphic highlights the 76-90 minute segment.",
+        "graphic_text_overlay": "LATE-SHOW SPECIALISTS"
+      },
+      {
+        "scene": 3,
+        "name": "Stoke's Travel Sickness",
+        "voiceover": "Stoke City arrive depleted and declining. Ten players injured, winless in five away matches, and chronically unable to score on the road. Their season is defined by away goal drought — failing to net in nine of nineteen trips. A depleted squad must now breach a fortress.",
+        "graphic_type": "away_card",
+        "graphic_description": "A graphic of a Stoke City team sheet with ten red 'INJURED' stamps over player names. A map with a dotted line from Stoke to Swansea, fading as it travels, with a '0 WINS' marker at the destination.",
+        "graphic_text_overlay": "DEPLETED & GOAL-SHY"
+      },
+      {
+        "scene": 4,
+        "name": "History vs Reality",
+        "voiceover": "History screams goals — 2.7 per game on average, with sixty percent going over 2.5. But history lies. Current form paints the opposite picture: defensive fortitude meets attacking failure. The last three meetings produced three different results, but the underlying trend has shifted. This is a new story.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "An old parchment scroll unfurls showing historical H2H results with high scores (2-1, 3-1). The parchment then burns away to reveal a modern, clean graphic showing current low goal averages (0.40 vs 0.40).",
+        "graphic_text_overlay": "THE PAST IS A LIAR"
+      },
+      {
+        "scene": 5,
+        "name": "The Tactical Deadlock",
+        "voiceover": "Swansea's 4-3-3 seeks possession against Stoke's deep 4-2-3-1 block. The Tactician calls it 'tight' — territorial dominance versus defensive resilience. The critical window is the final fifteen minutes, where Swansea's strength meets Stoke's fragility. But the overarching expectation is for few clear chances, and even fewer goals.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "An animated tactical board showing Swansea's midfield trio pressing forward against Stoke's compact two banks of four. A large '76-90'' timer looms over the scene, with arrows pointing from Swansea's attack to Stoke's goal.",
+        "graphic_text_overlay": "THE 76-90 MINUTE WINDOW"
+      },
+      {
+        "scene": 6,
+        "name": "The Boot Room Verdict",
+        "voiceover": "The bookmakers see a price of 2.89 for Under 1.75 Goals. Our models see a four point five percent edge. The structural collision — fortress defence versus travelling impotence — is undervalued. Our market: Under 1.75 Goals. Confidence: fifty-three percent. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, bold graphic. The text 'UNDER 1.75 GOALS' is central. Odds '2.89' and 'CONFIDENCE: 53%' are displayed prominently below. The Boot Room logo is subtly integrated.",
+        "graphic_text_overlay": "OUR MARKET"
+      }
+    ]
+  }
+}

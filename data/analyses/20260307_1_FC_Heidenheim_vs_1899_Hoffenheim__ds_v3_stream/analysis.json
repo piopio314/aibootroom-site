@@ -1,0 +1,177 @@
+{
+  "key": "20260307_1_FC_Heidenheim_vs_1899_Hoffenheim__ds_v3_stream",
+  "match": {
+    "home_team": "1. FC Heidenheim",
+    "away_team": "1899 Hoffenheim",
+    "league": "Bundesliga",
+    "date": "2026-03-07",
+    "home_id": 180,
+    "away_id": 167
+  },
+  "prediction": {
+    "direction": "away_value",
+    "direction_conviction": "strong",
+    "selected_market": "AH Away -1.75",
+    "prediction": "AH Away -1.75",
+    "confidence": 67,
+    "confidence_gate": "APPROVE",
+    "odds_target": 2.76,
+    "score_home": 18.0,
+    "score_draw": 22.0,
+    "score_away": 60.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a clear ASYMMETRIC match. Hoffenheim's structural superiority is overwhelming: they are third, in stable form, with a potent attack averaging 1.83 goals away. Heidenheim are bottom, winless in five, with zero clean sheets all season and five key injuries forcing a tactical reshuffle. The cascading profiles show a 79% convergence on Over 2.5 goals, confirming an attacking, one-sided character. (2) DIRECTION EVIDENCE — The mathematical edge decisively points towards away value. The EdgeCalculator identifies AH Away -1.75 with a +23.8% edge, the highest of any market. The Auditor validates this edge as credible, and the Tactician's analysis of Hoffenheim's central overload against Heidenheim's fragile defence supports a multi-goal victory. The Poisson model and market pricing are aligned on Hoffenheim dominance, with no direction conflict in the 1X2 markets. (3) AGENTS CONSENSUS — Strong alignment exists on Hoffenheim's superiority and the high-scoring nature of the match. The Away Scout, Tactician, and Archivist all highlight Hoffenheim's attacking quality and historical dominance. The Sceptic confirms the away analysis and recommends PROCEED. The Auditor's adjusted probabilities give Hoffenheim a 60% win chance, significantly above the market's implied probability for the -1.75 line. The only dissent is the Home Scout's slightly optimistic attack rating, which the Sceptic correctly challenged as a SERIOUS flaw. (4) RISKS — Two primary risks exist: Hoffenheim's potential fatigue from a high-press system amid fixture congestion could blunt their attacking edge, and Heidenheim's renowned late-goal threat (8 goals in the 76-90' window) could salvage a backdoor cover if Hoffenheim fails to kill the game. However, the sheer weight of statistical and qualitative evidence supporting a decisive away win outweighs these concerns.",
+    "key_factors": [
+      "Hoffenheim's potent away attack (1.83 goals/game) vs Heidenheim's league-worst defence (0 clean sheets)",
+      "79% profile convergence on Over 2.5 goals indicating a high-scoring, asymmetric fixture",
+      "Hoffenheim's historical dominance (unbeaten in last 7 H2H meetings)",
+      "Heidenheim's critical injury crisis forcing a defensive reshuffle and tactical uncertainty"
+    ],
+    "risk_factors": [
+      "Hoffenheim's player fatigue from a high-intensity system across multiple matches",
+      "Heidenheim's persistent late-game goal threat which could impact handicap margins"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 3.25 Goals",
+        "prediction": "Over 3.25",
+        "confidence": 61
+      },
+      {
+        "market": "AH Away -1.5",
+        "prediction": "Away -1.5",
+        "confidence": 59
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 23.8,
+      "edge_source": "EdgeCalculator our_prob (60.0%) vs market odds (2.76)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away -1.75",
+          "edge": 23.8
+        },
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 21.5
+        },
+        {
+          "market": "AH Away -1.5",
+          "edge": 17.6
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Away Scout, Tactician, Archivist, Sceptic, and Auditor are all aligned on Hoffenheim's superiority and the high probability of a multi-goal away win. The only agent in partial dissent is the Home Scout, whose over-optimistic attack assessment was explicitly corrected by the Sceptic.",
+    "_direction": "away_value",
+    "_direction_conviction": "strong",
+    "_direction_ev": 0.656,
+    "_direction_prob": 60.0,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.88,
+    "max_edge": 23.8
+  },
+  "display_texts": {
+    "home_position": "#18 (14 pts, -34 GD)",
+    "away_position": "#3 (49 pts, +21 GD)",
+    "home_form": "3W-5D-17L in 25 matches, last 5: LLLLW",
+    "away_form": "14W-4D-6L in 24 matches, last 5: WLWLD",
+    "home_stats": "24 goals in 25 matches (avg 1.0/match)",
+    "away_stats": "49 goals in 24 matches (avg 2.0/match), 6 clean sheets",
+    "h2h_history": "1. FC Heidenheim 2-4 1899 Hoffenheim (07 Mar 2026)\n1899 Hoffenheim 3-1 1. FC Heidenheim (25 Oct 2025)\n1899 Hoffenheim 1-1 1. FC Heidenheim (09 Mar 2025)\n1. FC Heidenheim 0-0 1899 Hoffenheim (27 Oct 2024)\n1899 Hoffenheim 1-1 FC Heidenheim (27 Jan 2024)",
+    "home_injuries": "A. Ibrahimovic (Missing Fixture - Illness), L. Paqarada (Missing Fixture - Knee Injury), N. Rothweiler (Missing Fixture - Illness), T. Siersleben (Missing Fixture - Illness), L. Stergiou (Missing Fixture - Muscle Injury)",
+    "away_injuries": "A. Hlozek (Missing Fixture - Calf Injury), K. Machida (Missing Fixture - Knee Injury)",
+    "api_predictions": "API-Football prediction: 1899 Hoffenheim | Probabilities: 10%-45%-45% | Recommendation: Winner : 1899 Hoffenheim",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "HALF_WIN",
+    "label": "HALF WIN",
+    "color": "#86efac",
+    "pnl": 0.88,
+    "score": "2:4",
+    "market": "AH Away -1.75"
+  },
+  "script": {
+    "title": "Heidenheim's Defensive Nightmare vs Hoffenheim's Title Charge",
+    "thumbnail_text": "DEFENSIVE COLLAPSE INCOMING",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when the Bundesliga's worst defence faces a title-chasing attack? One statistic tells the entire story: zero clean sheets in twenty-five matches. That is Heidenheim's reality — a team in freefall, missing five players, facing a Hoffenheim side that has not lost to them in seven straight meetings. This is not a football match. This is a structural mismatch waiting to explode.",
+    "chapter_home": "1. FC Heidenheim are not just struggling — they are in complete defensive collapse. Rooted to the bottom of the Bundesliga with just fourteen points, their season is defined by one damning statistic: zero clean sheets. Not one. They concede an average of two point three eight goals every home game, with their defence most vulnerable in the periods just before and after half-time. The injury crisis is catastrophic, with five first-team players absent, forcing a desperate tactical shift from their usual three-four-two-one to a four-three-three. While they possess a late-game threat — scoring eight of their twenty-four goals in the final fifteen minutes — their attack is merely the lesser of two profound weaknesses. Morale is shattered following a critical two-nil defeat to Werder Bremen in a direct relegation battle. This is a squad with nothing to lose, but with a defensive structure that has nothing left to give.",
+    "chapter_away": "1899 Hoffenheim arrive not just as favourites, but as a system-built machine hunting the title. Sitting third in the table, their away form is formidable: six wins from twelve trips, averaging one point eight three goals per game. Their four-two-three-one formation creates a central overload designed to dismantle disorganised defences, with their goal threat peaking in the thirty-one to forty-five minute window — precisely when Heidenheim are most vulnerable. While they carry minor injury concerns and the physical fatigue of a high-press system across multiple matches, their core attacking quality remains intact. The data scandal involving former leadership is an off-field distraction, but on the pitch, their narrative is clear: every point is vital in a Champions League race, and this fixture presents a golden opportunity against the league's most fragile opponent.",
+    "chapter_history": "History does not just favour Hoffenheim — it screams their dominance. They are unbeaten in the last seven meetings against Heidenheim, a run stretching back to 2021. The pattern is established: fast starts and high-scoring affairs, with these fixtures averaging two point eight goals. The last meeting in March 2026 was a six-goal thriller where Hoffenheim raced into a three-nil lead before a late Heidenheim fightback. For the home side, this seven-match hoodoo is a psychological mountain to climb, especially now, with their Bundesliga survival on the line. The historical narrative meets desperate, present-tense stakes.",
+    "chapter_analysis": "The tactical synthesis reveals a perfect storm. Hoffenheim's four-two-three-one naturally overloads Heidenheim's midfield three, creating decisive numerical superiority in central attacking zones. Heidenheim's pass accuracy under pressure is just seventy-three percent, suggesting turnovers in dangerous areas are inevitable. Critically, the Sceptic challenged the Home Scout's assessment of Heidenheim's attack as a moderate strength — a serious flaw in the initial analysis. The data confirms their attack is not a strength; it is merely less weak than their abysmal defence, especially against a top-three opponent. The cascading form profiles from both teams show a seventy-nine percent convergence on Over two point five goals, powerfully supporting a high-scoring, one-sided match character. Heidenheim's reshuffled back four, missing multiple defensive options, must withstand an offensive system that averages eight shots on target per away game. The key battle will be in the thirty-one to forty-five minute period, where Hoffenheim scores most often and Heidenheim concedes most frequently.",
+    "chapter_value": "Our market: Asian Handicap Away minus one point seven five. The EdgeCalculator identifies this line with a twenty-three point eight percent value edge — the highest of any market — while the Auditor validates the analysis as credible. The bookmakers are offering odds of two point seven six, which implies a probability they do not believe matches the evidence. Our adjusted probabilities give Hoffenheim a sixty percent chance of winning this match outright, and the tactical mismatch suggests a multi-goal victory is the most likely outcome. This line accounts for Hoffenheim's expected superiority while providing a cushion against a narrow, one-goal win.",
+    "ending": "The verdict is clear. A defensively crippled Heidenheim, missing five players and without a clean sheet all season, faces a systemic, title-chasing Hoffenheim attack that dominates this fixture historically. The thirty-one to forty-five minute window is a critical danger zone, and the central overload should prove decisive. While Heidenheim's late-goal threat and Hoffenheim's potential fatigue are noted risks, the weight of statistical, tactical, and historical evidence points overwhelmingly towards a comfortable away victory. Our market: Asian Handicap Away minus one point seven five. Confidence: sixty-seven percent. If you found this breakdown valuable, subscribe to The Boot Room for daily tactical betting analysis. Boot Room out.",
+    "roundup_summary": "1. FC Heidenheim versus 1899 Hoffenheim. This is a clash between the Bundesliga's bottom side and its third-placed title chaser. Heidenheim are winless in their last five, taking just one point from a possible fifteen, and sit 18th with fourteen points. Hoffenheim arrive in stable form with three wins and a draw in their last five away matches. The home side's defensive crisis is compounded by five key injuries, forcing a tactical shift. Hoffenheim travel with only two absences, leaving their potent core intact.\n\nThe head-to-head history is brutally one-sided. Hoffenheim are unbeaten in the last seven meetings, winning four of the last five. The last encounter in March 2026 finished 4-2 to Hoffenheim, and the fixtures average 2.8 goals. This season, Heidenheim have the league's worst defence, conceding 2.38 goals per home game with zero clean sheets. Hoffenheim's away attack averages 1.83 goals per match, failing to score only twice in twelve trips. Recent meetings strongly trend Over 2.5 goals.\n\nThe Boot Room analysis identifies a profound structural mismatch. The Poisson model and adjusted probabilities give Hoffenheim a 60% win probability, far exceeding the market's implied probability for the -1.75 line, creating a 23.8% value edge. The Sceptic's serious challenge — that Heidenheim's attack is a weakness, not a moderate strength — was validated, correcting an over-optimistic initial assessment. The bookmaker has mis-priced the likelihood of a multi-goal away win, underestimating the impact of Hoffenheim's central overload against Heidenheim's injury-ravaged and tactically reshuffled defence. The Tactician's analysis highlights the 31-45 minute period as a critical vulnerability, where Hoffenheim scores most and Heidenheim concedes most. The Auditor's effective confidence is 62%, supporting the directional call.\n\nThe market is Asian Handicap Away -1.75 at odds of 2.76. For this bet to win, Hoffenheim must win by two or more goals. A two-goal victory results in a half-win. The confidence level is 67%, reflecting the strong convergence of historical dominance, tactical advantage, and defensive collapse against attacking quality. Boot Room market: AH Away -1.75. Confidence: 67%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Statistic of Collapse",
+        "voiceover": "Zero clean sheets in twenty-five matches. That is not a bad run of form — that is a fundamental defensive collapse. For 1. FC Heidenheim, it is the defining statistic of their season. And tonight, that crumbling defence faces a title-chasing Hoffenheim attack that has not lost to them in seven straight meetings.",
+        "graphic_type": "hook",
+        "graphic_description": "A stark, minimalist graphic showing a giant '0' with 'Clean Sheets' beneath it, cracking like broken glass. In the background, blurred figures of Hoffenheim players attacking.",
+        "graphic_text_overlay": "ZERO CLEAN SHEETS"
+      },
+      {
+        "scene": 2,
+        "name": "Heidenheim's Hospital Ward",
+        "voiceover": "The crisis deepens with five first-team players injured — a catastrophic depletion for a squad already under siege. This forces a desperate, unfamiliar shift to a four-three-three formation. Their defence, already the league's worst, is now a patched-up, tactical experiment facing its sternest test.",
+        "graphic_type": "home_card",
+        "graphic_description": "A team sheet graphic for Heidenheim with five red 'INJURED' stamps over player names. A tactical board shows a shaky 4-3-3 formation being overrun by arrows.",
+        "graphic_text_overlay": "FIVE KEY ABSENCES"
+      },
+      {
+        "scene": 3,
+        "name": "Hoffenheim's Attack Machine",
+        "voiceover": "Contrast this with Hoffenheim's system-built approach. Their four-two-three-one formation is engineered for central overload, averaging one point eight three goals per away game. Their attack peaks in the thirty-one to forty-five minute window — the exact period where Heidenheim's defence is most vulnerable.",
+        "graphic_type": "away_card",
+        "graphic_description": "A dynamic graphic of Hoffenheim's 4-2-3-1 formation, with glowing arrows from the attacking midfield trio converging on a central point. Stats for goals and shots on target pulse nearby.",
+        "graphic_text_overlay": "CENTRAL OVERLOAD"
+      },
+      {
+        "scene": 4,
+        "name": "Seven Matches of Dominance",
+        "voiceover": "History offers Heidenheim no comfort. Hoffenheim are unbeaten in the last seven clashes, a run built on fast starts. The last meeting saw a three-nil lead within an hour. These fixtures average nearly three goals — a pattern of dominance that tonight's desperate stakes are unlikely to break.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "A timeline showing seven consecutive fixtures without a loss for Hoffenheim against Heidenheim. Icons for wins and draws, with the aggregate score highlighted.",
+        "graphic_text_overlay": "UNBEATEN IN SEVEN"
+      },
+      {
+        "scene": 5,
+        "name": "The Tactical Kill Zone",
+        "voiceover": "The synthesis is devastating. Hoffenheim's creative trio will target the space between Heidenheim's makeshift lines. With a seventy-nine percent convergence on over two point five goals, the data screams a high-scoring, one-sided affair. The Sceptic confirmed the core flaw: Heidenheim's attack is a weakness, not a strength. This is a mismatch waiting for execution.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A split-screen tactical diagram. Left side shows Hoffenheim's three attacking midfielders overrunning a gap in Heidenheim's midfield. Right side shows a large '79%' next to 'Over 2.5 Goals'.",
+        "graphic_text_overlay": "79% OVER 2.5 GOALS"
+      },
+      {
+        "scene": 6,
+        "name": "The Value Verdict",
+        "voiceover": "All evidence leads to one number the market has not priced correctly. The EdgeCalculator identifies a twenty-three point eight percent value edge on Asian Handicap Away minus one point seven five. Our probability model gives Hoffenheim a sixty percent chance of winning, significantly above the line's implied probability at odds of two point seven six. Our market: AH Away -1.75. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, bold verdict card. The text 'AH Away -1.75' is central and large. Below it: 'Odds: 2.76', 'Edge: +23.8%', and 'Confidence: 67%' in smaller, clear text.",
+        "graphic_text_overlay": "AH AWAY -1.75"
+      }
+    ]
+  }
+}

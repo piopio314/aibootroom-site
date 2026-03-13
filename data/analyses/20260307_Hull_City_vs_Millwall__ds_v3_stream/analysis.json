@@ -1,0 +1,180 @@
+{
+  "key": "20260307_Hull_City_vs_Millwall__ds_v3_stream",
+  "match": {
+    "home_team": "Hull City",
+    "away_team": "Millwall",
+    "league": "Championship",
+    "date": "2026-03-07",
+    "home_id": 64,
+    "away_id": 58
+  },
+  "prediction": {
+    "direction": "away_value",
+    "direction_conviction": "moderate",
+    "selected_market": "AH Away -0.75",
+    "prediction": "AH Away -0.75",
+    "confidence": 53,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 2.9,
+    "score_home": 32.0,
+    "score_draw": 29.0,
+    "score_away": 39.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC contest. The data shows a severe disparity in momentum and squad health. Millwall's cascading profile shows an 80% win rate in their last five away matches, with scoring increasing and defence improving. Hull's profile shows a 40% home win rate, scoring decreasing, and a catastrophic injury list. The Tactician's structural analysis confirms Millwall's clear tactical edge. (2) DIRECTION EVIDENCE — The direction towards away value is supported by multiple converging signals. The EdgeCalculator shows a massive 48.5% edge on AH Away -0.75, with a model probability of 83%. The cascading profile convergence shows Millwall's away win profile is perfect (5/5), while Hull's home win profile is weak (2/5). The Auditor's adjusted probabilities give Millwall a 39% win chance, above the market-implied 43.5%. The Tactician's verdict is a clear 'AWAY' edge, citing Millwall's cohesive attack against Hull's injury-ravaged defence. (3) AGENTS CONSENSUS — The Away Scout, Tactician, and Archivist all point to Millwall's superiority. The Sceptic's CRITICAL challenge of the Home Scout's flawed 55% win probability for Hull reinforces the away direction. The Auditor aligns with this, adjusting Hull's win probability down to 32%. The primary dissent is the Quant's finding of no Poisson gaps in the AH markets, suggesting market efficiency, but this is overridden by the EdgeCalculator's extreme mathematical edge and the qualitative consensus. (4) RISKS — The mandatory rotation risk cap limits confidence to 55%. Hull's historical dominance in this fixture (five wins in last six) provides a psychological counter-narrative. Millwall's own injury list and potential for a cagey, high-stakes draw (flagged by the Sceptic and a 29% draw probability) are present. The extreme EdgeCalculator probability (83%) for the -0.75 line also warrants caution, as it may overstate the case.",
+    "key_factors": [
+      "Millwall's formidable away form: 80% win rate in last five away matches",
+      "Hull City's catastrophic injury crisis, stripping them of key creative and defensive players",
+      "Strong cascading profile convergence for an away advantage (Millwall 5/5 win profile vs Hull 2/5)",
+      "Clear tactical mismatch identified by The Tactician, favouring Millwall's cohesive attack",
+      "The Sceptic's veto of the Home Scout's overly optimistic assessment of Hull"
+    ],
+    "risk_factors": [
+      "Mandatory rotation risk due to Championship fixture congestion in 3 days",
+      "Hull City's historical dominance in the head-to-head record",
+      "Potential for a cagey, low-scoring draw in a high-stakes six-pointer",
+      "Extreme model probability (83%) for the selected AH line may be overstated"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75",
+        "confidence": 58
+      },
+      {
+        "market": "AH Away -0.5",
+        "prediction": "Millwall -0.5",
+        "confidence": 55
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 48.5,
+      "edge_source": "EdgeCalculator model probability vs market odds",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away -0.75",
+          "edge": 48.5
+        },
+        {
+          "market": "AH Away -1.25",
+          "edge": 45.0
+        },
+        {
+          "market": "AH Away -1.0",
+          "edge": 42.0
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Away Scout, Tactician, Archivist, and Sceptic all converge on Millwall being the stronger side, with the Auditor's adjusted probabilities supporting this direction. The Home Scout's analysis is an outlier and was critically challenged. The Quant found no Asian handicap value via Poisson gaps, creating the main point of dissent, but the EdgeCalculator's mathematical model strongly disagrees, showing immense value on Millwall handicaps.",
+    "_direction": "away_value",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 1.407,
+    "_direction_prob": 83.0,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.32,
+    "max_edge": 48.5
+  },
+  "display_texts": {
+    "home_position": "#5 (60 pts, +5 GD)",
+    "away_position": "#3 (65 pts, +9 GD)",
+    "home_form": "18W-6D-12L in 36 matches, last 5: DWLLD",
+    "away_form": "19W-8D-9L in 36 matches, last 5: WLWLD",
+    "home_stats": "57 goals in 36 matches (avg 1.6/match), 10 clean sheets",
+    "away_stats": "50 goals in 36 matches (avg 1.4/match), 14 clean sheets",
+    "h2h_history": "Hull City 1-3 Millwall (07 Mar 2026)\nMillwall 1-3 Hull City (13 Dec 2025)\nMillwall 0-1 Hull City (18 Jan 2025)\nHull City 0-0 Millwall (24 Aug 2024)\nHull City 1-0 Millwall (03 Feb 2024)",
+    "home_injuries": "M. Belloumi (Missing Fixture - Hamstring Injury), M. Crooks (Missing Fixture - Yellow Cards), A. Famewo (Missing Fixture - Calf Injury), R. Giles (Missing Fixture - Inactive), D. Gyabi (Missing Fixture - Groin Injury)",
+    "away_injuries": "L. Jensen (Missing Fixture - Muscle Injury), D. Kelly (Missing Fixture - Injury), M. Luongo (Missing Fixture - Knee Injury), J. Bryan (Questionable - Injury), W. Smallbone (Questionable - Hamstring Injury)",
+    "api_predictions": "API-Football prediction: Hull City | Probabilities: 35%-35%-30% | Recommendation: Double chance : Hull City or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "WIN",
+    "label": "WIN",
+    "color": "#22c55e",
+    "pnl": 1.9,
+    "score": "1:3",
+    "market": "AH Away -0.75"
+  },
+  "script": {
+    "title": "Millwall's Promotion Surge vs Hull's Injury Crisis",
+    "thumbnail_text": "CRISIS VS MOMENTUM",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a promotion-chasing juggernaut meets a team in complete collapse? Millwall arrive at the MKM Stadium with an eighty percent win rate from their last five away matches. Hull City welcome them with eleven players injured and a home form that's disintegrating at the worst possible moment. This isn't just a Championship fixture — it's a collision between momentum and catastrophe.",
+    "chapter_home": "Hull City are a team in crisis. Sat in fifth place, their playoff push is being derailed by a perfect storm of injuries and poor form. Eleven players are unavailable, stripping them of creative fulcrum Matt Crooks, attacking full-back Ryan Giles, and captain Lewie Coyle. Their home form shows just one win in their last five matches at the MKM Stadium, with three losses in that period. They've failed to keep a clean sheet in any of those five home games, conceding an average of one point six three goals per match. Manager Liam Rosenior faces a tactical nightmare — his preferred 4-2-3-1 system is compromised, forcing reliance on a stretched core group with low morale. The sheer volume of absentees and the physical toll of five games in a fortnight leaves them desperately vulnerable against a direct rival.",
+    "chapter_away": "Millwall arrive as the form team of the Championship. Under Alex Neil, they've transformed into promotion contenders, sitting third with a formidable away record. They've won four of their last five matches on the road — an eighty percent win rate — scoring an average of two point two goals per game in that run. Their fifty percent away win rate this season is underpinned by a defence that's kept six clean sheets in eighteen trips. While they have six players on the injury list, including midfielder Massimo Luongo, their core structure remains intact. The Lions play a cohesive 4-2-3-1 with an energetic press and a direct attacking threat. Their momentum is rising, their morale is high, and they approach this fixture knowing a win could solidify their automatic promotion credentials.",
+    "chapter_history": "History tells a completely different story. Hull City have dominated this fixture, winning five of the last six meetings between these sides. The Tigers are unbeaten in the last three encounters, with two wins and a draw. Half of the last ten meetings have seen over two point five goals, and both teams have scored in six of those ten matches. The last two fixtures were particularly fiery — producing eight goals and a red card for Millwall's Femi Azeez in the reverse fixture. This historical pattern provides Hull with a psychological edge, but it's a narrative that clashes violently with current realities. The Millwall side that lost those matches has been transformed, while Hull face them with a squad ravaged by injury.",
+    "chapter_analysis": "The tactical matchup reveals a severe structural advantage for Millwall. Both teams deploy a 4-2-3-1 formation, but the Lions' cohesive, in-form attacking unit — featuring Azeez, Langstaff, and Watson — can overload Hull's vulnerable central defence. The Tigers have conceded two point two goals per game in their last five home matches, while Millwall score two point two on average recently. The Sceptic delivered a critical challenge to the Home Scout's assessment — a fifty-five percent win probability for Hull was deemed a severe misreading of their collapsing form and injury crisis. That flawed analysis has been overridden by converging data. Millwall's cascading form profile shows a perfect five out of five win profile away from home, while Hull's home win profile is weak at two out of five. The Tactician's verdict is clear — Millwall hold the tactical edge with their energetic press targeting Hull's inconsistent build-up play. The critical danger zone aligns perfectly — Millwall concede twenty-four of their forty-one goals in the forty-six to sixty and seventy-six to ninety minute periods, while Hull score nineteen of their fifty-six goals in those same windows.",
+    "chapter_value": "Our market: Asian Handicap Away minus zero point seven five. The EdgeCalculator shows a massive forty-eight point five percent edge on this line, with a model probability of eighty-three percent versus market odds of two point nine. The Auditor's adjusted probabilities give Millwall a thirty-nine percent win chance, above the market-implied forty-three point five percent. While the Quant found no Poisson gaps in the Asian handicap markets — suggesting efficiency — this is overridden by the extreme mathematical edge and qualitative consensus across scouts. The bookmakers have not fully priced Millwall's formidable away form against Hull's catastrophic personnel crisis.",
+    "ending": "The Boot Room verdict: Millwall to cover the minus zero point seven five Asian handicap at odds of two point nine, with fifty-three percent confidence. The risks are clear — Hull's historical dominance, potential for a cagey draw in this high-stakes six-pointer, and mandatory rotation due to Championship fixture congestion. But the disparity in momentum and squad health is too severe to ignore. Millwall's promotion surge should overwhelm Hull's injury crisis. What's your prediction for this Championship clash? Let us know in the comments below, and subscribe to The Boot Room for data-driven football analysis. Boot Room out.",
+    "roundup_summary": "Hull City versus Millwall. Fifth hosts third in a Championship clash with major playoff implications. Hull's form is declining with three losses in their last five, while Millwall are rising with four wins in their last five away matches. The Tigers have a catastrophic injury list with eleven players out, including Matt Crooks and Ryan Giles. Millwall travel with six absentees but their core structure remains intact.\n\nHistorically, Hull dominate this fixture — they've won five of the last six meetings, including a three-two victory in the reverse fixture this season. The last ten meetings average two point eight goals, with exactly half seeing over two point five goals. Hull score one point six goals per home match this season but concede one point six three. Millwall score one point two two away but have kept six clean sheets in eighteen trips.\n\nThe Boot Room analysis identifies a severe asymmetry. Millwall's cascading form profile shows a perfect five out of five away win profile, while Hull's home win profile is weak at two out of five. The EdgeCalculator shows a forty-eight point five percent edge on Asian Handicap Away minus zero point seven five, with a model probability of eighty-three percent versus market odds of two point nine. The Sceptic critically challenged the Home Scout's fifty-five percent win probability for Hull as a severe misreading of their collapse. The bookmaker has mis-priced Millwall's formidable away momentum against Hull's injury-ravaged squad. The Auditor's effective confidence is sixty-five percent, supporting the away direction despite the Quant finding no Poisson gaps in Asian handicap markets.\n\nThe verdict is Asian Handicap Away minus zero point seven five at odds of two point nine with fifty-three percent confidence. Millwall need to win by two or more clear goals for a full win, or by one goal for a half-win. The risk is Hull's historical dominance or a cagey draw, but current form and personnel disparities favour the visitors. Boot Room market: AH Away -0.75. Confidence: 53%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "Collision Course",
+        "voiceover": "Eighty percent versus forty percent. Millwall's away win rate against Hull's home win rate in their last five matches. This isn't just form — it's momentum crashing into collapse. One team rides a promotion surge. The other faces eleven injuries and disintegrating confidence. The Championship's narrative of the season unfolds in ninety minutes.",
+        "graphic_type": "conflict",
+        "graphic_description": "Split-screen visual: left side shows Millwall players celebrating an away win, right side shows Hull City's empty treatment room with crossed-out player names on a board. Dramatic lighting contrast.",
+        "graphic_text_overlay": "80% VS 40%"
+      },
+      {
+        "scene": 2,
+        "name": "Hull's Hospital Ward",
+        "voiceover": "Eleven players unavailable. Creative fulcrum Matt Crooks — out. Attacking full-back Ryan Giles — out. Captain Lewie Coyle — out. Hull City's playoff push is being managed from the treatment room. Their home form shows one win in five, with three losses and no clean sheets. A patched-up defence must face the Championship's form attack.",
+        "graphic_type": "home_card",
+        "graphic_description": "Hull City team sheet with multiple red 'OUT' stamps over player names. Stats overlay showing: 'Last 5 Home: 1W-1D-3L', 'Goals Conceded: 1.63 per game', 'Clean Sheets: 0/5'.",
+        "graphic_text_overlay": "11 PLAYERS OUT"
+      },
+      {
+        "scene": 3,
+        "name": "Millwall's Machine",
+        "voiceover": "Four wins in five away matches. Two point two goals per game on the road. Millwall have transformed under Alex Neil — their 4-2-3-1 system presses with energy and attacks with direct purpose. While they have injury concerns, their core structure remains intact. This is a promotion-chasing juggernaut hitting peak form at the perfect moment.",
+        "graphic_type": "away_card",
+        "graphic_description": "Millwall players in dynamic attacking formation. Stats overlay showing: 'Away Form: 4W-0D-1L', 'Goals Scored: 2.2 per game', 'Clean Sheets: 6/18 away'.",
+        "graphic_text_overlay": "4 WINS IN 5"
+      },
+      {
+        "scene": 4,
+        "name": "History vs Reality",
+        "voiceover": "Hull have won five of the last six meetings. History screams home dominance. But those victories came against a different Millwall — a mid-table side, not a promotion contender. The Tigers that dominated those fixtures are gone, replaced by an injury-ravaged squad facing a tactical mismatch. History provides comfort, but current form delivers punishment.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "Timeline showing Hull City wins in five of the last six H2H meetings, with the most recent result (Hull 3-2 Millwall) highlighted. Contrasted with current league table showing Millwall 3rd, Hull 5th.",
+        "graphic_text_overlay": "5 WINS IN 6"
+      },
+      {
+        "scene": 5,
+        "name": "The Mathematical Edge",
+        "voiceover": "The data reveals a staggering disparity. Millwall's cascading form profile shows a perfect five out of five away win profile. Hull's shows a weak two out of five at home. The EdgeCalculator identifies a forty-eight point five percent edge on Millwall's Asian handicap — a model probability of eighty-three percent against market odds of two point nine. The bookmakers have not priced this asymmetry correctly.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Visual comparison: Millwall's '5/5' green win profile badge versus Hull's '2/5' red win profile badge. Large '48.5% EDGE' graphic with Asian handicap line '-0.75' and odds '2.90'.",
+        "graphic_text_overlay": "48.5% EDGE"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "Our market: Asian Handicap Away minus zero point seven five at two point nine. Fifty-three percent confidence. The risks are clear — Hull's historical hold, potential for a cagey draw, and fixture congestion. But momentum versus collapse creates value the market has missed. Millwall's promotion surge should overwhelm Hull's injury crisis. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean final graphic showing: 'BOOT ROOM MARKET: AH Away -0.75', 'ODDS: 2.90', 'CONFIDENCE: 53%'. Millwall badge slightly larger and above Hull badge.",
+        "graphic_text_overlay": "MARKET: AH -0.75"
+      }
+    ]
+  }
+}

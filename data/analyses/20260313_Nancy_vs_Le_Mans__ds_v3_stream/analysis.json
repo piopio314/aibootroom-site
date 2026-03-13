@@ -1,0 +1,161 @@
+{
+  "key": "20260313_Nancy_vs_Le_Mans__ds_v3_stream",
+  "match": {
+    "home_team": "Nancy",
+    "away_team": "Le Mans",
+    "league": "Ligue 2",
+    "date": "2026-03-13",
+    "home_id": 102,
+    "away_id": 1298
+  },
+  "prediction": {
+    "direction": "away_value",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — away_value direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 33.0,
+    "score_draw": 28.0,
+    "score_away": 39.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC matchup. Le Mans possess clear qualitative advantages: superior league position, improving defensive metrics, and a structured 5-3-2 formation designed for control. Nancy are in systemic decline, playing behind closed doors with a new manager, and their attack has flatlined, averaging 0.69 goals per home match. The tactical edge and momentum flow decisively towards the away side. (2) DIRECTION EVIDENCE — The mathematical edge supports the away side. The Edge Calculator identifies a 15.8% edge on 'AH Away -0.0' at odds of 1.75, which passes the odds gate. The Auditor recommends this market specifically, noting it aligns with the tactical edge and avoids the direction conflict present in the goals markets. While the Quant's AH value assessment was neutral, this was based on flawed sample data (cover_rate_venue: 0.0, sample_size: 0.0), rendering it unreliable. The stronger signal comes from the Edge Calculator's objective probability model. (3) AGENTS CONSENSUS — The Tactician explicitly gives the tactical edge to AWAY. The Sceptic's core critique is that the Away Scout severely underestimated Le Mans's win probability, arguing the mathematical baseline (74.3%) combined with Nancy's profound weaknesses presents a compelling case for the visitors. The Auditor's adjusted probabilities (Away 39%) are above the market-implied 40.8%, indicating slight value. The Archivist notes the immense promotion motivation for Le Mans. Dissent comes from the Home Scout's low win probability for Nancy (which actually supports the away thesis) and the Quant's lack of a clear 1X2 call. The net signal points to away value. (4) RISKS — The primary risk is Le Mans's documented draw-prone nature on the road (50% in last 5 away), which could see them settle for a point. The 'new manager bounce' for Nancy, though unlikely given the closed-door context and squad morale, is a wildcard. Unknown starting XIs and the potential for a single set-piece deciding a tight match also introduce volatility. However, the structural advantages and mathematical edge provide a sufficient buffer against these risks.",
+    "key_factors": [
+      "Le Mans's structured 5-3-2 formation provides midfield control against Nancy's struggling attack.",
+      "Nancy play behind closed doors, completely nullifying any home advantage and atmosphere.",
+      "Mathematical models (Edge Calculator) show a 15.8% edge on the away side on the Asian Handicap.",
+      "Nancy's attack is in severe decline, failing to score in over half their home matches."
+    ],
+    "risk_factors": [
+      "Le Mans's high draw tendency in away matches could result in a stalemate.",
+      "Unknown team sheets and the unpredictable impact of Nancy's new manager introduce short-term uncertainty."
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 15.8,
+      "edge_source": "Edge Calculator our_prob (72.9%) vs. market implied probability",
+      "edge_grade": "STRONG_VALUE (≥10%)",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 21.9
+        },
+        {
+          "market": "Over 2.25 Goals",
+          "edge": 18.9
+        },
+        {
+          "market": "AH Away -0.0",
+          "edge": 15.8
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Sceptic, and Auditor's edge validation align in favour of Le Mans's superiority, supported by the Archivist's context on motivation. The Home Scout's data on Nancy's weaknesses indirectly supports this. The Quant was neutral on AH value but provided flawed data, and the goals markets are conflicted, creating the primary dissent on market selection.",
+    "_direction_nobet_reason": "no_line_qualifies (away_value/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 21.9
+  },
+  "display_texts": {
+    "home_position": "#15 (27 pts, -14 GD)",
+    "away_position": "#3 (44 pts, +9 GD)",
+    "home_form": "7W-6D-13L in 26 matches, last 5: DWWDL",
+    "away_form": "11W-11D-4L in 26 matches, last 5: DLWLL",
+    "home_stats": "22 goals in 26 matches (avg 0.8/match), 6 clean sheets",
+    "away_stats": "33 goals in 26 matches (avg 1.3/match), 11 clean sheets",
+    "h2h_history": "Nancy 0-0 Le Mans (13 Mar 2026)\nLe Mans 0-0 Nancy (11 Jan 2026)\nLe Mans 1-0 Nancy (31 Oct 2025)\nNancy 2-0 Le Mans (28 Mar 2025)\nLe Mans 0-4 Nancy (01 Nov 2024)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Le Mans | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Le Mans",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "PENDING",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "–",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Nancy vs Le Mans: Why The Boot Room Says NO BET",
+    "thumbnail_text": "SKIP THIS FIXTURE",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a promotion-chasing side built for containment meets a relegation-threatened team stripped of home advantage? Nancy versus Le Mans presents a fundamental clash of narratives — but beneath the surface lies a market puzzle that even our deepest analysis cannot solve. Tonight, we face a rare verdict: no value. This is why.",
+    "chapter_home": "Nancy are a team in systemic decline, playing behind closed doors after a stadium sanction that completely nullifies any home advantage. Their attack has flatlined, averaging just 0.69 goals per home match and failing to score in over half their fixtures at the Stade Marcel Picot. New manager Vahid Halilhodzic is implementing immediate tactical changes, but this risks destabilising a squad already showing low morale and what reports describe as 'exasperation and fatalism' among supporters. Their 3-4-2-1 formation seeks width, but their scoring trend is decreasing, their momentum is declining, and they concede a league-high ten goals in the final fifteen minutes. A 31% home win rate and a seven-match winless run at home tell the story of a side fighting for survival with blunt tools.",
+    "chapter_away": "Le Mans travel with the confidence of a side sitting third in Ligue 2, fresh from a dominant 3-0 home win. Their story on the road, however, is one of containment. Deploying a structured 5-3-2 formation, they are built for control and defensive solidity, but this translates to a high draw tendency — they have drawn six of their twelve away matches. Their away win rate is just 33%, yet their underlying attacking metrics are strong, with the highest goal expectation in this matchup. They possess a dangerous late-game threat, scoring nine of their thirty-three goals in the 76-90 minute period, which directly targets Nancy's most vulnerable phase. The promotion motivation is immense, but their ability to convert superiority into three points away from home remains their critical question.",
+    "chapter_history": "History tells a story of Nancy dominance — they have won five of the last six meetings between these sides. The most recent clash, however, was a remarkable 3-6 away victory for Le Mans in April 2024, a high-scoring outlier in a fixture that averages 2.5 goals per meeting. The last two encounters have ended goalless, signalling a recent tightening. This historical pattern now collides with a transformed reality: Le Mans are promotion contenders, while Nancy are mired in a relegation battle. The psychological edge from past results may be neutralised by the immense pressure of current ambitions.",
+    "chapter_analysis": "The tactical matchup reveals a clear structural advantage for Le Mans. Their 5-3-2 formation grants numerical superiority in central midfield against Nancy's 3-4-2-1, designed to frustrate a home attack that lacks cutting edge. The Sceptic challenged the Away Scout's severe underestimation of Le Mans's win probability — a mathematical baseline of 74.3% was dismissed for a subjective 27% — arguing this overlooked quantitative superiority and Nancy's profound weaknesses. Our analysis confirms Le Mans's qualitative edge, supported by their improving defensive metrics and Nancy's crippled home attack. However, a critical conflict emerges in the goals markets. The Edge Calculator shows strong value on Over lines, with a 21.9% edge on Over 2.75 goals. Yet, the Tactician's narrative and both teams' defensive formations point decisively towards a tight, low-scoring encounter. This direction conflict creates an analytical deadlock.",
+    "chapter_value": "Our market: NO_BET. The mathematical edge exists — a 15.8% edge was identified on 'AH Away -0.0' at odds of 1.75, and the Auditor validated this alignment with the tactical edge. However, the Gaffer's conviction level was moderate, and the primary risk — Le Mans's 50% draw rate in their last five away matches — introduces significant uncertainty. When combined with the severe direction conflict in the goals markets and the unknown impact of Nancy's new manager, the collective signal lacks the clarity required for a confident recommendation. The bookmakers have priced this fixture efficiently relative to the competing narratives.",
+    "ending": "Sometimes, the most disciplined analysis leads to the most disciplined conclusion: pass. The Boot Room sees the away side's superiority, acknowledges the mathematical edges, but cannot reconcile the conflicting signals with sufficient conviction. In a fixture where history clashes with current form and tactical containment meets attacking decline, the smartest move is to watch and learn. If you value this level of forensic match analysis, subscribe to AI Boot Room for clear verdicts you can trust. Boot Room out.",
+    "roundup_summary": "Nancy versus Le Mans in Ligue 2 presents a clash between 15th and 3rd. Nancy's form is dire, with just one win in their last five matches across all competitions, while Le Mans are stable, with two wins, two draws, and one loss in their last five. Crucially, Nancy play this match behind closed doors, stripping them of any home advantage. Their attack averages a meagre 0.69 goals per home game.\n\nHistorically, Nancy dominate this fixture, winning five of the last six meetings. The average goals per meeting is 2.5, with both teams scoring in only 40% of clashes. The last two encounters finished goalless. This season, Nancy score 0.69 and concede 1.23 per home match. Le Mans score 1.08 and concede 1.00 per away game.\n\nThe Boot Room analysis identified a fundamental asymmetry: Le Mans's structured 5-3-2 and promotion push against Nancy's declining attack and closed-door sanction. The Poisson model gave a 45% probability to Over 2.5 goals and 55% to Under 2.5, but the Quant reported a critical data error with market implied probabilities at 0.0%, creating an unreliable edge signal. The Sceptic's core concern was the Away Scout's dismissal of Le Mans's strong 74.3% mathematical win probability. While the Edge Calculator showed a 15.8% edge on 'AH Away -0.0', this was tempered by Le Mans's high away draw tendency (50%) and a severe direction conflict in the goals markets between statistical models and tactical narrative.\n\nThe Boot Room verdict is a pass. The conflicting signals — a clear away tactical edge versus a high draw risk and unverifiable goals market value — create too much uncertainty for a confident position. No single line qualifies under the required conviction and odds filters. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "Nancy host Le Mans in a crucial Ligue 2 encounter. The visitors sit third, chasing promotion, while Nancy languish in 15th, fighting relegation. Nancy's form is poor, with a severe lack of home goals, and they play this match behind closed doors. Le Mans are structured and defensively solid away but draw half their road games. History favours Nancy, but current dynamics suggest a tight contest. The Boot Room's deep analysis reveals a clear away tactical edge but also a high draw risk and conflicting signals in the goals markets. With no line offering sufficient clarity, the verdict is to pass. Boot Room market: NO_BET. Confidence: 0%. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Empty Fortress",
+        "voiceover": "Nancy's Stade Marcel Picot will be silent — sanctioned, closed, stripped of all atmosphere. This isn't just a home game. It's an empty fortress, with a team inside that has forgotten how to score.",
+        "graphic_type": "hook",
+        "graphic_description": "A wide, empty stadium shot, focusing on vacant stands under gloomy lighting. The pitch is pristine but deserted.",
+        "graphic_text_overlay": "EMPTY FORTRESS"
+      },
+      {
+        "scene": 2,
+        "name": "The Containment Unit",
+        "voiceover": "Le Mans arrive as promotion hunters, but their away blueprint is containment. A rigid 5-3-2 formation, designed to control space and frustrate. They have the quality, but a critical flaw: they draw half their away matches.",
+        "graphic_type": "away_card",
+        "graphic_description": "A tactical board showing Le Mans's 5-3-2 formation, with arrows indicating defensive solidity and limited forward movement.",
+        "graphic_text_overlay": "STRUCTURED BUT STALE"
+      },
+      {
+        "scene": 3,
+        "name": "History vs. Reality",
+        "voiceover": "The head-to-head record screams Nancy dominance — five wins in the last six meetings. But that was a different Le Mans. Now, they are a transformed side, while Nancy are in freefall. History is about to be rewritten, or completely ignored.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split image. Left side: old newspaper headlines celebrating Nancy wins. Right side: a modern Ligue 2 table highlighting Le Mans in 3rd and Nancy in 15th.",
+        "graphic_text_overlay": "PAST VS PRESENT"
+      },
+      {
+        "scene": 4,
+        "name": "The Analytical Deadlock",
+        "voiceover": "Our models hit a wall. The Edge Calculator screams value on Over 2.75 goals — a 21.9% edge. But the Tactician's analysis, the formations, the scoring rates all point to a low-scoring grind. This isn't a puzzle to solve. It's a conflict with no winner.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A visual clash: on one side, a bright 'OVER' arrow with a 21.9% tag. On the other, a defensive shield icon with 'UNDER' and tactical diagrams.",
+        "graphic_text_overlay": "CONFLICTING SIGNALS"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict: Discipline",
+        "voiceover": "The smartest bet is sometimes no bet at all. We see Le Mans's edge, but the draw risk is too high, the signals too conflicted. Our market: NO BET. Confidence: 0%. In the search for value, clarity is king. Tonight, it is absent. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, minimalist screen with the words 'NO BET' in large, bold type. Smaller text below reads 'Confidence: 0%'.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "key": "20260307_Le_Mans_vs_Annecy__ds_v3_stream",
+  "match": {
+    "home_team": "Le Mans",
+    "away_team": "Annecy",
+    "league": "Ligue 2",
+    "date": "2026-03-07",
+    "home_id": 1298,
+    "away_id": 3012
+  },
+  "prediction": {
+    "direction": "home_value",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — home_value direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 45.0,
+    "score_draw": 28.0,
+    "score_away": 27.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC matchup. Le Mans possesses a clear structural and statistical advantage at home, with an unbeaten record (7W-7D-0L), conceding only 0.5 goals per match. Their defensive solidity contrasts with Annecy's inconsistent away form and recent heavy defeat in this fixture. The tactical setup (5-3-2 vs 3-5-2) further reinforces Le Mans's ability to control the defensive phase. (2) DIRECTION EVIDENCE — The mathematical case for home value is robust. The Quant identifies significant Poisson probability gaps on Asian Handicap lines favouring Le Mans: AH Home +0.5 shows a 14.4 percentage point gap, AH Home +1.0 a 15.8pp gap. The EdgeCalculator confirms positive edges on multiple AH Home lines, with AH Home +0.5 offering a 13.1% edge. Cascading profiles show Le Mans's home defence is IMPROVING, with a 100% cover rate over their last five home matches. The Auditor validates this AH home value as mathematically sound and qualitatively supported. (3) AGENTS CONSENSUS — The Quant, Auditor, and Tactician align on Le Mans's defensive strength and home advantage. The Tactician awards a tactical edge to the home side, citing their 5-3-2 system's superiority in neutralising Annecy's attack. The Archivist notes Le Mans's historical dominance (unbeaten in six H2H meetings). The Sceptic, while issuing a CRITICAL challenge against the Away Scout's overestimation of Annecy, recommends PROCEED and identifies the edge as strongest for markets aligned with Le Mans's defensive profile. The primary dissent comes from the Auditor's note that the Tactician's low-scoring prediction contradicts the Quant's value signal on Over 2.5 Goals, but this conflict is isolated to the goals market and does not undermine the home value thesis. (4) RISKS — The high draw tendency of both teams (60% for Le Mans at home, 40% for Annecy away) means a single-goal margin or stalemate is plausible, which would still cover the +0.5 line but limit upside. Missing starting XI confirmation introduces minor uncertainty, though both squads are reported at full strength. Annecy's motivation as a promotion chaser could inspire a more resilient performance than their recent 3-0 defeat suggests.",
+    "key_factors": [
+      "Le Mans's exceptional home defensive record (0.5 goals conceded per match)",
+      "Significant mathematical edge on Asian Handicap home lines (13-16pp gaps)",
+      "Historical dominance: Le Mans unbeaten in six previous H2H meetings",
+      "Tactical advantage: Le Mans's 5-3-2 system structurally suited to neutralise Annecy's 3-5-2"
+    ],
+    "risk_factors": [
+      "High draw tendency in both teams' recent profiles",
+      "Potential for low-scoring tactical stalemate limiting goal margin",
+      "Missing official starting line-up confirmation"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.5 Goals",
+        "prediction": "Under 2.5",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 13.1,
+      "edge_source": "EdgeCalculator probability minus market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Home 0.25",
+          "edge": 19.2
+        },
+        {
+          "market": "AH Away -0.75",
+          "edge": 15.2
+        },
+        {
+          "market": "AH Home 0.5",
+          "edge": 13.1
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Quant, Auditor, and Tactician form a core consensus on Le Mans's defensive strength and home advantage, supported by the Archivist's historical data. The Sceptic aligns directionally by criticising the overestimation of Annecy and endorsing a proceed verdict. The primary conflict is isolated between the Quant's value signal on Over 2.5 Goals and the Tactician's low-scoring match prediction, but this does not fracture the home value thesis.",
+    "_direction_nobet_reason": "no_line_qualifies (home_value/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.94,
+    "max_edge": 15.2
+  },
+  "display_texts": {
+    "home_position": "#3 (44 pts, +9 GD)",
+    "away_position": "#7 (39 pts, +6 GD)",
+    "home_form": "11W-11D-4L in 26 matches, last 5: DLWLL",
+    "away_form": "11W-6D-9L in 26 matches, last 5: LDWLD",
+    "home_stats": "33 goals in 26 matches (avg 1.3/match), 11 clean sheets",
+    "away_stats": "34 goals in 26 matches (avg 1.3/match), 9 clean sheets",
+    "h2h_history": "Le Mans 3-0 Annecy (07 Mar 2026)\nAnnecy 1-2 Le Mans (12 Dec 2025)\nLe Mans 2-2 Annecy (08 Apr 2022)\nAnnecy 1-1 Le Mans (05 Nov 2021)\nLe Mans 3-2 Annecy (15 May 2021)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Annecy | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Annecy",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "3:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Le Mans vs Annecy: The Fortress vs The Ghost of 3-0",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a fortress meets a ghost? Le Mans have not lost a single home match all season — fourteen games, seven goals conceded. Their defensive wall is the foundation of a promotion push. Yet, just days ago, they dismantled tonight's visitors, Annecy, by three goals to nil. So why is the market refusing to price in a home victory?",
+    "chapter_home": "Le Mans are a defensive phenomenon at the Stade Marie-Marvingt. Fourteen home matches have yielded seven wins, seven draws, and zero defeats. They concede just half a goal per game on average, with nine clean sheets already secured. Their tactical identity is built on a rock-solid 5-3-2 formation, designed to absorb pressure and strike in transition, particularly in the second half where they score over half their goals. Sitting third in the table, the pressure is immense, but their attack can be blunt — a 60% draw rate in their last five home games highlights the fine line between solidity and stalemate. With no reported injuries, the fortress is at full strength.",
+    "chapter_away": "Annecy arrive in seventh, still very much in the promotion conversation themselves. Their away record is respectable, with six wins from fourteen trips and a defensive record conceding just over a goal per game. Yet, the shadow of their recent 3-0 capitulation to Le Mans looms large. Their tactical setup, a 3-5-2, aims to control midfield but often lacks penetration on the road, averaging only 1.14 goals. They are also chronically vulnerable late in matches, conceding ten goals this season in the final fifteen minutes. With a full squad available, the question is not about personnel but psychology — can they exorcise the ghost of that comprehensive defeat so quickly?",
+    "chapter_history": "History offers no comfort for the visitors. In six recorded meetings, Annecy have never beaten Le Mans. The hosts are unbeaten, winning the last two encounters including that decisive 3-0 home victory. Historically, this has been a high-scoring fixture, with five of the six clashes featuring over 2.5 goals and an average of nearly four per game. However, the most recent pattern shows Le Mans taking firm control, creating a significant psychological barrier that Annecy must now overcome in this critical six-pointer.",
+    "chapter_analysis": "The tactical matchup is a classic clash of structured pragmatism. Le Mans's back five is perfectly designed to smother Annecy's front two, while their wing-backs can exploit the spaces left by Annecy's advancing midfield. Our Quant identified substantial mathematical edges on Asian Handicap lines favouring Le Mans, with gaps as wide as 15.8 percentage points on the Home +1.0 line. The Auditor validated this home defensive value as mathematically sound. However, our Sceptic issued a critical challenge, noting the Away Scout's severe overestimation of Annecy's chances, which the market has since corrected. The core conflict lies elsewhere: between the historical data screaming for goals and the current tactical reality pointing to a cagey, low-scoring affair. This contradiction creates uncertainty where the market needs clarity.",
+    "chapter_value": "Our market: NO BET. The mathematical case for Le Mans is compelling — their defensive record is exceptional, and the Poisson model shows significant value on Asian Handicap lines. Yet, no single qualifying line meets our strict conviction and odds threshold. The market has tightened, pricing in the home defensive strength but also the high draw tendency of both sides. While edges exist mathematically, the qualitative uncertainty — the clash between historical goal trends and current low-scoring setups — caps our confidence at zero. Sometimes, the clearest data points to the wisest decision: to wait.",
+    "ending": "Le Mans's fortress should hold. The statistics, the history, and the tactical matchup all lean decisively towards the hosts avoiding defeat. But in the razor-thin margins of a promotion six-pointer, with both teams prone to draws and the goals market sending conflicting signals, we find no bet that carries the requisite edge and conviction. The Boot Room's verdict is to pass on this fixture. If you found this breakdown valuable, subscribe for more data-driven match analysis. Boot Room out.",
+    "roundup_summary": "Le Mans versus Annecy. Third hosts seventh in a crucial Ligue 2 promotion six-pointer. Le Mans are unbeaten in fourteen home matches this season, with a formidable defensive record of just seven goals conceded. Their last five home games show two wins and three draws. Annecy's last five away fixtures include two wins, one draw, and two losses, though they arrive off a heavy 3-0 defeat to this same opponent just days prior. Both squads report no significant injuries.\n\nThe head-to-head history is one-sided. Le Mans are unbeaten in six meetings, winning the last two including a 3-0 home victory. Five of those six encounters featured over 2.5 goals, with an average of 3.8 per match. This season, Le Mans average 1.0 goal scored and 0.5 conceded at home, while Annecy average 1.14 scored and 1.21 conceded on the road.\n\nThe Boot Room analysis identifies a clear mathematical edge for Le Mans, particularly on Asian Handicap lines. The Poisson model shows a 14.4 percentage point probability gap on the Home +0.5 line, with the EdgeCalculator confirming a 13.1% edge. Our Quant's assessment is supported by Le Mans's 100% home cover rate over their last five matches. However, our Sceptic successfully challenged the initial overestimation of Annecy's chances, which the market has corrected. The critical tension is a market mismatch: while mathematical value exists on Le Mans handicap lines, the highest calculated edge of 15.2% is on the contradictory AH Away -0.75 market, which is qualitatively implausible. Furthermore, a direct conflict exists between the historical high-scoring trend and the Tactician's prediction of a tight, low-scoring tactical affair between two defensively organised systems. This contradiction injects too much uncertainty for a qualified bet.\n\nThe Boot Room finds no market that meets our combined threshold of mathematical edge, qualitative support, and sufficient conviction. The recommendation is to observe rather than invest in this fixture. Boot Room market: NO BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Unbeaten Fortress",
+        "voiceover": "Fourteen home games. Zero defeats. Just seven goals conceded. Le Mans have built a promotion challenge on the most formidable defensive record in the league. Yet, against an opponent they crushed 3-0 days ago, the market sees no clear path to profit. Why?",
+        "graphic_type": "hook",
+        "graphic_description": "A towering, medieval stone fortress wall with the Le Mans crest emblazoned on it. The number '14' is carved into the stone, with a tiny '0' beneath it for losses.",
+        "graphic_text_overlay": "14 GAMES, 0 DEFEATS"
+      },
+      {
+        "scene": 2,
+        "name": "The Ghost in the Machine",
+        "voiceover": "Annecy are no pushovers — seventh in the table with a solid away record. But their last visit here ended in a 3-0 demolition. That ghost haunts this fixture. They have never beaten Le Mans, not once in six attempts. History is a mountain they must climb.",
+        "graphic_type": "conflict",
+        "graphic_description": "A semi-transparent, ghostly figure of an Annecy player stands before a massive, solid Le Mans defensive line. The score '3-0' flickers in the background.",
+        "graphic_text_overlay": "NEVER BEATEN THEM"
+      },
+      {
+        "scene": 3,
+        "name": "The Tactical Stalemate",
+        "voiceover": "Le Mans deploy a 5-3-2 — a back five designed to absorb. Annecy use a 3-5-2, aiming to control midfield. On paper, Le Mans's structure neutralises Annecy's attack. The Tactician awards the home side a clear edge. But this setup also points to a cagey, low-scoring battle — a direct contradiction to a history of goal frenzies.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Two tactical formation diagrams clash. Le Mans's 5-3-2 is shown as a solid, deep block. Annecy's 3-5-2 is shown with midfield arrows pushing forward, but being stopped by the defensive wall.",
+        "graphic_text_overlay": "5-3-2 vs 3-5-2"
+      },
+      {
+        "scene": 4,
+        "name": "The Market's Contradiction",
+        "voiceover": "Our Quant's model flashes value. Significant probability gaps, up to sixteen percentage points, favour Le Mans on handicap lines. The data is compelling. Yet, the market's highest mathematical edge is on an Annecy win by two goals — a verdict every qualitative agent rejects as fantasy. This is the core of the problem: the numbers are shouting, but they're shouting different things.",
+        "graphic_type": "evidence",
+        "graphic_description": "A split screen. On the left, a graph shows a large green upward arrow for 'Le Mans AH Value'. On the right, a red 'X' over a graph showing 'Annecy -0.75' with a question mark.",
+        "graphic_text_overlay": "DATA VS REALITY"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict: No Bet",
+        "voiceover": "When the mathematical signal fractures, and the clearest edge points in an impossible direction, the only rational move is to step back. Le Mans should not lose. But in the tight margins of a promotion clash, with draws likely and goals uncertain, we find no qualified value. Our market: NO BET. Confidence: zero percent. Sometimes, the smartest bet is the one you don't make. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, minimalist screen. A large, bold 'NO BET' is centred. Smaller text below reads 'Le Mans vs Annecy | Confidence: 0%'.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "key": "20260307_VfL_Wolfsburg_vs_Hamburger_SV__ds_v3_stream",
+  "match": {
+    "home_team": "VfL Wolfsburg",
+    "away_team": "Hamburger SV",
+    "league": "Bundesliga",
+    "date": "2026-03-07",
+    "home_id": 161,
+    "away_id": 175
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 40.8,
+    "score_draw": 29.4,
+    "score_away": 36.4,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading form profiles show a 79% convergence on Over 2.5 Goals, the strongest signal in the data. Wolfsburg's last five matches have a 100% Over 2.5 rate, averaging 3.8 total goals, while Hamburg's away matches average 2.0 goals with a 40% Over 2.5 rate. The Tactician's prediction of a 'tight but chaotic' contest with goals aligns with this characterisation, driven by Wolfsburg's defensive fragility and both teams' high BTTS tendency. (2) DIRECTION EVIDENCE — The Quant's Poisson model shows a massive 42.9 percentage point gap favouring Over 2.5 Goals, with a Poisson probability of 91.2% versus a market-implied 48.3%. The Auditor, while correctly flagging this as extreme, still recommends Over 2.5 as the preferred market after moderation. The EdgeCalculator shows positive edges on several Under markets, but this is a mathematical anomaly contradicted by every qualitative agent. The λ sum (implied goal expectancy) is high, supported by Wolfsburg's home goals conceded (2.21 GA/G) and Hamburg's improving away attack (1.67 GF/m last 3). (3) AGENTS CONSENSUS — The Home Scout, Quant, Tactician, and cascading profiles all strongly support a high-scoring outcome. The Away Scout's focus on Hamburg's season-long away struggles is valid but countered by their recent positive away form. The Sceptic's CRITICAL challenge was on the Away Scout's win probability miscalibration, not the goals narrative; their 'surprise scenario' of a low-scoring Hamburg win is noted but outweighed by convergent data. The Auditor's adjusted probabilities (Over 2.5 at 65%) provide a credible, moderated foundation. (4) RISKS — The primary risk is Wolfsburg's catastrophic injury list blunting their attack to the point they cannot contribute to the goal tally. Hamburg's pragmatic, draw-prone away approach could lead to a cagey, low-event match. The mathematical direction conflict flagged by the EdgeCalculator (highest edges on Under markets) cannot be ignored and imposes a confidence ceiling, though the qualitative consensus is overwhelming.",
+    "key_factors": [
+      "79% profile convergence on Over 2.5 Goals from both teams' recent form",
+      "Wolfsburg's 100% BTTS rate in last five home matches and no clean sheets all season",
+      "Quant's identified 42.9pp value gap on Over 2.5 Goals",
+      "Tactician's analysis of Wolfsburg's late-game defensive collapse (16 goals conceded 76-90')"
+    ],
+    "risk_factors": [
+      "Mathematical model (EdgeCalculator) shows highest edges on Under markets, creating a direction conflict",
+      "Wolfsburg's severe injury crisis could cripple their attacking output",
+      "Hamburg's historical low away scoring (0.64 goals per match this season)"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 3.5 Goals",
+        "prediction": "Over 3.5",
+        "confidence": 47
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 14.3,
+      "edge_source": "EdgeCalculator analysis (our probability vs market odds)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 1.75 Goals",
+          "edge": 14.3
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 14.0
+        },
+        {
+          "market": "Under 2.75 Goals",
+          "edge": 13.0
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "Strong consensus on a high-scoring match. The Home Scout, Quant, Tactician, and cascading form profiles all align on Over 2.5 Goals. The Auditor moderates the probability but maintains the direction. The Sceptic's primary dissent was on the Away Scout's win probability, not the goals expectation. The only significant disagreement is the EdgeCalculator's mathematical edge pointing to Under markets, creating a quantitative vs qualitative split.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 14.3
+  },
+  "display_texts": {
+    "home_position": "#17 (20 pts, -21 GD)",
+    "away_position": "#10 (29 pts, -8 GD)",
+    "home_form": "5W-5D-14L in 24 matches, last 5: WDDLL",
+    "away_form": "6W-8D-10L in 24 matches, last 5: DLLWD",
+    "home_stats": "33 goals in 24 matches (avg 1.4/match), 1 clean sheets",
+    "away_stats": "26 goals in 24 matches (avg 1.1/match), 6 clean sheets",
+    "h2h_history": "VfL Wolfsburg 1-2 Hamburger SV (07 Mar 2026)\nHamburger SV 0-1 VfL Wolfsburg (25 Oct 2025)\nVfL Wolfsburg 4-1 Hamburger SV (06 Oct 2021)\nVfL Wolfsburg 1-3 Hamburger SV (28 Apr 2018)\nHamburger SV 0-0 VfL Wolfsburg (09 Dec 2017)",
+    "home_injuries": "Cleiton (Missing Fixture - Ankle Injury), B. Dardai (Missing Fixture - Knee Injury), K. Fischer (Missing Fixture - Thigh Injury), K. Paredes (Missing Fixture - Muscle Injury), Rogerio (Missing Fixture - Muscle Injury)",
+    "away_injuries": "N. Capaldo (Missing Fixture - Abdominal strain), A. Gronbaek (Missing Fixture - Thigh Injury), B. Jatta (Missing Fixture - Hamstring Injury), A. Rossing-Lelesiit (Missing Fixture - Injury)",
+    "api_predictions": "API-Football prediction: Hamburger SV | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Hamburger SV",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:2",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Wolfsburg vs Hamburg: The Bundesliga's Most Contradictory Match",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when every analyst agrees on a high-scoring match — but the mathematics scream the exact opposite? This is not a simple Bundesliga fixture. This is a fundamental clash between narrative and numbers. Wolfsburg versus Hamburg presents a paradox so deep, it forces us to walk away.",
+    "chapter_home": "VfL Wolfsburg are a club in structural collapse. Anchored in the relegation zone with just one point from their last five matches, their form rating is the lowest possible. The injury list is catastrophic — eleven players absent, including captain Maximilian Arnold and top scorer Jonas Wind. This strips them of leadership, creativity, and their primary goal threat. Their home ground offers no fortress; they have kept zero clean sheets all season. A defence that concedes a staggering sixteen goals in the final fifteen minutes of matches is a team that capitulates under pressure. Manager Daniel Bauer faces intense scrutiny, with fan protests and board speculation creating a destabilising atmosphere. Their only strength is being involved in chaotic, high-scoring games — their last five home matches have seen both teams score every single time.",
+    "chapter_away": "Hamburger SV arrive with the freedom of mid-table security, but a season-long identity crisis on the road. Their record shows just one win in eleven away matches this campaign. Yet, recent form tells a different story — two wins and two draws in their last five away trips suggests a genuine uptick in resilience. They deploy a structured 3-4-2-1 formation and have conceded just 0.8 goals per match in that recent away run. However, their attack remains a chronic weakness, averaging only 0.64 goals per away game this season. They are missing four players, including influential midfielder Albert Grønbaek, but their squad disruption pales compared to Wolfsburg's. The narrative is split: are they the historically poor travellers, or a team finally finding defensive solidity away from home?",
+    "chapter_history": "This is a classic Bundesliga fixture where momentum shifts quickly. Wolfsburg hold a slight historical edge with five wins to Hamburg's three across ten meetings. The goals pattern is moderate, averaging 2.2 per match with Over 2.5 occurring in just forty percent of fixtures. Crucially, the home side has won only three of the last ten meetings, defying typical home advantage. The most recent encounter, in March 2026, saw Hamburg come from behind to win 2-1 on Wolfsburg's turf. That result, fresh in the memory, demonstrates Hamburg can win here — a psychological advantage against a wounded opponent.",
+    "chapter_analysis": "The analytical consensus is overwhelming for goals. Our cascading form profiles show a seventy-nine percent convergence on Over 2.5 Goals. Wolfsburg's last five matches have a one hundred percent Over 2.5 rate, averaging 3.8 total goals. The Quant's Poisson model identified a massive forty-two point nine percentage point value gap favouring Over 2.5, with a probability of ninety-one point two percent. The Tactician predicts a 'tight but chaotic' contest, highlighting Wolfsburg's late-game defensive collapse as a key factor. However, the Sceptic raised a critical challenge regarding Hamburg's win probability being undervalued, and flagged a surprise scenario of a low-scoring Hamburg victory. This is where the contradiction emerges. Our EdgeCalculator, a pure mathematical model, identifies the strongest value not on Over markets, but on Under 1.75 Goals — with a fourteen point three percent edge. Every qualitative analyst points towards goals; the mathematics point towards a cagey affair. This creates an irreconcilable quantitative versus qualitative split.",
+    "chapter_value": "Our market: NO BET. The Gaffer's final verdict is to pass on this fixture entirely. Confidence is zero percent. The odds reveal a market priced efficiently for the core match outcome — our implied probabilities show a forty point eight percent chance for a Wolfsburg win, twenty-nine point four for the draw, and thirty-six point four for Hamburg. While the narrative screams for Over 2.5 Goals at odds around 2.07, the mathematical edge conflict is too severe to ignore. The Auditor validated this stance, grading the analysis 'approved with caveats' and noting the Quant's extreme goals probability was not credible against historical data. Sometimes the smartest play is recognising when the data tells two different stories.",
+    "ending": "The Boot Room verdict is clear: there is no value to be captured here. Wolfsburg's desperation meets Hamburg's growing away resilience in a fixture where history offers little clarity. The bookmakers have priced this efficiently, and the fundamental split in our own analysis between narrative and numbers imposes a confidence ceiling of zero. We walk away. If you found this deep dive into a contradictory fixture valuable, subscribe to The Boot Room for more Bundesliga analysis where we separate signal from noise. Boot Room out.",
+    "roundup_summary": "VfL Wolfsburg versus Hamburger SV. The hosts sit 17th in the Bundesliga, deep in a relegation battle with a dire form of one point from their last five matches. Hamburg are 10th, comfortable in mid-table with a stable form rating of five. Wolfsburg's home record shows no clean sheets all season, while Hamburg's away form has recently improved to two wins and two draws in their last five. The head-to-head record is closely contested; Wolfsburg have five wins to Hamburg's three across ten meetings, with an average of 2.2 goals per match. The most recent fixture in March 2026 saw Hamburg win 2-1 at Wolfsburg. This season, Wolfsburg concede 2.21 goals per game at home, while Hamburg score just 0.64 on average away.\n\nThe Boot Room analysis reveals a profound contradiction. The qualitative data strongly supports a high-scoring match. Our cascading form profiles show a 79% convergence on Over 2.5 Goals, and the Quant's Poisson model identified a massive 42.9 percentage point value gap on that market, with a Poisson probability of 91.2%. However, the Sceptic validly challenged the narrative by highlighting Hamburg's potential for a low-scoring win and their recent defensive solidity. This created a split with our pure mathematical model, the EdgeCalculator, which identified the strongest value on Under 1.75 Goals with a +14.3% edge. The Auditor moderated the Quant's extreme probability down to 65% but noted the mathematical edge pointing to Under markets directly contradicted the qualitative consensus. The bookmaker has effectively priced the core match outcome, leaving no clear mis-pricing to exploit.\n\nGiven the irreconcilable conflict between narrative-driven goal expectation and mathematical value pointing to a low-scoring affair, the Boot Room finds no market with sufficient edge. The risks are too pronounced: Wolfsburg's severe injury crisis could blunt their attack, while Hamburg's pragmatic away approach could lead to a cagey match. The verdict is to pass. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Paradox",
+        "voiceover": "What happens when every story points to a goal-fest — but the cold, hard mathematics screams the exact opposite? This is Wolfsburg versus Hamburg. A Bundesliga fixture built on a fundamental contradiction.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side shows a fiery 'OVER' graphic with rising goal numbers. Right side shows a calm 'UNDER' graphic with a descending trend line. A large question mark separates them.",
+        "graphic_text_overlay": "NARRATIVE VS NUMBERS"
+      },
+      {
+        "scene": 2,
+        "name": "Home Collapse",
+        "voiceover": "VfL Wolfsburg are in freefall. Seventeenth in the table, with a catastrophic injury list stripping them of their captain and top scorer. They have kept zero clean sheets at home all season. Their defence concedes sixteen goals in the final fifteen minutes — a team that collapses under pressure.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dimly lit, empty Volkswagen Arena. A Wolfsburg player's shirt with a large red cross over it. The number '16' is highlighted in red, counting up to ninety.",
+        "graphic_text_overlay": "NO CLEAN SHEETS"
+      },
+      {
+        "scene": 3,
+        "name": "Away Resilience",
+        "voiceover": "Hamburg arrive with mid-table security and a puzzling identity. Their season-long away record is poor — just one win in eleven. But recently, something has changed. Two wins, two draws in their last five away trips. A newfound defensive solidity, conceding just 0.8 goals per match. Which version turns up?",
+        "graphic_type": "away_card",
+        "graphic_description": "A Hamburg player looking determined, standing in front of a fortress wall. A split stat line shows 'Season: 1 Win' versus 'Last 5: 2 Wins, 2 Draws'.",
+        "graphic_text_overlay": "THE TWO FACES"
+      },
+      {
+        "scene": 4,
+        "name": "The Analytical War",
+        "voiceover": "Our analysts are at war. The form profiles scream for Over 2.5 Goals — a seventy-nine percent convergence. The Quant's model shows a forty-three point gap in value. But our pure mathematics engine, the EdgeCalculator, identifies the strongest edge on Under 1.75 Goals. Narrative versus numbers. A paradox with no clear winner.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A chessboard with pieces labelled 'Narrative' and 'Maths' facing off. On one side, charts show rising goal graphs. On the other, complex equations and downward arrows.",
+        "graphic_text_overlay": "IRRECONCILABLE SPLIT"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict",
+        "voiceover": "When the data tells two completely different stories, the only intelligent move is to walk away. The market is priced efficiently. The conflict imposes a confidence ceiling of zero. Our market: NO BET. Sometimes the best bet is no bet at all. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A hand placing a 'NO BET' chip on a green felt table. The chip is large and central, with the Boot Room logo subtly etched into it.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

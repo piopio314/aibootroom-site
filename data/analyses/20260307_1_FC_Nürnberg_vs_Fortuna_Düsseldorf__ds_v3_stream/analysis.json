@@ -1,0 +1,168 @@
+{
+  "key": "20260307_1_FC_Nürnberg_vs_Fortuna_Düsseldorf__ds_v3_stream",
+  "match": {
+    "home_team": "1. FC Nürnberg",
+    "away_team": "Fortuna Düsseldorf",
+    "league": "2. Bundesliga",
+    "date": "2026-03-07",
+    "home_id": 171,
+    "away_id": 158
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 39.4,
+    "score_draw": 30.8,
+    "score_away": 29.8,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading profile convergence shows a 64% alignment for Over 2.5 Goals, the strongest signal across all markets. The Tactician's analysis confirms an 'open and transitional' character, driven by Nürnberg's formidable home scoring (2.6 goals per match in last 5) and both teams' defensive vulnerabilities and high BTTS tendencies. (2) DIRECTION EVIDENCE — The mathematical case is compelling. The Quant's Poisson model shows a 60% probability for Over 2.5 Goals versus a market-implied 48.3%, creating an 11.7 percentage point edge. The EdgeCalculator corroborates this with a 27.7% edge on Over 2.5 Goals and similar strong value on higher lines. The λ sum (implied by the 60% probability) points to an expected total well above 2.5. The Archivist reinforces this with a historical average of 3.0 goals per H2H match and a recent trend of three consecutive meetings with five or more goals. (3) AGENTS CONSENSUS — The direction enjoys broad, multi-source support. The Quant and EdgeCalculator provide the mathematical foundation. The Tactician's structural analysis of defensive weaknesses and transitional threats aligns perfectly. The Archivist's historical data points to high-scoring chaos. The Auditor approves the goals market assessment as 'sufficiently sound'. The Sceptic, while flagging data gaps and market divergence on the 1X2, explicitly notes Over 2.5 Goals as a 'robust secondary angle' and does not veto. The only dissent is minor: the Away Scout underplayed Fortuna's dire away form, but this actually supports the over_goals thesis as it highlights their defensive fragility. (4) RISKS — The primary risk is the thin sample for the extreme H2H goal trend (last 3 matches). A surprise tactical shift towards caution from either manager, particularly Fortuna given their away struggles, could suppress goal output. Additionally, the market's scepticism regarding a clear home win (implied 44% vs. scout's 55%) suggests underlying concerns about Nürnberg's efficiency, which could manifest in a lower-scoring draw. However, the overwhelming convergence of mathematical edge, tactical profile, and historical tendency outweighs these concerns.",
+    "key_factors": [
+      "Strong 64% cascading profile convergence for Over 2.5 Goals",
+      "Quant's Poisson model shows an 11.7pp edge on Over 2.5 Goals",
+      "H2H history shows an average of 3.0 goals with three consecutive high-scoring matches",
+      "Tactician analysis identifies an 'open and transitional' match with defensive vulnerabilities on both sides"
+    ],
+    "risk_factors": [
+      "Thin sample size for the extreme recent H2H goal trend (last 3 matches)",
+      "Potential for a cautious tactical approach from Fortuna Düsseldorf given their away struggles"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75",
+        "confidence": 63
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 11.7,
+      "edge_source": "Quant probability minus market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 27.7
+        },
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 22.0
+        },
+        {
+          "market": "AH Home 0.25",
+          "edge": 18.8
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Quant, EdgeCalculator, Tactician, Archivist, and Auditor are all aligned on the over_goals direction, providing mathematical, tactical, and historical support. The Sceptic raises valid points on data quality but does not veto and acknowledges the strength of the Over 2.5 angle. The Scouts' reports, while flawed in assessing win probabilities, contribute data (Nürnberg's home scoring, Fortuna's away defending) that supports the high-scoring narrative.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 27.7
+  },
+  "display_texts": {
+    "home_position": "#9 (30 pts, -3 GD)",
+    "away_position": "#11 (28 pts, -11 GD)",
+    "home_form": "8W-6D-10L in 24 matches, last 5: LLLDL",
+    "away_form": "8W-4D-12L in 24 matches, last 5: LLWDW",
+    "home_stats": "31 goals in 24 matches (avg 1.3/match), 2 clean sheets",
+    "away_stats": "23 goals in 24 matches (avg 1.0/match), 4 clean sheets",
+    "h2h_history": "1. FC Nürnberg 0-0 Fortuna Düsseldorf (07 Mar 2026)\nFortuna Düsseldorf 2-3 1. FC Nürnberg (03 Oct 2025)\nFortuna Düsseldorf 3-3 1. FC Nürnberg (26 Apr 2025)\n1. FC Nürnberg 2-2 Fortuna Düsseldorf (01 Dec 2024)\nFortuna Dusseldorf 3-1 FC Nurnberg (03 May 2024)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Fortuna Düsseldorf | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Fortuna Düsseldorf",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "LOSE",
+    "label": "LOSE",
+    "color": "#ef4444",
+    "pnl": -1.0,
+    "score": "0:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Nürnberg vs Düsseldorf: The Goals Market Trap",
+    "thumbnail_text": "NO BET ALERT",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when every data point screams goals, but the market refuses to listen? At the Max-Morlock Stadium, a fortress meets a fragile traveller in a fixture historically defined by chaos. The numbers paint a clear picture — a sixty percent probability of over two and a half goals, backed by three consecutive meetings with five or more. Yet tonight, The Boot Room is walking away. Here is why.",
+    "chapter_home": "1. FC Nürnberg have built a formidable home fortress this season. At the Max-Morlock Stadium, they are unbeaten in their last five matches, winning three and drawing two. More impressive is their scoring rate — averaging two point six goals per game during that run. Their identity is built on a relentless second-half engine, with nine of their thirty-one goals coming between the forty-sixth and sixtieth minutes. This suggests elite halftime adjustments and superior fitness. However, this attacking prowess is built on shaky defensive foundations. They have kept just two clean sheets all season, and both teams have scored in every one of their last five matches. Young defender von der Hitz has been exposed at times, and they concede heavily in the final fifteen minutes. Manager Miroslav Klose's side are a classic Jekyll and Hyde — formidable going forward at home, but perpetually vulnerable at the back.",
+    "chapter_away": "Fortuna Düsseldorf arrive attempting to reinvent themselves under a new manager, shifting to a three-one-four-two formation. This tactical flexibility masks a critical, chronic flaw: their away form is dire. They are winless in their last five on the road, with just one draw and three defeats. Their defence concedes one point five five goals per away match, with a particular tendency to collapse late — they have shipped twelve goals in the final quarter-hour this season. While they possess a late-game scoring threat themselves, with thirteen of their twenty-three goals coming after the sixtieth minute, their systemic fragility overshadows any attacking promise. The psychological lift from a recent derby win must now translate to a venue where they have historically faltered, presenting a monumental challenge for a side that cannot buy a result away from home.",
+    "chapter_history": "The history between these two sides is not just competitive — it is chaotic. Nürnberg hold the clear historical advantage, winning forty percent of meetings to Fortuna's twenty. But the recent story is one of pure, unadulterated goals. The last three clashes have been shootouts, each producing at least five goals. This includes two dramatic three-all draws and a three-two thriller decided by an eighty-fifth minute winner. Across all meetings, the average sits at three goals per match. It is a fixture where defences are routinely forgotten, and the pattern suggests that when these two meet, the net is destined to bulge repeatedly.",
+    "chapter_analysis": "Synthesising these profiles creates a compelling case for goals. The Tactician's analysis identifies an 'open and transitional' match character, with Nürnberg's double-striker setup poised to exploit spaces left by Düsseldorf's advancing wing-backs. The key battle lies in the forty-sixth to sixtieth minute window — Nürnberg's strongest scoring period directly targets Düsseldorf's weakness in conceding six goals in that same timeframe. The Quant's Poisson model calculates a sixty percent probability for Over two point five goals, creating an eleven point seven percentage point edge over the market's implied forty-eight point three percent. This is reinforced by a sixty-four percent convergence signal from the cascading form profiles. However, The Sceptic raised a critical challenge: the market is deeply sceptical of a clear Nürnberg win, pricing it at just forty-four percent versus scout assessments of fifty-five. This divergence suggests underlying concerns about Nürnberg's efficiency that could suppress goal output. Furthermore, the extreme high-scoring H2H trend is based on a thin sample of just three matches, introducing volatility.",
+    "chapter_value": "Our market: NO_BET. The mathematical edge on Over two point five goals is compelling — a sixty percent Poisson probability versus market odds of two point zero seven. The Auditor validated this assessment with an effective confidence of sixty-four percent. However, The Gaffer's strict filter requires both strong conviction and odds at or above one point seven zero. While the direction is clear, no specific goal line meets our qualifying threshold for a value bet. The market has efficiently priced the Asian Handicap markets, showing perfect alignment with our baselines. Sometimes, the clearest narrative does not translate to a bet we can confidently recommend. The value simply is not there.",
+    "ending": "The verdict from The Boot Room is to pass on this fixture. The data screams goals, with Nürnberg's home fortress and second-half engine colliding with Düsseldorf's chronic away fragility in a historically chaotic fixture. Yet, market efficiency and our own stringent filters leave us without a qualifying edge. When the numbers align but the price does not, discipline demands we wait for a better opportunity. If you found this deep dive valuable, subscribe to The Boot Room for more forensic match analysis. Boot Room out.",
+    "roundup_summary": "1. FC Nürnberg versus Fortuna Düsseldorf. This mid-table Bundesliga 2 clash sees ninth-placed Nürnberg, with three wins and two draws from their last five home matches, host eleventh-placed Fortuna, who are winless in their last five away. Both squads report no major injury concerns. The hosts average two point six goals in recent home games, while the visitors concede one point five five on the road.\n\nThe head-to-head history is defined by goals. The last three meetings have been spectacular shootouts: a 3-3 draw in October 2023, a 2-3 away win for Fortuna in April 2023, and another 3-3 draw in October 2022. This gives an average of three goals per historical meeting, with a strong trend for Both Teams to Score. This season, Nürnberg's matches average over three goals, while Fortuna's away games average nearly three.\n\nThe Boot Room analysis identified a significant mathematical edge in the goals market. The Quant's Poisson model shows a sixty percent probability for Over 2.5 Goals, creating an eleven point seven percentage point edge over the market's implied forty-eight point three percent. This is supported by a sixty-four percent convergence from cascading form profiles and the Tactician's assessment of an 'open and transitional' match with defensive vulnerabilities on both sides. The Sceptic's primary concern was the market's deep scepticism regarding a Nürnberg win, which implied potential underlying inefficiency that could suppress scoring. However, the core high-scoring narrative from historical data and team profiles remained robust. The Auditor validated the goals market assessment as sufficiently sound, with an effective confidence of sixty-four percent. Despite this, the bookmaker's pricing on specific goal lines did not meet the required value threshold for a bet.\n\nThe Boot Room verdict is to pass on this fixture. While the direction points clearly to a high-scoring match, no market offers the combined edge and odds required for a qualified value bet. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Contradiction",
+        "voiceover": "Every signal points to a goal fest at the Max-Morlock Stadium. The data screams chaos — a sixty percent probability for over two point five goals, backed by three consecutive shootouts in this fixture. Yet, The Boot Room is walking away. This is the story of a compelling narrative that the market has already priced out.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side shows a fiery net bulging with a soccer ball, labelled '60% POISSON PROB'. Right side shows a cold, locked padlock over a betting slip, labelled 'MARKET EFFICIENT'.",
+        "graphic_text_overlay": "DATA VS PRICE"
+      },
+      {
+        "scene": 2,
+        "name": "The Fortress",
+        "voiceover": "1. FC Nürnberg are a different beast at home — unbeaten in five, averaging two point six goals. Their secret weapon is a second-half engine, scoring nine goals between minutes forty-six and sixty. But this attack is built on sand. They have just two clean sheets all season, conceding in every recent match.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dynamic graphic of the Max-Morlock Stadium. Player icons surge forward in the second half, while defensive icons crumble. Key stat: '2.6 Goals/Game (Last 5 Home)'.",
+        "graphic_text_overlay": "SECOND-HALF ENGINE"
+      },
+      {
+        "scene": 3,
+        "name": "The Fragile Traveller",
+        "voiceover": "Fortuna Düsseldorf arrive with a new shape but an old curse. They are winless in their last five away matches, their defence leaking one point five five goals per trip. A staggering twelve goals conceded in the final fifteen minutes reveals a team that collapses under pressure. Their tactical shift cannot hide this systemic flaw.",
+        "graphic_type": "away_card",
+        "graphic_description": "A lone Fortuna Düsseldorf player looking weary on a rainy away pitch. A broken shield graphic sits beside him. Stats overlay: '0 Wins in Last 5 Away', '12 Goals Conceded 76-90min'.",
+        "graphic_text_overlay": "AWAY DAY GHOSTS"
+      },
+      {
+        "scene": 4,
+        "name": "Historical Chaos",
+        "voiceover": "When these teams meet, defences are optional. The last three clashes have all produced five or more goals — two three-all draws and a three-two thriller. History does not just suggest goals; it demands them, with an average of three per meeting. This fixture is a magnet for chaos.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "A timeline showing the last three H2H scores: 3-3, 2-3, 3-3. Each scoreline is connected by a fiery trail. The text 'Avg: 3.0 Goals/Match' burns at the bottom.",
+        "graphic_text_overlay": "SHOOTOUT HISTORY"
+      },
+      {
+        "scene": 5,
+        "name": "The Market Reality",
+        "voiceover": "The synthesis is perfect for an over. A sixty-four percent profile convergence, an eleven point seven percentage point Poisson edge, and tactical analysis predicting an open, transitional game. Yet, the market's deep scepticism about a Nürnberg win — priced eleven points below scout assessments — casts a shadow. The thin sample for the extreme goal trend adds uncertainty. The edge exists, but not at a price we can play.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A central dial points to 'OVER'. Arrows from 'Poisson Edge +11.7pp', '64% Convergence', and 'H2H Chaos' feed into it. A dark cloud labelled 'Market Scepticism' looms over the dial.",
+        "graphic_text_overlay": "EDGE WITHOUT VALUE"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO_BET. The Auditor's effective confidence sits at sixty-four percent for the goals direction, and the Edge Calculator shows a twenty-seven point seven percent edge on Over three point two five goals. But no line meets our strict qualifying threshold. When the story is clear but the value is not, discipline is the only bet. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final graphic. The text 'NO BET' is displayed prominently in the centre. Below, smaller text reads: 'Direction: OVER | Confidence: 0% | Odds: N/A'. The Boot Room logo is present.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

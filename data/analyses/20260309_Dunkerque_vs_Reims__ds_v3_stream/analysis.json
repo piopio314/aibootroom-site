@@ -1,0 +1,171 @@
+{
+  "key": "20260309_Dunkerque_vs_Reims__ds_v3_stream",
+  "match": {
+    "home_team": "Dunkerque",
+    "away_team": "Reims",
+    "league": "Ligue 2",
+    "date": "2026-03-09",
+    "home_id": 1304,
+    "away_id": 93
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 32.0,
+    "score_draw": 33.7,
+    "score_away": 34.3,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. Both teams' cascading profiles show strong convergence on Under 2.5 Goals (79%) and Draw (100%). Dunkerque's home attack has deteriorated to 0.33 goals per match in their last three home games, while Reims have kept five consecutive away clean sheets and failed to score in four of their last five matches overall. The tactical matchup shows mutual nullification: Dunkerque's possession-based 4-1-4-1 meets Reims's compact 4-2-3-1 defensive block, creating limited open spaces. (2) DIRECTION EVIDENCE — The Quant's Poisson probability for Under 2.5 Goals is 70%, creating a massive 70 percentage-point gap against the market. The Edge Calculator shows exceptional mathematical edges across all Under markets, with Under 1.75 Goals at 55.3% edge and Under 2.5 Goals also showing strong value. The Tactician explicitly predicts 'fewer goals than average' and cites the 79% Under 2.5 convergence. Both teams' goal rates are exceptionally low: Dunkerque average 1.2 goals scored and 1.0 conceded in their last five, while Reims average just 0.2 goals scored and 0.0 conceded. (3) AGENTS CONSENSUS — Strong alignment exists: The Quant identifies Under 2.5 as the only meaningful value bet with 70% probability. The Tactician's match character prediction is 'tight' with low-scoring environment. Both Scouts highlight defensive solidity and attacking deficiencies. The Sceptic confirms the 'systemic factor of extreme defensive solidity convergence' and recommends PROCEED. The Auditor approves the low-scoring thesis with 62 effective confidence. The Archivist notes moderately high-scoring historical pattern but with only three matches, this is outweighed by current form. (4) RISKS — The primary risk is Dunkerque's post-halftime attacking surge (10 goals in 46-60 minute window) breaking through Reims's defence. Reims's late-game threat (9 goals in final 15 minutes) could produce a late goal. The extreme defensive statistics (Reims's 100% clean sheet rate in last five) represent a small sample that could regress. Market odds for Under 2.5 may be compressed given the obvious defensive narrative.",
+    "key_factors": [
+      "Reims's five consecutive away clean sheets and 100% clean sheet rate in last five matches",
+      "Dunkerque's home attacking decline to 0.33 goals per match in last three home games",
+      "79% profile convergence on Under 2.5 Goals from both teams' cascading form data",
+      "Quant's Poisson probability of 70% for Under 2.5 Goals creating 70pp value gap"
+    ],
+    "risk_factors": [
+      "Dunkerque's strong second-half scoring pattern (10 goals in 46-60 minute window)",
+      "Reims's late-game threat (9 goals in final 15 minutes)",
+      "Small sample size for Reims's extreme defensive statistics (last 5 matches only)"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 1.75 Goals",
+        "prediction": "Under 1.75",
+        "confidence": 63
+      },
+      {
+        "market": "Draw",
+        "prediction": "Draw",
+        "confidence": 58
+      },
+      {
+        "market": "AH Home +0.25",
+        "prediction": "Dunkerque +0.25",
+        "confidence": 55
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 55.3,
+      "edge_source": "Edge Calculator mathematical model",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 1.75 Goals",
+          "edge": 55.3
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 45.8
+        },
+        {
+          "market": "Under 2.75 Goals",
+          "edge": 34.8
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "Strong consensus across all key agents: The Quant, Tactician, both Scouts, Sceptic, and Auditor all support the low-scoring thesis. The Quant provides mathematical validation with 70% Poisson probability for Under 2.5. The Tactician identifies the defensive tactical matchup. Both Scouts highlight attacking deficiencies. The Sceptic confirms defensive convergence. The Auditor approves with caveats. Only minor dissent exists in the Archivist's historical pattern showing moderately high-scoring matches, but this is based on only three meetings.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.82,
+    "max_edge": 55.3
+  },
+  "display_texts": {
+    "home_position": "#8 (38 pts, +14 GD)",
+    "away_position": "#4 (42 pts, +14 GD)",
+    "home_form": "10W-8D-7L in 25 matches, last 5: DDLWL",
+    "away_form": "11W-9D-5L in 25 matches, last 5: DWLWD",
+    "home_stats": "41 goals in 25 matches (avg 1.6/match), 6 clean sheets",
+    "away_stats": "37 goals in 25 matches (avg 1.5/match), 13 clean sheets",
+    "h2h_history": "Dunkerque 0-0 Reims (09 Mar 2026)\nReims 1-2 Dunkerque (01 Nov 2025)\nReims 2-2 Dunkerque (18 Jul 2020)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Dunkerque | Probabilities: 45%-45%-10% | Recommendation: Combo Double chance : Dunkerque or draw and -3.5 goals",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "The Unbreakable Wall vs The Blunt Attack: Dunkerque vs Reims",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a team that cannot score meets a team that cannot win? Reims arrive at Stade Marcel-Tribut with five consecutive away clean sheets — a fortress on the road. Yet they have failed to score in four of their last five matches. Dunkerque, meanwhile, have not won at home in three attempts, averaging just 0.33 goals per game. This is a collision of systemic failure. The bookmakers see a clear favourite. The data sees something else entirely.",
+    "chapter_home": "Dunkerque occupy a comfortable eighth place, their European ambitions fading with each passing week. Their season is defined by defensive solidity at home, conceding just 1.08 goals per match, but a glaring lack of cutting edge. In their last three home games, that attack has stalled completely, managing a single goal. Their tactical identity is built around a 4-1-4-1 formation and a notorious second-half surge — ten of their 41 goals this season have come between the 46th and 60th minutes. However, that post-halftime spark has been absent recently, contributing to a run of three home matches without a win. With a 38% home draw rate, they are specialists in stalemates, a team that is difficult to beat but equally incapable of securing victory. The narrative is one of a solid foundation with no finishing touch.",
+    "chapter_away": "Reims present a fascinating paradox. They sit fourth, fighting for promotion, yet their form is built on an extreme defensive mentality that has yielded five consecutive away clean sheets. Their 4-2-3-1 setup is a compact, disciplined block designed to suffocate opponents. The problem is their complete attacking impotence. They have failed to score in four of their last five matches across all competitions, averaging a mere 0.2 goals per game in that span. This has created a pronounced draw cycle — eight draws in their last ten matches. They are a team that has mastered the art of avoiding defeat but forgotten how to win, especially on the road where their victory rate is just 31%. The pressure of the promotion race clashes with a tactical identity that prioritises survival over supremacy.",
+    "chapter_history": "Historical meetings between these sides are limited, with only three recorded encounters. The pattern, however, is clear: Dunkerque are unbeaten, taking five points from a possible nine. The most dramatic meeting came in 2025, when Dunkerque came from behind to win 2-1 away in a fiery contest featuring seven yellow cards. This provides a psychological edge for the hosts, a belief they can frustrate their more fancied opponents. Yet, with such a small sample size, history offers only a faint echo. The current context — Reims's defensive fortress and Dunkerque's blunt attack — writes a completely new script.",
+    "chapter_analysis": "The tactical matchup is a classic case of mutual nullification. Dunkerque's possession-based 4-1-4-1, which averages 61.7% of the ball, crashes into Reims's immovable defensive block. The key battle will be Dunkerque's famed second-half surge against a Reims defence that concedes only 12.5% of its goals in that same 46-60 minute window. Our data agents showed remarkable consensus: a 79% profile convergence on Under 2.5 Goals and a 100% convergence on a Draw outcome. The Quant's Poisson model assigned a 70% probability to Under 2.5 Goals, creating a massive 70 percentage-point theoretical edge against a market that had not priced it. The Sceptic raised a critical challenge, noting the Away Scout had unsustainably inflated Reims's win probability to 27% against a data baseline of 15.5%. This market overvaluation of Reims was a red flag. The Auditor validated the low-scoring thesis but granted it only a 62 effective confidence, citing sample size concerns with Reims's five-match clean sheet streak.",
+    "chapter_value": "Our market: NO_BET. This is the rare case where the Boot Room's analysis identifies a clear directional trend — a high-probability, low-scoring stalemate — but finds no qualifying value bet. The mathematical edge was substantial, with the Edge Calculator showing a 55.3% edge on Under 1.75 Goals. However, our strict filters require both strong conviction and odds at or above 1.70. The market for low-scoring outcomes in this fixture is compressed, with odds failing to meet our threshold for a recommended play. Sometimes the most disciplined analysis leads to the most disciplined conclusion: pass.",
+    "ending": "The verdict on Dunkerque versus Reims is a defensive stalemate waiting to happen. Two systems, both designed to avoid losing, are likely to cancel each other out. While the data screams 'Under,' the market has correctly identified the narrative, leaving no exploitable value. In the Boot Room, we only play when the numbers give us a clear advantage. Tonight, they do not. Boot Room out.",
+    "roundup_summary": "Dunkerque versus Reims. The hosts sit eighth in Ligue 2 with a stable but unspectacular home record, while the visitors occupy fourth, desperate for promotion points. Dunkerque's form reads one win, two draws, and two losses in their last five, with a sharp decline in home attacking output. Reims mirror this with one win, four draws in their last five, built on an exceptional defensive record but chronic scoring issues.\n\nThe head-to-head history is brief but favours Dunkerque, who are unbeaten in the last three meetings, taking five points. The last encounter in 2025 was a 2-1 away win for Dunkerque. On average, these meetings have seen both teams score. This season, Dunkerque average 1.2 goals scored and 1.0 conceded in their last five, while Reims's numbers are stark: 0.2 goals scored and 0.0 conceded in the same period, highlighting the defensive narrative.\n\nThe Boot Room analysis identified an extreme convergence towards a low-scoring draw. The Quant's Poisson model gave a 70% probability to Under 2.5 Goals, a 70 percentage-point edge against an un-priced market. The Sceptic's main concern was the Away Scout's unsupported inflation of Reims's win probability to 27%, versus a 15.5% data baseline, suggesting market overvaluation. The Edge Calculator showed a 55.3% mathematical edge on Under 1.75 Goals. However, the bookmaker's pricing for low-scoring outcomes has been compressed, likely due to the obvious defensive narrative, removing the required odds value for a qualified bet. The Auditor's effective confidence was 62%, acknowledging the strong thesis but the sample size risks.\n\nThe Boot Room finds no value bet meeting its strict criteria for this fixture. The market has correctly identified the low-scoring likelihood but priced it efficiently, leaving no edge to exploit. Boot Room market: NO_BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Paradox",
+        "voiceover": "Five consecutive away clean sheets for Reims — a defensive fortress. Yet, they have failed to score in four of their last five matches. They are a team built not to lose, but one that has forgotten how to win.",
+        "graphic_type": "conflict",
+        "graphic_description": "A visual split: one side shows a towering, impenetrable stone wall labelled 'Reims Defence'. The other side shows a broken, rusted cannon labelled 'Reims Attack'.",
+        "graphic_text_overlay": "FORTESS VS FAMINE"
+      },
+      {
+        "scene": 2,
+        "name": "The Fading Spark",
+        "voiceover": "Dunkerque's home attack has evaporated. Just 0.33 goals per game in their last three at Stade Marcel-Tribut. Their famed second-half surges, where they score 24% of their goals, now meet a Reims wall that is strongest in that exact period.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dimming, flickering lighthouse on a coast, with a large '46-60'' clock overlay highlighting the post-halftime period.",
+        "graphic_text_overlay": "ATTACK IN DECLINE"
+      },
+      {
+        "scene": 3,
+        "name": "The Data Consensus",
+        "voiceover": "Our agents were in rare agreement. A 79% convergence on Under 2.5 Goals. A 100% convergence on a Draw. The Poisson model gave a 70% chance of under 2.5 goals — a massive seventy percentage-point edge. The signal was deafening.",
+        "graphic_type": "evidence",
+        "graphic_description": "A radar chart with two lines, one for Dunkerque and one for Reims, perfectly overlapping on the segments for 'Under 2.5' and 'Draw'.",
+        "graphic_text_overlay": "79% UNDER CONVERGENCE"
+      },
+      {
+        "scene": 4,
+        "name": "The Market Reality",
+        "voiceover": "But here is the catch. The bookmakers have seen the same story. The odds for low-scoring outcomes are compressed, offering no value that meets our strict threshold. The Edge Calculator found a 55% edge, but the required odds are not there. The market is efficient.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A pair of scales. One side is stacked high with gold bars labelled '70% Probability'. The other side is empty, with a price tag showing 'Odds < 1.70'.",
+        "graphic_text_overlay": "VALUE GAP CLOSED"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO_BET. The analysis is clear — a stalemate is the most likely outcome. But in the Boot Room, we only act when the numbers give us a clear and qualified edge. Tonight, they advise patience. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, minimalist shot of a red 'NO BET' stamp being pressed onto a tactical team sheet for Dunkerque vs Reims.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

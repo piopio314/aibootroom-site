@@ -1,0 +1,183 @@
+{
+  "key": "20260307_Nantes_vs_Angers__ds_v3_stream",
+  "match": {
+    "home_team": "Nantes",
+    "away_team": "Angers",
+    "league": "Ligue 1",
+    "date": "2026-03-07",
+    "home_id": 83,
+    "away_id": 77
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "Under 1.75 Goals",
+    "prediction": "Under 1.75 Goals",
+    "confidence": 71,
+    "confidence_gate": "APPROVE",
+    "odds_target": 2.22,
+    "score_home": 45.5,
+    "score_draw": 33.3,
+    "score_away": 21.2,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician confirms both teams will deploy mirroring defensive structures (Nantes 5-3-2 vs Angers 3-5-2), creating a congested midfield and neutralising attacking threats. Both teams average low possession (Nantes 35% home, Angers 41.3% away) and have minimal transition threat, with shot volumes and xG metrics among the lowest in Ligue 1. The cascading profiles show a STRONG 86% convergence for Under 2.5 Goals, the highest data-derived signal available. (2) DIRECTION EVIDENCE — The Quant's Poisson model shows a 60.0% probability for Under 2.5 Goals versus a market-implied 48.3%, creating an 11.7 percentage point value gap. The EdgeCalculator shows massive positive edges across all Under markets, with Under 1.25 Goals at +31.1% and Under 2.5 Goals itself showing strong mathematical support. Both teams' goal rates are abysmal: Nantes average 0.60 goals scored per match in their last five, Angers 0.40, while conceding 1.20 and 1.00 respectively. The λ sum is well below 2.5. (3) AGENTS CONSENSUS — The Home Scout, Away Scout, Quant, Tactician, Auditor, and Sceptic all align on the low-scoring narrative. The Sceptic's 'devils_verdict' explicitly states the low-scoring narrative is the most reliable data signal. The Auditor confirms tactical and quantitative alignment. The only dissent is marginal: the Archivist notes a historical tendency for both teams to score, but this is contradicted by current form where both teams' BTTS rates are 0-20% in recent matches. (4) RISKS — The primary risk is late-game volatility: both teams show alarming defensive fragility in the final 15 minutes, with Nantes conceding 14 of 41 goals and Angers 9 of 22 in that period. A single late mistake could push the total over 2.5. Additionally, the psychological pressure on Nantes could either induce extreme defensive rigidity or cause a collapse. However, the defensive formations and lack of attacking quality make a high-scoring outcome statistically unlikely.",
+    "key_factors": [
+      "STRONG 86% profile convergence for Under 2.5 Goals from both teams' cascading form data",
+      "Quant Poisson shows 60.0% probability vs 48.3% market price — 11.7pp value edge",
+      "Both teams deploying defensive five-at-the-back formations that neutralise attacking threats",
+      "Abysmal attacking records: Nantes failed to score in 60% of last 5, Angers in 7 of 12 away matches"
+    ],
+    "risk_factors": [
+      "Late-game defensive fragility from both sides could produce late goals",
+      "Psychological pressure on Nantes may cause tactical errors rather than rigidity"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 1.75 Goals",
+        "prediction": "Under 1.75",
+        "confidence": 68
+      },
+      {
+        "market": "BTTS No",
+        "prediction": "No",
+        "confidence": 65
+      }
+    ],
+    "value_bets": [
+      {
+        "market": "Under 2.5 Goals",
+        "edge": 11.7,
+        "odds": 2.07
+      }
+    ],
+    "edge_assessment": {
+      "selected_market_edge": 11.7,
+      "edge_source": "Quant Poisson probability (60.0%) minus market implied probability (48.3%)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 1.25 Goals",
+          "edge": 31.1
+        },
+        {
+          "market": "Under 1.75 Goals",
+          "edge": 30.9
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 24.7
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Home Scout, Away Scout, Quant, Tactician, Auditor, and Sceptic all converge on a low-scoring match. The Sceptic confirms the low-scoring narrative as the most reliable data signal. The Archivist provides the only mild dissent by noting historical BTTS tendency, but this is outweighed by current form data.",
+    "_direction": "under_goals",
+    "_direction_conviction": "strong",
+    "_direction_ev": 0.685,
+    "_direction_prob": 75.9,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 7.04,
+    "max_edge": 31.1
+  },
+  "display_texts": {
+    "home_position": "#17 (18 pts, -19 GD)",
+    "away_position": "#12 (30 pts, -8 GD)",
+    "home_form": "4W-5D-15L in 24 matches, last 5: LLWLD",
+    "away_form": "8W-5D-11L in 24 matches, last 5: WLDDL",
+    "home_stats": "22 goals in 24 matches (avg 0.9/match), 4 clean sheets",
+    "away_stats": "22 goals in 24 matches (avg 0.9/match), 8 clean sheets",
+    "h2h_history": "Nantes 0-1 Angers (07 Mar 2026)\nAngers 4-1 Nantes (12 Dec 2025)\nNantes 0-1 Angers (04 May 2025)\nAngers 1-1 Nantes (22 Sep 2024)\nNantes 1-0 Angers (23 Jul 2023)",
+    "home_injuries": "T. Tati (Missing Fixture - Inactive)",
+    "away_injuries": "P. Peter (Missing Fixture - Muscle Injury)",
+    "api_predictions": "API-Football prediction: Angers | Probabilities: 10%-45%-45% | Recommendation: Combo Double chance : draw or Angers and -3.5 goals",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "WIN",
+    "label": "WIN",
+    "color": "#22c55e",
+    "pnl": 1.22,
+    "score": "0:1",
+    "market": "Under 1.75 Goals"
+  },
+  "script": {
+    "title": "Nantes vs Angers: The Relegation Stalemate",
+    "thumbnail_text": "DEFENSIVE DEADLOCK",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when two of Ligue 1's most goal-shy teams meet in a relegation six-pointer? When both managers deploy defensive five-at-the-back formations, and the fear of losing completely outweighs any ambition to win? This is not a football match — it's a tactical siege. And the data reveals one market the bookmakers have completely mis-priced.",
+    "chapter_home": "Nantes are anchored in the relegation zone, sitting seventeenth with just eighteen points from twenty-four matches. Their home record reads like a relegation obituary — just two wins from twelve at the Stade de la Beaujoire. Recent performances show a desperate shift to a five-three-two formation, a clear retreat into a defensive shell. Managerial frustration over rescheduled fixtures and fan misconduct have created severe psychological pressure. Their attack is abysmal — failing to score in sixty percent of their last five matches, averaging just point six goals per game. While they've shown marginal defensive improvement recently, conceding point six seven goals per game in their last three at home, this comes against a backdrop of chronic fragility. Fourteen of their forty-one conceded goals have come in the final fifteen minutes. With only one absentee, Tati, the squad is largely intact but weighed down by off-field controversy and the crushing burden of survival.",
+    "chapter_away": "Angers arrive with mid-table comfort, twelve points clear of their hosts in twelfth position. That comfort, however, has not translated to success on the road. Their away record is dismal — just two wins from twelve matches, a seventeen percent win rate. Their attack is equally toothless, averaging half a goal per away game and failing to score in seven of those twelve fixtures. Like Nantes, they are confirmed to deploy a defensive shape — a three-five-two designed for compactness and counter-attacks. Their form is declining, with just one win in their last five away matches. They possess a late-game threat, scoring nine of their twenty-two goals in the final quarter-hour, but this is matched by defensive vulnerability in the same period. With only Peter absent, their squad depth suggests minimal disruption, but their motivation remains a question mark in a fixture where their opponent's desperation far exceeds their own.",
+    "chapter_history": "Historically, this is a fixture defined by parity and caution. The last ten meetings show an identical record — three wins apiece and four draws, a forty percent draw rate. The average goals per meeting is just two. Recent history, however, shows a shift. Angers are unbeaten in the last four encounters, winning three and drawing one. That includes two consecutive one-nil victories at the Stade de la Beaujoire. The most recent meeting was a dramatic four-one away win for Angers, featuring three late goals. While history suggests a tight, low-scoring affair, the current context flips the script entirely — Nantes's desperate relegation fight against Angers's mid-table security creates a pressure differential that could override traditional patterns.",
+    "chapter_analysis": "The tactical matchup is a mirror image of defensive intent. Nantes's five-three-two directly confronts Angers's three-five-two. This creates a congested midfield where both teams' central trios will cancel each other out, and wing-backs will be pinned by their direct opponents. Neither side dominates possession — Nantes averages thirty-five percent at home, Angers forty-one percent away — pointing to a low-possession battle with minimal transition threat. The cascading form data from both teams shows an eighty-six percent convergence for Under two point five goals, the strongest objective signal available. The Sceptic challenged the Home Scout's claim of 'defensive resilience', correctly noting it should be qualified as a recent, narrow improvement against a backdrop of chronically weak home defence. This nuance is accepted, but it doesn't change the overarching narrative: both teams' attacking metrics are among the worst in Ligue 1. The key risk lies in the final fifteen minutes, where both sides show alarming defensive fragility. Yet, the structural symmetry and lack of attacking quality make a goal-fest statistically remote.",
+    "chapter_value": "Our market: Under one point seven five Goals. The Quant's Poisson model reveals a sixty percent probability for Under two point five goals versus a market-implied forty-eight point three percent — an eleven point seven percentage point value edge. This mathematical signal is reinforced by the EdgeCalculator, which shows massive positive edges across all Under markets. For Under one point seven five, our model calculates a seventy-five point nine percent probability against market odds of two point two two. The bookmakers have underpriced the overwhelming likelihood of a cagey, low-chance affair between two terrified, goal-shy teams.",
+    "ending": "The verdict is clear. In a match where both teams prioritise not losing over winning, where defensive structures neutralise each other, and where attacking quality is virtually absent, goals will be a scarce commodity. We project a tense, attritional battle, most likely settled by a single goal or ending in a stalemate. The value lies squarely with the unders. Our market: Under one point seven five Goals at two point two two, with seventy-one percent confidence. Let us know your thoughts in the comments below — and if you want more data-driven breakdowns, subscribe and hit the notification bell. Boot Room out.",
+    "roundup_summary": "Nantes versus Angers. Seventeenth hosts twelfth in a Ligue 1 relegation six-pointer. Nantes's form reads one win, one draw, and three losses in their last five, anchored in the drop zone with just eighteen points. Angers are one win, one draw, and three losses in their last five away, sitting on thirty points with mid-table security. Nantes report one absentee, Tati, while Angers miss Peter. Both teams are expected to deploy defensive five-at-the-back formations.\n\nThe head-to-head history shows remarkable balance: three wins each and four draws from the last ten meetings. The average goals per meeting is two. Angers are unbeaten in the last four, including two consecutive 1-0 wins at Nantes. This season, Nantes average point six goals scored and one point two conceded at home. Angers average half a goal scored and one point two conceded on the road. Both teams' Both Teams to Score rates are between zero and twenty percent in recent matches.\n\nThe Boot Room analysis identifies a clear mis-pricing in the goal markets. The cascading form profiles from both teams show an eighty-six percent convergence for Under two point five goals. The Quant's Poisson model gives a sixty percent probability for Under two point five, versus a market-implied forty-eight point three percent — an eleven point seven percentage point edge. The Sceptic's main critique was that Nantes's 'defensive resilience' was overstated, being a recent narrow improvement. This is acknowledged, but it does not alter the core low-scoring narrative, which is supported by abysmal attacking metrics: Nantes failed to score in sixty percent of their last five, Angers in seven of twelve away matches. The bookmaker has failed to adequately price the defensive symmetry and sheer lack of attacking threat, creating value across all Under lines. The Auditor's effective confidence is sixty-two percent, aligning with the quantitative signal.\n\nOur verdict is for Under one point seven five Goals. The market odds are two point two two, representing strong value against our seventy-five point nine percent probability. The bet wins if there is one goal or fewer, or if two goals are scored and the line is not breached. The risk scenario is late-game defensive fragility from both sides producing a second-half flurry. Boot Room market: Under one point seven five Goals. Confidence: seventy-one percent.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Siege Mentality",
+        "voiceover": "What happens when the fear of losing completely outweighs any ambition to win? When two teams, anchored by desperation, retreat into identical defensive shells? This is Nantes versus Angers — not a football match, but a tactical siege. And the data reveals one number the bookmakers have not priced correctly.",
+        "graphic_type": "hook",
+        "graphic_description": "A dramatic, low-angle shot of two fortress walls closing in on each other on a football pitch, with minimal light between them.",
+        "graphic_text_overlay": "FEAR VS. AMBITION"
+      },
+      {
+        "scene": 2,
+        "name": "Nantes: The Desperate Host",
+        "voiceover": "Nantes are in a desperate fight for survival. Seventeenth place, just two home wins all season. Their recent shift to a five-three-two formation is a white flag — a retreat into a defensive shell. They have failed to score in sixty percent of their last five matches. The pressure is immense, but their ambition has shrunk to a single point: do not lose.",
+        "graphic_type": "home_card",
+        "graphic_description": "A stark, pressure-filled image of the Stade de la Beaujoire, focusing on a Nantes defender in a defensive posture, with a formation graphic of 5-3-2 overlaid.",
+        "graphic_text_overlay": "RETREAT TO SURVIVE"
+      },
+      {
+        "scene": 3,
+        "name": "Angers: The Comfortable Shadow",
+        "voiceover": "Angers mirror their hosts' caution. They arrive with a three-five-two, a shape built for compactness. Their away record is dismal — just two wins from twelve. They average half a goal per game on the road. With mid-table security, their motivation is questionable, but their tactical instruction is clear: match the opponent's defensive rigidity and avoid risk.",
+        "graphic_type": "away_card",
+        "graphic_description": "A muted, distant shot of Angers players in a disciplined, narrow defensive block, with a formation graphic of 3-5-2 superimposed.",
+        "graphic_text_overlay": "MIRRORED CAUTION"
+      },
+      {
+        "scene": 4,
+        "name": "The Tactical Deadlock",
+        "voiceover": "Five defenders versus three centre-backs with wing-backs. This structural symmetry creates a congested midfield where attacks go to die. Neither team dominates possession. The cascading data from both sides screams one outcome — an eighty-six percent convergence for Under two point five goals. It is the strongest signal in the analysis.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A tactical board graphic showing two mirrored defensive formations (5-3-2 vs 3-5-2) clashing in midfield, with a large '86%' stat for 'Under 2.5' glowing prominently.",
+        "graphic_text_overlay": "86% CONVERGENCE"
+      },
+      {
+        "scene": 5,
+        "name": "The Market Mispricing",
+        "voiceover": "The Quant's model reveals the gap. A sixty percent probability for a low-scoring game, versus a market price of just forty-eight point three percent. That is an eleven point seven percentage point edge the bookmaker has missed. The EdgeCalculator shows massive value across every Under line. The fear has not been priced in.",
+        "graphic_type": "evidence",
+        "graphic_description": "A clean, data-focused graphic comparing the Poisson probability (60.0%) and market implied probability (48.3%) for Under 2.5 Goals, with a bold arrow and +11.7pp value gap highlighted.",
+        "graphic_text_overlay": "11.7PP VALUE EDGE"
+      },
+      {
+        "scene": 6,
+        "name": "The Boot Room Verdict",
+        "voiceover": "Our market: Under one point seven five Goals. Odds of two point two two. Confidence: seventy-one percent. In a match defined by defensive symmetry and attacking poverty, the value lies in expecting nothing. The goalmouth will see minimal action. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A final, bold graphic with 'UNDER 1.75 GOALS' as the central market, flanked by the odds (2.22) and confidence (71%) in clean, modern typography.",
+        "graphic_text_overlay": "UNDER 1.75 GOALS"
+      }
+    ]
+  }
+}

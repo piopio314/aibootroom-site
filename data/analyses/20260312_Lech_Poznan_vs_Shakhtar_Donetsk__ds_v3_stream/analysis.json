@@ -1,0 +1,166 @@
+{
+  "key": "20260312_Lech_Poznan_vs_Shakhtar_Donetsk__ds_v3_stream",
+  "match": {
+    "home_team": "Lech Poznan",
+    "away_team": "Shakhtar Donetsk",
+    "league": "UEFA Europa Conference League",
+    "date": "2026-03-12",
+    "home_id": 347,
+    "away_id": 550
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 38.0,
+    "score_draw": 32.0,
+    "score_away": 30.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The cascading form profiles show a 93% convergence on Under 2.5 Goals, the strongest signal in the entire dataset. Lech Poznan's home defence concedes just 0.5 goals per match, while Shakhtar's recent form (based on a thin sample) shows a 100% clean sheet rate and a 100% draw rate across their last five extrapolated matches. The Tactician's analysis explicitly characterises this as a 'tight, low-scoring affair'. (2) DIRECTION EVIDENCE — The Quant identifies a 10 percentage point gap between the Poisson probability (60%) and market-implied probability (50%) for Under 2.5 Goals, marking it as the largest gap market. The EdgeCalculator confirms a 52.4% edge on Under 2.25 Goals, with Under 2.5 Goals also showing strong value. The Auditor's adjusted probabilities place Under 2.5 at 65%. The λ sum from the Poisson model is exceptionally low, predicting just 0.48 total goals. (3) AGENTS CONSENSUS — The Quant, Tactician, and Auditor are all aligned on the under_goals direction. The Sceptic's primary critique is that both Scouts overestimated win probabilities, but their 'surprise scenario' is a 0-0 draw, reinforcing the low-scoring thesis. The Scouts themselves highlight defensive strengths (Lech's impenetrable home defence, Shakhtar's clean sheets) and attacking weaknesses (Lech's late fragility, Shakhtar's current goal drought). The Archivist notes the historical H2H average is just 1.3 goals per match. The consensus for a low-scoring match is robust. (4) RISKS — The primary risk is sample size: Shakhtar's recent form is based on a single match, and their historical away potency (2.25 goals per game) starkly contradicts their current draw streak. The Sceptic has issued a NO_BET recommendation due to these conflicting signals and data gaps, which we are overriding with the ≥5% statistical edge from the EdgeCalculator. The mandatory rotation risk cap for European fixtures limits confidence to a maximum of 55%. Should Shakhtar's historical attacking form re-emerge, or should Lech's early pressure yield a breakthrough, the under bet is vulnerable.",
+    "key_factors": [
+      "93% profile convergence on Under 2.5 Goals from both teams' recent form",
+      "Quant identifies a 10pp value gap on Under 2.5 Goals",
+      "Tactician predicts a 'tight, low-scoring affair' with neutral tactical edge",
+      "Auditor's adjusted probability for Under 2.5 is 65%",
+      "Shakhtar's recent form shows 100% draw rate and 0.0 goals per match"
+    ],
+    "risk_factors": [
+      "Sceptic NO_BET veto overridden with statistical edge",
+      "Thin recent form samples, especially for Shakhtar Donetsk",
+      "Conflict between Shakhtar's historical away potency and current form",
+      "Mandatory European rotation risk cap limits confidence to 55%"
+    ],
+    "alternative_markets": [],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 10.0,
+      "edge_source": "Quant probability minus market implied probability",
+      "edge_grade": "VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 52.4
+        },
+        {
+          "market": "Under 2.75 Goals",
+          "edge": 40.9
+        },
+        {
+          "market": "AH Home 0.0",
+          "edge": 32.9
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Quant, Tactician, and Auditor are strongly aligned on an under_goals direction, supported by the overwhelming 93% profile convergence. The Sceptic dissents on a NO_BET verdict due to data conflicts, but their analysis of low-scoring probability aligns with the direction. The Scouts' qualitative reports on defensive strengths provide further support, despite their inflated win probability estimates.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 4.91,
+    "max_edge": 52.4
+  },
+  "display_texts": {
+    "home_position": "#11 (10 pts, +4 GD)",
+    "away_position": "#6 (13 pts, +5 GD)",
+    "home_form": "5W-1D-2L in 8 matches, last 5: WLLWD",
+    "away_form": "5W-2D-1L in 8 matches, last 5: DWWLW",
+    "home_stats": "15 goals in 8 matches (avg 1.9/match), 3 clean sheets",
+    "away_stats": "13 goals in 8 matches (avg 1.6/match), 3 clean sheets",
+    "h2h_history": "Shakhtar Donetsk 0-0 Lech Poznan (19 Mar 2026)\nLech Poznan 0-0 Shakhtar Donetsk (12 Mar 2026)\nLech Poznan 1-3 Shakhtar Donetsk (25 Jan 2024)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Shakhtar Donetsk | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Shakhtar Donetsk",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:3",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Lech vs Shakhtar: The Fortress vs The Nomads — NO BET",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when an impenetrable home fortress meets a perfect away record that's built on sand? Lech Poznan have conceded just once every two games at home this season. Shakhtar Donetsk have won all four away matches, scoring over two goals per game. Yet the data reveals a startling contradiction — Shakhtar haven't won a single match in their last five. This isn't a clash of strengths. It's a collision of illusions.",
+    "chapter_home": "Lech Poznan's home form reads like a defensive masterclass. They've kept clean sheets in 50% of their home matches, conceding just 0.5 goals per game. Their 4-2-3-1 system is built for early pressure, with 75% of their goals coming before half-time. Yet this fortress has cracks. Off-field turmoil includes fan vandalism and the club marketing their first-choice goalkeeper for a summer sale, signalling financial pressure. Two season-ending injuries before this European tie stretch their squad thin across three competitions. Their late-game defensive fragility is a major concern, conceding 50% of their total goals in the final 15 minutes. Their recent wins came against weak opposition, ranked 22nd on average. The narrative of an unbeatable home side is compelling, but the foundations are less solid than they appear.",
+    "chapter_away": "Shakhtar Donetsk present football's ultimate paradox. Their away record this season is flawless — four wins from four, averaging 2.25 goals per match. Yet their recent form tells a completely different story. The cascading data shows five consecutive draws, with a 100% draw rate and 0.0 goals scored per match in that period. They operate in permanent exile, with no home stadium for over 12 years, leading to chronic travel fatigue. Manager Arda Turan prepares the squad abroad in Istanbul, with limited time for tactical cohesion. Their 4-1-4-1 formation offers width, but their current inability to convert performances into victories is stark. The critical question is whether their historical away potency can re-emerge, or if their current goal drought represents a new reality.",
+    "chapter_history": "The historical head-to-head offers little clarity, with only three meetings on record. Shakhtar won the only completed fixture — a 3-1 away victory in Poznan back in January 2024. The other two meetings show no recorded result. The average goals per meeting is just 1.3, with only one of the three fixtures seeing over 2.5 goals. Every completed match has produced a winner, with a 0% draw rate historically. However, the sample size is too small to draw reliable conclusions. This feels like a fresh start rather than a continuation of any established pattern.",
+    "chapter_analysis": "The tactical matchup reveals why goals will be scarce. Lech's double pivot could control central midfield against Shakhtar's single holding midfielder, but Shakhtar's width superiority tests Lech's narrow defensive focus. Both teams prefer possession — Lech average 62.5%, Shakhtar 69% — suggesting a congested midfield battle. The key timing clash is clear: Lech's first-half intensity targets Shakhtar's vulnerable opening 15 minutes, while Shakhtar's 61-75 minute scoring surge meets Lech's late defensive fragility. The data convergence is overwhelming — 93% of both teams' form profiles point to Under 2.5 Goals. The Poisson model predicts just 0.48 total goals. The Sceptic challenged both Scouts for overestimating win probabilities, noting the extreme low-scoring convergence was the primary match characteristic. Their surprise scenario was a 0-0 draw, which aligns with the statistical evidence. The Tactician characterises this as a 'tight, low-scoring affair' with neutral tactical edge. The Auditor adjusted the Under 2.5 probability to 65%, citing sample size concerns but maintaining the Under direction.",
+    "chapter_value": "Our market: NO_BET. The Quant identified a 10 percentage point value gap on Under 2.5 Goals, with Poisson probability at 60% versus market-implied 50%. The EdgeCalculator shows a 52.4% edge on Under 2.25 Goals. However, the Gaffer's final verdict recognises critical limitations: Shakhtar's recent form is based on a single match sample, creating a stark conflict with their historical away potency. The mandatory European rotation risk cap limits confidence to a maximum of 55%. While the under direction is strongly supported, no specific line qualifies under the strict conviction and odds filter. Sometimes the smartest play is recognising when the edge isn't sharp enough.",
+    "ending": "The Boot Room lands on NO_BET for this Conference League clash. The statistical signal for a low-scoring match is powerful, but conflicting data and sample size concerns create too much uncertainty for a confident market recommendation. Lech's home fortress faces Shakhtar's nomadic resilience in what should be a tactical, cagey affair. When the numbers don't align with conviction, discipline demands we pass. Subscribe to AI Boot Room for data-driven football analysis that tells you when to bet — and when to wait. Boot Room out.",
+    "roundup_summary": "Lech Poznan versus Shakhtar Donetsk in the UEFA Europa Conference League presents a clash of conflicting narratives. Lech sit mid-table domestically with reduced pressure, boasting a formidable home record of three wins from four while conceding just 0.5 goals per match. Shakhtar are firmly in the European race in their league, arriving with a perfect away record of four wins from four, averaging 2.25 goals on the road. Their recent form, however, shows five consecutive draws with 0.0 goals per match.\n\nThe historical head-to-head offers minimal data, with only three meetings recorded. Shakhtar won the only completed fixture 3-1 in Poznan back in January 2024, while the other two meetings show no result. The average goals per meeting is just 1.3. This season, Lech score 1.88 goals per game but concede 1.0, while Shakhtar score 1.86 but concede 1.14. The recent trend points overwhelmingly toward low scoring.\n\nThe Boot Room analysis identifies a strong statistical signal for Under 2.5 Goals, with a 93% convergence from both teams' form profiles. The Quant's Poisson model shows a 10 percentage point value gap, with Poisson probability at 60% versus market-implied 50%. The EdgeCalculator confirms a 52.4% edge on Under 2.25 Goals. The Sceptic's primary concern was the conflict between Shakhtar's historical away potency and their current goal drought, along with thin recent form samples. While the under direction is well-supported, the bookmaker has not mis-priced any specific line sufficiently to overcome the data limitations and European rotation risk cap.\n\nThe verdict is a pass. No market offers the required combination of conviction and value. The statistical edge exists in theory, but practical constraints and data conflicts prevent a confident recommendation. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "Lech Poznan host Shakhtar Donetsk in the UEFA Europa Conference League. Lech sit mid-table domestically with a formidable home defence, conceding just 0.5 goals per game. Shakhtar are chasing European spots with a perfect away record this season, but their recent form shows five consecutive draws without scoring. The historical head-to-head average is just 1.3 goals per meeting. The Boot Room's analysis reveals a 93% convergence on Under 2.5 Goals from both teams' form profiles, with the Quant identifying a 10 percentage point value gap. However, conflicting data signals and sample size concerns lead to a NO_BET verdict. The statistical edge for low scoring is clear, but no specific market line qualifies under strict filters. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Illusion Collision",
+        "voiceover": "What happens when a perfect record meets a reality check? Shakhtar Donetsk have won all four away matches this season. Yet their recent form shows five consecutive draws — zero wins, zero goals. This isn't strength versus strength. It's history versus current truth.",
+        "graphic_type": "conflict",
+        "graphic_description": "Split screen showing Shakhtar's '4 AWAY WINS' stat on left versus '5 CONSECUTIVE DRAWS' on right, with a cracked shield symbol between them.",
+        "graphic_text_overlay": "PERFECT RECORD VS REALITY"
+      },
+      {
+        "scene": 2,
+        "name": "The Poznan Fortress",
+        "voiceover": "Lech Poznan's home is a fortress. They concede just once every two games here, with clean sheets in 50% of matches. But cracks are showing — fan disorder, goalkeeper sales, and late-game fragility threaten their solidity.",
+        "graphic_type": "home_card",
+        "graphic_description": "Lech Poznan's stadium with defensive wall graphics, showing '0.5 GOALS CONCEDED/HOME' and '50% CLEAN SHEETS' with small cracks appearing in the wall.",
+        "graphic_text_overlay": "CRACKS IN THE FORTRESS"
+      },
+      {
+        "scene": 3,
+        "name": "Shakhtar's Nomadic Struggle",
+        "voiceover": "Shakhtar operate in permanent exile — no home stadium for 12 years. Their preparation happens abroad in Istanbul. The travel fatigue is chronic, and their current form shows a team that can't find winning goals.",
+        "graphic_type": "away_card",
+        "graphic_description": "Shakhtar team bus on a long road, with map lines showing extensive travel, and a stat overlay showing '0 WINS IN LAST 5'.",
+        "graphic_text_overlay": "NOMADIC EXILE"
+      },
+      {
+        "scene": 4,
+        "name": "The Overwhelming Data Signal",
+        "voiceover": "The numbers scream one thing: low scoring. 93% of both teams' form profiles converge on Under 2.5 Goals. The Poisson model predicts just 0.48 total goals. Every data point points toward a cagey, tactical stalemate.",
+        "graphic_type": "evidence",
+        "graphic_description": "Large '93%' percentage graphic dominating the screen, with 'UNDER 2.5 GOALS' text beneath, surrounded by converging arrows from Lech and Shakhtar logos.",
+        "graphic_text_overlay": "93% CONVERGENCE"
+      },
+      {
+        "scene": 5,
+        "name": "Why We Walk Away",
+        "voiceover": "The Quant shows a 10-point edge on Under 2.5. The EdgeCalculator reveals 52% value on Under 2.25. But Shakhtar's data is based on one match sample. The conflict between history and current form creates uncertainty no edge can overcome.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "Scale balancing '10% EDGE' on one side versus 'DATA CONFLICT' on the other, with the 'DATA CONFLICT' side weighing down.",
+        "graphic_text_overlay": "EDGE VS UNCERTAINTY"
+      },
+      {
+        "scene": 6,
+        "name": "The Boot Room Verdict",
+        "voiceover": "Our market: NO_BET. Sometimes the smartest analysis reveals when to not play. The under direction is clear, but no specific line qualifies with sufficient conviction. Discipline demands we pass on this fixture. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold 'NO BET' text centered on screen with Lech and Shakhtar logos faded in background, accompanied by '0% CONFIDENCE' beneath.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

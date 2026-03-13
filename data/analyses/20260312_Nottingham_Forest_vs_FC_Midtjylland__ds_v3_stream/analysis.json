@@ -1,0 +1,162 @@
+{
+  "key": "20260312_Nottingham_Forest_vs_FC_Midtjylland__ds_v3_stream",
+  "match": {
+    "home_team": "Nottingham Forest",
+    "away_team": "FC Midtjylland",
+    "league": "UEFA Europa League",
+    "date": "2026-03-12",
+    "home_id": 65,
+    "away_id": 397
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 45.0,
+    "score_draw": 28.0,
+    "score_away": 27.0,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading profiles show STRONG convergence (71%) on Over 2.5 Goals. Forest's home profile averages 2.5 goals scored per match with a 100% Over 2.5 rate in their last three home windows. Midtjylland's away profile shows 3.0 goals scored and conceded per match in their last five away windows, with a 100% Over 2.5 rate. Both teams' defensive vulnerabilities (Forest's 16-30 minute lapses, Midtjylland's 1.29 goals conceded away) create a structural setup for goals despite the attacking injuries. (2) DIRECTION EVIDENCE — The EdgeCalculator shows strong mathematical edges on Over markets: Over 3.25 Goals (31.1% edge), Over 2.75 Goals (21.0% edge). The Auditor's adjusted probabilities give Over 2.5 a 71% likelihood. The Tactician's match character prediction is 'transitional' with 'more goals than average' and references the strong Over 2.5 convergence. The Poisson λ sum (implied by the data) supports a total goals expectation above 2.75. (3) AGENTS CONSENSUS — The Tactician, EdgeCalculator, and cascading profiles all align on a high-scoring scenario. The Sceptic's 'PROCEED' verdict and surprise scenario of a low-scoring Forest win provides dissent but doesn't directly contradict the Over thesis. The Quant shows no Poisson gaps but acknowledges the strong Over 2.5 convergence in methodology. The Auditor recommends Over 3.25 Goals as the most credible market. The Scouts highlight both teams' scoring strengths and defensive weaknesses. (4) RISKS — The critical risk is the rotation/XI uncertainty from the European fixture conflict, which caps confidence at 55%. Both teams' severe attacking injuries could blunt their offensive output despite the statistical profiles. The Sceptic's challenge about Midtjylland's recent away form (0 wins, 100% draws) suggests they may be less potent than seasonal data indicates. Early tactical caution in a European knockout could suppress the expected goal flow.",
+    "key_factors": [
+      "STRONG 71% profile convergence on Over 2.5 Goals from both teams' recent form",
+      "EdgeCalculator shows 31.1% edge on Over 3.25 Goals and 21.0% edge on Over 2.75 Goals",
+      "Both teams show defensive vulnerabilities: Forest's early-game lapses, Midtjylland's 1.29 goals conceded away",
+      "Tactician predicts 'transitional' match with 'more goals than average'"
+    ],
+    "risk_factors": [
+      "European fixture conflict creates rotation risk and XI uncertainty",
+      "Both teams missing multiple key attacking players through injury",
+      "Sceptic's challenge on Midtjylland's recent away form showing 0 wins and 100% draws"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 3.25 Goals",
+        "prediction": "Over 3.25",
+        "confidence": 48
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 21.0,
+      "edge_source": "EdgeCalculator our_prob (72.0%) vs market implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away 0.25",
+          "edge": 53.3
+        },
+        {
+          "market": "AH Away 0.5",
+          "edge": 45.6
+        },
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 31.1
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, EdgeCalculator, and cascading profiles strongly support Over goals. The Sceptic accepts proceeding but flags data quality issues. The Quant shows market efficiency but acknowledges the Over 2.5 convergence. The Auditor recommends goals markets over Asian handicaps. The Scouts highlight scoring strengths but differ on win probabilities.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.06,
+    "max_edge": 53.3
+  },
+  "display_texts": {
+    "home_position": "#13 (14 pts, +8 GD)",
+    "away_position": "#3 (19 pts, +10 GD)",
+    "home_form": "5W-2D-3L in 10 matches, last 5: DLWDW",
+    "away_form": "11W-2D-1L in 14 matches, last 5: DWWWW",
+    "home_stats": "19 goals in 10 matches (avg 1.9/match), 5 clean sheets",
+    "away_stats": "32 goals in 14 matches (avg 2.3/match), 7 clean sheets",
+    "h2h_history": "FC Midtjylland 0-0 Nottingham Forest (19 Mar 2026)\nNottingham Forest 0-0 FC Midtjylland (12 Mar 2026)\nNottingham Forest 2-3 FC Midtjylland (02 Oct 2025)",
+    "home_injuries": "T. Awoniyi (Missing Fixture - Inactive), W. Boly (Missing Fixture - Knee Injury), John Victor (Missing Fixture - Knee Injury), L. Netz (Missing Fixture - Inactive), S. Ortega (Missing Fixture - Calf Injury)",
+    "away_injuries": "O. Brynhildsen (Missing Fixture - Knee Injury), O. Ejeheri (Missing Fixture - Inactive), Franculino (Missing Fixture - Knee Injury), M. Gogorza (Missing Fixture - Injury), D. Osorio (Missing Fixture - Yellow Cards)",
+    "api_predictions": "API-Football prediction: FC Midtjylland | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or FC Midtjylland",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "0:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Forest vs Midtjylland: The Injury-Ravaged Goal Paradox",
+    "thumbnail_text": "NO BET ALERT",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when two European sides with potent scoring records meet—but both have lost their primary strikers? Nottingham Forest versus FC Midtjylland presents a statistical paradox: a 71% convergence on Over 2.5 Goals, yet a starting XI crisis that could blunt every attack. Tonight, we ask—can two depleted attacks still exploit two fragile defences?",
+    "chapter_home": "Nottingham Forest arrive at the City Ground with a formidable home scoring record—averaging 2.4 goals per match and failing to score in none of their last five home fixtures. Their 4-2-3-1 setup creates a central overload, and they thrive in the opening half-hour, scoring seven of their 19 goals between the 16th and 30th minutes. Yet the narrative is fractured by a critical injury crisis. Both primary centre-forwards, Taiwo Awoniyi and Chris Wood, are unavailable, forcing a significant tactical reshuffle. The squad lists ten absent players in total, creating a severe selection headache. Their defensive concentration also shows lapses in that same 16-30 minute window, where they have conceded four goals. Sitting 13th in their domestic league, Forest's form is volatile—a recent 2-2 comeback against Manchester City shows resilience, but two losses in their last five home matches reveal vulnerability. The big question is whether a makeshift attack can maintain their prolific home output.",
+    "chapter_away": "FC Midtjylland travel with an impressive seasonal away record, but recent form tells a different story. The Danish side has failed to score in none of their seven away fixtures this season, averaging three goals scored per away match in their last five windows. Their 4-4-2 formation provides natural width to stretch defences, and they possess a potent late-game threat, with over 20% of their goals arriving after the 76th minute. However, their defensive record away from home is concerning, conceding 1.29 goals per match. More critically, their squad is ravaged by injury—eight players are ruled out, including several key attacking options like Brynhildsen, Franculino, and Uhre. Recent away form reveals a troubling pattern: the cascading profile shows zero wins and a 100% draw rate in their last five away match windows. This suggests a team that creates high-scoring affairs but struggles to close them out. With a domestic title race adding pressure, Midtjylland's depleted resources face a stern test on the road.",
+    "chapter_history": "History provides almost no reliable guide for this fixture. Of three scheduled meetings, two were abandoned without a result. The only completed encounter came over a year ago, in October 2025, when FC Midtjylland travelled to Nottingham and won 3-2. That solitary result offers little psychological advantage today, as both squads have been completely reshaped since. The pattern suggests a tendency toward disruption rather than dominance. With such minimal and outdated data, tonight effectively writes a fresh chapter between two injury-ravaged sides with contrasting ambitions—one fighting for European progress, the other embroiled in a domestic title race.",
+    "chapter_analysis": "The tactical matchup sets the stage for a transitional, open contest. Forest's 4-2-3-1 creates a numerical advantage in central areas against Midtjylland's flat 4-4-2, but the Danish side's width could stretch Forest's defensive shape. Both teams' severe attacking injuries, however, negate their usual offensive strengths. The data presents a compelling conflict: a 71% convergence from both teams' recent form profiles strongly points to Over 2.5 Goals. The EdgeCalculator identifies significant mathematical edges on higher goal lines—a 31.1% edge on Over 3.25 Goals and a 21.0% edge on Over 2.75 Goals. The Tactician predicts a match with 'more goals than average,' citing both teams' defensive vulnerabilities. Yet, The Sceptic raises a critical challenge: Midtjylland's recent away form shows zero wins and a 100% draw rate, directly contradicting the full-season data that fuels those extreme goal probabilities. Furthermore, The Quant's Poisson analysis reveals perfect market efficiency on Asian handicap lines, with zero pricing gaps. The Auditor flags the EdgeCalculator's extreme probabilities as 'not credible,' being anchored to potentially flawed data. This creates an analytical impasse—strong directional signals for goals, but built on a foundation the quality control agents cannot fully trust.",
+    "chapter_value": "Our market: NO_BET. The Boot Room identifies a clear directional bias toward Over goals, with the Auditor's adjusted probability for Over 2.5 Goals sitting at 71%. However, no specific goal line offers a qualified edge that meets our conviction threshold. The highest credible edge is on Over 3.25 Goals at 31.1%, but this is capped by a 'moderate' direction conviction from The Gaffer. The combination of severe attacking injuries, rotation risk from European fixture congestion, and the fundamental data contradiction flagged by The Sceptic imposes a confidence ceiling of 55%. This uncertainty means the expected value does not justify a stake. Sometimes, the smartest play is recognising when the market price accurately reflects the risk.",
+    "ending": "The verdict from the City Ground is one of analytical restraint. While everything points to goals—the profiles, the tactics, the defensive flaws—the crippling injuries and data contradictions introduce too much volatility. We see the path to a high-scoring game, but we cannot price it with the certainty required for a value bet. The Boot Room passes on this fixture. If you found this deep dive valuable, subscribe to AI Boot Room for more forensic match analysis. Boot Room out.",
+    "roundup_summary": "Nottingham Forest versus FC Midtjylland. This UEFA Europa League clash pits a mid-table Premier League side against a Danish team in a domestic title race. Forest's form is volatile, with two losses in their last five at home, though they average 2.4 goals per match at the City Ground. Midtjylland are winless in their last five away windows, drawing all of them, but average three goals scored per away match in that span. Both sides are decimated by injury—Forest miss strikers Awoniyi and Wood among ten absentees; Midtjylland are without eight players, including several attackers.\n\nThe head-to-head history is virtually non-existent. Of three scheduled meetings, two were abandoned. The only completed match was a 3-2 away win for Midtjylland over a year ago. Forest's recent home matches have a 100% Over 2.5 Goals rate, while Midtjylland's recent away games also show a 100% Over 2.5 rate. This season, Forest score 2.4 and concede 1.2 goals per home match; Midtjylland score 1.7 and concede 1.3 goals per away match.\n\nThe Boot Room analysis identifies a strong 71% convergence on Over 2.5 Goals from both teams' cascading form profiles. The Poisson λ values implied by the data support a total goals expectation above 2.75. The EdgeCalculator shows a 31.1% edge on Over 3.25 Goals and a 21.0% edge on Over 2.75 Goals. However, The Sceptic critically challenges the data foundation, noting Midtjylland's recent away form shows zero wins and a 100% draw rate—contradicting the full-season stats driving the edge. The Auditor deems the extreme probabilities 'not credible,' and The Quant shows perfect market efficiency on handicap lines with zero gaps. The bookmaker has efficiently priced the Asian handicap markets, and while goal markets show edges, the underlying data quality issues and severe attacking injuries cap confidence at a speculative 55%.\n\nThe Boot Room lands on NO_BET. The directional bias toward Over goals is clear, but no specific line qualifies under our conviction and odds filters. The risk scenario—depleted attacks failing to fire despite defensive vulnerabilities—is too pronounced. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "Nottingham Forest host FC Midtjylland in the UEFA Europa League. Forest, sitting 13th in the Premier League, have a potent home attack averaging 2.4 goals but are missing both primary strikers. Midtjylland, in a Danish title race, are winless in five away matches but average three goals per away game in that span. The head-to-head is almost non-existent, with two of three past meetings abandoned. A 71% statistical convergence points to Over 2.5 Goals, yet both attacks are ravaged by injury. The Boot Room identifies value on higher goal lines but the data contradictions and injury crisis impose too much uncertainty. The Boot Room lands on NO_BET at odds of 0, with 0% confidence. Sometimes the clearest analysis leads to the simplest conclusion: pass. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Statistical Paradox",
+        "voiceover": "A 71% convergence screams for goals. Yet the team sheets tell a story of absence. Nottingham Forest and FC Midtjylland—both with prolific home and away scoring records—have lost their primary strikers. This is the paradox: can two depleted attacks still exploit two fragile defences?",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: '71% OVER 2.5 GOALS' in bold, glowing text. Right side: red injury icons over silhouetted players, with names like 'Awoniyi', 'Wood', 'Brynhildsen' crossed out.",
+        "graphic_text_overlay": "GOALS VS ABSENCES"
+      },
+      {
+        "scene": 2,
+        "name": "Forest's Fractured Home",
+        "voiceover": "The City Ground is a fortress of goals—Forest average 2.4 per match here. But the fortress is undermanned. Awoniyi and Wood are out, among ten absentees. Their 4-2-3-1 creates central overloads, yet their defence has a known lapse between the 16th and 30th minute. A potent attack now relies on makeshift solutions.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dynamic graphic of Nottingham Forest's 4-2-3-1 formation. Key attacking positions are highlighted but then greyed out or marked with a red 'X'. A timeline below highlights the 16-30 minute period with a warning symbol.",
+        "graphic_text_overlay": "POTENT BUT DEPLETED"
+      },
+      {
+        "scene": 3,
+        "name": "Midtjylland's Away Illusion",
+        "voiceover": "Midtjylland's seasonal away record is formidable. But recent form reveals the illusion: zero wins, a 100% draw rate in their last five away windows. They score three goals per away match yet concede 1.29. Eight players are injured, including key attackers. Their width can stretch defences, but their own defence remains vulnerable.",
+        "graphic_type": "away_card",
+        "graphic_description": "A graphic showing two conflicting data streams. One line chart shows a high 'Seasonal Away Goals' trend. Another, more recent bar chart shows a flat line of 'Draws' and '0 Wins'. An inset shows a crowded medical room icon.",
+        "graphic_text_overlay": "THE FORM DECEPTION"
+      },
+      {
+        "scene": 4,
+        "name": "The Data War Room",
+        "voiceover": "The EdgeCalculator identifies massive edges—31% on Over 3.25 Goals. The Tactician predicts a transitional, high-scoring match. But The Sceptic declares war on the data, exposing Midtjylland's recent away form as fundamentally weak. The Auditor agrees, labelling the extreme probabilities 'not credible.' A strong signal is trapped in a data quality storm.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A war room table with multiple agent avatars. The EdgeCalculator avatar shows 'EDGE: 31.1%'. The Sceptic avatar has a large red 'CHALLENGE' stamp over a data sheet showing '0 Wins, 100% Draws'. The Auditor avatar holds a 'NOT CREDIBLE' sign.",
+        "graphic_text_overlay": "THE ANALYTICAL IMPASSE"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict: A Calculated Pass",
+        "voiceover": "Our market: NO_BET. The direction points clearly to goals. But the foundation is cracked by injuries and contradictory data. With confidence capped at 55% and no line qualifying our strict filters, the expected value evaporates. The smartest bet is sometimes no bet at all. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final graphic. The centre reads 'BOOT ROOM VERDICT' in large type. Below, 'NO BET' is displayed prominently in a neutral colour. Supporting text shows 'Confidence: 0%' and 'Odds: 0'. The background is a calm, analytical blue.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

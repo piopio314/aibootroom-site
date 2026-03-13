@@ -1,0 +1,179 @@
+{
+  "key": "20260307_Cagliari_vs_Como__ds_v3_stream",
+  "match": {
+    "home_team": "Cagliari",
+    "away_team": "Como",
+    "league": "Serie A",
+    "date": "2026-03-07",
+    "home_id": 490,
+    "away_id": 895
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "Under 1.75 Goals",
+    "prediction": "Under 1.75 Goals",
+    "confidence": 61,
+    "confidence_gate": "APPROVE",
+    "odds_target": 3.01,
+    "score_home": 15.4,
+    "score_draw": 25.6,
+    "score_away": 59.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician explicitly predicts a 'tight and tactical' match with 'fewer goals than average'. Cagliari's home defence has been resilient (0.8 goals conceded per match last five at home), while their attack is gutted by injuries and averages just 0.4 goals per match in their last five. Como, despite strong away form, faces severe fixture congestion (four matches in 14 days, zero recovery) which could blunt their attacking edge. The Cascading Profiles show weak convergence (36%) on Under 2.5 Goals, but Cagliari's profile strongly fits the under (5/7 rating) while Como's away defence is improving (0.5 GA/m last five away). (2) DIRECTION EVIDENCE — The mathematical edge strongly supports under markets. The EdgeCalculator shows a +15.3% edge on Under 2.25 Goals, with our probability at 63.1% versus market-implied 47.8%. Other under markets also show strong value: Under 1.75 Goals (+16.4% edge), Under 1.25 Goals (+13.8% edge). The Auditor specifically recommends Under 2.25 Goals as it aligns with the Tactician's low-goals view and avoids the direction conflict present in result markets. The Poisson λ sum (not explicitly provided) is inferred to be low given both teams' defensive records and Cagliari's attacking crisis. (3) AGENTS CONSENSUS — The Tactician provides the strongest directional signal for under_goals. The Home Scout details Cagliari's chronic lack of goals and defensive focus. The Auditor's adjusted probabilities show Under 2.25 at 63.1%. The Sceptic's surprise scenario is a low-scoring draw. The Archivist notes historical BTTS trends but current context overrides this. The Away Scout's report on Como's defensive resilience (0.79 GA/m away) supports the under. The Quant's analysis is incomplete but shows no value on over markets. The main dissent is the Archivist's historical data showing 50% Over 2.5 in H2H, but this is countered by current squad and form factors. (4) RISKS — The primary risk is Como's attacking quality breaking through early despite fatigue, exploiting Cagliari's vulnerability in the 0-15' period where they've conceded 6 goals this season. A second risk is the historical BTTS trend reasserting itself if Cagliari manage a set-piece goal. Finally, if Como's squad depth mitigates fatigue better than expected, their rising away attack (2.0 GF/m) could produce multiple goals.",
+    "key_factors": [
+      "Cagliari's severe injury crisis stripping their attack of key players including top scorer Belotti",
+      "Cagliari's improving home defensive record (0.8 goals conceded per match last five)",
+      "Como's extreme fixture congestion (four matches in 14 days with zero recovery days)",
+      "The Tactician's prediction of a 'tight and tactical' match with suppressed goal output",
+      "Strong mathematical edge on Under 2.25 Goals (+15.3%) from EdgeCalculator"
+    ],
+    "risk_factors": [
+      "Como's attacking quality potentially overcoming fatigue, especially in early minutes",
+      "Historical H2H trend showing 50% Over 2.5 goals in previous meetings",
+      "Cagliari's potential to score from a set-piece despite attacking deficiencies"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 1.75 Goals",
+        "prediction": "Under 1.75",
+        "confidence": 58
+      },
+      {
+        "market": "Draw",
+        "prediction": "Draw",
+        "confidence": 52
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 15.3,
+      "edge_source": "EdgeCalculator our_prob (63.1%) minus market implied probability (47.8%)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Home 0.25",
+          "edge": 30.1
+        },
+        {
+          "market": "AH Home 0.5",
+          "edge": 21.8
+        },
+        {
+          "market": "AH Home 1.25",
+          "edge": 21.2
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Home Scout, Auditor, and EdgeCalculator align on a low-scoring match character. The Away Scout's defensive data supports this, and the Sceptic's surprise scenario is a low-scoring draw. The Archivist's historical Over 2.5 trend provides the main counterpoint, but current context overrides it. The Quant's analysis is too incomplete to contribute meaningfully.",
+    "_direction": "under_goals",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.493,
+    "_direction_prob": 49.6,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.64,
+    "max_edge": 30.1
+  },
+  "display_texts": {
+    "home_position": "#13 (30 pts, -8 GD)",
+    "away_position": "#5 (51 pts, +25 GD)",
+    "home_form": "7W-9D-12L in 28 matches, last 5: DLWWL",
+    "away_form": "14W-9D-5L in 28 matches, last 5: WLDWD",
+    "home_stats": "30 goals in 28 matches (avg 1.1/match), 6 clean sheets",
+    "away_stats": "46 goals in 28 matches (avg 1.6/match), 13 clean sheets",
+    "h2h_history": "Cagliari 1-2 Como (07 Mar 2026)\nComo 0-0 Cagliari (08 Nov 2025)\nComo 3-1 Cagliari (10 May 2025)\nCagliari 1-1 Como (26 Aug 2024)\nCagliari 1-3 Como (25 Jul 2024)",
+    "home_injuries": "A. Belotti (Missing Fixture - Knee Injury), G. Borrelli (Missing Fixture - Thigh Injury), A. Deiola (Missing Fixture - Injury), M. Felici (Missing Fixture - Knee Injury), G. Gaetano (Missing Fixture - Injury)",
+    "away_injuries": "J. Addai (Missing Fixture - Achilles Tendon Injury)",
+    "api_predictions": "API-Football prediction: Como | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Como",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "LOSE",
+    "label": "LOSE",
+    "color": "#ef4444",
+    "pnl": -1.0,
+    "score": "1:2",
+    "market": "Under 1.75 Goals"
+  },
+  "script": {
+    "title": "Cagliari vs Como: The Fatigue vs Firepower Clash",
+    "thumbnail_text": "GOAL DROUGHT INCOMING",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when a team with seven key injuries faces a side playing their fourth match in fourteen days? This is not just a Serie A fixture — it is a collision of two crippling realities. Cagliari cannot score. Como cannot rest. And the bookmakers have missed one critical number.",
+    "chapter_home": "Cagliari arrive at this fixture in a state of severe distress. A five-match winless run is compounded by a devastating injury list that guts their attack. Seven players are absent, including top scorer Andrea Belotti and creative hub Gianluca Gaetano. Their form rating sits at just one out of ten, with only two matches all season exceeding two and a half goals. Manager Claudio Ranieri has been forced into a tactical shift from his preferred three-five-two to a four-three-three, stripping the side of its primary goal threat. The narrative is one of defensive desperation — Cagliari have conceded just zero point eight goals per match in their last five home games, banking on clean sheets to salvage points. But with a chronic lack of goals — failing to score in five of fourteen home matches — the question is whether their patched-up side can trouble any defence at all.",
+    "chapter_away": "Como present the stark opposite profile. They travel as a top-five side boasting one of Serie A's best away records, with three wins and a draw from their last four road trips. Victories at Juventus and Lazio underscore their rising form and European ambitions. Their tactical setup is settled — a fluid four-two-three-one designed for controlled possession, averaging fifty-nine percent away from home. The squad is near full strength, with only Jayden Addai absent. Yet a critical shadow looms over their confidence. This match represents their fourth in just fourteen days, with zero recovery days since their last outing. Extreme fixture congestion poses a significant fatigue risk that could blunt their attacking edge, even as their defensive resilience on the road — conceding just zero point five goals per match in their last five away — remains formidable.",
+    "chapter_history": "History between these sides reveals a balanced but shifting dynamic. In the last eight meetings, Cagliari have won just twice, while Como have three victories and three draws. The recent momentum, however, belongs entirely to the visitors. Como are unbeaten in the last four encounters, winning three of them. The most recent meeting in March 2026 saw Como come from behind to win two-one away, with the decisive goal arriving just fourteen minutes from time. Historically, these fixtures have been moderately high-scoring, with both teams scoring in five of the last six. Yet that historical pattern is about to collide with a radically different present context.",
+    "chapter_analysis": "The tactical matchup crystallises the low-scoring thesis. Cagliari's injury-forced four-three-three will sit in a deep, compact block, aiming to frustrate Como's patient build-up. The Tactician explicitly predicts a 'tight and tactical' match with 'fewer goals than average'. Cagliari's attack, averaging just zero point four goals per match in their last five, meets a Como defence that has kept three clean sheets in their last four away games. The Sceptic challenged the Away Scout's severe miscalibration of Como's win probability, but their surprise scenario — a low-scoring draw — actually reinforces the under-goals direction. The critical factor is Como's relentless schedule. Four matches in fourteen days with no recovery will test their precision and intensity, especially against a side prioritising defensive solidity over creativity. While the Archivist notes a historical fifty percent over two point five goals trend, current squad crises and fatigue dynamics overwhelmingly override past patterns.",
+    "chapter_value": "Our market: Under one point seven five Goals. The mathematical edge here is compelling. The EdgeCalculator shows a plus sixteen point four percent edge on this line, with our probability assessed at forty-nine point six percent versus the market-implied figure. At odds of three point zero one, this represents strong value in a match where goals should be scarce. The bookmakers have priced Como's attacking quality but have not fully accounted for the dual suppressants: Cagliari's gutted attack and Como's potential fatigue. This is where the value lies.",
+    "ending": "The verdict is clear. Expect a cagey, low-event affair defined by Cagliari's defensive desperation and Como's congested schedule. The smart play is on the goal line falling short of two. Our market: Under one point seven five Goals at three point zero one, with sixty-one percent confidence. Let us know in the comments if you see this playing out differently — and subscribe to The Boot Room for more data-driven football analysis. Boot Room out.",
+    "roundup_summary": "Cagliari versus Como. The hosts sit thirteenth, thirteen points clear of relegation, but arrive in dire form with just two points from their last five matches. Their last five show zero wins, two draws, and three losses. Como are fifth and flying, taking ten points from their last fifteen available as they chase European football. Their away form is particularly strong with three wins and a draw in their last four.\n\nThe head-to-head record is balanced but with recent momentum for Como. They are unbeaten in the last four meetings, winning three, including a two-one comeback victory in March 2026. Historically, fifty percent of meetings have seen over two point five goals, with both teams scoring in five of the last six. This season, Cagliari average one point one four goals scored and one point two one conceded per home game. Como average one point two one scored and a notably strong zero point seven nine conceded per away match.\n\nThe Boot Room analysis identifies a severe value discrepancy on the under goals markets. The Poisson-derived probabilities from the EdgeCalculator show a forty-nine point six percent chance for Under one point seven five Goals, creating a plus sixteen point four percentage point edge over the market-implied probability. The Sceptic's main concern was the Away Scout's miscalibration of Como's win probability, but this does not impact the goals market thesis. The bookmaker has mis-priced this fixture by overvaluing Como's attacking output against a backdrop of extreme fixture congestion — their fourth match in fourteen days — and underestimating Cagliari's defensive resilience at home, where they have conceded just zero point eight goals per match in their last five. The Auditor's adjusted probabilities show Under two point two five Goals at sixty-three point one percent, further supporting the low-scoring environment.\n\nThe market with value is Under one point seven five Goals. At odds of three point zero one, it requires the match to feature one goal or fewer for a full win, or exactly two goals for a half loss. The confluence of Cagliari's gutted attack and Como's potential fatigue makes this the most probable outcome. Boot Room market: Under one point seven five Goals. Confidence: 61%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Crippling Equation",
+        "voiceover": "Seven key injuries meet four matches in fourteen days. This is the brutal equation facing Cagliari and Como. One side cannot field its attack. The other cannot catch its breath. And in that collision, the goal count is set to plummet.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: a hospital cross symbol overlaid on Cagliari's badge with names like 'Belotti' and 'Gaetano' faded out. Right side: a frantic calendar showing four matches crammed into fourteen days, with a tired footballer symbol.",
+        "graphic_text_overlay": "INJURIES VS FATIGUE"
+      },
+      {
+        "scene": 2,
+        "name": "Cagliari's Empty Armoury",
+        "voiceover": "Cagliari's attack has been dismantled. Without top scorer Belotti and creator Gaetano, their goal threat has evaporated — averaging just zero point four goals per match in their last five. Manager Ranieri's only play is to retreat, relying on a home defence that has conceded only zero point eight per game recently. They are not built to win this — they are built to not lose it.",
+        "graphic_type": "home_card",
+        "graphic_description": "Cagliari's crest with a large red 'X' through it. Below, key attacking player silhouettes are greyed out with injury icons. A stat graphic highlights: 'Last 5 Matches: 0.4 Goals For/Match'.",
+        "graphic_text_overlay": "ATTACK GUTTED"
+      },
+      {
+        "scene": 3,
+        "name": "Como's Heavy Legs",
+        "voiceover": "Como are the form side, with statement wins at Juventus and Lazio. But their schedule is a minefield. This is their fourth match in two weeks with zero recovery days. While their away defence is formidable — three clean sheets in four — fatigue is the silent opponent that dulls precision and slows attacks at the crucial moment.",
+        "graphic_type": "away_card",
+        "graphic_description": "Como's badge shining, but shadowed by a looming countdown clock and a packed fixture list. A contrasting stat shows: 'Last 4 Away: 3 Wins, 1 Draw' and 'Defence: 0.5 GA/m'.",
+        "graphic_text_overlay": "FORM MEETS FATIGUE"
+      },
+      {
+        "scene": 4,
+        "name": "The Tactical Stalemate",
+        "voiceover": "The Tactician's prediction is unequivocal: a 'tight and tactical' match with 'fewer goals than average'. Cagliari's deep block will compress space, forcing Como into patient probing. But patient probing requires energy — the very resource Como has in shortest supply. This setup suffocates goalmouth action before it even begins.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A tactical board showing Cagliari's deep defensive block (many blue shirts) congesting the penalty area, with Como's attacking arrows (yellow) struggling to break through. The phrase 'Tight & Tactical' is stamped across.",
+        "graphic_text_overlay": "SUFFOCATED SPACE"
+      },
+      {
+        "scene": 5,
+        "name": "The Number They Missed",
+        "voiceover": "The bookmakers see Como's quality and price for goals. But they have missed the synthesis of Cagliari's defensive resolve and Como's exhausting schedule. Our models show a forty-nine point six percent probability for under one point seven five goals — a sixteen point four percent edge on the market. The value is not in who wins, but in how quiet the scoreboard stays.",
+        "graphic_type": "evidence",
+        "graphic_description": "A clean, bold graphic showing 'Under 1.75 Goals' with a large tick. Below, key stats: 'Our Probability: 49.6%', 'Market Implied: ~33.2%', 'Edge: +16.4%'. The odds '3.01' are prominently displayed.",
+        "graphic_text_overlay": "16.4% EDGE"
+      },
+      {
+        "scene": 6,
+        "name": "Boot Room Verdict",
+        "voiceover": "Our market: Under one point seven five Goals. At odds of three point zero one, with sixty-one percent confidence. This is a play on a match starved of energy and attacking potency — where the most likely outcome is a grind, not a spectacle. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Final verdict screen. The Boot Room logo is clear. The market 'UNDER 1.75 GOALS' is central and large. Flanking details: 'ODDS: 3.01', 'CONFIDENCE: 61%'. A subtle background shows a low-scoring scoreboard (e.g., 0-0, 1-0).",
+        "graphic_text_overlay": "VERDICT: UNDER 1.75"
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "key": "20260308_Lyon_vs_Paris_FC__ds_v3_stream",
+  "match": {
+    "home_team": "Lyon",
+    "away_team": "Paris FC",
+    "league": "Ligue 1",
+    "date": "2026-03-08",
+    "home_id": 80,
+    "away_id": 114
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "Under 2.25 Goals",
+    "prediction": "Under 2.25 Goals",
+    "confidence": 63,
+    "confidence_gate": "APPROVE",
+    "odds_target": 2.36,
+    "score_home": 58.0,
+    "score_draw": 26.0,
+    "score_away": 16.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician explicitly predicts a 'tight' match with 'sterile dominance' from Lyon against a 'deep, organised block' from Paris FC. This is powerfully confirmed by the CASCADING FORM PROFILES, which show a STRONG 64% convergence on Under 2.5 Goals — the strongest data-derived signal for this fixture. Lyon's home defence concedes just 0.25 goals per match in their last four, while Paris FC's away attack is chronically weak, averaging 1.0 goal. The structural setup is inherently low-scoring.\n\n(2) DIRECTION EVIDENCE — The under_goals direction is supported by a multi-source consensus. The Auditor's adjusted probabilities give Under 2.5 a 65% likelihood. The EdgeCalculator shows robust mathematical edges on multiple Under lines: Under 2.25 Goals (29.1% edge @ 2.36), Under 2.75 Goals (25.9% edge @ 1.80), and Under 1.75 Goals (29.6% edge @ 3.46). The λ sum from the profiles (Lyon 1.5, Paris FC 1.0) totals 2.5, sitting right on the threshold and leaning under given the defensive context. The Sceptic's 'devil's verdict' explicitly states the strongest data signal is for a low-scoring match.\n\n(3) AGENTS CONSENSUS — There is a strong, cross-disciplinary alignment on the low-scoring narrative. The Tactician's structural analysis aligns with the under. The Sceptic confirms the data convergence and flags it as the most reliable signal. The Auditor recommends Under 2.5 Goals as the strongest convergent play. The Cascading Profiles provide the objective, numbers-based foundation. The only dissent is not on the match character but on the 1X2 outcome; the Quant and EdgeCalculator show large edges on Lyon Asian Handicap lines, but these are tempered by the Sceptic's challenge on sample size for Paris FC lines and the overarching low-scoring environment.\n\n(4) RISKS — The primary risk is the late-game vulnerability both teams exhibit, with a combined 19 goals conceded in the final 15 minutes of matches. A single late goal could push a 1-0 or 0-0 scoreline over the line. Additionally, Lyon's need for a win and potential frustration could lead to a speculative, higher-risk attacking approach if the deadlock persists, though their depleted attack mitigates this. The rotation risk due to Lyon's upcoming Europa League fixture adds a layer of unpredictability to their offensive output.",
+    "key_factors": [
+      "STRONG 64% data convergence on Under 2.5 Goals from Cascading Profiles",
+      "Paris FC's pragmatic, defensively-organised 4-3-3 under new coach Kombouaré",
+      "Lyon's exceptional home defensive record (0.25 GA/m last 4) but depleted attack",
+      "Both teams' extensive injury lists removing key creative and goal-scoring personnel"
+    ],
+    "risk_factors": [
+      "Late-game goal flurry: both teams score and concede heavily in final 15 minutes",
+      "Rotation risk: Lyon have a Europa League match in four days, affecting XI certainty"
+    ],
+    "alternative_markets": [
+      {
+        "market": "AH Home -0.75",
+        "prediction": "Lyon -0.75",
+        "confidence": 58
+      },
+      {
+        "market": "Under 2.25 Goals",
+        "prediction": "Under 2.25",
+        "confidence": 61
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 29.1,
+      "edge_source": "Auditor's adjusted probability (65%) vs. market-implied probability",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Home -0.75",
+          "edge": 33.2
+        },
+        {
+          "market": "AH Away +0.5",
+          "edge": 30.4
+        },
+        {
+          "market": "Under 1.75 Goals",
+          "edge": 29.6
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "Strong consensus on a low-scoring match. The Tactician, Sceptic, Auditor, and objective Cascading Profiles all align on an Under 2.5 Goals narrative. The Quant and EdgeCalculator show value on Lyon Asian Handicaps, but this is a separate directional signal (home_value) that does not contradict the defensive match character.",
+    "_direction": "under_goals",
+    "_direction_conviction": "strong",
+    "_direction_ev": 0.6874,
+    "_direction_prob": 71.5,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.54,
+    "max_edge": 33.2
+  },
+  "display_texts": {
+    "home_position": "#3 (45 pts, +13 GD)",
+    "away_position": "#14 (26 pts, -12 GD)",
+    "home_form": "14W-3D-7L in 24 matches, last 5: WWWLW",
+    "away_form": "6W-8D-10L in 24 matches, last 5: LLWWL",
+    "home_stats": "39 goals in 24 matches (avg 1.6/match), 12 clean sheets",
+    "away_stats": "28 goals in 24 matches (avg 1.2/match), 6 clean sheets",
+    "h2h_history": "Lyon 0-0 Paris FC (08 Mar 2026)\nParis FC 3-3 Lyon (29 Oct 2025)\nParis FC 0-0 Lyon (17 Dec 2021)",
+    "home_injuries": "M. Fofana (Missing Fixture - Ankle Injury), R. Kluivert (Missing Fixture - Hamstring Injury), A. Maitland-Niles (Missing Fixture - Injury), A. Moreira (Missing Fixture - Injury), E. Nuamah (Missing Fixture - Knee Injury)",
+    "away_injuries": "S. Alakouch (Missing Fixture - Injury), S. Chergui (Missing Fixture - Injury), T. De Smet (Missing Fixture - Red Card), P. Hamel (Missing Fixture - Calf Injury), I. Kebbal (Missing Fixture - Yellow Cards)",
+    "api_predictions": "API-Football prediction: Lyon | Probabilities: 45%-45%-10% | Recommendation: Double chance : Lyon or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "HALF_WIN",
+    "label": "HALF WIN",
+    "color": "#86efac",
+    "pnl": 0.68,
+    "score": "1:1",
+    "market": "Under 2.25 Goals"
+  },
+  "script": {
+    "title": "Lyon vs Paris FC: The Fortress vs The Bus",
+    "thumbnail_text": "DEPLETED ATTACKS COLLIDE",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a wounded fortress meets a depleted bus? Lyon's formidable home record — nine wins from eleven matches — faces its toughest test yet. But both attacks have been stripped bare by injuries, and the data reveals one overwhelming signal. This isn't about who wins. It's about what doesn't happen.",
+    "chapter_home": "Lyon arrive at their fortress with foundations showing cracks. They sit third in Ligue 1, chasing the title, but their recent collapse is psychological. A derby defeat and cup exit have shattered confidence, and their attack is missing three key weapons. Rayan Kluivert, Ernest Nuamah, and Petr Šulc are all unavailable, stripping away the depth and creativity needed to break down stubborn defences. Their home form remains formidable — conceding just 0.25 goals per match in their last four — but their momentum is declining. The pressure of a Champions League spot remains, but this is a team playing with low morale and a depleted squad. Their strength is defensive solidity at home; their weakness is a blunt attack when it matters most.",
+    "chapter_away": "Paris FC travel not to conquer, but to survive. Sitting 14th with an eight-point cushion, their pressure is minimal. Under new coach Antoine Kombouaré, they have adopted a pragmatic, defensively-organised 4-3-3, built to frustrate. Their mission is clear: park the bus. Their attack is chronically weak away from home, averaging just one goal per match, and their injury list is catastrophic. Nine players are missing, including creative midfielder Maxime Lopez and forward Pierre Hamel. This forces them into an even more defensive, low-risk approach. Their strength is recent defensive organisation — three clean sheets in twelve away matches. Their narrative is one of draw resilience, not victory. They are a team built to avoid defeat, not to win.",
+    "chapter_history": "History between these sides is a story of stalemate. In three recorded meetings, neither Lyon nor Paris FC have managed a victory. The most dramatic encounter was a chaotic 3-3 draw where Lyon threw away a three-goal lead. That match alone accounts for all six goals in this fixture's history. But that history is largely irrelevant tonight. The personnel from that epic collapse are mostly absent due to injuries on both sides. The pattern suggests a draw, but the context has flipped entirely. This is now a test of depleted squads under vastly different pressures — Lyon's title hunger against Paris FC's mid-table security.",
+    "chapter_analysis": "The tactical matchup sets the stage for a tight, low-scoring battle. Lyon's 4-2-3-1 will dominate possession against Paris FC's deep, compact block. The Tactician predicts 'sterile dominance' — long periods of Lyon probing without penetration. Both attacks are blunted: Lyon's by injury, Paris FC's by design and absence. The Sceptic challenged the initial assessment, noting Lyon's 'declining' momentum signal contradicts any 'rising' form narrative. But the Sceptic also identified the strongest data signal: a 64% convergence on Under 2.5 Goals from the cascading form profiles. This is the objective foundation. The Auditor's adjusted probabilities give Under 2.5 a 65% likelihood. The key factors align: Lyon's exceptional home defence, Paris FC's pragmatic shape, and both teams' missing firepower. The only threat is the late game — both teams score and concede heavily in the final fifteen minutes. But the structural setup is inherently low-scoring.",
+    "chapter_value": "Our market: Under 2.25 Goals. The bookmakers have not priced this defensive reality correctly. The EdgeCalculator shows a 29.1% value edge at odds of 2.36. Our probability assessment sits at 71.5%, compared to the market's implied 42.4%. This gap represents significant mis-pricing. The Auditor validates this, noting the strongest convergent signal across all data streams is for a low-scoring match. While Lyon should control the game, their depleted attack faces a bus that has been reinforced under a new coach. The value lies not in who wins, but in what the match fails to produce.",
+    "ending": "The Boot Room verdict is clear. This is a defensive battle where ambition meets organisation, and both attacks pay the price. We expect a tense, frustrating affair, decided by moments rather than waves of attack. Our market: Under 2.25 Goals at 2.36, with 63% confidence. The risk is a late goal flurry, but the structural and statistical evidence points firmly to a match with fewer than three goals. Do you agree with our read? Let us know in the comments below, and subscribe for data-driven analysis on every major fixture. Boot Room out.",
+    "roundup_summary": "Lyon versus Paris FC. The hosts sit third in Ligue 1 with title ambitions, while the visitors are 14th with mid-table security. Lyon's last five form shows three wins and two losses, though their home form remains formidable with four consecutive victories. Paris FC's last five reads one win, two draws, and two defeats, reflecting their stable but unspectacular campaign. Lyon will be without attackers Rayan Kluivert, Ernest Nuamah, and Petr Šulc. Paris FC miss nine players, including creator Maxime Lopez.\n\nThe head-to-head record shows no winner in three meetings, featuring one chaotic 3-3 draw in October 2025. The average goals per meeting is 2.0, though the sample is small. This season, Lyon score 1.7 goals per game on average but concede just 0.6 at home. Paris FC average 1.1 goals scored and 1.7 conceded away from home. The recent trend from their only decisive meeting was both teams scoring, but the context is entirely different now.\n\nThe Boot Room analysis identifies a 64% strong data convergence on Under 2.5 Goals as the dominant signal. The Poisson λ values from team profiles sum to 2.5, sitting right on the threshold and leaning under given the defensive context. The Quant's edge assessment shows a 29.1% probability gap on Under 2.25 Goals, with our probability at 71.5% versus the market's 42.4%. The Sceptic's main concern was the contradiction between Lyon's 'rising' form narrative and the objective 'declining' momentum data, but this was reconciled by separating formidable home form from recent away struggles. The bookmaker has mis-priced the defensive match character, underestimating the impact of extensive injuries on both attacks and Paris FC's new pragmatic shape under Kombouaré. The Auditor's effective confidence for the low-scoring narrative is 58%, further validating the approach.\n\nThe Boot Room market is Under 2.25 Goals at odds of 2.36. This requires the match to finish with two or fewer total goals for a full win, or with exactly three goals for a half win. Confidence is set at 63%, reflecting the strong data convergence while acknowledging the risk of late-game volatility. Boot Room market: Under 2.25 Goals. Confidence: 63%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Central Tension",
+        "voiceover": "What happens when a wounded fortress meets a depleted bus? Lyon's home record is formidable — nine wins from eleven. But tonight, their attack is missing three key weapons. Paris FC travel with nine players absent, their mission purely to survive. The data reveals one overwhelming signal that the bookmakers have missed.",
+        "graphic_type": "conflict",
+        "graphic_description": "A dramatic split-screen visual. Left side: Lyon's empty attacking third with shadowy figures marked 'injured'. Right side: A solid, parked yellow bus with the Paris FC crest. A large '64%' percentage glows in the centre.",
+        "graphic_text_overlay": "WOUNDED FORTRESS VS DEPLETED BUS"
+      },
+      {
+        "scene": 2,
+        "name": "Lyon's Blunted Sword",
+        "voiceover": "Lyon's strength is their home defence — conceding just 0.25 goals per match in their last four. But their attack is crippled. Kluivert, Nuamah, and Šulc are all out. Their momentum is declining, their morale low after a derby collapse. They have the pressure, but not the precision.",
+        "graphic_type": "home_card",
+        "graphic_description": "A focused shot on the Lyon badge, overlayed with red 'OUT' icons over the faces of Kluivert, Nuamah, and Šulc. A key stat reads: 'Last 4 Home Matches: 0.25 GA/m'.",
+        "graphic_text_overlay": "DEFENCE SOLID, ATTACK GONE"
+      },
+      {
+        "scene": 3,
+        "name": "Paris FC's Parked Bus",
+        "voiceover": "Paris FC are not here to win. Under new coach Kombouaré, their 4-3-3 is a compact, defensive block. Nine players are injured, including creator Maxime Lopez. Their away attack averages just one goal per match. Their plan is simple: frustrate, organise, and survive.",
+        "graphic_type": "away_card",
+        "graphic_description": "A tactical board showing a deep, compact 4-3-3 block in yellow. Text highlights: 'Away Attack: 1.0 G/m', '9 Players Missing'. The image conveys a defensive, low-risk setup.",
+        "graphic_text_overlay": "PRAGMATIC SHAPE, NO FIREPOWER"
+      },
+      {
+        "scene": 4,
+        "name": "The Data Doesn't Lie",
+        "voiceover": "The Sceptic identified the core truth. A 64% strong convergence on Under 2.5 Goals — the dominant data signal. The Tactician predicts a 'tight' match with 'sterile dominance'. The Auditor's adjusted probability gives Under 2.5 a 65% chance. Every objective source points in one direction.",
+        "graphic_type": "evidence",
+        "graphic_description": "A full-screen data visualization. A large, bold '64%' is central, with arrows pointing to it from labels: 'Cascading Profiles', 'Tactician Matchup', 'Auditor Probabilities'. The background is a stark, analytical chart.",
+        "graphic_text_overlay": "64% CONVERGENCE: UNDER"
+      },
+      {
+        "scene": 5,
+        "name": "The Market Mispricing",
+        "voiceover": "But there is one number the bookmakers have not priced correctly. Our probability for Under 2.25 Goals is 71.5%. The market implies just 42.4%. That is a 29.1% edge. The value isn't in who wins, but in what this match fails to produce.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A clean comparison graphic. 'Our Probability: 71.5%' on the left in green. 'Market Implied: 42.4%' on the right in red. A large arrow highlights the gap, labelled '29.1% EDGE'. Odds of '2.36' are displayed below.",
+        "graphic_text_overlay": "29.1% VALUE EDGE"
+      },
+      {
+        "scene": 6,
+        "name": "The Boot Room Verdict",
+        "voiceover": "Our market: Under 2.25 Goals. At odds of 2.36, with 63% confidence. This is a defensive battle where both attacks have been stripped bare. The fortress is strong, but the bus is parked. Expect frustration, not fireworks. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A final, bold graphic. The text 'UNDER 2.25 GOALS' is prominent. Below: 'ODDS: 2.36' and 'CONFIDENCE: 63%'. The Lyon and Paris FC badges are present but subdued, emphasising the market call.",
+        "graphic_text_overlay": "VERDICT: UNDER 2.25"
+      }
+    ]
+  }
+}

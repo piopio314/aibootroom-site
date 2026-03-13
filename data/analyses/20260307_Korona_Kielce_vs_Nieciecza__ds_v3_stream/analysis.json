@@ -1,0 +1,170 @@
+{
+  "key": "20260307_Korona_Kielce_vs_Nieciecza__ds_v3_stream",
+  "match": {
+    "home_team": "Korona Kielce",
+    "away_team": "Nieciecza",
+    "league": "Ekstraklasa",
+    "date": "2026-03-07",
+    "home_id": 346,
+    "away_id": 3487
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "Under 2.25 Goals",
+    "prediction": "Under 2.25 Goals",
+    "confidence": 57,
+    "confidence_gate": "APPROVE",
+    "odds_target": 2.69,
+    "score_home": 52.0,
+    "score_draw": 26.0,
+    "score_away": 22.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE with volatile elements. While the historical head-to-head suggests goals (70% Over 2.5), the current cascading profiles tell a different story: Nieciecza's away form shows only 33% Over 2.5 rate in their last five, averaging just 2.0 total goals per match. Korona Kielce's home form, despite a 75% Over 2.5 rate, is underpinned by a defensive crisis flagged in OSINT and severe late-game frailty. The combination of a relegation-threatened away side likely to adopt a cautious, survival-mode approach and a home side with structural defensive weaknesses points towards a tighter, lower-scoring contest than history suggests. (2) DIRECTION EVIDENCE — The EdgeCalculator provides the strongest mathematical evidence, identifying a +12.6% edge on Under 2.25 Goals. This is supported by the Auditor's adjusted probabilities (Under 2.5 at 55%) and the cascading profile convergence, which shows only MODERATE (43%) alignment on Over 2.5 Goals but a STRONG (75%) convergence on BTTS Yes, indicating both teams may score but not necessarily in a high-scoring game. The Poisson λ sum, while not explicitly given, is implied by the Auditor's tempered view away from the Quant's extreme 91.2% Over 2.5 probability. The Tactician's 'Open' character prediction is the primary counter-signal, but this qualitative assessment is outweighed by the objective statistical edge. (3) AGENTS CONSENSUS — The EdgeCalculator and Auditor are strongly aligned on the Under direction, with the Auditor explicitly recommending Under 2.25 Goals. The Sceptic's 'surprise scenario' of a low-scoring draw supports this cautious outlook. The Quant's extreme Over 2.5 call is an outlier contradicted by the EdgeCalculator's mathematics. The Scouts present a mixed picture: the Home Scout highlights Korona's defensive crisis, while the Away Scout notes Nieciecza's low-scoring away tendency. The Archivist's historical data favours goals but acknowledges current context may override patterns. The net signal leans Under due to the statistical edge and current defensive/contextual factors. (4) RISKS — The primary risk is the historical head-to-head trend (70% Over 2.5) reasserting itself, particularly if Korona's central overload exploits Nieciecza's middle-third vulnerability early. Nieciecza's fixture congestion could lead to late-game fatigue, exacerbating Korona's known defensive collapse in the 76-90 minute window and triggering a late goal flurry. If Nieciecza's survival pressure manifests as reckless attacking rather than cautious defence, the match could open up. The unknown injury status for both teams adds a layer of uncertainty, though lineups suggest full-strength XIs.",
+    "key_factors": [
+      "EdgeCalculator identifies +12.6% mathematical edge on Under 2.25 Goals",
+      "Nieciecza's away form shows only 33% Over 2.5 rate and 2.0 average total goals",
+      "Korona Kielce's defensive crisis and late-game frailty flagged in OSINT",
+      "Relegation pressure likely leads Nieciecza to adopt a cautious, defensive approach"
+    ],
+    "risk_factors": [
+      "Historical H2H shows 70% of matches exceed 2.5 goals",
+      "Tactician predicts an 'Open' match character with goals at both ends",
+      "Korona's late-game defensive collapse could concede multiple late goals"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.75 Goals",
+        "prediction": "Under 2.75",
+        "confidence": 58
+      },
+      {
+        "market": "BTTS Yes",
+        "prediction": "Yes",
+        "confidence": 63
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 12.6,
+      "edge_source": "EdgeCalculator our_prob (49.8%) vs market_odds (2.69) implied probability (37.2%)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away 1.25",
+          "edge": 15.6
+        },
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 12.6
+        },
+        {
+          "market": "Under 2.75 Goals",
+          "edge": 11.7
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The EdgeCalculator and Auditor are strongly aligned on the Under direction, with the Sceptic's surprise scenario providing qualitative support. The Quant's extreme Over 2.5 call is a significant outlier contradicted by the EdgeCalculator's mathematics. The Scouts offer mixed signals, while the Tactician's 'Open' prediction is the primary dissenting qualitative view. The Archivist's historical data favours goals but acknowledges context may override.",
+    "_direction": "under_goals",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.3396,
+    "_direction_prob": 49.8,
+    "_direction_picked": true,
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "B",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tier_color": "#3b82f6",
+    "opportunity_score": 6.38,
+    "max_edge": 12.6
+  },
+  "display_texts": {
+    "home_position": "#11 (30 pts, +1 GD)",
+    "away_position": "#18 (22 pts, -13 GD)",
+    "home_form": "9W-6D-9L in 24 matches, last 5: LLDWD",
+    "away_form": "5W-7D-12L in 24 matches, last 5: WLDWL",
+    "home_stats": "29 goals in 24 matches (avg 1.2/match), 7 clean sheets",
+    "away_stats": "28 goals in 24 matches (avg 1.2/match), 3 clean sheets",
+    "h2h_history": "Korona Kielce 2-1 Nieciecza (07 Mar 2026)\nNieciecza 1-3 Korona Kielce (30 Aug 2025)\nNieciecza 1-2 Korona Kielce (06 Sep 2024)\nKorona Kielce 3-0 Nieciecza (15 Jul 2023)\nNieciecza 1-2 Korona Kielce (21 Jan 2023)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Korona Kielce | Probabilities: 45%-45%-10% | Recommendation: Double chance : Korona Kielce or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "LOSE",
+    "label": "LOSE",
+    "color": "#ef4444",
+    "pnl": -1.0,
+    "score": "2:1",
+    "market": "Under 2.25 Goals"
+  },
+  "script": {
+    "title": "Why This High-Scoring Rivalry Will End in a Goal Drought",
+    "thumbnail_text": "GOAL DRY SPELL",
+    "duration_estimate": "~8 minutes",
+    "hook": "Seventy percent of their meetings produce fireworks. Korona Kielce have won the last five in a row. The history screams goals. But tonight, the numbers tell a different story. This is a clash where desperation meets defensive crisis, and the bookmakers have missed the real narrative. Welcome to The Boot Room.",
+    "chapter_home": "Korona Kielce sit comfortably in mid-table, a position that brings its own unique pressure—or lack thereof. Their 3-4-2-1 formation is designed for attack, generating chances through central overloads and showing an upward trend in possession and shots. They rarely fail to score at home. Yet, their season is defined by a critical contradiction. A defensive crisis flagged in recent intelligence points to structural weaknesses, most alarmingly a late-game collapse. They have conceded nine goals in the final fifteen minutes of matches this season. While their form is stable, not declining as some reports suggest, this defensive frailty undermines any attacking progress. With minimal pressure and a full-strength squad, the question is whether they possess the defensive discipline to match their offensive intent.",
+    "chapter_away": "Nieciecza travel as the league's bottom side, entrenched in a desperate relegation battle. Their 3-4-3 formation offers width, but their away profile reveals a team built for survival, not spectacle. They have failed to win in their last five matches, drawing three of them. On the road, only thirty-three percent of their games exceed two and a half goals, with an average of just two total goals per match. They score consistently but win rarely, a hallmark of a side in a high-pressure, defensive mindset. Fixture congestion—three matches in fourteen days—adds a fatigue risk. Their narrative is one of pure desperation: can their survival-mode defence hold firm against a team they have not beaten in five attempts?",
+    "chapter_history": "The head-to-head record paints a vivid picture of dominance and goals. Korona Kielce have won six of the last ten meetings, including the last five consecutively. More strikingly, seventy percent of those fixtures have seen over two and a half goals, including a wild 6-2 victory for Nieciecza back in 2021. History heavily favours the hosts and screams for a high-scoring affair. But context is everything. Korona's mid-table comfort contrasts sharply with Nieciecza's fight for survival. This immense pressure on the visitors creates a volatile contest where past patterns may not apply. The psychological edge belongs to Korona, but desperation can rewrite any script.",
+    "chapter_analysis": "The tactical matchup suggests an open game. Korona's central overload targets Nieciecza's vulnerability in the middle third of matches, while Nieciecza's wide forwards aim to exploit Korona's late-game defensive collapse. Our Tactician predicted an 'Open' match character. Yet, this qualitative view collides with hard data. The EdgeCalculator identified a plus twelve-point-six percent mathematical edge on the Under 2.25 Goals market—the strongest objective value signal available. This directly contradicts one model's extreme ninety-one percent probability for Over 2.5 goals, a statistical outlier our Auditor deemed not credible. The Sceptic rightly challenged a misreading of Korona's form but also highlighted a surprise scenario: a low-scoring draw driven by Nieciecza's cautious, survival approach. When we synthesise the evidence—Nieciecza's low-scoring away tendency, Korona's defensive crisis, and the mathematical edge—the narrative shifts from a goal-fest to a tense, calculated battle.",
+    "chapter_value": "Our market: Under 2.25 Goals. The bookmakers, perhaps swayed by historical fireworks, are offering odds of 2.69. Our probability assessment sits at forty-nine-point-eight percent, creating that significant twelve-point-six percent edge. This is not a prediction of a goalless stalemate, but a calculated read that the combined pressures—a desperate, cautious away side and a home team with structural defensive flaws—will keep the goal tally below this line. The value is clear and mathematically validated.",
+    "ending": "The Boot Room verdict: back Under 2.25 Goals at 2.69 with fifty-seven percent confidence. We are betting against the historical trend because the current context—survival pressure meeting defensive crisis—overrides it. The risk remains Korona's late collapse or the historical pattern reasserting itself, but the edge and the alignment of current form point to a tighter contest. If you see the value, let us know in the comments. Subscribe and hit the notification bell for more data-driven football analysis. Boot Room out.",
+    "roundup_summary": "Korona Kielce versus Nieciecza. The hosts sit in mid-table comfort with stable form, while the visitors are rooted to the bottom, embroiled in a relegation battle. Korona's last five matches show two wins, one draw, and two losses. Nieciecza are winless in five, with three draws and two defeats. Korona's home record is inconsistent, but they rarely fail to score. Nieciecza's away form is defined by caution, with only thirty-three percent of games exceeding two and a half goals.\n\nThe head-to-head history heavily favours goals. Korona have won the last five meetings, and seventy percent of their recent clashes have seen over two and a half goals. This season, Korona average over a goal per game at home but concede nearly as many. Nieciecza score just over a goal per away game but have a pronounced draw tendency on the road.\n\nThe Boot Room analysis identifies a fundamental clash between narrative and numbers. While the tactical setup and history suggest an open game, the mathematical edge points decisively the other way. The EdgeCalculator shows a plus twelve-point-six percent value gap on Under 2.25 Goals, with our probability at forty-nine-point-eight percent versus the market's implied thirty-seven-point-two. This contradicts the Quant's Poisson model, which suggested a ninety-one-point-two percent probability for Over 2.5 goals—a view our Auditor rejected as not credible. The Sceptic's concern about a misread of Korona's form was valid but did not alter the core defensive crisis narrative. The bookmaker has mis-priced this market by overvaluing the historical goal trend and undervaluing Nieciecza's survival-mode caution and Korona's defensive frailties.\n\nThe Boot Room market is Under 2.25 Goals at odds of 2.69. This requires the match to feature two or fewer goals for a full win, or exactly three goals for a half loss. The confluence of a desperate, low-scoring away side and a home team with a leaky defence creates the conditions for a tighter contest than the odds suggest. Confidence: fifty-seven percent. Boot Room market: Under 2.25 Goals. Confidence: 57%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Contradiction",
+        "voiceover": "Seventy percent of their meetings produce over two and a half goals. History screams a repeat. But the numbers whisper a warning. This is a clash where desperation meets defensive crisis—and the bookmakers have priced the past, not the present.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split visual: left side shows a fiery explosion of goals with '70% O2.5', right side shows a padlock on a goal net with 'Defensive Crisis'.",
+        "graphic_text_overlay": "HISTORY VS. REALITY"
+      },
+      {
+        "scene": 2,
+        "name": "The Home Flaw",
+        "voiceover": "Korona Kielce are the dominant force, with five straight wins in this fixture. Their attacking 3-4-2-1 formation creates chances. But a severe defensive crisis undermines everything. They have conceded nine goals in the final fifteen minutes—a structural weakness that turns leads into draws and wins into chaos.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dynamic graphic showing Korona's 3-4-2-1 formation attacking, which then glitches and fades to highlight a '9' in the 76-90 minute zone of a timeline.",
+        "graphic_text_overlay": "LATE COLLAPSE"
+      },
+      {
+        "scene": 3,
+        "name": "The Away Mentality",
+        "voiceover": "Nieciecza are not here to entertain. Rooted to the bottom, their season is about survival. Their away form reveals the blueprint: only thirty-three percent of games see over two and a half goals. They score, but rarely win. This is a team built for caution, not carnage. Pressure breeds defensive discipline.",
+        "graphic_type": "away_card",
+        "graphic_description": "A stark, pressure-filled visual of a player looking tense, with a league table showing Nieciecza at the bottom (18th). Key stat: '33% O2.5 Away'.",
+        "graphic_text_overlay": "SURVIVAL MODE"
+      },
+      {
+        "scene": 4,
+        "name": "The Mathematical Truth",
+        "voiceover": "The Tactician sees an open game. One model predicts a ninety-one percent chance of goals. But our EdgeCalculator cuts through the noise. It identifies a plus twelve-point-six percent mathematical edge on one specific market. The bookmaker's price is wrong. The value lies not in the fireworks, but in the tension.",
+        "graphic_type": "evidence",
+        "graphic_description": "A clean, analytical graphic showing the EdgeCalculator output: 'Under 2.25 Goals' with a large '+12.6% EDGE' and a green upward arrow, contrasted with a fading '91% Over 2.5' prediction.",
+        "graphic_text_overlay": "+12.6% EDGE"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict",
+        "voiceover": "Our market: Under 2.25 Goals. Odds of 2.69 offer significant value against a market swayed by history. This is a bet on desperation overriding tradition—on Nieciecza's caution clashing with Korona's frailty to produce a tense, low-scoring battle. Confidence: fifty-seven percent. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A final, bold graphic with 'UNDER 2.25 GOALS' as the central focus. Odds of '2.69' and '57% CONFIDENCE' are displayed prominently below.",
+        "graphic_text_overlay": "BOOT ROOM MARKET"
+      }
+    ]
+  }
+}

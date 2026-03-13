@@ -1,0 +1,168 @@
+{
+  "key": "20260308_Nice_vs_Rennes__ds_v3_stream",
+  "match": {
+    "home_team": "Nice",
+    "away_team": "Rennes",
+    "league": "Ligue 1",
+    "date": "2026-03-08",
+    "home_id": 84,
+    "away_id": 94
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 35.2,
+    "score_draw": 28.5,
+    "score_away": 36.3,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading form profiles show a STRONG 71% convergence on Over 2.5 goals. Rennes's attack is INCREASING (2.33 GF/m last 3) and their away matches average 3.25 total goals. Nice's defence is WORSENING, and their recent home match was a 3-3 draw. The tactical prediction is 'transitional', with both teams showing severe defensive vulnerabilities in the final 15 minutes, creating a high-goal environment. (2) DIRECTION EVIDENCE — The Quant's Poisson model gives Over 2.5 a 55% probability, a 7 percentage point edge over the market's implied 48%. The Auditor validates this edge as credible with no direction conflict. The λ sum (implied goal expectancy) supports a higher-scoring match than the market anticipates, given Rennes's improving attack and Nice's defensive decline. (3) AGENTS CONSENSUS — The Quant, Auditor, and cascading profiles all align on Over 2.5. The Tactician's analysis supports more goals than Nice's typical low-scoring pattern. The Sceptic flags a potential high-scoring draw as an overlooked scenario. The Archivist notes half of the last ten H2H meetings saw Over 2.5. The dissent comes from the Home Scout's focus on Nice's low-scoring patterns, but this is outweighed by the objective trend data showing both teams' recent involvement in higher-scoring matches. (4) RISKS — The primary risk is Nice's extensive injury list compromising their attack, potentially reducing their goal contribution. Rennes's away defensive record, while improving recently, remains a season-long weakness that could be exploited. If the match becomes a tactical stalemate early, the Over 2.5 line may be threatened, though both teams' late-game fragility suggests goals are likely even in a cagey affair.",
+    "key_factors": [
+      "STRONG 71% profile convergence on Over 2.5 goals from both teams' recent form",
+      "Rennes's attack is INCREASING (2.33 GF/m last 3) and scoring trend is upward",
+      "Both teams show extreme defensive vulnerability in the final 15 minutes of matches",
+      "The Quant's Poisson model shows a 7% edge on Over 2.5 with no direction conflict"
+    ],
+    "risk_factors": [
+      "Nice's severe injury crisis could blunt their attacking output",
+      "Rennes's away defensive record, while improving, remains inconsistent season-long"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 7.0,
+      "edge_source": "Quant probability minus market implied probability",
+      "edge_grade": "VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Home 0.25",
+          "edge": 27.9
+        },
+        {
+          "market": "Over 3.25 Goals",
+          "edge": 27.3
+        },
+        {
+          "market": "Over 2.75 Goals",
+          "edge": 23.0
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Quant, Auditor, and cascading profiles strongly agree on Over 2.5 goals. The Tactician and Sceptic provide supporting qualitative evidence. The Home Scout dissents by focusing on Nice's historical low-scoring pattern, but this is contradicted by recent trend data. The Asian Handicap markets show a fundamental direction conflict between the Quant's pricing and the Tactician's analysis, making them unplayable.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 6.0,
+    "max_edge": 27.9
+  },
+  "display_texts": {
+    "home_position": "#15 (24 pts, -14 GD)",
+    "away_position": "#7 (40 pts, +3 GD)",
+    "home_form": "6W-6D-12L in 24 matches, last 5: LWLWL",
+    "away_form": "11W-7D-6L in 24 matches, last 5: WLDWD",
+    "home_stats": "30 goals in 24 matches (avg 1.3/match), 3 clean sheets",
+    "away_stats": "38 goals in 24 matches (avg 1.6/match), 7 clean sheets",
+    "h2h_history": "Nice 0-0 Rennes (08 Mar 2026)\nRennes 1-2 Nice (26 Oct 2025)\nRennes 2-0 Nice (10 May 2025)\nNice 3-2 Rennes (03 Jan 2025)\nRennes 2-0 Nice (13 Jan 2024)",
+    "home_injuries": "M. Abdelmonem (Missing Fixture - Knee Injury), M. Bombito (Missing Fixture - Leg Injury), H. Boudaoui (Missing Fixture - Injury), I. Jansson (Missing Fixture - Injury), Y. Ndayishimiye (Missing Fixture - Knee Injury)",
+    "away_injuries": "J. Jacquet (Missing Fixture - Shoulder Injury), P. Frankowski (Questionable - Injury), Y. Zabiri (Questionable - Muscle Injury)",
+    "api_predictions": "API-Football prediction: Rennes | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Rennes",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "0:4",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Nice vs Rennes: Why The Boot Room Is Passing On This Fixture",
+    "thumbnail_text": "NO BET ALERT",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a team that cannot win meets a team that cannot stop winning? Nice are trapped in a cycle of five consecutive home draws — zero victories in their last five league matches. Rennes arrive with three straight wins and European ambitions. The data screams for goals, but the market has priced it perfectly. Tonight, the Boot Room faces a rare verdict.",
+    "chapter_home": "Nice are a team in crisis, anchored in 15th place and just six points above the relegation play-off spot. Their home ground, the Allianz Riviera, has become a fortress for draws — five consecutive stalemates here, with zero wins in their last five league matches overall. The injury list is catastrophic: nine players are absent, including striker Elye Wahi and midfielders Hicham Boudaoui and Youssouf Ndayishimiye. This depletes their attack and central control, forcing reliance on fringe players. Their defence is worsening, conceding most frequently in the 31-45 minute window and showing severe vulnerability in the final 15 minutes. Recent cup success provides a morale boost, but the exhausting penalty shootout win could induce fatigue. They are not a high-scoring side — Under 2.5 goals has occurred in 20 of their 24 matches this season — yet their most recent home match was a chaotic 3-3 draw with Lorient. They are a team caught between resilience and ruin.",
+    "chapter_away": "Rennes arrive with momentum, fresh from a 3-0 away demolition of Auxerre and riding a three-match winning streak under new manager Franck Haise. Sitting seventh and level on points with Marseille, they are firmly in the European race. Their attack is increasing, averaging 2.33 goals per match across their last three, and their scoring trend is decisively upward. However, their season-long away defensive record remains a concern, conceding 1.92 goals per match on the road. Like their opponents, they show extreme vulnerability in the final 15 minutes, having conceded 11 goals in that period this season. Their 3-5-2 formation creates natural width superiority, with wing-backs poised to exploit Nice's flanks. With only three squad players absent and none considered core starters, they have a healthier, deeper squad. The question is whether their improving defensive trend can hold against a desperate, if depleted, Nice side.",
+    "chapter_history": "History strongly favours Nice in this fixture — they have won five of the last six meetings, establishing clear recent dominance. Exactly half of the last ten encounters have seen Over 2.5 goals, pointing to a moderately high-scoring tradition. The last four consecutive meetings have all produced a winner, with three of those being narrow one-goal victories. But this historical advantage is built with different squads under different pressures. Nice's crippling injury crisis and relegation battle pressure threaten to rewrite that narrative tonight. Rennes will see this as the perfect opportunity to end that run against a depleted opponent.",
+    "chapter_analysis": "The tactical matchup pits Nice's 4-2-3-1 against Rennes's 3-5-2. Rennes holds the structural advantage — their wing-backs can exploit Nice's full-backs, creating overloads and crossing opportunities. The match character is predicted to be transitional, with Rennes's improving attack facing Nice's worsening defence. Both teams show severe defensive fragility in the final 15 minutes, suggesting late drama is highly probable. The cascading form profiles show a strong 71% convergence on Over 2.5 goals, supported by Rennes's increasing attack and Nice's recent involvement in a 3-3 draw. The Quant's Poisson model gives Over 2.5 a 55% probability — a 7 percentage point edge over the market's implied 48%. The Sceptic challenged the Home Scout's characterisation of Nice as 'difficult to beat', correctly noting they are 'impossible to win from' with zero home wins in five. This flaw was acknowledged, but the core directional signal for goals remained strong. However, a fundamental conflict emerged on Asian Handicap markets: the Quant's model showed massive edges on Nice handicap lines, while the Tactician gave a tactical edge to Rennes. This directional contradiction makes those markets unplayable.",
+    "chapter_value": "Our market: NO BET. The analysis confirms the Over 2.5 goals direction — the Poisson model shows a 7% edge, and the Auditor validates this with an effective confidence of 58%. However, the Gaffer's conviction is moderate, and the required odds filter of 1.70 or better for a qualifying bet is not met. The market has priced this efficiently. While alternative markets like Over 2.75 Goals show theoretical value, the moderate conviction and the absence of a clear, conflict-free line meeting our strict criteria lead to a pass. Sometimes the smartest play is recognising when the edge is too thin to act.",
+    "ending": "The Boot Room verdict is clear: pass on this fixture. The data points to a higher-scoring match than Nice's typical pattern, with Rennes's rising attack and both teams' late-game fragility. Yet the mathematical edge is insufficient against our strict betting parameters. The historical dominance of Nice meets a stark present reality of injury and poor form, while Rennes's momentum faces their own defensive inconsistencies. It is a fascinating tactical clash, but not one with exploitable value tonight. If you found this analysis valuable, subscribe to the AI Boot Room for data-driven insights on every major fixture. Boot Room out.",
+    "roundup_summary": "Nice versus Rennes. Nice sit 15th in Ligue 1, winless in their last five league matches, with a form of three draws and two losses. They have drawn their last five consecutive home games. Rennes are seventh, riding a three-match winning streak, with form of three wins and two losses. Nice's injury crisis sidelines nine players, including key attacker Elye Wahi. Rennes have minor squad concerns.\n\nNice hold historical dominance, winning five of the last six meetings. Half of the last ten encounters have seen Over 2.5 goals. This season, Nice average 1.04 goals scored and 1.29 conceded per match. Rennes average 1.29 scored and 1.21 conceded. Their away matches average 3.25 total goals. The recent trend strongly favours goals, with 71% profile convergence on Over 2.5.\n\nThe Boot Room analysis identified a clear direction towards Over 2.5 goals. The Quant's Poisson model gives it a 55% probability, a 7 percentage point edge over the market's implied 48%. The λ sum supports a higher-scoring environment given Rennes's increasing attack and Nice's defensive decline. The Sceptic's main concern was the Home Scout mischaracterising Nice's form as resilient rather than winless — this was acknowledged but did not outweigh the objective trend data showing both teams' involvement in higher-scoring matches recently. The bookmaker has slightly under-priced the probability of Over 2.5 goals. However, the Auditor's effective confidence is 58%, and the Gaffer's conviction is moderate. With no qualifying line meeting the strict odds filter, the edge is insufficient for a value bet.\n\nThe Boot Room market is NO BET. The analysis suggests Over 2.5 goals is the likely outcome, but the mathematical edge does not meet our threshold for a recommended play. Confidence: 0%. Boot Room market: NO BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Draw Trap",
+        "voiceover": "Five consecutive home draws. Zero wins in their last five league matches. Nice are not just struggling — they are trapped in a cycle they cannot escape. Their fortress has become a prison of stalemates. Meanwhile, Rennes arrive with three straight wins and a rising attack. This is the clash of a team that cannot win against a team that cannot stop winning.",
+        "graphic_type": "conflict",
+        "graphic_description": "A visual split: on one side, the Nice crest trapped in a cage of 'D' letters; on the other, the Rennes crest with upward arrows and '3 WINS' text.",
+        "graphic_text_overlay": "DRAW VS MOMENTUM"
+      },
+      {
+        "scene": 2,
+        "name": "Nice's Crisis",
+        "voiceover": "The injury list reads like a casualty report: nine players absent. Striker Elye Wahi is gone. Key midfielders are missing. Their defence is worsening, most vulnerable just before halftime. Their most recent home match was a chaotic 3-3 draw — a sign of their crumbling structure. They are 15th, staring at relegation, with a threadbare squad trying to hold the line.",
+        "graphic_type": "home_card",
+        "graphic_description": "The Nice crest with a red cross over it, surrounded by icons of injured players (jersey, stretcher). Stats: '0 Wins in 5', '9 Players Out'.",
+        "graphic_text_overlay": "INJURY CATASTROPHE"
+      },
+      {
+        "scene": 3,
+        "name": "Rennes's Rise",
+        "voiceover": "Under new manager Franck Haise, Rennes are transformed. Three wins on the bounce. Their attack is increasing, averaging over two goals per game recently. Their 3-5-2 formation creates width to exploit Nice's frail flanks. But a season-long habit lingers — they concede late, with 11 goals in the final 15 minutes. Their momentum is real, but so is their fragility.",
+        "graphic_type": "away_card",
+        "graphic_description": "The Rennes crest with a rising graph arrow. Stats: '3 Wins', '2.33 GF/Last 3', '11 Late Goals Conceded'.",
+        "graphic_text_overlay": "ATTACK ON THE RISE"
+      },
+      {
+        "scene": 4,
+        "name": "The Data Says Goals",
+        "voiceover": "The numbers converge with startling clarity. A 71% profile alignment points to Over 2.5 goals. The Poisson model gives it a 55% probability — a 7% edge on the market. Both teams collapse defensively in the final 15 minutes. The tactical prediction is a transitional match, ripe for chances. The direction is undeniable: this fixture should see goals.",
+        "graphic_type": "evidence",
+        "graphic_description": "A large '71%' percentage figure with 'Over 2.5 Convergence' text. Below, two shields cracking in the final 15-minute segment of a match clock.",
+        "graphic_text_overlay": "71% GOALS CONVERGENCE"
+      },
+      {
+        "scene": 5,
+        "name": "Why We Walk Away",
+        "voiceover": "But here is the reality the Boot Room faces. The edge exists — a 7 percentage point gap — but the Gaffer's conviction is only moderate. Our strict filters require stronger odds and clearer signals. The Asian Handicap markets show massive theoretical value but are contradicted by tactical analysis. Sometimes the data reveals a path, but the value is not quite there. Tonight, that path leads to one conclusion.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A scale balancing a '7% Edge' weight against a 'Moderate Conviction' weight. The scale is slightly tilted, not decisively.",
+        "graphic_text_overlay": "EDGE VS CONVICTION"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict",
+        "voiceover": "Our market: NO BET. Confidence: 0%. The analysis points to Over 2.5 goals as the likely outcome, supported by a 58% effective confidence from the Auditor. Yet, against our parameters, the mathematical edge is insufficient. The smart play is to recognise when the market is efficient. A fascinating tactical clash, but not a betting opportunity. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A large, bold 'NO BET' stamp overlaid on the match logo. Text below: 'Confidence: 0%'.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

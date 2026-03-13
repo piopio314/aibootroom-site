@@ -1,0 +1,169 @@
+{
+  "key": "20260307_Blackburn_vs_Portsmouth__ds_v3_stream",
+  "match": {
+    "home_team": "Blackburn",
+    "away_team": "Portsmouth",
+    "league": "Championship",
+    "date": "2026-03-07",
+    "home_id": 67,
+    "away_id": 1355
+  },
+  "prediction": {
+    "direction": "over_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — over_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 37.0,
+    "score_draw": 34.5,
+    "score_away": 28.5,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match, but not due to offensive quality. The cascading profiles show strong convergence (79%) on Over 2.5 Goals, with both teams averaging 2.8 total goals per match in their last five. This character is driven by defensive vulnerabilities rather than attacking prowess. (2) DIRECTION EVIDENCE — The Quant's Poisson model shows a significant 11.7 percentage point gap favouring Over 2.5 Goals (60% Poisson probability vs 48.3% market implied). The Auditor adjusted this to 55% to incorporate the Tactician's contradictory view. Both teams' profiles show 0/7 suitability for Under 2.5 Goals, with weak 0% convergence. The historical average is 2.5 goals per game, with two-thirds of meetings exceeding 2.5. (3) AGENTS CONSENSUS — The Quant, Sceptic, and cascading profiles strongly support the Over direction. The Sceptic specifically highlighted the missing factor of strong BTTS/Over convergence. The Archivist notes a high-scoring historical pattern. However, the Tactician contradicts this, predicting a 'tight, cagey midfield battle with limited clear chances' due to structured defences and blunt attacks. The Scouts focused on low win probabilities but acknowledged defensive weaknesses. (4) RISKS — The Tactician's analysis of structured formations and possession-versus-block dynamics could suppress goal output. Both teams have extensive injury lists affecting squad depth. The rotation risk from European fixture conflict adds uncertainty to team selection and performance levels. If the match becomes a tense, pragmatic affair typical of relegation six-pointers, the expected goals may not materialise.",
+    "key_factors": [
+      "Strong 79% profile convergence on Over 2.5 Goals from both teams' recent form",
+      "Quant's Poisson model shows 11.7pp edge on Over 2.5 Goals",
+      "Historical H2H pattern shows two-thirds of matches exceed 2.5 goals",
+      "Both teams show 0/7 suitability for Under 2.5 in their cascading profiles"
+    ],
+    "risk_factors": [
+      "Tactician predicts a tight, low-chance match contradicting statistical signals",
+      "Extensive injury lists for both sides (Blackburn 9, Portsmouth 11) affecting defensive stability",
+      "Rotation risk from European fixture conflict - Championship matches in 3-4 days"
+    ],
+    "alternative_markets": [
+      {
+        "market": "BTTS Yes",
+        "prediction": "Yes",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 11.7,
+      "edge_source": "Quant probability minus market implied probability",
+      "edge_grade": "STRONG_VALUE (≥10%)",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Away -1.0",
+          "edge": 22.2
+        },
+        {
+          "market": "AH Away -0.75",
+          "edge": 12.8
+        },
+        {
+          "market": "Over 2.5 Goals",
+          "edge": 11.7
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Quant, Sceptic, and cascading profiles align strongly on Over 2.5 Goals, supported by the Archivist's historical data. However, the Tactician provides a significant contradictory view predicting fewer goals, and the Scouts focused on low win probabilities rather than goal markets. The Auditor adjusted the Over probability downward to reflect this tactical contradiction.",
+    "_direction_nobet_reason": "no_line_qualifies (over_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.94,
+    "max_edge": 22.2
+  },
+  "display_texts": {
+    "home_position": "#20 (39 pts, -13 GD)",
+    "away_position": "#19 (40 pts, -10 GD)",
+    "home_form": "10W-9D-17L in 36 matches, last 5: LLWLW",
+    "away_form": "10W-9D-15L in 34 matches, last 5: WLDWD",
+    "home_stats": "34 goals in 36 matches (avg 0.9/match), 9 clean sheets",
+    "away_stats": "34 goals in 34 matches (avg 1.0/match), 7 clean sheets",
+    "h2h_history": "Blackburn 1-1 Portsmouth (07 Mar 2026)\nPortsmouth 2-1 Blackburn (13 Dec 2025)\nPortsmouth 1-0 Blackburn (29 Mar 2025)\nBlackburn 3-0 Portsmouth (15 Jan 2025)\nPortsmouth 1-2 Blackburn (13 Feb 2018)",
+    "home_injuries": "T. Cantwell (Missing Fixture - Injury), A. Kargbo (Missing Fixture - Injury), L. Miller (Missing Fixture - Achilles Tendon Injury), A. Pears (Missing Fixture - Injury), S. Tronstad (Missing Fixture - Inactive)",
+    "away_injuries": "A. Alese (Missing Fixture - Muscle Injury), K. Anderson (Missing Fixture - Hamstring Injury), F. Bianchini (Missing Fixture - Knee Injury), A. Dozzell (Missing Fixture - Ankle Injury), J. Knight (Missing Fixture - Back Injury)",
+    "api_predictions": "API-Football prediction: Blackburn | Probabilities: 45%-45%-10% | Recommendation: Double chance : Blackburn or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:1",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Blackburn vs Portsmouth: The Relegation Six-Pointer With No Value",
+    "thumbnail_text": "SKIP THIS FIXTURE",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when two relegation-threatened sides, both ravaged by injuries and lacking consistent firepower, collide in a high-stakes survival battle? The data screams for goals — a massive eleven-point-seven percentage point edge on Over two-point-five. Yet our tribunal is split down the middle. Tonight at Ewood Park, we have a statistical anomaly: a clear directional signal with zero actionable value.",
+    "chapter_home": "Blackburn Rovers are anchored in a desperate relegation fight, with the pressure palpable at Ewood Park. Their home form is desperately poor — just four wins from nineteen attempts all season. A crippling injury list has stripped them of defensive stability, with nine players absent including key figures Sondre Tronstad, Harry Carter, and Scott Wharton. This forces a makeshift backline that is a major vulnerability. Their attack is blunt, averaging under a goal per match at home and failing to score in four of those fixtures. Yet there is a paradox: their recent home form shows defensive resilience with four clean sheets in their last five. The cascading profile, however, reveals a worsening defence and declining momentum. They are a team organised enough to be difficult to beat — with six home draws — but one that lacks the cutting edge to turn tight games into wins. The big question is whether survival instinct can overcome a glaring lack of firepower and a patched-up defence.",
+    "chapter_away": "Portsmouth travel with a chronically poor away record, winning just twenty-four percent of their matches on the road. Their squad is stretched to breaking point by eleven injuries and a congested schedule, playing four matches in the last fourteen days. This extensive list decimates their depth, limiting rotation options at a critical juncture. Their tactical setup is a structured four-two-three-one, but their away numbers are concerning: they average just point-nine-four goals scored while conceding one-point-five-nine per match. They have kept only three clean sheets in seventeen away games. Recent form shows some resilience — an away win at high-flying Millwall — but the cascading profile signals declining momentum. Their strategic objective is pure survival, sitting just one point and one place above Blackburn. The tension is whether their survival-mode pragmatism can grind out another result, or if travel sickness and depleted resources will finally tell against a direct rival.",
+    "chapter_history": "History shows a tight, often high-scoring affair with recent momentum firmly with Portsmouth. Blackburn hold a narrow historical edge, winning half of the six meetings. But the current story is different: Portsmouth are unbeaten in the last three clashes, taking seven points from a possible nine. Two-thirds of all meetings have seen over two-point-five goals, with an average of two-point-five per game. The last meeting at Ewood Park was pure drama — a ninetieth-minute equaliser from Blackburn's Harry Carter salvaging a one-one draw. That psychological edge for Portsmouth is significant. They arrive knowing they haven't lost to Blackburn in over a year. Yet tonight's crippling injury lists and immense relegation pressure make this the most unpredictable meeting in years, where history provides a pattern but no certainty.",
+    "chapter_analysis": "Our analysis reveals a profound contradiction. The Quant's Poisson model shows a significant eleven-point-seven percentage point gap favouring Over two-point-five goals — a sixty percent probability versus the market's forty-eight-point-three. This is backed by strong convergence: both teams' cascading profiles show seventy-nine percent alignment on the Over, with each averaging two-point-eight total goals in their last five matches. The historical pattern supports this. The Sceptic confirmed this as the primary data signal, criticising the Scouts for missing this strong convergence. However, the Tactician delivers a direct contradiction. They predict a 'tight, cagey midfield battle with limited clear chances', citing structured defences, blunt attacks, and a possession-versus-block dynamic that could suppress goal output. Portsmouth's sixty-one-point-three percent average possession will meet Blackburn's deep block. The Auditor had to reconcile this clash, adjusting the Over probability down to fifty-five percent to partially incorporate the tactical view. Furthermore, both squads are ravaged — Blackburn with nine absences, Portsmouth with eleven — affecting defensive stability and squad depth. Rotation risk from fixture congestion adds another layer of uncertainty. The data points one way, the tactical narrative another.",
+    "chapter_value": "Our market: NO BET. The Gaffer's tribunal has identified a clear directional edge — the Over two-point-five goals market is mis-priced by the bookmakers. Yet the conviction is only moderate, and the required odds filter of one-point-seven or greater is not met. The Auditor's effective confidence sits at fifty-nine percent, but this incorporates the significant tactical contradiction. Sometimes the strongest statistical signal is undermined by qualitative factors that create too much uncertainty. Here, the clash between the Quant's eleven-point-seven-point edge and the Tactician's prediction of a low-chance affair creates a market where no line qualifies for a value bet. The bookmakers have not made a mistake large enough for us to capitalise, given the opposing forces at play.",
+    "ending": "The Boot Room verdict is to pass on this fixture. Confidence: zero percent. In a relegation six-pointer with both sides missing key personnel, the expected chaos could produce goals — but the tactical setup suggests a cagey, pragmatic battle. When our agents disagree this fundamentally, and the mathematical edge doesn't clear our strict thresholds, the only smart play is to watch and learn. If you enjoyed this deep dive into a match where the data tells two different stories, hit subscribe and turn on notifications for more forensic football analysis. Boot Room out.",
+    "roundup_summary": "Blackburn versus Portsmouth. A Championship relegation six-pointer between twentieth-placed Blackburn, with thirty-nine points, and nineteenth-placed Portsmouth, with forty. Blackburn's last five form shows one win, two draws, and two defeats. Portsmouth's reads two wins, one draw, and two losses. Both sides have critical injury issues: Blackburn miss nine including key defender Harry Carter, while Portsmouth have eleven absentees. The home side has won just four of nineteen at Ewood Park; the visitors have four away wins from seventeen.\n\nThe head-to-head record shows Portsmouth unbeaten in the last three meetings, taking seven points from nine. The last clash at Ewood Park ended 1-1 with a 90th-minute Blackburn equaliser. Two-thirds of their six historical meetings have seen over 2.5 goals, averaging 2.5 per game. This season, Blackburn average 1.1 goals scored and 1.6 conceded per match. Portsmouth average 1.0 scored and 1.5 conceded away from home.\n\nThe Boot Room analysis identified a significant statistical edge for Over 2.5 goals. The Quant's Poisson model gave it a 60% probability, an 11.7 percentage point gap over the market's implied 48.3%. This was supported by 79% convergence from both teams' recent form profiles, which showed an average of 2.8 total goals in their last five matches. However, the Sceptic's concern was validated by the Tactician, who predicted a 'tight, cagey midfield battle' due to structured defences and blunt attacks, directly contradicting the high-scoring signal. The Auditor adjusted the probability down to 55% to reflect this tactical view. The bookmaker has likely mis-priced the Under, but the opposing qualitative analysis creates too much uncertainty for a clear value bet.\n\nThe Gaffer's tribunal concluded there is no qualifying value bet. The required odds threshold for a moderate conviction Over bet was not met. The market offers no line with sufficient edge to overcome the analytical contradiction. Boot Room market: NO BET. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Contradiction",
+        "voiceover": "What happens when the data screams one thing and the tactical eye sees another? Blackburn versus Portsmouth presents an eleven-point-seven percentage point edge for Over two-point-five goals. Yet our Tactician forecasts a cagey, low-chance affair. This is the conflict at the heart of tonight's relegation six-pointer.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: 'DATA: 11.7% EDGE OVER 2.5' with glowing graphs and rising arrows. Right side: 'TACTICS: CAGEY BATTLE' with a tactical board showing locked defensive shapes. A stark dividing line cuts through the centre.",
+        "graphic_text_overlay": "DATA VS. TACTICS"
+      },
+      {
+        "scene": 2,
+        "name": "Blackburn's Hospital Ward",
+        "voiceover": "Ewood Park is a fortress under siege — from within. Blackburn are missing nine players, gutting their defensive core. Their home record is dire: just four wins all season. They are structured but blunt, capable of a clean sheet yet often incapable of a goal.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dimly lit Ewood Park stands empty. In the foreground, a medical cross is superimposed over a team sheet with nine red 'OUT' stamps. The Blackburn badge appears cracked.",
+        "graphic_text_overlay": "9 PLAYERS OUT"
+      },
+      {
+        "scene": 3,
+        "name": "Portsmouth's Travel Sickness",
+        "voiceover": "Portsmouth's away form is a chronic illness. Twenty-four percent win rate. One-point-five-nine goals conceded per trip. Now, add eleven injuries and a squad running on empty after four games in fourteen days. Their survival hopes travel on shaky legs.",
+        "graphic_type": "away_card",
+        "graphic_description": "A lone Portsmouth player looks weary on a coach, reflected in a rainy window. A map with a winding, difficult route is shown, punctuated by eleven red injury icons.",
+        "graphic_text_overlay": "AWAY STRUGGLES"
+      },
+      {
+        "scene": 4,
+        "name": "The History of Goals",
+        "voiceover": "History leans towards chaos. Two-thirds of meetings breach two-point-five goals. The last Ewood Park clash needed a ninetieth-minute equaliser. Portsmouth are unbeaten in three, but past drama is no guarantee of future fireworks — especially with two patched-up squads.",
+        "graphic_type": "h2h_card",
+        "graphic_description": "A montage of historical goal flashes from past Blackburn-Portsmouth matches. A timeline shows '2/3 OVER 2.5 GOALS' in bold. A dramatic image of a last-minute goal celebration is central.",
+        "graphic_text_overlay": "2/3 OVER 2.5"
+      },
+      {
+        "scene": 5,
+        "name": "The Analytical Impasse",
+        "voiceover": "The Quant's model sees a sixty percent chance of Over two-point-five — a strong statistical signal. The profiles align at seventy-nine percent. But the Tactician sees a possession-heavy side meeting a deep block, predicting a chess match with few chances. The Auditor split the difference. When our agents disagree this fundamentally, certainty evaporates.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "An analytical chessboard. On one side, Poisson distribution curves and '60%' glow. On the other, a tactical diagram of a 4-2-3-1 facing a 5-4-1 block. A large question mark hangs between them.",
+        "graphic_text_overlay": "THE IMPASSE"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict: No Bet",
+        "voiceover": "Our market: NO BET. The edge exists, but the conviction is only moderate. The tactical contradiction is too significant. The bookmaker's mistake is not large enough to overcome the uncertainty. In a high-stakes survival clash defined by injuries and conflict, the only smart play is to watch. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final shot. A red 'NO BET' stamp is slammed onto a fixture poster for Blackburn vs Portsmouth. The odds for Over 2.5 (2.07) and Under 2.5 (1.93) are shown crossed out.",
+        "graphic_text_overlay": "VERDICT: NO BET"
+      }
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "key": "20260312_Panathinaikos_vs_Real_Betis__ds_v3_stream",
+  "match": {
+    "home_team": "Panathinaikos",
+    "away_team": "Real Betis",
+    "league": "UEFA Europa League",
+    "date": "2026-03-12",
+    "home_id": 617,
+    "away_id": 543
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 30.0,
+    "score_draw": 40.0,
+    "score_away": 30.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. Both teams arrive with severe creative limitations: Panathinaikos have 17 players injured including their midfield core, while Betis miss Isco and Lo Celso. The Tactician explicitly predicts a 'tight, tactical affair with limited clear chances' and 'mutual creative deficit'. Both teams' defensive metrics are strong (Panathinaikos concede 0.9 goals/match, Betis 0.75 away), while their attacking outputs are anaemic (Panathinaikos score 1.14 at home, Betis have failed to score in their last five away matches analysed). The cascading profiles show moderate convergence (43%) on Under 2.5 Goals, but more importantly reveal Panathinaikos's 100% draw rate and Betis's 0% away win rate in recent form. This is a classic low-event European knockout first leg where neither side can afford to be exposed. (2) DIRECTION EVIDENCE — The mathematical model presents a conflict: the Edge Calculator shows strong value on Over markets, but this is based on a Poisson model the Auditor has REJECTED as 'fundamentally flawed' and 'disconnected from all qualitative evidence'. The Auditor's adjusted probabilities give Under 2.5 a 65% probability. The Tactician's 'match_character_prediction' of 'tight' and 'goals_impact' suggesting 'fewer goals than average' directly supports the under. Both Scouts highlight attacking deficiencies: Panathinaikos 'lack a cutting edge' and have 'only exceeded 1.5 goals once all season', while Betis have a 'chronic inability to score away from home' with 'zero goals scored in their last five away matches'. The λ sum (implied by average goals) sits around 2.0-2.5, not the inflated 3.0+ the Edge Calculator suggests. (3) AGENTS CONSENSUS — The Tactician, both Scouts, and the Auditor align on a low-scoring narrative. The Sceptic's 'surprise scenario' is a 0-1 away win, further supporting limited goals. The Archivist notes no historical precedent, making current form paramount. The dissenting voice is the Quant's Poisson model, but this has been thoroughly discredited by the Auditor who states it produces 'extreme and unsupported probabilities'. The Sceptic issues a NO_BET recommendation due to conflicting signals, but the qualitative consensus around defensive solidity and attacking poverty is overwhelming. (4) RISKS — The primary risk is an early goal forcing the match to open up, though both teams' tactical setups suggest they would remain cautious. Betis's possession dominance (54.3%) could lead to sustained pressure and eventual breakthrough. Set pieces could provide a route to goal despite open-play struggles. The severe injury situations mean unexpected lineup changes could alter dynamics. The rotation risk cap (confidence ≤55%) acknowledges uncertain team selection in this European fixture.",
+    "key_factors": [
+      "Mutual creative midfield injuries devastate both teams' attacking capabilities",
+      "Panathinaikos's 100% draw rate in recent form indicates inability to win tight matches",
+      "Real Betis have failed to score in their last five away matches analysed",
+      "Both teams possess strong defensive metrics (≤1.0 goals conceded per match average)",
+      "European knockout first leg psychology favours caution over risk"
+    ],
+    "risk_factors": [
+      "Early goal could force match to open up against tactical intentions",
+      "Set-piece breakthrough possible despite open-play struggles",
+      "Uncertain team selection due to extensive injury lists and European rotation"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Draw",
+        "prediction": "Draw",
+        "confidence": 40
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": -21.3,
+      "edge_source": "Edge Calculator probability minus market implied probability",
+      "edge_grade": "NO_VALUE",
+      "staking_signal": "PASS",
+      "top_3_markets_by_edge": [
+        {
+          "market": "AH Home 0.0",
+          "edge": 47.4
+        },
+        {
+          "market": "AH Home 0.25",
+          "edge": 36.9
+        },
+        {
+          "market": "AH Home 0.5",
+          "edge": 28.5
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, both Scouts, and the Auditor converge on a low-scoring, defensively-oriented match characterised by mutual creative limitations. The Sceptic acknowledges the conflicting signals but their surprise scenario (0-1) supports limited goals. The Quant's mathematical model stands alone in predicting high-scoring outcomes, but this has been rejected by the Auditor as fundamentally flawed. The Archivist provides no contradictory evidence given the blank H2H slate.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 4.97,
+    "max_edge": 47.4
+  },
+  "display_texts": {
+    "home_position": "#20 (12 pts, +2 GD)",
+    "away_position": "#4 (17 pts, +6 GD)",
+    "home_form": "6W-6D-2L in 14 matches, last 5: DWWDW",
+    "away_form": "5W-2D-1L in 8 matches, last 5: DWDWW",
+    "home_stats": "18 goals in 14 matches (avg 1.3/match), 5 clean sheets",
+    "away_stats": "13 goals in 8 matches (avg 1.6/match), 3 clean sheets",
+    "h2h_history": "Real Betis 0-0 Panathinaikos (19 Mar 2026)\nPanathinaikos 0-0 Real Betis (12 Mar 2026)",
+    "home_injuries": "A. Bakasetas (Missing Fixture - Yellow Cards), I. G. Bokos (Missing Fixture - Inactive), L. Chaves (Missing Fixture - Inactive), P. Chirivella (Missing Fixture - Calf Injury), C. Dessers (Missing Fixture - Thigh Injury)",
+    "away_injuries": "S. Amrabat (Missing Fixture - Ankle Injury), Isco (Missing Fixture - Ankle Injury), G. Lo Celso (Missing Fixture - Muscle Injury)",
+    "api_predictions": "API-Football prediction: Real Betis | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Real Betis",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "1:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Panathinaikos vs Betis: The Europa League Stalemate",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when two European sides meet, both incapable of winning matches, both stripped of their creative cores? Panathinaikos versus Real Betis presents a Europa League knockout tie defined not by ambition, but by mutual creative bankruptcy. Seventeen players injured for the hosts. A midfield gutted for the visitors. And a tactical landscape so barren, the only certainty is uncertainty itself.",
+    "chapter_home": "Panathinaikos arrive at this first leg unbeaten in five matches, but that statistic is a mirage. Four of those results were draws, revealing a team fundamentally unable to convert resilience into victory. Their home win rate sits at a concerning twenty-nine percent, with just two victories from seven matches. The underlying numbers are stark: they score only 1.14 goals per home game and have failed to find the net in two of those seven. Rafael Benítez's side is built on defensive discipline, conceding just 0.9 goals per match on average. Yet their squad is in crisis, with seventeen players listed absent. Key midfielders like Bakasetas and Chirivella are missing, stripping the team of its creative hub. This leaves a side stretched to its absolute limit, competitive but lacking the final punch to secure a win.",
+    "chapter_away": "Real Betis travel to Athens with their own profound attacking issues. Their recent away form tells a story of complete bluntness: they have failed to score in their last five away matches analysed. Their midfield, typically the source of invention, has been decimated by the absences of Isco and Lo Celso. This removes the primary creative conduits precisely when they are needed most in a high-stakes European tie. Their strength lies in defensive solidity on the road, conceding just 0.75 goals per away match and keeping clean sheets in half their fixtures. However, their attack is predictable, heavily concentrated in the thirty-one to forty-five minute period. With morale described as low after recent poor performances, Betis present a paradox: a team with strong defensive metrics but a chronic inability to translate possession into goals away from home.",
+    "chapter_history": "History offers no guide for this fixture. The two previous meetings between these clubs were both abandoned with no result recorded. This is a true first competitive encounter, a blank slate with no psychological precedent or historical baggage. Every pattern, every trend, must be written tonight. That absence of history shifts the entire focus onto current form, squad availability, and which team can handle the unique pressure of a European knockout first leg with no prior reference point. The narrative will be defined entirely by the present, not the past.",
+    "chapter_analysis": "The tactical matchup converges on a single, inescapable conclusion: a low-event, cagey affair. Both teams' defensive strengths align perfectly against each other's attacking weaknesses. Panathinaikos concede just one goal per home match; Betis cannot score away. Both midfields are ravaged by injuries, creating a mutual creative deficit. The Tactician predicts a 'tight, tactical affair with limited clear chances,' a view supported by the data. The Sceptic challenged initial assessments, correctly highlighting Panathinaikos's one hundred percent draw rate in recent form and Betis's collapsed away scoring. This created a core contradiction: a quantitative model suggested strong value on home handicaps and over goals, but this was built on a Poisson probability the Auditor rejected as 'fundamentally flawed' and 'disconnected from all qualitative evidence.' The qualitative consensus from scouts and tacticians overwhelmingly points toward defensive caution and a scarcity of goals. The key battle will be in the sixty-one to seventy-five minute window, where Panathinaikos score most frequently but Betis are most resilient.",
+    "chapter_value": "Our market: NO_BET. The Boot Room identifies a clear under-goals direction, with the Auditor's adjusted probabilities giving Under 2.5 Goals a sixty-five percent likelihood. However, no specific line offers a qualifying mathematical edge against our strict filters. The Edge Calculator shows a negative twenty-one point three percent edge on Under 2.25 Goals. While the tactical narrative strongly suggests a low-scoring match, the market pricing does not present a mis-priced opportunity with sufficient conviction. The consensus is moderate, but the value is not there. Confidence: zero percent.",
+    "ending": "Sometimes the smartest play is to step aside. Panathinaikos versus Real Betis is a Europa League fixture where the overwhelming evidence points toward a stalemate, yet the betting markets reflect that reality too efficiently for us to find an edge. We see a draw as the most likely outcome at forty percent probability, but the price does not warrant action. For tonight, the Boot Room passes. If you appreciate this level of forensic, no-nonsense analysis, make sure to subscribe to the AI Boot Room channel for every match verdict. Boot Room out.",
+    "roundup_summary": "Panathinaikos versus Real Betis. This UEFA Europa League Round of 16 first leg pairs a Greek side sitting mid-table domestically with a Spanish team fighting for a top-four La Liga finish. Panathinaikos are unbeaten in five but have drawn four of those, showcasing profound draw-proneness. Real Betis have lost their last five away matches analysed, failing to score in any of them. The hosts are devastated by injuries to seventeen players, including midfielders Bakasetas and Chirivella. The visitors miss creative linchpins Isco and Lo Celso.\n\nThere is no competitive head-to-head history, as both previous meetings were abandoned. This is a true first encounter. Panathinaikos average 1.14 goals scored and 1.0 conceded per home match. Real Betis average 0.75 goals conceded but have scored 0.00 per match in their recent away form. The tactical setup screams under, but the historical slate is blank.\n\nThe Boot Room analysis identifies a severe disconnect. The Quant's Poisson model, implying an eighty-five percent probability for a Panathinaikos handicap, suggested strong value on Asian Handicap home lines with edges up to forty-seven point four percent. However, this model was rejected by the Auditor as 'irreconcilably divorced from match context.' The Sceptic's critical challenge highlighted Panathinaikos's zero percent win rate and one hundred percent draw rate in recent form, which the quantitative model ignored. The qualitative consensus from the Tactician and both Scouts overwhelmingly supports a low-scoring match defined by mutual creative bankruptcy due to midfield injuries. The bookmaker has not mis-priced the under markets sufficiently; the Edge Calculator shows a negative twenty-one point three percent edge on Under 2.25 Goals. The Auditor's effective confidence was just twenty-five percent, underscoring the uncertainty.\n\nThe Boot Room lands on NO_BET. The under-goals direction is confirmed, but no specific line qualifies under our conviction and odds filters. The adjusted probabilities show a forty percent chance of a draw, but this does not represent actionable value. The market is efficient, and the risk of an early goal or set-piece breakthrough in a tight match is too high. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "Panathinaikos host Real Betis in the UEFA Europa League Round of 16. The Greek side are unbeaten in five but have drawn four, crippled by injuries to seventeen players. Betis arrive having failed to score in their last five away matches analysed, missing creative stars Isco and Lo Celso. This is a first competitive meeting after two previous abandoned fixtures. The tactical picture points to a cagey, low-event affair with mutual creative deficits. However, the betting markets reflect this narrative efficiently, offering no clear mis-priced opportunity. The Boot Room lands on NO_BET at odds of zero, with zero percent confidence. Sometimes the best bet is no bet at all. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Creative Void",
+        "voiceover": "Seventeen players injured for the hosts. A midfield gutted for the visitors. This Europa League knockout tie isn't about who can win—it's about which team has anything left to create with. Two attacks, both fundamentally broken before a ball is kicked.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: a Panathinaikos team sheet with 17 red 'OUT' markers. Right side: a Real Betis midfield schematic with Isco and Lo Celso greyed out.",
+        "graphic_text_overlay": "BROKEN ATTACKS"
+      },
+      {
+        "scene": 2,
+        "name": "Panathinaikos: The Draw Machine",
+        "voiceover": "Unbeaten in five sounds impressive. But four draws reveal the truth. A twenty-nine percent home win rate, a squad missing its core, and an attack that scores just 1.14 goals per game. They are resilient, organised, and utterly incapable of finding a winner.",
+        "graphic_type": "home_card",
+        "graphic_description": "A stark infographic showing Panathinaikos's form: W0 D4 L0 in their last four. Key stats: 1.14 home goals/game, 17 players injured.",
+        "graphic_text_overlay": "0 WINS, 4 DRAWS"
+      },
+      {
+        "scene": 3,
+        "name": "Betis: The Away Ghost",
+        "voiceover": "Real Betis travel with a haunting statistic: zero goals scored in their last five away matches analysed. Isco and Lo Celso are absent, stripping away all creativity. Their defence is stout, conceding 0.75 goals per away game. But an attack that cannot score cannot win.",
+        "graphic_type": "away_card",
+        "graphic_description": "A graphic of an empty net with '0 GOALS' overlaid. A timeline below shows five consecutive away matches with a zero in the 'goals for' column.",
+        "graphic_text_overlay": "0 AWAY GOALS"
+      },
+      {
+        "scene": 4,
+        "name": "The Model vs. Reality",
+        "voiceover": "Our quantitative model screamed value—an eighty-five percent probability for a Panathinaikos result. But our Auditor rejected it entirely. 'Fundamentally flawed,' he said. 'Disconnected from reality.' The model saw a home win; every scout saw a mutual creative void leading to stalemate.",
+        "graphic_type": "conflict",
+        "graphic_description": "A computer screen showing '85% PROBABILITY' with a large red 'X' stamped over it. On the other side, text reading '0% Win Rate, 100% Draw Rate'.",
+        "graphic_text_overlay": "MODEL REJECTED"
+      },
+      {
+        "scene": 5,
+        "name": "The Tactical Lock",
+        "voiceover": "The Tactician's verdict was clear: a tight, cagey affair with limited chances. Panathinaikos's defensive discipline meets Betis's scoring drought. Both midfields are decimated. The most likely outcome? A tense, goalless chess match where neither side can afford to be the first to blink.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A tactical board showing two deep, compact defensive blocks with a large '?' in the space between them. Icons for injured midfielders are crossed out on both sides.",
+        "graphic_text_overlay": "TACTICAL STALEMATE"
+      },
+      {
+        "scene": 6,
+        "name": "The Verdict: No Edge",
+        "voiceover": "Our market: NO_BET. The direction is under goals. The probability sits at sixty-five percent. But the market price offers no edge. The value isn't there. In a match defined by what's missing, the only smart play is to recognise when the numbers don't add up. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "Clean, bold text on a dark background. 'NO BET' is central. Below: 'Direction: Under Goals', 'Edge: -21.3%', 'Confidence: 0%'.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}

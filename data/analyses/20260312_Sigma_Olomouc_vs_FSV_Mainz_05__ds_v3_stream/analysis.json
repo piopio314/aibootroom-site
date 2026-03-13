@@ -1,0 +1,163 @@
+{
+  "key": "20260312_Sigma_Olomouc_vs_FSV_Mainz_05__ds_v3_stream",
+  "match": {
+    "home_team": "Sigma Olomouc",
+    "away_team": "FSV Mainz 05",
+    "league": "UEFA Europa Conference League",
+    "date": "2026-03-12",
+    "home_id": 2250,
+    "away_id": 164
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "moderate",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=moderate, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "SPECULATIVE",
+    "odds_target": 0,
+    "score_home": 20.0,
+    "score_draw": 30.0,
+    "score_away": 50.0,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The Tactician explicitly predicts a 'tight, tactical encounter' with 'fewer goals than average'. Mainz's cascading profile shows a 6/7 suitability for Under 2.5 goals, with a 100% clean sheet rate in their last five matches and conceding 0.0 goals per game. Olomouc, while scoring consistently, has a 0/7 suitability for Under 2.5 goals, but their home attack averages only 1.0 goals per game. The matchup convergence for Under 2.5 is moderate (43%), but the directional signal from the dominant team (Mainz) is overwhelmingly defensive. (2) DIRECTION EVIDENCE — The Edge Calculator shows a colossal 48.2% edge on Under 2.25 Goals, the highest of any market, graded 'STRONG_VALUE'. The Auditor's adjusted probabilities give Under 2.5 a 70% likelihood. The Tactician's analysis of Mainz's defensive organisation (3-4-3), low away scoring rate (0.75 goals per game), and Olomouc's inability to convert home dominance aligns perfectly with a low-scoring outcome. The Poisson λ sum is not provided, but the empirical data points to a total goal expectation below 2.5. (3) AGENTS CONSENSUS — The Tactician, Auditor, and Edge Calculator are strongly aligned on the under_goals direction. The Sceptic's NO_BET recommendation is based on data conflicts in the result markets, not the goals market, and the statistical edge here (≥5%) is sufficient to override their qualitative veto. The Quant's model initially favoured Over 2.5, but this has been corrected by the Auditor who adjusted probabilities significantly downward based on tactical alignment. The biggest dissent comes from the Quant's original Poisson model, which the Auditor has overruled. (4) RISKS — The primary risk is rotation, with both teams having European fixtures in 0 days, which caps confidence at 55%. Mainz's reported 100% win rate is based on a thin sample (last 1 match), and any significant team changes could disrupt their defensive structure. Olomouc's pressing could force an early goal, opening the game up. The conflicting injury report on Mainz's Amiri adds uncertainty, though the tactical impact suggests it reinforces a conservative approach.",
+    "key_factors": [
+      "Mainz's defensive profile: 100% clean sheet rate in last 5 matches, 6/7 suitability for Under 2.5 goals.",
+      "Tactician's prediction of a 'tight, cagey encounter' with fewer goals than average.",
+      "Edge Calculator shows a 48.2% mathematical edge on Under 2.25 Goals.",
+      "Olomouc's home attack is limited, averaging only 1.0 goals per game in recent home matches.",
+      "Auditor's adjusted probabilities give Under 2.5 a 70% likelihood."
+    ],
+    "risk_factors": [
+      "High rotation risk due to European fixture congestion for both sides (confidence cap at 55%).",
+      "Thin data sample for Mainz's flawless recent form (based on last 1 match).",
+      "Conflicting reports on squad availability and injuries."
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.75 Goals",
+        "prediction": "Under 2.75",
+        "confidence": 58
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 48.2,
+      "edge_source": "Edge Calculator: our probability (92.4%) minus market implied probability (from odds 2.26)",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 48.2
+        },
+        {
+          "market": "Under 2.75 Goals",
+          "edge": 39.6
+        },
+        {
+          "market": "AH Home +1.25",
+          "edge": 14.6
+        }
+      ]
+    },
+    "tribunal_consensus_level": "moderate",
+    "tribunal_consensus_description": "The Tactician, Auditor, and Edge Calculator are aligned on a low-scoring match. The Sceptic issued a NO_BET verdict primarily due to data conflicts in the result markets, but does not specifically challenge the goals thesis. The Quant's initial Poisson model favoured Over 2.5, but this was contradicted by the Auditor's corrections and tactical analysis. The Scouts are split: the Home Scout notes Olomouc's open play, while the Away Scout highlights Mainz's defensive solidity.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/moderate)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 4.87,
+    "max_edge": 48.2
+  },
+  "display_texts": {
+    "home_position": "#24 (7 pts, -2 GD)",
+    "away_position": "#7 (13 pts, +4 GD)",
+    "home_form": "3W-2D-3L in 8 matches, last 5: LDWWL",
+    "away_form": "5W-1D-2L in 8 matches, last 5: LWWWW",
+    "home_stats": "10 goals in 8 matches (avg 1.3/match)",
+    "away_stats": "12 goals in 8 matches (avg 1.5/match), 3 clean sheets",
+    "h2h_history": "FSV Mainz 05 0-0 Sigma Olomouc (19 Mar 2026)\nSigma Olomouc 0-0 FSV Mainz 05 (12 Mar 2026)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: FSV Mainz 05 | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or FSV Mainz 05",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "0:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Mainz's Defensive Wall vs Olomouc's Leaky Defence — NO BET",
+    "thumbnail_text": "NO VALUE FOUND",
+    "duration_estimate": "~8 minutes",
+    "hook": "What happens when an immovable object meets a very movable defence? FSV Mainz 05 travel to face Sigma Olomouc with a perfect defensive record in their last five matches — they haven't conceded a single goal. Yet the market sees this as a routine away win. But our data reveals a deeper, more complex story — one where the numbers tell two completely different tales.",
+    "chapter_home": "Sigma Olomouc present a fascinating contradiction. They have scored in every single home match this season, yet they have failed to keep a clean sheet in any of their eight total fixtures. Their 4-2-3-1 formation is built for attack, with a high-intensity press designed to disrupt opponents. But that aggression comes at a cost — their defence is chronically vulnerable, conceding an average of 1.25 goals per home game. They sit 24th in a 36-team league, with just one win from four home matches. Their narrative is one of consistent scoring but an inability to convert that into victories, creating tight, balanced contests that often end level. A recent away win in Europe provides a confidence boost, but their fundamental instability remains.",
+    "chapter_away": "FSV Mainz 05 arrive with a profile built on defensive solidity. Their 3-4-3 formation provides width and structure, and their recent form is flawless — five wins from five, with a 100% clean sheet rate. They concede just 0.75 goals per away game on average. However, this impressive record masks significant concerns. Their attack struggles on the road, averaging only 0.75 goals scored. There are conflicting reports on the availability of key forward Nadiem Amiri, and the manager's focus may already be on a crucial Bundesliga fixture in three days. This creates a stark contradiction — a team with perfect recent results but underlying away weaknesses and potential rotation risk.",
+    "chapter_history": "This fixture has no history. Both previous scheduled meetings were abandoned, leaving a completely blank slate. There is no psychological baggage, no revenge mission, and no established pattern to break. This is a true first encounter, which means tonight's match becomes a pure test of current form, tactics, and motivation on a fresh canvas. History provides no clues — it favours the side that can adapt quickest to the unknown.",
+    "chapter_analysis": "The tactical matchup reveals the core tension. Olomouc's pressing 4-2-3-1 seeks to overload Mainz's three-man midfield, but Mainz's superior pass accuracy suggests they can bypass that pressure. Mainz holds the structural advantage with their wing-backs targeting Olomouc's vulnerable full-backs. The Tactician predicts a tight, cagey encounter with fewer goals than average. This aligns with the Edge Calculator, which identifies a colossal 48.2% mathematical edge on Under 2.25 Goals. However, The Sceptic issued a critical challenge — the Away Scout's analysis contained fundamental data errors regarding Mainz's form and injuries, creating high uncertainty. The Quant's Poisson model initially favoured Olomouc to cover various Asian Handicaps, but this was contradicted by the Tactician's analysis and the Auditor's corrections. The data is telling two different stories, and we cannot reconcile them with confidence.",
+    "chapter_value": "Our market: NO_BET. The mathematical edge on Under 2.25 Goals is compelling at 48.2%, and the tactical analysis strongly supports a low-scoring game. However, the Gaffer's conviction is only moderate, and the required odds filter of 1.70 or better was not met for a qualifying line. More critically, the Sceptic's veto on data reliability — citing thin samples and conflicting reports — imposes an uncertainty penalty we cannot ignore. When core qualitative signals are contradictory and sample sizes are inadequate, the smartest play is to step aside. The market offers no value we can trust tonight.",
+    "ending": "Sometimes the most disciplined analysis leads to the simplest conclusion: there is no bet here. The conflict between Mainz's defensive perfection and Olomouc's scoring consistency is fascinating, but the underlying data is too unreliable to act upon. We see the edge, but we cannot validate it against the qualitative noise. The Boot Room's verdict is to pass on this fixture. If you want more of this transparent, data-driven analysis that isn't afraid to say 'no bet', make sure to subscribe to AI Boot Room. Boot Room out.",
+    "roundup_summary": "Sigma Olomouc versus FSV Mainz 05. Olomouc sit 24th in their domestic league with a stable but unspectacular form trend, having won just one of their last four home matches. Mainz arrive with a perfect record in their last five games, though their away form shows a 25% win rate from four attempts. Key narrative points include Olomouc's consistent scoring but zero clean sheets, and Mainz's defensive solidity amid potential rotation and conflicting injury reports on Nadiem Amiri.\n\nThere is no completed head-to-head history between these sides, with both previous meetings abandoned. This is a fresh tactical encounter. Olomouc averages 1.25 goals scored and conceded per home game this season, while Mainz averages 0.75 goals scored and 1.0 conceded on their travels. The recent meetings provide no trend for Over/Under or Both Teams to Score markets.\n\nThe Boot Room analysis identified a significant mathematical edge of 48.2% on Under 2.25 Goals, strongly supported by the Tactician's prediction of a tight, low-scoring match and Mainz's cascading defensive profile showing 6 out of 7 suitability for Under 2.5. The Auditor's adjusted probabilities gave Under 2.5 a 70% likelihood. However, the Sceptic issued a critical challenge regarding data reliability — the Away Scout's report contained errors on Mainz's form and injuries, and the sample size for Mainz's flawless run was based on just one match. The Quant's Poisson model showed value on Olomouc Asian Handicaps, but this direction contradicted the Tactician's edge to Mainz. This fundamental conflict between mathematical value and qualitative data integrity created an insurmountable uncertainty penalty.\n\nThe Boot Room finds no qualifying market that meets its confidence and odds criteria. The direction points to under goals, but no specific line offers a trustworthy edge. The verdict is to pass. Boot Room market: NO_BET. Confidence: 0%.",
+    "short_segment": "Sigma Olomouc host FSV Mainz 05 in the UEFA Europa Conference League. Olomouc, 24th in their league, score consistently at home but have kept zero clean sheets all season. Mainz arrive with five straight wins and a 100% clean sheet rate, though their away attack averages just 0.75 goals. The head-to-head slate is blank — no completed history exists. Our analysis reveals a colossal 48.2% edge on Under 2.25 goals, supported by a predicted tight encounter. However, critical data errors and thin samples create unreconcilable uncertainty. The Boot Room lands on NO_BET at odds of 0, with 0% confidence. When the data conflicts, discipline means walking away. Boot Room out.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Contradiction",
+        "voiceover": "Mainz have not conceded a goal in their last five matches. A perfect defensive wall. Yet they travel to face a Sigma Olomouc side that has scored in every single home game this season. This is the clash — an immovable object meets a very movable, but always scoring, defence.",
+        "graphic_type": "conflict",
+        "graphic_description": "A split-screen visual. Left side: a solid, imposing defensive wall with 'MAINZ 05' and '5 CLEAN SHEETS'. Right side: a net full of footballs with 'OLOMOUC' and 'SCORED IN EVERY HOME GAME', but the net has holes.",
+        "graphic_text_overlay": "PERFECT DEFENCE VS LEAKY SCORERS"
+      },
+      {
+        "scene": 2,
+        "name": "Olomouc's Double-Edged Sword",
+        "voiceover": "Sigma Olomouc's identity is clear. They attack with a high-intensity press in a 4-2-3-1, and they always find the net at home. But there is a fatal flaw — they have not kept a single clean sheet in eight matches this season. They score, but they cannot stop conceding. It is a recipe for exciting, yet ultimately fragile, football.",
+        "graphic_type": "home_card",
+        "graphic_description": "A dynamic graphic showing a football hitting the back of a net, followed by an animation of a goal conceded at the other end. Stats overlay: 'Home Goals Scored: 1.25 pg' | 'Clean Sheets: 0'.",
+        "graphic_text_overlay": "SCORE BUT CAN'T STOP"
+      },
+      {
+        "scene": 3,
+        "name": "Mainz's Flawed Perfection",
+        "voiceover": "Mainz's record is immaculate — five wins, five clean sheets. Their 3-4-3 is organised and defensively robust. But look closer. Their away attack is blunt, averaging under a goal per game. There are conflicting injury reports, and a Bundesliga match looms in three days. Is this flawless form real, or a thin-sample illusion before a potential rotation?",
+        "graphic_type": "away_card",
+        "graphic_description": "A graphic of a pristine, untouched goal net with a '5' and a tick. Beside it, a dimly lit graph trending downwards labelled 'Away Goals: 0.75'. A question mark hangs over the graphic.",
+        "graphic_text_overlay": "FLAWLESS BUT FLIMSY?"
+      },
+      {
+        "scene": 4,
+        "name": "The Data War",
+        "voiceover": "Our agents are at war. The Edge Calculator finds a massive 48.2% edge on Under 2.25 goals. The Tactician agrees — predicting a cagey, low-scoring battle. But The Sceptic sounds the alarm. The data on Mainz is conflicted and thin. The Quant's model sees value for Olomouc, but the Tactician gives the edge to Mainz. Two completely different stories from the same numbers.",
+        "graphic_type": "analysis_card",
+        "graphic_description": "A visual of two opposing arrows or graphs colliding. One arrow points down labelled 'UNDER 2.25 | 48.2% EDGE'. The other is a chaotic cluster of question marks and 'DATA ERROR' warnings.",
+        "graphic_text_overlay": "48.2% EDGE VS DATA NOISE"
+      },
+      {
+        "scene": 5,
+        "name": "The Verdict",
+        "voiceover": "When the numbers point one way but the story behind them is unreliable, the only smart move is to step back. We see the potential for a low-scoring game, but we cannot trust the foundation it's built on. The uncertainty penalty is too high. Our market: NO BET. Sometimes the best bet is no bet at all. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, minimalist screen. A large, bold 'NO BET' is centred. Below, smaller text: 'Edge Identified | Data Unreliable | Confidence: 0%'.",
+        "graphic_text_overlay": "NO BET | 0%"
+      }
+    ]
+  }
+}

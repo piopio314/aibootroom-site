@@ -1,0 +1,160 @@
+{
+  "key": "20260307_Saint_Etienne_vs_RED_Star_FC_93__ds_v3_stream",
+  "match": {
+    "home_team": "Saint Etienne",
+    "away_team": "RED Star FC 93",
+    "league": "Ligue 2",
+    "date": "2026-03-07",
+    "home_id": 1063,
+    "away_id": 104
+  },
+  "prediction": {
+    "direction": "under_goals",
+    "direction_conviction": "strong",
+    "selected_market": "NO_BET",
+    "prediction": "No Value — under_goals direction confirmed but no line qualifies (conviction=strong, odds≥1.70 filter)",
+    "confidence": 0,
+    "confidence_gate": "APPROVE",
+    "odds_target": 0,
+    "score_home": 55.8,
+    "score_draw": 28.3,
+    "score_away": 15.9,
+    "reasoning": "(1) MATCH CHARACTER — This is a DEFENSIVE_BATTLE. The cascading form profiles show a 79% strong convergence on Under 2.5 Goals, the highest alignment of any market. Both teams' recent scoring is in decline: Saint Etienne average 0.80 goals in their last five home games, while RED Star average 0.60 goals in their last five overall. The Tactician's match character prediction is 'Tight' and notes 'fewer goals than average'. This structural setup, reinforced by a 0-0 draw between these sides just days ago, defines the match. (2) DIRECTION EVIDENCE — The mathematical evidence is overwhelming. The EdgeCalculator shows a 46.5% edge on Under 2.25 Goals, the highest of any market. The Auditor validates this as credible and recommends it as the top market. The Poisson λ values (not explicitly given but implied by low goal probabilities) and the Auditor's adjusted probabilities (Under 2.5 at 79.9%) anchor this judgement. The 79% profile convergence is a pure data signal that outweighs any narrative about Saint Etienne's promotion push. (3) AGENTS CONSENSUS — The direction has near-unanimous support. The Tactician predicts a low-scoring, tight affair. The Sceptic's surprise scenario is a repeat 0-0 draw. The Auditor's edge validation strongly endorses Under markets. The Quant's methodology note highlights the 'strong convergence on Under 2.5 Goals (79%)'. The only mild dissent comes from the Home Scout's 'attack_strength' rating of 8, but this is contradicted by their own data on recent home scoring decline. The net signal is powerfully in favour of under_goals. (4) RISKS — The primary risk is an early Saint Etienne goal forcing the game open, though their recent home form suggests this is less likely. RED Star's defensive resilience could break under sustained pressure, but their away record (0.75 goals conceded per match) suggests they are organised. Set-pieces, flagged by the Tactician as a potential decisive factor, could produce a goal in an otherwise cagey match. The market's heavy favouritism for Saint Etienne (1.73) creates a narrative pressure for goals that the underlying data does not support.",
+    "key_factors": [
+      "79% strong profile convergence on Under 2.5 Goals",
+      "EdgeCalculator shows a 46.5% edge on Under 2.25 Goals",
+      "Both teams show declining attacking output in recent form",
+      "Recent direct H2H result was a 0-0 draw"
+    ],
+    "risk_factors": [
+      "An early goal could alter the tactical dynamic and match character",
+      "Set-piece proficiency could provide a route to a goal against the run of play"
+    ],
+    "alternative_markets": [
+      {
+        "market": "Under 2.75 Goals",
+        "prediction": "Under 2.75",
+        "confidence": 63
+      }
+    ],
+    "value_bets": [],
+    "edge_assessment": {
+      "selected_market_edge": 46.5,
+      "edge_source": "EdgeCalculator our_prob (90.9%) vs market odds @2.25",
+      "edge_grade": "STRONG_VALUE",
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "market": "Under 2.25 Goals",
+          "edge": 46.5
+        },
+        {
+          "market": "Under 2.75 Goals",
+          "edge": 38.0
+        },
+        {
+          "market": "Under 3.25 Goals",
+          "edge": 30.3
+        }
+      ]
+    },
+    "tribunal_consensus_level": "strong",
+    "tribunal_consensus_description": "The Tactician, Sceptic, Auditor, and the data from the Quant's methodology note and cascading profiles all align on a low-scoring match character. The only point of mild divergence is the Home Scout's high attack_strength rating, which is contradicted by their own reported recent home form.",
+    "_direction_nobet_reason": "no_line_qualifies (under_goals/strong)",
+    "_model_key": "ds_v3_stream",
+    "_analyzer": "tribunal_v2",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "recommendation": "BET",
+    "tier": "PASS",
+    "tier_label": "NO OPPORTUNITY — skip this fixture",
+    "tier_color": "#64748b",
+    "opportunity_score": 5.82,
+    "max_edge": 46.5
+  },
+  "display_texts": {
+    "home_position": "#2 (46 pts, +15 GD)",
+    "away_position": "#5 (41 pts, +5 GD)",
+    "home_form": "14W-4D-7L in 25 matches, last 5: DWWDW",
+    "away_form": "10W-8D-6L in 24 matches, last 5: DLWWW",
+    "home_stats": "44 goals in 25 matches (avg 1.8/match), 9 clean sheets",
+    "away_stats": "30 goals in 24 matches (avg 1.3/match), 10 clean sheets",
+    "h2h_history": "Saint Etienne 0-0 RED Star FC 93 (07 Mar 2026)\nRED Star FC 93 2-1 Saint Etienne (01 Nov 2025)\nRED Star FC 93 1-2 Saint Etienne (10 Feb 2015)",
+    "home_injuries": "No significant injuries",
+    "away_injuries": "No significant injuries",
+    "api_predictions": "API-Football prediction: Saint Etienne | Probabilities: 45%-45%-10% | Recommendation: Double chance : Saint Etienne or draw",
+    "osint_signals": ""
+  },
+  "settlement": {
+    "settlement": "UNKNOWN",
+    "label": "PENDING",
+    "color": "#f0b429",
+    "pnl": 0.0,
+    "score": "2:0",
+    "market": "NO BET"
+  },
+  "script": {
+    "title": "Saint Etienne vs RED Star: The Promotion Stalemate",
+    "thumbnail_text": "NO BET",
+    "duration_estimate": "~5 minutes",
+    "hook": "What happens when a promotion-chasing attack meets a defensive wall it has already failed to breach? Just days ago, Saint Etienne and RED Star FC 93 played out a goalless stalemate. Now they meet again in a summit clash with second place on the line. The market expects goals from the home side—but the data tells a very different story.",
+    "chapter_home": "Saint Etienne sit second in Ligue 2, riding a wave of momentum with four wins from their last five matches. Their home record is formidable, scoring in eleven of twelve matches at the Stade Geoffroy-Guichard. Yet a critical flaw has emerged in their promotion push. In their last five home games, their attack has produced just 0.80 goals per match—a significant decline from their seasonal average. The team deploys an attacking 4-2-3-1 formation, with creative midfielders like Cardona and Davitashvili tasked with unlocking defences. Morale is high, but the pressure of leadership is immense. Their key weakness is a vulnerability in the 61st to 75th minute, where they have conceded eight of their twenty-nine goals this season. Despite their league position, the most recent evidence—a 0-0 draw against this same opponent—suggests their attacking prowess may be stalling at the worst possible time.",
+    "chapter_away": "RED Star FC 93 arrive in fifth place, firmly in the playoff hunt. Their identity is built on defensive resilience, especially on the road. They have kept six clean sheets in twelve away matches, conceding just 0.75 goals per game. Their tactical setup is a compact 3-4-1-2, designed to frustrate through the middle and exploit space with wing-backs Sylla and Cissé. However, their recent form reveals a team in decline. The Sceptic delivered a critical challenge, highlighting that their strong seasonal away record masks a severe recent downturn. In their last five away games, they have managed just one win, two draws, and two losses, with momentum officially 'declining'. Their attack has stalled completely, averaging only 0.60 goals in their last five matches overall. They are organised and difficult to break down, but their ability to win this match appears severely compromised.",
+    "chapter_history": "Head-to-head data for this fixture is unavailable due to a technical failure. However, the most relevant and recent historical context is overwhelming. These two sides met just days prior, playing out a tense 0-0 draw. That result is not an anomaly—it is a direct blueprint for this encounter. It provides the clearest evidence of how these teams match up: a promotion contender struggling to score against a defensively resolute opponent. The stalemate heavily reinforces the low-scoring, draw-leaning convergence identified across all data profiles. While we lack a longer historical record, this single recent meeting may be the most important data point of all.",
+    "chapter_analysis": "The tactical matchup is a classic clash of styles. Saint Etienne's possession-based 4-2-3-1 will press against RED Star's deep, compact 3-4-1-2 block. The key battle lies in whether Saint Etienne's attacking midfield trio can find spaces between RED Star's defensive lines. The Tactician predicts a 'tight' affair with 'fewer goals than average', a view supported by a staggering 79% strong convergence on Under 2.5 goals in the teams' form profiles. The Sceptic forcefully challenged the Away Scout's reliance on RED Star's full-season away data, pointing to their severe recent decline. This critique is validated—the team's current form is far weaker than their seasonal average suggests. Both teams show declining attacking output, and the EdgeCalculator reveals a massive 46.5% mathematical edge on Under 2.25 goals. The Auditor confirms this signal is credible and fully aligned with qualitative analysis. However, the Asian Handicap market is efficiently priced, with Poisson probabilities showing zero gap against market odds. This creates a paradox: overwhelming evidence for a low-scoring match, but no mispriced line that meets our strict value threshold.",
+    "chapter_value": "Our market: NO_BET. The analysis presents a clear directional consensus—this fixture screams under. The EdgeCalculator shows a 46.5% edge on Under 2.25 Goals, and the Auditor's adjusted probability for Under 2.5 sits at 79.9%. Yet, after applying our conviction filter requiring odds of at least 1.70, no qualifying line exists. The available prices do not offer sufficient mathematical value against our probability assessments. Sometimes the data reveals the match character with perfect clarity, but the market, while perhaps underestimating the likelihood, hasn't mispriced it enough to trigger a bet. This is one of those occasions. The Gaffer's verdict is to pass. Confidence: 0%.",
+    "ending": "The Boot Room sees a tense, tactical stalemate on the horizon. Saint Etienne's stuttering home attack collides with RED Star's fading but stubborn defence. All signals point towards a low-scoring repeat of their recent draw. However, our role is to identify value, not just predict outcomes. Tonight, the value is absent. The smart move is to watch, learn, and wait for a clearer edge. If you found this analysis valuable, subscribe to The Boot Room and hit the notification bell. We break down the data so you don't have to. Boot Room out.",
+    "roundup_summary": "Saint Etienne versus RED Star FC 93. This Ligue 2 clash pits second-placed Saint Etienne against fifth-placed RED Star in a critical promotion summit meeting. The hosts' form reads three wins and two draws from their last five, though their home attack has dipped to average just 0.80 goals in that span. The visitors have one win, two draws, and two losses in their last five away, with their attack managing only 0.60 goals per game recently. Head-to-head data is unavailable, but the most recent and relevant meeting was a 0-0 draw just days ago. This result is pivotal context. This season, Saint Etienne scores 2.17 goals per home match but concedes 1.25, while RED Star concedes only 0.75 away but scores just 1.08. The recent meeting suggests a strong under trend.\n\nThe Boot Room analysis identifies a powerful 79% strong convergence on Under 2.5 goals across both teams' form profiles. The EdgeCalculator shows a massive 46.5% mathematical edge on Under 2.25 Goals, with our assessed probability at 90.9% versus market odds of 2.25. The Sceptic's critical challenge—that RED Star's strong seasonal away record masks severe recent decline—is validated and reinforces the low-scoring setup. The Auditor confirms the signal is credible, aligning with the Tactician's 'tight, low-scoring' match prediction. However, the bookmaker's pricing on the Asian Handicap is efficient, with Poisson probabilities showing zero gap. While the direction is clear, no specific line offers the required combination of value and odds to qualify as a bet under our strict model parameters.\n\nThe market direction points firmly towards under, but no qualifying bet line exists. The risk scenario is an early Saint Etienne goal altering the tactical dynamic, though their recent home form makes this less probable. Set-pieces remain a potential route to a goal in a cagey match. The value assessment shows strong edges on under markets, but the available odds do not meet the minimum threshold for a recommended wager. Boot Room verdict: NO VALUE — pass on this fixture. Confidence: 0%.",
+    "essence_scenes": [
+      {
+        "scene": 1,
+        "name": "The Stalemate Repeat",
+        "voiceover": "What happens when a promotion-chasing attack meets a defensive wall it has already failed to breach? Just days ago, these two sides played out a tense 0-0 draw. Now they meet again with second place on the line. The market expects a home win with goals—but the most recent evidence suggests a very different story.",
+        "graphic_type": "conflict",
+        "graphic_description": "A dramatic split-screen visual. Left side: Saint Etienne's attacking players in green looking frustrated. Right side: RED Star's defensive wall in red, organised and resolute. A giant '0-0' scoreline overlays the centre.",
+        "graphic_text_overlay": "THE 0-0 BLUEPRINT"
+      },
+      {
+        "scene": 2,
+        "name": "Saint Etienne's Hidden Decline",
+        "voiceover": "Saint Etienne are second and on a four-game winning streak. Their home record is formidable. Yet a critical flaw has emerged. In their last five home matches, their potent attack has averaged just 0.80 goals—a significant decline. The pressure of leadership is immense, and their most recent result was that goalless draw.",
+        "graphic_type": "home_card",
+        "graphic_description": "A focused shot on a Saint Etienne player in the iconic green kit, looking determined but with a slight frown. In the background, a stats graphic shows 'Last 5 Home Games: 0.80 Goals/Game' with a downward arrow.",
+        "graphic_text_overlay": "ATTACK STALLING"
+      },
+      {
+        "scene": 3,
+        "name": "RED Star's Fading Fortress",
+        "voiceover": "RED Star arrive with the league's fifth-best away record, built on six clean sheets in twelve trips. But the Sceptic delivered a critical blow. Their strong seasonal data masks a severe recent decline—just one win in their last five away games. Their defence remains organised, but their attack has completely stalled.",
+        "graphic_type": "away_card",
+        "graphic_description": "A RED Star defender making a strong, last-ditch tackle. The visual is gritty and defensive. A secondary graphic contrasts 'Season Away: 0.75 GA' with 'Last 5 Away: DECLINING Momentum'.",
+        "graphic_text_overlay": "DEFENCE HOLDS, FORM FADES"
+      },
+      {
+        "scene": 4,
+        "name": "The Data Tells The Story",
+        "voiceover": "The tactical prediction is a 'tight' affair. The data screams under. A staggering 79% of form profiles converge on Under 2.5 goals. The EdgeCalculator reveals a massive 46.5% mathematical edge on Under 2.25. The Auditor validates this as the top signal. Every piece of evidence points to one outcome: a low-scoring stalemate.",
+        "graphic_type": "evidence",
+        "graphic_description": "A full-bleed, data-visualisation style graphic. A large, central '79%' pulses, connected to text reading 'STRONG CONVERGENCE ON UNDER 2.5'. Below, 'EDGE: +46.5%' shines prominently.",
+        "graphic_text_overlay": "79% UNDER CONVERGENCE"
+      },
+      {
+        "scene": 5,
+        "name": "The Value Vacuum",
+        "voiceover": "So where is the bet? The direction is clear, but the market offers no qualifying line. Our model requires both conviction and value—odds of at least 1.70. No available price meets that threshold against our probability assessments. The smart move is not to force a wager where the edge has been priced out. Boot Room out.",
+        "graphic_type": "verdict_card",
+        "graphic_description": "A clean, final title card. The Boot Room logo is present. Large, bold text reads 'OUR MARKET: NO BET'. Smaller text below states 'Confidence: 0%'. The background is a neutral, analytical grey.",
+        "graphic_text_overlay": "NO BET"
+      }
+    ]
+  }
+}
