@@ -19,8 +19,20 @@
   --red:      #ef4444;
   --text:     #c8ccdd;
   --muted:    #4a4a7a;
+  --yellow:   #f0b429;
   --radius:   10px;
 }
+body[data-theme="medium"] {
+  --bg: #1c1c2e; --bg2: #252540; --bg3: #2a2a50;
+  --border: #3a3a6a; --text: #d0d4e8; --muted: #7070a0;
+}
+body[data-theme="light"] {
+  --bg: #f0f2ff; --bg2: #ffffff; --bg3: #e8eaff;
+  --border: #c8cadd; --text: #1a1a3a; --muted: #7070a0;
+}
+body[data-theme="light"] .stats-bar { background: #fff; }
+body[data-theme="light"] tbody tr:hover { background: rgba(91,158,247,0.08); }
+body[data-theme="light"] .modal { border-left-color: var(--border); }
 
 body {
   background: var(--bg);
@@ -397,7 +409,36 @@ footer strong { color: var(--text); }
   td, th { padding: 10px 12px; }
   .modal { width: 100vw; }
   .odds-grid { grid-template-columns: repeat(2, 1fr); }
+  .toolbar-sub { padding: 8px 16px; }
+  .filter-select, .filter-date { font-size: 12px; }
 }
+/* ── THEME TOGGLE ───────────────────────────────────────────────────────── */
+.theme-toggle { display:flex; gap:5px; }
+.theme-btn {
+  padding: 3px 9px; border-radius:10px; border:1px solid var(--border);
+  background:transparent; color:var(--muted); font-size:11px; cursor:pointer;
+  transition:all .15s; white-space:nowrap;
+}
+.theme-btn:hover { border-color:var(--gold); color:var(--gold); }
+.theme-btn.active { background:var(--gold); border-color:var(--gold); color:#000; font-weight:700; }
+/* ── SECOND TOOLBAR ROW ─────────────────────────────────────────────────── */
+.toolbar-sub {
+  display:flex; align-items:center; gap:12px;
+  padding:10px 24px; border-bottom:2px solid var(--border);
+  flex-wrap:wrap; background:var(--bg2);
+}
+.filter-label { font-size:11px;color:var(--muted);letter-spacing:1.5px;text-transform:uppercase;font-weight:700; }
+.filter-select, .filter-date {
+  padding:5px 10px; border-radius:6px; border:1px solid var(--border);
+  background:var(--bg3); color:var(--text); font-size:13px; outline:none; cursor:pointer;
+}
+.filter-select:focus, .filter-date:focus { border-color:var(--blue); }
+.filter-sep { color:var(--border); user-select:none; }
+.clear-btn {
+  padding:4px 12px; border-radius:6px; border:1px solid var(--border);
+  background:transparent; color:var(--muted); font-size:12px; cursor:pointer; transition:all .15s;
+}
+.clear-btn:hover { color:var(--red); border-color:var(--red); }
 </style>
 </head>
 <body>
@@ -411,8 +452,12 @@ footer strong { color: var(--text); }
     </div>
   </a>
   <div class="header-right">
-    <div>All predictions tracked with full transparency</div>
-    <div>YouTube: <a href="https://youtube.com/@AIBootRoom" target="_blank">@AIBootRoom</a></div>
+    <div>All predictions tracked with full transparency · <a href="https://youtube.com/@AIBootRoom" target="_blank">@AIBootRoom</a></div>
+    <div class="theme-toggle" style="margin-top:6px;justify-content:flex-end">
+      <button class="theme-btn active" data-theme="dark">🌙 Dark</button>
+      <button class="theme-btn" data-theme="medium">🌤 Medium</button>
+      <button class="theme-btn" data-theme="light">☀️ Light</button>
+    </div>
   </div>
 </header>
 
@@ -449,6 +494,27 @@ footer strong { color: var(--text); }
   <button class="filter-btn f-bets" data-filter="bets">🎯 Bets Only</button>
   <button class="filter-btn f-nb" data-filter="nobet">— No Bet</button>
   <input class="search-box" type="text" id="search" placeholder="Search team or league…">
+</div>
+<div class="toolbar-sub">
+  <span class="filter-label">League</span>
+  <select class="filter-select" id="league-select" style="max-width:220px">
+    <option value="">All Leagues</option>
+  </select>
+  <span class="filter-sep">│</span>
+  <span class="filter-label">Date</span>
+  <input class="filter-date" type="date" id="date-from" title="From date">
+  <span style="color:var(--muted);font-size:12px">to</span>
+  <input class="filter-date" type="date" id="date-to" title="To date">
+  <span class="filter-sep">│</span>
+  <span class="filter-label">Min Conf</span>
+  <select class="filter-select" id="conf-min">
+    <option value="0">Any</option>
+    <option value="55">55%+</option>
+    <option value="60">60%+</option>
+    <option value="65">65%+</option>
+    <option value="70">70%+</option>
+  </select>
+  <button class="clear-btn" id="clear-filters">✕ Clear</button>
 </div>
 
 <!-- Table -->
@@ -502,7 +568,11 @@ var STATS        = {};
 var activeFilter = 'all';
 var searchQuery  = '';
 var sortCol      = 'date';
-var sortDir      = -1;  // -1 = desc, 1 = asc
+var sortDir      = 1;   // 1 = newest first, -1 = oldest first
+var activeLeague = '';
+var dateFrom     = '';
+var dateTo       = '';
+var confMin      = 0;
 var currentPage  = 1;
 var PAGE_SIZE    = 50;
 
@@ -514,6 +584,7 @@ Promise.all([
   ALL_MATCHES = results[0];
   STATS       = results[1];
   renderStats();
+  populateLeagues();
   renderTable();
 }).catch(function(err) {
   document.getElementById('table-body').innerHTML =
@@ -534,18 +605,22 @@ function renderStats() {
 // ── Filtering & sorting ───────────────────────────────────────────────────────
 function getFiltered() {
   return ALL_MATCHES.filter(function(m) {
-    // Filter button
     if (activeFilter === 'win')     return ['WIN','HALF_WIN'].indexOf(m.settlement) !== -1;
     if (activeFilter === 'lose')    return ['LOSE','HALF_LOSE'].indexOf(m.settlement) !== -1;
     if (activeFilter === 'pending') return m.settlement === 'PENDING' && !m.is_nobet;
     if (activeFilter === 'bets')    return !m.is_nobet;
     if (activeFilter === 'nobet')   return m.is_nobet;
-    // 'all' → everything
     return true;
   }).filter(function(m) {
     if (!searchQuery) return true;
     var q = searchQuery.toLowerCase();
     return (m.home + ' ' + m.away + ' ' + m.league).toLowerCase().indexOf(q) !== -1;
+  }).filter(function(m) {
+    if (activeLeague && m.league !== activeLeague) return false;
+    if (dateFrom && m.date < dateFrom) return false;
+    if (dateTo   && m.date > dateTo)   return false;
+    if (confMin  && !m.is_nobet && (m.confidence || 0) < confMin) return false;
+    return true;
   });
 }
 
@@ -630,7 +705,7 @@ function updateSortHeaders() {
     var col = th.getAttribute('data-col');
     var arrow = th.querySelector('.sort-arrow');
     th.classList.toggle('sorted', col === sortCol);
-    if (arrow && col === sortCol) arrow.textContent = sortDir === -1 ? '↓' : '↑';
+    if (arrow && col === sortCol) arrow.textContent = sortDir === 1 ? '↓' : '↑';
   });
 }
 
@@ -661,6 +736,42 @@ document.getElementById('search').addEventListener('input', function(e) {
   currentPage = 1;
   renderTable();
 });
+document.getElementById('league-select').addEventListener('change', function(e) { activeLeague = e.target.value; currentPage = 1; renderTable(); });
+document.getElementById('date-from').addEventListener('change', function(e) { dateFrom = e.target.value; currentPage = 1; renderTable(); });
+document.getElementById('date-to').addEventListener('change', function(e) { dateTo = e.target.value; currentPage = 1; renderTable(); });
+document.getElementById('conf-min').addEventListener('change', function(e) { confMin = parseInt(e.target.value) || 0; currentPage = 1; renderTable(); });
+document.getElementById('clear-filters').addEventListener('click', function() {
+  activeLeague = ''; dateFrom = ''; dateTo = ''; confMin = 0; searchQuery = '';
+  document.getElementById('league-select').value = '';
+  document.getElementById('date-from').value = '';
+  document.getElementById('date-to').value = '';
+  document.getElementById('conf-min').value = '0';
+  document.getElementById('search').value = '';
+  currentPage = 1; renderTable();
+});
+document.querySelectorAll('.theme-btn').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    var t = btn.getAttribute('data-theme');
+    document.body.setAttribute('data-theme', t);
+    document.querySelectorAll('.theme-btn').forEach(function(b){ b.classList.remove('active'); });
+    btn.classList.add('active');
+    try { localStorage.setItem('abet-theme', t); } catch(e){}
+  });
+});
+(function() {
+  var saved = '';
+  try { saved = localStorage.getItem('abet-theme') || 'dark'; } catch(e){ saved = 'dark'; }
+  document.body.setAttribute('data-theme', saved);
+  var active = document.querySelector('.theme-btn[data-theme="' + saved + '"]');
+  if (active) { document.querySelectorAll('.theme-btn').forEach(function(b){ b.classList.remove('active'); }); active.classList.add('active'); }
+})();
+function populateLeagues() {
+  var leagues = {};
+  ALL_MATCHES.forEach(function(m) { if (m.league) leagues[m.league] = true; });
+  var sorted = Object.keys(leagues).sort();
+  var sel = document.getElementById('league-select');
+  sorted.forEach(function(l) { var o = document.createElement('option'); o.value = l; o.textContent = l; sel.appendChild(o); });
+}
 
 // ── Modal ─────────────────────────────────────────────────────────────────────
 var _currentKey = null;
