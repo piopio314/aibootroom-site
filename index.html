@@ -398,7 +398,43 @@ footer {
   line-height: 1.8;
 }
 footer strong { color: var(--text); }
+/* ── CONTENT WRAPPER ──────────────────────────────────────────────────────── */
+.content-wrap { max-width: 90%; margin: 0 auto; }
 
+/* ── INLINE DETAIL ROW ───────────────────────────────────────────────── */
+.detail-inner {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.44s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.detail-content {
+  padding: 28px 36px 36px;
+  background: var(--bg2);
+  border-top: 3px solid var(--blue);
+  border-bottom: 2px solid var(--border);
+}
+.detail-row td { padding: 0 !important; border-bottom: none !important; }
+tbody tr.row-open { background: rgba(91,158,247,0.07) !important; }
+tbody tr.row-open td { border-bottom: none; }
+.detail-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 16px;
+}
+.detail-match-title { font-size: 22px; font-weight: 900; color: #fff; line-height: 1.2; }
+.detail-match-sub { font-size: 13px; color: var(--muted); margin-top: 4px; }
+.detail-close {
+  flex-shrink: 0;
+  width: 34px; height: 34px;
+  border-radius: 50%; border: 1px solid var(--border);
+  background: transparent; color: var(--muted);
+  font-size: 18px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: all .15s;
+}
+.detail-close:hover { background: var(--bg3); color: #fff; }
 /* ── RESPONSIVE ─────────────────────────────────────────────────────────── */
 @media (max-width: 768px) {
   header { padding: 0 16px; }
@@ -407,7 +443,8 @@ footer strong { color: var(--text); }
   .toolbar { padding: 12px 16px; }
   .search-box { width: 100%; margin-left: 0; }
   td, th { padding: 10px 12px; }
-  .modal { width: 100vw; }
+  .content-wrap { max-width: 100%; }
+  .detail-content { padding: 16px; }
   .odds-grid { grid-template-columns: repeat(2, 1fr); }
   .toolbar-sub { padding: 8px 16px; }
   .filter-select, .filter-date { font-size: 12px; }
@@ -486,6 +523,7 @@ footer strong { color: var(--text); }
 </div>
 
 <!-- Filters + search -->
+<div class="content-wrap">
 <div class="toolbar">
   <button class="filter-btn active" data-filter="all">All</button>
   <button class="filter-btn f-win" data-filter="win">✅ Won</button>
@@ -538,22 +576,7 @@ footer strong { color: var(--text); }
   </table>
 </div>
 <div class="pagination" id="pagination"></div>
-
-<!-- Analysis modal (slide-in from right) -->
-<div class="overlay" id="overlay" onclick="closeModal(event)">
-  <div class="modal" id="modal">
-    <div class="modal-header">
-      <div>
-        <div class="modal-title" id="modal-title">Match Analysis</div>
-        <div class="modal-subtitle" id="modal-subtitle"></div>
-      </div>
-      <button class="modal-close" onclick="closeModalDirect()">✕</button>
-    </div>
-    <div class="modal-body" id="modal-body">
-      <div class="loading-spinner">Loading analysis…</div>
-    </div>
-  </div>
-</div>
+</div><!-- /content-wrap -->
 
 <footer>
   <strong>AI Boot Room</strong> — All predictions are for entertainment and educational purposes only.<br>
@@ -634,8 +657,7 @@ function getSorted(rows) {
 }
 
 // ── Table render ──────────────────────────────────────────────────────────────
-function renderTable() {
-  var rows    = getSorted(getFiltered());
+function renderTable() {  openKey = null; openDetailEl = null;  var rows    = getSorted(getFiltered());
   var total   = rows.length;
   var pages   = Math.max(1, Math.ceil(total / PAGE_SIZE));
   currentPage = Math.min(currentPage, pages);
@@ -659,7 +681,7 @@ function renderTable() {
     var score     = m.score && m.score !== '–' ? m.score : '–';
     var oddsDisp  = nobet || !m.odds ? '–' : m.odds.toFixed(2);
 
-    return '<tr class="' + (nobet ? 'no-bet' : '') + '" onclick="openAnalysis(\'' + escKey(m.key) + '\')">' +
+    return '<tr class="' + (nobet ? 'no-bet' : '') + '" onclick="toggleRow(\'' + escKey(m.key) + '\', this)">' +
       '<td class="td-date">' + fmtDate(m.date) + '</td>' +
       '<td class="td-match">' +
         '<div class="team-names">' + esc(m.home) + ' <span style="color:var(--muted)">vs</span> ' + esc(m.away) + '</div>' +
@@ -773,20 +795,50 @@ function populateLeagues() {
   sorted.forEach(function(l) { var o = document.createElement('option'); o.value = l; o.textContent = l; sel.appendChild(o); });
 }
 
-// ── Modal ─────────────────────────────────────────────────────────────────────
-var _currentKey = null;
-function openAnalysis(key) {
-  _currentKey = key;
-  var m = ALL_MATCHES.find(function(x){ return x.key === key; });
-  if (!m) return;
-  document.getElementById('modal-title').textContent    = m.home + ' vs ' + m.away;
-  document.getElementById('modal-subtitle').textContent = fmtDate(m.date) + ' · ' + m.league;
-  document.getElementById('overlay').classList.add('open');
-  document.body.style.overflow = 'hidden';
-  renderModal(m);
+// ── Inline detail row ───────────────────────────────────────────────────
+var openKey = null;
+var openDetailEl = null;
+
+function closeDetail() {
+  if (!openDetailEl) return;
+  var closing = openDetailEl;
+  var inner   = closing.querySelector('.detail-inner');
+  inner.style.maxHeight = inner.scrollHeight + 'px';
+  inner.offsetHeight;
+  requestAnimationFrame(function() { inner.style.maxHeight = '0'; });
+  setTimeout(function() { if (closing.parentNode) closing.parentNode.removeChild(closing); }, 420);
+  document.querySelectorAll('tr.row-open').forEach(function(r) { r.classList.remove('row-open'); });
+  openKey = null; openDetailEl = null;
 }
 
-function renderModal(m) {
+function toggleRow(key, trEl) {
+  var isSame = openKey === key;
+  closeDetail();
+  if (isSame) return;
+  openKey = key;
+  var m = ALL_MATCHES.find(function(x) { return x.key === key; });
+  if (!m) { openKey = null; return; }
+  trEl.classList.add('row-open');
+  var detailTr = document.createElement('tr');
+  detailTr.className = 'detail-row';
+  var td = document.createElement('td');
+  td.colSpan = 8; td.style.padding = '0';
+  var inner = document.createElement('div');
+  inner.className = 'detail-inner';
+  inner.innerHTML = '<div class="detail-content">' + buildDetailHTML(m) + '</div>';
+  td.appendChild(inner); detailTr.appendChild(td);
+  trEl.parentNode.insertBefore(detailTr, trEl.nextSibling);
+  openDetailEl = detailTr;
+  inner.style.maxHeight = '0';
+  requestAnimationFrame(function() {
+    requestAnimationFrame(function() {
+      inner.style.maxHeight = inner.scrollHeight + 'px';
+      setTimeout(function() { trEl.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 200);
+    });
+  });
+}
+
+function buildDetailHTML(m) {
   var nobet   = m.is_nobet;
   var slColor = m.settlement_color || '#6b7280';
   var conf    = m.confidence || 0;
@@ -795,6 +847,13 @@ function renderModal(m) {
   var edgeStr = (edgePct >= 0 ? '+' : '') + edgePct + '%';
   var ph = m.score_home || 0, pd = m.score_draw || 0, pa = m.score_away || 0;
   var html = '';
+
+  // Header
+  html += '<div class="detail-header">';
+  html += '<div><div class="detail-match-title">' + esc(m.home) + ' <span style="color:var(--muted);font-weight:400">vs</span> ' + esc(m.away) + '</div>';
+  html += '<div class="detail-match-sub">' + fmtDate(m.date) + ' · ' + esc(m.league) + '</div></div>';
+  html += '<button class="detail-close" onclick="closeDetail()" title="Close">✕</button>';
+  html += '</div>';
 
   // Verdict strip
   html += '<div class="verdict-strip"><div>';
@@ -869,21 +928,14 @@ function renderModal(m) {
     html += '<div class="analysis-section"><div class="section-title">Reasoning</div><div class="analysis-text">' + esc(m.reasoning) + '</div></div>';
   }
 
-  document.getElementById('modal-body').innerHTML = html;
+  return html;
 }
 
 function oddsCard(lbl, val, col) {
   return '<div class="odds-card"><div class="odds-card-lbl">' + lbl + '</div><div class="odds-card-val" style="color:' + col + '">' + val + '</div></div>';
 }
 
-function closeModal(e) {
-  if (e.target === document.getElementById('overlay')) closeModalDirect();
-}
-function closeModalDirect() {
-  document.getElementById('overlay').classList.remove('open');
-  document.body.style.overflow = '';
-}
-document.addEventListener('keydown', function(e){ if (e.key === 'Escape') closeModalDirect(); });
+document.addEventListener('keydown', function(e){ if (e.key === 'Escape') closeDetail(); });
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 function esc(s) {
