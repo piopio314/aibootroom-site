@@ -40,7 +40,10 @@ body {
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
   font-size: 15px;
   line-height: 1.5;
-  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ── TOP HEADER ─────────────────────────────────────────────────────────── */
@@ -75,33 +78,35 @@ header {
   gap: 0;
   border-bottom: 1px solid var(--border);
   background: #030314;
+  flex-shrink: 0;
 }
 .stat-card {
   flex: 1;
-  padding: 18px 24px;
+  padding: 10px 16px;
   border-right: 1px solid var(--border);
   text-align: center;
 }
 .stat-card:last-child { border-right: none; }
 .stat-val {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 900;
   line-height: 1;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 .stat-lbl { font-size: 11px; color: var(--muted); letter-spacing: 1.5px; text-transform: uppercase; }
 
 /* ── FILTERS ────────────────────────────────────────────────────────────── */
+.filters-zone { flex-shrink: 0; }
 .toolbar {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 14px 24px;
+  gap: 8px;
+  padding: 9px 20px;
   border-bottom: 1px solid var(--border);
   flex-wrap: wrap;
 }
 .filter-btn {
-  padding: 6px 16px;
+  padding: 4px 12px;
   border-radius: 20px;
   border: 1px solid var(--border);
   background: transparent;
@@ -119,13 +124,13 @@ header {
 .filter-btn.f-bets.active { background: var(--yellow); border-color: var(--yellow); color: #000; }
 .search-box {
   margin-left: auto;
-  padding: 6px 14px;
+  padding: 5px 12px;
   background: var(--bg3);
   border: 1px solid var(--border);
   border-radius: 20px;
   color: var(--text);
   font-size: 13px;
-  width: 220px;
+  width: 200px;
   outline: none;
 }
 .search-box:focus { border-color: var(--blue); }
@@ -399,7 +404,11 @@ footer {
 }
 footer strong { color: var(--text); }
 /* ── CONTENT WRAPPER ──────────────────────────────────────────────────────── */
-.content-wrap { max-width: 90%; margin: 0 auto; }
+.content-wrap { max-width: 1600px; margin: 0 auto; width: 100%; padding: 0 20px; }
+/* ── SCROLL AREA ──────────────────────────────────────────────────────────── */
+.scroll-area { flex: 1; overflow-y: auto; min-height: 0; }
+/* ── LEAGUE COLUMN ──────────────────────────────────────────────────────────── */
+.td-league { font-size: 12px; color: var(--muted); white-space: nowrap; max-width: 140px; overflow: hidden; text-overflow: ellipsis; }
 
 /* ── INLINE DETAIL ROW ───────────────────────────────────────────────── */
 .detail-inner {
@@ -460,8 +469,8 @@ tbody tr.row-open td { border-bottom: none; }
 .theme-btn.active { background:var(--gold); border-color:var(--gold); color:#000; font-weight:700; }
 /* ── SECOND TOOLBAR ROW ─────────────────────────────────────────────────── */
 .toolbar-sub {
-  display:flex; align-items:center; gap:12px;
-  padding:10px 24px; border-bottom:2px solid var(--border);
+  display:flex; align-items:center; gap:10px;
+  padding:8px 20px; border-bottom:2px solid var(--border);
   flex-wrap:wrap; background:var(--bg2);
 }
 .filter-label { font-size:11px;color:var(--muted);letter-spacing:1.5px;text-transform:uppercase;font-weight:700; }
@@ -523,7 +532,7 @@ tbody tr.row-open td { border-bottom: none; }
 </div>
 
 <!-- Filters + search -->
-<div class="content-wrap">
+<div class="filters-zone">
 <div class="toolbar">
   <button class="filter-btn active" data-filter="all">All</button>
   <button class="filter-btn f-win" data-filter="win">✅ Won</button>
@@ -554,7 +563,10 @@ tbody tr.row-open td { border-bottom: none; }
   </select>
   <button class="clear-btn" id="clear-filters">✕ Clear</button>
 </div>
+</div><!-- /filters-zone -->
 
+<div class="scroll-area">
+<div class="content-wrap">
 <!-- Table -->
 <div class="table-wrap">
   <table id="main-table">
@@ -562,6 +574,7 @@ tbody tr.row-open td { border-bottom: none; }
       <tr>
         <th data-col="date">Date <span class="sort-arrow">↕</span></th>
         <th data-col="match">Match</th>
+        <th data-col="league">League <span class="sort-arrow">↕</span></th>
         <th data-col="market">Prediction</th>
         <th data-col="odds">Odds <span class="sort-arrow">↕</span></th>
         <th data-col="confidence">Conf <span class="sort-arrow">↕</span></th>
@@ -571,20 +584,21 @@ tbody tr.row-open td { border-bottom: none; }
       </tr>
     </thead>
     <tbody id="table-body">
-      <tr><td colspan="8"><div class="loading-spinner">Loading predictions…</div></td></tr>
+      <tr><td colspan="9"><div class="loading-spinner">Loading predictions…</div></td></tr>
     </tbody>
   </table>
 </div>
 <div class="pagination" id="pagination"></div>
 </div><!-- /content-wrap -->
 
-<div id="copy-toast" style="position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(12px);background:rgba(34,197,94,0.92);color:#fff;font-size:13px;font-weight:600;padding:9px 20px;border-radius:8px;pointer-events:none;opacity:0;transition:opacity 0.3s,transform 0.3s;z-index:9999;letter-spacing:0.5px;">🔗 Link copied!</div>
-
 <footer>
   <strong>AI Boot Room</strong> — All predictions are for entertainment and educational purposes only.<br>
   Past performance does not guarantee future results. Please gamble responsibly.<br>
   Data updated after each match analysis. All results tracked with full transparency.
 </footer>
+</div><!-- /scroll-area -->
+
+<div id="copy-toast" style="position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(12px);background:rgba(34,197,94,0.92);color:#fff;font-size:13px;font-weight:600;padding:9px 20px;border-radius:8px;pointer-events:none;opacity:0;transition:opacity 0.3s,transform 0.3s;z-index:9999;letter-spacing:0.5px;">🔗 Link copied!</div>
 
 <script>
 // ── Data ────────────────────────────────────────────────────────────────────
@@ -615,7 +629,7 @@ Promise.all([
   handleHashChange();
 }).catch(function(err) {
   document.getElementById('table-body').innerHTML =
-    '<tr><td colspan="8"><div class="loading-spinner" style="color:#ef4444">Failed to load data. ' + err.message + '</div></td></tr>';
+    '<tr><td colspan="9"><div class="loading-spinner" style="color:#ef4444">Failed to load data. ' + err.message + '</div></td></tr>';
 });
 // ── Stats bar ────────────────────────────────────────────────────────────────
 function renderStats() {
@@ -669,7 +683,7 @@ function renderTable() {  openKey = null; openDetailEl = null;  var rows    = ge
 
   var tbody = document.getElementById('table-body');
   if (!slice.length) {
-    tbody.innerHTML = '<tr><td colspan="8"><div class="empty-state"><div class="empty-icon">🔍</div><div class="empty-text">No matches found.</div></div></td></tr>';
+    tbody.innerHTML = '<tr><td colspan="9"><div class="empty-state"><div class="empty-icon">🔍</div><div class="empty-text">No matches found.</div></div></td></tr>';
     document.getElementById('pagination').innerHTML = '';
     return;
   }
@@ -687,10 +701,8 @@ function renderTable() {  openKey = null; openDetailEl = null;  var rows    = ge
 
     return '<tr class="' + (nobet ? 'no-bet' : '') + '" onclick="toggleRow(\'' + escKey(m.key) + '\', this)">' +
       '<td class="td-date">' + fmtDate(m.date) + '</td>' +
-      '<td class="td-match">' +
-        '<div class="team-names">' + esc(m.home) + ' <span style="color:var(--muted)">vs</span> ' + esc(m.away) + '</div>' +
-        '<div class="match-league">' + esc(m.league) + '</div>' +
-      '</td>' +
+      '<td class="td-match"><div class="team-names">' + esc(m.home) + ' <span style="color:var(--muted)">vs</span> ' + esc(m.away) + '</div></td>' +
+      '<td class="td-league">' + esc(m.league) + '</td>' +
       '<td class="' + mktCls + '">' + esc(m.market) + '</td>' +
       '<td class="td-odds">' + oddsDisp + '</td>' +
       '<td>' +
@@ -828,7 +840,7 @@ function toggleRow(key, trEl) {
   var detailTr = document.createElement('tr');
   detailTr.className = 'detail-row';
   var td = document.createElement('td');
-  td.colSpan = 8; td.style.padding = '0';
+  td.colSpan = 9; td.style.padding = '0';
   var inner = document.createElement('div');
   inner.className = 'detail-inner';
   inner.innerHTML = '<div class="detail-content">' + buildDetailHTML(m) + '</div>';
@@ -868,7 +880,7 @@ function buildDetailHTML(m) {
 
   // Verdict strip
   html += '<div class="verdict-strip"><div>';
-  html += '<div style="font-size:11px;color:var(--muted);letter-spacing:2px;text-transform:uppercase;margin-bottom:6px">BOOT ROOM VERDICT</div>';
+  html += '<div style="font-size:11px;color:var(--muted);letter-spacing:2px;text-transform:uppercase;margin-bottom:6px">AI BOOT ROOM VERDICT</div>';
   html += '<div class="verdict-market ' + (nobet ? 'verdict-nobet' : '') + '">' + esc(m.market) + '</div>';
   if (!nobet) html += '<div class="verdict-meta">Odds: ' + (odds || '–') + ' &nbsp;·&nbsp; Confidence: ' + conf + '% &nbsp;·&nbsp; Edge: ' + edgeStr + '</div>';
   html += '</div>';
@@ -920,7 +932,7 @@ function buildDetailHTML(m) {
     ['script_history',  'Head-to-Head History'],
     ['script_analysis', 'Combined Analysis'],
     ['script_value',    'Betting Value Analysis'],
-    ['script_roundup',  'Boot Room Summary'],
+    ['script_roundup',  'AI Boot Room Summary'],
   ];
   var hasScript = false;
   sections.forEach(function(s) {
