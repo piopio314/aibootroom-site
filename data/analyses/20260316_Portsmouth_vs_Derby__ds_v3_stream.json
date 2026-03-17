@@ -1,0 +1,153 @@
+{
+  "agents": {
+    "auditor": "",
+    "bookmaker": "",
+    "chairman": "",
+    "devil": "",
+    "historyk": "",
+    "scout_away": "",
+    "scout_home": "",
+    "scriptwriter": "",
+    "tactician": ""
+  },
+  "display_texts": {
+    "api_predictions": "API-Football prediction: Derby | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Derby",
+    "away_form": "15W-9D-13L in 37 matches, last 5: LLDDW",
+    "away_injuries": "D. Batth (Missing Fixture - Muscle Injury), C. Elder (Missing Fixture - Inactive), M. Johnston (Missing Fixture - Hamstring Injury), S. Langas (Missing Fixture - Hamstring Injury), L. Salvesen (Missing Fixture - Muscle Injury)",
+    "away_position": "#8 (54 pts, +6 GD)",
+    "away_stats": "54 goals in 37 matches (avg 1.5/match), 8 clean sheets",
+    "h2h_history": "Portsmouth 0-0 Derby (16 Mar 2026)\nDerby 1-1 Portsmouth (20 Dec 2025)\nPortsmouth 2-2 Derby (12 Apr 2025)\nDerby 4-0 Portsmouth (13 Dec 2024)\nPortsmouth 2-2 Derby (02 Apr 2024)",
+    "home_form": "10W-10D-16L in 36 matches, last 5: WLDWD",
+    "home_injuries": "A. Alese (Missing Fixture - Muscle Injury), K. Anderson (Missing Fixture - Hamstring Injury), F. Bianchini (Missing Fixture - Knee Injury), A. Dozzell (Missing Fixture - Ankle Injury), M. Kirk (Missing Fixture - Inactive)",
+    "home_position": "#20 (40 pts, -11 GD)",
+    "home_stats": "36 goals in 36 matches (avg 1.0/match), 7 clean sheets",
+    "osint_signals": ""
+  },
+  "folder": "20260316_Portsmouth_vs_Derby__ds_v3_stream",
+  "match": {
+    "away_id": 69,
+    "away_team": "Derby",
+    "date": "2026-03-16",
+    "home_id": 1355,
+    "home_team": "Portsmouth",
+    "league": "Championship"
+  },
+  "prediction": {
+    "_analyzer": "tribunal_v2",
+    "_direction": "over_goals",
+    "_direction_conviction": "strong",
+    "_direction_ev": 0.4257,
+    "_direction_picked": true,
+    "_direction_prob": 53.0,
+    "_model_key": "ds_v3_stream",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "alternative_markets": [
+      {
+        "confidence": 58,
+        "market": "Over 2.5 Goals",
+        "prediction": "Over 2.5"
+      }
+    ],
+    "confidence": 57,
+    "confidence_gate": "APPROVE",
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "edge_assessment": {
+      "edge_grade": "STRONG_VALUE",
+      "edge_source": "EdgeCalculator our_prob vs market odds",
+      "selected_market_edge": 15.8,
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "edge": 18.3,
+          "market": "AH Away -0.75"
+        },
+        {
+          "edge": 15.8,
+          "market": "Over 2.75 Goals"
+        },
+        {
+          "edge": 14.1,
+          "market": "Over 2.25 Goals"
+        }
+      ]
+    },
+    "key_factors": [
+      "Strong 79% profile convergence on Over 2.5 Goals from both teams' recent form",
+      "EdgeCalculator shows a 15.8% mathematical edge on Over 2.75 Goals",
+      "Tactical matchup highlights specific defensive vulnerabilities in key periods for both sides",
+      "Historical tendency for BTTS (70% of last 10 H2H) supports goal involvement"
+    ],
+    "max_edge": 18.3,
+    "odds_target": 2.69,
+    "opportunity_score": 6.48,
+    "prediction": "Over 2.75 Goals",
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING matchup. The cascading profiles show strong convergence (79%) on Over 2.5 Goals, with both teams averaging high goal totals in their recent form (Portsmouth 2.6, Derby 3.2 goals per match). The Tactician characterises the match as 'tight but goal-involved', predicting slightly more goals than average. This is not a defensive battle; both sides show vulnerabilities that can be exploited. (2) DIRECTION EVIDENCE — The EdgeCalculator provides a 15.8% edge on Over 2.75 Goals, the second-highest edge available and the strongest without a direction conflict. The Auditor's adjusted probabilities set Over 2.5 at 58%, well above the league average. The tactical matchup highlights specific vulnerabilities: Portsmouth's second-half defensive frailty (46-60 minutes) aligns perfectly with Derby's scoring peak in that same window. Both teams' injury-hit defences face opponents with reliable attacking output. (3) AGENTS CONSENSUS — The directional signal is strong. The cascading profiles (79% convergence) and EdgeCalculator (15.8% edge) provide the primary mathematical evidence. The Tactician's 'goals-involved' prediction and the Sceptic's note of strong market convergence on high-scoring markets provide qualitative support. The Archivist notes a 50% historical Over 2.5 rate with frequent BTTS. The only dissent comes from the Quant's lack of goals market pricing, but this is a data gap, not a contradictory signal. (4) RISKS — The primary risk is the rotation cap, which limits confidence to 55% due to uncertain team selection from both sides' lengthy injury lists. Should either team field an unexpectedly defensive lineup, the goal flow could be stifled. Portsmouth's chronic lack of goals at home (failed to score in 6 of 18 matches) remains a concern, though Derby's defensive injuries and late-game collapse tendencies offer a counterbalance.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "Rotation risk cap: confidence cannot exceed 55% due to uncertain team selection",
+      "Portsmouth's poor home scoring record could limit goal output if they fail to convert"
+    ],
+    "score_away": 27.0,
+    "score_draw": 28.0,
+    "score_home": 45.0,
+    "selected_market": "Over 2.75 Goals",
+    "tier": "B",
+    "tier_color": "#3b82f6",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "Strong consensus for an over_goals direction. The cascading profiles, EdgeCalculator, Tactician, and Sceptic all point toward a higher-scoring match. The Archivist provides historical context supporting goal involvement. The only agent not aligned is the Quant, who lacked goals market data for analysis.",
+    "tribunal_consensus_level": "strong",
+    "value_bets": []
+  },
+  "script": {
+    "chapter_analysis": "The tactical matchup reveals why this draw-heavy fixture is primed for goals. Both teams deploy identical 4-2-3-1 formations, creating a congested midfield battle. But the devil is in the timing. Portsmouth concede most frequently between the 46th and 60th minutes — they have let in nine goals in that window. Derby, conversely, score heavily in that exact same period, with eleven goals. This is a perfect tactical storm. Furthermore, Portsmouth's attack comes alive in the second half, while Derby's defence collapses late. The Sceptic challenged the Away Scout's severe downgrade of Derby's win probability, arguing it mischaracterised Portsmouth's strength as a 20th-placed side. This correction reinforces that Derby's attack remains credible. The cascading form profiles from both teams show a seventy-nine percent convergence on Over 2.5 Goals, the strongest directional signal in the data. Injuries to both defences only amplify the vulnerabilities. This is not a match set for a cagey nil-nil; it is a tight contest where defensive errors in specific windows will be punished.",
+    "chapter_away": "Derby arrive on the south coast with their away form in a tailspin. Three consecutive defeats on the road have undermined their respectable seasonal record. They sit eighth, their play-off ambitions fading, which reduces the pressure but also the urgency. Like their hosts, they are missing eight players, with defensive options like D. Batth and C. Elder absent, testing their resilience. Their strength lies in reliable attacking output — they have failed to score in only three of eighteen away matches. However, a critical weakness has emerged: they concede 13 goals in the final fifteen minutes of matches. This late-game collapse tendency, combined with their current slump, creates a volatile mix. They are not a team to be trusted defensively, but they always carry a threat.",
+    "chapter_history": "History screams stalemate. This fixture is defined by the draw — sixty percent of the last ten meetings have finished level. Portsmouth are without a win against Derby in their last eight attempts, a run stretching back to 2015. Yet, the pattern is not one of defensive boredom. Both teams have scored in seventy percent of those encounters, and half have produced over two and a half goals. The last decisive result was a 4-0 Derby win in December 2024, an outlier in a sequence of tight contests. The narrative of draws meets a new reality tonight: a Portsmouth side fighting for survival against a Derby team with diminished stakes. The historical pattern is under unprecedented pressure.",
+    "chapter_home": "Portsmouth are in serious trouble. They sit 20th in the Championship, with just one win in their last five matches and a dismal run of three straight home defeats. The squad is ravaged by ten injuries, severely limiting tactical options and placing immense strain on the available players. Their attack is in chronic decline — they have failed to score in six of their eighteen home games this season. Yet, there is a flicker of hope. They show defensive solidity at home, conceding just over one goal per match, and a remarkable 24 of their 36 goals this season have come after halftime. Managerial pressure is intense, with relegation looming. The question is whether a team that struggles to score can muster the fight needed to survive against a vulnerable opponent.",
+    "chapter_value": "Our market: Over 2.75 Goals. The EdgeCalculator identifies a fifteen-point-eight percent mathematical edge on this line, the strongest available without statistical conflict. The Auditor's adjusted probabilities set the chance of Over 2.5 Goals at fifty-eight percent, well above the league average. The bookmakers are pricing this at 2.69, reflecting the historical draw narrative, but they have not fully accounted for the converging tactical vulnerabilities and the sheer weight of attacking data from both teams' recent profiles. This is where the value lies.",
+    "ending": "The verdict is clear. Forget the history of draws. Two depleted defences, aligned attacking vulnerabilities, and a survival imperative for Portsmouth create the perfect conditions for goals. We project a match that exceeds the bookmaker's expectations. Our market: Over 2.75 Goals at 2.69, with fifty-seven percent confidence. The stalemate pattern ends here. If you want more data-driven breakdowns that challenge conventional wisdom, make sure to subscribe to the AI Boot Room. Turn on notifications so you never miss a verdict. AI Boot Room out.",
+    "hook": "What happens when a fixture defined by stalemate meets two teams with nothing left to lose? Portsmouth versus Derby — six of the last ten meetings have ended level. But tonight, history is about to be rewritten. Two injury-ravaged squads, a desperate survival fight, and a tactical mismatch that points to one explosive outcome. This is not another draw. This is a breakdown waiting to happen.",
+    "roundup_summary": "Portsmouth versus Derby. A Championship clash with contrasting motivations. The hosts sit 20th with 40 points, desperate to escape the relegation zone, but their form is declining with just one win in their last five. Derby are 8th with 54 points, their play-off hopes faint, and arrive having lost their last three away matches. Both squads are severely depleted: Portsmouth have ten players injured, Derby eight.\n\nThe head-to-head history is dominated by draws — six of the last ten meetings have finished level. Both teams have scored in seventy percent of those encounters, with an average of 2.4 goals per match. This season, Portsmouth average 1.0 goals scored and 1.06 conceded at home. Derby average 1.39 scored and 1.33 conceded on the road, indicating defensive vulnerabilities on both sides.\n\nThe AI Boot Room analysis identifies a fifteen-point-eight percent edge on Over 2.75 Goals. The Poisson-derived probability for this outcome is fifty-three percent, versus a market-implied forty percent, creating the value gap. The primary sceptical concern was the Away Scout's flawed downgrade of Derby's win probability, which was corrected as it misrepresented Portsmouth's strength as a 20th-placed side. This correction supports Derby's attacking credibility. The key mispricing by bookmakers is their over-reliance on the historical draw narrative. They have not fully priced in the tactical convergence: Portsmouth's second-half defensive frailty (46-60 minutes) aligns perfectly with Derby's scoring peak in that window. With both teams' injury-hit defences and a seventy-nine percent form profile convergence on Over 2.5 Goals, the market odds at 2.69 present clear value.\n\nThe AI Boot Room market is Over 2.75 Goals. To win, the match must see three or more total goals. At odds of 2.69, this carries a fifty-seven percent confidence level. AI Boot Room market: Over 2.75 Goals. Confidence: 57%.",
+    "title": "Portsmouth vs Derby: Why This Draw-Fest Is Set To Explode"
+  },
+  "settlement": {
+    "market": "Over 2.75 Goals",
+    "pnl": -1.0,
+    "result": "0:1",
+    "settlement": "LOSE",
+    "verified_at": "2026-03-16 23:35"
+  },
+  "verdict": {
+    "confidence": 57,
+    "key_factors": [
+      "Strong 79% profile convergence on Over 2.5 Goals from both teams' recent form",
+      "EdgeCalculator shows a 15.8% mathematical edge on Over 2.75 Goals",
+      "Tactical matchup highlights specific defensive vulnerabilities in key periods for both sides",
+      "Historical tendency for BTTS (70% of last 10 H2H) supports goal involvement"
+    ],
+    "odds_target": 2.69,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING matchup. The cascading profiles show strong convergence (79%) on Over 2.5 Goals, with both teams averaging high goal totals in their recent form (Portsmouth 2.6, Derby 3.2 goals per match). The Tactician characterises the match as 'tight but goal-involved', predicting slightly more goals than average. This is not a defensive battle; both sides show vulnerabilities that can be exploited. (2) DIRECTION EVIDENCE — The EdgeCalculator provides a 15.8% edge on Over 2.75 Goals, the second-highest edge available and the strongest without a direction conflict. The Auditor's adjusted probabilities set Over 2.5 at 58%, well above the league average. The tactical matchup highlights specific vulnerabilities: Portsmouth's second-half defensive frailty (46-60 minutes) aligns perfectly with Derby's scoring peak in that same window. Both teams' injury-hit defences face opponents with reliable attacking output. (3) AGENTS CONSENSUS — The directional signal is strong. The cascading profiles (79% convergence) and EdgeCalculator (15.8% edge) provide the primary mathematical evidence. The Tactician's 'goals-involved' prediction and the Sceptic's note of strong market convergence on high-scoring markets provide qualitative support. The Archivist notes a 50% historical Over 2.5 rate with frequent BTTS. The only dissent comes from the Quant's lack of goals market pricing, but this is a data gap, not a contradictory signal. (4) RISKS — The primary risk is the rotation cap, which limits confidence to 55% due to uncertain team selection from both sides' lengthy injury lists. Should either team field an unexpectedly defensive lineup, the goal flow could be stifled. Portsmouth's chronic lack of goals at home (failed to score in 6 of 18 matches) remains a concern, though Derby's defensive injuries and late-game collapse tendencies offer a counterbalance.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "Rotation risk cap: confidence cannot exceed 55% due to uncertain team selection",
+      "Portsmouth's poor home scoring record could limit goal output if they fail to convert"
+    ],
+    "score_away": 27.0,
+    "score_draw": 28.0,
+    "score_home": 45.0,
+    "selected_market": "Over 2.75 Goals",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "Strong consensus for an over_goals direction. The cascading profiles, EdgeCalculator, Tactician, and Sceptic all point toward a higher-scoring match. The Archivist provides historical context supporting goal involvement. The only agent not aligned is the Quant, who lacked goals market data for analysis.",
+    "tribunal_consensus_level": "strong"
+  }
+}

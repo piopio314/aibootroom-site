@@ -1,0 +1,155 @@
+{
+  "agents": {
+    "auditor": "",
+    "bookmaker": "",
+    "chairman": "",
+    "devil": "",
+    "historyk": "",
+    "scout_away": "",
+    "scout_home": "",
+    "scriptwriter": "",
+    "tactician": ""
+  },
+  "display_texts": {
+    "api_predictions": "API-Football prediction: Arka Gdynia | Probabilities: 35%-35%-30% | Recommendation: Double chance : Arka Gdynia or draw",
+    "away_form": "8W-3D-13L in 24 matches, last 5: WLWDL",
+    "away_injuries": "No significant injuries",
+    "away_position": "#17 (27 pts, -3 GD)",
+    "away_stats": "31 goals in 24 matches (avg 1.3/match), 6 clean sheets",
+    "h2h_history": "Arka Gdynia 0-0 Widzew Łódź (15 Mar 2026)\nWidzew Łódź 2-0 Arka Gdynia (14 Sep 2025)\nWidzew Łódź 2-5 Arka Gdynia (25 Feb 2022)\nArka Gdynia 3-1 Widzew Łódź (18 Aug 2021)\nArka Gdynia 0-0 Widzew Łódź (23 May 2021)",
+    "home_form": "8W-5D-11L in 24 matches, last 5: LDDWL",
+    "home_injuries": "No significant injuries",
+    "home_position": "#16 (29 pts, -16 GD)",
+    "home_stats": "25 goals in 24 matches (avg 1.0/match), 5 clean sheets",
+    "osint_signals": ""
+  },
+  "folder": "20260315_Arka_Gdynia_vs_Widzew_Łódź__ds_v3_stream",
+  "match": {
+    "away_id": 6962,
+    "away_team": "Widzew Łódź",
+    "date": "2026-03-15",
+    "home_id": 344,
+    "home_team": "Arka Gdynia",
+    "league": "Ekstraklasa"
+  },
+  "prediction": {
+    "_analyzer": "tribunal_v2",
+    "_direction": "home_value",
+    "_direction_conviction": "strong",
+    "_direction_ev": 0.2931,
+    "_direction_picked": true,
+    "_direction_prob": 67.0,
+    "_model_key": "ds_v3_stream",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "alternative_markets": [
+      {
+        "confidence": 58,
+        "market": "Under 2.25 Goals",
+        "prediction": "Under 2.25"
+      }
+    ],
+    "confidence": 67,
+    "confidence_gate": "APPROVE",
+    "direction": "home_value",
+    "direction_conviction": "strong",
+    "edge_assessment": {
+      "edge_grade": "STRONG_VALUE",
+      "edge_source": "EdgeCalculator our_prob (85.0%) minus market implied probability (51.8%)",
+      "selected_market_edge": 33.2,
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "edge": 33.2,
+          "market": "AH Home 0.25"
+        },
+        {
+          "edge": 8.7,
+          "market": "AH Away -1.25"
+        },
+        {
+          "edge": 8.1,
+          "market": "Under 1.75 Goals"
+        }
+      ]
+    },
+    "key_factors": [
+      "Arka Gdynia's formidable home record of 7 wins, 4 draws, and only 1 loss from 12 matches.",
+      "Widzew Łódź's chronic away form, with 9 losses from 12 road trips this season.",
+      "Extreme mathematical value identified on Arka Asian Handicap lines, with a 33.2% edge on AH Home 0.25.",
+      "Tactical analysis favours Arka's 3-4-3 system to exploit the width against Widzew's narrow 4-4-2."
+    ],
+    "max_edge": 33.2,
+    "odds_target": 1.93,
+    "opportunity_score": 6.62,
+    "prediction": "AH Home 0.25",
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC matchup. Arka Gdynia possess a formidable home record (7W-4D-1L), while Widzew Łódź have lost nine of twelve away matches. The cascading profiles show a stark divergence: Arka's home games feature 100% Over 2.5 rates, whereas Widzew's away matches show 0% Over 2.5 rates. This is not a volatile or even contest; it is structurally one-sided in favour of the home side. (2) DIRECTION EVIDENCE — The direction is home_value. The Quant's Poisson model identifies extreme value across multiple Asian Handicap lines favouring Arka, with gaps up to 28.2 percentage points at the +1.25 line. The EdgeCalculator confirms the strongest mathematical edge (33.2%) resides on AH Home 0.25. The Tactician's structural analysis awards the tactical edge to the home side, citing Arka's 3-4-3 width exploiting Widzew's narrow 4-4-2. The market's implied probability for Arka (51.8%) is a significant mispricing against their home strength. (3) AGENTS CONSENSUS — Strong consensus exists for home value. The Home Scout highlights Arka's exceptional home record. The Away Scout confirms Widzew's chronic away struggles. The Quant's mathematical model and the EdgeCalculator both flag extreme value on Arka handicaps. The Tactician's tactical edge is HOME. The Auditor approves the directional analysis. The Sceptic, while issuing a SERIOUS challenge on Arka's form characterisation, does not veto the bet and confirms the core directional signal is solid. The only dissent is the Sceptic's note on a tactical clash regarding goal expectations, but this pertains to the goals market, not the result direction. (4) RISKS — The primary risk is the small sample size (3 matches) for Arka's AH cover rates at deeper handicaps, though the 0.25 line is well-supported by full-season data. Widzew's recent morale-boosting win could translate into rare away resilience. Unconfirmed team news and reported internal discord at Arka could undermine their performance despite the strong venue-based data.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "Small sample size for venue-specific Asian Handicap cover rates at deeper lines.",
+      "Potential for Widzew's momentum from a recent big win to override their poor away trend.",
+      "Unconfirmed starting XIs and reported internal player discord at Arka Gdynia."
+    ],
+    "score_away": 27.0,
+    "score_draw": 28.0,
+    "score_home": 45.0,
+    "selected_market": "AH Home 0.25",
+    "tier": "B",
+    "tier_color": "#3b82f6",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "The Home Scout, Away Scout, Quant, Tactician, and Auditor are all aligned on the core thesis of Arka Gdynia's home strength and value against Widzew's away fragility. The Sceptic agrees the directional signal is solid but issued a serious challenge regarding the characterisation of Arka's attacking form, which does not contradict the result-based value play.",
+    "tribunal_consensus_level": "strong",
+    "value_bets": []
+  },
+  "script": {
+    "chapter_analysis": "The core of this analysis reveals a staggering asymmetry. Arka Gdynia's home games have a one hundred percent Over two-point-five goals rate this season — they are consistently involved in high-scoring, open contests. Widzew Łódź's away matches show a zero percent Over two-point-five rate — they are consistently involved in low-scoring, tight affairs. This is a fundamental tactical clash the market has not resolved. The Tactician's breakdown awards the edge to Arka's 3-4-3, whose wing-backs can exploit the width against Widzew's narrow 4-4-2. The Quant's Poisson model identifies extreme value across multiple Asian Handicap lines favouring Arka, with probability gaps as large as twenty-eight-point-two percentage points. The Sceptic issued a serious challenge, arguing the Home Scout mischaracterised Arka's form as merely 'stable' when their attacking trend is actually increasing. Yet, the Sceptic confirmed the core directional signal — home strength versus away fragility — remains solid. The Auditor validated the mathematical edge, noting the strongest value sits on a specific handicap line. All analytical roads lead to one conclusion: the market's implied probability for Arka, at just fifty-one-point-eight percent, is a significant mispricing.",
+    "chapter_away": "Widzew Łódź arrive with momentum, but it is a momentum built on home soil. Their recent victory over title contender Lech Poznań was monumental for morale under new manager Aleksandar Vuković. Yet, that result masks a chronic and debilitating away record. They have lost nine of their twelve road trips this season — a twenty-five percent win rate that tells the true story of their travels. Their 4-4-2 system is narrow and compact, designed to absorb pressure, but it has consistently failed away from home. They concede heavily in the final fifteen minutes and have failed to score in four of those twelve away matches. While the new manager brings tactical discipline and they benefit from eight days' rest, their underlying data paints a picture of a team structurally unsuited to success on their travels. The win against Lech is an outlier, not a new trend.",
+    "chapter_history": "Historically, this fixture is a coin toss. The last five meetings show perfect parity — two wins each and one draw. Widzew hold the slight recent edge, unbeaten in the last two encounters including a two-nil win earlier this season. The matches tend to be moderate-scoring, with an average of two-point-seven goals, and both teams have scored in three of the last five. There is no psychological dominance here. However, history also shows this fixture can explode — remember Arka's five-two demolition job in February 2022. With both teams at full reported strength and everything on the line in a direct relegation battle, that historical volatility is always a possibility. But past patterns cannot override the overwhelming current form split between these two sides.",
+    "chapter_home": "Arka Gdynia are a paradox. They sit in the relegation zone, yet at home they are a fortress. Seven wins, four draws, and just one single defeat from twelve matches at their own ground. That solitary loss came back in August. Their home record is among the best in the league, a stark contrast to their overall position. The recent narrative is one of resurgence — a dramatic three-nil away win against Wisła Płock lifted them out of the drop zone and provided a massive psychological boost. Their tactical identity is clear: a 3-4-3 formation designed to dominate width and create overloads. They score sixty percent of their goals in the second half, suggesting a team that grows into games. However, reports of internal player discord and a negative fan atmosphere introduce a note of uncertainty. Their defence remains a concern, conceding early and often, with no clean sheets in their last five home outings. But at home, they simply do not lose.",
+    "chapter_value": "Our market: AH Home zero-point-two-five. The EdgeCalculator identifies a thirty-three-point-two percent mathematical edge on this line — the highest of any market analysed. At odds of one-point-nine-three, it provides a cushion against a draw while capitalising on Arka's formidable home record and Widzew's chronic away struggles. The Poisson probability for Arka avoiding defeat with this handicap far exceeds the market's price. This is not a bet on Arka winning outright; it is a bet on their home strength being drastically undervalued against an opponent who loses seventy-five percent of their away matches. The numbers are unequivocal.",
+    "ending": "The verdict is clear. In a relegation six-pointer defined by extreme home and away splits, the market has incorrectly favoured the visitors. Widzew Łódź's away frailty is priced out of existence. Arka Gdynia's home fortress is the key. We are taking the value on the Asian Handicap home zero-point-two-five line at one-point-nine-three, with a sixty-seven percent confidence rating. The mathematical edge is strong, the tactical matchup favours the hosts, and the historical parity is overridden by current, cascading form profiles. If you want more data-driven breakdowns that challenge the market's assumptions, make sure to subscribe to the AI Boot Room channel. Leave your thoughts on this Polish relegation battle in the comments below. AI Boot Room out.",
+    "hook": "What happens when the bookmakers price a team as favourites on the road — despite them losing nine of twelve away matches this season? It creates a mathematical anomaly. Tonight in Gdynia, a direct relegation six-pointer presents one of the most extreme value signals of the Ekstraklasa season. The market has made a critical error, and the data reveals exactly where.",
+    "roundup_summary": "Arka Gdynia versus Widzew Łódź. A direct relegation six-pointer in the Ekstraklasa sees sixteenth-placed Arka, with seven home wins this season, host seventeenth-placed Widzew, who are just two points behind. Arka's form is resurgent after a three-nil away win, though their last five home matches show four draws. Widzew's momentum comes from a shock home win over Lech Poznań, but their last five away reads four losses. Both teams report full squads.\n\nThe head-to-head record shows perfect parity: two wins each and one draw from the last five meetings, including a two-nil Widzew win earlier this season. Meetings average two-point-seven goals, with both teams scoring in three of the last five. This season, Arka score one-point-five goals per game but concede one-point-seven. Widzew score one-point-one but concede one-point-six, with their away record a dire three wins and nine losses from twelve.\n\nThe AI Boot Room analysis identifies extreme mathematical value on Arka Gdynia Asian Handicap lines. The Quant's Poisson model shows probability gaps up to twenty-eight-point-two percentage points in Arka's favour, with the EdgeCalculator confirming a thirty-three-point-two percent edge on the AH Home zero-point-two-five market. The core thesis is the stark asymmetry between Arka's formidable home record and Widzew's chronic away frailty. The Sceptic challenged the characterisation of Arka's form but confirmed the directional signal is solid. The market's implied probability for Arka is fifty-one-point-eight percent, a significant mispricing against their home strength and Widzew's seventy-five percent away loss rate. The Auditor's effective confidence is sixty-two percent, validating the approach.\n\nThe AI Boot Room market is AH Home zero-point-two-five at odds of one-point-nine-three. This covers an Arka win fully and a draw half-stake, requiring them to avoid defeat against an opponent who loses most away games. Confidence is set at sixty-seven percent, reflecting the strong qualitative and quantitative alignment. AI Boot Room market: AH Home 0.25. Confidence: 67%.",
+    "title": "The Market's Biggest Relegation Six-Pointer Mispricing"
+  },
+  "settlement": {
+    "market": "AH Home 0.25",
+    "pnl": 0.465,
+    "result": "0:0",
+    "settlement": "HALF_WIN",
+    "verified_at": "2026-03-15 14:35"
+  },
+  "verdict": {
+    "confidence": 67,
+    "key_factors": [
+      "Arka Gdynia's formidable home record of 7 wins, 4 draws, and only 1 loss from 12 matches.",
+      "Widzew Łódź's chronic away form, with 9 losses from 12 road trips this season.",
+      "Extreme mathematical value identified on Arka Asian Handicap lines, with a 33.2% edge on AH Home 0.25.",
+      "Tactical analysis favours Arka's 3-4-3 system to exploit the width against Widzew's narrow 4-4-2."
+    ],
+    "odds_target": 1.93,
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC matchup. Arka Gdynia possess a formidable home record (7W-4D-1L), while Widzew Łódź have lost nine of twelve away matches. The cascading profiles show a stark divergence: Arka's home games feature 100% Over 2.5 rates, whereas Widzew's away matches show 0% Over 2.5 rates. This is not a volatile or even contest; it is structurally one-sided in favour of the home side. (2) DIRECTION EVIDENCE — The direction is home_value. The Quant's Poisson model identifies extreme value across multiple Asian Handicap lines favouring Arka, with gaps up to 28.2 percentage points at the +1.25 line. The EdgeCalculator confirms the strongest mathematical edge (33.2%) resides on AH Home 0.25. The Tactician's structural analysis awards the tactical edge to the home side, citing Arka's 3-4-3 width exploiting Widzew's narrow 4-4-2. The market's implied probability for Arka (51.8%) is a significant mispricing against their home strength. (3) AGENTS CONSENSUS — Strong consensus exists for home value. The Home Scout highlights Arka's exceptional home record. The Away Scout confirms Widzew's chronic away struggles. The Quant's mathematical model and the EdgeCalculator both flag extreme value on Arka handicaps. The Tactician's tactical edge is HOME. The Auditor approves the directional analysis. The Sceptic, while issuing a SERIOUS challenge on Arka's form characterisation, does not veto the bet and confirms the core directional signal is solid. The only dissent is the Sceptic's note on a tactical clash regarding goal expectations, but this pertains to the goals market, not the result direction. (4) RISKS — The primary risk is the small sample size (3 matches) for Arka's AH cover rates at deeper handicaps, though the 0.25 line is well-supported by full-season data. Widzew's recent morale-boosting win could translate into rare away resilience. Unconfirmed team news and reported internal discord at Arka could undermine their performance despite the strong venue-based data.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "Small sample size for venue-specific Asian Handicap cover rates at deeper lines.",
+      "Potential for Widzew's momentum from a recent big win to override their poor away trend.",
+      "Unconfirmed starting XIs and reported internal player discord at Arka Gdynia."
+    ],
+    "score_away": 27.0,
+    "score_draw": 28.0,
+    "score_home": 45.0,
+    "selected_market": "AH Home 0.25",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "The Home Scout, Away Scout, Quant, Tactician, and Auditor are all aligned on the core thesis of Arka Gdynia's home strength and value against Widzew's away fragility. The Sceptic agrees the directional signal is solid but issued a serious challenge regarding the characterisation of Arka's attacking form, which does not contradict the result-based value play.",
+    "tribunal_consensus_level": "strong"
+  }
+}

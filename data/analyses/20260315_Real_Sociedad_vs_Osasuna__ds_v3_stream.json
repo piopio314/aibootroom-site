@@ -1,0 +1,160 @@
+{
+  "agents": {
+    "auditor": "",
+    "bookmaker": "",
+    "chairman": "",
+    "devil": "",
+    "historyk": "",
+    "scout_away": "",
+    "scout_home": "",
+    "scriptwriter": "",
+    "tactician": ""
+  },
+  "display_texts": {
+    "api_predictions": "API-Football prediction: Real Sociedad | Probabilities: 45%-45%-10% | Recommendation: Double chance : Real Sociedad or draw",
+    "away_form": "9W-7D-11L in 27 matches, last 5: LWLWL",
+    "away_injuries": "I. Benito (Missing Fixture - Knee Injury), R. Garcia (Missing Fixture - Yellow Cards), R. Garcia (Missing Fixture - Red Card)",
+    "away_position": "#11 (34 pts, +0 GD)",
+    "away_stats": "32 goals in 27 matches (avg 1.2/match), 6 clean sheets",
+    "h2h_history": "Real Sociedad 0-0 Osasuna (15 Mar 2026)\nReal Sociedad 2-2 Osasuna (13 Jan 2026)\nOsasuna 1-3 Real Sociedad (22 Nov 2025)\nReal Sociedad 2-0 Osasuna (09 Oct 2025)\nReal Sociedad 2-0 Osasuna (06 Feb 2025)",
+    "home_form": "9W-8D-10L in 27 matches, last 5: DDLLL",
+    "home_injuries": "T. Kubo (Missing Fixture - Hamstring Injury), A. Munoz (Missing Fixture - Injury), A. Odriozola (Missing Fixture - Knee Injury), I. Ruperez (Missing Fixture - Knee Injury)",
+    "home_position": "#8 (35 pts, -1 GD)",
+    "home_stats": "40 goals in 27 matches (avg 1.5/match), 2 clean sheets",
+    "osint_signals": ""
+  },
+  "folder": "20260315_Real_Sociedad_vs_Osasuna__ds_v3_stream",
+  "match": {
+    "away_id": 727,
+    "away_team": "Osasuna",
+    "date": "2026-03-15",
+    "home_id": 548,
+    "home_team": "Real Sociedad",
+    "league": "La Liga"
+  },
+  "prediction": {
+    "_analyzer": "tribunal_v2",
+    "_direction": "home_value",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.088,
+    "_direction_picked": true,
+    "_direction_prob": 40.0,
+    "_model_key": "ds_v3_stream",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "alternative_markets": [
+      {
+        "confidence": 48,
+        "market": "AH Home -1.5",
+        "prediction": "Real Sociedad -1.5"
+      },
+      {
+        "confidence": 55,
+        "market": "Over 2.5 Goals",
+        "prediction": "Over 2.5"
+      }
+    ],
+    "confidence": 61,
+    "confidence_gate": "APPROVE",
+    "direction": "home_value",
+    "direction_conviction": "moderate",
+    "edge_assessment": {
+      "edge_grade": "STRONG_VALUE",
+      "edge_source": "EdgeCalculator our_prob (60.0%) vs market implied probability (45.9%)",
+      "selected_market_edge": 14.1,
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "edge": 16.6,
+          "market": "AH Away -0.5"
+        },
+        {
+          "edge": 14.1,
+          "market": "AH Home -0.75"
+        },
+        {
+          "edge": 13.3,
+          "market": "AH Away -0.25"
+        }
+      ]
+    },
+    "key_factors": [
+      "Real Sociedad's formidable home scoring record (2.4 goals per match last five at home)",
+      "Osasuna's chronic away scoring struggles (failed to score in 10 of 14 away matches)",
+      "Structural midfield advantage for the home side in the 4-1-4-1 vs 4-2-3-1 matchup",
+      "Strong 14.1% mathematical edge on AH Home -0.75 without direction conflict"
+    ],
+    "max_edge": 16.6,
+    "odds_target": 2.72,
+    "opportunity_score": 6.64,
+    "prediction": "AH Home -1.0",
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC matchup. Real Sociedad hold clear structural advantages at home, averaging 2.4 goals in their last five at Anoeta and controlling midfield. Osasuna's chronic away scoring struggles (failed to score in 10 of 14 away matches) and defensive approach create a clear power imbalance, despite their recent defensive improvement. (2) DIRECTION EVIDENCE — The EdgeCalculator shows a 14.1% edge on AH Home -0.75, the strongest positive edge without a direction conflict. The Auditor recommends this market as the most plausible, balancing edge with narrative. While the Quant's Poisson baseline suggests the market slightly overprices a straight home win, the -0.75 handicap covers a one-goal victory which aligns with Sociedad's home dominance and Osasuna's away limitations. The Tactician's structural edge for the home side and the cascading profiles showing Sociedad's strong home form (DWWWD sequence) support this direction. (3) AGENTS CONSENSUS — The Home Scout, Tactician, and Auditor align on a home advantage. The Tactician explicitly gives a HOME tactical edge. The Sceptic's challenges are addressed: they note Sociedad's plateauing form but do not veto the bet, and their critique of Osasuna's 'resilient' defence actually strengthens the case that the away side is overrated. The Quant shows no edge on AH lines but the Poisson model and market are perfectly aligned on the -0.75 line, indicating fair pricing. The biggest dissent comes from the EdgeCalculator's top edge being on away markets, but those suffer from direction conflicts with qualitative narratives. (4) RISKS — Real Sociedad's attack could be blunted without Kubo, making a one-goal margin insufficient. Osasuna's late-game threat (12 of 32 goals in 76-90 minutes) could produce a late equaliser. Fan discontent over ticket allocations could create a tense atmosphere. The Auditor's sample size concerns about the edge data mean the statistical edge, while strong, is unverified.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "Takefusa Kubo's absence could reduce Sociedad's attacking creativity",
+      "Osasuna's potent late-game scoring threat (12 goals in 76-90 minute period this season)",
+      "Fan discontent over Copa del Rey ticket allocation could impact home atmosphere"
+    ],
+    "score_away": 24.1,
+    "score_draw": 29.6,
+    "score_home": 49.9,
+    "selected_market": "AH Home -1.0",
+    "tier": "B",
+    "tier_color": "#3b82f6",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "The Home Scout, Tactician, and Auditor support a home advantage direction. The Sceptic raises valid concerns about plateauing form but does not veto. The Quant shows market alignment on AH lines but no positive edge. The EdgeCalculator provides strong mathematical support for AH Home -0.75. The primary dissent comes from the EdgeCalculator's top edge being on away markets, but those conflict with qualitative narratives.",
+    "tribunal_consensus_level": "moderate",
+    "value_bets": []
+  },
+  "script": {
+    "chapter_analysis": "The tactical matchup reveals a clear structural advantage for the hosts. Real Sociedad's 4-1-4-1 setup, with a dedicated holding midfielder, should dominate central possession against Osasuna's double pivot. This control is the foundation of their home dominance. The Sceptic rightly challenged the narrative, noting Sociedad's plateauing form and Osasuna's mischaracterised 'resilient' defence, which is in fact deteriorating. However, these critiques do not veto the core dynamic. The Sceptic's concern about a strong cascading signal for a draw is countered by the historical rarity of stalemates in this fixture and Osasuna's chronic inability to score on the road. The Tactician's assessment is clear: the home side holds the edge through midfield control and a proven scoring threat, while Osasuna lacks the consistent offensive firepower to exploit Sociedad's defensive flaws over ninety minutes. The convergence of factors — home scoring power, away scoring impotence, and historical decisiveness — creates a powerful directional signal.",
+    "chapter_away": "Osasuna travel to San Sebastián with a dreadful away record that tells its own story. They have won just two of fourteen away matches this season, a fourteen percent win rate, and have failed to score in ten of those trips. Their recent road form offers a glimmer of hope, taking seven points from the last five fixtures. Yet, a closer look reveals a critical flaw. Their defence, often characterised as resilient, is actually worsening — they have kept zero clean sheets in their last five away games. Their approach is defensively oriented, built on a compact 4-2-3-1 block designed to absorb pressure and counter. Their one potent weapon is a late-game threat, having scored twelve of their thirty-two goals this season in the seventy-sixth to ninetieth minute. With minimal external pressure in mid-table and injuries affecting squad depth more than the first eleven, their entire strategy hinges on surviving the early storm and hoping for a late sucker-punch.",
+    "chapter_history": "History declares this fixture a perfect coin flip. Over the last ten meetings, it is four wins apiece for Real Sociedad and Osasuna, with just one draw — a mere ten percent draw rate that screams decisiveness. The most recent encounter in March 2026 was a dramatic two-two draw, featuring a late Sociedad comeback. The pattern shows moderate scoring, averaging two point three goals per match, with both teams scoring in half of the meetings. Crucially, the current series favours the hosts — Real Sociedad are unbeaten in the last three, winning two and drawing one. This historical context frames tonight's clash: draws are rare, and recent psychological momentum sits with the team from Anoeta.",
+    "chapter_home": "Real Sociedad arrive at Anoeta with a clear mission — consolidate their position and push towards the European conversation. Their home form is formidable, unbeaten in five with a sequence of three wins and two draws. They average two point four goals per game in that run, failing to score in just one of thirteen home matches all season. However, the narrative is not without its cracks. Their momentum has plateaued, with that recent run showing a D-W-W-W-D pattern and an increasing draw tendency. Key attacker Takefusa Kubo is absent, reducing their creative spark and placing more responsibility on players like Carlos Soler. Defensively, they remain vulnerable, keeping just one clean sheet at home all season and conceding ten goals in the final fifteen minutes. Adding to the tension is significant fan discontent over Copa del Rey ticket allocations, which could create a distracted atmosphere. The question is whether their relentless home scoring can overcome these internal and tactical challenges.",
+    "chapter_value": "Our market: Asian Handicap Home -1.0 at odds of two point seven two. The mathematical edge here is compelling. While the Quant's Poisson model shows perfect alignment on this line, the EdgeCalculator reveals a broader value landscape. The highest calculated edge of sixteen point six percent sits on an Osasuna handicap, but that suffers a fundamental direction conflict with every qualitative narrative. The next strongest edge, at fourteen point one percent, is on the Home -0.75 line, which aligns with the tactical and historical case for home dominance. Stepping to the -1.0 line at two point seven two offers a balance — it captures the expectation of a clear home win while providing a safety net for a one-goal victory. The bookmakers may be slightly overpricing a straight Sociedad win, but they have not fully accounted for the scale of Osasuna's away deficiencies.",
+    "ending": "The verdict leans decisively towards Real Sociedad covering the minus one goal handicap. Their formidable home attack, even without Kubo, is expected to overwhelm an Osasuna side that simply cannot score on the road. The risks are clear: a late Osasuna equaliser, or Sociedad's attack being blunted to a single goal. But the alignment of home strength, away weakness, and historical patterns points to a home victory by a margin. Our confidence sits at sixty-one percent. If you found this breakdown valuable, subscribe to AI Boot Room for data-driven football analysis. Let us know your thoughts in the comments below. AI Boot Room out.",
+    "hook": "What happens when a formidable home attack meets a chronically goal-shy away side? Real Sociedad have scored two point four goals per game in their last five at Anoeta. Osasuna have failed to score in ten of their fourteen away matches this season. This is not just a mid-table clash — it is a fundamental test of attacking power versus defensive survival.",
+    "roundup_summary": "Real Sociedad versus Osasuna. This La Liga clash pits eighth against ninth, separated by just a single point. The hosts are unbeaten in five at home (D-W-W-W-D), averaging two point four goals per game in that run, but will be without key attacker Takefusa Kubo. Osasuna's away form shows slight improvement with seven points from five, yet they have failed to score in ten of fourteen away matches this season.\n\nThe head-to-head record is perfectly balanced — four wins each from the last ten meetings, with only one draw. The average goals per meeting is two point three. This season, Sociedad score one point eight five goals per home game but concede one point three one. Osasuna average a meagre zero point five seven goals scored away, while conceding one point two one.\n\nThe AI Boot Room analysis identifies a fourteen point one percent mathematical edge on the Asian Handicap Home -0.75 line, the strongest positive edge without a narrative conflict. The Poisson baseline shows perfect market alignment on the -1.0 line, but the EdgeCalculator's 'our_prob' of sixty percent for the -0.75 handicap indicates value. The Sceptic's primary concern — that Sociedad's home form is plateauing and Osasuna's defence is mischaracterised as resilient — is acknowledged but discounted. The critical factor is Osasuna's chronic away scoring failure against Sociedad's proven home threat. The bookmaker has mis-priced the likelihood of a clear home win, offering two point seven two on the -1.0 line where the Auditor's adjusted probability implies a forty percent cover rate.\n\nThe verdict is Asian Handicap Home -1.0. This requires Real Sociedad to win by two or more goals, or for a one-goal victory to result in a half-stake push. At odds of two point seven two, it balances the structural home advantage against Osasuna's travel sickness. AI Boot Room market: AH Home -1.0. Confidence: 61%.",
+    "title": "Real Sociedad vs Osasuna: The Mid-Table Six-Pointer Breakdown"
+  },
+  "settlement": {
+    "market": "AH Home -1.0",
+    "pnl": 1.72,
+    "result": "3:1",
+    "settlement": "WIN",
+    "verified_at": "2026-03-15 23:00"
+  },
+  "verdict": {
+    "confidence": 61,
+    "key_factors": [
+      "Real Sociedad's formidable home scoring record (2.4 goals per match last five at home)",
+      "Osasuna's chronic away scoring struggles (failed to score in 10 of 14 away matches)",
+      "Structural midfield advantage for the home side in the 4-1-4-1 vs 4-2-3-1 matchup",
+      "Strong 14.1% mathematical edge on AH Home -0.75 without direction conflict"
+    ],
+    "odds_target": 2.72,
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC matchup. Real Sociedad hold clear structural advantages at home, averaging 2.4 goals in their last five at Anoeta and controlling midfield. Osasuna's chronic away scoring struggles (failed to score in 10 of 14 away matches) and defensive approach create a clear power imbalance, despite their recent defensive improvement. (2) DIRECTION EVIDENCE — The EdgeCalculator shows a 14.1% edge on AH Home -0.75, the strongest positive edge without a direction conflict. The Auditor recommends this market as the most plausible, balancing edge with narrative. While the Quant's Poisson baseline suggests the market slightly overprices a straight home win, the -0.75 handicap covers a one-goal victory which aligns with Sociedad's home dominance and Osasuna's away limitations. The Tactician's structural edge for the home side and the cascading profiles showing Sociedad's strong home form (DWWWD sequence) support this direction. (3) AGENTS CONSENSUS — The Home Scout, Tactician, and Auditor align on a home advantage. The Tactician explicitly gives a HOME tactical edge. The Sceptic's challenges are addressed: they note Sociedad's plateauing form but do not veto the bet, and their critique of Osasuna's 'resilient' defence actually strengthens the case that the away side is overrated. The Quant shows no edge on AH lines but the Poisson model and market are perfectly aligned on the -0.75 line, indicating fair pricing. The biggest dissent comes from the EdgeCalculator's top edge being on away markets, but those suffer from direction conflicts with qualitative narratives. (4) RISKS — Real Sociedad's attack could be blunted without Kubo, making a one-goal margin insufficient. Osasuna's late-game threat (12 of 32 goals in 76-90 minutes) could produce a late equaliser. Fan discontent over ticket allocations could create a tense atmosphere. The Auditor's sample size concerns about the edge data mean the statistical edge, while strong, is unverified.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "Takefusa Kubo's absence could reduce Sociedad's attacking creativity",
+      "Osasuna's potent late-game scoring threat (12 goals in 76-90 minute period this season)",
+      "Fan discontent over Copa del Rey ticket allocation could impact home atmosphere"
+    ],
+    "score_away": 24.1,
+    "score_draw": 29.6,
+    "score_home": 49.9,
+    "selected_market": "AH Home -1.0",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "The Home Scout, Tactician, and Auditor support a home advantage direction. The Sceptic raises valid concerns about plateauing form but does not veto. The Quant shows market alignment on AH lines but no positive edge. The EdgeCalculator provides strong mathematical support for AH Home -0.75. The primary dissent comes from the EdgeCalculator's top edge being on away markets, but those conflict with qualitative narratives.",
+    "tribunal_consensus_level": "moderate"
+  }
+}

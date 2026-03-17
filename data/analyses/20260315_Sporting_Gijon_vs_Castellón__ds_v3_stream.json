@@ -1,0 +1,162 @@
+{
+  "agents": {
+    "auditor": "",
+    "bookmaker": "",
+    "chairman": "",
+    "devil": "",
+    "historyk": "",
+    "scout_away": "",
+    "scout_home": "",
+    "scriptwriter": "",
+    "tactician": ""
+  },
+  "display_texts": {
+    "api_predictions": "API-Football prediction: Castellón | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Castellón",
+    "away_form": "14W-7D-8L in 29 matches, last 5: LLDLD",
+    "away_injuries": "No significant injuries",
+    "away_position": "#3 (49 pts, +15 GD)",
+    "away_stats": "48 goals in 29 matches (avg 1.7/match), 10 clean sheets",
+    "h2h_history": "Sporting Gijon 0-0 Castellón (15 Mar 2026)\nCastellón 3-1 Sporting Gijon (05 Oct 2025)\nCastellón 4-3 Sporting Gijon (05 May 2025)\nSporting Gijon 2-1 Castellón (14 Oct 2024)\nCastellón 2-0 Sporting Gijon (24 Jan 2021)",
+    "home_form": "12W-6D-11L in 29 matches, last 5: WWWLL",
+    "home_injuries": "No significant injuries",
+    "home_position": "#9 (42 pts, +1 GD)",
+    "home_stats": "38 goals in 29 matches (avg 1.3/match), 9 clean sheets",
+    "osint_signals": ""
+  },
+  "folder": "20260315_Sporting_Gijon_vs_Castellón__ds_v3_stream",
+  "match": {
+    "away_id": 5254,
+    "away_team": "Castellón",
+    "date": "2026-03-15",
+    "home_id": 731,
+    "home_team": "Sporting Gijon",
+    "league": "Segunda División"
+  },
+  "prediction": {
+    "_analyzer": "tribunal_v2",
+    "_direction": "home_value",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.704,
+    "_direction_picked": true,
+    "_direction_prob": 80.0,
+    "_model_key": "ds_v3_stream",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "alternative_markets": [
+      {
+        "confidence": 53,
+        "market": "Under 2.25 Goals",
+        "prediction": "Under 2.25"
+      },
+      {
+        "confidence": 48,
+        "market": "Draw",
+        "prediction": "Draw"
+      }
+    ],
+    "confidence": 61,
+    "confidence_gate": "APPROVE",
+    "direction": "home_value",
+    "direction_conviction": "moderate",
+    "edge_assessment": {
+      "edge_grade": "VALUE",
+      "edge_source": "Quant Poisson probability (63.3%) minus market implied probability (56.2%)",
+      "selected_market_edge": 7.1,
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "edge": 23.8,
+          "market": "AH Home 0.25"
+        },
+        {
+          "edge": 9.1,
+          "market": "Under 2.25 Goals"
+        },
+        {
+          "edge": 7.5,
+          "market": "Under 2.75 Goals"
+        }
+      ]
+    },
+    "key_factors": [
+      "Sporting Gijon's 80% home cover rate in last 5 matches vs market's 56.2% implied probability",
+      "Both teams show DECLINING momentum and increasing draw tendencies in cascading profiles",
+      "EdgeCalculator identifies 23.8% edge on AH Home 0.25 — strongest mathematical signal",
+      "Tactician predicts 'tight' match character supporting handicap coverage over outright result",
+      "Sporting's defensive solidity at home (1.13 GA/m) provides foundation for handicap protection"
+    ],
+    "max_edge": 23.8,
+    "odds_target": 2.13,
+    "opportunity_score": 6.58,
+    "prediction": "AH Home 0.0",
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC encounter defined by contrasting motivations but converging tactical caution. Castellón's promotion push meets Sporting Gijon's mid-table security, yet both teams' recent form shows declining momentum and defensive vulnerabilities. The Tactician's 'tight' match character prediction and the cascading profiles' signals of 'DECLINING' momentum for both sides point to a controlled, tactical affair rather than an open contest. (2) DIRECTION EVIDENCE — The home_value direction is supported by multiple mathematical and qualitative signals. The EdgeCalculator shows a 23.8% edge on AH Home 0.25, the strongest of any market. The Quant's Poisson model identifies 7.1-9.0pp gaps on AH Home lines (+0.5 to +1.0), with Sporting's 80% home cover rate in their last five matches significantly exceeding the market's implied 56.2% probability. The cascading HOME profile shows Sporting's defensive stability (1.20 GA/m last 5 home) and extreme draw tendency (100% in last 2 home matches), providing a solid foundation for handicap coverage. (3) AGENTS CONSENSUS — The Quant, EdgeCalculator, and Auditor all identify value on Sporting Gijon Asian Handicap lines. The Tactician's neutral edge and 'tight' prediction support the handicap cushion rather than a clear win for either side. The Sceptic's challenges about declining form are mitigated by the handicap protection — their NO_BET veto does not apply as they recommend PROCEED with conditions. The Archivist's historical insight of 'no draws' in six meetings is the main dissenting voice, but this conflicts with both teams' current high draw tendencies. (4) RISKS — The primary risk is Sporting Gijon's complete attacking collapse (0 goals in last 2 matches) rendering them unable to compete, though the +0.5 line provides draw protection. Castellón's promotion motivation could drive an away win despite their 33% away win rate. The 75% BTTS convergence suggests both teams could score, potentially creating a 1-1 draw that still wins the +0.5 bet. Unknown starting XIs and the emotional impact of Sporting's recent tragic events add uncertainty layers.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "Sporting Gijon's dramatic scoring drought (0 goals last 2 matches) could continue",
+      "Castellón's promotion motivation may overcome their poor away win conversion rate",
+      "Historical H2H shows 0% draw rate in 6 meetings, conflicting with current team tendencies"
+    ],
+    "score_away": 36.0,
+    "score_draw": 30.0,
+    "score_home": 34.0,
+    "selected_market": "AH Home 0.0",
+    "tier": "B",
+    "tier_color": "#3b82f6",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "The Quant, EdgeCalculator, Auditor, and Tactician align on value in Sporting Gijon handicap coverage, supported by their home defensive record and draw tendency. The Sceptic challenges form classifications but doesn't veto. The Archivist dissents with historical 'no draws' pattern, while both Scouts underplay declining momentum signals.",
+    "tribunal_consensus_level": "moderate",
+    "value_bets": []
+  },
+  "script": {
+    "chapter_analysis": "The tactical matchup reveals a stalemate. Sporting Gijon's four-two-three-one creates a natural central overload against Castellón's two-man midfield, a structural advantage. But their collapsing attack — with shots and passing accuracy down — nullifies this benefit. Castellón will dominate possession, averaging over sixty-two percent away, testing Sporting's defensive width. The Sceptic challenged both scouts, revealing their 'stable' form assessments were wrong — momentum for both sides is clearly declining. This is not a match about seizing initiative; it is about avoiding collapse. The Tactician predicts a 'tight' affair, a low-scoring tactical battle. The key factor is Sporting Gijon's eighty percent home cover rate on Asian Handicap lines over their last five matches — a rate significantly higher than the market's implied probability. Their defensive foundation at El Molinón provides a platform the market has under-priced, even as their attack falters.",
+    "chapter_away": "Castellón arrive with everything to play for and a chronic inability to seize it. Sitting third in the Segunda División, their promotion push is genuine, but their away form tells a different story. They possess a solid defensive record on the road, conceding just one point zero seven goals per match, and they operate in a pragmatic four-four-two setup. Yet their away win rate is a meagre thirty-three percent. Recent performances reveal a team in decline — their defensive metrics are worsening, conceding four goals in their most recent away fixture. The cascading profile shows declining momentum and a sixty percent draw rate in their last five away matches. They score early, with seventeen goals in the first thirty minutes, but struggle to convert possession into points. The pressure of promotion meets a pattern of cautious, unproductive performances away from home.",
+    "chapter_history": "History screams for a winner. In six meetings between these sides, there has never been a single draw. Castellón hold a narrow advantage, winning three of those encounters, including a chaotic four-three victory in May 2025. Sporting Gijon, however, won the last match played at their stadium. The historical pattern is clear — this fixture produces goals and decisive results, with both teams scoring in four of the six meetings. Yet this historical certainty crashes directly into current reality. Both teams now exhibit extreme draw tendencies, creating a fundamental conflict between what has always happened and what is happening now.",
+    "chapter_home": "Sporting Gijon are a fortress of frustration. Positioned ninth with forty-two points, their season is effectively over, yet their home ground remains a bastion of defensive solidity. They concede just one point one three goals per match at El Molinón. Their tactical identity is built on a four-two-three-one formation, designed to create central overloads and strike late — eleven of their thirty-eight goals this season have come in the final fifteen minutes. But that threat has evaporated. Their scoring rate has plummeted to zero goals in their last two matches, a dramatic collapse in attacking output. The emotional hangover from last week's tragic spectator death adds an unpredictable layer to their preparation. Their greatest strength has become their defining weakness — an extreme draw tendency. They have drawn three of their last five matches and one hundred percent of their last two at home. They are solid, stable, and utterly incapable of finding a winner.",
+    "chapter_value": "Our market: AH Home 0.0. The mathematical edge comes from a seven point one percentage point gap between the Poisson probability and the market's implied odds. While the EdgeCalculator identified stronger value on the AH Home 0.25 line, the Gaffer's selection of the zero line at odds of two point one three reflects a calculated balance. It captures Sporting Gijon's robust home defensive record and high draw tendency, offering coverage for a win or a draw. The market has mis-priced their ability to avoid defeat at El Molinón, focusing too much on their scoring drought and not enough on their foundational solidity.",
+    "ending": "The verdict is a play on the stalemate. AI Boot Room selects AH Home 0.0 on Sporting Gijon at odds of two point one three, with sixty-one percent confidence. This backs the home side's defensive resilience to hold firm against a Castellón side that struggles to convert away dominance into victories. The risk is clear — Sporting's attack may remain dormant, and Castellón's promotion motivation could spark an away win. But the data points to a fixture where history's demand for a winner meets the present reality of two declining forces. For more data-driven breakdowns, subscribe to AI Boot Room. AI Boot Room out.",
+    "hook": "What happens when a team that cannot score meets a team that cannot win away? At El Molinón, Sporting Gijon have failed to find the net in their last two matches. Castellón, chasing promotion, have won just one of their last five on the road. This is not a clash of titans — it is a collision of malfunctioning systems. The question is not who will triumph, but whether either side can overcome their own dramatic decline.",
+    "roundup_summary": "Sporting Gijon versus Castellón. The hosts sit ninth with forty-two points, their season drifting without tangible pressure. Their last five matches show one win, three draws, and one loss, with a dramatic scoring drought of zero goals in their last two games. Castellón are third, firmly in the promotion playoff race, but their last five away matches reveal just one win alongside three draws and a defeat. A key injury absence is unknown for both squads.\n\nThe head-to-head history is definitive — six meetings and not a single draw. Castellón have won three, Sporting Gijon three, with the visitors unbeaten in the last three clashes. Their most recent meeting in May 2025 ended four-three to Castellón. The average goals per meeting is nearly three, with both teams scoring in four of the six fixtures. This season, Sporting average one point two seven goals scored and one point one three conceded per home match. Castellón average one point two seven scored and one point zero seven conceded on the road.\n\nThe AI Boot Room analysis identifies a seven point one percentage point edge on the AH Home 0.0 line, derived from a Poisson probability of sixty-three point three percent versus a market-implied fifty-six point two percent. The Quant's model highlights this gap, supported by Sporting Gijon's eighty percent home cover rate in their last five matches at El Molinón. The Sceptic's primary challenge was the scouts' misclassification of 'stable' form for both teams when cascading profiles show clear 'declining' momentum. This concern is mitigated by the handicap's focus on avoiding defeat rather than outright victory, leveraging Sporting's defensive solidity. The bookmaker has mis-priced the home side's ability to remain unbeaten, overemphasising their attacking collapse and underweighting their foundational home record. The Auditor's effective confidence rating is fifty-eight percent, aligning with the final verdict.\n\nThe AI Boot Room market is AH Home 0.0 at odds of two point one three. This requires Sporting Gijon to win or draw the match. Confidence is set at sixty-one percent, reflecting the value edge against a Castellón side with a poor away win conversion rate. AI Boot Room market: AH Home 0.0. Confidence: 61%.",
+    "title": "Sporting Gijon vs Castellón: The Stalemate That Breaks History"
+  },
+  "settlement": {
+    "market": "AH Home 0.0",
+    "pnl": 1.13,
+    "result": "4:1",
+    "settlement": "WIN",
+    "verified_at": "2026-03-15 23:05"
+  },
+  "verdict": {
+    "confidence": 61,
+    "key_factors": [
+      "Sporting Gijon's 80% home cover rate in last 5 matches vs market's 56.2% implied probability",
+      "Both teams show DECLINING momentum and increasing draw tendencies in cascading profiles",
+      "EdgeCalculator identifies 23.8% edge on AH Home 0.25 — strongest mathematical signal",
+      "Tactician predicts 'tight' match character supporting handicap coverage over outright result",
+      "Sporting's defensive solidity at home (1.13 GA/m) provides foundation for handicap protection"
+    ],
+    "odds_target": 2.13,
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC encounter defined by contrasting motivations but converging tactical caution. Castellón's promotion push meets Sporting Gijon's mid-table security, yet both teams' recent form shows declining momentum and defensive vulnerabilities. The Tactician's 'tight' match character prediction and the cascading profiles' signals of 'DECLINING' momentum for both sides point to a controlled, tactical affair rather than an open contest. (2) DIRECTION EVIDENCE — The home_value direction is supported by multiple mathematical and qualitative signals. The EdgeCalculator shows a 23.8% edge on AH Home 0.25, the strongest of any market. The Quant's Poisson model identifies 7.1-9.0pp gaps on AH Home lines (+0.5 to +1.0), with Sporting's 80% home cover rate in their last five matches significantly exceeding the market's implied 56.2% probability. The cascading HOME profile shows Sporting's defensive stability (1.20 GA/m last 5 home) and extreme draw tendency (100% in last 2 home matches), providing a solid foundation for handicap coverage. (3) AGENTS CONSENSUS — The Quant, EdgeCalculator, and Auditor all identify value on Sporting Gijon Asian Handicap lines. The Tactician's neutral edge and 'tight' prediction support the handicap cushion rather than a clear win for either side. The Sceptic's challenges about declining form are mitigated by the handicap protection — their NO_BET veto does not apply as they recommend PROCEED with conditions. The Archivist's historical insight of 'no draws' in six meetings is the main dissenting voice, but this conflicts with both teams' current high draw tendencies. (4) RISKS — The primary risk is Sporting Gijon's complete attacking collapse (0 goals in last 2 matches) rendering them unable to compete, though the +0.5 line provides draw protection. Castellón's promotion motivation could drive an away win despite their 33% away win rate. The 75% BTTS convergence suggests both teams could score, potentially creating a 1-1 draw that still wins the +0.5 bet. Unknown starting XIs and the emotional impact of Sporting's recent tragic events add uncertainty layers.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "Sporting Gijon's dramatic scoring drought (0 goals last 2 matches) could continue",
+      "Castellón's promotion motivation may overcome their poor away win conversion rate",
+      "Historical H2H shows 0% draw rate in 6 meetings, conflicting with current team tendencies"
+    ],
+    "score_away": 36.0,
+    "score_draw": 30.0,
+    "score_home": 34.0,
+    "selected_market": "AH Home 0.0",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "The Quant, EdgeCalculator, Auditor, and Tactician align on value in Sporting Gijon handicap coverage, supported by their home defensive record and draw tendency. The Sceptic challenges form classifications but doesn't veto. The Archivist dissents with historical 'no draws' pattern, while both Scouts underplay declining momentum signals.",
+    "tribunal_consensus_level": "moderate"
+  }
+}

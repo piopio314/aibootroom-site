@@ -1,0 +1,158 @@
+{
+  "agents": {
+    "auditor": "",
+    "bookmaker": "",
+    "chairman": "",
+    "devil": "",
+    "historyk": "",
+    "scout_away": "",
+    "scout_home": "",
+    "scriptwriter": "",
+    "tactician": ""
+  },
+  "display_texts": {
+    "api_predictions": "API-Football prediction: Venezia | Probabilities: 45%-45%-10% | Recommendation: Double chance : Venezia or draw",
+    "away_form": "8W-10D-12L in 30 matches, last 5: LDLWW",
+    "away_injuries": "No significant injuries",
+    "away_position": "#11 (34 pts, -8 GD)",
+    "away_stats": "31 goals in 30 matches (avg 1.0/match), 6 clean sheets",
+    "h2h_history": "Venezia 0-0 Padova (17 Mar 2026)\nPadova 0-2 Venezia (22 Nov 2025)\nVenezia 2-1 Padova (27 Jan 2019)\nPadova 1-0 Venezia (01 Sep 2018)\nPadova 0-1 Venezia (10 Apr 2017)",
+    "home_form": "19W-7D-4L in 30 matches, last 5: WDDLW",
+    "home_injuries": "No significant injuries",
+    "home_position": "#1 (64 pts, +35 GD)",
+    "home_stats": "60 goals in 30 matches (avg 2.0/match), 13 clean sheets",
+    "osint_signals": ""
+  },
+  "folder": "20260317_Venezia_vs_Padova__ds_v3_stream",
+  "match": {
+    "away_id": 870,
+    "away_team": "Padova",
+    "date": "2026-03-17",
+    "home_id": 517,
+    "home_team": "Venezia",
+    "league": "Serie B"
+  },
+  "prediction": {
+    "_analyzer": "tribunal_v2",
+    "_direction": "away_value",
+    "_direction_conviction": "strong",
+    "_direction_ev": 0.968,
+    "_direction_picked": true,
+    "_direction_prob": 80.0,
+    "_model_key": "ds_v3_stream",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "alternative_markets": [
+      {
+        "confidence": 68,
+        "market": "AH Away +1.5",
+        "prediction": "Padova +1.5"
+      },
+      {
+        "confidence": 53,
+        "market": "Draw",
+        "prediction": "Draw"
+      }
+    ],
+    "confidence": 71,
+    "confidence_gate": "APPROVE",
+    "direction": "away_value",
+    "direction_conviction": "strong",
+    "edge_assessment": {
+      "edge_grade": "STRONG_VALUE",
+      "edge_source": "Quant probability minus market implied probability",
+      "selected_market_edge": 39.3,
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "edge": 39.3,
+          "market": "AH Away 1.25"
+        },
+        {
+          "edge": 32.4,
+          "market": "AH Away 1.5"
+        },
+        {
+          "edge": 26.2,
+          "market": "AH Away 1.75"
+        }
+      ]
+    },
+    "key_factors": [
+      "Exceptional 42.9% mathematical edge on AH Away +1.25 per Quant model",
+      "Padova's 80% away cover rate at +1.25 handicap from a 5-match sample",
+      "Strong 60% profile convergence on a draw scenario supporting the handicap",
+      "Venezia's recent finishing inefficiency and 40% draw rate in last 5 matches"
+    ],
+    "max_edge": 39.3,
+    "odds_target": 2.46,
+    "opportunity_score": 6.98,
+    "prediction": "AH Away 1.25",
+    "reasoning": "(1) MATCH CHARACTER — ASYMMETRIC. Venezia are dominant league leaders with a formidable 87% home win rate, while Padova are a mid-table side with poor recent away form. The tactical setup is identical (3-5-2 vs 3-5-2), but Venezia's superior technical execution creates a clear structural advantage. However, the character is not purely attacking; it's one-sided possession with organised resistance, suggesting controlled rather than free-scoring outcomes. (2) DIRECTION EVIDENCE — The mathematical case for away value is exceptional. The Quant's Poisson model shows Venezia's handicaps are severely overpriced, with massive negative gaps on lines from -1.0 to -2.0. Conversely, Padova's Asian Handicap lines show extraordinary positive edges, led by AH Away +1.25 with a 42.9% edge (80% Poisson cover rate vs 37.1% market implied). The EdgeCalculator confirms this with a 39.3% edge on AH Away 1.25, grading it STRONG_VALUE. The Tactician predicts a 'controlled rather than free-scoring encounter', aligning with Padova's defensive away resilience (1.20 goals conceded per away match) and Venezia's recent finishing inefficiency. The cascading profiles show a STRONG 60% convergence on a draw, which directly supports the +1.25 handicap as it wins on a draw or a narrow Venezia victory. (3) AGENTS CONSENSUS — The Quant, EdgeCalculator, and Auditor are strongly aligned on the away handicap value. The Tactician's prediction of a controlled match supports the handicap's defensive logic. The Sceptic, while challenging the Away Scout's win probability, does NOT veto the bet and their draw convergence signal actually strengthens the handicap case. The Archivist notes the 0% H2H draw rate, creating a potential statistical regression scenario that again favours the handicap. The primary dissent comes from the Home Scout's overwhelming home win narrative, but this is precisely what the market has overpriced. (4) RISKS — The main risk is Venezia's overwhelming home quality producing a comfortable multi-goal victory, which their 13 home wins from 15 suggest is possible. Padova's recent away form is poor (1W-1D-3L last 5), and their attack is blunt (0.87 goals per away match). The derby context could either inspire Padova's resistance or see them capitulate under pressure. Missing starting XI and injury data adds minor uncertainty.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "Venezia's overwhelming home quality could produce a comfortable multi-goal victory",
+      "Padova's blunt away attack (0.87 goals/match) may offer insufficient threat"
+    ],
+    "score_away": 27.0,
+    "score_draw": 28.0,
+    "score_home": 45.0,
+    "selected_market": "AH Away 1.25",
+    "tier": "B",
+    "tier_color": "#3b82f6",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "The Quant, EdgeCalculator, and Auditor are strongly aligned on exceptional away handicap value. The Tactician's controlled match prediction and the Sceptic's draw convergence signal provide qualitative support. The Home Scout's dominant home narrative represents the opposing view that the market has already priced in.",
+    "tribunal_consensus_level": "strong",
+    "value_bets": []
+  },
+  "script": {
+    "chapter_analysis": "The tactical matchup presents mirror images — three-five-two versus three-five-two. Venezia's superior technical execution should dominate central areas, but Padova's compact defensive block is designed to absorb pressure. The Tactician predicts a controlled rather than free-scoring encounter, aligning with Padova's defensive away resilience. The Sceptic challenged both scouts — Venezia's form trend is stable, not rising, and Padova's twenty-seven percent win probability was a severe overstatement against a mathematical baseline of five percent. Yet the Sceptic's most crucial insight was a sixty percent convergence on a draw scenario from both teams' cascading profiles. This directly supports handicap value on the away side. The Quant's Poisson model reveals extraordinary gaps: Venezia's handicaps are massively overpriced, with negative edges from minus one to minus two goals. Conversely, Padova's Asian Handicap lines show exceptional positive value. The market has priced Venezia's home dominance but failed to account for their recent finishing inefficiency and the structural support for a tight contest.",
+    "chapter_away": "Padova arrive with a curious split personality. Their thirty-three percent away win rate suggests road capability, but their current form tells a different story — just one win in their last five away matches. They deploy an identical three-five-two formation but execute it with far less ambition, averaging only forty-seven percent possession and a blunt zero point eight seven goals per away match. Their strength lies in defensive resilience, conceding just one point two goals per road game. Nine of their thirty-one goals come in the final fifteen minutes, exploiting tired legs. The derby atmosphere injects volatility into their typical mid-table pragmatism, but their recent momentum is declining, with a one-win, one-draw, three-loss record in their last five away trips.",
+    "chapter_history": "Six meetings — and not a single draw. That's the remarkable historical pattern between these Veneto rivals. Venezia hold a narrow three-to-two advantage, with the last two fixtures both going their way — including a disciplined two-nil away victory just five months ago. The average goals per meeting sits at a low one point eight, with only two of six encounters seeing over two point five goals. History says this derby always produces a winner. But tonight's context is different — Venezia fight for the championship, Padova play for pride. Both squads are reportedly at full strength, setting the stage for a potential break from tradition.",
+    "chapter_home": "Venezia stand atop Serie B for a reason. Thirteen wins from fifteen home matches — an eighty-seven percent win rate that defines their season. They average two point two seven goals per game at home, scoring in fourteen of those fifteen fixtures. Their three-five-two formation overwhelms opponents with sixty-nine percent possession and nearly seven shots on target per match. Yet recent OSINT reports reveal a concerning pattern: finishing inefficiency. Despite chance creation, they've drawn four of their last ten matches, including recent stalemates against Sudtirol and Sampdoria. The derby context adds pressure — a local stadium access dispute and the league's third-highest wage bill create underlying stress. Their narrative is one of dominance tempered by a sudden lack of clinical edge at the worst possible moment.",
+    "chapter_value": "Our market: AH Away one point two five at two point four six. The mathematical edge is thirty-nine point three percent — a strong value signal from the EdgeCalculator. The Poisson model gives Padova an eighty percent cover rate at this line against a market-implied probability of just thirty-seven percent. This handicap wins if Padova lose by exactly one goal, draw, or win. Given Venezia's forty percent draw rate in their last five matches and Padova's defensive away resilience, the value proposition becomes clear. The bookmakers have overpriced Venezia's ability to cover heavy handicaps while dramatically underpricing Padova's probability of staying within one goal.",
+    "ending": "The AI Boot Room lands on AH Away one point two five with seventy-one percent confidence. The risk is clear — Venezia's overwhelming home quality could produce a comfortable multi-goal victory. But the data suggests a tighter contest, where Padova's defensive organisation and Venezia's recent finishing struggles create exceptional value on the away handicap. This is not a bet against Venezia winning — it's a read on how they win. For more data-driven football analysis, subscribe to AI Boot Room and hit the notification bell. AI Boot Room out.",
+    "hook": "What happens when a team with an eighty-seven percent home win rate faces a mid-table rival with a blunt attack? The market sees a foregone conclusion. The data reveals something else entirely. This is not about who wins the Veneto derby. This is about what the bookmakers have priced incorrectly.",
+    "roundup_summary": "Venezia versus Padova. The Serie B leaders, with sixty-four points and a formidable thirteen wins from fifteen home matches, host mid-table Padova on thirty-four points. Venezia's last five form shows two wins, two draws, and one loss — a forty percent draw rate revealing recent inefficiency. Padova's last five away reads one win, one draw, and three losses, though they concede just one point two goals per road game.\n\nHistorically, these sides have met six times with zero draws — Venezia lead three wins to two. The average goals per meeting is one point eight, with only two encounters exceeding two point five goals. Venezia have won the last two meetings, including a two-nil away victory in November. This season, Venezia score two point two seven goals per home game while conceding zero point six seven. Padova score only zero point eight seven away but concede one point two.\n\nThe AI Boot Room analysis identifies exceptional value on Padova's Asian Handicap. The Quant's Poisson model shows an eighty percent cover rate for AH Away plus one point two five against a market-implied probability of thirty-seven point one percent — a forty-two point nine percentage point edge. The Sceptic's concern about Padova's overstated win probability was valid, but their sixty percent draw convergence signal actually strengthens the handicap case. The bookmaker has mis-priced Venezia's ability to cover heavy handicaps, overestimating their margin of victory despite recent finishing struggles and a tactical setup favoring control over free-scoring. The Auditor's effective confidence sits at sixty-two percent, noting the edge relies on a five-match away sample but remains mathematically robust.\n\nOur market is AH Away one point two five at odds of two point four six. This requires Padova to avoid losing by two or more goals — a scenario supported by their defensive resilience and Venezia's recent draw tendency. AI Boot Room market: AH Away 1.25. Confidence: 71%.",
+    "title": "Venezia vs Padova: The Derby Value Hidden in Plain Sight"
+  },
+  "settlement": {
+    "market": "",
+    "pnl": 0.0,
+    "result": "",
+    "settlement": "PENDING",
+    "verified_at": ""
+  },
+  "verdict": {
+    "confidence": 71,
+    "key_factors": [
+      "Exceptional 42.9% mathematical edge on AH Away +1.25 per Quant model",
+      "Padova's 80% away cover rate at +1.25 handicap from a 5-match sample",
+      "Strong 60% profile convergence on a draw scenario supporting the handicap",
+      "Venezia's recent finishing inefficiency and 40% draw rate in last 5 matches"
+    ],
+    "odds_target": 2.46,
+    "reasoning": "(1) MATCH CHARACTER — ASYMMETRIC. Venezia are dominant league leaders with a formidable 87% home win rate, while Padova are a mid-table side with poor recent away form. The tactical setup is identical (3-5-2 vs 3-5-2), but Venezia's superior technical execution creates a clear structural advantage. However, the character is not purely attacking; it's one-sided possession with organised resistance, suggesting controlled rather than free-scoring outcomes. (2) DIRECTION EVIDENCE — The mathematical case for away value is exceptional. The Quant's Poisson model shows Venezia's handicaps are severely overpriced, with massive negative gaps on lines from -1.0 to -2.0. Conversely, Padova's Asian Handicap lines show extraordinary positive edges, led by AH Away +1.25 with a 42.9% edge (80% Poisson cover rate vs 37.1% market implied). The EdgeCalculator confirms this with a 39.3% edge on AH Away 1.25, grading it STRONG_VALUE. The Tactician predicts a 'controlled rather than free-scoring encounter', aligning with Padova's defensive away resilience (1.20 goals conceded per away match) and Venezia's recent finishing inefficiency. The cascading profiles show a STRONG 60% convergence on a draw, which directly supports the +1.25 handicap as it wins on a draw or a narrow Venezia victory. (3) AGENTS CONSENSUS — The Quant, EdgeCalculator, and Auditor are strongly aligned on the away handicap value. The Tactician's prediction of a controlled match supports the handicap's defensive logic. The Sceptic, while challenging the Away Scout's win probability, does NOT veto the bet and their draw convergence signal actually strengthens the handicap case. The Archivist notes the 0% H2H draw rate, creating a potential statistical regression scenario that again favours the handicap. The primary dissent comes from the Home Scout's overwhelming home win narrative, but this is precisely what the market has overpriced. (4) RISKS — The main risk is Venezia's overwhelming home quality producing a comfortable multi-goal victory, which their 13 home wins from 15 suggest is possible. Padova's recent away form is poor (1W-1D-3L last 5), and their attack is blunt (0.87 goals per away match). The derby context could either inspire Padova's resistance or see them capitulate under pressure. Missing starting XI and injury data adds minor uncertainty.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "Venezia's overwhelming home quality could produce a comfortable multi-goal victory",
+      "Padova's blunt away attack (0.87 goals/match) may offer insufficient threat"
+    ],
+    "score_away": 27.0,
+    "score_draw": 28.0,
+    "score_home": 45.0,
+    "selected_market": "AH Away 1.25",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "The Quant, EdgeCalculator, and Auditor are strongly aligned on exceptional away handicap value. The Tactician's controlled match prediction and the Sceptic's draw convergence signal provide qualitative support. The Home Scout's dominant home narrative represents the opposing view that the market has already priced in.",
+    "tribunal_consensus_level": "strong"
+  }
+}

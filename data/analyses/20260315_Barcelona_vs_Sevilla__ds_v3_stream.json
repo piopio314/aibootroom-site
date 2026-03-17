@@ -1,0 +1,160 @@
+{
+  "agents": {
+    "auditor": "",
+    "bookmaker": "",
+    "chairman": "",
+    "devil": "",
+    "historyk": "",
+    "scout_away": "",
+    "scout_home": "",
+    "scriptwriter": "",
+    "tactician": ""
+  },
+  "display_texts": {
+    "api_predictions": "API-Football prediction: Barcelona | Probabilities: 50%-50%-0% | Recommendation: Winner : Barcelona",
+    "away_form": "8W-7D-12L in 27 matches, last 5: LLWDW",
+    "away_injuries": "A. Flores (Missing Fixture - Inactive), Marcao (Missing Fixture - Knee Injury), Peque (Missing Fixture - Ankle Injury), K. Salas (Missing Fixture - Calf Injury), M. Sierra (Missing Fixture - Inactive)",
+    "away_position": "#14 (31 pts, -7 GD)",
+    "away_stats": "35 goals in 27 matches (avg 1.3/match), 5 clean sheets",
+    "h2h_history": "Barcelona 0-0 Sevilla (15 Mar 2026)\nSevilla 4-1 Barcelona (05 Oct 2025)\nSevilla 1-4 Barcelona (09 Feb 2025)\nBarcelona 5-1 Sevilla (20 Oct 2024)\nSevilla 1-2 Barcelona (26 May 2024)",
+    "home_form": "22W-1D-4L in 27 matches, last 5: WWDWW",
+    "home_injuries": "A. Balde (Missing Fixture - Hamstring Injury), A. Christensen (Missing Fixture - Knee Injury), J. Kounde (Missing Fixture - Hamstring Injury), F. de Jong (Missing Fixture - Hamstring Injury)",
+    "home_position": "#1 (67 pts, +46 GD)",
+    "home_stats": "72 goals in 27 matches (avg 2.7/match), 11 clean sheets",
+    "osint_signals": ""
+  },
+  "folder": "20260315_Barcelona_vs_Sevilla__ds_v3_stream",
+  "match": {
+    "away_id": 536,
+    "away_team": "Sevilla",
+    "date": "2026-03-15",
+    "home_id": 529,
+    "home_team": "Barcelona",
+    "league": "La Liga"
+  },
+  "prediction": {
+    "_analyzer": "tribunal_v2",
+    "_direction": "home_value",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 1.78,
+    "_direction_picked": true,
+    "_direction_prob": 100.0,
+    "_model_key": "ds_v3_stream",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "alternative_markets": [
+      {
+        "confidence": 55,
+        "market": "AH Home -1.5",
+        "prediction": "Barcelona -1.5"
+      },
+      {
+        "confidence": 63,
+        "market": "Barcelona to Win",
+        "prediction": "Home Win"
+      }
+    ],
+    "confidence": 53,
+    "confidence_gate": "SPECULATIVE",
+    "direction": "home_value",
+    "direction_conviction": "moderate",
+    "edge_assessment": {
+      "edge_grade": "STRONG_VALUE",
+      "edge_source": "Quant probability (based on venue cover rate) minus market implied probability",
+      "selected_market_edge": 34.7,
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "edge": 49.0,
+          "market": "AH Home -2.5"
+        },
+        {
+          "edge": 46.9,
+          "market": "AH Away +0.75"
+        },
+        {
+          "edge": 34.7,
+          "market": "AH Home -1.75"
+        }
+      ]
+    },
+    "key_factors": [
+      "Barcelona's perfect 100% home win record this season with an average winning margin of +3.00 goals.",
+      "Significant mathematical edge (34.7%+) on Asian Handicap lines, particularly AH Home -1.75, indicating market underpricing of Barcelona's dominance.",
+      "Sevilla's chronic low-scoring away profile (1.23 GF/m) and high draw tendency, which is ill-suited to challenging a top-side fortress.",
+      "Critical tactical matchup in the 76-90' period where Barcelona's strongest scoring directly targets Sevilla's most vulnerable defensive window."
+    ],
+    "max_edge": 49.0,
+    "odds_target": 2.78,
+    "opportunity_score": 6.32,
+    "prediction": "AH Home -2.5",
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC matchup. Barcelona's home dominance is overwhelming, with a 100% win record, an average margin of +3.00 goals, and a perfect 4/4 cover rate for Asian Handicap lines in recent home matches. Sevilla's profile is one of draw-heavy resilience but chronic low scoring on the road, creating a clear power imbalance. (2) DIRECTION EVIDENCE — The direction is home_value, supported by significant mathematical edges on multiple Asian Handicap lines. The Edge Calculator shows a 34.7% edge on AH Home -1.75, with a 49.0% edge on the heavier -2.5 line. The Auditor's adjusted home win probability of 90% starkly contrasts with the market-implied probability of ~79% for a straight win, indicating underpricing. Cascading profiles show a strong 5/5 win suitability for Barcelona at home, versus a 1/5 away win profile for Sevilla. The tactical edge is clearly with the home side. (3) AGENTS CONSENSUS — The Quant, Archivist, and Tactician all align on Barcelona's dominance and the value on handicap lines. The Home Scout details the formidable home record, though the Sceptic correctly challenges the 'rising' form narrative. The Auditor approves the directional analysis but with significant caveats regarding small sample sizes for cover rates. The biggest dissent comes from the Auditor and Sceptic regarding the extreme goals probabilities, but this dissent is on the *scale* of victory, not the *direction* of it. The consensus for a Barcelona win covering a handicap is moderate. (4) RISKS — The primary risk is the mandatory rotation risk and confidence cap due to Barcelona's Champions League fixture in three days, which may lead to a rotated or less intense lineup. The defensive injury crisis (Balde, Christensen, Kounde, de Jong) creates tangible vulnerability that Sevilla's counter-attack could exploit, potentially limiting the margin. Furthermore, the Auditor's sample size concern—that all AH cover rates are based on only 4 home matches—means the statistical foundation is thinner than ideal. Sevilla's recent unbeaten run and draw resilience also suggest they may be harder to break down than the raw data implies.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "MANDATORY: Rotation risk and confidence cap due to Barcelona's UEFA Champions League fixture in 3 days.",
+      "Barcelona's defensive injury crisis stripping experience from the backline, increasing potential for conceded goals.",
+      "Small sample size (4 matches) underpinning the Asian Handicap cover rate statistics, as flagged by the Auditor."
+    ],
+    "score_away": 3.0,
+    "score_draw": 7.0,
+    "score_home": 90.0,
+    "selected_market": "AH Home -2.5",
+    "tier": "B",
+    "tier_color": "#3b82f6",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "The Quant, Archivist, and Tactician form a core consensus on Barcelona's dominance and the value on Asian Handicap lines. The Home Scout supports the home strength narrative. The Sceptic and Auditor introduce moderate dissent, not on the direction of a Barcelona victory, but on the scale of it—challenging the extreme probabilities and highlighting data quality concerns, which tempers overall conviction.",
+    "tribunal_consensus_level": "moderate",
+    "value_bets": []
+  },
+  "script": {
+    "chapter_analysis": "The tactical matchup reveals a clear structural advantage for Barcelona. Their four-two-three-one setup, averaging sixty-five percent possession, should overwhelm Sevilla's midfield block. The critical battle lies in the seventy-sixth to ninetieth minute window — Barcelona's strongest scoring period directly targets Sevilla's most vulnerable defensive phase. The Sceptic, however, challenged the narrative of Barcelona's 'rising' form, pointing to declining underlying metrics in possession and shots. They also flagged the Away Scout's severe misreading of Sevilla's win probability at twenty-seven percent — a figure over sixteen times the mathematical baseline. The Auditor approved the directional analysis but with significant caveats, noting that all Asian Handicap cover rates are based on a sample of only four Barcelona home matches. The biggest conflict emerged around goals — the Quant's extreme ninety-one point two percent probability for Over two point five goals was contradicted by the Tactician's more tempered view, aligning with the historical average. The consensus is moderate — Barcelona should dominate, but the scale of victory is debated.",
+    "chapter_away": "Sevilla travel north with a form profile built on resilience, not dominance. Unbeaten in their last five matches across all venues, they have drawn four of those five. Their away record reveals a team that competes but rarely dominates, averaging just one point two three goals per game on the road. They sit fourteenth in La Liga, eight points clear of relegation, with little tangible pressure. Their tactical setup is typically a compact four-two-three-one, designed to absorb pressure and look for transitional moments. Their key weakness is a chronic defensive vulnerability in the final half-hour, where they have conceded thirteen of their forty-two goals this season. While they have five players listed as injured, their core defensive structure remains intact. The critical question is whether their draw-heavy resilience can withstand the step up in class at the Camp Nou.",
+    "chapter_history": "The historical pattern screams Barcelona dominance — seven wins from the last ten meetings. These fixtures are rarely cagey, averaging two point nine goals with sixty percent going over two point five. But the most recent chapter flipped the script entirely. In October 2025, Sevilla delivered a stunning four-one victory, featuring three goals in the final minutes and nine yellow cards. That result snapped a long unbeaten run for Barcelona in this fixture. While history heavily favours the hosts, that last meeting provides Sevilla with a tangible psychological blueprint for an upset. It is a classic case of long-term trend versus recent momentum.",
+    "chapter_home": "Barcelona arrive at Camp Nou with statistics that defy belief. Thirteen home wins from thirteen matches this season, averaging three point one five goals per game. They have scored thirteen goals in the first fifteen minutes and fourteen in the final quarter-hour, creating a relentless attacking rhythm that overwhelms opponents. Yet beneath this dominance lies genuine vulnerability. Four senior defensive and midfield players are unavailable — Balde, Christensen, Kounde, and de Jong. This forces manager Hansi Flick to rely on inexperienced academy products, creating potential instability. Off-field electoral tensions and boardroom instability are creating documented dressing room distractions. Underlying performance metrics from their last three matches show declines in possession, shots, and shots on target, questioning the sustainability of their results. The narrative is clear — Barcelona's firepower is immense, but their foundation is now cracked.",
+    "chapter_value": "Our market: AH Home -2.5. The mathematical edge is compelling. The Edge Calculator shows a forty-nine percent edge on this line, graded as STRONG_VALUE. Barcelona's one hundred percent home win record and average winning margin of plus three goals create the foundation. Sevilla's chronic low-scoring away profile and late-game defensive collapse provide the target. The market odds of two point seventy-eight imply a probability the AI Boot Room believes is significantly under-priced, especially when considering the Auditor's adjusted home win probability of ninety percent. This is a speculative play on Barcelona's fortress holding firm by a significant margin.",
+    "ending": "The verdict lands on the side of the fortress. Despite the injuries and distractions, Barcelona's home dominance is too overwhelming, and Sevilla's profile is too ill-suited to challenge it. The late-game tactical window is where the margin could be built. Our market: AH Home -2.5 at two point seventy-eight, with fifty-three percent confidence. The primary risk is mandatory rotation ahead of a Champions League fixture in three days, coupled with that small sample size for cover rates. But the structural advantages point to a commanding home performance. If you want this level of forensic match analysis for every major fixture, make sure you subscribe to the AI Boot Room. Hit the notification bell so you never miss a verdict. AI Boot Room out.",
+    "hook": "Thirteen wins from thirteen. Over three goals per game. The most formidable home fortress in Europe stands unbreached. But tonight, Barcelona's perfect record faces its first true test of structural integrity. A defensive injury crisis, off-field distractions, and a Sevilla side that won the last meeting provide the blueprint for an upset. Can the fortress hold, or will the cracks finally show?",
+    "roundup_summary": "Barcelona versus Sevilla. The league leaders, with twenty-two wins from twenty-seven games, host a mid-table Sevilla side sitting fourteenth. Barcelona's form is formidable — thirteen wins from thirteen at home, scoring over three goals per game. Sevilla are unbeaten in five but have drawn four of those, showcasing resilience over dominance. Barcelona miss four key defensive players, while Sevilla have five absentees.\n\nThe head-to-head record shows Barcelona dominance, with seven wins from the last ten meetings. The most recent fixture, however, was a stunning four-one Sevilla victory in October 2025. On average, these matches see two point nine goals. This season, Barcelona average three point one five goals scored per home game, while Sevilla average just one point two three goals scored on the road.\n\nThe AI Boot Room analysis identifies a forty-nine percent edge on the Asian Handicap Home -2.5 market. The Poisson-derived probability for Barcelona covering this line is eighty-five percent, starkly higher than the market-implied probability. The Sceptic's primary concern — that Barcelona's 'rising' form was unsupported by declining underlying metrics — was acknowledged but deemed insufficient to override the overwhelming home venue data. The bookmaker has mis-priced Barcelona's ability to win by a large margin, failing to adequately factor in Sevilla's chronic low scoring away from home and their severe defensive vulnerability in the final fifteen minutes, where they concede thirty-one percent of their total goals. The Auditor's effective confidence for the directional play is fifty-eight percent.\n\nThe AI Boot Room market is AH Home -2.5 at odds of two point seventy-eight. This requires Barcelona to win by three or more goals. Confidence is set at fifty-three percent, reflecting the speculative nature due to Barcelona's defensive injuries and a Champions League fixture looming. AI Boot Room market: AH Home -2.5. Confidence: 53%.",
+    "title": "Barcelona's Fortress Faces Its First True Test"
+  },
+  "settlement": {
+    "market": "AH Home -2.5",
+    "pnl": 1.78,
+    "result": "5:2",
+    "settlement": "WIN",
+    "verified_at": "2026-03-15 18:37"
+  },
+  "verdict": {
+    "confidence": 53,
+    "key_factors": [
+      "Barcelona's perfect 100% home win record this season with an average winning margin of +3.00 goals.",
+      "Significant mathematical edge (34.7%+) on Asian Handicap lines, particularly AH Home -1.75, indicating market underpricing of Barcelona's dominance.",
+      "Sevilla's chronic low-scoring away profile (1.23 GF/m) and high draw tendency, which is ill-suited to challenging a top-side fortress.",
+      "Critical tactical matchup in the 76-90' period where Barcelona's strongest scoring directly targets Sevilla's most vulnerable defensive window."
+    ],
+    "odds_target": 2.78,
+    "reasoning": "(1) MATCH CHARACTER — This is an ASYMMETRIC matchup. Barcelona's home dominance is overwhelming, with a 100% win record, an average margin of +3.00 goals, and a perfect 4/4 cover rate for Asian Handicap lines in recent home matches. Sevilla's profile is one of draw-heavy resilience but chronic low scoring on the road, creating a clear power imbalance. (2) DIRECTION EVIDENCE — The direction is home_value, supported by significant mathematical edges on multiple Asian Handicap lines. The Edge Calculator shows a 34.7% edge on AH Home -1.75, with a 49.0% edge on the heavier -2.5 line. The Auditor's adjusted home win probability of 90% starkly contrasts with the market-implied probability of ~79% for a straight win, indicating underpricing. Cascading profiles show a strong 5/5 win suitability for Barcelona at home, versus a 1/5 away win profile for Sevilla. The tactical edge is clearly with the home side. (3) AGENTS CONSENSUS — The Quant, Archivist, and Tactician all align on Barcelona's dominance and the value on handicap lines. The Home Scout details the formidable home record, though the Sceptic correctly challenges the 'rising' form narrative. The Auditor approves the directional analysis but with significant caveats regarding small sample sizes for cover rates. The biggest dissent comes from the Auditor and Sceptic regarding the extreme goals probabilities, but this dissent is on the *scale* of victory, not the *direction* of it. The consensus for a Barcelona win covering a handicap is moderate. (4) RISKS — The primary risk is the mandatory rotation risk and confidence cap due to Barcelona's Champions League fixture in three days, which may lead to a rotated or less intense lineup. The defensive injury crisis (Balde, Christensen, Kounde, de Jong) creates tangible vulnerability that Sevilla's counter-attack could exploit, potentially limiting the margin. Furthermore, the Auditor's sample size concern—that all AH cover rates are based on only 4 home matches—means the statistical foundation is thinner than ideal. Sevilla's recent unbeaten run and draw resilience also suggest they may be harder to break down than the raw data implies.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "MANDATORY: Rotation risk and confidence cap due to Barcelona's UEFA Champions League fixture in 3 days.",
+      "Barcelona's defensive injury crisis stripping experience from the backline, increasing potential for conceded goals.",
+      "Small sample size (4 matches) underpinning the Asian Handicap cover rate statistics, as flagged by the Auditor."
+    ],
+    "score_away": 3.0,
+    "score_draw": 7.0,
+    "score_home": 90.0,
+    "selected_market": "AH Home -2.5",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "The Quant, Archivist, and Tactician form a core consensus on Barcelona's dominance and the value on Asian Handicap lines. The Home Scout supports the home strength narrative. The Sceptic and Auditor introduce moderate dissent, not on the direction of a Barcelona victory, but on the scale of it—challenging the extreme probabilities and highlighting data quality concerns, which tempers overall conviction.",
+    "tribunal_consensus_level": "moderate"
+  }
+}

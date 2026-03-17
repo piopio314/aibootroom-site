@@ -1,0 +1,155 @@
+{
+  "agents": {
+    "auditor": "",
+    "bookmaker": "",
+    "chairman": "",
+    "devil": "",
+    "historyk": "",
+    "scout_away": "",
+    "scout_home": "",
+    "scriptwriter": "",
+    "tactician": ""
+  },
+  "display_texts": {
+    "api_predictions": "API-Football prediction: Annecy | Probabilities: 45%-45%-10% | Recommendation: Double chance : Annecy or draw",
+    "away_form": "15W-6D-5L in 26 matches, last 5: WDWLW",
+    "away_injuries": "No significant injuries",
+    "away_position": "#1 (51 pts, +16 GD)",
+    "away_stats": "42 goals in 26 matches (avg 1.6/match), 9 clean sheets",
+    "h2h_history": "Annecy 0-0 Estac Troyes (16 Mar 2026)\nEstac Troyes 3-1 Annecy (26 Sep 2025)\nEstac Troyes 0-1 Annecy (20 Jan 2025)\nAnnecy 1-0 Estac Troyes (24 Sep 2024)\nEstac Troyes 1-1 Annecy (17 May 2024)",
+    "home_form": "11W-6D-9L in 26 matches, last 5: LDWLD",
+    "home_injuries": "No significant injuries",
+    "home_position": "#9 (39 pts, +6 GD)",
+    "home_stats": "34 goals in 26 matches (avg 1.3/match), 9 clean sheets",
+    "osint_signals": ""
+  },
+  "folder": "20260316_Annecy_vs_Estac_Troyes__ds_v3_stream",
+  "match": {
+    "away_id": 110,
+    "away_team": "Estac Troyes",
+    "date": "2026-03-16",
+    "home_id": 3012,
+    "home_team": "Annecy",
+    "league": "Ligue 2"
+  },
+  "prediction": {
+    "_analyzer": "tribunal_v2",
+    "_direction": "home_value",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.696,
+    "_direction_picked": true,
+    "_direction_prob": 80.0,
+    "_model_key": "ds_v3_stream",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "alternative_markets": [
+      {
+        "confidence": 58,
+        "market": "Under 2.25 Goals",
+        "prediction": "Under 2.25"
+      }
+    ],
+    "confidence": 61,
+    "confidence_gate": "APPROVE",
+    "direction": "home_value",
+    "direction_conviction": "moderate",
+    "edge_assessment": {
+      "edge_grade": "STRONG_VALUE",
+      "edge_source": "EdgeCalculator our_prob (75.0%) vs market_odds (2.12)",
+      "selected_market_edge": 27.8,
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "edge": 34.2,
+          "market": "Under 1.75 Goals"
+        },
+        {
+          "edge": 29.9,
+          "market": "Under 2.25 Goals"
+        },
+        {
+          "edge": 27.9,
+          "market": "AH Home 0.25"
+        }
+      ]
+    },
+    "key_factors": [
+      "Annecy's perfect recent home record (3W-1D-0L last 4)",
+      "Troyes' poor away attacking output (0.75 goals/match last 4 away)",
+      "Strong mathematical edge (27.8%) on AH Home 0.0",
+      "Market overvaluing Troyes based on league position, not away form"
+    ],
+    "max_edge": 34.2,
+    "odds_target": 2.12,
+    "opportunity_score": 6.58,
+    "prediction": "AH Home 0.0",
+    "reasoning": "(1) MATCH CHARACTER — ASYMMETRIC. This is not a balanced contest. Annecy's home form is formidable: unbeaten in four with three wins, conceding just 0.75 goals per match in that run. Troyes, despite their league position, are mediocre travellers with one win in their last four away matches, scoring a paltry 0.75 goals per game. The tactical edge is neutral, but the venue-specific form disparity is stark. (2) DIRECTION EVIDENCE — The mathematical edge strongly supports home value. The EdgeCalculator shows a 27.8% edge on AH Home 0.0, with odds of 2.12 offering clear value against the Auditor's adjusted home win probability of 42%. The cascading profiles reveal the core asymmetry: Annecy's home win profile (3W-1D-0L last 4) directly contradicts Troyes' away win profile (1W-1D-2L last 4). The market is pricing Troyes' league position, not their away performance. (3) AGENTS CONSENSUS — The Auditor, Sceptic, and EdgeCalculator align on home value. The Auditor's adjusted probabilities (42% home win vs 30% away) reflect the Sceptic's CRITICAL correction of Troyes' over-optimistic away assessment. The Tactician sees a neutral edge, which supports the home side's ability to compete. The Quant shows perfect Poisson-market alignment on Asian Handicaps, indicating no mathematical bias against the home side. The Archivist notes Annecy's unbeaten home record against Troyes. The dissent comes from the Away Scout's inflated form rating, which has been corrected. (4) RISKS — The primary risk is Annecy's high draw tendency (42% at home), which could see a solid performance yield only a point. Unknown team sheets and injury data introduce minor uncertainty. Troyes' league-leading status means they possess quality that could surface despite poor away form, particularly in the second half where both teams are potent. A late Troyes goal could turn a win into a draw.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "Annecy's high home draw rate (42%)",
+      "Unknown starting XIs and injury status for both teams",
+      "Troyes' potent second-half attacking system"
+    ],
+    "score_away": 30.2,
+    "score_draw": 27.8,
+    "score_home": 42.0,
+    "selected_market": "AH Home 0.0",
+    "tier": "B",
+    "tier_color": "#3b82f6",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "The Auditor, Sceptic, and EdgeCalculator align on home value, supported by the Archivist's H2H note and the Tactician's neutral edge. The Away Scout's over-optimistic assessment of Troyes' away form is the primary dissent, which the Sceptic corrected with raw data.",
+    "tribunal_consensus_level": "moderate",
+    "value_bets": []
+  },
+  "script": {
+    "chapter_analysis": "The tactical matchup is finely balanced. Annecy's back three provides solidity against Troyes' lone striker, while Troyes' double pivot in midfield could outnumber Annecy's central pairing. The Tactician sees a neutral edge, with no clear structural advantage for either side. The critical flaw in the pre-match narrative was identified by The Sceptic: the Away Scout's assessment of Troyes' away form as 'rising' with a rating of seven was critically over-optimistic. The raw data shows just one win in four away matches against modest opposition. This correction is vital. While the EdgeCalculator shows strong mathematical value on Under markets, this creates a direction conflict with qualitative consensus pointing to a more open game. The synthesis points away from goals and towards venue-specific form. Annecy's perfect recent home record collides directly with Troyes' mediocre away output. The market appears to be pricing Troyes' league position, not their actual away performance.",
+    "chapter_away": "Estac Troyes travel as Ligue 2 leaders, but their away profile tells a story of containment, not conquest. They have kept five clean sheets in twelve road trips, yet failed to score in nearly half of them. Their recent away record reveals the truth: just one win, one draw, and two defeats from their last four, scoring a paltry 0.75 goals per game in that stretch. They favour a 4-2-3-1 formation and possess a potent second-half system, scoring twenty-five of their forty-two goals after the break. High morale comes from their league position, but their strength on the road is defensive solidity, not attacking prowess. The market prices their status as champions-elect, but the raw data paints a picture of a team that grinds out results away from home, often lacking the cutting edge to turn draws into wins.",
+    "chapter_history": "History between these sides screams caution. Six meetings have produced just eight goals — an average of only 1.3 per match. Five of those six fixtures featured two goals or fewer. Annecy hold a slight edge with two wins to Troyes' one, with three draws. Crucially, Annecy are unbeaten in their last two home matches against Troyes. The only exception to the low-scoring pattern was the most recent clash — a 3-1 victory for Troyes. That result may offer the visitors psychological confidence, but the overarching historical narrative is one of tight, contested affairs where goals are a premium.",
+    "chapter_home": "Annecy are the definition of a mid-table fortress. Positioned ninth with thirty-nine points, they play with the freedom of a side with little immediate pressure. Their recent home form is formidable — three wins and a draw from their last four, conceding just three goals in that run. They deploy a solid 3-4-3 formation, with a back three that has made their ground a difficult place to visit, conceding under a goal per game on average. Their threat comes late, with over a third of their goals this season arriving after the sixtieth minute. The only question mark is a pronounced draw habit — five draws in twelve home matches — which questions their ability to kill games off. With no reported injury concerns and a squad of twenty-seven, they are set up perfectly for a free hit against the league leaders.",
+    "chapter_value": "Our market: AH Home 0.0. The mathematical edge is clear — a 27.8 percent value gap according to the EdgeCalculator, with odds of 2.12 offering significant value against The Auditor's adjusted home win probability of forty-two percent. This line means we back Annecy not to lose. It accounts for their high draw tendency while capitalising on the stark asymmetry between Annecy's home fortress and Troyes' away mirage. The bookmakers have priced the league leader's reputation, but they have not priced the performance data.",
+    "ending": "The verdict is in. Annecy's formidable home form against Troyes' struggling away attack creates a clear value opportunity on the Asian Handicap. We land on AH Home 0.0 at 2.12 with sixty-one percent confidence. The league leader's away form is a mirage, and the market has not yet adjusted. For more data-driven football analysis that looks beyond the league table, make sure to subscribe to the AI Boot Room. AI Boot Room out.",
+    "hook": "What happens when a fortress meets a mirage? Annecy are unbeaten in their last four home matches, winning three. Troyes sit top of Ligue 2, yet on the road they have just one win from their last four. The market sees the league position. We see the performance. This is the story of a champion's credentials being tested against a mid-table wall.",
+    "roundup_summary": "Annecy versus Estac Troyes. A mid-table host in ninth takes on the league leaders in a Ligue 2 encounter that pits strong home form against questionable away credentials. Annecy are unbeaten in their last four at home, winning three. Troyes, despite their position, have managed just one win from their last four away matches. No major injuries are reported for either side.\n\nThe head-to-head history is defined by caution. The last six meetings have averaged just 1.3 goals, with five of those six featuring two goals or fewer. Annecy are unbeaten in their last two home games against Troyes. This season, Annecy concede 0.92 goals per game at home, while Troyes score only 1.00 goal per game on their travels.\n\nThe AI Boot Room analysis identifies a critical market mis-pricing. The Poisson-derived probabilities from The Quant showed perfect alignment on Asian Handicaps, but the 1X2 market appears skewed. The Sceptic corrected a crucial flaw: the Away Scout's over-optimistic rating of Troyes' away form, which the raw data contradicted with a record of one win, one draw, and two losses from their last four away. The EdgeCalculator shows a 27.8 percent value edge on AH Home 0.0, with our probability assessed at seventy-five percent against market odds of 2.12. The bookmaker is valuing Troyes' league position, not their mediocre away performance and poor scoring output of 0.75 goals per match in that recent run.\n\nThe AI Boot Room market is AH Home 0.0 at odds of 2.12. This covers an Annecy win or draw, directly challenging the narrative of the away side's superiority. The confidence level is sixty-one percent, acknowledging the risk of Annecy's high home draw rate but backing their defensive solidity to hold firm. AI Boot Room market: AH Home 0.0. Confidence: 61%.",
+    "title": "The League Leader's Away Mirage | Annecy vs Troyes"
+  },
+  "settlement": {
+    "market": "AH Home 0.0",
+    "pnl": -1.0,
+    "result": "1:2",
+    "settlement": "LOSE",
+    "verified_at": "2026-03-16 23:35"
+  },
+  "verdict": {
+    "confidence": 61,
+    "key_factors": [
+      "Annecy's perfect recent home record (3W-1D-0L last 4)",
+      "Troyes' poor away attacking output (0.75 goals/match last 4 away)",
+      "Strong mathematical edge (27.8%) on AH Home 0.0",
+      "Market overvaluing Troyes based on league position, not away form"
+    ],
+    "odds_target": 2.12,
+    "reasoning": "(1) MATCH CHARACTER — ASYMMETRIC. This is not a balanced contest. Annecy's home form is formidable: unbeaten in four with three wins, conceding just 0.75 goals per match in that run. Troyes, despite their league position, are mediocre travellers with one win in their last four away matches, scoring a paltry 0.75 goals per game. The tactical edge is neutral, but the venue-specific form disparity is stark. (2) DIRECTION EVIDENCE — The mathematical edge strongly supports home value. The EdgeCalculator shows a 27.8% edge on AH Home 0.0, with odds of 2.12 offering clear value against the Auditor's adjusted home win probability of 42%. The cascading profiles reveal the core asymmetry: Annecy's home win profile (3W-1D-0L last 4) directly contradicts Troyes' away win profile (1W-1D-2L last 4). The market is pricing Troyes' league position, not their away performance. (3) AGENTS CONSENSUS — The Auditor, Sceptic, and EdgeCalculator align on home value. The Auditor's adjusted probabilities (42% home win vs 30% away) reflect the Sceptic's CRITICAL correction of Troyes' over-optimistic away assessment. The Tactician sees a neutral edge, which supports the home side's ability to compete. The Quant shows perfect Poisson-market alignment on Asian Handicaps, indicating no mathematical bias against the home side. The Archivist notes Annecy's unbeaten home record against Troyes. The dissent comes from the Away Scout's inflated form rating, which has been corrected. (4) RISKS — The primary risk is Annecy's high draw tendency (42% at home), which could see a solid performance yield only a point. Unknown team sheets and injury data introduce minor uncertainty. Troyes' league-leading status means they possess quality that could surface despite poor away form, particularly in the second half where both teams are potent. A late Troyes goal could turn a win into a draw.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "Annecy's high home draw rate (42%)",
+      "Unknown starting XIs and injury status for both teams",
+      "Troyes' potent second-half attacking system"
+    ],
+    "score_away": 30.2,
+    "score_draw": 27.8,
+    "score_home": 42.0,
+    "selected_market": "AH Home 0.0",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "The Auditor, Sceptic, and EdgeCalculator align on home value, supported by the Archivist's H2H note and the Tactician's neutral edge. The Away Scout's over-optimistic assessment of Troyes' away form is the primary dissent, which the Sceptic corrected with raw data.",
+    "tribunal_consensus_level": "moderate"
+  }
+}

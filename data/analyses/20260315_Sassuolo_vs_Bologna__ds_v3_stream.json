@@ -1,0 +1,156 @@
+{
+  "agents": {
+    "auditor": "",
+    "bookmaker": "",
+    "chairman": "",
+    "devil": "",
+    "historyk": "",
+    "scout_away": "",
+    "scout_home": "",
+    "scriptwriter": "",
+    "tactician": ""
+  },
+  "display_texts": {
+    "api_predictions": "API-Football prediction: Bologna | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or Bologna",
+    "away_form": "11W-6D-11L in 28 matches, last 5: LWLWD",
+    "away_injuries": "K. Bonifazi (Missing Fixture - Inactive), L. Ferguson (Missing Fixture - Yellow Cards)",
+    "away_position": "#8 (39 pts, +3 GD)",
+    "away_stats": "37 goals in 28 matches (avg 1.3/match), 8 clean sheets",
+    "h2h_history": "Sassuolo 0-0 Bologna (15 Mar 2026)\nBologna 1-1 Sassuolo (28 Dec 2025)\nBologna 4-2 Sassuolo (03 Feb 2024)\nSassuolo 1-1 Bologna (28 Oct 2023)\nSassuolo 1-1 Bologna (08 May 2023)",
+    "home_form": "11W-5D-12L in 28 matches, last 5: LLWLW",
+    "home_injuries": "D. Boloca (Missing Fixture - Muscle Injury), F. Cande (Missing Fixture - Knee Injury), A. Fadera (Missing Fixture - Injury), E. Pieragnolo (Missing Fixture - Knee Injury)",
+    "home_position": "#9 (38 pts, -3 GD)",
+    "home_stats": "35 goals in 28 matches (avg 1.3/match), 6 clean sheets",
+    "osint_signals": ""
+  },
+  "folder": "20260315_Sassuolo_vs_Bologna__ds_v3_stream",
+  "match": {
+    "away_id": 500,
+    "away_team": "Bologna",
+    "date": "2026-03-15",
+    "home_id": 488,
+    "home_team": "Sassuolo",
+    "league": "Serie A"
+  },
+  "prediction": {
+    "_analyzer": "tribunal_v2",
+    "_direction": "over_goals",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.872,
+    "_direction_picked": true,
+    "_direction_prob": 58.5,
+    "_model_key": "ds_v3_stream",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "alternative_markets": [
+      {
+        "confidence": 58,
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75"
+      },
+      {
+        "confidence": 55,
+        "market": "Both Teams to Score - Yes",
+        "prediction": "BTTS Yes"
+      }
+    ],
+    "confidence": 53,
+    "confidence_gate": "SPECULATIVE",
+    "direction": "over_goals",
+    "direction_conviction": "moderate",
+    "edge_assessment": {
+      "edge_grade": "STRONG_VALUE",
+      "edge_source": "EdgeCalculator our_prob (76.9%) vs market odds (1.76)",
+      "selected_market_edge": 20.1,
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "edge": 33.3,
+          "market": "AH Away -0.75"
+        },
+        {
+          "edge": 31.7,
+          "market": "AH Away -1.0"
+        },
+        {
+          "edge": 27.2,
+          "market": "Over 3.25 Goals"
+        }
+      ]
+    },
+    "key_factors": [
+      "Historical H2H average of 3.1 goals per match with high BTTS rate",
+      "Tactician's analysis of an 'open and transitional' match character",
+      "EdgeCalculator shows strong mathematical edges on multiple Over markets (20.1%+)"
+    ],
+    "max_edge": 33.3,
+    "odds_target": 3.2,
+    "opportunity_score": 6.32,
+    "prediction": "Over 3.25 Goals",
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The Tactician's analysis predicts an 'open and transitional' encounter, a view strongly supported by the historical head-to-head average of 3.1 goals per game and a 60% Both Teams to Score rate. Sassuolo's cascading home profile shows an 80% Over 2.5 rate in their last five, averaging 3.0 total goals, while Bologna's away profile in the same period shows a 60% Over 2.5 rate and a 3.2 goal average. The structural clash between Bologna's possession and Sassuolo's counter-attacks points to transitions and chances. (2) DIRECTION EVIDENCE — The EdgeCalculator provides robust mathematical support for the Over direction, with eight Over markets showing positive edges ranging from 20.1% to 27.2%. The strongest consensus lies in the Over 2.25 Goals market, which carries a 20.1% edge. This aligns perfectly with the Tactician's 'more goals than average' prediction and the Archivist's data on the fixture's high-scoring nature. The Auditor explicitly recommended Over 2.25 Goals as the market best supported by both tactical narrative and historical baseline, avoiding the conflicted outcome markets. (3) AGENTS CONSENSUS — The Tactician, Archivist, and Auditor are aligned on a high-scoring match character. The EdgeCalculator's mathematical model provides overwhelming quantitative support for Over markets. The primary dissent comes from the Sceptic, who flagged the critical flaw in the Home Scout's win probability and the qualitative risk of Bologna's European distraction and low morale. The Away Scout also noted Bologna's defensive fragility away from home (conceding 1.29 per match), which further supports the Over thesis. The net signal is a clear statistical lean towards goals, tempered by qualitative uncertainty around team focus. (4) RISKS — The primary risk is Bologna's potential rotation and diminished intensity due to their crucial Europa League tie against AS Roma in four days, which could lead to a subdued, low-energy performance. Secondly, the Sceptic's flagged 'low morale' following Bologna's home defeat to Verona could manifest in a lack of attacking conviction. Finally, while the historical trend is for goals, a cautious, tactical stalemate is possible if both managers prioritise avoiding defeat over attacking intent, especially given the 40% historical draw rate.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "Bologna's potential rotation due to Europa League fixture in 4 days",
+      "Sceptic's report of low Bologna morale following recent home defeat"
+    ],
+    "score_away": 40.0,
+    "score_draw": 35.0,
+    "score_home": 25.0,
+    "selected_market": "Over 3.25 Goals",
+    "tier": "B",
+    "tier_color": "#3b82f6",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "The Tactician, Archivist, and Auditor form a consensus around a high-scoring, open match, strongly supported by the EdgeCalculator's mathematical model. The Sceptic and Away Scout dissent on the certainty of the match outcome (Bologna win) but their notes on defensive fragility support the Over goals narrative. The Home Scout's analysis is critically flawed per the Sceptic and is discounted.",
+    "tribunal_consensus_level": "moderate",
+    "value_bets": []
+  },
+  "script": {
+    "chapter_analysis": "The tactical matchup points directly toward transitions. Bologna's possession-based build-up will force Sassuolo into a mid-block, from which they are primed to launch rapid counters. The Tactician predicts an 'open and transitional' match character — a view supported by both teams' defensive vulnerabilities in key periods. The critical danger zone is the fifteen minutes after half-time, where both sides score and concede heavily. The Sceptic raised a serious challenge, however: Bologna's European distraction and low morale could lead to a rotated, subdued performance, contradicting the high-scoring historical trend. This qualitative risk is real, but the quantitative evidence is overwhelming. The EdgeCalculator identified substantial positive edges on multiple Over markets, ranging from twenty point one to twenty-seven point two percent. The mathematical model gives a fifty-eight point five percent probability for Over three point two five goals, against a market price implying just thirty-one percent. While the Sceptic's concern about focus is valid, the structural clash — and both teams' inability to keep clean sheets — creates a baseline for chances that may prove resilient to a slight dip in intensity.",
+    "chapter_away": "Bologna sit just one point above their hosts in eighth, but their focus is fractured. A crucial Europa League tie against AS Roma looms in just four days, casting a shadow over team selection and intensity. OSINT reports flag low morale following a recent home defeat to Verona. Their away form is credible — three wins from their last five on the road — but the underlying data reveals fragility. They concede an average of one point two nine goals per away match. The absence of key midfielder Lewis Ferguson weakens their creative engine against Sassuolo's three-man midfield. Bologna typically deploy a 4-2-3-1, favouring possession with a fifty-nine percent average away share. This controlled approach will clash directly with Sassuolo's counter-attacking preference. The critical question is whether their minds have already travelled to Rome, or if their attacking quality — they rarely fail to score away — can override the distraction.",
+    "chapter_history": "This fixture is a story of parity and goals. The head-to-head record is remarkably balanced, with Bologna holding a slight edge but Sassuolo never far behind. More telling is the pattern: these meetings average three point one goals per game. Both teams have scored in six of the last ten encounters — a sixty percent BTTS rate. Four of those last ten have ended level, a forty percent draw rate that underscores how evenly matched these sides often are. The most dramatic chapter was a seven-goal thriller in October 2020, finishing 4-3 to Sassuolo. Bologna arrive unbeaten in the last three meetings, with two draws and a win. History does not promise a winner — but it strongly suggests an open, high-scoring affair.",
+    "chapter_home": "Sassuolo arrive at the Mapei Stadium in mid-table comfort, sitting ninth with thirty-eight points. Their recent home form shows three wins from their last four matches — including a tactical masterclass against Atalanta. Manager Palladino has crafted a side that thrives in bursts, with sixty percent of their goals arriving after the forty-sixth minute. Their 4-3-3 formation is built for transition, not control, averaging just forty percent possession. Four squad players are absent through injury, reducing tactical flexibility from the bench. The real strength lies in their explosive second-half surges — they have scored fifteen goals between minutes forty-six and seventy-five. Yet defensive lapses persist, conceding sixteen goals in the opening and closing fifteen minutes of matches. With minimal pressure and local pride at stake, Sassuolo can play with the freedom that often unlocks goals.",
+    "chapter_value": "Our market: Over three point two five Goals. The bookmakers offer this at three point two, implying a thirty-one point two five percent probability. Our model calculates a fifty-eight point five percent likelihood — a twenty-seven point two percent edge. This is not a bet on which team wins, but on the fundamental character of the match. The historical average of three point one goals, Sassuolo's eighty percent Over two point five rate at home, and the tactical prediction of an open, transitional game all converge. The risk is a cautious, rotated Bologna performance — but even a subdued version of this fixture has produced goals. The value lies in the bookmakers overestimating the dampening effect of Bologna's distraction.",
+    "ending": "The AI Boot Room lands on Over three point two five Goals at three point two, with fifty-three percent confidence. This is a speculative play on the fixture's historical DNA resisting the pull of external distractions. For Sassuolo versus Bologna, the story has always been goals. We are backing that narrative to hold, one more time. If you want data-driven football analysis that cuts through the noise, subscribe to the AI Boot Room. Turn on notifications so you never miss a verdict. AI Boot Room out.",
+    "hook": "What happens when a team with nothing to lose meets a side with everything on its mind? Bologna travel to Sassuolo with European distraction looming — but the numbers tell a different story. This fixture has produced over three goals per game for a decade. Tonight, that historical pattern faces its greatest test against a backdrop of rotation and low morale. The bookmakers see a risk. The AI Boot Room sees an opportunity.",
+    "roundup_summary": "Sassuolo versus Bologna. A mid-table Serie A clash between ninth and eighth, separated by just one point. Sassuolo's home form shows three wins from their last four, including a victory over Atalanta, though they have conceded in eleven of fourteen home matches. Bologna have won three of their last five away but face potential rotation with a Europa League tie against AS Roma in four days. Key absences include Bologna's Lewis Ferguson and Sassuolo's four squad players.\n\nThe head-to-head history reveals a high-scoring, balanced fixture. The last ten meetings average three point one goals, with both teams scoring in sixty percent of them. Four of those ten ended in draws — a forty percent draw rate. Bologna are unbeaten in the last three encounters. This season, Sassuolo average three point zero total goals in their last five home matches, while Bologna average three point two in their last five away.\n\nThe AI Boot Room analysis identifies a twenty-seven point two percent edge on Over three point two five Goals. The EdgeCalculator gives a 'our_prob' of fifty-eight point five percent against a market-implied thirty-one point two five percent — a substantial mispricing. The Poisson λ values from the model strongly support an Over direction, with eight Over markets showing positive edges above twenty percent. The Sceptic's primary concern — Bologna's European distraction and low morale potentially leading to a subdued performance — was considered but discounted. The tactical matchup between Bologna's possession and Sassuolo's counter-attacks, combined with both teams' defensive fragility and the historical baseline, creates a high chance volume that is resilient to a minor intensity drop. The Auditor's adjusted probabilities gave a forty percent chance for Over three point five goals, aligning with the directional signal.\n\nThe verdict is Over three point two five Goals at odds of three point two. This requires four or more total goals for a full win, or three goals for a half-win. The confidence level is fifty-three percent, reflecting the speculative nature given Bologna's external focus but the strong quantitative and historical case for goals. AI Boot Room market: Over three point two five Goals. Confidence: 53%.",
+    "title": "Sassuolo vs Bologna: The Goals Collision"
+  },
+  "settlement": {
+    "market": "Over 3.25 Goals",
+    "pnl": -1.0,
+    "result": "0:1",
+    "settlement": "LOSE",
+    "verified_at": "2026-03-15 17:03"
+  },
+  "verdict": {
+    "confidence": 53,
+    "key_factors": [
+      "Historical H2H average of 3.1 goals per match with high BTTS rate",
+      "Tactician's analysis of an 'open and transitional' match character",
+      "EdgeCalculator shows strong mathematical edges on multiple Over markets (20.1%+)"
+    ],
+    "odds_target": 3.2,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The Tactician's analysis predicts an 'open and transitional' encounter, a view strongly supported by the historical head-to-head average of 3.1 goals per game and a 60% Both Teams to Score rate. Sassuolo's cascading home profile shows an 80% Over 2.5 rate in their last five, averaging 3.0 total goals, while Bologna's away profile in the same period shows a 60% Over 2.5 rate and a 3.2 goal average. The structural clash between Bologna's possession and Sassuolo's counter-attacks points to transitions and chances. (2) DIRECTION EVIDENCE — The EdgeCalculator provides robust mathematical support for the Over direction, with eight Over markets showing positive edges ranging from 20.1% to 27.2%. The strongest consensus lies in the Over 2.25 Goals market, which carries a 20.1% edge. This aligns perfectly with the Tactician's 'more goals than average' prediction and the Archivist's data on the fixture's high-scoring nature. The Auditor explicitly recommended Over 2.25 Goals as the market best supported by both tactical narrative and historical baseline, avoiding the conflicted outcome markets. (3) AGENTS CONSENSUS — The Tactician, Archivist, and Auditor are aligned on a high-scoring match character. The EdgeCalculator's mathematical model provides overwhelming quantitative support for Over markets. The primary dissent comes from the Sceptic, who flagged the critical flaw in the Home Scout's win probability and the qualitative risk of Bologna's European distraction and low morale. The Away Scout also noted Bologna's defensive fragility away from home (conceding 1.29 per match), which further supports the Over thesis. The net signal is a clear statistical lean towards goals, tempered by qualitative uncertainty around team focus. (4) RISKS — The primary risk is Bologna's potential rotation and diminished intensity due to their crucial Europa League tie against AS Roma in four days, which could lead to a subdued, low-energy performance. Secondly, the Sceptic's flagged 'low morale' following Bologna's home defeat to Verona could manifest in a lack of attacking conviction. Finally, while the historical trend is for goals, a cautious, tactical stalemate is possible if both managers prioritise avoiding defeat over attacking intent, especially given the 40% historical draw rate.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "Bologna's potential rotation due to Europa League fixture in 4 days",
+      "Sceptic's report of low Bologna morale following recent home defeat"
+    ],
+    "score_away": 40.0,
+    "score_draw": 35.0,
+    "score_home": 25.0,
+    "selected_market": "Over 3.25 Goals",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "The Tactician, Archivist, and Auditor form a consensus around a high-scoring, open match, strongly supported by the EdgeCalculator's mathematical model. The Sceptic and Away Scout dissent on the certainty of the match outcome (Bologna win) but their notes on defensive fragility support the Over goals narrative. The Home Scout's analysis is critically flawed per the Sceptic and is discounted.",
+    "tribunal_consensus_level": "moderate"
+  }
+}

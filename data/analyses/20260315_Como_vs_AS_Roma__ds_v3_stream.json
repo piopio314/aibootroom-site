@@ -1,0 +1,162 @@
+{
+  "agents": {
+    "auditor": "",
+    "bookmaker": "",
+    "chairman": "",
+    "devil": "",
+    "historyk": "",
+    "scout_away": "",
+    "scout_home": "",
+    "scriptwriter": "",
+    "tactician": ""
+  },
+  "display_texts": {
+    "api_predictions": "API-Football prediction: Como | Probabilities: 35%-35%-30% | Recommendation: Double chance : Como or draw",
+    "away_form": "16W-3D-9L in 28 matches, last 5: WWLWW",
+    "away_injuries": "A. Dovbyk (Missing Fixture - Groin Injury), P. Dybala (Missing Fixture - Knee Injury), E. Ferguson (Missing Fixture - Ankle Injury), E. Ndicka (Missing Fixture - Yellow Cards), M. Soule (Missing Fixture - Groin Injury)",
+    "away_position": "#6 (51 pts, +17 GD)",
+    "away_stats": "38 goals in 28 matches (avg 1.4/match), 12 clean sheets",
+    "h2h_history": "Como 0-0 AS Roma (15 Mar 2026)\nAS Roma 1-0 Como (15 Dec 2025)\nAS Roma 2-1 Como (02 Mar 2025)\nComo 2-0 AS Roma (15 Dec 2024)",
+    "home_form": "14W-9D-5L in 28 matches, last 5: WLDWD",
+    "home_injuries": "J. Addai (Missing Fixture - Achilles Tendon Injury), M. Perrone (Questionable - Injury)",
+    "home_position": "#5 (51 pts, +25 GD)",
+    "home_stats": "46 goals in 28 matches (avg 1.6/match), 13 clean sheets",
+    "osint_signals": ""
+  },
+  "folder": "20260315_Como_vs_AS_Roma__ds_v3_stream",
+  "match": {
+    "away_id": 497,
+    "away_team": "AS Roma",
+    "date": "2026-03-15",
+    "home_id": 895,
+    "home_team": "Como",
+    "league": "Serie A"
+  },
+  "prediction": {
+    "_analyzer": "tribunal_v2",
+    "_direction": "over_goals",
+    "_direction_conviction": "strong",
+    "_direction_ev": 0.5184,
+    "_direction_picked": true,
+    "_direction_prob": 58.4,
+    "_model_key": "ds_v3_stream",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "alternative_markets": [
+      {
+        "confidence": 59,
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75"
+      },
+      {
+        "confidence": 58,
+        "market": "BTTS Yes",
+        "prediction": "Yes"
+      }
+    ],
+    "confidence": 61,
+    "confidence_gate": "APPROVE",
+    "direction": "over_goals",
+    "direction_conviction": "strong",
+    "edge_assessment": {
+      "edge_grade": "STRONG_VALUE",
+      "edge_source": "Quant Poisson probability minus market implied probability",
+      "selected_market_edge": 11.7,
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "edge": 20.1,
+          "market": "Over 3.25 Goals"
+        },
+        {
+          "edge": 19.9,
+          "market": "Over 2.75 Goals"
+        },
+        {
+          "edge": 19.5,
+          "market": "AH Away -0.75"
+        }
+      ]
+    },
+    "key_factors": [
+      "STRONG 86% profile convergence on Over 2.5 Goals from both teams' recent form",
+      "Quant's 11.7pp mathematical edge on Over 2.5, validated by the Auditor",
+      "Tactician's prediction of a 'transitional' match with more goals than historical average",
+      "Roma's critical attacking absences (Dybala) likely leading to a more open, less controlled game",
+      "Both teams exhibit potent late-game scoring patterns, concentrating threat in the final 30 minutes"
+    ],
+    "max_edge": 20.1,
+    "odds_target": 2.6,
+    "opportunity_score": 6.5,
+    "prediction": "Over 2.75 Goals",
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading profiles show a STRONG 86% convergence on Over 2.5 Goals, with both teams averaging high goal totals recently (Como 2.8, Roma 3.6 total goals per match). The Tactician predicts a 'transitional' game with 'more goals than the historical H2H average', moving away from the low-scoring historical pattern. (2) DIRECTION EVIDENCE — The Quant identifies an 11.7 percentage point edge on Over 2.5 Goals, with a Poisson probability of 60% versus a market-implied 48.3%. This is supported by the Auditor's validation and the EdgeCalculator's 'APPROVE' signal, which shows multiple Over markets with edges exceeding 17%. The tactical setup—Como's possession-based control against Roma's counter-attacking wing-backs—creates a dynamic conducive to goals, especially in the final 30 minutes where both teams are most potent. (3) AGENTS CONSENSUS — The Quant, Tactician, and cascading profiles are strongly aligned on an attacking, high-scoring match. The Sceptic's 'PROCEED' verdict and identification of the strong BTTS/Over convergence as a 'robust, data-supported signal' further supports this. The primary dissent comes from the Archivist's note of low-scoring historical H2H matches, but this is overridden by the powerful, recent form convergence and the current injury/fixture context. The net signal is overwhelmingly for goals. (4) RISKS — The main risk is Roma's potential for a heavily rotated or defensive lineup ahead of their Europa League tie, which could suppress their attacking output. Additionally, Como's recent dip in home shot metrics, as flagged by the Sceptic, could see them struggle to break down a deep Roma block. However, the sheer weight of statistical convergence and the mathematical edge provide a robust counter to these concerns.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "European fixture conflict for AS Roma introduces rotation risk (confidence capped at 55%)",
+      "Sceptic's challenge that Como's recent home attacking metrics have declined",
+      "Historical H2H pattern is low-scoring, though current context is vastly different"
+    ],
+    "score_away": 27.0,
+    "score_draw": 28.0,
+    "score_home": 45.0,
+    "selected_market": "Over 2.75 Goals",
+    "tier": "B",
+    "tier_color": "#3b82f6",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "The Quant, Tactician, and cascading form profiles are in strong agreement on an attacking, high-scoring match. The Sceptic supports proceeding and highlights the strong convergence data. The Archivist provides the only counter-narrative based on historical low scores, but this is outweighed by recent form evidence.",
+    "tribunal_consensus_level": "strong",
+    "value_bets": []
+  },
+  "script": {
+    "chapter_analysis": "The tactical and statistical synthesis points decisively away from history and towards a high-scoring encounter. The cascading team profiles show a powerful eighty-six percent convergence on Over 2.5 Goals. Como's recent matches average 2.8 total goals, while Roma's average 3.6. The Tactician predicts a 'transitional' match character, with Como's possession-based control clashing against Roma's counter-attacking wing-backs, creating a dynamic ripe for goals. This is amplified by a critical timing matchup: both teams exhibit their most potent threat in the final thirty minutes, a period where Roma's potential fatigue from congestion could be decisive. The Sceptic rightly challenged the assessment of Como's recent home dominance, noting declining shot metrics. However, this concern is overridden by the overwhelming statistical convergence and the mathematical edge. Roma's crippling injury to Dybala does not suppress the goal expectation—it likely leads to a less controlled, more open game as they scramble for solutions. The Archivist's note of low-scoring history is the counter-narrative, but the current context of form, fitness, and stakes is vastly different.",
+    "chapter_away": "AS Roma travel north with their European ambitions on the line, but their campaign is being derailed by a crisis. The long-term absence of Paulo Dybala following meniscus surgery has stripped them of their primary creative force and match-winner. Manager Gasperini has publicly acknowledged a frontline depth crisis, forcing a tactical reinvention. While they maintain a solid fifty percent away win rate and a defensive record conceding just 0.86 goals per match on the road, recent form tells a different story. Roma have managed just one win in their last four away trips, scoring a modest 1.40 goals per match in that stretch. Compounding this is severe fixture congestion—this is their third match in fourteen days, with a crucial Europa League knockout tie looming just four days later. The pressure is immense, and their 3-4-2-1 system must now find goals from somewhere other than its star.",
+    "chapter_history": "The head-to-head record paints a picture of tense, low-scoring affairs. Across four meetings, the average is just 1.5 goals per game, with only one of those clashes producing over 2.5 goals. AS Roma have won half of the encounters, including the last two. Yet, the most telling historical pattern is the complete absence of draws—every single meeting has produced a winner. This suggests a fixture where both teams historically play to win, a mentality that could lead to an open contest despite the low historical goal tally. Como will draw confidence from their sole victory: a convincing 2-0 home win. Tonight, with both sides locked on fifty-one points, that win-or-bust historical trend takes on even greater significance.",
+    "chapter_home": "Como arrive at this clash in formidable shape, riding a wave of three consecutive victories that has propelled them to fifth in Serie A. Managed by Cesc Fàbregas, they possess a potent late-game threat, with ten of their forty-six goals this season arriving between the seventy-sixth and ninetieth minutes. Their defensive solidity is a cornerstone, boasting thirteen clean sheets. However, a closer look reveals a slight dip in their recent home metrics. Their last three matches at the Stadio Giuseppe Sinigaglia show just one win, one draw, and one loss, with a decline in possession and shots on target. The squad is largely intact, with only two squad players absent, granting them a significant advantage: an extended eight-day rest period for optimal physical preparation. Their tactical setup in a 4-2-3-1 is designed for control, but the question is whether they can translate that control into clear chances against a top opponent.",
+    "chapter_value": "Our market: Over 2.75 Goals. The bookmakers have failed to price in the sheer weight of attacking convergence. The Quant's model identifies an 11.7 percentage point edge on the core Over 2.5 market, with a Poisson probability of sixty percent versus a market-implied forty-eight. This mathematical value is validated by the Auditor and is reflected in even stronger edges on higher lines. With odds at 2.6, the market implies a probability of just thirty-eight percent—a significant mis-pricing against our analysis. This is not a bet on a specific winner, but on the match profile itself: an attacking, high-stakes six-pointer where both teams' recent tendencies and the tactical setup point towards goals.",
+    "ending": "The verdict is clear. Forget the low-scoring history. Tonight's clash is defined by current momentum, critical absences, and a direct battle for Europe. The data convergence is too strong, the mathematical edge too clear. We project a match with three or more goals. Our market: Over 2.75 Goals at 2.6, with sixty-one percent confidence. Do you agree with the data? Can Roma defy their injury crisis, or will Como's home strength and superior preparation prevail? Let us know in the comments below, and for more data-driven football analysis, make sure to subscribe to AI Boot Room.",
+    "hook": "What happens when a team with formidable home momentum meets a European giant stripped of its creative core? This is more than just a Serie A match. This is a direct European qualification six-pointer, where two sides level on points collide with everything to gain. The history says low-scoring. The data screams otherwise. Tonight, we find out which narrative wins.",
+    "roundup_summary": "Como versus AS Roma. This Serie A fixture is a direct European qualification six-pointer, with both sides locked on fifty-one points. Como sit fifth with three consecutive wins overall, though their last three home matches show a more modest record of one win, one draw, and one loss. AS Roma are sixth, grappling with just one win in their last four away trips and a critical injury crisis. The visitors are also burdened by fixture congestion ahead of a Europa League tie.\n\nThe head-to-head history is sparse but points to low scores. In four meetings, the average is just 1.5 goals, with only one match exceeding 2.5 goals. Notably, there have been zero draws. This season, Como average 1.7 goals scored and 1.1 conceded per game, while Roma average 1.6 scored and 1.2 conceded on the road. The historical under trend is stark, but recent form suggests a dramatic shift.\n\nThe AI Boot Room analysis identifies a powerful eighty-six percent convergence from both teams' recent profiles on Over 2.5 Goals. The Quant's Poisson model gives a sixty percent probability for Over 2.5, creating an 11.7 percentage point edge over the market-implied forty-eight percent. This is supported by the Tactician's prediction of a 'transitional' match with more goals than the historical average. The Sceptic's concern about Como's declining home shot metrics is acknowledged but is outweighed by the overwhelming statistical signal and Roma's situation. The bookmaker has mis-priced the goal expectation, failing to account for Roma's injury-driven lack of control and both teams' potent late-game scoring patterns. The Auditor validates the core edge with an effective confidence of sixty-two percent.\n\nThe verdict targets the goal market. Our projection is for an open, high-stakes contest yielding three or more goals. The selected market is Over 2.75 Goals, available at odds of 2.6. The analysis carries a confidence level of sixty-one percent, based on the strong data convergence and identified value. AI Boot Room market: Over 2.75 Goals. Confidence: 61%.",
+    "title": "Como vs Roma: The European Six-Pointer Set to Explode"
+  },
+  "settlement": {
+    "market": "Over 2.75 Goals",
+    "pnl": 0.8,
+    "result": "2:1",
+    "settlement": "HALF_WIN",
+    "verified_at": "2026-03-15 19:58"
+  },
+  "verdict": {
+    "confidence": 61,
+    "key_factors": [
+      "STRONG 86% profile convergence on Over 2.5 Goals from both teams' recent form",
+      "Quant's 11.7pp mathematical edge on Over 2.5, validated by the Auditor",
+      "Tactician's prediction of a 'transitional' match with more goals than historical average",
+      "Roma's critical attacking absences (Dybala) likely leading to a more open, less controlled game",
+      "Both teams exhibit potent late-game scoring patterns, concentrating threat in the final 30 minutes"
+    ],
+    "odds_target": 2.6,
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING match. The cascading profiles show a STRONG 86% convergence on Over 2.5 Goals, with both teams averaging high goal totals recently (Como 2.8, Roma 3.6 total goals per match). The Tactician predicts a 'transitional' game with 'more goals than the historical H2H average', moving away from the low-scoring historical pattern. (2) DIRECTION EVIDENCE — The Quant identifies an 11.7 percentage point edge on Over 2.5 Goals, with a Poisson probability of 60% versus a market-implied 48.3%. This is supported by the Auditor's validation and the EdgeCalculator's 'APPROVE' signal, which shows multiple Over markets with edges exceeding 17%. The tactical setup—Como's possession-based control against Roma's counter-attacking wing-backs—creates a dynamic conducive to goals, especially in the final 30 minutes where both teams are most potent. (3) AGENTS CONSENSUS — The Quant, Tactician, and cascading profiles are strongly aligned on an attacking, high-scoring match. The Sceptic's 'PROCEED' verdict and identification of the strong BTTS/Over convergence as a 'robust, data-supported signal' further supports this. The primary dissent comes from the Archivist's note of low-scoring historical H2H matches, but this is overridden by the powerful, recent form convergence and the current injury/fixture context. The net signal is overwhelmingly for goals. (4) RISKS — The main risk is Roma's potential for a heavily rotated or defensive lineup ahead of their Europa League tie, which could suppress their attacking output. Additionally, Como's recent dip in home shot metrics, as flagged by the Sceptic, could see them struggle to break down a deep Roma block. However, the sheer weight of statistical convergence and the mathematical edge provide a robust counter to these concerns.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "European fixture conflict for AS Roma introduces rotation risk (confidence capped at 55%)",
+      "Sceptic's challenge that Como's recent home attacking metrics have declined",
+      "Historical H2H pattern is low-scoring, though current context is vastly different"
+    ],
+    "score_away": 27.0,
+    "score_draw": 28.0,
+    "score_home": 45.0,
+    "selected_market": "Over 2.75 Goals",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "The Quant, Tactician, and cascading form profiles are in strong agreement on an attacking, high-scoring match. The Sceptic supports proceeding and highlights the strong convergence data. The Archivist provides the only counter-narrative based on historical low scores, but this is outweighed by recent form evidence.",
+    "tribunal_consensus_level": "strong"
+  }
+}

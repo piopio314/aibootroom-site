@@ -1,0 +1,153 @@
+{
+  "agents": {
+    "auditor": "",
+    "bookmaker": "",
+    "chairman": "",
+    "devil": "",
+    "historyk": "",
+    "scout_away": "",
+    "scout_home": "",
+    "scriptwriter": "",
+    "tactician": ""
+  },
+  "display_texts": {
+    "api_predictions": "API-Football prediction: Palermo | Probabilities: 45%-45%-10% | Recommendation: Double chance : Palermo or draw",
+    "away_form": "9W-14D-7L in 30 matches, last 5: DDDWD",
+    "away_injuries": "No significant injuries",
+    "away_position": "#7 (41 pts, -2 GD)",
+    "away_stats": "33 goals in 30 matches (avg 1.1/match), 10 clean sheets",
+    "h2h_history": "Palermo 0-0 Juve Stabia (17 Mar 2026)\nJuve Stabia 1-0 Palermo (08 Nov 2025)\nJuve Stabia 1-0 Palermo (17 May 2025)\nPalermo 1-0 Juve Stabia (19 Jan 2025)\nJuve Stabia 1-3 Palermo (14 Sep 2024)",
+    "home_form": "16W-9D-5L in 30 matches, last 5: WDWWD",
+    "home_injuries": "No significant injuries",
+    "home_position": "#4 (57 pts, +24 GD)",
+    "home_stats": "49 goals in 30 matches (avg 1.6/match), 14 clean sheets",
+    "osint_signals": ""
+  },
+  "folder": "20260317_Palermo_vs_Juve_Stabia__ds_v3_stream",
+  "match": {
+    "away_id": 863,
+    "away_team": "Juve Stabia",
+    "date": "2026-03-17",
+    "home_id": 522,
+    "home_team": "Palermo",
+    "league": "Serie B"
+  },
+  "prediction": {
+    "_analyzer": "tribunal_v2",
+    "_direction": "home_value",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.47,
+    "_direction_picked": true,
+    "_direction_prob": 50.0,
+    "_model_key": "ds_v3_stream",
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "alternative_markets": [
+      {
+        "confidence": 54,
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75"
+      }
+    ],
+    "confidence": 61,
+    "confidence_gate": "APPROVE",
+    "direction": "home_value",
+    "direction_conviction": "moderate",
+    "edge_assessment": {
+      "edge_grade": "STRONG_VALUE",
+      "edge_source": "EdgeCalculator our_prob (85.0%) vs market implied probability (55.2%)",
+      "selected_market_edge": 29.8,
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "edge": 29.8,
+          "market": "AH Home -0.75"
+        },
+        {
+          "edge": 29.6,
+          "market": "AH Home -2.0"
+        },
+        {
+          "edge": 22.8,
+          "market": "AH Home -1.75"
+        }
+      ]
+    },
+    "key_factors": [
+      "Palermo's exceptional home record: 11 wins from 15, 10 clean sheets.",
+      "Juve Stabia's chronic away scoring issues and low win rate (20%).",
+      "EdgeCalculator's strong 29.8% mathematical edge on AH Home -0.75.",
+      "Tactical matchup favours Palermo's width and late-game pressure against Juve Stabia's second-half defensive fragility."
+    ],
+    "max_edge": 29.8,
+    "odds_target": 2.94,
+    "opportunity_score": 6.64,
+    "prediction": "AH Home -1.5",
+    "reasoning": "(1) MATCH CHARACTER — ASYMMETRIC. The data reveals a stark power imbalance. Palermo's home form is formidable: 11 wins from 15, conceding just 0.53 goals per game, with four consecutive home victories. Juve Stabia's away profile is weak: 20% win rate, chronic scoring issues (0.93 goals per away match), and a 40% Under 2.5 rate. The Tactician's analysis of a 'tight' match is about method, not outcome; the structural advantage lies decisively with the home side. (2) DIRECTION EVIDENCE — The EdgeCalculator provides a compelling 29.8% edge on AH Home -0.75, the strongest mathematical signal across all markets. This aligns with the Auditor's adjusted home win probability of 55% and the cascading profile convergence which shows Palermo's home win profile (3/5) versus Juve Stabia's away win profile (0/5). While the Quant's Poisson model shows no gap on AH lines, its 1X2 model is conflicted (45% home win vs market 62.1%), but the Auditor has corrected this sum error and the EdgeCalculator's 'our_prob' of 85% for the -0.75 line, while optimistic, is supported by venue-specific cover rates. (3) AGENTS CONSENSUS — The Home Scout, Away Scout, and Tactician all point toward a home advantage. The Sceptic's veto is not triggered (verdict: PROCEED), though they correctly challenge the 'rising' form narrative. The Auditor recommends the AH Home -0.75 market as the best mathematical option despite narrative tensions. The dissenting voice is the Quant's 1X2 away value bet, but this is based on a Poisson probability (30%) that the Auditor has adjusted down to 18% to reflect market reality and Sceptic caution. (4) RISKS — The primary risk is Palermo's potential post-defeat caution, as flagged by the Sceptic, leading to a tense, low-scoring affair that could see them win by only a single goal, failing to cover the -0.75 line. Juve Stabia's defensive 3-5-1-1 block and draw resilience (60% in last 5) could frustrate. Unknown injury status for key players adds a minor layer of uncertainty.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "Palermo's potential for a cautious start following their 3-0 defeat to Monza.",
+      "Juve Stabia's defensive block and high draw tendency could limit the margin of victory."
+    ],
+    "score_away": 18.0,
+    "score_draw": 27.0,
+    "score_home": 55.0,
+    "selected_market": "AH Home -1.5",
+    "tier": "B",
+    "tier_color": "#3b82f6",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "The Home Scout, Away Scout, Tactician, and Auditor align in supporting a home advantage, with the EdgeCalculator providing strong mathematical backing. The Sceptic raises valid concerns about form but does not veto. The primary dissent comes from the Quant's 1X2 away value bet, which is based on a Poisson probability significantly higher than the Auditor's adjusted figure.",
+    "tribunal_consensus_level": "moderate",
+    "value_bets": []
+  },
+  "script": {
+    "chapter_analysis": "The tactical matchup is a classic clash of styles. Palermo's 3-4-2-1, with its wing-backs and dual attacking midfielders, seeks to create overloads in wide areas against Juve Stabia's five-man midfield. The key battle will be whether Palermo's width can stretch Stabia's compact block. The visitors' numerical superiority in central midfield aims to smother Palermo's build-up, forcing them into the wide play that OSINT suggests is a vulnerability against organised defences. The most critical timing matchup emerges in the final fifteen minutes. Palermo's exceptional late-game scoring—thirteen goals in the 76-90 minute period—directly targets Juve Stabia's key defensive weakness, where they have conceded eight goals in the same window. The Sceptic forcefully challenged the Home Scout's characterisation of 'rising' form, pointing to a clear decreasing scoring trend and the psychological blow of the three-nil defeat to Monza. This caution is valid—it suggests Palermo may start nervously. However, the collective intelligence from the Home Scout, Away Scout, and Tactician converges on a decisive structural advantage for the home side. The Quant's Poisson model showed no value on Asian Handicap lines, but the EdgeCalculator identified a powerful 29.8 percent edge on the AH Home -0.75 market, the strongest mathematical signal available. While the Tactician predicts a 'tight' match, the analysis concludes that Palermo's home power and late-game surge capability are too potent for a chronically goal-shy away side.",
+    "chapter_away": "Juve Stabia travel not to conquer, but to survive. In seventh place, their away identity is one of chronic frustration for opponents. They have won just twenty percent of their away matches, failing to score in six of fifteen. Their tactical blueprint is a defensive 3-5-1-1 block, engineered to congest the middle and limit space. Manager Abate's recent public call for defensive stability—'Blindiamo la serie B'—underscores a survival mindset, not an attacking one. Their strengths are rooted in resilience: they have drawn six of fifteen away matches and show late defensive concentration, conceding only four goals in the first thirty minutes on the road. Yet their weaknesses are glaring. They average just 0.93 goals per away match and exhibit second-half fragility, conceding sixteen goals between minutes forty-six and ninety. Their recent form shows zero wins in their last five matches across all venues, with just three goals scored in that run. They are draw specialists in a match where a draw feels like a victory.",
+    "chapter_history": "History paints a picture of Palermo dominance, but recent meetings have flipped the script. Palermo have won half of all encounters, losing just three of ten. The average goals per meeting is a moderate 2.2. However, Juve Stabia are unbeaten in the last two fixtures, winning both by a single one-nil scoreline. The most recent meeting was a fiery, ill-tempered affair, with Palermo receiving seven yellow cards and a late red card in that narrow defeat. While Palermo have scored in eight of the last ten clashes, Juve Stabia have recently found a formula to shut them out. This provides the visitors with a tangible psychological edge and a clear tactical blueprint, even as the long-term record heavily favours the hosts.",
+    "chapter_home": "Palermo are a fortress under construction. Sitting fourth in Serie B, their promotion push is fuelled by the league's second-highest wage bill and a formidable home record: eleven wins from fifteen matches, with ten clean sheets. They concede just 0.53 goals per game at the Stadio Renzo Barbera. Their tactical identity is clear: a 3-4-2-1 system designed to stretch play and apply relentless late pressure. Thirteen of their forty-nine goals this season have come in the final fifteen minutes, a testament to their fitness and mental strength. However, the narrative is not flawless. Their most recent outing was a comprehensive three-nil defeat away to Monza, a result that raises questions about defensive solidity against direct rivals. OSINT intelligence also flags a tactical vulnerability against compact, deep-lying defences—precisely what they will face today. With no confirmed injury data, squad depth of twenty-eight suggests good cover, but the psychological impact of that heavy loss lingers. The pressure is immense in the 'magnifiche quattro' promotion race, and how they respond defines their season.",
+    "chapter_value": "Our market: Asian Handicap Home -1.5. The bookmakers offer odds of 2.94. This line requires Palermo to win by two or more goals. The Auditor's adjusted probabilities give Palermo a 55 percent chance of victory, with the draw at 27 percent and an away win at just 18 percent. The EdgeCalculator shows a 16 percent positive edge on this specific line, supported by Palermo's formidable home cover rates. The risk is clear: Juve Stabia's defensive block and high draw tendency could limit the margin to a single goal. But the data narrative points to the home side's quality and timing advantage breaking through that resistance.",
+    "ending": "The verdict from the AI Boot Room is a calculated move on Palermo's ability to translate home dominance into a clear margin of victory. We are taking Asian Handicap Home -1.5 at 2.94, with 61 percent confidence. The fortress has been tested, but its foundations—eleven home wins, ten clean sheets, and a relentless late surge—are built to withstand the siege of a draw specialist. The promotion race demands a statement, and Palermo are poised to deliver it. If you want this level of forensic match analysis for every major league, make sure to subscribe to the AI Boot Room channel. Turn on notifications so you never miss a verdict.",
+    "hook": "What happens when a promotion fortress, psychologically bruised by a three-nil defeat, faces a side whose entire identity is built on one thing—not losing? Palermo have won eleven of fifteen at home, conceding barely half a goal per game. Yet Juve Stabia arrive with a blueprint for survival, drawing sixty percent of their last five matches. This is not just a match—it's a test of ambition against stubbornness.",
+    "roundup_summary": "Palermo versus Juve Stabia. Fourth hosts seventh in a Serie B clash with starkly contrasting ambitions. Palermo's form shows four wins in their last five home matches, though they arrive off a 3-0 away defeat to Monza. Juve Stabia's away form is poor, with just one win in their last five on the road and three draws in that sequence. A key absence for the hosts is unknown, with no injury data provided for either side.\n\nThe head-to-head record shows Palermo's historical dominance, but Juve Stabia have won the last two encounters, both 1-0, in 2023 and 2024. Meetings average 2.2 goals. This season, Palermo score 1.63 goals per game and concede 1.07, while Juve Stabia score 1.17 and concede 1.27. Recent H2H trends show a 40% rate for Both Teams to Score.\n\nThe AI Boot Room analysis identifies a 16.0% edge on the AH Home -1.5 line, derived from the EdgeCalculator's assessment. The Quant's Poisson model showed a zero percentage point gap on all Asian Handicap lines, but the EdgeCalculator's venue-specific analysis and our probability of 50.0% versus the market's implied 34.0% reveals the mis-pricing. The Sceptic's serious concern was the Home Scout's flawed 'rising' form narrative, which ignored a decreasing scoring trend and a heavy recent defeat. This was rejected because the structural home advantage—Palermo's 73% home win rate and 10 clean sheets versus Juve Stabia's 20% away win rate and chronic scoring issues—overwhelms recent psychological factors. The Auditor's effective confidence was 62%, validating the direction. The bookmaker has mis-priced the likelihood of a Palermo victory by a multi-goal margin, underestimating the clash between a late-game scoring machine and a second-half defensive fragility.\n\nOur market is Asian Handicap Home -1.5 at odds of 2.94. This requires Palermo to win by two or more goals, a scenario supported by their home dominance and Juve Stabia's away impotence. The confidence level is 61 percent. AI Boot Room market: AH Home -1.5. Confidence: 61%.",
+    "title": "Palermo's Fortress vs Stabia's Draw Machine"
+  },
+  "settlement": {
+    "market": "",
+    "pnl": 0.0,
+    "result": "",
+    "settlement": "PENDING",
+    "verified_at": ""
+  },
+  "verdict": {
+    "confidence": 61,
+    "key_factors": [
+      "Palermo's exceptional home record: 11 wins from 15, 10 clean sheets.",
+      "Juve Stabia's chronic away scoring issues and low win rate (20%).",
+      "EdgeCalculator's strong 29.8% mathematical edge on AH Home -0.75.",
+      "Tactical matchup favours Palermo's width and late-game pressure against Juve Stabia's second-half defensive fragility."
+    ],
+    "odds_target": 2.94,
+    "reasoning": "(1) MATCH CHARACTER — ASYMMETRIC. The data reveals a stark power imbalance. Palermo's home form is formidable: 11 wins from 15, conceding just 0.53 goals per game, with four consecutive home victories. Juve Stabia's away profile is weak: 20% win rate, chronic scoring issues (0.93 goals per away match), and a 40% Under 2.5 rate. The Tactician's analysis of a 'tight' match is about method, not outcome; the structural advantage lies decisively with the home side. (2) DIRECTION EVIDENCE — The EdgeCalculator provides a compelling 29.8% edge on AH Home -0.75, the strongest mathematical signal across all markets. This aligns with the Auditor's adjusted home win probability of 55% and the cascading profile convergence which shows Palermo's home win profile (3/5) versus Juve Stabia's away win profile (0/5). While the Quant's Poisson model shows no gap on AH lines, its 1X2 model is conflicted (45% home win vs market 62.1%), but the Auditor has corrected this sum error and the EdgeCalculator's 'our_prob' of 85% for the -0.75 line, while optimistic, is supported by venue-specific cover rates. (3) AGENTS CONSENSUS — The Home Scout, Away Scout, and Tactician all point toward a home advantage. The Sceptic's veto is not triggered (verdict: PROCEED), though they correctly challenge the 'rising' form narrative. The Auditor recommends the AH Home -0.75 market as the best mathematical option despite narrative tensions. The dissenting voice is the Quant's 1X2 away value bet, but this is based on a Poisson probability (30%) that the Auditor has adjusted down to 18% to reflect market reality and Sceptic caution. (4) RISKS — The primary risk is Palermo's potential post-defeat caution, as flagged by the Sceptic, leading to a tense, low-scoring affair that could see them win by only a single goal, failing to cover the -0.75 line. Juve Stabia's defensive 3-5-1-1 block and draw resilience (60% in last 5) could frustrate. Unknown injury status for key players adds a minor layer of uncertainty.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "Palermo's potential for a cautious start following their 3-0 defeat to Monza.",
+      "Juve Stabia's defensive block and high draw tendency could limit the margin of victory."
+    ],
+    "score_away": 18.0,
+    "score_draw": 27.0,
+    "score_home": 55.0,
+    "selected_market": "AH Home -1.5",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "The Home Scout, Away Scout, Tactician, and Auditor align in supporting a home advantage, with the EdgeCalculator providing strong mathematical backing. The Sceptic raises valid concerns about form but does not veto. The primary dissent comes from the Quant's 1X2 away value bet, which is based on a Poisson probability significantly higher than the Auditor's adjusted figure.",
+    "tribunal_consensus_level": "moderate"
+  }
+}
