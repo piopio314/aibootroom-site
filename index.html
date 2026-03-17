@@ -464,8 +464,8 @@ a { color: inherit; text-decoration: none; }
       <h2 class="section-title">Latest Videos</h2>
       <a href="https://www.youtube.com/@AiBootRoom" target="_blank" class="see-all">All on YouTube →</a>
     </div>
-    <div class="videos-grid" x-show="videos.length>0">
-      <template x-for="video in videos.slice(0,6)" :key="video.folder">
+    <div class="videos-grid" x-show="videos.filter(v=>v.youtube_id).length>0">
+      <template x-for="video in videos.filter(v=>v.youtube_id).slice(0,6)" :key="video.folder">
         <div class="video-card">
           <!-- Thumbnail / click-to-play -->
           <div class="video-thumb"
@@ -504,7 +504,7 @@ a { color: inherit; text-decoration: none; }
         </div>
       </template>
     </div>
-    <div class="empty-state" x-show="videos.length===0&&!loading">
+    <div class="empty-state" x-show="videos.filter(v=>v.youtube_id).length===0&&!loading">
       <div class="empty-icon">🎬</div><div>No compilations yet.</div>
     </div>
   </div>
