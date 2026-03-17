@@ -182,21 +182,24 @@ a { color: inherit; text-decoration: none; }
 .league-yield { text-align: right; font-weight: 700; }
 
 /* ── VIDEOS ── */
-.videos-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+.videos-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 20px; }
 .video-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; transition: border-color 0.2s, transform 0.2s; }
 .video-card:hover { border-color: var(--accent); transform: translateY(-2px); }
-.video-thumb { position: relative; aspect-ratio: 16/9; background: var(--bg3); overflow: hidden; }
-.video-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.video-thumb { position: relative; aspect-ratio: 16/9; background: var(--bg3); overflow: hidden; cursor: pointer; }
+.video-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .video-thumb-ph { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--bg3), var(--bg4)); color: var(--muted); font-size: 2rem; }
-.play-overlay   { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3); opacity: 0; transition: opacity 0.2s; }
-.video-card:hover .play-overlay { opacity: 1; }
-.play-btn { width: 48px; height: 48px; background: #f59e0b; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1rem; color: #000; font-weight: 900; }
+.play-overlay   { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.25); opacity: 1; transition: background 0.2s; }
+.video-thumb:hover .play-overlay { background: rgba(0,0,0,0.45); }
+.play-btn { width: 56px; height: 56px; background: #f59e0b; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; color: #000; font-weight: 900; box-shadow: 0 4px 16px rgba(0,0,0,0.5); transition: transform 0.15s; }
+.video-thumb:hover .play-btn { transform: scale(1.12); }
+.video-embed { position: relative; aspect-ratio: 16/9; background: #000; }
+.video-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: none; }
 .video-body { padding: 16px; }
 .video-date  { font-size: 0.72rem; color: var(--muted); margin-bottom: 6px; }
 .video-title { font-weight: 600; font-size: 0.9rem; line-height: 1.4; margin-bottom: 10px; }
 .video-meta  { display: flex; gap: 10px; align-items: center; }
-.btn-watch { margin-left: auto; background: #f59e0b; color: #000; padding: 5px 14px; border-radius: 6px; font-size: 0.78rem; font-weight: 800; }
-.btn-watch:hover { opacity: 0.85; }
+.btn-watch { margin-left: auto; background: transparent; color: var(--accent); border: 1px solid var(--accent); padding: 4px 12px; border-radius: 6px; font-size: 0.78rem; font-weight: 700; }
+.btn-watch:hover { background: var(--accent); color: #000; }
 
 /* ── TWEETS ── */
 .tweets-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
@@ -464,22 +467,34 @@ a { color: inherit; text-decoration: none; }
     <div class="videos-grid" x-show="videos.length>0">
       <template x-for="video in videos.slice(0,6)" :key="video.folder">
         <div class="video-card">
-          <a :href="video.youtube_url||'#'" :target="video.youtube_url?'_blank':''" class="video-thumb">
-            <template x-if="video.youtube_id">
-              <img :src="'https://img.youtube.com/vi/'+video.youtube_id+'/mqdefault.jpg'" :alt="video.title" loading="lazy">
-            </template>
-            <template x-if="!video.youtube_id">
-              <div class="video-thumb-ph">⚽</div>
-            </template>
-            <div class="play-overlay" x-show="video.youtube_url"><div class="play-btn">▶</div></div>
-          </a>
+          <!-- Thumbnail / click-to-play -->
+          <div class="video-thumb"
+               x-show="playingVideo !== video.folder"
+               @click="video.youtube_id && (playingVideo = video.folder)">
+            <img x-show="!!video.youtube_id"
+                 :src="video.youtube_id ? 'https://img.youtube.com/vi/'+video.youtube_id+'/hqdefault.jpg' : ''"
+                 :alt="video.title" loading="lazy">
+            <div class="video-thumb-ph" x-show="!video.youtube_id">⚽</div>
+            <div class="play-overlay" x-show="!!video.youtube_id">
+              <div class="play-btn">▶</div>
+            </div>
+          </div>
+          <!-- YouTube embed (loaded on click) -->
+          <div class="video-embed" x-show="playingVideo === video.folder">
+            <iframe
+              :src="playingVideo === video.folder && video.youtube_id
+                ? 'https://www.youtube.com/embed/'+video.youtube_id+'?autoplay=1&rel=0&modestbranding=1'
+                : 'about:blank'"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
           <div class="video-body">
             <div class="video-date"  x-text="video.date_display||video.date"></div>
             <div class="video-title" x-text="video.title"></div>
             <div class="video-meta">
               <span style="font-size:0.78rem;color:var(--muted);" x-text="video.match_count+' picks'"></span>
               <template x-if="video.youtube_url">
-                <a :href="video.youtube_url" target="_blank" class="btn-watch">▶ Watch</a>
+                <a :href="video.youtube_url" target="_blank" class="btn-watch">↗ YouTube</a>
               </template>
               <template x-if="!video.youtube_url">
                 <span style="font-size:0.72rem;color:var(--muted);margin-left:auto;">Processing…</span>
@@ -670,6 +685,7 @@ function abrApp() {
     lastUpdate: '',
     modal: { open:false, loading:false, data:null, tab:'overview' },
     _analysisCache: {},
+    playingVideo: null,
 
     async init() {
       try {
