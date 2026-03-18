@@ -1,27 +1,19 @@
 {
   "stats": {
-    "avg_odds": 2.45,
+    "avg_odds": 2.51,
     "half_losses": 0,
-    "half_wins": 3,
-    "losses": 6,
-    "n_picks": 14,
+    "half_wins": 4,
+    "losses": 12,
+    "n_picks": 21,
     "pushes": 0,
     "streak": 2,
     "streak_type": "L",
-    "total_pnl": 2.95,
-    "win_rate": 46.4,
+    "total_pnl": -2.12,
+    "win_rate": 33.3,
     "wins": 5,
-    "yield_pct": 21.1
+    "yield_pct": -10.1
   },
   "ticker": [
-    {
-      "market": "AH Home 0.25",
-      "match": "Arka Gdynia vs Widzew Łódź",
-      "odds": 1.93,
-      "pnl": "+0.47u",
-      "result": "½ WIN",
-      "result_class": "win"
-    },
     {
       "market": "Over 3.25 Goals",
       "match": "Sassuolo vs Bologna",
@@ -125,9 +117,215 @@
       "pnl": "-1.00u",
       "result": "LOSE",
       "result_class": "lose"
+    },
+    {
+      "market": "AH Away 0.5",
+      "match": "Jagiellonia vs GKS Katowice",
+      "odds": 2.14,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "AH Home -1.5",
+      "match": "Palermo vs Juve Stabia",
+      "odds": 2.94,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "Over 2.75 Goals",
+      "match": "Reggiana vs Monza",
+      "odds": 2.52,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "AH Away 1.25",
+      "match": "Venezia vs Padova",
+      "odds": 2.46,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "Under 2.25 Goals",
+      "match": "Arsenal vs Bayer Leverkusen",
+      "odds": 2.86,
+      "pnl": "+0.93u",
+      "result": "½ WIN",
+      "result_class": "win"
+    },
+    {
+      "market": "AH Away -0.25",
+      "match": "Watford vs Wrexham",
+      "odds": 2.78,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "AH Away 0.5",
+      "match": "Sporting CP vs Bodo/Glimt",
+      "odds": 2.7,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
     }
   ],
   "picks": [
+    {
+      "away_team": "Atletico Madrid",
+      "confidence": 46,
+      "date": "2026-03-18",
+      "folder": "20260318_Tottenham_vs_Atletico_Madrid__ds_v3_stream",
+      "home_team": "Tottenham",
+      "is_bet": true,
+      "league": "UEFA Champions League",
+      "market": "Over 3.25 Goals",
+      "odds": 2.38,
+      "pnl": 0.0,
+      "score": "",
+      "settlement": "PENDING",
+      "tweet_id": "2034173985240363120"
+    },
+    {
+      "away_team": "Norwich",
+      "confidence": 0,
+      "date": "2026-03-18",
+      "folder": "20260318_Southampton_vs_Norwich__ds_v3_stream",
+      "home_team": "Southampton",
+      "is_bet": false,
+      "league": "Championship",
+      "market": "NO_BET",
+      "odds": 0,
+      "pnl": 0.0,
+      "score": "",
+      "settlement": "PENDING",
+      "tweet_id": ""
+    },
+    {
+      "away_team": "Ferencvarosi TC",
+      "confidence": 0,
+      "date": "2026-03-18",
+      "folder": "20260318_SC_Braga_vs_Ferencvarosi_TC__ds_v3_stream",
+      "home_team": "SC Braga",
+      "is_bet": false,
+      "league": "UEFA Europa League",
+      "market": "NO_BET",
+      "odds": 0,
+      "pnl": 0.0,
+      "score": "",
+      "settlement": "PENDING",
+      "tweet_id": ""
+    },
+    {
+      "away_team": "Virtus Entella",
+      "confidence": 63,
+      "date": "2026-03-18",
+      "folder": "20260318_Pescara_vs_Virtus_Entella__ds_v3_stream",
+      "home_team": "Pescara",
+      "is_bet": true,
+      "league": "Serie B",
+      "market": "Over 2.75 Goals",
+      "odds": 2.21,
+      "pnl": 0.0,
+      "score": "",
+      "settlement": "PENDING",
+      "tweet_id": "2034173980634915202"
+    },
+    {
+      "away_team": "Galatasaray",
+      "confidence": 0,
+      "date": "2026-03-18",
+      "folder": "20260318_Liverpool_vs_Galatasaray__ds_v3_stream",
+      "home_team": "Liverpool",
+      "is_bet": false,
+      "league": "UEFA Champions League",
+      "market": "NO_BET",
+      "odds": 0,
+      "pnl": 0.0,
+      "score": "",
+      "settlement": "PENDING",
+      "tweet_id": ""
+    },
+    {
+      "away_team": "Bari",
+      "confidence": 61,
+      "date": "2026-03-18",
+      "folder": "20260318_Frosinone_vs_Bari__ds_v3_stream",
+      "home_team": "Frosinone",
+      "is_bet": true,
+      "league": "Serie B",
+      "market": "AH Away 1.25",
+      "odds": 1.88,
+      "pnl": 0.0,
+      "score": "",
+      "settlement": "PENDING",
+      "tweet_id": "2034173968802861090"
+    },
+    {
+      "away_team": "Sampdoria",
+      "confidence": 0,
+      "date": "2026-03-18",
+      "folder": "20260318_Carrarese_vs_Sampdoria__ds_v3_stream",
+      "home_team": "Carrarese",
+      "is_bet": false,
+      "league": "Serie B",
+      "market": "NO_BET",
+      "odds": 0,
+      "pnl": 0.0,
+      "score": "",
+      "settlement": "PENDING",
+      "tweet_id": ""
+    },
+    {
+      "away_team": "Atalanta",
+      "confidence": 0,
+      "date": "2026-03-18",
+      "folder": "20260318_Bayern_München_vs_Atalanta__ds_v3_stream",
+      "home_team": "Bayern München",
+      "is_bet": false,
+      "league": "UEFA Champions League",
+      "market": "NO_BET",
+      "odds": 0,
+      "pnl": 0.0,
+      "score": "",
+      "settlement": "PENDING",
+      "tweet_id": ""
+    },
+    {
+      "away_team": "Newcastle",
+      "confidence": 0,
+      "date": "2026-03-18",
+      "folder": "20260318_Barcelona_vs_Newcastle__ds_v3_stream",
+      "home_team": "Barcelona",
+      "is_bet": false,
+      "league": "UEFA Champions League",
+      "market": "NO_BET",
+      "odds": 0,
+      "pnl": 0.0,
+      "score": "",
+      "settlement": "PENDING",
+      "tweet_id": ""
+    },
+    {
+      "away_team": "Sudtirol",
+      "confidence": 63,
+      "date": "2026-03-18",
+      "folder": "20260318_Avellino_vs_Sudtirol__ds_v3_stream",
+      "home_team": "Avellino",
+      "is_bet": true,
+      "league": "Serie B",
+      "market": "Under 1.75 Goals",
+      "odds": 2.6,
+      "pnl": 0.0,
+      "score": "",
+      "settlement": "PENDING",
+      "tweet_id": "2034173946359161259"
+    },
     {
       "away_team": "Wrexham",
       "confidence": 53,
@@ -138,9 +336,9 @@
       "league": "Championship",
       "market": "AH Away -0.25",
       "odds": 2.78,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "3:1",
+      "settlement": "LOSE",
       "tweet_id": "2033813473998618664"
     },
     {
@@ -153,9 +351,9 @@
       "league": "Serie B",
       "market": "AH Away 1.25",
       "odds": 2.46,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "3:1",
+      "settlement": "LOSE",
       "tweet_id": "2033813527924707725"
     },
     {
@@ -168,9 +366,9 @@
       "league": "UEFA Champions League",
       "market": "AH Away 0.5",
       "odds": 2.7,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "3:0",
+      "settlement": "LOSE",
       "tweet_id": "2033822473536283115"
     },
     {
@@ -184,7 +382,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "1:1",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -198,9 +396,9 @@
       "league": "Serie B",
       "market": "Over 2.75 Goals",
       "odds": 2.52,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "0:0",
+      "settlement": "LOSE",
       "tweet_id": "2033822501961081235"
     },
     {
@@ -213,9 +411,9 @@
       "league": "Serie B",
       "market": "AH Home -1.5",
       "odds": 2.94,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "2:2",
+      "settlement": "LOSE",
       "tweet_id": "2033822509225701689"
     },
     {
@@ -229,7 +427,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "3:0",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -244,7 +442,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "1:2",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -258,9 +456,9 @@
       "league": "Ekstraklasa",
       "market": "AH Away 0.5",
       "odds": 2.14,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "2:1",
+      "settlement": "LOSE",
       "tweet_id": "2033822524786503986"
     },
     {
@@ -274,7 +472,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "0:3",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -303,9 +501,9 @@
       "league": "UEFA Champions League",
       "market": "Under 2.25 Goals",
       "odds": 2.86,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": 0.93,
+      "score": "2:0",
+      "settlement": "HALF_WIN",
       "tweet_id": "2033822535700124126"
     },
     {
@@ -836,6 +1034,50 @@
   ],
   "videos": [
     {
+      "date": "20260318",
+      "date_display": "18 Mar 2026",
+      "folder": "20260318_4picks_e4f287",
+      "match_count": 4,
+      "matches": [
+        {
+          "away": "Atletico Madrid",
+          "confidence": 46,
+          "home": "Tottenham",
+          "league": "UEFA Champions League",
+          "odds": 2.38,
+          "prediction": "Over 3.25 Goals"
+        },
+        {
+          "away": "Sudtirol",
+          "confidence": 63,
+          "home": "Avellino",
+          "league": "Serie B",
+          "odds": 2.6,
+          "prediction": "Under 1.75 Goals"
+        },
+        {
+          "away": "Virtus Entella",
+          "confidence": 63,
+          "home": "Pescara",
+          "league": "Serie B",
+          "odds": 2.21,
+          "prediction": "Over 2.75 Goals"
+        },
+        {
+          "away": "Bari",
+          "confidence": 61,
+          "home": "Frosinone",
+          "league": "Serie B",
+          "odds": 1.88,
+          "prediction": "AH Away 1.25"
+        }
+      ],
+      "title": "4 Football Tips — 18 Mar 2026",
+      "uploaded": false,
+      "youtube_id": "",
+      "youtube_url": ""
+    },
+    {
       "date": "20260317",
       "date_display": "17 Mar 2026",
       "folder": "20260317_7picks_160443",
@@ -984,6 +1226,30 @@
       },
       {
         "half_losses": 0,
+        "half_wins": 0,
+        "league": "Serie B",
+        "losses": 3,
+        "n": 3,
+        "pnl": -3.0,
+        "pushes": 0,
+        "win_rate": 0.0,
+        "wins": 0,
+        "yield_pct": -100.0
+      },
+      {
+        "half_losses": 0,
+        "half_wins": 1,
+        "league": "Ekstraklasa",
+        "losses": 1,
+        "n": 2,
+        "pnl": -0.53,
+        "pushes": 0,
+        "win_rate": 25.0,
+        "wins": 0,
+        "yield_pct": -26.7
+      },
+      {
+        "half_losses": 0,
         "half_wins": 1,
         "league": "Serie A",
         "losses": 1,
@@ -1008,23 +1274,11 @@
       },
       {
         "half_losses": 0,
-        "half_wins": 1,
-        "league": "Ekstraklasa",
-        "losses": 0,
-        "n": 1,
-        "pnl": 0.47,
-        "pushes": 0,
-        "win_rate": 50.0,
-        "wins": 0,
-        "yield_pct": 46.5
-      },
-      {
-        "half_losses": 0,
         "half_wins": 0,
-        "league": "Ligue 2",
-        "losses": 1,
-        "n": 1,
-        "pnl": -1.0,
+        "league": "Championship",
+        "losses": 2,
+        "n": 2,
+        "pnl": -2.0,
         "pushes": 0,
         "win_rate": 0.0,
         "wins": 0,
@@ -1032,8 +1286,20 @@
       },
       {
         "half_losses": 0,
+        "half_wins": 1,
+        "league": "UEFA Champions League",
+        "losses": 1,
+        "n": 2,
+        "pnl": -0.07,
+        "pushes": 0,
+        "win_rate": 25.0,
+        "wins": 0,
+        "yield_pct": -3.5
+      },
+      {
+        "half_losses": 0,
         "half_wins": 0,
-        "league": "Championship",
+        "league": "Ligue 2",
         "losses": 1,
         "n": 1,
         "pnl": -1.0,
@@ -1053,12 +1319,12 @@
       },
       {
         "label": "W/E 22 Mar",
-        "n": 2,
-        "pnl": -2.0,
+        "n": 9,
+        "pnl": -7.07,
         "week": "2026-W12",
-        "yield_pct": -100.0
+        "yield_pct": -78.6
       }
     ]
   },
-  "generated_at": "2026-03-17T18:07:39.318204+00:00"
+  "generated_at": "2026-03-18T10:58:14.553237+00:00"
 }
