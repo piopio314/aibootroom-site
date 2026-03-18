@@ -1,27 +1,19 @@
 {
   "stats": {
-    "avg_odds": 2.51,
+    "avg_odds": 2.48,
     "half_losses": 0,
-    "half_wins": 4,
+    "half_wins": 5,
     "losses": 12,
-    "n_picks": 21,
+    "n_picks": 22,
     "pushes": 0,
-    "streak": 2,
-    "streak_type": "L",
-    "total_pnl": -2.12,
-    "win_rate": 33.3,
+    "streak": 1,
+    "streak_type": "W",
+    "total_pnl": -1.68,
+    "win_rate": 34.1,
     "wins": 5,
-    "yield_pct": -10.1
+    "yield_pct": -7.6
   },
   "ticker": [
-    {
-      "market": "Over 3.25 Goals",
-      "match": "Sassuolo vs Bologna",
-      "odds": 3.2,
-      "pnl": "-1.00u",
-      "result": "LOSE",
-      "result_class": "lose"
-    },
     {
       "market": "AH Away 0.5",
       "match": "Strasbourg vs Paris FC",
@@ -173,6 +165,14 @@
       "pnl": "-1.00u",
       "result": "LOSE",
       "result_class": "lose"
+    },
+    {
+      "market": "AH Away 1.25",
+      "match": "Frosinone vs Bari",
+      "odds": 1.88,
+      "pnl": "+0.44u",
+      "result": "½ WIN",
+      "result_class": "win"
     }
   ],
   "picks": [
@@ -217,7 +217,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "4:0",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -261,9 +261,9 @@
       "league": "Serie B",
       "market": "AH Away 1.25",
       "odds": 1.88,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": 0.44,
+      "score": "2:1",
+      "settlement": "HALF_WIN",
       "tweet_id": "2034173968802861090"
     },
     {
@@ -307,7 +307,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "7:2",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -1072,10 +1072,10 @@
           "prediction": "AH Away 1.25"
         }
       ],
-      "title": "4 Football Tips — 18 Mar 2026",
-      "uploaded": false,
-      "youtube_id": "",
-      "youtube_url": ""
+      "title": "Tottenham vs Atletico Madrid + 3 More | Football Tips Today | AI Boot Room",
+      "uploaded": true,
+      "youtube_id": "9pigARHmVYI",
+      "youtube_url": "https://www.youtube.com/watch?v=9pigARHmVYI"
     },
     {
       "date": "20260317",
@@ -1214,6 +1214,18 @@
       },
       {
         "half_losses": 0,
+        "half_wins": 1,
+        "league": "Serie B",
+        "losses": 3,
+        "n": 4,
+        "pnl": -2.56,
+        "pushes": 0,
+        "win_rate": 12.5,
+        "wins": 0,
+        "yield_pct": -64.0
+      },
+      {
+        "half_losses": 0,
         "half_wins": 0,
         "league": "Segunda División",
         "losses": 1,
@@ -1223,18 +1235,6 @@
         "win_rate": 66.7,
         "wins": 2,
         "yield_pct": 49.3
-      },
-      {
-        "half_losses": 0,
-        "half_wins": 0,
-        "league": "Serie B",
-        "losses": 3,
-        "n": 3,
-        "pnl": -3.0,
-        "pushes": 0,
-        "win_rate": 0.0,
-        "wins": 0,
-        "yield_pct": -100.0
       },
       {
         "half_losses": 0,
@@ -1319,12 +1319,12 @@
       },
       {
         "label": "W/E 22 Mar",
-        "n": 9,
-        "pnl": -7.07,
+        "n": 10,
+        "pnl": -6.63,
         "week": "2026-W12",
-        "yield_pct": -78.6
+        "yield_pct": -66.3
       }
     ]
   },
-  "generated_at": "2026-03-18T10:58:14.553237+00:00"
+  "generated_at": "2026-03-18T20:23:57.930774+00:00"
 }
