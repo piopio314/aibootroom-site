@@ -2,34 +2,18 @@
   "stats": {
     "avg_odds": 2.48,
     "half_losses": 0,
-    "half_wins": 5,
-    "losses": 12,
-    "n_picks": 22,
+    "half_wins": 6,
+    "losses": 13,
+    "n_picks": 24,
     "pushes": 0,
     "streak": 1,
     "streak_type": "W",
-    "total_pnl": -1.68,
-    "win_rate": 34.1,
+    "total_pnl": -2.08,
+    "win_rate": 33.3,
     "wins": 5,
-    "yield_pct": -7.6
+    "yield_pct": -8.6
   },
   "ticker": [
-    {
-      "market": "AH Away 0.5",
-      "match": "Strasbourg vs Paris FC",
-      "odds": 2.13,
-      "pnl": "+1.13u",
-      "result": "WIN",
-      "result_class": "win"
-    },
-    {
-      "market": "AH Home -2.5",
-      "match": "Barcelona vs Sevilla",
-      "odds": 2.78,
-      "pnl": "+1.78u",
-      "result": "WIN",
-      "result_class": "win"
-    },
     {
       "market": "AH Home 0.25",
       "match": "Le Havre vs Lyon",
@@ -173,6 +157,22 @@
       "pnl": "+0.44u",
       "result": "½ WIN",
       "result_class": "win"
+    },
+    {
+      "market": "Under 1.75 Goals",
+      "match": "Avellino vs Sudtirol",
+      "odds": 2.6,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "Over 2.75 Goals",
+      "match": "Pescara vs Virtus Entella",
+      "odds": 2.21,
+      "pnl": "+0.60u",
+      "result": "½ WIN",
+      "result_class": "win"
     }
   ],
   "picks": [
@@ -231,9 +231,9 @@
       "league": "Serie B",
       "market": "Over 2.75 Goals",
       "odds": 2.21,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": 0.605,
+      "score": "3:0",
+      "settlement": "HALF_WIN",
       "tweet_id": "2034173980634915202"
     },
     {
@@ -277,7 +277,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "2:0",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -321,9 +321,9 @@
       "league": "Serie B",
       "market": "Under 1.75 Goals",
       "odds": 2.6,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "3:2",
+      "settlement": "LOSE",
       "tweet_id": "2034173946359161259"
     },
     {
@@ -1202,6 +1202,18 @@
     "leagues": [
       {
         "half_losses": 0,
+        "half_wins": 2,
+        "league": "Serie B",
+        "losses": 4,
+        "n": 6,
+        "pnl": -2.96,
+        "pushes": 0,
+        "win_rate": 16.7,
+        "wins": 0,
+        "yield_pct": -49.2
+      },
+      {
+        "half_losses": 0,
         "half_wins": 1,
         "league": "Ligue 1",
         "losses": 2,
@@ -1211,18 +1223,6 @@
         "win_rate": 37.5,
         "wins": 1,
         "yield_pct": -7.4
-      },
-      {
-        "half_losses": 0,
-        "half_wins": 1,
-        "league": "Serie B",
-        "losses": 3,
-        "n": 4,
-        "pnl": -2.56,
-        "pushes": 0,
-        "win_rate": 12.5,
-        "wins": 0,
-        "yield_pct": -64.0
       },
       {
         "half_losses": 0,
@@ -1319,12 +1319,12 @@
       },
       {
         "label": "W/E 22 Mar",
-        "n": 10,
-        "pnl": -6.63,
+        "n": 12,
+        "pnl": -7.03,
         "week": "2026-W12",
-        "yield_pct": -66.3
+        "yield_pct": -58.5
       }
     ]
   },
-  "generated_at": "2026-03-18T20:23:57.930774+00:00"
+  "generated_at": "2026-03-18T21:36:35.283708+00:00"
 }
