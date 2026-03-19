@@ -202,7 +202,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "0:4",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -1591,5 +1591,5 @@
       }
     ]
   },
-  "generated_at": "2026-03-19T20:47:51.783236+00:00"
+  "generated_at": "2026-03-19T21:48:05.277895+00:00"
 }
