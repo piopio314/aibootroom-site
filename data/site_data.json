@@ -1,27 +1,19 @@
 {
   "stats": {
-    "avg_odds": 2.47,
+    "avg_odds": 2.48,
     "half_losses": 0,
     "half_wins": 6,
     "losses": 13,
-    "n_picks": 25,
+    "n_picks": 26,
     "pushes": 0,
-    "streak": 2,
+    "streak": 3,
     "streak_type": "W",
-    "total_pnl": -0.7,
-    "win_rate": 36.0,
-    "wins": 6,
-    "yield_pct": -2.8
+    "total_pnl": 1.02,
+    "win_rate": 38.5,
+    "wins": 7,
+    "yield_pct": 3.9
   },
   "ticker": [
-    {
-      "market": "Under 1.75 Goals",
-      "match": "Metz vs Toulouse",
-      "odds": 2.75,
-      "pnl": "-1.00u",
-      "result": "LOSE",
-      "result_class": "lose"
-    },
     {
       "market": "Over 2.75 Goals",
       "match": "Como vs AS Roma",
@@ -173,6 +165,14 @@
       "pnl": "+1.38u",
       "result": "WIN",
       "result_class": "win"
+    },
+    {
+      "market": "AH Away -0.5",
+      "match": "Raków Częstochowa vs Fiorentina",
+      "odds": 2.72,
+      "pnl": "+1.72u",
+      "result": "WIN",
+      "result_class": "win"
     }
   ],
   "picks": [
@@ -232,7 +232,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "5:1",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -276,9 +276,9 @@
       "league": "UEFA Europa Conference League",
       "market": "AH Away -0.5",
       "odds": 2.72,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": 1.72,
+      "score": "1:2",
+      "settlement": "WIN",
       "tweet_id": "2034521259044651375"
     },
     {
@@ -292,7 +292,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "0:2",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -307,7 +307,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "2:0",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -397,7 +397,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "0:2",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -1560,6 +1560,18 @@
         "win_rate": 0.0,
         "wins": 0,
         "yield_pct": -100.0
+      },
+      {
+        "half_losses": 0,
+        "half_wins": 0,
+        "league": "UEFA Europa Conference League",
+        "losses": 0,
+        "n": 1,
+        "pnl": 1.72,
+        "pushes": 0,
+        "win_rate": 100.0,
+        "wins": 1,
+        "yield_pct": 172.0
       }
     ],
     "weekly": [
@@ -1572,12 +1584,12 @@
       },
       {
         "label": "W/E 22 Mar",
-        "n": 13,
-        "pnl": -5.65,
+        "n": 14,
+        "pnl": -3.93,
         "week": "2026-W12",
-        "yield_pct": -43.4
+        "yield_pct": -28.0
       }
     ]
   },
-  "generated_at": "2026-03-19T08:38:53.300391+00:00"
+  "generated_at": "2026-03-19T19:47:38.800430+00:00"
 }
