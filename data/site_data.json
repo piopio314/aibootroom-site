@@ -3,25 +3,17 @@
     "avg_odds": 2.48,
     "half_losses": 0,
     "half_wins": 6,
-    "losses": 13,
-    "n_picks": 26,
+    "losses": 14,
+    "n_picks": 27,
     "pushes": 0,
-    "streak": 3,
-    "streak_type": "W",
-    "total_pnl": 1.02,
-    "win_rate": 38.5,
+    "streak": 1,
+    "streak_type": "L",
+    "total_pnl": 0.02,
+    "win_rate": 37.0,
     "wins": 7,
-    "yield_pct": 3.9
+    "yield_pct": 0.1
   },
   "ticker": [
-    {
-      "market": "Over 2.75 Goals",
-      "match": "Como vs AS Roma",
-      "odds": 2.6,
-      "pnl": "+0.80u",
-      "result": "½ WIN",
-      "result_class": "win"
-    },
     {
       "market": "AH Away 0.5",
       "match": "Cordoba vs Real Sociedad II",
@@ -173,6 +165,14 @@
       "pnl": "+1.72u",
       "result": "WIN",
       "result_class": "win"
+    },
+    {
+      "market": "Under 2.25 Goals",
+      "match": "Real Betis vs Panathinaikos",
+      "odds": 2.38,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
     }
   ],
   "picks": [
@@ -187,7 +187,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "1:1",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -217,7 +217,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "1:2",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -246,9 +246,9 @@
       "league": "UEFA Europa League",
       "market": "Under 2.25 Goals",
       "odds": 2.38,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "4:0",
+      "settlement": "LOSE",
       "tweet_id": "2034521230322057302"
     },
     {
@@ -262,7 +262,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "0:1",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -322,7 +322,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "2:0",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -352,7 +352,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "2:0",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -1572,6 +1572,18 @@
         "win_rate": 100.0,
         "wins": 1,
         "yield_pct": 172.0
+      },
+      {
+        "half_losses": 0,
+        "half_wins": 0,
+        "league": "UEFA Europa League",
+        "losses": 1,
+        "n": 1,
+        "pnl": -1.0,
+        "pushes": 0,
+        "win_rate": 0.0,
+        "wins": 0,
+        "yield_pct": -100.0
       }
     ],
     "weekly": [
@@ -1584,12 +1596,12 @@
       },
       {
         "label": "W/E 22 Mar",
-        "n": 14,
-        "pnl": -3.93,
+        "n": 15,
+        "pnl": -4.93,
         "week": "2026-W12",
-        "yield_pct": -28.0
+        "yield_pct": -32.8
       }
     ]
   },
-  "generated_at": "2026-03-19T22:22:39.256435+00:00"
+  "generated_at": "2026-03-19T22:48:20.326187+00:00"
 }
