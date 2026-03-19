@@ -249,7 +249,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2034521230322057302"
     },
     {
       "away_team": "Samsunspor",
@@ -279,7 +279,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2034521259044651375"
     },
     {
       "away_team": "Celta Vigo",
@@ -1259,6 +1259,34 @@
   ],
   "videos": [
     {
+      "date": "20260319",
+      "date_display": "19 Mar 2026",
+      "folder": "20260319_2picks_cfde0a",
+      "match_count": 2,
+      "matches": [
+        {
+          "away": "Fiorentina",
+          "confidence": 46,
+          "home": "Raków Częstochowa",
+          "league": "UEFA Europa Conference League",
+          "odds": 2.72,
+          "prediction": "AH Away -0.5"
+        },
+        {
+          "away": "Panathinaikos",
+          "confidence": 46,
+          "home": "Real Betis",
+          "league": "UEFA Europa League",
+          "odds": 2.38,
+          "prediction": "Under 2.25 Goals"
+        }
+      ],
+      "title": "Raków Częstochowa vs Fiorentina + 1 More | Football Tips Today | AI Boot Room",
+      "uploaded": true,
+      "youtube_id": "VBa5F_2uBGc",
+      "youtube_url": "https://www.youtube.com/watch?v=VBa5F_2uBGc"
+    },
+    {
       "date": "20260318",
       "date_display": "18 Mar 2026",
       "folder": "20260318_4picks_e4f287",
@@ -1551,5 +1579,5 @@
       }
     ]
   },
-  "generated_at": "2026-03-19T06:38:18.689354+00:00"
+  "generated_at": "2026-03-19T07:38:44.141398+00:00"
 }
