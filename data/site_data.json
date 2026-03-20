@@ -204,7 +204,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2034954842595102897"
     },
     {
       "away_team": "1899 Hoffenheim",
@@ -234,7 +234,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2034954831069106607"
     },
     {
       "away_team": "Radomiak Radom",
@@ -249,7 +249,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2034954824215679348"
     },
     {
       "away_team": "Montpellier",
@@ -264,7 +264,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2034954832419684570"
     },
     {
       "away_team": "Zaglebie Lubin",
@@ -279,7 +279,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2034954838547595266"
     },
     {
       "away_team": "Angers",
@@ -294,7 +294,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2034954802853990803"
     },
     {
       "away_team": "Grenoble",
@@ -309,7 +309,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2034954768762765417"
     },
     {
       "away_team": "SpVgg Greuther Fürth",
@@ -324,7 +324,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2034954774047514980"
     },
     {
       "away_team": "Almeria",
@@ -339,7 +339,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2034954761284252143"
     },
     {
       "away_team": "Eintracht Braunschweig",
@@ -354,7 +354,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2034954762118914240"
     },
     {
       "away_team": "Udinese",
@@ -399,7 +399,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2034954732683264210"
     },
     {
       "away_team": "Manchester United",
@@ -414,7 +414,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2034954743471059221"
     },
     {
       "away_team": "Nancy",
@@ -429,7 +429,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2034954694242488541"
     },
     {
       "away_team": "Le Mans",
@@ -1783,5 +1783,5 @@
       }
     ]
   },
-  "generated_at": "2026-03-20T10:50:59.408269+00:00"
+  "generated_at": "2026-03-20T11:27:11.134197+00:00"
 }
