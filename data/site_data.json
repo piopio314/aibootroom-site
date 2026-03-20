@@ -1,43 +1,19 @@
 {
   "stats": {
-    "avg_odds": 2.5,
+    "avg_odds": 2.47,
     "half_losses": 0,
     "half_wins": 6,
-    "losses": 15,
-    "n_picks": 28,
+    "losses": 16,
+    "n_picks": 31,
     "pushes": 0,
     "streak": 2,
-    "streak_type": "L",
-    "total_pnl": -0.98,
-    "win_rate": 35.7,
-    "wins": 7,
-    "yield_pct": -3.5
+    "streak_type": "W",
+    "total_pnl": 0.41,
+    "win_rate": 38.7,
+    "wins": 9,
+    "yield_pct": 1.3
   },
   "ticker": [
-    {
-      "market": "AH Home -0.75",
-      "match": "Eibar vs Burgos",
-      "odds": 2.48,
-      "pnl": "-1.00u",
-      "result": "LOSE",
-      "result_class": "lose"
-    },
-    {
-      "market": "AH Home -1.0",
-      "match": "Real Sociedad vs Osasuna",
-      "odds": 2.72,
-      "pnl": "+1.72u",
-      "result": "WIN",
-      "result_class": "win"
-    },
-    {
-      "market": "Under 2.25 Goals",
-      "match": "Rennes vs Lille",
-      "odds": 2.34,
-      "pnl": "-1.00u",
-      "result": "LOSE",
-      "result_class": "lose"
-    },
     {
       "market": "AH Home 0.0",
       "match": "Sporting Gijon vs Castellón",
@@ -173,6 +149,30 @@
       "pnl": "-1.00u",
       "result": "LOSE",
       "result_class": "lose"
+    },
+    {
+      "market": "Over 2.25 Goals",
+      "match": "Cagliari vs Napoli",
+      "odds": 2.27,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "Under 2.75 Goals",
+      "match": "Hannover 96 vs Eintracht Braunschweig",
+      "odds": 2.11,
+      "pnl": "+1.11u",
+      "result": "WIN",
+      "result_class": "win"
+    },
+    {
+      "market": "Over 3.25 Goals",
+      "match": "Karlsruher SC vs SpVgg Greuther Fürth",
+      "odds": 2.28,
+      "pnl": "+1.28u",
+      "result": "WIN",
+      "result_class": "win"
     }
   ],
   "picks": [
@@ -321,9 +321,9 @@
       "league": "2. Bundesliga",
       "market": "Over 3.25 Goals",
       "odds": 2.28,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": 1.28,
+      "score": "3:1",
+      "settlement": "WIN",
       "tweet_id": "2034954774047514980"
     },
     {
@@ -351,9 +351,9 @@
       "league": "2. Bundesliga",
       "market": "Under 2.75 Goals",
       "odds": 2.11,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": 1.11,
+      "score": "1:0",
+      "settlement": "WIN",
       "tweet_id": "2034954762118914240"
     },
     {
@@ -396,9 +396,9 @@
       "league": "Serie A",
       "market": "Over 2.25 Goals",
       "odds": 2.27,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "0:1",
+      "settlement": "LOSE",
       "tweet_id": "2034954732683264210"
     },
     {
@@ -1671,6 +1671,18 @@
       },
       {
         "half_losses": 0,
+        "half_wins": 1,
+        "league": "Serie A",
+        "losses": 2,
+        "n": 3,
+        "pnl": -1.2,
+        "pushes": 0,
+        "win_rate": 16.7,
+        "wins": 0,
+        "yield_pct": -40.0
+      },
+      {
+        "half_losses": 0,
         "half_wins": 0,
         "league": "Segunda División",
         "losses": 1,
@@ -1695,18 +1707,6 @@
       },
       {
         "half_losses": 0,
-        "half_wins": 1,
-        "league": "Serie A",
-        "losses": 1,
-        "n": 2,
-        "pnl": -0.2,
-        "pushes": 0,
-        "win_rate": 25.0,
-        "wins": 0,
-        "yield_pct": -10.0
-      },
-      {
-        "half_losses": 0,
         "half_wins": 0,
         "league": "La Liga",
         "losses": 0,
@@ -1728,6 +1728,18 @@
         "win_rate": 0.0,
         "wins": 0,
         "yield_pct": -100.0
+      },
+      {
+        "half_losses": 0,
+        "half_wins": 0,
+        "league": "2. Bundesliga",
+        "losses": 0,
+        "n": 2,
+        "pnl": 2.39,
+        "pushes": 0,
+        "win_rate": 100.0,
+        "wins": 2,
+        "yield_pct": 119.5
       },
       {
         "half_losses": 0,
@@ -1776,12 +1788,12 @@
       },
       {
         "label": "W/E 22 Mar",
-        "n": 16,
-        "pnl": -5.93,
+        "n": 19,
+        "pnl": -4.54,
         "week": "2026-W12",
-        "yield_pct": -37.0
+        "yield_pct": -23.9
       }
     ]
   },
-  "generated_at": "2026-03-20T19:21:33.035657+00:00"
+  "generated_at": "2026-03-20T20:22:36.430605+00:00"
 }
