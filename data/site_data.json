@@ -1,67 +1,19 @@
 {
   "stats": {
-    "avg_odds": 2.47,
-    "half_losses": 0,
+    "avg_odds": 2.48,
+    "half_losses": 1,
     "half_wins": 6,
-    "losses": 16,
-    "n_picks": 31,
+    "losses": 19,
+    "n_picks": 37,
     "pushes": 0,
     "streak": 2,
-    "streak_type": "W",
-    "total_pnl": 0.41,
-    "win_rate": 38.7,
-    "wins": 9,
-    "yield_pct": 1.3
+    "streak_type": "L",
+    "total_pnl": -0.14,
+    "win_rate": 37.8,
+    "wins": 11,
+    "yield_pct": -0.4
   },
   "ticker": [
-    {
-      "market": "AH Home 0.0",
-      "match": "Sporting Gijon vs Castellón",
-      "odds": 2.13,
-      "pnl": "+1.13u",
-      "result": "WIN",
-      "result_class": "win"
-    },
-    {
-      "market": "AH Home 0.0",
-      "match": "Annecy vs Estac Troyes",
-      "odds": 2.12,
-      "pnl": "-1.00u",
-      "result": "LOSE",
-      "result_class": "lose"
-    },
-    {
-      "market": "Over 2.75 Goals",
-      "match": "Portsmouth vs Derby",
-      "odds": 2.69,
-      "pnl": "-1.00u",
-      "result": "LOSE",
-      "result_class": "lose"
-    },
-    {
-      "market": "AH Away 0.5",
-      "match": "Jagiellonia vs GKS Katowice",
-      "odds": 2.14,
-      "pnl": "-1.00u",
-      "result": "LOSE",
-      "result_class": "lose"
-    },
-    {
-      "market": "AH Home -1.5",
-      "match": "Palermo vs Juve Stabia",
-      "odds": 2.94,
-      "pnl": "-1.00u",
-      "result": "LOSE",
-      "result_class": "lose"
-    },
-    {
-      "market": "Over 2.75 Goals",
-      "match": "Reggiana vs Monza",
-      "odds": 2.52,
-      "pnl": "-1.00u",
-      "result": "LOSE",
-      "result_class": "lose"
-    },
     {
       "market": "AH Away 1.25",
       "match": "Venezia vs Padova",
@@ -173,6 +125,54 @@
       "pnl": "+1.28u",
       "result": "WIN",
       "result_class": "win"
+    },
+    {
+      "market": "Under 1.75 Goals",
+      "match": "Boulogne vs Nancy",
+      "odds": 2.64,
+      "pnl": "+1.64u",
+      "result": "WIN",
+      "result_class": "win"
+    },
+    {
+      "market": "AH Home 0.0",
+      "match": "Huesca vs Almeria",
+      "odds": 2.34,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "Under 1.75 Goals",
+      "match": "Laval vs Grenoble",
+      "odds": 2.37,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "Under 2.25 Goals",
+      "match": "Motor Lublin vs Zaglebie Lubin",
+      "odds": 2.31,
+      "pnl": "+1.31u",
+      "result": "WIN",
+      "result_class": "win"
+    },
+    {
+      "market": "AH Away -0.5",
+      "match": "PAU vs Montpellier",
+      "odds": 2.72,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "Under 1.75 Goals",
+      "match": "Rodez vs Bastia",
+      "odds": 2.7,
+      "pnl": "-0.50u",
+      "result": "½ LOSE",
+      "result_class": "lose"
     }
   ],
   "picks": [
@@ -201,9 +201,9 @@
       "league": "Ligue 2",
       "market": "Under 1.75 Goals",
       "odds": 2.7,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -0.5,
+      "score": "1:1",
+      "settlement": "HALF_LOSE",
       "tweet_id": "2034954842595102897"
     },
     {
@@ -217,7 +217,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "5:0",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -261,9 +261,9 @@
       "league": "Ligue 2",
       "market": "AH Away -0.5",
       "odds": 2.72,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "0:0",
+      "settlement": "LOSE",
       "tweet_id": "2034954832419684570"
     },
     {
@@ -276,9 +276,9 @@
       "league": "Ekstraklasa",
       "market": "Under 2.25 Goals",
       "odds": 2.31,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": 1.31,
+      "score": "1:0",
+      "settlement": "WIN",
       "tweet_id": "2034954838547595266"
     },
     {
@@ -306,9 +306,9 @@
       "league": "Ligue 2",
       "market": "Under 1.75 Goals",
       "odds": 2.37,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "3:2",
+      "settlement": "LOSE",
       "tweet_id": "2034954768762765417"
     },
     {
@@ -336,9 +336,9 @@
       "league": "Segunda División",
       "market": "AH Home 0.0",
       "odds": 2.34,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "1:3",
+      "settlement": "LOSE",
       "tweet_id": "2034954761284252143"
     },
     {
@@ -382,7 +382,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "0:1",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -426,9 +426,9 @@
       "league": "Ligue 2",
       "market": "Under 1.75 Goals",
       "odds": 2.64,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": 1.64,
+      "score": "0:0",
+      "settlement": "WIN",
       "tweet_id": "2034954694242488541"
     },
     {
@@ -442,7 +442,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "3:4",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -1646,6 +1646,30 @@
         "yield_pct": -49.2
       },
       {
+        "half_losses": 1,
+        "half_wins": 0,
+        "league": "Ligue 2",
+        "losses": 3,
+        "n": 5,
+        "pnl": -1.86,
+        "pushes": 0,
+        "win_rate": 20.0,
+        "wins": 1,
+        "yield_pct": -37.2
+      },
+      {
+        "half_losses": 0,
+        "half_wins": 1,
+        "league": "Ekstraklasa",
+        "losses": 2,
+        "n": 4,
+        "pnl": -0.22,
+        "pushes": 0,
+        "win_rate": 37.5,
+        "wins": 1,
+        "yield_pct": -5.6
+      },
+      {
         "half_losses": 0,
         "half_wins": 1,
         "league": "Ligue 1",
@@ -1659,15 +1683,15 @@
       },
       {
         "half_losses": 0,
-        "half_wins": 1,
-        "league": "Ekstraklasa",
+        "half_wins": 0,
+        "league": "Segunda División",
         "losses": 2,
-        "n": 3,
-        "pnl": -1.53,
+        "n": 4,
+        "pnl": 0.48,
         "pushes": 0,
-        "win_rate": 16.7,
-        "wins": 0,
-        "yield_pct": -51.2
+        "win_rate": 50.0,
+        "wins": 2,
+        "yield_pct": 12.0
       },
       {
         "half_losses": 0,
@@ -1680,18 +1704,6 @@
         "win_rate": 16.7,
         "wins": 0,
         "yield_pct": -40.0
-      },
-      {
-        "half_losses": 0,
-        "half_wins": 0,
-        "league": "Segunda División",
-        "losses": 1,
-        "n": 3,
-        "pnl": 1.48,
-        "pushes": 0,
-        "win_rate": 66.7,
-        "wins": 2,
-        "yield_pct": 49.3
       },
       {
         "half_losses": 0,
@@ -1744,18 +1756,6 @@
       {
         "half_losses": 0,
         "half_wins": 0,
-        "league": "Ligue 2",
-        "losses": 1,
-        "n": 1,
-        "pnl": -1.0,
-        "pushes": 0,
-        "win_rate": 0.0,
-        "wins": 0,
-        "yield_pct": -100.0
-      },
-      {
-        "half_losses": 0,
-        "half_wins": 0,
         "league": "UEFA Europa Conference League",
         "losses": 0,
         "n": 1,
@@ -1788,12 +1788,12 @@
       },
       {
         "label": "W/E 22 Mar",
-        "n": 19,
-        "pnl": -4.54,
+        "n": 25,
+        "pnl": -5.09,
         "week": "2026-W12",
-        "yield_pct": -23.9
+        "yield_pct": -20.3
       }
     ]
   },
-  "generated_at": "2026-03-20T20:22:36.430605+00:00"
+  "generated_at": "2026-03-20T21:32:42.795580+00:00"
 }
