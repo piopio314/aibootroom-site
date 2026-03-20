@@ -1,27 +1,19 @@
 {
   "stats": {
-    "avg_odds": 2.48,
+    "avg_odds": 2.5,
     "half_losses": 0,
     "half_wins": 6,
-    "losses": 14,
-    "n_picks": 27,
+    "losses": 15,
+    "n_picks": 28,
     "pushes": 0,
-    "streak": 1,
+    "streak": 2,
     "streak_type": "L",
-    "total_pnl": 0.02,
-    "win_rate": 37.0,
+    "total_pnl": -0.98,
+    "win_rate": 35.7,
     "wins": 7,
-    "yield_pct": 0.1
+    "yield_pct": -3.5
   },
   "ticker": [
-    {
-      "market": "AH Away 0.5",
-      "match": "Cordoba vs Real Sociedad II",
-      "odds": 2.35,
-      "pnl": "+1.35u",
-      "result": "WIN",
-      "result_class": "win"
-    },
     {
       "market": "AH Home -0.75",
       "match": "Eibar vs Burgos",
@@ -173,6 +165,14 @@
       "pnl": "-1.00u",
       "result": "LOSE",
       "result_class": "lose"
+    },
+    {
+      "market": "Under 1.75 Goals",
+      "match": "Piast Gliwice vs Radomiak Radom",
+      "odds": 2.92,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
     }
   ],
   "picks": [
@@ -246,9 +246,9 @@
       "league": "Ekstraklasa",
       "market": "Under 1.75 Goals",
       "odds": 2.92,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "3:1",
+      "settlement": "LOSE",
       "tweet_id": "2034954824215679348"
     },
     {
@@ -1659,6 +1659,18 @@
       },
       {
         "half_losses": 0,
+        "half_wins": 1,
+        "league": "Ekstraklasa",
+        "losses": 2,
+        "n": 3,
+        "pnl": -1.53,
+        "pushes": 0,
+        "win_rate": 16.7,
+        "wins": 0,
+        "yield_pct": -51.2
+      },
+      {
+        "half_losses": 0,
         "half_wins": 0,
         "league": "Segunda División",
         "losses": 1,
@@ -1680,18 +1692,6 @@
         "win_rate": 50.0,
         "wins": 1,
         "yield_pct": 43.7
-      },
-      {
-        "half_losses": 0,
-        "half_wins": 1,
-        "league": "Ekstraklasa",
-        "losses": 1,
-        "n": 2,
-        "pnl": -0.53,
-        "pushes": 0,
-        "win_rate": 25.0,
-        "wins": 0,
-        "yield_pct": -26.7
       },
       {
         "half_losses": 0,
@@ -1776,12 +1776,12 @@
       },
       {
         "label": "W/E 22 Mar",
-        "n": 15,
-        "pnl": -4.93,
+        "n": 16,
+        "pnl": -5.93,
         "week": "2026-W12",
-        "yield_pct": -32.8
+        "yield_pct": -37.0
       }
     ]
   },
-  "generated_at": "2026-03-20T15:53:05.822869+00:00"
+  "generated_at": "2026-03-20T19:21:33.035657+00:00"
 }
