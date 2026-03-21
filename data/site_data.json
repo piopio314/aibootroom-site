@@ -1,67 +1,19 @@
 {
   "stats": {
-    "avg_odds": 2.47,
-    "half_losses": 2,
+    "avg_odds": 2.49,
+    "half_losses": 3,
     "half_wins": 8,
-    "losses": 27,
-    "n_picks": 55,
+    "losses": 31,
+    "n_picks": 61,
     "pushes": 0,
-    "streak": 3,
-    "streak_type": "W",
-    "total_pnl": 3.18,
-    "win_rate": 40.0,
-    "wins": 18,
-    "yield_pct": 5.8
+    "streak": 4,
+    "streak_type": "L",
+    "total_pnl": 0.31,
+    "win_rate": 37.7,
+    "wins": 19,
+    "yield_pct": 0.5
   },
   "ticker": [
-    {
-      "market": "AH Away -0.5",
-      "match": "PAU vs Montpellier",
-      "odds": 2.72,
-      "pnl": "-1.00u",
-      "result": "LOSE",
-      "result_class": "lose"
-    },
-    {
-      "market": "Under 1.75 Goals",
-      "match": "Rodez vs Bastia",
-      "odds": 2.7,
-      "pnl": "-0.50u",
-      "result": "½ LOSE",
-      "result_class": "lose"
-    },
-    {
-      "market": "Under 2.75 Goals",
-      "match": "Lens vs Angers",
-      "odds": 2.27,
-      "pnl": "-1.00u",
-      "result": "LOSE",
-      "result_class": "lose"
-    },
-    {
-      "market": "Over 3.25 Goals",
-      "match": "Bournemouth vs Manchester United",
-      "odds": 2.15,
-      "pnl": "+1.15u",
-      "result": "WIN",
-      "result_class": "win"
-    },
-    {
-      "market": "Under 1.75 Goals",
-      "match": "Preston vs Stoke City",
-      "odds": 2.99,
-      "pnl": "-1.00u",
-      "result": "LOSE",
-      "result_class": "lose"
-    },
-    {
-      "market": "AH Away -0.75",
-      "match": "Blackburn vs Middlesbrough",
-      "odds": 2.16,
-      "pnl": "-1.00u",
-      "result": "LOSE",
-      "result_class": "lose"
-    },
     {
       "market": "Over 2.75 Goals",
       "match": "Derby vs Birmingham",
@@ -173,6 +125,54 @@
       "pnl": "+0.66u",
       "result": "½ WIN",
       "result_class": "win"
+    },
+    {
+      "market": "AH Home -1.75",
+      "match": "AC Milan vs Torino",
+      "odds": 2.67,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "AH Away -0.5",
+      "match": "Cadiz vs Malaga",
+      "odds": 2.63,
+      "pnl": "+1.63u",
+      "result": "WIN",
+      "result_class": "win"
+    },
+    {
+      "market": "Over 3.25 Goals",
+      "match": "Everton vs Chelsea",
+      "odds": 2.69,
+      "pnl": "-0.50u",
+      "result": "½ LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "Under 1.75 Goals",
+      "match": "Levante vs Oviedo",
+      "odds": 2.81,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "Over 3.25 Goals",
+      "match": "Osasuna vs Girona",
+      "odds": 3.05,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "Under 2.25 Goals",
+      "match": "Swansea vs Coventry",
+      "odds": 2.24,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
     }
   ],
   "picks": [
@@ -231,9 +231,9 @@
       "league": "Championship",
       "market": "Under 2.25 Goals",
       "odds": 2.24,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "0:3",
+      "settlement": "LOSE",
       "tweet_id": "2035258917366743291"
     },
     {
@@ -411,9 +411,9 @@
       "league": "La Liga",
       "market": "Over 3.25 Goals",
       "odds": 3.05,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "1:0",
+      "settlement": "LOSE",
       "tweet_id": "2035258854615687389"
     },
     {
@@ -486,9 +486,9 @@
       "league": "La Liga",
       "market": "Under 1.75 Goals",
       "odds": 2.81,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "4:2",
+      "settlement": "LOSE",
       "tweet_id": "2035258733614207331"
     },
     {
@@ -666,9 +666,9 @@
       "league": "Premier League",
       "market": "Over 3.25 Goals",
       "odds": 2.69,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -0.5,
+      "score": "3:0",
+      "settlement": "HALF_LOSE",
       "tweet_id": "2035258683882439148"
     },
     {
@@ -801,9 +801,9 @@
       "league": "Segunda División",
       "market": "AH Away -0.5",
       "odds": 2.63,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": 1.63,
+      "score": "0:3",
+      "settlement": "WIN",
       "tweet_id": "2035258620741353514"
     },
     {
@@ -847,7 +847,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "3:2",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -906,9 +906,9 @@
       "league": "Serie A",
       "market": "AH Home -1.75",
       "odds": 2.67,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "3:2",
+      "settlement": "LOSE",
       "tweet_id": "2035258625409638429"
     },
     {
@@ -1697,13 +1697,13 @@
         "half_losses": 1,
         "half_wins": 1,
         "league": "Championship",
-        "losses": 5,
-        "n": 8,
-        "pnl": -2.89,
+        "losses": 6,
+        "n": 9,
+        "pnl": -3.89,
         "pushes": 0,
-        "win_rate": 18.8,
+        "win_rate": 16.7,
         "wins": 1,
-        "yield_pct": -36.2
+        "yield_pct": -43.3
       },
       {
         "half_losses": 0,
@@ -1722,12 +1722,12 @@
         "half_wins": 0,
         "league": "Segunda División",
         "losses": 3,
-        "n": 6,
-        "pnl": 0.67,
+        "n": 7,
+        "pnl": 2.3,
         "pushes": 0,
-        "win_rate": 50.0,
-        "wins": 3,
-        "yield_pct": 11.2
+        "win_rate": 57.1,
+        "wins": 4,
+        "yield_pct": 32.9
       },
       {
         "half_losses": 0,
@@ -1754,6 +1754,18 @@
         "yield_pct": -25.9
       },
       {
+        "half_losses": 0,
+        "half_wins": 0,
+        "league": "La Liga",
+        "losses": 2,
+        "n": 5,
+        "pnl": 3.48,
+        "pushes": 0,
+        "win_rate": 60.0,
+        "wins": 3,
+        "yield_pct": 69.6
+      },
+      {
         "half_losses": 1,
         "half_wins": 0,
         "league": "Ligue 2",
@@ -1769,25 +1781,13 @@
         "half_losses": 0,
         "half_wins": 1,
         "league": "Serie A",
-        "losses": 2,
-        "n": 3,
-        "pnl": -1.2,
+        "losses": 3,
+        "n": 4,
+        "pnl": -2.2,
         "pushes": 0,
-        "win_rate": 16.7,
+        "win_rate": 12.5,
         "wins": 0,
-        "yield_pct": -40.0
-      },
-      {
-        "half_losses": 0,
-        "half_wins": 0,
-        "league": "La Liga",
-        "losses": 0,
-        "n": 3,
-        "pnl": 5.48,
-        "pushes": 0,
-        "win_rate": 100.0,
-        "wins": 3,
-        "yield_pct": 182.7
+        "yield_pct": -55.0
       },
       {
         "half_losses": 0,
@@ -1814,16 +1814,16 @@
         "yield_pct": 46.3
       },
       {
-        "half_losses": 0,
+        "half_losses": 1,
         "half_wins": 0,
         "league": "Premier League",
         "losses": 0,
-        "n": 2,
-        "pnl": 2.78,
+        "n": 3,
+        "pnl": 2.28,
         "pushes": 0,
-        "win_rate": 100.0,
+        "win_rate": 66.7,
         "wins": 2,
-        "yield_pct": 139.0
+        "yield_pct": 76.0
       },
       {
         "half_losses": 0,
@@ -1872,12 +1872,12 @@
       },
       {
         "label": "W/E 22 Mar",
-        "n": 43,
-        "pnl": -1.77,
+        "n": 49,
+        "pnl": -4.64,
         "week": "2026-W12",
-        "yield_pct": -4.1
+        "yield_pct": -9.5
       }
     ]
   },
-  "generated_at": "2026-03-21T19:25:57.737689+00:00"
+  "generated_at": "2026-03-21T19:46:29.657887+00:00"
 }
