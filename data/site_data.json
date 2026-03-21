@@ -4,24 +4,16 @@
     "half_losses": 1,
     "half_wins": 6,
     "losses": 24,
-    "n_picks": 43,
+    "n_picks": 44,
     "pushes": 0,
-    "streak": 4,
-    "streak_type": "L",
-    "total_pnl": -3.99,
-    "win_rate": 34.9,
-    "wins": 12,
-    "yield_pct": -9.3
+    "streak": 1,
+    "streak_type": "W",
+    "total_pnl": -2.8,
+    "win_rate": 36.4,
+    "wins": 13,
+    "yield_pct": -6.4
   },
   "ticker": [
-    {
-      "market": "Over 2.75 Goals",
-      "match": "Pescara vs Virtus Entella",
-      "odds": 2.21,
-      "pnl": "+0.60u",
-      "result": "½ WIN",
-      "result_class": "win"
-    },
     {
       "market": "Over 3.25 Goals",
       "match": "Tottenham vs Atletico Madrid",
@@ -173,6 +165,14 @@
       "pnl": "-1.00u",
       "result": "LOSE",
       "result_class": "lose"
+    },
+    {
+      "market": "AH Home -0.75",
+      "match": "Leganes vs AD Ceuta FC",
+      "odds": 2.19,
+      "pnl": "+1.19u",
+      "result": "WIN",
+      "result_class": "win"
     }
   ],
   "picks": [
@@ -501,9 +501,9 @@
       "league": "Segunda División",
       "market": "AH Home -0.75",
       "odds": 2.19,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": 1.19,
+      "score": "5:2",
+      "settlement": "WIN",
       "tweet_id": "2035258721010376904"
     },
     {
@@ -622,7 +622,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "0:2",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -682,7 +682,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "5:1",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -712,7 +712,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "2:1",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -757,7 +757,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "1:0",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -832,7 +832,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "2:1",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -1718,6 +1718,18 @@
         "yield_pct": -25.9
       },
       {
+        "half_losses": 0,
+        "half_wins": 0,
+        "league": "Segunda División",
+        "losses": 2,
+        "n": 5,
+        "pnl": 1.67,
+        "pushes": 0,
+        "win_rate": 60.0,
+        "wins": 3,
+        "yield_pct": 33.4
+      },
+      {
         "half_losses": 1,
         "half_wins": 0,
         "league": "Ligue 2",
@@ -1752,18 +1764,6 @@
         "win_rate": 37.5,
         "wins": 1,
         "yield_pct": -5.6
-      },
-      {
-        "half_losses": 0,
-        "half_wins": 0,
-        "league": "Segunda División",
-        "losses": 2,
-        "n": 4,
-        "pnl": 0.48,
-        "pushes": 0,
-        "win_rate": 50.0,
-        "wins": 2,
-        "yield_pct": 12.0
       },
       {
         "half_losses": 0,
@@ -1860,12 +1860,12 @@
       },
       {
         "label": "W/E 22 Mar",
-        "n": 31,
-        "pnl": -8.94,
+        "n": 32,
+        "pnl": -7.75,
         "week": "2026-W12",
-        "yield_pct": -28.8
+        "yield_pct": -24.2
       }
     ]
   },
-  "generated_at": "2026-03-21T14:42:28.975543+00:00"
+  "generated_at": "2026-03-21T15:43:37.414999+00:00"
 }
