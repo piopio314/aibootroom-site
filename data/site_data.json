@@ -234,7 +234,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2035258917366743291"
     },
     {
       "away_team": "Arminia Bielefeld",
@@ -249,7 +249,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2035258935595204733"
     },
     {
       "away_team": "FC Schalke 04",
@@ -279,7 +279,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2035258913528930651"
     },
     {
       "away_team": "Wrexham",
@@ -294,7 +294,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2035258871862665643"
     },
     {
       "away_team": "Valencia",
@@ -309,7 +309,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2035258866590421037"
     },
     {
       "away_team": "Dynamo Dresden",
@@ -339,7 +339,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2035258883917185253"
     },
     {
       "away_team": "Albacete",
@@ -354,7 +354,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2035258860307374301"
     },
     {
       "away_team": "Portsmouth",
@@ -399,7 +399,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2035258860525482161"
     },
     {
       "away_team": "Girona",
@@ -414,7 +414,7 @@
       "pnl": 0.0,
       "score": "",
       "settlement": "PENDING",
-      "tweet_id": ""
+      "tweet_id": "2035258854615687389"
     },
     {
       "away_team": "Paris Saint Germain",
@@ -1379,6 +1379,66 @@
   ],
   "videos": [
     {
+      "date": "20260321",
+      "date_display": "21 Mar 2026",
+      "folder": "20260321_27picks_fcdbeb",
+      "match_count": 27,
+      "matches": [
+        {
+          "away": "Zaragoza",
+          "confidence": 67,
+          "home": "Deportivo La Coruna",
+          "league": "Segunda División",
+          "odds": 2.11,
+          "prediction": "Under 2.25 Goals"
+        },
+        {
+          "away": "Malaga",
+          "confidence": 61,
+          "home": "Cadiz",
+          "league": "Segunda División",
+          "odds": 2.63,
+          "prediction": "AH Away -0.5"
+        },
+        {
+          "away": "Albacete",
+          "confidence": 67,
+          "home": "Racing Santander",
+          "league": "Segunda División",
+          "odds": 2.08,
+          "prediction": "AH Home -0.75"
+        },
+        {
+          "away": "AD Ceuta FC",
+          "confidence": 61,
+          "home": "Leganes",
+          "league": "Segunda División",
+          "odds": 2.19,
+          "prediction": "AH Home -0.75"
+        },
+        {
+          "away": "Paris Saint Germain",
+          "confidence": 53,
+          "home": "Nice",
+          "league": "Ligue 1",
+          "odds": 2.7,
+          "prediction": "Under 2.75 Goals"
+        },
+        {
+          "away": "Stade Brestois 29",
+          "confidence": 67,
+          "home": "Auxerre",
+          "league": "Ligue 1",
+          "odds": 2.64,
+          "prediction": "Under 1.75 Goals"
+        }
+      ],
+      "title": "27 Football Tips — 21 Mar 2026",
+      "uploaded": false,
+      "youtube_id": "",
+      "youtube_url": ""
+    },
+    {
       "date": "20260320",
       "date_display": "20 Mar 2026",
       "folder": "20260320_13picks_b749e4",
@@ -1807,5 +1867,5 @@
       }
     ]
   },
-  "generated_at": "2026-03-21T07:34:45.002775+00:00"
+  "generated_at": "2026-03-21T08:35:48.268461+00:00"
 }
