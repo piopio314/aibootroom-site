@@ -1,43 +1,19 @@
 {
   "stats": {
-    "avg_odds": 2.48,
+    "avg_odds": 2.47,
     "half_losses": 1,
     "half_wins": 6,
-    "losses": 21,
-    "n_picks": 40,
+    "losses": 24,
+    "n_picks": 43,
     "pushes": 0,
-    "streak": 1,
+    "streak": 4,
     "streak_type": "L",
-    "total_pnl": -0.99,
-    "win_rate": 37.5,
+    "total_pnl": -3.99,
+    "win_rate": 34.9,
     "wins": 12,
-    "yield_pct": -2.5
+    "yield_pct": -9.3
   },
   "ticker": [
-    {
-      "market": "AH Away 0.5",
-      "match": "Sporting CP vs Bodo/Glimt",
-      "odds": 2.7,
-      "pnl": "-1.00u",
-      "result": "LOSE",
-      "result_class": "lose"
-    },
-    {
-      "market": "AH Away 1.25",
-      "match": "Frosinone vs Bari",
-      "odds": 1.88,
-      "pnl": "+0.44u",
-      "result": "½ WIN",
-      "result_class": "win"
-    },
-    {
-      "market": "Under 1.75 Goals",
-      "match": "Avellino vs Sudtirol",
-      "odds": 2.6,
-      "pnl": "-1.00u",
-      "result": "LOSE",
-      "result_class": "lose"
-    },
     {
       "market": "Over 2.75 Goals",
       "match": "Pescara vs Virtus Entella",
@@ -173,6 +149,30 @@
       "pnl": "-1.00u",
       "result": "LOSE",
       "result_class": "lose"
+    },
+    {
+      "market": "AH Away -0.75",
+      "match": "Blackburn vs Middlesbrough",
+      "odds": 2.16,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "Over 2.75 Goals",
+      "match": "Derby vs Birmingham",
+      "odds": 2.36,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "Under 2.25 Goals",
+      "match": "SV Elversberg vs Arminia Bielefeld",
+      "odds": 2.78,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
     }
   ],
   "picks": [
@@ -246,9 +246,9 @@
       "league": "2. Bundesliga",
       "market": "Under 2.25 Goals",
       "odds": 2.78,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "3:1",
+      "settlement": "LOSE",
       "tweet_id": "2035258935595204733"
     },
     {
@@ -322,7 +322,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "2:1",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -592,7 +592,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "1:1",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -726,9 +726,9 @@
       "league": "Championship",
       "market": "Over 2.75 Goals",
       "odds": 2.36,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "1:0",
+      "settlement": "LOSE",
       "tweet_id": "2035258684255744158"
     },
     {
@@ -861,9 +861,9 @@
       "league": "Championship",
       "market": "AH Away -0.75",
       "odds": 2.16,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "0:0",
+      "settlement": "LOSE",
       "tweet_id": "2035258628085547370"
     },
     {
@@ -922,7 +922,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "3:0",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -1731,6 +1731,18 @@
       },
       {
         "half_losses": 0,
+        "half_wins": 0,
+        "league": "Championship",
+        "losses": 5,
+        "n": 5,
+        "pnl": -5.0,
+        "pushes": 0,
+        "win_rate": 0.0,
+        "wins": 0,
+        "yield_pct": -100.0
+      },
+      {
+        "half_losses": 0,
         "half_wins": 1,
         "league": "Ekstraklasa",
         "losses": 2,
@@ -1767,18 +1779,6 @@
       },
       {
         "half_losses": 0,
-        "half_wins": 0,
-        "league": "Championship",
-        "losses": 3,
-        "n": 3,
-        "pnl": -3.0,
-        "pushes": 0,
-        "win_rate": 0.0,
-        "wins": 0,
-        "yield_pct": -100.0
-      },
-      {
-        "half_losses": 0,
         "half_wins": 1,
         "league": "UEFA Champions League",
         "losses": 1,
@@ -1792,6 +1792,18 @@
       {
         "half_losses": 0,
         "half_wins": 0,
+        "league": "2. Bundesliga",
+        "losses": 1,
+        "n": 3,
+        "pnl": 1.39,
+        "pushes": 0,
+        "win_rate": 66.7,
+        "wins": 2,
+        "yield_pct": 46.3
+      },
+      {
+        "half_losses": 0,
+        "half_wins": 0,
         "league": "La Liga",
         "losses": 0,
         "n": 2,
@@ -1800,18 +1812,6 @@
         "win_rate": 100.0,
         "wins": 2,
         "yield_pct": 175.0
-      },
-      {
-        "half_losses": 0,
-        "half_wins": 0,
-        "league": "2. Bundesliga",
-        "losses": 0,
-        "n": 2,
-        "pnl": 2.39,
-        "pushes": 0,
-        "win_rate": 100.0,
-        "wins": 2,
-        "yield_pct": 119.5
       },
       {
         "half_losses": 0,
@@ -1860,12 +1860,12 @@
       },
       {
         "label": "W/E 22 Mar",
-        "n": 28,
-        "pnl": -5.94,
+        "n": 31,
+        "pnl": -8.94,
         "week": "2026-W12",
-        "yield_pct": -21.2
+        "yield_pct": -28.8
       }
     ]
   },
-  "generated_at": "2026-03-21T13:41:17.192786+00:00"
+  "generated_at": "2026-03-21T14:42:28.975543+00:00"
 }
