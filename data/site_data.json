@@ -1,27 +1,19 @@
 {
   "stats": {
-    "avg_odds": 2.49,
+    "avg_odds": 2.48,
     "half_losses": 3,
     "half_wins": 8,
     "losses": 33,
-    "n_picks": 63,
+    "n_picks": 64,
     "pushes": 0,
-    "streak": 6,
-    "streak_type": "L",
-    "total_pnl": -1.69,
-    "win_rate": 36.5,
-    "wins": 19,
-    "yield_pct": -2.7
+    "streak": 1,
+    "streak_type": "W",
+    "total_pnl": -0.67,
+    "win_rate": 37.5,
+    "wins": 20,
+    "yield_pct": -1.0
   },
   "ticker": [
-    {
-      "market": "AH Home -0.75",
-      "match": "Leganes vs AD Ceuta FC",
-      "odds": 2.19,
-      "pnl": "+1.19u",
-      "result": "WIN",
-      "result_class": "win"
-    },
     {
       "market": "Over 3.25 Goals",
       "match": "1. FC Köln vs Borussia Mönchengladbach",
@@ -173,6 +165,14 @@
       "pnl": "-1.00u",
       "result": "LOSE",
       "result_class": "lose"
+    },
+    {
+      "market": "AH Home -0.75",
+      "match": "Saint Etienne vs Annecy",
+      "odds": 2.02,
+      "pnl": "+1.02u",
+      "result": "WIN",
+      "result_class": "win"
     }
   ],
   "picks": [
@@ -262,7 +262,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "1:1",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -336,9 +336,9 @@
       "league": "Ligue 2",
       "market": "AH Home -0.75",
       "odds": 2.02,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": 1.02,
+      "score": "4:0",
+      "settlement": "WIN",
       "tweet_id": "2035258883917185253"
     },
     {
@@ -547,7 +547,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "1:1",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -577,7 +577,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "1:2",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -1742,6 +1742,18 @@
         "yield_pct": -38.2
       },
       {
+        "half_losses": 1,
+        "half_wins": 0,
+        "league": "Ligue 2",
+        "losses": 3,
+        "n": 6,
+        "pnl": -0.84,
+        "pushes": 0,
+        "win_rate": 33.3,
+        "wins": 2,
+        "yield_pct": -14.0
+      },
+      {
         "half_losses": 0,
         "half_wins": 1,
         "league": "Ekstraklasa",
@@ -1764,18 +1776,6 @@
         "win_rate": 60.0,
         "wins": 3,
         "yield_pct": 69.6
-      },
-      {
-        "half_losses": 1,
-        "half_wins": 0,
-        "league": "Ligue 2",
-        "losses": 3,
-        "n": 5,
-        "pnl": -1.86,
-        "pushes": 0,
-        "win_rate": 20.0,
-        "wins": 1,
-        "yield_pct": -37.2
       },
       {
         "half_losses": 0,
@@ -1872,12 +1872,12 @@
       },
       {
         "label": "W/E 22 Mar",
-        "n": 51,
-        "pnl": -6.64,
+        "n": 52,
+        "pnl": -5.62,
         "week": "2026-W12",
-        "yield_pct": -13.0
+        "yield_pct": -10.8
       }
     ]
   },
-  "generated_at": "2026-03-21T20:46:48.166948+00:00"
+  "generated_at": "2026-03-21T21:47:06.122842+00:00"
 }
