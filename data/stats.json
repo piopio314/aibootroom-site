@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-21T16:24:52.471449+00:00",
+  "generated_at": "2026-03-21T16:44:36.063907+00:00",
   "total_matches": 142,
   "total_bets": 67,
-  "total_settled": 44,
-  "wins": 19,
-  "losses": 25,
-  "pending": 23,
-  "win_rate": 43.2,
-  "total_pnl": -2.8
+  "total_settled": 47,
+  "wins": 20,
+  "losses": 27,
+  "pending": 20,
+  "win_rate": 42.6,
+  "total_pnl": -3.1
 }

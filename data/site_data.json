@@ -3,41 +3,17 @@
     "avg_odds": 2.47,
     "half_losses": 1,
     "half_wins": 6,
-    "losses": 24,
-    "n_picks": 44,
+    "losses": 26,
+    "n_picks": 47,
     "pushes": 0,
-    "streak": 1,
-    "streak_type": "W",
-    "total_pnl": -2.8,
-    "win_rate": 36.4,
-    "wins": 13,
-    "yield_pct": -6.4
+    "streak": 2,
+    "streak_type": "L",
+    "total_pnl": -3.1,
+    "win_rate": 36.2,
+    "wins": 14,
+    "yield_pct": -6.6
   },
   "ticker": [
-    {
-      "market": "Over 3.25 Goals",
-      "match": "Tottenham vs Atletico Madrid",
-      "odds": 2.38,
-      "pnl": "+1.38u",
-      "result": "WIN",
-      "result_class": "win"
-    },
-    {
-      "market": "AH Away -0.5",
-      "match": "Raków Częstochowa vs Fiorentina",
-      "odds": 2.72,
-      "pnl": "+1.72u",
-      "result": "WIN",
-      "result_class": "win"
-    },
-    {
-      "market": "Under 2.25 Goals",
-      "match": "Real Betis vs Panathinaikos",
-      "odds": 2.38,
-      "pnl": "-1.00u",
-      "result": "LOSE",
-      "result_class": "lose"
-    },
     {
       "market": "Under 1.75 Goals",
       "match": "Piast Gliwice vs Radomiak Radom",
@@ -173,6 +149,30 @@
       "pnl": "+1.19u",
       "result": "WIN",
       "result_class": "win"
+    },
+    {
+      "market": "Over 3.25 Goals",
+      "match": "1. FC Köln vs Borussia Mönchengladbach",
+      "odds": 2.7,
+      "pnl": "+1.70u",
+      "result": "WIN",
+      "result_class": "win"
+    },
+    {
+      "market": "Over 2.75 Goals",
+      "match": "Padova vs Palermo",
+      "odds": 2.49,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "Over 3.25 Goals",
+      "match": "VfL Wolfsburg vs Werder Bremen",
+      "odds": 2.48,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
     }
   ],
   "picks": [
@@ -201,9 +201,9 @@
       "league": "Bundesliga",
       "market": "Over 3.25 Goals",
       "odds": 2.48,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "0:1",
+      "settlement": "LOSE",
       "tweet_id": ""
     },
     {
@@ -382,7 +382,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "0:2",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -396,9 +396,9 @@
       "league": "Serie B",
       "market": "Over 2.75 Goals",
       "odds": 2.49,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": -1.0,
+      "score": "0:1",
+      "settlement": "LOSE",
       "tweet_id": "2035258860525482161"
     },
     {
@@ -562,7 +562,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "3:1",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -787,7 +787,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "3:1",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -877,7 +877,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "4:0",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -936,9 +936,9 @@
       "league": "Bundesliga",
       "market": "Over 3.25 Goals",
       "odds": 2.7,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": 1.7,
+      "score": "3:3",
+      "settlement": "WIN",
       "tweet_id": "2035258609538367597"
     },
     {
@@ -952,7 +952,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "3:3",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -1697,13 +1697,13 @@
         "half_losses": 0,
         "half_wins": 2,
         "league": "Serie B",
-        "losses": 4,
-        "n": 6,
-        "pnl": -2.96,
+        "losses": 5,
+        "n": 7,
+        "pnl": -3.96,
         "pushes": 0,
-        "win_rate": 16.7,
+        "win_rate": 14.3,
         "wins": 0,
-        "yield_pct": -49.2
+        "yield_pct": -56.5
       },
       {
         "half_losses": 0,
@@ -1816,6 +1816,18 @@
       {
         "half_losses": 0,
         "half_wins": 0,
+        "league": "Bundesliga",
+        "losses": 1,
+        "n": 2,
+        "pnl": 0.7,
+        "pushes": 0,
+        "win_rate": 50.0,
+        "wins": 1,
+        "yield_pct": 35.0
+      },
+      {
+        "half_losses": 0,
+        "half_wins": 0,
         "league": "UEFA Europa Conference League",
         "losses": 0,
         "n": 1,
@@ -1860,12 +1872,12 @@
       },
       {
         "label": "W/E 22 Mar",
-        "n": 32,
-        "pnl": -7.75,
+        "n": 35,
+        "pnl": -8.05,
         "week": "2026-W12",
-        "yield_pct": -24.2
+        "yield_pct": -23.0
       }
     ]
   },
-  "generated_at": "2026-03-21T16:24:52.632361+00:00"
+  "generated_at": "2026-03-21T16:44:36.208230+00:00"
 }
