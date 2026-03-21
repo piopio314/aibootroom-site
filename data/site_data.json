@@ -1,35 +1,19 @@
 {
   "stats": {
-    "avg_odds": 2.49,
+    "avg_odds": 2.47,
     "half_losses": 2,
-    "half_wins": 7,
+    "half_wins": 8,
     "losses": 27,
-    "n_picks": 53,
+    "n_picks": 55,
     "pushes": 0,
-    "streak": 1,
+    "streak": 3,
     "streak_type": "W",
-    "total_pnl": 1.62,
-    "win_rate": 38.7,
-    "wins": 17,
-    "yield_pct": 3.1
+    "total_pnl": 3.18,
+    "win_rate": 40.0,
+    "wins": 18,
+    "yield_pct": 5.8
   },
   "ticker": [
-    {
-      "market": "Under 1.75 Goals",
-      "match": "Laval vs Grenoble",
-      "odds": 2.37,
-      "pnl": "-1.00u",
-      "result": "LOSE",
-      "result_class": "lose"
-    },
-    {
-      "market": "Under 2.25 Goals",
-      "match": "Motor Lublin vs Zaglebie Lubin",
-      "odds": 2.31,
-      "pnl": "+1.31u",
-      "result": "WIN",
-      "result_class": "win"
-    },
     {
       "market": "AH Away -0.5",
       "match": "PAU vs Montpellier",
@@ -173,6 +157,22 @@
       "pnl": "+0.74u",
       "result": "½ WIN",
       "result_class": "win"
+    },
+    {
+      "market": "AH Home 0.0",
+      "match": "Lechia Gdansk vs Pogon Szczecin",
+      "odds": 1.9,
+      "pnl": "+0.90u",
+      "result": "WIN",
+      "result_class": "win"
+    },
+    {
+      "market": "Under 2.25 Goals",
+      "match": "Monza vs Venezia",
+      "odds": 2.32,
+      "pnl": "+0.66u",
+      "result": "½ WIN",
+      "result_class": "win"
     }
   ],
   "picks": [
@@ -217,7 +217,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "1:0",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -441,9 +441,9 @@
       "league": "Serie B",
       "market": "Under 2.25 Goals",
       "odds": 2.32,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": 0.66,
+      "score": "1:1",
+      "settlement": "HALF_WIN",
       "tweet_id": "2035258743529558057"
     },
     {
@@ -531,9 +531,9 @@
       "league": "Ekstraklasa",
       "market": "AH Home 0.0",
       "odds": 1.9,
-      "pnl": 0.0,
-      "score": "",
-      "settlement": "PENDING",
+      "pnl": 0.9,
+      "score": "2:1",
+      "settlement": "WIN",
       "tweet_id": "2035258683668513121"
     },
     {
@@ -1707,15 +1707,15 @@
       },
       {
         "half_losses": 0,
-        "half_wins": 2,
+        "half_wins": 3,
         "league": "Serie B",
         "losses": 5,
-        "n": 7,
-        "pnl": -3.96,
+        "n": 8,
+        "pnl": -3.29,
         "pushes": 0,
-        "win_rate": 14.3,
+        "win_rate": 18.8,
         "wins": 0,
-        "yield_pct": -56.5
+        "yield_pct": -41.2
       },
       {
         "half_losses": 0,
@@ -1728,6 +1728,18 @@
         "win_rate": 50.0,
         "wins": 3,
         "yield_pct": 11.2
+      },
+      {
+        "half_losses": 0,
+        "half_wins": 1,
+        "league": "Ekstraklasa",
+        "losses": 2,
+        "n": 5,
+        "pnl": 0.68,
+        "pushes": 0,
+        "win_rate": 50.0,
+        "wins": 2,
+        "yield_pct": 13.5
       },
       {
         "half_losses": 0,
@@ -1752,18 +1764,6 @@
         "win_rate": 20.0,
         "wins": 1,
         "yield_pct": -37.2
-      },
-      {
-        "half_losses": 0,
-        "half_wins": 1,
-        "league": "Ekstraklasa",
-        "losses": 2,
-        "n": 4,
-        "pnl": -0.22,
-        "pushes": 0,
-        "win_rate": 37.5,
-        "wins": 1,
-        "yield_pct": -5.6
       },
       {
         "half_losses": 0,
@@ -1872,12 +1872,12 @@
       },
       {
         "label": "W/E 22 Mar",
-        "n": 41,
-        "pnl": -3.33,
+        "n": 43,
+        "pnl": -1.77,
         "week": "2026-W12",
-        "yield_pct": -8.1
+        "yield_pct": -4.1
       }
     ]
   },
-  "generated_at": "2026-03-21T18:44:22.458794+00:00"
+  "generated_at": "2026-03-21T18:45:59.234945+00:00"
 }
