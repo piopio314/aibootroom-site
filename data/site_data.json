@@ -1,6 +1,6 @@
 {
   "stats": {
-    "avg_odds": 2.76,
+    "avg_odds": 2.52,
     "half_losses": 4,
     "half_wins": 1,
     "losses": 17,
@@ -25,7 +25,7 @@
     {
       "market": "AH Home -1.25",
       "match": "VfL Bochum vs Holstein Kiel",
-      "odds": 3.58,
+      "odds": 2.54,
       "pnl": "-1.00u",
       "result": "LOSE",
       "result_class": "lose"
@@ -208,14 +208,14 @@
     },
     {
       "away_team": "Holstein Kiel",
-      "confidence": 61,
+      "confidence": 59,
       "date": "2026-03-22",
       "folder": "20260322_VfL_Bochum_vs_Holstein_Kiel__cp_sonnet46",
       "home_team": "VfL Bochum",
       "is_bet": true,
       "league": "2. Bundesliga",
-      "market": "AH Home -1.25",
-      "odds": 3.58,
+      "market": "Over 3.25 Goals",
+      "odds": 2.54,
       "pnl": -1.0,
       "score": "2:3",
       "settlement": "LOSE",
@@ -307,7 +307,7 @@
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
-      "score": "",
+      "score": "3:2",
       "settlement": "PENDING",
       "tweet_id": ""
     },
@@ -433,14 +433,14 @@
     },
     {
       "away_team": "Arka Gdynia",
-      "confidence": 56,
+      "confidence": 62,
       "date": "2026-03-22",
       "folder": "20260322_Korona_Kielce_vs_Arka_Gdynia__cp_sonnet46",
       "home_team": "Korona Kielce",
       "is_bet": true,
       "league": "Ekstraklasa",
-      "market": "AH Away -0.5",
-      "odds": 5.05,
+      "market": "Over 2.75 Goals",
+      "odds": 2.39,
       "pnl": -1.0,
       "score": "3:0",
       "settlement": "LOSE",
@@ -809,5 +809,5 @@
       }
     ]
   },
-  "generated_at": "2026-03-22T21:50:00.089188+00:00"
+  "generated_at": "2026-03-22T23:07:02.037640+00:00"
 }
