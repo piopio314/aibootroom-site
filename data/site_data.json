@@ -1,17 +1,17 @@
 {
   "stats": {
-    "avg_odds": 3.12,
+    "avg_odds": 2.91,
     "half_losses": 1,
     "half_wins": 0,
-    "losses": 6,
-    "n_picks": 7,
+    "losses": 8,
+    "n_picks": 10,
     "pushes": 0,
-    "streak": 7,
+    "streak": 2,
     "streak_type": "L",
-    "total_pnl": -6.5,
-    "win_rate": 0.0,
-    "wins": 0,
-    "yield_pct": -92.9
+    "total_pnl": -6.7,
+    "win_rate": 10.0,
+    "wins": 1,
+    "yield_pct": -67.0
   },
   "ticker": [
     {
@@ -69,6 +69,30 @@
       "pnl": "-1.00u",
       "result": "LOSE",
       "result_class": "lose"
+    },
+    {
+      "market": "Over 2.75 Goals",
+      "match": "Celta Vigo vs Alaves",
+      "odds": 2.8,
+      "pnl": "+1.80u",
+      "result": "WIN",
+      "result_class": "win"
+    },
+    {
+      "market": "Under 1.75 Goals",
+      "match": "Paris FC vs Le Havre",
+      "odds": 2.84,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "AH Home -1.5",
+      "match": "Rennes vs Metz",
+      "odds": 2.01,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
     }
   ],
   "picks": [
@@ -118,6 +142,51 @@
       "tweet_id": ""
     },
     {
+      "away_team": "Avellino",
+      "confidence": 0,
+      "date": "2026-03-22",
+      "folder": "20260322_Sampdoria_vs_Avellino__cp_sonnet46",
+      "home_team": "Sampdoria",
+      "is_bet": false,
+      "league": "Serie B",
+      "market": "NO_BET",
+      "odds": 0,
+      "pnl": 0.0,
+      "score": "2:1",
+      "settlement": "PENDING",
+      "tweet_id": ""
+    },
+    {
+      "away_team": "Metz",
+      "confidence": 63,
+      "date": "2026-03-22",
+      "folder": "20260322_Rennes_vs_Metz__cp_sonnet46",
+      "home_team": "Rennes",
+      "is_bet": true,
+      "league": "Ligue 1",
+      "market": "AH Home -1.5",
+      "odds": 2.01,
+      "pnl": -1.0,
+      "score": "0:0",
+      "settlement": "LOSE",
+      "tweet_id": ""
+    },
+    {
+      "away_team": "Granada CF",
+      "confidence": 0,
+      "date": "2026-03-22",
+      "folder": "20260322_Real_Sociedad_II_vs_Granada_CF__cp_sonnet46",
+      "home_team": "Real Sociedad II",
+      "is_bet": false,
+      "league": "Segunda División",
+      "market": "NO_BET",
+      "odds": 0,
+      "pnl": 0.0,
+      "score": "0:2",
+      "settlement": "PENDING",
+      "tweet_id": ""
+    },
+    {
       "away_team": "1. FC Magdeburg",
       "confidence": 0,
       "date": "2026-03-22",
@@ -133,6 +202,21 @@
       "tweet_id": ""
     },
     {
+      "away_team": "Le Havre",
+      "confidence": 69,
+      "date": "2026-03-22",
+      "folder": "20260322_Paris_FC_vs_Le_Havre__cp_sonnet46",
+      "home_team": "Paris FC",
+      "is_bet": true,
+      "league": "Ligue 1",
+      "market": "Under 1.75 Goals",
+      "odds": 2.84,
+      "pnl": -1.0,
+      "score": "3:2",
+      "settlement": "LOSE",
+      "tweet_id": ""
+    },
+    {
       "away_team": "Sunderland",
       "confidence": 0,
       "date": "2026-03-22",
@@ -140,6 +224,36 @@
       "home_team": "Newcastle",
       "is_bet": false,
       "league": "Premier League",
+      "market": "NO_BET",
+      "odds": 0,
+      "pnl": 0.0,
+      "score": "1:2",
+      "settlement": "PENDING",
+      "tweet_id": ""
+    },
+    {
+      "away_team": "Valladolid",
+      "confidence": 0,
+      "date": "2026-03-22",
+      "folder": "20260322_Mirandes_vs_Valladolid__cp_sonnet46",
+      "home_team": "Mirandes",
+      "is_bet": false,
+      "league": "Segunda División",
+      "market": "NO_BET",
+      "odds": 0,
+      "pnl": 0.0,
+      "score": "2:1",
+      "settlement": "PENDING",
+      "tweet_id": ""
+    },
+    {
+      "away_team": "Lille",
+      "confidence": 0,
+      "date": "2026-03-22",
+      "folder": "20260322_Marseille_vs_Lille__cp_sonnet46",
+      "home_team": "Marseille",
+      "is_bet": false,
+      "league": "Ligue 1",
       "market": "NO_BET",
       "odds": 0,
       "pnl": 0.0,
@@ -253,6 +367,21 @@
       "tweet_id": ""
     },
     {
+      "away_team": "Alaves",
+      "confidence": 59,
+      "date": "2026-03-22",
+      "folder": "20260322_Celta_Vigo_vs_Alaves__cp_sonnet46",
+      "home_team": "Celta Vigo",
+      "is_bet": true,
+      "league": "La Liga",
+      "market": "Over 2.75 Goals",
+      "odds": 2.8,
+      "pnl": 1.8,
+      "score": "3:4",
+      "settlement": "WIN",
+      "tweet_id": ""
+    },
+    {
       "away_team": "Cordoba",
       "confidence": 0,
       "date": "2026-03-22",
@@ -361,6 +490,18 @@
       {
         "half_losses": 0,
         "half_wins": 0,
+        "league": "Ligue 1",
+        "losses": 2,
+        "n": 2,
+        "pnl": -2.0,
+        "pushes": 0,
+        "win_rate": 0.0,
+        "wins": 0,
+        "yield_pct": -100.0
+      },
+      {
+        "half_losses": 0,
+        "half_wins": 0,
         "league": "2. Bundesliga",
         "losses": 1,
         "n": 1,
@@ -405,17 +546,29 @@
         "win_rate": 0.0,
         "wins": 0,
         "yield_pct": -100.0
+      },
+      {
+        "half_losses": 0,
+        "half_wins": 0,
+        "league": "La Liga",
+        "losses": 0,
+        "n": 1,
+        "pnl": 1.8,
+        "pushes": 0,
+        "win_rate": 100.0,
+        "wins": 1,
+        "yield_pct": 180.0
       }
     ],
     "weekly": [
       {
         "label": "W/E 22 Mar",
-        "n": 7,
-        "pnl": -6.5,
+        "n": 10,
+        "pnl": -6.7,
         "week": "2026-W12",
-        "yield_pct": -92.9
+        "yield_pct": -67.0
       }
     ]
   },
-  "generated_at": "2026-03-22T19:48:56.886098+00:00"
+  "generated_at": "2026-03-22T20:17:10.078529+00:00"
 }
