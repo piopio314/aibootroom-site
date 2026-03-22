@@ -1,17 +1,17 @@
 {
   "stats": {
-    "avg_odds": 2.91,
+    "avg_odds": 2.74,
     "half_losses": 1,
     "half_wins": 0,
-    "losses": 8,
-    "n_picks": 10,
+    "losses": 12,
+    "n_picks": 14,
     "pushes": 0,
-    "streak": 2,
+    "streak": 6,
     "streak_type": "L",
-    "total_pnl": -6.7,
-    "win_rate": 10.0,
+    "total_pnl": -10.7,
+    "win_rate": 7.1,
     "wins": 1,
-    "yield_pct": -67.0
+    "yield_pct": -76.4
   },
   "ticker": [
     {
@@ -93,9 +93,71 @@
       "pnl": "-1.00u",
       "result": "LOSE",
       "result_class": "lose"
+    },
+    {
+      "market": "Under 2.25 Goals",
+      "match": "Athletic Club vs Real Betis",
+      "odds": 2.24,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "AH Home 0.5",
+      "match": "FC Augsburg vs VfB Stuttgart",
+      "odds": 1.87,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "AH Home 0.0",
+      "match": "FC St. Pauli vs SC Freiburg",
+      "odds": 1.93,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
+    },
+    {
+      "market": "AH Home -1.5",
+      "match": "Las Palmas vs Sporting Gijon",
+      "odds": 3.57,
+      "pnl": "-1.00u",
+      "result": "LOSE",
+      "result_class": "lose"
     }
   ],
   "picks": [
+    {
+      "away_team": "Gornik Zabrze",
+      "confidence": 0,
+      "date": "2026-03-22",
+      "folder": "20260322_Widzew_Łódź_vs_Gornik_Zabrze__cp_sonnet46",
+      "home_team": "Widzew Łódź",
+      "is_bet": false,
+      "league": "Ekstraklasa",
+      "market": "NO_BET",
+      "odds": 0,
+      "pnl": 0.0,
+      "score": "0:0",
+      "settlement": "PENDING",
+      "tweet_id": ""
+    },
+    {
+      "away_team": "Reggiana",
+      "confidence": 0,
+      "date": "2026-03-22",
+      "folder": "20260322_Virtus_Entella_vs_Reggiana__cp_sonnet46",
+      "home_team": "Virtus Entella",
+      "is_bet": false,
+      "league": "Serie B",
+      "market": "NO_BET",
+      "odds": 0,
+      "pnl": 0.0,
+      "score": "3:0",
+      "settlement": "PENDING",
+      "tweet_id": ""
+    },
     {
       "away_team": "Holstein Kiel",
       "confidence": 0,
@@ -292,6 +354,21 @@
       "tweet_id": ""
     },
     {
+      "away_team": "Sporting Gijon",
+      "confidence": 57,
+      "date": "2026-03-22",
+      "folder": "20260322_Las_Palmas_vs_Sporting_Gijon__cp_sonnet46",
+      "home_team": "Las Palmas",
+      "is_bet": true,
+      "league": "Segunda División",
+      "market": "AH Home -1.5",
+      "odds": 3.57,
+      "pnl": -1.0,
+      "score": "1:0",
+      "settlement": "LOSE",
+      "tweet_id": ""
+    },
+    {
       "away_team": "Arka Gdynia",
       "confidence": 0,
       "date": "2026-03-22",
@@ -331,6 +408,36 @@
       "league": "2. Bundesliga",
       "market": "AH Home -1.25",
       "odds": 4.06,
+      "pnl": -1.0,
+      "score": "2:5",
+      "settlement": "LOSE",
+      "tweet_id": ""
+    },
+    {
+      "away_team": "SC Freiburg",
+      "confidence": 53,
+      "date": "2026-03-22",
+      "folder": "20260322_FC_St_Pauli_vs_SC_Freiburg__cp_sonnet46",
+      "home_team": "FC St. Pauli",
+      "is_bet": true,
+      "league": "Bundesliga",
+      "market": "AH Home 0.0",
+      "odds": 1.93,
+      "pnl": -1.0,
+      "score": "1:2",
+      "settlement": "LOSE",
+      "tweet_id": ""
+    },
+    {
+      "away_team": "VfB Stuttgart",
+      "confidence": 57,
+      "date": "2026-03-22",
+      "folder": "20260322_FC_Augsburg_vs_VfB_Stuttgart__cp_sonnet46",
+      "home_team": "FC Augsburg",
+      "is_bet": true,
+      "league": "Bundesliga",
+      "market": "AH Home 0.5",
+      "odds": 1.87,
       "pnl": -1.0,
       "score": "2:5",
       "settlement": "LOSE",
@@ -442,6 +549,21 @@
       "tweet_id": ""
     },
     {
+      "away_team": "Real Betis",
+      "confidence": 49,
+      "date": "2026-03-22",
+      "folder": "20260322_Athletic_Club_vs_Real_Betis__cp_sonnet46",
+      "home_team": "Athletic Club",
+      "is_bet": true,
+      "league": "La Liga",
+      "market": "Under 2.25 Goals",
+      "odds": 2.24,
+      "pnl": -1.0,
+      "score": "2:1",
+      "settlement": "LOSE",
+      "tweet_id": ""
+    },
+    {
       "away_team": "Hellas Verona",
       "confidence": 66,
       "date": "2026-03-22",
@@ -470,6 +592,21 @@
       "score": "2:0",
       "settlement": "LOSE",
       "tweet_id": ""
+    },
+    {
+      "away_team": "Lecce",
+      "confidence": 0,
+      "date": "2026-03-22",
+      "folder": "20260322_AS_Roma_vs_Lecce__cp_sonnet46",
+      "home_team": "AS Roma",
+      "is_bet": false,
+      "league": "Serie A",
+      "market": "NO_BET",
+      "odds": 0,
+      "pnl": 0.0,
+      "score": "1:0",
+      "settlement": "PENDING",
+      "tweet_id": ""
     }
   ],
   "videos": [],
@@ -490,7 +627,31 @@
       {
         "half_losses": 0,
         "half_wins": 0,
+        "league": "La Liga",
+        "losses": 1,
+        "n": 2,
+        "pnl": 0.8,
+        "pushes": 0,
+        "win_rate": 50.0,
+        "wins": 1,
+        "yield_pct": 40.0
+      },
+      {
+        "half_losses": 0,
+        "half_wins": 0,
         "league": "Ligue 1",
+        "losses": 2,
+        "n": 2,
+        "pnl": -2.0,
+        "pushes": 0,
+        "win_rate": 0.0,
+        "wins": 0,
+        "yield_pct": -100.0
+      },
+      {
+        "half_losses": 0,
+        "half_wins": 0,
+        "league": "Bundesliga",
         "losses": 2,
         "n": 2,
         "pnl": -2.0,
@@ -550,25 +711,25 @@
       {
         "half_losses": 0,
         "half_wins": 0,
-        "league": "La Liga",
-        "losses": 0,
+        "league": "Segunda División",
+        "losses": 1,
         "n": 1,
-        "pnl": 1.8,
+        "pnl": -1.0,
         "pushes": 0,
-        "win_rate": 100.0,
-        "wins": 1,
-        "yield_pct": 180.0
+        "win_rate": 0.0,
+        "wins": 0,
+        "yield_pct": -100.0
       }
     ],
     "weekly": [
       {
         "label": "W/E 22 Mar",
-        "n": 10,
-        "pnl": -6.7,
+        "n": 14,
+        "pnl": -10.7,
         "week": "2026-W12",
-        "yield_pct": -67.0
+        "yield_pct": -76.4
       }
     ]
   },
-  "generated_at": "2026-03-22T20:17:10.078529+00:00"
+  "generated_at": "2026-03-22T20:49:07.983343+00:00"
 }
