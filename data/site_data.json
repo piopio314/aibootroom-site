@@ -1,27 +1,19 @@
 {
   "stats": {
-    "avg_odds": 2.52,
+    "avg_odds": 2.5,
     "half_losses": 4,
     "half_wins": 1,
     "losses": 17,
-    "n_picks": 23,
+    "n_picks": 24,
     "pushes": 0,
-    "streak": 1,
+    "streak": 2,
     "streak_type": "W",
-    "total_pnl": -16.45,
-    "win_rate": 6.5,
-    "wins": 1,
-    "yield_pct": -71.5
+    "total_pnl": -15.18,
+    "win_rate": 10.4,
+    "wins": 2,
+    "yield_pct": -63.2
   },
   "ticker": [
-    {
-      "market": "Over 3.25 Goals",
-      "match": "Newcastle vs Sunderland",
-      "odds": 2.91,
-      "pnl": "-0.50u",
-      "result": "½ LOSE",
-      "result_class": "lose"
-    },
     {
       "market": "AH Home -1.25",
       "match": "VfL Bochum vs Holstein Kiel",
@@ -173,9 +165,32 @@
       "pnl": "+0.74u",
       "result": "½ WIN",
       "result_class": "win"
+    },
+    {
+      "market": "Under 2.75 Goals",
+      "match": "Castellón vs Cultural Leonesa",
+      "odds": 2.28,
+      "pnl": "+1.28u",
+      "result": "WIN",
+      "result_class": "win"
     }
   ],
   "picks": [
+    {
+      "away_team": "Cultural Leonesa",
+      "confidence": 67,
+      "date": "2026-03-23",
+      "folder": "20260323_Castellón_vs_Cultural_Leonesa__cp_sonnet46",
+      "home_team": "Castellón",
+      "is_bet": true,
+      "league": "Segunda División",
+      "market": "Under 2.75 Goals",
+      "odds": 2.28,
+      "pnl": 1.28,
+      "score": "1:1",
+      "settlement": "WIN",
+      "tweet_id": ""
+    },
     {
       "away_team": "Gornik Zabrze",
       "confidence": 0,
@@ -741,6 +756,18 @@
       {
         "half_losses": 0,
         "half_wins": 0,
+        "league": "Segunda División",
+        "losses": 2,
+        "n": 3,
+        "pnl": -0.72,
+        "pushes": 0,
+        "win_rate": 33.3,
+        "wins": 1,
+        "yield_pct": -24.0
+      },
+      {
+        "half_losses": 0,
+        "half_wins": 0,
         "league": "Ekstraklasa",
         "losses": 2,
         "n": 2,
@@ -777,18 +804,6 @@
       {
         "half_losses": 0,
         "half_wins": 0,
-        "league": "Segunda División",
-        "losses": 2,
-        "n": 2,
-        "pnl": -2.0,
-        "pushes": 0,
-        "win_rate": 0.0,
-        "wins": 0,
-        "yield_pct": -100.0
-      },
-      {
-        "half_losses": 0,
-        "half_wins": 0,
         "league": "Serie B",
         "losses": 1,
         "n": 1,
@@ -806,8 +821,15 @@
         "pnl": -16.45,
         "week": "2026-W12",
         "yield_pct": -71.5
+      },
+      {
+        "label": "W/E 29 Mar",
+        "n": 1,
+        "pnl": 1.28,
+        "week": "2026-W13",
+        "yield_pct": 128.0
       }
     ]
   },
-  "generated_at": "2026-03-22T23:07:02.037640+00:00"
+  "generated_at": "2026-03-23T21:31:50.810006+00:00"
 }
