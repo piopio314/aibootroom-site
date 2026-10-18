@@ -83,6 +83,8 @@ a { color: inherit; text-decoration: none; }
 .btn-yt:hover { opacity: 0.85; }
 
 /* ── TICKER ── */
+.rebuild-banner { background: rgba(245,158,11,0.08); border-bottom: 1px solid rgba(245,158,11,0.3); padding: 10px 16px; text-align: center; font-size: 0.85rem; line-height: 1.5; color: var(--text, #e5e7eb); }
+.rebuild-banner strong { color: var(--accent); }
 .ticker-bar {
   background: rgba(245,158,11,0.05); border-bottom: 1px solid rgba(245,158,11,0.12);
   padding: 7px 0; overflow: hidden; white-space: nowrap;
@@ -106,6 +108,7 @@ a { color: inherit; text-decoration: none; }
 
 /* ── STATS GRID ── */
 .stats-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; margin-bottom: 48px; }
+@media (max-width: 700px) { .header-nav, .header-update { display: none; } .header { padding: 0 16px; gap: 12px; } }
 @media (max-width: 900px) { .stats-grid { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 600px) { .stats-grid { grid-template-columns: repeat(2, 1fr); } }
 .stat-card {
@@ -312,6 +315,11 @@ a { color: inherit; text-decoration: none; }
   <div class="header-update" x-text="lastUpdate ? 'Updated ' + lastUpdate : ''"></div>
   <a href="https://www.youtube.com/@AiBootRoom" target="_blank" class="btn-yt">▶ Subscribe</a>
 </header>
+
+<div class="rebuild-banner" role="status">
+  <strong>We're back.</strong> AI Boot Room is being rebuilt with a new, market-anchored model and fully transparent tracking.
+  The results below are the <strong>March 2026 archive</strong> &mdash; every settled pick, wins and losses. New analyses are coming soon.
+</div>
 
 <div class="ticker-bar" x-show="tickerItems.length > 0">
   <div class="ticker-track">

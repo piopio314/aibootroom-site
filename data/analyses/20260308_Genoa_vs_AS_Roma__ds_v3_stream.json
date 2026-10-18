@@ -1,0 +1,128 @@
+{
+  "display_texts": {
+    "api_predictions": "API-Football prediction: AS Roma | Probabilities: 10%-45%-45% | Recommendation: Double chance : draw or AS Roma",
+    "away_form": "16W-3D-8L in 27 matches, last 5: WWLWW",
+    "away_injuries": "A. Dovbyk (Missing Fixture - Groin Injury), P. Dybala (Missing Fixture - Knee Injury), E. Ferguson (Missing Fixture - Ankle Injury), M. Hermoso (Missing Fixture - Hip Injury), M. Soule (Missing Fixture - Groin Injury)",
+    "away_position": "#4 (51 pts, +18 GD)",
+    "away_stats": "37 goals in 27 matches (avg 1.4/match), 12 clean sheets",
+    "h2h_history": "Genoa 0-0 AS Roma (08 Mar 2026)\nAS Roma 3-1 Genoa (29 Dec 2025)\nAS Roma 3-1 Genoa (17 Jan 2025)\nGenoa 1-1 AS Roma (15 Sep 2024)\nAS Roma 1-0 Genoa (19 May 2024)",
+    "home_form": "6W-9D-12L in 27 matches, last 5: DLDLL",
+    "home_injuries": "T. Baldanzi (Missing Fixture - Thigh Injury), B. Norton-Cuffy (Questionable - Injury), S. Otoa (Questionable - Inactive)",
+    "home_position": "#15 (27 pts, -7 GD)",
+    "home_stats": "32 goals in 27 matches (avg 1.2/match), 6 clean sheets",
+    "osint_signals": ""
+  },
+  "folder": "20260308_Genoa_vs_AS_Roma__ds_v3_stream",
+  "match": {
+    "away_id": 497,
+    "away_team": "AS Roma",
+    "date": "2026-03-08",
+    "home_id": 495,
+    "home_team": "Genoa",
+    "league": "Serie A"
+  },
+  "prediction": {
+    "_analyzer": "tribunal_v2",
+    "_direction": "over_goals",
+    "_direction_conviction": "moderate",
+    "_direction_ev": 0.5225,
+    "_direction_picked": true,
+    "_direction_prob": 56.6,
+    "_model_key": "ds_v3_stream",
+    "_sceptic_veto_noted": true,
+    "_tribunal_agents": [
+      "scout_home",
+      "scout_away",
+      "historyk",
+      "devil",
+      "bookmaker",
+      "chairman",
+      "tactician",
+      "auditor",
+      "scriptwriter"
+    ],
+    "alternative_markets": [
+      {
+        "confidence": 51,
+        "market": "Over 2.75 Goals",
+        "prediction": "Over 2.75"
+      },
+      {
+        "confidence": 53,
+        "market": "Over 2.25 Goals",
+        "prediction": "Over 2.25"
+      }
+    ],
+    "confidence": 53,
+    "confidence_gate": "SPECULATIVE",
+    "direction": "over_goals",
+    "direction_conviction": "moderate",
+    "edge_assessment": {
+      "edge_grade": "STRONG_VALUE",
+      "edge_source": "EdgeCalculator our_prob vs market odds",
+      "selected_market_edge": 19.4,
+      "staking_signal": "APPROVE",
+      "top_3_markets_by_edge": [
+        {
+          "edge": 37.3,
+          "market": "AH Home 0.25"
+        },
+        {
+          "edge": 29.2,
+          "market": "AH Home 0.5"
+        },
+        {
+          "edge": 20.2,
+          "market": "Over 3.25 Goals"
+        }
+      ]
+    },
+    "key_factors": [
+      "Cascading profiles show 93% STRONG convergence on Over 2.5 Goals",
+      "EdgeCalculator shows +17% to +20% edge on multiple Over goal lines",
+      "Genoa's last five home matches average 3.6 total goals",
+      "AS Roma's recent trend shows 'Scoring: INCREASING' and 'Defence: WORSENING'",
+      "The Sceptic's NO_BET veto is overridden by a statistical edge exceeding 5%"
+    ],
+    "max_edge": 37.3,
+    "odds_target": 2.69,
+    "opportunity_score": 6.32,
+    "prediction": "Over 2.75 Goals",
+    "reasoning": "(1) MATCH CHARACTER — This is an ATTACKING fixture, defined by a fundamental clash between form and narrative. The cascading profiles show a STRONG 93% convergence on Over 2.5 Goals, with both teams averaging over 3.0 total goals per match in their last five. Genoa's home form is high-scoring (3.6 goals/match last five at home), while Roma's recent matches are trending towards more goals. This overrides the historical low-scoring H2H narrative and the Tactician's 'tight and tactical' prediction, as the raw, recent data is overwhelmingly louder. (2) DIRECTION EVIDENCE — The EdgeCalculator shows strong mathematical value on multiple Over markets (Over 2.25 @ +17.3%, Over 2.75 @ +19.4%, Over 3.25 @ +20.2%), all with edges exceeding 7%. The cascading convergence is the primary signal, supported by Genoa's 'Scoring: DECREASING' but still potent attack (2.4 GF/m at home) and Roma's 'Scoring: INCREASING' and 'Defence: WORSENING' trends. The Poisson model and market odds for goals are unavailable, but the EdgeCalculator's 'our_prob' values for Over markets are high, indicating the mathematical model sees value. (3) AGENTS CONSENSUS — The consensus is fractured but leans towards goals. The cascading profiles and EdgeCalculator provide a powerful, data-driven Over signal. The Archivist notes the historical fixture is low-scoring, but that pattern is old. The Tactician predicts a tight match, but this is a qualitative assessment against quantitative trends. The Sceptic's NO_BET veto, based on Roma's injury uncertainty, is the primary dissent. However, the statistical edge (≥5% on multiple lines) is sufficient to override a qualitative veto, especially as the injury crisis may lead to a more open, chaotic match rather than a defensive one. (4) RISKS — The primary risk is that Roma's decimated attack fails to contribute, making the Over reliant solely on Genoa. If Roma's defensive structure holds without their creative hub, the match could become a sterile, low-event affair. The Sceptic's data gap on Roma's actual starting XI is valid. Furthermore, the historical H2H low-scoring tendency, while outdated, cannot be entirely dismissed. The rotation risk from Roma's upcoming Europa League fixture adds another layer of unpredictability, capping confidence.",
+    "recommendation": "BET",
+    "risk_factors": [
+      "AS Roma's unprecedented injury crisis creates massive attacking uncertainty",
+      "Historical head-to-head record is low-scoring (avg 2 goals)",
+      "European fixture conflict for AS Roma introduces rotation risk",
+      "The Tactician's qualitative analysis predicts a 'tight and tactical' match"
+    ],
+    "score_away": 47.5,
+    "score_draw": 30.3,
+    "score_home": 22.2,
+    "selected_market": "Over 2.75 Goals",
+    "tier": "B",
+    "tier_color": "#3b82f6",
+    "tier_label": "STANDARD BET — solid edge, normal sizing",
+    "tribunal_consensus_description": "Consensus is split. The Cascading Profiles and EdgeCalculator provide a strong, data-driven signal for Over goals. The Sceptic dissents with a NO_BET veto due to Roma's injury crisis, while the Tactician and Archivist provide qualitative support for a lower-scoring match. The mathematical edge is deemed sufficient to override the qualitative concerns.",
+    "tribunal_consensus_level": "moderate",
+    "value_bets": []
+  },
+  "script": {
+    "chapter_analysis": "The analysis presents a fundamental clash. The quantitative data is overwhelmingly loud: cascading form profiles show a 93% strong convergence on Over 2.5 goals. Both teams' last five matches average over 3.0 total goals, with Genoa's home figure at 3.6. The EdgeCalculator identifies strong mathematical value on multiple Over lines, with edges exceeding 17%. This contradicts the qualitative assessments. The Tactician predicts a 'tight and tactical' match, citing Roma's resilient away defence and Dybala's absence. The Sceptic issued a NO_BET veto, arguing the core uncertainty around Roma's decimated attack creates an unacceptable data gap. However, the statistical edge — quantified at over 19% on the Over 2.75 line — is deemed sufficient to override these concerns. The risk is that Roma's attack fails to contribute, making the over reliant solely on Genoa. Yet the data suggests Roma's defensive structure may be weakening, and their injury crisis could lead to a more open, chaotic match rather than a sterile one.",
+    "chapter_away": "AS Roma's campaign is now defined by a major absence. Paulo Dybala's meniscus surgery sidelines him for six weeks, stripping the attack of its primary creative hub. The crisis extends further, with Dovbyk, Ferguson, and Soule also missing — effectively decimating their forward line. Manager Gasperini is forced into a tactical recalibration during a congested fixture period. Their away form remains solid, with a 54% win rate on the road built on a defensive record conceding just 0.77 goals per match. Yet recent trends show their defence is worsening and their scoring is increasing, creating a paradoxical profile. They travel with Champions League aspirations but a skeleton crew, testing squad depth to its absolute limit.",
+    "chapter_history": "History heavily favours the visitors. Roma have won six of the last ten Serie A meetings, losing just once. The pattern is one of low-scoring encounters, with an average of only two goals per match and just three of those last ten meetings exceeding 2.5 goals. Genoa's sole victory in that decade was a spectacular 4-1 home demolition two seasons ago — a result that proves an upset is possible. Roma are unbeaten in the last four meetings, but the goals have dried up in recent visits to the Luigi Ferraris. Historical dominance meets unprecedented circumstance.",
+    "chapter_home": "Genoa arrive at the Luigi Ferraris with a curious split personality. Their recent home form shows three wins from their last five matches, with those fixtures averaging 3.6 total goals. They are a patient, build-up side operating in a 3-5-2, with over half their 32 goals this season arriving after the 60th minute. However, their wider trajectory is declining, coming off a 2-0 defeat to Inter. They sit 15th, seven points clear of relegation, with minimal pressure but a volatile derby atmosphere to fuel them. Injuries to Baldanzi, Norton-Cuffy, and Otoa are manageable, leaving their core starting eleven largely intact. The question is whether their strong home performances can override a pattern of inconsistency against top-half opposition.",
+    "chapter_value": "Our market: Over 2.75 Goals. The bookmakers offer this at 2.69. The reasoning is clear: the recent, high-scoring form of both teams is a stronger signal than the historical low-scoring narrative or the current injury crisis. The EdgeCalculator shows a 19.4% value edge on this line, with our probability assessment at 56.6% against a market-implied 37.2%. This is a speculative play on the raw data overriding the compelling narrative.",
+    "ending": "The Boot Room's verdict is a speculative position on Over 2.75 Goals at 2.69, with 53% confidence. We are betting against the story — that a decimated Roma cannot contribute to a high-scoring affair — because the numbers tell a different, louder tale. The risk is clear, but the edge is stronger. Do you agree with our read? Let us know in the comments below, subscribe for more data-driven football analysis, and hit the notification bell. Boot Room out.",
+    "hook": "What happens when a team's entire first-choice attack is wiped out? AS Roma travel to Genoa without Paulo Dybala, Dovbyk, Ferguson, and Soule — their entire creative spine. Yet the data screams for goals. This is the fundamental clash between narrative and numbers.",
+    "roundup_summary": "Genoa versus AS Roma. The hosts sit 15th in Serie A with mixed form, taking just one win from their last five matches overall. Their home form is stronger, with three wins from five at the Luigi Ferraris. The visitors, Roma, are positioned in the European places but arrive with a form trend showing defensive decline and an unprecedented injury crisis stripping their attack.\n\nThe head-to-head record favours Roma dramatically, with six wins from the last ten meetings. The average goals in those fixtures is just two, with only 30% exceeding 2.5 goals. This season, Genoa average 2.4 goals scored per match at home, while Roma concede 0.77 on the road. The historical pattern points firmly towards a low-scoring encounter.\n\nThe Boot Room analysis identifies a powerful divergence. Despite the historical data and narrative of Roma's attacking crisis, the cascading form profiles show a 93% strong convergence on Over 2.5 goals. Both teams' recent matches are high-scoring environments, with Genoa's last five home games averaging 3.6 total goals. The EdgeCalculator quantifies the value, showing a 19.4 percentage point edge on Over 2.75 Goals, with our probability at 56.6% versus the market's 37.2%. The Sceptic's concern regarding Roma's decimated attack is acknowledged but overridden by the strength of the statistical signal, which suggests the crisis may lead to defensive instability and a more open match. The bookmaker has mis-priced the potency of recent scoring trends against the compelling injury narrative.\n\nThe verdict is a speculative position on the goal count. Our market: Over 2.75 Goals at odds of 2.69. This requires three or more goals to land a full win, with two goals resulting in a half loss. Confidence: 53%. Boot Room market: Over 2.75 Goals. Confidence: 53%.",
+    "title": "Genoa vs Roma: The Decimated Attack vs The Statistical Over"
+  },
+  "settlement": {
+    "market": "Over 2.75 Goals",
+    "pnl": 0.845,
+    "result": "2:1",
+    "settlement": "HALF_WIN",
+    "verified_at": "2026-03-08 19:57"
+  }
+}
