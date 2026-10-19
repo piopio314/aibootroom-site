@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-10-19T17:43:58+00:00",
+  "disclaimer": "18+ · Market analysis, not betting advice. Every pick is timestamped before kick-off and never edited.",
+  "summary": {
+    "published": 0,
+    "in_record": 0,
+    "pending": 0,
+    "settled": 0,
+    "withdrawn": 0,
+    "avg_clv_pct": null,
+    "beat_close_pct": null,
+    "with_clv": 0,
+    "results": {
+      "win": 0,
+      "half_win": 0,
+      "push": 0,
+      "half_loss": 0,
+      "loss": 0
+    },
+    "units": 0.0,
+    "avg_odds": null
+  },
+  "picks": []
+}

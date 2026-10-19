@@ -12,7 +12,7 @@
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI Boot Room — Football Analytics</title>
-<meta name="description" content="AI-powered football match predictions tracked with full transparency. Yield, win rate and full analysis for every pick.">
+<meta name="description" content="Football analysis with receipts: every AI pick published before kick-off with its odds and timestamp, then measured against the closing line. Nothing edited, nothing deleted.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js" defer></script>
@@ -57,6 +57,17 @@ a { color: inherit; text-decoration: none; }
   border-radius: 50%; animation: spin 0.8s linear infinite;
 }
 @keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── LEDGER ── */
+.ledger-intro { color: var(--muted); font-size: 0.9rem; max-width: 760px; margin: -6px 0 18px; }
+.ledger-intro strong { color: var(--text); }
+.ledger-note { background: var(--bg3); border: 1px solid var(--border); border-radius: 10px; padding: 14px 18px; font-size: 0.85rem; color: var(--muted); margin-top: 16px; line-height: 1.6; }
+.ledger-note strong { color: var(--text); }
+.pill-withdrawn { background: rgba(239,68,68,0.12); color: var(--red); text-decoration: line-through; }
+.pill-void { background: rgba(100,116,139,0.2); color: var(--muted); }
+.td-clv { font-weight: 700; font-variant-numeric: tabular-nums; }
+.td-dim { color: var(--muted); font-size: 0.78rem; white-space: nowrap; }
+.ledger-disclaimer { font-size: 0.78rem; color: var(--muted); margin-top: 10px; }
 
 /* ── HEADER ── */
 .header {
@@ -305,6 +316,7 @@ a { color: inherit; text-decoration: none; }
     <span class="logo-name">AI&nbsp;<em>Boot Room</em></span>
   </a>
   <nav class="header-nav">
+    <a href="#ledger">Ledger</a>
     <a href="#today">Today</a>
     <a href="#picks">All Picks</a>
     <a href="#performance">Performance</a>
@@ -368,6 +380,76 @@ a { color: inherit; text-decoration: none; }
         <div class="stat-sub" x-text="stats.streak_type==='W'?'consecutive wins':'consecutive losses'"></div>
       </div>
     </div>
+  </div>
+
+  <div class="section" id="ledger">
+    <div class="section-header">
+      <h2 class="section-title">AI Pick Ledger</h2>
+    </div>
+    <div class="ledger-intro">Football analysis with receipts. Every pick is published <strong>before kick-off</strong> with its odds and a timestamp,
+      then measured against the <strong>closing line</strong> — the market price just before the match, the hardest benchmark there is.
+      Nothing is edited or deleted; a pick withdrawn before kick-off stays listed as withdrawn.</div>
+    <div class="stats-grid" x-show="ledger.summary.published > 0">
+      <div class="stat-card">
+        <div class="stat-label">Published picks</div>
+        <div class="stat-value" x-text="ledger.summary.published"></div>
+        <div class="stat-sub" x-text="(ledger.summary.pending||0)+' pending · '+(ledger.summary.settled||0)+' settled'"></div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Avg CLV</div>
+        <div class="stat-value" :class="(ledger.summary.avg_clv_pct||0)>=0?'val-green':'val-red'"
+          x-text="ledger.summary.avg_clv_pct==null?'—':((ledger.summary.avg_clv_pct>=0?'+':'')+ledger.summary.avg_clv_pct.toFixed(1)+'%')"></div>
+        <div class="stat-sub">vs closing line</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Beat the close</div>
+        <div class="stat-value val-yellow" x-text="ledger.summary.beat_close_pct==null?'—':ledger.summary.beat_close_pct.toFixed(0)+'%'"></div>
+        <div class="stat-sub" x-text="(ledger.summary.with_clv||0)+' picks measured'"></div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Record</div>
+        <div class="stat-value" x-text="(ledger.summary.results?.win||0)+'-'+(ledger.summary.results?.loss||0)"></div>
+        <div class="stat-sub" x-text="'½W '+(ledger.summary.results?.half_win||0)+' · ½L '+(ledger.summary.results?.half_loss||0)+' · push '+(ledger.summary.results?.push||0)"></div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Net units</div>
+        <div class="stat-value" :class="(ledger.summary.units||0)>=0?'val-green':'val-red'" x-text="((ledger.summary.units||0)>=0?'+':'')+(ledger.summary.units||0).toFixed(2)+'u'"></div>
+        <div class="stat-sub" x-text="'avg odds '+(ledger.summary.avg_odds?ledger.summary.avg_odds.toFixed(2):'—')"></div>
+      </div>
+    </div>
+    <div class="picks-table-wrap" x-show="ledger.picks.length > 0">
+      <table class="picks-table">
+        <thead>
+          <tr><th>Kick-off</th><th>Match</th><th>League</th><th>Pick</th><th>Odds</th><th>Published</th><th>Close (fair)</th><th>CLV</th><th>Result</th></tr>
+        </thead>
+        <tbody>
+          <template x-for="p in ledger.picks" :key="p.id">
+            <tr>
+              <td class="td-dim" x-text="fmtKick(p.kickoff)"></td>
+              <td><div class="td-match" x-text="p.home+' vs '+p.away"></div></td>
+              <td><span class="td-league" x-text="p.league||''"></span></td>
+              <td><span class="td-market" x-text="p.selection"></span></td>
+              <td><span class="td-odds" x-text="p.odds.toFixed(2)"></span></td>
+              <td class="td-dim" x-text="p.hours_before_kickoff!=null?(p.hours_before_kickoff>=48?(p.hours_before_kickoff/24).toFixed(1)+' days before':Math.round(p.hours_before_kickoff)+' h before'):'—'"></td>
+              <td class="td-dim" x-text="p.closing_fair_pct!=null?p.closing_fair_pct.toFixed(1)+'% ('+p.closing_source+')':'—'"></td>
+              <td><span class="td-clv" :class="p.clv_pct>0?'val-green':p.clv_pct<0?'val-red':''" x-text="p.clv_pct!=null?((p.clv_pct>0?'+':'')+p.clv_pct.toFixed(1)+'%'):'—'"></span></td>
+              <td>
+                <span class="pill pill-withdrawn" x-show="p.status==='withdrawn'" :title="p.withdraw_reason||''">withdrawn</span>
+                <span class="pill" :class="ledgerPill(p.result)" x-show="p.status==='settled'&&p.result" x-text="ledgerLabel(p.result)+(p.score?' · '+p.score:'')"></span>
+                <span class="pill pill-pending" x-show="p.status==='pending'">pending</span>
+              </td>
+            </tr>
+          </template>
+        </tbody>
+      </table>
+    </div>
+    <div class="empty-state" x-show="ledger.picks.length===0&&!loading">
+      <div class="empty-icon">🧾</div><div>The ledger starts with the first published pick. Picks go live at least 24 hours before kick-off.</div>
+    </div>
+    <div class="ledger-note"><strong>What is CLV?</strong> Closing line value: how much better the odds we published were than the fair odds just before kick-off.
+      The market is at its most accurate at the close, so a positive CLV over many picks means the information was there before the market priced it —
+      a far more honest measure than a short win–loss streak.</div>
+    <div class="ledger-disclaimer" x-text="ledger.disclaimer"></div>
   </div>
 
   <div class="section" id="today">
@@ -697,6 +779,7 @@ function abrApp() {
     picks:  [],
     videos: [],
     performance: { weekly:[], leagues:[] },
+    ledger: { summary: {}, picks: [], disclaimer: '' },
     loading: true,
     lastUpdate: '',
     modal: { open:false, loading:false, data:null, tab:'overview' },
@@ -713,6 +796,10 @@ function abrApp() {
         this.performance = d.performance || { weekly:[], leagues:[] };
         this.lastUpdate  = new Date(d.generated_at || Date.now()).toLocaleDateString('en-GB', { day:'numeric', month:'short', hour:'2-digit', minute:'2-digit' });
       } catch(e) { console.error('Failed to load site data:', e); }
+      try {
+        const r = await fetch('data/ledger.json?t=' + Date.now());
+        if (r.ok) { const l = await r.json(); this.ledger = { summary: l.summary || {}, picks: l.picks || [], disclaimer: l.disclaimer || '' }; }
+      } catch(e) { console.error('Failed to load ledger:', e); }
       this.loading = false;
     },
 
@@ -754,6 +841,9 @@ function abrApp() {
     badgeClass(s)   { if(!s||s==='PENDING')return'badge-pending'; if(s==='WIN')return'badge-win'; if(s==='HALF_WIN')return'badge-half'; if(s==='LOSE')return'badge-lose'; if(s==='HALF_LOSE')return'badge-half'; return'badge-push'; },
     pillClass(s)    { if(!s||s==='PENDING')return'pill-pending'; if(s==='WIN')return'pill-win'; if(s==='HALF_WIN')return'pill-half'; if(s==='LOSE')return'pill-lose'; if(s==='HALF_LOSE')return'pill-half'; return'pill-push'; },
     agentLabel(key) { return AGENT_LABELS[key] || key; },
+    fmtKick(iso)    { try { return new Date(iso).toLocaleString('en-GB', { timeZone: 'Europe/Madrid', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) + ' CET'; } catch(e) { return iso; } },
+    ledgerLabel(r)  { return {win:'WIN', half_win:'½WIN', loss:'LOSE', half_loss:'½LOSE', push:'PUSH', void:'VOID'}[r] || r; },
+    ledgerPill(r)   { return {win:'pill-win', half_win:'pill-half', loss:'pill-lose', half_loss:'pill-half', push:'pill-push', void:'pill-void'}[r] || 'pill-pending'; },
   };
 }
 </script>
