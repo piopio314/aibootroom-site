@@ -317,10 +317,10 @@ a { color: inherit; text-decoration: none; }
   </a>
   <nav class="header-nav">
     <a href="#ledger">Ledger</a>
-    <a href="#today">Today</a>
-    <a href="#picks">All Picks</a>
-    <a href="#performance">Performance</a>
-    <a href="#videos">Videos</a>
+    <a href="#today" x-show="todayPicks().length > 0">Today</a>
+    <a href="#picks" x-show="recentBets().length > 0">All Picks</a>
+    <a href="#performance" x-show="hasPerformance()">Performance</a>
+    <a href="#videos" x-show="videos.length > 0">Videos</a>
     <a href="#social">Twitter</a>
   </nav>
   <div class="header-spacer"></div>
@@ -349,7 +349,7 @@ a { color: inherit; text-decoration: none; }
 
 <main class="main">
 
-  <div class="section">
+  <div class="section" x-show="(stats.n_picks||0) > 0">
     <div class="stats-grid">
       <div class="stat-card">
         <div class="stat-label">Yield</div>
@@ -452,7 +452,7 @@ a { color: inherit; text-decoration: none; }
     <div class="ledger-disclaimer" x-text="ledger.disclaimer"></div>
   </div>
 
-  <div class="section" id="today">
+  <div class="section" id="today" x-show="todayPicks().length > 0">
     <div class="section-header">
       <h2 class="section-title">Today's Picks</h2>
     </div>
@@ -481,7 +481,7 @@ a { color: inherit; text-decoration: none; }
     </div>
   </div>
 
-  <div class="section" id="picks">
+  <div class="section" id="picks" x-show="recentBets().length > 0">
     <div class="section-header">
       <h2 class="section-title">All BET Picks</h2>
     </div>
@@ -518,7 +518,7 @@ a { color: inherit; text-decoration: none; }
     </div>
   </div>
 
-  <div class="section" id="performance">
+  <div class="section" id="performance" x-show="hasPerformance()">
     <h2 class="section-title" style="margin-bottom:20px;">Performance</h2>
     <div class="perf-grid">
       <div class="panel">
@@ -557,7 +557,7 @@ a { color: inherit; text-decoration: none; }
     </div>
   </div>
 
-  <div class="section" id="videos">
+  <div class="section" id="videos" x-show="videos.length > 0">
     <div class="section-header">
       <h2 class="section-title">Latest Videos</h2>
       <a href="https://www.youtube.com/@AiBootRoom" target="_blank" class="see-all">All on YouTube →</a>
@@ -834,6 +834,7 @@ function abrApp() {
       return this.picks.filter(p => p.date === t && p.is_bet);
     },
     recentBets()  { return this.picks.filter(p => p.is_bet).slice(0, 40); },
+    hasPerformance() { const p = this.performance || {}; return (p.weekly||[]).length > 0 || (p.leagues||[]).length > 0; },
     tweetedPicks(){ return this.picks.filter(p => p.tweet_id).slice(0, 6); },
 
     resultClass(s)  { if(!s||s==='PENDING')return'pending'; if(s==='WIN'||s==='HALF_WIN')return'win'; if(s==='LOSE'||s==='HALF_LOSE')return'lose'; return'push'; },
