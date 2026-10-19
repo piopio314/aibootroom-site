@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PLCSSXHLT9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PLCSSXHLT9');
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market read — AI Boot Room</title>
+<meta name="description" content="What the betting market thinks about this match, how the price moved and what the AI Boot Room pundits make of it.">
+<meta name="theme-color" content="#07090d">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+  .read { max-width: 900px; margin: 0 auto; padding: 44px 24px 70px; }
+  .read h1 { font-size: clamp(34px, 4.6vw, 56px); line-height: 1.04; margin: 14px 0 16px; }
+  .read .match { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; font-size: 18px; font-weight: 800; }
+  .read .summary { font-size: 19px; color: var(--text2); margin: 24px 0; line-height: 1.65; }
+  .read .card { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 24px; margin: 22px 0; }
+  .read .pts li { list-style: none; padding: 10px 0 10px 30px; position: relative; border-bottom: 1px solid var(--line); color: var(--text2); }
+  .read .pts li:before { content: "→"; position: absolute; left: 4px; color: var(--accent); font-weight: 800; }
+  .back { color: var(--text2); font-weight: 600; font-size: 15px; }
+  .back:hover { color: var(--text); }
+  .share { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 26px; }
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <a class="logo" href="/"><i>ABR</i><span>AI <em>Boot Room</em></span></a>
+  <nav aria-label="Sections"><a href="/#weekend">This weekend</a><a href="/#movers">Market movers</a><a href="/#bootroom">The Boot Room</a><a href="/#receipts">Receipts</a></nav>
+  <span class="sp"></span>
+  <a class="btn yt sm" href="https://www.youtube.com/@AiBootRoom" target="_blank" rel="noopener">▶ YouTube</a>
+</div></header>
+
+<main class="read" id="read"><div class="skeleton">Loading the market read…</div></main>
+
+<footer><div class="wrap">
+  <span class="rg"><b>18+</b><span>Market analysis, not betting advice. Probabilities are the market’s, with the margin removed. If you play, play responsibly — <a href="https://www.jugarbien.es" target="_blank" rel="noopener">jugarbien.es</a></span></span>
+  <span class="sp"></span><span>© 2026 AI Boot Room</span>
+</div></footer>
+
+<script src="assets/site.js"></script>
+<script>
+(async function () {
+  const E = ABR.esc, S = ABR.short, box = document.getElementById('read');
+  const slug = new URLSearchParams(location.search).get('r') || '';
+  if (!/^[a-z0-9-]+$/.test(slug)) { box.innerHTML = '<div class="skeleton">This read does not exist. <a class="back" href="/">← Back to the market</a></div>'; return; }
+  let r;
+  try { r = await ABR.json(`data/reads/${slug}.json`); } catch (e) { box.innerHTML = '<div class="skeleton">This read is not available yet. <a class="back" href="/">← Back to the market</a></div>'; return; }
+  document.title = `${r.headline} — AI Boot Room`;
+  const m = r.market;
+  const side = m ? (Math.abs(m.move.away) > Math.abs(m.move.home) ? 'away' : 'home') : null;
+  const tl = m && m.timeline || [], first = tl[0], last = tl[tl.length - 1];
+  box.innerHTML = `
+    <a class="back" href="/">← The market this weekend</a>
+    <div style="margin-top:24px"><span class="chip">${E(r.league)} · ${E(ABR.when(r.kickoff, true))}</span></div>
+    <h1 class="disp">${E(r.headline)}</h1>
+    <div class="match">${ABR.mono(r.home, 40)}${E(r.home)} <span style="color:var(--muted)">v</span> ${ABR.mono(r.away, 40)}${E(r.away)}</div>
+    ${m ? `<div class="card">${ABR.bar(m)}
+      ${first && last && tl.length > 1 ? `<div class="chart"><div class="ttl"><span>${E(S(m[side]))} win probability since we started tracking</span><span>${first[side].toFixed(1)}% → <b style="color:var(--text)">${last[side].toFixed(1)}%</b></span></div>${ABR.spark(m, side)}</div>` : ''}
+      <div class="hfoot">${m.goals ? `<span>Expected goals <b>${m.goals.expected.toFixed(2)}</b></span>` : ''}<span>Tracking since <b>${E(ABR.when(m.tracked_since))}</b></span></div></div>` : ''}
+    <p class="summary">${E(r.summary)}</p>
+    ${r.voices && Object.keys(r.voices).length ? `<div class="kicker" style="margin-top:34px">The Boot Room debate</div>
+      <div class="chat" style="margin-top:14px">${['scout', 'sceptic', 'gaffer'].filter(k => r.voices[k]).map(k => { const P = ABR.PERSONAS[k];
+        return `<div class="msg ${k}"><div class="av" style="background:${P.bg}">${P.emoji}</div><div class="bubble"><b>${E(P.name)} · ${E(P.role.toLowerCase())}</b>${E(r.voices[k])}</div></div>`; }).join('')}</div>` : ''}
+    ${(r.key_points || []).length ? `<div class="card"><div class="kicker">Key numbers</div><ul class="pts" style="margin-top:8px">${r.key_points.map(p => `<li>${E(p)}</li>`).join('')}</ul></div>` : ''}
+    <div class="share"><a class="btn yt" href="https://www.youtube.com/@AiBootRoom" target="_blank" rel="noopener">▶ Watch the Boot Room on YouTube</a>
+      <a class="btn ghost" href="https://x.com/intent/post?text=${encodeURIComponent(r.headline + ' — AI Boot Room')}&url=${encodeURIComponent(location.href)}" target="_blank" rel="noopener">Share on X</a></div>
+    <p style="margin-top:26px;color:var(--muted);font-size:14px">${E(r.disclaimer || '')} Read written ${E(ABR.ago(r.generated_at))}.</p>`;
+})();
+</script>
+</body>
+</html>

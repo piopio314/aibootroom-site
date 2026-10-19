@@ -1,0 +1,83 @@
+{
+ "slug": "2026-10-25-crystal-palace-newcastle",
+ "league": "Premier League",
+ "home": "Crystal Palace",
+ "away": "Newcastle",
+ "kickoff": "2026-10-25T14:00:00+00:00",
+ "generated_at": "2026-10-19T06:05:13+00:00",
+ "headline": "Newcastle repriced to 40.4%; goals markets unmoved",
+ "summary": "The market has Newcastle at 40.4% fair to win at Crystal Palace (Palace 32.8%, draw 26.8%), after a move from 37.5% captured at our 23:16 snapshot on 18 October across four books. The Asian handicap fair line moved 0.12 goals towards Newcastle (0.04 to 0.16), the same repricing seen through a second market. Goals markets are flat: Over 3.0 at 48.1%, fair total 2.92, both teams to score 61.6%. With only 6.5 hours and three price snapshots, the true opening is unknown, and zero injury reports leave no news explanation testable.",
+ "voices": {
+  "scout": "At twenty-three sixteen on the eighteenth, four books we track moved Newcastle from thirty-seven and a half per cent to forty point four, the sharp book from two point five four down to two point three eight. Palace went the other way, to thirty-two point eight. The handicap fair line moved zero point one two goals. That's a repricing with a sharp lead, and I think it's information.",
+  "sceptic": "Careful. Four books, not six. And we took three snapshots in six and a half hours, so 'same minute' is our polling, not their timing. The move could be up to twenty-seven minutes apart. The handicap shift is half a quarter-line, and it's the same repricing seen through a second market, not a second signal. One snapshot can't separate informed money from a soft opening line being corrected.",
+  "gaffer": "So here's the verdict. Newcastle at forty point four per cent, Palace at thirty-two point eight, one three-point move seen through the result and handicap markets. Goals genuinely flat. Confidence low: six and a half hours and three snapshots is not a full day of prices."
+ },
+ "video_title": "Newcastle repriced, goals untouched",
+ "key_points": [
+  "Newcastle 37.5% → 40.4% fair; Palace 35.8% → 32.8% — one 3 pp repricing",
+  "AH fair line 0.04 → 0.16 goals: same move, half a quarter-line",
+  "Flat goals: Over 3.0 48.1%, fair total 2.92, BTTS 61.6%"
+ ],
+ "market": {
+  "id": 1557441,
+  "slug": "2026-10-25-crystal-palace-newcastle",
+  "league": "Premier League",
+  "kickoff": "2026-10-25T14:00:00+00:00",
+  "home": "Crystal Palace",
+  "away": "Newcastle",
+  "fair": {
+   "home": 32.7,
+   "draw": 26.6,
+   "away": 40.7
+  },
+  "move": {
+   "home": -3.1,
+   "draw": -0.1,
+   "away": 3.2
+  },
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "home": 35.8,
+    "draw": 26.7,
+    "away": 37.5
+   },
+   {
+    "t": "2026-10-18T23:16:00+00:00",
+    "home": 32.8,
+    "draw": 26.8,
+    "away": 40.4
+   },
+   {
+    "t": "2026-10-19T02:31:00+00:00",
+    "home": 32.8,
+    "draw": 26.8,
+    "away": 40.4
+   },
+   {
+    "t": "2026-10-19T11:20:00+00:00",
+    "home": 32.7,
+    "draw": 26.7,
+    "away": 40.6
+   },
+   {
+    "t": "2026-10-19T17:18:00+00:00",
+    "home": 32.7,
+    "draw": 26.6,
+    "away": 40.7
+   }
+  ],
+  "goals": {
+   "expected": 2.93,
+   "first": 2.92
+  },
+  "absences": {
+   "home": 0,
+   "away": 0
+  },
+  "read": "2026-10-25-crystal-palace-newcastle",
+  "headline": "Newcastle repriced to 40.4%; goals markets unmoved"
+ },
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
+}

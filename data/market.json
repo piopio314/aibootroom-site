@@ -1,0 +1,1133 @@
+{
+ "generated_at": "2026-10-19T20:14:00+00:00",
+ "prices_as_of": "2026-10-19T19:17:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
+ "totals": {
+  "matches": 427,
+  "price_changes": 82224,
+  "leagues": 20,
+  "absences": 293,
+  "tracking_since": "2026-10-18T22:49:00+00:00"
+ },
+ "featured": {
+  "id": 1570426,
+  "slug": "2026-10-25-barcelona-real-madrid",
+  "league": "La Liga",
+  "kickoff": "2026-10-25T20:00:00+00:00",
+  "home": "Barcelona",
+  "away": "Real Madrid",
+  "fair": {
+   "home": 61.0,
+   "draw": 17.0,
+   "away": 22.0
+  },
+  "move": {
+   "home": -2.0,
+   "draw": -0.2,
+   "away": 2.2
+  },
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "home": 63.0,
+    "draw": 17.1,
+    "away": 19.8
+   },
+   {
+    "t": "2026-10-19T04:26:00+00:00",
+    "home": 62.1,
+    "draw": 17.0,
+    "away": 20.9
+   },
+   {
+    "t": "2026-10-19T06:46:00+00:00",
+    "home": 62.1,
+    "draw": 17.0,
+    "away": 20.9
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "home": 61.3,
+    "draw": 17.0,
+    "away": 21.7
+   },
+   {
+    "t": "2026-10-19T16:24:00+00:00",
+    "home": 61.4,
+    "draw": 16.9,
+    "away": 21.7
+   },
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "home": 61.0,
+    "draw": 17.0,
+    "away": 22.0
+   }
+  ],
+  "goals": {
+   "expected": 4.04,
+   "first": 4.03
+  },
+  "absences": {
+   "home": 0,
+   "away": 0
+  },
+  "read": null,
+  "headline": null
+ },
+ "weekend": [
+  {
+   "id": 1557438,
+   "slug": "2026-10-24-aston-villa-manchester-city",
+   "league": "Premier League",
+   "kickoff": "2026-10-24T11:30:00+00:00",
+   "home": "Aston Villa",
+   "away": "Manchester City",
+   "fair": {
+    "home": 21.6,
+    "draw": 22.6,
+    "away": 55.7
+   },
+   "move": {
+    "home": -0.1,
+    "draw": -0.5,
+    "away": 0.6
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "home": 21.7,
+     "draw": 23.1,
+     "away": 55.2
+    },
+    {
+     "t": "2026-10-18T23:16:00+00:00",
+     "home": 21.5,
+     "draw": 22.5,
+     "away": 56.0
+    },
+    {
+     "t": "2026-10-19T02:31:00+00:00",
+     "home": 21.5,
+     "draw": 22.5,
+     "away": 56.0
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "home": 21.5,
+     "draw": 22.5,
+     "away": 56.0
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "home": 21.6,
+     "draw": 22.6,
+     "away": 55.8
+    },
+    {
+     "t": "2026-10-19T14:23:00+00:00",
+     "home": 21.6,
+     "draw": 22.6,
+     "away": 55.8
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "home": 21.6,
+     "draw": 22.6,
+     "away": 55.7
+    }
+   ],
+   "goals": {
+    "expected": 3.09,
+    "first": 3.01
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1550164,
+   "slug": "2026-10-24-napoli-as-roma",
+   "league": "Serie A",
+   "kickoff": "2026-10-24T16:00:00+00:00",
+   "home": "Napoli",
+   "away": "AS Roma",
+   "fair": {
+    "home": 34.6,
+    "draw": 27.8,
+    "away": 37.6
+   },
+   "move": {
+    "home": 1.1,
+    "draw": 0.1,
+    "away": -1.3
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "home": 33.4,
+     "draw": 27.7,
+     "away": 38.9
+    },
+    {
+     "t": "2026-10-19T07:36:00+00:00",
+     "home": 33.4,
+     "draw": 27.7,
+     "away": 38.9
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "home": 34.6,
+     "draw": 27.8,
+     "away": 37.6
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "home": 34.6,
+     "draw": 27.8,
+     "away": 37.6
+    }
+   ],
+   "goals": {
+    "expected": 2.54,
+    "first": 2.54
+   },
+   "absences": {
+    "home": 1,
+    "away": 1
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1557439,
+   "slug": "2026-10-24-chelsea-tottenham",
+   "league": "Premier League",
+   "kickoff": "2026-10-24T16:30:00+00:00",
+   "home": "Chelsea",
+   "away": "Tottenham",
+   "fair": {
+    "home": 54.9,
+    "draw": 22.7,
+    "away": 22.5
+   },
+   "move": {
+    "home": 2.4,
+    "draw": -0.7,
+    "away": -1.7
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "home": 52.5,
+     "draw": 23.3,
+     "away": 24.2
+    },
+    {
+     "t": "2026-10-18T23:16:00+00:00",
+     "home": 54.9,
+     "draw": 22.6,
+     "away": 22.5
+    },
+    {
+     "t": "2026-10-19T02:31:00+00:00",
+     "home": 54.9,
+     "draw": 22.6,
+     "away": 22.5
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "home": 54.9,
+     "draw": 22.6,
+     "away": 22.5
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "home": 55.1,
+     "draw": 22.5,
+     "away": 22.4
+    },
+    {
+     "t": "2026-10-19T14:23:00+00:00",
+     "home": 55.1,
+     "draw": 22.5,
+     "away": 22.4
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "home": 54.9,
+     "draw": 22.7,
+     "away": 22.5
+    }
+   ],
+   "goals": {
+    "expected": 3.05,
+    "first": 3.03
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1570432,
+   "slug": "2026-10-24-valencia-villarreal",
+   "league": "La Liga",
+   "kickoff": "2026-10-24T16:30:00+00:00",
+   "home": "Valencia",
+   "away": "Villarreal",
+   "fair": {
+    "home": 30.6,
+    "draw": 26.1,
+    "away": 43.4
+   },
+   "move": {
+    "home": 0.1,
+    "draw": 0.1,
+    "away": -0.2
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "home": 30.5,
+     "draw": 25.9,
+     "away": 43.6
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "home": 30.5,
+     "draw": 25.9,
+     "away": 43.6
+    },
+    {
+     "t": "2026-10-19T09:31:00+00:00",
+     "home": 30.5,
+     "draw": 25.9,
+     "away": 43.6
+    },
+    {
+     "t": "2026-10-19T18:26:00+00:00",
+     "home": 30.6,
+     "draw": 26.1,
+     "away": 43.4
+    }
+   ],
+   "goals": {
+    "expected": 2.73,
+    "first": 2.75
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1552204,
+   "slug": "2026-10-25-psv-eindhoven-feyenoord",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-25T13:30:00+00:00",
+   "home": "PSV Eindhoven",
+   "away": "Feyenoord",
+   "fair": {
+    "home": 48.2,
+    "draw": 21.8,
+    "away": 30.0
+   },
+   "move": {
+    "home": 0.4,
+    "draw": -0.4,
+    "away": -0.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "home": 47.8,
+     "draw": 22.2,
+     "away": 30.0
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "home": 48.2,
+     "draw": 21.8,
+     "away": 30.0
+    }
+   ],
+   "goals": {
+    "expected": 3.77,
+    "first": 3.66
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1557441,
+   "slug": "2026-10-25-crystal-palace-newcastle",
+   "league": "Premier League",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "home": "Crystal Palace",
+   "away": "Newcastle",
+   "fair": {
+    "home": 32.7,
+    "draw": 26.6,
+    "away": 40.7
+   },
+   "move": {
+    "home": -3.1,
+    "draw": -0.1,
+    "away": 3.2
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "home": 35.8,
+     "draw": 26.7,
+     "away": 37.5
+    },
+    {
+     "t": "2026-10-18T23:16:00+00:00",
+     "home": 32.8,
+     "draw": 26.8,
+     "away": 40.4
+    },
+    {
+     "t": "2026-10-19T02:31:00+00:00",
+     "home": 32.8,
+     "draw": 26.8,
+     "away": 40.4
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "home": 32.7,
+     "draw": 26.7,
+     "away": 40.6
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "home": 32.7,
+     "draw": 26.6,
+     "away": 40.7
+    }
+   ],
+   "goals": {
+    "expected": 2.93,
+    "first": 2.92
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": "2026-10-25-crystal-palace-newcastle",
+   "headline": "Newcastle repriced to 40.4%; goals markets unmoved"
+  },
+  {
+   "id": 1557444,
+   "slug": "2026-10-25-liverpool-brighton",
+   "league": "Premier League",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "home": "Liverpool",
+   "away": "Brighton",
+   "fair": {
+    "home": 44.7,
+    "draw": 24.3,
+    "away": 31.0
+   },
+   "move": {
+    "home": -1.3,
+    "draw": 0.3,
+    "away": 1.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "home": 46.0,
+     "draw": 24.0,
+     "away": 30.0
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "home": 46.0,
+     "draw": 24.0,
+     "away": 30.0
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "home": 45.2,
+     "draw": 24.4,
+     "away": 30.4
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "home": 44.5,
+     "draw": 24.3,
+     "away": 31.1
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "home": 44.5,
+     "draw": 24.3,
+     "away": 31.1
+    },
+    {
+     "t": "2026-10-19T14:23:00+00:00",
+     "home": 44.5,
+     "draw": 24.3,
+     "away": 31.1
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "home": 44.7,
+     "draw": 24.3,
+     "away": 31.0
+    }
+   ],
+   "goals": {
+    "expected": 2.96,
+    "first": 2.97
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1557445,
+   "slug": "2026-10-25-manchester-united-bournemouth",
+   "league": "Premier League",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "home": "Manchester United",
+   "away": "Bournemouth",
+   "fair": {
+    "home": 51.3,
+    "draw": 24.7,
+    "away": 24.0
+   },
+   "move": {
+    "home": -0.1,
+    "draw": 0.1,
+    "away": -0.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "home": 51.4,
+     "draw": 24.6,
+     "away": 24.1
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "home": 51.4,
+     "draw": 24.6,
+     "away": 24.0
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "home": 51.4,
+     "draw": 24.6,
+     "away": 24.0
+    },
+    {
+     "t": "2026-10-19T14:23:00+00:00",
+     "home": 51.4,
+     "draw": 24.6,
+     "away": 24.0
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "home": 51.3,
+     "draw": 24.7,
+     "away": 24.0
+    }
+   ],
+   "goals": {
+    "expected": 2.95,
+    "first": 2.97
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1570427,
+   "slug": "2026-10-25-celta-vigo-real-betis",
+   "league": "La Liga",
+   "kickoff": "2026-10-25T15:15:00+00:00",
+   "home": "Celta Vigo",
+   "away": "Real Betis",
+   "fair": {
+    "home": 34.5,
+    "draw": 27.1,
+    "away": 38.4
+   },
+   "move": {
+    "home": -0.1,
+    "draw": -0.0,
+    "away": 0.1
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "home": 34.5,
+     "draw": 27.1,
+     "away": 38.4
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "home": 34.5,
+     "draw": 27.1,
+     "away": 38.4
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "home": 34.5,
+     "draw": 27.1,
+     "away": 38.4
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "home": 34.5,
+     "draw": 27.1,
+     "away": 38.4
+    }
+   ],
+   "goals": {
+    "expected": 2.61,
+    "first": 2.61
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1552800,
+   "slug": "2026-10-25-paris-saint-germain-lyon",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-25T19:45:00+00:00",
+   "home": "Paris Saint Germain",
+   "away": "Lyon",
+   "fair": {
+    "home": 69.9,
+    "draw": 16.7,
+    "away": 13.4
+   },
+   "move": {
+    "home": 1.7,
+    "draw": -0.7,
+    "away": -1.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "home": 68.2,
+     "draw": 17.4,
+     "away": 14.4
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "home": 69.9,
+     "draw": 16.7,
+     "away": 13.4
+    }
+   ],
+   "goals": {
+    "expected": 3.5,
+    "first": 3.47
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1584442,
+   "slug": "2026-10-26-galatasaray-fenerbah-e",
+   "league": "Super Lig",
+   "kickoff": "2026-10-26T18:30:00+00:00",
+   "home": "Galatasaray",
+   "away": "Fenerbahçe",
+   "fair": {
+    "home": 41.0,
+    "draw": 25.6,
+    "away": 33.4
+   },
+   "move": {
+    "home": -1.0,
+    "draw": -0.5,
+    "away": 1.5
+   },
+   "tracked_since": "2026-10-19T16:24:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "home": 42.0,
+     "draw": 26.1,
+     "away": 31.9
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "home": 41.0,
+     "draw": 25.6,
+     "away": 33.4
+    }
+   ],
+   "goals": {
+    "expected": 3.14,
+    "first": null
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1570431,
+   "slug": "2026-10-26-sevilla-osasuna",
+   "league": "La Liga",
+   "kickoff": "2026-10-26T20:00:00+00:00",
+   "home": "Sevilla",
+   "away": "Osasuna",
+   "fair": {
+    "home": 49.3,
+    "draw": 27.4,
+    "away": 23.3
+   },
+   "move": {
+    "home": 0.5,
+    "draw": -0.5,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "home": 48.8,
+     "draw": 27.9,
+     "away": 23.3
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "home": 49.1,
+     "draw": 27.6,
+     "away": 23.3
+    },
+    {
+     "t": "2026-10-19T09:31:00+00:00",
+     "home": 49.1,
+     "draw": 27.6,
+     "away": 23.3
+    },
+    {
+     "t": "2026-10-19T15:21:00+00:00",
+     "home": 49.0,
+     "draw": 27.7,
+     "away": 23.3
+    },
+    {
+     "t": "2026-10-19T18:26:00+00:00",
+     "home": 49.3,
+     "draw": 27.4,
+     "away": 23.3
+    }
+   ],
+   "goals": {
+    "expected": 2.33,
+    "first": 2.26
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  }
+ ],
+ "movers": [
+  {
+   "id": 1593339,
+   "slug": "2026-10-25-aris-thessalonikis-atromitos",
+   "league": "Super League Greece",
+   "kickoff": "2026-10-25T17:30:00+00:00",
+   "home": "Aris Thessalonikis",
+   "away": "Atromitos",
+   "fair": {
+    "home": 58.1,
+    "draw": 23.9,
+    "away": 17.9
+   },
+   "move": {
+    "home": 6.8,
+    "draw": -3.4,
+    "away": -3.6
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.49,
+    "first": 2.31
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1552203,
+   "slug": "2026-10-25-nec-nijmegen-groningen",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-25T13:30:00+00:00",
+   "home": "NEC Nijmegen",
+   "away": "Groningen",
+   "fair": {
+    "home": 40.8,
+    "draw": 24.2,
+    "away": 35.0
+   },
+   "move": {
+    "home": -4.7,
+    "draw": -0.4,
+    "away": 5.1
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.21,
+    "first": 3.14
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1575525,
+   "slug": "2026-10-25-sporting-cp-academico-viseu",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-25T20:30:00+00:00",
+   "home": "Sporting CP",
+   "away": "Academico Viseu",
+   "fair": {
+    "home": 75.8,
+    "draw": 15.4,
+    "away": 8.7
+   },
+   "move": {
+    "home": -4.4,
+    "draw": 2.1,
+    "away": 2.4
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.24,
+    "first": 3.32
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1552202,
+   "slug": "2026-10-25-fortuna-sittard-excelsior",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-25T11:15:00+00:00",
+   "home": "Fortuna Sittard",
+   "away": "Excelsior",
+   "fair": {
+    "home": 39.1,
+    "draw": 25.9,
+    "away": 35.0
+   },
+   "move": {
+    "home": 3.5,
+    "draw": 0.8,
+    "away": -4.3
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.0,
+    "first": 3.12
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1575523,
+   "slug": "2026-10-25-rio-ave-famalicao",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-25T18:00:00+00:00",
+   "home": "Rio Ave",
+   "away": "Famalicao",
+   "fair": {
+    "home": 25.1,
+    "draw": 28.5,
+    "away": 46.4
+   },
+   "move": {
+    "home": 2.3,
+    "draw": 1.5,
+    "away": -3.6
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.32,
+    "first": 2.45
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1593342,
+   "slug": "2026-10-25-ofi-paok",
+   "league": "Super League Greece",
+   "kickoff": "2026-10-25T18:00:00+00:00",
+   "home": "OFI",
+   "away": "PAOK",
+   "fair": {
+    "home": 19.9,
+    "draw": 24.1,
+    "away": 56.0
+   },
+   "move": {
+    "home": -1.8,
+    "draw": -1.7,
+    "away": 3.6
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.67,
+    "first": 2.36
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": "2026-10-25-ofi-paok",
+   "headline": "PAOK favoured at 56%, goals market repriced before kick-off"
+  },
+  {
+   "id": 1569987,
+   "slug": "2026-10-24-girona-celta-de-vigo-ii",
+   "league": "Segunda Division",
+   "kickoff": "2026-10-24T16:30:00+00:00",
+   "home": "Girona",
+   "away": "Celta de Vigo II",
+   "fair": {
+    "home": 68.8,
+    "draw": 19.1,
+    "away": 12.2
+   },
+   "move": {
+    "home": -3.4,
+    "draw": 1.7,
+    "away": 1.7
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.02,
+    "first": null
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1552200,
+   "slug": "2026-10-24-willem-ii-cambuur",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-24T16:45:00+00:00",
+   "home": "Willem II",
+   "away": "Cambuur",
+   "fair": {
+    "home": 37.6,
+    "draw": 25.6,
+    "away": 36.8
+   },
+   "move": {
+    "home": -3.1,
+    "draw": -0.4,
+    "away": 3.4
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.15,
+    "first": 3.06
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  }
+ ],
+ "reads": [
+  {
+   "slug": "2026-10-25-crystal-palace-newcastle",
+   "league": "Premier League",
+   "home": "Crystal Palace",
+   "away": "Newcastle",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "headline": "Newcastle repriced to 40.4%; goals markets unmoved",
+   "summary": "The market has Newcastle at 40.4% fair to win at Crystal Palace (Palace 32.8%, draw 26.8%), after a move from 37.5% captured at our 23:16 snapshot on 18 October across four books. The Asian handicap fair line moved 0.12 goals towards Newcastle (0.04 to 0.16), the same repricing seen through a second market. Goals markets are flat: Over 3.0 at 48.1%, fair total 2.92, both teams to score 61.6%. With only 6.5 hours and three price snapshots, the true opening is unknown, and zero injury reports leave no news explanation testable.",
+   "voices": {
+    "scout": "At twenty-three sixteen on the eighteenth, four books we track moved Newcastle from thirty-seven and a half per cent to forty point four, the sharp book from two point five four down to two point three eight. Palace went the other way, to thirty-two point eight. The handicap fair line moved zero point one two goals. That's a repricing with a sharp lead, and I think it's information.",
+    "sceptic": "Careful. Four books, not six. And we took three snapshots in six and a half hours, so 'same minute' is our polling, not their timing. The move could be up to twenty-seven minutes apart. The handicap shift is half a quarter-line, and it's the same repricing seen through a second market, not a second signal. One snapshot can't separate informed money from a soft opening line being corrected.",
+    "gaffer": "So here's the verdict. Newcastle at forty point four per cent, Palace at thirty-two point eight, one three-point move seen through the result and handicap markets. Goals genuinely flat. Confidence low: six and a half hours and three snapshots is not a full day of prices."
+   },
+   "video_title": "Newcastle repriced, goals untouched"
+  },
+  {
+   "slug": "2026-10-21-levante-athletic-club",
+   "league": "La Liga",
+   "home": "Levante",
+   "away": "Athletic Club",
+   "kickoff": "2026-10-21T18:00:00+00:00",
+   "headline": "Levante vs Athletic: a flat board and a sharp split",
+   "summary": "Athletic Club are clear favourites at 43.7% fair against Levante's 25.5%, with the draw at 30.8%. The Asian handicap sits around Levante +0.25 and moved only 0.2-0.3 percentage points across four snapshots in eight hours. Over 2.5 is frozen at 49.1%, with a fair total of 2.47; both teams to score is slightly favoured at 53.3%. Four injury names — three Levante, one Athletic — produced no visible reaction after our first report at 00:55, though there is no earlier baseline. The notable feature is a pricing split: the sharp market's Home price is 9% above the six-book average, roughly 2.5 points of fair probability, but it is static rather than a move, and with no true opening price the cause can't be pinned down.",
+   "voices": {
+    "scout": "Athletic Club are the clear favourites, about 44 per cent fair against Levante's 25 and a half, draw at 31. And on goals the market has parked itself right on the fence: Over 2.5 at about 49 per cent, a fair total of two point four seven. Eight hours, four snapshots, and not a single meaningful tick. That silence is the story.",
+    "sceptic": "Careful with that word, silence. We don't have an opening price — the collector first saw this market late on the eighteenth, so we've got eight hours of tape, not the whole day. The moves we do have are two-tenths of a point on the one-X-two and about a quarter of a point on the handicap. That's rounding noise, not a market holding its breath.",
+    "gaffer": "So here's the reading. Athletic about 44 per cent, Levante 25 and a half, draw 31. Handicap settled around Levante plus a quarter. Over 2.5 held at 49 per cent, fair total two point four seven. The one telling feature is that sharp-versus-soft split on Levante — roughly two and a half points of fair probability — but it's a static gap, not a move. And with the board flat and the tape this short, there's nothing here worth forcing."
+   },
+   "video_title": "Levante vs Athletic: eight hours, no move"
+  },
+  {
+   "slug": "2026-10-23-ipswich-nottingham-forest",
+   "league": "Premier League",
+   "home": "Ipswich",
+   "away": "Nottingham Forest",
+   "kickoff": "2026-10-23T19:00:00+00:00",
+   "headline": "Ipswich v Forest: Forest favoured, market barely moves",
+   "summary": "The market makes Nottingham Forest the away favourite at 41.7% fair, with Ipswich at 30.7% and the draw at 27.6%. Goals are close to a coin flip on a 2.75 line: Over 49.4%, fair total 2.72. The only tracked movement is the sharp book lengthening Over 2.75 from 1.93 to 1.97 while consensus stayed flat. With eight hours of history, two snapshots and no team news, this reads as routine line maintenance rather than information.",
+   "voices": {
+    "scout": "The handicap is pinned at a fair line of nought point two one, home plus a quarter. That's the flattest thing on the board. And goals are basically a coin flip on two and three-quarter, Over at about forty-nine per cent.",
+    "sceptic": "You've got two snapshots four and a half hours apart. The sharp book took Over from one ninety-three to one ninety-seven, and the consensus didn't move at all. That's one book's line maintenance, not money arriving.",
+    "gaffer": "Two snapshots and one book's nudge isn't a market with a story. We sit this one out until the picture has more than eight hours of life in it."
+   },
+   "video_title": "Ipswich v Forest: a market asleep at 41.7%"
+  },
+  {
+   "slug": "2026-10-23-torino-monza",
+   "league": "Serie A",
+   "home": "Torino",
+   "away": "Monza",
+   "kickoff": "2026-10-23T18:45:00+00:00",
+   "headline": "Torino vs Monza: flat prices, single snapshot, thin picture",
+   "summary": "The sharp market has Torino at 44.8%, the draw at 27.0% and Monza at 28.2%. The Asian handicap fair line sits at -0.32 against a -0.25 quote, with the home side at 51.9% and the away side at 48.1% — a near coin-flip with a slight home tilt. Over 2.5 goals is a whisker under even money at 48.5% and the fair total is 2.44, a mild lean to a sub-2.5 game. Consensus has BTTS Yes at 52.0% on a high-margin market. Both Torino absentees, Israel and Pellegri, were already on the first injury list, so their timing is unknown. Only one price snapshot in eight hours is stored, and the true opening is unknown.",
+   "voices": {
+    "scout": "Six books on Torino against Monza, and every price sits exactly where we first found it. The sharp market rates Torino at about forty-five per cent, the draw at twenty-seven, Monza at twenty-eight. Under two and a half goals is a whisker under even money. This is a market that has already said what it wants to say.",
+    "sceptic": "Scout, we've only looked at it once. One stored snapshot means every change reads as zero by construction — that's an absence of observations, not six books agreeing. And the market was already open before we first saw it, so none of this is an opening price.",
+    "gaffer": "Mild leans on a single reading is not a signal — one snapshot is not a settled market."
+   },
+   "video_title": "Torino vs Monza: a flat board, and one snapshot"
+  },
+  {
+   "slug": "2026-10-24-cagliari-bologna",
+   "league": "Serie A",
+   "home": "Cagliari",
+   "away": "Bologna",
+   "kickoff": "2026-10-24T13:00:00+00:00",
+   "headline": "Bologna favoured, goals lean is a single-book nudge",
+   "summary": "The draw sits at 32.7%. The only movement is a trim to Over 2.25 at the sharp market, from 50.6% to 49.0%, with the fair total slipping from 2.27 to 2.22, while the consensus Over moved just 0.3 points. The handicap fair line is home +0.15, under a quarter goal to Bologna, with the quoted line at +0.25 and only six books pricing it. Cagliari's Riyad Idrissi is listed as missing with a knee problem, with no measurable price reaction.",
+   "voices": {
+    "scout": "The sharp book trimmed Over 2.25 from fifty point six to forty-nine per cent, fair total down from two point two seven to two point two two.",
+    "sceptic": "Two things. The handicap fair line is home plus zero point one five — under a quarter goal, not a full one — and the consensus Over moved three tenths of a point, not one point seven. That's one book adjusting its book, not a low-goals story.",
+    "gaffer": "So the reading is this. The goals lean is one sharp book, not a consensus."
+   },
+   "video_title": "Bologna priced ahead, but the market barely moves"
+  },
+  {
+   "slug": "2026-10-25-ofi-paok",
+   "league": "Super League Greece",
+   "home": "OFI",
+   "away": "PAOK",
+   "kickoff": "2026-10-25T18:00:00+00:00",
+   "headline": "PAOK favoured at 56%, goals market repriced before kick-off",
+   "summary": "The market has PAOK at 56.0% fair to win, the draw at 24.1% and OFI at 19.9%, with the handicap fair line at 0.77 goals in PAOK's favour. The goals market made one big single-step move at 04:26: Over 2.75 consensus rose from 40.3% to 48.1% and the fair total from 2.36 to 2.67, driven by two soft books, while BTTS Yes climbed to 54.2%. With only 6.5 hours of history, two snapshots and no sharp opening print, that step could be a line correction rather than informed money.",
+   "voices": {
+    "scout": "That's the loudest move on the board, and it all landed at four twenty-six in the morning. Both teams to score went up to fifty-four per cent, the handicap fair line drifted toward PAOK from nought point six three to nought point seven seven. Someone decided this game got more open.",
+    "sceptic": "Two snapshots. Six and a half hours. And the sharp market never printed a single price at the first snapshot, so there's no sharp reference to measure against. That four twenty-six step came from two soft books — it's at least as likely a book-level correction as informed money. Show me a third print.",
+    "gaffer": "So the reading is PAOK favoured, the game priced more open, and the evidence for that second part is one refresh from two books. A correction story, not a verdict — I want a third print before anyone hangs their hat on this total."
+   },
+   "video_title": "PAOK favoured, but the goals move needs a third print"
+  },
+  {
+   "slug": "2026-10-20-dunfermline-partick",
+   "league": "Scottish Championship",
+   "home": "Dunfermline",
+   "away": "Partick",
+   "kickoff": "2026-10-20T18:45:00+00:00",
+   "headline": "Partick narrow favourites in a market that has barely moved",
+   "summary": "Partick are narrow away favourites at a fair 37.9%, with Dunfermline on 32.2% and the draw on 29.9% in the Scottish Championship. The handicap sits level at +0.11 to the home side, though only five books quote it. Over 2.5 goals is a 46.9% underdog and the fair total is 2.38 goals; Under 2.5 is a narrow 53.1% favourite rather than a settled low-scoring verdict. Both teams to score sits at 52.6% on consensus only. Every move since first seen is rounding or a margin re-cut, and with 17.6 hours of history and three snapshots, the true opening price is unknown. Our reading is low confidence: quiet, not informative.",
+   "voices": {
+    "scout": "And that's the story. Partick are narrow away favourites at about thirty-eight per cent, Dunfermline about thirty-two, the draw about thirty. Level ball on the handicap, and a goal expectation of two point three eight. The sharp book hasn't moved a tick on the one-X-two or the handicap in seventeen hours. Sometimes the loudest thing a market says is nothing at all.",
+    "sceptic": "Careful. The sharp book's Under two and a half drifted from one point seven six to one point seven nine while the Over held at two point oh three. That's a margin re-cut, not money. And no injury news means no injury feed, not a clean bill of health. Three observations in seventeen hours is barely observing a market at all.",
+    "gaffer": "So we call it what it is. Under two and a half is a narrow fifty-three per cent favourite, not a settled low-scoring verdict. The true opening is unknown, because we only started watching at half past ten on the eighteenth. We call this market quiet and we stay in our seats."
+   },
+   "video_title": "Dunfermline v Partick: a market barely observed"
+  },
+  {
+   "slug": "2026-10-19-sc-braga-gil-vicente",
+   "league": "Primeira Liga",
+   "home": "SC Braga",
+   "away": "GIL Vicente",
+   "kickoff": "2026-10-19T19:15:00+00:00",
+   "headline": "Braga clear favourites, but the market barely moves",
+   "summary": "SC Braga are the clear market favourite at 62.5% fair, with the draw at 23.2% and GIL Vicente at 14.3%. The handicap sits at -1, with a fair line of about -0.99 goals. Goals are modest: a fair total of 2.42, Over 2.5 at 47.9% and BTTS Yes at 45.9% — a marginal Under lean of roughly two points. Across a short 17.6-hour, six-snapshot history the largest shift is 2.1 points, inside the noise band, and shared timestamps cannot be separated from snapshot granularity. Both injury lists are empty, which is a data gap rather than confirmation of full availability.",
+   "voices": {
+    "scout": "The market's clear enough. Braga at about sixty-three per cent, the draw around twenty-three, GIL Vicente fourteen. A goal handicap, and a total that sits at about two point four goals. And there was a nudge toward Braga at half past one, four books moving together, though it's under two points.",
+    "sceptic": "Four books in the same second isn't a coordinated nudge. We've got six price snapshots in seventeen and a half hours, so anything that repriced in the morning gets stamped with the same afternoon timestamp. A two-point shift on a line parked at a goal isn't a signal. And Over two and a half at forty-eight per cent is a marginal lean, not a firm one.",
+    "gaffer": "So the reading is Braga at about sixty-three per cent, a goal handicap, and a total around two point four. The biggest move all day was two points, inside the noise, and an empty injury list is a data gap, not a clean bill of health. There's nothing here worth putting your name to."
+   },
+   "video_title": "Braga 63% — six snapshots and no team news"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "slug": "2026-10-25-ofi-paok",
+ "league": "Super League Greece",
+ "home": "OFI",
+ "away": "PAOK",
+ "kickoff": "2026-10-25T18:00:00+00:00",
+ "generated_at": "2026-10-19T06:05:59+00:00",
+ "headline": "PAOK favoured at 56%, goals market repriced before kick-off",
+ "summary": "The market has PAOK at 56.0% fair to win, the draw at 24.1% and OFI at 19.9%, with the handicap fair line at 0.77 goals in PAOK's favour. The goals market made one big single-step move at 04:26: Over 2.75 consensus rose from 40.3% to 48.1% and the fair total from 2.36 to 2.67, driven by two soft books, while BTTS Yes climbed to 54.2%. With only 6.5 hours of history, two snapshots and no sharp opening print, that step could be a line correction rather than informed money.",
+ "voices": {
+  "scout": "That's the loudest move on the board, and it all landed at four twenty-six in the morning. Both teams to score went up to fifty-four per cent, the handicap fair line drifted toward PAOK from nought point six three to nought point seven seven. Someone decided this game got more open.",
+  "sceptic": "Two snapshots. Six and a half hours. And the sharp market never printed a single price at the first snapshot, so there's no sharp reference to measure against. That four twenty-six step came from two soft books — it's at least as likely a book-level correction as informed money. Show me a third print.",
+  "gaffer": "So the reading is PAOK favoured, the game priced more open, and the evidence for that second part is one refresh from two books. A correction story, not a verdict — I want a third print before anyone hangs their hat on this total."
+ },
+ "video_title": "PAOK favoured, but the goals move needs a third print",
+ "key_points": [
+  "Over 2.75 jumped 7.8 pp (40.3% → 48.1%), fair total 2.36 → 2.67 — one 04:26 step from two books",
+  "BTTS Yes 49.6% → 54.2% and AH fair line 0.63 → 0.77: same direction, modest size"
+ ],
+ "market": {
+  "id": 1593342,
+  "slug": "2026-10-25-ofi-paok",
+  "league": "Super League Greece",
+  "kickoff": "2026-10-25T18:00:00+00:00",
+  "home": "OFI",
+  "away": "PAOK",
+  "fair": {
+   "home": 19.9,
+   "draw": 24.1,
+   "away": 56.0
+  },
+  "move": {
+   "home": -1.8,
+   "draw": -1.7,
+   "away": 3.6
+  },
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "goals": {
+   "expected": 2.67,
+   "first": 2.36
+  },
+  "absences": {
+   "home": 0,
+   "away": 0
+  },
+  "read": "2026-10-25-ofi-paok",
+  "headline": "PAOK favoured at 56%, goals market repriced before kick-off"
+ },
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
+}
