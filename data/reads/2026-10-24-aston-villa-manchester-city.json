@@ -1,0 +1,94 @@
+{
+ "slug": "2026-10-24-aston-villa-manchester-city",
+ "league": "Premier League",
+ "home": "Aston Villa",
+ "away": "Manchester City",
+ "kickoff": "2026-10-24T11:30:00+00:00",
+ "generated_at": "2026-10-20T11:04:50+00:00",
+ "headline": "City 55.7% favourites as market holds flat",
+ "summary": "Manchester City are 55.7% fair favourites for the trip to Aston Villa, with the draw at 22.6% and the home side 21.6%. The handicap sits at +0.75 for Villa, and all three 1x2 outcomes have moved less than one percentage point across 35.5 hours of tracking — noise, not money. Over 3.0 goals ticked from 50.3% to 52.2% on the sharp book inside the first half-hour, then drifted 0.4 points back; consensus rose just 0.8 points and the fair total moved 3.01 to 3.09. With seven snapshots, six books on the main lines and no injury reports for either squad, the market has already priced what it knows.",
+ "voices": {
+  "scout": "The market's been flat for thirty-five hours. City clear at fifty-six per cent, the draw twenty-three, Villa twenty-two. Over three goals inched up from fifty point three to fifty-two point two on the sharp book. That's a lean toward a high-scoring game.",
+  "sceptic": "A lean? All one point nine points arrived in a twenty-seven-minute step on one book, off a first quote we can't date to the true opening, and it's drifted back point four since. Consensus moved eight tenths. The fair total moved eight hundredths. That's a stale tick, not money.",
+  "gaffer": "So here's the reading. City are a solid fifty-six per cent favourite, the line's settled at plus three-quarters, and the one-two-X moves are all under one point — noise. The Over three flicker is a single-book nudge below the notable line, not a settled lean. Thin sample, six books, no fitness news. The market's told us its shape."
+ },
+ "video_title": "City 55.7% — but the goal line is thin",
+ "key_points": [
+  "City 55.7% fair, AH +0.75 settled — 1x2 moves all under 1 pp",
+  "Thin sample: 7 snapshots, 6 books, zero injury reports = coverage gap, not fitness news"
+ ],
+ "market": {
+  "id": 1557438,
+  "slug": "2026-10-24-aston-villa-manchester-city",
+  "league": "Premier League",
+  "kickoff": "2026-10-24T11:30:00+00:00",
+  "home": "Aston Villa",
+  "away": "Manchester City",
+  "fair": {
+   "home": 21.6,
+   "draw": 22.6,
+   "away": 55.7
+  },
+  "move": {
+   "home": -0.1,
+   "draw": -0.5,
+   "away": 0.6
+  },
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "home": 21.7,
+    "draw": 23.1,
+    "away": 55.2
+   },
+   {
+    "t": "2026-10-18T23:16:00+00:00",
+    "home": 21.5,
+    "draw": 22.5,
+    "away": 56.0
+   },
+   {
+    "t": "2026-10-19T02:31:00+00:00",
+    "home": 21.5,
+    "draw": 22.5,
+    "away": 56.0
+   },
+   {
+    "t": "2026-10-19T05:22:00+00:00",
+    "home": 21.5,
+    "draw": 22.5,
+    "away": 56.0
+   },
+   {
+    "t": "2026-10-19T11:20:00+00:00",
+    "home": 21.6,
+    "draw": 22.6,
+    "away": 55.8
+   },
+   {
+    "t": "2026-10-19T14:23:00+00:00",
+    "home": 21.6,
+    "draw": 22.6,
+    "away": 55.8
+   },
+   {
+    "t": "2026-10-19T17:18:00+00:00",
+    "home": 21.6,
+    "draw": 22.6,
+    "away": 55.7
+   }
+  ],
+  "goals": {
+   "expected": 3.09,
+   "first": 3.01
+  },
+  "absences": {
+   "home": 0,
+   "away": 0
+  },
+  "read": "2026-10-24-aston-villa-manchester-city",
+  "headline": "City 55.7% favourites as market holds flat"
+ },
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
+}

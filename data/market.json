@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T11:04:00+00:00",
+ "generated_at": "2026-10-20T11:34:00+00:00",
  "prices_as_of": "2026-10-20T10:19:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
@@ -153,8 +153,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null
+   "read": "2026-10-24-aston-villa-manchester-city",
+   "headline": "City 55.7% favourites as market holds flat"
   },
   {
    "id": 1550164,
@@ -1070,6 +1070,21 @@
  ],
  "reads": [
   {
+   "slug": "2026-10-24-aston-villa-manchester-city",
+   "league": "Premier League",
+   "home": "Aston Villa",
+   "away": "Manchester City",
+   "kickoff": "2026-10-24T11:30:00+00:00",
+   "headline": "City 55.7% favourites as market holds flat",
+   "summary": "Manchester City are 55.7% fair favourites for the trip to Aston Villa, with the draw at 22.6% and the home side 21.6%. The handicap sits at +0.75 for Villa, and all three 1x2 outcomes have moved less than one percentage point across 35.5 hours of tracking — noise, not money. Over 3.0 goals ticked from 50.3% to 52.2% on the sharp book inside the first half-hour, then drifted 0.4 points back; consensus rose just 0.8 points and the fair total moved 3.01 to 3.09. With seven snapshots, six books on the main lines and no injury reports for either squad, the market has already priced what it knows.",
+   "voices": {
+    "scout": "The market's been flat for thirty-five hours. City clear at fifty-six per cent, the draw twenty-three, Villa twenty-two. Over three goals inched up from fifty point three to fifty-two point two on the sharp book. That's a lean toward a high-scoring game.",
+    "sceptic": "A lean? All one point nine points arrived in a twenty-seven-minute step on one book, off a first quote we can't date to the true opening, and it's drifted back point four since. Consensus moved eight tenths. The fair total moved eight hundredths. That's a stale tick, not money.",
+    "gaffer": "So here's the reading. City are a solid fifty-six per cent favourite, the line's settled at plus three-quarters, and the one-two-X moves are all under one point — noise. The Over three flicker is a single-book nudge below the notable line, not a settled lean. Thin sample, six books, no fitness news. The market's told us its shape."
+   },
+   "video_title": "City 55.7% — but the goal line is thin"
+  },
+  {
    "slug": "2026-10-25-barcelona-real-madrid",
    "league": "La Liga",
    "home": "Barcelona",
@@ -1173,21 +1188,6 @@
     "gaffer": "So the reading is PAOK favoured, the game priced more open, and the evidence for that second part is one refresh from two books. A correction story, not a verdict — I want a third print before anyone hangs their hat on this total."
    },
    "video_title": "PAOK favoured, but the goals move needs a third print"
-  },
-  {
-   "slug": "2026-10-20-dunfermline-partick",
-   "league": "Scottish Championship",
-   "home": "Dunfermline",
-   "away": "Partick",
-   "kickoff": "2026-10-20T18:45:00+00:00",
-   "headline": "Partick narrow favourites in a market that has barely moved",
-   "summary": "Partick are narrow away favourites at a fair 37.9%, with Dunfermline on 32.2% and the draw on 29.9% in the Scottish Championship. The handicap sits level at +0.11 to the home side, though only five books quote it. Over 2.5 goals is a 46.9% underdog and the fair total is 2.38 goals; Under 2.5 is a narrow 53.1% favourite rather than a settled low-scoring verdict. Both teams to score sits at 52.6% on consensus only. Every move since first seen is rounding or a margin re-cut, and with 17.6 hours of history and three snapshots, the true opening price is unknown. Our reading is low confidence: quiet, not informative.",
-   "voices": {
-    "scout": "And that's the story. Partick are narrow away favourites at about thirty-eight per cent, Dunfermline about thirty-two, the draw about thirty. Level ball on the handicap, and a goal expectation of two point three eight. The sharp book hasn't moved a tick on the one-X-two or the handicap in seventeen hours. Sometimes the loudest thing a market says is nothing at all.",
-    "sceptic": "Careful. The sharp book's Under two and a half drifted from one point seven six to one point seven nine while the Over held at two point oh three. That's a margin re-cut, not money. And no injury news means no injury feed, not a clean bill of health. Three observations in seventeen hours is barely observing a market at all.",
-    "gaffer": "So we call it what it is. Under two and a half is a narrow fifty-three per cent favourite, not a settled low-scoring verdict. The true opening is unknown, because we only started watching at half past ten on the eighteenth. We call this market quiet and we stay in our seats."
-   },
-   "video_title": "Dunfermline v Partick: a market barely observed"
   }
  ]
 }
