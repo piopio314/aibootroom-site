@@ -136,6 +136,12 @@
   if (!M) { document.getElementById('heroCard').innerHTML = '<div class="skeleton">Market data is being refreshed — check back in a minute.</div>'; return; }
   const readUrl = slug => `read.html?r=${encodeURIComponent(slug)}`;
 
+  // matches that already kicked off never show as upcoming, even if the data file is a few hours old
+  const upcoming = m => m && new Date(m.kickoff) > new Date();
+  M.weekend = (M.weekend || []).filter(upcoming);
+  M.movers = (M.movers || []).filter(upcoming);
+  if (!upcoming(M.featured)) M.featured = M.weekend[0] || null;
+
   // ── hero: match of the week
   const f = M.featured;
   if (f) {
