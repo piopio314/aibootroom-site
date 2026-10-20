@@ -1,0 +1,102 @@
+{
+ "generated_at": "2026-10-20T13:22:11+00:00",
+ "has_youtube": false,
+ "videos": [
+  {
+   "id": "2026-10-24-aston-villa-manchester-city",
+   "title": "City 55.7% — but the goal line is thin",
+   "home": "Aston Villa",
+   "away": "Manchester City",
+   "league": "Premier League",
+   "kickoff": "2026-10-24T11:30:00+00:00",
+   "seconds": 91,
+   "voiced": true,
+   "youtube_id": null,
+   "pundits": true
+  },
+  {
+   "id": "2026-10-24-napoli-as-roma",
+   "title": "Napoli v AS Roma: what the market says",
+   "home": "Napoli",
+   "away": "AS Roma",
+   "league": "Serie A",
+   "kickoff": "2026-10-24T16:00:00+00:00",
+   "seconds": 98,
+   "voiced": true,
+   "youtube_id": null,
+   "pundits": true
+  },
+  {
+   "id": "2026-10-24-chelsea-tottenham",
+   "title": "Chelsea 54.9%: One Snapshot, Two Flat Days",
+   "home": "Chelsea",
+   "away": "Tottenham",
+   "league": "Premier League",
+   "kickoff": "2026-10-24T16:30:00+00:00",
+   "seconds": 90,
+   "voiced": true,
+   "youtube_id": null,
+   "pundits": true
+  },
+  {
+   "id": "2026-10-25-barcelona-real-madrid",
+   "title": "Clasico: Barcelona down a tenth, goals flat",
+   "home": "Barcelona",
+   "away": "Real Madrid",
+   "league": "La Liga",
+   "kickoff": "2026-10-25T20:00:00+00:00",
+   "seconds": 90,
+   "voiced": true,
+   "youtube_id": null,
+   "pundits": true
+  },
+  {
+   "id": "2026-10-21-levante-athletic-club",
+   "title": "Levante vs Athletic: eight hours, no move",
+   "home": "Levante",
+   "away": "Athletic Club",
+   "league": "La Liga",
+   "kickoff": "2026-10-21T18:00:00+00:00",
+   "seconds": 95,
+   "voiced": false,
+   "youtube_id": null,
+   "pundits": true
+  },
+  {
+   "id": "2026-10-23-torino-monza",
+   "title": "Torino vs Monza: a flat board, and one snapshot",
+   "home": "Torino",
+   "away": "Monza",
+   "league": "Serie A",
+   "kickoff": "2026-10-23T18:45:00+00:00",
+   "seconds": 101,
+   "voiced": false,
+   "youtube_id": null,
+   "pundits": true
+  },
+  {
+   "id": "2026-10-23-ipswich-nottingham-forest",
+   "title": "Ipswich v Forest: a market asleep at 41.7%",
+   "home": "Ipswich",
+   "away": "Nottingham Forest",
+   "league": "Premier League",
+   "kickoff": "2026-10-23T19:00:00+00:00",
+   "seconds": 99,
+   "voiced": false,
+   "youtube_id": null,
+   "pundits": true
+  },
+  {
+   "id": "2026-10-24-cagliari-bologna",
+   "title": "Bologna priced ahead, but the market barely moves",
+   "home": "Cagliari",
+   "away": "Bologna",
+   "league": "Serie A",
+   "kickoff": "2026-10-24T13:00:00+00:00",
+   "seconds": 91,
+   "voiced": false,
+   "youtube_id": null,
+   "pundits": true
+  }
+ ]
+}

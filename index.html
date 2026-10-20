@@ -31,7 +31,7 @@
     <a href="#weekend">This weekend</a><a href="match.html">Match shows</a><a href="#movers">Market movers</a><a href="#bootroom">The Boot Room</a><a href="#videos">Videos</a><a href="#receipts">Receipts</a>
   </nav>
   <span class="sp"></span>
-  <a class="btn yt sm" href="https://www.youtube.com/@AiBootRoom" target="_blank" rel="noopener">▶ YouTube</a>
+  <a class="btn yt sm" data-yt hidden href="https://www.youtube.com/@AiBootRoom" target="_blank" rel="noopener">▶ YouTube</a>
 </div></header>
 
 <main>
@@ -43,7 +43,7 @@
       <p class="sub" id="heroSub">We track every price in 20 leagues, every hour — and three AI pundits explain what moved and why.</p>
       <div class="ctas" id="heroCtas">
         <a class="btn primary" href="#weekend">See this weekend’s market →</a>
-        <a class="btn ghost" href="https://www.youtube.com/@AiBootRoom" target="_blank" rel="noopener">▶ Watch the breakdowns</a>
+        <a class="btn ghost" href="match.html">▶ Watch the match shows</a>
       </div>
     </div>
     <div class="hcard" id="heroCard"><div class="skeleton">Loading the market…</div></div>
@@ -79,9 +79,9 @@
 
   <!-- VIDEOS -->
   <section class="section alt" id="videos"><div class="wrap">
-    <div class="head-row"><div><div class="kicker">Watch</div><h2 class="disp">60-second market reads</h2></div><span class="sp"></span>
-      <a class="btn yt sm" href="https://www.youtube.com/@AiBootRoom" target="_blank" rel="noopener">▶ Subscribe on YouTube</a></div>
-    <p class="lead">The Scout, the Sceptic and the Gaffer argue one match in under a minute. Scripts are written from the market data — every number is checkable.</p>
+    <div class="head-row"><div><div class="kicker">Watch</div><h2 class="disp">Watch the market, match by match</h2></div><span class="sp"></span>
+      <a class="btn ghost sm" href="match.html">All match shows →</a></div>
+    <p class="lead">One match in about a minute: the win chances, how the price moved, the team news and the reading of our AI pundits. Press play — it runs right here.</p>
     <div class="shorts" id="shorts"></div>
   </div></section>
 
@@ -115,7 +115,7 @@
   <section class="cta"><div class="wrap">
     <h2 class="disp">The weekend market in 60 seconds</h2>
     <p class="lead">Short videos every matchday: what moved, why, and what the market really thinks.</p>
-    <div class="row"><a class="btn yt" href="https://www.youtube.com/@AiBootRoom" target="_blank" rel="noopener">▶ Subscribe on YouTube</a>
+    <div class="row"><a class="btn primary" href="match.html">▶ Watch the match shows</a><a class="btn yt" data-yt hidden href="https://www.youtube.com/@AiBootRoom" target="_blank" rel="noopener">▶ Subscribe on YouTube</a>
       <a class="btn ghost" href="https://x.com/AiBootRoom" target="_blank" rel="noopener">Follow on X</a></div>
   </div></section>
 </main>
@@ -217,12 +217,19 @@
         return `<div class="msg ${k}"><div class="av" style="background:${P.bg}">${P.emoji}</div><div class="bubble"><b>${E(P.name)}</b>${E(deb.voices[k])}</div></div>`; }).join('')}</div>`;
   }
 
-  // ── videos (until a video is on YouTube, the card opens the written read)
-  document.getElementById('shorts').innerHTML = reads.filter(r => r.video_title).slice(0, 4).map(r =>
-    `<a class="short" href="${readUrl(r.slug)}" style="background:linear-gradient(180deg, hsl(${ABR.hue(r.home)} 45% 24%), #0d1219 72%)">
-      <span class="chip tag">${E(r.league)}</span><span class="soon">Video soon</span><div class="play">▶</div>
-      <b class="disp">${E(r.video_title)}</b><span>${E(S(r.home))} v ${E(S(r.away))} · read it now</span></a>`).join('')
+  // ── videos: a YouTube embed when the short is on YouTube, otherwise the match show plays here (assets/show.js)
+  let V = {videos: [], has_youtube: false};
+  try { V = await ABR.json('data/videos.json'); } catch (e) { /* no videos yet */ }
+  if (V.has_youtube) document.querySelectorAll('[data-yt]').forEach(a => a.hidden = false);
+  document.getElementById('shorts').innerHTML = V.videos.slice(0, 4).map((v, i) =>
+    `<a class="short" href="match.html?m=${encodeURIComponent(v.id)}" data-v="${i}" style="background:linear-gradient(180deg, hsl(${ABR.hue(v.home)} 45% 24%), #0d1219 72%)">
+      <span class="chip tag">${E(v.league)}</span>${v.youtube_id ? '' : `<span class="soon">${Math.max(1, Math.round(v.seconds / 60))} min</span>`}<div class="play">▶</div>
+      <b class="disp">${E(v.title)}</b><span>${E(S(v.home))} v ${E(S(v.away))} · ${E(ABR.when(v.kickoff))}</span></a>`).join('')
     || '<div class="skeleton">The first videos are on their way.</div>';
+  document.getElementById('shorts').addEventListener('click', ev => {
+    const a = ev.target.closest('[data-v]'); if (!a) return;
+    ev.preventDefault(); ABR.playVideo(V.videos[+a.dataset.v]);
+  });
 
   // ── receipts: real published picks only; otherwise a clearly marked specimen
   const picks = (L && L.picks) || [], s = (L && L.summary) || {};

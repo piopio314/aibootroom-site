@@ -53,3 +53,36 @@ const ABR = {
   },
   async json(url) { const r = await fetch(url + (url.includes('?') ? '&' : '?') + 't=' + Date.now()); if (!r.ok) throw new Error(r.status); return r.json(); },
 };
+
+// ── video overlay: YouTube (privacy-enhanced embed, loaded only on click) or our match show (Remotion Player)
+ABR.playVideo = async function (v) {
+  let box = document.getElementById('vbox');
+  if (!box) {
+    box = document.createElement('div'); box.id = 'vbox'; box.className = 'vbox';
+    box.innerHTML = '<div class="vpanel"><button class="vclose" aria-label="Close">✕</button><div class="vstage"></div><div class="vfoot"></div></div>';
+    document.body.append(box);
+    box.addEventListener('click', ev => { if (ev.target === box || ev.target.closest('.vclose')) ABR.closeVideo(); });
+    document.addEventListener('keydown', ev => { if (ev.key === 'Escape') ABR.closeVideo(); });
+  }
+  const stage = box.querySelector('.vstage');
+  box.querySelector('.vfoot').innerHTML = `<b>${ABR.esc(ABR.short(v.home))} v ${ABR.esc(ABR.short(v.away))}</b>
+    <a class="btn ghost sm" href="match.html?m=${encodeURIComponent(v.id)}">Scenes and all matches →</a>`;
+  box.classList.add('on'); document.body.style.overflow = 'hidden';
+  if (v.youtube_id) {
+    stage.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(v.youtube_id)}?autoplay=1&rel=0&playsinline=1"
+      title="${ABR.esc(v.title)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
+    return;
+  }
+  stage.innerHTML = '<div class="skeleton">Loading the match show…</div>';
+  if (!window.ABRShow) await new Promise((ok, bad) => { const s = document.createElement('script'); s.src = 'assets/show.js'; s.onload = ok; s.onerror = bad; document.head.append(s); });
+  const show = await ABR.json(`data/shows/${v.id}.json`);
+  stage.innerHTML = '';
+  ABR._show = window.ABRShow.mount(stage, show);
+  setTimeout(() => ABR._show && ABR._show.play(), 300);
+};
+ABR.closeVideo = function () {
+  const box = document.getElementById('vbox'); if (!box) return;
+  if (ABR._show) { ABR._show.destroy(); ABR._show = null; }
+  box.querySelector('.vstage').innerHTML = ''; box.classList.remove('on'); document.body.style.overflow = '';
+};
+ABR.json('data/videos.json').then(v => { if (v.has_youtube) document.querySelectorAll('[data-yt]').forEach(a => a.hidden = false); }).catch(() => {});
