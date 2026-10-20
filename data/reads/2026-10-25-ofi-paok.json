@@ -17,34 +17,6 @@
   "Over 2.75 jumped 7.8 pp (40.3% → 48.1%), fair total 2.36 → 2.67 — one 04:26 step from two books",
   "BTTS Yes 49.6% → 54.2% and AH fair line 0.63 → 0.77: same direction, modest size"
  ],
- "market": {
-  "id": 1593342,
-  "slug": "2026-10-25-ofi-paok",
-  "league": "Super League Greece",
-  "kickoff": "2026-10-25T18:00:00+00:00",
-  "home": "OFI",
-  "away": "PAOK",
-  "fair": {
-   "home": 19.9,
-   "draw": 24.1,
-   "away": 56.0
-  },
-  "move": {
-   "home": -1.8,
-   "draw": -1.7,
-   "away": 3.6
-  },
-  "tracked_since": "2026-10-18T22:49:00+00:00",
-  "goals": {
-   "expected": 2.67,
-   "first": 2.36
-  },
-  "absences": {
-   "home": 0,
-   "away": 0
-  },
-  "read": "2026-10-25-ofi-paok",
-  "headline": "PAOK favoured at 56%, goals market repriced before kick-off"
- },
+ "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }
