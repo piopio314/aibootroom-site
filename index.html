@@ -219,7 +219,7 @@
       : `<span class="pk">${E(x.kicker || 'MARKET READ')}</span><span class="pn ${b.d > 0 ? 'up' : b.d < 0 ? 'down' : ''}">${Math.abs(b.d) >= 0.5 ? (b.d > 0 ? '▲' : '▼') + ' ' + Math.abs(b.d).toFixed(1) : `${Math.max(m.fair.home, m.fair.away).toFixed(0)}%`}</span>
          <span class="pt">${E(S(Math.abs(b.d) >= 0.5 ? b.team : (m.fair.home >= m.fair.away ? m.home : m.away)))}</span>`;
     return `<div class="mtile" data-tile="${E(m.slug)}"><button class="poster" aria-label="Play the ${E(S(m.home))} v ${E(S(m.away))} video">${poster}
-      <span class="pp">▶</span><span class="pd">${yt ? 'YouTube' : `${Math.max(1, Math.round(x.seconds / 60))} min`}</span></button></div>`;
+      <span class="pp">▶</span><span class="pd">${yt ? 'YouTube' : x.voiced ? '🔊 voice' : `${Math.max(1, Math.round(x.seconds / 60))} min`}</span></button></div>`;
   };
   const card = m => {
     const b = ABR.biggest(m), tag = 'div', t = tile(m);

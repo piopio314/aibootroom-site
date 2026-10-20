@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T17:14:35+00:00",
+ "generated_at": "2026-10-20T17:56:40+00:00",
  "has_youtube": false,
  "videos": [
   {
@@ -9,7 +9,7 @@
    "away": "Manchester City",
    "league": "Premier League",
    "kickoff": "2026-10-24T11:30:00+00:00",
-   "seconds": 91,
+   "seconds": 72,
    "voiced": true,
    "youtube_id": null,
    "pundits": true
@@ -21,7 +21,7 @@
    "away": "AS Roma",
    "league": "Serie A",
    "kickoff": "2026-10-24T16:00:00+00:00",
-   "seconds": 98,
+   "seconds": 72,
    "voiced": true,
    "youtube_id": null,
    "pundits": true
@@ -33,7 +33,7 @@
    "away": "Tottenham",
    "league": "Premier League",
    "kickoff": "2026-10-24T16:30:00+00:00",
-   "seconds": 90,
+   "seconds": 68,
    "voiced": true,
    "youtube_id": null,
    "pundits": true
@@ -45,7 +45,7 @@
    "away": "Real Madrid",
    "league": "La Liga",
    "kickoff": "2026-10-25T20:00:00+00:00",
-   "seconds": 90,
+   "seconds": 68,
    "voiced": true,
    "youtube_id": null,
    "pundits": true
