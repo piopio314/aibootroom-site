@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-20T06:49:00+00:00",
- "prices_as_of": "2026-10-20T06:34:00+00:00",
+ "generated_at": "2026-10-20T11:04:00+00:00",
+ "prices_as_of": "2026-10-20T10:19:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
   "matches": 437,
-  "price_changes": 107494,
+  "price_changes": 111259,
   "leagues": 20,
   "absences": 297,
   "tracking_since": "2026-10-18T22:49:00+00:00"
@@ -79,8 +79,8 @@
    "home": 0,
    "away": 0
   },
-  "read": null,
-  "headline": null
+  "read": "2026-10-25-barcelona-real-madrid",
+  "headline": "Clasico: Barcelona still favoured, handicap eases"
  },
  "weekend": [
   {
@@ -836,6 +836,35 @@
  ],
  "movers": [
   {
+   "id": 1564367,
+   "slug": "2026-10-20-afc-wimbledon-mansfield-town",
+   "league": "League One",
+   "kickoff": "2026-10-20T18:45:00+00:00",
+   "home": "AFC Wimbledon",
+   "away": "Mansfield Town",
+   "fair": {
+    "home": 28.0,
+    "draw": 26.6,
+    "away": 45.4
+   },
+   "move": {
+    "home": -4.6,
+    "draw": -1.6,
+    "away": 6.2
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.65,
+    "first": 2.61
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
    "id": 1593339,
    "slug": "2026-10-25-aris-thessalonikis-atromitos",
    "league": "Super League Greece",
@@ -856,35 +885,6 @@
    "goals": {
     "expected": 2.4,
     "first": 2.31
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null
-  },
-  {
-   "id": 1564367,
-   "slug": "2026-10-20-afc-wimbledon-mansfield-town",
-   "league": "League One",
-   "kickoff": "2026-10-20T18:45:00+00:00",
-   "home": "AFC Wimbledon",
-   "away": "Mansfield Town",
-   "fair": {
-    "home": 28.3,
-    "draw": 26.6,
-    "away": 45.1
-   },
-   "move": {
-    "home": -4.4,
-    "draw": -1.6,
-    "away": 5.9
-   },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
-   "goals": {
-    "expected": 2.64,
-    "first": 2.61
    },
    "absences": {
     "home": 0,
@@ -1039,26 +1039,26 @@
    "headline": null
   },
   {
-   "id": 1575523,
-   "slug": "2026-10-25-rio-ave-famalicao",
-   "league": "Primeira Liga",
-   "kickoff": "2026-10-25T18:00:00+00:00",
-   "home": "Rio Ave",
-   "away": "Famalicao",
+   "id": 1563821,
+   "slug": "2026-10-20-gillingham-port-vale",
+   "league": "League Two",
+   "kickoff": "2026-10-20T19:00:00+00:00",
+   "home": "Gillingham",
+   "away": "Port Vale",
    "fair": {
-    "home": 25.1,
+    "home": 29.3,
     "draw": 28.5,
-    "away": 46.4
+    "away": 42.2
    },
    "move": {
-    "home": 2.3,
-    "draw": 1.5,
-    "away": -3.6
+    "home": -3.6,
+    "draw": 0.4,
+    "away": 3.2
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.32,
-    "first": 2.45
+    "expected": 2.25,
+    "first": 2.38
    },
    "absences": {
     "home": 0,
@@ -1069,6 +1069,21 @@
   }
  ],
  "reads": [
+  {
+   "slug": "2026-10-25-barcelona-real-madrid",
+   "league": "La Liga",
+   "home": "Barcelona",
+   "away": "Real Madrid",
+   "kickoff": "2026-10-25T20:00:00+00:00",
+   "headline": "Clasico: Barcelona still favoured, handicap eases",
+   "summary": "The market makes Barcelona clear favourites for the Clasico at 60.4% fair, with the draw at 16.9% and Real Madrid at 22.7%. Since our collector first saw the board, the Barcelona minus-one handicap fair slipped from 54.8% to 51.5% and the fair line eased from -1.19 to -1.07, with the result market moving in the same direction. That reads as a single market-wide re-rating of Real Madrid's chances rather than separate signals. Goals are priced high and flat: Over 4.0 at 50.6%, fair total 4.03, both teams to score at 72.3%. The injury feed is empty, which means no news data rather than no news. Confidence: medium.",
+   "voices": {
+    "scout": "Since we first saw this market, Barcelona's minus one handicap fair has slipped from about fifty-five per cent to fifty-one and a half, and the fair line has come in from minus one point one nine to minus one point oh seven. Home win's down from sixty-three to sixty point four, Real Madrid up from nineteen point eight to twenty-two point seven. Someone moved before the news.",
+    "sceptic": "Or nobody moved on news at all. The sharp book and a soft book repriced together at four twenty-six, then the rest followed — that's a market-wide adjustment, not one informed book. And the result and handicap are the same money on the same opinion, so it's one re-rating, not three signals. On a seven-book board, that fair-line drift is a nudge.",
+    "gaffer": "So the reading is one market-wide re-rating of Real Madrid's chances, medium confidence, and a goals line parked at four."
+   },
+   "video_title": "Clasico: Barcelona down a tenth, goals flat"
+  },
   {
    "slug": "2026-10-25-crystal-palace-newcastle",
    "league": "Premier League",
@@ -1173,21 +1188,6 @@
     "gaffer": "So we call it what it is. Under two and a half is a narrow fifty-three per cent favourite, not a settled low-scoring verdict. The true opening is unknown, because we only started watching at half past ten on the eighteenth. We call this market quiet and we stay in our seats."
    },
    "video_title": "Dunfermline v Partick: a market barely observed"
-  },
-  {
-   "slug": "2026-10-19-sc-braga-gil-vicente",
-   "league": "Primeira Liga",
-   "home": "SC Braga",
-   "away": "GIL Vicente",
-   "kickoff": "2026-10-19T19:15:00+00:00",
-   "headline": "Braga clear favourites, but the market barely moves",
-   "summary": "SC Braga are the clear market favourite at 62.5% fair, with the draw at 23.2% and GIL Vicente at 14.3%. The handicap sits at -1, with a fair line of about -0.99 goals. Goals are modest: a fair total of 2.42, Over 2.5 at 47.9% and BTTS Yes at 45.9% — a marginal Under lean of roughly two points. Across a short 17.6-hour, six-snapshot history the largest shift is 2.1 points, inside the noise band, and shared timestamps cannot be separated from snapshot granularity. Both injury lists are empty, which is a data gap rather than confirmation of full availability.",
-   "voices": {
-    "scout": "The market's clear enough. Braga at about sixty-three per cent, the draw around twenty-three, GIL Vicente fourteen. A goal handicap, and a total that sits at about two point four goals. And there was a nudge toward Braga at half past one, four books moving together, though it's under two points.",
-    "sceptic": "Four books in the same second isn't a coordinated nudge. We've got six price snapshots in seventeen and a half hours, so anything that repriced in the morning gets stamped with the same afternoon timestamp. A two-point shift on a line parked at a goal isn't a signal. And Over two and a half at forty-eight per cent is a marginal lean, not a firm one.",
-    "gaffer": "So the reading is Braga at about sixty-three per cent, a goal handicap, and a total around two point four. The biggest move all day was two points, inside the noise, and an empty injury list is a data gap, not a clean bill of health. There's nothing here worth putting your name to."
-   },
-   "video_title": "Braga 63% — six snapshots and no team news"
   }
  ]
 }
