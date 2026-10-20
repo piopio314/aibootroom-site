@@ -53,10 +53,12 @@
 
   <!-- THIS WEEKEND -->
   <section class="section" id="weekend"><div class="wrap">
-    <div class="kicker">This weekend</div>
-    <h2 class="disp">What the market thinks — every big game</h2>
-    <p class="lead">Win probabilities from the sharpest prices we track, with the bookmaker’s margin removed. Updated every hour. No hype, no tips — just where the market says each game is going.</p>
-    <div class="cards" id="weekendCards"></div>
+    <div class="kicker">This week</div>
+    <h2 class="disp">Every big game — leagues and European nights</h2>
+    <p class="lead">Win probabilities from the sharpest prices we track, with the bookmaker’s margin removed. Updated every hour. Press play on any match for its one-minute show.</p>
+    <div class="compchips" id="compChips"></div>
+    <div id="weekBoard"></div>
+    <div class="cards" id="weekendCards" hidden></div>
     <p style="margin-top:22px"><a class="btn primary" href="match.html">▶ Match shows — every big game in one minute</a></p>
   </div></section>
 
@@ -105,7 +107,7 @@
     <div class="kicker">How it works</div>
     <h2 class="disp">From raw prices to a 60-second read</h2>
     <div class="steps">
-      <div class="step"><div class="n">01</div><b>We watch the market</b><span>Every hour, 20 leagues: the sharpest and the softest prices, plus injury and suspension news.</span></div>
+      <div class="step"><div class="n">01</div><b>We watch the market</b><span>Every hour, 20 leagues plus the Champions League, Europa League and Conference League: the sharpest and the softest prices, plus injury and suspension news.</span></div>
       <div class="step"><div class="n">02</div><b>We spot the move</b><span>A model trained on 300,000 past prices flags where a price is likely to shift before kick-off.</span></div>
       <div class="step"><div class="n">03</div><b>The pundits argue</b><span>Scout, Sceptic and Gaffer test the move against the news. Weak stories die here.</span></div>
       <div class="step"><div class="n">04</div><b>We show our work</b><span>A short read, a video — and, rarely, a timestamped pick in the public ledger.</span></div>
@@ -231,7 +233,37 @@
         <b class="${b.d > 0 ? 'up' : b.d < 0 ? 'down' : ''}">${Math.abs(b.d) >= 1 ? `${b.d > 0 ? '▲' : '▼'} ${E(S(b.team))} ${ABR.sign(b.d)} pts` : 'Price steady'}</b></div>
       ${m.headline ? `<a class="hl" href="${m.read ? readUrl(m.read) : '#'}"><b>THE BOOT ROOM</b>${E(m.headline)} →</a>` : ''}</div>${t}</${tag}>`;
   };
-  document.getElementById('weekendCards').innerHTML = (M.weekend || []).map(card).join('') || '<div class="skeleton">The weekend markets open soon.</div>';
+  // ── the week's board: cups first, then leagues; chips filter by competition
+  const comps = M.competitions || [], week = M.week || [];
+  const CUPLOGO = {ucl: '🏆', uel: '🟠', uecl: '🟢'};
+  const chips = document.getElementById('compChips');
+  let compFilter = 'all';
+  try { compFilter = sessionStorage.getItem('abrComp') || 'all'; } catch (e) {}
+  if (!comps.some(c => c.key === compFilter)) compFilter = 'all';
+  const dayRange = c => { const a = new Date(c.first), b = new Date(c.last); const f = d => d.toLocaleDateString('en-GB', {weekday: 'short', day: 'numeric', timeZone: TZ}); return a.toDateString() === b.toDateString() ? f(a) : `${f(a)} – ${f(b)}`; };
+  const renderBoard = () => {
+    chips.innerHTML = [`<button data-c="all" class="${compFilter === 'all' ? 'on' : ''}">All <small>${week.length}</small></button>`,
+      `<button data-c="cups" class="${compFilter === 'cups' ? 'on' : ''}">🌍 European cups <small>${week.filter(m => CUPLOGO[m.competition]).length}</small></button>`,
+      `<button data-c="leagues" class="${compFilter === 'leagues' ? 'on' : ''}">🏟️ Leagues <small>${week.filter(m => !CUPLOGO[m.competition]).length}</small></button>`,
+      ...comps.map(c => `<button data-c="${E(c.key)}" class="${compFilter === c.key ? 'on' : ''}">${CUPLOGO[c.key] || ''} ${E(c.name)} <small>${c.matches}</small></button>`)].join('');
+    const show = comps.filter(c => compFilter === 'all' || (compFilter === 'cups' && c.cup) || (compFilter === 'leagues' && !c.cup) || c.key === compFilter);
+    const open = compFilter !== 'all' && compFilter !== 'cups' && compFilter !== 'leagues';
+    document.getElementById('weekBoard').innerHTML = show.map(c => {
+      const ms = week.filter(m => m.competition === c.key).sort((a, b) => a.kickoff < b.kickoff ? -1 : 1);
+      const lim = open ? ms.length : 6;
+      return `<div class="compblock ${c.cup ? 'cup' : ''}" data-key="${E(c.key)}">
+        <div class="comphead"><h3 class="disp">${CUPLOGO[c.key] || ''} ${E(c.name)}</h3><span class="chip">${ms.length} ${ms.length === 1 ? 'match' : 'matches'} · ${E(dayRange(c))}</span>
+          ${ms.length > lim ? `<button class="btn ghost sm more" data-c="${E(c.key)}">All ${ms.length} →</button>` : ''}</div>
+        <div class="cards">${ms.slice(0, lim).map(card).join('')}</div></div>`;
+    }).join('') || '<div class="skeleton">The week’s markets open soon.</div>';
+  };
+  renderBoard();
+  document.addEventListener('click', ev => {
+    const b = ev.target.closest('#compChips button, .comphead .more'); if (!b) return;
+    compFilter = b.dataset.c; try { sessionStorage.setItem('abrComp', compFilter); } catch (e) {}
+    stopTile(); renderBoard();
+    if (b.classList.contains('more')) document.getElementById('weekend').scrollIntoView({behavior: 'smooth'});
+  });
   // match of the week: the same video tile, to the right of the market card
   const heroTile = M.featured && tile(M.featured);
   if (heroTile) {
@@ -301,13 +333,19 @@
       <div class="r"><span>Pick</span><b>Asian handicap · Away +0.25</b></div><div class="r"><span>Price</span><b>2.10</b></div>
       <div class="r"><span>Published</span><b>4 days before kick-off</b></div><div class="r"><span>Closing line</span><b>measured after kick-off</b></div>
       <span class="stamp grey">THE FIRST REAL RECEIPTS LAND HERE SOON</span></div>`;
+  const settled = s.settled || 0, rec = s.results || {};
+  const board = `<div class="scoreboard"><div class="kicker">Scoreboard · published picks</div>
+      <div class="lstats">
+        <div class="lstat"><div class="n disp">${s.published || 0}</div><div class="l">picks published</div></div>
+        <div class="lstat"><div class="n disp">${s.pending || 0}</div><div class="l">waiting for kick-off</div></div>
+        <div class="lstat"><div class="n disp">${settled ? `${rec.win || 0}–${rec.loss || 0}` : '—'}</div><div class="l">${settled ? `record · ½: ${rec.half_win || 0}–${rec.half_loss || 0} · push ${rec.push || 0}` : 'record (after the first results)'}</div></div>
+        <div class="lstat"><div class="n disp ${(s.avg_clv_pct || 0) > 0 ? 'up' : (s.avg_clv_pct || 0) < 0 ? 'down' : ''}">${s.avg_clv_pct == null ? '—' : ABR.sign(s.avg_clv_pct) + '%'}</div><div class="l">average CLV vs closing line${s.beat_close_pct != null ? ` · beat it ${s.beat_close_pct.toFixed(0)}%` : ''}</div></div>
+      </div>
+      ${picks.length ? '' : '<p class="sub">No pick published yet. A pick goes on this board at least 24 hours before kick-off — with its time and price — and never leaves it. Most matches get an analysis, not a pick: the market is right far more often than not.</p>'}</div>`;
+  document.getElementById('ledgerBox').innerHTML = board;
   if (picks.length) {
-    document.getElementById('ledgerBox').innerHTML = `<div class="lstats">
-        <div class="lstat"><div class="n disp">${s.published || 0}</div><div class="l">published picks</div></div>
-        <div class="lstat"><div class="n disp ${(s.avg_clv_pct || 0) >= 0 ? 'up' : 'down'}">${s.avg_clv_pct == null ? '—' : ABR.sign(s.avg_clv_pct) + '%'}</div><div class="l">average CLV vs closing line</div></div>
-        <div class="lstat"><div class="n disp">${s.beat_close_pct == null ? '—' : s.beat_close_pct.toFixed(0) + '%'}</div><div class="l">beat the closing line</div></div>
-        <div class="lstat"><div class="n disp">${(s.results?.win || 0)}–${(s.results?.loss || 0)}</div><div class="l">record (½: ${(s.results?.half_win || 0)}–${(s.results?.half_loss || 0)})</div></div></div>
-      <table class="ltable"><thead><tr><th>Kick-off</th><th>Match</th><th>Pick</th><th>Price</th><th class="hide-m">Published</th><th class="hide-m">CLV</th><th>Result</th></tr></thead><tbody>
+    document.getElementById('ledgerBox').innerHTML = board + `
+<table class="ltable"><thead><tr><th>Kick-off</th><th>Match</th><th>Pick</th><th>Price</th><th class="hide-m">Published</th><th class="hide-m">CLV</th><th>Result</th></tr></thead><tbody>
       ${picks.map(p => `<tr><td>${E(ABR.when(p.kickoff))}</td><td><b>${E(S(p.home))} v ${E(S(p.away))}</b></td><td>${E(p.selection)}</td><td>${p.odds.toFixed(2)}</td>
         <td class="hide-m">${p.hours_before_kickoff >= 48 ? (p.hours_before_kickoff / 24).toFixed(1) + ' days before' : Math.round(p.hours_before_kickoff) + ' h before'}</td>
         <td class="hide-m ${p.clv_pct > 0 ? 'up' : p.clv_pct < 0 ? 'down' : ''}">${p.clv_pct != null ? ABR.sign(p.clv_pct) + '%' : '—'}</td>

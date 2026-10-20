@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T20:44:00+00:00",
+ "generated_at": "2026-10-20T20:51:00+00:00",
  "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
@@ -892,6 +892,4027 @@
    },
    "read": null,
    "headline": null
+  }
+ ],
+ "competitions": [
+  {
+   "id": 2,
+   "key": "ucl",
+   "name": "Champions League",
+   "cup": true,
+   "matches": 9,
+   "first": "2026-10-21T16:45:00+00:00",
+   "last": "2026-10-21T19:00:00+00:00"
+  },
+  {
+   "id": 3,
+   "key": "uel",
+   "name": "Europa League",
+   "cup": true,
+   "matches": 18,
+   "first": "2026-10-22T16:45:00+00:00",
+   "last": "2026-10-22T19:00:00+00:00"
+  },
+  {
+   "id": 848,
+   "key": "uecl",
+   "name": "Conference League",
+   "cup": true,
+   "matches": 2,
+   "first": "2026-10-22T19:00:00+00:00",
+   "last": "2026-10-22T19:00:00+00:00"
+  },
+  {
+   "id": 39,
+   "key": "39",
+   "name": "Premier League",
+   "cup": false,
+   "matches": 10,
+   "first": "2026-10-23T19:00:00+00:00",
+   "last": "2026-10-25T16:30:00+00:00"
+  },
+  {
+   "id": 140,
+   "key": "140",
+   "name": "La Liga",
+   "cup": false,
+   "matches": 11,
+   "first": "2026-10-21T18:00:00+00:00",
+   "last": "2026-10-26T20:00:00+00:00"
+  },
+  {
+   "id": 78,
+   "key": "78",
+   "name": "Bundesliga",
+   "cup": false,
+   "matches": 9,
+   "first": "2026-10-23T18:30:00+00:00",
+   "last": "2026-10-25T16:30:00+00:00"
+  },
+  {
+   "id": 135,
+   "key": "135",
+   "name": "Serie A",
+   "cup": false,
+   "matches": 18,
+   "first": "2026-10-23T18:45:00+00:00",
+   "last": "2026-10-28T19:45:00+00:00"
+  },
+  {
+   "id": 61,
+   "key": "61",
+   "name": "Ligue 1",
+   "cup": false,
+   "matches": 9,
+   "first": "2026-10-23T18:45:00+00:00",
+   "last": "2026-10-25T19:45:00+00:00"
+  },
+  {
+   "id": 40,
+   "key": "40",
+   "name": "Championship",
+   "cup": false,
+   "matches": 12,
+   "first": "2026-10-23T19:00:00+00:00",
+   "last": "2026-10-24T14:00:00+00:00"
+  },
+  {
+   "id": 88,
+   "key": "88",
+   "name": "Eredivisie",
+   "cup": false,
+   "matches": 9,
+   "first": "2026-10-23T18:00:00+00:00",
+   "last": "2026-10-25T19:00:00+00:00"
+  },
+  {
+   "id": 94,
+   "key": "94",
+   "name": "Primeira Liga",
+   "cup": false,
+   "matches": 9,
+   "first": "2026-10-23T19:45:00+00:00",
+   "last": "2026-10-26T18:45:00+00:00"
+  },
+  {
+   "id": 203,
+   "key": "203",
+   "name": "Super Lig",
+   "cup": false,
+   "matches": 9,
+   "first": "2026-10-23T17:00:00+00:00",
+   "last": "2026-10-26T18:30:00+00:00"
+  },
+  {
+   "id": 144,
+   "key": "144",
+   "name": "Jupiler Pro League",
+   "cup": false,
+   "matches": 5,
+   "first": "2026-10-23T18:45:00+00:00",
+   "last": "2026-10-25T18:15:00+00:00"
+  }
+ ],
+ "week": [
+  {
+   "id": 1635647,
+   "slug": "2026-10-21-como-manchester-united",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T16:45:00+00:00",
+   "home": "Como",
+   "away": "Manchester United",
+   "fair": {
+    "home": 44.2,
+    "draw": 25.3,
+    "away": 30.5
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.95,
+    "first": 2.95
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "ucl"
+  },
+  {
+   "id": 1635684,
+   "slug": "2026-10-21-lille-galatasaray",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T16:45:00+00:00",
+   "home": "Lille",
+   "away": "Galatasaray",
+   "fair": {
+    "home": 43.8,
+    "draw": 25.6,
+    "away": 30.6
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.95,
+    "first": 2.95
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "ucl"
+  },
+  {
+   "id": 1570389,
+   "slug": "2026-10-21-levante-athletic-club",
+   "league": "La Liga",
+   "kickoff": "2026-10-21T18:00:00+00:00",
+   "home": "Levante",
+   "away": "Athletic Club",
+   "fair": {
+    "home": 25.9,
+    "draw": 30.6,
+    "away": 43.6
+   },
+   "move": {
+    "home": 0.6,
+    "draw": -0.2,
+    "away": -0.3
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.47,
+    "first": 2.47
+   },
+   "absences": {
+    "home": 3,
+    "away": 5
+   },
+   "read": "2026-10-21-levante-athletic-club",
+   "headline": "Levante vs Athletic: a flat board and a sharp split",
+   "competition": "140"
+  },
+  {
+   "id": 1635621,
+   "slug": "2026-10-21-aston-villa-viking",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T19:00:00+00:00",
+   "home": "Aston Villa",
+   "away": "Viking",
+   "fair": {
+    "home": 78.3,
+    "draw": 13.9,
+    "away": 7.8
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 3.81,
+    "first": 3.81
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "ucl"
+  },
+  {
+   "id": 1635630,
+   "slug": "2026-10-21-bayern-m-nchen-arsenal",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T19:00:00+00:00",
+   "home": "Bayern München",
+   "away": "Arsenal",
+   "fair": {
+    "home": 46.3,
+    "draw": 24.5,
+    "away": 29.2
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.93,
+    "first": 2.93
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "ucl"
+  },
+  {
+   "id": 1635636,
+   "slug": "2026-10-21-real-betis-feyenoord",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T19:00:00+00:00",
+   "home": "Real Betis",
+   "away": "Feyenoord",
+   "fair": {
+    "home": 62.1,
+    "draw": 19.8,
+    "away": 18.1
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 3.47,
+    "first": 3.47
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "ucl"
+  },
+  {
+   "id": 1635645,
+   "slug": "2026-10-21-club-brugge-kv-lens",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T19:00:00+00:00",
+   "home": "Club Brugge KV",
+   "away": "Lens",
+   "fair": {
+    "home": 47.6,
+    "draw": 23.3,
+    "away": 29.1
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 3.28,
+    "first": 3.28
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "ucl"
+  },
+  {
+   "id": 1635672,
+   "slug": "2026-10-21-inter-shakhtar-donetsk",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T19:00:00+00:00",
+   "home": "Inter",
+   "away": "Shakhtar Donetsk",
+   "fair": {
+    "home": 80.1,
+    "draw": 12.1,
+    "away": 7.8
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 3.85,
+    "first": 3.85
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "ucl"
+  },
+  {
+   "id": 1635716,
+   "slug": "2026-10-21-real-madrid-rb-leipzig",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T19:00:00+00:00",
+   "home": "Real Madrid",
+   "away": "RB Leipzig",
+   "fair": {
+    "home": 76.7,
+    "draw": 13.3,
+    "away": 10.0
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 4.12,
+    "first": 4.12
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "ucl"
+  },
+  {
+   "id": 1635737,
+   "slug": "2026-10-21-sporting-cp-lask-linz",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T19:00:00+00:00",
+   "home": "Sporting CP",
+   "away": "Lask Linz",
+   "fair": {
+    "home": 79.8,
+    "draw": 11.9,
+    "away": 8.2
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 3.7,
+    "first": 3.7
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "ucl"
+  },
+  {
+   "id": 1636215,
+   "slug": "2026-10-22-ararat-armenia-az-alkmaar",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "home": "Ararat-Armenia",
+   "away": "AZ Alkmaar",
+   "fair": {
+    "home": 17.1,
+    "draw": 21.1,
+    "away": 61.8
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 3.04,
+    "first": 3.04
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uel"
+  },
+  {
+   "id": 1636258,
+   "slug": "2026-10-22-dinamo-zagreb-nec-nijmegen",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "home": "Dinamo Zagreb",
+   "away": "NEC Nijmegen",
+   "fair": {
+    "home": 57.8,
+    "draw": 22.1,
+    "away": 20.1
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 3.03,
+    "first": 3.03
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uel"
+  },
+  {
+   "id": 1636262,
+   "slug": "2026-10-22-ferencvarosi-tc-torreense",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "home": "Ferencvarosi TC",
+   "away": "Torreense",
+   "fair": {
+    "home": 69.6,
+    "draw": 18.4,
+    "away": 12.0
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.91,
+    "first": 2.91
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uel"
+  },
+  {
+   "id": 1636276,
+   "slug": "2026-10-22-juventus-rennes",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "home": "Juventus",
+   "away": "Rennes",
+   "fair": {
+    "home": 60.7,
+    "draw": 22.0,
+    "away": 17.3
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.79,
+    "first": 2.79
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uel"
+  },
+  {
+   "id": 1636280,
+   "slug": "2026-10-22-lech-poznan-sunderland",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "home": "Lech Poznan",
+   "away": "Sunderland",
+   "fair": {
+    "home": 20.4,
+    "draw": 23.1,
+    "away": 56.5
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.61,
+    "first": 2.61
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uel"
+  },
+  {
+   "id": 1636303,
+   "slug": "2026-10-22-ofi-bayer-leverkusen",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "home": "OFI",
+   "away": "Bayer Leverkusen",
+   "fair": {
+    "home": 8.7,
+    "draw": 13.7,
+    "away": 77.7
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 3.5,
+    "first": 3.5
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uel"
+  },
+  {
+   "id": 1636330,
+   "slug": "2026-10-22-union-st-gilloise-hapoel-beer-sheva",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "home": "Union St. Gilloise",
+   "away": "Hapoel Beer Sheva",
+   "fair": {
+    "home": 72.3,
+    "draw": 16.5,
+    "away": 11.2
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 3.18,
+    "first": 3.18
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uel"
+  },
+  {
+   "id": 1636340,
+   "slug": "2026-10-22-sturm-graz-marseille",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "home": "Sturm Graz",
+   "away": "Marseille",
+   "fair": {
+    "home": 26.7,
+    "draw": 26.0,
+    "away": 47.3
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.77,
+    "first": 2.77
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uel"
+  },
+  {
+   "id": 1636234,
+   "slug": "2026-10-22-be-ikta-crystal-palace",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "home": "Beşiktaş",
+   "away": "Crystal Palace",
+   "fair": {
+    "home": 45.7,
+    "draw": 24.5,
+    "away": 29.8
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 3.04,
+    "first": 3.04
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uel"
+  },
+  {
+   "id": 1636235,
+   "slug": "2026-10-22-bournemouth-ac-milan",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "home": "Bournemouth",
+   "away": "AC Milan",
+   "fair": {
+    "home": 45.0,
+    "draw": 25.9,
+    "away": 29.1
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.76,
+    "first": 2.76
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uel"
+  },
+  {
+   "id": 1636241,
+   "slug": "2026-10-22-celje-red-bull-salzburg",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "home": "Celje",
+   "away": "Red Bull Salzburg",
+   "fair": {
+    "home": 19.4,
+    "draw": 22.5,
+    "away": 58.1
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.93,
+    "first": 2.93
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uel"
+  },
+  {
+   "id": 1636249,
+   "slug": "2026-10-22-celtic-celta-vigo",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "home": "Celtic",
+   "away": "Celta Vigo",
+   "fair": {
+    "home": 35.6,
+    "draw": 27.8,
+    "away": 36.7
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.6,
+    "first": 2.6
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uel"
+  },
+  {
+   "id": 1636267,
+   "slug": "2026-10-22-1899-hoffenheim-lyon",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "home": "1899 Hoffenheim",
+   "away": "Lyon",
+   "fair": {
+    "home": 47.2,
+    "draw": 24.1,
+    "away": 28.8
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 3.14,
+    "first": 3.14
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uel"
+  },
+  {
+   "id": 1636273,
+   "slug": "2026-10-22-jagiellonia-anderlecht",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "home": "Jagiellonia",
+   "away": "Anderlecht",
+   "fair": {
+    "home": 30.7,
+    "draw": 26.5,
+    "away": 42.7
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.7,
+    "first": 2.7
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uel"
+  },
+  {
+   "id": 1636288,
+   "slug": "2026-10-22-lillestrom-real-sociedad",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "home": "Lillestrom",
+   "away": "Real Sociedad",
+   "fair": {
+    "home": 17.7,
+    "draw": 20.4,
+    "away": 61.9
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.88,
+    "first": 2.88
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uel"
+  },
+  {
+   "id": 1636308,
+   "slug": "2026-10-22-olympiakos-piraeus-sparta-praha",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "home": "Olympiakos Piraeus",
+   "away": "Sparta Praha",
+   "fair": {
+    "home": 63.7,
+    "draw": 20.8,
+    "away": 15.5
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.72,
+    "first": 2.72
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uel"
+  },
+  {
+   "id": 1636311,
+   "slug": "2026-10-22-omonia-nicosia-benfica",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "home": "Omonia Nicosia",
+   "away": "Benfica",
+   "fair": {
+    "home": 12.3,
+    "draw": 18.1,
+    "away": 69.6
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.96,
+    "first": 2.96
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uel"
+  },
+  {
+   "id": 1636318,
+   "slug": "2026-10-22-plzen-levski-sofia",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "home": "Plzen",
+   "away": "Levski Sofia",
+   "fair": {
+    "home": 53.3,
+    "draw": 24.7,
+    "away": 22.0
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.73,
+    "first": 2.73
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uel"
+  },
+  {
+   "id": 1636379,
+   "slug": "2026-10-22-ajax-atalanta",
+   "league": "Conference League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "home": "Ajax",
+   "away": "Atalanta",
+   "fair": {
+    "home": 43.9,
+    "draw": 25.8,
+    "away": 30.4
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.91,
+    "first": 2.91
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uecl"
+  },
+  {
+   "id": 1636454,
+   "slug": "2026-10-22-monaco-sc-freiburg",
+   "league": "Conference League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "home": "Monaco",
+   "away": "SC Freiburg",
+   "fair": {
+    "home": 42.1,
+    "draw": 26.5,
+    "away": 31.5
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.75,
+    "first": 2.75
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "uecl"
+  },
+  {
+   "id": 1584439,
+   "slug": "2026-10-23-alanyaspor-kocaelispor",
+   "league": "Super Lig",
+   "kickoff": "2026-10-23T17:00:00+00:00",
+   "home": "Alanyaspor",
+   "away": "Kocaelispor",
+   "fair": {
+    "home": 48.0,
+    "draw": 28.7,
+    "away": 23.3
+   },
+   "move": {
+    "home": -2.0,
+    "draw": 0.6,
+    "away": 1.3
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.18,
+    "first": 2.2
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "203"
+  },
+  {
+   "id": 1552198,
+   "slug": "2026-10-23-go-ahead-eagles-telstar",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-23T18:00:00+00:00",
+   "home": "GO Ahead Eagles",
+   "away": "Telstar",
+   "fair": {
+    "home": 59.6,
+    "draw": 23.2,
+    "away": 17.2
+   },
+   "move": {
+    "home": -0.0,
+    "draw": 0.2,
+    "away": -0.2
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.29,
+    "first": 3.41
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "88"
+  },
+  {
+   "id": 1575196,
+   "slug": "2026-10-23-vfb-stuttgart-borussia-m-nchengladbach",
+   "league": "Bundesliga",
+   "kickoff": "2026-10-23T18:30:00+00:00",
+   "home": "VfB Stuttgart",
+   "away": "Borussia Mönchengladbach",
+   "fair": {
+    "home": 69.8,
+    "draw": 16.4,
+    "away": 13.7
+   },
+   "move": {
+    "home": 1.9,
+    "draw": -0.7,
+    "away": -1.3
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.8,
+    "first": 3.79
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "78"
+  },
+  {
+   "id": 1550165,
+   "slug": "2026-10-23-torino-monza",
+   "league": "Serie A",
+   "kickoff": "2026-10-23T18:45:00+00:00",
+   "home": "Torino",
+   "away": "Monza",
+   "fair": {
+    "home": 44.2,
+    "draw": 27.7,
+    "away": 28.1
+   },
+   "move": {
+    "home": -0.6,
+    "draw": 0.7,
+    "away": -0.1
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.43,
+    "first": 2.44
+   },
+   "absences": {
+    "home": 2,
+    "away": 0
+   },
+   "read": "2026-10-23-torino-monza",
+   "headline": "Torino vs Monza: flat prices, single snapshot, thin picture",
+   "competition": "135"
+  },
+  {
+   "id": 1552794,
+   "slug": "2026-10-23-stade-brestois-29-nice",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-23T18:45:00+00:00",
+   "home": "Stade Brestois 29",
+   "away": "Nice",
+   "fair": {
+    "home": 42.6,
+    "draw": 29.0,
+    "away": 28.4
+   },
+   "move": {
+    "home": 0.1,
+    "draw": 0.5,
+    "away": -0.6
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.75,
+    "first": 2.84
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "61"
+  },
+  {
+   "id": 1558657,
+   "slug": "2026-10-23-kortrijk-kv-mechelen",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-10-23T18:45:00+00:00",
+   "home": "Kortrijk",
+   "away": "KV Mechelen",
+   "fair": {
+    "home": 37.4,
+    "draw": 27.2,
+    "away": 35.4
+   },
+   "move": {
+    "home": -1.4,
+    "draw": -0.0,
+    "away": 1.4
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.64,
+    "first": 2.64
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "144"
+  },
+  {
+   "id": 1557443,
+   "slug": "2026-10-23-ipswich-nottingham-forest",
+   "league": "Premier League",
+   "kickoff": "2026-10-23T19:00:00+00:00",
+   "home": "Ipswich",
+   "away": "Nottingham Forest",
+   "fair": {
+    "home": 30.8,
+    "draw": 27.8,
+    "away": 41.4
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.5,
+    "away": -0.5
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.69,
+    "first": 2.76
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": "2026-10-23-ipswich-nottingham-forest",
+   "headline": "Ipswich v Forest: Forest favoured, market barely moves",
+   "competition": "39"
+  },
+  {
+   "id": 1563216,
+   "slug": "2026-10-23-bolton-middlesbrough",
+   "league": "Championship",
+   "kickoff": "2026-10-23T19:00:00+00:00",
+   "home": "Bolton",
+   "away": "Middlesbrough",
+   "fair": {
+    "home": 20.0,
+    "draw": 21.5,
+    "away": 58.5
+   },
+   "move": {
+    "home": -1.8,
+    "draw": -0.6,
+    "away": 2.5
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.11,
+    "first": 3.14
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "40"
+  },
+  {
+   "id": 1570423,
+   "slug": "2026-10-23-alaves-malaga",
+   "league": "La Liga",
+   "kickoff": "2026-10-23T19:00:00+00:00",
+   "home": "Alaves",
+   "away": "Malaga",
+   "fair": {
+    "home": 54.5,
+    "draw": 25.9,
+    "away": 19.6
+   },
+   "move": {
+    "home": 1.2,
+    "draw": -0.4,
+    "away": -0.7
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.36,
+    "first": 2.34
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "140"
+  },
+  {
+   "id": 1575526,
+   "slug": "2026-10-23-vit-ria-sc-maritimo",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-23T19:45:00+00:00",
+   "home": "Vitória SC",
+   "away": "Maritimo",
+   "fair": {
+    "home": 61.4,
+    "draw": 23.1,
+    "away": 15.5
+   },
+   "move": {
+    "home": -0.9,
+    "draw": 0.7,
+    "away": 0.2
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.47,
+    "first": 2.55
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "94"
+  },
+  {
+   "id": 1584441,
+   "slug": "2026-10-24-ey-pspor-kas-mpa-a",
+   "league": "Super Lig",
+   "kickoff": "2026-10-24T10:30:00+00:00",
+   "home": "Eyüpspor",
+   "away": "Kasımpaşa",
+   "fair": {
+    "home": 15.9,
+    "draw": 23.5,
+    "away": 60.6
+   },
+   "move": {
+    "home": 0.5,
+    "draw": 0.7,
+    "away": -1.2
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.39,
+    "first": 2.46
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "203"
+  },
+  {
+   "id": 1557438,
+   "slug": "2026-10-24-aston-villa-manchester-city",
+   "league": "Premier League",
+   "kickoff": "2026-10-24T11:30:00+00:00",
+   "home": "Aston Villa",
+   "away": "Manchester City",
+   "fair": {
+    "home": 21.6,
+    "draw": 22.6,
+    "away": 55.7
+   },
+   "move": {
+    "home": -0.1,
+    "draw": -0.5,
+    "away": 0.6
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.09,
+    "first": 3.01
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": "2026-10-24-aston-villa-manchester-city",
+   "headline": "City 55.7% favourites as market holds flat",
+   "competition": "39"
+  },
+  {
+   "id": 1563218,
+   "slug": "2026-10-24-charlton-norwich",
+   "league": "Championship",
+   "kickoff": "2026-10-24T11:30:00+00:00",
+   "home": "Charlton",
+   "away": "Norwich",
+   "fair": {
+    "home": 29.1,
+    "draw": 26.4,
+    "away": 44.5
+   },
+   "move": {
+    "home": 0.7,
+    "draw": 0.2,
+    "away": -0.9
+   },
+   "tracked_since": "2026-10-19T22:19:00+00:00",
+   "goals": {
+    "expected": 2.54,
+    "first": 2.55
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "40"
+  },
+  {
+   "id": 1563220,
+   "slug": "2026-10-24-portsmouth-millwall",
+   "league": "Championship",
+   "kickoff": "2026-10-24T11:30:00+00:00",
+   "home": "Portsmouth",
+   "away": "Millwall",
+   "fair": {
+    "home": 36.1,
+    "draw": 28.2,
+    "away": 35.7
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-19T22:19:00+00:00",
+   "goals": {
+    "expected": 2.43,
+    "first": 2.43
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "40"
+  },
+  {
+   "id": 1563223,
+   "slug": "2026-10-24-sheffield-utd-derby",
+   "league": "Championship",
+   "kickoff": "2026-10-24T11:30:00+00:00",
+   "home": "Sheffield Utd",
+   "away": "Derby",
+   "fair": {
+    "home": 52.0,
+    "draw": 23.9,
+    "away": 24.1
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-19T22:19:00+00:00",
+   "goals": {
+    "expected": 2.62,
+    "first": 2.62
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "40"
+  },
+  {
+   "id": 1570429,
+   "slug": "2026-10-24-rayo-vallecano-elche",
+   "league": "La Liga",
+   "kickoff": "2026-10-24T12:00:00+00:00",
+   "home": "Rayo Vallecano",
+   "away": "Elche",
+   "fair": {
+    "home": 54.0,
+    "draw": 24.8,
+    "away": 21.2
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.6,
+    "first": 2.6
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "140"
+  },
+  {
+   "id": 1550158,
+   "slug": "2026-10-24-cagliari-bologna",
+   "league": "Serie A",
+   "kickoff": "2026-10-24T13:00:00+00:00",
+   "home": "Cagliari",
+   "away": "Bologna",
+   "fair": {
+    "home": 29.3,
+    "draw": 32.7,
+    "away": 38.0
+   },
+   "move": {
+    "home": -0.2,
+    "draw": 0.4,
+    "away": -0.1
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.22,
+    "first": 2.27
+   },
+   "absences": {
+    "home": 1,
+    "away": 0
+   },
+   "read": "2026-10-24-cagliari-bologna",
+   "headline": "Bologna favoured, goals lean is a single-book nudge",
+   "competition": "135"
+  },
+  {
+   "id": 1550159,
+   "slug": "2026-10-24-como-sassuolo",
+   "league": "Serie A",
+   "kickoff": "2026-10-24T13:00:00+00:00",
+   "home": "Como",
+   "away": "Sassuolo",
+   "fair": {
+    "home": 65.2,
+    "draw": 20.8,
+    "away": 14.0
+   },
+   "move": {
+    "home": -1.2,
+    "draw": 0.4,
+    "away": 0.8
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.25,
+    "first": 3.23
+   },
+   "absences": {
+    "home": 0,
+    "away": 5
+   },
+   "read": null,
+   "headline": null,
+   "competition": "135"
+  },
+  {
+   "id": 1584443,
+   "slug": "2026-10-24-gaziantep-fk-erzurumspor-fk",
+   "league": "Super Lig",
+   "kickoff": "2026-10-24T13:00:00+00:00",
+   "home": "Gaziantep FK",
+   "away": "Erzurumspor FK",
+   "fair": {
+    "home": 41.8,
+    "draw": 32.4,
+    "away": 25.9
+   },
+   "move": {
+    "home": 0.5,
+    "draw": -0.4,
+    "away": -0.1
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.28,
+    "first": 2.28
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "203"
+  },
+  {
+   "id": 1575195,
+   "slug": "2026-10-24-rb-leipzig-sv-elversberg",
+   "league": "Bundesliga",
+   "kickoff": "2026-10-24T13:30:00+00:00",
+   "home": "RB Leipzig",
+   "away": "SV Elversberg",
+   "fair": {
+    "home": 68.6,
+    "draw": 18.0,
+    "away": 13.3
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.78,
+    "first": 3.78
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "78"
+  },
+  {
+   "id": 1575199,
+   "slug": "2026-10-24-fc-augsburg-union-berlin",
+   "league": "Bundesliga",
+   "kickoff": "2026-10-24T13:30:00+00:00",
+   "home": "FC Augsburg",
+   "away": "Union Berlin",
+   "fair": {
+    "home": 51.3,
+    "draw": 24.0,
+    "away": 24.7
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.04,
+    "first": 3.04
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "78"
+  },
+  {
+   "id": 1575200,
+   "slug": "2026-10-24-fsv-mainz-05-werder-bremen",
+   "league": "Bundesliga",
+   "kickoff": "2026-10-24T13:30:00+00:00",
+   "home": "FSV Mainz 05",
+   "away": "Werder Bremen",
+   "fair": {
+    "home": 56.9,
+    "draw": 22.4,
+    "away": 20.7
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.04,
+    "first": 3.04
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "78"
+  },
+  {
+   "id": 1575201,
+   "slug": "2026-10-24-1-fc-k-ln-fc-schalke-04",
+   "league": "Bundesliga",
+   "kickoff": "2026-10-24T13:30:00+00:00",
+   "home": "1. FC Köln",
+   "away": "FC Schalke 04",
+   "fair": {
+    "home": 47.4,
+    "draw": 24.1,
+    "away": 28.5
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.0,
+    "first": 3.0
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "78"
+  },
+  {
+   "id": 1575202,
+   "slug": "2026-10-24-sc-paderborn-07-hamburger-sv",
+   "league": "Bundesliga",
+   "kickoff": "2026-10-24T13:30:00+00:00",
+   "home": "SC Paderborn 07",
+   "away": "Hamburger SV",
+   "fair": {
+    "home": 39.7,
+    "draw": 26.3,
+    "away": 34.0
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.96,
+    "first": 2.96
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "78"
+  },
+  {
+   "id": 1557437,
+   "slug": "2026-10-24-arsenal-everton",
+   "league": "Premier League",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "home": "Arsenal",
+   "away": "Everton",
+   "fair": {
+    "home": 68.3,
+    "draw": 21.0,
+    "away": 10.6
+   },
+   "move": {
+    "home": 0.8,
+    "draw": -0.4,
+    "away": -0.5
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.64,
+    "first": 2.61
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "39"
+  },
+  {
+   "id": 1557440,
+   "slug": "2026-10-24-coventry-fulham",
+   "league": "Premier League",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "home": "Coventry",
+   "away": "Fulham",
+   "fair": {
+    "home": 32.0,
+    "draw": 27.2,
+    "away": 40.8
+   },
+   "move": {
+    "home": -0.4,
+    "draw": 0.3,
+    "away": 0.1
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.71,
+    "first": 2.74
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "39"
+  },
+  {
+   "id": 1563215,
+   "slug": "2026-10-24-blackburn-wrexham",
+   "league": "Championship",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "home": "Blackburn",
+   "away": "Wrexham",
+   "fair": {
+    "home": 34.5,
+    "draw": 29.5,
+    "away": 36.0
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-19T22:19:00+00:00",
+   "goals": {
+    "expected": 2.27,
+    "first": 2.27
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "40"
+  },
+  {
+   "id": 1563217,
+   "slug": "2026-10-24-cardiff-birmingham",
+   "league": "Championship",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "home": "Cardiff",
+   "away": "Birmingham",
+   "fair": {
+    "home": 36.2,
+    "draw": 25.4,
+    "away": 38.4
+   },
+   "move": {
+    "home": -1.3,
+    "draw": -0.3,
+    "away": 1.6
+   },
+   "tracked_since": "2026-10-19T22:19:00+00:00",
+   "goals": {
+    "expected": 2.97,
+    "first": 2.96
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "40"
+  },
+  {
+   "id": 1563219,
+   "slug": "2026-10-24-lincoln-burnley",
+   "league": "Championship",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "home": "Lincoln",
+   "away": "Burnley",
+   "fair": {
+    "home": 31.8,
+    "draw": 26.4,
+    "away": 41.7
+   },
+   "move": {
+    "home": -0.3,
+    "draw": -0.2,
+    "away": 0.5
+   },
+   "tracked_since": "2026-10-19T22:19:00+00:00",
+   "goals": {
+    "expected": 2.53,
+    "first": 2.53
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "40"
+  },
+  {
+   "id": 1563221,
+   "slug": "2026-10-24-preston-west-brom",
+   "league": "Championship",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "home": "Preston",
+   "away": "West Brom",
+   "fair": {
+    "home": 25.2,
+    "draw": 25.5,
+    "away": 49.3
+   },
+   "move": {
+    "home": -0.1,
+    "draw": -0.1,
+    "away": 0.1
+   },
+   "tracked_since": "2026-10-19T22:19:00+00:00",
+   "goals": {
+    "expected": 2.54,
+    "first": 2.54
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "40"
+  },
+  {
+   "id": 1563222,
+   "slug": "2026-10-24-qpr-swansea",
+   "league": "Championship",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "home": "QPR",
+   "away": "Swansea",
+   "fair": {
+    "home": 40.4,
+    "draw": 28.1,
+    "away": 31.5
+   },
+   "move": {
+    "home": 2.9,
+    "draw": 0.1,
+    "away": -3.0
+   },
+   "tracked_since": "2026-10-19T22:19:00+00:00",
+   "goals": {
+    "expected": 2.45,
+    "first": 2.45
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "40"
+  },
+  {
+   "id": 1563224,
+   "slug": "2026-10-24-stoke-city-bristol-city",
+   "league": "Championship",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "home": "Stoke City",
+   "away": "Bristol City",
+   "fair": {
+    "home": 41.1,
+    "draw": 28.0,
+    "away": 30.9
+   },
+   "move": {
+    "home": -0.0,
+    "draw": -0.1,
+    "away": 0.2
+   },
+   "tracked_since": "2026-10-19T22:19:00+00:00",
+   "goals": {
+    "expected": 2.48,
+    "first": 2.47
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "40"
+  },
+  {
+   "id": 1563225,
+   "slug": "2026-10-24-west-ham-southampton",
+   "league": "Championship",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "home": "West Ham",
+   "away": "Southampton",
+   "fair": {
+    "home": 56.8,
+    "draw": 21.9,
+    "away": 21.3
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-19T22:19:00+00:00",
+   "goals": {
+    "expected": 3.16,
+    "first": 3.16
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "40"
+  },
+  {
+   "id": 1563226,
+   "slug": "2026-10-24-wolves-watford",
+   "league": "Championship",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "home": "Wolves",
+   "away": "Watford",
+   "fair": {
+    "home": 68.5,
+    "draw": 19.1,
+    "away": 12.4
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-19T22:19:00+00:00",
+   "goals": {
+    "expected": 3.0,
+    "first": 3.0
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "40"
+  },
+  {
+   "id": 1570428,
+   "slug": "2026-10-24-racing-santander-espanyol",
+   "league": "La Liga",
+   "kickoff": "2026-10-24T14:15:00+00:00",
+   "home": "Racing Santander",
+   "away": "Espanyol",
+   "fair": {
+    "home": 38.3,
+    "draw": 26.3,
+    "away": 35.4
+   },
+   "move": {
+    "home": 0.0,
+    "draw": -0.1,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.81,
+    "first": 2.79
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "140"
+  },
+  {
+   "id": 1552199,
+   "slug": "2026-10-24-utrecht-pec-zwolle",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-24T14:30:00+00:00",
+   "home": "Utrecht",
+   "away": "PEC Zwolle",
+   "fair": {
+    "home": 57.4,
+    "draw": 22.1,
+    "away": 20.6
+   },
+   "move": {
+    "home": -0.9,
+    "draw": 0.1,
+    "away": 0.7
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.17,
+    "first": 3.28
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "88"
+  },
+  {
+   "id": 1575518,
+   "slug": "2026-10-24-alverca-arouca",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-24T14:30:00+00:00",
+   "home": "Alverca",
+   "away": "Arouca",
+   "fair": {
+    "home": 44.0,
+    "draw": 30.4,
+    "away": 25.6
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.49,
+    "first": 2.49
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "94"
+  },
+  {
+   "id": 1575520,
+   "slug": "2026-10-24-estrela-casa-pia",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-24T14:30:00+00:00",
+   "home": "Estrela",
+   "away": "Casa Pia",
+   "fair": {
+    "home": 56.0,
+    "draw": 25.2,
+    "away": 18.8
+   },
+   "move": {
+    "home": -0.8,
+    "draw": 0.4,
+    "away": 0.4
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.41,
+    "first": 2.42
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "94"
+  },
+  {
+   "id": 1552799,
+   "slug": "2026-10-24-toulouse-estac-troyes",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-24T15:15:00+00:00",
+   "home": "Toulouse",
+   "away": "Estac Troyes",
+   "fair": {
+    "home": 58.4,
+    "draw": 22.7,
+    "away": 18.9
+   },
+   "move": {
+    "home": 0.1,
+    "draw": 0.1,
+    "away": -0.1
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.89,
+    "first": 2.92
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "61"
+  },
+  {
+   "id": 1550164,
+   "slug": "2026-10-24-napoli-as-roma",
+   "league": "Serie A",
+   "kickoff": "2026-10-24T16:00:00+00:00",
+   "home": "Napoli",
+   "away": "AS Roma",
+   "fair": {
+    "home": 34.4,
+    "draw": 27.7,
+    "away": 37.8
+   },
+   "move": {
+    "home": 1.0,
+    "draw": 0.1,
+    "away": -1.1
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.54,
+    "first": 2.54
+   },
+   "absences": {
+    "home": 1,
+    "away": 1
+   },
+   "read": null,
+   "headline": null,
+   "competition": "135"
+  },
+  {
+   "id": 1584447,
+   "slug": "2026-10-24-samsunspor-amed",
+   "league": "Super Lig",
+   "kickoff": "2026-10-24T16:00:00+00:00",
+   "home": "Samsunspor",
+   "away": "Amed",
+   "fair": {
+    "home": 32.2,
+    "draw": 27.1,
+    "away": 40.7
+   },
+   "move": {
+    "home": -1.4,
+    "draw": -0.6,
+    "away": 2.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.52,
+    "first": 2.5
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "203"
+  },
+  {
+   "id": 1557439,
+   "slug": "2026-10-24-chelsea-tottenham",
+   "league": "Premier League",
+   "kickoff": "2026-10-24T16:30:00+00:00",
+   "home": "Chelsea",
+   "away": "Tottenham",
+   "fair": {
+    "home": 54.9,
+    "draw": 22.7,
+    "away": 22.5
+   },
+   "move": {
+    "home": 2.4,
+    "draw": -0.7,
+    "away": -1.7
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.05,
+    "first": 3.03
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": "2026-10-24-chelsea-tottenham",
+   "headline": "Chelsea clear favourites, but the move has stalled",
+   "competition": "39"
+  },
+  {
+   "id": 1570432,
+   "slug": "2026-10-24-valencia-villarreal",
+   "league": "La Liga",
+   "kickoff": "2026-10-24T16:30:00+00:00",
+   "home": "Valencia",
+   "away": "Villarreal",
+   "fair": {
+    "home": 30.6,
+    "draw": 26.1,
+    "away": 43.4
+   },
+   "move": {
+    "home": 0.1,
+    "draw": 0.1,
+    "away": -0.2
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.73,
+    "first": 2.75
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "140"
+  },
+  {
+   "id": 1575194,
+   "slug": "2026-10-24-borussia-dortmund-eintracht-frankfurt",
+   "league": "Bundesliga",
+   "kickoff": "2026-10-24T16:30:00+00:00",
+   "home": "Borussia Dortmund",
+   "away": "Eintracht Frankfurt",
+   "fair": {
+    "home": 65.2,
+    "draw": 18.4,
+    "away": 16.4
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.59,
+    "first": 3.59
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "78"
+  },
+  {
+   "id": 1552200,
+   "slug": "2026-10-24-willem-ii-cambuur",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-24T16:45:00+00:00",
+   "home": "Willem II",
+   "away": "Cambuur",
+   "fair": {
+    "home": 36.8,
+    "draw": 25.3,
+    "away": 37.9
+   },
+   "move": {
+    "home": -3.9,
+    "draw": -0.7,
+    "away": 4.5
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.15,
+    "first": 3.06
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "88"
+  },
+  {
+   "id": 1550162,
+   "slug": "2026-10-24-lazio-parma",
+   "league": "Serie A",
+   "kickoff": "2026-10-24T18:45:00+00:00",
+   "home": "Lazio",
+   "away": "Parma",
+   "fair": {
+    "home": 66.1,
+    "draw": 21.3,
+    "away": 12.7
+   },
+   "move": {
+    "home": 3.1,
+    "draw": -1.5,
+    "away": -1.6
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.52,
+    "first": 2.43
+   },
+   "absences": {
+    "home": 2,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "135"
+  },
+  {
+   "id": 1552795,
+   "slug": "2026-10-24-lens-paris-fc",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-24T18:45:00+00:00",
+   "home": "Lens",
+   "away": "Paris FC",
+   "fair": {
+    "home": 40.0,
+    "draw": 26.2,
+    "away": 33.7
+   },
+   "move": {
+    "home": -3.3,
+    "draw": 0.5,
+    "away": 2.7
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.84,
+    "first": 2.9
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "61"
+  },
+  {
+   "id": 1552201,
+   "slug": "2026-10-24-ado-den-haag-heerenveen",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-24T19:00:00+00:00",
+   "home": "ADO Den Haag",
+   "away": "Heerenveen",
+   "fair": {
+    "home": 28.2,
+    "draw": 24.9,
+    "away": 46.9
+   },
+   "move": {
+    "home": -1.6,
+    "draw": 0.0,
+    "away": 1.6
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.2,
+    "first": 3.28
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "88"
+  },
+  {
+   "id": 1570425,
+   "slug": "2026-10-24-atletico-madrid-deportivo-la-coruna",
+   "league": "La Liga",
+   "kickoff": "2026-10-24T19:00:00+00:00",
+   "home": "Atletico Madrid",
+   "away": "Deportivo La Coruna",
+   "fair": {
+    "home": 74.3,
+    "draw": 16.1,
+    "away": 9.5
+   },
+   "move": {
+    "home": -1.5,
+    "draw": 0.8,
+    "away": 0.7
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.05,
+    "first": 3.07
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "140"
+  },
+  {
+   "id": 1575521,
+   "slug": "2026-10-24-gil-vicente-fc-porto",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-24T19:30:00+00:00",
+   "home": "GIL Vicente",
+   "away": "FC Porto",
+   "fair": {
+    "home": 12.4,
+    "draw": 21.9,
+    "away": 65.5
+   },
+   "move": {
+    "home": -0.2,
+    "draw": -0.1,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.47,
+    "first": 2.47
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "94"
+  },
+  {
+   "id": 1552202,
+   "slug": "2026-10-25-fortuna-sittard-excelsior",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-25T11:15:00+00:00",
+   "home": "Fortuna Sittard",
+   "away": "Excelsior",
+   "fair": {
+    "home": 39.4,
+    "draw": 25.9,
+    "away": 34.8
+   },
+   "move": {
+    "home": 3.8,
+    "draw": 0.8,
+    "away": -4.6
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.0,
+    "first": 3.12
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "88"
+  },
+  {
+   "id": 1550161,
+   "slug": "2026-10-25-inter-fiorentina",
+   "league": "Serie A",
+   "kickoff": "2026-10-25T11:30:00+00:00",
+   "home": "Inter",
+   "away": "Fiorentina",
+   "fair": {
+    "home": 71.3,
+    "draw": 16.7,
+    "away": 12.0
+   },
+   "move": {
+    "home": 2.0,
+    "draw": -0.9,
+    "away": -1.1
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.34,
+    "first": 3.26
+   },
+   "absences": {
+    "home": 0,
+    "away": 1
+   },
+   "read": null,
+   "headline": null,
+   "competition": "135"
+  },
+  {
+   "id": 1558655,
+   "slug": "2026-10-25-genk-standard-liege",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-10-25T12:30:00+00:00",
+   "home": "Genk",
+   "away": "Standard Liege",
+   "fair": {
+    "home": 53.9,
+    "draw": 25.8,
+    "away": 20.4
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-19T04:26:00+00:00",
+   "goals": {
+    "expected": 2.98,
+    "first": 2.98
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "144"
+  },
+  {
+   "id": 1570424,
+   "slug": "2026-10-25-athletic-club-getafe",
+   "league": "La Liga",
+   "kickoff": "2026-10-25T13:00:00+00:00",
+   "home": "Athletic Club",
+   "away": "Getafe",
+   "fair": {
+    "home": 58.4,
+    "draw": 23.4,
+    "away": 18.1
+   },
+   "move": {
+    "home": 0.4,
+    "draw": 0.5,
+    "away": -0.9
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.15,
+    "first": 2.2
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "140"
+  },
+  {
+   "id": 1584445,
+   "slug": "2026-10-25-konyaspor-gen-lerbirli-i-s-k",
+   "league": "Super Lig",
+   "kickoff": "2026-10-25T13:00:00+00:00",
+   "home": "Konyaspor",
+   "away": "Gençlerbirliği S.K.",
+   "fair": {
+    "home": 51.2,
+    "draw": 26.7,
+    "away": 22.0
+   },
+   "move": {
+    "home": 0.4,
+    "draw": -0.1,
+    "away": -0.3
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.38,
+    "first": 2.37
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "203"
+  },
+  {
+   "id": 1552203,
+   "slug": "2026-10-25-nec-nijmegen-groningen",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-25T13:30:00+00:00",
+   "home": "NEC Nijmegen",
+   "away": "Groningen",
+   "fair": {
+    "home": 41.4,
+    "draw": 24.2,
+    "away": 34.4
+   },
+   "move": {
+    "home": -4.2,
+    "draw": -0.4,
+    "away": 4.5
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.23,
+    "first": 3.14
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "88"
+  },
+  {
+   "id": 1552204,
+   "slug": "2026-10-25-psv-eindhoven-feyenoord",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-25T13:30:00+00:00",
+   "home": "PSV Eindhoven",
+   "away": "Feyenoord",
+   "fair": {
+    "home": 47.7,
+    "draw": 21.8,
+    "away": 30.5
+   },
+   "move": {
+    "home": -0.0,
+    "draw": -0.4,
+    "away": 0.5
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.76,
+    "first": 3.66
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "88"
+  },
+  {
+   "id": 1550157,
+   "slug": "2026-10-25-atalanta-frosinone",
+   "league": "Serie A",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "home": "Atalanta",
+   "away": "Frosinone",
+   "fair": {
+    "home": 53.9,
+    "draw": 22.5,
+    "away": 23.6
+   },
+   "move": {
+    "home": -2.2,
+    "draw": 0.1,
+    "away": 2.1
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.39,
+    "first": 3.34
+   },
+   "absences": {
+    "home": 2,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "135"
+  },
+  {
+   "id": 1550160,
+   "slug": "2026-10-25-genoa-venezia",
+   "league": "Serie A",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "home": "Genoa",
+   "away": "Venezia",
+   "fair": {
+    "home": 45.2,
+    "draw": 30.1,
+    "away": 24.7
+   },
+   "move": {
+    "home": -1.2,
+    "draw": 0.5,
+    "away": 0.7
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.43,
+    "first": 2.52
+   },
+   "absences": {
+    "home": 1,
+    "away": 1
+   },
+   "read": null,
+   "headline": null,
+   "competition": "135"
+  },
+  {
+   "id": 1552797,
+   "slug": "2026-10-25-monaco-lille",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "home": "Monaco",
+   "away": "Lille",
+   "fair": {
+    "home": 44.2,
+    "draw": 29.8,
+    "away": 26.0
+   },
+   "move": {
+    "home": -0.3,
+    "draw": 0.3,
+    "away": -0.1
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.68,
+    "first": 2.75
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "61"
+  },
+  {
+   "id": 1557441,
+   "slug": "2026-10-25-crystal-palace-newcastle",
+   "league": "Premier League",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "home": "Crystal Palace",
+   "away": "Newcastle",
+   "fair": {
+    "home": 32.7,
+    "draw": 26.6,
+    "away": 40.7
+   },
+   "move": {
+    "home": -3.1,
+    "draw": -0.1,
+    "away": 3.2
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.93,
+    "first": 2.92
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": "2026-10-25-crystal-palace-newcastle",
+   "headline": "Newcastle repriced to 40.4%; goals markets unmoved",
+   "competition": "39"
+  },
+  {
+   "id": 1557442,
+   "slug": "2026-10-25-hull-city-brentford",
+   "league": "Premier League",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "home": "Hull City",
+   "away": "Brentford",
+   "fair": {
+    "home": 21.2,
+    "draw": 24.0,
+    "away": 54.8
+   },
+   "move": {
+    "home": -0.8,
+    "draw": -0.7,
+    "away": 1.5
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.8,
+    "first": 2.75
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "39"
+  },
+  {
+   "id": 1557444,
+   "slug": "2026-10-25-liverpool-brighton",
+   "league": "Premier League",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "home": "Liverpool",
+   "away": "Brighton",
+   "fair": {
+    "home": 44.7,
+    "draw": 24.3,
+    "away": 31.0
+   },
+   "move": {
+    "home": -1.3,
+    "draw": 0.3,
+    "away": 1.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.96,
+    "first": 2.97
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "39"
+  },
+  {
+   "id": 1557445,
+   "slug": "2026-10-25-manchester-united-bournemouth",
+   "league": "Premier League",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "home": "Manchester United",
+   "away": "Bournemouth",
+   "fair": {
+    "home": 51.3,
+    "draw": 24.7,
+    "away": 24.0
+   },
+   "move": {
+    "home": -0.1,
+    "draw": 0.1,
+    "away": -0.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.95,
+    "first": 2.97
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "39"
+  },
+  {
+   "id": 1575197,
+   "slug": "2026-10-25-1899-hoffenheim-bayer-leverkusen",
+   "league": "Bundesliga",
+   "kickoff": "2026-10-25T14:30:00+00:00",
+   "home": "1899 Hoffenheim",
+   "away": "Bayer Leverkusen",
+   "fair": {
+    "home": 34.6,
+    "draw": 23.9,
+    "away": 41.6
+   },
+   "move": {
+    "home": -0.3,
+    "draw": -0.0,
+    "away": 0.3
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.44,
+    "first": 3.44
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "78"
+  },
+  {
+   "id": 1558654,
+   "slug": "2026-10-25-club-brugge-kv-st-truiden",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-10-25T15:00:00+00:00",
+   "home": "Club Brugge KV",
+   "away": "St. Truiden",
+   "fair": {
+    "home": 70.4,
+    "draw": 16.4,
+    "away": 13.1
+   },
+   "move": {
+    "home": -0.1,
+    "draw": 0.1,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-19T04:26:00+00:00",
+   "goals": {
+    "expected": 3.54,
+    "first": 3.55
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "144"
+  },
+  {
+   "id": 1570427,
+   "slug": "2026-10-25-celta-vigo-real-betis",
+   "league": "La Liga",
+   "kickoff": "2026-10-25T15:15:00+00:00",
+   "home": "Celta Vigo",
+   "away": "Real Betis",
+   "fair": {
+    "home": 34.5,
+    "draw": 27.1,
+    "away": 38.4
+   },
+   "move": {
+    "home": -0.1,
+    "draw": -0.0,
+    "away": 0.1
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.61,
+    "first": 2.61
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "140"
+  },
+  {
+   "id": 1575519,
+   "slug": "2026-10-25-estoril-moreirense",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-25T15:30:00+00:00",
+   "home": "Estoril",
+   "away": "Moreirense",
+   "fair": {
+    "home": 51.3,
+    "draw": 25.7,
+    "away": 23.0
+   },
+   "move": {
+    "home": 2.2,
+    "draw": -0.9,
+    "away": -1.3
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.52,
+    "first": 2.45
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "94"
+  },
+  {
+   "id": 1552205,
+   "slug": "2026-10-25-sparta-rotterdam-ajax",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-25T15:45:00+00:00",
+   "home": "Sparta Rotterdam",
+   "away": "Ajax",
+   "fair": {
+    "home": 19.0,
+    "draw": 20.2,
+    "away": 60.7
+   },
+   "move": {
+    "home": 0.8,
+    "draw": 0.4,
+    "away": -1.2
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.46,
+    "first": 3.47
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "88"
+  },
+  {
+   "id": 1584444,
+   "slug": "2026-10-25-g-ztepe-orum-fk",
+   "league": "Super Lig",
+   "kickoff": "2026-10-25T16:00:00+00:00",
+   "home": "Göztepe",
+   "away": "Çorum FK",
+   "fair": {
+    "home": 43.7,
+    "draw": 26.2,
+    "away": 30.1
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-19T04:26:00+00:00",
+   "goals": {
+    "expected": 2.84,
+    "first": 2.84
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "203"
+  },
+  {
+   "id": 1552792,
+   "slug": "2026-10-25-angers-lorient",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-25T16:15:00+00:00",
+   "home": "Angers",
+   "away": "Lorient",
+   "fair": {
+    "home": 33.9,
+    "draw": 29.4,
+    "away": 36.7
+   },
+   "move": {
+    "home": -2.7,
+    "draw": -0.1,
+    "away": 2.8
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.39,
+    "first": 2.39
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "61"
+  },
+  {
+   "id": 1552793,
+   "slug": "2026-10-25-auxerre-le-mans",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-25T16:15:00+00:00",
+   "home": "Auxerre",
+   "away": "Le Mans",
+   "fair": {
+    "home": 45.0,
+    "draw": 26.1,
+    "away": 28.9
+   },
+   "move": {
+    "home": 0.1,
+    "draw": -0.2,
+    "away": 0.1
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.75,
+    "first": 2.72
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "61"
+  },
+  {
+   "id": 1552796,
+   "slug": "2026-10-25-marseille-le-havre",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-25T16:15:00+00:00",
+   "home": "Marseille",
+   "away": "Le Havre",
+   "fair": {
+    "home": 60.2,
+    "draw": 20.0,
+    "away": 19.8
+   },
+   "move": {
+    "home": -0.9,
+    "draw": -0.2,
+    "away": 1.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.99,
+    "first": 2.96
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "61"
+  },
+  {
+   "id": 1552798,
+   "slug": "2026-10-25-rennes-strasbourg",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-25T16:15:00+00:00",
+   "home": "Rennes",
+   "away": "Strasbourg",
+   "fair": {
+    "home": 54.8,
+    "draw": 21.6,
+    "away": 23.6
+   },
+   "move": {
+    "home": -0.1,
+    "draw": -0.3,
+    "away": 0.4
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.33,
+    "first": 3.25
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "61"
+  },
+  {
+   "id": 1557446,
+   "slug": "2026-10-25-sunderland-leeds",
+   "league": "Premier League",
+   "kickoff": "2026-10-25T16:30:00+00:00",
+   "home": "Sunderland",
+   "away": "Leeds",
+   "fair": {
+    "home": 32.4,
+    "draw": 30.1,
+    "away": 37.5
+   },
+   "move": {
+    "home": -1.5,
+    "draw": -0.1,
+    "away": 1.6
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.32,
+    "first": 2.33
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "39"
+  },
+  {
+   "id": 1575198,
+   "slug": "2026-10-25-sc-freiburg-bayern-m-nchen",
+   "league": "Bundesliga",
+   "kickoff": "2026-10-25T16:30:00+00:00",
+   "home": "SC Freiburg",
+   "away": "Bayern München",
+   "fair": {
+    "home": 14.6,
+    "draw": 16.0,
+    "away": 69.4
+   },
+   "move": {
+    "home": -0.9,
+    "draw": -0.4,
+    "away": 1.3
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.92,
+    "first": 4.0
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "78"
+  },
+  {
+   "id": 1550163,
+   "slug": "2026-10-25-lecce-juventus",
+   "league": "Serie A",
+   "kickoff": "2026-10-25T17:00:00+00:00",
+   "home": "Lecce",
+   "away": "Juventus",
+   "fair": {
+    "home": 11.8,
+    "draw": 22.2,
+    "away": 66.1
+   },
+   "move": {
+    "home": -0.0,
+    "draw": -0.3,
+    "away": 0.4
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.61,
+    "first": 2.55
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "135"
+  },
+  {
+   "id": 1558656,
+   "slug": "2026-10-25-gent-anderlecht",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-10-25T17:30:00+00:00",
+   "home": "Gent",
+   "away": "Anderlecht",
+   "fair": {
+    "home": 38.6,
+    "draw": 31.4,
+    "away": 30.1
+   },
+   "move": {
+    "home": 1.5,
+    "draw": -0.2,
+    "away": -1.2
+   },
+   "tracked_since": "2026-10-19T04:26:00+00:00",
+   "goals": {
+    "expected": 2.39,
+    "first": 2.39
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "144"
+  },
+  {
+   "id": 1570430,
+   "slug": "2026-10-25-real-sociedad-levante",
+   "league": "La Liga",
+   "kickoff": "2026-10-25T17:30:00+00:00",
+   "home": "Real Sociedad",
+   "away": "Levante",
+   "fair": {
+    "home": 54.9,
+    "draw": 23.3,
+    "away": 21.8
+   },
+   "move": {
+    "home": 0.3,
+    "draw": -0.2,
+    "away": -0.1
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.93,
+    "first": 2.9
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "140"
+  },
+  {
+   "id": 1575522,
+   "slug": "2026-10-25-nacional-sc-braga",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-25T18:00:00+00:00",
+   "home": "Nacional",
+   "away": "SC Braga",
+   "fair": {
+    "home": 16.4,
+    "draw": 23.4,
+    "away": 60.2
+   },
+   "move": {
+    "home": 1.9,
+    "draw": 1.1,
+    "away": -3.1
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.51,
+    "first": 2.56
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "94"
+  },
+  {
+   "id": 1575523,
+   "slug": "2026-10-25-rio-ave-famalicao",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-25T18:00:00+00:00",
+   "home": "Rio Ave",
+   "away": "Famalicao",
+   "fair": {
+    "home": 25.1,
+    "draw": 28.5,
+    "away": 46.4
+   },
+   "move": {
+    "home": 2.3,
+    "draw": 1.5,
+    "away": -3.6
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.32,
+    "first": 2.45
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "94"
+  },
+  {
+   "id": 1558660,
+   "slug": "2026-10-25-union-st-gilloise-cercle-brugge",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-10-25T18:15:00+00:00",
+   "home": "Union St. Gilloise",
+   "away": "Cercle Brugge",
+   "fair": {
+    "home": 72.9,
+    "draw": 16.1,
+    "away": 11.0
+   },
+   "move": {
+    "home": 0.8,
+    "draw": -0.3,
+    "away": -0.4
+   },
+   "tracked_since": "2026-10-19T04:26:00+00:00",
+   "goals": {
+    "expected": 3.23,
+    "first": 3.21
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "144"
+  },
+  {
+   "id": 1552206,
+   "slug": "2026-10-25-az-alkmaar-twente",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-25T19:00:00+00:00",
+   "home": "AZ Alkmaar",
+   "away": "Twente",
+   "fair": {
+    "home": 43.8,
+    "draw": 24.8,
+    "away": 31.4
+   },
+   "move": {
+    "home": 2.0,
+    "draw": 0.1,
+    "away": -1.9
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.24,
+    "first": 3.14
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "88"
+  },
+  {
+   "id": 1550166,
+   "slug": "2026-10-25-udinese-ac-milan",
+   "league": "Serie A",
+   "kickoff": "2026-10-25T19:45:00+00:00",
+   "home": "Udinese",
+   "away": "AC Milan",
+   "fair": {
+    "home": 17.6,
+    "draw": 23.5,
+    "away": 58.9
+   },
+   "move": {
+    "home": -2.1,
+    "draw": -1.1,
+    "away": 3.2
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.56,
+    "first": 2.51
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "135"
+  },
+  {
+   "id": 1552800,
+   "slug": "2026-10-25-paris-saint-germain-lyon",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-25T19:45:00+00:00",
+   "home": "Paris Saint Germain",
+   "away": "Lyon",
+   "fair": {
+    "home": 70.7,
+    "draw": 16.3,
+    "away": 13.0
+   },
+   "move": {
+    "home": 2.5,
+    "draw": -1.1,
+    "away": -1.4
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.5,
+    "first": 3.47
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "61"
+  },
+  {
+   "id": 1570426,
+   "slug": "2026-10-25-barcelona-real-madrid",
+   "league": "La Liga",
+   "kickoff": "2026-10-25T20:00:00+00:00",
+   "home": "Barcelona",
+   "away": "Real Madrid",
+   "fair": {
+    "home": 60.4,
+    "draw": 16.9,
+    "away": 22.7
+   },
+   "move": {
+    "home": -2.6,
+    "draw": -0.2,
+    "away": 2.9
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 4.03,
+    "first": 4.03
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": "2026-10-25-barcelona-real-madrid",
+   "headline": "Clasico: Barcelona still favoured, handicap eases",
+   "competition": "140"
+  },
+  {
+   "id": 1575525,
+   "slug": "2026-10-25-sporting-cp-academico-viseu",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-25T20:30:00+00:00",
+   "home": "Sporting CP",
+   "away": "Academico Viseu",
+   "fair": {
+    "home": 75.8,
+    "draw": 15.4,
+    "away": 8.7
+   },
+   "move": {
+    "home": -4.4,
+    "draw": 2.1,
+    "away": 2.4
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.24,
+    "first": 3.32
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "94"
+  },
+  {
+   "id": 1584440,
+   "slug": "2026-10-26-be-ikta-ba-ak-ehir",
+   "league": "Super Lig",
+   "kickoff": "2026-10-26T16:00:00+00:00",
+   "home": "Beşiktaş",
+   "away": "Başakşehir",
+   "fair": {
+    "home": 69.5,
+    "draw": 17.3,
+    "away": 13.2
+   },
+   "move": {
+    "home": 3.5,
+    "draw": -2.1,
+    "away": -1.4
+   },
+   "tracked_since": "2026-10-19T19:17:00+00:00",
+   "goals": {
+    "expected": 3.4,
+    "first": 3.23
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "203"
+  },
+  {
+   "id": 1584446,
+   "slug": "2026-10-26-rizespor-trabzonspor",
+   "league": "Super Lig",
+   "kickoff": "2026-10-26T16:00:00+00:00",
+   "home": "Rizespor",
+   "away": "Trabzonspor",
+   "fair": {
+    "home": 29.5,
+    "draw": 25.4,
+    "away": 45.1
+   },
+   "move": {
+    "home": 1.5,
+    "draw": 0.3,
+    "away": -1.8
+   },
+   "tracked_since": "2026-10-19T19:17:00+00:00",
+   "goals": {
+    "expected": 2.97,
+    "first": 2.89
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "203"
+  },
+  {
+   "id": 1584442,
+   "slug": "2026-10-26-galatasaray-fenerbah-e",
+   "league": "Super Lig",
+   "kickoff": "2026-10-26T18:30:00+00:00",
+   "home": "Galatasaray",
+   "away": "Fenerbahçe",
+   "fair": {
+    "home": 41.6,
+    "draw": 25.5,
+    "away": 32.9
+   },
+   "move": {
+    "home": -0.4,
+    "draw": -0.5,
+    "away": 0.9
+   },
+   "tracked_since": "2026-10-19T16:24:00+00:00",
+   "goals": {
+    "expected": 3.14,
+    "first": null
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "203"
+  },
+  {
+   "id": 1575524,
+   "slug": "2026-10-26-santa-clara-benfica",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-26T18:45:00+00:00",
+   "home": "Santa Clara",
+   "away": "Benfica",
+   "fair": {
+    "home": 11.2,
+    "draw": 20.9,
+    "away": 67.7
+   },
+   "move": {
+    "home": -1.0,
+    "draw": 0.1,
+    "away": 0.5
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.55,
+    "first": 2.62
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "94"
+  },
+  {
+   "id": 1570431,
+   "slug": "2026-10-26-sevilla-osasuna",
+   "league": "La Liga",
+   "kickoff": "2026-10-26T20:00:00+00:00",
+   "home": "Sevilla",
+   "away": "Osasuna",
+   "fair": {
+    "home": 49.3,
+    "draw": 27.4,
+    "away": 23.3
+   },
+   "move": {
+    "home": 0.5,
+    "draw": -0.5,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.33,
+    "first": 2.26
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "140"
+  },
+  {
+   "id": 1550174,
+   "slug": "2026-10-27-sassuolo-lazio",
+   "league": "Serie A",
+   "kickoff": "2026-10-27T17:30:00+00:00",
+   "home": "Sassuolo",
+   "away": "Lazio",
+   "fair": {
+    "home": 32.3,
+    "draw": 29.3,
+    "away": 38.4
+   },
+   "move": {
+    "home": -0.0,
+    "draw": -0.1,
+    "away": 0.1
+   },
+   "tracked_since": "2026-10-19T04:26:00+00:00",
+   "goals": {
+    "expected": 2.71,
+    "first": 2.71
+   },
+   "absences": {
+    "home": 5,
+    "away": 2
+   },
+   "read": null,
+   "headline": null,
+   "competition": "135"
+  },
+  {
+   "id": 1550168,
+   "slug": "2026-10-27-as-roma-cagliari",
+   "league": "Serie A",
+   "kickoff": "2026-10-27T19:45:00+00:00",
+   "home": "AS Roma",
+   "away": "Cagliari",
+   "fair": {
+    "home": 70.2,
+    "draw": 20.0,
+    "away": 9.8
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-19T04:26:00+00:00",
+   "goals": {
+    "expected": 2.76,
+    "first": 2.76
+   },
+   "absences": {
+    "home": 1,
+    "away": 1
+   },
+   "read": null,
+   "headline": null,
+   "competition": "135"
+  },
+  {
+   "id": 1550175,
+   "slug": "2026-10-27-torino-como",
+   "league": "Serie A",
+   "kickoff": "2026-10-27T19:45:00+00:00",
+   "home": "Torino",
+   "away": "Como",
+   "fair": {
+    "home": 19.4,
+    "draw": 26.7,
+    "away": 53.9
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-19T04:26:00+00:00",
+   "goals": {
+    "expected": 2.71,
+    "first": 2.71
+   },
+   "absences": {
+    "home": 2,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "135"
+  },
+  {
+   "id": 1550167,
+   "slug": "2026-10-28-ac-milan-bologna",
+   "league": "Serie A",
+   "kickoff": "2026-10-28T17:30:00+00:00",
+   "home": "AC Milan",
+   "away": "Bologna",
+   "fair": {
+    "home": 59.2,
+    "draw": 23.3,
+    "away": 17.6
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-19T04:26:00+00:00",
+   "goals": {
+    "expected": 2.6,
+    "first": 2.6
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "135"
+  },
+  {
+   "id": 1550173,
+   "slug": "2026-10-28-parma-udinese",
+   "league": "Serie A",
+   "kickoff": "2026-10-28T17:30:00+00:00",
+   "home": "Parma",
+   "away": "Udinese",
+   "fair": {
+    "home": 31.8,
+    "draw": 29.3,
+    "away": 38.9
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-19T04:26:00+00:00",
+   "goals": {
+    "expected": 2.26,
+    "first": 2.26
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "135"
+  },
+  {
+   "id": 1550176,
+   "slug": "2026-10-28-venezia-inter",
+   "league": "Serie A",
+   "kickoff": "2026-10-28T17:30:00+00:00",
+   "home": "Venezia",
+   "away": "Inter",
+   "fair": {
+    "home": 12.3,
+    "draw": 16.0,
+    "away": 71.7
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-19T04:26:00+00:00",
+   "goals": {
+    "expected": 3.62,
+    "first": 3.62
+   },
+   "absences": {
+    "home": 1,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "135"
+  },
+  {
+   "id": 1550171,
+   "slug": "2026-10-28-genoa-juventus",
+   "league": "Serie A",
+   "kickoff": "2026-10-28T19:45:00+00:00",
+   "home": "Genoa",
+   "away": "Juventus",
+   "fair": {
+    "home": 17.3,
+    "draw": 25.0,
+    "away": 57.7
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-19T04:26:00+00:00",
+   "goals": {
+    "expected": 2.37,
+    "first": 2.37
+   },
+   "absences": {
+    "home": 1,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "135"
+  },
+  {
+   "id": 1550172,
+   "slug": "2026-10-28-monza-napoli",
+   "league": "Serie A",
+   "kickoff": "2026-10-28T19:45:00+00:00",
+   "home": "Monza",
+   "away": "Napoli",
+   "fair": {
+    "home": 22.7,
+    "draw": 25.3,
+    "away": 51.9
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-19T04:26:00+00:00",
+   "goals": {
+    "expected": 2.74,
+    "first": 2.74
+   },
+   "absences": {
+    "home": 0,
+    "away": 1
+   },
+   "read": null,
+   "headline": null,
+   "competition": "135"
   }
  ],
  "reads": [
