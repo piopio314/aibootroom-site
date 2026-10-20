@@ -232,6 +232,12 @@
       ${m.headline ? `<a class="hl" href="${m.read ? readUrl(m.read) : '#'}"><b>THE BOOT ROOM</b>${E(m.headline)} →</a>` : ''}</div>${t}</${tag}>`;
   };
   document.getElementById('weekendCards').innerHTML = (M.weekend || []).map(card).join('') || '<div class="skeleton">The weekend markets open soon.</div>';
+  // match of the week: the same video tile, between the headline and the market card
+  const heroTile = M.featured && tile(M.featured);
+  if (heroTile) {
+    const g = document.querySelector('#hero .grid'), hc = document.getElementById('heroCard');
+    hc.insertAdjacentHTML('beforebegin', `<div class="htile">${heroTile}</div>`); g.classList.add('with-tile');
+  }
 
   // ── movers
   document.getElementById('moversGrid').innerHTML = (M.movers || []).map(m => {
