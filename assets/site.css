@@ -239,9 +239,25 @@ footer a { color: var(--text2); } footer a:hover { color: var(--text); }
 .mtile.on { border-color: var(--accent); }
 @media (max-width: 560px) { .mcard.has-tile { grid-template-columns: minmax(0, 1fr) 40%; gap: 12px; } .mcard.has-tile .top { flex-wrap: wrap; } .mtile .pn { font-size: 28px; } }
 
-/* match of the week: video tile in the hero */
-.hero .grid.with-tile { grid-template-columns: minmax(0, 1.1fr) 230px minmax(0, 1fr); gap: 28px; }
+/* match of the week: text | market card | video on the right. Narrower screens: text | card, the video centred
+   below; phones: everything stacked, video centred. */
+.hero .grid.with-tile { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr) 240px; gap: 36px; align-items: center; }
+.hero .grid.with-tile h1 { font-size: clamp(44px, 4.6vw, 72px); }
+.hero .htile { width: 240px; justify-self: end; }
 .hero .htile .mtile { box-shadow: 0 30px 80px rgba(0,0,0,.55); border-color: #3a4c66; }
-.hero .htile .mtile .pn { font-size: 46px; }
-@media (max-width: 1100px) { .hero .grid.with-tile { grid-template-columns: minmax(0, 1fr) 230px; } .hero .grid.with-tile .hcard { grid-column: 1 / -1; } }
-@media (max-width: 640px) { .hero .grid.with-tile { grid-template-columns: 1fr; } .hero .htile { width: 62%; margin: 0 auto; } }
+.hero .htile .mtile .pn { font-size: 44px; }
+@media (max-width: 1240px) {
+  .hero .grid.with-tile { grid-template-columns: minmax(0, 1fr) 220px; row-gap: 34px; align-items: stretch; }
+  .hero .grid.with-tile > div:first-child { grid-column: 1 / -1; }
+  .hero .grid.with-tile h1 { font-size: clamp(44px, 6vw, 84px); }
+  .hero .htile { width: 220px; justify-self: end; align-self: center; }
+}
+@media (max-width: 900px) {
+  .hero .grid.with-tile { grid-template-columns: 1fr; }
+  .hero .htile { width: min(300px, 72%); }
+}
+
+/* hero market card next to the video tile: compact top row so the percentages never leave the card */
+.hero .grid.with-tile .hcard { padding: 22px; }
+.hero .grid.with-tile .teamsrow .mono { display: none; }
+.hero .grid.with-tile .bigpct { font-size: 40px; }
