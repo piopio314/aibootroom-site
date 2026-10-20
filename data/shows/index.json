@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T12:24:54+00:00",
+ "generated_at": "2026-10-20T17:24:12+00:00",
  "shows": [
   {
    "id": "2026-10-20-wolves-portsmouth",
@@ -9,6 +9,7 @@
    "kickoff": "2026-10-20T18:45:00+00:00",
    "title": "Wolves v Portsmouth: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 44
   },
   {
@@ -19,6 +20,7 @@
    "kickoff": "2026-10-21T18:00:00+00:00",
    "title": "Levante vs Athletic: eight hours, no move",
    "source": "market_desk",
+   "kicker": "GOALS WATCH",
    "seconds": 95
   },
   {
@@ -29,6 +31,7 @@
    "kickoff": "2026-10-23T17:00:00+00:00",
    "title": "Alanyaspor v Kocaelispor: what the market says",
    "source": "numbers",
+   "kicker": "MARKET ALERT",
    "seconds": 58
   },
   {
@@ -39,6 +42,7 @@
    "kickoff": "2026-10-23T18:00:00+00:00",
    "title": "GO Ahead Eagles v Telstar: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 36
   },
   {
@@ -49,6 +53,7 @@
    "kickoff": "2026-10-23T18:30:00+00:00",
    "title": "VfB Stuttgart v Borussia Mönchengladbach: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 50
   },
   {
@@ -59,6 +64,7 @@
    "kickoff": "2026-10-23T18:45:00+00:00",
    "title": "Torino vs Monza: a flat board, and one snapshot",
    "source": "market_desk",
+   "kicker": "GOALS WATCH",
    "seconds": 101
   },
   {
@@ -69,6 +75,7 @@
    "kickoff": "2026-10-23T18:45:00+00:00",
    "title": "Stade Brestois 29 v Nice: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 37
   },
   {
@@ -79,6 +86,7 @@
    "kickoff": "2026-10-23T18:45:00+00:00",
    "title": "Kortrijk v KV Mechelen: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 60
   },
   {
@@ -89,6 +97,7 @@
    "kickoff": "2026-10-23T19:00:00+00:00",
    "title": "Ipswich v Forest: a market asleep at 41.7%",
    "source": "market_desk",
+   "kicker": "QUIET MARKET",
    "seconds": 99
   },
   {
@@ -99,6 +108,7 @@
    "kickoff": "2026-10-23T19:00:00+00:00",
    "title": "Bolton v Middlesbrough: what the market says",
    "source": "numbers",
+   "kicker": "MARKET ALERT",
    "seconds": 47
   },
   {
@@ -109,6 +119,7 @@
    "kickoff": "2026-10-23T19:00:00+00:00",
    "title": "Alaves v Malaga: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 58
   },
   {
@@ -119,6 +130,7 @@
    "kickoff": "2026-10-23T19:45:00+00:00",
    "title": "Vitória SC v Maritimo: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 36
   },
   {
@@ -129,6 +141,7 @@
    "kickoff": "2026-10-24T10:30:00+00:00",
    "title": "Eyüpspor v Kasımpaşa: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 53
   },
   {
@@ -139,6 +152,7 @@
    "kickoff": "2026-10-24T11:30:00+00:00",
    "title": "City 55.7% — but the goal line is thin",
    "source": "market_desk",
+   "kicker": "QUIET MARKET",
    "seconds": 91
   },
   {
@@ -149,6 +163,7 @@
    "kickoff": "2026-10-24T11:30:00+00:00",
    "title": "Charlton v Norwich: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 53
   },
   {
@@ -159,6 +174,7 @@
    "kickoff": "2026-10-24T11:30:00+00:00",
    "title": "Portsmouth v Millwall: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 34
   },
   {
@@ -169,6 +185,7 @@
    "kickoff": "2026-10-24T11:30:00+00:00",
    "title": "Sheffield Utd v Derby: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 35
   },
   {
@@ -179,6 +196,7 @@
    "kickoff": "2026-10-24T12:00:00+00:00",
    "title": "Rayo Vallecano v Elche: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 36
   },
   {
@@ -189,6 +207,7 @@
    "kickoff": "2026-10-24T13:00:00+00:00",
    "title": "Bologna priced ahead, but the market barely moves",
    "source": "market_desk",
+   "kicker": "GOALS WATCH",
    "seconds": 91
   },
   {
@@ -199,6 +218,7 @@
    "kickoff": "2026-10-24T13:00:00+00:00",
    "title": "Como v Sassuolo: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 63
   },
   {
@@ -209,6 +229,7 @@
    "kickoff": "2026-10-24T13:00:00+00:00",
    "title": "Gaziantep FK v Erzurumspor FK: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 56
   },
   {
@@ -219,6 +240,7 @@
    "kickoff": "2026-10-24T13:30:00+00:00",
    "title": "RB Leipzig v SV Elversberg: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 36
   },
   {
@@ -229,6 +251,7 @@
    "kickoff": "2026-10-24T13:30:00+00:00",
    "title": "FC Augsburg v Union Berlin: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 36
   },
   {
@@ -239,6 +262,7 @@
    "kickoff": "2026-10-24T13:30:00+00:00",
    "title": "FSV Mainz 05 v Werder Bremen: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 37
   },
   {
@@ -249,6 +273,7 @@
    "kickoff": "2026-10-24T13:30:00+00:00",
    "title": "1. FC Köln v FC Schalke 04: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 38
   },
   {
@@ -259,6 +284,7 @@
    "kickoff": "2026-10-24T13:30:00+00:00",
    "title": "SC Paderborn 07 v Hamburger SV: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 37
   },
   {
@@ -269,6 +295,7 @@
    "kickoff": "2026-10-24T14:00:00+00:00",
    "title": "Arsenal v Everton: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 53
   },
   {
@@ -279,6 +306,7 @@
    "kickoff": "2026-10-24T14:00:00+00:00",
    "title": "Coventry v Fulham: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 34
   },
   {
@@ -289,6 +317,7 @@
    "kickoff": "2026-10-24T14:00:00+00:00",
    "title": "Blackburn v Wrexham: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 34
   },
   {
@@ -299,6 +328,7 @@
    "kickoff": "2026-10-24T14:00:00+00:00",
    "title": "Cardiff v Birmingham: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 53
   },
   {
@@ -309,6 +339,7 @@
    "kickoff": "2026-10-24T14:00:00+00:00",
    "title": "Lincoln v Burnley: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 34
   },
   {
@@ -319,6 +350,7 @@
    "kickoff": "2026-10-24T14:00:00+00:00",
    "title": "Preston v West Brom: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 35
   },
   {
@@ -329,6 +361,7 @@
    "kickoff": "2026-10-24T14:00:00+00:00",
    "title": "QPR v Swansea: what the market says",
    "source": "numbers",
+   "kicker": "MARKET ALERT",
    "seconds": 47
   },
   {
@@ -339,6 +372,7 @@
    "kickoff": "2026-10-24T14:00:00+00:00",
    "title": "Stoke City v Bristol City: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 36
   },
   {
@@ -349,6 +383,7 @@
    "kickoff": "2026-10-24T14:00:00+00:00",
    "title": "West Ham v Southampton: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 35
   },
   {
@@ -359,6 +394,7 @@
    "kickoff": "2026-10-24T14:00:00+00:00",
    "title": "Wolves v Watford: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 34
   },
   {
@@ -369,6 +405,7 @@
    "kickoff": "2026-10-24T14:15:00+00:00",
    "title": "Racing Santander v Espanyol: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 36
   },
   {
@@ -379,6 +416,7 @@
    "kickoff": "2026-10-24T14:30:00+00:00",
    "title": "Utrecht v PEC Zwolle: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 54
   },
   {
@@ -389,6 +427,7 @@
    "kickoff": "2026-10-24T14:30:00+00:00",
    "title": "Alverca v Arouca: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 34
   },
   {
@@ -399,6 +438,7 @@
    "kickoff": "2026-10-24T14:30:00+00:00",
    "title": "Estrela v Casa Pia: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 54
   },
   {
@@ -409,6 +449,7 @@
    "kickoff": "2026-10-24T15:15:00+00:00",
    "title": "Toulouse v Estac Troyes: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 35
   },
   {
@@ -419,6 +460,7 @@
    "kickoff": "2026-10-24T16:00:00+00:00",
    "title": "Napoli v AS Roma: what the market says",
    "source": "market_desk",
+   "kicker": "TEAM NEWS",
    "seconds": 98
   },
   {
@@ -429,6 +471,7 @@
    "kickoff": "2026-10-24T16:00:00+00:00",
    "title": "Samsunspor v Amed: what the market says",
    "source": "numbers",
+   "kicker": "MARKET ALERT",
    "seconds": 48
   },
   {
@@ -439,6 +482,7 @@
    "kickoff": "2026-10-24T16:30:00+00:00",
    "title": "Chelsea 54.9%: One Snapshot, Two Flat Days",
    "source": "market_desk",
+   "kicker": "MARKET ALERT",
    "seconds": 90
   },
   {
@@ -449,6 +493,7 @@
    "kickoff": "2026-10-24T16:30:00+00:00",
    "title": "Valencia v Villarreal: what the market says",
    "source": "numbers",
+   "kicker": "QUIET MARKET",
    "seconds": 31
   },
   {
@@ -459,6 +504,7 @@
    "kickoff": "2026-10-24T16:30:00+00:00",
    "title": "Borussia Dortmund v Eintracht Frankfurt: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 36
   },
   {
@@ -469,6 +515,7 @@
    "kickoff": "2026-10-24T16:45:00+00:00",
    "title": "Willem II v Cambuur: what the market says",
    "source": "numbers",
+   "kicker": "MARKET ALERT",
    "seconds": 48
   },
   {
@@ -479,6 +526,7 @@
    "kickoff": "2026-10-24T18:45:00+00:00",
    "title": "Lazio v Parma: what the market says",
    "source": "numbers",
+   "kicker": "MARKET ALERT",
    "seconds": 57
   },
   {
@@ -489,6 +537,7 @@
    "kickoff": "2026-10-24T18:45:00+00:00",
    "title": "Lens v Paris FC: what the market says",
    "source": "numbers",
+   "kicker": "MARKET ALERT",
    "seconds": 49
   },
   {
@@ -499,6 +548,7 @@
    "kickoff": "2026-10-24T19:00:00+00:00",
    "title": "ADO Den Haag v Heerenveen: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 49
   },
   {
@@ -509,6 +559,7 @@
    "kickoff": "2026-10-24T19:00:00+00:00",
    "title": "Atletico Madrid v Deportivo La Coruna: what the market says",
    "source": "numbers",
+   "kicker": "FAVOURITE FADING",
    "seconds": 57
   },
   {
@@ -519,6 +570,7 @@
    "kickoff": "2026-10-24T19:30:00+00:00",
    "title": "GIL Vicente v FC Porto: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 36
   },
   {
@@ -529,6 +581,7 @@
    "kickoff": "2026-10-25T11:15:00+00:00",
    "title": "Fortuna Sittard v Excelsior: what the market says",
    "source": "numbers",
+   "kicker": "MARKET ALERT",
    "seconds": 49
   },
   {
@@ -539,6 +592,7 @@
    "kickoff": "2026-10-25T11:30:00+00:00",
    "title": "Inter v Fiorentina: what the market says",
    "source": "numbers",
+   "kicker": "MARKET ALERT",
    "seconds": 57
   },
   {
@@ -549,6 +603,7 @@
    "kickoff": "2026-10-25T12:30:00+00:00",
    "title": "Genk v Standard Liege: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 36
   },
   {
@@ -559,6 +614,7 @@
    "kickoff": "2026-10-25T13:00:00+00:00",
    "title": "Athletic Club v Getafe: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 55
   },
   {
@@ -569,6 +625,7 @@
    "kickoff": "2026-10-25T13:00:00+00:00",
    "title": "Konyaspor v Gençlerbirliği S.K.: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 54
   },
   {
@@ -579,6 +636,7 @@
    "kickoff": "2026-10-25T13:30:00+00:00",
    "title": "NEC Nijmegen v Groningen: what the market says",
    "source": "numbers",
+   "kicker": "MARKET ALERT",
    "seconds": 48
   },
   {
@@ -589,6 +647,7 @@
    "kickoff": "2026-10-25T13:30:00+00:00",
    "title": "PSV Eindhoven v Feyenoord: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 54
   },
   {
@@ -599,6 +658,7 @@
    "kickoff": "2026-10-25T14:00:00+00:00",
    "title": "Atalanta v Frosinone: what the market says",
    "source": "numbers",
+   "kicker": "FAVOURITE FADING",
    "seconds": 57
   },
   {
@@ -609,6 +669,7 @@
    "kickoff": "2026-10-25T14:00:00+00:00",
    "title": "Genoa v Venezia: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 63
   },
   {
@@ -619,6 +680,7 @@
    "kickoff": "2026-10-25T14:00:00+00:00",
    "title": "Monaco v Lille: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 34
   },
   {
@@ -629,6 +691,7 @@
    "kickoff": "2026-10-25T14:00:00+00:00",
    "title": "Newcastle repriced, goals untouched",
    "source": "market_desk",
+   "kicker": "MARKET ALERT",
    "seconds": 94
   },
   {
@@ -639,6 +702,7 @@
    "kickoff": "2026-10-25T14:00:00+00:00",
    "title": "Hull City v Brentford: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 48
   },
   {
@@ -649,6 +713,7 @@
    "kickoff": "2026-10-25T14:00:00+00:00",
    "title": "Liverpool v Brighton: what the market says",
    "source": "numbers",
+   "kicker": "MARKET READ",
    "seconds": 55
   },
   {
@@ -659,6 +724,7 @@
    "kickoff": "2026-10-25T14:00:00+00:00",
    "title": "Manchester United v Bournemouth: what the market says",
    "source": "numbers",
+   "kicker": "QUIET MARKET",
    "seconds": 33
   },
   {
@@ -669,6 +735,7 @@
    "kickoff": "2026-10-25T14:30:00+00:00",
    "title": "1899 Hoffenheim v Bayer Leverkusen: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 55
   },
   {
@@ -679,6 +746,7 @@
    "kickoff": "2026-10-25T15:00:00+00:00",
    "title": "Club Brugge KV v St. Truiden: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 38
   },
   {
@@ -689,6 +757,7 @@
    "kickoff": "2026-10-25T15:15:00+00:00",
    "title": "Celta Vigo v Real Betis: what the market says",
    "source": "numbers",
+   "kicker": "QUIET MARKET",
    "seconds": 33
   },
   {
@@ -699,6 +768,7 @@
    "kickoff": "2026-10-25T15:30:00+00:00",
    "title": "Estoril v Moreirense: what the market says",
    "source": "numbers",
+   "kicker": "MARKET ALERT",
    "seconds": 48
   },
   {
@@ -709,6 +779,7 @@
    "kickoff": "2026-10-25T15:45:00+00:00",
    "title": "Sparta Rotterdam v Ajax: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 54
   },
   {
@@ -719,6 +790,7 @@
    "kickoff": "2026-10-25T16:00:00+00:00",
    "title": "Göztepe v Çorum FK: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 35
   },
   {
@@ -729,6 +801,7 @@
    "kickoff": "2026-10-25T16:15:00+00:00",
    "title": "Angers v Lorient: what the market says",
    "source": "numbers",
+   "kicker": "MARKET ALERT",
    "seconds": 48
   },
   {
@@ -739,6 +812,7 @@
    "kickoff": "2026-10-25T16:15:00+00:00",
    "title": "Auxerre v Le Mans: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 35
   },
   {
@@ -749,6 +823,7 @@
    "kickoff": "2026-10-25T16:15:00+00:00",
    "title": "Marseille v Le Havre: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 60
   },
   {
@@ -759,6 +834,7 @@
    "kickoff": "2026-10-25T16:15:00+00:00",
    "title": "Rennes v Strasbourg: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 53
   },
   {
@@ -769,6 +845,7 @@
    "kickoff": "2026-10-25T16:30:00+00:00",
    "title": "Sunderland v Leeds: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 48
   },
   {
@@ -779,6 +856,7 @@
    "kickoff": "2026-10-25T16:30:00+00:00",
    "title": "SC Freiburg v Bayern München: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 60
   },
   {
@@ -789,6 +867,7 @@
    "kickoff": "2026-10-25T17:00:00+00:00",
    "title": "Lecce v Juventus: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 53
   },
   {
@@ -799,6 +878,7 @@
    "kickoff": "2026-10-25T17:30:00+00:00",
    "title": "Gent v Anderlecht: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 48
   },
   {
@@ -809,6 +889,7 @@
    "kickoff": "2026-10-25T17:30:00+00:00",
    "title": "Real Sociedad v Levante: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 36
   },
   {
@@ -819,6 +900,7 @@
    "kickoff": "2026-10-25T18:00:00+00:00",
    "title": "Nacional v SC Braga: what the market says",
    "source": "numbers",
+   "kicker": "FAVOURITE FADING",
    "seconds": 49
   },
   {
@@ -829,6 +911,7 @@
    "kickoff": "2026-10-25T18:00:00+00:00",
    "title": "Rio Ave v Famalicao: what the market says",
    "source": "numbers",
+   "kicker": "MARKET ALERT",
    "seconds": 49
   },
   {
@@ -839,6 +922,7 @@
    "kickoff": "2026-10-25T18:15:00+00:00",
    "title": "Union St. Gilloise v Cercle Brugge: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 58
   },
   {
@@ -849,6 +933,7 @@
    "kickoff": "2026-10-25T19:00:00+00:00",
    "title": "AZ Alkmaar v Twente: what the market says",
    "source": "numbers",
+   "kicker": "MARKET ALERT",
    "seconds": 49
   },
   {
@@ -859,6 +944,7 @@
    "kickoff": "2026-10-25T19:45:00+00:00",
    "title": "Udinese v AC Milan: what the market says",
    "source": "numbers",
+   "kicker": "MARKET ALERT",
    "seconds": 49
   },
   {
@@ -869,6 +955,7 @@
    "kickoff": "2026-10-25T19:45:00+00:00",
    "title": "Paris Saint Germain v Lyon: what the market says",
    "source": "numbers",
+   "kicker": "MARKET ALERT",
    "seconds": 48
   },
   {
@@ -879,6 +966,7 @@
    "kickoff": "2026-10-25T20:00:00+00:00",
    "title": "Clasico: Barcelona down a tenth, goals flat",
    "source": "market_desk",
+   "kicker": "EL CLÁSICO",
    "seconds": 90
   },
   {
@@ -889,6 +977,7 @@
    "kickoff": "2026-10-25T20:30:00+00:00",
    "title": "Sporting CP v Academico Viseu: what the market says",
    "source": "numbers",
+   "kicker": "FAVOURITE FADING",
    "seconds": 50
   },
   {
@@ -899,6 +988,7 @@
    "kickoff": "2026-10-26T16:00:00+00:00",
    "title": "Beşiktaş v Başakşehir: what the market says",
    "source": "numbers",
+   "kicker": "MARKET ALERT",
    "seconds": 48
   },
   {
@@ -909,6 +999,7 @@
    "kickoff": "2026-10-26T16:00:00+00:00",
    "title": "Rizespor v Trabzonspor: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 48
   },
   {
@@ -919,6 +1010,7 @@
    "kickoff": "2026-10-26T18:30:00+00:00",
    "title": "Galatasaray v Fenerbahçe: what the market says",
    "source": "numbers",
+   "kicker": "SUPER LIG CLASSIC",
    "seconds": 50
   },
   {
@@ -929,6 +1021,7 @@
    "kickoff": "2026-10-26T18:45:00+00:00",
    "title": "Santa Clara v Benfica: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 54
   },
   {
@@ -939,6 +1032,7 @@
    "kickoff": "2026-10-26T20:00:00+00:00",
    "title": "Sevilla v Osasuna: what the market says",
    "source": "numbers",
+   "kicker": "QUIET MARKET",
    "seconds": 50
   },
   {
@@ -949,6 +1043,7 @@
    "kickoff": "2026-10-27T17:30:00+00:00",
    "title": "Sassuolo v Lazio: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 44
   },
   {
@@ -959,6 +1054,7 @@
    "kickoff": "2026-10-27T19:45:00+00:00",
    "title": "AS Roma v Cagliari: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 46
   },
   {
@@ -969,6 +1065,7 @@
    "kickoff": "2026-10-27T19:45:00+00:00",
    "title": "Torino v Como: what the market says",
    "source": "numbers",
+   "kicker": "GOALS WATCH",
    "seconds": 44
   }
  ]

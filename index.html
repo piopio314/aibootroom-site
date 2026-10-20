@@ -190,17 +190,46 @@
     ABR.playVideo({id: x.id, title: x.title, home: x.home, away: x.away, youtube_id: YT[x.id] || null});
   });
 
+  let activeTile = null;
+  const stopTile = () => {
+    if (!activeTile) return;
+    if (activeTile.api) activeTile.api.destroy();
+    activeTile.el.innerHTML = activeTile.poster; activeTile.el.classList.remove('on'); activeTile = null;
+  };
+  document.addEventListener('click', async ev => {
+    const el = ev.target.closest('.mtile .poster') && ev.target.closest('[data-tile]'); if (!el) return;
+    ev.preventDefault(); stopTile();
+    const id = el.dataset.tile, yt = YT[id];
+    activeTile = {el, poster: el.innerHTML, api: null}; el.classList.add('on');
+    if (yt) { el.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(yt)}?autoplay=1&rel=0&playsinline=1" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen title="video"></iframe>`; return; }
+    el.innerHTML = '<div class="skeleton" style="padding:20px 8px;font-size:13px">Loading…</div>';
+    if (!window.ABRShow) await new Promise((ok, bad) => { const sc = document.createElement('script'); sc.src = 'assets/show.js'; sc.onload = ok; sc.onerror = bad; document.head.append(sc); });
+    const show = await ABR.json(`data/shows/${id}.json`);
+    if (!activeTile || activeTile.el !== el) return;
+    el.innerHTML = '';
+    activeTile.api = window.ABRShow.mount(el, show);
+    setTimeout(() => activeTile && activeTile.api && activeTile.api.play(), 250);
+  });
+
   // ── weekend cards
+  const tile = m => {
+    if (!playable(m)) return '';
+    const x = SHOWS[m.slug], b = ABR.biggest(m), yt = YT[m.slug];
+    const poster = yt ? `<img src="https://i.ytimg.com/vi/${encodeURIComponent(yt)}/hqdefault.jpg" alt="" loading="lazy">`
+      : `<span class="pk">${E(x.kicker || 'MARKET READ')}</span><span class="pn ${b.d > 0 ? 'up' : b.d < 0 ? 'down' : ''}">${Math.abs(b.d) >= 0.5 ? (b.d > 0 ? '▲' : '▼') + ' ' + Math.abs(b.d).toFixed(1) : `${Math.max(m.fair.home, m.fair.away).toFixed(0)}%`}</span>
+         <span class="pt">${E(S(Math.abs(b.d) >= 0.5 ? b.team : (m.fair.home >= m.fair.away ? m.home : m.away)))}</span>`;
+    return `<div class="mtile" data-tile="${E(m.slug)}"><button class="poster" aria-label="Play the ${E(S(m.home))} v ${E(S(m.away))} video">${poster}
+      <span class="pp">▶</span><span class="pd">${yt ? 'YouTube' : `${Math.max(1, Math.round(x.seconds / 60))} min`}</span></button></div>`;
+  };
   const card = m => {
-    const b = ABR.biggest(m), tag = 'div';
-    return `<${tag} class="mcard">
+    const b = ABR.biggest(m), tag = 'div', t = tile(m);
+    return `<${tag} class="mcard${t ? ' has-tile' : ''}"><div class="mbody">
       <div class="top"><span class="chip">${E(m.league)}</span><span class="when">${E(ABR.when(m.kickoff))}</span></div>
       <div class="tm">${ABR.mono(m.home, 34)}${E(S(m.home))}</div><div class="tm">${ABR.mono(m.away, 34)}${E(S(m.away))}</div>
       <div style="margin-top:14px">${ABR.bar(m)}</div>
       <div class="foot"><span>⚽ ${m.goals ? `Expects ${m.goals.expected.toFixed(1)} goals` : '—'}</span>
         <b class="${b.d > 0 ? 'up' : b.d < 0 ? 'down' : ''}">${Math.abs(b.d) >= 1 ? `${b.d > 0 ? '▲' : '▼'} ${E(S(b.team))} ${ABR.sign(b.d)} pts` : 'Price steady'}</b></div>
-      ${playBtn(m)}
-      ${m.headline ? `<a class="hl" href="${m.read ? readUrl(m.read) : '#'}"><b>THE BOOT ROOM</b>${E(m.headline)} →</a>` : ''}</${tag}>`;
+      ${m.headline ? `<a class="hl" href="${m.read ? readUrl(m.read) : '#'}"><b>THE BOOT ROOM</b>${E(m.headline)} →</a>` : ''}</div>${t}</${tag}>`;
   };
   document.getElementById('weekendCards').innerHTML = (M.weekend || []).map(card).join('') || '<div class="skeleton">The weekend markets open soon.</div>';
 
