@@ -13,14 +13,14 @@
  },
  "market": {
   "fair": {
-   "home": 41.1,
-   "draw": 28.0,
-   "away": 30.9
+   "home": 40.4,
+   "draw": 28.1,
+   "away": 31.5
   },
   "move": {
-   "home": 3.5,
-   "draw": -0.0,
-   "away": -3.5
+   "home": 2.9,
+   "draw": 0.1,
+   "away": -3.0
   },
   "side": "home",
   "timeline": [
@@ -31,18 +31,22 @@
    {
     "t": "2026-10-20T09:23:00+00:00",
     "v": 41.1
+   },
+   {
+    "t": "2026-10-20T15:21:00+00:00",
+    "v": 40.4
    }
   ],
   "goals": 2.45,
   "goals_rank": 1,
   "tracked_since": "2026-10-19T22:19:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
    "type": "hook",
    "speaker": "narrator",
-   "text": "The market moved 3.5 points towards QPR.",
+   "text": "The market moved 2.9 points towards QPR.",
    "variant": 1,
    "words": [
     {
@@ -61,7 +65,7 @@
      "end": 1.654
     },
     {
-     "w": "3.5",
+     "w": "2.9",
      "start": 1.654,
      "end": 2.038
     },
@@ -120,7 +124,7 @@
   {
    "type": "split",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: QPR 41%, draw 28%, Swansea 31%. QPR are the favourites.",
+   "text": "Chance to win, with the bookmaker margin removed: QPR 40%, draw 28%, Swansea 32%. QPR are the favourites.",
    "variant": 1,
    "words": [
     {
@@ -169,7 +173,7 @@
      "end": 3.962
     },
     {
-     "w": "41%,",
+     "w": "40%,",
      "start": 3.962,
      "end": 4.346
     },
@@ -189,7 +193,7 @@
      "end": 5.5
     },
     {
-     "w": "31%.",
+     "w": "32%.",
      "start": 5.5,
      "end": 5.885
     },
@@ -219,7 +223,7 @@
   {
    "type": "line",
    "speaker": "scout",
-   "text": "Since we started tracking, QPR went from 37.5% to 41.1%. The price is moving their way.",
+   "text": "Since we started tracking, QPR went from 37.5% to 40.4%. The price is moving their way.",
    "variant": 1,
    "words": [
     {
@@ -268,7 +272,7 @@
      "end": 3.962
     },
     {
-     "w": "41.1%.",
+     "w": "40.4%.",
      "start": 3.962,
      "end": 4.346
     },
@@ -403,8 +407,8 @@
    "type": "verdict",
    "speaker": "gaffer",
    "bullets": [
-    "QPR favourites at 41%",
-    "QPR +3.5 pts since tracking started",
+    "QPR favourites at 40%",
+    "QPR +2.9 pts since tracking started",
     "About 2.5 goals expected"
    ],
    "stamp": "THE MARKET",
@@ -533,6 +537,6 @@
  },
  "source": "numbers",
  "fixture_id": 1563222,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

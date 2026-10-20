@@ -1,17 +1,29 @@
 {
- "generated_at": "2026-10-20T17:56:40+00:00",
+ "generated_at": "2026-10-20T20:44:49+00:00",
  "shows": [
   {
-   "id": "2026-10-20-wolves-portsmouth",
-   "home": "Wolves",
-   "away": "Portsmouth",
-   "league": "Championship",
-   "kickoff": "2026-10-20T18:45:00+00:00",
-   "title": "Wolves v Portsmouth: what the market says",
+   "id": "2026-10-21-como-manchester-united",
+   "home": "Como",
+   "away": "Manchester United",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T16:45:00+00:00",
+   "title": "Como v Manchester United: what the market says",
    "source": "numbers",
-   "kicker": "GOALS WATCH",
+   "kicker": "QUIET MARKET",
    "voiced": false,
-   "seconds": 44
+   "seconds": 32
+  },
+  {
+   "id": "2026-10-21-lille-galatasaray",
+   "home": "Lille",
+   "away": "Galatasaray",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T16:45:00+00:00",
+   "title": "Lille v Galatasaray: what the market says",
+   "source": "numbers",
+   "kicker": "QUIET MARKET",
+   "voiced": false,
+   "seconds": 31
   },
   {
    "id": "2026-10-21-levante-athletic-club",
@@ -24,6 +36,330 @@
    "kicker": "GOALS WATCH",
    "voiced": false,
    "seconds": 95
+  },
+  {
+   "id": "2026-10-21-aston-villa-viking",
+   "home": "Aston Villa",
+   "away": "Viking",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T19:00:00+00:00",
+   "title": "Aston Villa v Viking: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 36
+  },
+  {
+   "id": "2026-10-21-bayern-m-nchen-arsenal",
+   "home": "Bayern München",
+   "away": "Arsenal",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T19:00:00+00:00",
+   "title": "Bayern München v Arsenal: what the market says",
+   "source": "numbers",
+   "kicker": "QUIET MARKET",
+   "voiced": false,
+   "seconds": 33
+  },
+  {
+   "id": "2026-10-21-real-betis-feyenoord",
+   "home": "Real Betis",
+   "away": "Feyenoord",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T19:00:00+00:00",
+   "title": "Real Betis v Feyenoord: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 33
+  },
+  {
+   "id": "2026-10-21-club-brugge-kv-lens",
+   "home": "Club Brugge KV",
+   "away": "Lens",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T19:00:00+00:00",
+   "title": "Club Brugge KV v Lens: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 37
+  },
+  {
+   "id": "2026-10-21-inter-shakhtar-donetsk",
+   "home": "Inter",
+   "away": "Shakhtar Donetsk",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T19:00:00+00:00",
+   "title": "Inter v Shakhtar Donetsk: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 35
+  },
+  {
+   "id": "2026-10-21-real-madrid-rb-leipzig",
+   "home": "Real Madrid",
+   "away": "RB Leipzig",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T19:00:00+00:00",
+   "title": "Real Madrid v RB Leipzig: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 36
+  },
+  {
+   "id": "2026-10-21-sporting-cp-lask-linz",
+   "home": "Sporting CP",
+   "away": "Lask Linz",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T19:00:00+00:00",
+   "title": "Sporting CP v Lask Linz: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 36
+  },
+  {
+   "id": "2026-10-22-ararat-armenia-az-alkmaar",
+   "home": "Ararat-Armenia",
+   "away": "AZ Alkmaar",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "title": "Ararat-Armenia v AZ Alkmaar: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 36
+  },
+  {
+   "id": "2026-10-22-dinamo-zagreb-nec-nijmegen",
+   "home": "Dinamo Zagreb",
+   "away": "NEC Nijmegen",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "title": "Dinamo Zagreb v NEC Nijmegen: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 36
+  },
+  {
+   "id": "2026-10-22-ferencvarosi-tc-torreense",
+   "home": "Ferencvarosi TC",
+   "away": "Torreense",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "title": "Ferencvarosi TC v Torreense: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 36
+  },
+  {
+   "id": "2026-10-22-juventus-rennes",
+   "home": "Juventus",
+   "away": "Rennes",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "title": "Juventus v Rennes: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 34
+  },
+  {
+   "id": "2026-10-22-lech-poznan-sunderland",
+   "home": "Lech Poznan",
+   "away": "Sunderland",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "title": "Lech Poznan v Sunderland: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 35
+  },
+  {
+   "id": "2026-10-22-ofi-bayer-leverkusen",
+   "home": "OFI",
+   "away": "Bayer Leverkusen",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "title": "OFI v Bayer Leverkusen: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 36
+  },
+  {
+   "id": "2026-10-22-union-st-gilloise-hapoel-beer-sheva",
+   "home": "Union St. Gilloise",
+   "away": "Hapoel Beer Sheva",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "title": "Union St. Gilloise v Hapoel Beer Sheva: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 38
+  },
+  {
+   "id": "2026-10-22-sturm-graz-marseille",
+   "home": "Sturm Graz",
+   "away": "Marseille",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "title": "Sturm Graz v Marseille: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 35
+  },
+  {
+   "id": "2026-10-22-be-ikta-crystal-palace",
+   "home": "Beşiktaş",
+   "away": "Crystal Palace",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Beşiktaş v Crystal Palace: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 35
+  },
+  {
+   "id": "2026-10-22-bournemouth-ac-milan",
+   "home": "Bournemouth",
+   "away": "AC Milan",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Bournemouth v AC Milan: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 35
+  },
+  {
+   "id": "2026-10-22-celje-red-bull-salzburg",
+   "home": "Celje",
+   "away": "Red Bull Salzburg",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Celje v Red Bull Salzburg: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 37
+  },
+  {
+   "id": "2026-10-22-celtic-celta-vigo",
+   "home": "Celtic",
+   "away": "Celta Vigo",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Celtic v Celta Vigo: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 36
+  },
+  {
+   "id": "2026-10-22-1899-hoffenheim-lyon",
+   "home": "1899 Hoffenheim",
+   "away": "Lyon",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "1899 Hoffenheim v Lyon: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 36
+  },
+  {
+   "id": "2026-10-22-jagiellonia-anderlecht",
+   "home": "Jagiellonia",
+   "away": "Anderlecht",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Jagiellonia v Anderlecht: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 34
+  },
+  {
+   "id": "2026-10-22-lillestrom-real-sociedad",
+   "home": "Lillestrom",
+   "away": "Real Sociedad",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Lillestrom v Real Sociedad: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 36
+  },
+  {
+   "id": "2026-10-22-olympiakos-piraeus-sparta-praha",
+   "home": "Olympiakos Piraeus",
+   "away": "Sparta Praha",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Olympiakos Piraeus v Sparta Praha: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 36
+  },
+  {
+   "id": "2026-10-22-omonia-nicosia-benfica",
+   "home": "Omonia Nicosia",
+   "away": "Benfica",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Omonia Nicosia v Benfica: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 35
+  },
+  {
+   "id": "2026-10-22-plzen-levski-sofia",
+   "home": "Plzen",
+   "away": "Levski Sofia",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Plzen v Levski Sofia: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 35
+  },
+  {
+   "id": "2026-10-22-ajax-atalanta",
+   "home": "Ajax",
+   "away": "Atalanta",
+   "league": "Conference League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Ajax v Atalanta: what the market says",
+   "source": "numbers",
+   "kicker": "QUIET MARKET",
+   "voiced": false,
+   "seconds": 31
+  },
+  {
+   "id": "2026-10-22-monaco-sc-freiburg",
+   "home": "Monaco",
+   "away": "SC Freiburg",
+   "league": "Conference League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Monaco v SC Freiburg: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 35
   },
   {
    "id": "2026-10-23-alanyaspor-kocaelispor",
@@ -359,7 +695,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
-   "seconds": 53
+   "seconds": 47
   },
   {
    "id": "2026-10-24-lincoln-burnley",
@@ -371,7 +707,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
-   "seconds": 34
+   "seconds": 53
   },
   {
    "id": "2026-10-24-preston-west-brom",
@@ -537,9 +873,9 @@
    "kickoff": "2026-10-24T16:30:00+00:00",
    "title": "Valencia v Villarreal: what the market says",
    "source": "numbers",
-   "kicker": "QUIET MARKET",
+   "kicker": "GOALS WATCH",
    "voiced": false,
-   "seconds": 31
+   "seconds": 34
   },
   {
    "id": "2026-10-24-borussia-dortmund-eintracht-frankfurt",
@@ -707,7 +1043,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
-   "seconds": 54
+   "seconds": 51
   },
   {
    "id": "2026-10-25-atalanta-frosinone",
@@ -777,9 +1113,9 @@
    "kickoff": "2026-10-25T14:00:00+00:00",
    "title": "Liverpool v Brighton: what the market says",
    "source": "numbers",
-   "kicker": "MARKET READ",
+   "kicker": "GOALS WATCH",
    "voiced": false,
-   "seconds": 55
+   "seconds": 58
   },
   {
    "id": "2026-10-25-manchester-united-bournemouth",
@@ -789,9 +1125,9 @@
    "kickoff": "2026-10-25T14:00:00+00:00",
    "title": "Manchester United v Bournemouth: what the market says",
    "source": "numbers",
-   "kicker": "QUIET MARKET",
+   "kicker": "GOALS WATCH",
    "voiced": false,
-   "seconds": 33
+   "seconds": 36
   },
   {
    "id": "2026-10-25-1899-hoffenheim-bayer-leverkusen",
@@ -825,9 +1161,9 @@
    "kickoff": "2026-10-25T15:15:00+00:00",
    "title": "Celta Vigo v Real Betis: what the market says",
    "source": "numbers",
-   "kicker": "QUIET MARKET",
+   "kicker": "GOALS WATCH",
    "voiced": false,
-   "seconds": 33
+   "seconds": 36
   },
   {
    "id": "2026-10-25-estoril-moreirense",
@@ -1125,9 +1461,9 @@
    "kickoff": "2026-10-26T20:00:00+00:00",
    "title": "Sevilla v Osasuna: what the market says",
    "source": "numbers",
-   "kicker": "QUIET MARKET",
+   "kicker": "GOALS WATCH",
    "voiced": false,
-   "seconds": 50
+   "seconds": 53
   },
   {
    "id": "2026-10-27-sassuolo-lazio",
@@ -1196,6 +1532,30 @@
    "league": "Serie A",
    "kickoff": "2026-10-28T17:30:00+00:00",
    "title": "Venezia v Inter: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 44
+  },
+  {
+   "id": "2026-10-28-genoa-juventus",
+   "home": "Genoa",
+   "away": "Juventus",
+   "league": "Serie A",
+   "kickoff": "2026-10-28T19:45:00+00:00",
+   "title": "Genoa v Juventus: what the market says",
+   "source": "numbers",
+   "kicker": "GOALS WATCH",
+   "voiced": false,
+   "seconds": 44
+  },
+  {
+   "id": "2026-10-28-monza-napoli",
+   "home": "Monza",
+   "away": "Napoli",
+   "league": "Serie A",
+   "kickoff": "2026-10-28T19:45:00+00:00",
+   "title": "Monza v Napoli: what the market says",
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,

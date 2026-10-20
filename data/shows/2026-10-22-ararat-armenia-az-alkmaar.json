@@ -1,0 +1,421 @@
+{
+ "id": "2026-10-22-ararat-armenia-az-alkmaar",
+ "title": "Ararat-Armenia v AZ Alkmaar: what the market says",
+ "match": {
+  "home": "Ararat-Armenia",
+  "away": "AZ Alkmaar",
+  "league": "Europa League",
+  "kickoff": "2026-10-22T16:45:00+00:00",
+  "home_short": "ARA",
+  "away_short": "AZ",
+  "home_color": "#4f46e5",
+  "away_color": "#15803d"
+ },
+ "market": {
+  "fair": {
+   "home": 17.1,
+   "draw": 21.1,
+   "away": 61.8
+  },
+  "move": {
+   "home": 0.0,
+   "draw": 0.0,
+   "away": 0.0
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-20T20:44:00+00:00",
+    "v": 61.8
+   }
+  ],
+  "goals": 3.04,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-20T20:44:00+00:00",
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
+ },
+ "scenes": [
+  {
+   "type": "match",
+   "speaker": "narrator",
+   "text": "Ararat-Armenia against AZ Alkmaar. Europa League, Thursday.",
+   "variant": 0,
+   "words": [
+    {
+     "w": "Ararat-Armenia",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "against",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "AZ",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Alkmaar.",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "Europa",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "League,",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "Thursday.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 144
+  },
+  {
+   "type": "split",
+   "speaker": "narrator",
+   "text": "Chance to win, with the bookmaker margin removed: Ararat-Armenia 17%, draw 21%, AZ Alkmaar 62%. AZ Alkmaar are the favourites.",
+   "variant": 0,
+   "words": [
+    {
+     "w": "Chance",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "to",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "win,",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "with",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "the",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "bookmaker",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "margin",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "removed:",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Ararat-Armenia",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "17%,",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "draw",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "21%,",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "AZ",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "Alkmaar",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "62%.",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "AZ",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "Alkmaar",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "are",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "the",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "favourites.",
+     "start": 7.808,
+     "end": 8.192
+    }
+   ],
+   "durationInFrames": 294
+  },
+  {
+   "type": "goals",
+   "speaker": "narrator",
+   "text": "The market expects about 3.0 goals in this match. That is the highest total of the weekend.",
+   "variant": 0,
+   "words": [
+    {
+     "w": "The",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "market",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "expects",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "about",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "3.0",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "goals",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "in",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "this",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "match.",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "That",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "is",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "the",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "highest",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "total",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "of",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "the",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "weekend.",
+     "start": 6.654,
+     "end": 7.038
+    }
+   ],
+   "durationInFrames": 259
+  },
+  {
+   "type": "verdict",
+   "speaker": "gaffer",
+   "bullets": [
+    "AZ Alkmaar favourites at 62%",
+    "AZ Alkmaar +0.0 pts since tracking started",
+    "About 3.0 goals expected"
+   ],
+   "stamp": "THE MARKET",
+   "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "variant": 1,
+   "words": [
+    {
+     "w": "That",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "is",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "market's",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "reading",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "of",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "this",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "match.",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Numbers",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "only,",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "no",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "tips.",
+     "start": 4.731,
+     "end": 5.115
+    }
+   ],
+   "durationInFrames": 201
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "variant": 0,
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Boot",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Room.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Football",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "analysis,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "with",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "receipts.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 171
+  }
+ ],
+ "fps": 30,
+ "silent": true,
+ "style": "pulse",
+ "story": {
+  "format": "goals",
+  "kicker": "GOALS WATCH",
+  "stickers": [
+   "🔥",
+   "🔥",
+   "🔥"
+  ]
+ },
+ "source": "numbers",
+ "fixture_id": 1636215,
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
+}

@@ -46,9 +46,9 @@
    }
   ],
   "goals": 2.61,
-  "goals_rank": 10,
+  "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
@@ -104,7 +104,7 @@
    "type": "split",
    "speaker": "narrator",
    "text": "Chance to win, with the bookmaker margin removed: Celta Vigo 34%, draw 27%, Real Betis 38%. Real Betis are the favourites.",
-   "variant": 1,
+   "variant": 2,
    "words": [
     {
      "w": "Chance",
@@ -217,7 +217,7 @@
   {
    "type": "goals",
    "speaker": "narrator",
-   "text": "The market expects about 2.6 goals in this match.",
+   "text": "The market expects about 2.6 goals in this match. That is the highest total of the weekend.",
    "variant": 0,
    "words": [
     {
@@ -264,9 +264,49 @@
      "w": "match.",
      "start": 3.577,
      "end": 3.962
+    },
+    {
+     "w": "That",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "is",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "the",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "highest",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "total",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "of",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "the",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "weekend.",
+     "start": 6.654,
+     "end": 7.038
     }
    ],
-   "durationInFrames": 167
+   "durationInFrames": 259
   },
   {
    "type": "verdict",
@@ -392,16 +432,16 @@
  "silent": true,
  "style": "pulse",
  "story": {
-  "format": "quiet",
-  "kicker": "QUIET MARKET",
+  "format": "goals",
+  "kicker": "GOALS WATCH",
   "stickers": [
-   "😴",
-   "🧊",
-   "🧊"
+   "🔥",
+   "🎯",
+   "🎯"
   ]
  },
  "source": "numbers",
  "fixture_id": 1570427,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

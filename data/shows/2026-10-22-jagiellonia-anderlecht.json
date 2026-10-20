@@ -1,0 +1,406 @@
+{
+ "id": "2026-10-22-jagiellonia-anderlecht",
+ "title": "Jagiellonia v Anderlecht: what the market says",
+ "match": {
+  "home": "Jagiellonia",
+  "away": "Anderlecht",
+  "league": "Europa League",
+  "kickoff": "2026-10-22T19:00:00+00:00",
+  "home_short": "JAG",
+  "away_short": "AND",
+  "home_color": "#16a34a",
+  "away_color": "#b45309"
+ },
+ "market": {
+  "fair": {
+   "home": 30.7,
+   "draw": 26.5,
+   "away": 42.7
+  },
+  "move": {
+   "home": 0.0,
+   "draw": 0.0,
+   "away": 0.0
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-20T20:44:00+00:00",
+    "v": 42.7
+   }
+  ],
+  "goals": 2.7,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-20T20:44:00+00:00",
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
+ },
+ "scenes": [
+  {
+   "type": "match",
+   "speaker": "narrator",
+   "text": "Jagiellonia against Anderlecht. Europa League, Thursday.",
+   "variant": 0,
+   "words": [
+    {
+     "w": "Jagiellonia",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "against",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Anderlecht.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Europa",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "League,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "Thursday.",
+     "start": 2.423,
+     "end": 2.808
+    }
+   ],
+   "durationInFrames": 132
+  },
+  {
+   "type": "split",
+   "speaker": "narrator",
+   "text": "Chance to win, with the bookmaker margin removed: Jagiellonia 31%, draw 26%, Anderlecht 43%. Anderlecht are the favourites.",
+   "variant": 0,
+   "words": [
+    {
+     "w": "Chance",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "to",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "win,",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "with",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "the",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "bookmaker",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "margin",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "removed:",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Jagiellonia",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "31%,",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "draw",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "26%,",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "Anderlecht",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "43%.",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "Anderlecht",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "are",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "the",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "favourites.",
+     "start": 7.038,
+     "end": 7.423
+    }
+   ],
+   "durationInFrames": 271
+  },
+  {
+   "type": "goals",
+   "speaker": "narrator",
+   "text": "The market expects about 2.7 goals in this match. That is the highest total of the weekend.",
+   "variant": 0,
+   "words": [
+    {
+     "w": "The",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "market",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "expects",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "about",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "2.7",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "goals",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "in",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "this",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "match.",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "That",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "is",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "the",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "highest",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "total",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "of",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "the",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "weekend.",
+     "start": 6.654,
+     "end": 7.038
+    }
+   ],
+   "durationInFrames": 259
+  },
+  {
+   "type": "verdict",
+   "speaker": "gaffer",
+   "bullets": [
+    "Anderlecht favourites at 43%",
+    "Anderlecht +0.0 pts since tracking started",
+    "About 2.7 goals expected"
+   ],
+   "stamp": "THE MARKET",
+   "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "variant": 0,
+   "words": [
+    {
+     "w": "That",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "is",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "market's",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "reading",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "of",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "this",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "match.",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Numbers",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "only,",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "no",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "tips.",
+     "start": 4.731,
+     "end": 5.115
+    }
+   ],
+   "durationInFrames": 201
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "variant": 0,
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Boot",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Room.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Football",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "analysis,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "with",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "receipts.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 171
+  }
+ ],
+ "fps": 30,
+ "silent": true,
+ "style": "pulse",
+ "story": {
+  "format": "goals",
+  "kicker": "GOALS WATCH",
+  "stickers": [
+   "🎯",
+   "🔥",
+   "⚽"
+  ]
+ },
+ "source": "numbers",
+ "fixture_id": 1636273,
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
+}

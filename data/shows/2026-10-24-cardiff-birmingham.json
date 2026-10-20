@@ -13,14 +13,14 @@
  },
  "market": {
   "fair": {
-   "home": 37.2,
-   "draw": 25.7,
-   "away": 37.1
+   "home": 36.2,
+   "draw": 25.4,
+   "away": 38.4
   },
   "move": {
-   "home": -0.3,
-   "draw": 0.0,
-   "away": 0.3
+   "home": -1.3,
+   "draw": -0.3,
+   "away": 1.6
   },
   "side": "away",
   "timeline": [
@@ -35,19 +35,71 @@
    {
     "t": "2026-10-20T07:26:00+00:00",
     "v": 37.1
+   },
+   {
+    "t": "2026-10-20T13:23:00+00:00",
+    "v": 38.4
+   },
+   {
+    "t": "2026-10-20T19:18:00+00:00",
+    "v": 38.4
    }
   ],
   "goals": 2.97,
   "goals_rank": 1,
   "tracked_since": "2026-10-19T22:19:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
+  {
+   "type": "hook",
+   "speaker": "narrator",
+   "text": "The market moved 1.6 points towards Birmingham.",
+   "variant": 2,
+   "words": [
+    {
+     "w": "The",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "market",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "moved",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "1.6",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "points",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "towards",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "Birmingham.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 144
+  },
   {
    "type": "match",
    "speaker": "narrator",
    "text": "Cardiff against Birmingham. Championship, Saturday.",
-   "variant": 1,
+   "variant": 0,
    "words": [
     {
      "w": "Cardiff",
@@ -80,8 +132,8 @@
   {
    "type": "split",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Cardiff 37%, draw 26%, Birmingham 37%. Cardiff are the favourites.",
-   "variant": 2,
+   "text": "Chance to win, with the bookmaker margin removed: Cardiff 36%, draw 25%, Birmingham 38%. Birmingham are the favourites.",
+   "variant": 1,
    "words": [
     {
      "w": "Chance",
@@ -129,7 +181,7 @@
      "end": 3.962
     },
     {
-     "w": "37%,",
+     "w": "36%,",
      "start": 3.962,
      "end": 4.346
     },
@@ -139,7 +191,7 @@
      "end": 4.731
     },
     {
-     "w": "26%,",
+     "w": "25%,",
      "start": 4.731,
      "end": 5.115
     },
@@ -149,12 +201,12 @@
      "end": 5.5
     },
     {
-     "w": "37%.",
+     "w": "38%.",
      "start": 5.5,
      "end": 5.885
     },
     {
-     "w": "Cardiff",
+     "w": "Birmingham",
      "start": 5.885,
      "end": 6.269
     },
@@ -179,7 +231,7 @@
   {
    "type": "line",
    "speaker": "scout",
-   "text": "Since we started tracking, Birmingham went from 36.8% to 37.1%. The price is moving their way.",
+   "text": "Since we started tracking, Birmingham went from 36.8% to 38.4%. The price is moving their way.",
    "variant": 0,
    "words": [
     {
@@ -228,7 +280,7 @@
      "end": 3.962
     },
     {
-     "w": "37.1%.",
+     "w": "38.4%.",
      "start": 3.962,
      "end": 4.346
     },
@@ -264,125 +316,6 @@
     }
    ],
    "durationInFrames": 248
-  },
-  {
-   "type": "noise",
-   "speaker": "sceptic",
-   "text": "But a move this small can be normal price noise. We wait for team news before we read too much into it.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "But",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "a",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "move",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "this",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "small",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "can",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "be",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "normal",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "price",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "noise.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "We",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "wait",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "for",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "team",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "news",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "before",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "we",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "read",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "too",
-     "start": 7.423,
-     "end": 7.808
-    },
-    {
-     "w": "much",
-     "start": 7.808,
-     "end": 8.192
-    },
-    {
-     "w": "into",
-     "start": 8.192,
-     "end": 8.577
-    },
-    {
-     "w": "it.",
-     "start": 8.577,
-     "end": 8.962
-    }
-   ],
-   "durationInFrames": 317
   },
   {
    "type": "goals",
@@ -482,8 +415,8 @@
    "type": "verdict",
    "speaker": "gaffer",
    "bullets": [
-    "Cardiff favourites at 37%",
-    "Birmingham +0.3 pts since tracking started",
+    "Birmingham favourites at 38%",
+    "Birmingham +1.6 pts since tracking started",
     "About 3.0 goals expected"
    ],
    "stamp": "THE MARKET",
@@ -612,6 +545,6 @@
  },
  "source": "numbers",
  "fixture_id": 1563217,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

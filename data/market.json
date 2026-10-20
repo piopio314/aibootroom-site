@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-20T12:35:00+00:00",
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "generated_at": "2026-10-20T20:44:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
-  "matches": 437,
-  "price_changes": 113024,
-  "leagues": 20,
-  "absences": 297,
+  "matches": 466,
+  "price_changes": 132822,
+  "leagues": 23,
+  "absences": 299,
   "tracking_since": "2026-10-18T22:49:00+00:00"
  },
  "featured": {
@@ -83,6 +83,228 @@
   "headline": "Clasico: Barcelona still favoured, handicap eases"
  },
  "weekend": [
+  {
+   "id": 1635684,
+   "slug": "2026-10-21-lille-galatasaray",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T16:45:00+00:00",
+   "home": "Lille",
+   "away": "Galatasaray",
+   "fair": {
+    "home": 43.8,
+    "draw": 25.6,
+    "away": 30.6
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "home": 43.8,
+     "draw": 25.6,
+     "away": 30.6
+    }
+   ],
+   "goals": {
+    "expected": 2.95,
+    "first": 2.95
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1635647,
+   "slug": "2026-10-21-como-manchester-united",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T16:45:00+00:00",
+   "home": "Como",
+   "away": "Manchester United",
+   "fair": {
+    "home": 44.2,
+    "draw": 25.3,
+    "away": 30.5
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "home": 44.2,
+     "draw": 25.3,
+     "away": 30.5
+    }
+   ],
+   "goals": {
+    "expected": 2.95,
+    "first": 2.95
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1635630,
+   "slug": "2026-10-21-bayern-m-nchen-arsenal",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T19:00:00+00:00",
+   "home": "Bayern München",
+   "away": "Arsenal",
+   "fair": {
+    "home": 46.3,
+    "draw": 24.5,
+    "away": 29.2
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "home": 46.3,
+     "draw": 24.5,
+     "away": 29.2
+    }
+   ],
+   "goals": {
+    "expected": 2.93,
+    "first": 2.93
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1635636,
+   "slug": "2026-10-21-real-betis-feyenoord",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T19:00:00+00:00",
+   "home": "Real Betis",
+   "away": "Feyenoord",
+   "fair": {
+    "home": 62.1,
+    "draw": 19.8,
+    "away": 18.1
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "home": 62.1,
+     "draw": 19.8,
+     "away": 18.1
+    }
+   ],
+   "goals": {
+    "expected": 3.47,
+    "first": 3.47
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1635716,
+   "slug": "2026-10-21-real-madrid-rb-leipzig",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T19:00:00+00:00",
+   "home": "Real Madrid",
+   "away": "RB Leipzig",
+   "fair": {
+    "home": 76.7,
+    "draw": 13.3,
+    "away": 10.0
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "home": 76.7,
+     "draw": 13.3,
+     "away": 10.0
+    }
+   ],
+   "goals": {
+    "expected": 4.12,
+    "first": 4.12
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1636379,
+   "slug": "2026-10-22-ajax-atalanta",
+   "league": "Conference League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "home": "Ajax",
+   "away": "Atalanta",
+   "fair": {
+    "home": 43.9,
+    "draw": 25.8,
+    "away": 30.4
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "home": 43.9,
+     "draw": 25.8,
+     "away": 30.4
+    }
+   ],
+   "goals": {
+    "expected": 2.91,
+    "first": 2.91
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
   {
    "id": 1557438,
    "slug": "2026-10-24-aston-villa-manchester-city",
@@ -291,61 +513,6 @@
    "headline": "Chelsea clear favourites, but the move has stalled"
   },
   {
-   "id": 1570432,
-   "slug": "2026-10-24-valencia-villarreal",
-   "league": "La Liga",
-   "kickoff": "2026-10-24T16:30:00+00:00",
-   "home": "Valencia",
-   "away": "Villarreal",
-   "fair": {
-    "home": 30.6,
-    "draw": 26.1,
-    "away": 43.4
-   },
-   "move": {
-    "home": 0.1,
-    "draw": 0.1,
-    "away": -0.2
-   },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
-   "timeline": [
-    {
-     "t": "2026-10-18T22:49:00+00:00",
-     "home": 30.5,
-     "draw": 25.9,
-     "away": 43.6
-    },
-    {
-     "t": "2026-10-19T06:46:00+00:00",
-     "home": 30.5,
-     "draw": 25.9,
-     "away": 43.6
-    },
-    {
-     "t": "2026-10-19T09:31:00+00:00",
-     "home": 30.5,
-     "draw": 25.9,
-     "away": 43.6
-    },
-    {
-     "t": "2026-10-19T18:26:00+00:00",
-     "home": 30.6,
-     "draw": 26.1,
-     "away": 43.4
-    }
-   ],
-   "goals": {
-    "expected": 2.73,
-    "first": 2.75
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null
-  },
-  {
    "id": 1552204,
    "slug": "2026-10-25-psv-eindhoven-feyenoord",
    "league": "Eredivisie",
@@ -386,280 +553,6 @@
    "goals": {
     "expected": 3.76,
     "first": 3.66
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null
-  },
-  {
-   "id": 1557441,
-   "slug": "2026-10-25-crystal-palace-newcastle",
-   "league": "Premier League",
-   "kickoff": "2026-10-25T14:00:00+00:00",
-   "home": "Crystal Palace",
-   "away": "Newcastle",
-   "fair": {
-    "home": 32.7,
-    "draw": 26.6,
-    "away": 40.7
-   },
-   "move": {
-    "home": -3.1,
-    "draw": -0.1,
-    "away": 3.2
-   },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
-   "timeline": [
-    {
-     "t": "2026-10-18T22:49:00+00:00",
-     "home": 35.8,
-     "draw": 26.7,
-     "away": 37.5
-    },
-    {
-     "t": "2026-10-18T23:16:00+00:00",
-     "home": 32.8,
-     "draw": 26.8,
-     "away": 40.4
-    },
-    {
-     "t": "2026-10-19T02:31:00+00:00",
-     "home": 32.8,
-     "draw": 26.8,
-     "away": 40.4
-    },
-    {
-     "t": "2026-10-19T11:20:00+00:00",
-     "home": 32.7,
-     "draw": 26.7,
-     "away": 40.6
-    },
-    {
-     "t": "2026-10-19T17:18:00+00:00",
-     "home": 32.7,
-     "draw": 26.6,
-     "away": 40.7
-    },
-    {
-     "t": "2026-10-20T05:21:00+00:00",
-     "home": 32.7,
-     "draw": 26.6,
-     "away": 40.7
-    }
-   ],
-   "goals": {
-    "expected": 2.93,
-    "first": 2.92
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": "2026-10-25-crystal-palace-newcastle",
-   "headline": "Newcastle repriced to 40.4%; goals markets unmoved"
-  },
-  {
-   "id": 1557444,
-   "slug": "2026-10-25-liverpool-brighton",
-   "league": "Premier League",
-   "kickoff": "2026-10-25T14:00:00+00:00",
-   "home": "Liverpool",
-   "away": "Brighton",
-   "fair": {
-    "home": 44.7,
-    "draw": 24.3,
-    "away": 31.0
-   },
-   "move": {
-    "home": -1.3,
-    "draw": 0.3,
-    "away": 1.0
-   },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
-   "timeline": [
-    {
-     "t": "2026-10-18T22:49:00+00:00",
-     "home": 46.0,
-     "draw": 24.0,
-     "away": 30.0
-    },
-    {
-     "t": "2026-10-19T03:27:00+00:00",
-     "home": 46.0,
-     "draw": 24.0,
-     "away": 30.0
-    },
-    {
-     "t": "2026-10-19T05:22:00+00:00",
-     "home": 45.2,
-     "draw": 24.4,
-     "away": 30.4
-    },
-    {
-     "t": "2026-10-19T06:46:00+00:00",
-     "home": 44.5,
-     "draw": 24.3,
-     "away": 31.1
-    },
-    {
-     "t": "2026-10-19T11:20:00+00:00",
-     "home": 44.5,
-     "draw": 24.3,
-     "away": 31.1
-    },
-    {
-     "t": "2026-10-19T14:23:00+00:00",
-     "home": 44.5,
-     "draw": 24.3,
-     "away": 31.1
-    },
-    {
-     "t": "2026-10-19T17:18:00+00:00",
-     "home": 44.7,
-     "draw": 24.3,
-     "away": 31.0
-    },
-    {
-     "t": "2026-10-20T05:21:00+00:00",
-     "home": 44.7,
-     "draw": 24.3,
-     "away": 31.0
-    }
-   ],
-   "goals": {
-    "expected": 2.96,
-    "first": 2.97
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null
-  },
-  {
-   "id": 1557445,
-   "slug": "2026-10-25-manchester-united-bournemouth",
-   "league": "Premier League",
-   "kickoff": "2026-10-25T14:00:00+00:00",
-   "home": "Manchester United",
-   "away": "Bournemouth",
-   "fair": {
-    "home": 51.3,
-    "draw": 24.7,
-    "away": 24.0
-   },
-   "move": {
-    "home": -0.1,
-    "draw": 0.1,
-    "away": -0.0
-   },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
-   "timeline": [
-    {
-     "t": "2026-10-18T22:49:00+00:00",
-     "home": 51.4,
-     "draw": 24.6,
-     "away": 24.1
-    },
-    {
-     "t": "2026-10-19T03:27:00+00:00",
-     "home": 51.4,
-     "draw": 24.6,
-     "away": 24.0
-    },
-    {
-     "t": "2026-10-19T11:20:00+00:00",
-     "home": 51.4,
-     "draw": 24.6,
-     "away": 24.0
-    },
-    {
-     "t": "2026-10-19T14:23:00+00:00",
-     "home": 51.4,
-     "draw": 24.6,
-     "away": 24.0
-    },
-    {
-     "t": "2026-10-19T17:18:00+00:00",
-     "home": 51.3,
-     "draw": 24.7,
-     "away": 24.0
-    },
-    {
-     "t": "2026-10-20T05:21:00+00:00",
-     "home": 51.3,
-     "draw": 24.7,
-     "away": 24.0
-    }
-   ],
-   "goals": {
-    "expected": 2.95,
-    "first": 2.97
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null
-  },
-  {
-   "id": 1570427,
-   "slug": "2026-10-25-celta-vigo-real-betis",
-   "league": "La Liga",
-   "kickoff": "2026-10-25T15:15:00+00:00",
-   "home": "Celta Vigo",
-   "away": "Real Betis",
-   "fair": {
-    "home": 34.5,
-    "draw": 27.1,
-    "away": 38.4
-   },
-   "move": {
-    "home": -0.1,
-    "draw": -0.0,
-    "away": 0.1
-   },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
-   "timeline": [
-    {
-     "t": "2026-10-18T22:49:00+00:00",
-     "home": 34.5,
-     "draw": 27.1,
-     "away": 38.4
-    },
-    {
-     "t": "2026-10-19T10:22:00+00:00",
-     "home": 34.5,
-     "draw": 27.1,
-     "away": 38.4
-    },
-    {
-     "t": "2026-10-19T16:24:00+00:00",
-     "home": 34.5,
-     "draw": 27.1,
-     "away": 38.4
-    },
-    {
-     "t": "2026-10-19T19:17:00+00:00",
-     "home": 34.5,
-     "draw": 27.1,
-     "away": 38.4
-    },
-    {
-     "t": "2026-10-20T04:23:00+00:00",
-     "home": 34.5,
-     "draw": 27.1,
-     "away": 38.4
-    }
-   ],
-   "goals": {
-    "expected": 2.61,
-    "first": 2.61
    },
    "absences": {
     "home": 0,
@@ -765,105 +658,9 @@
    },
    "read": null,
    "headline": null
-  },
-  {
-   "id": 1570431,
-   "slug": "2026-10-26-sevilla-osasuna",
-   "league": "La Liga",
-   "kickoff": "2026-10-26T20:00:00+00:00",
-   "home": "Sevilla",
-   "away": "Osasuna",
-   "fair": {
-    "home": 49.3,
-    "draw": 27.4,
-    "away": 23.3
-   },
-   "move": {
-    "home": 0.5,
-    "draw": -0.5,
-    "away": 0.0
-   },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
-   "timeline": [
-    {
-     "t": "2026-10-18T22:49:00+00:00",
-     "home": 48.8,
-     "draw": 27.9,
-     "away": 23.3
-    },
-    {
-     "t": "2026-10-19T03:27:00+00:00",
-     "home": 49.1,
-     "draw": 27.6,
-     "away": 23.3
-    },
-    {
-     "t": "2026-10-19T09:31:00+00:00",
-     "home": 49.1,
-     "draw": 27.6,
-     "away": 23.3
-    },
-    {
-     "t": "2026-10-19T15:21:00+00:00",
-     "home": 49.0,
-     "draw": 27.7,
-     "away": 23.3
-    },
-    {
-     "t": "2026-10-19T18:26:00+00:00",
-     "home": 49.3,
-     "draw": 27.4,
-     "away": 23.3
-    },
-    {
-     "t": "2026-10-20T04:23:00+00:00",
-     "home": 49.3,
-     "draw": 27.4,
-     "away": 23.3
-    }
-   ],
-   "goals": {
-    "expected": 2.33,
-    "first": 2.26
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null
   }
  ],
  "movers": [
-  {
-   "id": 1564367,
-   "slug": "2026-10-20-afc-wimbledon-mansfield-town",
-   "league": "League One",
-   "kickoff": "2026-10-20T18:45:00+00:00",
-   "home": "AFC Wimbledon",
-   "away": "Mansfield Town",
-   "fair": {
-    "home": 28.0,
-    "draw": 26.6,
-    "away": 45.3
-   },
-   "move": {
-    "home": -4.7,
-    "draw": -1.5,
-    "away": 6.2
-   },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
-   "goals": {
-    "expected": 2.63,
-    "first": 2.61
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null
-  },
   {
    "id": 1593339,
    "slug": "2026-10-25-aris-thessalonikis-atromitos",
@@ -885,64 +682,6 @@
    "goals": {
     "expected": 2.4,
     "first": 2.31
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null
-  },
-  {
-   "id": 1564370,
-   "slug": "2026-10-20-burton-albion-bradford",
-   "league": "League One",
-   "kickoff": "2026-10-20T18:45:00+00:00",
-   "home": "Burton Albion",
-   "away": "Bradford",
-   "fair": {
-    "home": 20.8,
-    "draw": 27.0,
-    "away": 52.2
-   },
-   "move": {
-    "home": -5.3,
-    "draw": -0.8,
-    "away": 6.0
-   },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
-   "goals": {
-    "expected": 2.48,
-    "first": 2.38
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null
-  },
-  {
-   "id": 1564372,
-   "slug": "2026-10-20-doncaster-stockport-county",
-   "league": "League One",
-   "kickoff": "2026-10-20T18:45:00+00:00",
-   "home": "Doncaster",
-   "away": "Stockport County",
-   "fair": {
-    "home": 21.4,
-    "draw": 22.5,
-    "away": 56.1
-   },
-   "move": {
-    "home": -4.8,
-    "draw": -1.1,
-    "away": 5.9
-   },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
-   "goals": {
-    "expected": 2.78,
-    "first": 2.83
    },
    "absences": {
     "home": 0,
@@ -1059,6 +798,93 @@
    "goals": {
     "expected": 3.23,
     "first": 3.14
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1575525,
+   "slug": "2026-10-25-sporting-cp-academico-viseu",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-25T20:30:00+00:00",
+   "home": "Sporting CP",
+   "away": "Academico Viseu",
+   "fair": {
+    "home": 75.8,
+    "draw": 15.4,
+    "away": 8.7
+   },
+   "move": {
+    "home": -4.4,
+    "draw": 2.1,
+    "away": 2.4
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 3.24,
+    "first": 3.32
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1575523,
+   "slug": "2026-10-25-rio-ave-famalicao",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-25T18:00:00+00:00",
+   "home": "Rio Ave",
+   "away": "Famalicao",
+   "fair": {
+    "home": 25.1,
+    "draw": 28.5,
+    "away": 46.4
+   },
+   "move": {
+    "home": 2.3,
+    "draw": 1.5,
+    "away": -3.6
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.32,
+    "first": 2.45
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1552506,
+   "slug": "2026-10-24-dijon-rodez",
+   "league": "Ligue 2",
+   "kickoff": "2026-10-24T12:00:00+00:00",
+   "home": "Dijon",
+   "away": "Rodez",
+   "fair": {
+    "home": 47.3,
+    "draw": 24.3,
+    "away": 28.3
+   },
+   "move": {
+    "home": 3.5,
+    "draw": -0.4,
+    "away": -2.9
+   },
+   "tracked_since": "2026-10-19T13:25:00+00:00",
+   "goals": {
+    "expected": 2.96,
+    "first": 2.95
    },
    "absences": {
     "home": 0,

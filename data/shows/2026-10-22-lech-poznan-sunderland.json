@@ -1,107 +1,89 @@
 {
- "id": "2026-10-20-wolves-portsmouth",
- "title": "Wolves v Portsmouth: what the market says",
+ "id": "2026-10-22-lech-poznan-sunderland",
+ "title": "Lech Poznan v Sunderland: what the market says",
  "match": {
-  "home": "Wolves",
-  "away": "Portsmouth",
-  "league": "Championship",
-  "kickoff": "2026-10-20T18:45:00+00:00",
-  "home_short": "WOL",
-  "away_short": "POR",
-  "home_color": "#9333ea",
-  "away_color": "#15803d"
+  "home": "Lech Poznan",
+  "away": "Sunderland",
+  "league": "Europa League",
+  "kickoff": "2026-10-22T16:45:00+00:00",
+  "home_short": "LEC",
+  "away_short": "SUN",
+  "home_color": "#be123c",
+  "away_color": "#dc2626"
  },
  "market": {
   "fair": {
-   "home": 59.9,
-   "draw": 22.8,
-   "away": 17.3
+   "home": 20.4,
+   "draw": 23.1,
+   "away": 56.5
   },
   "move": {
-   "home": -0.0,
-   "draw": 0.3,
-   "away": -0.3
+   "home": 0.0,
+   "draw": 0.0,
+   "away": 0.0
   },
-  "side": "home",
+  "side": "away",
   "timeline": [
    {
-    "t": "2026-10-18T22:49:00+00:00",
-    "v": 60.0
-   },
-   {
-    "t": "2026-10-19T00:55:00+00:00",
-    "v": 60.0
-   },
-   {
-    "t": "2026-10-19T10:22:00+00:00",
-    "v": 59.1
-   },
-   {
-    "t": "2026-10-19T19:17:00+00:00",
-    "v": 59.1
-   },
-   {
-    "t": "2026-10-19T22:19:00+00:00",
-    "v": 59.2
-   },
-   {
-    "t": "2026-10-20T00:51:00+00:00",
-    "v": 59.5
-   },
-   {
-    "t": "2026-10-20T07:26:00+00:00",
-    "v": 59.9
-   },
-   {
-    "t": "2026-10-20T10:19:00+00:00",
-    "v": 59.9
+    "t": "2026-10-20T20:44:00+00:00",
+    "v": 56.5
    }
   ],
-  "goals": 2.63,
+  "goals": 2.61,
   "goals_rank": 1,
-  "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "tracked_since": "2026-10-20T20:44:00+00:00",
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
    "type": "match",
    "speaker": "narrator",
-   "text": "Wolves against Portsmouth. Championship, Tuesday.",
-   "variant": 0,
+   "text": "Lech Poznan against Sunderland. Europa League, Thursday.",
+   "variant": 1,
    "words": [
     {
-     "w": "Wolves",
+     "w": "Lech",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "against",
+     "w": "Poznan",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "Portsmouth.",
+     "w": "against",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "Championship,",
+     "w": "Sunderland.",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "Tuesday.",
+     "w": "Europa",
      "start": 2.038,
      "end": 2.423
+    },
+    {
+     "w": "League,",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "Thursday.",
+     "start": 2.808,
+     "end": 3.192
     }
    ],
-   "durationInFrames": 121
+   "durationInFrames": 144
   },
   {
    "type": "split",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Wolves 60%, draw 23%, Portsmouth 17%. Wolves are the favourites.",
-   "variant": 1,
+   "text": "Chance to win, with the bookmaker margin removed: Lech Poznan 20%, draw 23%, Sunderland 56%. Sunderland are the favourites.",
+   "variant": 0,
    "words": [
     {
      "w": "Chance",
@@ -144,248 +126,68 @@
      "end": 3.577
     },
     {
-     "w": "Wolves",
+     "w": "Lech",
      "start": 3.577,
      "end": 3.962
     },
     {
-     "w": "60%,",
+     "w": "Poznan",
      "start": 3.962,
      "end": 4.346
+    },
+    {
+     "w": "20%,",
+     "start": 4.346,
+     "end": 4.731
     },
     {
      "w": "draw",
-     "start": 4.346,
-     "end": 4.731
+     "start": 4.731,
+     "end": 5.115
     },
     {
      "w": "23%,",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "Portsmouth",
      "start": 5.115,
      "end": 5.5
     },
     {
-     "w": "17%.",
+     "w": "Sunderland",
      "start": 5.5,
      "end": 5.885
     },
     {
-     "w": "Wolves",
+     "w": "56%.",
      "start": 5.885,
      "end": 6.269
     },
     {
-     "w": "are",
+     "w": "Sunderland",
      "start": 6.269,
      "end": 6.654
     },
     {
-     "w": "the",
+     "w": "are",
      "start": 6.654,
      "end": 7.038
+    },
+    {
+     "w": "the",
+     "start": 7.038,
+     "end": 7.423
     },
     {
      "w": "favourites.",
-     "start": 7.038,
-     "end": 7.423
-    }
-   ],
-   "durationInFrames": 271
-  },
-  {
-   "type": "injury",
-   "speaker": "sceptic",
-   "injuries": {
-    "home": [
-     {
-      "player": "B. Traore",
-      "status": "Missing Fixture",
-      "reason": "Injury"
-     },
-     {
-      "player": "R. Jimenez",
-      "status": "Missing Fixture",
-      "reason": "Knee Injury"
-     },
-     {
-      "player": "A. Armstrong",
-      "status": "Missing Fixture",
-      "reason": "Back Injury"
-     },
-     {
-      "player": "B. Traore",
-      "status": "Missing Fixture",
-      "reason": "Injury"
-     },
-     {
-      "player": "R. Gomes",
-      "status": "Missing Fixture",
-      "reason": "Foot Injury"
-     }
-    ],
-    "away": [
-     {
-      "player": "K. Anderson",
-      "status": "Questionable",
-      "reason": "Overload"
-     },
-     {
-      "player": "J. Murphy",
-      "status": "Missing Fixture",
-      "reason": "Groin Injury"
-     },
-     {
-      "player": "C. Ogilvie",
-      "status": "Missing Fixture",
-      "reason": "Knee Injury"
-     },
-     {
-      "player": "C. Shaughnessy",
-      "status": "Questionable",
-      "reason": "Injury"
-     },
-     {
-      "player": "M. Kosznovszky",
-      "status": "Missing Fixture",
-      "reason": "Knee Injury"
-     },
-     {
-      "player": "F. Umeh",
-      "status": "Missing Fixture",
-      "reason": "Hamstring Injury"
-     },
-     {
-      "player": "T. Waddingham",
-      "status": "Missing Fixture",
-      "reason": "Ankle Injury"
-     },
-     {
-      "player": "B. Arthur",
-      "status": "Missing Fixture",
-      "reason": "Back Injury"
-     },
-     {
-      "player": "L. Brooke-Smith",
-      "status": "Missing Fixture",
-      "reason": "Ankle Injury"
-     }
-    ]
-   },
-   "text": "Team news: 5 players out or doubtful for Wolves, 9 for Portsmouth. Known absences are usually already in the price.",
-   "variant": 0,
-   "words": [
-    {
-     "w": "Team",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "news:",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "5",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "players",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "out",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "or",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "doubtful",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "for",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "Wolves,",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "9",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "for",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "Portsmouth.",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "Known",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "absences",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "are",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "usually",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "already",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "in",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "the",
      "start": 7.423,
      "end": 7.808
-    },
-    {
-     "w": "price.",
-     "start": 7.808,
-     "end": 8.192
     }
    ],
-   "durationInFrames": 294
+   "durationInFrames": 282
   },
   {
    "type": "goals",
    "speaker": "narrator",
    "text": "The market expects about 2.6 goals in this match. That is the highest total of the weekend.",
-   "variant": 0,
+   "variant": 1,
    "words": [
     {
      "w": "The",
@@ -479,13 +281,13 @@
    "type": "verdict",
    "speaker": "gaffer",
    "bullets": [
-    "Wolves favourites at 60%",
-    "Wolves +0.0 pts since tracking started",
+    "Sunderland favourites at 56%",
+    "Sunderland +0.0 pts since tracking started",
     "About 2.6 goals expected"
    ],
    "stamp": "THE MARKET",
    "text": "That is the market's reading of this match. Numbers only, no tips.",
-   "variant": 0,
+   "variant": 1,
    "words": [
     {
      "w": "That",
@@ -602,13 +404,13 @@
   "format": "goals",
   "kicker": "GOALS WATCH",
   "stickers": [
-   "🔥",
    "⚽",
-   "🔥"
+   "🎯",
+   "⚽"
   ]
  },
  "source": "numbers",
- "fixture_id": 1563150,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "fixture_id": 1636280,
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

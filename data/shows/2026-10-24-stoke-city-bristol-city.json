@@ -14,25 +14,33 @@
  "market": {
   "fair": {
    "home": 41.1,
-   "draw": 28.1,
-   "away": 30.8
+   "draw": 28.0,
+   "away": 30.9
   },
   "move": {
-   "home": 0.0,
-   "draw": 0.0,
-   "away": 0.0
+   "home": -0.0,
+   "draw": -0.1,
+   "away": 0.2
   },
   "side": "away",
   "timeline": [
    {
     "t": "2026-10-19T22:19:00+00:00",
     "v": 30.8
+   },
+   {
+    "t": "2026-10-20T15:21:00+00:00",
+    "v": 31.0
+   },
+   {
+    "t": "2026-10-20T18:25:00+00:00",
+    "v": 30.9
    }
   ],
-  "goals": 2.47,
+  "goals": 2.48,
   "goals_rank": 1,
   "tracked_since": "2026-10-19T22:19:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
@@ -292,7 +300,7 @@
    "speaker": "gaffer",
    "bullets": [
     "Stoke City favourites at 41%",
-    "Bristol City +0.0 pts since tracking started",
+    "Bristol City +0.2 pts since tracking started",
     "About 2.5 goals expected"
    ],
    "stamp": "THE MARKET",
@@ -421,6 +429,6 @@
  },
  "source": "numbers",
  "fixture_id": 1563224,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }
