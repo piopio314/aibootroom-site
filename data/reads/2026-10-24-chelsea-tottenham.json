@@ -1,0 +1,95 @@
+{
+ "slug": "2026-10-24-chelsea-tottenham",
+ "league": "Premier League",
+ "home": "Chelsea",
+ "away": "Tottenham",
+ "kickoff": "2026-10-24T16:30:00+00:00",
+ "generated_at": "2026-10-20T12:05:56+00:00",
+ "headline": "Chelsea clear favourites, but the move has stalled",
+ "summary": "Chelsea are the market's clear favourite at 54.9% fair, with the draw at 22.7% and Tottenham at 22.5%. The fair Asian handicap line sits at -0.73, after a 2.5 percentage point shift to the home side and a tenth-goal line move. All of it landed inside one snapshot 27 minutes after our feed came online, and it has held flat for the last 24 hours, so it reads as a level rather than a trend. Goals look settled: Over 3.0 is 51.2% at the sharp market with a fair total of 3.05, and both teams to score holds at 60.6% consensus. Zero injury reports in our feed is an empty feed, not a clean bill of health.",
+ "voices": {
+  "scout": "The sharp market went from fifty-two and a half to fifty-four point nine per cent on Chelsea, and pushed the handicap a tenth of a goal toward them, to minus zero point seven three. Four books moved together. That's the shape of an informed move.",
+  "sceptic": "Or it's a screenshot. Four books carrying the identical timestamp, twenty-seven minutes after we started collecting, is just as easily books reopening overnight or our first capture settling. And we have seven snapshots of history. That's a level, not a trend.",
+  "gaffer": "The market told us Chelsea are three-quarters of a goal better, and it has gone flat for a day. Until it says it again, we watch."
+ },
+ "video_title": "Chelsea 54.9%: One Snapshot, Two Flat Days",
+ "key_points": [
+  "Chelsea 54.9% fair, AH fair line -0.73 after one 2.5 pp snapshot",
+  "Flat for 24 hours over just 35.5 hours and 7 snapshots of history",
+  "Goals settled: Over 3.0 at 51.2%, BTTS Yes 60.6% unchanged"
+ ],
+ "market": {
+  "id": 1557439,
+  "slug": "2026-10-24-chelsea-tottenham",
+  "league": "Premier League",
+  "kickoff": "2026-10-24T16:30:00+00:00",
+  "home": "Chelsea",
+  "away": "Tottenham",
+  "fair": {
+   "home": 54.9,
+   "draw": 22.7,
+   "away": 22.5
+  },
+  "move": {
+   "home": 2.4,
+   "draw": -0.7,
+   "away": -1.7
+  },
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "home": 52.5,
+    "draw": 23.3,
+    "away": 24.2
+   },
+   {
+    "t": "2026-10-18T23:16:00+00:00",
+    "home": 54.9,
+    "draw": 22.6,
+    "away": 22.5
+   },
+   {
+    "t": "2026-10-19T02:31:00+00:00",
+    "home": 54.9,
+    "draw": 22.6,
+    "away": 22.5
+   },
+   {
+    "t": "2026-10-19T05:22:00+00:00",
+    "home": 54.9,
+    "draw": 22.6,
+    "away": 22.5
+   },
+   {
+    "t": "2026-10-19T11:20:00+00:00",
+    "home": 55.1,
+    "draw": 22.5,
+    "away": 22.4
+   },
+   {
+    "t": "2026-10-19T14:23:00+00:00",
+    "home": 55.1,
+    "draw": 22.5,
+    "away": 22.4
+   },
+   {
+    "t": "2026-10-19T17:18:00+00:00",
+    "home": 54.9,
+    "draw": 22.7,
+    "away": 22.5
+   }
+  ],
+  "goals": {
+   "expected": 3.05,
+   "first": 3.03
+  },
+  "absences": {
+   "home": 0,
+   "away": 0
+  },
+  "read": "2026-10-24-chelsea-tottenham",
+  "headline": "Chelsea clear favourites, but the move has stalled"
+ },
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
+}

@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-20T11:34:00+00:00",
- "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "generated_at": "2026-10-20T12:35:00+00:00",
+ "prices_as_of": "2026-10-20T12:31:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
   "matches": 437,
-  "price_changes": 111259,
+  "price_changes": 113024,
   "leagues": 20,
   "absences": 297,
   "tracking_since": "2026-10-18T22:49:00+00:00"
@@ -287,8 +287,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null
+   "read": "2026-10-24-chelsea-tottenham",
+   "headline": "Chelsea clear favourites, but the move has stalled"
   },
   {
    "id": 1570432,
@@ -845,16 +845,16 @@
    "fair": {
     "home": 28.0,
     "draw": 26.6,
-    "away": 45.4
+    "away": 45.3
    },
    "move": {
-    "home": -4.6,
-    "draw": -1.6,
+    "home": -4.7,
+    "draw": -1.5,
     "away": 6.2
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.65,
+    "expected": 2.63,
     "first": 2.61
    },
    "absences": {
@@ -885,6 +885,64 @@
    "goals": {
     "expected": 2.4,
     "first": 2.31
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1564370,
+   "slug": "2026-10-20-burton-albion-bradford",
+   "league": "League One",
+   "kickoff": "2026-10-20T18:45:00+00:00",
+   "home": "Burton Albion",
+   "away": "Bradford",
+   "fair": {
+    "home": 20.8,
+    "draw": 27.0,
+    "away": 52.2
+   },
+   "move": {
+    "home": -5.3,
+    "draw": -0.8,
+    "away": 6.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.48,
+    "first": 2.38
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1564372,
+   "slug": "2026-10-20-doncaster-stockport-county",
+   "league": "League One",
+   "kickoff": "2026-10-20T18:45:00+00:00",
+   "home": "Doncaster",
+   "away": "Stockport County",
+   "fair": {
+    "home": 21.4,
+    "draw": 22.5,
+    "away": 56.1
+   },
+   "move": {
+    "home": -4.8,
+    "draw": -1.1,
+    "away": 5.9
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.78,
+    "first": 2.83
    },
    "absences": {
     "home": 0,
@@ -1008,64 +1066,6 @@
    },
    "read": null,
    "headline": null
-  },
-  {
-   "id": 1575525,
-   "slug": "2026-10-25-sporting-cp-academico-viseu",
-   "league": "Primeira Liga",
-   "kickoff": "2026-10-25T20:30:00+00:00",
-   "home": "Sporting CP",
-   "away": "Academico Viseu",
-   "fair": {
-    "home": 75.8,
-    "draw": 15.4,
-    "away": 8.7
-   },
-   "move": {
-    "home": -4.4,
-    "draw": 2.1,
-    "away": 2.4
-   },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
-   "goals": {
-    "expected": 3.24,
-    "first": 3.32
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null
-  },
-  {
-   "id": 1563821,
-   "slug": "2026-10-20-gillingham-port-vale",
-   "league": "League Two",
-   "kickoff": "2026-10-20T19:00:00+00:00",
-   "home": "Gillingham",
-   "away": "Port Vale",
-   "fair": {
-    "home": 29.3,
-    "draw": 28.5,
-    "away": 42.2
-   },
-   "move": {
-    "home": -3.6,
-    "draw": 0.4,
-    "away": 3.2
-   },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
-   "goals": {
-    "expected": 2.25,
-    "first": 2.38
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null
   }
  ],
  "reads": [
@@ -1083,6 +1083,21 @@
     "gaffer": "So here's the reading. City are a solid fifty-six per cent favourite, the line's settled at plus three-quarters, and the one-two-X moves are all under one point — noise. The Over three flicker is a single-book nudge below the notable line, not a settled lean. Thin sample, six books, no fitness news. The market's told us its shape."
    },
    "video_title": "City 55.7% — but the goal line is thin"
+  },
+  {
+   "slug": "2026-10-24-chelsea-tottenham",
+   "league": "Premier League",
+   "home": "Chelsea",
+   "away": "Tottenham",
+   "kickoff": "2026-10-24T16:30:00+00:00",
+   "headline": "Chelsea clear favourites, but the move has stalled",
+   "summary": "Chelsea are the market's clear favourite at 54.9% fair, with the draw at 22.7% and Tottenham at 22.5%. The fair Asian handicap line sits at -0.73, after a 2.5 percentage point shift to the home side and a tenth-goal line move. All of it landed inside one snapshot 27 minutes after our feed came online, and it has held flat for the last 24 hours, so it reads as a level rather than a trend. Goals look settled: Over 3.0 is 51.2% at the sharp market with a fair total of 3.05, and both teams to score holds at 60.6% consensus. Zero injury reports in our feed is an empty feed, not a clean bill of health.",
+   "voices": {
+    "scout": "The sharp market went from fifty-two and a half to fifty-four point nine per cent on Chelsea, and pushed the handicap a tenth of a goal toward them, to minus zero point seven three. Four books moved together. That's the shape of an informed move.",
+    "sceptic": "Or it's a screenshot. Four books carrying the identical timestamp, twenty-seven minutes after we started collecting, is just as easily books reopening overnight or our first capture settling. And we have seven snapshots of history. That's a level, not a trend.",
+    "gaffer": "The market told us Chelsea are three-quarters of a goal better, and it has gone flat for a day. Until it says it again, we watch."
+   },
+   "video_title": "Chelsea 54.9%: One Snapshot, Two Flat Days"
   },
   {
    "slug": "2026-10-25-barcelona-real-madrid",
@@ -1173,21 +1188,6 @@
     "gaffer": "So the reading is this. The goals lean is one sharp book, not a consensus."
    },
    "video_title": "Bologna priced ahead, but the market barely moves"
-  },
-  {
-   "slug": "2026-10-25-ofi-paok",
-   "league": "Super League Greece",
-   "home": "OFI",
-   "away": "PAOK",
-   "kickoff": "2026-10-25T18:00:00+00:00",
-   "headline": "PAOK favoured at 56%, goals market repriced before kick-off",
-   "summary": "The market has PAOK at 56.0% fair to win, the draw at 24.1% and OFI at 19.9%, with the handicap fair line at 0.77 goals in PAOK's favour. The goals market made one big single-step move at 04:26: Over 2.75 consensus rose from 40.3% to 48.1% and the fair total from 2.36 to 2.67, driven by two soft books, while BTTS Yes climbed to 54.2%. With only 6.5 hours of history, two snapshots and no sharp opening print, that step could be a line correction rather than informed money.",
-   "voices": {
-    "scout": "That's the loudest move on the board, and it all landed at four twenty-six in the morning. Both teams to score went up to fifty-four per cent, the handicap fair line drifted toward PAOK from nought point six three to nought point seven seven. Someone decided this game got more open.",
-    "sceptic": "Two snapshots. Six and a half hours. And the sharp market never printed a single price at the first snapshot, so there's no sharp reference to measure against. That four twenty-six step came from two soft books — it's at least as likely a book-level correction as informed money. Show me a third print.",
-    "gaffer": "So the reading is PAOK favoured, the game priced more open, and the evidence for that second part is one refresh from two books. A correction story, not a verdict — I want a third print before anyone hangs their hat on this total."
-   },
-   "video_title": "PAOK favoured, but the goals move needs a third print"
   }
  ]
 }
