@@ -51,6 +51,7 @@
    "type": "match",
    "speaker": "narrator",
    "text": "Thirty-eight per cent Bologna, twenty-nine per cent Cagliari, and in fourteen and a half hours nobody has moved a thing. The only nudge is in the goals — and it's small.",
+   "variant": 1,
    "words": [
     {
      "w": "Thirty-eight",
@@ -214,6 +215,7 @@
    "type": "goals",
    "speaker": "scout",
    "text": "The sharp book trimmed Over 2.25 from fifty point six to forty-nine per cent, fair total down from two point two seven to two point two two.",
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -357,6 +359,7 @@
    "type": "noise",
    "speaker": "sceptic",
    "text": "Two things. The handicap fair line is home plus zero point one five — under a quarter goal, not a full one — and the consensus Over moved three tenths of a point, not one point seven. That's one book adjusting its book, not a low-goals story.",
+   "variant": 1,
    "words": [
     {
      "w": "Two",
@@ -612,6 +615,7 @@
     "away": [],
     "away_move": null
    },
+   "variant": 1,
    "words": [
     {
      "w": "Fair",
@@ -775,6 +779,7 @@
    "type": "goals",
    "speaker": "sceptic",
    "text": "Barely blinked is right — Cagliari's win price moved two tenths of a point. And we can't say when that injury became public. Four snapshots, fourteen and a half hours, five books on the goals. That's a thin sample.",
+   "variant": 0,
    "words": [
     {
      "w": "Barely",
@@ -983,6 +988,7 @@
     "Handicap fair line home +0.15, under a quarter goal to Bologna, unmoved"
    ],
    "stamp": "MEDIUM CONFIDENCE",
+   "variant": 0,
    "words": [
     {
      "w": "So",
@@ -1066,6 +1072,7 @@
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "variant": 0,
    "words": [
     {
      "w": "AI",
@@ -1108,8 +1115,18 @@
  ],
  "fps": 30,
  "silent": true,
+ "style": "pulse",
+ "story": {
+  "format": "goals",
+  "kicker": "GOALS WATCH",
+  "stickers": [
+   "⚽",
+   "⚽",
+   "🎯"
+  ]
+ },
  "source": "market_desk",
  "fixture_id": 1550158,
- "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "prices_as_of": "2026-10-20T12:31:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

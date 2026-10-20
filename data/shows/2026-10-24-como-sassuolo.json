@@ -48,13 +48,14 @@
   "goals": 3.25,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T10:19:00+00:00"
+  "prices_as_of": "2026-10-20T12:31:00+00:00"
  },
  "scenes": [
   {
    "type": "match",
    "speaker": "narrator",
    "text": "Como against Sassuolo. Serie A, Saturday.",
+   "variant": 1,
    "words": [
     {
      "w": "Como",
@@ -93,6 +94,7 @@
    "type": "split",
    "speaker": "narrator",
    "text": "Chance to win, with the bookmaker margin removed: Como 65%, draw 21%, Sassuolo 14%. Como are the favourites.",
+   "variant": 2,
    "words": [
     {
      "w": "Chance",
@@ -191,6 +193,7 @@
    "type": "line",
    "speaker": "scout",
    "text": "Since we started tracking, Sassuolo went from 13.2% to 14.0%. The price is moving their way.",
+   "variant": 1,
    "words": [
     {
      "w": "Since",
@@ -279,6 +282,7 @@
    "type": "noise",
    "speaker": "sceptic",
    "text": "But a move this small can be normal price noise. We wait for team news before we read too much into it.",
+   "variant": 1,
    "words": [
     {
      "w": "But",
@@ -427,6 +431,7 @@
     ]
    },
    "text": "Team news: 0 players out or doubtful for Como, 5 for Sassuolo. Known absences are usually already in the price.",
+   "variant": 1,
    "words": [
     {
      "w": "Team",
@@ -535,6 +540,7 @@
    "type": "goals",
    "speaker": "narrator",
    "text": "The market expects about 3.2 goals in this match. That is the highest total of the weekend.",
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -634,6 +640,7 @@
    ],
    "stamp": "THE MARKET",
    "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "variant": 1,
    "words": [
     {
      "w": "That",
@@ -702,6 +709,7 @@
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "variant": 0,
    "words": [
     {
      "w": "AI",
@@ -744,8 +752,18 @@
  ],
  "fps": 30,
  "silent": true,
+ "style": "pulse",
+ "story": {
+  "format": "goals",
+  "kicker": "GOALS WATCH",
+  "stickers": [
+   "⚽",
+   "🎯",
+   "⚽"
+  ]
+ },
  "source": "numbers",
  "fixture_id": 1550159,
- "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "prices_as_of": "2026-10-20T12:31:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

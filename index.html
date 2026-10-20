@@ -177,16 +177,30 @@
     .map(([n, l]) => `<div><div class="n disp">${E(n)}</div><div class="l">${E(l)}</div></div>`).join('');
   document.getElementById('updated').textContent = `Prices updated ${ABR.ago(M.prices_as_of)}`;
 
+  // ── watch: every match with a show (all 10 big leagues) gets a play button; a YouTube short replaces the show once uploaded
+  let SHOWS = {}, YT = {};
+  try { (await ABR.json('data/shows/index.json')).shows.forEach(x => SHOWS[x.id] = x); } catch (e) {}
+  try { (await ABR.json('data/videos.json')).videos.forEach(x => { if (x.youtube_id) YT[x.id] = x.youtube_id; }); } catch (e) {}
+  const playable = m => m && m.slug && SHOWS[m.slug];
+  const playBtn = (m, label) => playable(m) ? `<button class="mplay" data-play="${E(m.slug)}">▶ ${label || 'Watch · 1 min'}${YT[m.slug] ? ' <small>YouTube</small>' : SHOWS[m.slug].source === 'market_desk' ? ' <small>AI pundits</small>' : ''}</button>` : '';
+  document.addEventListener('click', ev => {
+    const b = ev.target.closest('[data-play]'); if (!b) return;
+    ev.preventDefault(); ev.stopPropagation();
+    const x = SHOWS[b.dataset.play];
+    ABR.playVideo({id: x.id, title: x.title, home: x.home, away: x.away, youtube_id: YT[x.id] || null});
+  });
+
   // ── weekend cards
   const card = m => {
-    const b = ABR.biggest(m), tag = m.read ? 'a' : 'div';
-    return `<${tag} class="mcard" ${m.read ? `href="${readUrl(m.read)}"` : ''}>
+    const b = ABR.biggest(m), tag = 'div';
+    return `<${tag} class="mcard">
       <div class="top"><span class="chip">${E(m.league)}</span><span class="when">${E(ABR.when(m.kickoff))}</span></div>
       <div class="tm">${ABR.mono(m.home, 34)}${E(S(m.home))}</div><div class="tm">${ABR.mono(m.away, 34)}${E(S(m.away))}</div>
       <div style="margin-top:14px">${ABR.bar(m)}</div>
       <div class="foot"><span>⚽ ${m.goals ? `Expects ${m.goals.expected.toFixed(1)} goals` : '—'}</span>
         <b class="${b.d > 0 ? 'up' : b.d < 0 ? 'down' : ''}">${Math.abs(b.d) >= 1 ? `${b.d > 0 ? '▲' : '▼'} ${E(S(b.team))} ${ABR.sign(b.d)} pts` : 'Price steady'}</b></div>
-      ${m.headline ? `<div class="hl"><b>THE BOOT ROOM</b>${E(m.headline)} →</div>` : ''}</${tag}>`;
+      ${playBtn(m)}
+      ${m.headline ? `<a class="hl" href="${m.read ? readUrl(m.read) : '#'}"><b>THE BOOT ROOM</b>${E(m.headline)} →</a>` : ''}</${tag}>`;
   };
   document.getElementById('weekendCards').innerHTML = (M.weekend || []).map(card).join('') || '<div class="skeleton">The weekend markets open soon.</div>';
 
@@ -196,7 +210,7 @@
     return `<div class="mover"><span class="chip">${E(m.league)}</span>
       <div class="d disp ${b.d > 0 ? 'up' : 'down'}">${b.d > 0 ? '▲' : '▼'} ${Math.abs(b.d).toFixed(1)} pts</div>
       <div class="who">${E(S(b.team))}</div><div class="vs">${E(S(m.home))} v ${E(S(m.away))} · ${E(ABR.when(m.kickoff))}</div>
-      <div class="ex">Now ${m.fair[b.side].toFixed(0)}% to win</div></div>`;
+      <div class="ex">Now ${m.fair[b.side].toFixed(0)}% to win</div>${playBtn(m, 'Watch')}</div>`;
   }).join('') || '<div class="skeleton">Quiet market — no move above 1.5 points yet.</div>';
 
   // ── the Boot Room: personas with their latest line + one full debate

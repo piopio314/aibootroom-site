@@ -55,6 +55,7 @@
    "type": "hook",
    "speaker": "narrator",
    "text": "Roma are still the favourite here.",
+   "variant": 2,
    "words": [
     {
      "w": "Roma",
@@ -93,6 +94,7 @@
    "type": "match",
    "speaker": "narrator",
    "text": "About thirty-eight per cent against Napoli's thirty-four. But the gap has shrunk from five and a half points to three point four since we started watching — and the handicap barely moved at all.",
+   "variant": 1,
    "words": [
     {
      "w": "About",
@@ -271,6 +273,7 @@
    "type": "line",
    "speaker": "scout",
    "text": "And it's a real shift. Napoli are being quietly supported, and the goals line hasn't blinked.",
+   "variant": 1,
    "words": [
     {
      "w": "And",
@@ -359,6 +362,7 @@
    "type": "split",
    "speaker": "sceptic",
    "text": "Moved first? Every book repriced on the same ten twenty-two snapshot after a seven-hour gap. That's repricing housekeeping, not sharp money.",
+   "variant": 2,
    "words": [
     {
      "w": "Moved",
@@ -472,6 +476,7 @@
    "type": "goals",
    "speaker": "scout",
    "text": "Fair enough on the direction — and the goals market agrees with the non-story. Over two point five is stuck at fifty point nine per cent, fair total two point five four, flat for thirty-five hours.",
+   "variant": 0,
    "words": [
     {
      "w": "Fair",
@@ -678,6 +683,7 @@
     ],
     "away_move": -1.1
    },
+   "variant": 0,
    "words": [
     {
      "w": "And",
@@ -946,6 +952,7 @@
     "Goals frozen: Over 2.5 at 50.9%, fair total 2.54 for 35 hours"
    ],
    "stamp": "MEDIUM CONFIDENCE",
+   "variant": 1,
    "words": [
     {
      "w": "So",
@@ -1149,6 +1156,7 @@
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "variant": 0,
    "words": [
     {
      "w": "AI",
@@ -1191,8 +1199,18 @@
  ],
  "fps": 30,
  "silent": true,
+ "style": "pulse",
+ "story": {
+  "format": "team_news",
+  "kicker": "TEAM NEWS",
+  "stickers": [
+   "🚑",
+   "👀",
+   "🚑"
+  ]
+ },
  "source": "market_desk",
  "fixture_id": 1550164,
- "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "prices_as_of": "2026-10-20T12:31:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

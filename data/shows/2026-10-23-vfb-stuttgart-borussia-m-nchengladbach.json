@@ -40,13 +40,14 @@
   "goals": 3.8,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T10:19:00+00:00"
+  "prices_as_of": "2026-10-20T12:31:00+00:00"
  },
  "scenes": [
   {
    "type": "hook",
    "speaker": "narrator",
    "text": "The market moved 1.9 points towards VfB Stuttgart.",
+   "variant": 2,
    "words": [
     {
      "w": "The",
@@ -95,6 +96,7 @@
    "type": "match",
    "speaker": "narrator",
    "text": "VfB Stuttgart against Borussia Mönchengladbach. Bundesliga, Friday.",
+   "variant": 1,
    "words": [
     {
      "w": "VfB",
@@ -138,6 +140,7 @@
    "type": "split",
    "speaker": "narrator",
    "text": "Chance to win, with the bookmaker margin removed: VfB Stuttgart 70%, draw 16%, Borussia Mönchengladbach 14%. VfB Stuttgart are the favourites.",
+   "variant": 1,
    "words": [
     {
      "w": "Chance",
@@ -251,6 +254,7 @@
    "type": "line",
    "speaker": "scout",
    "text": "Since we started tracking, VfB Stuttgart went from 67.9% to 69.8%. The price is moving their way.",
+   "variant": 1,
    "words": [
     {
      "w": "Since",
@@ -344,6 +348,7 @@
    "type": "goals",
    "speaker": "narrator",
    "text": "The market expects about 3.8 goals in this match. That is the highest total of the weekend.",
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -443,6 +448,7 @@
    ],
    "stamp": "THE MARKET",
    "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "variant": 1,
    "words": [
     {
      "w": "That",
@@ -511,6 +517,7 @@
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "variant": 0,
    "words": [
     {
      "w": "AI",
@@ -553,8 +560,18 @@
  ],
  "fps": 30,
  "silent": true,
+ "style": "pulse",
+ "story": {
+  "format": "goals",
+  "kicker": "GOALS WATCH",
+  "stickers": [
+   "⚽",
+   "🎯",
+   "🎯"
+  ]
+ },
  "source": "numbers",
  "fixture_id": 1575196,
- "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "prices_as_of": "2026-10-20T12:31:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

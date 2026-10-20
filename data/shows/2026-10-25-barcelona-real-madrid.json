@@ -63,6 +63,7 @@
    "type": "hook",
    "speaker": "narrator",
    "text": "Barcelona are still clear favourites at about sixty per cent — but the handicap has quietly given back a tenth of a goal, and nobody can point to the injury list.",
+   "variant": 1,
    "words": [
     {
      "w": "Barcelona",
@@ -226,6 +227,7 @@
    "type": "match",
    "speaker": "narrator",
    "text": "Barcelona against Real Madrid. La Liga, Sunday.",
+   "variant": 1,
    "words": [
     {
      "w": "Barcelona",
@@ -269,6 +271,7 @@
    "type": "line",
    "speaker": "scout",
    "text": "Since we first saw this market, Barcelona's minus one handicap fair has slipped from about fifty-five per cent to fifty-one and a half, and the fair line has come in from minus one point one nine to minus one point oh seven. Someone moved before the news.",
+   "variant": 0,
    "words": [
     {
      "w": "Since",
@@ -512,6 +515,7 @@
    "type": "split",
    "speaker": "sceptic",
    "text": "Or nobody moved on news at all. And the result and handicap are the same money on the same opinion, so it's one re-rating, not three signals. On a seven-book board, that fair-line drift is a nudge.",
+   "variant": 2,
    "words": [
     {
      "w": "Or",
@@ -705,6 +709,7 @@
    "type": "goals",
    "speaker": "sceptic",
    "text": "The goals line hasn't moved a hair. Over four is still about fifty point six per cent, fair total four point oh three, across every snapshot. And an empty injury feed means we have no news data — not that there is no news.",
+   "variant": 1,
    "words": [
     {
      "w": "The",
@@ -939,6 +944,7 @@
     "Goals line flat at 4.03, Over 4.0 at 50.6%; injury feed empty, so no news data — not no news"
    ],
    "stamp": "MEDIUM CONFIDENCE",
+   "variant": 0,
    "words": [
     {
      "w": "So",
@@ -1047,6 +1053,7 @@
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "variant": 0,
    "words": [
     {
      "w": "AI",
@@ -1089,8 +1096,18 @@
  ],
  "fps": 30,
  "silent": true,
+ "style": "pulse",
+ "story": {
+  "format": "derby",
+  "kicker": "EL CLÁSICO",
+  "stickers": [
+   "🔥",
+   "🏟️",
+   "🔥"
+  ]
+ },
  "source": "market_desk",
  "fixture_id": 1570426,
- "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "prices_as_of": "2026-10-20T12:31:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

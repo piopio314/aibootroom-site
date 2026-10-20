@@ -63,6 +63,7 @@
    "type": "match",
    "speaker": "narrator",
    "text": "Fifty-five point seven per cent Manchester City, a plus three-quarter handicap, and one flicker on the goals line that isn't what it looks like.",
+   "variant": 0,
    "words": [
     {
      "w": "Fifty-five",
@@ -191,6 +192,7 @@
    "type": "goals",
    "speaker": "scout",
    "text": "The market's been flat for thirty-five hours. City clear at fifty-six per cent, the draw twenty-three, Villa twenty-two. Over three goals inched up from fifty point three to fifty-two point two on the sharp book. That's a lean toward a high-scoring game.",
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -409,6 +411,7 @@
    "type": "noise",
    "speaker": "sceptic",
    "text": "A lean? All one point nine points arrived in a twenty-seven-minute step on one book, off a first quote we can't date to the true opening, and it's drifted back point four since. Consensus moved eight tenths. The fair total moved eight hundredths. That's a stale tick, not money.",
+   "variant": 1,
    "words": [
     {
      "w": "A",
@@ -662,6 +665,7 @@
    "type": "split",
    "speaker": "narrator",
    "text": "And the injury feed? Zero reports for either squad, ninety-seven hours out. More likely a coverage gap than two fully fit teams.",
+   "variant": 1,
    "words": [
     {
      "w": "And",
@@ -785,6 +789,7 @@
     "Thin sample: 7 snapshots, 6 books, zero injury reports = coverage gap, not fitness news"
    ],
    "stamp": "MEDIUM CONFIDENCE",
+   "variant": 1,
    "words": [
     {
      "w": "So",
@@ -1083,6 +1088,7 @@
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "variant": 0,
    "words": [
     {
      "w": "AI",
@@ -1125,8 +1131,18 @@
  ],
  "fps": 30,
  "silent": true,
+ "style": "pulse",
+ "story": {
+  "format": "quiet",
+  "kicker": "QUIET MARKET",
+  "stickers": [
+   "🧊",
+   "🧊",
+   "🧊"
+  ]
+ },
  "source": "market_desk",
  "fixture_id": 1557438,
- "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "prices_as_of": "2026-10-20T12:31:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

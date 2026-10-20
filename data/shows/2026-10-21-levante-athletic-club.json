@@ -51,6 +51,7 @@
    "type": "match",
    "speaker": "narrator",
    "text": "Four price snapshots in eight hours. Four names on the injury list. And on the board in front of us, almost nothing has moved at all.",
+   "variant": 0,
    "words": [
     {
      "w": "Four",
@@ -189,6 +190,7 @@
    "type": "goals",
    "speaker": "scout",
    "text": "Athletic Club are the clear favourites, about 44 per cent fair against Levante's 25 and a half, draw at 31. Eight hours, four snapshots, and not a single meaningful tick. That silence is the story.",
+   "variant": 0,
    "words": [
     {
      "w": "Athletic",
@@ -372,6 +374,7 @@
    "type": "noise",
    "speaker": "sceptic",
    "text": "Careful with that word, silence. That's rounding noise, not a market holding its breath.",
+   "variant": 1,
    "words": [
     {
      "w": "Careful",
@@ -450,6 +453,7 @@
    "type": "split",
    "speaker": "scout",
    "text": "Then look at the gap. The sharp book has Levante at home priced about nine per cent above the six-book average. That's the one live thread on the board.",
+   "variant": 2,
    "words": [
     {
      "w": "Then",
@@ -603,6 +607,7 @@
    "type": "noise",
    "speaker": "sceptic",
    "text": "It is a real gap, but nine per cent on the odds is only about two and a half points of fair probability, 25 and a half against a consensus of 28. And it's static — it's not a move. We can't say which.",
+   "variant": 0,
    "words": [
     {
      "w": "It",
@@ -836,6 +841,7 @@
     "Over 2.5 frozen at 49.1%, fair total 2.47 across all four snapshots"
    ],
    "stamp": "MEDIUM CONFIDENCE",
+   "variant": 1,
    "words": [
     {
      "w": "So",
@@ -1099,6 +1105,7 @@
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "variant": 0,
    "words": [
     {
      "w": "AI",
@@ -1141,8 +1148,18 @@
  ],
  "fps": 30,
  "silent": true,
+ "style": "pulse",
+ "story": {
+  "format": "goals",
+  "kicker": "GOALS WATCH",
+  "stickers": [
+   "🔥",
+   "🔥",
+   "⚽"
+  ]
+ },
  "source": "market_desk",
  "fixture_id": 1570389,
- "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "prices_as_of": "2026-10-20T12:31:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

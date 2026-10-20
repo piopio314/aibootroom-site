@@ -63,6 +63,7 @@
    "type": "hook",
    "speaker": "narrator",
    "text": "Twenty-seven minutes after our feed switched on, Chelsea moved from fifty-two and a half per cent to almost fifty-five.",
+   "variant": 2,
    "words": [
     {
      "w": "Twenty-seven",
@@ -166,6 +167,7 @@
    "type": "match",
    "speaker": "narrator",
    "text": "Chelsea against Tottenham. Premier League, Saturday.",
+   "variant": 1,
    "words": [
     {
      "w": "Chelsea",
@@ -204,6 +206,7 @@
    "type": "line",
    "speaker": "narrator",
    "text": "Then, for two days, nothing.",
+   "variant": 1,
    "words": [
     {
      "w": "Then,",
@@ -237,6 +240,7 @@
    "type": "goals",
    "speaker": "scout",
    "text": "The sharp market went from fifty-two and a half to fifty-four point nine per cent on Chelsea, and pushed the handicap a tenth of a goal toward them, to minus zero point seven three. Four books moved together. That's the shape of an informed move.",
+   "variant": 1,
    "words": [
     {
      "w": "The",
@@ -470,6 +474,7 @@
    "type": "noise",
    "speaker": "sceptic",
    "text": "Or it's a screenshot. Four books carrying the identical timestamp, twenty-seven minutes after we started collecting, is just as easily books reopening overnight or our first capture settling. And we have seven snapshots of history. That's a level, not a trend.",
+   "variant": 0,
    "words": [
     {
      "w": "Or",
@@ -683,6 +688,7 @@
    "type": "goals",
    "speaker": "narrator",
    "text": "The goals market agrees with neither of them. Over three point zero sits at about fifty-one per cent, the fair total barely moved, and both teams to score holds at just over sixty per cent, with no movement at all.",
+   "variant": 1,
    "words": [
     {
      "w": "The",
@@ -897,6 +903,7 @@
     "Goals settled: Over 3.0 at 51.2%, BTTS Yes 60.6% unchanged"
    ],
    "stamp": "LOW CONFIDENCE",
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -1035,6 +1042,7 @@
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "variant": 0,
    "words": [
     {
      "w": "AI",
@@ -1077,8 +1085,18 @@
  ],
  "fps": 30,
  "silent": true,
+ "style": "pulse",
+ "story": {
+  "format": "line_move",
+  "kicker": "MARKET ALERT",
+  "stickers": [
+   "📈",
+   "👀",
+   "📈"
+  ]
+ },
  "source": "market_desk",
  "fixture_id": 1557439,
- "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "prices_as_of": "2026-10-20T12:31:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

@@ -48,13 +48,14 @@
   "goals": 2.56,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T10:19:00+00:00"
+  "prices_as_of": "2026-10-20T12:31:00+00:00"
  },
  "scenes": [
   {
    "type": "hook",
    "speaker": "narrator",
    "text": "The market moved 3.2 points towards AC Milan.",
+   "variant": 2,
    "words": [
     {
      "w": "The",
@@ -103,6 +104,7 @@
    "type": "match",
    "speaker": "narrator",
    "text": "Udinese against AC Milan. Serie A, Sunday.",
+   "variant": 1,
    "words": [
     {
      "w": "Udinese",
@@ -146,6 +148,7 @@
    "type": "split",
    "speaker": "narrator",
    "text": "Chance to win, with the bookmaker margin removed: Udinese 18%, draw 24%, AC Milan 59%. AC Milan are the favourites.",
+   "variant": 0,
    "words": [
     {
      "w": "Chance",
@@ -254,6 +257,7 @@
    "type": "line",
    "speaker": "scout",
    "text": "Since we started tracking, AC Milan went from 55.7% to 58.9%. The price is moving their way.",
+   "variant": 1,
    "words": [
     {
      "w": "Since",
@@ -347,6 +351,7 @@
    "type": "goals",
    "speaker": "narrator",
    "text": "The market expects about 2.6 goals in this match. That is the highest total of the weekend.",
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -446,6 +451,7 @@
    ],
    "stamp": "THE MARKET",
    "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -514,6 +520,7 @@
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "variant": 0,
    "words": [
     {
      "w": "AI",
@@ -556,8 +563,18 @@
  ],
  "fps": 30,
  "silent": true,
+ "style": "pulse",
+ "story": {
+  "format": "line_move",
+  "kicker": "MARKET ALERT",
+  "stickers": [
+   "💸",
+   "💸",
+   "💸"
+  ]
+ },
  "source": "numbers",
  "fixture_id": 1550166,
- "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "prices_as_of": "2026-10-20T12:31:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

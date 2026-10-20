@@ -40,13 +40,14 @@
   "goals": 2.76,
   "goals_rank": 1,
   "tracked_since": "2026-10-19T04:26:00+00:00",
-  "prices_as_of": "2026-10-20T10:19:00+00:00"
+  "prices_as_of": "2026-10-20T12:31:00+00:00"
  },
  "scenes": [
   {
    "type": "match",
    "speaker": "narrator",
    "text": "AS Roma against Cagliari. Serie A, Tuesday.",
+   "variant": 0,
    "words": [
     {
      "w": "AS",
@@ -90,6 +91,7 @@
    "type": "split",
    "speaker": "narrator",
    "text": "Chance to win, with the bookmaker margin removed: AS Roma 70%, draw 20%, Cagliari 10%. AS Roma are the favourites.",
+   "variant": 2,
    "words": [
     {
      "w": "Chance",
@@ -214,6 +216,7 @@
     ]
    },
    "text": "Team news: 1 player out or doubtful for AS Roma, 1 for Cagliari. Known absences are usually already in the price.",
+   "variant": 0,
    "words": [
     {
      "w": "Team",
@@ -327,6 +330,7 @@
    "type": "goals",
    "speaker": "narrator",
    "text": "The market expects about 2.8 goals in this match. That is the highest total of the weekend.",
+   "variant": 1,
    "words": [
     {
      "w": "The",
@@ -426,6 +430,7 @@
    ],
    "stamp": "THE MARKET",
    "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -494,6 +499,7 @@
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "variant": 0,
    "words": [
     {
      "w": "AI",
@@ -536,8 +542,18 @@
  ],
  "fps": 30,
  "silent": true,
+ "style": "pulse",
+ "story": {
+  "format": "goals",
+  "kicker": "GOALS WATCH",
+  "stickers": [
+   "🔥",
+   "🎯",
+   "🔥"
+  ]
+ },
  "source": "numbers",
  "fixture_id": 1550168,
- "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "prices_as_of": "2026-10-20T12:31:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

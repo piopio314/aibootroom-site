@@ -40,13 +40,14 @@
   "goals": 2.99,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T10:19:00+00:00"
+  "prices_as_of": "2026-10-20T12:31:00+00:00"
  },
  "scenes": [
   {
    "type": "hook",
    "speaker": "narrator",
    "text": "The market moved 1.0 points towards Le Havre.",
+   "variant": 2,
    "words": [
     {
      "w": "The",
@@ -95,6 +96,7 @@
    "type": "match",
    "speaker": "narrator",
    "text": "Marseille against Le Havre. Ligue 1, Sunday.",
+   "variant": 1,
    "words": [
     {
      "w": "Marseille",
@@ -138,6 +140,7 @@
    "type": "split",
    "speaker": "narrator",
    "text": "Chance to win, with the bookmaker margin removed: Marseille 60%, draw 20%, Le Havre 20%. Marseille are the favourites.",
+   "variant": 0,
    "words": [
     {
      "w": "Chance",
@@ -241,6 +244,7 @@
    "type": "line",
    "speaker": "scout",
    "text": "Since we started tracking, Le Havre went from 18.8% to 19.8%. The price is moving their way.",
+   "variant": 0,
    "words": [
     {
      "w": "Since",
@@ -334,6 +338,7 @@
    "type": "noise",
    "speaker": "sceptic",
    "text": "But a move this small can be normal price noise. We wait for team news before we read too much into it.",
+   "variant": 1,
    "words": [
     {
      "w": "But",
@@ -452,6 +457,7 @@
    "type": "goals",
    "speaker": "narrator",
    "text": "The market expects about 3.0 goals in this match. That is the highest total of the weekend.",
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -551,6 +557,7 @@
    ],
    "stamp": "THE MARKET",
    "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -619,6 +626,7 @@
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "variant": 0,
    "words": [
     {
      "w": "AI",
@@ -661,8 +669,18 @@
  ],
  "fps": 30,
  "silent": true,
+ "style": "pulse",
+ "story": {
+  "format": "goals",
+  "kicker": "GOALS WATCH",
+  "stickers": [
+   "⚽",
+   "🎯",
+   "⚽"
+  ]
+ },
  "source": "numbers",
  "fixture_id": 1552796,
- "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "prices_as_of": "2026-10-20T12:31:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

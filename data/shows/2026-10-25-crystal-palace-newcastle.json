@@ -47,6 +47,7 @@
    "type": "hook",
    "speaker": "narrator",
    "text": "One line moved on Sunday night, and the goals line didn't blink.",
+   "variant": 2,
    "words": [
     {
      "w": "One",
@@ -115,6 +116,7 @@
    "type": "match",
    "speaker": "narrator",
    "text": "Crystal Palace against Newcastle. Premier League, Sunday.",
+   "variant": 0,
    "words": [
     {
      "w": "Crystal",
@@ -158,6 +160,7 @@
    "type": "split",
    "speaker": "narrator",
    "text": "Newcastle went from about thirty-eight per cent to just over forty, Palace slipped to about thirty-three, and the handicap line followed. Here's how the market sees it.",
+   "variant": 2,
    "words": [
     {
      "w": "Newcastle",
@@ -301,6 +304,7 @@
    "type": "line",
    "speaker": "scout",
    "text": "At twenty-three sixteen on the eighteenth, four books we track moved Newcastle from thirty-seven and a half per cent to forty point four, the sharp book from two point five four down to two point three eight. Palace went the other way, to thirty-two point eight.",
+   "variant": 1,
    "words": [
     {
      "w": "At",
@@ -539,6 +543,7 @@
    "type": "noise",
    "speaker": "sceptic",
    "text": "Careful. Four books, not six. The move could be up to twenty-seven minutes apart. One snapshot can't separate informed money from a soft opening line being corrected.",
+   "variant": 1,
    "words": [
     {
      "w": "Careful.",
@@ -682,6 +687,7 @@
    "type": "goals",
    "speaker": "sceptic",
    "text": "And the goals line agrees with me. The market repriced who wins, not how many goals. Zero injury reports means no news story either way.",
+   "variant": 0,
    "words": [
     {
      "w": "And",
@@ -821,6 +827,7 @@
     "Flat goals: Over 3.0 48.1%, fair total 2.92, BTTS 61.6%"
    ],
    "stamp": "LOW CONFIDENCE",
+   "variant": 0,
    "words": [
     {
      "w": "So",
@@ -1059,6 +1066,7 @@
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "variant": 0,
    "words": [
     {
      "w": "AI",
@@ -1101,8 +1109,18 @@
  ],
  "fps": 30,
  "silent": true,
+ "style": "pulse",
+ "story": {
+  "format": "line_move",
+  "kicker": "MARKET ALERT",
+  "stickers": [
+   "💸",
+   "📈",
+   "📈"
+  ]
+ },
  "source": "market_desk",
  "fixture_id": 1557441,
- "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "prices_as_of": "2026-10-20T12:31:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

@@ -39,6 +39,7 @@
    "type": "match",
    "speaker": "narrator",
    "text": "One price snapshot. Eight hours of history. And not a single number has moved — which is not the same thing as a market that's made up its mind.",
+   "variant": 1,
    "words": [
     {
      "w": "One",
@@ -192,6 +193,7 @@
    "type": "goals",
    "speaker": "scout",
    "text": "Six books on Torino against Monza, and every price sits exactly where we first found it. The sharp market rates Torino at about forty-five per cent, the draw at twenty-seven, Monza at twenty-eight. Under two and a half goals is a whisker under even money. This is a market that has already said what it wants to say.",
+   "variant": 0,
    "words": [
     {
      "w": "Six",
@@ -490,6 +492,7 @@
    "type": "split",
    "speaker": "sceptic",
    "text": "Scout, we've only looked at it once. One stored snapshot means every change reads as zero by construction — that's an absence of observations, not six books agreeing. And the market was already open before we first saw it, so none of this is an opening price.",
+   "variant": 2,
    "words": [
     {
      "w": "Scout,",
@@ -750,6 +753,7 @@
     "away": [],
     "away_move": null
    },
+   "variant": 0,
    "words": [
     {
      "w": "What",
@@ -993,6 +997,7 @@
    "type": "split",
    "speaker": "sceptic",
    "text": "At the average it reads negative. So standing still is the honest call, not a confident one.",
+   "variant": 1,
    "words": [
     {
      "w": "At",
@@ -1090,6 +1095,7 @@
     "1 snapshot, 8h of history: zero movement is unobserved, not agreed"
    ],
    "stamp": "LOW CONFIDENCE",
+   "variant": 0,
    "words": [
     {
      "w": "Mild",
@@ -1188,6 +1194,7 @@
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "variant": 0,
    "words": [
     {
      "w": "AI",
@@ -1230,8 +1237,18 @@
  ],
  "fps": 30,
  "silent": true,
+ "style": "pulse",
+ "story": {
+  "format": "goals",
+  "kicker": "GOALS WATCH",
+  "stickers": [
+   "⚽",
+   "⚽",
+   "🎯"
+  ]
+ },
  "source": "market_desk",
  "fixture_id": 1550165,
- "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "prices_as_of": "2026-10-20T12:31:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

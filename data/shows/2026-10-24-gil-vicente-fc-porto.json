@@ -40,13 +40,14 @@
   "goals": 2.47,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T10:19:00+00:00"
+  "prices_as_of": "2026-10-20T12:31:00+00:00"
  },
  "scenes": [
   {
    "type": "match",
    "speaker": "narrator",
    "text": "GIL Vicente against FC Porto. Primeira Liga, Saturday.",
+   "variant": 0,
    "words": [
     {
      "w": "GIL",
@@ -95,6 +96,7 @@
    "type": "split",
    "speaker": "narrator",
    "text": "Chance to win, with the bookmaker margin removed: GIL Vicente 12%, draw 22%, FC Porto 66%. FC Porto are the favourites.",
+   "variant": 1,
    "words": [
     {
      "w": "Chance",
@@ -208,6 +210,7 @@
    "type": "goals",
    "speaker": "narrator",
    "text": "The market expects about 2.5 goals in this match. That is the highest total of the weekend.",
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -307,6 +310,7 @@
    ],
    "stamp": "THE MARKET",
    "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "variant": 1,
    "words": [
     {
      "w": "That",
@@ -375,6 +379,7 @@
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "variant": 0,
    "words": [
     {
      "w": "AI",
@@ -417,8 +422,18 @@
  ],
  "fps": 30,
  "silent": true,
+ "style": "pulse",
+ "story": {
+  "format": "goals",
+  "kicker": "GOALS WATCH",
+  "stickers": [
+   "⚽",
+   "🔥",
+   "⚽"
+  ]
+ },
  "source": "numbers",
  "fixture_id": 1575521,
- "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "prices_as_of": "2026-10-20T12:31:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }
