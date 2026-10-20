@@ -1,0 +1,424 @@
+{
+ "id": "2026-10-24-gil-vicente-fc-porto",
+ "title": "GIL Vicente v FC Porto: what the market says",
+ "match": {
+  "home": "GIL Vicente",
+  "away": "FC Porto",
+  "league": "Primeira Liga",
+  "kickoff": "2026-10-24T19:30:00+00:00",
+  "home_short": "GIL",
+  "away_short": "POR",
+  "home_color": "#2563eb",
+  "away_color": "#00428c"
+ },
+ "market": {
+  "fair": {
+   "home": 12.4,
+   "draw": 21.9,
+   "away": 65.5
+  },
+  "move": {
+   "home": -0.2,
+   "draw": -0.1,
+   "away": 0.0
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 65.5
+   },
+   {
+    "t": "2026-10-19T04:26:00+00:00",
+    "v": 65.5
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "v": 65.5
+   }
+  ],
+  "goals": 2.47,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-20T10:19:00+00:00"
+ },
+ "scenes": [
+  {
+   "type": "match",
+   "speaker": "narrator",
+   "text": "GIL Vicente against FC Porto. Primeira Liga, Saturday.",
+   "words": [
+    {
+     "w": "GIL",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Vicente",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "against",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "FC",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "Porto.",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "Primeira",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "Liga,",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "Saturday.",
+     "start": 3.192,
+     "end": 3.577
+    }
+   ],
+   "durationInFrames": 155
+  },
+  {
+   "type": "split",
+   "speaker": "narrator",
+   "text": "Chance to win, with the bookmaker margin removed: GIL Vicente 12%, draw 22%, FC Porto 66%. FC Porto are the favourites.",
+   "words": [
+    {
+     "w": "Chance",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "to",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "win,",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "with",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "the",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "bookmaker",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "margin",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "removed:",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "GIL",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "Vicente",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "12%,",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "draw",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "22%,",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "FC",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "Porto",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "66%.",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "FC",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "Porto",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "are",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "the",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "favourites.",
+     "start": 8.192,
+     "end": 8.577
+    }
+   ],
+   "durationInFrames": 305
+  },
+  {
+   "type": "goals",
+   "speaker": "narrator",
+   "text": "The market expects about 2.5 goals in this match. That is the highest total of the weekend.",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "market",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "expects",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "about",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "2.5",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "goals",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "in",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "this",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "match.",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "That",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "is",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "the",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "highest",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "total",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "of",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "the",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "weekend.",
+     "start": 6.654,
+     "end": 7.038
+    }
+   ],
+   "durationInFrames": 259
+  },
+  {
+   "type": "verdict",
+   "speaker": "gaffer",
+   "bullets": [
+    "FC Porto favourites at 66%",
+    "FC Porto +0.0 pts since tracking started",
+    "About 2.5 goals expected"
+   ],
+   "stamp": "THE MARKET",
+   "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "is",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "market's",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "reading",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "of",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "this",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "match.",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Numbers",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "only,",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "no",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "tips.",
+     "start": 4.731,
+     "end": 5.115
+    }
+   ],
+   "durationInFrames": 201
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Boot",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Room.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Football",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "analysis,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "with",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "receipts.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 171
+  }
+ ],
+ "fps": 30,
+ "silent": true,
+ "source": "numbers",
+ "fixture_id": 1575521,
+ "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
+}

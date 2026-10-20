@@ -1,0 +1,1096 @@
+{
+ "id": "2026-10-25-barcelona-real-madrid",
+ "title": "Clasico: Barcelona down a tenth, goals flat",
+ "match": {
+  "home": "Barcelona",
+  "away": "Real Madrid",
+  "league": "La Liga",
+  "kickoff": "2026-10-25T20:00:00+00:00",
+  "home_short": "FCB",
+  "away_short": "RMA",
+  "home_color": "#a50044",
+  "away_color": "#2b3a8f"
+ },
+ "market": {
+  "fair": {
+   "home": 60.4,
+   "draw": 16.9,
+   "away": 22.7
+  },
+  "move": {
+   "home": -2.6,
+   "draw": -0.2,
+   "away": 2.9
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 19.8
+   },
+   {
+    "t": "2026-10-19T04:26:00+00:00",
+    "v": 20.9
+   },
+   {
+    "t": "2026-10-19T06:46:00+00:00",
+    "v": 20.9
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "v": 21.7
+   },
+   {
+    "t": "2026-10-19T16:24:00+00:00",
+    "v": 21.7
+   },
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "v": 22.0
+   },
+   {
+    "t": "2026-10-20T04:23:00+00:00",
+    "v": 22.7
+   }
+  ],
+  "goals": 4.03,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-20T07:26:00+00:00"
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "speaker": "narrator",
+   "text": "Barcelona are still clear favourites at about sixty per cent — but the handicap has quietly given back a tenth of a goal, and nobody can point to the injury list.",
+   "words": [
+    {
+     "w": "Barcelona",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "are",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "still",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "clear",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "favourites",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "at",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "about",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "sixty",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "per",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "cent",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "—",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "but",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "the",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "handicap",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "has",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "quietly",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "given",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "back",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "a",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "tenth",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "of",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "a",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "goal,",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "and",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "nobody",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "can",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "point",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "to",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "the",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "injury",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "list.",
+     "start": 12.038,
+     "end": 12.423
+    }
+   ],
+   "durationInFrames": 421
+  },
+  {
+   "type": "match",
+   "speaker": "narrator",
+   "text": "Barcelona against Real Madrid. La Liga, Sunday.",
+   "words": [
+    {
+     "w": "Barcelona",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "against",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Real",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Madrid.",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "La",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "Liga,",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "Sunday.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 144
+  },
+  {
+   "type": "line",
+   "speaker": "scout",
+   "text": "Since we first saw this market, Barcelona's minus one handicap fair has slipped from about fifty-five per cent to fifty-one and a half, and the fair line has come in from minus one point one nine to minus one point oh seven. Someone moved before the news.",
+   "words": [
+    {
+     "w": "Since",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "we",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "first",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "saw",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "this",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "market,",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "Barcelona's",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "minus",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "one",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "handicap",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "fair",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "has",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "slipped",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "from",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "about",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "fifty-five",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "per",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "cent",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "to",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "fifty-one",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "and",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "a",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "half,",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "and",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "the",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "fair",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "line",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "has",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "come",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "in",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "from",
+     "start": 12.038,
+     "end": 12.423
+    },
+    {
+     "w": "minus",
+     "start": 12.423,
+     "end": 12.808
+    },
+    {
+     "w": "one",
+     "start": 12.808,
+     "end": 13.192
+    },
+    {
+     "w": "point",
+     "start": 13.192,
+     "end": 13.577
+    },
+    {
+     "w": "one",
+     "start": 13.577,
+     "end": 13.962
+    },
+    {
+     "w": "nine",
+     "start": 13.962,
+     "end": 14.346
+    },
+    {
+     "w": "to",
+     "start": 14.346,
+     "end": 14.731
+    },
+    {
+     "w": "minus",
+     "start": 14.731,
+     "end": 15.115
+    },
+    {
+     "w": "one",
+     "start": 15.115,
+     "end": 15.5
+    },
+    {
+     "w": "point",
+     "start": 15.5,
+     "end": 15.885
+    },
+    {
+     "w": "oh",
+     "start": 15.885,
+     "end": 16.269
+    },
+    {
+     "w": "seven.",
+     "start": 16.269,
+     "end": 16.654
+    },
+    {
+     "w": "Someone",
+     "start": 16.654,
+     "end": 17.038
+    },
+    {
+     "w": "moved",
+     "start": 17.038,
+     "end": 17.423
+    },
+    {
+     "w": "before",
+     "start": 17.423,
+     "end": 17.808
+    },
+    {
+     "w": "the",
+     "start": 17.808,
+     "end": 18.192
+    },
+    {
+     "w": "news.",
+     "start": 18.192,
+     "end": 18.577
+    }
+   ],
+   "durationInFrames": 605
+  },
+  {
+   "type": "split",
+   "speaker": "sceptic",
+   "text": "Or nobody moved on news at all. And the result and handicap are the same money on the same opinion, so it's one re-rating, not three signals. On a seven-book board, that fair-line drift is a nudge.",
+   "words": [
+    {
+     "w": "Or",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "nobody",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "moved",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "on",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "news",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "at",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "all.",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "And",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "the",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "result",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "and",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "handicap",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "are",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "the",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "same",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "money",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "on",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "the",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "same",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "opinion,",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "so",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "it's",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "one",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "re-rating,",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "not",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "three",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "signals.",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "On",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "a",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "seven-book",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "board,",
+     "start": 12.038,
+     "end": 12.423
+    },
+    {
+     "w": "that",
+     "start": 12.423,
+     "end": 12.808
+    },
+    {
+     "w": "fair-line",
+     "start": 12.808,
+     "end": 13.192
+    },
+    {
+     "w": "drift",
+     "start": 13.192,
+     "end": 13.577
+    },
+    {
+     "w": "is",
+     "start": 13.577,
+     "end": 13.962
+    },
+    {
+     "w": "a",
+     "start": 13.962,
+     "end": 14.346
+    },
+    {
+     "w": "nudge.",
+     "start": 14.346,
+     "end": 14.731
+    }
+   ],
+   "durationInFrames": 490
+  },
+  {
+   "type": "goals",
+   "speaker": "sceptic",
+   "text": "The goals line hasn't moved a hair. Over four is still about fifty point six per cent, fair total four point oh three, across every snapshot. And an empty injury feed means we have no news data — not that there is no news.",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "goals",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "line",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "hasn't",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "moved",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "a",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "hair.",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "Over",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "four",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "is",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "still",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "about",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "fifty",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "point",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "six",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "per",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "cent,",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "fair",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "total",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "four",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "point",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "oh",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "three,",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "across",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "every",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "snapshot.",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "And",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "an",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "empty",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "injury",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "feed",
+     "start": 12.038,
+     "end": 12.423
+    },
+    {
+     "w": "means",
+     "start": 12.423,
+     "end": 12.808
+    },
+    {
+     "w": "we",
+     "start": 12.808,
+     "end": 13.192
+    },
+    {
+     "w": "have",
+     "start": 13.192,
+     "end": 13.577
+    },
+    {
+     "w": "no",
+     "start": 13.577,
+     "end": 13.962
+    },
+    {
+     "w": "news",
+     "start": 13.962,
+     "end": 14.346
+    },
+    {
+     "w": "data",
+     "start": 14.346,
+     "end": 14.731
+    },
+    {
+     "w": "—",
+     "start": 14.731,
+     "end": 15.115
+    },
+    {
+     "w": "not",
+     "start": 15.115,
+     "end": 15.5
+    },
+    {
+     "w": "that",
+     "start": 15.5,
+     "end": 15.885
+    },
+    {
+     "w": "there",
+     "start": 15.885,
+     "end": 16.269
+    },
+    {
+     "w": "is",
+     "start": 16.269,
+     "end": 16.654
+    },
+    {
+     "w": "no",
+     "start": 16.654,
+     "end": 17.038
+    },
+    {
+     "w": "news.",
+     "start": 17.038,
+     "end": 17.423
+    }
+   ],
+   "durationInFrames": 571
+  },
+  {
+   "type": "verdict",
+   "speaker": "gaffer",
+   "text": "So the reading is one market-wide re-rating of Real Madrid's chances, medium confidence, and a goals line parked at four.",
+   "bullets": [
+    "AH Home -1 fair 54.8% → 51.5%; fair line -1.19 → -1.07 in two synchronous waves",
+    "1X2 confirms one re-rating: Home 63.0% → 60.4%, Away 19.8% → 22.7%",
+    "Goals line flat at 4.03, Over 4.0 at 50.6%; injury feed empty, so no news data — not no news"
+   ],
+   "stamp": "MEDIUM CONFIDENCE",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "the",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "reading",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "is",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "one",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "market-wide",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "re-rating",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "of",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Real",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "Madrid's",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "chances,",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "medium",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "confidence,",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "and",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "a",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "goals",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "line",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "parked",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "at",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "four.",
+     "start": 7.808,
+     "end": 8.192
+    }
+   ],
+   "durationInFrames": 294
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Boot",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Room.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Football",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "analysis,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "with",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "receipts.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 171
+  }
+ ],
+ "fps": 30,
+ "silent": true,
+ "source": "market_desk",
+ "fixture_id": 1570426,
+ "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
+}

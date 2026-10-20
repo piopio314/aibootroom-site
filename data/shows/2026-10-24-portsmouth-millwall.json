@@ -1,0 +1,386 @@
+{
+ "id": "2026-10-24-portsmouth-millwall",
+ "title": "Portsmouth v Millwall: what the market says",
+ "match": {
+  "home": "Portsmouth",
+  "away": "Millwall",
+  "league": "Championship",
+  "kickoff": "2026-10-24T11:30:00+00:00",
+  "home_short": "POR",
+  "away_short": "MIL",
+  "home_color": "#15803d",
+  "away_color": "#b45309"
+ },
+ "market": {
+  "fair": {
+   "home": 36.1,
+   "draw": 28.2,
+   "away": 35.7
+  },
+  "move": {
+   "home": 0.0,
+   "draw": 0.0,
+   "away": 0.0
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-19T22:19:00+00:00",
+    "v": 35.7
+   }
+  ],
+  "goals": 2.43,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-19T22:19:00+00:00",
+  "prices_as_of": "2026-10-20T10:19:00+00:00"
+ },
+ "scenes": [
+  {
+   "type": "match",
+   "speaker": "narrator",
+   "text": "Portsmouth against Millwall. Championship, Saturday.",
+   "words": [
+    {
+     "w": "Portsmouth",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "against",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Millwall.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Championship,",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "Saturday.",
+     "start": 2.038,
+     "end": 2.423
+    }
+   ],
+   "durationInFrames": 121
+  },
+  {
+   "type": "split",
+   "speaker": "narrator",
+   "text": "Chance to win, with the bookmaker margin removed: Portsmouth 36%, draw 28%, Millwall 36%. Portsmouth are the favourites.",
+   "words": [
+    {
+     "w": "Chance",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "to",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "win,",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "with",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "the",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "bookmaker",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "margin",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "removed:",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Portsmouth",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "36%,",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "draw",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "28%,",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "Millwall",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "36%.",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "Portsmouth",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "are",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "the",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "favourites.",
+     "start": 7.038,
+     "end": 7.423
+    }
+   ],
+   "durationInFrames": 271
+  },
+  {
+   "type": "goals",
+   "speaker": "narrator",
+   "text": "The market expects about 2.4 goals in this match. That is the highest total of the weekend.",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "market",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "expects",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "about",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "2.4",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "goals",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "in",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "this",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "match.",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "That",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "is",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "the",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "highest",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "total",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "of",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "the",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "weekend.",
+     "start": 6.654,
+     "end": 7.038
+    }
+   ],
+   "durationInFrames": 259
+  },
+  {
+   "type": "verdict",
+   "speaker": "gaffer",
+   "bullets": [
+    "Portsmouth favourites at 36%",
+    "Millwall +0.0 pts since tracking started",
+    "About 2.4 goals expected"
+   ],
+   "stamp": "THE MARKET",
+   "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "is",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "market's",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "reading",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "of",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "this",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "match.",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Numbers",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "only,",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "no",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "tips.",
+     "start": 4.731,
+     "end": 5.115
+    }
+   ],
+   "durationInFrames": 201
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Boot",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Room.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Football",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "analysis,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "with",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "receipts.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 171
+  }
+ ],
+ "fps": 30,
+ "silent": true,
+ "source": "numbers",
+ "fixture_id": 1563220,
+ "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
+}

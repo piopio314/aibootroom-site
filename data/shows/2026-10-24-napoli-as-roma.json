@@ -1,0 +1,1198 @@
+{
+ "id": "2026-10-24-napoli-as-roma",
+ "title": "Napoli v AS Roma: what the market says",
+ "match": {
+  "home": "Napoli",
+  "away": "AS Roma",
+  "league": "Serie A",
+  "kickoff": "2026-10-24T16:00:00+00:00",
+  "home_short": "NAP",
+  "away_short": "ROM",
+  "home_color": "#12a0d7",
+  "away_color": "#8e1f2f"
+ },
+ "market": {
+  "fair": {
+   "home": 34.4,
+   "draw": 27.7,
+   "away": 37.8
+  },
+  "move": {
+   "home": 1.0,
+   "draw": 0.1,
+   "away": -1.1
+  },
+  "side": "home",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 33.4
+   },
+   {
+    "t": "2026-10-19T07:36:00+00:00",
+    "v": 33.4
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "v": 34.6
+   },
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "v": 34.6
+   },
+   {
+    "t": "2026-10-20T04:23:00+00:00",
+    "v": 34.4
+   }
+  ],
+  "goals": 2.54,
+  "goals_rank": 11,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-20T10:19:00+00:00"
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "speaker": "narrator",
+   "text": "Roma are still the favourite here.",
+   "words": [
+    {
+     "w": "Roma",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "are",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "still",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "the",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "favourite",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "here.",
+     "start": 2.423,
+     "end": 2.808
+    }
+   ],
+   "durationInFrames": 132
+  },
+  {
+   "type": "match",
+   "speaker": "narrator",
+   "text": "About thirty-eight per cent against Napoli's thirty-four. But the gap has shrunk from five and a half points to three point four since we started watching — and the handicap barely moved at all.",
+   "words": [
+    {
+     "w": "About",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "thirty-eight",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "per",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "cent",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "against",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "Napoli's",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "thirty-four.",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "But",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "the",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "gap",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "has",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "shrunk",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "from",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "five",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "and",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "a",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "half",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "points",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "to",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "three",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "point",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "four",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "since",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "we",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "started",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "watching",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "—",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "and",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "the",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "handicap",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "barely",
+     "start": 12.038,
+     "end": 12.423
+    },
+    {
+     "w": "moved",
+     "start": 12.423,
+     "end": 12.808
+    },
+    {
+     "w": "at",
+     "start": 12.808,
+     "end": 13.192
+    },
+    {
+     "w": "all.",
+     "start": 13.192,
+     "end": 13.577
+    }
+   ],
+   "durationInFrames": 455
+  },
+  {
+   "type": "line",
+   "speaker": "scout",
+   "text": "And it's a real shift. Napoli are being quietly supported, and the goals line hasn't blinked.",
+   "words": [
+    {
+     "w": "And",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "it's",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "a",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "real",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "shift.",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "Napoli",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "are",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "being",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "quietly",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "supported,",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "and",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "the",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "goals",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "line",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "hasn't",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "blinked.",
+     "start": 6.269,
+     "end": 6.654
+    }
+   ],
+   "durationInFrames": 248
+  },
+  {
+   "type": "split",
+   "speaker": "sceptic",
+   "text": "Moved first? Every book repriced on the same ten twenty-two snapshot after a seven-hour gap. That's repricing housekeeping, not sharp money.",
+   "words": [
+    {
+     "w": "Moved",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "first?",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Every",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "book",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "repriced",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "on",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "the",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "same",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "ten",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "twenty-two",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "snapshot",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "after",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "a",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "seven-hour",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "gap.",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "That's",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "repricing",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "housekeeping,",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "not",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "sharp",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "money.",
+     "start": 8.192,
+     "end": 8.577
+    }
+   ],
+   "durationInFrames": 305
+  },
+  {
+   "type": "goals",
+   "speaker": "scout",
+   "text": "Fair enough on the direction — and the goals market agrees with the non-story. Over two point five is stuck at fifty point nine per cent, fair total two point five four, flat for thirty-five hours.",
+   "words": [
+    {
+     "w": "Fair",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "enough",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "on",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "the",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "direction",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "—",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "and",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "the",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "goals",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "market",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "agrees",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "with",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "the",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "non-story.",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "Over",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "two",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "point",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "five",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "is",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "stuck",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "at",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "fifty",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "point",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "nine",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "per",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "cent,",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "fair",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "total",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "two",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "point",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "five",
+     "start": 12.038,
+     "end": 12.423
+    },
+    {
+     "w": "four,",
+     "start": 12.423,
+     "end": 12.808
+    },
+    {
+     "w": "flat",
+     "start": 12.808,
+     "end": 13.192
+    },
+    {
+     "w": "for",
+     "start": 13.192,
+     "end": 13.577
+    },
+    {
+     "w": "thirty-five",
+     "start": 13.577,
+     "end": 13.962
+    },
+    {
+     "w": "hours.",
+     "start": 13.962,
+     "end": 14.346
+    }
+   ],
+   "durationInFrames": 478
+  },
+  {
+   "type": "injury",
+   "speaker": "sceptic",
+   "text": "And the injuries don't move it either. Our first injury list landed after we'd started tracking prices, so we can't time it against the market. Napoli lost a centre-back and shortened a point; Roma lost a full-back in the same report. The two roughly cancel — and a point is noise.",
+   "injuries": {
+    "home": [
+     {
+      "player": "A. Buongiorno",
+      "status": "Missing Fixture",
+      "reason": "Jumpers Knee"
+     }
+    ],
+    "home_move": 1.0,
+    "away": [
+     {
+      "player": "M. Bah",
+      "status": "Missing Fixture",
+      "reason": "Jumpers Knee"
+     }
+    ],
+    "away_move": -1.1
+   },
+   "words": [
+    {
+     "w": "And",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "the",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "injuries",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "don't",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "move",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "it",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "either.",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "Our",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "first",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "injury",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "list",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "landed",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "after",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "we'd",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "started",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "tracking",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "prices,",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "so",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "we",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "can't",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "time",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "it",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "against",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "the",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "market.",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "Napoli",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "lost",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "a",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "centre-back",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "and",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "shortened",
+     "start": 12.038,
+     "end": 12.423
+    },
+    {
+     "w": "a",
+     "start": 12.423,
+     "end": 12.808
+    },
+    {
+     "w": "point;",
+     "start": 12.808,
+     "end": 13.192
+    },
+    {
+     "w": "Roma",
+     "start": 13.192,
+     "end": 13.577
+    },
+    {
+     "w": "lost",
+     "start": 13.577,
+     "end": 13.962
+    },
+    {
+     "w": "a",
+     "start": 13.962,
+     "end": 14.346
+    },
+    {
+     "w": "full-back",
+     "start": 14.346,
+     "end": 14.731
+    },
+    {
+     "w": "in",
+     "start": 14.731,
+     "end": 15.115
+    },
+    {
+     "w": "the",
+     "start": 15.115,
+     "end": 15.5
+    },
+    {
+     "w": "same",
+     "start": 15.5,
+     "end": 15.885
+    },
+    {
+     "w": "report.",
+     "start": 15.885,
+     "end": 16.269
+    },
+    {
+     "w": "The",
+     "start": 16.269,
+     "end": 16.654
+    },
+    {
+     "w": "two",
+     "start": 16.654,
+     "end": 17.038
+    },
+    {
+     "w": "roughly",
+     "start": 17.038,
+     "end": 17.423
+    },
+    {
+     "w": "cancel",
+     "start": 17.423,
+     "end": 17.808
+    },
+    {
+     "w": "—",
+     "start": 17.808,
+     "end": 18.192
+    },
+    {
+     "w": "and",
+     "start": 18.192,
+     "end": 18.577
+    },
+    {
+     "w": "a",
+     "start": 18.577,
+     "end": 18.962
+    },
+    {
+     "w": "point",
+     "start": 18.962,
+     "end": 19.346
+    },
+    {
+     "w": "is",
+     "start": 19.346,
+     "end": 19.731
+    },
+    {
+     "w": "noise.",
+     "start": 19.731,
+     "end": 20.115
+    }
+   ],
+   "durationInFrames": 651
+  },
+  {
+   "type": "verdict",
+   "speaker": "gaffer",
+   "text": "So here's the reading. The handicap nudged four hundredths toward Napoli on a thin five-book board, and the goals market hasn't moved in thirty-five hours. We sit this one out and wait for a real break in the line.",
+   "bullets": [
+    "Handicap moved only 0.04 toward Napoli, all books on one 10:22 snapshot",
+    "Goals frozen: Over 2.5 at 50.9%, fair total 2.54 for 35 hours"
+   ],
+   "stamp": "MEDIUM CONFIDENCE",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "here's",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "reading.",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "The",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "handicap",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "nudged",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "four",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "hundredths",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "toward",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "Napoli",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "on",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "a",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "thin",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "five-book",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "board,",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "and",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "the",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "goals",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "market",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "hasn't",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "moved",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "in",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "thirty-five",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "hours.",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "We",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "sit",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "this",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "one",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "out",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "and",
+     "start": 12.038,
+     "end": 12.423
+    },
+    {
+     "w": "wait",
+     "start": 12.423,
+     "end": 12.808
+    },
+    {
+     "w": "for",
+     "start": 12.808,
+     "end": 13.192
+    },
+    {
+     "w": "a",
+     "start": 13.192,
+     "end": 13.577
+    },
+    {
+     "w": "real",
+     "start": 13.577,
+     "end": 13.962
+    },
+    {
+     "w": "break",
+     "start": 13.962,
+     "end": 14.346
+    },
+    {
+     "w": "in",
+     "start": 14.346,
+     "end": 14.731
+    },
+    {
+     "w": "the",
+     "start": 14.731,
+     "end": 15.115
+    },
+    {
+     "w": "line.",
+     "start": 15.115,
+     "end": 15.5
+    }
+   ],
+   "durationInFrames": 513
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Boot",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Room.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Football",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "analysis,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "with",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "receipts.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 171
+  }
+ ],
+ "fps": 30,
+ "silent": true,
+ "source": "market_desk",
+ "fixture_id": 1550164,
+ "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
+}

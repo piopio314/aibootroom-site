@@ -1,0 +1,426 @@
+{
+ "id": "2026-10-24-sc-paderborn-07-hamburger-sv",
+ "title": "SC Paderborn 07 v Hamburger SV: what the market says",
+ "match": {
+  "home": "SC Paderborn 07",
+  "away": "Hamburger SV",
+  "league": "Bundesliga",
+  "kickoff": "2026-10-24T13:30:00+00:00",
+  "home_short": "PAD",
+  "away_short": "HAM",
+  "home_color": "#16a34a",
+  "away_color": "#4f46e5"
+ },
+ "market": {
+  "fair": {
+   "home": 39.7,
+   "draw": 26.3,
+   "away": 34.0
+  },
+  "move": {
+   "home": 0.0,
+   "draw": 0.0,
+   "away": 0.0
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 34.0
+   }
+  ],
+  "goals": 2.96,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-20T10:19:00+00:00"
+ },
+ "scenes": [
+  {
+   "type": "match",
+   "speaker": "narrator",
+   "text": "SC Paderborn 07 against Hamburger SV. Bundesliga, Saturday.",
+   "words": [
+    {
+     "w": "SC",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Paderborn",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "07",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "against",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "Hamburger",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "SV.",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "Bundesliga,",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "Saturday.",
+     "start": 3.192,
+     "end": 3.577
+    }
+   ],
+   "durationInFrames": 155
+  },
+  {
+   "type": "split",
+   "speaker": "narrator",
+   "text": "Chance to win, with the bookmaker margin removed: SC Paderborn 07 40%, draw 26%, Hamburger SV 34%. SC Paderborn 07 are the favourites.",
+   "words": [
+    {
+     "w": "Chance",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "to",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "win,",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "with",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "the",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "bookmaker",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "margin",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "removed:",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "SC",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "Paderborn",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "07",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "40%,",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "draw",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "26%,",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "Hamburger",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "SV",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "34%.",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "SC",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "Paderborn",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "07",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "are",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "the",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "favourites.",
+     "start": 8.962,
+     "end": 9.346
+    }
+   ],
+   "durationInFrames": 328
+  },
+  {
+   "type": "goals",
+   "speaker": "narrator",
+   "text": "The market expects about 3.0 goals in this match. That is the highest total of the weekend.",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "market",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "expects",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "about",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "3.0",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "goals",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "in",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "this",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "match.",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "That",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "is",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "the",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "highest",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "total",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "of",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "the",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "weekend.",
+     "start": 6.654,
+     "end": 7.038
+    }
+   ],
+   "durationInFrames": 259
+  },
+  {
+   "type": "verdict",
+   "speaker": "gaffer",
+   "bullets": [
+    "SC Paderborn 07 favourites at 40%",
+    "Hamburger SV +0.0 pts since tracking started",
+    "About 3.0 goals expected"
+   ],
+   "stamp": "THE MARKET",
+   "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "is",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "market's",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "reading",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "of",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "this",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "match.",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Numbers",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "only,",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "no",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "tips.",
+     "start": 4.731,
+     "end": 5.115
+    }
+   ],
+   "durationInFrames": 201
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Boot",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Room.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Football",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "analysis,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "with",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "receipts.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 171
+  }
+ ],
+ "fps": 30,
+ "silent": true,
+ "source": "numbers",
+ "fixture_id": 1575202,
+ "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
+}

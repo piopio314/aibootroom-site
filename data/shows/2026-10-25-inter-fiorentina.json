@@ -1,0 +1,660 @@
+{
+ "id": "2026-10-25-inter-fiorentina",
+ "title": "Inter v Fiorentina: what the market says",
+ "match": {
+  "home": "Inter",
+  "away": "Fiorentina",
+  "league": "Serie A",
+  "kickoff": "2026-10-25T11:30:00+00:00",
+  "home_short": "INT",
+  "away_short": "FIO",
+  "home_color": "#0068a8",
+  "away_color": "#4f46e5"
+ },
+ "market": {
+  "fair": {
+   "home": 71.3,
+   "draw": 16.7,
+   "away": 12.0
+  },
+  "move": {
+   "home": 2.0,
+   "draw": -0.9,
+   "away": -1.1
+  },
+  "side": "home",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 69.3
+   },
+   {
+    "t": "2026-10-19T04:26:00+00:00",
+    "v": 69.3
+   },
+   {
+    "t": "2026-10-19T07:36:00+00:00",
+    "v": 69.3
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "v": 71.3
+   },
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "v": 71.3
+   },
+   {
+    "t": "2026-10-20T04:23:00+00:00",
+    "v": 71.3
+   }
+  ],
+  "goals": 3.34,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-20T10:19:00+00:00"
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "speaker": "narrator",
+   "text": "The market moved 2.0 points towards Inter.",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "market",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "moved",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "2.0",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "points",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "towards",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "Inter.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 144
+  },
+  {
+   "type": "match",
+   "speaker": "narrator",
+   "text": "Inter against Fiorentina. Serie A, Sunday.",
+   "words": [
+    {
+     "w": "Inter",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "against",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Fiorentina.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Serie",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "A,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "Sunday.",
+     "start": 2.423,
+     "end": 2.808
+    }
+   ],
+   "durationInFrames": 132
+  },
+  {
+   "type": "split",
+   "speaker": "narrator",
+   "text": "Chance to win, with the bookmaker margin removed: Inter 71%, draw 17%, Fiorentina 12%. Inter are the favourites.",
+   "words": [
+    {
+     "w": "Chance",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "to",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "win,",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "with",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "the",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "bookmaker",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "margin",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "removed:",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Inter",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "71%,",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "draw",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "17%,",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "Fiorentina",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "12%.",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "Inter",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "are",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "the",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "favourites.",
+     "start": 7.038,
+     "end": 7.423
+    }
+   ],
+   "durationInFrames": 271
+  },
+  {
+   "type": "line",
+   "speaker": "scout",
+   "text": "Since we started tracking, Inter went from 69.3% to 71.3%. The price is moving their way.",
+   "words": [
+    {
+     "w": "Since",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "we",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "started",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "tracking,",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "Inter",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "went",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "from",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "69.3%",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "to",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "71.3%.",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "The",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "price",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "is",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "moving",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "their",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "way.",
+     "start": 6.269,
+     "end": 6.654
+    }
+   ],
+   "durationInFrames": 248
+  },
+  {
+   "type": "injury",
+   "speaker": "sceptic",
+   "injuries": {
+    "home": [],
+    "away": [
+     {
+      "player": "R. Sottil",
+      "status": "Missing Fixture",
+      "reason": "Back Injury"
+     }
+    ]
+   },
+   "text": "Team news: 0 players out or doubtful for Inter, 1 for Fiorentina. Known absences are usually already in the price.",
+   "words": [
+    {
+     "w": "Team",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "news:",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "0",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "players",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "out",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "or",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "doubtful",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "for",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Inter,",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "1",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "for",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "Fiorentina.",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "Known",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "absences",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "are",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "usually",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "already",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "in",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "the",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "price.",
+     "start": 7.808,
+     "end": 8.192
+    }
+   ],
+   "durationInFrames": 294
+  },
+  {
+   "type": "goals",
+   "speaker": "narrator",
+   "text": "The market expects about 3.3 goals in this match. That is the highest total of the weekend.",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "market",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "expects",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "about",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "3.3",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "goals",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "in",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "this",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "match.",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "That",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "is",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "the",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "highest",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "total",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "of",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "the",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "weekend.",
+     "start": 6.654,
+     "end": 7.038
+    }
+   ],
+   "durationInFrames": 259
+  },
+  {
+   "type": "verdict",
+   "speaker": "gaffer",
+   "bullets": [
+    "Inter favourites at 71%",
+    "Inter +2.0 pts since tracking started",
+    "About 3.3 goals expected"
+   ],
+   "stamp": "THE MARKET",
+   "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "is",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "market's",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "reading",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "of",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "this",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "match.",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Numbers",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "only,",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "no",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "tips.",
+     "start": 4.731,
+     "end": 5.115
+    }
+   ],
+   "durationInFrames": 201
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Boot",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Room.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Football",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "analysis,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "with",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "receipts.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 171
+  }
+ ],
+ "fps": 30,
+ "silent": true,
+ "source": "numbers",
+ "fixture_id": 1550161,
+ "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
+}

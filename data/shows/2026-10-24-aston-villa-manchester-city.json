@@ -1,0 +1,1132 @@
+{
+ "id": "2026-10-24-aston-villa-manchester-city",
+ "title": "City 55.7% — but the goal line is thin",
+ "match": {
+  "home": "Aston Villa",
+  "away": "Manchester City",
+  "league": "Premier League",
+  "kickoff": "2026-10-24T11:30:00+00:00",
+  "home_short": "AVI",
+  "away_short": "MCI",
+  "home_color": "#670e36",
+  "away_color": "#4c9fd6"
+ },
+ "market": {
+  "fair": {
+   "home": 21.6,
+   "draw": 22.6,
+   "away": 55.7
+  },
+  "move": {
+   "home": -0.1,
+   "draw": -0.5,
+   "away": 0.6
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 55.2
+   },
+   {
+    "t": "2026-10-18T23:16:00+00:00",
+    "v": 56.0
+   },
+   {
+    "t": "2026-10-19T02:31:00+00:00",
+    "v": 56.0
+   },
+   {
+    "t": "2026-10-19T05:22:00+00:00",
+    "v": 56.0
+   },
+   {
+    "t": "2026-10-19T11:20:00+00:00",
+    "v": 55.8
+   },
+   {
+    "t": "2026-10-19T14:23:00+00:00",
+    "v": 55.8
+   },
+   {
+    "t": "2026-10-19T17:18:00+00:00",
+    "v": 55.7
+   }
+  ],
+  "goals": 3.09,
+  "goals_rank": 4,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-20T10:19:00+00:00"
+ },
+ "scenes": [
+  {
+   "type": "match",
+   "speaker": "narrator",
+   "text": "Fifty-five point seven per cent Manchester City, a plus three-quarter handicap, and one flicker on the goals line that isn't what it looks like.",
+   "words": [
+    {
+     "w": "Fifty-five",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "point",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "seven",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "per",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "cent",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "Manchester",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "City,",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "a",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "plus",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "three-quarter",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "handicap,",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "and",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "one",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "flicker",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "on",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "the",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "goals",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "line",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "that",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "isn't",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "what",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "it",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "looks",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "like.",
+     "start": 9.346,
+     "end": 9.731
+    }
+   ],
+   "durationInFrames": 340
+  },
+  {
+   "type": "goals",
+   "speaker": "scout",
+   "text": "The market's been flat for thirty-five hours. City clear at fifty-six per cent, the draw twenty-three, Villa twenty-two. Over three goals inched up from fifty point three to fifty-two point two on the sharp book. That's a lean toward a high-scoring game.",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "market's",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "been",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "flat",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "for",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "thirty-five",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "hours.",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "City",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "clear",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "at",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "fifty-six",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "per",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "cent,",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "the",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "draw",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "twenty-three,",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "Villa",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "twenty-two.",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "Over",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "three",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "goals",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "inched",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "up",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "from",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "fifty",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "point",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "three",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "to",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "fifty-two",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "point",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "two",
+     "start": 12.038,
+     "end": 12.423
+    },
+    {
+     "w": "on",
+     "start": 12.423,
+     "end": 12.808
+    },
+    {
+     "w": "the",
+     "start": 12.808,
+     "end": 13.192
+    },
+    {
+     "w": "sharp",
+     "start": 13.192,
+     "end": 13.577
+    },
+    {
+     "w": "book.",
+     "start": 13.577,
+     "end": 13.962
+    },
+    {
+     "w": "That's",
+     "start": 13.962,
+     "end": 14.346
+    },
+    {
+     "w": "a",
+     "start": 14.346,
+     "end": 14.731
+    },
+    {
+     "w": "lean",
+     "start": 14.731,
+     "end": 15.115
+    },
+    {
+     "w": "toward",
+     "start": 15.115,
+     "end": 15.5
+    },
+    {
+     "w": "a",
+     "start": 15.5,
+     "end": 15.885
+    },
+    {
+     "w": "high-scoring",
+     "start": 15.885,
+     "end": 16.269
+    },
+    {
+     "w": "game.",
+     "start": 16.269,
+     "end": 16.654
+    }
+   ],
+   "durationInFrames": 548
+  },
+  {
+   "type": "noise",
+   "speaker": "sceptic",
+   "text": "A lean? All one point nine points arrived in a twenty-seven-minute step on one book, off a first quote we can't date to the true opening, and it's drifted back point four since. Consensus moved eight tenths. The fair total moved eight hundredths. That's a stale tick, not money.",
+   "words": [
+    {
+     "w": "A",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "lean?",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "All",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "one",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "point",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "nine",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "points",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "arrived",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "in",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "a",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "twenty-seven-minute",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "step",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "on",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "one",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "book,",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "off",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "a",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "first",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "quote",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "we",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "can't",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "date",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "to",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "the",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "true",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "opening,",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "and",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "it's",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "drifted",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "back",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "point",
+     "start": 12.038,
+     "end": 12.423
+    },
+    {
+     "w": "four",
+     "start": 12.423,
+     "end": 12.808
+    },
+    {
+     "w": "since.",
+     "start": 12.808,
+     "end": 13.192
+    },
+    {
+     "w": "Consensus",
+     "start": 13.192,
+     "end": 13.577
+    },
+    {
+     "w": "moved",
+     "start": 13.577,
+     "end": 13.962
+    },
+    {
+     "w": "eight",
+     "start": 13.962,
+     "end": 14.346
+    },
+    {
+     "w": "tenths.",
+     "start": 14.346,
+     "end": 14.731
+    },
+    {
+     "w": "The",
+     "start": 14.731,
+     "end": 15.115
+    },
+    {
+     "w": "fair",
+     "start": 15.115,
+     "end": 15.5
+    },
+    {
+     "w": "total",
+     "start": 15.5,
+     "end": 15.885
+    },
+    {
+     "w": "moved",
+     "start": 15.885,
+     "end": 16.269
+    },
+    {
+     "w": "eight",
+     "start": 16.269,
+     "end": 16.654
+    },
+    {
+     "w": "hundredths.",
+     "start": 16.654,
+     "end": 17.038
+    },
+    {
+     "w": "That's",
+     "start": 17.038,
+     "end": 17.423
+    },
+    {
+     "w": "a",
+     "start": 17.423,
+     "end": 17.808
+    },
+    {
+     "w": "stale",
+     "start": 17.808,
+     "end": 18.192
+    },
+    {
+     "w": "tick,",
+     "start": 18.192,
+     "end": 18.577
+    },
+    {
+     "w": "not",
+     "start": 18.577,
+     "end": 18.962
+    },
+    {
+     "w": "money.",
+     "start": 18.962,
+     "end": 19.346
+    }
+   ],
+   "durationInFrames": 628
+  },
+  {
+   "type": "split",
+   "speaker": "narrator",
+   "text": "And the injury feed? Zero reports for either squad, ninety-seven hours out. More likely a coverage gap than two fully fit teams.",
+   "words": [
+    {
+     "w": "And",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "the",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "injury",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "feed?",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "Zero",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "reports",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "for",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "either",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "squad,",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "ninety-seven",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "hours",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "out.",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "More",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "likely",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "a",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "coverage",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "gap",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "than",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "two",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "fully",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "fit",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "teams.",
+     "start": 8.577,
+     "end": 8.962
+    }
+   ],
+   "durationInFrames": 317
+  },
+  {
+   "type": "verdict",
+   "speaker": "gaffer",
+   "text": "So here's the reading. City are a solid fifty-six per cent favourite, the line's settled at plus three-quarters, and the one-two-X moves are all under one point — noise. The Over three flicker is a single-book nudge below the notable line, not a settled lean. Thin sample, six books, no fitness news. The market's told us its shape.",
+   "bullets": [
+    "City 55.7% fair, AH +0.75 settled — 1x2 moves all under 1 pp",
+    "Thin sample: 7 snapshots, 6 books, zero injury reports = coverage gap, not fitness news"
+   ],
+   "stamp": "MEDIUM CONFIDENCE",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "here's",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "reading.",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "City",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "are",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "a",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "solid",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "fifty-six",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "per",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "cent",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "favourite,",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "the",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "line's",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "settled",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "at",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "plus",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "three-quarters,",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "and",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "the",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "one-two-X",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "moves",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "are",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "all",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "under",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "one",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "point",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "—",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "noise.",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "The",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "Over",
+     "start": 12.038,
+     "end": 12.423
+    },
+    {
+     "w": "three",
+     "start": 12.423,
+     "end": 12.808
+    },
+    {
+     "w": "flicker",
+     "start": 12.808,
+     "end": 13.192
+    },
+    {
+     "w": "is",
+     "start": 13.192,
+     "end": 13.577
+    },
+    {
+     "w": "a",
+     "start": 13.577,
+     "end": 13.962
+    },
+    {
+     "w": "single-book",
+     "start": 13.962,
+     "end": 14.346
+    },
+    {
+     "w": "nudge",
+     "start": 14.346,
+     "end": 14.731
+    },
+    {
+     "w": "below",
+     "start": 14.731,
+     "end": 15.115
+    },
+    {
+     "w": "the",
+     "start": 15.115,
+     "end": 15.5
+    },
+    {
+     "w": "notable",
+     "start": 15.5,
+     "end": 15.885
+    },
+    {
+     "w": "line,",
+     "start": 15.885,
+     "end": 16.269
+    },
+    {
+     "w": "not",
+     "start": 16.269,
+     "end": 16.654
+    },
+    {
+     "w": "a",
+     "start": 16.654,
+     "end": 17.038
+    },
+    {
+     "w": "settled",
+     "start": 17.038,
+     "end": 17.423
+    },
+    {
+     "w": "lean.",
+     "start": 17.423,
+     "end": 17.808
+    },
+    {
+     "w": "Thin",
+     "start": 17.808,
+     "end": 18.192
+    },
+    {
+     "w": "sample,",
+     "start": 18.192,
+     "end": 18.577
+    },
+    {
+     "w": "six",
+     "start": 18.577,
+     "end": 18.962
+    },
+    {
+     "w": "books,",
+     "start": 18.962,
+     "end": 19.346
+    },
+    {
+     "w": "no",
+     "start": 19.346,
+     "end": 19.731
+    },
+    {
+     "w": "fitness",
+     "start": 19.731,
+     "end": 20.115
+    },
+    {
+     "w": "news.",
+     "start": 20.115,
+     "end": 20.5
+    },
+    {
+     "w": "The",
+     "start": 20.5,
+     "end": 20.885
+    },
+    {
+     "w": "market's",
+     "start": 20.885,
+     "end": 21.269
+    },
+    {
+     "w": "told",
+     "start": 21.269,
+     "end": 21.654
+    },
+    {
+     "w": "us",
+     "start": 21.654,
+     "end": 22.038
+    },
+    {
+     "w": "its",
+     "start": 22.038,
+     "end": 22.423
+    },
+    {
+     "w": "shape.",
+     "start": 22.423,
+     "end": 22.808
+    }
+   ],
+   "durationInFrames": 732
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Boot",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Room.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Football",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "analysis,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "with",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "receipts.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 171
+  }
+ ],
+ "fps": 30,
+ "silent": true,
+ "source": "market_desk",
+ "fixture_id": 1557438,
+ "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
+}

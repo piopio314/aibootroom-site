@@ -1,0 +1,613 @@
+{
+ "id": "2026-10-25-lecce-juventus",
+ "title": "Lecce v Juventus: what the market says",
+ "match": {
+  "home": "Lecce",
+  "away": "Juventus",
+  "league": "Serie A",
+  "kickoff": "2026-10-25T17:00:00+00:00",
+  "home_short": "LEC",
+  "away_short": "JUV",
+  "home_color": "#be123c",
+  "away_color": "#222222"
+ },
+ "market": {
+  "fair": {
+   "home": 11.8,
+   "draw": 22.2,
+   "away": 66.1
+  },
+  "move": {
+   "home": -0.0,
+   "draw": -0.3,
+   "away": 0.4
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 65.7
+   },
+   {
+    "t": "2026-10-19T04:26:00+00:00",
+    "v": 65.5
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "v": 65.5
+   },
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "v": 65.5
+   },
+   {
+    "t": "2026-10-20T04:23:00+00:00",
+    "v": 66.1
+   }
+  ],
+  "goals": 2.61,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-20T10:19:00+00:00"
+ },
+ "scenes": [
+  {
+   "type": "match",
+   "speaker": "narrator",
+   "text": "Lecce against Juventus. Serie A, Sunday.",
+   "words": [
+    {
+     "w": "Lecce",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "against",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Juventus.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Serie",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "A,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "Sunday.",
+     "start": 2.423,
+     "end": 2.808
+    }
+   ],
+   "durationInFrames": 132
+  },
+  {
+   "type": "split",
+   "speaker": "narrator",
+   "text": "Chance to win, with the bookmaker margin removed: Lecce 12%, draw 22%, Juventus 66%. Juventus are the favourites.",
+   "words": [
+    {
+     "w": "Chance",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "to",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "win,",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "with",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "the",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "bookmaker",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "margin",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "removed:",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Lecce",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "12%,",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "draw",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "22%,",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "Juventus",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "66%.",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "Juventus",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "are",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "the",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "favourites.",
+     "start": 7.038,
+     "end": 7.423
+    }
+   ],
+   "durationInFrames": 271
+  },
+  {
+   "type": "line",
+   "speaker": "scout",
+   "text": "Since we started tracking, Juventus went from 65.7% to 66.1%. The price is moving their way.",
+   "words": [
+    {
+     "w": "Since",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "we",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "started",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "tracking,",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "Juventus",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "went",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "from",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "65.7%",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "to",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "66.1%.",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "The",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "price",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "is",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "moving",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "their",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "way.",
+     "start": 6.269,
+     "end": 6.654
+    }
+   ],
+   "durationInFrames": 248
+  },
+  {
+   "type": "noise",
+   "speaker": "sceptic",
+   "text": "But a move this small can be normal price noise. We wait for team news before we read too much into it.",
+   "words": [
+    {
+     "w": "But",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "a",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "move",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "this",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "small",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "can",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "be",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "normal",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "price",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "noise.",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "We",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "wait",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "for",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "team",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "news",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "before",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "we",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "read",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "too",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "much",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "into",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "it.",
+     "start": 8.577,
+     "end": 8.962
+    }
+   ],
+   "durationInFrames": 317
+  },
+  {
+   "type": "goals",
+   "speaker": "narrator",
+   "text": "The market expects about 2.6 goals in this match. That is the highest total of the weekend.",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "market",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "expects",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "about",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "2.6",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "goals",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "in",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "this",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "match.",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "That",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "is",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "the",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "highest",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "total",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "of",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "the",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "weekend.",
+     "start": 6.654,
+     "end": 7.038
+    }
+   ],
+   "durationInFrames": 259
+  },
+  {
+   "type": "verdict",
+   "speaker": "gaffer",
+   "bullets": [
+    "Juventus favourites at 66%",
+    "Juventus +0.4 pts since tracking started",
+    "About 2.6 goals expected"
+   ],
+   "stamp": "THE MARKET",
+   "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "is",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "market's",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "reading",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "of",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "this",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "match.",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Numbers",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "only,",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "no",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "tips.",
+     "start": 4.731,
+     "end": 5.115
+    }
+   ],
+   "durationInFrames": 201
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Boot",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Room.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Football",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "analysis,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "with",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "receipts.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 171
+  }
+ ],
+ "fps": 30,
+ "silent": true,
+ "source": "numbers",
+ "fixture_id": 1550163,
+ "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
+}

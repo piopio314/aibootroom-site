@@ -1,0 +1,1084 @@
+{
+ "id": "2026-10-24-chelsea-tottenham",
+ "title": "Chelsea 54.9%: One Snapshot, Two Flat Days",
+ "match": {
+  "home": "Chelsea",
+  "away": "Tottenham",
+  "league": "Premier League",
+  "kickoff": "2026-10-24T16:30:00+00:00",
+  "home_short": "CHE",
+  "away_short": "TOT",
+  "home_color": "#034694",
+  "away_color": "#132257"
+ },
+ "market": {
+  "fair": {
+   "home": 54.9,
+   "draw": 22.7,
+   "away": 22.5
+  },
+  "move": {
+   "home": 2.4,
+   "draw": -0.7,
+   "away": -1.7
+  },
+  "side": "home",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 52.5
+   },
+   {
+    "t": "2026-10-18T23:16:00+00:00",
+    "v": 54.9
+   },
+   {
+    "t": "2026-10-19T02:31:00+00:00",
+    "v": 54.9
+   },
+   {
+    "t": "2026-10-19T05:22:00+00:00",
+    "v": 54.9
+   },
+   {
+    "t": "2026-10-19T11:20:00+00:00",
+    "v": 55.1
+   },
+   {
+    "t": "2026-10-19T14:23:00+00:00",
+    "v": 55.1
+   },
+   {
+    "t": "2026-10-19T17:18:00+00:00",
+    "v": 54.9
+   }
+  ],
+  "goals": 3.05,
+  "goals_rank": 5,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-20T10:19:00+00:00"
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "speaker": "narrator",
+   "text": "Twenty-seven minutes after our feed switched on, Chelsea moved from fifty-two and a half per cent to almost fifty-five.",
+   "words": [
+    {
+     "w": "Twenty-seven",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "minutes",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "after",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "our",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "feed",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "switched",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "on,",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "Chelsea",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "moved",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "from",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "fifty-two",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "and",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "a",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "half",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "per",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "cent",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "to",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "almost",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "fifty-five.",
+     "start": 7.423,
+     "end": 7.808
+    }
+   ],
+   "durationInFrames": 282
+  },
+  {
+   "type": "match",
+   "speaker": "narrator",
+   "text": "Chelsea against Tottenham. Premier League, Saturday.",
+   "words": [
+    {
+     "w": "Chelsea",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "against",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Tottenham.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Premier",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "League,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "Saturday.",
+     "start": 2.423,
+     "end": 2.808
+    }
+   ],
+   "durationInFrames": 132
+  },
+  {
+   "type": "line",
+   "speaker": "narrator",
+   "text": "Then, for two days, nothing.",
+   "words": [
+    {
+     "w": "Then,",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "for",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "two",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "days,",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "nothing.",
+     "start": 2.038,
+     "end": 2.423
+    }
+   ],
+   "durationInFrames": 121
+  },
+  {
+   "type": "goals",
+   "speaker": "scout",
+   "text": "The sharp market went from fifty-two and a half to fifty-four point nine per cent on Chelsea, and pushed the handicap a tenth of a goal toward them, to minus zero point seven three. Four books moved together. That's the shape of an informed move.",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "sharp",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "market",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "went",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "from",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "fifty-two",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "and",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "a",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "half",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "to",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "fifty-four",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "point",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "nine",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "per",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "cent",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "on",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "Chelsea,",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "and",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "pushed",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "the",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "handicap",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "a",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "tenth",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "of",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "a",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "goal",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "toward",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "them,",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "to",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "minus",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "zero",
+     "start": 12.038,
+     "end": 12.423
+    },
+    {
+     "w": "point",
+     "start": 12.423,
+     "end": 12.808
+    },
+    {
+     "w": "seven",
+     "start": 12.808,
+     "end": 13.192
+    },
+    {
+     "w": "three.",
+     "start": 13.192,
+     "end": 13.577
+    },
+    {
+     "w": "Four",
+     "start": 13.577,
+     "end": 13.962
+    },
+    {
+     "w": "books",
+     "start": 13.962,
+     "end": 14.346
+    },
+    {
+     "w": "moved",
+     "start": 14.346,
+     "end": 14.731
+    },
+    {
+     "w": "together.",
+     "start": 14.731,
+     "end": 15.115
+    },
+    {
+     "w": "That's",
+     "start": 15.115,
+     "end": 15.5
+    },
+    {
+     "w": "the",
+     "start": 15.5,
+     "end": 15.885
+    },
+    {
+     "w": "shape",
+     "start": 15.885,
+     "end": 16.269
+    },
+    {
+     "w": "of",
+     "start": 16.269,
+     "end": 16.654
+    },
+    {
+     "w": "an",
+     "start": 16.654,
+     "end": 17.038
+    },
+    {
+     "w": "informed",
+     "start": 17.038,
+     "end": 17.423
+    },
+    {
+     "w": "move.",
+     "start": 17.423,
+     "end": 17.808
+    }
+   ],
+   "durationInFrames": 582
+  },
+  {
+   "type": "noise",
+   "speaker": "sceptic",
+   "text": "Or it's a screenshot. Four books carrying the identical timestamp, twenty-seven minutes after we started collecting, is just as easily books reopening overnight or our first capture settling. And we have seven snapshots of history. That's a level, not a trend.",
+   "words": [
+    {
+     "w": "Or",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "it's",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "a",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "screenshot.",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "Four",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "books",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "carrying",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "the",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "identical",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "timestamp,",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "twenty-seven",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "minutes",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "after",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "we",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "started",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "collecting,",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "is",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "just",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "as",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "easily",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "books",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "reopening",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "overnight",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "or",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "our",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "first",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "capture",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "settling.",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "And",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "we",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "have",
+     "start": 12.038,
+     "end": 12.423
+    },
+    {
+     "w": "seven",
+     "start": 12.423,
+     "end": 12.808
+    },
+    {
+     "w": "snapshots",
+     "start": 12.808,
+     "end": 13.192
+    },
+    {
+     "w": "of",
+     "start": 13.192,
+     "end": 13.577
+    },
+    {
+     "w": "history.",
+     "start": 13.577,
+     "end": 13.962
+    },
+    {
+     "w": "That's",
+     "start": 13.962,
+     "end": 14.346
+    },
+    {
+     "w": "a",
+     "start": 14.346,
+     "end": 14.731
+    },
+    {
+     "w": "level,",
+     "start": 14.731,
+     "end": 15.115
+    },
+    {
+     "w": "not",
+     "start": 15.115,
+     "end": 15.5
+    },
+    {
+     "w": "a",
+     "start": 15.5,
+     "end": 15.885
+    },
+    {
+     "w": "trend.",
+     "start": 15.885,
+     "end": 16.269
+    }
+   ],
+   "durationInFrames": 536
+  },
+  {
+   "type": "goals",
+   "speaker": "narrator",
+   "text": "The goals market agrees with neither of them. Over three point zero sits at about fifty-one per cent, the fair total barely moved, and both teams to score holds at just over sixty per cent, with no movement at all.",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "goals",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "market",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "agrees",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "with",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "neither",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "of",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "them.",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Over",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "three",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "point",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "zero",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "sits",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "at",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "about",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "fifty-one",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "per",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "cent,",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "the",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "fair",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "total",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "barely",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "moved,",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "and",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "both",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "teams",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "to",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "score",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "holds",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "at",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "just",
+     "start": 12.038,
+     "end": 12.423
+    },
+    {
+     "w": "over",
+     "start": 12.423,
+     "end": 12.808
+    },
+    {
+     "w": "sixty",
+     "start": 12.808,
+     "end": 13.192
+    },
+    {
+     "w": "per",
+     "start": 13.192,
+     "end": 13.577
+    },
+    {
+     "w": "cent,",
+     "start": 13.577,
+     "end": 13.962
+    },
+    {
+     "w": "with",
+     "start": 13.962,
+     "end": 14.346
+    },
+    {
+     "w": "no",
+     "start": 14.346,
+     "end": 14.731
+    },
+    {
+     "w": "movement",
+     "start": 14.731,
+     "end": 15.115
+    },
+    {
+     "w": "at",
+     "start": 15.115,
+     "end": 15.5
+    },
+    {
+     "w": "all.",
+     "start": 15.5,
+     "end": 15.885
+    }
+   ],
+   "durationInFrames": 525
+  },
+  {
+   "type": "verdict",
+   "speaker": "gaffer",
+   "text": "The market told us Chelsea are three-quarters of a goal better, and it has gone flat for a day. Until it says it again, we watch.",
+   "bullets": [
+    "Chelsea 54.9% fair, AH fair line -0.73 after one 2.5 pp snapshot",
+    "Flat for 24 hours over just 35.5 hours and 7 snapshots of history",
+    "Goals settled: Over 3.0 at 51.2%, BTTS Yes 60.6% unchanged"
+   ],
+   "stamp": "LOW CONFIDENCE",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "market",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "told",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "us",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "Chelsea",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "are",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "three-quarters",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "of",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "a",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "goal",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "better,",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "and",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "it",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "has",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "gone",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "flat",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "for",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "a",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "day.",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "Until",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "it",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "says",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "it",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "again,",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "we",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "watch.",
+     "start": 10.115,
+     "end": 10.5
+    }
+   ],
+   "durationInFrames": 363
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Boot",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Room.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Football",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "analysis,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "with",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "receipts.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 171
+  }
+ ],
+ "fps": 30,
+ "silent": true,
+ "source": "market_desk",
+ "fixture_id": 1557439,
+ "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
+}

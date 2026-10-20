@@ -1,0 +1,661 @@
+{
+ "id": "2026-10-25-atalanta-frosinone",
+ "title": "Atalanta v Frosinone: what the market says",
+ "match": {
+  "home": "Atalanta",
+  "away": "Frosinone",
+  "league": "Serie A",
+  "kickoff": "2026-10-25T14:00:00+00:00",
+  "home_short": "ATA",
+  "away_short": "FRO",
+  "home_color": "#b45309",
+  "away_color": "#4f46e5"
+ },
+ "market": {
+  "fair": {
+   "home": 53.9,
+   "draw": 22.5,
+   "away": 23.6
+  },
+  "move": {
+   "home": -2.2,
+   "draw": 0.1,
+   "away": 2.1
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 21.5
+   },
+   {
+    "t": "2026-10-19T01:34:00+00:00",
+    "v": 22.3
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "v": 23.7
+   },
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "v": 23.6
+   },
+   {
+    "t": "2026-10-20T04:23:00+00:00",
+    "v": 23.6
+   }
+  ],
+  "goals": 3.39,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-20T10:19:00+00:00"
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "speaker": "narrator",
+   "text": "The market moved 2.1 points towards Frosinone.",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "market",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "moved",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "2.1",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "points",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "towards",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "Frosinone.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 144
+  },
+  {
+   "type": "match",
+   "speaker": "narrator",
+   "text": "Atalanta against Frosinone. Serie A, Sunday.",
+   "words": [
+    {
+     "w": "Atalanta",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "against",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Frosinone.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Serie",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "A,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "Sunday.",
+     "start": 2.423,
+     "end": 2.808
+    }
+   ],
+   "durationInFrames": 132
+  },
+  {
+   "type": "split",
+   "speaker": "narrator",
+   "text": "Chance to win, with the bookmaker margin removed: Atalanta 54%, draw 22%, Frosinone 24%. Atalanta are the favourites.",
+   "words": [
+    {
+     "w": "Chance",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "to",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "win,",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "with",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "the",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "bookmaker",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "margin",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "removed:",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Atalanta",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "54%,",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "draw",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "22%,",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "Frosinone",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "24%.",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "Atalanta",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "are",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "the",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "favourites.",
+     "start": 7.038,
+     "end": 7.423
+    }
+   ],
+   "durationInFrames": 271
+  },
+  {
+   "type": "line",
+   "speaker": "scout",
+   "text": "Since we started tracking, Frosinone went from 21.5% to 23.6%. The price is moving their way.",
+   "words": [
+    {
+     "w": "Since",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "we",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "started",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "tracking,",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "Frosinone",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "went",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "from",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "21.5%",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "to",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "23.6%.",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "The",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "price",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "is",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "moving",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "their",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "way.",
+     "start": 6.269,
+     "end": 6.654
+    }
+   ],
+   "durationInFrames": 248
+  },
+  {
+   "type": "injury",
+   "speaker": "sceptic",
+   "injuries": {
+    "home": [
+     {
+      "player": "I. Hien",
+      "status": "Missing Fixture",
+      "reason": "Muscle Bruise"
+     },
+     {
+      "player": "K. Sulemana",
+      "status": "Missing Fixture",
+      "reason": "Jumpers Knee"
+     }
+    ],
+    "away": []
+   },
+   "text": "Team news: 2 players out or doubtful for Atalanta, 0 for Frosinone. Known absences are usually already in the price.",
+   "words": [
+    {
+     "w": "Team",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "news:",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "2",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "players",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "out",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "or",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "doubtful",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "for",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Atalanta,",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "0",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "for",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "Frosinone.",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "Known",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "absences",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "are",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "usually",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "already",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "in",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "the",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "price.",
+     "start": 7.808,
+     "end": 8.192
+    }
+   ],
+   "durationInFrames": 294
+  },
+  {
+   "type": "goals",
+   "speaker": "narrator",
+   "text": "The market expects about 3.4 goals in this match. That is the highest total of the weekend.",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "market",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "expects",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "about",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "3.4",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "goals",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "in",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "this",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "match.",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "That",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "is",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "the",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "highest",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "total",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "of",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "the",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "weekend.",
+     "start": 6.654,
+     "end": 7.038
+    }
+   ],
+   "durationInFrames": 259
+  },
+  {
+   "type": "verdict",
+   "speaker": "gaffer",
+   "bullets": [
+    "Atalanta favourites at 54%",
+    "Frosinone +2.1 pts since tracking started",
+    "About 3.4 goals expected"
+   ],
+   "stamp": "THE MARKET",
+   "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "is",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "market's",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "reading",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "of",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "this",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "match.",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Numbers",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "only,",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "no",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "tips.",
+     "start": 4.731,
+     "end": 5.115
+    }
+   ],
+   "durationInFrames": 201
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Boot",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Room.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Football",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "analysis,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "with",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "receipts.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 171
+  }
+ ],
+ "fps": 30,
+ "silent": true,
+ "source": "numbers",
+ "fixture_id": 1550157,
+ "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
+}

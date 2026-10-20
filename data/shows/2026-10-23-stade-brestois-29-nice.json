@@ -1,0 +1,429 @@
+{
+ "id": "2026-10-23-stade-brestois-29-nice",
+ "title": "Stade Brestois 29 v Nice: what the market says",
+ "match": {
+  "home": "Stade Brestois 29",
+  "away": "Nice",
+  "league": "Ligue 1",
+  "kickoff": "2026-10-23T18:45:00+00:00",
+  "home_short": "STA",
+  "away_short": "NIC",
+  "home_color": "#2563eb",
+  "away_color": "#9333ea"
+ },
+ "market": {
+  "fair": {
+   "home": 42.6,
+   "draw": 29.0,
+   "away": 28.4
+  },
+  "move": {
+   "home": 0.1,
+   "draw": 0.5,
+   "away": -0.6
+  },
+  "side": "home",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 42.5
+   },
+   {
+    "t": "2026-10-19T05:22:00+00:00",
+    "v": 43.4
+   },
+   {
+    "t": "2026-10-20T05:21:00+00:00",
+    "v": 42.6
+   }
+  ],
+  "goals": 2.75,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-20T10:19:00+00:00"
+ },
+ "scenes": [
+  {
+   "type": "match",
+   "speaker": "narrator",
+   "text": "Stade Brestois 29 against Nice. Ligue 1, Friday.",
+   "words": [
+    {
+     "w": "Stade",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Brestois",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "29",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "against",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "Nice.",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "Ligue",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "1,",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "Friday.",
+     "start": 3.192,
+     "end": 3.577
+    }
+   ],
+   "durationInFrames": 155
+  },
+  {
+   "type": "split",
+   "speaker": "narrator",
+   "text": "Chance to win, with the bookmaker margin removed: Stade Brestois 29 43%, draw 29%, Nice 28%. Stade Brestois 29 are the favourites.",
+   "words": [
+    {
+     "w": "Chance",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "to",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "win,",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "with",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "the",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "bookmaker",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "margin",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "removed:",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Stade",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "Brestois",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "29",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "43%,",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "draw",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "29%,",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "Nice",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "28%.",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "Stade",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "Brestois",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "29",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "are",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "the",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "favourites.",
+     "start": 8.577,
+     "end": 8.962
+    }
+   ],
+   "durationInFrames": 317
+  },
+  {
+   "type": "goals",
+   "speaker": "narrator",
+   "text": "The market expects about 2.8 goals in this match. That is the highest total of the weekend.",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "market",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "expects",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "about",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "2.8",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "goals",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "in",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "this",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "match.",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "That",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "is",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "the",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "highest",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "total",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "of",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "the",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "weekend.",
+     "start": 6.654,
+     "end": 7.038
+    }
+   ],
+   "durationInFrames": 259
+  },
+  {
+   "type": "verdict",
+   "speaker": "gaffer",
+   "bullets": [
+    "Stade Brestois 29 favourites at 43%",
+    "Stade Brestois 29 +0.1 pts since tracking started",
+    "About 2.8 goals expected"
+   ],
+   "stamp": "THE MARKET",
+   "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "is",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "market's",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "reading",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "of",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "this",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "match.",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Numbers",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "only,",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "no",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "tips.",
+     "start": 4.731,
+     "end": 5.115
+    }
+   ],
+   "durationInFrames": 201
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Boot",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Room.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Football",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "analysis,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "with",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "receipts.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 171
+  }
+ ],
+ "fps": 30,
+ "silent": true,
+ "source": "numbers",
+ "fixture_id": 1552794,
+ "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
+}

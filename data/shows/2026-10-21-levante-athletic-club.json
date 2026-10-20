@@ -1,0 +1,1148 @@
+{
+ "id": "2026-10-21-levante-athletic-club",
+ "title": "Levante vs Athletic: eight hours, no move",
+ "match": {
+  "home": "Levante",
+  "away": "Athletic Club",
+  "league": "La Liga",
+  "kickoff": "2026-10-21T18:00:00+00:00",
+  "home_short": "LEV",
+  "away_short": "ACL",
+  "home_color": "#b4053f",
+  "away_color": "#ee2523"
+ },
+ "market": {
+  "fair": {
+   "home": 25.5,
+   "draw": 30.8,
+   "away": 43.7
+  },
+  "move": {
+   "home": 0.2,
+   "draw": -0.0,
+   "away": -0.2
+  },
+  "side": "home",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 25.3
+   },
+   {
+    "t": "2026-10-19T00:55:00+00:00",
+    "v": 25.5
+   },
+   {
+    "t": "2026-10-19T03:27:00+00:00",
+    "v": 25.5
+   },
+   {
+    "t": "2026-10-19T06:46:00+00:00",
+    "v": 25.5
+   }
+  ],
+  "goals": 2.47,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-19T06:46:00+00:00"
+ },
+ "scenes": [
+  {
+   "type": "match",
+   "speaker": "narrator",
+   "text": "Four price snapshots in eight hours. Four names on the injury list. And on the board in front of us, almost nothing has moved at all.",
+   "words": [
+    {
+     "w": "Four",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "price",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "snapshots",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "in",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "eight",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "hours.",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "Four",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "names",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "on",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "the",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "injury",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "list.",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "And",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "on",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "the",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "board",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "in",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "front",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "of",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "us,",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "almost",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "nothing",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "has",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "moved",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "at",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "all.",
+     "start": 10.115,
+     "end": 10.5
+    }
+   ],
+   "durationInFrames": 363
+  },
+  {
+   "type": "goals",
+   "speaker": "scout",
+   "text": "Athletic Club are the clear favourites, about 44 per cent fair against Levante's 25 and a half, draw at 31. Eight hours, four snapshots, and not a single meaningful tick. That silence is the story.",
+   "words": [
+    {
+     "w": "Athletic",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Club",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "are",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "the",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "clear",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "favourites,",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "about",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "44",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "per",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "cent",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "fair",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "against",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "Levante's",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "25",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "and",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "a",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "half,",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "draw",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "at",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "31.",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "Eight",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "hours,",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "four",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "snapshots,",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "and",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "not",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "a",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "single",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "meaningful",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "tick.",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "That",
+     "start": 12.038,
+     "end": 12.423
+    },
+    {
+     "w": "silence",
+     "start": 12.423,
+     "end": 12.808
+    },
+    {
+     "w": "is",
+     "start": 12.808,
+     "end": 13.192
+    },
+    {
+     "w": "the",
+     "start": 13.192,
+     "end": 13.577
+    },
+    {
+     "w": "story.",
+     "start": 13.577,
+     "end": 13.962
+    }
+   ],
+   "durationInFrames": 467
+  },
+  {
+   "type": "noise",
+   "speaker": "sceptic",
+   "text": "Careful with that word, silence. That's rounding noise, not a market holding its breath.",
+   "words": [
+    {
+     "w": "Careful",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "with",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "that",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "word,",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "silence.",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "That's",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "rounding",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "noise,",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "not",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "a",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "market",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "holding",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "its",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "breath.",
+     "start": 5.5,
+     "end": 5.885
+    }
+   ],
+   "durationInFrames": 225
+  },
+  {
+   "type": "split",
+   "speaker": "scout",
+   "text": "Then look at the gap. The sharp book has Levante at home priced about nine per cent above the six-book average. That's the one live thread on the board.",
+   "words": [
+    {
+     "w": "Then",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "look",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "at",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "the",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "gap.",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "The",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "sharp",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "book",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "has",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "Levante",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "at",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "home",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "priced",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "about",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "nine",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "per",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "cent",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "above",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "the",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "six-book",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "average.",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "That's",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "the",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "one",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "live",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "thread",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "on",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "the",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "board.",
+     "start": 11.269,
+     "end": 11.654
+    }
+   ],
+   "durationInFrames": 398
+  },
+  {
+   "type": "noise",
+   "speaker": "sceptic",
+   "text": "It is a real gap, but nine per cent on the odds is only about two and a half points of fair probability, 25 and a half against a consensus of 28. And it's static — it's not a move. We can't say which.",
+   "words": [
+    {
+     "w": "It",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "is",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "a",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "real",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "gap,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "but",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "nine",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "per",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "cent",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "on",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "the",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "odds",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "is",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "only",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "about",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "two",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "and",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "a",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "half",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "points",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "of",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "fair",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "probability,",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "25",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "and",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "a",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "half",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "against",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "a",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "consensus",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "of",
+     "start": 12.038,
+     "end": 12.423
+    },
+    {
+     "w": "28.",
+     "start": 12.423,
+     "end": 12.808
+    },
+    {
+     "w": "And",
+     "start": 12.808,
+     "end": 13.192
+    },
+    {
+     "w": "it's",
+     "start": 13.192,
+     "end": 13.577
+    },
+    {
+     "w": "static",
+     "start": 13.577,
+     "end": 13.962
+    },
+    {
+     "w": "—",
+     "start": 13.962,
+     "end": 14.346
+    },
+    {
+     "w": "it's",
+     "start": 14.346,
+     "end": 14.731
+    },
+    {
+     "w": "not",
+     "start": 14.731,
+     "end": 15.115
+    },
+    {
+     "w": "a",
+     "start": 15.115,
+     "end": 15.5
+    },
+    {
+     "w": "move.",
+     "start": 15.5,
+     "end": 15.885
+    },
+    {
+     "w": "We",
+     "start": 15.885,
+     "end": 16.269
+    },
+    {
+     "w": "can't",
+     "start": 16.269,
+     "end": 16.654
+    },
+    {
+     "w": "say",
+     "start": 16.654,
+     "end": 17.038
+    },
+    {
+     "w": "which.",
+     "start": 17.038,
+     "end": 17.423
+    }
+   ],
+   "durationInFrames": 571
+  },
+  {
+   "type": "verdict",
+   "speaker": "gaffer",
+   "text": "So here's the reading. Athletic about 44 per cent, Levante 25 and a half, draw 31. Handicap settled around Levante plus a quarter. Over 2.5 held at 49 per cent, fair total two point four seven. And with the board flat and the tape this short, there's nothing here worth forcing.",
+   "bullets": [
+    "Athletic 43.7% vs Levante 25.5% — no line moved more than 0.3 pp in 8 hours",
+    "Over 2.5 frozen at 49.1%, fair total 2.47 across all four snapshots"
+   ],
+   "stamp": "MEDIUM CONFIDENCE",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "here's",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "reading.",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "Athletic",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "about",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "44",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "per",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "cent,",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "Levante",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "25",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "and",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "a",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "half,",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "draw",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "31.",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "Handicap",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "settled",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "around",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "Levante",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "plus",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "a",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "quarter.",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "Over",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "2.5",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "held",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "at",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "49",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "per",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "cent,",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "fair",
+     "start": 12.038,
+     "end": 12.423
+    },
+    {
+     "w": "total",
+     "start": 12.423,
+     "end": 12.808
+    },
+    {
+     "w": "two",
+     "start": 12.808,
+     "end": 13.192
+    },
+    {
+     "w": "point",
+     "start": 13.192,
+     "end": 13.577
+    },
+    {
+     "w": "four",
+     "start": 13.577,
+     "end": 13.962
+    },
+    {
+     "w": "seven.",
+     "start": 13.962,
+     "end": 14.346
+    },
+    {
+     "w": "And",
+     "start": 14.346,
+     "end": 14.731
+    },
+    {
+     "w": "with",
+     "start": 14.731,
+     "end": 15.115
+    },
+    {
+     "w": "the",
+     "start": 15.115,
+     "end": 15.5
+    },
+    {
+     "w": "board",
+     "start": 15.5,
+     "end": 15.885
+    },
+    {
+     "w": "flat",
+     "start": 15.885,
+     "end": 16.269
+    },
+    {
+     "w": "and",
+     "start": 16.269,
+     "end": 16.654
+    },
+    {
+     "w": "the",
+     "start": 16.654,
+     "end": 17.038
+    },
+    {
+     "w": "tape",
+     "start": 17.038,
+     "end": 17.423
+    },
+    {
+     "w": "this",
+     "start": 17.423,
+     "end": 17.808
+    },
+    {
+     "w": "short,",
+     "start": 17.808,
+     "end": 18.192
+    },
+    {
+     "w": "there's",
+     "start": 18.192,
+     "end": 18.577
+    },
+    {
+     "w": "nothing",
+     "start": 18.577,
+     "end": 18.962
+    },
+    {
+     "w": "here",
+     "start": 18.962,
+     "end": 19.346
+    },
+    {
+     "w": "worth",
+     "start": 19.346,
+     "end": 19.731
+    },
+    {
+     "w": "forcing.",
+     "start": 19.731,
+     "end": 20.115
+    }
+   ],
+   "durationInFrames": 651
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Boot",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Room.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Football",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "analysis,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "with",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "receipts.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 171
+  }
+ ],
+ "fps": 30,
+ "silent": true,
+ "source": "market_desk",
+ "fixture_id": 1570389,
+ "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
+}

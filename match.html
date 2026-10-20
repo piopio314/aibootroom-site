@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PLCSSXHLT9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PLCSSXHLT9');
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Match shows — AI Boot Room</title>
+<meta name="description" content="Every big match of the week in one minute: win chances with the margin removed, how the price moved, team news and expected goals.">
+<meta name="theme-color" content="#07090d">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+  .show { max-width: 1180px; margin: 0 auto; padding: 34px 24px 70px; display: grid; grid-template-columns: minmax(280px, 420px) 1fr; gap: 34px; align-items: start; }
+  .show .stage { position: sticky; top: 88px; }
+  .show h1 { font-size: clamp(28px, 3.6vw, 44px); line-height: 1.06; margin: 10px 0 8px; }
+  .show .meta { color: var(--text2); font-weight: 600; }
+  .scenes { display: flex; flex-wrap: wrap; gap: 10px; margin: 22px 0; }
+  .scenes button { font: inherit; font-weight: 800; font-size: 15px; padding: 11px 16px; border-radius: 12px; border: 1px solid var(--line); background: var(--card2); color: var(--text); cursor: pointer; }
+  .scenes button.on { background: var(--accent); color: #111; border-color: var(--accent); }
+  .nextprev { display: flex; gap: 10px; flex-wrap: wrap; margin: 8px 0 26px; }
+  .day { margin-top: 24px; }
+  .day h3 { font-size: 14px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+  .mlist { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px; }
+  .mlist a { display: flex; justify-content: space-between; gap: 10px; padding: 11px 14px; border-radius: 12px; background: var(--card); border: 1px solid var(--line); font-weight: 700; font-size: 15px; }
+  .mlist a:hover, .mlist a.on { border-color: var(--accent); }
+  .mlist a small { color: var(--text2); font-weight: 600; white-space: nowrap; }
+  .mlist a .ai { color: var(--accent); }
+  .note { color: var(--text2); font-size: 15px; margin-top: 14px; }
+  @media (max-width: 820px) { .show { grid-template-columns: 1fr; } .show .stage { position: static; max-width: 420px; margin: 0 auto; width: 100%; } }
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <a class="logo" href="/"><i>ABR</i><span>AI <em>Boot Room</em></span></a>
+  <nav aria-label="Sections"><a href="/#weekend">This weekend</a><a href="match.html">Match shows</a><a href="/#movers">Market movers</a><a href="/#receipts">Receipts</a></nav>
+  <span class="sp"></span>
+  <a class="btn yt sm" href="https://www.youtube.com/@AiBootRoom" target="_blank" rel="noopener">▶ YouTube</a>
+</div></header>
+
+<main class="show">
+  <div class="stage"><div id="player"><div class="skeleton">Loading the match show…</div></div></div>
+  <div>
+    <span class="kicker">Match show · one minute</span>
+    <h1 id="title" class="disp">Every big match of the week</h1>
+    <div class="meta" id="meta"></div>
+    <div class="scenes" id="scenes"></div>
+    <div class="nextprev" id="nextprev"></div>
+    <div id="list"></div>
+    <p class="note">Numbers are the betting market’s view, with the bookmaker margin removed. Texts are written for everyone, in plain English.
+      Shows marked <b class="ai" style="color:var(--accent)">★</b> include the full reading of our AI pundits.</p>
+  </div>
+</main>
+
+<footer><div class="wrap">
+  <span class="rg"><b>18+</b><span>Market analysis, not betting advice. Probabilities are the market’s, with the margin removed. If you play, play responsibly — <a href="https://www.jugarbien.es" target="_blank" rel="noopener">jugarbien.es</a></span></span>
+  <span class="sp"></span><span>© 2026 AI Boot Room</span>
+</div></footer>
+
+<script src="assets/site.js"></script>
+<script src="assets/show.js"></script>
+<script>
+(async function () {
+  const E = ABR.esc, S = ABR.short;
+  const LABEL = {hook: 'The move', match: 'The match', split: 'Win chances', line: 'Price line', noise: 'Real or noise?',
+                 goals: 'Goals', injury: 'Team news', verdict: 'The reading', end: 'End'};
+  let index;
+  try { index = (await ABR.json('data/shows/index.json')).shows; } catch (e) { index = []; }
+  const want = new URLSearchParams(location.search).get('m');
+  const pick = index.find(s => s.id === want) || index.find(s => s.source === 'market_desk' && new Date(s.kickoff) > new Date()) || index[0];
+  const listBox = document.getElementById('list');
+
+  function renderList(cur) {
+    const days = {};
+    for (const s of index) (days[s.kickoff.slice(0, 10)] = days[s.kickoff.slice(0, 10)] || []).push(s);
+    listBox.innerHTML = Object.entries(days).map(([d, ss]) => `<div class="day"><h3>${E(new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', {weekday: 'long', day: 'numeric', month: 'short'}))}</h3>
+      <div class="mlist">${ss.map(s => `<a href="match.html?m=${encodeURIComponent(s.id)}" class="${s.id === cur ? 'on' : ''}">
+        <span>${s.source === 'market_desk' ? '<b class="ai">★</b> ' : ''}${E(S(s.home))} – ${E(S(s.away))}</span><small>${E(s.league)}</small></a>`).join('')}</div></div>`).join('');
+  }
+  if (!pick) { document.getElementById('player').innerHTML = '<div class="skeleton">No match shows right now — check back before the next round.</div>'; return; }
+  renderList(pick.id);
+  const show = await ABR.json(`data/shows/${pick.id}.json`);
+  const m = show.match;
+  document.title = `${m.home} v ${m.away} — match show — AI Boot Room`;
+  document.getElementById('title').textContent = `${S(m.home)} v ${S(m.away)}`;
+  document.getElementById('meta').textContent = `${m.league} · ${ABR.when(m.kickoff, true)} · prices as of ${ABR.ago(show.prices_as_of)}`;
+  const starts = []; let acc = 0;
+  for (const s of show.scenes) { starts.push(acc); acc += s.durationInFrames; }
+  const sceneBox = document.getElementById('scenes');
+  sceneBox.innerHTML = show.scenes.map((s, i) => `<button data-i="${i}">${i + 1}. ${E(LABEL[s.type] || s.type)}</button>`).join('');
+  const el = document.getElementById('player'); el.innerHTML = '';
+  let cur = -1;
+  const api = ABRShow.mount(el, show, f => {
+    let i = starts.length - 1; while (i > 0 && f < starts[i]) i--;
+    if (i !== cur) { cur = i; sceneBox.querySelectorAll('button').forEach((b, k) => b.classList.toggle('on', k === i)); }
+  });
+  sceneBox.addEventListener('click', ev => { const b = ev.target.closest('button'); if (b) { api.seek(starts[+b.dataset.i] + 2); api.play(); } });
+  document.addEventListener('keydown', ev => {
+    if (ev.key === 'ArrowRight' && cur < starts.length - 1) api.seek(starts[cur + 1] + 2);
+    if (ev.key === 'ArrowLeft' && cur > 0) api.seek(starts[cur - 1] + 2);
+  });
+  const k = index.findIndex(s => s.id === pick.id), prev = index[k - 1], next = index[k + 1];
+  document.getElementById('nextprev').innerHTML =
+    (prev ? `<a class="btn ghost sm" href="match.html?m=${encodeURIComponent(prev.id)}">← ${E(S(prev.home))} – ${E(S(prev.away))}</a>` : '') +
+    (next ? `<a class="btn primary sm" href="match.html?m=${encodeURIComponent(next.id)}">Next: ${E(S(next.home))} – ${E(S(next.away))} →</a>` : '') +
+    (show.source === 'market_desk' ? `<a class="btn ghost sm" href="read.html?r=${encodeURIComponent(show.id)}">Full market read</a>` : '');
+})();
+</script>
+</body>
+</html>

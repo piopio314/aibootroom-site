@@ -1,0 +1,1115 @@
+{
+ "id": "2026-10-24-cagliari-bologna",
+ "title": "Bologna priced ahead, but the market barely moves",
+ "match": {
+  "home": "Cagliari",
+  "away": "Bologna",
+  "league": "Serie A",
+  "kickoff": "2026-10-24T13:00:00+00:00",
+  "home_short": "CAG",
+  "away_short": "BOL",
+  "home_color": "#a6192e",
+  "away_color": "#1a2f48"
+ },
+ "market": {
+  "fair": {
+   "home": 29.3,
+   "draw": 32.7,
+   "away": 38.0
+  },
+  "move": {
+   "home": -0.2,
+   "draw": 0.4,
+   "away": -0.1
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 38.1
+   },
+   {
+    "t": "2026-10-19T01:34:00+00:00",
+    "v": 37.9
+   },
+   {
+    "t": "2026-10-19T07:36:00+00:00",
+    "v": 37.9
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "v": 38.0
+   }
+  ],
+  "goals": 2.22,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-19T13:25:00+00:00"
+ },
+ "scenes": [
+  {
+   "type": "match",
+   "speaker": "narrator",
+   "text": "Thirty-eight per cent Bologna, twenty-nine per cent Cagliari, and in fourteen and a half hours nobody has moved a thing. The only nudge is in the goals — and it's small.",
+   "words": [
+    {
+     "w": "Thirty-eight",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "per",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "cent",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Bologna,",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "twenty-nine",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "per",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "cent",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "Cagliari,",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "and",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "in",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "fourteen",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "and",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "a",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "half",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "hours",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "nobody",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "has",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "moved",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "a",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "thing.",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "The",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "only",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "nudge",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "is",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "in",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "the",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "goals",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "—",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "and",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "it's",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "small.",
+     "start": 12.038,
+     "end": 12.423
+    }
+   ],
+   "durationInFrames": 421
+  },
+  {
+   "type": "goals",
+   "speaker": "scout",
+   "text": "The sharp book trimmed Over 2.25 from fifty point six to forty-nine per cent, fair total down from two point two seven to two point two two.",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "sharp",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "book",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "trimmed",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "Over",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "2.25",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "from",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "fifty",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "point",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "six",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "to",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "forty-nine",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "per",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "cent,",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "fair",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "total",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "down",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "from",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "two",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "point",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "two",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "seven",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "to",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "two",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "point",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "two",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "two.",
+     "start": 10.5,
+     "end": 10.885
+    }
+   ],
+   "durationInFrames": 375
+  },
+  {
+   "type": "noise",
+   "speaker": "sceptic",
+   "text": "Two things. The handicap fair line is home plus zero point one five — under a quarter goal, not a full one — and the consensus Over moved three tenths of a point, not one point seven. That's one book adjusting its book, not a low-goals story.",
+   "words": [
+    {
+     "w": "Two",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "things.",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "The",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "handicap",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "fair",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "line",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "is",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "home",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "plus",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "zero",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "point",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "one",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "five",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "—",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "under",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "a",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "quarter",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "goal,",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "not",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "a",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "full",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "one",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "—",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "and",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "the",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "consensus",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "Over",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "moved",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "three",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "tenths",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "of",
+     "start": 12.038,
+     "end": 12.423
+    },
+    {
+     "w": "a",
+     "start": 12.423,
+     "end": 12.808
+    },
+    {
+     "w": "point,",
+     "start": 12.808,
+     "end": 13.192
+    },
+    {
+     "w": "not",
+     "start": 13.192,
+     "end": 13.577
+    },
+    {
+     "w": "one",
+     "start": 13.577,
+     "end": 13.962
+    },
+    {
+     "w": "point",
+     "start": 13.962,
+     "end": 14.346
+    },
+    {
+     "w": "seven.",
+     "start": 14.346,
+     "end": 14.731
+    },
+    {
+     "w": "That's",
+     "start": 14.731,
+     "end": 15.115
+    },
+    {
+     "w": "one",
+     "start": 15.115,
+     "end": 15.5
+    },
+    {
+     "w": "book",
+     "start": 15.5,
+     "end": 15.885
+    },
+    {
+     "w": "adjusting",
+     "start": 15.885,
+     "end": 16.269
+    },
+    {
+     "w": "its",
+     "start": 16.269,
+     "end": 16.654
+    },
+    {
+     "w": "book,",
+     "start": 16.654,
+     "end": 17.038
+    },
+    {
+     "w": "not",
+     "start": 17.038,
+     "end": 17.423
+    },
+    {
+     "w": "a",
+     "start": 17.423,
+     "end": 17.808
+    },
+    {
+     "w": "low-goals",
+     "start": 17.808,
+     "end": 18.192
+    },
+    {
+     "w": "story.",
+     "start": 18.192,
+     "end": 18.577
+    }
+   ],
+   "durationInFrames": 605
+  },
+  {
+   "type": "injury",
+   "speaker": "scout",
+   "text": "Fair enough on the line. But the goals move is still there across the snapshot, and Idrissi's injury was already on our first list — the market barely blinked at it.",
+   "injuries": {
+    "home": [
+     {
+      "player": "Riyad Idrissi",
+      "status": "Missing Fixture",
+      "reason": "Jumpers Knee"
+     }
+    ],
+    "home_move": -0.2,
+    "away": [],
+    "away_move": null
+   },
+   "words": [
+    {
+     "w": "Fair",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "enough",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "on",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "the",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "line.",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "But",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "the",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "goals",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "move",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "is",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "still",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "there",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "across",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "the",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "snapshot,",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "and",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "Idrissi's",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "injury",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "was",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "already",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "on",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "our",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "first",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "list",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "—",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "the",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "market",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "barely",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "blinked",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "at",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "it.",
+     "start": 12.038,
+     "end": 12.423
+    }
+   ],
+   "durationInFrames": 421
+  },
+  {
+   "type": "goals",
+   "speaker": "sceptic",
+   "text": "Barely blinked is right — Cagliari's win price moved two tenths of a point. And we can't say when that injury became public. Four snapshots, fourteen and a half hours, five books on the goals. That's a thin sample.",
+   "words": [
+    {
+     "w": "Barely",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "blinked",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "is",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "right",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "—",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "Cagliari's",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "win",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "price",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "moved",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "two",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "tenths",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "of",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "a",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "point.",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "And",
+     "start": 5.885,
+     "end": 6.269
+    },
+    {
+     "w": "we",
+     "start": 6.269,
+     "end": 6.654
+    },
+    {
+     "w": "can't",
+     "start": 6.654,
+     "end": 7.038
+    },
+    {
+     "w": "say",
+     "start": 7.038,
+     "end": 7.423
+    },
+    {
+     "w": "when",
+     "start": 7.423,
+     "end": 7.808
+    },
+    {
+     "w": "that",
+     "start": 7.808,
+     "end": 8.192
+    },
+    {
+     "w": "injury",
+     "start": 8.192,
+     "end": 8.577
+    },
+    {
+     "w": "became",
+     "start": 8.577,
+     "end": 8.962
+    },
+    {
+     "w": "public.",
+     "start": 8.962,
+     "end": 9.346
+    },
+    {
+     "w": "Four",
+     "start": 9.346,
+     "end": 9.731
+    },
+    {
+     "w": "snapshots,",
+     "start": 9.731,
+     "end": 10.115
+    },
+    {
+     "w": "fourteen",
+     "start": 10.115,
+     "end": 10.5
+    },
+    {
+     "w": "and",
+     "start": 10.5,
+     "end": 10.885
+    },
+    {
+     "w": "a",
+     "start": 10.885,
+     "end": 11.269
+    },
+    {
+     "w": "half",
+     "start": 11.269,
+     "end": 11.654
+    },
+    {
+     "w": "hours,",
+     "start": 11.654,
+     "end": 12.038
+    },
+    {
+     "w": "five",
+     "start": 12.038,
+     "end": 12.423
+    },
+    {
+     "w": "books",
+     "start": 12.423,
+     "end": 12.808
+    },
+    {
+     "w": "on",
+     "start": 12.808,
+     "end": 13.192
+    },
+    {
+     "w": "the",
+     "start": 13.192,
+     "end": 13.577
+    },
+    {
+     "w": "goals.",
+     "start": 13.577,
+     "end": 13.962
+    },
+    {
+     "w": "That's",
+     "start": 13.962,
+     "end": 14.346
+    },
+    {
+     "w": "a",
+     "start": 14.346,
+     "end": 14.731
+    },
+    {
+     "w": "thin",
+     "start": 14.731,
+     "end": 15.115
+    },
+    {
+     "w": "sample.",
+     "start": 15.115,
+     "end": 15.5
+    }
+   ],
+   "durationInFrames": 513
+  },
+  {
+   "type": "verdict",
+   "speaker": "gaffer",
+   "text": "So the reading is this. The goals lean is one sharp book, not a consensus.",
+   "bullets": [
+    "Bologna 38.0% fair vs Cagliari 29.3% — a 9-point gap, dead flat for 14.6 h",
+    "Handicap fair line home +0.15, under a quarter goal to Bologna, unmoved"
+   ],
+   "stamp": "MEDIUM CONFIDENCE",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "the",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "reading",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "is",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "this.",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "The",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "goals",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "lean",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "is",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "one",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "sharp",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "book,",
+     "start": 4.731,
+     "end": 5.115
+    },
+    {
+     "w": "not",
+     "start": 5.115,
+     "end": 5.5
+    },
+    {
+     "w": "a",
+     "start": 5.5,
+     "end": 5.885
+    },
+    {
+     "w": "consensus.",
+     "start": 5.885,
+     "end": 6.269
+    }
+   ],
+   "durationInFrames": 236
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Boot",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Room.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Football",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "analysis,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "with",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "receipts.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 171
+  }
+ ],
+ "fps": 30,
+ "silent": true,
+ "source": "market_desk",
+ "fixture_id": 1550158,
+ "prices_as_of": "2026-10-20T10:19:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
+}
