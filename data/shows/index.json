@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T21:37:36+00:00",
+ "generated_at": "2026-10-21T21:46:09+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -576,6 +576,20 @@
    "seconds": 52
   },
   {
+   "id": "2026-10-24-estrela-casa-pia",
+   "home": "Estrela",
+   "away": "Casa Pia",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-24T14:30:00+00:00",
+   "title": "Estrela come home clear favourites against Casa Pia",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-estrela-casa-pia.html",
+   "seconds": 51
+  },
+  {
    "id": "2026-10-24-napoli-as-roma",
    "home": "Napoli",
    "away": "AS Roma",
@@ -590,6 +604,20 @@
    "seconds": 48
   },
   {
+   "id": "2026-10-24-samsunspor-amed",
+   "home": "Samsunspor",
+   "away": "Amed",
+   "league": "Super Lig",
+   "kickoff": "2026-10-24T16:00:00+00:00",
+   "title": "Samsunspor: one more defeat would be a club record",
+   "source": "market_desk",
+   "kicker": "MARKET ALERT",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-samsunspor-amed.html",
+   "seconds": 44
+  },
+  {
    "id": "2026-10-24-chelsea-tottenham",
    "home": "Chelsea",
    "away": "Tottenham",
@@ -600,8 +628,36 @@
    "kicker": "MARKET ALERT",
    "voiced": true,
    "youtube_id": null,
-   "article": null,
+   "article": "/m/2026-10-24-chelsea-tottenham.html",
    "seconds": 51
+  },
+  {
+   "id": "2026-10-24-borussia-dortmund-eintracht-frankfurt",
+   "home": "Borussia Dortmund",
+   "away": "Eintracht Frankfurt",
+   "league": "Bundesliga",
+   "kickoff": "2026-10-24T16:30:00+00:00",
+   "title": "Unbeaten Dortmund, tired legs — still heavy favourites",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-borussia-dortmund-eintracht-frankfurt.html",
+   "seconds": 48
+  },
+  {
+   "id": "2026-10-24-willem-ii-cambuur",
+   "home": "Willem II",
+   "away": "Cambuur",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-24T16:45:00+00:00",
+   "title": "Willem II: new coach, still narrow favourites",
+   "source": "market_desk",
+   "kicker": "MARKET ALERT",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-willem-ii-cambuur.html",
+   "seconds": 52
   },
   {
    "id": "2026-10-25-barcelona-real-madrid",

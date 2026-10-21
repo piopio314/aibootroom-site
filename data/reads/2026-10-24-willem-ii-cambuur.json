@@ -1,0 +1,112 @@
+{
+ "slug": "2026-10-24-willem-ii-cambuur",
+ "league": "Eredivisie",
+ "home": "Willem II",
+ "away": "Cambuur",
+ "kickoff": "2026-10-24T16:45:00+00:00",
+ "generated_at": "2026-10-21T21:43:33+00:00",
+ "headline": "Willem II: new coach, narrow favourites at home",
+ "summary": "Willem II are bottom of the Eredivisie on 2 points, and they meet Cambuur with a new man in charge: John Stegeman was sacked and Adrie Koster is interim coach. The home side have lost their last 4 league games and concede 2.51 expected goals a game. Cambuur arrive unbeaten in 5, a run that includes a 2-2 with AZ Alkmaar last weekend. Even so, at home, the market makes Willem II narrow favourites at 38.1%, with Cambuur almost level at 36.6%. The total line is 3.25 goals, with the over at 47.5% — the market expects an open game between two sides it sees as close to equal.",
+ "read": "Willem II host Cambuur bottom of the Eredivisie, two days after sacking John Stegeman and hours after naming 71-year-old Adrie Koster as interim coach, still without a win in nine league games. Cambuur arrive unbeaten in five and the market makes it near even — Willem II 38.1%, Cambuur 36.6% — with the level-ball handicap at zero and a total line of 3.25 goals.",
+ "facts": [
+  {
+   "fact": "Willem II sacked head coach John Stegeman with the club bottom of the Eredivisie on two points from nine games.",
+   "meaning": "The bottom club goes into this game in the middle of a coaching change, with the staff that prepared the season gone."
+  },
+  {
+   "fact": "Willem II appointed 71-year-old Adrie Koster as interim head coach until a permanent replacement is found.",
+   "meaning": "A caretaker with limited time takes charge of a side that has not won all season, days before kick-off."
+  },
+  {
+   "fact": "Willem II have lost their last four Eredivisie matches, the run reading LLLLD.",
+   "meaning": "The home side arrives on the worst run in the league, with the draw coming back on 11 September."
+  },
+  {
+   "fact": "Cambuur are unbeaten in five Eredivisie matches, form DWDWD, with two wins and three draws.",
+   "meaning": "The visitors are the side in rhythm — hard to beat, if not prolific winners."
+  },
+  {
+   "fact": "The market makes Willem II only fractional favourites at 38.1% to win, with Cambuur at 36.6%.",
+   "meaning": "Home advantage is worth almost nothing here: this is a near coin-flip between the bottom club and a mid-table visitor."
+  },
+  {
+   "fact": "On the level-ball handicap, Willem II's price has fallen from 55.0% to 51.2% in recent days, with Cambuur's rising to 48.8%.",
+   "meaning": "The market has shifted toward Cambuur and now sees the two teams as virtually equal on neutral ground."
+  },
+  {
+   "fact": "Cambuur drew 2-2 at home with AZ Alkmaar last weekend, a result Dutch media describe as a strong performance.",
+   "meaning": "The visitors come in off a point against one of the league's stronger sides, not off a scrappy win."
+  },
+  {
+   "fact": "Willem II have conceded chances worth 2.51 xG per game across their last five matches.",
+   "meaning": "The defensive problem runs deeper than results: opponents are creating clear chances almost every week, including 3.65 xG at Sparta last Friday."
+  }
+ ],
+ "article": "/m/2026-10-24-willem-ii-cambuur.html",
+ "sources": [
+  {
+   "fact": "Willem II sacked head coach John Stegeman after nine Eredivisie matches without a win and only two points.",
+   "source": "nos.nl",
+   "url": "https://nos.nl/artikel/2635916-hekkensluiter-willem-ii-ontslaat-hoofdtrainer-stegeman",
+   "age": "2 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Willem II appointed 71-year-old Adrie Koster as interim head coach until a permanent replacement is found.",
+   "source": "nos.nl",
+   "url": "https://nos.nl/artikel/2636128-koster-71-tijdelijk-weer-hoofdtrainer-willem-ii-het-is-wel-een-uitdaginkje",
+   "age": "4 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Koster will be assisted by Danny Schenkel and Pim Hendrix, and he steps back once a new head coach is hired.",
+   "source": "nos.nl",
+   "url": "https://nos.nl/artikel/2636128-koster-71-tijdelijk-weer-hoofdtrainer-willem-ii-het-is-wel-een-uitdaginkje",
+   "age": "4 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Koster described the interim job as \"quite a challenge\" (\"Het is wel een uitdaginkje\").",
+   "source": "nos.nl",
+   "url": "https://nos.nl/artikel/2636128-koster-71-tijdelijk-weer-hoofdtrainer-willem-ii-het-is-wel-een-uitdaginkje",
+   "age": "4 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Assistant coach Pascal Diender was dismissed along with Stegeman.",
+   "source": "www.archyde.com",
+   "url": "https://www.archyde.com/willem-ii-dismisses-head-coach-john-stegeman-after-dismal-start/",
+   "age": "1 day ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Willem II go into the Cambuur match bottom of the Eredivisie.",
+   "source": "vi.nl",
+   "url": "https://vi.nl/nieuws/tegenvallende-resultaten-kosten-stegeman-de-kop-bij-willem-ii",
+   "age": "2 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Cambuur held AZ to a 2-2 draw at home last weekend, a result Dutch media describe as a strong performance.",
+   "source": "voetbal.headliner.nl",
+   "url": "https://voetbal.headliner.nl/item/het-tweede-voetballeven-van-toni-jonker-20-ex-verdediger-van-sc-cambuur-opgeroepen-voor-zaalteam-lc-130772",
+   "age": "8 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Cambuur went into the AZ match on the back of a 1-0 win over PEC Zwolle.",
+   "source": "suaragarut.id",
+   "url": "https://suaragarut.id/en/cambuur-az-alkmaar-eredivisie-round-nine",
+   "age": "3 days ago",
+   "certainty": "reported"
+  }
+ ],
+ "video_title": "Willem II: new coach, still narrow favourites",
+ "key_points": [
+  "Willem II sack Stegeman, Koster interim",
+  "Cambuur unbeaten in five",
+  "Near even: 38% vs 37%"
+ ],
+ "market": null,
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
+}

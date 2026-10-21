@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T21:37:00+00:00",
+ "generated_at": "2026-10-21T21:46:00+00:00",
  "prices_as_of": "2026-10-21T19:18:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
@@ -481,8 +481,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null
+   "read": "2026-10-24-valencia-villarreal",
+   "headline": "Wounded at Anfield, Villarreal are narrow favourites at Mestalla"
   },
   {
    "id": 1552204,
@@ -3149,8 +3149,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-24-samsunspor-amed",
+   "headline": "Samsunspor chase an unwanted record as Amed visit",
    "competition": "203"
   },
   {
@@ -3209,8 +3209,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-24-valencia-villarreal",
+   "headline": "Wounded at Anfield, Villarreal are narrow favourites at Mestalla",
    "competition": "140"
   },
   {
@@ -3239,8 +3239,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-24-borussia-dortmund-eintracht-frankfurt",
+   "headline": "Unbeaten Dortmund host a Frankfurt side that shipped six",
    "competition": "78"
   },
   {
@@ -3269,8 +3269,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-24-willem-ii-cambuur",
+   "headline": "Willem II: new coach, narrow favourites at home",
    "competition": "88"
   },
   {
@@ -3299,8 +3299,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-24-alverca-arouca",
+   "headline": "Arouca are 5th, but Alverca are the home favourites",
    "competition": "94"
   },
   {
@@ -5105,7 +5105,7 @@
     }
    ],
    "video_title": "Spurs get their creators back — Chelsea still favourites",
-   "article": null
+   "article": "/m/2026-10-24-chelsea-tottenham.html"
   },
   {
    "slug": "2026-10-25-barcelona-real-madrid",
@@ -5292,6 +5292,52 @@
    "article": "/m/2026-10-24-arsenal-everton.html"
   },
   {
+   "slug": "2026-10-24-valencia-villarreal",
+   "league": "La Liga",
+   "home": "Valencia",
+   "away": "Villarreal",
+   "kickoff": "2026-10-24T16:30:00+00:00",
+   "headline": "Wounded at Anfield, Villarreal are narrow favourites at Mestalla",
+   "summary": "Valencia are 19th in La Liga with 6 points, so Saturday's derby at Mestalla is a pressure game for them. Villarreal arrive from a 4-3 defeat at Anfield on Wednesday and have had only 4 days to recover; Valencia have had 7. Two La Liga draws, with Racing Santander and Athletic Club, have stopped Valencia's slide, and Copete may return after the knee injury he suffered against Villarreal. Even so, the market makes Villarreal 44% favourites, and the handicap gives Valencia a quarter of a goal. The total-goals line is 2.75, with the over at 49.6%.",
+   "read": "Valencia are 19th with one win in nine and need this derby to relieve the pressure on Javier Aguirre, but they host a Villarreal side that has won three of the last five meetings and creates far more (2.02 xG per game to Valencia's 1.10). Villarreal are the 44.0% favourites but arrive four days after throwing away a 2-0 lead at Anfield, so the market still makes it only a quarter-goal game, with around three goals expected.",
+   "facts": [
+    {
+     "fact": "Valencia sit 19th in La Liga with 6 points from 9 games — one win, three draws, five defeats and a goal difference of -9.",
+     "meaning": "The home side are in the relegation places and this regional derby is a pressure game for them, not a free hit."
+    },
+    {
+     "fact": "Villarreal are the market's favourites at 44.0% to win at Mestalla, against Valencia's 30.1%.",
+     "meaning": "The visitors are clearly the more likely winners, but not by a landslide — over a quarter of the market's weight sits on the draw."
+    },
+    {
+     "fact": "Villarreal lost 4-3 at Liverpool in the Champions League on Tuesday after leading 2-0, as reported by The Guardian.",
+     "meaning": "They arrive at Mestalla off a painful collapse rather than a smooth run-in, and with the emotional cost of a European away night."
+    },
+    {
+     "fact": "Villarreal have 4 days between that Anfield match and kick-off; Valencia have had 7 since their 0-0 with Athletic Club.",
+     "meaning": ""
+    },
+    {
+     "fact": "The market's 50/50 handicap line has Valencia receiving a quarter goal — the fair line is +0.27 from the home perspective.",
+     "meaning": "Villarreal are rated only about a quarter of a goal better than a side sitting 19th, so the market expects a tight, one-goal-ish game."
+    },
+    {
+     "fact": "Villarreal created 2.38 xG at home to Elche last weekend and drew 0-0.",
+     "meaning": "Chance creation is not their problem; turning it into goals has been — a warning for a Valencia defence that will sit deeper."
+    },
+    {
+     "fact": "The market's 50/50 goal line sits at 2.75, with Over priced at 49.6%.",
+     "meaning": "The market sees roughly three goals — a game with chances at both ends rather than a cagey 0-0."
+    },
+    {
+     "fact": "Villarreal are unbeaten in the last five meetings with Valencia — three wins and two draws — including 2-1 in February and 0-2 at Mestalla last October.",
+     "meaning": "This fixture has been one-way traffic for a while, and Villarreal have won at Mestalla in this calendar year."
+    }
+   ],
+   "video_title": "Wounded Villarreal visit a Valencia side 19th in La Liga",
+   "article": null
+  },
+  {
    "slug": "2026-10-25-crystal-palace-newcastle",
    "league": "Premier League",
    "home": "Crystal Palace",
@@ -5303,52 +5349,6 @@
    "facts": [],
    "video_title": "Newcastle repriced, goals untouched",
    "article": null
-  },
-  {
-   "slug": "2026-10-24-rb-leipzig-sv-elversberg",
-   "league": "Bundesliga",
-   "home": "RB Leipzig",
-   "away": "SV Elversberg",
-   "kickoff": "2026-10-24T13:30:00+00:00",
-   "headline": "Leipzig's heavy week meets a promoted side above them",
-   "summary": "Leipzig have lost 1-6 at Bayern Munich and 1-4 at Real Madrid inside five days, and kicker reports that coach Martin Demichelis needs wins now, starting with this one. The visitors are the surprise of the season so far: promoted Elversberg sit above Leipzig with 10 points, and they beat Augsburg 4-3 last weekend. Freshness is theirs too — 7 days to prepare against Leipzig's midweek trip. Across 6 bookmakers, with the margin removed, Leipzig are still 68.6% favourites, rated about 1.5 goals the better side, and a 3.75 goal line points to an open afternoon rather than a controlled home win.",
-   "read": "Leipzig host Elversberg on the back of a 1-6 defeat at Bayern and a 1-4 loss in Madrid, with coach Martin Demichelis reported to need wins now to steady his position. The market still makes Leipzig 68.6% favourites against 13.3% for a promoted Elversberg side sitting above them in the table, and with a 3.75 goal line it expects an open, high-scoring game.",
-   "facts": [
-    {
-     "fact": "Leipzig were beaten 1-6 at Bayern Munich on Saturday, their third Bundesliga defeat of the season.",
-     "meaning": "They come into this home game off a rout, with two wins in their last five in all competitions."
-    },
-    {
-     "fact": "Leipzig lost 1-4 at Real Madrid in the Champions League on Wednesday, three days before this match.",
-     "meaning": "A second heavy defeat in five days, and a midweek trip to Madrid in the legs."
-    },
-    {
-     "fact": "Leipzig are 68.6% to win, with the draw at 18.0% and Elversberg at 13.3%.",
-     "meaning": "The market makes Leipzig about five times more likely to win than the promoted side, despite those two scorelines."
-    },
-    {
-     "fact": "Kicker reports that Leipzig coach Martin Demichelis needs wins against Elversberg, Schalke and Rot-Weiss Essen to quieten growing doubts about him.",
-     "meaning": "This is the first of the three matches the report frames as decisive for the coach."
-    },
-    {
-     "fact": "Elversberg are sixth in the Bundesliga with 10 points from six games, above Leipzig in the table.",
-     "meaning": "The promoted side arrive above their hosts and with nothing to protect."
-    },
-    {
-     "fact": "Elversberg beat Augsburg 4-3 on Saturday, their third win in six Bundesliga games.",
-     "meaning": "They score freely and concede freely — a wide-open game suits them more than a controlled one."
-    },
-    {
-     "fact": "Francis Onyeka was reported out for up to four weeks with a foot ligament injury two days ago, and reported back in Elversberg team training today.",
-     "meaning": "Whether he features is genuinely unclear, and Elversberg's squad news has been described as a growing concern."
-    },
-    {
-     "fact": "Elversberg have had seven days since their last match; Leipzig played in Madrid on Wednesday.",
-     "meaning": ""
-    }
-   ],
-   "video_title": "Leipzig after 1-6 and 1-4: still favourites?",
-   "article": "/m/2026-10-24-rb-leipzig-sv-elversberg.html"
   }
  ]
 }

@@ -1,0 +1,826 @@
+{
+ "id": "2026-10-24-willem-ii-cambuur",
+ "title": "Willem II: new coach, still narrow favourites",
+ "match": {
+  "home": "Willem II",
+  "away": "Cambuur",
+  "league": "Eredivisie",
+  "kickoff": "2026-10-24T16:45:00+00:00",
+  "home_short": "WIL",
+  "away_short": "CAM",
+  "home_color": "#9333ea",
+  "away_color": "#be123c"
+ },
+ "market": {
+  "fair": {
+   "home": 38.1,
+   "draw": 25.3,
+   "away": 36.6
+  },
+  "move": {
+   "home": -2.6,
+   "draw": -0.7,
+   "away": 3.3
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 33.3
+   },
+   {
+    "t": "2026-10-19T06:46:00+00:00",
+    "v": 36.8
+   },
+   {
+    "t": "2026-10-20T06:34:00+00:00",
+    "v": 37.9
+   },
+   {
+    "t": "2026-10-21T06:35:00+00:00",
+    "v": 36.6
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 40.7
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 37.6
+    },
+    {
+     "t": "2026-10-20T06:34:00+00:00",
+     "v": 36.8
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "v": 38.1
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 26.0
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 25.6
+    },
+    {
+     "t": "2026-10-20T06:34:00+00:00",
+     "v": 25.3
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "v": 25.3
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 33.3
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 36.8
+    },
+    {
+     "t": "2026-10-20T06:34:00+00:00",
+     "v": 37.9
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "v": 36.6
+    }
+   ]
+  },
+  "goals": 3.15,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Willem II sacked John Stegeman; Adrie Koster is interim coach.",
+   "show": {
+    "kind": "news",
+    "source": "nos.nl",
+    "text": "Stegeman sacked, Koster interim"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-willem-ii-cambuur/s0.mp3",
+   "words": [
+    {
+     "w": "Willem",
+     "start": 0.275,
+     "end": 0.575
+    },
+    {
+     "w": "II",
+     "start": 0.575,
+     "end": 0.988
+    },
+    {
+     "w": "sacked",
+     "start": 0.988,
+     "end": 1.3
+    },
+    {
+     "w": "John",
+     "start": 1.3,
+     "end": 1.575
+    },
+    {
+     "w": "Stegeman;",
+     "start": 1.575,
+     "end": 2.25
+    },
+    {
+     "w": "Adrie",
+     "start": 2.388,
+     "end": 2.725
+    },
+    {
+     "w": "Koster",
+     "start": 2.725,
+     "end": 3.175
+    },
+    {
+     "w": "is",
+     "start": 3.175,
+     "end": 3.325
+    },
+    {
+     "w": "interim",
+     "start": 3.325,
+     "end": 3.675
+    },
+    {
+     "w": "coach.",
+     "start": 3.675,
+     "end": 4.45
+    }
+   ],
+   "durationInFrames": 142
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "They are bottom of the Eredivisie with 2 points.",
+   "show": {
+    "kind": "stat",
+    "label": "Willem II points",
+    "value": "2"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-willem-ii-cambuur/s1.mp3",
+   "words": [
+    {
+     "w": "They",
+     "start": 0.25,
+     "end": 0.375
+    },
+    {
+     "w": "are",
+     "start": 0.375,
+     "end": 0.5
+    },
+    {
+     "w": "bottom",
+     "start": 0.5,
+     "end": 0.838
+    },
+    {
+     "w": "of",
+     "start": 0.838,
+     "end": 0.912
+    },
+    {
+     "w": "the",
+     "start": 0.912,
+     "end": 1.05
+    },
+    {
+     "w": "Eredivisie",
+     "start": 1.05,
+     "end": 1.75
+    },
+    {
+     "w": "with",
+     "start": 1.75,
+     "end": 1.962
+    },
+    {
+     "w": "2",
+     "start": 1.962,
+     "end": 2.188
+    },
+    {
+     "w": "points.",
+     "start": 2.188,
+     "end": 3.025
+    }
+   ],
+   "durationInFrames": 99
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Willem II have lost their last 4 league games.",
+   "show": {
+    "kind": "form",
+    "team": "home",
+    "results": "LLLL"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-willem-ii-cambuur/s2.mp3",
+   "words": [
+    {
+     "w": "Willem",
+     "start": 0.25,
+     "end": 0.537
+    },
+    {
+     "w": "II",
+     "start": 0.537,
+     "end": 0.975
+    },
+    {
+     "w": "have",
+     "start": 0.975,
+     "end": 1.1
+    },
+    {
+     "w": "lost",
+     "start": 1.1,
+     "end": 1.387
+    },
+    {
+     "w": "their",
+     "start": 1.387,
+     "end": 1.525
+    },
+    {
+     "w": "last",
+     "start": 1.525,
+     "end": 1.875
+    },
+    {
+     "w": "4",
+     "start": 1.875,
+     "end": 2.125
+    },
+    {
+     "w": "league",
+     "start": 2.125,
+     "end": 2.375
+    },
+    {
+     "w": "games.",
+     "start": 2.375,
+     "end": 3.175
+    }
+   ],
+   "durationInFrames": 103
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Cambuur, by contrast, are unbeaten in 5.",
+   "show": {
+    "kind": "form",
+    "team": "away",
+    "results": "DWDWD"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-willem-ii-cambuur/s3.mp3",
+   "words": [
+    {
+     "w": "Cambuur,",
+     "start": 0.25,
+     "end": 0.65
+    },
+    {
+     "w": "by",
+     "start": 0.688,
+     "end": 0.85
+    },
+    {
+     "w": "contrast,",
+     "start": 0.85,
+     "end": 1.55
+    },
+    {
+     "w": "are",
+     "start": 1.65,
+     "end": 1.8
+    },
+    {
+     "w": "unbeaten",
+     "start": 1.8,
+     "end": 2.263
+    },
+    {
+     "w": "in",
+     "start": 2.263,
+     "end": 2.413
+    },
+    {
+     "w": "5.",
+     "start": 2.413,
+     "end": 3.225
+    }
+   ],
+   "durationInFrames": 105
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "That run includes a 2-2 with AZ Alkmaar last weekend.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "AZ Alkmaar",
+    "score": "2-2",
+    "when": "last weekend"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-willem-ii-cambuur/s4.mp3",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.25,
+     "end": 0.45
+    },
+    {
+     "w": "run",
+     "start": 0.45,
+     "end": 0.637
+    },
+    {
+     "w": "includes",
+     "start": 0.637,
+     "end": 1.012
+    },
+    {
+     "w": "a",
+     "start": 1.012,
+     "end": 1.087
+    },
+    {
+     "w": "2-2",
+     "start": 1.087,
+     "end": 1.5
+    },
+    {
+     "w": "with",
+     "start": 1.5,
+     "end": 1.675
+    },
+    {
+     "w": "AZ",
+     "start": 1.675,
+     "end": 2.075
+    },
+    {
+     "w": "Alkmaar",
+     "start": 2.075,
+     "end": 2.525
+    },
+    {
+     "w": "last",
+     "start": 2.525,
+     "end": 2.875
+    },
+    {
+     "w": "weekend.",
+     "start": 2.875,
+     "end": 3.825
+    }
+   ],
+   "durationInFrames": 123
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Defensively it is worse: 2.51 expected goals conceded per game.",
+   "show": {
+    "kind": "stat",
+    "label": "xG conceded per game",
+    "value": "2.51"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-willem-ii-cambuur/s5.mp3",
+   "words": [
+    {
+     "w": "Defensively",
+     "start": 0.25,
+     "end": 0.85
+    },
+    {
+     "w": "it",
+     "start": 0.85,
+     "end": 0.95
+    },
+    {
+     "w": "is",
+     "start": 0.95,
+     "end": 1.113
+    },
+    {
+     "w": "worse:",
+     "start": 1.113,
+     "end": 1.725
+    },
+    {
+     "w": "2.51",
+     "start": 1.863,
+     "end": 2.875
+    },
+    {
+     "w": "expected",
+     "start": 2.875,
+     "end": 3.45
+    },
+    {
+     "w": "goals",
+     "start": 3.45,
+     "end": 3.85
+    },
+    {
+     "w": "conceded",
+     "start": 3.85,
+     "end": 4.375
+    },
+    {
+     "w": "per",
+     "start": 4.375,
+     "end": 4.55
+    },
+    {
+     "w": "game.",
+     "start": 4.55,
+     "end": 5.375
+    }
+   ],
+   "durationInFrames": 169
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Even so, at home, the market makes Willem II 38.1% favourites.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 38.1
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-willem-ii-cambuur/s6.mp3",
+   "words": [
+    {
+     "w": "Even",
+     "start": 0.25,
+     "end": 0.537
+    },
+    {
+     "w": "so,",
+     "start": 0.537,
+     "end": 0.775
+    },
+    {
+     "w": "at",
+     "start": 0.812,
+     "end": 0.9
+    },
+    {
+     "w": "home,",
+     "start": 0.9,
+     "end": 1.55
+    },
+    {
+     "w": "the",
+     "start": 1.675,
+     "end": 1.775
+    },
+    {
+     "w": "market",
+     "start": 1.775,
+     "end": 2.087
+    },
+    {
+     "w": "makes",
+     "start": 2.087,
+     "end": 2.362
+    },
+    {
+     "w": "Willem",
+     "start": 2.362,
+     "end": 2.737
+    },
+    {
+     "w": "II",
+     "start": 2.737,
+     "end": 3.212
+    },
+    {
+     "w": "38.1%",
+     "start": 3.212,
+     "end": 4.525
+    },
+    {
+     "w": "favourites.",
+     "start": 4.525,
+     "end": 5.45
+    }
+   ],
+   "durationInFrames": 172
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Cambuur are almost level at 36.6%, despite that home advantage.",
+   "show": {
+    "kind": "chance",
+    "team": "away",
+    "value": 36.6
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-willem-ii-cambuur/s7.mp3",
+   "words": [
+    {
+     "w": "Cambuur",
+     "start": 0.25,
+     "end": 0.7
+    },
+    {
+     "w": "are",
+     "start": 0.7,
+     "end": 0.825
+    },
+    {
+     "w": "almost",
+     "start": 0.825,
+     "end": 1.225
+    },
+    {
+     "w": "level",
+     "start": 1.225,
+     "end": 1.55
+    },
+    {
+     "w": "at",
+     "start": 1.55,
+     "end": 1.712
+    },
+    {
+     "w": "36.6%,",
+     "start": 1.712,
+     "end": 3.525
+    },
+    {
+     "w": "despite",
+     "start": 3.625,
+     "end": 4.075
+    },
+    {
+     "w": "that",
+     "start": 4.075,
+     "end": 4.25
+    },
+    {
+     "w": "home",
+     "start": 4.25,
+     "end": 4.525
+    },
+    {
+     "w": "advantage.",
+     "start": 4.525,
+     "end": 5.6
+    }
+   ],
+   "durationInFrames": 176
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Total line 3.25 goals: an open game, the over at 47.5%.",
+   "show": {
+    "kind": "over",
+    "line": 3.25,
+    "value": 47.5
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-willem-ii-cambuur/s8.mp3",
+   "words": [
+    {
+     "w": "Total",
+     "start": 0.25,
+     "end": 0.55
+    },
+    {
+     "w": "line",
+     "start": 0.55,
+     "end": 0.887
+    },
+    {
+     "w": "3.25",
+     "start": 0.887,
+     "end": 1.875
+    },
+    {
+     "w": "goals:",
+     "start": 1.875,
+     "end": 2.575
+    },
+    {
+     "w": "an",
+     "start": 2.7,
+     "end": 2.8
+    },
+    {
+     "w": "open",
+     "start": 2.8,
+     "end": 3.125
+    },
+    {
+     "w": "game,",
+     "start": 3.125,
+     "end": 3.475
+    },
+    {
+     "w": "the",
+     "start": 3.513,
+     "end": 3.65
+    },
+    {
+     "w": "over",
+     "start": 3.65,
+     "end": 3.975
+    },
+    {
+     "w": "at",
+     "start": 3.975,
+     "end": 4.112
+    },
+    {
+     "w": "47.5%.",
+     "start": 4.112,
+     "end": 6.3
+    }
+   ],
+   "durationInFrames": 197
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "So the home side is narrowly favoured, in an open game.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Narrow home advantage",
+     "Close to a coin flip",
+     "Open game expected"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-willem-ii-cambuur/s9.mp3",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.275,
+     "end": 0.412
+    },
+    {
+     "w": "the",
+     "start": 0.412,
+     "end": 0.5
+    },
+    {
+     "w": "home",
+     "start": 0.5,
+     "end": 0.787
+    },
+    {
+     "w": "side",
+     "start": 0.787,
+     "end": 1.1
+    },
+    {
+     "w": "is",
+     "start": 1.1,
+     "end": 1.262
+    },
+    {
+     "w": "narrowly",
+     "start": 1.262,
+     "end": 1.688
+    },
+    {
+     "w": "favoured,",
+     "start": 1.688,
+     "end": 2.325
+    },
+    {
+     "w": "in",
+     "start": 2.425,
+     "end": 2.513
+    },
+    {
+     "w": "an",
+     "start": 2.513,
+     "end": 2.638
+    },
+    {
+     "w": "open",
+     "start": 2.638,
+     "end": 3.025
+    },
+    {
+     "w": "game.",
+     "start": 3.025,
+     "end": 3.85
+    }
+   ],
+   "durationInFrames": 130
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-willem-ii-cambuur/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "line_move",
+  "kicker": "MARKET ALERT",
+  "stickers": [
+   "📈",
+   "👀",
+   "👀"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1552200,
+ "prices_as_of": "2026-10-21T19:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}
