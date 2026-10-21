@@ -1,0 +1,773 @@
+{
+ "id": "2026-10-22-be-ikta-crystal-palace",
+ "title": "Palace after 0-5: Beşiktaş the favourites in Istanbul",
+ "match": {
+  "home": "Beşiktaş",
+  "away": "Crystal Palace",
+  "league": "Europa League",
+  "kickoff": "2026-10-22T19:00:00+00:00",
+  "home_short": "BEŞ",
+  "away_short": "CRY",
+  "home_color": "#be123c",
+  "away_color": "#1b458f"
+ },
+ "market": {
+  "fair": {
+   "home": 46.4,
+   "draw": 24.0,
+   "away": 29.6
+  },
+  "move": {
+   "home": 0.6,
+   "draw": -0.4,
+   "away": -0.2
+  },
+  "side": "home",
+  "timeline": [
+   {
+    "t": "2026-10-20T20:44:00+00:00",
+    "v": 45.7
+   },
+   {
+    "t": "2026-10-21T02:29:00+00:00",
+    "v": 46.0
+   },
+   {
+    "t": "2026-10-21T11:20:00+00:00",
+    "v": 46.0
+   },
+   {
+    "t": "2026-10-21T17:18:00+00:00",
+    "v": 46.4
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 45.7
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 46.0
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 46.0
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 46.4
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 24.5
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 24.5
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 24.5
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 24.0
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 29.8
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 29.5
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 29.5
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 29.6
+    }
+   ]
+  },
+  "goals": 3.12,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-20T20:44:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Crystal Palace lost 0-5 at Brighton on Sunday.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Brighton",
+    "score": "0-5",
+    "when": "Sunday"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-be-ikta-crystal-palace/s0.mp3",
+   "words": [
+    {
+     "w": "Crystal",
+     "start": 0.12,
+     "end": 0.44
+    },
+    {
+     "w": "Palace",
+     "start": 0.52,
+     "end": 0.84
+    },
+    {
+     "w": "lost",
+     "start": 0.84,
+     "end": 1.16
+    },
+    {
+     "w": "0-5",
+     "start": 1.24,
+     "end": 2.04
+    },
+    {
+     "w": "at",
+     "start": 2.12,
+     "end": 2.12
+    },
+    {
+     "w": "Brighton",
+     "start": 2.12,
+     "end": 2.52
+    },
+    {
+     "w": "on",
+     "start": 2.6,
+     "end": 2.68
+    },
+    {
+     "w": "Sunday.",
+     "start": 2.68,
+     "end": 3.24
+    }
+   ],
+   "durationInFrames": 105
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "On Thursday they meet Beşiktaş in Istanbul.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-be-ikta-crystal-palace/s1.mp3",
+   "words": [
+    {
+     "w": "On",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "Thursday",
+     "start": 0.28,
+     "end": 0.84
+    },
+    {
+     "w": "they",
+     "start": 0.92,
+     "end": 1
+    },
+    {
+     "w": "meet",
+     "start": 1.08,
+     "end": 1.24
+    },
+    {
+     "w": "Beşiktaş",
+     "start": 1.24,
+     "end": 1.96
+    },
+    {
+     "w": "in",
+     "start": 2.04,
+     "end": 2.12
+    },
+    {
+     "w": "Istanbul.",
+     "start": 2.12,
+     "end": 2.76
+    }
+   ],
+   "durationInFrames": 91
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Beşiktaş have won both Europa League games, scoring 7 goals.",
+   "show": {
+    "kind": "stat",
+    "label": "Europa League goals",
+    "value": "7"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-be-ikta-crystal-palace/s2.mp3",
+   "words": [
+    {
+     "w": "Beşiktaş",
+     "start": 0.12,
+     "end": 0.76
+    },
+    {
+     "w": "have",
+     "start": 0.761,
+     "end": 0.92
+    },
+    {
+     "w": "won",
+     "start": 1,
+     "end": 1.16
+    },
+    {
+     "w": "both",
+     "start": 1.24,
+     "end": 1.48
+    },
+    {
+     "w": "Europa",
+     "start": 1.48,
+     "end": 1.88
+    },
+    {
+     "w": "League",
+     "start": 1.96,
+     "end": 2.04
+    },
+    {
+     "w": "games,",
+     "start": 2.04,
+     "end": 2.6
+    },
+    {
+     "w": "scoring",
+     "start": 2.698,
+     "end": 3.16
+    },
+    {
+     "w": "7",
+     "start": 3.24,
+     "end": 3.56
+    },
+    {
+     "w": "goals.",
+     "start": 3.56,
+     "end": 4.12
+    }
+   ],
+   "durationInFrames": 132
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "But they lost 0-2 at Trabzonspor on Monday.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Trabzonspor",
+    "score": "0-2",
+    "when": "Monday"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-be-ikta-crystal-palace/s3.mp3",
+   "words": [
+    {
+     "w": "But",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "they",
+     "start": 0.36,
+     "end": 0.36
+    },
+    {
+     "w": "lost",
+     "start": 0.44,
+     "end": 0.6
+    },
+    {
+     "w": "0-2",
+     "start": 0.6,
+     "end": 1.32
+    },
+    {
+     "w": "at",
+     "start": 1.4,
+     "end": 1.4
+    },
+    {
+     "w": "Trabzonspor",
+     "start": 1.4,
+     "end": 2.2
+    },
+    {
+     "w": "on",
+     "start": 2.28,
+     "end": 2.28
+    },
+    {
+     "w": "Monday.",
+     "start": 2.28,
+     "end": 2.84
+    }
+   ],
+   "durationInFrames": 93
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "And they are without Orkun Kökçü — 701 minutes this season.",
+   "show": {
+    "kind": "absence",
+    "team": "home",
+    "player": "Orkun Kökçü",
+    "status": "out",
+    "line": "701 minutes this season"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-be-ikta-crystal-palace/s4.mp3",
+   "words": [
+    {
+     "w": "And",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "they",
+     "start": 0.36,
+     "end": 0.44
+    },
+    {
+     "w": "are",
+     "start": 0.52,
+     "end": 0.68
+    },
+    {
+     "w": "without",
+     "start": 0.68,
+     "end": 1
+    },
+    {
+     "w": "Orkun",
+     "start": 1.08,
+     "end": 1.4
+    },
+    {
+     "w": "Kökçü",
+     "start": 1.4,
+     "end": 1.987
+    },
+    {
+     "w": "—",
+     "start": 1.987,
+     "end": 2.573
+    },
+    {
+     "w": "701",
+     "start": 2.573,
+     "end": 3.16
+    },
+    {
+     "w": "minutes",
+     "start": 3.24,
+     "end": 3.56
+    },
+    {
+     "w": "this",
+     "start": 3.64,
+     "end": 3.72
+    },
+    {
+     "w": "season.",
+     "start": 3.72,
+     "end": 4.2
+    }
+   ],
+   "durationInFrames": 134
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Palace have conceded chances worth 2.17 expected goals per game.",
+   "show": {
+    "kind": "stat",
+    "label": "xG conceded per game",
+    "value": "2.17"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-be-ikta-crystal-palace/s5.mp3",
+   "words": [
+    {
+     "w": "Palace",
+     "start": 0.12,
+     "end": 0.52
+    },
+    {
+     "w": "have",
+     "start": 0.6,
+     "end": 0.6
+    },
+    {
+     "w": "conceded",
+     "start": 0.6,
+     "end": 1.08
+    },
+    {
+     "w": "chances",
+     "start": 1.08,
+     "end": 1.64
+    },
+    {
+     "w": "worth",
+     "start": 1.72,
+     "end": 1.96
+    },
+    {
+     "w": "2.17",
+     "start": 1.96,
+     "end": 3.24
+    },
+    {
+     "w": "expected",
+     "start": 3.24,
+     "end": 3.8
+    },
+    {
+     "w": "goals",
+     "start": 3.88,
+     "end": 4.12
+    },
+    {
+     "w": "per",
+     "start": 4.2,
+     "end": 4.28
+    },
+    {
+     "w": "game.",
+     "start": 4.28,
+     "end": 4.68
+    }
+   ],
+   "durationInFrames": 148
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Even so, the market makes Beşiktaş 46.4% favourites.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 46.4
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-be-ikta-crystal-palace/s6.mp3",
+   "words": [
+    {
+     "w": "Even",
+     "start": 0.12,
+     "end": 0.44
+    },
+    {
+     "w": "so,",
+     "start": 0.44,
+     "end": 0.84
+    },
+    {
+     "w": "the",
+     "start": 1.153,
+     "end": 1.16
+    },
+    {
+     "w": "market",
+     "start": 1.16,
+     "end": 1.56
+    },
+    {
+     "w": "makes",
+     "start": 1.64,
+     "end": 1.72
+    },
+    {
+     "w": "Beşiktaş",
+     "start": 1.72,
+     "end": 2.44
+    },
+    {
+     "w": "46.4%",
+     "start": 2.44,
+     "end": 4.04
+    },
+    {
+     "w": "favourites.",
+     "start": 4.04,
+     "end": 4.68
+    }
+   ],
+   "durationInFrames": 148
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects about 3.1 goals in total.",
+   "show": {
+    "kind": "goals",
+    "value": 3.1
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-be-ikta-crystal-palace/s7.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.12,
+     "end": 0.2
+    },
+    {
+     "w": "market",
+     "start": 0.28,
+     "end": 0.52
+    },
+    {
+     "w": "expects",
+     "start": 0.52,
+     "end": 1
+    },
+    {
+     "w": "about",
+     "start": 1.08,
+     "end": 1.32
+    },
+    {
+     "w": "3.1",
+     "start": 1.32,
+     "end": 2.2
+    },
+    {
+     "w": "goals",
+     "start": 2.28,
+     "end": 2.6
+    },
+    {
+     "w": "in",
+     "start": 2.6,
+     "end": 2.76
+    },
+    {
+     "w": "total.",
+     "start": 2.84,
+     "end": 3.24
+    }
+   ],
+   "durationInFrames": 105
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Over 3 goals has moved from 50.9% to 53.0%.",
+   "show": {
+    "kind": "stat",
+    "label": "over 3.0 goals %",
+    "from": "50.9",
+    "value": "53.0"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-be-ikta-crystal-palace/s8.mp3",
+   "words": [
+    {
+     "w": "Over",
+     "start": 0.12,
+     "end": 0.36
+    },
+    {
+     "w": "3",
+     "start": 0.44,
+     "end": 0.6
+    },
+    {
+     "w": "goals",
+     "start": 0.6,
+     "end": 1
+    },
+    {
+     "w": "has",
+     "start": 1.08,
+     "end": 1.16
+    },
+    {
+     "w": "moved",
+     "start": 1.24,
+     "end": 1.48
+    },
+    {
+     "w": "from",
+     "start": 1.48,
+     "end": 1.72
+    },
+    {
+     "w": "50.9%",
+     "start": 1.8,
+     "end": 3.16
+    },
+    {
+     "w": "to",
+     "start": 3.316,
+     "end": 3.4
+    },
+    {
+     "w": "53.0%.",
+     "start": 3.4,
+     "end": 4.52
+    }
+   ],
+   "durationInFrames": 144
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "So: a Beşiktaş win, but not by much.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Beşiktaş favourites in Istanbul",
+     "no Kökçü in midfield",
+     "a narrow home win"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-be-ikta-crystal-palace/s9.mp3",
+   "words": [
+    {
+     "w": "So:",
+     "start": 0.12,
+     "end": 0.52
+    },
+    {
+     "w": "a",
+     "start": 0.813,
+     "end": 0.84
+    },
+    {
+     "w": "Beşiktaş",
+     "start": 0.84,
+     "end": 1.48
+    },
+    {
+     "w": "win,",
+     "start": 1.48,
+     "end": 1.88
+    },
+    {
+     "w": "but",
+     "start": 2.035,
+     "end": 2.2
+    },
+    {
+     "w": "not",
+     "start": 2.28,
+     "end": 2.36
+    },
+    {
+     "w": "by",
+     "start": 2.44,
+     "end": 2.52
+    },
+    {
+     "w": "much.",
+     "start": 2.52,
+     "end": 3
+    }
+   ],
+   "durationInFrames": 105
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-be-ikta-crystal-palace/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.12,
+     "end": 0.52
+    },
+    {
+     "w": "Boot",
+     "start": 0.52,
+     "end": 0.76
+    },
+    {
+     "w": "Room.",
+     "start": 0.76,
+     "end": 1.08
+    },
+    {
+     "w": "Football",
+     "start": 1.397,
+     "end": 1.8
+    },
+    {
+     "w": "analysis,",
+     "start": 1.8,
+     "end": 2.6
+    },
+    {
+     "w": "with",
+     "start": 2.681,
+     "end": 2.92
+    },
+    {
+     "w": "receipts.",
+     "start": 2.92,
+     "end": 3.48
+    }
+   ],
+   "durationInFrames": 137
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
+  "stickers": [
+   "🎯",
+   "📊",
+   "🏟️"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1636234,
+ "prices_as_of": "2026-10-21T19:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

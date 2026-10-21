@@ -1,0 +1,797 @@
+{
+ "id": "2026-10-22-ofi-bayer-leverkusen",
+ "title": "Leverkusen's 14 goals meet OFI's Hoffenheim night",
+ "match": {
+  "home": "OFI",
+  "away": "Bayer Leverkusen",
+  "league": "Europa League",
+  "kickoff": "2026-10-22T16:45:00+00:00",
+  "home_short": "OFI",
+  "away_short": "BLE",
+  "home_color": "#2563eb",
+  "away_color": "#4f46e5"
+ },
+ "market": {
+  "fair": {
+   "home": 8.6,
+   "draw": 13.6,
+   "away": 77.8
+  },
+  "move": {
+   "home": -0.1,
+   "draw": -0.1,
+   "away": 0.1
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-20T20:44:00+00:00",
+    "v": 77.7
+   },
+   {
+    "t": "2026-10-21T02:29:00+00:00",
+    "v": 77.8
+   },
+   {
+    "t": "2026-10-21T11:20:00+00:00",
+    "v": 77.8
+   },
+   {
+    "t": "2026-10-21T17:18:00+00:00",
+    "v": 77.8
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 8.7
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 8.6
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 8.6
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 8.6
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 13.7
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 13.6
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 13.6
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 13.6
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 77.7
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 77.8
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 77.8
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 77.8
+    }
+   ]
+  },
+  "goals": 3.5,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-20T20:44:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Leverkusen have won their last 5 matches in a row.",
+   "show": {
+    "kind": "form",
+    "team": "away",
+    "results": "WWWWW"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s0.mp3",
+   "words": [
+    {
+     "w": "Leverkusen",
+     "start": 0.12,
+     "end": 0.76
+    },
+    {
+     "w": "have",
+     "start": 0.84,
+     "end": 0.92
+    },
+    {
+     "w": "won",
+     "start": 0.92,
+     "end": 1.16
+    },
+    {
+     "w": "their",
+     "start": 1.24,
+     "end": 1.24
+    },
+    {
+     "w": "last",
+     "start": 1.32,
+     "end": 1.72
+    },
+    {
+     "w": "5",
+     "start": 1.72,
+     "end": 2.12
+    },
+    {
+     "w": "matches",
+     "start": 2.12,
+     "end": 2.44
+    },
+    {
+     "w": "in",
+     "start": 2.52,
+     "end": 2.6
+    },
+    {
+     "w": "a",
+     "start": 2.68,
+     "end": 2.68
+    },
+    {
+     "w": "row.",
+     "start": 2.68,
+     "end": 3
+    }
+   ],
+   "durationInFrames": 98
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "That run has brought 14 goals in all competitions.",
+   "show": {
+    "kind": "stat",
+    "label": "goals in the run",
+    "value": "14"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s1.mp3",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.12,
+     "end": 0.36
+    },
+    {
+     "w": "run",
+     "start": 0.44,
+     "end": 0.6
+    },
+    {
+     "w": "has",
+     "start": 0.68,
+     "end": 0.76
+    },
+    {
+     "w": "brought",
+     "start": 0.76,
+     "end": 1.08
+    },
+    {
+     "w": "14",
+     "start": 1.16,
+     "end": 1.64
+    },
+    {
+     "w": "goals",
+     "start": 1.64,
+     "end": 2.12
+    },
+    {
+     "w": "in",
+     "start": 2.2,
+     "end": 2.28
+    },
+    {
+     "w": "all",
+     "start": 2.36,
+     "end": 2.52
+    },
+    {
+     "w": "competitions.",
+     "start": 2.52,
+     "end": 3.4
+    }
+   ],
+   "durationInFrames": 110
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "On Thursday they meet OFI in Crete in the Europa League.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s2.mp3",
+   "words": [
+    {
+     "w": "On",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "Thursday",
+     "start": 0.36,
+     "end": 0.84
+    },
+    {
+     "w": "they",
+     "start": 0.84,
+     "end": 1
+    },
+    {
+     "w": "meet",
+     "start": 1.08,
+     "end": 1.32
+    },
+    {
+     "w": "OFI",
+     "start": 1.33,
+     "end": 1.96
+    },
+    {
+     "w": "in",
+     "start": 2.04,
+     "end": 2.2
+    },
+    {
+     "w": "Crete",
+     "start": 2.2,
+     "end": 2.68
+    },
+    {
+     "w": "in",
+     "start": 2.761,
+     "end": 2.84
+    },
+    {
+     "w": "the",
+     "start": 2.92,
+     "end": 2.92
+    },
+    {
+     "w": "Europa",
+     "start": 3,
+     "end": 3.24
+    },
+    {
+     "w": "League.",
+     "start": 3.24,
+     "end": 3.64
+    }
+   ],
+   "durationInFrames": 117
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "OFI have lost their last 3 games.",
+   "show": {
+    "kind": "form",
+    "team": "home",
+    "results": "LLL"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s3.mp3",
+   "words": [
+    {
+     "w": "OFI",
+     "start": 0.119,
+     "end": 0.68
+    },
+    {
+     "w": "have",
+     "start": 0.68,
+     "end": 0.84
+    },
+    {
+     "w": "lost",
+     "start": 0.92,
+     "end": 1.24
+    },
+    {
+     "w": "their",
+     "start": 1.32,
+     "end": 1.4
+    },
+    {
+     "w": "last",
+     "start": 1.4,
+     "end": 1.72
+    },
+    {
+     "w": "3",
+     "start": 1.8,
+     "end": 1.96
+    },
+    {
+     "w": "games.",
+     "start": 1.96,
+     "end": 2.52
+    }
+   ],
+   "durationInFrames": 84
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "They have conceded 11 goals in five matches.",
+   "show": {
+    "kind": "stat",
+    "label": "goals conceded",
+    "value": "11"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s4.mp3",
+   "words": [
+    {
+     "w": "They",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "have",
+     "start": 0.36,
+     "end": 0.44
+    },
+    {
+     "w": "conceded",
+     "start": 0.44,
+     "end": 1
+    },
+    {
+     "w": "11",
+     "start": 1.08,
+     "end": 1.48
+    },
+    {
+     "w": "goals",
+     "start": 1.48,
+     "end": 1.96
+    },
+    {
+     "w": "in",
+     "start": 2.04,
+     "end": 2.2
+    },
+    {
+     "w": "five",
+     "start": 2.28,
+     "end": 2.52
+    },
+    {
+     "w": "matches.",
+     "start": 2.52,
+     "end": 3.08
+    }
+   ],
+   "durationInFrames": 100
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "But in September they beat Hoffenheim 2-0 here.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Hoffenheim",
+    "score": "2-0",
+    "when": "September"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s5.mp3",
+   "words": [
+    {
+     "w": "But",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "in",
+     "start": 0.36,
+     "end": 0.44
+    },
+    {
+     "w": "September",
+     "start": 0.44,
+     "end": 1.08
+    },
+    {
+     "w": "they",
+     "start": 1.16,
+     "end": 1.24
+    },
+    {
+     "w": "beat",
+     "start": 1.32,
+     "end": 1.48
+    },
+    {
+     "w": "Hoffenheim",
+     "start": 1.48,
+     "end": 2.04
+    },
+    {
+     "w": "2-0",
+     "start": 2.04,
+     "end": 2.68
+    },
+    {
+     "w": "here.",
+     "start": 2.76,
+     "end": 2.92
+    }
+   ],
+   "durationInFrames": 96
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Even so, Leverkusen are 77.8% to win, OFI 8.6%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s6.mp3",
+   "words": [
+    {
+     "w": "Even",
+     "start": 0.12,
+     "end": 0.36
+    },
+    {
+     "w": "so,",
+     "start": 0.44,
+     "end": 0.84
+    },
+    {
+     "w": "Leverkusen",
+     "start": 1.06,
+     "end": 1.64
+    },
+    {
+     "w": "are",
+     "start": 1.72,
+     "end": 1.72
+    },
+    {
+     "w": "77.8%",
+     "start": 1.72,
+     "end": 3.4
+    },
+    {
+     "w": "to",
+     "start": 3.4,
+     "end": 3.56
+    },
+    {
+     "w": "win,",
+     "start": 3.56,
+     "end": 3.96
+    },
+    {
+     "w": "OFI",
+     "start": 4.2,
+     "end": 4.84
+    },
+    {
+     "w": "8.6%.",
+     "start": 4.939,
+     "end": 6.12
+    }
+   ],
+   "durationInFrames": 192
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The handicap gives OFI a head start of 2 goals.",
+   "show": {
+    "kind": "stat",
+    "label": "OFI head start (goals)",
+    "value": "2"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s7.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "handicap",
+     "start": 0.28,
+     "end": 0.92
+    },
+    {
+     "w": "gives",
+     "start": 1,
+     "end": 1.24
+    },
+    {
+     "w": "OFI",
+     "start": 1.24,
+     "end": 1.8
+    },
+    {
+     "w": "a",
+     "start": 1.88,
+     "end": 1.88
+    },
+    {
+     "w": "head",
+     "start": 1.96,
+     "end": 2.12
+    },
+    {
+     "w": "start",
+     "start": 2.12,
+     "end": 2.52
+    },
+    {
+     "w": "of",
+     "start": 2.6,
+     "end": 2.6
+    },
+    {
+     "w": "2",
+     "start": 2.68,
+     "end": 2.92
+    },
+    {
+     "w": "goals.",
+     "start": 2.92,
+     "end": 3.48
+    }
+   ],
+   "durationInFrames": 112
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "So the goals line sits high: 3.5, over at 50%.",
+   "show": {
+    "kind": "over",
+    "line": 3.5,
+    "value": 50
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s8.mp3",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.119,
+     "end": 0.28
+    },
+    {
+     "w": "the",
+     "start": 0.28,
+     "end": 0.44
+    },
+    {
+     "w": "goals",
+     "start": 0.52,
+     "end": 0.76
+    },
+    {
+     "w": "line",
+     "start": 0.84,
+     "end": 1.08
+    },
+    {
+     "w": "sits",
+     "start": 1.08,
+     "end": 1.4
+    },
+    {
+     "w": "high:",
+     "start": 1.48,
+     "end": 1.88
+    },
+    {
+     "w": "3.5,",
+     "start": 2.035,
+     "end": 3.16
+    },
+    {
+     "w": "over",
+     "start": 3.244,
+     "end": 3.56
+    },
+    {
+     "w": "at",
+     "start": 3.56,
+     "end": 3.64
+    },
+    {
+     "w": "50%.",
+     "start": 3.64,
+     "end": 4.44
+    }
+   ],
+   "durationInFrames": 141
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The run explains the price; the Hoffenheim night is the warning.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Leverkusen's run explains the price",
+     "OFI's Hoffenheim win is the warning",
+     "the market still favours Leverkusen"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s9.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "run",
+     "start": 0.36,
+     "end": 0.52
+    },
+    {
+     "w": "explains",
+     "start": 0.52,
+     "end": 1.08
+    },
+    {
+     "w": "the",
+     "start": 1.16,
+     "end": 1.16
+    },
+    {
+     "w": "price;",
+     "start": 1.16,
+     "end": 1.72
+    },
+    {
+     "w": "the",
+     "start": 1.94,
+     "end": 2.04
+    },
+    {
+     "w": "Hoffenheim",
+     "start": 2.12,
+     "end": 2.52
+    },
+    {
+     "w": "night",
+     "start": 2.52,
+     "end": 2.84
+    },
+    {
+     "w": "is",
+     "start": 2.921,
+     "end": 3.08
+    },
+    {
+     "w": "the",
+     "start": 3.16,
+     "end": 3.16
+    },
+    {
+     "w": "warning.",
+     "start": 3.16,
+     "end": 3.56
+    }
+   ],
+   "durationInFrames": 122
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.114,
+     "end": 0.52
+    },
+    {
+     "w": "Boot",
+     "start": 0.6,
+     "end": 0.76
+    },
+    {
+     "w": "Room.",
+     "start": 0.76,
+     "end": 1.08
+    },
+    {
+     "w": "Football",
+     "start": 1.386,
+     "end": 1.8
+    },
+    {
+     "w": "analysis,",
+     "start": 1.8,
+     "end": 2.52
+    },
+    {
+     "w": "with",
+     "start": 2.689,
+     "end": 2.84
+    },
+    {
+     "w": "receipts.",
+     "start": 2.84,
+     "end": 3.48
+    }
+   ],
+   "durationInFrames": 137
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
+  "stickers": [
+   "📊",
+   "🏟️",
+   "🏟️"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1636303,
+ "prices_as_of": "2026-10-21T19:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

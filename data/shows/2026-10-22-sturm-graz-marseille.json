@@ -1,0 +1,824 @@
+{
+ "id": "2026-10-22-sturm-graz-marseille",
+ "title": "Marseille winless in Europe, still favourites in Graz",
+ "match": {
+  "home": "Sturm Graz",
+  "away": "Marseille",
+  "league": "Europa League",
+  "kickoff": "2026-10-22T16:45:00+00:00",
+  "home_short": "STU",
+  "away_short": "MAR",
+  "home_color": "#9333ea",
+  "away_color": "#2faee0"
+ },
+ "market": {
+  "fair": {
+   "home": 26.6,
+   "draw": 25.9,
+   "away": 47.5
+  },
+  "move": {
+   "home": -0.1,
+   "draw": -0.1,
+   "away": 0.2
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-20T20:44:00+00:00",
+    "v": 47.3
+   },
+   {
+    "t": "2026-10-21T02:29:00+00:00",
+    "v": 47.3
+   },
+   {
+    "t": "2026-10-21T11:20:00+00:00",
+    "v": 47.3
+   },
+   {
+    "t": "2026-10-21T17:18:00+00:00",
+    "v": 47.5
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 26.7
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 26.7
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 26.7
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 26.6
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 26.0
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 26.0
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 26.0
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 25.9
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 47.3
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 47.3
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 47.3
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 47.5
+    }
+   ]
+  },
+  "goals": 2.79,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-20T20:44:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Marseille have 0 points in the Europa League, ranked 32nd.",
+   "show": {
+    "kind": "table",
+    "team": "away",
+    "rank": 32,
+    "pts": 0
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-sturm-graz-marseille/s0.mp3",
+   "words": [
+    {
+     "w": "Marseille",
+     "start": 0.12,
+     "end": 0.52
+    },
+    {
+     "w": "have",
+     "start": 0.6,
+     "end": 0.76
+    },
+    {
+     "w": "0",
+     "start": 0.84,
+     "end": 1.16
+    },
+    {
+     "w": "points",
+     "start": 1.16,
+     "end": 1.56
+    },
+    {
+     "w": "in",
+     "start": 1.64,
+     "end": 1.64
+    },
+    {
+     "w": "the",
+     "start": 1.72,
+     "end": 1.72
+    },
+    {
+     "w": "Europa",
+     "start": 1.72,
+     "end": 2.04
+    },
+    {
+     "w": "League,",
+     "start": 2.12,
+     "end": 2.44
+    },
+    {
+     "w": "ranked",
+     "start": 2.554,
+     "end": 2.92
+    },
+    {
+     "w": "32nd.",
+     "start": 2.92,
+     "end": 3.8
+    }
+   ],
+   "durationInFrames": 122
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "On Thursday night, Sturm Graz host Marseille.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-sturm-graz-marseille/s1.mp3",
+   "words": [
+    {
+     "w": "On",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "Thursday",
+     "start": 0.36,
+     "end": 0.68
+    },
+    {
+     "w": "night,",
+     "start": 0.68,
+     "end": 1.08
+    },
+    {
+     "w": "Sturm",
+     "start": 1.312,
+     "end": 1.64
+    },
+    {
+     "w": "Graz",
+     "start": 1.64,
+     "end": 1.96
+    },
+    {
+     "w": "host",
+     "start": 2.04,
+     "end": 2.28
+    },
+    {
+     "w": "Marseille.",
+     "start": 2.28,
+     "end": 2.92
+    }
+   ],
+   "durationInFrames": 96
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Graz warmed up with a 6-1 derby win over Grazer AK.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Grazer AK",
+    "score": "6-1",
+    "when": "Sunday"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-sturm-graz-marseille/s2.mp3",
+   "words": [
+    {
+     "w": "Graz",
+     "start": 0.12,
+     "end": 0.52
+    },
+    {
+     "w": "warmed",
+     "start": 0.6,
+     "end": 0.84
+    },
+    {
+     "w": "up",
+     "start": 0.84,
+     "end": 1
+    },
+    {
+     "w": "with",
+     "start": 1.08,
+     "end": 1.16
+    },
+    {
+     "w": "a",
+     "start": 1.24,
+     "end": 1.24
+    },
+    {
+     "w": "6-1",
+     "start": 1.24,
+     "end": 1.8
+    },
+    {
+     "w": "derby",
+     "start": 1.88,
+     "end": 2.2
+    },
+    {
+     "w": "win",
+     "start": 2.2,
+     "end": 2.44
+    },
+    {
+     "w": "over",
+     "start": 2.52,
+     "end": 2.6
+    },
+    {
+     "w": "Grazer",
+     "start": 2.6,
+     "end": 3.08
+    },
+    {
+     "w": "AK.",
+     "start": 3.16,
+     "end": 3.72
+    }
+   ],
+   "durationInFrames": 120
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "But at Bournemouth they managed only 0.37 expected goals.",
+   "show": {
+    "kind": "stat",
+    "label": "xG at Bournemouth",
+    "value": "0.37"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-sturm-graz-marseille/s3.mp3",
+   "words": [
+    {
+     "w": "But",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "at",
+     "start": 0.36,
+     "end": 0.36
+    },
+    {
+     "w": "Bournemouth",
+     "start": 0.44,
+     "end": 0.92
+    },
+    {
+     "w": "they",
+     "start": 0.931,
+     "end": 1.08
+    },
+    {
+     "w": "managed",
+     "start": 1.16,
+     "end": 1.48
+    },
+    {
+     "w": "only",
+     "start": 1.56,
+     "end": 1.72
+    },
+    {
+     "w": "0.37",
+     "start": 1.72,
+     "end": 3.16
+    },
+    {
+     "w": "expected",
+     "start": 3.16,
+     "end": 3.64
+    },
+    {
+     "w": "goals.",
+     "start": 3.64,
+     "end": 4.2
+    }
+   ],
+   "durationInFrames": 134
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Marseille, though, won 5-2 at Angers on Sunday.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Angers",
+    "score": "5-2",
+    "when": "Sunday"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-sturm-graz-marseille/s4.mp3",
+   "words": [
+    {
+     "w": "Marseille,",
+     "start": 0.12,
+     "end": 0.6
+    },
+    {
+     "w": "though,",
+     "start": 0.673,
+     "end": 1
+    },
+    {
+     "w": "won",
+     "start": 1.185,
+     "end": 1.4
+    },
+    {
+     "w": "5-2",
+     "start": 1.4,
+     "end": 2.04
+    },
+    {
+     "w": "at",
+     "start": 2.12,
+     "end": 2.12
+    },
+    {
+     "w": "Angers",
+     "start": 2.12,
+     "end": 2.6
+    },
+    {
+     "w": "on",
+     "start": 2.68,
+     "end": 2.84
+    },
+    {
+     "w": "Sunday.",
+     "start": 2.84,
+     "end": 3.4
+    }
+   ],
+   "durationInFrames": 110
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Hojbjerg is a doubt with a muscle strain; 540 minutes in midfield.",
+   "show": {
+    "kind": "absence",
+    "team": "away",
+    "player": "P. Hojbjerg",
+    "status": "doubtful",
+    "line": "540 minutes this season"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-sturm-graz-marseille/s5.mp3",
+   "words": [
+    {
+     "w": "Hojbjerg",
+     "start": 0.12,
+     "end": 0.6
+    },
+    {
+     "w": "is",
+     "start": 0.68,
+     "end": 0.76
+    },
+    {
+     "w": "a",
+     "start": 0.84,
+     "end": 0.84
+    },
+    {
+     "w": "doubt",
+     "start": 0.84,
+     "end": 1.24
+    },
+    {
+     "w": "with",
+     "start": 1.32,
+     "end": 1.4
+    },
+    {
+     "w": "a",
+     "start": 1.48,
+     "end": 1.48
+    },
+    {
+     "w": "muscle",
+     "start": 1.48,
+     "end": 1.8
+    },
+    {
+     "w": "strain;",
+     "start": 1.88,
+     "end": 2.36
+    },
+    {
+     "w": "540",
+     "start": 2.502,
+     "end": 3.48
+    },
+    {
+     "w": "minutes",
+     "start": 3.48,
+     "end": 3.8
+    },
+    {
+     "w": "in",
+     "start": 3.88,
+     "end": 3.96
+    },
+    {
+     "w": "midfield.",
+     "start": 4.04,
+     "end": 4.52
+    }
+   ],
+   "durationInFrames": 144
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Sturm Graz are without 7 players, including forward Jatta.",
+   "show": {
+    "kind": "stat",
+    "label": "Graz players out",
+    "value": "7"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-sturm-graz-marseille/s6.mp3",
+   "words": [
+    {
+     "w": "Sturm",
+     "start": 0.12,
+     "end": 0.44
+    },
+    {
+     "w": "Graz",
+     "start": 0.52,
+     "end": 0.92
+    },
+    {
+     "w": "are",
+     "start": 0.92,
+     "end": 1
+    },
+    {
+     "w": "without",
+     "start": 1.08,
+     "end": 1.32
+    },
+    {
+     "w": "7",
+     "start": 1.32,
+     "end": 1.8
+    },
+    {
+     "w": "players,",
+     "start": 1.88,
+     "end": 2.28
+    },
+    {
+     "w": "including",
+     "start": 2.444,
+     "end": 2.92
+    },
+    {
+     "w": "forward",
+     "start": 2.92,
+     "end": 3.32
+    },
+    {
+     "w": "Jatta.",
+     "start": 3.32,
+     "end": 3.8
+    }
+   ],
+   "durationInFrames": 122
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Even so, the market makes Marseille 47.5% favourites.",
+   "show": {
+    "kind": "chance",
+    "team": "away",
+    "value": 47.5
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-sturm-graz-marseille/s7.mp3",
+   "words": [
+    {
+     "w": "Even",
+     "start": 0.12,
+     "end": 0.44
+    },
+    {
+     "w": "so,",
+     "start": 0.52,
+     "end": 0.84
+    },
+    {
+     "w": "the",
+     "start": 1.0,
+     "end": 1.16
+    },
+    {
+     "w": "market",
+     "start": 1.24,
+     "end": 1.48
+    },
+    {
+     "w": "makes",
+     "start": 1.56,
+     "end": 1.72
+    },
+    {
+     "w": "Marseille",
+     "start": 1.72,
+     "end": 2.28
+    },
+    {
+     "w": "47.5%",
+     "start": 2.28,
+     "end": 4.04
+    },
+    {
+     "w": "favourites.",
+     "start": 4.04,
+     "end": 4.76
+    }
+   ],
+   "durationInFrames": 151
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Over 2.75 goals is 51%; both sides score and concede freely.",
+   "show": {
+    "kind": "over",
+    "line": 2.75,
+    "value": 51
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-sturm-graz-marseille/s8.mp3",
+   "words": [
+    {
+     "w": "Over",
+     "start": 0.12,
+     "end": 0.36
+    },
+    {
+     "w": "2.75",
+     "start": 0.44,
+     "end": 1.4
+    },
+    {
+     "w": "goals",
+     "start": 1.48,
+     "end": 1.8
+    },
+    {
+     "w": "is",
+     "start": 1.88,
+     "end": 1.96
+    },
+    {
+     "w": "51%;",
+     "start": 1.96,
+     "end": 3
+    },
+    {
+     "w": "both",
+     "start": 3.241,
+     "end": 3.56
+    },
+    {
+     "w": "sides",
+     "start": 3.56,
+     "end": 3.96
+    },
+    {
+     "w": "score",
+     "start": 4.04,
+     "end": 4.44
+    },
+    {
+     "w": "and",
+     "start": 4.44,
+     "end": 4.68
+    },
+    {
+     "w": "concede",
+     "start": 4.76,
+     "end": 5.24
+    },
+    {
+     "w": "freely.",
+     "start": 5.24,
+     "end": 5.72
+    }
+   ],
+   "durationInFrames": 180
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "So Marseille are favourites on their league form, not their European one.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Favourites on league form",
+     "Not on Europe",
+     "Goals expected in Graz"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-sturm-graz-marseille/s9.mp3",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "Marseille",
+     "start": 0.36,
+     "end": 0.76
+    },
+    {
+     "w": "are",
+     "start": 0.76,
+     "end": 0.84
+    },
+    {
+     "w": "favourites",
+     "start": 0.92,
+     "end": 1.4
+    },
+    {
+     "w": "on",
+     "start": 1.48,
+     "end": 1.48
+    },
+    {
+     "w": "their",
+     "start": 1.48,
+     "end": 1.64
+    },
+    {
+     "w": "league",
+     "start": 1.72,
+     "end": 1.96
+    },
+    {
+     "w": "form,",
+     "start": 1.96,
+     "end": 2.36
+    },
+    {
+     "w": "not",
+     "start": 2.596,
+     "end": 2.84
+    },
+    {
+     "w": "their",
+     "start": 2.92,
+     "end": 2.92
+    },
+    {
+     "w": "European",
+     "start": 2.92,
+     "end": 3.48
+    },
+    {
+     "w": "one.",
+     "start": 3.48,
+     "end": 3.72
+    }
+   ],
+   "durationInFrames": 127
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-sturm-graz-marseille/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.12,
+     "end": 0.52
+    },
+    {
+     "w": "Boot",
+     "start": 0.52,
+     "end": 0.76
+    },
+    {
+     "w": "Room.",
+     "start": 0.76,
+     "end": 1.08
+    },
+    {
+     "w": "Football",
+     "start": 1.397,
+     "end": 1.8
+    },
+    {
+     "w": "analysis,",
+     "start": 1.8,
+     "end": 2.6
+    },
+    {
+     "w": "with",
+     "start": 2.681,
+     "end": 2.92
+    },
+    {
+     "w": "receipts.",
+     "start": 2.92,
+     "end": 3.48
+    }
+   ],
+   "durationInFrames": 137
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
+  "stickers": [
+   "🎯",
+   "🏟️",
+   "🏟️"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1636340,
+ "prices_as_of": "2026-10-21T19:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T20:11:00+00:00",
+ "generated_at": "2026-10-21T20:17:00+00:00",
  "prices_as_of": "2026-10-21T19:18:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
@@ -1559,8 +1559,8 @@
     "home": 9,
     "away": 5
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-22-union-st-gilloise-hapoel-beer-sheva",
+   "headline": "Union play behind closed doors in Düsseldorf — and stay clear favourites",
    "competition": "uel"
   },
   {
@@ -1589,8 +1589,8 @@
     "home": 9,
     "away": 2
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-22-sturm-graz-marseille",
+   "headline": "Marseille have no Europa League points — and are still favourites in Graz",
    "competition": "uel"
   },
   {
@@ -1619,8 +1619,8 @@
     "home": 3,
     "away": 8
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-22-be-ikta-crystal-palace",
+   "headline": "Palace arrive after a 0-5, and Beşiktaş are the favourites",
    "competition": "uel"
   },
   {
@@ -1649,8 +1649,8 @@
     "home": 8,
     "away": 4
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-22-bournemouth-ac-milan",
+   "headline": "Bournemouth favourites against Milan after first league win",
    "competition": "uel"
   },
   {
@@ -5305,17 +5305,50 @@
    "article": "/m/2026-10-22-ofi-bayer-leverkusen.html"
   },
   {
-   "slug": "2026-10-23-ipswich-nottingham-forest",
-   "league": "Premier League",
-   "home": "Ipswich",
-   "away": "Nottingham Forest",
-   "kickoff": "2026-10-23T19:00:00+00:00",
-   "headline": "Ipswich v Forest: Forest favoured, market barely moves",
-   "summary": "The market makes Nottingham Forest the away favourite at 41.7% fair, with Ipswich at 30.7% and the draw at 27.6%. Goals are close to a coin flip on a 2.75 line: Over 49.4%, fair total 2.72.",
-   "read": null,
-   "facts": [],
-   "video_title": "Ipswich v Forest: a market asleep at 41.7%",
-   "article": null
+   "slug": "2026-10-22-sturm-graz-marseille",
+   "league": "Europa League",
+   "home": "Sturm Graz",
+   "away": "Marseille",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "headline": "Marseille have no Europa League points — and are still favourites in Graz",
+   "summary": "Marseille have lost both Europa League games — 1-4 at Beşiktaş and 0-1 at home to Olympiakos — and sit 32nd with 0 points. And yet the market still makes them 47.5% favourites in Graz, nearly double Sturm Graz's 26.6%. The home side won the city derby 6-1 on Sunday, but lost 0-3 at Bournemouth with only 0.37 expected goals, and are without seven players. Marseille's 5-2 win at Angers explains the favourites tag, though Hojbjerg is a doubt with a muscle strain. Over 2.75 goals is 51%.",
+   "read": "Sturm Graz have just won the Graz derby 6-1 and score at home, while the goal line sits at 2.75 with over at 51.0%.",
+   "facts": [
+    {
+     "fact": "Marseille have lost both Europa League matches — 1-4 at Beşiktaş and 0-1 at home to Olympiakos — and have no points, sitting 32nd of 36.",
+     "meaning": "A third defeat leaves their league-phase campaign in real trouble with five games still to play."
+    },
+    {
+     "fact": "Marseille are the clear favourites at 47.5% to win, nearly double Sturm Graz's 26.6% home chance.",
+     "meaning": "The market still makes Marseille the side to beat, even though it gives them less than a 50-50 chance of actually winning in 90 minutes."
+    },
+    {
+     "fact": "Sturm Graz beat city rivals Grazer AK 6-1 on Sunday, with a hat-trick from Oumar Diakité (reported by footmercato).",
+     "meaning": "They come into this one scoring freely and on a high, four days after the derby."
+    },
+    {
+     "fact": "Marseille won 5-2 at Angers on Sunday, their second consecutive Ligue 1 victory.",
+     "meaning": "The domestic form is the reason the market keeps them as favourites despite the European record."
+    },
+    {
+     "fact": "Sturm Graz are without seven players who have featured this season, including attacker S. Jatta, who has 641 minutes and two goals.",
+     "meaning": "The home squad is stretched in both boxes, with defender E. Soglo also out."
+    },
+    {
+     "fact": "Marseille's Pierre-Emile Hojbjerg is a doubt with a muscle strain; coach Bruno Genesio said he is an option for Thursday but it is unclear whether he can start.",
+     "meaning": "Marseille's midfield anchor could be missing or limited, which matters against a side that has just scored six."
+    },
+    {
+     "fact": "Over 2.75 goals is priced at 51.0%, with the market's fair total at 2.79.",
+     "meaning": "Three goals or more is seen as slightly more likely than not."
+    },
+    {
+     "fact": "Sturm Graz managed only 0.37 xG in their 0-3 defeat at Bournemouth.",
+     "meaning": "Against a stronger European opponent they created almost nothing, a warning about the jump in level from the derby."
+    }
+   ],
+   "video_title": "Marseille winless in Europe, still favourites in Graz",
+   "article": "/m/2026-10-22-sturm-graz-marseille.html"
   }
  ]
 }

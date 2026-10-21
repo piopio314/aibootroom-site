@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T20:11:19+00:00",
+ "generated_at": "2026-10-21T20:17:45+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -56,6 +56,62 @@
    "youtube_id": null,
    "article": "/m/2026-10-22-lech-poznan-sunderland.html",
    "seconds": 47
+  },
+  {
+   "id": "2026-10-22-ofi-bayer-leverkusen",
+   "home": "OFI",
+   "away": "Bayer Leverkusen",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "title": "Leverkusen's 14 goals meet OFI's Hoffenheim night",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-22-ofi-bayer-leverkusen.html",
+   "seconds": 44
+  },
+  {
+   "id": "2026-10-22-union-st-gilloise-hapoel-beer-sheva",
+   "home": "Union St. Gilloise",
+   "away": "Hapoel Beer Sheva",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "title": "Union in an empty stadium: still clear favourites",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-22-union-st-gilloise-hapoel-beer-sheva.html",
+   "seconds": 47
+  },
+  {
+   "id": "2026-10-22-sturm-graz-marseille",
+   "home": "Sturm Graz",
+   "away": "Marseille",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "title": "Marseille winless in Europe, still favourites in Graz",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-22-sturm-graz-marseille.html",
+   "seconds": 48
+  },
+  {
+   "id": "2026-10-22-be-ikta-crystal-palace",
+   "home": "Beşiktaş",
+   "away": "Crystal Palace",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Palace after 0-5: Beşiktaş the favourites in Istanbul",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-22-be-ikta-crystal-palace.html",
+   "seconds": 45
   },
   {
    "id": "2026-10-24-aston-villa-manchester-city",
