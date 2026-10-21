@@ -1,0 +1,694 @@
+{
+ "id": "2026-10-25-fortuna-sittard-excelsior",
+ "title": "Excelsior leak goals; Fortuna create little",
+ "match": {
+  "home": "Fortuna Sittard",
+  "away": "Excelsior",
+  "league": "Eredivisie",
+  "kickoff": "2026-10-25T11:15:00+00:00",
+  "home_short": "FOR",
+  "away_short": "EXC",
+  "home_color": "#0891b2",
+  "away_color": "#16a34a"
+ },
+ "market": {
+  "fair": {
+   "home": 39.4,
+   "draw": 25.9,
+   "away": 34.8
+  },
+  "move": {
+   "home": 3.8,
+   "draw": 0.8,
+   "away": -4.6
+  },
+  "side": "home",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 35.5
+   },
+   {
+    "t": "2026-10-19T06:46:00+00:00",
+    "v": 39.1
+   },
+   {
+    "t": "2026-10-20T03:25:00+00:00",
+    "v": 39.4
+   },
+   {
+    "t": "2026-10-21T03:25:00+00:00",
+    "v": 39.4
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 35.5
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 39.1
+    },
+    {
+     "t": "2026-10-20T03:25:00+00:00",
+     "v": 39.4
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "v": 39.4
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 25.1
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 25.9
+    },
+    {
+     "t": "2026-10-20T03:25:00+00:00",
+     "v": 25.9
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "v": 25.9
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 39.3
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 35.0
+    },
+    {
+     "t": "2026-10-20T03:25:00+00:00",
+     "v": 34.8
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "v": 34.8
+    }
+   ]
+  },
+  "goals": 3.0,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Excelsior have conceded 15 goals in 5 games and not won one.",
+   "show": {
+    "kind": "stat",
+    "label": "goals conceded, last 5",
+    "value": "15"
+   },
+   "first": true,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Excelsior",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "have",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "conceded",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "15",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "goals",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "in",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "5",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "games",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "and",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "not",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "won",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "one.",
+     "start": 4.731,
+     "end": 5.115
+    }
+   ],
+   "durationInFrames": 201
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "On Sunday they visit Fortuna Sittard in the Eredivisie.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "On",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Sunday",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "they",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "visit",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "Fortuna",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "Sittard",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "in",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "the",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Eredivisie.",
+     "start": 3.577,
+     "end": 3.962
+    }
+   ],
+   "durationInFrames": 167
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Last week they lost 0-4 at Heerenveen.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Heerenveen",
+    "score": "0-4",
+    "when": "last week"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Last",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "week",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "they",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "lost",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "0-4",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "at",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "Heerenveen.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 144
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Fortuna create little, though: 0.77 expected goals a game.",
+   "show": {
+    "kind": "stat",
+    "label": "Fortuna xG per game",
+    "value": "0.77"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Fortuna",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "create",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "little,",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "though:",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "0.77",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "expected",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "goals",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "a",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "game.",
+     "start": 3.577,
+     "end": 3.962
+    }
+   ],
+   "durationInFrames": 167
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Fortuna's home form has been shaky: 1-5 to Ajax in September.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Ajax",
+    "score": "1-5",
+    "when": "September"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Fortuna's",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "home",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "form",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "has",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "been",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "shaky:",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "1-5",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "to",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Ajax",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "in",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "September.",
+     "start": 4.346,
+     "end": 4.731
+    }
+   ],
+   "durationInFrames": 190
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Still, Excelsior's run makes Fortuna favourites: 39.4%, up from 35.5%.",
+   "show": {
+    "kind": "move",
+    "team": "home",
+    "from": 35.5,
+    "to": 39.4
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Still,",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Excelsior's",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "run",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "makes",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "Fortuna",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "favourites:",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "39.4%,",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "up",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "from",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "35.5%.",
+     "start": 3.962,
+     "end": 4.346
+    }
+   ],
+   "durationInFrames": 178
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Excelsior's leak meets Fortuna's blunt attack: the market expects 3.0 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 3.0
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Excelsior's",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "leak",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "meets",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Fortuna's",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "blunt",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "attack:",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "the",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "market",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "expects",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "3.0",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "goals.",
+     "start": 4.346,
+     "end": 4.731
+    }
+   ],
+   "durationInFrames": 190
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Two weak teams in different ways: Excelsior concede, Fortuna don't create.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Excelsior leak goals",
+     "Fortuna create little",
+     "Home edge is thin"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Two",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "weak",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "teams",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "in",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "different",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "ways:",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "Excelsior",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "concede,",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "Fortuna",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "don't",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "create.",
+     "start": 4.346,
+     "end": 4.731
+    }
+   ],
+   "durationInFrames": 190
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Boot",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Room.",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "Football",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "analysis,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "with",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "receipts.",
+     "start": 2.808,
+     "end": 3.192
+    }
+   ],
+   "durationInFrames": 171
+  }
+ ],
+ "fps": 30,
+ "silent": true,
+ "style": "pulse",
+ "story": {
+  "format": "line_move",
+  "kicker": "MARKET ALERT",
+  "stickers": [
+   "💸",
+   "👀",
+   "👀"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1552202,
+ "prices_as_of": "2026-10-21T21:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
+}

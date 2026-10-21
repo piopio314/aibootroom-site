@@ -131,60 +131,59 @@
    },
    "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-22-monaco-sc-freiburg/s0.mp3",
    "words": [
     {
      "w": "Freiburg",
-     "start": 0.12,
-     "end": 0.68
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "have",
-     "start": 0.76,
-     "end": 0.76
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "averaged",
-     "start": 0.76,
-     "end": 1.24
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "1.98",
-     "start": 1.24,
-     "end": 2.44
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "expected",
-     "start": 2.44,
-     "end": 2.92
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "goals",
-     "start": 2.92,
-     "end": 3.32
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "across",
-     "start": 3.32,
-     "end": 3.72
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "their",
-     "start": 3.8,
-     "end": 3.8
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "last",
-     "start": 3.88,
-     "end": 4.2
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "five.",
-     "start": 4.2,
-     "end": 4.76
+     "start": 3.962,
+     "end": 4.346
     }
    ],
-   "durationInFrames": 151
+   "durationInFrames": 178
   },
   {
    "type": "beat",
@@ -195,55 +194,54 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-monaco-sc-freiburg/s1.mp3",
    "words": [
     {
      "w": "On",
-     "start": 0.12,
-     "end": 0.28
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "Thursday",
-     "start": 0.28,
-     "end": 0.92
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "they",
-     "start": 0.92,
-     "end": 1.16
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "visit",
-     "start": 1.24,
-     "end": 1.48
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "Monaco",
-     "start": 1.48,
-     "end": 2.2
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "in",
-     "start": 2.28,
-     "end": 2.28
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "the",
-     "start": 2.36,
-     "end": 2.36
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "Conference",
-     "start": 2.36,
-     "end": 2.92
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "League.",
-     "start": 2.92,
-     "end": 3.32
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 108
+   "durationInFrames": 167
   },
   {
    "type": "beat",
@@ -258,60 +256,59 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-monaco-sc-freiburg/s2.mp3",
    "words": [
     {
      "w": "Monaco's",
-     "start": 0.119,
-     "end": 0.68
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "unbeaten",
-     "start": 0.682,
-     "end": 1.24
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "league",
-     "start": 1.32,
-     "end": 1.56
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "run",
-     "start": 1.56,
-     "end": 1.88
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "ended",
-     "start": 1.961,
-     "end": 2.28
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "on",
-     "start": 2.28,
-     "end": 2.44
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "Sunday,",
-     "start": 2.44,
-     "end": 3.08
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "0-1",
-     "start": 3.16,
-     "end": 3.96
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "at",
-     "start": 3.96,
-     "end": 4.04
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "Lorient.",
-     "start": 4.04,
-     "end": 4.6
+     "start": 3.962,
+     "end": 4.346
     }
    ],
-   "durationInFrames": 146
+   "durationInFrames": 178
   },
   {
    "type": "beat",
@@ -324,60 +321,59 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-monaco-sc-freiburg/s3.mp3",
    "words": [
     {
      "w": "In",
-     "start": 0.12,
-     "end": 0.28
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "those",
-     "start": 0.36,
-     "end": 0.44
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "same",
-     "start": 0.44,
-     "end": 0.76
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "five",
-     "start": 0.84,
-     "end": 1.08
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "games,",
-     "start": 1.08,
-     "end": 1.64
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "Monaco's",
-     "start": 1.88,
-     "end": 2.28
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "average",
-     "start": 2.28,
-     "end": 2.76
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "is",
-     "start": 2.76,
-     "end": 2.84
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "only",
-     "start": 2.92,
-     "end": 3.16
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "1.18.",
-     "start": 3.16,
-     "end": 4.44
+     "start": 3.962,
+     "end": 4.346
     }
    ],
-   "durationInFrames": 141
+   "durationInFrames": 178
   },
   {
    "type": "beat",
@@ -392,50 +388,49 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-monaco-sc-freiburg/s4.mp3",
    "words": [
     {
      "w": "Freiburg",
-     "start": 0.118,
-     "end": 0.68
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "lost",
-     "start": 0.68,
-     "end": 1
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "too:",
-     "start": 1.08,
-     "end": 1.4
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "1-2",
-     "start": 1.512,
-     "end": 2.2
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "at",
-     "start": 2.2,
-     "end": 2.28
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "Leverkusen",
-     "start": 2.28,
-     "end": 2.92
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "on",
-     "start": 3,
-     "end": 3
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "Sunday.",
-     "start": 3.0,
-     "end": 3.64
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 117
+   "durationInFrames": 155
   },
   {
    "type": "beat",
@@ -449,55 +444,54 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-monaco-sc-freiburg/s5.mp3",
    "words": [
     {
      "w": "According",
-     "start": 0.12,
-     "end": 0.52
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "to",
-     "start": 0.52,
-     "end": 0.6
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "SWR,",
-     "start": 0.6,
-     "end": 1.56
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "Freiburg",
-     "start": 1.72,
-     "end": 2.36
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "are",
-     "start": 2.44,
-     "end": 2.52
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "without",
-     "start": 2.52,
-     "end": 2.92
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "defender",
-     "start": 3.0,
-     "end": 3.48
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "Philipp",
-     "start": 3.48,
-     "end": 3.8
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "Lienhart.",
-     "start": 3.8,
-     "end": 4.36
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 139
+   "durationInFrames": 167
   },
   {
    "type": "beat",
@@ -510,50 +504,49 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-monaco-sc-freiburg/s6.mp3",
    "words": [
     {
      "w": "Even",
-     "start": 0.12,
-     "end": 0.36
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "so,",
-     "start": 0.44,
-     "end": 0.84
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "the",
-     "start": 0.928,
-     "end": 1.08
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "market",
-     "start": 1.16,
-     "end": 1.4
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "makes",
-     "start": 1.48,
-     "end": 1.64
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "Monaco",
-     "start": 1.64,
-     "end": 2.04
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "favourites:",
-     "start": 2.04,
-     "end": 2.76
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "41.8%.",
-     "start": 2.85,
-     "end": 4.44
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 141
+   "durationInFrames": 155
   },
   {
    "type": "beat",
@@ -566,60 +559,59 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-monaco-sc-freiburg/s7.mp3",
    "words": [
     {
      "w": "The",
-     "start": 0.12,
-     "end": 0.28
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "market",
-     "start": 0.28,
-     "end": 0.6
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "rates",
-     "start": 0.68,
-     "end": 0.84
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "them",
-     "start": 0.92,
-     "end": 1.08
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "0.25",
-     "start": 1.08,
-     "end": 2.2
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "goals",
-     "start": 2.274,
-     "end": 2.52
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "apart",
-     "start": 2.6,
-     "end": 2.76
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "—",
-     "start": 2.76,
-     "end": 2.92
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "almost",
-     "start": 3.076,
-     "end": 3.48
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "level.",
-     "start": 3.48,
-     "end": 3.96
+     "start": 3.962,
+     "end": 4.346
     }
    ],
-   "durationInFrames": 127
+   "durationInFrames": 178
   },
   {
    "type": "beat",
@@ -632,65 +624,64 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-monaco-sc-freiburg/s8.mp3",
    "words": [
     {
      "w": "Over",
-     "start": 0.12,
-     "end": 0.36
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "2.75",
-     "start": 0.44,
-     "end": 1.4
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "goals",
-     "start": 1.423,
-     "end": 1.96
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "is",
-     "start": 2.04,
-     "end": 2.04
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "only",
-     "start": 2.04,
-     "end": 2.36
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "48.3%",
-     "start": 2.36,
-     "end": 3.16
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "—",
-     "start": 3.16,
-     "end": 3.96
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "a",
-     "start": 4.119,
-     "end": 4.12
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "tight",
-     "start": 4.12,
-     "end": 4.44
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "game",
-     "start": 4.52,
-     "end": 4.68
+     "start": 3.962,
+     "end": 4.346
     },
     {
      "w": "expected.",
-     "start": 4.68,
-     "end": 5.32
+     "start": 4.346,
+     "end": 4.731
     }
    ],
-   "durationInFrames": 167
+   "durationInFrames": 190
   },
   {
    "type": "beat",
@@ -706,65 +697,64 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-monaco-sc-freiburg/s9.mp3",
    "words": [
     {
      "w": "Monaco",
-     "start": 0.12,
-     "end": 0.68
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "are",
-     "start": 0.76,
-     "end": 0.84
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "narrow",
-     "start": 0.84,
-     "end": 1.24
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "favourites",
-     "start": 1.32,
-     "end": 1.72
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "at",
-     "start": 1.8,
-     "end": 1.88
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "home;",
-     "start": 1.88,
-     "end": 2.28
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "Freiburg's",
-     "start": 2.431,
-     "end": 3
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "chances",
-     "start": 3.08,
-     "end": 3.48
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "keep",
-     "start": 3.48,
-     "end": 3.64
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "it",
-     "start": 3.72,
-     "end": 3.8
+     "start": 3.962,
+     "end": 4.346
     },
     {
      "w": "close.",
-     "start": 3.8,
-     "end": 4.28
+     "start": 4.346,
+     "end": 4.731
     }
    ],
-   "durationInFrames": 143
+   "durationInFrames": 190
   },
   {
    "type": "end",
@@ -772,49 +762,48 @@
    "text": "AI Boot Room. Football analysis, with receipts.",
    "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-22-monaco-sc-freiburg/s10.mp3",
    "words": [
     {
      "w": "AI",
-     "start": 0.052,
-     "end": 0.44
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "Boot",
-     "start": 0.52,
-     "end": 0.68
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "Room.",
-     "start": 0.76,
-     "end": 1.08
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "Football",
-     "start": 1.24,
-     "end": 1.72
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "analysis,",
-     "start": 1.72,
-     "end": 2.44
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "with",
-     "start": 2.586,
-     "end": 2.84
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "receipts.",
-     "start": 2.84,
-     "end": 3.56
+     "start": 2.808,
+     "end": 3.192
     }
    ],
-   "durationInFrames": 140
+   "durationInFrames": 171
   }
  ],
  "fps": 30,
- "silent": false,
+ "silent": true,
  "style": "pulse",
  "story": {
   "format": "steady",
@@ -827,7 +816,6 @@
  },
  "source": "market_desk",
  "fixture_id": 1636454,
- "prices_as_of": "2026-10-21T19:18:00+00:00",
- "disclaimer": "18+ · Market analysis, not betting advice.",
- "voiced": true
+ "prices_as_of": "2026-10-21T21:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
 }

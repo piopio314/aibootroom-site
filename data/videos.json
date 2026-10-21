@@ -1,7 +1,55 @@
 {
- "generated_at": "2026-10-21T20:17:45+00:00",
- "has_youtube": false,
+ "generated_at": "2026-10-21T21:59:52+00:00",
+ "has_youtube": true,
  "videos": [
+  {
+   "id": "2026-10-22-ofi-bayer-leverkusen",
+   "title": "Leverkusen's 14 goals meet OFI's Hoffenheim night",
+   "home": "OFI",
+   "away": "Bayer Leverkusen",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "seconds": 62,
+   "voiced": true,
+   "youtube_id": "88HqVSR_U0s",
+   "pundits": true
+  },
+  {
+   "id": "2026-10-22-sturm-graz-marseille",
+   "title": "Marseille winless in Europe, still favourites in Graz",
+   "home": "Sturm Graz",
+   "away": "Marseille",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "seconds": 64,
+   "voiced": true,
+   "youtube_id": "6CQCgh737iw",
+   "pundits": true
+  },
+  {
+   "id": "2026-10-22-monaco-sc-freiburg",
+   "title": "Monaco narrow favourites as Freiburg bring the chances",
+   "home": "Monaco",
+   "away": "SC Freiburg",
+   "league": "Conference League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "seconds": 64,
+   "voiced": true,
+   "youtube_id": "QOh9A0_Bcj0",
+   "pundits": true
+  },
+  {
+   "id": "2026-10-25-fortuna-sittard-excelsior",
+   "title": "Excelsior leak goals; Fortuna create little",
+   "home": "Fortuna Sittard",
+   "away": "Excelsior",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-25T11:15:00+00:00",
+   "seconds": 53,
+   "voiced": true,
+   "youtube_id": "QfGiCXbBZPE",
+   "pundits": true
+  },
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
    "title": "Ararat's 1-4 lesson, AZ a goal better",
@@ -46,54 +94,6 @@
    "league": "Europa League",
    "kickoff": "2026-10-22T16:45:00+00:00",
    "seconds": 47,
-   "voiced": true,
-   "youtube_id": null,
-   "pundits": true
-  },
-  {
-   "id": "2026-10-22-ofi-bayer-leverkusen",
-   "title": "Leverkusen's 14 goals meet OFI's Hoffenheim night",
-   "home": "OFI",
-   "away": "Bayer Leverkusen",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "seconds": 44,
-   "voiced": true,
-   "youtube_id": null,
-   "pundits": true
-  },
-  {
-   "id": "2026-10-22-union-st-gilloise-hapoel-beer-sheva",
-   "title": "Union in an empty stadium: still clear favourites",
-   "home": "Union St. Gilloise",
-   "away": "Hapoel Beer Sheva",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "seconds": 47,
-   "voiced": true,
-   "youtube_id": null,
-   "pundits": true
-  },
-  {
-   "id": "2026-10-22-sturm-graz-marseille",
-   "title": "Marseille winless in Europe, still favourites in Graz",
-   "home": "Sturm Graz",
-   "away": "Marseille",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "seconds": 48,
-   "voiced": true,
-   "youtube_id": null,
-   "pundits": true
-  },
-  {
-   "id": "2026-10-22-be-ikta-crystal-palace",
-   "title": "Palace after 0-5: Beşiktaş the favourites in Istanbul",
-   "home": "Beşiktaş",
-   "away": "Crystal Palace",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T19:00:00+00:00",
-   "seconds": 45,
    "voiced": true,
    "youtube_id": null,
    "pundits": true

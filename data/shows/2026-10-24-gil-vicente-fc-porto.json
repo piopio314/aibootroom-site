@@ -1,0 +1,770 @@
+{
+ "id": "2026-10-24-gil-vicente-fc-porto",
+ "title": "Porto perfect in the league — but PSV won in Porto",
+ "match": {
+  "home": "GIL Vicente",
+  "away": "FC Porto",
+  "league": "Primeira Liga",
+  "kickoff": "2026-10-24T19:30:00+00:00",
+  "home_short": "GIL",
+  "away_short": "POR",
+  "home_color": "#2563eb",
+  "away_color": "#00428c"
+ },
+ "market": {
+  "fair": {
+   "home": 12.4,
+   "draw": 21.9,
+   "away": 65.5
+  },
+  "move": {
+   "home": -0.2,
+   "draw": -0.1,
+   "away": 0.0
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 65.5
+   },
+   {
+    "t": "2026-10-19T04:26:00+00:00",
+    "v": 65.5
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "v": 65.5
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 12.6
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 12.6
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 12.4
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 22.0
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 22.1
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 21.9
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 65.5
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 65.5
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 65.5
+    }
+   ]
+  },
+  "goals": 2.47,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 8
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Porto have won all 8 league matches this season.",
+   "show": {
+    "kind": "stat",
+    "label": "League wins",
+    "value": "8"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gil-vicente-fc-porto/s0.mp3",
+   "words": [
+    {
+     "w": "Porto",
+     "start": 0.25,
+     "end": 0.675
+    },
+    {
+     "w": "have",
+     "start": 0.675,
+     "end": 0.85
+    },
+    {
+     "w": "won",
+     "start": 0.85,
+     "end": 1.025
+    },
+    {
+     "w": "all",
+     "start": 1.025,
+     "end": 1.188
+    },
+    {
+     "w": "8",
+     "start": 1.188,
+     "end": 1.375
+    },
+    {
+     "w": "league",
+     "start": 1.375,
+     "end": 1.65
+    },
+    {
+     "w": "matches",
+     "start": 1.65,
+     "end": 2.1
+    },
+    {
+     "w": "this",
+     "start": 2.1,
+     "end": 2.275
+    },
+    {
+     "w": "season.",
+     "start": 2.275,
+     "end": 3.1
+    }
+   ],
+   "durationInFrames": 101
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "But on Tuesday, PSV won 0-1 in Porto.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "PSV Eindhoven",
+    "score": "0-1",
+    "when": "Tuesday"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gil-vicente-fc-porto/s1.mp3",
+   "words": [
+    {
+     "w": "But",
+     "start": 0.225,
+     "end": 0.338
+    },
+    {
+     "w": "on",
+     "start": 0.338,
+     "end": 0.525
+    },
+    {
+     "w": "Tuesday,",
+     "start": 0.525,
+     "end": 1.175
+    },
+    {
+     "w": "PSV",
+     "start": 1.275,
+     "end": 1.825
+    },
+    {
+     "w": "won",
+     "start": 1.825,
+     "end": 2.05
+    },
+    {
+     "w": "0-1",
+     "start": 2.05,
+     "end": 2.55
+    },
+    {
+     "w": "in",
+     "start": 2.55,
+     "end": 2.7
+    },
+    {
+     "w": "Porto.",
+     "start": 2.7,
+     "end": 3.575
+    }
+   ],
+   "durationInFrames": 115
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "On Saturday they go to Barcelos to face Gil Vicente.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gil-vicente-fc-porto/s2.mp3",
+   "words": [
+    {
+     "w": "On",
+     "start": 0.25,
+     "end": 0.438
+    },
+    {
+     "w": "Saturday",
+     "start": 0.438,
+     "end": 0.95
+    },
+    {
+     "w": "they",
+     "start": 0.95,
+     "end": 1.062
+    },
+    {
+     "w": "go",
+     "start": 1.062,
+     "end": 1.188
+    },
+    {
+     "w": "to",
+     "start": 1.188,
+     "end": 1.262
+    },
+    {
+     "w": "Barcelos",
+     "start": 1.262,
+     "end": 1.95
+    },
+    {
+     "w": "to",
+     "start": 1.95,
+     "end": 2.075
+    },
+    {
+     "w": "face",
+     "start": 2.075,
+     "end": 2.413
+    },
+    {
+     "w": "Gil",
+     "start": 2.413,
+     "end": 2.675
+    },
+    {
+     "w": "Vicente.",
+     "start": 2.675,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 115
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Gil Vicente are 6th with 14 points.",
+   "show": {
+    "kind": "table",
+    "team": "home",
+    "rank": 6,
+    "pts": 14
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gil-vicente-fc-porto/s3.mp3",
+   "words": [
+    {
+     "w": "Gil",
+     "start": 0.25,
+     "end": 0.475
+    },
+    {
+     "w": "Vicente",
+     "start": 0.475,
+     "end": 0.9
+    },
+    {
+     "w": "are",
+     "start": 0.9,
+     "end": 1.062
+    },
+    {
+     "w": "6th",
+     "start": 1.062,
+     "end": 1.387
+    },
+    {
+     "w": "with",
+     "start": 1.387,
+     "end": 1.55
+    },
+    {
+     "w": "14",
+     "start": 1.55,
+     "end": 2.025
+    },
+    {
+     "w": "points.",
+     "start": 2.025,
+     "end": 2.85
+    }
+   ],
+   "durationInFrames": 94
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Gil Vicente won 1-2 at Braga — Braga then changed coach.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Braga",
+    "score": "1-2",
+    "when": "Sunday"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gil-vicente-fc-porto/s4.mp3",
+   "words": [
+    {
+     "w": "Gil",
+     "start": 0.25,
+     "end": 0.475
+    },
+    {
+     "w": "Vicente",
+     "start": 0.475,
+     "end": 0.925
+    },
+    {
+     "w": "won",
+     "start": 0.925,
+     "end": 1.125
+    },
+    {
+     "w": "1-2",
+     "start": 1.125,
+     "end": 1.475
+    },
+    {
+     "w": "at",
+     "start": 1.475,
+     "end": 1.575
+    },
+    {
+     "w": "Braga—",
+     "start": 1.575,
+     "end": 2.188
+    },
+    {
+     "w": "Braga",
+     "start": 2.275,
+     "end": 2.65
+    },
+    {
+     "w": "then",
+     "start": 2.65,
+     "end": 2.888
+    },
+    {
+     "w": "changed",
+     "start": 2.888,
+     "end": 3.325
+    },
+    {
+     "w": "coach.",
+     "start": 3.325,
+     "end": 4.075
+    }
+   ],
+   "durationInFrames": 130
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "So Porto are clear favourites: 65.5% to win.",
+   "show": {
+    "kind": "chance",
+    "team": "away",
+    "value": 65.5
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gil-vicente-fc-porto/s5.mp3",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.25,
+     "end": 0.425
+    },
+    {
+     "w": "Porto",
+     "start": 0.425,
+     "end": 0.85
+    },
+    {
+     "w": "are",
+     "start": 0.85,
+     "end": 0.988
+    },
+    {
+     "w": "clear",
+     "start": 0.988,
+     "end": 1.288
+    },
+    {
+     "w": "favourites:",
+     "start": 1.288,
+     "end": 2.0
+    },
+    {
+     "w": "65.5%",
+     "start": 2.112,
+     "end": 3.7
+    },
+    {
+     "w": "to",
+     "start": 3.7,
+     "end": 3.825
+    },
+    {
+     "w": "win.",
+     "start": 3.825,
+     "end": 4.525
+    }
+   ],
+   "durationInFrames": 144
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Even at home, Gil Vicente's chance is 12.4%.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 12.4
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gil-vicente-fc-porto/s6.mp3",
+   "words": [
+    {
+     "w": "Even",
+     "start": 0.25,
+     "end": 0.475
+    },
+    {
+     "w": "at",
+     "start": 0.475,
+     "end": 0.575
+    },
+    {
+     "w": "home,",
+     "start": 0.575,
+     "end": 1.0
+    },
+    {
+     "w": "Gil",
+     "start": 1.075,
+     "end": 1.3
+    },
+    {
+     "w": "Vicente's",
+     "start": 1.3,
+     "end": 1.775
+    },
+    {
+     "w": "chance",
+     "start": 1.775,
+     "end": 2.125
+    },
+    {
+     "w": "is",
+     "start": 2.125,
+     "end": 2.275
+    },
+    {
+     "w": "12.4%.",
+     "start": 2.275,
+     "end": 3.825
+    }
+   ],
+   "durationInFrames": 123
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market rates Porto about a goal better — 1.17 goals.",
+   "show": {
+    "kind": "stat",
+    "label": "Porto better by (goals)",
+    "value": "1.17"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gil-vicente-fc-porto/s7.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "market",
+     "start": 0.325,
+     "end": 0.7
+    },
+    {
+     "w": "rates",
+     "start": 0.7,
+     "end": 0.975
+    },
+    {
+     "w": "Porto",
+     "start": 0.975,
+     "end": 1.363
+    },
+    {
+     "w": "about",
+     "start": 1.363,
+     "end": 1.587
+    },
+    {
+     "w": "a",
+     "start": 1.587,
+     "end": 1.65
+    },
+    {
+     "w": "goal",
+     "start": 1.65,
+     "end": 1.925
+    },
+    {
+     "w": "better—",
+     "start": 1.925,
+     "end": 2.487
+    },
+    {
+     "w": "1.17",
+     "start": 2.575,
+     "end": 3.65
+    },
+    {
+     "w": "goals.",
+     "start": 3.65,
+     "end": 4.525
+    }
+   ],
+   "durationInFrames": 144
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects 2.47 goals in total — a controlled Porto win.",
+   "show": {
+    "kind": "goals",
+    "value": 2.47
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gil-vicente-fc-porto/s8.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "market",
+     "start": 0.325,
+     "end": 0.637
+    },
+    {
+     "w": "expects",
+     "start": 0.637,
+     "end": 1.113
+    },
+    {
+     "w": "2.47",
+     "start": 1.113,
+     "end": 2.15
+    },
+    {
+     "w": "goals",
+     "start": 2.15,
+     "end": 2.438
+    },
+    {
+     "w": "in",
+     "start": 2.438,
+     "end": 2.575
+    },
+    {
+     "w": "total—",
+     "start": 2.575,
+     "end": 3.188
+    },
+    {
+     "w": "a",
+     "start": 3.275,
+     "end": 3.35
+    },
+    {
+     "w": "controlled",
+     "start": 3.35,
+     "end": 3.9
+    },
+    {
+     "w": "Porto",
+     "start": 3.9,
+     "end": 4.325
+    },
+    {
+     "w": "win.",
+     "start": 4.325,
+     "end": 5.05
+    }
+   ],
+   "durationInFrames": 160
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Perfect in the league — the doubt stays in Europe.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Porto perfect in the league",
+     "Gil Vicente beat Braga",
+     "the doubt stays in Europe"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gil-vicente-fc-porto/s9.mp3",
+   "words": [
+    {
+     "w": "Perfect",
+     "start": 0.25,
+     "end": 0.662
+    },
+    {
+     "w": "in",
+     "start": 0.662,
+     "end": 0.738
+    },
+    {
+     "w": "the",
+     "start": 0.738,
+     "end": 0.825
+    },
+    {
+     "w": "league—",
+     "start": 0.825,
+     "end": 1.337
+    },
+    {
+     "w": "the",
+     "start": 1.413,
+     "end": 1.5
+    },
+    {
+     "w": "doubt",
+     "start": 1.5,
+     "end": 1.8
+    },
+    {
+     "w": "stays",
+     "start": 1.8,
+     "end": 2.175
+    },
+    {
+     "w": "in",
+     "start": 2.175,
+     "end": 2.325
+    },
+    {
+     "w": "Europe.",
+     "start": 2.325,
+     "end": 3.025
+    }
+   ],
+   "durationInFrames": 106
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gil-vicente-fc-porto/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
+  "stickers": [
+   "🏟️",
+   "📊",
+   "🏟️"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1575521,
+ "prices_as_of": "2026-10-21T21:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

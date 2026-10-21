@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T21:51:55+00:00",
+ "generated_at": "2026-10-21T21:59:52+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -66,10 +66,10 @@
    "title": "Leverkusen's 14 goals meet OFI's Hoffenheim night",
    "source": "market_desk",
    "kicker": "MATCH PREVIEW",
-   "voiced": true,
-   "youtube_id": null,
+   "voiced": false,
+   "youtube_id": "88HqVSR_U0s",
    "article": "/m/2026-10-22-ofi-bayer-leverkusen.html",
-   "seconds": 44
+   "seconds": 62
   },
   {
    "id": "2026-10-22-union-st-gilloise-hapoel-beer-sheva",
@@ -94,10 +94,10 @@
    "title": "Marseille winless in Europe, still favourites in Graz",
    "source": "market_desk",
    "kicker": "MATCH PREVIEW",
-   "voiced": true,
-   "youtube_id": null,
+   "voiced": false,
+   "youtube_id": "6CQCgh737iw",
    "article": "/m/2026-10-22-sturm-graz-marseille.html",
-   "seconds": 48
+   "seconds": 64
   },
   {
    "id": "2026-10-22-be-ikta-crystal-palace",
@@ -234,10 +234,10 @@
    "title": "Monaco narrow favourites as Freiburg bring the chances",
    "source": "market_desk",
    "kicker": "MATCH PREVIEW",
-   "voiced": true,
-   "youtube_id": null,
+   "voiced": false,
+   "youtube_id": "QOh9A0_Bcj0",
    "article": "/m/2026-10-22-monaco-sc-freiburg.html",
-   "seconds": 51
+   "seconds": 64
   },
   {
    "id": "2026-10-23-go-ahead-eagles-telstar",
@@ -686,6 +686,62 @@
    "youtube_id": null,
    "article": "/m/2026-10-24-alverca-arouca.html",
    "seconds": 52
+  },
+  {
+   "id": "2026-10-24-lens-paris-fc",
+   "home": "Lens",
+   "away": "Paris FC",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-24T18:45:00+00:00",
+   "title": "Lens after Bruges: narrow favourites vs Paris FC",
+   "source": "market_desk",
+   "kicker": "MARKET ALERT",
+   "voiced": true,
+   "youtube_id": null,
+   "article": null,
+   "seconds": 46
+  },
+  {
+   "id": "2026-10-24-ado-den-haag-heerenveen",
+   "home": "ADO Den Haag",
+   "away": "Heerenveen",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-24T19:00:00+00:00",
+   "title": "ADO beat PSV — why are Heerenveen favourites?",
+   "source": "market_desk",
+   "kicker": "MARKET ALERT",
+   "voiced": true,
+   "youtube_id": null,
+   "article": null,
+   "seconds": 48
+  },
+  {
+   "id": "2026-10-24-gil-vicente-fc-porto",
+   "home": "GIL Vicente",
+   "away": "FC Porto",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-24T19:30:00+00:00",
+   "title": "Porto perfect in the league — but PSV won in Porto",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-gil-vicente-fc-porto.html",
+   "seconds": 46
+  },
+  {
+   "id": "2026-10-25-fortuna-sittard-excelsior",
+   "home": "Fortuna Sittard",
+   "away": "Excelsior",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-25T11:15:00+00:00",
+   "title": "Excelsior leak goals; Fortuna create little",
+   "source": "market_desk",
+   "kicker": "MARKET ALERT",
+   "voiced": false,
+   "youtube_id": "QfGiCXbBZPE",
+   "article": null,
+   "seconds": 53
   },
   {
    "id": "2026-10-25-barcelona-real-madrid",

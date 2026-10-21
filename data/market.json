@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-21T21:51:00+00:00",
- "prices_as_of": "2026-10-21T19:18:00+00:00",
+ "generated_at": "2026-10-21T21:59:00+00:00",
+ "prices_as_of": "2026-10-21T21:18:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
   "matches": 468,
-  "price_changes": 175756,
+  "price_changes": 176956,
   "leagues": 23,
   "absences": 585,
   "tracking_since": "2026-10-18T22:49:00+00:00"
@@ -133,14 +133,14 @@
    "home": "Ajax",
    "away": "Atalanta",
    "fair": {
-    "home": 44.7,
-    "draw": 25.3,
-    "away": 30.1
+    "home": 44.9,
+    "draw": 24.9,
+    "away": 30.2
    },
    "move": {
-    "home": 0.8,
-    "draw": -0.5,
-    "away": -0.3
+    "home": 1.1,
+    "draw": -0.9,
+    "away": -0.2
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "timeline": [
@@ -173,10 +173,16 @@
      "home": 44.7,
      "draw": 25.3,
      "away": 30.1
+    },
+    {
+     "t": "2026-10-21T21:18:00+00:00",
+     "home": 44.9,
+     "draw": 24.9,
+     "away": 30.2
     }
    ],
    "goals": {
-    "expected": 2.95,
+    "expected": 3.03,
     "first": 2.91
    },
    "absences": {
@@ -1063,18 +1069,18 @@
    "home": "SC Braga",
    "away": "Gent",
    "fair": {
-    "home": 51.0,
+    "home": 50.5,
     "draw": 26.7,
-    "away": 22.3
+    "away": 22.8
    },
    "move": {
-    "home": -5.5,
-    "draw": 0.7,
-    "away": 4.8
+    "home": -5.9,
+    "draw": 0.6,
+    "away": 5.3
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 2.27,
+    "expected": 2.26,
     "first": 2.29
    },
    "absences": {
@@ -1901,18 +1907,18 @@
    "home": "Ajax",
    "away": "Atalanta",
    "fair": {
-    "home": 44.7,
-    "draw": 25.3,
-    "away": 30.1
+    "home": 44.9,
+    "draw": 24.9,
+    "away": 30.2
    },
    "move": {
-    "home": 0.8,
-    "draw": -0.5,
-    "away": -0.3
+    "home": 1.1,
+    "draw": -0.9,
+    "away": -0.2
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 2.95,
+    "expected": 3.03,
     "first": 2.91
    },
    "absences": {
@@ -1932,13 +1938,13 @@
    "away": "SC Freiburg",
    "fair": {
     "home": 41.8,
-    "draw": 26.9,
+    "draw": 26.8,
     "away": 31.3
    },
    "move": {
-    "home": -0.3,
-    "draw": 0.5,
-    "away": -0.2
+    "home": -0.2,
+    "draw": 0.4,
+    "away": -0.1
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
@@ -3419,8 +3425,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-24-atletico-madrid-deportivo-la-coruna",
+   "headline": "Atletico's winning run meets winless Deportivo and a returning Gimenez",
    "competition": "140"
   },
   {
@@ -3449,8 +3455,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-24-gil-vicente-fc-porto",
+   "headline": "Porto's perfect league start meets a Gil Vicente team on a high",
    "competition": "94"
   },
   {
@@ -3479,8 +3485,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-25-fortuna-sittard-excelsior",
+   "headline": "Excelsior leak goals, Fortuna create little",
    "competition": "88"
   },
   {
@@ -5338,16 +5344,49 @@
    "article": null
   },
   {
-   "slug": "2026-10-25-crystal-palace-newcastle",
-   "league": "Premier League",
-   "home": "Crystal Palace",
-   "away": "Newcastle",
-   "kickoff": "2026-10-25T14:00:00+00:00",
-   "headline": "Newcastle repriced to 40.4%; goals markets unmoved",
-   "summary": "The Asian handicap fair line moved 0.12 goals towards Newcastle (0.04 to 0.16), the same repricing seen through a second market. Goals markets are flat: Over 3.0 at 48.1%, fair total 2.92, both teams to score 61.6%.",
-   "read": null,
-   "facts": [],
-   "video_title": "Newcastle repriced, goals untouched",
+   "slug": "2026-10-24-atletico-madrid-deportivo-la-coruna",
+   "league": "La Liga",
+   "home": "Atletico Madrid",
+   "away": "Deportivo La Coruna",
+   "kickoff": "2026-10-24T19:00:00+00:00",
+   "headline": "Atletico's winning run meets winless Deportivo and a returning Gimenez",
+   "summary": "Atletico Madrid are second in La Liga on 22 points and have won their last five league games. Saturday's visitors, Deportivo, are winless in five — three draws and two defeats. Atletico's run ended with a 1-1 in Stuttgart on Tuesday, played a man short, though Julian Alvarez scored his first goal of the season there. Jose Maria Gimenez, more than a decade at Atletico, now faces his old club. Even so, the market makes Atletico 74.3% favourites, and Deportivo get a 1.75-goal handicap — a head start meaning Atletico must win by two clear goals. The goals line is 3.0, with Over at 49.2%.",
+   "read": "Atletico Madrid are clear favourites at the Metropolitano — second in La Liga, five straight league wins and 74.3% to win — against a Deportivo side without a victory in five. The market rates Atletico about 1.7 goals the better team and sees the game sitting right on three goals, with José María Giménez returning to face the club he served for more than a decade.",
+   "facts": [
+    {
+     "fact": "Atletico Madrid are 74.3% to win at home; Deportivo La Coruna are 9.4%.",
+     "meaning": "The market makes Atletico roughly eight times more likely than Deportivo to take the three points."
+    },
+    {
+     "fact": "Atletico sit second in La Liga with 22 points from nine games and have won their last five league matches.",
+     "meaning": "They are the form side of the division behind Barcelona, and this is the type of home fixture they have been converting."
+    },
+    {
+     "fact": "Atletico's six-game winning run ended with a 1-1 draw at Stuttgart on Tuesday, a game they played with 10 men after a red card.",
+     "meaning": "They arrive unbeaten but off a long European night with a man less — recovery matters four days before kick-off."
+    },
+    {
+     "fact": "Deportivo are winless in their last five La Liga games — three draws and two defeats.",
+     "meaning": "They have been hard to beat but have not turned any of those tight games into a win."
+    },
+    {
+     "fact": "The main handicap is Atletico -1.75 and the fair line sits at -1.67.",
+     "meaning": "The market rates Atletico about 1.7 goals the better team — it expects a clear home win, not just a win."
+    },
+    {
+     "fact": "The main goals line is 3.0, with Over priced at 49.2%.",
+     "meaning": "Three goals is a coin-flip total: the market sees Atletico scoring, but not a shootout."
+    },
+    {
+     "fact": "The fair goals line has slipped from 3.07 to 2.97 in recent days.",
+     "meaning": "The market now sees the game landing just under three goals rather than just over."
+    },
+    {
+     "fact": "José María Giménez, now a Deportivo central defender, faces Atletico — his club for more than a decade — for the first time, and said he asked that no fear clause be included.",
+     "meaning": "Deportivo's back line has a defender who knows exactly how Atletico attack, and a personal point to make."
+    }
+   ],
+   "video_title": "Atletico's five straight wins meet winless Deportivo",
    "article": null
   }
  ]

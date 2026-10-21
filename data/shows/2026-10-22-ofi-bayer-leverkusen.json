@@ -115,60 +115,59 @@
    },
    "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s0.mp3",
    "words": [
     {
      "w": "Leverkusen",
-     "start": 0.12,
-     "end": 0.76
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "have",
-     "start": 0.84,
-     "end": 0.92
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "won",
-     "start": 0.92,
-     "end": 1.16
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "their",
-     "start": 1.24,
-     "end": 1.24
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "last",
-     "start": 1.32,
-     "end": 1.72
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "5",
-     "start": 1.72,
-     "end": 2.12
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "matches",
-     "start": 2.12,
-     "end": 2.44
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "in",
-     "start": 2.52,
-     "end": 2.6
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "a",
-     "start": 2.68,
-     "end": 2.68
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "row.",
-     "start": 2.68,
-     "end": 3
+     "start": 3.962,
+     "end": 4.346
     }
    ],
-   "durationInFrames": 98
+   "durationInFrames": 178
   },
   {
    "type": "beat",
@@ -181,55 +180,54 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s1.mp3",
    "words": [
     {
      "w": "That",
-     "start": 0.12,
-     "end": 0.36
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "run",
-     "start": 0.44,
-     "end": 0.6
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "has",
-     "start": 0.68,
-     "end": 0.76
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "brought",
-     "start": 0.76,
-     "end": 1.08
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "14",
-     "start": 1.16,
-     "end": 1.64
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "goals",
-     "start": 1.64,
-     "end": 2.12
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "in",
-     "start": 2.2,
-     "end": 2.28
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "all",
-     "start": 2.36,
-     "end": 2.52
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "competitions.",
-     "start": 2.52,
-     "end": 3.4
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 110
+   "durationInFrames": 167
   },
   {
    "type": "beat",
@@ -240,65 +238,64 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s2.mp3",
    "words": [
     {
      "w": "On",
-     "start": 0.12,
-     "end": 0.28
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "Thursday",
-     "start": 0.36,
-     "end": 0.84
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "they",
-     "start": 0.84,
-     "end": 1
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "meet",
-     "start": 1.08,
-     "end": 1.32
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "OFI",
-     "start": 1.33,
-     "end": 1.96
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "in",
-     "start": 2.04,
-     "end": 2.2
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "Crete",
-     "start": 2.2,
-     "end": 2.68
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "in",
-     "start": 2.761,
-     "end": 2.84
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "the",
-     "start": 2.92,
-     "end": 2.92
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "Europa",
-     "start": 3,
-     "end": 3.24
+     "start": 3.962,
+     "end": 4.346
     },
     {
      "w": "League.",
-     "start": 3.24,
-     "end": 3.64
+     "start": 4.346,
+     "end": 4.731
     }
    ],
-   "durationInFrames": 117
+   "durationInFrames": 190
   },
   {
    "type": "beat",
@@ -311,45 +308,44 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s3.mp3",
    "words": [
     {
      "w": "OFI",
-     "start": 0.119,
-     "end": 0.68
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "have",
-     "start": 0.68,
-     "end": 0.84
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "lost",
-     "start": 0.92,
-     "end": 1.24
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "their",
-     "start": 1.32,
-     "end": 1.4
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "last",
-     "start": 1.4,
-     "end": 1.72
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "3",
-     "start": 1.8,
-     "end": 1.96
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "games.",
-     "start": 1.96,
-     "end": 2.52
+     "start": 2.808,
+     "end": 3.192
     }
    ],
-   "durationInFrames": 84
+   "durationInFrames": 144
   },
   {
    "type": "beat",
@@ -362,50 +358,49 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s4.mp3",
    "words": [
     {
      "w": "They",
-     "start": 0.12,
-     "end": 0.28
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "have",
-     "start": 0.36,
-     "end": 0.44
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "conceded",
-     "start": 0.44,
-     "end": 1
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "11",
-     "start": 1.08,
-     "end": 1.48
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "goals",
-     "start": 1.48,
-     "end": 1.96
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "in",
-     "start": 2.04,
-     "end": 2.2
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "five",
-     "start": 2.28,
-     "end": 2.52
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "matches.",
-     "start": 2.52,
-     "end": 3.08
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 100
+   "durationInFrames": 155
   },
   {
    "type": "beat",
@@ -420,50 +415,49 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s5.mp3",
    "words": [
     {
      "w": "But",
-     "start": 0.12,
-     "end": 0.28
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "in",
-     "start": 0.36,
-     "end": 0.44
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "September",
-     "start": 0.44,
-     "end": 1.08
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "they",
-     "start": 1.16,
-     "end": 1.24
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "beat",
-     "start": 1.32,
-     "end": 1.48
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "Hoffenheim",
-     "start": 1.48,
-     "end": 2.04
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "2-0",
-     "start": 2.04,
-     "end": 2.68
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "here.",
-     "start": 2.76,
-     "end": 2.92
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 96
+   "durationInFrames": 155
   },
   {
    "type": "beat",
@@ -474,55 +468,54 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s6.mp3",
    "words": [
     {
      "w": "Even",
-     "start": 0.12,
-     "end": 0.36
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "so,",
-     "start": 0.44,
-     "end": 0.84
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "Leverkusen",
-     "start": 1.06,
-     "end": 1.64
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "are",
-     "start": 1.72,
-     "end": 1.72
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "77.8%",
-     "start": 1.72,
-     "end": 3.4
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "to",
-     "start": 3.4,
-     "end": 3.56
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "win,",
-     "start": 3.56,
-     "end": 3.96
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "OFI",
-     "start": 4.2,
-     "end": 4.84
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "8.6%.",
-     "start": 4.939,
-     "end": 6.12
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 192
+   "durationInFrames": 167
   },
   {
    "type": "beat",
@@ -535,60 +528,59 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s7.mp3",
    "words": [
     {
      "w": "The",
-     "start": 0.12,
-     "end": 0.28
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "handicap",
-     "start": 0.28,
-     "end": 0.92
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "gives",
-     "start": 1,
-     "end": 1.24
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "OFI",
-     "start": 1.24,
-     "end": 1.8
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "a",
-     "start": 1.88,
-     "end": 1.88
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "head",
-     "start": 1.96,
-     "end": 2.12
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "start",
-     "start": 2.12,
-     "end": 2.52
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "of",
-     "start": 2.6,
-     "end": 2.6
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "2",
-     "start": 2.68,
-     "end": 2.92
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "goals.",
-     "start": 2.92,
-     "end": 3.48
+     "start": 3.962,
+     "end": 4.346
     }
    ],
-   "durationInFrames": 112
+   "durationInFrames": 178
   },
   {
    "type": "beat",
@@ -601,60 +593,59 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s8.mp3",
    "words": [
     {
      "w": "So",
-     "start": 0.119,
-     "end": 0.28
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "the",
-     "start": 0.28,
-     "end": 0.44
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "goals",
-     "start": 0.52,
-     "end": 0.76
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "line",
-     "start": 0.84,
-     "end": 1.08
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "sits",
-     "start": 1.08,
-     "end": 1.4
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "high:",
-     "start": 1.48,
-     "end": 1.88
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "3.5,",
-     "start": 2.035,
-     "end": 3.16
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "over",
-     "start": 3.244,
-     "end": 3.56
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "at",
-     "start": 3.56,
-     "end": 3.64
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "50%.",
-     "start": 3.64,
-     "end": 4.44
+     "start": 3.962,
+     "end": 4.346
     }
    ],
-   "durationInFrames": 141
+   "durationInFrames": 178
   },
   {
    "type": "beat",
@@ -670,65 +661,64 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s9.mp3",
    "words": [
     {
      "w": "The",
-     "start": 0.12,
-     "end": 0.28
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "run",
-     "start": 0.36,
-     "end": 0.52
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "explains",
-     "start": 0.52,
-     "end": 1.08
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "the",
-     "start": 1.16,
-     "end": 1.16
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "price;",
-     "start": 1.16,
-     "end": 1.72
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "the",
-     "start": 1.94,
-     "end": 2.04
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "Hoffenheim",
-     "start": 2.12,
-     "end": 2.52
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "night",
-     "start": 2.52,
-     "end": 2.84
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "is",
-     "start": 2.921,
-     "end": 3.08
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "the",
-     "start": 3.16,
-     "end": 3.16
+     "start": 3.962,
+     "end": 4.346
     },
     {
      "w": "warning.",
-     "start": 3.16,
-     "end": 3.56
+     "start": 4.346,
+     "end": 4.731
     }
    ],
-   "durationInFrames": 122
+   "durationInFrames": 190
   },
   {
    "type": "end",
@@ -736,49 +726,48 @@
    "text": "AI Boot Room. Football analysis, with receipts.",
    "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-22-ofi-bayer-leverkusen/s10.mp3",
    "words": [
     {
      "w": "AI",
-     "start": 0.114,
-     "end": 0.52
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "Boot",
-     "start": 0.6,
-     "end": 0.76
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "Room.",
-     "start": 0.76,
-     "end": 1.08
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "Football",
-     "start": 1.386,
-     "end": 1.8
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "analysis,",
-     "start": 1.8,
-     "end": 2.52
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "with",
-     "start": 2.689,
-     "end": 2.84
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "receipts.",
-     "start": 2.84,
-     "end": 3.48
+     "start": 2.808,
+     "end": 3.192
     }
    ],
-   "durationInFrames": 137
+   "durationInFrames": 171
   }
  ],
  "fps": 30,
- "silent": false,
+ "silent": true,
  "style": "pulse",
  "story": {
   "format": "steady",
@@ -791,7 +780,6 @@
  },
  "source": "market_desk",
  "fixture_id": 1636303,
- "prices_as_of": "2026-10-21T19:18:00+00:00",
- "disclaimer": "18+ · Market analysis, not betting advice.",
- "voiced": true
+ "prices_as_of": "2026-10-21T21:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
 }
