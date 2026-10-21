@@ -4,45 +4,45 @@
  "home": "Bolton",
  "away": "Middlesbrough",
  "kickoff": "2026-10-23T19:00:00+00:00",
- "generated_at": "2026-10-21T20:49:08+00:00",
- "headline": "Middlesbrough are third but drawing often — and still clear favourites",
- "summary": "Middlesbrough go to Bolton on Friday third in the Championship with 22 points from 11 games, but their form has a familiar shape: three of their last five ended level, and Saturday's 2-2 with Cardiff brought 2.78 expected goals and only a point. They create 1.98 expected goals a game. Bolton are 15th with 14 points and lose defender Forino-Joseph, out after 616 minutes this season. Middlesbrough are 58.5% favourites, up from 56.1% in recent days, and rated about a goal better — 0.9 on the handicap. The goals line is 3.0, with over at 52.7%.",
- "read": "Middlesbrough arrive at Bolton third in the Championship and unbeaten in nine, and the market makes them 58.5% favourites against a home side sitting 15th. Around three goals are expected, with Bolton handed a one-goal start on the handicap to bridge the gap the market sees between the teams.",
+ "generated_at": "2026-10-21T23:29:54+00:00",
+ "headline": "Middlesbrough unbeaten in 9 head to Bolton as clear favourites",
+ "summary": "Middlesbrough go to Bolton on Friday night unbeaten in 9 Championship matches, and the numbers back the run: 1.98 expected goals a game over the last five, against 1.03 conceded. Bolton are 15th on 14 points and are without defender C. Forino-Joseph, who has played 616 minutes this season. The home side can still create — 3.13 expected goals at home to Stoke, and they lost. With the margin removed, Middlesbrough's win chance rose from 56.1% to 58.5% in recent days, and the market rates them 0.9 goals the better side. The goals line sits at 3.0.",
+ "read": "Middlesbrough arrive at Bolton third in the Championship and unbeaten in nine, and the market makes them clear favourites at 58.5%, rated about a goal the better side on the handicap. Bolton can create at home — 3.13 xG against Stoke — but the money has gone one way, and the total sits at 3.0 goals.",
  "facts": [
   {
-   "fact": "Middlesbrough are 58.5% to win at Bolton, who are given 20.0% and the draw 21.5%.",
-   "meaning": "The market makes Middlesbrough clear favourites and rates Bolton's chance less than half of the visitors'."
+   "fact": "Middlesbrough are rated 58.5% to win at Bolton.",
+   "meaning": "Clear away favourites — Bolton's win chance is barely a third of theirs."
   },
   {
-   "fact": "Middlesbrough sit third in the Championship with 22 points from 11 games; Bolton are 15th with 14.",
-   "meaning": "It is a promotion-chasing side away at a mid-table one, which is where the favouritism starts."
+   "fact": "Middlesbrough have gone nine matches unbeaten.",
+   "meaning": "They arrive at Bolton as the form side, with no defeat to repair."
   },
   {
-   "fact": "Middlesbrough are unbeaten in nine matches and have drawn three of their last five (DWWDD).",
-   "meaning": "They are hard to beat but have been dropping points to draws rather than killing games off."
+   "fact": "Middlesbrough average 1.98 xG over their last five games while conceding 1.03.",
+   "meaning": "They create roughly twice what they allow — the profile of a side that controls matches away from home."
   },
   {
-   "fact": "Middlesbrough average 1.98 xG created and 1.03 conceded per game over their last five.",
-   "meaning": "They create almost two goals' worth of chances a game while giving up around one — the profile of the stronger side here."
+   "fact": "The market's fair handicap line moved from 0.8 to 0.9 goals in Middlesbrough's favour.",
+   "meaning": "Boro are rated about a goal the better side, so a one-goal away win is close to the 50/50 point."
   },
   {
-   "fact": "Middlesbrough's win chance has risen from 56.1% to 58.5% in recent days.",
-   "meaning": ""
+   "fact": "The main total is set at 3.0 goals, with over priced at 52.7%.",
+   "meaning": "The market leans slightly towards three goals or more at Bolton — more likely than not, not a certainty."
   },
   {
-   "fact": "The market expects about three goals, with Over 3.0 at 52.7%.",
-   "meaning": "More likely than not this is a game with three or more goals in it, not a cagey one."
+   "fact": "Bolton are without defender C. Forino-Joseph, out with a groin injury after 616 minutes this season.",
+   "meaning": "A regular at the back is missing against the third-placed attack in the division."
   },
   {
-   "fact": "The market rates Middlesbrough about 0.9 goals the better side, and that fair line has edged from 0.8 to 0.9.",
-   "meaning": "Bolton get a one-goal start; a single-goal Middlesbrough win would only be a push on Bolton +1."
+   "fact": "Bolton created 3.13 xG at home to Stoke on 10 October and lost 1-2.",
+   "meaning": "They can carve out chances at home even in defeat — the one number that argues they can hurt Boro."
   },
   {
-   "fact": "Bolton defender C. Forino-Joseph is out with a groin injury after 7 appearances and 616 minutes this season.",
-   "meaning": "Bolton lose a regular at the back, with a 7.29 season rating, for the visit of the division's third-best attack."
+   "fact": "A predicted-lineup report says Will Lankshear returns to Middlesbrough's starting XI at Bolton.",
+   "meaning": "A fresh attacking option for the side the market already favours."
   }
  ],
- "article": null,
+ "article": "/m/2026-10-23-bolton-middlesbrough.html",
  "sources": [
   {
    "fact": "Middlesbrough are unbeaten in nine matches after a 2-2 draw with Cardiff City, though the result did not move them up the table.",
@@ -101,11 +101,11 @@
    "certainty": "opinion"
   }
  ],
- "video_title": "Middlesbrough: 3rd, drawing often, still favourites",
+ "video_title": "Middlesbrough unbeaten in 9: how strong at Bolton?",
  "key_points": [
-  "Boro 3rd, unbeaten in nine",
-  "Boro 58.5%, Bolton have +1",
-  "Market expects three goals"
+  "Boro 58.5% away favourites",
+  "Unbeaten in nine, third",
+  "Total line set at 3.0"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."

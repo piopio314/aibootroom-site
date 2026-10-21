@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T23:26:35+00:00",
+ "generated_at": "2026-10-21T23:31:40+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -154,6 +154,20 @@
    "youtube_id": null,
    "article": "/m/2026-10-22-celje-red-bull-salzburg.html",
    "seconds": 48
+  },
+  {
+   "id": "2026-10-22-celtic-celta-vigo",
+   "home": "Celtic",
+   "away": "Celta Vigo",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Celtic's 7-1 win, but Europe still says level",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": null,
+   "seconds": 51
   },
   {
    "id": "2026-10-22-1899-hoffenheim-lyon",
