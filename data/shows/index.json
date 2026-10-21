@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T21:46:09+00:00",
+ "generated_at": "2026-10-21T21:51:55+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -632,6 +632,20 @@
    "seconds": 51
   },
   {
+   "id": "2026-10-24-valencia-villarreal",
+   "home": "Valencia",
+   "away": "Villarreal",
+   "league": "La Liga",
+   "kickoff": "2026-10-24T16:30:00+00:00",
+   "title": "Wounded Villarreal visit a Valencia side 19th in La Liga",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": null,
+   "seconds": 49
+  },
+  {
    "id": "2026-10-24-borussia-dortmund-eintracht-frankfurt",
    "home": "Borussia Dortmund",
    "away": "Eintracht Frankfurt",
@@ -657,6 +671,20 @@
    "voiced": true,
    "youtube_id": null,
    "article": "/m/2026-10-24-willem-ii-cambuur.html",
+   "seconds": 52
+  },
+  {
+   "id": "2026-10-24-alverca-arouca",
+   "home": "Alverca",
+   "away": "Arouca",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-24T17:00:00+00:00",
+   "title": "Arouca 5th, but Alverca are the home favourites",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-alverca-arouca.html",
    "seconds": 52
   },
   {
