@@ -63,8 +63,8 @@
     <h1 class="disp">${E(r.headline)}</h1>
     <div class="match">${ABR.mono(r.home, 40)}${E(r.home)} <span style="color:var(--muted)">v</span> ${ABR.mono(r.away, 40)}${E(r.away)}</div>
     ${m ? `<div class="card">${ABR.bar(m)}
-      ${first && last && tl.length > 1 ? `<div class="chart"><div class="ttl"><span>${E(S(m[side]))} win probability since we started tracking</span><span>${first[side].toFixed(1)}% → <b style="color:var(--text)">${last[side].toFixed(1)}%</b></span></div>${ABR.spark(m, side)}</div>` : ''}
-      <div class="hfoot">${m.goals ? `<span>Expected goals <b>${m.goals.expected.toFixed(2)}</b></span>` : ''}<span>Tracking since <b>${E(ABR.when(m.tracked_since))}</b></span></div></div>` : ''}
+      ${first && last && tl.length > 1 ? `<div class="chart"><div class="ttl"><span>${E(S(m[side]))} win probability in recent days</span><span>${first[side].toFixed(1)}% → <b style="color:var(--text)">${last[side].toFixed(1)}%</b></span></div>${ABR.spark(m, side)}</div>` : ''}
+      <div class="hfoot">${m.goals ? `<span>Expected goals <b>${m.goals.expected.toFixed(2)}</b></span>` : ''}<span>Prices <b>updated hourly</b></span></div></div>` : ''}
     <p class="summary">${E(r.summary)}</p>
     ${r.voices && Object.keys(r.voices).length ? `<div class="kicker" style="margin-top:34px">The Boot Room debate</div>
       <div class="chat" style="margin-top:14px">${['scout', 'sceptic', 'gaffer'].filter(k => r.voices[k]).map(k => { const P = ABR.PERSONAS[k];

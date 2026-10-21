@@ -1,6 +1,6 @@
 {
  "id": "2026-10-24-aston-villa-manchester-city",
- "title": "City 55.7%: a still market, one early flicker",
+ "title": "Man City 56% favourites at Aston Villa",
  "match": {
   "home": "Aston Villa",
   "away": "Manchester City",
@@ -148,166 +148,215 @@
   "goals": 3.09,
   "goals_rank": 6,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T20:44:00+00:00"
+  "prices_as_of": "2026-10-21T10:21:00+00:00"
  },
  "scenes": [
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Manchester City win chance sits at 55.7%.",
+   "text": "City are rated only 0.75 goals better at Villa.",
    "show": {
-    "kind": "chance",
-    "team": "away",
-    "value": 55.7
+    "kind": "stat",
+    "label": "Villa handicap",
+    "value": "+0.75"
    },
    "first": true,
    "variant": 0,
    "audio": "audio/2026-10-24-aston-villa-manchester-city/s0.mp3",
    "words": [
     {
-     "w": "Manchester",
+     "w": "City",
      "start": 0.12,
-     "end": 0.6
+     "end": 0.44
     },
     {
-     "w": "City",
-     "start": 0.68,
+     "w": "are",
+     "start": 0.52,
+     "end": 0.52
+    },
+    {
+     "w": "rated",
+     "start": 0.52,
      "end": 0.84
     },
     {
-     "w": "win",
-     "start": 0.84,
-     "end": 1.16
+     "w": "only",
+     "start": 0.92,
+     "end": 1.08
     },
     {
-     "w": "chance",
-     "start": 1.16,
-     "end": 1.56
+     "w": "0.75",
+     "start": 1.08,
+     "end": 2.6
     },
     {
-     "w": "sits",
-     "start": 1.64,
-     "end": 1.88
+     "w": "goals",
+     "start": 2.6,
+     "end": 2.92
+    },
+    {
+     "w": "better",
+     "start": 3.0,
+     "end": 3.24
     },
     {
      "w": "at",
-     "start": 1.88,
-     "end": 2.04
+     "start": 3.24,
+     "end": 3.4
     },
     {
-     "w": "55.7%.",
-     "start": 2.04,
-     "end": 3.96
+     "w": "Villa.",
+     "start": 3.48,
+     "end": 3.72
     }
    ],
-   "durationInFrames": 127
+   "durationInFrames": 120
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Aston Villa at home, Manchester City away.",
+   "text": "City are 56% favourites to win at Villa Park.",
    "show": {
-    "kind": "teams"
+    "kind": "chance",
+    "team": "away",
+    "value": 56
    },
    "first": false,
    "variant": 0,
    "audio": "audio/2026-10-24-aston-villa-manchester-city/s1.mp3",
    "words": [
     {
-     "w": "Aston",
+     "w": "City",
      "start": 0.12,
-     "end": 0.52
+     "end": 0.6
     },
     {
-     "w": "Villa",
-     "start": 0.52,
-     "end": 0.84
+     "w": "are",
+     "start": 0.68,
+     "end": 0.76
+    },
+    {
+     "w": "56%",
+     "start": 0.76,
+     "end": 1.96
+    },
+    {
+     "w": "favourites",
+     "start": 1.96,
+     "end": 2.44
+    },
+    {
+     "w": "to",
+     "start": 2.52,
+     "end": 2.6
+    },
+    {
+     "w": "win",
+     "start": 2.6,
+     "end": 2.92
     },
     {
      "w": "at",
-     "start": 0.84,
-     "end": 1
+     "start": 3.0,
+     "end": 3.08
     },
     {
-     "w": "home,",
-     "start": 1.08,
-     "end": 1.48
+     "w": "Villa",
+     "start": 3.16,
+     "end": 3.24
     },
     {
-     "w": "Manchester",
-     "start": 1.611,
-     "end": 2.2
-    },
-    {
-     "w": "City",
-     "start": 2.28,
-     "end": 2.52
-    },
-    {
-     "w": "away.",
-     "start": 2.52,
-     "end": 3
+     "w": "Park.",
+     "start": 3.24,
+     "end": 3.72
     }
    ],
-   "durationInFrames": 98
+   "durationInFrames": 127
   },
   {
    "type": "beat",
-   "speaker": "narrator",
-   "text": "Villa 21.6%, the draw 22.6%, City 55.7%.",
+   "speaker": "scout",
+   "text": "Villa's chance is 22%, so City are more than twice as likely.",
    "show": {
-    "kind": "chances"
+    "kind": "chance",
+    "team": "home",
+    "value": 22
    },
-   "first": false,
+   "first": true,
    "variant": 0,
    "audio": "audio/2026-10-24-aston-villa-manchester-city/s2.mp3",
    "words": [
     {
-     "w": "Villa",
+     "w": "Villa's",
      "start": 0.12,
-     "end": 0.52
+     "end": 0.44
     },
     {
-     "w": "21.6%,",
+     "w": "chance",
      "start": 0.52,
-     "end": 2.04
+     "end": 0.84
     },
     {
-     "w": "the",
-     "start": 2.44,
-     "end": 2.52
+     "w": "is",
+     "start": 0.92,
+     "end": 0.92
     },
     {
-     "w": "draw",
-     "start": 2.52,
-     "end": 2.92
+     "w": "22%,",
+     "start": 0.92,
+     "end": 1.96
     },
     {
-     "w": "22.6%,",
-     "start": 2.925,
-     "end": 4.52
+     "w": "so",
+     "start": 2.306,
+     "end": 2.44
     },
     {
      "w": "City",
-     "start": 4.759,
-     "end": 5.32
+     "start": 2.44,
+     "end": 2.84
     },
     {
-     "w": "55.7%.",
-     "start": 5.32,
-     "end": 7.08
+     "w": "are",
+     "start": 2.92,
+     "end": 2.92
+    },
+    {
+     "w": "more",
+     "start": 3,
+     "end": 3.08
+    },
+    {
+     "w": "than",
+     "start": 3.16,
+     "end": 3.16
+    },
+    {
+     "w": "twice",
+     "start": 3.16,
+     "end": 3.56
+    },
+    {
+     "w": "as",
+     "start": 3.64,
+     "end": 3.72
+    },
+    {
+     "w": "likely.",
+     "start": 3.72,
+     "end": 4.28
     }
    ],
-   "durationInFrames": 220
+   "durationInFrames": 136
   },
   {
    "type": "beat",
-   "speaker": "narrator",
-   "text": "The 1X2 market has moved 0.0 points in 24 hours.",
+   "speaker": "scout",
+   "text": "The draw is rated at 23%, barely above a Villa win.",
    "show": {
-    "kind": "stat",
-    "label": "1X2 move 24 hours",
-    "value": "0.0 pp"
+    "kind": "chance",
+    "team": "draw",
+    "value": 23
    },
    "first": false,
    "variant": 0,
@@ -319,363 +368,276 @@
      "end": 0.28
     },
     {
-     "w": "1X2",
+     "w": "draw",
      "start": 0.36,
-     "end": 0.84
+     "end": 0.52
     },
     {
-     "w": "market",
-     "start": 0.92,
-     "end": 1.4
+     "w": "is",
+     "start": 0.6,
+     "end": 0.6
     },
     {
-     "w": "has",
-     "start": 1.48,
-     "end": 1.48
+     "w": "rated",
+     "start": 0.6,
+     "end": 1
     },
     {
-     "w": "moved",
-     "start": 1.48,
-     "end": 1.88
+     "w": "at",
+     "start": 1,
+     "end": 1.16
     },
     {
-     "w": "0.0",
-     "start": 1.963,
-     "end": 3
+     "w": "23%,",
+     "start": 1.16,
+     "end": 2.36
     },
     {
-     "w": "points",
-     "start": 3.0,
+     "w": "barely",
+     "start": 2.591,
+     "end": 2.92
+    },
+    {
+     "w": "above",
+     "start": 2.92,
+     "end": 3.16
+    },
+    {
+     "w": "a",
+     "start": 3.24,
+     "end": 3.24
+    },
+    {
+     "w": "Villa",
+     "start": 3.32,
      "end": 3.48
     },
     {
-     "w": "in",
-     "start": 3.56,
-     "end": 3.56
-    },
-    {
-     "w": "24",
-     "start": 3.56,
-     "end": 4.04
-    },
-    {
-     "w": "hours.",
-     "start": 4.12,
-     "end": 4.52
+     "w": "win.",
+     "start": 3.48,
+     "end": 3.88
     }
    ],
-   "durationInFrames": 151
+   "durationInFrames": 131
   },
   {
    "type": "beat",
-   "speaker": "scout",
-   "text": "Over 3.0 goals went from 50.3% to 52.2%.",
+   "speaker": "sceptic",
+   "text": "City are clear favourites, but only 0.75 of a goal better.",
    "show": {
-    "kind": "over",
-    "line": 3.0,
-    "from": 50.3,
-    "value": 52.2
+    "kind": "stat",
+    "label": "City handicap",
+    "value": "-0.75"
    },
    "first": true,
    "variant": 0,
    "audio": "audio/2026-10-24-aston-villa-manchester-city/s4.mp3",
    "words": [
     {
-     "w": "Over",
+     "w": "City",
      "start": 0.12,
-     "end": 0.36
+     "end": 0.52
     },
     {
-     "w": "3.0",
-     "start": 0.44,
+     "w": "are",
+     "start": 0.6,
+     "end": 0.68
+    },
+    {
+     "w": "clear",
+     "start": 0.68,
      "end": 1.16
     },
     {
-     "w": "goals",
+     "w": "favourites,",
      "start": 1.16,
-     "end": 1.64
+     "end": 1.88
     },
     {
-     "w": "went",
-     "start": 1.64,
-     "end": 1.8
+     "w": "but",
+     "start": 2.046,
+     "end": 2.12
     },
     {
-     "w": "from",
-     "start": 1.88,
-     "end": 2.04
+     "w": "only",
+     "start": 2.12,
+     "end": 2.44
     },
     {
-     "w": "50.3%",
-     "start": 2.04,
-     "end": 3.48
+     "w": "0.75",
+     "start": 2.52,
+     "end": 3.88
     },
     {
-     "w": "to",
-     "start": 3.559,
-     "end": 3.72
+     "w": "of",
+     "start": 3.96,
+     "end": 4.04
     },
     {
-     "w": "52.2%.",
-     "start": 3.72,
-     "end": 5.32
+     "w": "a",
+     "start": 4.12,
+     "end": 4.12
+    },
+    {
+     "w": "goal",
+     "start": 4.2,
+     "end": 4.36
+    },
+    {
+     "w": "better.",
+     "start": 4.36,
+     "end": 4.76
     }
    ],
-   "durationInFrames": 168
+   "durationInFrames": 158
   },
   {
    "type": "beat",
    "speaker": "scout",
-   "text": "That is a weak but real lean toward goals.",
+   "text": "The goals line is 3.0: just over three goals expected.",
    "show": {
-    "kind": "phrase",
-    "text": "lean toward goals"
+    "kind": "stat",
+    "label": "Goals line",
+    "value": "3.0"
    },
-   "first": false,
+   "first": true,
    "variant": 0,
    "audio": "audio/2026-10-24-aston-villa-manchester-city/s5.mp3",
    "words": [
     {
-     "w": "That",
-     "start": 0.119,
-     "end": 0.36
+     "w": "The",
+     "start": 0.12,
+     "end": 0.2
     },
     {
-     "w": "is",
-     "start": 0.44,
-     "end": 0.44
-    },
-    {
-     "w": "a",
-     "start": 0.52,
+     "w": "goals",
+     "start": 0.2,
      "end": 0.52
     },
     {
-     "w": "weak",
-     "start": 0.52,
+     "w": "line",
+     "start": 0.6,
+     "end": 0.84
+    },
+    {
+     "w": "is",
+     "start": 0.92,
      "end": 1
     },
     {
-     "w": "but",
-     "start": 1.0,
-     "end": 1.24
+     "w": "3.0:",
+     "start": 1,
+     "end": 2.04
     },
     {
-     "w": "real",
-     "start": 1.32,
-     "end": 1.72
-    },
-    {
-     "w": "lean",
-     "start": 1.72,
-     "end": 1.96
-    },
-    {
-     "w": "toward",
-     "start": 2.04,
-     "end": 2.36
-    },
-    {
-     "w": "goals.",
-     "start": 2.36,
-     "end": 2.84
-    }
-   ],
-   "durationInFrames": 100
-  },
-  {
-   "type": "beat",
-   "speaker": "sceptic",
-   "text": "That move happened in the first 27 minutes of tracking.",
-   "show": {
-    "kind": "stat",
-    "label": "Move window",
-    "value": "27 min"
-   },
-   "first": true,
-   "variant": 0,
-   "audio": "audio/2026-10-24-aston-villa-manchester-city/s6.mp3",
-   "words": [
-    {
-     "w": "That",
-     "start": 0.12,
-     "end": 0.36
-    },
-    {
-     "w": "move",
-     "start": 0.44,
-     "end": 0.6
-    },
-    {
-     "w": "happened",
-     "start": 0.6,
-     "end": 1.08
-    },
-    {
-     "w": "in",
-     "start": 1.16,
-     "end": 1.16
-    },
-    {
-     "w": "the",
-     "start": 1.24,
-     "end": 1.24
-    },
-    {
-     "w": "first",
-     "start": 1.24,
-     "end": 1.8
-    },
-    {
-     "w": "27",
-     "start": 1.8,
-     "end": 2.52
-    },
-    {
-     "w": "minutes",
-     "start": 2.6,
-     "end": 2.76
-    },
-    {
-     "w": "of",
-     "start": 2.76,
-     "end": 2.92
-    },
-    {
-     "w": "tracking.",
-     "start": 2.92,
-     "end": 3.32
-    }
-   ],
-   "durationInFrames": 108
-  },
-  {
-   "type": "beat",
-   "speaker": "sceptic",
-   "text": "Seven snapshots only; we cannot see who moved first.",
-   "show": {
-    "kind": "stat",
-    "label": "Price snapshots",
-    "value": "7"
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-24-aston-villa-manchester-city/s7.mp3",
-   "words": [
-    {
-     "w": "Seven",
-     "start": 0.12,
-     "end": 0.6
-    },
-    {
-     "w": "snapshots",
-     "start": 0.6,
-     "end": 1.24
-    },
-    {
-     "w": "only;",
-     "start": 1.24,
-     "end": 1.72
-    },
-    {
-     "w": "we",
-     "start": 1.959,
-     "end": 1.96
-    },
-    {
-     "w": "cannot",
-     "start": 1.96,
+     "w": "just",
+     "start": 2.274,
      "end": 2.44
     },
     {
-     "w": "see",
-     "start": 2.52,
+     "w": "over",
+     "start": 2.44,
      "end": 2.6
     },
     {
-     "w": "who",
-     "start": 2.6,
-     "end": 2.76
+     "w": "three",
+     "start": 2.68,
+     "end": 2.92
     },
     {
-     "w": "moved",
-     "start": 2.84,
-     "end": 3.08
+     "w": "goals",
+     "start": 2.92,
+     "end": 3.24
     },
     {
-     "w": "first.",
-     "start": 3.08,
-     "end": 3.56
+     "w": "expected.",
+     "start": 3.32,
+     "end": 3.8
     }
    ],
    "durationInFrames": 122
   },
   {
    "type": "beat",
-   "speaker": "gaffer",
-   "text": "The handicap is steady at plus 0.75.",
+   "speaker": "scout",
+   "text": "Over 3.0 goals is 52%, slightly more likely than not.",
    "show": {
-    "kind": "stat",
-    "label": "Handicap line",
-    "value": "+0.75"
-   },
-   "first": true,
-   "variant": 0,
-   "audio": "audio/2026-10-24-aston-villa-manchester-city/s8.mp3",
-   "words": [
-    {
-     "w": "The",
-     "start": 0.114,
-     "end": 0.2
-    },
-    {
-     "w": "handicap",
-     "start": 0.28,
-     "end": 0.84
-    },
-    {
-     "w": "is",
-     "start": 0.84,
-     "end": 0.92
-    },
-    {
-     "w": "steady",
-     "start": 1.0,
-     "end": 1.4
-    },
-    {
-     "w": "at",
-     "start": 1.48,
-     "end": 1.56
-    },
-    {
-     "w": "plus",
-     "start": 1.56,
-     "end": 1.96
-    },
-    {
-     "w": "0.75.",
-     "start": 1.96,
-     "end": 3.64
-    }
-   ],
-   "durationInFrames": 117
-  },
-  {
-   "type": "beat",
-   "speaker": "gaffer",
-   "text": "The fair goal total is 3.09, right on the line.",
-   "show": {
-    "kind": "goals",
-    "value": 3.09
+    "kind": "over",
+    "line": 3.0,
+    "value": 52
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-aston-villa-manchester-city/s9.mp3",
+   "audio": "audio/2026-10-24-aston-villa-manchester-city/s6.mp3",
+   "words": [
+    {
+     "w": "Over",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "3.0",
+     "start": 0.36,
+     "end": 1.08
+    },
+    {
+     "w": "goals",
+     "start": 1.16,
+     "end": 1.48
+    },
+    {
+     "w": "is",
+     "start": 1.48,
+     "end": 1.72
+    },
+    {
+     "w": "52%,",
+     "start": 1.72,
+     "end": 2.76
+    },
+    {
+     "w": "slightly",
+     "start": 2.995,
+     "end": 3.4
+    },
+    {
+     "w": "more",
+     "start": 3.48,
+     "end": 3.56
+    },
+    {
+     "w": "likely",
+     "start": 3.56,
+     "end": 3.88
+    },
+    {
+     "w": "than",
+     "start": 3.96,
+     "end": 4.04
+    },
+    {
+     "w": "not.",
+     "start": 4.12,
+     "end": 4.36
+    }
+   ],
+   "durationInFrames": 146
+  },
+  {
+   "type": "beat",
+   "speaker": "sceptic",
+   "text": "The fair total is about 3.1 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 3.1
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-aston-villa-manchester-city/s7.mp3",
    "words": [
     {
      "w": "The",
-     "start": 0.1,
+     "start": 0.113,
      "end": 0.2
     },
     {
@@ -684,12 +646,63 @@
      "end": 0.52
     },
     {
-     "w": "goal",
-     "start": 0.6,
+     "w": "total",
+     "start": 0.52,
+     "end": 1.08
+    },
+    {
+     "w": "is",
+     "start": 1.16,
+     "end": 1.48
+    },
+    {
+     "w": "about",
+     "start": 1.48,
+     "end": 1.8
+    },
+    {
+     "w": "3.1",
+     "start": 1.88,
+     "end": 2.6
+    },
+    {
+     "w": "goals.",
+     "start": 2.6,
+     "end": 3.08
+    }
+   ],
+   "durationInFrames": 107
+  },
+  {
+   "type": "beat",
+   "speaker": "gaffer",
+   "text": "Both teams to score is 60.5%: an open game is more likely.",
+   "show": {
+    "kind": "stat",
+    "label": "Both teams score",
+    "value": "60.5"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-aston-villa-manchester-city/s8.mp3",
+   "words": [
+    {
+     "w": "Both",
+     "start": 0.12,
+     "end": 0.44
+    },
+    {
+     "w": "teams",
+     "start": 0.52,
+     "end": 0.76
+    },
+    {
+     "w": "to",
+     "start": 0.84,
      "end": 0.84
     },
     {
-     "w": "total",
+     "w": "score",
      "start": 0.84,
      "end": 1.32
     },
@@ -699,151 +712,102 @@
      "end": 1.56
     },
     {
-     "w": "3.09,",
+     "w": "60.5%:",
      "start": 1.56,
-     "end": 2.84
+     "end": 3
     },
     {
-     "w": "right",
-     "start": 2.999,
-     "end": 3.32
-    },
-    {
-     "w": "on",
-     "start": 3.4,
+     "w": "an",
+     "start": 3.305,
      "end": 3.4
     },
     {
-     "w": "the",
-     "start": 3.48,
-     "end": 3.48
+     "w": "open",
+     "start": 3.4,
+     "end": 3.64
     },
     {
-     "w": "line.",
-     "start": 3.48,
-     "end": 3.88
-    }
-   ],
-   "durationInFrames": 124
-  },
-  {
-   "type": "beat",
-   "speaker": "gaffer",
-   "text": "No injury news is logged for either side.",
-   "show": {
-    "kind": "phrase",
-    "text": "no injury news"
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-24-aston-villa-manchester-city/s10.mp3",
-   "words": [
-    {
-     "w": "No",
-     "start": 0.12,
-     "end": 0.44
-    },
-    {
-     "w": "injury",
-     "start": 0.52,
-     "end": 0.84
-    },
-    {
-     "w": "news",
-     "start": 0.84,
-     "end": 1.24
+     "w": "game",
+     "start": 3.72,
+     "end": 3.96
     },
     {
      "w": "is",
-     "start": 1.32,
-     "end": 1.32
+     "start": 4.04,
+     "end": 4.04
     },
     {
-     "w": "logged",
-     "start": 1.4,
-     "end": 1.72
+     "w": "more",
+     "start": 4.12,
+     "end": 4.2
     },
     {
-     "w": "for",
-     "start": 1.72,
-     "end": 1.88
-    },
-    {
-     "w": "either",
-     "start": 1.961,
-     "end": 2.2
-    },
-    {
-     "w": "side.",
-     "start": 2.2,
-     "end": 2.68
+     "w": "likely.",
+     "start": 4.2,
+     "end": 4.76
     }
    ],
-   "durationInFrames": 88
+   "durationInFrames": 151
   },
   {
    "type": "beat",
    "speaker": "gaffer",
-   "text": "So the market is still, with one early flicker.",
+   "text": "City are more likely than not to win.",
    "show": {
     "kind": "verdict",
     "points": [
-     "City clear at 55.7%",
-     "Early goals move, then flat",
-     "Handicap steady at +0.75"
+     "City favourites",
+     "Villa close behind",
+     "Goals expected",
+     "Open game likely"
     ]
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-aston-villa-manchester-city/s11.mp3",
+   "audio": "audio/2026-10-24-aston-villa-manchester-city/s9.mp3",
    "words": [
     {
-     "w": "So",
-     "start": 0.04,
-     "end": 0.2
+     "w": "City",
+     "start": 0.119,
+     "end": 0.6
     },
     {
-     "w": "the",
-     "start": 0.28,
-     "end": 0.36
-    },
-    {
-     "w": "market",
-     "start": 0.44,
-     "end": 0.68
-    },
-    {
-     "w": "is",
+     "w": "are",
      "start": 0.68,
      "end": 0.76
     },
     {
-     "w": "still,",
+     "w": "more",
      "start": 0.76,
+     "end": 1.08
+    },
+    {
+     "w": "likely",
+     "start": 1.16,
      "end": 1.48
     },
     {
-     "w": "with",
-     "start": 1.697,
-     "end": 1.88
+     "w": "than",
+     "start": 1.56,
+     "end": 1.64
     },
     {
-     "w": "one",
-     "start": 1.88,
-     "end": 2.28
+     "w": "not",
+     "start": 1.64,
+     "end": 1.96
     },
     {
-     "w": "early",
-     "start": 2.28,
-     "end": 2.6
+     "w": "to",
+     "start": 2.04,
+     "end": 2.04
     },
     {
-     "w": "flicker.",
-     "start": 2.68,
-     "end": 3.08
+     "w": "win.",
+     "start": 2.12,
+     "end": 2.44
     }
    ],
-   "durationInFrames": 107
+   "durationInFrames": 88
   },
   {
    "type": "end",
@@ -851,7 +815,7 @@
    "text": "AI Boot Room. Football analysis, with receipts.",
    "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-24-aston-villa-manchester-city/s12.mp3",
+   "audio": "audio/2026-10-24-aston-villa-manchester-city/s10.mp3",
    "words": [
     {
      "w": "AI",
@@ -896,17 +860,17 @@
  "silent": false,
  "style": "pulse",
  "story": {
-  "format": "quiet",
-  "kicker": "QUIET MARKET",
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
   "stickers": [
-   "🧊",
-   "🧊",
-   "🧊"
+   "🎯",
+   "🎯",
+   "🎯"
   ]
  },
  "source": "market_desk",
  "fixture_id": 1557438,
- "prices_as_of": "2026-10-20T20:44:00+00:00",
+ "prices_as_of": "2026-10-21T10:21:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice.",
  "voiced": true
 }

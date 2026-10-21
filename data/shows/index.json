@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T10:40:04+00:00",
+ "generated_at": "2026-10-21T11:47:28+00:00",
  "shows": [
   {
    "id": "2026-10-22-juventus-rennes",
@@ -7,12 +7,12 @@
    "away": "Rennes",
    "league": "Europa League",
    "kickoff": "2026-10-22T16:45:00+00:00",
-   "title": "Juventus vs Rennes: one snapshot, no movement",
+   "title": "Juventus-Rennes: goals total 2.75",
    "source": "market_desk",
-   "kicker": "QUIET MARKET",
+   "kicker": "MATCH PREVIEW",
    "voiced": true,
    "youtube_id": null,
-   "seconds": 52
+   "seconds": 58
   },
   {
    "id": "2026-10-24-aston-villa-manchester-city",
@@ -20,12 +20,12 @@
    "away": "Manchester City",
    "league": "Premier League",
    "kickoff": "2026-10-24T11:30:00+00:00",
-   "title": "City 55.7%: a still market, one early flicker",
+   "title": "Man City 56% favourites at Aston Villa",
    "source": "market_desk",
-   "kicker": "QUIET MARKET",
+   "kicker": "MATCH PREVIEW",
    "voiced": true,
    "youtube_id": null,
-   "seconds": 56
+   "seconds": 47
   },
   {
    "id": "2026-10-24-napoli-as-roma",
@@ -33,12 +33,12 @@
    "away": "AS Roma",
    "league": "Serie A",
    "kickoff": "2026-10-24T16:00:00+00:00",
-   "title": "Napoli vs Roma: a near coin-flip the market won't call",
+   "title": "Napoli vs Roma: level match, Roma 37.8%",
    "source": "market_desk",
    "kicker": "MARKET READ",
    "voiced": true,
    "youtube_id": null,
-   "seconds": 56
+   "seconds": 63
   },
   {
    "id": "2026-10-24-chelsea-tottenham",
@@ -46,12 +46,12 @@
    "away": "Tottenham",
    "league": "Premier League",
    "kickoff": "2026-10-24T16:30:00+00:00",
-   "title": "Chelsea vs Tottenham: market sees a 3-goal game",
+   "title": "Chelsea chance rises to 54.9% for Tottenham derby",
    "source": "market_desk",
    "kicker": "MARKET ALERT",
    "voiced": true,
    "youtube_id": null,
-   "seconds": 54
+   "seconds": 53
   },
   {
    "id": "2026-10-25-barcelona-real-madrid",
@@ -59,12 +59,12 @@
    "away": "Real Madrid",
    "league": "La Liga",
    "kickoff": "2026-10-25T20:00:00+00:00",
-   "title": "Clásico: a tenth of a goal, and then nothing",
+   "title": "Barcelona-Madrid: 4.2 goals expected",
    "source": "market_desk",
    "kicker": "EL CLÁSICO",
    "voiced": true,
    "youtube_id": null,
-   "seconds": 62
+   "seconds": 51
   }
  ]
 }

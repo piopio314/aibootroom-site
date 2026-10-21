@@ -152,10 +152,10 @@
     document.getElementById('heroKick').textContent = `Match of the week · ${f.league} · ${ABR.when(f.kickoff, true)}`;
     document.getElementById('heroTitle').innerHTML = `${E(S(f.home))}<span class="vs">vs</span>${E(S(f.away))}`;
     const moved = Math.abs(b.d) >= 0.5
-      ? ` ${b.d > 0 ? `<b>${E(S(b.team))} have gained ${b.d.toFixed(1)} points</b>` : `<b>${E(S(b.team))} have lost ${Math.abs(b.d).toFixed(1)} points</b>`} since we started tracking`
-      : ' and the price has barely moved since we started tracking';
+      ? ` ${b.d > 0 ? `<b>${E(S(b.team))} have gained ${b.d.toFixed(1)} points</b>` : `<b>${E(S(b.team))} have lost ${Math.abs(b.d).toFixed(1)} points</b>`} in recent days`
+      : '';
     const goals = f.goals ? `, and it expects <b>${f.goals.expected.toFixed(1)} goals</b>` : '';
-    document.getElementById('heroSub').innerHTML = `The market makes <b>${E(favName)} ${favPct}% favourites</b> —${moved}${goals}.`;
+    document.getElementById('heroSub').innerHTML = `The market makes <b>${E(favName)} ${favPct}% favourites</b>${moved ? ` —${moved}` : ''}${goals}.`;
     if (f.read) document.getElementById('heroCtas').firstElementChild.outerHTML = `<a class="btn primary" href="${readUrl(f.read)}">Read the market →</a>`;
     const side = Math.abs(f.move.away) > Math.abs(f.move.home) ? 'away' : 'home';
     const tl = f.timeline || [], first = tl[0], last = tl[tl.length - 1];
@@ -167,7 +167,7 @@
       </div>
       ${ABR.bar(f)}
       ${first && last ? `<div class="chart"><div class="ttl"><span>${E(S(f[side]))} win probability</span><span>${first[side].toFixed(1)}% → <b style="color:var(--text)">${last[side].toFixed(1)}%</b></span></div>${ABR.spark(f, side)}</div>` : ''}
-      <div class="hfoot"><span>Tracking since <b>${ABR.when(f.tracked_since)}</b></span>${f.goals ? `<span>Expected goals <b>${f.goals.expected.toFixed(2)}</b></span>` : ''}
+      <div class="hfoot"><span>Prices <b>updated hourly</b></span>${f.goals ? `<span>Expected goals <b>${f.goals.expected.toFixed(2)}</b></span>` : ''}
         ${(f.absences.home + f.absences.away) ? `<span>Absences listed <b>${f.absences.home + f.absences.away}</b></span>` : ''}</div>`;
   }
 

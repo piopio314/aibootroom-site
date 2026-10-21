@@ -1,6 +1,6 @@
 {
  "id": "2026-10-22-juventus-rennes",
- "title": "Juventus vs Rennes: one snapshot, no movement",
+ "title": "Juventus-Rennes: goals total 2.75",
  "match": {
   "home": "Juventus",
   "away": "Rennes",
@@ -27,6 +27,10 @@
    {
     "t": "2026-10-20T20:44:00+00:00",
     "v": 17.3
+   },
+   {
+    "t": "2026-10-21T02:29:00+00:00",
+    "v": 17.3
    }
   ],
   "series": {
@@ -34,11 +38,19 @@
     {
      "t": "2026-10-20T20:44:00+00:00",
      "v": 60.7
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 60.7
     }
    ],
    "draw": [
     {
      "t": "2026-10-20T20:44:00+00:00",
+     "v": 22.0
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
      "v": 22.0
     }
    ],
@@ -46,75 +58,83 @@
     {
      "t": "2026-10-20T20:44:00+00:00",
      "v": 17.3
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 17.3
     }
    ]
   },
   "goals": 2.79,
   "goals_rank": 1,
   "tracked_since": "2026-10-20T20:44:00+00:00",
-  "prices_as_of": "2026-10-20T20:44:00+00:00"
+  "prices_as_of": "2026-10-21T10:21:00+00:00"
  },
  "scenes": [
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "This match has 0.0 hours of price history.",
+   "text": "The goals total is 2.75 for Juventus against Rennes.",
    "show": {
-    "kind": "stat",
-    "label": "Price history",
-    "value": "0.0 h"
+    "kind": "goals",
+    "value": 2.75
    },
    "first": true,
    "variant": 0,
    "audio": "audio/2026-10-22-juventus-rennes/s0.mp3",
    "words": [
     {
-     "w": "This",
+     "w": "The",
      "start": 0.25,
-     "end": 0.425
+     "end": 0.325
     },
     {
-     "w": "match",
-     "start": 0.425,
-     "end": 0.75
+     "w": "goals",
+     "start": 0.325,
+     "end": 0.65
     },
     {
-     "w": "has",
-     "start": 0.75,
-     "end": 0.963
+     "w": "total",
+     "start": 0.65,
+     "end": 1.05
     },
     {
-     "w": "0.0",
-     "start": 0.963,
-     "end": 1.337
+     "w": "is",
+     "start": 1.05,
+     "end": 1.212
     },
     {
-     "w": "hours",
-     "start": 1.337,
-     "end": 1.688
+     "w": "2.75",
+     "start": 1.212,
+     "end": 2.513
     },
     {
-     "w": "of",
-     "start": 1.688,
-     "end": 1.775
+     "w": "for",
+     "start": 2.513,
+     "end": 2.65
     },
     {
-     "w": "price",
-     "start": 1.775,
-     "end": 2.087
+     "w": "Juventus",
+     "start": 2.65,
+     "end": 3.175
     },
     {
-     "w": "history.",
-     "start": 2.087,
-     "end": 2.925
+     "w": "against",
+     "start": 3.175,
+     "end": 3.55
+    },
+    {
+     "w": "Rennes.",
+     "start": 3.55,
+     "end": 4.35
     }
    ],
-   "durationInFrames": 96
+   "durationInFrames": 139
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Juventus host Rennes in the Europa League.",
+   "text": "Europa League, Thursday night in Turin.",
    "show": {
     "kind": "teams"
    },
@@ -123,51 +143,46 @@
    "audio": "audio/2026-10-22-juventus-rennes/s1.mp3",
    "words": [
     {
-     "w": "Juventus",
-     "start": 0.25,
-     "end": 0.7
+     "w": "Europa",
+     "start": 0.275,
+     "end": 0.65
     },
     {
-     "w": "host",
-     "start": 0.7,
-     "end": 1.087
+     "w": "League,",
+     "start": 0.65,
+     "end": 1.0
     },
     {
-     "w": "Rennes",
-     "start": 1.087,
-     "end": 1.438
+     "w": "Thursday",
+     "start": 1.05,
+     "end": 1.475
+    },
+    {
+     "w": "night",
+     "start": 1.475,
+     "end": 1.725
     },
     {
      "w": "in",
-     "start": 1.438,
-     "end": 1.512
+     "start": 1.725,
+     "end": 1.875
     },
     {
-     "w": "the",
-     "start": 1.512,
-     "end": 1.6
-    },
-    {
-     "w": "Europa",
-     "start": 1.6,
-     "end": 2.025
-    },
-    {
-     "w": "League.",
-     "start": 2.025,
-     "end": 2.75
+     "w": "Turin.",
+     "start": 1.875,
+     "end": 2.7
     }
    ],
-   "durationInFrames": 98
+   "durationInFrames": 96
   },
   {
    "type": "beat",
    "speaker": "scout",
-   "text": "The sharp market makes Juventus a 61% favourite.",
+   "text": "The handicap is -1: Juventus rated a goal better.",
    "show": {
-    "kind": "chance",
-    "team": "home",
-    "value": 61
+    "kind": "stat",
+    "label": "handicap",
+    "value": "-1"
    },
    "first": true,
    "variant": 0,
@@ -176,54 +191,56 @@
     {
      "w": "The",
      "start": 0.25,
-     "end": 0.362
+     "end": 0.35
     },
     {
-     "w": "sharp",
-     "start": 0.362,
-     "end": 0.675
+     "w": "handicap",
+     "start": 0.35,
+     "end": 0.988
     },
     {
-     "w": "market",
-     "start": 0.675,
-     "end": 1.125
-    },
-    {
-     "w": "makes",
-     "start": 1.125,
-     "end": 1.4
+     "w": "is:",
+     "start": 0.988,
+     "end": 1.375
     },
     {
      "w": "Juventus",
-     "start": 1.4,
+     "start": 1.45,
      "end": 2.05
     },
     {
-     "w": "a",
+     "w": "rated",
      "start": 2.05,
-     "end": 2.163
+     "end": 2.362
     },
     {
-     "w": "61%",
-     "start": 2.163,
-     "end": 3.175
+     "w": "a",
+     "start": 2.362,
+     "end": 2.425
     },
     {
-     "w": "favourite.",
-     "start": 3.175,
-     "end": 4.025
+     "w": "goal",
+     "start": 2.425,
+     "end": 2.7
+    },
+    {
+     "w": "better.",
+     "start": 2.7,
+     "end": 3.45
     }
    ],
-   "durationInFrames": 129
+   "durationInFrames": 118
   },
   {
    "type": "beat",
-   "speaker": "scout",
-   "text": "The draw is 22% and Rennes just 17%.",
+   "speaker": "sceptic",
+   "text": "The draw is 22%, so this is closer than it looks.",
    "show": {
-    "kind": "chances"
+    "kind": "chance",
+    "team": "draw",
+    "value": 22
    },
-   "first": false,
+   "first": true,
    "variant": 0,
    "audio": "audio/2026-10-22-juventus-rennes/s3.mp3",
    "words": [
@@ -243,477 +260,573 @@
      "end": 0.775
     },
     {
-     "w": "22%",
+     "w": "22%,",
      "start": 0.775,
-     "end": 1.975
+     "end": 1.85
     },
     {
-     "w": "and",
-     "start": 1.975,
-     "end": 2.125
+     "w": "so",
+     "start": 1.95,
+     "end": 2.087
     },
     {
-     "w": "Rennes",
-     "start": 2.125,
-     "end": 2.4
-    },
-    {
-     "w": "just",
-     "start": 2.4,
-     "end": 2.663
-    },
-    {
-     "w": "17%.",
-     "start": 2.663,
-     "end": 4.15
-    }
-   ],
-   "durationInFrames": 133
-  },
-  {
-   "type": "beat",
-   "speaker": "scout",
-   "text": "The handicap fair line is -0.94, about one goal.",
-   "show": {
-    "kind": "stat",
-    "label": "Handicap fair line",
-    "value": "-0.94"
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-22-juventus-rennes/s4.mp3",
-   "words": [
-    {
-     "w": "The",
-     "start": 0.25,
-     "end": 0.325
-    },
-    {
-     "w": "handicap",
-     "start": 0.325,
-     "end": 0.875
-    },
-    {
-     "w": "fair",
-     "start": 0.875,
-     "end": 1.1
-    },
-    {
-     "w": "line",
-     "start": 1.1,
-     "end": 1.35
+     "w": "this",
+     "start": 2.087,
+     "end": 2.275
     },
     {
      "w": "is",
-     "start": 1.35,
-     "end": 1.5
+     "start": 2.275,
+     "end": 2.438
     },
     {
-     "w": "-0.94,",
-     "start": 1.5,
-     "end": 3.175
+     "w": "closer",
+     "start": 2.438,
+     "end": 2.888
     },
     {
-     "w": "about",
-     "start": 3.3,
-     "end": 3.6
-    },
-    {
-     "w": "one",
-     "start": 3.6,
-     "end": 3.85
-    },
-    {
-     "w": "goal.",
-     "start": 3.85,
-     "end": 4.65
-    }
-   ],
-   "durationInFrames": 154
-  },
-  {
-   "type": "beat",
-   "speaker": "sceptic",
-   "text": "That 61% is the opening price, not a move.",
-   "show": {
-    "kind": "chance",
-    "team": "home",
-    "value": 61
-   },
-   "first": true,
-   "variant": 0,
-   "audio": "audio/2026-10-22-juventus-rennes/s5.mp3",
-   "words": [
-    {
-     "w": "That",
-     "start": 0.25,
-     "end": 0.475
-    },
-    {
-     "w": "61%",
-     "start": 0.475,
-     "end": 1.55
-    },
-    {
-     "w": "is",
-     "start": 1.55,
-     "end": 1.663
-    },
-    {
-     "w": "the",
-     "start": 1.663,
-     "end": 1.812
-    },
-    {
-     "w": "opening",
-     "start": 1.812,
-     "end": 2.225
-    },
-    {
-     "w": "price,",
-     "start": 2.225,
-     "end": 2.725
-    },
-    {
-     "w": "not",
-     "start": 2.825,
+     "w": "than",
+     "start": 2.888,
      "end": 2.987
     },
     {
-     "w": "a",
+     "w": "it",
      "start": 2.987,
-     "end": 3.05
+     "end": 3.1
     },
     {
-     "w": "move.",
-     "start": 3.05,
+     "w": "looks.",
+     "start": 3.1,
      "end": 3.85
-    }
-   ],
-   "durationInFrames": 124
-  },
-  {
-   "type": "beat",
-   "speaker": "sceptic",
-   "text": "With 1 snapshot, every flat number is mechanical.",
-   "show": {
-    "kind": "stat",
-    "label": "Snapshots",
-    "value": "1"
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-22-juventus-rennes/s6.mp3",
-   "words": [
-    {
-     "w": "With",
-     "start": 0.25,
-     "end": 0.425
-    },
-    {
-     "w": "1",
-     "start": 0.425,
-     "end": 0.65
-    },
-    {
-     "w": "snapshot,",
-     "start": 0.65,
-     "end": 1.35
-    },
-    {
-     "w": "every",
-     "start": 1.45,
-     "end": 1.762
-    },
-    {
-     "w": "flat",
-     "start": 1.762,
-     "end": 2.1
-    },
-    {
-     "w": "number",
-     "start": 2.1,
-     "end": 2.425
-    },
-    {
-     "w": "is",
-     "start": 2.425,
-     "end": 2.575
-    },
-    {
-     "w": "mechanical.",
-     "start": 2.575,
-     "end": 3.625
-    }
-   ],
-   "durationInFrames": 117
-  },
-  {
-   "type": "beat",
-   "speaker": "sceptic",
-   "text": "Goals sit on 2.75, near-balanced at 51%.",
-   "show": {
-    "kind": "over",
-    "line": 2.75,
-    "value": 51
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-22-juventus-rennes/s7.mp3",
-   "words": [
-    {
-     "w": "Goals",
-     "start": 0.25,
-     "end": 0.55
-    },
-    {
-     "w": "sit",
-     "start": 0.55,
-     "end": 0.713
-    },
-    {
-     "w": "on",
-     "start": 0.713,
-     "end": 0.912
-    },
-    {
-     "w": "2.75,",
-     "start": 0.912,
-     "end": 2.35
-    },
-    {
-     "w": "near-balanced",
-     "start": 2.487,
-     "end": 3.15
-    },
-    {
-     "w": "at",
-     "start": 3.15,
-     "end": 3.275
-    },
-    {
-     "w": "51%.",
-     "start": 3.275,
-     "end": 4.675
-    }
-   ],
-   "durationInFrames": 148
-  },
-  {
-   "type": "beat",
-   "speaker": "sceptic",
-   "text": "The gap to consensus is only 1.5 points.",
-   "show": {
-    "kind": "stat",
-    "label": "Over gap vs consensus",
-    "value": "1.5"
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-22-juventus-rennes/s8.mp3",
-   "words": [
-    {
-     "w": "The",
-     "start": 0.25,
-     "end": 0.325
-    },
-    {
-     "w": "gap",
-     "start": 0.325,
-     "end": 0.575
-    },
-    {
-     "w": "to",
-     "start": 0.575,
-     "end": 0.675
-    },
-    {
-     "w": "consensus",
-     "start": 0.675,
-     "end": 1.375
-    },
-    {
-     "w": "is",
-     "start": 1.375,
-     "end": 1.5
-    },
-    {
-     "w": "only",
-     "start": 1.5,
-     "end": 1.8
-    },
-    {
-     "w": "1.5",
-     "start": 1.8,
-     "end": 2.675
-    },
-    {
-     "w": "points.",
-     "start": 2.675,
-     "end": 3.5
-    }
-   ],
-   "durationInFrames": 120
-  },
-  {
-   "type": "beat",
-   "speaker": "gaffer",
-   "text": "Both are right: there is no signal yet.",
-   "show": {
-    "kind": "phrase",
-    "text": "no signal yet"
-   },
-   "first": true,
-   "variant": 0,
-   "audio": "audio/2026-10-22-juventus-rennes/s9.mp3",
-   "words": [
-    {
-     "w": "Both",
-     "start": 0.25,
-     "end": 0.512
-    },
-    {
-     "w": "are",
-     "start": 0.512,
-     "end": 0.6
-    },
-    {
-     "w": "right:",
-     "start": 0.6,
-     "end": 0.925
-    },
-    {
-     "w": "there",
-     "start": 1.0,
-     "end": 1.175
-    },
-    {
-     "w": "is",
-     "start": 1.175,
-     "end": 1.325
-    },
-    {
-     "w": "no",
-     "start": 1.325,
-     "end": 1.6
-    },
-    {
-     "w": "signal",
-     "start": 1.6,
-     "end": 2.025
-    },
-    {
-     "w": "yet.",
-     "start": 2.025,
-     "end": 2.675
-    }
-   ],
-   "durationInFrames": 88
-  },
-  {
-   "type": "beat",
-   "speaker": "gaffer",
-   "text": "Juventus are a 61% favourite, about one goal.",
-   "show": {
-    "kind": "chance",
-    "team": "home",
-    "value": 61
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-22-juventus-rennes/s10.mp3",
-   "words": [
-    {
-     "w": "Juventus",
-     "start": 0.275,
-     "end": 0.8
-    },
-    {
-     "w": "are",
-     "start": 0.8,
-     "end": 0.912
-    },
-    {
-     "w": "a",
-     "start": 0.912,
-     "end": 1.012
-    },
-    {
-     "w": "61%",
-     "start": 1.012,
-     "end": 2.013
-    },
-    {
-     "w": "favourite,",
-     "start": 2.013,
-     "end": 2.625
-    },
-    {
-     "w": "about",
-     "start": 2.725,
-     "end": 3.025
-    },
-    {
-     "w": "one",
-     "start": 3.025,
-     "end": 3.275
-    },
-    {
-     "w": "goal.",
-     "start": 3.275,
-     "end": 4.05
     }
    ],
    "durationInFrames": 130
   },
   {
    "type": "beat",
-   "speaker": "gaffer",
-   "text": "We wait for real hourly moves.",
+   "speaker": "narrator",
+   "text": "Rennes are 17% to win in Turin.",
    "show": {
-    "kind": "verdict",
-    "points": [
-     "One snapshot, no movement",
-     "Juventus about one goal",
-     "Goals near-balanced; wait"
-    ]
+    "kind": "chance",
+    "team": "away",
+    "value": 17
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-juventus-rennes/s4.mp3",
+   "words": [
+    {
+     "w": "Rennes",
+     "start": 0.275,
+     "end": 0.575
+    },
+    {
+     "w": "are",
+     "start": 0.575,
+     "end": 0.738
+    },
+    {
+     "w": "17%",
+     "start": 0.738,
+     "end": 1.75
+    },
+    {
+     "w": "to",
+     "start": 1.75,
+     "end": 1.875
+    },
+    {
+     "w": "win",
+     "start": 1.875,
+     "end": 2.1
+    },
+    {
+     "w": "in",
+     "start": 2.1,
+     "end": 2.25
+    },
+    {
+     "w": "Turin.",
+     "start": 2.25,
+     "end": 3.075
+    }
+   ],
+   "durationInFrames": 107
+  },
+  {
+   "type": "beat",
+   "speaker": "scout",
+   "text": "Over 2.75 goals is 51%, just above even.",
+   "show": {
+    "kind": "over",
+    "line": 2.75,
+    "value": 51
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-juventus-rennes/s5.mp3",
+   "words": [
+    {
+     "w": "Over",
+     "start": 0.25,
+     "end": 0.487
+    },
+    {
+     "w": "2.75",
+     "start": 0.487,
+     "end": 1.7
+    },
+    {
+     "w": "goals",
+     "start": 1.7,
+     "end": 2.1
+    },
+    {
+     "w": "is",
+     "start": 2.1,
+     "end": 2.25
+    },
+    {
+     "w": "51%,",
+     "start": 2.25,
+     "end": 3.475
+    },
+    {
+     "w": "just",
+     "start": 3.612,
+     "end": 3.9
+    },
+    {
+     "w": "above",
+     "start": 3.9,
+     "end": 4.225
+    },
+    {
+     "w": "even.",
+     "start": 4.225,
+     "end": 5.025
+    }
+   ],
+   "durationInFrames": 166
+  },
+  {
+   "type": "beat",
+   "speaker": "sceptic",
+   "text": "Both teams to score is 53%, barely above even.",
+   "show": {
+    "kind": "stat",
+    "label": "both teams score",
+    "value": "53"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-juventus-rennes/s6.mp3",
+   "words": [
+    {
+     "w": "Both",
+     "start": 0.25,
+     "end": 0.5
+    },
+    {
+     "w": "teams",
+     "start": 0.5,
+     "end": 0.85
+    },
+    {
+     "w": "to",
+     "start": 0.85,
+     "end": 0.975
+    },
+    {
+     "w": "score",
+     "start": 0.975,
+     "end": 1.325
+    },
+    {
+     "w": "is",
+     "start": 1.325,
+     "end": 1.475
+    },
+    {
+     "w": "53%,",
+     "start": 1.475,
+     "end": 2.625
+    },
+    {
+     "w": "barely",
+     "start": 2.763,
+     "end": 3.175
+    },
+    {
+     "w": "above",
+     "start": 3.175,
+     "end": 3.475
+    },
+    {
+     "w": "even.",
+     "start": 3.475,
+     "end": 4.25
+    }
+   ],
+   "durationInFrames": 136
+  },
+  {
+   "type": "beat",
+   "speaker": "sceptic",
+   "text": "A single-goal Juventus win is 48%, almost even.",
+   "show": {
+    "kind": "stat",
+    "label": "Juve by one goal",
+    "value": "48"
    },
    "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-juventus-rennes/s7.mp3",
+   "words": [
+    {
+     "w": "A",
+     "start": 0.25,
+     "end": 0.338
+    },
+    {
+     "w": "single-goal",
+     "start": 0.338,
+     "end": 0.925
+    },
+    {
+     "w": "Juventus",
+     "start": 0.925,
+     "end": 1.4
+    },
+    {
+     "w": "win",
+     "start": 1.4,
+     "end": 1.7
+    },
+    {
+     "w": "is",
+     "start": 1.7,
+     "end": 1.863
+    },
+    {
+     "w": "48%,",
+     "start": 1.863,
+     "end": 3.05
+    },
+    {
+     "w": "almost",
+     "start": 3.15,
+     "end": 3.575
+    },
+    {
+     "w": "even.",
+     "start": 3.575,
+     "end": 4.35
+    }
+   ],
+   "durationInFrames": 146
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Yildiz is out for Juventus with a foot injury.",
+   "show": {
+    "kind": "absence",
+    "team": "home",
+    "player": "K. Yildiz",
+    "status": "out"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-juventus-rennes/s8.mp3",
+   "words": [
+    {
+     "w": "Yildiz",
+     "start": 0.275,
+     "end": 0.7
+    },
+    {
+     "w": "is",
+     "start": 0.7,
+     "end": 0.825
+    },
+    {
+     "w": "out",
+     "start": 0.825,
+     "end": 1.05
+    },
+    {
+     "w": "for",
+     "start": 1.05,
+     "end": 1.175
+    },
+    {
+     "w": "Juventus",
+     "start": 1.175,
+     "end": 1.8
+    },
+    {
+     "w": "with",
+     "start": 1.8,
+     "end": 1.938
+    },
+    {
+     "w": "a",
+     "start": 1.938,
+     "end": 2.05
+    },
+    {
+     "w": "foot",
+     "start": 2.05,
+     "end": 2.3
+    },
+    {
+     "w": "injury.",
+     "start": 2.3,
+     "end": 3.15
+    }
+   ],
+   "durationInFrames": 103
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Locatelli is also out, so Juve's midfield loses control.",
+   "show": {
+    "kind": "absence",
+    "team": "home",
+    "player": "M. Locatelli",
+    "status": "out"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-juventus-rennes/s9.mp3",
+   "words": [
+    {
+     "w": "Locatelli",
+     "start": 0.25,
+     "end": 0.8
+    },
+    {
+     "w": "is",
+     "start": 0.8,
+     "end": 0.912
+    },
+    {
+     "w": "also",
+     "start": 0.912,
+     "end": 1.25
+    },
+    {
+     "w": "out,",
+     "start": 1.25,
+     "end": 1.65
+    },
+    {
+     "w": "so",
+     "start": 1.75,
+     "end": 1.938
+    },
+    {
+     "w": "Juve's",
+     "start": 1.938,
+     "end": 2.3
+    },
+    {
+     "w": "midfield",
+     "start": 2.3,
+     "end": 2.85
+    },
+    {
+     "w": "loses",
+     "start": 2.85,
+     "end": 3.225
+    },
+    {
+     "w": "control.",
+     "start": 3.225,
+     "end": 4.2
+    }
+   ],
+   "durationInFrames": 134
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "For Rennes, Lepaul is a doubt with an ankle problem.",
+   "show": {
+    "kind": "absence",
+    "team": "away",
+    "player": "E. Lepaul",
+    "status": "doubtful"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-juventus-rennes/s10.mp3",
+   "words": [
+    {
+     "w": "For",
+     "start": 0.25,
+     "end": 0.375
+    },
+    {
+     "w": "Rennes,",
+     "start": 0.375,
+     "end": 0.775
+    },
+    {
+     "w": "Lepaul",
+     "start": 0.863,
+     "end": 1.3
+    },
+    {
+     "w": "is",
+     "start": 1.3,
+     "end": 1.413
+    },
+    {
+     "w": "a",
+     "start": 1.413,
+     "end": 1.512
+    },
+    {
+     "w": "doubt",
+     "start": 1.512,
+     "end": 1.85
+    },
+    {
+     "w": "with",
+     "start": 1.85,
+     "end": 1.962
+    },
+    {
+     "w": "an",
+     "start": 1.962,
+     "end": 2.075
+    },
+    {
+     "w": "ankle",
+     "start": 2.075,
+     "end": 2.4
+    },
+    {
+     "w": "problem.",
+     "start": 2.4,
+     "end": 3.275
+    }
+   ],
+   "durationInFrames": 113
+  },
+  {
+   "type": "beat",
+   "speaker": "gaffer",
+   "text": "So Juventus are clear favourites at 61%.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 61
+   },
+   "first": true,
    "variant": 0,
    "audio": "audio/2026-10-22-juventus-rennes/s11.mp3",
    "words": [
     {
-     "w": "We",
-     "start": 0.25,
-     "end": 0.35
+     "w": "So",
+     "start": 0.275,
+     "end": 0.45
     },
     {
-     "w": "wait",
-     "start": 0.35,
-     "end": 0.6
+     "w": "Juventus",
+     "start": 0.45,
+     "end": 1.0
     },
     {
-     "w": "for",
-     "start": 0.6,
-     "end": 0.725
+     "w": "are",
+     "start": 1.0,
+     "end": 1.137
     },
     {
-     "w": "real",
-     "start": 0.725,
-     "end": 1.038
+     "w": "clear",
+     "start": 1.137,
+     "end": 1.462
     },
     {
-     "w": "hourly",
-     "start": 1.038,
-     "end": 1.425
+     "w": "favourites",
+     "start": 1.462,
+     "end": 2.0
     },
     {
-     "w": "moves.",
-     "start": 1.425,
-     "end": 2.225
+     "w": "at",
+     "start": 2.0,
+     "end": 2.163
+    },
+    {
+     "w": "61%.",
+     "start": 2.163,
+     "end": 3.6
     }
    ],
-   "durationInFrames": 82
+   "durationInFrames": 116
+  },
+  {
+   "type": "beat",
+   "speaker": "gaffer",
+   "text": "A controlled Juventus night, but not a rout.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Juventus clear favourites",
+     "Rated a goal better",
+     "Narrow win near even",
+     "Controlled, not a rout"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-juventus-rennes/s12.mp3",
+   "words": [
+    {
+     "w": "A",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "controlled",
+     "start": 0.325,
+     "end": 0.9
+    },
+    {
+     "w": "Juventus",
+     "start": 0.9,
+     "end": 1.375
+    },
+    {
+     "w": "night,",
+     "start": 1.375,
+     "end": 1.75
+    },
+    {
+     "w": "but",
+     "start": 1.825,
+     "end": 1.975
+    },
+    {
+     "w": "not",
+     "start": 1.975,
+     "end": 2.188
+    },
+    {
+     "w": "a",
+     "start": 2.188,
+     "end": 2.275
+    },
+    {
+     "w": "rout.",
+     "start": 2.275,
+     "end": 3.0
+    }
+   ],
+   "durationInFrames": 105
   },
   {
    "type": "end",
@@ -721,7 +834,7 @@
    "text": "AI Boot Room. Football analysis, with receipts.",
    "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-22-juventus-rennes/s12.mp3",
+   "audio": "audio/2026-10-22-juventus-rennes/s13.mp3",
    "words": [
     {
      "w": "AI",
@@ -766,17 +879,17 @@
  "silent": false,
  "style": "pulse",
  "story": {
-  "format": "quiet",
-  "kicker": "QUIET MARKET",
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
   "stickers": [
-   "🤫",
-   "🧊",
-   "🤫"
+   "🏟️",
+   "🎯",
+   "🏟️"
   ]
  },
  "source": "market_desk",
  "fixture_id": 1636276,
- "prices_as_of": "2026-10-20T20:44:00+00:00",
+ "prices_as_of": "2026-10-21T10:21:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice.",
  "voiced": true
 }
