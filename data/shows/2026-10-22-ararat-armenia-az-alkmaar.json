@@ -1,0 +1,758 @@
+{
+ "id": "2026-10-22-ararat-armenia-az-alkmaar",
+ "title": "Ararat's 1-4 lesson, AZ a goal better",
+ "match": {
+  "home": "Ararat-Armenia",
+  "away": "AZ Alkmaar",
+  "league": "Europa League",
+  "kickoff": "2026-10-22T16:45:00+00:00",
+  "home_short": "ARA",
+  "away_short": "AZ",
+  "home_color": "#4f46e5",
+  "away_color": "#15803d"
+ },
+ "market": {
+  "fair": {
+   "home": 16.4,
+   "draw": 20.5,
+   "away": 63.1
+  },
+  "move": {
+   "home": -0.7,
+   "draw": -0.6,
+   "away": 1.3
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-20T20:44:00+00:00",
+    "v": 61.8
+   },
+   {
+    "t": "2026-10-21T02:29:00+00:00",
+    "v": 61.9
+   },
+   {
+    "t": "2026-10-21T11:20:00+00:00",
+    "v": 62.8
+   },
+   {
+    "t": "2026-10-21T17:18:00+00:00",
+    "v": 63.1
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 17.1
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 17.1
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 16.5
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 16.4
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 21.1
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 21.0
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 20.7
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 20.5
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 61.8
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 61.9
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 62.8
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 63.1
+    }
+   ]
+  },
+  "goals": 3.06,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-20T20:44:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Ararat-Armenia lost 1-4 at home to Sparta Praha.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Sparta Praha",
+    "score": "1-4"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ararat-armenia-az-alkmaar/s0.mp3",
+   "words": [
+    {
+     "w": "Ararat-Armenia",
+     "start": 0.275,
+     "end": 1.125
+    },
+    {
+     "w": "lost",
+     "start": 1.125,
+     "end": 1.45
+    },
+    {
+     "w": "1-4",
+     "start": 1.45,
+     "end": 1.837
+    },
+    {
+     "w": "at",
+     "start": 1.837,
+     "end": 1.925
+    },
+    {
+     "w": "home",
+     "start": 1.925,
+     "end": 2.388
+    },
+    {
+     "w": "to",
+     "start": 2.388,
+     "end": 2.525
+    },
+    {
+     "w": "Sparta",
+     "start": 2.525,
+     "end": 2.95
+    },
+    {
+     "w": "Praha.",
+     "start": 2.95,
+     "end": 3.85
+    }
+   ],
+   "durationInFrames": 124
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "AZ Alkmaar are the visitors in Yerevan on Thursday.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ararat-armenia-az-alkmaar/s1.mp3",
+   "words": [
+    {
+     "w": "AZ",
+     "start": 0.25,
+     "end": 0.575
+    },
+    {
+     "w": "Alkmaar",
+     "start": 0.575,
+     "end": 1.163
+    },
+    {
+     "w": "are",
+     "start": 1.163,
+     "end": 1.262
+    },
+    {
+     "w": "the",
+     "start": 1.262,
+     "end": 1.35
+    },
+    {
+     "w": "visitors",
+     "start": 1.35,
+     "end": 1.85
+    },
+    {
+     "w": "in",
+     "start": 1.85,
+     "end": 1.975
+    },
+    {
+     "w": "Yerevan",
+     "start": 1.975,
+     "end": 2.55
+    },
+    {
+     "w": "on",
+     "start": 2.55,
+     "end": 2.763
+    },
+    {
+     "w": "Thursday.",
+     "start": 2.763,
+     "end": 3.75
+    }
+   ],
+   "durationInFrames": 121
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Ararat are 34th in the Europa League table, with 0 points.",
+   "show": {
+    "kind": "table",
+    "team": "home",
+    "rank": 34,
+    "pts": 0
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ararat-armenia-az-alkmaar/s2.mp3",
+   "words": [
+    {
+     "w": "Ararat",
+     "start": 0.275,
+     "end": 0.7
+    },
+    {
+     "w": "are",
+     "start": 0.7,
+     "end": 0.838
+    },
+    {
+     "w": "34th",
+     "start": 0.838,
+     "end": 1.438
+    },
+    {
+     "w": "in",
+     "start": 1.438,
+     "end": 1.512
+    },
+    {
+     "w": "the",
+     "start": 1.512,
+     "end": 1.6
+    },
+    {
+     "w": "Europa",
+     "start": 1.6,
+     "end": 2.0
+    },
+    {
+     "w": "League",
+     "start": 2.0,
+     "end": 2.225
+    },
+    {
+     "w": "table,",
+     "start": 2.225,
+     "end": 2.775
+    },
+    {
+     "w": "with",
+     "start": 2.875,
+     "end": 3.087
+    },
+    {
+     "w": "0",
+     "start": 3.087,
+     "end": 3.487
+    },
+    {
+     "w": "points.",
+     "start": 3.487,
+     "end": 4.325
+    }
+   ],
+   "durationInFrames": 138
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "AZ drew 2-2 at Cambuur on Sunday.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Cambuur",
+    "score": "2-2",
+    "when": "Sunday"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ararat-armenia-az-alkmaar/s3.mp3",
+   "words": [
+    {
+     "w": "AZ",
+     "start": 0.25,
+     "end": 0.575
+    },
+    {
+     "w": "drew",
+     "start": 0.575,
+     "end": 0.812
+    },
+    {
+     "w": "2-2",
+     "start": 0.812,
+     "end": 1.2
+    },
+    {
+     "w": "at",
+     "start": 1.2,
+     "end": 1.3
+    },
+    {
+     "w": "Cambuur",
+     "start": 1.3,
+     "end": 1.738
+    },
+    {
+     "w": "on",
+     "start": 1.738,
+     "end": 1.938
+    },
+    {
+     "w": "Sunday.",
+     "start": 1.938,
+     "end": 2.775
+    }
+   ],
+   "durationInFrames": 91
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Midfielder K. Smit is out, with 402 minutes this season.",
+   "show": {
+    "kind": "absence",
+    "team": "away",
+    "player": "K. Smit",
+    "status": "out",
+    "line": "402 minutes this season"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ararat-armenia-az-alkmaar/s4.mp3",
+   "words": [
+    {
+     "w": "Midfielder",
+     "start": 0.275,
+     "end": 0.825
+    },
+    {
+     "w": "K.",
+     "start": 0.825,
+     "end": 1.113
+    },
+    {
+     "w": "Smit",
+     "start": 1.113,
+     "end": 1.425
+    },
+    {
+     "w": "is",
+     "start": 1.425,
+     "end": 1.587
+    },
+    {
+     "w": "out,",
+     "start": 1.587,
+     "end": 2.075
+    },
+    {
+     "w": "with",
+     "start": 2.175,
+     "end": 2.375
+    },
+    {
+     "w": "402",
+     "start": 2.375,
+     "end": 3.075
+    },
+    {
+     "w": "minutes",
+     "start": 3.075,
+     "end": 3.4
+    },
+    {
+     "w": "this",
+     "start": 3.4,
+     "end": 3.575
+    },
+    {
+     "w": "season.",
+     "start": 3.575,
+     "end": 4.425
+    }
+   ],
+   "durationInFrames": 141
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Even so, the market average makes AZ 63.1% favourites.",
+   "show": {
+    "kind": "chance",
+    "team": "away",
+    "value": 63.1
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ararat-armenia-az-alkmaar/s5.mp3",
+   "words": [
+    {
+     "w": "Even",
+     "start": 0.25,
+     "end": 0.537
+    },
+    {
+     "w": "so,",
+     "start": 0.537,
+     "end": 0.9
+    },
+    {
+     "w": "the",
+     "start": 0.938,
+     "end": 1.025
+    },
+    {
+     "w": "market",
+     "start": 1.025,
+     "end": 1.375
+    },
+    {
+     "w": "average",
+     "start": 1.375,
+     "end": 1.775
+    },
+    {
+     "w": "makes",
+     "start": 1.775,
+     "end": 2.062
+    },
+    {
+     "w": "AZ",
+     "start": 2.062,
+     "end": 2.675
+    },
+    {
+     "w": "63.1%",
+     "start": 2.675,
+     "end": 4.1
+    },
+    {
+     "w": "favourites.",
+     "start": 4.1,
+     "end": 5.0
+    }
+   ],
+   "durationInFrames": 158
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Even with that head start, AZ are 52.8%, up from 51.2%.",
+   "show": {
+    "kind": "stat",
+    "label": "AZ with start",
+    "from": 51.2,
+    "value": 52.8
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ararat-armenia-az-alkmaar/s6.mp3",
+   "words": [
+    {
+     "w": "Even",
+     "start": 0.25,
+     "end": 0.463
+    },
+    {
+     "w": "with",
+     "start": 0.463,
+     "end": 0.6
+    },
+    {
+     "w": "that",
+     "start": 0.6,
+     "end": 0.825
+    },
+    {
+     "w": "head",
+     "start": 0.825,
+     "end": 1.05
+    },
+    {
+     "w": "start,",
+     "start": 1.05,
+     "end": 1.6
+    },
+    {
+     "w": "AZ",
+     "start": 1.7,
+     "end": 2.15
+    },
+    {
+     "w": "are",
+     "start": 2.15,
+     "end": 2.312
+    },
+    {
+     "w": "52.8%,",
+     "start": 2.312,
+     "end": 3.95
+    },
+    {
+     "w": "up",
+     "start": 4.05,
+     "end": 4.225
+    },
+    {
+     "w": "from",
+     "start": 4.225,
+     "end": 4.4
+    },
+    {
+     "w": "51.2%.",
+     "start": 4.4,
+     "end": 6.25
+    }
+   ],
+   "durationInFrames": 196
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects goals: a 3.0 line, Over at 51.4%.",
+   "show": {
+    "kind": "over",
+    "line": 3.0,
+    "value": 51.4
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ararat-armenia-az-alkmaar/s7.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "market",
+     "start": 0.325,
+     "end": 0.65
+    },
+    {
+     "w": "expects",
+     "start": 0.65,
+     "end": 1.125
+    },
+    {
+     "w": "goals:",
+     "start": 1.125,
+     "end": 1.8
+    },
+    {
+     "w": "a",
+     "start": 1.913,
+     "end": 2.038
+    },
+    {
+     "w": "3.0",
+     "start": 2.038,
+     "end": 2.3
+    },
+    {
+     "w": "line,",
+     "start": 2.3,
+     "end": 2.7
+    },
+    {
+     "w": "Over",
+     "start": 2.75,
+     "end": 2.987
+    },
+    {
+     "w": "at",
+     "start": 2.987,
+     "end": 3.1
+    },
+    {
+     "w": "51.4%.",
+     "start": 3.1,
+     "end": 4.925
+    }
+   ],
+   "durationInFrames": 156
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "AZ are the stronger side, but Ararat's head start keeps it close.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "AZ the stronger side",
+     "Ararat get a start",
+     "Still AZ ahead"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ararat-armenia-az-alkmaar/s8.mp3",
+   "words": [
+    {
+     "w": "AZ",
+     "start": 0.25,
+     "end": 0.575
+    },
+    {
+     "w": "are",
+     "start": 0.575,
+     "end": 0.662
+    },
+    {
+     "w": "the",
+     "start": 0.662,
+     "end": 0.75
+    },
+    {
+     "w": "stronger",
+     "start": 0.75,
+     "end": 1.288
+    },
+    {
+     "w": "side,",
+     "start": 1.288,
+     "end": 1.875
+    },
+    {
+     "w": "but",
+     "start": 1.975,
+     "end": 2.138
+    },
+    {
+     "w": "Ararat's",
+     "start": 2.138,
+     "end": 2.6
+    },
+    {
+     "w": "head",
+     "start": 2.6,
+     "end": 2.825
+    },
+    {
+     "w": "start",
+     "start": 2.825,
+     "end": 3.125
+    },
+    {
+     "w": "keeps",
+     "start": 3.125,
+     "end": 3.362
+    },
+    {
+     "w": "it",
+     "start": 3.362,
+     "end": 3.45
+    },
+    {
+     "w": "close.",
+     "start": 3.45,
+     "end": 4.275
+    }
+   ],
+   "durationInFrames": 143
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-ararat-armenia-az-alkmaar/s9.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "market_read",
+  "kicker": "MARKET READ",
+  "stickers": [
+   "📊",
+   "📊",
+   "📊"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1636215,
+ "prices_as_of": "2026-10-21T19:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}
