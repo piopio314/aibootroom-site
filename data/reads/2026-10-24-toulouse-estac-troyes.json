@@ -4,45 +4,45 @@
  "home": "Toulouse",
  "away": "Estac Troyes",
  "kickoff": "2026-10-24T15:15:00+00:00",
- "generated_at": "2026-10-21T21:37:31+00:00",
- "headline": "Troyes arrive in Toulouse on five straight defeats",
- "summary": "Toulouse host Troyes in Ligue 1, with the game moved to Sunday after the Haute-Garonne prefecture flagged demonstrations planned in the city on Saturday. Troyes arrive on 5 straight defeats, having conceded 15 goals in that run, and sit 17th with 4 points. Toulouse won 3-0 at Le Mans last week. That is why the market makes Toulouse 58.3% favourites against 18.9% for Troyes, rating them about 0.86 goals the better side, with 2.89 goals expected.",
- "read": "Toulouse are unbeaten in four and creating over two expected goals a game, and the market makes them 58.3% favourites to beat a Troyes side that has lost five in a row and conceded 15 goals doing it. The fixture was pushed from Saturday to Sunday at the request of the prefecture because of demonstrations in Toulouse, but nothing about the match itself changes: the market sees a home win by roughly a goal, on a goals line set as high as 3.0.",
+ "generated_at": "2026-10-21T23:49:46+00:00",
+ "headline": "Troyes arrive on 5 straight defeats; Toulouse are 58.3% favourites",
+ "summary": "Toulouse against Troyes has been moved to Sunday at 17:15, at the request of the Haute-Garonne prefecture, after protests were planned in the city on Saturday. On the pitch it points one way. Troyes arrive on 5 straight Ligue 1 defeats and have conceded 15 goals in that run; they sit 17th. Toulouse won 3-0 at Le Mans and create 2.06 expected goals a game. The market makes them 58.3% favourites against Troyes' 18.9%, rates Toulouse about a goal the better side, and sets a fair goal total of 2.79 — more likely than not a home win, not a certainty.",
+ "read": "Toulouse host Troyes on Sunday at 17:15, a day later than planned after the Haute-Garonne prefecture moved the fixture because of demonstrations planned in the city. Toulouse are clear favourites — unbeaten in five and creating two expected goals a game — against a Troyes side that has lost all five of its last matches and conceded 15 goals in the process.",
  "facts": [
   {
-   "fact": "The LFP confirmed Toulouse v Troyes was moved from Saturday 24 October to Sunday 25 October at the request of the Haute-Garonne prefecture, because of national demonstrations planned in Toulouse on the Saturday.",
-   "meaning": "The game now kicks off Sunday at 17:15, giving both squads an extra day before a match that is now the back end of the weekend."
+   "fact": "The LFP confirmed the Toulouse–Troyes match has been moved from Saturday 24 October to Sunday 25 October at 17:15, at the request of the Haute-Garonne prefecture.",
+   "meaning": "Both teams get an extra day's preparation, and the game will be played in a heavy security context in Toulouse rather than a normal Saturday evening."
   },
   {
-   "fact": "Troyes have lost all five of their last five Ligue 1 matches, scoring 3 goals and conceding 15.",
-   "meaning": "They arrive in Toulouse on the worst run of any side in this fixture and without a win to build on."
+   "fact": "Troyes have lost all five of their last five Ligue 1 matches.",
+   "meaning": "They arrive with no win in over a month and no point to show for their last five games — the single biggest reason the market makes them clear outsiders."
   },
   {
-   "fact": "Toulouse are unbeaten in four: a 3-0 win at Le Mans, 2-2 at Monaco, 3-2 at home to Le Havre and 2-2 at Lorient.",
-   "meaning": "Only the oldest of those five games, a 0-1 home loss to Lille on 3 September, is a defeat."
+   "fact": "Toulouse won 3-0 away at Le Mans on 16 October.",
+   "meaning": "They come in off their most comfortable result of the run, and they have scored in every one of their last five league games."
   },
   {
-   "fact": "Toulouse are 58.3% to win, against 18.9% for Troyes and 22.8% for the draw.",
-   "meaning": "More likely than not that the home side takes the three points, and more than three times Troyes' chance."
+   "fact": "Toulouse are priced as 58.3% favourites — more than three times Troyes' 18.9% chance.",
+   "meaning": "More likely than not a Toulouse win, but far from certain: roughly three games in five, with the draw at 22.8%."
   },
   {
-   "fact": "The market rates Toulouse about 0.86 goals the better side, with the main handicap line at -0.75.",
-   "meaning": "Toulouse are expected to win by roughly a goal; a one-goal win only half covers the -0.75 line."
+   "fact": "The market rates Toulouse about 0.86 goals the better side, a fair handicap line of -0.86.",
+   "meaning": "A Toulouse win by roughly one goal is the central expectation — the margin, not just the result, is what is being priced."
   },
   {
-   "fact": "The goals line sits at 3.0, with Over priced at 47.2% — the market's 50/50 total is 2.89 goals.",
-   "meaning": "A high line: the market leans just under three goals and slightly favours the Under at this number."
+   "fact": "Toulouse have averaged 2.06 expected goals across their last five league games.",
+   "meaning": "Chance creation is the strongest part of their game — they are not winning on luck, they are generating real volume."
   },
   {
-   "fact": "Toulouse average 2.06 xG created per game across their last five matches.",
-   "meaning": "They are generating enough chances to support the favourite's price rather than just home advantage."
+   "fact": "Troyes have conceded 15 goals across those five defeats.",
+   "meaning": "They are shipping three a game on average, so Toulouse's chance creation meets the league's leakiest recent defence."
   },
   {
-   "fact": "Troyes are 17th of 18 in Ligue 1 with 4 points from 7 games and a goal difference of -11.",
-   "meaning": "Only one side in the division sits below them after seven rounds."
+   "fact": "The market's fair goal line is 2.89, just under three goals.",
+   "meaning": "Goals are expected, but the market leans slightly to the under side of three rather than to a rout."
   }
  ],
- "article": null,
+ "article": "/m/2026-10-24-toulouse-estac-troyes.html",
  "sources": [
   {
    "fact": "The LFP confirmed the Toulouse v Troyes Ligue 1 match was postponed from Saturday 24 October to Sunday 25 October at the request of the Haute-Garonne prefecture.",
@@ -80,11 +80,11 @@
    "certainty": "confirmed"
   }
  ],
- "video_title": "Troyes on 5 straight defeats visit Toulouse",
+ "video_title": "Troyes on 5 straight defeats; Toulouse clear favourites",
  "key_points": [
-  "Toulouse v Troyes moved to Sunday",
-  "Troyes: five straight defeats, 3 scored",
-  "Toulouse 58.3%, about a goal better"
+  "Match moved to Sunday",
+  "Troyes: five straight defeats",
+  "Toulouse rated a goal stronger"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
