@@ -1,0 +1,765 @@
+{
+ "id": "2026-10-24-fsv-mainz-05-werder-bremen",
+ "title": "Mainz's 14-goal attack meets Werder's comeback habit",
+ "match": {
+  "home": "FSV Mainz 05",
+  "away": "Werder Bremen",
+  "league": "Bundesliga",
+  "kickoff": "2026-10-24T13:30:00+00:00",
+  "home_short": "FSV",
+  "away_short": "WER",
+  "home_color": "#dc2626",
+  "away_color": "#ea580c"
+ },
+ "market": {
+  "fair": {
+   "home": 56.9,
+   "draw": 22.4,
+   "away": 20.7
+  },
+  "move": {
+   "home": 0.0,
+   "draw": 0.0,
+   "away": 0.0
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 20.7
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 56.9
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 22.4
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 20.7
+    }
+   ]
+  },
+  "goals": 3.04,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 6
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Mainz scored 14 goals in their last 5 league games.",
+   "show": {
+    "kind": "stat",
+    "label": "Goals, last 5 games",
+    "value": "14"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-fsv-mainz-05-werder-bremen/s0.mp3",
+   "words": [
+    {
+     "w": "Mainz",
+     "start": 0.25,
+     "end": 0.463
+    },
+    {
+     "w": "scored",
+     "start": 0.463,
+     "end": 0.8
+    },
+    {
+     "w": "14",
+     "start": 0.8,
+     "end": 1.275
+    },
+    {
+     "w": "goals",
+     "start": 1.275,
+     "end": 1.613
+    },
+    {
+     "w": "in",
+     "start": 1.613,
+     "end": 1.688
+    },
+    {
+     "w": "their",
+     "start": 1.688,
+     "end": 1.85
+    },
+    {
+     "w": "last",
+     "start": 1.85,
+     "end": 2.2
+    },
+    {
+     "w": "5",
+     "start": 2.2,
+     "end": 2.55
+    },
+    {
+     "w": "league",
+     "start": 2.55,
+     "end": 2.8
+    },
+    {
+     "w": "games.",
+     "start": 2.8,
+     "end": 3.65
+    }
+   ],
+   "durationInFrames": 118
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "On Saturday they host Werder Bremen.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-fsv-mainz-05-werder-bremen/s1.mp3",
+   "words": [
+    {
+     "w": "On",
+     "start": 0.25,
+     "end": 0.438
+    },
+    {
+     "w": "Saturday",
+     "start": 0.438,
+     "end": 0.95
+    },
+    {
+     "w": "they",
+     "start": 0.95,
+     "end": 1.137
+    },
+    {
+     "w": "host",
+     "start": 1.137,
+     "end": 1.525
+    },
+    {
+     "w": "Werder",
+     "start": 1.525,
+     "end": 1.875
+    },
+    {
+     "w": "Bremen.",
+     "start": 1.875,
+     "end": 2.75
+    }
+   ],
+   "durationInFrames": 91
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "But their last home game ended 3-4 to Bayer Leverkusen.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Leverkusen",
+    "score": "3-4",
+    "when": "last home game"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-fsv-mainz-05-werder-bremen/s2.mp3",
+   "words": [
+    {
+     "w": "But",
+     "start": 0.225,
+     "end": 0.338
+    },
+    {
+     "w": "their",
+     "start": 0.338,
+     "end": 0.525
+    },
+    {
+     "w": "last",
+     "start": 0.525,
+     "end": 0.875
+    },
+    {
+     "w": "home",
+     "start": 0.875,
+     "end": 1.2
+    },
+    {
+     "w": "game",
+     "start": 1.2,
+     "end": 1.525
+    },
+    {
+     "w": "ended",
+     "start": 1.525,
+     "end": 1.837
+    },
+    {
+     "w": "3-4",
+     "start": 1.837,
+     "end": 2.325
+    },
+    {
+     "w": "to",
+     "start": 2.325,
+     "end": 2.45
+    },
+    {
+     "w": "Bayer",
+     "start": 2.45,
+     "end": 2.8
+    },
+    {
+     "w": "Leverkusen.",
+     "start": 2.8,
+     "end": 3.925
+    }
+   ],
+   "durationInFrames": 126
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Werder have fought back to draw 3 league games in a row.",
+   "show": {
+    "kind": "stat",
+    "label": "Comeback draws in a row",
+    "value": "3"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-fsv-mainz-05-werder-bremen/s3.mp3",
+   "words": [
+    {
+     "w": "Werder",
+     "start": 0.25,
+     "end": 0.562
+    },
+    {
+     "w": "have",
+     "start": 0.562,
+     "end": 0.675
+    },
+    {
+     "w": "fought",
+     "start": 0.675,
+     "end": 0.925
+    },
+    {
+     "w": "back",
+     "start": 0.925,
+     "end": 1.225
+    },
+    {
+     "w": "to",
+     "start": 1.225,
+     "end": 1.325
+    },
+    {
+     "w": "draw",
+     "start": 1.325,
+     "end": 1.625
+    },
+    {
+     "w": "3",
+     "start": 1.625,
+     "end": 1.9
+    },
+    {
+     "w": "league",
+     "start": 1.9,
+     "end": 2.175
+    },
+    {
+     "w": "games",
+     "start": 2.175,
+     "end": 2.562
+    },
+    {
+     "w": "in",
+     "start": 2.562,
+     "end": 2.638
+    },
+    {
+     "w": "a",
+     "start": 2.638,
+     "end": 2.7
+    },
+    {
+     "w": "row.",
+     "start": 2.7,
+     "end": 3.45
+    }
+   ],
+   "durationInFrames": 112
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "According to bundesliga.com, Füllkrug is joint-top of the scoring charts.",
+   "show": {
+    "kind": "news",
+    "source": "bundesliga.com",
+    "text": "Füllkrug joint-top of the scoring charts"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-fsv-mainz-05-werder-bremen/s4.mp3",
+   "words": [
+    {
+     "w": "According",
+     "start": 0.25,
+     "end": 0.625
+    },
+    {
+     "w": "to",
+     "start": 0.625,
+     "end": 0.725
+    },
+    {
+     "w": "bundesliga.com,",
+     "start": 0.725,
+     "end": 2.15
+    },
+    {
+     "w": "Füllkrug",
+     "start": 2.237,
+     "end": 2.725
+    },
+    {
+     "w": "is",
+     "start": 2.725,
+     "end": 2.888
+    },
+    {
+     "w": "joint-top",
+     "start": 2.888,
+     "end": 3.413
+    },
+    {
+     "w": "of",
+     "start": 3.413,
+     "end": 3.487
+    },
+    {
+     "w": "the",
+     "start": 3.487,
+     "end": 3.575
+    },
+    {
+     "w": "scoring",
+     "start": 3.575,
+     "end": 3.987
+    },
+    {
+     "w": "charts.",
+     "start": 3.987,
+     "end": 4.825
+    }
+   ],
+   "durationInFrames": 153
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Werder are without left-back Moussa Ndiaye.",
+   "show": {
+    "kind": "absence",
+    "team": "away",
+    "player": "Moussa Ndiaye",
+    "status": "out"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-fsv-mainz-05-werder-bremen/s5.mp3",
+   "words": [
+    {
+     "w": "Werder",
+     "start": 0.275,
+     "end": 0.65
+    },
+    {
+     "w": "are",
+     "start": 0.65,
+     "end": 0.738
+    },
+    {
+     "w": "without",
+     "start": 0.738,
+     "end": 1.05
+    },
+    {
+     "w": "left-back",
+     "start": 1.05,
+     "end": 1.562
+    },
+    {
+     "w": "Moussa",
+     "start": 1.562,
+     "end": 1.925
+    },
+    {
+     "w": "Ndiaye.",
+     "start": 1.925,
+     "end": 2.975
+    }
+   ],
+   "durationInFrames": 97
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "That is why Mainz are 56.9% to win, against Werder's 20.7%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-fsv-mainz-05-werder-bremen/s6.mp3",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.25,
+     "end": 0.45
+    },
+    {
+     "w": "is",
+     "start": 0.45,
+     "end": 0.6
+    },
+    {
+     "w": "why",
+     "start": 0.6,
+     "end": 0.8
+    },
+    {
+     "w": "Mainz",
+     "start": 0.8,
+     "end": 1.087
+    },
+    {
+     "w": "are",
+     "start": 1.087,
+     "end": 1.212
+    },
+    {
+     "w": "56.9%",
+     "start": 1.212,
+     "end": 2.675
+    },
+    {
+     "w": "to",
+     "start": 2.675,
+     "end": 2.8
+    },
+    {
+     "w": "win,",
+     "start": 2.8,
+     "end": 3.325
+    },
+    {
+     "w": "against",
+     "start": 3.45,
+     "end": 3.825
+    },
+    {
+     "w": "Werder's",
+     "start": 3.825,
+     "end": 4.237
+    },
+    {
+     "w": "20.7%.",
+     "start": 4.237,
+     "end": 6.05
+    }
+   ],
+   "durationInFrames": 190
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Mainz are rated 0.75 goals the better team.",
+   "show": {
+    "kind": "stat",
+    "label": "Mainz better by (goals)",
+    "value": "0.75"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-fsv-mainz-05-werder-bremen/s7.mp3",
+   "words": [
+    {
+     "w": "Mainz",
+     "start": 0.25,
+     "end": 0.463
+    },
+    {
+     "w": "are",
+     "start": 0.463,
+     "end": 0.55
+    },
+    {
+     "w": "rated",
+     "start": 0.55,
+     "end": 0.9
+    },
+    {
+     "w": "0.75",
+     "start": 0.9,
+     "end": 2.263
+    },
+    {
+     "w": "goals",
+     "start": 2.263,
+     "end": 2.675
+    },
+    {
+     "w": "the",
+     "start": 2.675,
+     "end": 2.775
+    },
+    {
+     "w": "better",
+     "start": 2.775,
+     "end": 3.1
+    },
+    {
+     "w": "team.",
+     "start": 3.1,
+     "end": 3.875
+    }
+   ],
+   "durationInFrames": 124
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "That scoring makes over 3.0 goals more likely than not, at 51%.",
+   "show": {
+    "kind": "over",
+    "line": 3.0,
+    "value": 51
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-fsv-mainz-05-werder-bremen/s8.mp3",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.25,
+     "end": 0.5
+    },
+    {
+     "w": "scoring",
+     "start": 0.5,
+     "end": 0.925
+    },
+    {
+     "w": "makes",
+     "start": 0.925,
+     "end": 1.163
+    },
+    {
+     "w": "over",
+     "start": 1.163,
+     "end": 1.413
+    },
+    {
+     "w": "3.0",
+     "start": 1.413,
+     "end": 1.65
+    },
+    {
+     "w": "goals",
+     "start": 1.65,
+     "end": 2.0
+    },
+    {
+     "w": "more",
+     "start": 2.0,
+     "end": 2.225
+    },
+    {
+     "w": "likely",
+     "start": 2.225,
+     "end": 2.625
+    },
+    {
+     "w": "than",
+     "start": 2.625,
+     "end": 2.775
+    },
+    {
+     "w": "not,",
+     "start": 2.775,
+     "end": 3.3
+    },
+    {
+     "w": "at",
+     "start": 3.413,
+     "end": 3.575
+    },
+    {
+     "w": "51%.",
+     "start": 3.575,
+     "end": 5.0
+    }
+   ],
+   "durationInFrames": 158
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Mainz are favoured for the attack; home form is the doubt.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Mainz favoured for their attack",
+     "Home form the real doubt",
+     "Werder keep coming back"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-fsv-mainz-05-werder-bremen/s9.mp3",
+   "words": [
+    {
+     "w": "Mainz",
+     "start": 0.275,
+     "end": 0.537
+    },
+    {
+     "w": "are",
+     "start": 0.537,
+     "end": 0.637
+    },
+    {
+     "w": "favoured",
+     "start": 0.637,
+     "end": 1.025
+    },
+    {
+     "w": "for",
+     "start": 1.025,
+     "end": 1.137
+    },
+    {
+     "w": "the",
+     "start": 1.137,
+     "end": 1.275
+    },
+    {
+     "w": "attack;",
+     "start": 1.275,
+     "end": 1.875
+    },
+    {
+     "w": "home",
+     "start": 2.0,
+     "end": 2.312
+    },
+    {
+     "w": "form",
+     "start": 2.312,
+     "end": 2.65
+    },
+    {
+     "w": "is",
+     "start": 2.65,
+     "end": 2.8
+    },
+    {
+     "w": "the",
+     "start": 2.8,
+     "end": 2.938
+    },
+    {
+     "w": "doubt.",
+     "start": 2.938,
+     "end": 3.7
+    }
+   ],
+   "durationInFrames": 126
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-fsv-mainz-05-werder-bremen/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
+  "stickers": [
+   "🎯",
+   "📊",
+   "🎯"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1575200,
+ "prices_as_of": "2026-10-21T19:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

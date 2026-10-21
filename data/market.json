@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T21:08:00+00:00",
+ "generated_at": "2026-10-21T21:14:00+00:00",
  "prices_as_of": "2026-10-21T19:18:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
@@ -2579,8 +2579,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-24-fc-augsburg-union-berlin",
+   "headline": "Augsburg winless in four but favourites against Union Berlin",
    "competition": "78"
   },
   {
@@ -2609,8 +2609,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-24-fsv-mainz-05-werder-bremen",
+   "headline": "Mainz favourites at home, but their own crowd is the question",
    "competition": "78"
   },
   {
@@ -2639,8 +2639,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-24-1-fc-k-ln-fc-schalke-04",
+   "headline": "Köln without Dallinga and Rondic — still favourites against Schalke",
    "competition": "78"
   },
   {
@@ -2669,8 +2669,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-24-sc-paderborn-07-hamburger-sv",
+   "headline": "Paderborn narrow favourites as in-form Hamburg come to town",
    "competition": "78"
   },
   {
@@ -2699,8 +2699,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-24-arsenal-everton",
+   "headline": "Arsenal favourites, but Saka and a short week complicate it",
    "competition": "39"
   },
   {
@@ -5246,6 +5246,52 @@
    "article": "/m/2026-10-22-ajax-atalanta.html"
   },
   {
+   "slug": "2026-10-24-arsenal-everton",
+   "league": "Premier League",
+   "home": "Arsenal",
+   "away": "Everton",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "headline": "Arsenal favourites, but Saka and a short week complicate it",
+   "summary": "Arsenal host Everton on Saturday afternoon after a short turnaround: they drew 2-2 at Bayern Munich on Wednesday, and Bukayo Saka came off after 10 minutes with a leg problem. Everton have had a full week, but they created only 0.43 expected goals in their 0-2 home defeat to Chelsea. Arsenal are 2nd on 18 points and won the last meeting 2-0 in March. The market makes Arsenal 68.3% favourites, and Everton get a head start of 1.25 goals, with the goal line at 2.75.",
+   "read": "Arsenal are strong 68.3% favourites at the Emirates and rated about a goal and a quarter the better side, but they arrive three days after a 2-2 in Munich in which Bukayo Saka came off injured after ten minutes. Everton have had a full week, yet they created only 0.43 xG in losing at home to Chelsea and have not beaten Arsenal in their last five meetings.",
+   "facts": [
+    {
+     "fact": "Bukayo Saka was forced off in the 10th minute with an apparent left leg injury during Arsenal's 2-2 Champions League draw at Bayern Munich on Wednesday.",
+     "meaning": "Arsenal could be without their first-choice right-sided attacker when they host Everton on Saturday afternoon."
+    },
+    {
+     "fact": "Arsenal are 68.3% favourites to win at the Emirates.",
+     "meaning": "The market sees a clearly one-sided home game: Arsenal are more likely than not by a wide margin, and a draw or Everton win is the outsider outcome."
+    },
+    {
+     "fact": "The main handicap is Arsenal -1.25, with the fair line at -1.28.",
+     "meaning": "The market rates Arsenal roughly a goal and a quarter better than Everton — a two-goal Arsenal win is needed for the handicap to land in full."
+    },
+    {
+     "fact": "Arsenal played at Bayern Munich on Wednesday, three days before this match.",
+     "meaning": "Arsenal have a short turnaround; Everton, by contrast, have had a full week to prepare."
+    },
+    {
+     "fact": "Everton created just 0.43 xG in their 0-2 home defeat to Chelsea last Saturday.",
+     "meaning": "They arrive at the Emirates off a game in which they barely made a chance, against a defence that has conceded 1.14 xG per game."
+    },
+    {
+     "fact": "The goal line is 2.75, with over priced at 47.4%.",
+     "meaning": "The market expects a game just under three goals — under is the slightly favoured side of the line."
+    },
+    {
+     "fact": "Arsenal are second in the Premier League with 18 points from seven games, six wins and one defeat.",
+     "meaning": "They are eight points clear of Everton, who are eighth — the table gap matches the size of the market's favourite tag."
+    },
+    {
+     "fact": "Arsenal won the last meeting 2-0 at the Emirates in March and are unbeaten in the last five against Everton.",
+     "meaning": "Everton have not beaten Arsenal in five attempts, although two of those meetings finished level."
+    }
+   ],
+   "video_title": "Saka off after 10 minutes: Arsenal still favourites?",
+   "article": "/m/2026-10-24-arsenal-everton.html"
+  },
+  {
    "slug": "2026-10-25-crystal-palace-newcastle",
    "league": "Premier League",
    "home": "Crystal Palace",
@@ -5303,52 +5349,6 @@
    ],
    "video_title": "Leipzig after 1-6 and 1-4: still favourites?",
    "article": "/m/2026-10-24-rb-leipzig-sv-elversberg.html"
-  },
-  {
-   "slug": "2026-10-22-juventus-rennes",
-   "league": "Europa League",
-   "home": "Juventus",
-   "away": "Rennes",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "headline": "Juventus lost 0-3, and the market still makes them favourites",
-   "summary": "Juventus lost 0-3 at home to Lazio on Sunday, days before hosting Rennes in the Europa League, and Spalletti said his team lacked tempo, ideas and running. Even in that defeat the chances were few: opponents have created just 0.69 expected goals a game across their last five. Rennes have conceded 10 goals in their last five matches. Their top scorer Lepaul, who has 7 goals this season, went off injured at Paris FC and is doubtful. So the market still makes Juventus 60.7% favourites, about 1 goal the better side, with 2.79 goals expected.",
-   "read": "Juventus come into this three days after a 0-3 home defeat by Lazio, with Spalletti talking about a squad meeting and a fanbase that left early on Saturday. The market still makes them around 60.7% favourites — rated roughly a goal better than a Rennes side that scores and concedes freely and may be without its seven-goal top scorer Lepaul.",
-   "facts": [
-    {
-     "fact": "Juventus lost 0-3 at home to Lazio in Serie A on 18 October.",
-     "meaning": "They come into this wounded and three days after their heaviest home night of the season, with the crowd turning."
-    },
-    {
-     "fact": "Rennes' top scorer Estéban Lepaul is doubtful for Thursday after going off injured at Paris FC, having scored seven goals in nine appearances this season.",
-     "meaning": "Rennes' main source of goals may not start, which changes how they can attack in Turin."
-    },
-    {
-     "fact": "Juventus are rated 60.7% to win — more than three times Rennes' chance.",
-     "meaning": "The market sees a clear home favourite despite the Lazio defeat, not a team in crisis."
-    },
-    {
-     "fact": "The main handicap line is Juventus -1.",
-     "meaning": "The market rates Juventus about a goal the better side, so a one-goal home win would only be a push on that line."
-    },
-    {
-     "fact": "Rennes lost 4-3 away at Paris FC on 18 October in a match that featured four converted penalties.",
-     "meaning": "They travel after a chaotic, high-scoring defeat — an open game that exposed them at the back."
-    },
-    {
-     "fact": "The market's 50/50 goal total sits at 2.79.",
-     "meaning": "Around three goals is the expected shape of this game — a Juventus win with Rennes contributing, rather than a cagey 1-0."
-    },
-    {
-     "fact": "Rennes have conceded ten goals across their last five matches.",
-     "meaning": "They arrive in Turin without anything like a settled defence, which is why the goals line is near three rather than lower."
-    },
-    {
-     "fact": "Juventus have allowed just 0.69 xG per game across their last five matches.",
-     "meaning": ""
-    }
-   ],
-   "video_title": "Juventus after the 0-3: still clear favourites",
-   "article": "/m/2026-10-22-juventus-rennes.html"
   }
  ]
 }

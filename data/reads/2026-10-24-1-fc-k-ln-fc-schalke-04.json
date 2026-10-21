@@ -1,0 +1,113 @@
+{
+ "slug": "2026-10-24-1-fc-k-ln-fc-schalke-04",
+ "league": "Bundesliga",
+ "home": "1. FC Köln",
+ "away": "FC Schalke 04",
+ "kickoff": "2026-10-24T13:30:00+00:00",
+ "generated_at": "2026-10-21T21:12:44+00:00",
+ "headline": "Köln without Dallinga and Rondic — still favourites against Schalke",
+ "summary": "Köln host Schalke on Saturday without Dallinga and Rondic, though BILD reports Ragnar Ache could return. Schalke's threat looks small: they made just 0.43 expected goals at home to Mainz and sit 15th with 5 points. Köln have won only 1 of their last 5, losing 0-1 at Frankfurt last week, yet the market still makes them 47.4% favourites — Schalke are at 28.5%. The handicap rates Köln 0.5 goals stronger, with the goal line at 3.0.",
+ "read": "Köln are the market's clear favourites at 47.4% against Schalke's 28.5%, rated a little under half a goal better on a -0.42 fair handicap line. Both squads are short up front — Köln have all three senior centre-forwards listed as injured while Schalke could be missing up to five players — and the market expects an open game, with the goal line at 3.0 split 50/50.",
+ "facts": [
+  {
+   "fact": "Köln are the market's favourites at 47.4% to win, against Schalke's 28.5%.",
+   "meaning": "The market makes Köln clear favourites without making them overwhelming ones — Schalke are still given better than a one-in-four chance."
+  },
+  {
+   "fact": "Schalke created just 0.43 xG in Saturday's 0-1 home defeat to Mainz, while allowing 1.94.",
+   "meaning": "A side that cannot create chances at home now has to score away in Cologne to take anything from the game."
+  },
+  {
+   "fact": "Köln's three senior centre-forwards — Thijs Dallinga, Ragnar Ache and Imad Rondic — are all listed as injured, according to tag24, though BILD reported new hope over Ache.",
+   "meaning": "Köln may go into a home game they are favoured in without a recognised No. 9, with teenager Malek El Mala possibly making his Bundesliga debut."
+  },
+  {
+   "fact": "The market's fair handicap line is -0.42, with the main line at -0.5 and Köln giving a half-goal.",
+   "meaning": "Köln are rated a little under half a goal better than Schalke, so a one-goal Köln win is roughly the 50/50 point of this match."
+  },
+  {
+   "fact": "The goal line sits at 3.0, with over and under both priced at 50%.",
+   "meaning": "Three goals is the split point — the market sees an open game rather than a cagey one, despite Schalke's low chance creation."
+  },
+  {
+   "fact": "Köln's last five Bundesliga results read LWLDL — one win, one draw, three defeats.",
+   "meaning": "Their home favouritism rests on venue and opponent rather than a run of results; the 2-1 derby win over Gladbach is their only victory in five."
+  },
+  {
+   "fact": "Express reports Schalke could be without up to five players for the trip to Cologne.",
+   "meaning": "The squad is stretched on top of a forward line that has scored four goals in its last five matches."
+  },
+  {
+   "fact": "BILD reports that Schalke coach Miron Muslic has 'once again' suffered a shipwreck and must now recognise something.",
+   "meaning": "Schalke arrive with the coach under public scrutiny after three matches without a win — a backdrop that usually sharpens a relegation-threatened squad's approach."
+  }
+ ],
+ "article": null,
+ "sources": [
+  {
+   "fact": "Köln lost 1-0 away at Eintracht Frankfurt last matchday after a 2-1 derby win over Gladbach the week before.",
+   "source": "www.sport.de",
+   "url": "https://www.sport.de/news/ne17256494/winter-coup-im-gespraech-nmecha-geruechte-um-den-1-fc-koeln/",
+   "age": "3 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Köln are without strikers Thijs Dallinga and Ragnar Ache through injury, leaving them short of a centre-forward.",
+   "source": "www.sport.de",
+   "url": "https://www.sport.de/news/ne17256494/winter-coup-im-gespraech-nmecha-geruechte-um-den-1-fc-koeln/",
+   "age": "3 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "BILD reports a surprise guest at Köln's secret training, raising the possibility of a returning FC star being available against Schalke.",
+   "source": "www.bild.de",
+   "url": "https://www.bild.de/sport/fussball/1-fc-koeln-ueberraschung-im-geheimtraining-ist-dieser-fc-star-gegen-schalke-doch-dabei-6ad8afa6842f9bd88130ae42",
+   "age": "8 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Defensive midfielder Joel Schmied is out for Köln, while there is new hope regarding Ragnar Ache ahead of the home game against Schalke.",
+   "source": "www.bild.de",
+   "url": "https://www.bild.de/sport/fussball/1-fc-koeln-abraeumer-joel-schmied-faellt-aus-neue-koeln-hoffnung-bei-ragnar-ache-6ad5f29ede9d7a845942b4aa",
+   "age": "2 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Köln legend Pierre Littbarski says the club has 'too much mediocrity' and discusses coach René Wagner in a BILD interview.",
+   "source": "www.bild.de",
+   "url": "https://www.bild.de/sport/fussball/1-fc-koeln-pierre-littbarski-wir-haben-zu-viel-mittelmass-6ad86527199dc15f1abdb5ff",
+   "age": "11 hours ago",
+   "certainty": "opinion"
+  },
+  {
+   "fact": "With Dallinga, Ache and Imad Rondic injured, Malek El Mala could be in Köln's Bundesliga squad against Schalke for the first time, potentially forming an El-Mala double.",
+   "source": "www.tag24.de",
+   "url": "https://www.tag24.de/sport/fussball/verein/1-fc-koeln/fc-premiere-gegen-schalke-koenigsblau-koennte-das-erste-el-mala-doppel-in-der-bundesliga-drohen-3541543",
+   "age": "7 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Schalke are three games without a win and are looking to stop their downward trend in Cologne.",
+   "source": "www.welt.de",
+   "url": "https://www.welt.de/sport/fussball/bundesliga/article6ad8dd9d8ef0fba254b7b81d/1-fc-koeln-fc-schalke-04-koeln-muss-punkten-bundesliga.html",
+   "age": "5 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Schalke were newly promoted and took five points from their opening five Bundesliga matches, but suffered a frustrating 2-1 defeat to league leaders Freiburg.",
+   "source": "sports.yahoo.com",
+   "url": "https://sports.yahoo.com/articles/confirmed-lineups-fc-schalke-04-122500383.html",
+   "age": "4 days ago",
+   "certainty": "reported"
+  }
+ ],
+ "video_title": "Köln's striker shortage — still favourites?",
+ "key_points": [
+  "Köln 47.4% favourites, Schalke 28.5%",
+  "Schalke blanked: 0.43 xG vs Mainz",
+  "Köln missing all three strikers",
+  "Goal line 3.0, split 50/50"
+ ],
+ "market": null,
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
+}
