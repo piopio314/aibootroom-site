@@ -1,6 +1,6 @@
 {
  "id": "2026-10-25-barcelona-real-madrid",
- "title": "Barcelona after Paris: still Clasico favourites?",
+ "title": "Barcelona's perfect start meets Madrid's Vinicius question",
  "match": {
   "home": "Barcelona",
   "away": "Real Madrid",
@@ -235,11 +235,11 @@
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Barcelona lead La Liga by 6 points from Real Madrid.",
+   "text": "Barcelona have won all 9 La Liga games so far this season.",
    "show": {
     "kind": "stat",
-    "label": "points clear of Madrid",
-    "value": "6"
+    "label": "La Liga wins",
+    "value": "9"
    },
    "first": true,
    "variant": 0,
@@ -247,52 +247,62 @@
    "words": [
     {
      "w": "Barcelona",
-     "start": 0.119,
-     "end": 0.76
+     "start": 0.12,
+     "end": 0.68
     },
     {
-     "w": "lead",
+     "w": "have",
      "start": 0.76,
+     "end": 0.84
+    },
+    {
+     "w": "won",
+     "start": 0.84,
      "end": 1.08
     },
     {
+     "w": "all",
+     "start": 1.162,
+     "end": 1.4
+    },
+    {
+     "w": "9",
+     "start": 1.4,
+     "end": 1.8
+    },
+    {
      "w": "La",
-     "start": 1.16,
-     "end": 1.32
+     "start": 1.88,
+     "end": 1.96
     },
     {
      "w": "Liga",
-     "start": 1.32,
-     "end": 1.72
-    },
-    {
-     "w": "by",
-     "start": 1.72,
-     "end": 1.88
-    },
-    {
-     "w": "6",
-     "start": 1.96,
+     "start": 2.04,
      "end": 2.28
     },
     {
-     "w": "points",
+     "w": "games",
      "start": 2.28,
-     "end": 2.68
+     "end": 2.6
     },
     {
-     "w": "from",
-     "start": 2.76,
+     "w": "so",
+     "start": 2.68,
      "end": 2.84
     },
     {
-     "w": "Real",
-     "start": 2.84,
-     "end": 3.16
+     "w": "far",
+     "start": 2.92,
+     "end": 3.08
     },
     {
-     "w": "Madrid.",
-     "start": 3.24,
+     "w": "this",
+     "start": 3.08,
+     "end": 3.24
+    },
+    {
+     "w": "season.",
+     "start": 3.32,
      "end": 3.64
     }
    ],
@@ -301,7 +311,7 @@
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Sunday is the Clasico at Camp Nou, in La Liga.",
+   "text": "On Sunday they host Real Madrid at Camp Nou — El Clasico.",
    "show": {
     "kind": "teams"
    },
@@ -310,126 +320,129 @@
    "audio": "audio/2026-10-25-barcelona-real-madrid/s1.mp3",
    "words": [
     {
-     "w": "Sunday",
+     "w": "On",
      "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "Sunday",
+     "start": 0.36,
      "end": 0.68
     },
     {
-     "w": "is",
+     "w": "they",
      "start": 0.76,
      "end": 0.84
     },
     {
-     "w": "the",
+     "w": "host",
      "start": 0.84,
-     "end": 0.92
+     "end": 1.16
     },
     {
-     "w": "Clasico",
-     "start": 1.0,
-     "end": 1.56
+     "w": "Real",
+     "start": 1.24,
+     "end": 1.4
+    },
+    {
+     "w": "Madrid",
+     "start": 1.4,
+     "end": 1.88
     },
     {
      "w": "at",
-     "start": 1.56,
-     "end": 1.64
-    },
-    {
-     "w": "Camp",
-     "start": 1.72,
+     "start": 1.96,
      "end": 1.96
     },
     {
-     "w": "Nou,",
+     "w": "Camp",
      "start": 2.04,
-     "end": 2.36
+     "end": 2.28
     },
     {
-     "w": "in",
-     "start": 2.44,
-     "end": 2.6
+     "w": "Nou",
+     "start": 2.28,
+     "end": 2.52
     },
     {
-     "w": "La",
-     "start": 2.68,
-     "end": 2.68
+     "w": "—",
+     "start": 2.52,
+     "end": 2.76
     },
     {
-     "w": "Liga.",
-     "start": 2.68,
-     "end": 3.16
+     "w": "El",
+     "start": 2.92,
+     "end": 3
+    },
+    {
+     "w": "Clasico.",
+     "start": 3.0,
+     "end": 3.64
     }
    ],
-   "durationInFrames": 103
+   "durationInFrames": 117
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Tuesday brought their first defeat of the season: 2-4 in Paris.",
+   "text": "Tuesday's 2-4 loss in Paris ended an 11-game winning run.",
    "show": {
-    "kind": "result",
-    "team": "home",
-    "opponent": "Paris Saint-Germain",
-    "score": "2-4",
-    "when": "Tuesday"
+    "kind": "stat",
+    "label": "PSG 2-4 ended run",
+    "value": "11"
    },
    "first": false,
    "variant": 0,
    "audio": "audio/2026-10-25-barcelona-real-madrid/s2.mp3",
    "words": [
     {
-     "w": "Tuesday",
+     "w": "Tuesday's",
      "start": 0.12,
-     "end": 0.6
-    },
-    {
-     "w": "brought",
-     "start": 0.68,
-     "end": 0.84
-    },
-    {
-     "w": "their",
-     "start": 0.84,
-     "end": 1
-    },
-    {
-     "w": "first",
-     "start": 1.08,
-     "end": 1.4
-    },
-    {
-     "w": "defeat",
-     "start": 1.4,
-     "end": 1.8
-    },
-    {
-     "w": "of",
-     "start": 1.88,
-     "end": 1.88
-    },
-    {
-     "w": "the",
-     "start": 1.88,
-     "end": 1.96
-    },
-    {
-     "w": "season:",
-     "start": 2.04,
-     "end": 2.52
+     "end": 0.76
     },
     {
      "w": "2-4",
-     "start": 2.76,
-     "end": 3.48
+     "start": 0.76,
+     "end": 1.32
+    },
+    {
+     "w": "loss",
+     "start": 1.32,
+     "end": 1.56
     },
     {
      "w": "in",
-     "start": 3.56,
-     "end": 3.64
+     "start": 1.64,
+     "end": 1.72
     },
     {
-     "w": "Paris.",
-     "start": 3.64,
+     "w": "Paris",
+     "start": 1.72,
+     "end": 2.2
+    },
+    {
+     "w": "ended",
+     "start": 2.287,
+     "end": 2.6
+    },
+    {
+     "w": "an",
+     "start": 2.6,
+     "end": 2.76
+    },
+    {
+     "w": "11-game",
+     "start": 2.84,
+     "end": 3.48
+    },
+    {
+     "w": "winning",
+     "start": 3.48,
+     "end": 3.8
+    },
+    {
+     "w": "run.",
+     "start": 3.88,
      "end": 4.2
     }
    ],
@@ -438,11 +451,12 @@
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Mundo Deportivo report Kounde's ankle could keep him out.",
+   "text": "Mundo Deportivo reports Kounde is doubtful with a serious ankle sprain.",
    "show": {
-    "kind": "news",
-    "source": "Mundo Deportivo",
-    "text": "Kounde ankle doubt for the Clasico"
+    "kind": "absence",
+    "team": "home",
+    "player": "Jules Kounde",
+    "status": "doubtful"
    },
    "first": false,
    "variant": 0,
@@ -450,157 +464,93 @@
    "words": [
     {
      "w": "Mundo",
-     "start": 0.12,
-     "end": 0.44
+     "start": 0.119,
+     "end": 0.52
     },
     {
      "w": "Deportivo",
-     "start": 0.44,
-     "end": 1.16
+     "start": 0.52,
+     "end": 1.24
     },
     {
-     "w": "report",
+     "w": "reports",
      "start": 1.24,
-     "end": 1.64
+     "end": 1.72
     },
     {
-     "w": "Kounde's",
-     "start": 1.643,
-     "end": 2.2
+     "w": "Kounde",
+     "start": 1.72,
+     "end": 2.28
+    },
+    {
+     "w": "is",
+     "start": 2.36,
+     "end": 2.44
+    },
+    {
+     "w": "doubtful",
+     "start": 2.44,
+     "end": 3.08
+    },
+    {
+     "w": "with",
+     "start": 3.16,
+     "end": 3.24
+    },
+    {
+     "w": "a",
+     "start": 3.24,
+     "end": 3.32
+    },
+    {
+     "w": "serious",
+     "start": 3.32,
+     "end": 3.88
     },
     {
      "w": "ankle",
-     "start": 2.2,
-     "end": 2.68
+     "start": 3.88,
+     "end": 4.2
     },
     {
-     "w": "could",
-     "start": 2.76,
-     "end": 2.84
-    },
-    {
-     "w": "keep",
-     "start": 2.92,
-     "end": 3
-    },
-    {
-     "w": "him",
-     "start": 3,
-     "end": 3.16
-    },
-    {
-     "w": "out.",
-     "start": 3.24,
-     "end": 3.48
+     "w": "sprain.",
+     "start": 4.28,
+     "end": 4.68
     }
    ],
-   "durationInFrames": 112
+   "durationInFrames": 148
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Dani Olmo went off injured in the first half in Paris.",
+   "text": "SI reports Vinicius set to miss Clasico; Madrid may lose left threat.",
    "show": {
-    "kind": "absence",
-    "team": "home",
-    "player": "Dani Olmo",
-    "status": "doubtful"
+    "kind": "news",
+    "source": "SI",
+    "text": "Vinicius set to miss Clasico; Madrid may lose left threat"
    },
    "first": false,
    "variant": 0,
    "audio": "audio/2026-10-25-barcelona-real-madrid/s4.mp3",
    "words": [
     {
-     "w": "Dani",
+     "w": "SI",
      "start": 0.12,
-     "end": 0.44
+     "end": 0.52
     },
     {
-     "w": "Olmo",
+     "w": "reports",
      "start": 0.52,
-     "end": 0.76
-    },
-    {
-     "w": "went",
-     "start": 0.76,
      "end": 1
     },
     {
-     "w": "off",
-     "start": 1.08,
-     "end": 1.16
-    },
-    {
-     "w": "injured",
-     "start": 1.16,
-     "end": 1.56
-    },
-    {
-     "w": "in",
-     "start": 1.64,
-     "end": 1.64
-    },
-    {
-     "w": "the",
-     "start": 1.72,
-     "end": 1.72
-    },
-    {
-     "w": "first",
-     "start": 1.8,
-     "end": 2.12
-    },
-    {
-     "w": "half",
-     "start": 2.12,
-     "end": 2.36
-    },
-    {
-     "w": "in",
-     "start": 2.44,
-     "end": 2.52
-    },
-    {
-     "w": "Paris.",
-     "start": 2.52,
-     "end": 3.16
-    }
-   ],
-   "durationInFrames": 103
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "Vinicius Jr is reported to face a 3-game ban.",
-   "show": {
-    "kind": "absence",
-    "team": "away",
-    "player": "Vinicius Jr",
-    "status": "out",
-    "line": "3 games"
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-25-barcelona-real-madrid/s5.mp3",
-   "words": [
-    {
      "w": "Vinicius",
-     "start": 0.12,
-     "end": 0.6
+     "start": 1,
+     "end": 1.48
     },
     {
-     "w": "Jr",
-     "start": 0.6,
-     "end": 1.08
-    },
-    {
-     "w": "is",
-     "start": 1.161,
-     "end": 1.24
-    },
-    {
-     "w": "reported",
-     "start": 1.24,
+     "w": "set",
+     "start": 1.56,
      "end": 1.72
     },
     {
@@ -609,96 +559,199 @@
      "end": 1.8
     },
     {
-     "w": "face",
+     "w": "miss",
      "start": 1.88,
-     "end": 2.12
+     "end": 2.04
     },
     {
-     "w": "a",
-     "start": 2.2,
-     "end": 2.2
-    },
-    {
-     "w": "3-game",
-     "start": 2.2,
+     "w": "Clasico;",
+     "start": 2.04,
      "end": 2.76
     },
     {
-     "w": "ban.",
-     "start": 2.76,
-     "end": 3.24
+     "w": "Madrid",
+     "start": 2.918,
+     "end": 3.4
+    },
+    {
+     "w": "may",
+     "start": 3.48,
+     "end": 3.56
+    },
+    {
+     "w": "lose",
+     "start": 3.56,
+     "end": 3.88
+    },
+    {
+     "w": "left",
+     "start": 3.88,
+     "end": 4.12
+    },
+    {
+     "w": "threat.",
+     "start": 4.12,
+     "end": 4.6
     }
    ],
-   "durationInFrames": 105
+   "durationInFrames": 146
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Margin removed, Barcelona are 59.4% favourites, more than twice Madrid's 24.1%.",
+   "text": "Despite Paris, Barcelona average 2.72 expected goals — a goal more than Madrid.",
    "show": {
-    "kind": "chances"
+    "kind": "stat",
+    "label": "Barcelona xG per game",
+    "value": "2.72"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-barcelona-real-madrid/s5.mp3",
+   "words": [
+    {
+     "w": "Despite",
+     "start": 0.12,
+     "end": 0.52
+    },
+    {
+     "w": "Paris,",
+     "start": 0.52,
+     "end": 1
+    },
+    {
+     "w": "Barcelona",
+     "start": 1.24,
+     "end": 1.88
+    },
+    {
+     "w": "average",
+     "start": 1.96,
+     "end": 2.28
+    },
+    {
+     "w": "2.72",
+     "start": 2.284,
+     "end": 3.4
+    },
+    {
+     "w": "expected",
+     "start": 3.48,
+     "end": 3.88
+    },
+    {
+     "w": "goals",
+     "start": 3.88,
+     "end": 4.12
+    },
+    {
+     "w": "—",
+     "start": 4.12,
+     "end": 4.36
+    },
+    {
+     "w": "a",
+     "start": 4.671,
+     "end": 4.68
+    },
+    {
+     "w": "goal",
+     "start": 4.76,
+     "end": 4.92
+    },
+    {
+     "w": "more",
+     "start": 4.92,
+     "end": 5.16
+    },
+    {
+     "w": "than",
+     "start": 5.24,
+     "end": 5.32
+    },
+    {
+     "w": "Madrid.",
+     "start": 5.32,
+     "end": 5.8
+    }
+   ],
+   "durationInFrames": 182
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market makes Barcelona 59.4% favourites — more than double Madrid's chance.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 59.4
    },
    "first": false,
    "variant": 0,
    "audio": "audio/2026-10-25-barcelona-real-madrid/s6.mp3",
    "words": [
     {
-     "w": "Margin",
+     "w": "The",
      "start": 0.12,
-     "end": 0.52
+     "end": 0.2
     },
     {
-     "w": "removed,",
-     "start": 0.52,
-     "end": 1.08
+     "w": "market",
+     "start": 0.28,
+     "end": 0.6
+    },
+    {
+     "w": "makes",
+     "start": 0.6,
+     "end": 0.84
     },
     {
      "w": "Barcelona",
-     "start": 1.32,
-     "end": 1.96
-    },
-    {
-     "w": "are",
-     "start": 2.04,
-     "end": 2.04
+     "start": 0.92,
+     "end": 1.4
     },
     {
      "w": "59.4%",
-     "start": 2.04,
-     "end": 3.48
+     "start": 1.4,
+     "end": 2.12
     },
     {
-     "w": "favourites,",
-     "start": 3.48,
-     "end": 4.04
+     "w": "favourites",
+     "start": 2.12,
+     "end": 2.84
+    },
+    {
+     "w": "—",
+     "start": 2.84,
+     "end": 3.56
     },
     {
      "w": "more",
-     "start": 4.358,
-     "end": 4.44
+     "start": 3.793,
+     "end": 3.96
     },
     {
      "w": "than",
-     "start": 4.52,
+     "start": 4.04,
+     "end": 4.2
+    },
+    {
+     "w": "double",
+     "start": 4.28,
      "end": 4.6
     },
     {
-     "w": "twice",
-     "start": 4.6,
-     "end": 5.08
-    },
-    {
      "w": "Madrid's",
-     "start": 5.08,
-     "end": 5.64
+     "start": 4.6,
+     "end": 5
     },
     {
-     "w": "24.1%.",
-     "start": 5.64,
-     "end": 7.16
+     "w": "chance.",
+     "start": 5,
+     "end": 5.56
     }
    ],
-   "durationInFrames": 223
+   "durationInFrames": 175
   },
   {
    "type": "beat",
@@ -775,79 +828,90 @@
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Over 4.25 goals is rated 48.4% — just under half.",
+   "text": "Goal line up from 4.03 to 4.18 — recent games were open.",
    "show": {
-    "kind": "over",
-    "line": 4.25,
-    "value": 48.4
+    "kind": "stat",
+    "label": "Goal line",
+    "from": "4.03",
+    "value": "4.18"
    },
    "first": false,
    "variant": 0,
    "audio": "audio/2026-10-25-barcelona-real-madrid/s8.mp3",
    "words": [
     {
-     "w": "Over",
+     "w": "Goal",
      "start": 0.12,
      "end": 0.36
     },
     {
-     "w": "4.25",
+     "w": "line",
      "start": 0.44,
-     "end": 1.48
+     "end": 0.6
     },
     {
-     "w": "goals",
-     "start": 1.48,
-     "end": 1.96
+     "w": "up",
+     "start": 0.6,
+     "end": 0.84
     },
     {
-     "w": "is",
-     "start": 2.04,
-     "end": 2.12
+     "w": "from",
+     "start": 0.92,
+     "end": 1.08
     },
     {
-     "w": "rated",
-     "start": 2.12,
-     "end": 2.52
+     "w": "4.03",
+     "start": 1.16,
+     "end": 2.28
     },
     {
-     "w": "48.4%",
-     "start": 2.6,
-     "end": 3.4
+     "w": "to",
+     "start": 2.36,
+     "end": 2.44
+    },
+    {
+     "w": "4.18",
+     "start": 2.44,
+     "end": 2.92
     },
     {
      "w": "—",
-     "start": 3.4,
-     "end": 4.2
+     "start": 2.92,
+     "end": 3.4
     },
     {
-     "w": "just",
-     "start": 4.424,
-     "end": 4.6
+     "w": "recent",
+     "start": 3.714,
+     "end": 4.12
     },
     {
-     "w": "under",
-     "start": 4.6,
-     "end": 4.76
+     "w": "games",
+     "start": 4.12,
+     "end": 4.36
     },
     {
-     "w": "half.",
-     "start": 4.84,
-     "end": 5.32
+     "w": "were",
+     "start": 4.44,
+     "end": 4.52
+    },
+    {
+     "w": "open.",
+     "start": 4.52,
+     "end": 4.92
     }
    ],
-   "durationInFrames": 168
+   "durationInFrames": 156
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Barcelona remain favourites, but Paris left them with injuries.",
+   "text": "Barcelona have the form and chances, but Madrid's chance is rising.",
    "show": {
     "kind": "verdict",
     "points": [
-     "Barcelona remain favourites",
-     "Paris left injuries",
-     "Madrid closing the gap"
+     "Barcelona form and chances",
+     "Madrid chance rising",
+     "Vinicius set to miss"
     ]
    },
    "first": false,
@@ -860,47 +924,57 @@
      "end": 0.68
     },
     {
-     "w": "remain",
-     "start": 0.68,
-     "end": 1
+     "w": "have",
+     "start": 0.76,
+     "end": 0.84
     },
     {
-     "w": "favourites,",
-     "start": 1.0,
-     "end": 1.72
+     "w": "the",
+     "start": 0.84,
+     "end": 0.92
+    },
+    {
+     "w": "form",
+     "start": 1,
+     "end": 1.4
+    },
+    {
+     "w": "and",
+     "start": 1.4,
+     "end": 1.64
+    },
+    {
+     "w": "chances,",
+     "start": 1.64,
+     "end": 2.28
     },
     {
      "w": "but",
-     "start": 1.965,
-     "end": 2.2
+     "start": 2.528,
+     "end": 2.76
     },
     {
-     "w": "Paris",
-     "start": 2.28,
-     "end": 2.6
+     "w": "Madrid's",
+     "start": 2.84,
+     "end": 3.16
     },
     {
-     "w": "left",
-     "start": 2.6,
-     "end": 2.84
+     "w": "chance",
+     "start": 3.16,
+     "end": 3.56
     },
     {
-     "w": "them",
-     "start": 2.92,
-     "end": 3
+     "w": "is",
+     "start": 3.64,
+     "end": 3.8
     },
     {
-     "w": "with",
-     "start": 3.08,
-     "end": 3.08
-    },
-    {
-     "w": "injuries.",
-     "start": 3.08,
-     "end": 3.72
+     "w": "rising.",
+     "start": 3.8,
+     "end": 4.28
     }
    ],
-   "durationInFrames": 127
+   "durationInFrames": 143
   },
   {
    "type": "end",

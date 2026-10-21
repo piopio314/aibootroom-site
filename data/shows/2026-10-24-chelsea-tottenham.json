@@ -1,6 +1,6 @@
 {
  "id": "2026-10-24-chelsea-tottenham",
- "title": "Chelsea v Tottenham: the derby after Spurs' first win",
+ "title": "Spurs get their creators back — Chelsea still favourites",
  "match": {
   "home": "Chelsea",
   "away": "Tottenham",
@@ -146,7 +146,7 @@
    ]
   },
   "goals": 3.05,
-  "goals_rank": 8,
+  "goals_rank": 9,
   "tracked_since": "2026-10-18T22:49:00+00:00",
   "prices_as_of": "2026-10-21T10:21:00+00:00",
   "books": 10
@@ -155,7 +155,7 @@
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Tottenham beat Coventry 3-1 on Monday for their first league win.",
+   "text": "Tottenham beat Coventry 3-1 on Monday — their first league win.",
    "show": {
     "kind": "result",
     "team": "away",
@@ -174,61 +174,61 @@
     },
     {
      "w": "beat",
-     "start": 0.6,
+     "start": 0.52,
      "end": 0.76
     },
     {
      "w": "Coventry",
      "start": 0.76,
-     "end": 1.24
+     "end": 1.32
     },
     {
      "w": "3-1",
-     "start": 1.24,
-     "end": 1.8
+     "start": 1.32,
+     "end": 1.88
     },
     {
      "w": "on",
-     "start": 1.88,
-     "end": 1.96
+     "start": 1.96,
+     "end": 2.04
     },
     {
      "w": "Monday",
-     "start": 1.96,
+     "start": 2.04,
      "end": 2.36
     },
     {
-     "w": "for",
-     "start": 2.44,
-     "end": 2.52
-    },
-    {
-     "w": "their",
-     "start": 2.6,
+     "w": "—",
+     "start": 2.36,
      "end": 2.68
     },
     {
+     "w": "their",
+     "start": 2.76,
+     "end": 2.92
+    },
+    {
      "w": "first",
-     "start": 2.68,
-     "end": 3.08
+     "start": 2.92,
+     "end": 3.32
     },
     {
      "w": "league",
-     "start": 3.16,
-     "end": 3.4
+     "start": 3.4,
+     "end": 3.64
     },
     {
      "w": "win.",
-     "start": 3.4,
-     "end": 3.8
+     "start": 3.64,
+     "end": 3.96
     }
    ],
-   "durationInFrames": 122
+   "durationInFrames": 127
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Chelsea host Tottenham in the Premier League on Saturday.",
+   "text": "On Saturday they visit Chelsea in the Premier League.",
    "show": {
     "kind": "teams"
    },
@@ -237,188 +237,65 @@
    "audio": "audio/2026-10-24-chelsea-tottenham/s1.mp3",
    "words": [
     {
-     "w": "Chelsea",
+     "w": "On",
      "start": 0.12,
-     "end": 0.52
+     "end": 0.28
     },
     {
-     "w": "host",
-     "start": 0.6,
-     "end": 0.76
-    },
-    {
-     "w": "Tottenham",
-     "start": 0.764,
-     "end": 1.24
-    },
-    {
-     "w": "in",
-     "start": 1.32,
-     "end": 1.32
-    },
-    {
-     "w": "the",
-     "start": 1.4,
-     "end": 1.4
-    },
-    {
-     "w": "Premier",
-     "start": 1.4,
-     "end": 1.8
-    },
-    {
-     "w": "League",
-     "start": 1.88,
-     "end": 2.12
-    },
-    {
-     "w": "on",
-     "start": 2.2,
-     "end": 2.2
-    },
-    {
-     "w": "Saturday.",
-     "start": 2.2,
-     "end": 2.84
-    }
-   ],
-   "durationInFrames": 93
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "Chelsea are 4th in the table on 13 points.",
-   "show": {
-    "kind": "table",
-    "team": "home",
-    "rank": 4,
-    "pts": 13
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-24-chelsea-tottenham/s2.mp3",
-   "words": [
-    {
-     "w": "Chelsea",
-     "start": 0.12,
-     "end": 0.6
-    },
-    {
-     "w": "are",
-     "start": 0.6,
+     "w": "Saturday",
+     "start": 0.28,
      "end": 0.84
     },
     {
-     "w": "4th",
-     "start": 0.92,
-     "end": 1.24
+     "w": "they",
+     "start": 0.84,
+     "end": 1
     },
     {
-     "w": "in",
-     "start": 1.32,
+     "w": "visit",
+     "start": 1.08,
      "end": 1.32
     },
     {
-     "w": "the",
-     "start": 1.4,
-     "end": 1.4
+     "w": "Chelsea",
+     "start": 1.32,
+     "end": 1.88
     },
     {
-     "w": "table",
-     "start": 1.4,
-     "end": 1.8
-    },
-    {
-     "w": "on",
-     "start": 1.88,
-     "end": 1.96
-    },
-    {
-     "w": "13",
+     "w": "in",
      "start": 1.96,
-     "end": 2.44
-    },
-    {
-     "w": "points.",
-     "start": 2.44,
-     "end": 3
-    }
-   ],
-   "durationInFrames": 98
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "Tottenham's 0.9 expected goals show the scoreline flattered them.",
-   "show": {
-    "kind": "stat",
-    "label": "Spurs expected goals",
-    "value": "0.9"
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-24-chelsea-tottenham/s3.mp3",
-   "words": [
-    {
-     "w": "Tottenham's",
-     "start": 0.12,
-     "end": 0.6
-    },
-    {
-     "w": "0.9",
-     "start": 0.68,
-     "end": 1.48
-    },
-    {
-     "w": "expected",
-     "start": 1.48,
      "end": 2.04
     },
     {
-     "w": "goals",
+     "w": "the",
+     "start": 2.12,
+     "end": 2.12
+    },
+    {
+     "w": "Premier",
      "start": 2.12,
      "end": 2.44
     },
     {
-     "w": "show",
+     "w": "League.",
      "start": 2.44,
-     "end": 2.68
-    },
-    {
-     "w": "the",
-     "start": 2.76,
-     "end": 2.84
-    },
-    {
-     "w": "scoreline",
-     "start": 2.84,
-     "end": 3.4
-    },
-    {
-     "w": "flattered",
-     "start": 3.4,
-     "end": 3.88
-    },
-    {
-     "w": "them.",
-     "start": 3.96,
-     "end": 4.12
+     "end": 2.92
     }
    ],
-   "durationInFrames": 132
+   "durationInFrames": 96
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "According to Yahoo Sports, Maddison and Kulusevski are back for Tottenham.",
+   "text": "According to Yahoo Sports, Maddison and Kulusevski are back from injury.",
    "show": {
     "kind": "news",
     "source": "Yahoo Sports",
-    "text": "Maddison and Kulusevski back for Spurs"
+    "text": "Maddison and Kulusevski back from injury"
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-chelsea-tottenham/s4.mp3",
+   "audio": "audio/2026-10-24-chelsea-tottenham/s2.mp3",
    "words": [
     {
      "w": "According",
@@ -437,27 +314,27 @@
     },
     {
      "w": "Sports,",
-     "start": 1.0,
+     "start": 0.92,
      "end": 1.56
     },
     {
      "w": "Maddison",
-     "start": 1.721,
-     "end": 2.36
+     "start": 1.8,
+     "end": 2.44
     },
     {
      "w": "and",
-     "start": 2.36,
-     "end": 2.52
+     "start": 2.52,
+     "end": 2.6
     },
     {
      "w": "Kulusevski",
-     "start": 2.52,
-     "end": 3.4
+     "start": 2.6,
+     "end": 3.48
     },
     {
      "w": "are",
-     "start": 3.48,
+     "start": 3.56,
      "end": 3.56
     },
     {
@@ -466,28 +343,165 @@
      "end": 3.88
     },
     {
-     "w": "for",
+     "w": "from",
      "start": 3.96,
-     "end": 3.96
+     "end": 4.04
     },
     {
-     "w": "Tottenham.",
-     "start": 3.96,
-     "end": 4.52
+     "w": "injury.",
+     "start": 4.04,
+     "end": 4.6
     }
    ],
-   "durationInFrames": 144
+   "durationInFrames": 146
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Chelsea won 2-0 at Everton in their last match.",
+   "text": "But they created few clear chances in that win: 0.9 expected goals.",
+   "show": {
+    "kind": "stat",
+    "label": "Spurs expected goals",
+    "value": "0.9"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-chelsea-tottenham/s3.mp3",
+   "words": [
+    {
+     "w": "But",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "they",
+     "start": 0.36,
+     "end": 0.44
+    },
+    {
+     "w": "created",
+     "start": 0.44,
+     "end": 0.84
+    },
+    {
+     "w": "few",
+     "start": 0.92,
+     "end": 1.4
+    },
+    {
+     "w": "clear",
+     "start": 1.4,
+     "end": 1.72
+    },
+    {
+     "w": "chances",
+     "start": 1.72,
+     "end": 2.2
+    },
+    {
+     "w": "in",
+     "start": 2.28,
+     "end": 2.36
+    },
+    {
+     "w": "that",
+     "start": 2.36,
+     "end": 2.6
+    },
+    {
+     "w": "win:",
+     "start": 2.68,
+     "end": 2.92
+    },
+    {
+     "w": "0.9",
+     "start": 3.203,
+     "end": 4.28
+    },
+    {
+     "w": "expected",
+     "start": 4.28,
+     "end": 4.68
+    },
+    {
+     "w": "goals.",
+     "start": 4.76,
+     "end": 5.24
+    }
+   ],
+   "durationInFrames": 165
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Sports Mole lists Pedro Porro among Tottenham's injury doubts.",
+   "show": {
+    "kind": "news",
+    "source": "Sports Mole",
+    "text": "Porro among Spurs injury doubts"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-chelsea-tottenham/s4.mp3",
+   "words": [
+    {
+     "w": "Sports",
+     "start": 0.12,
+     "end": 0.6
+    },
+    {
+     "w": "Mole",
+     "start": 0.68,
+     "end": 0.92
+    },
+    {
+     "w": "lists",
+     "start": 0.92,
+     "end": 1.32
+    },
+    {
+     "w": "Pedro",
+     "start": 1.322,
+     "end": 1.72
+    },
+    {
+     "w": "Porro",
+     "start": 1.8,
+     "end": 2.12
+    },
+    {
+     "w": "among",
+     "start": 2.12,
+     "end": 2.44
+    },
+    {
+     "w": "Tottenham's",
+     "start": 2.44,
+     "end": 2.92
+    },
+    {
+     "w": "injury",
+     "start": 3.0,
+     "end": 3.24
+    },
+    {
+     "w": "doubts.",
+     "start": 3.24,
+     "end": 3.8
+    }
+   ],
+   "durationInFrames": 122
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Chelsea won 2-0 at Everton last weekend.",
    "show": {
     "kind": "result",
     "team": "home",
     "opponent": "Everton",
     "score": "2-0",
-    "when": "last match"
+    "when": "last weekend"
    },
    "first": false,
    "variant": 0,
@@ -496,21 +510,21 @@
     {
      "w": "Chelsea",
      "start": 0.12,
-     "end": 0.52
+     "end": 0.6
     },
     {
      "w": "won",
-     "start": 0.6,
-     "end": 0.84
+     "start": 0.68,
+     "end": 0.76
     },
     {
      "w": "2-0",
-     "start": 0.84,
+     "start": 0.76,
      "end": 1.48
     },
     {
      "w": "at",
-     "start": 1.48,
+     "start": 1.56,
      "end": 1.56
     },
     {
@@ -519,32 +533,22 @@
      "end": 1.96
     },
     {
-     "w": "in",
-     "start": 2.04,
-     "end": 2.12
-    },
-    {
-     "w": "their",
-     "start": 2.2,
-     "end": 2.28
-    },
-    {
      "w": "last",
-     "start": 2.28,
-     "end": 2.6
+     "start": 1.96,
+     "end": 2.2
     },
     {
-     "w": "match.",
-     "start": 2.6,
-     "end": 3.08
+     "w": "weekend.",
+     "start": 2.28,
+     "end": 2.76
     }
    ],
-   "durationInFrames": 100
+   "durationInFrames": 91
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Chelsea's win chance has risen from 52.5% to 54.9% in recent days.",
+   "text": "Across the market average, that win moved Chelsea from 52.5% to 54.9%.",
    "show": {
     "kind": "move",
     "team": "home",
@@ -556,126 +560,137 @@
    "audio": "audio/2026-10-24-chelsea-tottenham/s6.mp3",
    "words": [
     {
-     "w": "Chelsea's",
+     "w": "Across",
      "start": 0.12,
+     "end": 0.44
+    },
+    {
+     "w": "the",
+     "start": 0.52,
      "end": 0.52
     },
     {
+     "w": "market",
+     "start": 0.52,
+     "end": 0.84
+    },
+    {
+     "w": "average,",
+     "start": 0.92,
+     "end": 1.4
+    },
+    {
+     "w": "that",
+     "start": 1.556,
+     "end": 1.88
+    },
+    {
      "w": "win",
-     "start": 0.6,
-     "end": 0.76
+     "start": 1.96,
+     "end": 2.12
     },
     {
-     "w": "chance",
-     "start": 0.76,
-     "end": 1.16
+     "w": "moved",
+     "start": 2.12,
+     "end": 2.44
     },
     {
-     "w": "has",
-     "start": 1.24,
-     "end": 1.24
-    },
-    {
-     "w": "risen",
-     "start": 1.24,
-     "end": 1.56
+     "w": "Chelsea",
+     "start": 2.52,
+     "end": 2.92
     },
     {
      "w": "from",
-     "start": 1.64,
-     "end": 1.8
+     "start": 2.92,
+     "end": 3.24
     },
     {
      "w": "52.5%",
-     "start": 1.8,
-     "end": 3.4
+     "start": 3.32,
+     "end": 4.84
     },
     {
      "w": "to",
-     "start": 3.719,
-     "end": 3.8
+     "start": 5.16,
+     "end": 5.24
     },
     {
-     "w": "54.9%",
-     "start": 3.8,
-     "end": 5.56
-    },
-    {
-     "w": "in",
-     "start": 5.64,
-     "end": 5.64
-    },
-    {
-     "w": "recent",
-     "start": 5.72,
-     "end": 6.04
-    },
-    {
-     "w": "days.",
-     "start": 6.04,
-     "end": 6.52
+     "w": "54.9%.",
+     "start": 5.24,
+     "end": 7
     }
    ],
-   "durationInFrames": 204
+   "durationInFrames": 218
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "The market rates Chelsea 0.73 goals better.",
+   "text": "Tottenham are 22.5% — less than half Chelsea's chance.",
    "show": {
-    "kind": "stat",
-    "label": "Chelsea better by (goals)",
-    "value": "0.73"
+    "kind": "chance",
+    "team": "away",
+    "value": 22.5
    },
    "first": false,
    "variant": 0,
    "audio": "audio/2026-10-24-chelsea-tottenham/s7.mp3",
    "words": [
     {
-     "w": "The",
+     "w": "Tottenham",
      "start": 0.12,
-     "end": 0.28
+     "end": 0.52
     },
     {
-     "w": "market",
-     "start": 0.36,
-     "end": 0.6
-    },
-    {
-     "w": "rates",
+     "w": "are",
      "start": 0.6,
-     "end": 0.84
+     "end": 0.68
     },
     {
-     "w": "Chelsea",
-     "start": 0.84,
+     "w": "22.5%",
+     "start": 0.68,
      "end": 1.48
     },
     {
-     "w": "0.73",
-     "start": 1.56,
-     "end": 2.92
+     "w": "—",
+     "start": 1.48,
+     "end": 2.28
     },
     {
-     "w": "goals",
-     "start": 2.92,
-     "end": 3.32
+     "w": "less",
+     "start": 2.519,
+     "end": 2.76
     },
     {
-     "w": "better.",
-     "start": 3.32,
-     "end": 3.72
+     "w": "than",
+     "start": 2.84,
+     "end": 3
+    },
+    {
+     "w": "half",
+     "start": 3.0,
+     "end": 3.4
+    },
+    {
+     "w": "Chelsea's",
+     "start": 3.48,
+     "end": 3.88
+    },
+    {
+     "w": "chance.",
+     "start": 3.88,
+     "end": 4.44
     }
    ],
-   "durationInFrames": 120
+   "durationInFrames": 141
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects 3.0 goals at Stamford Bridge.",
+   "text": "The handicap: Tottenham get a head start of 0.75 goals.",
    "show": {
-    "kind": "goals",
-    "value": 3.0
+    "kind": "stat",
+    "label": "Spurs head start (goals)",
+    "value": "0.75"
    },
    "first": false,
    "variant": 0,
@@ -687,52 +702,63 @@
      "end": 0.2
     },
     {
-     "w": "market",
-     "start": 0.28,
-     "end": 0.52
+     "w": "handicap:",
+     "start": 0.2,
+     "end": 0.92
     },
     {
-     "w": "expects",
-     "start": 0.52,
-     "end": 1.08
+     "w": "Tottenham",
+     "start": 1.158,
+     "end": 1.56
     },
     {
-     "w": "3.0",
-     "start": 1.16,
+     "w": "get",
+     "start": 1.56,
+     "end": 1.72
+    },
+    {
+     "w": "a",
+     "start": 1.8,
+     "end": 1.8
+    },
+    {
+     "w": "head",
+     "start": 1.88,
      "end": 1.96
     },
     {
-     "w": "goals",
+     "w": "start",
      "start": 1.96,
+     "end": 2.36
+    },
+    {
+     "w": "of",
+     "start": 2.44,
      "end": 2.52
     },
     {
-     "w": "at",
-     "start": 2.6,
-     "end": 2.6
+     "w": "0.75",
+     "start": 2.52,
+     "end": 3.96
     },
     {
-     "w": "Stamford",
-     "start": 2.6,
-     "end": 3.16
-    },
-    {
-     "w": "Bridge.",
-     "start": 3.24,
-     "end": 3.64
+     "w": "goals.",
+     "start": 4.04,
+     "end": 4.44
     }
    ],
-   "durationInFrames": 117
+   "durationInFrames": 141
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Spurs' creators are back, but Chelsea are clear favourites at home.",
+   "text": "Spurs have their creators back, but Chelsea are still clear favourites.",
    "show": {
     "kind": "verdict",
     "points": [
-     "Chelsea clear favourites",
-     "Spurs' creators back"
+     "Creators back for Spurs",
+     "Chelsea still favourites",
+     "Spurs' win flattered them"
     ]
    },
    "first": false,
@@ -740,62 +766,62 @@
    "audio": "audio/2026-10-24-chelsea-tottenham/s9.mp3",
    "words": [
     {
-     "w": "Spurs'",
+     "w": "Spurs",
      "start": 0.12,
-     "end": 0.68
+     "end": 0.6
+    },
+    {
+     "w": "have",
+     "start": 0.68,
+     "end": 0.76
+    },
+    {
+     "w": "their",
+     "start": 0.76,
+     "end": 0.92
     },
     {
      "w": "creators",
-     "start": 0.76,
-     "end": 1.16
-    },
-    {
-     "w": "are",
-     "start": 1.24,
-     "end": 1.24
+     "start": 0.92,
+     "end": 1.48
     },
     {
      "w": "back,",
-     "start": 1.24,
-     "end": 1.64
+     "start": 1.56,
+     "end": 1.88
     },
     {
      "w": "but",
-     "start": 1.959,
-     "end": 2.04
+     "start": 2.118,
+     "end": 2.28
     },
     {
      "w": "Chelsea",
-     "start": 2.04,
-     "end": 2.52
+     "start": 2.28,
+     "end": 2.76
     },
     {
      "w": "are",
-     "start": 2.6,
-     "end": 2.68
+     "start": 2.84,
+     "end": 2.84
+    },
+    {
+     "w": "still",
+     "start": 2.92,
+     "end": 3.24
     },
     {
      "w": "clear",
-     "start": 2.68,
-     "end": 3.16
-    },
-    {
-     "w": "favourites",
      "start": 3.24,
-     "end": 3.64
+     "end": 3.56
     },
     {
-     "w": "at",
-     "start": 3.64,
-     "end": 3.8
-    },
-    {
-     "w": "home.",
-     "start": 3.88,
-     "end": 4.12
+     "w": "favourites.",
+     "start": 3.56,
+     "end": 4.2
     }
    ],
-   "durationInFrames": 139
+   "durationInFrames": 141
   },
   {
    "type": "end",

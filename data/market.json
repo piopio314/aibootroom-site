@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-21T18:00:00+00:00",
+ "generated_at": "2026-10-21T19:01:00+00:00",
  "prices_as_of": "2026-10-21T10:21:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
-  "matches": 476,
+  "matches": 468,
   "price_changes": 162799,
   "leagues": 23,
   "absences": 536,
@@ -110,314 +110,9 @@
    "away": 0
   },
   "read": "2026-10-25-barcelona-real-madrid",
-  "headline": "Barcelona hurt in Paris but still clear Clasico favourites"
+  "headline": "Barcelona's perfect league start meets Madrid's Vinicius question"
  },
  "weekend": [
-  {
-   "id": 1635630,
-   "slug": "2026-10-21-bayern-m-nchen-arsenal",
-   "league": "Champions League",
-   "kickoff": "2026-10-21T19:00:00+00:00",
-   "home": "Bayern München",
-   "away": "Arsenal",
-   "fair": {
-    "home": 45.8,
-    "draw": 24.7,
-    "away": 29.5
-   },
-   "move": {
-    "home": -0.4,
-    "draw": 0.1,
-    "away": 0.3
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "timeline": [
-    {
-     "t": "2026-10-20T20:44:00+00:00",
-     "home": 46.3,
-     "draw": 24.5,
-     "away": 29.2
-    },
-    {
-     "t": "2026-10-20T21:20:00+00:00",
-     "home": 46.5,
-     "draw": 24.4,
-     "away": 29.1
-    },
-    {
-     "t": "2026-10-21T03:25:00+00:00",
-     "home": 47.3,
-     "draw": 24.1,
-     "away": 28.6
-    },
-    {
-     "t": "2026-10-21T06:35:00+00:00",
-     "home": 46.3,
-     "draw": 24.7,
-     "away": 29.0
-    },
-    {
-     "t": "2026-10-21T09:23:00+00:00",
-     "home": 45.8,
-     "draw": 24.7,
-     "away": 29.5
-    }
-   ],
-   "goals": {
-    "expected": 3.05,
-    "first": 2.93
-   },
-   "absences": {
-    "home": 4,
-    "away": 3
-   },
-   "read": null,
-   "headline": null
-  },
-  {
-   "id": 1635636,
-   "slug": "2026-10-21-real-betis-feyenoord",
-   "league": "Champions League",
-   "kickoff": "2026-10-21T19:00:00+00:00",
-   "home": "Real Betis",
-   "away": "Feyenoord",
-   "fair": {
-    "home": 57.4,
-    "draw": 21.2,
-    "away": 21.4
-   },
-   "move": {
-    "home": -4.7,
-    "draw": 1.4,
-    "away": 3.3
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "timeline": [
-    {
-     "t": "2026-10-20T20:44:00+00:00",
-     "home": 62.1,
-     "draw": 19.8,
-     "away": 18.1
-    },
-    {
-     "t": "2026-10-20T21:20:00+00:00",
-     "home": 62.2,
-     "draw": 19.8,
-     "away": 18.0
-    },
-    {
-     "t": "2026-10-21T03:25:00+00:00",
-     "home": 62.1,
-     "draw": 19.7,
-     "away": 18.1
-    },
-    {
-     "t": "2026-10-21T06:35:00+00:00",
-     "home": 60.9,
-     "draw": 20.1,
-     "away": 19.0
-    },
-    {
-     "t": "2026-10-21T09:23:00+00:00",
-     "home": 57.4,
-     "draw": 21.2,
-     "away": 21.4
-    }
-   ],
-   "goals": {
-    "expected": 3.45,
-    "first": 3.47
-   },
-   "absences": {
-    "home": 4,
-    "away": 7
-   },
-   "read": null,
-   "headline": null
-  },
-  {
-   "id": 1635716,
-   "slug": "2026-10-21-real-madrid-rb-leipzig",
-   "league": "Champions League",
-   "kickoff": "2026-10-21T19:00:00+00:00",
-   "home": "Real Madrid",
-   "away": "RB Leipzig",
-   "fair": {
-    "home": 78.0,
-    "draw": 13.0,
-    "away": 9.0
-   },
-   "move": {
-    "home": 1.3,
-    "draw": -0.3,
-    "away": -1.0
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "timeline": [
-    {
-     "t": "2026-10-20T20:44:00+00:00",
-     "home": 76.7,
-     "draw": 13.3,
-     "away": 10.0
-    },
-    {
-     "t": "2026-10-20T21:20:00+00:00",
-     "home": 76.7,
-     "draw": 13.3,
-     "away": 9.9
-    },
-    {
-     "t": "2026-10-21T03:25:00+00:00",
-     "home": 76.7,
-     "draw": 13.3,
-     "away": 9.9
-    },
-    {
-     "t": "2026-10-21T06:35:00+00:00",
-     "home": 77.2,
-     "draw": 13.1,
-     "away": 9.7
-    },
-    {
-     "t": "2026-10-21T09:23:00+00:00",
-     "home": 78.0,
-     "draw": 13.0,
-     "away": 9.0
-    }
-   ],
-   "goals": {
-    "expected": 4.23,
-    "first": 4.12
-   },
-   "absences": {
-    "home": 3,
-    "away": 4
-   },
-   "read": null,
-   "headline": null
-  },
-  {
-   "id": 1635621,
-   "slug": "2026-10-21-aston-villa-viking",
-   "league": "Champions League",
-   "kickoff": "2026-10-21T19:00:00+00:00",
-   "home": "Aston Villa",
-   "away": "Viking",
-   "fair": {
-    "home": 76.8,
-    "draw": 14.5,
-    "away": 8.7
-   },
-   "move": {
-    "home": -1.5,
-    "draw": 0.6,
-    "away": 0.9
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "timeline": [
-    {
-     "t": "2026-10-20T20:44:00+00:00",
-     "home": 78.3,
-     "draw": 13.9,
-     "away": 7.8
-    },
-    {
-     "t": "2026-10-20T21:20:00+00:00",
-     "home": 78.4,
-     "draw": 13.8,
-     "away": 7.8
-    },
-    {
-     "t": "2026-10-21T03:25:00+00:00",
-     "home": 78.5,
-     "draw": 13.8,
-     "away": 7.7
-    },
-    {
-     "t": "2026-10-21T06:35:00+00:00",
-     "home": 78.6,
-     "draw": 13.7,
-     "away": 7.7
-    },
-    {
-     "t": "2026-10-21T09:23:00+00:00",
-     "home": 76.8,
-     "draw": 14.5,
-     "away": 8.7
-    }
-   ],
-   "goals": {
-    "expected": 3.64,
-    "first": 3.81
-   },
-   "absences": {
-    "home": 9,
-    "away": 8
-   },
-   "read": null,
-   "headline": null
-  },
-  {
-   "id": 1635737,
-   "slug": "2026-10-21-sporting-cp-lask-linz",
-   "league": "Champions League",
-   "kickoff": "2026-10-21T19:00:00+00:00",
-   "home": "Sporting CP",
-   "away": "Lask Linz",
-   "fair": {
-    "home": 77.7,
-    "draw": 13.5,
-    "away": 8.8
-   },
-   "move": {
-    "home": -2.1,
-    "draw": 1.5,
-    "away": 0.6
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "timeline": [
-    {
-     "t": "2026-10-20T20:44:00+00:00",
-     "home": 79.8,
-     "draw": 11.9,
-     "away": 8.2
-    },
-    {
-     "t": "2026-10-20T21:20:00+00:00",
-     "home": 80.4,
-     "draw": 11.7,
-     "away": 8.0
-    },
-    {
-     "t": "2026-10-21T03:25:00+00:00",
-     "home": 80.0,
-     "draw": 11.8,
-     "away": 8.1
-    },
-    {
-     "t": "2026-10-21T06:35:00+00:00",
-     "home": 80.5,
-     "draw": 11.6,
-     "away": 7.9
-    },
-    {
-     "t": "2026-10-21T09:23:00+00:00",
-     "home": 77.7,
-     "draw": 13.5,
-     "away": 8.8
-    }
-   ],
-   "goals": {
-    "expected": 3.5,
-    "first": 3.7
-   },
-   "absences": {
-    "home": 3,
-    "away": 5
-   },
-   "read": null,
-   "headline": null
-  },
   {
    "id": 1636379,
    "slug": "2026-10-22-ajax-atalanta",
@@ -544,7 +239,7 @@
     "away": 0
    },
    "read": "2026-10-24-aston-villa-manchester-city",
-   "headline": "Villa's recent record meets City's perfect season"
+   "headline": "City lead the league, but Villa Park has been awkward"
   },
   {
    "id": 1550164,
@@ -611,7 +306,7 @@
     "away": 1
    },
    "read": "2026-10-24-napoli-as-roma",
-   "headline": "Napoli under pressure host Roma, the market's narrow favourites"
+   "headline": "Napoli 'too fragile' as unbeaten Roma come to Naples"
   },
   {
    "id": 1557439,
@@ -684,7 +379,80 @@
     "away": 0
    },
    "read": "2026-10-24-chelsea-tottenham",
-   "headline": "Chelsea v Tottenham: the derby favours the home side"
+   "headline": "Maddison and Kulusevski back for Spurs, but Chelsea stay clear favourites"
+  },
+  {
+   "id": 1570432,
+   "slug": "2026-10-24-valencia-villarreal",
+   "league": "La Liga",
+   "kickoff": "2026-10-24T16:30:00+00:00",
+   "home": "Valencia",
+   "away": "Villarreal",
+   "fair": {
+    "home": 29.8,
+    "draw": 25.8,
+    "away": 44.4
+   },
+   "move": {
+    "home": -0.7,
+    "draw": -0.1,
+    "away": 0.8
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "home": 30.5,
+     "draw": 25.9,
+     "away": 43.6
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "home": 30.5,
+     "draw": 25.9,
+     "away": 43.6
+    },
+    {
+     "t": "2026-10-19T09:31:00+00:00",
+     "home": 30.5,
+     "draw": 25.9,
+     "away": 43.6
+    },
+    {
+     "t": "2026-10-19T18:26:00+00:00",
+     "home": 30.6,
+     "draw": 26.1,
+     "away": 43.4
+    },
+    {
+     "t": "2026-10-20T21:20:00+00:00",
+     "home": 30.5,
+     "draw": 26.0,
+     "away": 43.5
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "home": 29.8,
+     "draw": 25.8,
+     "away": 44.4
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "home": 29.8,
+     "draw": 25.8,
+     "away": 44.4
+    }
+   ],
+   "goals": {
+    "expected": 2.73,
+    "first": 2.75
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
   },
   {
    "id": 1552204,
@@ -733,6 +501,316 @@
    "goals": {
     "expected": 3.76,
     "first": 3.66
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1557441,
+   "slug": "2026-10-25-crystal-palace-newcastle",
+   "league": "Premier League",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "home": "Crystal Palace",
+   "away": "Newcastle",
+   "fair": {
+    "home": 32.7,
+    "draw": 26.5,
+    "away": 40.8
+   },
+   "move": {
+    "home": -3.1,
+    "draw": -0.2,
+    "away": 3.3
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "home": 35.8,
+     "draw": 26.7,
+     "away": 37.5
+    },
+    {
+     "t": "2026-10-18T23:16:00+00:00",
+     "home": 32.8,
+     "draw": 26.8,
+     "away": 40.4
+    },
+    {
+     "t": "2026-10-19T02:31:00+00:00",
+     "home": 32.8,
+     "draw": 26.8,
+     "away": 40.4
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "home": 32.7,
+     "draw": 26.7,
+     "away": 40.6
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "home": 32.7,
+     "draw": 26.6,
+     "away": 40.7
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "home": 32.7,
+     "draw": 26.6,
+     "away": 40.7
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "home": 32.7,
+     "draw": 26.5,
+     "away": 40.8
+    }
+   ],
+   "goals": {
+    "expected": 2.93,
+    "first": 2.92
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": "2026-10-25-crystal-palace-newcastle",
+   "headline": "Newcastle repriced to 40.4%; goals markets unmoved"
+  },
+  {
+   "id": 1557444,
+   "slug": "2026-10-25-liverpool-brighton",
+   "league": "Premier League",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "home": "Liverpool",
+   "away": "Brighton",
+   "fair": {
+    "home": 45.3,
+    "draw": 24.4,
+    "away": 30.4
+   },
+   "move": {
+    "home": -0.8,
+    "draw": 0.4,
+    "away": 0.4
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "home": 46.0,
+     "draw": 24.0,
+     "away": 30.0
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "home": 46.0,
+     "draw": 24.0,
+     "away": 30.0
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "home": 45.2,
+     "draw": 24.4,
+     "away": 30.4
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "home": 44.5,
+     "draw": 24.3,
+     "away": 31.1
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "home": 44.5,
+     "draw": 24.3,
+     "away": 31.1
+    },
+    {
+     "t": "2026-10-19T14:23:00+00:00",
+     "home": 44.5,
+     "draw": 24.3,
+     "away": 31.1
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "home": 44.7,
+     "draw": 24.3,
+     "away": 31.0
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "home": 44.7,
+     "draw": 24.3,
+     "away": 31.0
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "home": 45.3,
+     "draw": 24.4,
+     "away": 30.4
+    }
+   ],
+   "goals": {
+    "expected": 3.0,
+    "first": 2.97
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1557445,
+   "slug": "2026-10-25-manchester-united-bournemouth",
+   "league": "Premier League",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "home": "Manchester United",
+   "away": "Bournemouth",
+   "fair": {
+    "home": 50.8,
+    "draw": 25.0,
+    "away": 24.2
+   },
+   "move": {
+    "home": -0.5,
+    "draw": 0.4,
+    "away": 0.1
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "home": 51.4,
+     "draw": 24.6,
+     "away": 24.1
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "home": 51.4,
+     "draw": 24.6,
+     "away": 24.0
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "home": 51.4,
+     "draw": 24.6,
+     "away": 24.0
+    },
+    {
+     "t": "2026-10-19T14:23:00+00:00",
+     "home": 51.4,
+     "draw": 24.6,
+     "away": 24.0
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "home": 51.3,
+     "draw": 24.7,
+     "away": 24.0
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "home": 51.3,
+     "draw": 24.7,
+     "away": 24.0
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "home": 50.8,
+     "draw": 25.0,
+     "away": 24.2
+    }
+   ],
+   "goals": {
+    "expected": 2.92,
+    "first": 2.97
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1570427,
+   "slug": "2026-10-25-celta-vigo-real-betis",
+   "league": "La Liga",
+   "kickoff": "2026-10-25T15:15:00+00:00",
+   "home": "Celta Vigo",
+   "away": "Real Betis",
+   "fair": {
+    "home": 34.4,
+    "draw": 27.4,
+    "away": 38.2
+   },
+   "move": {
+    "home": -0.1,
+    "draw": 0.3,
+    "away": -0.2
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "home": 34.5,
+     "draw": 27.1,
+     "away": 38.4
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "home": 34.5,
+     "draw": 27.1,
+     "away": 38.4
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "home": 34.5,
+     "draw": 27.1,
+     "away": 38.4
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "home": 34.5,
+     "draw": 27.1,
+     "away": 38.4
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "home": 34.5,
+     "draw": 27.1,
+     "away": 38.4
+    },
+    {
+     "t": "2026-10-20T22:19:00+00:00",
+     "home": 34.3,
+     "draw": 27.4,
+     "away": 38.3
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "home": 34.4,
+     "draw": 27.4,
+     "away": 38.2
+    },
+    {
+     "t": "2026-10-21T07:27:00+00:00",
+     "home": 34.4,
+     "draw": 27.4,
+     "away": 38.2
+    }
+   ],
+   "goals": {
+    "expected": 2.57,
+    "first": 2.61
    },
    "absences": {
     "home": 0,
@@ -1088,16 +1166,6 @@
  ],
  "competitions": [
   {
-   "id": 2,
-   "key": "ucl",
-   "name": "Champions League",
-   "cup": true,
-   "roundup": null,
-   "matches": 7,
-   "first": "2026-10-21T19:00:00+00:00",
-   "last": "2026-10-21T19:00:00+00:00"
-  },
-  {
    "id": 3,
    "key": "uel",
    "name": "Europa League",
@@ -1220,216 +1288,6 @@
  ],
  "week": [
   {
-   "id": 1635621,
-   "slug": "2026-10-21-aston-villa-viking",
-   "league": "Champions League",
-   "kickoff": "2026-10-21T19:00:00+00:00",
-   "home": "Aston Villa",
-   "away": "Viking",
-   "fair": {
-    "home": 76.8,
-    "draw": 14.5,
-    "away": 8.7
-   },
-   "move": {
-    "home": -1.5,
-    "draw": 0.6,
-    "away": 0.9
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 3.64,
-    "first": 3.81
-   },
-   "absences": {
-    "home": 9,
-    "away": 8
-   },
-   "read": null,
-   "headline": null,
-   "competition": "ucl"
-  },
-  {
-   "id": 1635630,
-   "slug": "2026-10-21-bayern-m-nchen-arsenal",
-   "league": "Champions League",
-   "kickoff": "2026-10-21T19:00:00+00:00",
-   "home": "Bayern München",
-   "away": "Arsenal",
-   "fair": {
-    "home": 45.8,
-    "draw": 24.7,
-    "away": 29.5
-   },
-   "move": {
-    "home": -0.4,
-    "draw": 0.1,
-    "away": 0.3
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 3.05,
-    "first": 2.93
-   },
-   "absences": {
-    "home": 4,
-    "away": 3
-   },
-   "read": null,
-   "headline": null,
-   "competition": "ucl"
-  },
-  {
-   "id": 1635636,
-   "slug": "2026-10-21-real-betis-feyenoord",
-   "league": "Champions League",
-   "kickoff": "2026-10-21T19:00:00+00:00",
-   "home": "Real Betis",
-   "away": "Feyenoord",
-   "fair": {
-    "home": 57.4,
-    "draw": 21.2,
-    "away": 21.4
-   },
-   "move": {
-    "home": -4.7,
-    "draw": 1.4,
-    "away": 3.3
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 3.45,
-    "first": 3.47
-   },
-   "absences": {
-    "home": 4,
-    "away": 7
-   },
-   "read": null,
-   "headline": null,
-   "competition": "ucl"
-  },
-  {
-   "id": 1635645,
-   "slug": "2026-10-21-club-brugge-kv-lens",
-   "league": "Champions League",
-   "kickoff": "2026-10-21T19:00:00+00:00",
-   "home": "Club Brugge KV",
-   "away": "Lens",
-   "fair": {
-    "home": 50.6,
-    "draw": 22.8,
-    "away": 26.6
-   },
-   "move": {
-    "home": 3.0,
-    "draw": -0.5,
-    "away": -2.5
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 3.56,
-    "first": 3.28
-   },
-   "absences": {
-    "home": 1,
-    "away": 6
-   },
-   "read": null,
-   "headline": null,
-   "competition": "ucl"
-  },
-  {
-   "id": 1635672,
-   "slug": "2026-10-21-inter-shakhtar-donetsk",
-   "league": "Champions League",
-   "kickoff": "2026-10-21T19:00:00+00:00",
-   "home": "Inter",
-   "away": "Shakhtar Donetsk",
-   "fair": {
-    "home": 79.7,
-    "draw": 12.5,
-    "away": 7.8
-   },
-   "move": {
-    "home": -0.3,
-    "draw": 0.4,
-    "away": -0.0
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 3.75,
-    "first": 3.85
-   },
-   "absences": {
-    "home": 4,
-    "away": 10
-   },
-   "read": null,
-   "headline": null,
-   "competition": "ucl"
-  },
-  {
-   "id": 1635716,
-   "slug": "2026-10-21-real-madrid-rb-leipzig",
-   "league": "Champions League",
-   "kickoff": "2026-10-21T19:00:00+00:00",
-   "home": "Real Madrid",
-   "away": "RB Leipzig",
-   "fair": {
-    "home": 78.0,
-    "draw": 13.0,
-    "away": 9.0
-   },
-   "move": {
-    "home": 1.3,
-    "draw": -0.3,
-    "away": -1.0
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 4.23,
-    "first": 4.12
-   },
-   "absences": {
-    "home": 3,
-    "away": 4
-   },
-   "read": null,
-   "headline": null,
-   "competition": "ucl"
-  },
-  {
-   "id": 1635737,
-   "slug": "2026-10-21-sporting-cp-lask-linz",
-   "league": "Champions League",
-   "kickoff": "2026-10-21T19:00:00+00:00",
-   "home": "Sporting CP",
-   "away": "Lask Linz",
-   "fair": {
-    "home": 77.7,
-    "draw": 13.5,
-    "away": 8.8
-   },
-   "move": {
-    "home": -2.1,
-    "draw": 1.5,
-    "away": 0.6
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 3.5,
-    "first": 3.7
-   },
-   "absences": {
-    "home": 3,
-    "away": 5
-   },
-   "read": null,
-   "headline": null,
-   "competition": "ucl"
-  },
-  {
    "id": 1636215,
    "slug": "2026-10-22-ararat-armenia-az-alkmaar",
    "league": "Europa League",
@@ -1546,7 +1404,7 @@
     "away": 1
    },
    "read": "2026-10-22-juventus-rennes",
-   "headline": "Juventus after the 0-3: still clear favourites against Rennes",
+   "headline": "Juventus lost 0-3, and the market still makes them favourites",
    "competition": "uel"
   },
   {
@@ -2386,7 +2244,7 @@
     "away": 0
    },
    "read": "2026-10-24-aston-villa-manchester-city",
-   "headline": "Villa's recent record meets City's perfect season",
+   "headline": "City lead the league, but Villa Park has been awkward",
    "competition": "39"
   },
   {
@@ -3196,7 +3054,7 @@
     "away": 1
    },
    "read": "2026-10-24-napoli-as-roma",
-   "headline": "Napoli under pressure host Roma, the market's narrow favourites",
+   "headline": "Napoli 'too fragile' as unbeaten Roma come to Naples",
    "competition": "135"
   },
   {
@@ -3256,7 +3114,7 @@
     "away": 0
    },
    "read": "2026-10-24-chelsea-tottenham",
-   "headline": "Chelsea v Tottenham: the derby favours the home side",
+   "headline": "Maddison and Kulusevski back for Spurs, but Chelsea stay clear favourites",
    "competition": "39"
   },
   {
@@ -4606,7 +4464,7 @@
     "away": 0
    },
    "read": "2026-10-25-barcelona-real-madrid",
-   "headline": "Barcelona hurt in Paris but still clear Clasico favourites",
+   "headline": "Barcelona's perfect league start meets Madrid's Vinicius question",
    "competition": "140"
   },
   {
@@ -5067,44 +4925,44 @@
    "home": "Aston Villa",
    "away": "Manchester City",
    "kickoff": "2026-10-24T11:30:00+00:00",
-   "headline": "Villa's recent record meets City's perfect season",
-   "summary": "Aston Villa have won 3 of the last 4 meetings with Manchester City, and on Saturday the Premier League leaders come to Villa Park. Villa arrive unbeaten, but Aaron Wan-Bissaka is out for 3 weeks with a hamstring injury — exactly where City's wide attackers work. City have scored 18 goals in their last five games, and Enzo Maresca says Erling Haaland is fine to start. City are 55.7% favourites, more than twice Villa's chance, and the handicap rates them 0.75 goals the better side. The goals line has risen from 3.01 to 3.09.",
-   "read": "Manchester City arrive at Villa Park top of the league and 55.7% favourites, rated about three-quarters of a goal the better side, with the market expecting roughly three goals. But Villa are unbeaten in five and have won three of the last four meetings, so the hosts have recent proof they can live with City.",
+   "headline": "City lead the league, but Villa Park has been awkward",
+   "summary": "Manchester City arrive at Villa Park top of the Premier League with 21 points from seven games. Villa are unbeaten in five and beat Fenerbahçe 6-0 last week; they have also won three of the last four meetings with City. The injuries hurt: The Athletic reports Aaron Wan-Bissaka is out, and Johan Manzambi, the match-winner at Newcastle, is also missing. Even so, the market makes City 55.7% favourites, with Villa's chance at 21.6%. Villa get a head start of 0.75 goals, and the market expects 3.0 goals.",
+   "read": "City arrive with a perfect league record and the market makes them strong favourites at Villa Park, but Villa are unbeaten in five and have won three of the last four meetings between the sides. Both teams have been conceding, so the goals market points high: the line is 3.0 and both teams to score is the favoured side.",
    "facts": [
     {
-     "fact": "Manchester City are 55.7% favourites to win at Villa Park, more than twice Aston Villa's chance.",
-     "meaning": "The market makes City more likely than not to take three points off a side unbeaten in five."
+     "fact": "Manchester City are clear favourites at Villa Park at 55.7% to Villa's 21.6%.",
+     "meaning": "The market rates City well over twice as likely to win as the hosts, even away from home."
     },
     {
-     "fact": "Villa's handicap fair line is +0.75, the market rating City about three-quarters of a goal the better team.",
-     "meaning": "City are expected to win by around a goal; even with a 0.75-goal start Villa are only level in the market."
+     "fact": "City top the Premier League with 21 points from seven games, three clear of Arsenal.",
+     "meaning": "They arrive as leaders with nothing dropped in the league this season."
     },
     {
-     "fact": "The goals fair line has moved from 3.01 to 3.09 in recent days and the main total sits at 3.0, with over just favoured.",
-     "meaning": "An open game is expected — roughly three goals, leaning marginally over rather than under."
+     "fact": "Villa are unbeaten in five in all competitions, including a 6-0 Champions League win over Fenerbahçe last week.",
+     "meaning": "They come into this in form and scoring freely, not as passive hosts."
     },
     {
-     "fact": "Villa have won three of the last four meetings with City, including at the Etihad in May.",
-     "meaning": "Villa Park has been an awkward trip for City and the hosts have recent proof they can beat them."
+     "fact": "Aaron Wan-Bissaka is out for at least three weeks with a hamstring injury picked up in the win at Newcastle.",
+     "meaning": "Villa lose their right-back for the visit of City's wide forwards."
     },
     {
-     "fact": "City have scored 18 goals in their last five matches.",
-     "meaning": "Their attacking output is the reason the total line sits at three goals rather than lower."
+     "fact": "Johan Manzambi, scorer of the only goal in the 1-0 win at Newcastle, is also out injured, though Ian Maatsen has returned to training.",
+     "meaning": "Villa's match-winner from last weekend is unavailable for the biggest home game of their run."
     },
     {
-     "fact": "Villa are unbeaten in five and beat Fenerbahçe 6-0 in the Champions League a week ago.",
-     "meaning": "Villa arrive on a run rather than as a struggling host, which is why they are not bigger underdogs."
+     "fact": "Erling Haaland sat out Tuesday's 5-1 Champions League win over AEK Athens, and Enzo Maresca said he is 'okay to start on Saturday'.",
+     "meaning": "City's main scorer is available and went into this game with fresh legs."
     },
     {
-     "fact": "Enzo Maresca confirmed Erling Haaland is 'okay to start on Saturday' after leaving him as an unused substitute in Tuesday's 5-1 Champions League win.",
-     "meaning": "City travel with their first-choice striker available rather than managed."
+     "fact": "City played on Tuesday night, four days before kick-off; Villa have had seven days since Newcastle.",
+     "meaning": "Villa are the fresher side for an early kick-off, with City on their third game in a week."
     },
     {
-     "fact": "Aaron Wan-Bissaka is set to miss at least three weeks with a hamstring injury picked up at Newcastle on Saturday.",
-     "meaning": "Villa must reshuffle the right side of their defence exactly where City's wide attackers do their damage."
+     "fact": "Villa have won three of the last four meetings with City, including the most recent one at the Etihad in May.",
+     "meaning": "Villa Park and this fixture have been awkward for City, and Villa have the recent upper hand."
     }
    ],
-   "video_title": "Villa's record, City's season — and the market"
+   "video_title": "City lead the league, but Villa Park has been awkward"
   },
   {
    "slug": "2026-10-24-chelsea-tottenham",
@@ -5112,44 +4970,44 @@
    "home": "Chelsea",
    "away": "Tottenham",
    "kickoff": "2026-10-24T16:30:00+00:00",
-   "headline": "Chelsea v Tottenham: the derby favours the home side",
-   "summary": "Tottenham won their first Premier League game of the season on Monday, beating Coventry 3-1, and now go to Chelsea. Chelsea are 4th with 13 points and won 2-0 at Everton on Friday; their chance has risen from 52.5% to 54.9%, while Tottenham are given 22.5%. Maddison and Kulusevski are back for Spurs, according to Yahoo Sports, but their injury list is still long. Chelsea have had 7 days' rest to Tottenham's 5, and are rated 0.75 of a goal the better side. The total line is 3.0 goals, the over at 51.2%.",
-   "read": "Chelsea are 54.9% favourites for the London derby, with the market strengthening them in recent days as Tottenham sit 16th. Spurs have Maddison and Kulusevski back after Monday's first league win, but they arrive with two fewer days' rest and a long injury list, and the total line sits at three goals.",
+   "headline": "Maddison and Kulusevski back for Spurs, but Chelsea stay clear favourites",
+   "summary": "Tottenham won their first league game of the season on Monday, 3-1 against Coventry, and James Maddison and Dejan Kulusevski are back from injury, according to Yahoo Sports. Even so, Spurs created few clear chances in that win: 0.9 expected goals. Sports Mole lists Pedro Porro among their injury doubts. Chelsea beat Everton 2-0, and their chance on the market average has risen from 52.5% to 54.9%. Tottenham are on 22.5%, less than half, and the handicap gives them a head start of 0.75 goals.",
+   "read": "Chelsea are clear favourites at 54.9% for the London derby, with the price on the home side shortening in recent days after a 2-0 win at Everton. Tottenham arrive off their first league win of the season and with Maddison and Kulusevski back, but the market still makes Chelsea roughly three-quarters of a goal the better team and expects an open game at three goals.",
    "facts": [
     {
-     "fact": "Chelsea are 54.9% favourites to win the London derby — more than twice Tottenham's chance.",
-     "meaning": "The market makes Chelsea clear favourites at Stamford Bridge, though not overwhelming ones."
+     "fact": "Chelsea are clear favourites for the derby at 54.9% fair probability, more than double Tottenham's 22.5%.",
+     "meaning": "The market makes Chelsea the likely winner, but a Spurs result is far from written off."
     },
     {
-     "fact": "Chelsea are 4th with 13 points from seven games; Tottenham are 16th with six.",
-     "meaning": "A top-four side against one in the bottom half — the gap is the backdrop to the whole derby."
+     "fact": "Chelsea won 2-0 away at Everton in their most recent Premier League match.",
+     "meaning": "They arrive on a win and a clean sheet, with a full week between games."
     },
     {
-     "fact": "Chelsea won 2-0 away at Everton on Friday, their third win in five in all competitions.",
-     "meaning": "They arrive on a good run and with a clean sheet behind them."
+     "fact": "Tottenham beat Coventry City 3-1 for their first Premier League win of the season, with James Maddison, Omar Marmoush and Ben Davies scoring.",
+     "meaning": "Spurs go into the derby off a win rather than a slump, however late it arrived."
     },
     {
-     "fact": "Tottenham beat Coventry 3-1 on Monday for their first Premier League win of the season.",
-     "meaning": "De Zerbi's side travel in better mood, but it was their first win in seven league games."
+     "fact": "James Maddison and Dejan Kulusevski both returned from injury and featured in Tottenham's 3-1 win over Coventry.",
+     "meaning": "Tottenham's creative pair are available for the derby rather than watching it."
     },
     {
-     "fact": "James Maddison and Dejan Kulusevski both returned from injury for Tottenham on Monday — two of their main creators back for the derby.",
-     "meaning": "Spurs have more creativity available than they have had for weeks."
+     "fact": "Tottenham's injury and suspension list ahead of the Chelsea match is reported to include Pedro Porro, Savio and Lucas Bergvall.",
+     "meaning": "Spurs are still without three squad players for a trip to Stamford Bridge."
     },
     {
-     "fact": "Tottenham's injury and suspension list for the derby is reported to include Pedro Porro, Savio and Lucas Bergvall.",
-     "meaning": "De Zerbi's squad is still stretched despite the returning pair."
+     "fact": "Chelsea's win probability has shortened from 52.5% to 54.9% in recent days.",
+     "meaning": "The home side has got stronger in the market, not weaker, as kick-off approaches."
     },
     {
-     "fact": "The main total line is 3.0 goals, with the over at 51.2% — the market leans, narrowly, to a high-scoring derby.",
-     "meaning": "Three goals is the expected level; the market sees the game as slightly more likely to go above it than below."
+     "fact": "The goal line sits at 3.0 with Over priced at 51.2%.",
+     "meaning": "The market sees an open derby — three goals is roughly the coin-flip total."
     },
     {
-     "fact": "Chelsea have had seven days since Everton; Tottenham five since Monday's win.",
-     "meaning": "Spurs arrive with two fewer days' recovery before a 16:30 kick-off."
+     "fact": "Tottenham created only 0.9 xG in their win over Coventry last weekend.",
+     "meaning": "The 3-1 scoreline was worth more than the chances; Spurs were efficient rather than dominant."
     }
    ],
-   "video_title": "Chelsea v Tottenham: the derby after Spurs' first win"
+   "video_title": "Spurs get their creators back — Chelsea still favourites"
   },
   {
    "slug": "2026-10-25-barcelona-real-madrid",
@@ -5157,44 +5015,44 @@
    "home": "Barcelona",
    "away": "Real Madrid",
    "kickoff": "2026-10-25T20:00:00+00:00",
-   "headline": "Barcelona hurt in Paris but still clear Clasico favourites",
-   "summary": "Barcelona lead La Liga with 27 points from nine games, six clear of Real Madrid, and Sunday brings the Clasico at Camp Nou. But their 11-match winning run ended on Tuesday: PSG beat them 4-2. Mundo Deportivo report Jules Kounde's ankle is unlikely to be fit, and Dani Olmo went off injured in the first half in Paris. Vinicius Jr is reported to face a three-game ban, with Madrid trying to have it reduced. Margin removed, Barcelona are 59.4% favourites, more than twice Madrid's 24.1% — up from 19.8%. Over 4.25 goals is rated 48.4%, just under half.",
-   "read": "Barcelona lead La Liga by six points and are rated 59.4% to beat Real Madrid at Camp Nou, but they arrive off their first defeat of the season at PSG with injury questions over Kounde and Olmo. Madrid's chance has climbed to 24.1% and the market expects an open game, with the 50/50 goal total above four.",
+   "headline": "Barcelona's perfect league start meets Madrid's Vinicius question",
+   "summary": "Barcelona have won all 9 La Liga games and lead Real Madrid by 6 points before Sunday's Clasico at Camp Nou. Tuesday's 2-4 defeat in Paris ended an 11-game winning run, and Mundo Deportivo reports Jules Kounde is doubtful with a serious ankle sprain. SI reports Vinicius is set to miss the Clasico through suspension, so Madrid may travel without their main threat on the left. The market still makes Barcelona 59.4% favourites, more than double Madrid's chance, though Madrid's chance has risen from 19.8% to 24.1% in recent days. The goal line has also moved up to 4.18, pointing to an open game.",
+   "read": "The market expects a high-scoring Clasico — the goal line is up at 4.18, with both teams' recent games full of goals.",
    "facts": [
     {
-     "fact": "Barcelona top La Liga with 27 points from nine games, six clear of Real Madrid in third on 21.",
-     "meaning": "Sunday is a real six-pointer: a Barcelona win would put them nine points clear of their biggest rival."
+     "fact": "Barcelona have won all nine of their La Liga matches this season and lead Real Madrid by six points.",
+     "meaning": "A win at Camp Nou puts Barcelona nine clear; a Madrid win cuts the gap to three."
     },
     {
-     "fact": "Barcelona are rated 59.4% to win the Clasico at Camp Nou, more than twice Real Madrid's 24.1%.",
-     "meaning": "More likely than not a Barcelona win; Madrid's chance is roughly one in four."
+     "fact": "Barcelona's 11-game winning run ended with a 4-2 Champions League defeat at PSG on Tuesday, their first loss of the season.",
+     "meaning": "It came five days before the Clasico, and Barcelona had to chase the game from early on."
     },
     {
-     "fact": "Barcelona's 11-match winning run ended on Tuesday with a 4-2 Champions League defeat at PSG.",
-     "meaning": "Their first loss of the season came five days before the Clasico, and PSG carved out 3.74 xG against them."
+     "fact": "Vinicius Jr is currently set to miss El Clasico and two more league games through suspension, with Real Madrid trying to have the ban reduced.",
+     "meaning": "Madrid would travel to Camp Nou without their first-choice wide threat on the left."
     },
     {
-     "fact": "Barcelona are increasingly pessimistic that Jules Kounde will be fit for the Clasico because of a serious ankle sprain.",
-     "meaning": "He is Barcelona's first-choice right-back; losing him means reshuffling the back line against Kylian Mbappe."
+     "fact": "Barcelona are 59.4% favourites to win the Clasico.",
+     "meaning": "More than double Madrid's chance, and the market rates them about a goal the better side on the handicap."
+    },
+    {
+     "fact": "Mundo Deportivo reports Barcelona are increasingly pessimistic that Jules Kounde will be fit for Sunday because of a serious ankle sprain.",
+     "meaning": "Barcelona's back line could go into a Clasico against Mbappe without its regular right-sided defender."
     },
     {
      "fact": "Dani Olmo was forced off injured in the first half against PSG and replaced by Fermin Lopez.",
-     "meaning": "Barcelona may go into the Clasico without their main creative midfielder, with Fermin Lopez the replacement."
+     "meaning": "Barcelona's midfield options are thinner five days out from the biggest game of their autumn."
     },
     {
-     "fact": "Vinicius Jr is set to miss El Clasico plus two more league fixtures, with Real Madrid pursuing provisional measures to have the ban reduced.",
-     "meaning": "Madrid would be without their main left-sided threat at Camp Nou, and any reduction of the ban changes the picture."
+     "fact": "Barcelona are averaging 2.72 xG per game over their last five matches, against Real Madrid's 1.82.",
+     "meaning": "Barcelona are creating roughly a goal's worth more of chances per game than Madrid are."
     },
     {
-     "fact": "Real Madrid's chance of winning at Camp Nou has risen from 19.8% to 24.1% in recent days.",
-     "meaning": "Madrid remain clear underdogs, but what was roughly a one-in-five shot is now nearly one in four."
-    },
-    {
-     "fact": "Over 4.25 goals is now rated 48.4%, up from 45.2% in recent days.",
-     "meaning": "The 50/50 goal total has been pushed past four goals — the market expects an open, high-scoring Clasico."
+     "fact": "Real Madrid's chance of winning has risen from 19.8% to 24.1% in recent days.",
+     "meaning": "Madrid are now roughly a one-in-four shot at Camp Nou, up from one-in-five."
     }
    ],
-   "video_title": "Barcelona after Paris: still Clasico favourites?"
+   "video_title": "Barcelona's perfect start meets Madrid's Vinicius question"
   },
   {
    "slug": "2026-10-24-napoli-as-roma",
@@ -5202,44 +5060,44 @@
    "home": "Napoli",
    "away": "AS Roma",
    "kickoff": "2026-10-24T16:00:00+00:00",
-   "headline": "Napoli under pressure host Roma, the market's narrow favourites",
-   "summary": "Napoli's director said Max Allegri is 'absolutely not in doubt' after the president asked to be reassured, following two straight defeats. Now Roma visit, 3rd in Serie A with 17 points. Gasperini's side won 4-0 at Slovan Bratislava on Tuesday without conceding, though Italian media report Paulo Dybala is out. Napoli's midweek win still cost them 2.69 expected goals, and Scott McTominay scored 2 on his return from a heart procedure. The market, margin removed, makes Roma narrow favourites at 37.8%, and the 2.5-goal line is a coin flip at 50.9% over. It sees a level night in Naples.",
-   "read": "Napoli host Roma with Max Allegri's job being discussed in public after two straight defeats, while Roma arrive third in Serie A on the back of a 4-0 Champions League win. The market makes Roma narrow favourites at 37.8% to Napoli's 34.4%, with the handicap set level and the goal line sitting almost exactly at two and a half.",
+   "headline": "Napoli 'too fragile' as unbeaten Roma come to Naples",
+   "summary": "Napoli beat Bodo/Glimt 4-3 on Tuesday, their first Champions League win of the season, yet Max Allegri still called his side 'too fragile' — and they have conceded seven goals in their last two home European games. On Saturday they host Roma, third in Serie A and unbeaten with 17 points. The last five meetings are level: two Napoli wins, one for Roma, two draws. Italian media report Paulo Dybala is out for Roma, and that Lorenzo Pellegrini's injury complicates Gasperini's choices behind the striker. The market makes Roma narrow favourites, 37.8% to Napoli's 34.4%, with over 2.5 goals at 50.9%.",
+   "read": "Roma arrive in Naples unbeaten in Serie A and third in the table, and the market makes them narrow favourites at 37.8% against Napoli's 34.4%, with the handicap line level. Both sides won in the Champions League in midweek — Roma 4-0, Napoli 4-3 — and the total-goals line of 2.54 points to a game with goals.",
    "facts": [
     {
-     "fact": "Napoli director Giovanni Manna said coach Max Allegri is 'absolutely not in doubt', after president Aurelio De Laurentiis asked to be 'reassured' following two straight defeats.",
-     "meaning": "Napoli go into a home game against the side third in Serie A with their coach's position being debated in public."
+     "fact": "Roma are the favourites for this game at 37.8%, with Napoli on 34.4% and the draw on 27.7%.",
+     "meaning": "Even away from home, Roma are the side the market rates higher — but only narrowly, so this is close to a coin-flip between the two."
     },
     {
-     "fact": "Roma are the market's narrow favourites in Naples at 37.8% to win, against Napoli's 34.4%.",
-     "meaning": ""
+     "fact": "Roma have taken 17 points from seven Serie A games, winning five and drawing two without defeat.",
+     "meaning": "Napoli sit in mid-table, and that gap is the single biggest reason the away side is favoured at the Maradona."
     },
     {
-     "fact": "Italian media report Roma are without Paulo Dybala, with Pellegrini's injury complicating Gasperini's attacking-midfield choices.",
-     "meaning": "Roma's creative options behind the strikers are thinner than usual for the trip to Naples."
+     "fact": "Roma beat Slovan Bratislava 4-0 on Tuesday with 3.19 xG created and 0.04 xG allowed.",
+     "meaning": "They arrive with both the attack and the defence working — four different scorers and almost nothing given up."
     },
     {
-     "fact": "Roma sit third in Serie A with 17 points from seven games.",
-     "meaning": "They arrive as the higher-placed of the two and the only one of them in the top four."
+     "fact": "Napoli created 2.36 xG at Venezia on Saturday and lost 0-1.",
+     "meaning": "Napoli are making chances but the results have not followed — a home game against a top-three side is exactly the sort of night where that has to turn."
     },
     {
-     "fact": "Roma beat Slovan Bratislava 4-0 on Tuesday with a 3.19 to 0.04 expected-goals advantage, a second straight win without conceding.",
-     "meaning": "Gasperini's side travel to Naples on their best run of the past month, and Gasperini rested Malen in midweek with this game in mind."
+     "fact": "Napoli beat Bodo/Glimt 4-3 on Tuesday, their first Champions League win of the season.",
+     "meaning": "Relief for Napoli, but three goals conceded at home again — they have now shipped seven in their last two home European games."
     },
     {
-     "fact": "Napoli beat Bodo/Glimt 4-3 for their first Champions League win of the season but conceded 2.69 expected goals in doing it.",
-     "meaning": "The win ended the losing run, yet the game was open at the back — the defensive softness Allegri himself flagged afterwards."
+     "fact": "Italian media report Roma are without Paulo Dybala, and that Pellegrini's injury complicates Gasperini's choices in attacking midfield.",
+     "meaning": "The visitors' creative options behind the striker are thinner than the table suggests, which matters against a Napoli side that will have the ball at home."
     },
     {
-     "fact": "The market has the 2.5-goal line as a coin flip: 50.9% over, with the fair total at 2.54 goals.",
-     "meaning": "Two or three goals is the expected night — the market does not see a rout in either direction."
+     "fact": "Napoli director Giovanni Manna said coach Max Allegri 'is absolutely not in doubt', after president Aurelio De Laurentiis wanted to be 'reassured'.",
+     "meaning": "The coach's position was being discussed publicly after two defeats — a home win here settles that conversation."
     },
     {
-     "fact": "Napoli lost 1-0 at Venezia on 17 October having created 2.36 expected goals.",
-     "meaning": "The result that fed the pressure on Allegri was not a bad performance — Napoli made the chances and did not take them."
+     "fact": "Napoli are unbeaten in the last five meetings with Roma — two wins and three draws.",
+     "meaning": "Roma have not beaten Napoli in any of those games, so the visitors' strong league start has not historically translated into this fixture."
     }
    ],
-   "video_title": "Napoli under pressure as third-placed Roma visit"
+   "video_title": "Napoli called 'too fragile' before unbeaten Roma visit"
   },
   {
    "slug": "2026-10-25-crystal-palace-newcastle",
@@ -5259,44 +5117,44 @@
    "home": "Juventus",
    "away": "Rennes",
    "kickoff": "2026-10-22T16:45:00+00:00",
-   "headline": "Juventus after the 0-3: still clear favourites against Rennes",
-   "summary": "Juventus host Rennes in the Europa League four days after a 0-3 home defeat to Lazio, a night when most of the stadium left early and Spalletti said his team lacked tempo and desire. Europe has been the opposite: Juventus top the 36-team league phase with 6 points from two games. Rennes lost 3-4 at Paris FC, and L'Équipe reports top scorer Estéban Lepaul, 7 goals this season, is doubtful with an ankle injury. The market still makes Juventus 60.7% favourites, against Rennes' 17.3%, and rates them 0.94 goals better.",
-   "read": "Juventus are clear favourites for their third Europa League game, given a 60.7% chance against Rennes' 17.3% and rated about a goal better — but they come in off a 0-3 home defeat to Lazio that emptied the stadium early and left Spalletti talking about a lack of tempo and desire. Rennes arrive with the more open recent record, having lost 3-4 at Paris FC while conceding 10 goals in five, and likely without Lepaul, who scored a penalty hat-trick in that game before going off injured.",
+   "headline": "Juventus lost 0-3, and the market still makes them favourites",
+   "summary": "Juventus lost 0-3 at home to Lazio on Sunday, days before hosting Rennes in the Europa League, and Spalletti said his team lacked tempo, ideas and running. Even in that defeat the chances were few: opponents have created just 0.69 expected goals a game across their last five. Rennes have conceded 10 goals in their last five matches. Their top scorer Lepaul, who has 7 goals this season, went off injured at Paris FC and is doubtful. So the market still makes Juventus 60.7% favourites, about 1 goal the better side, with 2.79 goals expected.",
+   "read": "Juventus come into this three days after a 0-3 home defeat by Lazio, with Spalletti talking about a squad meeting and a fanbase that left early on Saturday. The market still makes them around 60.7% favourites — rated roughly a goal better than a Rennes side that scores and concedes freely and may be without its seven-goal top scorer Lepaul.",
    "facts": [
     {
      "fact": "Juventus lost 0-3 at home to Lazio in Serie A on 18 October.",
-     "meaning": "They host Rennes four days later with the team, and the coach, under scrutiny rather than the league position."
+     "meaning": "They come into this wounded and three days after their heaviest home night of the season, with the crowd turning."
     },
     {
-     "fact": "Spalletti listed four things his side lacked after the Lazio defeat: tempo, ideas, running and the desire to work hard.",
-     "meaning": "The coach framed it as an attitude problem, which makes this a test of the squad rather than of the table."
+     "fact": "Rennes' top scorer Estéban Lepaul is doubtful for Thursday after going off injured at Paris FC, having scored seven goals in nine appearances this season.",
+     "meaning": "Rennes' main source of goals may not start, which changes how they can attack in Turin."
     },
     {
-     "fact": "Juventus are without Francisco Conceição — 9 appearances and 525 minutes this season — plus Locatelli, Yildiz, Thuram and Grabara.",
-     "meaning": "The wide and central midfield areas are where they are thinnest: Conceição and Locatelli are the two most-used absentees."
+     "fact": "Juventus are rated 60.7% to win — more than three times Rennes' chance.",
+     "meaning": "The market sees a clear home favourite despite the Lazio defeat, not a team in crisis."
     },
     {
-     "fact": "L'Équipe reports Rennes doubt Estéban Lepaul can play after he went off injured at Paris FC; he has 7 goals in 719 minutes this season.",
-     "meaning": "Rennes' main source of goals is in serious doubt, which changes what they can threaten with in Turin."
+     "fact": "The main handicap line is Juventus -1.",
+     "meaning": "The market rates Juventus about a goal the better side, so a one-goal home win would only be a push on that line."
     },
     {
-     "fact": "Rennes lost 3-4 away at Paris FC on 18 October, a match that featured four converted penalties.",
-     "meaning": "They arrive with a defence that has been opened up repeatedly — dangerous going forward, vulnerable at the back."
+     "fact": "Rennes lost 4-3 away at Paris FC on 18 October in a match that featured four converted penalties.",
+     "meaning": "They travel after a chaotic, high-scoring defeat — an open game that exposed them at the back."
     },
     {
-     "fact": "Juventus top the 36-team Europa League league phase with 6 points from two games.",
-     "meaning": "Europe has been the opposite of the domestic mood — they have won both league-phase matches, including a 5-0 home win over NEC Nijmegen."
+     "fact": "The market's 50/50 goal total sits at 2.79.",
+     "meaning": "Around three goals is the expected shape of this game — a Juventus win with Rennes contributing, rather than a cagey 1-0."
     },
     {
-     "fact": "Juventus are priced at 60.7% to win, with Rennes at 17.3%.",
-     "meaning": "More likely than not, and more than three times Rennes' chance — the market's view is that the Lazio result did not change the gap between the sides."
+     "fact": "Rennes have conceded ten goals across their last five matches.",
+     "meaning": "They arrive in Turin without anything like a settled defence, which is why the goals line is near three rather than lower."
     },
     {
-     "fact": "The market's fair handicap is Juventus -0.94, with the main line at -1.",
+     "fact": "Juventus have allowed just 0.69 xG per game across their last five matches.",
      "meaning": ""
     }
    ],
-   "video_title": "Juventus after the 0-3: still favourites in Europe?"
+   "video_title": "Juventus after the 0-3: still clear favourites"
   },
   {
    "slug": "2026-10-23-ipswich-nottingham-forest",

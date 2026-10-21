@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T18:00:53+00:00",
+ "generated_at": "2026-10-21T19:01:26+00:00",
  "shows": [
   {
    "id": "2026-10-22-juventus-rennes",
@@ -7,12 +7,12 @@
    "away": "Rennes",
    "league": "Europa League",
    "kickoff": "2026-10-22T16:45:00+00:00",
-   "title": "Juventus after the 0-3: still favourites in Europe?",
+   "title": "Juventus after the 0-3: still clear favourites",
    "source": "market_desk",
    "kicker": "MATCH PREVIEW",
    "voiced": true,
    "youtube_id": null,
-   "seconds": 43
+   "seconds": 48
   },
   {
    "id": "2026-10-24-aston-villa-manchester-city",
@@ -20,12 +20,12 @@
    "away": "Manchester City",
    "league": "Premier League",
    "kickoff": "2026-10-24T11:30:00+00:00",
-   "title": "Villa's record, City's season — and the market",
+   "title": "City lead the league, but Villa Park has been awkward",
    "source": "market_desk",
    "kicker": "MATCH PREVIEW",
    "voiced": true,
    "youtube_id": null,
-   "seconds": 43
+   "seconds": 42
   },
   {
    "id": "2026-10-24-napoli-as-roma",
@@ -33,12 +33,12 @@
    "away": "AS Roma",
    "league": "Serie A",
    "kickoff": "2026-10-24T16:00:00+00:00",
-   "title": "Napoli under pressure as third-placed Roma visit",
+   "title": "Napoli called 'too fragile' before unbeaten Roma visit",
    "source": "market_desk",
    "kicker": "MARKET READ",
    "voiced": true,
    "youtube_id": null,
-   "seconds": 43
+   "seconds": 48
   },
   {
    "id": "2026-10-24-chelsea-tottenham",
@@ -46,12 +46,12 @@
    "away": "Tottenham",
    "league": "Premier League",
    "kickoff": "2026-10-24T16:30:00+00:00",
-   "title": "Chelsea v Tottenham: the derby after Spurs' first win",
+   "title": "Spurs get their creators back — Chelsea still favourites",
    "source": "market_desk",
    "kicker": "MARKET ALERT",
    "voiced": true,
    "youtube_id": null,
-   "seconds": 47
+   "seconds": 51
   },
   {
    "id": "2026-10-25-barcelona-real-madrid",
@@ -59,12 +59,12 @@
    "away": "Real Madrid",
    "league": "La Liga",
    "kickoff": "2026-10-25T20:00:00+00:00",
-   "title": "Barcelona after Paris: still Clasico favourites?",
+   "title": "Barcelona's perfect start meets Madrid's Vinicius question",
    "source": "market_desk",
    "kicker": "EL CLÁSICO",
    "voiced": true,
    "youtube_id": null,
-   "seconds": 50
+   "seconds": 55
   }
  ]
 }

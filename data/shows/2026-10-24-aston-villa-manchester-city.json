@@ -1,6 +1,6 @@
 {
  "id": "2026-10-24-aston-villa-manchester-city",
- "title": "Villa's record, City's season — and the market",
+ "title": "City lead the league, but Villa Park has been awkward",
  "match": {
   "home": "Aston Villa",
   "away": "Manchester City",
@@ -146,7 +146,7 @@
    ]
   },
   "goals": 3.09,
-  "goals_rank": 6,
+  "goals_rank": 8,
   "tracked_since": "2026-10-18T22:49:00+00:00",
   "prices_as_of": "2026-10-21T10:21:00+00:00",
   "books": 10
@@ -155,78 +155,63 @@
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Villa have won 3 of the last 4 meetings with City.",
+   "text": "City lead the Premier League with 21 points.",
    "show": {
     "kind": "stat",
-    "label": "Villa wins, last 4",
-    "value": "3"
+    "label": "City points",
+    "value": "21"
    },
    "first": true,
    "variant": 0,
    "audio": "audio/2026-10-24-aston-villa-manchester-city/s0.mp3",
    "words": [
     {
-     "w": "Villa",
+     "w": "City",
      "start": 0.12,
-     "end": 0.44
-    },
-    {
-     "w": "have",
-     "start": 0.52,
      "end": 0.52
     },
     {
-     "w": "won",
+     "w": "lead",
      "start": 0.6,
      "end": 0.76
     },
     {
-     "w": "3",
+     "w": "the",
      "start": 0.76,
+     "end": 0.84
+    },
+    {
+     "w": "Premier",
+     "start": 0.92,
      "end": 1.24
     },
     {
-     "w": "of",
-     "start": 1.32,
-     "end": 1.32
-    },
-    {
-     "w": "the",
-     "start": 1.4,
-     "end": 1.4
-    },
-    {
-     "w": "last",
-     "start": 1.4,
-     "end": 1.8
-    },
-    {
-     "w": "4",
-     "start": 1.88,
-     "end": 2.04
-    },
-    {
-     "w": "meetings",
-     "start": 2.04,
-     "end": 2.52
+     "w": "League",
+     "start": 1.24,
+     "end": 1.56
     },
     {
      "w": "with",
-     "start": 2.6,
-     "end": 2.68
+     "start": 1.64,
+     "end": 1.8
     },
     {
-     "w": "City.",
-     "start": 2.68,
-     "end": 3.16
+     "w": "21",
+     "start": 1.8,
+     "end": 2.52
+    },
+    {
+     "w": "points.",
+     "start": 2.52,
+     "end": 3.08
     }
    ],
-   "durationInFrames": 103
+   "durationInFrames": 100
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "On Saturday the Premier League leaders come to Villa Park.",
+   "text": "On Saturday lunchtime they go to Villa Park.",
    "show": {
     "kind": "teams"
    },
@@ -242,126 +227,53 @@
     {
      "w": "Saturday",
      "start": 0.36,
-     "end": 0.84
+     "end": 0.76
     },
     {
-     "w": "the",
-     "start": 0.84,
-     "end": 1
+     "w": "lunchtime",
+     "start": 0.76,
+     "end": 1.4
     },
     {
-     "w": "Premier",
-     "start": 1.08,
-     "end": 1.32
-    },
-    {
-     "w": "League",
+     "w": "they",
      "start": 1.4,
      "end": 1.56
     },
     {
-     "w": "leaders",
-     "start": 1.56,
-     "end": 1.96
-    },
-    {
-     "w": "come",
-     "start": 2.04,
-     "end": 2.28
-    },
-    {
-     "w": "to",
-     "start": 2.28,
-     "end": 2.44
-    },
-    {
-     "w": "Villa",
-     "start": 2.52,
-     "end": 2.68
-    },
-    {
-     "w": "Park.",
-     "start": 2.68,
-     "end": 3.16
-    }
-   ],
-   "durationInFrames": 103
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "Villa arrive unbeaten, with a full week to prepare.",
-   "show": {
-    "kind": "form",
-    "team": "home",
-    "results": "WWDWW"
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-24-aston-villa-manchester-city/s2.mp3",
-   "words": [
-    {
-     "w": "Villa",
-     "start": 0.12,
-     "end": 0.44
-    },
-    {
-     "w": "arrive",
-     "start": 0.52,
-     "end": 0.84
-    },
-    {
-     "w": "unbeaten,",
-     "start": 0.84,
-     "end": 1.4
-    },
-    {
-     "w": "with",
-     "start": 1.639,
+     "w": "go",
+     "start": 1.64,
      "end": 1.72
     },
     {
-     "w": "a",
-     "start": 1.72,
+     "w": "to",
+     "start": 1.8,
      "end": 1.8
     },
     {
-     "w": "full",
+     "w": "Villa",
      "start": 1.88,
      "end": 2.12
     },
     {
-     "w": "week",
-     "start": 2.2,
-     "end": 2.44
-    },
-    {
-     "w": "to",
-     "start": 2.44,
-     "end": 2.52
-    },
-    {
-     "w": "prepare.",
-     "start": 2.6,
-     "end": 3.08
+     "w": "Park.",
+     "start": 2.12,
+     "end": 2.68
     }
    ],
-   "durationInFrames": 100
+   "durationInFrames": 88
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "But Wan-Bissaka is out for 3 weeks with a hamstring injury.",
+   "text": "But Villa have won 3 of the last 4 meetings.",
    "show": {
-    "kind": "absence",
-    "team": "home",
-    "player": "Aaron Wan-Bissaka",
-    "status": "out",
-    "line": "3 weeks out"
+    "kind": "stat",
+    "label": "Villa wins, last 4",
+    "value": "3"
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-aston-villa-manchester-city/s3.mp3",
+   "audio": "audio/2026-10-24-aston-villa-manchester-city/s2.mp3",
    "words": [
     {
      "w": "But",
@@ -369,53 +281,390 @@
      "end": 0.28
     },
     {
-     "w": "Wan-Bissaka",
-     "start": 0.36,
-     "end": 0.92
+     "w": "Villa",
+     "start": 0.28,
+     "end": 0.6
     },
     {
-     "w": "is",
-     "start": 0.92,
+     "w": "have",
+     "start": 0.68,
+     "end": 0.76
+    },
+    {
+     "w": "won",
+     "start": 0.76,
      "end": 1
     },
     {
-     "w": "out",
-     "start": 1.08,
-     "end": 1.24
-    },
-    {
-     "w": "for",
-     "start": 1.32,
-     "end": 1.32
-    },
-    {
      "w": "3",
+     "start": 1.08,
+     "end": 1.4
+    },
+    {
+     "w": "of",
      "start": 1.4,
-     "end": 1.72
+     "end": 1.48
     },
     {
-     "w": "weeks",
-     "start": 1.72,
-     "end": 2.12
+     "w": "the",
+     "start": 1.56,
+     "end": 1.56
     },
     {
-     "w": "with",
-     "start": 2.2,
+     "w": "last",
+     "start": 1.64,
+     "end": 1.96
+    },
+    {
+     "w": "4",
+     "start": 1.96,
      "end": 2.28
     },
     {
-     "w": "a",
-     "start": 2.36,
-     "end": 2.36
+     "w": "meetings.",
+     "start": 2.28,
+     "end": 3
+    }
+   ],
+   "durationInFrames": 98
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "And last week they beat Fenerbahçe 6-0.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Fenerbahçe",
+    "score": "6-0",
+    "when": "last week"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-aston-villa-manchester-city/s3.mp3",
+   "words": [
+    {
+     "w": "And",
+     "start": 0.12,
+     "end": 0.28
     },
     {
-     "w": "hamstring",
-     "start": 2.36,
+     "w": "last",
+     "start": 0.28,
+     "end": 0.6
+    },
+    {
+     "w": "week",
+     "start": 0.68,
+     "end": 0.92
+    },
+    {
+     "w": "they",
+     "start": 1.0,
+     "end": 1.08
+    },
+    {
+     "w": "beat",
+     "start": 1.08,
+     "end": 1.32
+    },
+    {
+     "w": "Fenerbahçe",
+     "start": 1.4,
+     "end": 1.96
+    },
+    {
+     "w": "6-0.",
+     "start": 1.96,
+     "end": 2.76
+    }
+   ],
+   "durationInFrames": 91
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The Athletic reports Wan-Bissaka is out, and Manzambi too.",
+   "show": {
+    "kind": "news",
+    "source": "The Athletic",
+    "text": "Wan-Bissaka out, Manzambi also missing"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-aston-villa-manchester-city/s4.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.12,
+     "end": 0.2
+    },
+    {
+     "w": "Athletic",
+     "start": 0.28,
+     "end": 0.68
+    },
+    {
+     "w": "reports",
+     "start": 0.68,
+     "end": 1.16
+    },
+    {
+     "w": "Wan-Bissaka",
+     "start": 1.16,
+     "end": 1.8
+    },
+    {
+     "w": "is",
+     "start": 1.88,
+     "end": 1.96
+    },
+    {
+     "w": "out,",
+     "start": 2.04,
+     "end": 2.44
+    },
+    {
+     "w": "and",
+     "start": 2.526,
+     "end": 2.68
+    },
+    {
+     "w": "Manzambi",
+     "start": 2.68,
+     "end": 3.4
+    },
+    {
+     "w": "too.",
+     "start": 3.48,
+     "end": 3.88
+    }
+   ],
+   "durationInFrames": 124
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Even so, the market makes City 55.7% favourites, margin removed.",
+   "show": {
+    "kind": "chance",
+    "team": "away",
+    "value": 55.7
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-aston-villa-manchester-city/s5.mp3",
+   "words": [
+    {
+     "w": "Even",
+     "start": 0.12,
+     "end": 0.44
+    },
+    {
+     "w": "so,",
+     "start": 0.52,
+     "end": 0.76
+    },
+    {
+     "w": "the",
+     "start": 1.001,
+     "end": 1.16
+    },
+    {
+     "w": "market",
+     "start": 1.24,
+     "end": 1.48
+    },
+    {
+     "w": "makes",
+     "start": 1.48,
+     "end": 1.72
+    },
+    {
+     "w": "City",
+     "start": 1.8,
+     "end": 2.12
+    },
+    {
+     "w": "55.7%",
+     "start": 2.12,
+     "end": 4.04
+    },
+    {
+     "w": "favourites,",
+     "start": 4.04,
+     "end": 4.76
+    },
+    {
+     "w": "margin",
+     "start": 4.841,
+     "end": 5.32
+    },
+    {
+     "w": "removed.",
+     "start": 5.4,
+     "end": 5.88
+    }
+   ],
+   "durationInFrames": 184
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "That is more than twice Villa's 21.6%.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 21.6
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-aston-villa-manchester-city/s6.mp3",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "is",
+     "start": 0.36,
+     "end": 0.44
+    },
+    {
+     "w": "more",
+     "start": 0.52,
+     "end": 0.6
+    },
+    {
+     "w": "than",
+     "start": 0.68,
+     "end": 0.76
+    },
+    {
+     "w": "twice",
+     "start": 0.76,
+     "end": 1.4
+    },
+    {
+     "w": "Villa's",
+     "start": 1.419,
+     "end": 1.8
+    },
+    {
+     "w": "21.6%.",
+     "start": 1.88,
+     "end": 3.48
+    }
+   ],
+   "durationInFrames": 112
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Villa get a head start of 0.75 goals.",
+   "show": {
+    "kind": "stat",
+    "label": "Villa head start (goals)",
+    "value": "0.75"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-aston-villa-manchester-city/s7.mp3",
+   "words": [
+    {
+     "w": "Villa",
+     "start": 0.12,
+     "end": 0.44
+    },
+    {
+     "w": "get",
+     "start": 0.52,
+     "end": 0.52
+    },
+    {
+     "w": "a",
+     "start": 0.6,
+     "end": 0.6
+    },
+    {
+     "w": "head",
+     "start": 0.6,
+     "end": 0.84
+    },
+    {
+     "w": "start",
+     "start": 0.84,
+     "end": 1.16
+    },
+    {
+     "w": "of",
+     "start": 1.24,
+     "end": 1.32
+    },
+    {
+     "w": "0.75",
+     "start": 1.32,
+     "end": 2.68
+    },
+    {
+     "w": "goals.",
+     "start": 2.702,
+     "end": 3.24
+    }
+   ],
+   "durationInFrames": 105
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects 3.0 goals at Villa Park.",
+   "show": {
+    "kind": "goals",
+    "value": 3.0
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-aston-villa-manchester-city/s8.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "market",
+     "start": 0.36,
+     "end": 0.6
+    },
+    {
+     "w": "expects",
+     "start": 0.6,
+     "end": 1.08
+    },
+    {
+     "w": "3.0",
+     "start": 1.16,
+     "end": 2.04
+    },
+    {
+     "w": "goals",
+     "start": 2.12,
+     "end": 2.44
+    },
+    {
+     "w": "at",
+     "start": 2.44,
+     "end": 2.6
+    },
+    {
+     "w": "Villa",
+     "start": 2.68,
      "end": 2.84
     },
     {
-     "w": "injury.",
-     "start": 2.84,
+     "w": "Park.",
+     "start": 2.92,
      "end": 3.32
     }
    ],
@@ -424,132 +673,18 @@
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "City have scored 18 goals in their last five matches.",
+   "text": "City are the favourites, but this ground stays close.",
    "show": {
-    "kind": "stat",
-    "label": "City goals, last 5",
-    "value": "18"
+    "kind": "verdict",
+    "points": [
+     "City are the favourites",
+     "Villa Park stays close",
+     "the goals line is high"
+    ]
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-aston-villa-manchester-city/s4.mp3",
-   "words": [
-    {
-     "w": "City",
-     "start": 0.12,
-     "end": 0.44
-    },
-    {
-     "w": "have",
-     "start": 0.52,
-     "end": 0.6
-    },
-    {
-     "w": "scored",
-     "start": 0.68,
-     "end": 0.92
-    },
-    {
-     "w": "18",
-     "start": 0.929,
-     "end": 1.48
-    },
-    {
-     "w": "goals",
-     "start": 1.48,
-     "end": 1.88
-    },
-    {
-     "w": "in",
-     "start": 1.96,
-     "end": 1.96
-    },
-    {
-     "w": "their",
-     "start": 1.96,
-     "end": 2.12
-    },
-    {
-     "w": "last",
-     "start": 2.2,
-     "end": 2.44
-    },
-    {
-     "w": "five",
-     "start": 2.44,
-     "end": 2.84
-    },
-    {
-     "w": "matches.",
-     "start": 2.92,
-     "end": 3.4
-    }
-   ],
-   "durationInFrames": 110
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "Haaland is okay to start, Maresca said.",
-   "show": {
-    "kind": "news",
-    "source": "Manchester Evening News",
-    "text": "Haaland okay to start at Villa"
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-24-aston-villa-manchester-city/s5.mp3",
-   "words": [
-    {
-     "w": "Haaland",
-     "start": 0.12,
-     "end": 0.52
-    },
-    {
-     "w": "is",
-     "start": 0.6,
-     "end": 0.6
-    },
-    {
-     "w": "okay",
-     "start": 0.6,
-     "end": 0.92
-    },
-    {
-     "w": "to",
-     "start": 1,
-     "end": 1.08
-    },
-    {
-     "w": "start,",
-     "start": 1.08,
-     "end": 1.64
-    },
-    {
-     "w": "Maresca",
-     "start": 1.801,
-     "end": 2.28
-    },
-    {
-     "w": "said.",
-     "start": 2.36,
-     "end": 2.6
-    }
-   ],
-   "durationInFrames": 86
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "City are 55.7% favourites — more than twice Villa's chance.",
-   "show": {
-    "kind": "chance",
-    "team": "away",
-    "value": 55.7
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-24-aston-villa-manchester-city/s6.mp3",
+   "audio": "audio/2026-10-24-aston-villa-manchester-city/s9.mp3",
    "words": [
     {
      "w": "City",
@@ -562,244 +697,42 @@
      "end": 0.6
     },
     {
-     "w": "55.7%",
-     "start": 0.6,
-     "end": 1.4
-    },
-    {
-     "w": "favourites",
-     "start": 1.4,
-     "end": 2.2
-    },
-    {
-     "w": "—",
-     "start": 2.2,
-     "end": 3
-    },
-    {
-     "w": "more",
-     "start": 3.24,
-     "end": 3.32
-    },
-    {
-     "w": "than",
-     "start": 3.32,
-     "end": 3.48
-    },
-    {
-     "w": "twice",
-     "start": 3.56,
-     "end": 3.96
-    },
-    {
-     "w": "Villa's",
-     "start": 3.96,
-     "end": 4.28
-    },
-    {
-     "w": "chance.",
-     "start": 4.36,
-     "end": 4.84
-    }
-   ],
-   "durationInFrames": 153
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "The handicap rates City 0.75 goals better.",
-   "show": {
-    "kind": "stat",
-    "label": "City better by (goals)",
-    "value": "0.75"
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-24-aston-villa-manchester-city/s7.mp3",
-   "words": [
-    {
-     "w": "The",
-     "start": 0.12,
-     "end": 0.28
-    },
-    {
-     "w": "handicap",
-     "start": 0.36,
-     "end": 0.76
-    },
-    {
-     "w": "rates",
-     "start": 0.76,
-     "end": 1.08
-    },
-    {
-     "w": "City",
-     "start": 1.16,
-     "end": 1.48
-    },
-    {
-     "w": "0.75",
-     "start": 1.48,
-     "end": 2.92
-    },
-    {
-     "w": "goals",
-     "start": 3,
-     "end": 3.24
-    },
-    {
-     "w": "better.",
-     "start": 3.24,
-     "end": 3.72
-    }
-   ],
-   "durationInFrames": 120
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "The goals line rose from 3.01 to 3.09 in recent days.",
-   "show": {
-    "kind": "stat",
-    "label": "Goals line",
-    "from": "3.01",
-    "value": "3.09"
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-24-aston-villa-manchester-city/s8.mp3",
-   "words": [
-    {
-     "w": "The",
-     "start": 0.12,
-     "end": 0.28
-    },
-    {
-     "w": "goals",
-     "start": 0.36,
-     "end": 0.52
-    },
-    {
-     "w": "line",
-     "start": 0.6,
-     "end": 0.84
-    },
-    {
-     "w": "rose",
-     "start": 0.84,
-     "end": 1.24
-    },
-    {
-     "w": "from",
-     "start": 1.32,
-     "end": 1.48
-    },
-    {
-     "w": "3.01",
-     "start": 1.48,
-     "end": 2.68
-    },
-    {
-     "w": "to",
-     "start": 2.761,
-     "end": 2.84
-    },
-    {
-     "w": "3.09",
-     "start": 2.92,
-     "end": 4.04
-    },
-    {
-     "w": "in",
-     "start": 4.12,
-     "end": 4.12
-    },
-    {
-     "w": "recent",
-     "start": 4.12,
-     "end": 4.52
-    },
-    {
-     "w": "days.",
-     "start": 4.6,
-     "end": 4.92
-    }
-   ],
-   "durationInFrames": 156
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "Villa have the record; City have the season and the favouritism.",
-   "show": {
-    "kind": "verdict",
-    "points": [
-     "Villa own recent record",
-     "City own the season",
-     "City are the favourites"
-    ]
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-24-aston-villa-manchester-city/s9.mp3",
-   "words": [
-    {
-     "w": "Villa",
-     "start": 0.12,
-     "end": 0.44
-    },
-    {
-     "w": "have",
-     "start": 0.52,
-     "end": 0.52
-    },
-    {
      "w": "the",
-     "start": 0.6,
+     "start": 0.68,
      "end": 0.68
     },
     {
-     "w": "record;",
+     "w": "favourites,",
      "start": 0.68,
-     "end": 1.16
+     "end": 1.48
     },
     {
-     "w": "City",
-     "start": 1.319,
+     "w": "but",
+     "start": 1.65,
      "end": 1.72
     },
     {
-     "w": "have",
-     "start": 1.8,
-     "end": 1.88
-    },
-    {
-     "w": "the",
-     "start": 1.96,
+     "w": "this",
+     "start": 1.72,
      "end": 1.96
     },
     {
-     "w": "season",
-     "start": 1.96,
-     "end": 2.6
+     "w": "ground",
+     "start": 2.04,
+     "end": 2.28
     },
     {
-     "w": "and",
-     "start": 2.68,
-     "end": 2.84
+     "w": "stays",
+     "start": 2.28,
+     "end": 2.68
     },
     {
-     "w": "the",
-     "start": 2.92,
-     "end": 2.92
-    },
-    {
-     "w": "favouritism.",
-     "start": 2.92,
-     "end": 3.72
+     "w": "close.",
+     "start": 2.76,
+     "end": 3.16
     }
    ],
-   "durationInFrames": 127
+   "durationInFrames": 110
   },
   {
    "type": "end",

@@ -16,6 +16,78 @@
   "AH fair line 0.04 → 0.16 goals: same move, half a quarter-line",
   "Flat goals: Over 3.0 48.1%, fair total 2.92, BTTS 61.6%"
  ],
- "market": null,
+ "market": {
+  "id": 1557441,
+  "slug": "2026-10-25-crystal-palace-newcastle",
+  "league": "Premier League",
+  "kickoff": "2026-10-25T14:00:00+00:00",
+  "home": "Crystal Palace",
+  "away": "Newcastle",
+  "fair": {
+   "home": 32.7,
+   "draw": 26.5,
+   "away": 40.8
+  },
+  "move": {
+   "home": -3.1,
+   "draw": -0.2,
+   "away": 3.3
+  },
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "home": 35.8,
+    "draw": 26.7,
+    "away": 37.5
+   },
+   {
+    "t": "2026-10-18T23:16:00+00:00",
+    "home": 32.8,
+    "draw": 26.8,
+    "away": 40.4
+   },
+   {
+    "t": "2026-10-19T02:31:00+00:00",
+    "home": 32.8,
+    "draw": 26.8,
+    "away": 40.4
+   },
+   {
+    "t": "2026-10-19T11:20:00+00:00",
+    "home": 32.7,
+    "draw": 26.7,
+    "away": 40.6
+   },
+   {
+    "t": "2026-10-19T17:18:00+00:00",
+    "home": 32.7,
+    "draw": 26.6,
+    "away": 40.7
+   },
+   {
+    "t": "2026-10-20T05:21:00+00:00",
+    "home": 32.7,
+    "draw": 26.6,
+    "away": 40.7
+   },
+   {
+    "t": "2026-10-21T05:21:00+00:00",
+    "home": 32.7,
+    "draw": 26.5,
+    "away": 40.8
+   }
+  ],
+  "goals": {
+   "expected": 2.93,
+   "first": 2.92
+  },
+  "absences": {
+   "home": 0,
+   "away": 0
+  },
+  "read": "2026-10-25-crystal-palace-newcastle",
+  "headline": "Newcastle repriced to 40.4%; goals markets unmoved"
+ },
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }
