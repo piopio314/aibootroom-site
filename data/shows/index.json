@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T22:28:02+00:00",
+ "generated_at": "2026-10-21T22:30:48+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -923,6 +923,20 @@
    "voiced": true,
    "youtube_id": null,
    "article": "/m/2026-10-25-club-brugge-kv-st-truiden.html",
+   "seconds": 46
+  },
+  {
+   "id": "2026-10-25-celta-vigo-real-betis",
+   "home": "Celta Vigo",
+   "away": "Real Betis",
+   "league": "La Liga",
+   "kickoff": "2026-10-25T15:15:00+00:00",
+   "title": "Betis better — so why is the handicap level?",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": null,
    "seconds": 46
   },
   {

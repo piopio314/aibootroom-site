@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-21T22:27:00+00:00",
- "prices_as_of": "2026-10-21T21:18:00+00:00",
+ "generated_at": "2026-10-21T22:30:00+00:00",
+ "prices_as_of": "2026-10-21T22:19:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
   "matches": 468,
-  "price_changes": 176956,
+  "price_changes": 177062,
   "leagues": 23,
   "absences": 585,
   "tracking_since": "2026-10-18T22:49:00+00:00"
@@ -3995,8 +3995,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-25-estoril-moreirense",
+   "headline": "Winless Estoril are still the favourites at home",
    "competition": "94"
   },
   {
@@ -4025,8 +4025,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-25-sparta-rotterdam-ajax",
+   "headline": "Sparta have conceded 15 in five — Ajax visit on Sunday",
    "competition": "88"
   },
   {
@@ -4055,8 +4055,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-25-g-ztepe-orum-fk",
+   "headline": "Göztepe back at the Gürsel Aksel, still chasing a home win",
    "competition": "203"
   },
   {
