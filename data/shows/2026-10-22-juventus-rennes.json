@@ -1,6 +1,6 @@
 {
  "id": "2026-10-22-juventus-rennes",
- "title": "Juventus after the 0-3: still clear favourites",
+ "title": "Juventus after the 0-3: still favourites in Europe?",
  "match": {
   "home": "Juventus",
   "away": "Rennes",
@@ -138,7 +138,7 @@
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "On Thursday they host Rennes in the Europa League.",
+   "text": "They meet Rennes in the Europa League on Thursday night.",
    "show": {
     "kind": "teams"
    },
@@ -147,126 +147,71 @@
    "audio": "audio/2026-10-22-juventus-rennes/s1.mp3",
    "words": [
     {
-     "w": "On",
+     "w": "They",
      "start": 0.25,
-     "end": 0.45
+     "end": 0.375
     },
     {
-     "w": "Thursday",
-     "start": 0.45,
-     "end": 0.975
-    },
-    {
-     "w": "they",
-     "start": 0.975,
-     "end": 1.15
-    },
-    {
-     "w": "host",
-     "start": 1.15,
-     "end": 1.525
+     "w": "meet",
+     "start": 0.375,
+     "end": 0.6
     },
     {
      "w": "Rennes",
-     "start": 1.525,
-     "end": 1.837
+     "start": 0.6,
+     "end": 0.912
     },
     {
      "w": "in",
-     "start": 1.837,
-     "end": 1.913
+     "start": 0.912,
+     "end": 0.988
     },
     {
      "w": "the",
-     "start": 1.913,
-     "end": 2.0
+     "start": 0.988,
+     "end": 1.075
     },
     {
      "w": "Europa",
-     "start": 2.0,
-     "end": 2.425
+     "start": 1.075,
+     "end": 1.5
     },
     {
-     "w": "League.",
-     "start": 2.425,
-     "end": 3.15
+     "w": "League",
+     "start": 1.5,
+     "end": 1.875
+    },
+    {
+     "w": "on",
+     "start": 1.875,
+     "end": 2.087
+    },
+    {
+     "w": "Thursday",
+     "start": 2.087,
+     "end": 2.6
+    },
+    {
+     "w": "night.",
+     "start": 2.6,
+     "end": 3.3
     }
    ],
-   "durationInFrames": 103
+   "durationInFrames": 107
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "It interrupted a run of wins and a draw.",
+   "text": "In Europe, Juventus are 1st with 6 points.",
    "show": {
-    "kind": "form",
+    "kind": "table",
     "team": "home",
-    "results": "LWDWW"
+    "rank": 1,
+    "pts": 6
    },
    "first": false,
    "variant": 0,
    "audio": "audio/2026-10-22-juventus-rennes/s2.mp3",
-   "words": [
-    {
-     "w": "It",
-     "start": 0.25,
-     "end": 0.362
-    },
-    {
-     "w": "interrupted",
-     "start": 0.362,
-     "end": 0.912
-    },
-    {
-     "w": "a",
-     "start": 0.912,
-     "end": 1.0
-    },
-    {
-     "w": "run",
-     "start": 1.0,
-     "end": 1.163
-    },
-    {
-     "w": "of",
-     "start": 1.163,
-     "end": 1.288
-    },
-    {
-     "w": "wins",
-     "start": 1.288,
-     "end": 1.788
-    },
-    {
-     "w": "and",
-     "start": 1.788,
-     "end": 1.913
-    },
-    {
-     "w": "a",
-     "start": 1.913,
-     "end": 1.975
-    },
-    {
-     "w": "draw.",
-     "start": 1.975,
-     "end": 2.725
-    }
-   ],
-   "durationInFrames": 90
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "In Europe they have won both games: 6 points.",
-   "show": {
-    "kind": "stat",
-    "label": "Europa League points",
-    "value": "6"
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-22-juventus-rennes/s3.mp3",
    "words": [
     {
      "w": "In",
@@ -274,52 +219,183 @@
      "end": 0.375
     },
     {
-     "w": "Europe",
+     "w": "Europe,",
      "start": 0.375,
-     "end": 0.675
+     "end": 0.75
     },
     {
-     "w": "they",
-     "start": 0.675,
-     "end": 0.8
-    },
-    {
-     "w": "have",
+     "w": "Juventus",
      "start": 0.8,
-     "end": 0.975
+     "end": 1.275
     },
     {
-     "w": "won",
-     "start": 0.975,
-     "end": 1.175
+     "w": "are",
+     "start": 1.275,
+     "end": 1.413
     },
     {
-     "w": "both",
-     "start": 1.175,
-     "end": 1.475
+     "w": "1st",
+     "start": 1.413,
+     "end": 1.762
     },
     {
-     "w": "games:",
-     "start": 1.475,
-     "end": 2.025
+     "w": "with",
+     "start": 1.762,
+     "end": 1.925
     },
     {
      "w": "6",
-     "start": 2.138,
-     "end": 2.4
+     "start": 1.925,
+     "end": 2.225
     },
     {
      "w": "points.",
-     "start": 2.4,
-     "end": 3.225
+     "start": 2.225,
+     "end": 3.05
     }
    ],
-   "durationInFrames": 105
+   "durationInFrames": 100
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Rennes doubt striker Estéban Lepaul, who has 7 goals this season.",
+   "text": "Conceição is out with a shoulder injury, 9 appearances this season.",
+   "show": {
+    "kind": "absence",
+    "team": "home",
+    "player": "Francisco Conceição",
+    "status": "out",
+    "line": "9 appearances this season"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-juventus-rennes/s3.mp3",
+   "words": [
+    {
+     "w": "Conceição",
+     "start": 0.25,
+     "end": 0.8
+    },
+    {
+     "w": "is",
+     "start": 0.8,
+     "end": 0.963
+    },
+    {
+     "w": "out",
+     "start": 0.963,
+     "end": 1.188
+    },
+    {
+     "w": "with",
+     "start": 1.188,
+     "end": 1.312
+    },
+    {
+     "w": "a",
+     "start": 1.312,
+     "end": 1.413
+    },
+    {
+     "w": "shoulder",
+     "start": 1.413,
+     "end": 1.825
+    },
+    {
+     "w": "injury,",
+     "start": 1.825,
+     "end": 2.475
+    },
+    {
+     "w": "9",
+     "start": 2.6,
+     "end": 2.875
+    },
+    {
+     "w": "appearances",
+     "start": 2.875,
+     "end": 3.5
+    },
+    {
+     "w": "this",
+     "start": 3.5,
+     "end": 3.675
+    },
+    {
+     "w": "season.",
+     "start": 3.675,
+     "end": 4.525
+    }
+   ],
+   "durationInFrames": 144
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Rennes lost 3-4 away at Paris FC on Sunday.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Paris FC",
+    "score": "3-4",
+    "when": "Sunday"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-juventus-rennes/s4.mp3",
+   "words": [
+    {
+     "w": "Rennes",
+     "start": 0.25,
+     "end": 0.5
+    },
+    {
+     "w": "lost",
+     "start": 0.5,
+     "end": 0.775
+    },
+    {
+     "w": "3-4",
+     "start": 0.775,
+     "end": 1.2
+    },
+    {
+     "w": "away",
+     "start": 1.2,
+     "end": 1.475
+    },
+    {
+     "w": "at",
+     "start": 1.475,
+     "end": 1.575
+    },
+    {
+     "w": "Paris",
+     "start": 1.575,
+     "end": 1.925
+    },
+    {
+     "w": "FC",
+     "start": 1.925,
+     "end": 2.337
+    },
+    {
+     "w": "on",
+     "start": 2.337,
+     "end": 2.538
+    },
+    {
+     "w": "Sunday.",
+     "start": 2.538,
+     "end": 3.45
+    }
+   ],
+   "durationInFrames": 112
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Lepaul, their top scorer with 7 goals, is doubtful.",
    "show": {
     "kind": "absence",
     "team": "away",
@@ -329,136 +405,60 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-juventus-rennes/s4.mp3",
-   "words": [
-    {
-     "w": "Rennes",
-     "start": 0.25,
-     "end": 0.525
-    },
-    {
-     "w": "doubt",
-     "start": 0.525,
-     "end": 0.8
-    },
-    {
-     "w": "striker",
-     "start": 0.8,
-     "end": 1.25
-    },
-    {
-     "w": "Estéban",
-     "start": 1.25,
-     "end": 1.7
-    },
-    {
-     "w": "Lepaul,",
-     "start": 1.7,
-     "end": 2.3
-    },
-    {
-     "w": "who",
-     "start": 2.4,
-     "end": 2.525
-    },
-    {
-     "w": "has",
-     "start": 2.525,
-     "end": 2.712
-    },
-    {
-     "w": "7",
-     "start": 2.712,
-     "end": 3.075
-    },
-    {
-     "w": "goals",
-     "start": 3.075,
-     "end": 3.475
-    },
-    {
-     "w": "this",
-     "start": 3.475,
-     "end": 3.65
-    },
-    {
-     "w": "season.",
-     "start": 3.65,
-     "end": 4.5
-    }
-   ],
-   "durationInFrames": 143
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "Rennes have conceded 10 goals in their last five games.",
-   "show": {
-    "kind": "stat",
-    "label": "Rennes goals conceded",
-    "value": "10"
-   },
-   "first": false,
-   "variant": 0,
    "audio": "audio/2026-10-22-juventus-rennes/s5.mp3",
    "words": [
     {
-     "w": "Rennes",
-     "start": 0.25,
-     "end": 0.487
-    },
-    {
-     "w": "have",
-     "start": 0.487,
-     "end": 0.6
-    },
-    {
-     "w": "conceded",
-     "start": 0.6,
-     "end": 1.113
-    },
-    {
-     "w": "10",
-     "start": 1.113,
-     "end": 1.375
-    },
-    {
-     "w": "goals",
-     "start": 1.375,
-     "end": 1.762
-    },
-    {
-     "w": "in",
-     "start": 1.762,
-     "end": 1.837
+     "w": "Lepaul,",
+     "start": 0.275,
+     "end": 0.65
     },
     {
      "w": "their",
-     "start": 1.837,
-     "end": 1.975
+     "start": 0.688,
+     "end": 0.8
     },
     {
-     "w": "last",
-     "start": 1.975,
-     "end": 2.325
+     "w": "top",
+     "start": 0.8,
+     "end": 1.075
     },
     {
-     "w": "five",
-     "start": 2.325,
-     "end": 2.675
+     "w": "scorer",
+     "start": 1.075,
+     "end": 1.438
     },
     {
-     "w": "games.",
-     "start": 2.675,
-     "end": 3.525
+     "w": "with",
+     "start": 1.438,
+     "end": 1.6
+    },
+    {
+     "w": "7",
+     "start": 1.6,
+     "end": 1.95
+    },
+    {
+     "w": "goals,",
+     "start": 1.95,
+     "end": 2.4
+    },
+    {
+     "w": "is",
+     "start": 2.475,
+     "end": 2.638
+    },
+    {
+     "w": "doubtful.",
+     "start": 2.638,
+     "end": 3.55
     }
    ],
-   "durationInFrames": 114
+   "durationInFrames": 115
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "The market average makes Juventus 60.7% favourites.",
+   "text": "The market makes Juventus 60.7% to win.",
    "show": {
     "kind": "chance",
     "team": "home",
@@ -476,104 +476,89 @@
     {
      "w": "market",
      "start": 0.325,
-     "end": 0.65
-    },
-    {
-     "w": "average",
-     "start": 0.65,
-     "end": 1.075
+     "end": 0.675
     },
     {
      "w": "makes",
-     "start": 1.075,
-     "end": 1.35
+     "start": 0.675,
+     "end": 0.95
     },
     {
      "w": "Juventus",
-     "start": 1.35,
-     "end": 1.887
+     "start": 0.95,
+     "end": 1.512
     },
     {
      "w": "60.7%",
-     "start": 1.887,
-     "end": 3.3
+     "start": 1.512,
+     "end": 2.9
     },
     {
-     "w": "favourites.",
-     "start": 3.3,
-     "end": 4.2
+     "w": "to",
+     "start": 2.9,
+     "end": 3.025
+    },
+    {
+     "w": "win.",
+     "start": 3.025,
+     "end": 3.725
     }
    ],
-   "durationInFrames": 134
+   "durationInFrames": 120
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "The market rates Juventus 1 goal better than Rennes.",
+   "text": "Rennes have just a 17.3% chance.",
    "show": {
-    "kind": "stat",
-    "label": "Juventus better by (goals)",
-    "value": "1"
+    "kind": "chance",
+    "team": "away",
+    "value": 17.3
    },
    "first": false,
    "variant": 0,
    "audio": "audio/2026-10-22-juventus-rennes/s7.mp3",
    "words": [
     {
-     "w": "The",
-     "start": 0.25,
-     "end": 0.325
+     "w": "Rennes",
+     "start": 0.275,
+     "end": 0.6
     },
     {
-     "w": "market",
-     "start": 0.325,
-     "end": 0.7
+     "w": "have",
+     "start": 0.6,
+     "end": 0.8
     },
     {
-     "w": "rates",
-     "start": 0.7,
-     "end": 0.975
+     "w": "just",
+     "start": 0.8,
+     "end": 0.988
     },
     {
-     "w": "Juventus",
-     "start": 0.975,
-     "end": 1.512
+     "w": "a",
+     "start": 0.988,
+     "end": 1.062
     },
     {
-     "w": "1",
-     "start": 1.512,
-     "end": 1.775
+     "w": "17.3%",
+     "start": 1.062,
+     "end": 2.462
     },
     {
-     "w": "goal",
-     "start": 1.775,
-     "end": 2.087
-    },
-    {
-     "w": "better",
-     "start": 2.087,
-     "end": 2.45
-    },
-    {
-     "w": "than",
-     "start": 2.45,
-     "end": 2.625
-    },
-    {
-     "w": "Rennes.",
-     "start": 2.625,
-     "end": 3.4
+     "w": "chance.",
+     "start": 2.462,
+     "end": 3.25
     }
    ],
-   "durationInFrames": 110
+   "durationInFrames": 106
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects 2.75 goals in Turin.",
+   "text": "The market expects 2.79 goals.",
    "show": {
     "kind": "goals",
-    "value": 2.75
+    "value": 2.79
    },
    "first": false,
    "variant": 0,
@@ -582,51 +567,41 @@
     {
      "w": "The",
      "start": 0.25,
-     "end": 0.325
+     "end": 0.312
     },
     {
      "w": "market",
-     "start": 0.325,
-     "end": 0.637
+     "start": 0.312,
+     "end": 0.613
     },
     {
      "w": "expects",
-     "start": 0.637,
-     "end": 1.087
+     "start": 0.613,
+     "end": 1.062
     },
     {
-     "w": "2.75",
-     "start": 1.087,
-     "end": 2.225
+     "w": "2.79",
+     "start": 1.062,
+     "end": 2.075
     },
     {
-     "w": "goals",
-     "start": 2.225,
-     "end": 2.625
-    },
-    {
-     "w": "in",
-     "start": 2.625,
-     "end": 2.775
-    },
-    {
-     "w": "Turin.",
-     "start": 2.775,
-     "end": 3.6
+     "w": "goals.",
+     "start": 2.075,
+     "end": 2.95
     }
    ],
-   "durationInFrames": 116
+   "durationInFrames": 97
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Juventus have the European form, and the market still favours them.",
+   "text": "Home advantage and Europe's form should calm the Lazio night.",
    "show": {
     "kind": "verdict",
     "points": [
-     "Response test in Turin",
-     "Both European games won",
-     "Market still favours Juventus"
+     "Europe form is different",
+     "Rennes concede too much",
+     "Juventus are clear favourites"
     ]
    },
    "first": false,
@@ -634,62 +609,57 @@
    "audio": "audio/2026-10-22-juventus-rennes/s9.mp3",
    "words": [
     {
-     "w": "Juventus",
-     "start": 0.275,
-     "end": 0.8
+     "w": "Home",
+     "start": 0.25,
+     "end": 0.463
     },
     {
-     "w": "have",
-     "start": 0.8,
-     "end": 0.988
-    },
-    {
-     "w": "the",
-     "start": 0.988,
-     "end": 1.075
-    },
-    {
-     "w": "European",
-     "start": 1.075,
-     "end": 1.663
-    },
-    {
-     "w": "form,",
-     "start": 1.663,
-     "end": 2.25
+     "w": "advantage",
+     "start": 0.463,
+     "end": 1.125
     },
     {
      "w": "and",
-     "start": 2.35,
-     "end": 2.462
+     "start": 1.125,
+     "end": 1.25
+    },
+    {
+     "w": "Europe's",
+     "start": 1.25,
+     "end": 1.6
+    },
+    {
+     "w": "form",
+     "start": 1.6,
+     "end": 2.0
+    },
+    {
+     "w": "should",
+     "start": 2.0,
+     "end": 2.175
+    },
+    {
+     "w": "calm",
+     "start": 2.175,
+     "end": 2.487
     },
     {
      "w": "the",
-     "start": 2.462,
-     "end": 2.55
+     "start": 2.487,
+     "end": 2.575
     },
     {
-     "w": "market",
-     "start": 2.55,
-     "end": 2.95
+     "w": "Lazio",
+     "start": 2.575,
+     "end": 3.1
     },
     {
-     "w": "still",
-     "start": 2.95,
-     "end": 3.237
-    },
-    {
-     "w": "favours",
-     "start": 3.237,
-     "end": 3.7
-    },
-    {
-     "w": "them.",
-     "start": 3.7,
-     "end": 4.35
+     "w": "night.",
+     "start": 3.1,
+     "end": 3.8
     }
    ],
-   "durationInFrames": 146
+   "durationInFrames": 129
   },
   {
    "type": "end",

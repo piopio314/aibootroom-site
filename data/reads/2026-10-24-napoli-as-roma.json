@@ -4,42 +4,42 @@
  "home": "Napoli",
  "away": "AS Roma",
  "kickoff": "2026-10-24T16:00:00+00:00",
- "generated_at": "2026-10-21T14:21:51+00:00",
- "headline": "Roma third in Serie A, narrow favourites in Naples",
- "summary": "Roma go to Naples 3rd in Serie A with 17 points, after a 4-0 home win over Slovan Bratislava on Tuesday. Napoli beat Bodo/Glimt 4-3 in midweek, but Bodo/Glimt created 2.69 expected goals in that game. Italian media report that Napoli's coach Max Allegri faced questions after 2 defeats, and that Paulo Dybala is out, leaving Gasperini thinner in attacking midfield. Even so, the market keeps Roma just ahead at 37.8%, with Napoli close behind at 34.4%. Over 2.5 goals is a 50.9% chance — the market is split on the goals.",
- "read": "Roma travel to Naples third in Serie A with 17 points and a 4-0 Champions League win behind them, while Napoli are ninth and spent the week answering questions about their coach after two defeats in three. The market makes Roma narrow favourites at 37.8% with a level handicap, and it is split on goals — Over 2.5 is priced at 50.9%.",
+ "generated_at": "2026-10-21T17:42:11+00:00",
+ "headline": "Napoli under pressure host Roma, the market's narrow favourites",
+ "summary": "Napoli's director said Max Allegri is 'absolutely not in doubt' after the president asked to be reassured, following two straight defeats. Now Roma visit, 3rd in Serie A with 17 points. Gasperini's side won 4-0 at Slovan Bratislava on Tuesday without conceding, though Italian media report Paulo Dybala is out. Napoli's midweek win still cost them 2.69 expected goals, and Scott McTominay scored 2 on his return from a heart procedure. The market, margin removed, makes Roma narrow favourites at 37.8%, and the 2.5-goal line is a coin flip at 50.9% over. It sees a level night in Naples.",
+ "read": "Napoli host Roma with Max Allegri's job being discussed in public after two straight defeats, while Roma arrive third in Serie A on the back of a 4-0 Champions League win. The market makes Roma narrow favourites at 37.8% to Napoli's 34.4%, with the handicap set level and the goal line sitting almost exactly at two and a half.",
  "facts": [
   {
-   "fact": "Roma arrive third in Serie A with 17 points from seven games; Napoli are ninth on 10.",
-   "meaning": "The visitors are the higher-ranked side, but the gap is not big enough to make them clear favourites away from home."
+   "fact": "Napoli director Giovanni Manna said coach Max Allegri is 'absolutely not in doubt', after president Aurelio De Laurentiis asked to be 'reassured' following two straight defeats.",
+   "meaning": "Napoli go into a home game against the side third in Serie A with their coach's position being debated in public."
   },
   {
-   "fact": "Roma are narrow favourites at 37.8%, barely ahead of Napoli's 34.4%, with the draw at 27.7%.",
-   "meaning": "The market expects a tight game with no dominant side."
+   "fact": "Roma are the market's narrow favourites in Naples at 37.8% to win, against Napoli's 34.4%.",
+   "meaning": ""
   },
   {
-   "fact": "The handicap is level ball, with the fair line at +0.07 to Napoli — Roma are rated a fraction of a goal the better team even away.",
-   "meaning": "A level handicap means the result is seen as a toss-up; Napoli get almost no home-field credit."
+   "fact": "Italian media report Roma are without Paulo Dybala, with Pellegrini's injury complicating Gasperini's attacking-midfield choices.",
+   "meaning": "Roma's creative options behind the strikers are thinner than usual for the trip to Naples."
   },
   {
-   "fact": "Over 2.5 goals is priced at 50.9%, with the fair goal line at 2.54.",
-   "meaning": "The market is genuinely split on whether this is a high-scoring game."
+   "fact": "Roma sit third in Serie A with 17 points from seven games.",
+   "meaning": "They arrive as the higher-placed of the two and the only one of them in the top four."
   },
   {
-   "fact": "Roma beat Slovan Bratislava 4-0 with a 3.19 to 0.04 xG advantage.",
-   "meaning": "Gasperini's side arrive with a dominant, near-chanceless defensive night behind them."
+   "fact": "Roma beat Slovan Bratislava 4-0 on Tuesday with a 3.19 to 0.04 expected-goals advantage, a second straight win without conceding.",
+   "meaning": "Gasperini's side travel to Naples on their best run of the past month, and Gasperini rested Malen in midweek with this game in mind."
   },
   {
-   "fact": "Napoli beat Bodo/Glimt 4-3 but were out-created, 1.57 xG to 2.69 against.",
-   "meaning": "The win came from finishing and a chaotic game rather than control — the same openness Roma can exploit."
+   "fact": "Napoli beat Bodo/Glimt 4-3 for their first Champions League win of the season but conceded 2.69 expected goals in doing it.",
+   "meaning": "The win ended the losing run, yet the game was open at the back — the defensive softness Allegri himself flagged afterwards."
   },
   {
-   "fact": "Napoli director Giovanni Manna said coach Max Allegri is 'absolutely not in doubt' after the president asked to be 'reassured' following two defeats.",
-   "meaning": "The coach's position was being discussed publicly in the days before this match."
+   "fact": "The market has the 2.5-goal line as a coin flip: 50.9% over, with the fair total at 2.54 goals.",
+   "meaning": "Two or three goals is the expected night — the market does not see a rout in either direction."
   },
   {
-   "fact": "Italian media report two Roma attacking midfielders unavailable: Paulo Dybala is out and Pellegrini's injury complicates Gasperini's choices, with Bryan Cristante back from a knee problem.",
-   "meaning": "Roma's creativity behind the striker is thinner than their form suggests, which is why the visitors are only narrow favourites."
+   "fact": "Napoli lost 1-0 at Venezia on 17 October having created 2.36 expected goals.",
+   "meaning": "The result that fed the pressure on Allegri was not a bad performance — Napoli made the chances and did not take them."
   }
  ],
  "sources": [
@@ -100,11 +100,11 @@
    "certainty": "reported"
   }
  ],
- "video_title": "Roma 3rd in Serie A, narrow favourites in Naples",
+ "video_title": "Napoli under pressure as third-placed Roma visit",
  "key_points": [
-  "Roma 3rd, Napoli 9th",
-  "Roma narrow favourites at 37.8%",
-  "Allegri pressure before kick-off"
+  "Allegri backed after two defeats",
+  "Roma third, two wins in a row",
+  "Roma narrow favourites in Naples"
  ],
  "market": {
   "id": 1550164,
@@ -171,7 +171,7 @@
    "away": 1
   },
   "read": "2026-10-24-napoli-as-roma",
-  "headline": "Roma third in Serie A, narrow favourites in Naples"
+  "headline": "Napoli under pressure host Roma, the market's narrow favourites"
  },
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }

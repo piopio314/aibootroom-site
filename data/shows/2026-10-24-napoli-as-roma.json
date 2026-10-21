@@ -1,6 +1,6 @@
 {
  "id": "2026-10-24-napoli-as-roma",
- "title": "Roma 3rd in Serie A, narrow favourites in Naples",
+ "title": "Napoli under pressure as third-placed Roma visit",
  "match": {
   "home": "Napoli",
   "away": "AS Roma",
@@ -139,16 +139,121 @@
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Roma are 3rd in Serie A with 17 points — narrow favourites away.",
+   "text": "Napoli's director says Allegri is absolutely not in doubt.",
+   "show": {
+    "kind": "news",
+    "source": "football-italia.net",
+    "text": "Allegri 'absolutely not in doubt'"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-napoli-as-roma/s0.mp3",
+   "words": [
+    {
+     "w": "Napoli's",
+     "start": 0.12,
+     "end": 0.6
+    },
+    {
+     "w": "director",
+     "start": 0.6,
+     "end": 1.08
+    },
+    {
+     "w": "says",
+     "start": 1.16,
+     "end": 1.32
+    },
+    {
+     "w": "Allegri",
+     "start": 1.32,
+     "end": 1.8
+    },
+    {
+     "w": "is",
+     "start": 1.88,
+     "end": 2.04
+    },
+    {
+     "w": "absolutely",
+     "start": 2.04,
+     "end": 2.76
+    },
+    {
+     "w": "not",
+     "start": 2.84,
+     "end": 3.08
+    },
+    {
+     "w": "in",
+     "start": 3.08,
+     "end": 3.24
+    },
+    {
+     "w": "doubt.",
+     "start": 3.32,
+     "end": 3.64
+    }
+   ],
+   "durationInFrames": 117
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Napoli host Roma in Serie A.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-napoli-as-roma/s1.mp3",
+   "words": [
+    {
+     "w": "Napoli",
+     "start": 0.12,
+     "end": 0.6
+    },
+    {
+     "w": "host",
+     "start": 0.68,
+     "end": 0.92
+    },
+    {
+     "w": "Roma",
+     "start": 0.92,
+     "end": 1.4
+    },
+    {
+     "w": "in",
+     "start": 1.48,
+     "end": 1.56
+    },
+    {
+     "w": "Serie",
+     "start": 1.56,
+     "end": 1.88
+    },
+    {
+     "w": "A.",
+     "start": 1.96,
+     "end": 2.2
+    }
+   ],
+   "durationInFrames": 74
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Roma sit 3rd in Serie A with 17 points.",
    "show": {
     "kind": "table",
     "team": "away",
     "rank": 3,
     "pts": 17
    },
-   "first": true,
+   "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s0.mp3",
+   "audio": "audio/2026-10-24-napoli-as-roma/s2.mp3",
    "words": [
     {
      "w": "Roma",
@@ -156,72 +261,52 @@
      "end": 0.6
     },
     {
-     "w": "are",
+     "w": "sit",
      "start": 0.68,
-     "end": 0.76
+     "end": 0.84
     },
     {
      "w": "3rd",
-     "start": 0.76,
-     "end": 1.24
-    },
-    {
-     "w": "in",
-     "start": 1.32,
+     "start": 0.84,
      "end": 1.32
     },
     {
-     "w": "Serie",
-     "start": 1.32,
-     "end": 1.64
+     "w": "in",
+     "start": 1.4,
+     "end": 1.48
     },
     {
-     "w": "A",
-     "start": 1.72,
+     "w": "Serie",
+     "start": 1.48,
      "end": 1.8
     },
     {
-     "w": "with",
+     "w": "A",
      "start": 1.88,
      "end": 2.04
     },
     {
-     "w": "17",
-     "start": 2.04,
-     "end": 2.44
+     "w": "with",
+     "start": 2.12,
+     "end": 2.2
     },
     {
-     "w": "points",
-     "start": 2.44,
+     "w": "17",
+     "start": 2.2,
      "end": 2.84
     },
     {
-     "w": "—",
-     "start": 2.84,
-     "end": 3.24
-    },
-    {
-     "w": "narrow",
-     "start": 3.4,
-     "end": 3.8
-    },
-    {
-     "w": "favourites",
-     "start": 3.88,
-     "end": 4.28
-    },
-    {
-     "w": "away.",
-     "start": 4.28,
-     "end": 4.68
+     "w": "points.",
+     "start": 2.92,
+     "end": 3.32
     }
    ],
-   "durationInFrames": 148
+   "durationInFrames": 108
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "They won 4-0 at home to Slovan Bratislava on Tuesday.",
+   "text": "They won 4-0 on Tuesday and did not concede.",
    "show": {
     "kind": "result",
     "team": "away",
@@ -231,7 +316,7 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s1.mp3",
+   "audio": "audio/2026-10-24-napoli-as-roma/s3.mp3",
    "words": [
     {
      "w": "They",
@@ -240,46 +325,230 @@
     },
     {
      "w": "won",
-     "start": 0.28,
-     "end": 0.44
+     "start": 0.36,
+     "end": 0.52
     },
     {
      "w": "4-0",
      "start": 0.52,
-     "end": 1.08
-    },
-    {
-     "w": "at",
-     "start": 1.08,
-     "end": 1.24
-    },
-    {
-     "w": "home",
-     "start": 1.32,
-     "end": 1.56
-    },
-    {
-     "w": "to",
-     "start": 1.64,
-     "end": 1.72
-    },
-    {
-     "w": "Slovan",
-     "start": 1.72,
-     "end": 2.12
-    },
-    {
-     "w": "Bratislava",
-     "start": 2.12,
-     "end": 2.84
+     "end": 1.16
     },
     {
      "w": "on",
-     "start": 2.92,
+     "start": 1.24,
+     "end": 1.32
+    },
+    {
+     "w": "Tuesday",
+     "start": 1.32,
+     "end": 1.96
+    },
+    {
+     "w": "and",
+     "start": 2.04,
+     "end": 2.12
+    },
+    {
+     "w": "did",
+     "start": 2.12,
+     "end": 2.28
+    },
+    {
+     "w": "not",
+     "start": 2.36,
+     "end": 2.52
+    },
+    {
+     "w": "concede.",
+     "start": 2.52,
+     "end": 3.08
+    }
+   ],
+   "durationInFrames": 100
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Italian media report Dybala is out for Roma.",
+   "show": {
+    "kind": "absence",
+    "team": "away",
+    "player": "Paulo Dybala",
+    "status": "out"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-napoli-as-roma/s4.mp3",
+   "words": [
+    {
+     "w": "Italian",
+     "start": 0.12,
+     "end": 0.6
+    },
+    {
+     "w": "media",
+     "start": 0.6,
+     "end": 0.92
+    },
+    {
+     "w": "report",
+     "start": 0.92,
+     "end": 1.48
+    },
+    {
+     "w": "Dybala",
+     "start": 1.574,
+     "end": 2.12
+    },
+    {
+     "w": "is",
+     "start": 2.12,
+     "end": 2.28
+    },
+    {
+     "w": "out",
+     "start": 2.36,
+     "end": 2.6
+    },
+    {
+     "w": "for",
+     "start": 2.68,
+     "end": 2.76
+    },
+    {
+     "w": "Roma.",
+     "start": 2.76,
+     "end": 3.16
+    }
+   ],
+   "durationInFrames": 103
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Napoli's midweek win still cost them 2.69 expected goals.",
+   "show": {
+    "kind": "stat",
+    "label": "expected goals conceded",
+    "value": "2.69"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-napoli-as-roma/s5.mp3",
+   "words": [
+    {
+     "w": "Napoli's",
+     "start": 0.12,
+     "end": 0.68
+    },
+    {
+     "w": "midweek",
+     "start": 0.68,
+     "end": 1.16
+    },
+    {
+     "w": "win",
+     "start": 1.24,
+     "end": 1.48
+    },
+    {
+     "w": "still",
+     "start": 1.48,
+     "end": 1.8
+    },
+    {
+     "w": "cost",
+     "start": 1.88,
+     "end": 2.12
+    },
+    {
+     "w": "them",
+     "start": 2.2,
+     "end": 2.28
+    },
+    {
+     "w": "2.69",
+     "start": 2.28,
+     "end": 3.4
+    },
+    {
+     "w": "expected",
+     "start": 3.48,
+     "end": 3.8
+    },
+    {
+     "w": "goals.",
+     "start": 3.8,
+     "end": 4.36
+    }
+   ],
+   "durationInFrames": 139
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "McTominay scored 2 goals on his return from a heart procedure.",
+   "show": {
+    "kind": "stat",
+    "label": "McTominay goals last game",
+    "value": "2"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-napoli-as-roma/s6.mp3",
+   "words": [
+    {
+     "w": "McTominay",
+     "start": 0.12,
+     "end": 0.68
+    },
+    {
+     "w": "scored",
+     "start": 0.68,
+     "end": 1.08
+    },
+    {
+     "w": "2",
+     "start": 1.16,
+     "end": 1.32
+    },
+    {
+     "w": "goals",
+     "start": 1.4,
+     "end": 1.72
+    },
+    {
+     "w": "on",
+     "start": 1.72,
+     "end": 1.88
+    },
+    {
+     "w": "his",
+     "start": 1.96,
+     "end": 2.04
+    },
+    {
+     "w": "return",
+     "start": 2.04,
+     "end": 2.44
+    },
+    {
+     "w": "from",
+     "start": 2.52,
+     "end": 2.68
+    },
+    {
+     "w": "a",
+     "start": 2.76,
+     "end": 2.76
+    },
+    {
+     "w": "heart",
+     "start": 2.84,
      "end": 3
     },
     {
-     "w": "Tuesday.",
+     "w": "procedure.",
      "start": 3.0,
      "end": 3.64
     }
@@ -289,239 +558,7 @@
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Napoli beat Bodo/Glimt 4-3 in midweek.",
-   "show": {
-    "kind": "result",
-    "team": "home",
-    "opponent": "Bodo/Glimt",
-    "score": "4-3",
-    "when": "midweek"
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s2.mp3",
-   "words": [
-    {
-     "w": "Napoli",
-     "start": 0.12,
-     "end": 0.6
-    },
-    {
-     "w": "beat",
-     "start": 0.68,
-     "end": 0.84
-    },
-    {
-     "w": "Bodo/Glimt",
-     "start": 0.92,
-     "end": 1.84
-    },
-    {
-     "w": "4-3",
-     "start": 1.84,
-     "end": 2.76
-    },
-    {
-     "w": "in",
-     "start": 2.84,
-     "end": 2.92
-    },
-    {
-     "w": "midweek.",
-     "start": 2.92,
-     "end": 3.48
-    }
-   ],
-   "durationInFrames": 112
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "But Bodo/Glimt created 2.69 expected goals in that game.",
-   "show": {
-    "kind": "stat",
-    "label": "Bodo/Glimt expected goals",
-    "value": "2.69"
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s3.mp3",
-   "words": [
-    {
-     "w": "But",
-     "start": 0.12,
-     "end": 0.36
-    },
-    {
-     "w": "Bodo/Glimt",
-     "start": 0.44,
-     "end": 1.64
-    },
-    {
-     "w": "created",
-     "start": 1.641,
-     "end": 2.12
-    },
-    {
-     "w": "2.69",
-     "start": 2.2,
-     "end": 3.4
-    },
-    {
-     "w": "expected",
-     "start": 3.48,
-     "end": 3.8
-    },
-    {
-     "w": "goals",
-     "start": 3.8,
-     "end": 4.2
-    },
-    {
-     "w": "in",
-     "start": 4.2,
-     "end": 4.28
-    },
-    {
-     "w": "that",
-     "start": 4.36,
-     "end": 4.44
-    },
-    {
-     "w": "game.",
-     "start": 4.52,
-     "end": 4.76
-    }
-   ],
-   "durationInFrames": 151
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "Napoli's coach Allegri faced questions after 2 defeats.",
-   "show": {
-    "kind": "news",
-    "source": "football-italia.net",
-    "text": "Allegri 'not in doubt' after 2 defeats"
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s4.mp3",
-   "words": [
-    {
-     "w": "Napoli's",
-     "start": 0.12,
-     "end": 0.6
-    },
-    {
-     "w": "coach",
-     "start": 0.6,
-     "end": 0.92
-    },
-    {
-     "w": "Allegri",
-     "start": 1.0,
-     "end": 1.48
-    },
-    {
-     "w": "faced",
-     "start": 1.48,
-     "end": 1.88
-    },
-    {
-     "w": "questions",
-     "start": 1.88,
-     "end": 2.44
-    },
-    {
-     "w": "after",
-     "start": 2.44,
-     "end": 2.76
-    },
-    {
-     "w": "2",
-     "start": 2.84,
-     "end": 3
-    },
-    {
-     "w": "defeats.",
-     "start": 3,
-     "end": 3.64
-    }
-   ],
-   "durationInFrames": 117
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "Italian media report Dybala is out, thinning Roma's attacking midfield.",
-   "show": {
-    "kind": "absence",
-    "team": "away",
-    "player": "Dybala",
-    "status": "out"
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s5.mp3",
-   "words": [
-    {
-     "w": "Italian",
-     "start": 0.12,
-     "end": 0.52
-    },
-    {
-     "w": "media",
-     "start": 0.6,
-     "end": 0.84
-    },
-    {
-     "w": "report",
-     "start": 0.84,
-     "end": 1.32
-    },
-    {
-     "w": "Dybala",
-     "start": 1.32,
-     "end": 1.8
-    },
-    {
-     "w": "is",
-     "start": 1.88,
-     "end": 1.96
-    },
-    {
-     "w": "out,",
-     "start": 2.04,
-     "end": 2.44
-    },
-    {
-     "w": "thinning",
-     "start": 2.521,
-     "end": 2.92
-    },
-    {
-     "w": "Roma's",
-     "start": 2.92,
-     "end": 3.32
-    },
-    {
-     "w": "attacking",
-     "start": 3.32,
-     "end": 3.8
-    },
-    {
-     "w": "midfield.",
-     "start": 3.8,
-     "end": 4.44
-    }
-   ],
-   "durationInFrames": 141
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "Even so, the market keeps Roma just ahead, at 37.8%.",
+   "text": "The market, margin removed, makes Roma narrow favourites at 37.8%.",
    "show": {
     "kind": "chance",
     "team": "away",
@@ -529,111 +566,65 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s6.mp3",
-   "words": [
-    {
-     "w": "Even",
-     "start": 0.12,
-     "end": 0.36
-    },
-    {
-     "w": "so,",
-     "start": 0.36,
-     "end": 0.76
-    },
-    {
-     "w": "the",
-     "start": 1.079,
-     "end": 1.08
-    },
-    {
-     "w": "market",
-     "start": 1.08,
-     "end": 1.48
-    },
-    {
-     "w": "keeps",
-     "start": 1.56,
-     "end": 1.72
-    },
-    {
-     "w": "Roma",
-     "start": 1.72,
-     "end": 2.04
-    },
-    {
-     "w": "just",
-     "start": 2.04,
-     "end": 2.36
-    },
-    {
-     "w": "ahead,",
-     "start": 2.44,
-     "end": 2.76
-    },
-    {
-     "w": "at",
-     "start": 2.915,
-     "end": 3.08
-    },
-    {
-     "w": "37.8%.",
-     "start": 3.08,
-     "end": 4.76
-    }
-   ],
-   "durationInFrames": 151
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "Napoli are close behind at 34.4%.",
-   "show": {
-    "kind": "chance",
-    "team": "home",
-    "value": 34.4
-   },
-   "first": false,
-   "variant": 0,
    "audio": "audio/2026-10-24-napoli-as-roma/s7.mp3",
    "words": [
     {
-     "w": "Napoli",
+     "w": "The",
      "start": 0.12,
-     "end": 0.6
+     "end": 0.2
     },
     {
-     "w": "are",
-     "start": 0.68,
-     "end": 0.76
+     "w": "market,",
+     "start": 0.28,
+     "end": 0.84
     },
     {
-     "w": "close",
-     "start": 0.76,
-     "end": 1
+     "w": "margin",
+     "start": 0.92,
+     "end": 1.4
     },
     {
-     "w": "behind",
-     "start": 1.08,
-     "end": 1.56
+     "w": "removed,",
+     "start": 1.4,
+     "end": 1.88
+    },
+    {
+     "w": "makes",
+     "start": 2.157,
+     "end": 2.36
+    },
+    {
+     "w": "Roma",
+     "start": 2.36,
+     "end": 2.68
+    },
+    {
+     "w": "narrow",
+     "start": 2.76,
+     "end": 3.08
+    },
+    {
+     "w": "favourites",
+     "start": 3.08,
+     "end": 3.72
     },
     {
      "w": "at",
-     "start": 1.56,
-     "end": 1.72
+     "start": 3.724,
+     "end": 3.96
     },
     {
-     "w": "34.4%.",
-     "start": 1.72,
-     "end": 3.16
+     "w": "37.8%.",
+     "start": 3.96,
+     "end": 5.64
     }
    ],
-   "durationInFrames": 103
+   "durationInFrames": 177
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Over 2.5 goals is a 50.9% chance — the market is split.",
+   "text": "The 2.5 goal line is a coin flip: 50.9% over.",
    "show": {
     "kind": "over",
     "line": 2.5,
@@ -644,78 +635,68 @@
    "audio": "audio/2026-10-24-napoli-as-roma/s8.mp3",
    "words": [
     {
-     "w": "Over",
+     "w": "The",
      "start": 0.12,
-     "end": 0.36
+     "end": 0.2
     },
     {
      "w": "2.5",
-     "start": 0.36,
-     "end": 1.16
+     "start": 0.2,
+     "end": 1
     },
     {
-     "w": "goals",
-     "start": 1.24,
+     "w": "goal",
+     "start": 1,
+     "end": 1.24
+    },
+    {
+     "w": "line",
+     "start": 1.32,
      "end": 1.64
     },
     {
      "w": "is",
      "start": 1.72,
-     "end": 1.72
+     "end": 1.8
     },
     {
      "w": "a",
      "start": 1.8,
-     "end": 1.8
+     "end": 1.88
+    },
+    {
+     "w": "coin",
+     "start": 1.96,
+     "end": 2.2
+    },
+    {
+     "w": "flip:",
+     "start": 2.2,
+     "end": 2.6
     },
     {
      "w": "50.9%",
-     "start": 1.8,
-     "end": 2.387
+     "start": 2.759,
+     "end": 3.96
     },
     {
-     "w": "chance",
-     "start": 2.387,
-     "end": 2.973
-    },
-    {
-     "w": "—",
-     "start": 2.973,
-     "end": 3.56
-    },
-    {
-     "w": "the",
-     "start": 3.861,
-     "end": 3.88
-    },
-    {
-     "w": "market",
-     "start": 3.88,
-     "end": 4.2
-    },
-    {
-     "w": "is",
-     "start": 4.28,
-     "end": 4.28
-    },
-    {
-     "w": "split.",
-     "start": 4.28,
-     "end": 4.84
+     "w": "over.",
+     "start": 4.04,
+     "end": 4.36
     }
    ],
-   "durationInFrames": 153
+   "durationInFrames": 139
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "A tight game in Naples, with Roma only just ahead.",
+   "text": "So the market sees a level night in Naples.",
    "show": {
     "kind": "verdict",
     "points": [
-     "Tight game",
-     "Roma just ahead",
-     "Little between them"
+     "Roma slight favourites",
+     "level game expected",
+     "Allegri under pressure"
     ]
    },
    "first": false,
@@ -723,57 +704,52 @@
    "audio": "audio/2026-10-24-napoli-as-roma/s9.mp3",
    "words": [
     {
-     "w": "A",
-     "start": 0.04,
-     "end": 0.12
-    },
-    {
-     "w": "tight",
+     "w": "So",
      "start": 0.12,
-     "end": 0.44
+     "end": 0.28
     },
     {
-     "w": "game",
-     "start": 0.52,
-     "end": 0.68
+     "w": "the",
+     "start": 0.36,
+     "end": 0.36
+    },
+    {
+     "w": "market",
+     "start": 0.36,
+     "end": 0.76
+    },
+    {
+     "w": "sees",
+     "start": 0.76,
+     "end": 1.16
+    },
+    {
+     "w": "a",
+     "start": 1.24,
+     "end": 1.24
+    },
+    {
+     "w": "level",
+     "start": 1.32,
+     "end": 1.56
+    },
+    {
+     "w": "night",
+     "start": 1.56,
+     "end": 1.88
     },
     {
      "w": "in",
-     "start": 0.68,
-     "end": 0.84
+     "start": 1.96,
+     "end": 2.04
     },
     {
-     "w": "Naples,",
-     "start": 0.92,
-     "end": 1.48
-    },
-    {
-     "w": "with",
-     "start": 1.56,
-     "end": 1.8
-    },
-    {
-     "w": "Roma",
-     "start": 1.88,
-     "end": 2.12
-    },
-    {
-     "w": "only",
-     "start": 2.12,
-     "end": 2.36
-    },
-    {
-     "w": "just",
-     "start": 2.36,
+     "w": "Naples.",
+     "start": 2.04,
      "end": 2.6
-    },
-    {
-     "w": "ahead.",
-     "start": 2.68,
-     "end": 3
     }
    ],
-   "durationInFrames": 105
+   "durationInFrames": 93
   },
   {
    "type": "end",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T14:35:22+00:00",
+ "generated_at": "2026-10-21T17:47:18+00:00",
  "shows": [
   {
    "id": "2026-10-22-juventus-rennes",
@@ -7,12 +7,12 @@
    "away": "Rennes",
    "league": "Europa League",
    "kickoff": "2026-10-22T16:45:00+00:00",
-   "title": "Juventus after the 0-3: still clear favourites",
+   "title": "Juventus after the 0-3: still favourites in Europe?",
    "source": "market_desk",
    "kicker": "MATCH PREVIEW",
    "voiced": true,
    "youtube_id": null,
-   "seconds": 44
+   "seconds": 43
   },
   {
    "id": "2026-10-24-aston-villa-manchester-city",
@@ -20,12 +20,12 @@
    "away": "Manchester City",
    "league": "Premier League",
    "kickoff": "2026-10-24T11:30:00+00:00",
-   "title": "City's perfect start meets Villa's unbeaten run",
+   "title": "Villa's record, City's season — and the market",
    "source": "market_desk",
    "kicker": "MATCH PREVIEW",
    "voiced": true,
    "youtube_id": null,
-   "seconds": 46
+   "seconds": 43
   },
   {
    "id": "2026-10-24-napoli-as-roma",
@@ -33,12 +33,12 @@
    "away": "AS Roma",
    "league": "Serie A",
    "kickoff": "2026-10-24T16:00:00+00:00",
-   "title": "Roma 3rd in Serie A, narrow favourites in Naples",
+   "title": "Napoli under pressure as third-placed Roma visit",
    "source": "market_desk",
    "kicker": "MARKET READ",
    "voiced": true,
    "youtube_id": null,
-   "seconds": 48
+   "seconds": 43
   },
   {
    "id": "2026-10-24-chelsea-tottenham",
@@ -46,7 +46,7 @@
    "away": "Tottenham",
    "league": "Premier League",
    "kickoff": "2026-10-24T16:30:00+00:00",
-   "title": "Tottenham's first win — but Chelsea are favourites",
+   "title": "Spurs finally won — now comes Chelsea away",
    "source": "market_desk",
    "kicker": "MARKET ALERT",
    "voiced": true,
@@ -59,7 +59,7 @@
    "away": "Real Madrid",
    "league": "La Liga",
    "kickoff": "2026-10-25T20:00:00+00:00",
-   "title": "Vinicius ban doubt as Barcelona host Real Madrid",
+   "title": "El Clasico after Paris: Barcelona still favourites?",
    "source": "market_desk",
    "kicker": "EL CLÁSICO",
    "voiced": true,
