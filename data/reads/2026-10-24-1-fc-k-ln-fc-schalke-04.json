@@ -4,42 +4,42 @@
  "home": "1. FC Köln",
  "away": "FC Schalke 04",
  "kickoff": "2026-10-24T13:30:00+00:00",
- "generated_at": "2026-10-21T21:12:44+00:00",
- "headline": "Köln without Dallinga and Rondic — still favourites against Schalke",
- "summary": "Köln host Schalke on Saturday without Dallinga and Rondic, though BILD reports Ragnar Ache could return. Schalke's threat looks small: they made just 0.43 expected goals at home to Mainz and sit 15th with 5 points. Köln have won only 1 of their last 5, losing 0-1 at Frankfurt last week, yet the market still makes them 47.4% favourites — Schalke are at 28.5%. The handicap rates Köln 0.5 goals stronger, with the goal line at 3.0.",
- "read": "Köln are the market's clear favourites at 47.4% against Schalke's 28.5%, rated a little under half a goal better on a -0.42 fair handicap line. Both squads are short up front — Köln have all three senior centre-forwards listed as injured while Schalke could be missing up to five players — and the market expects an open game, with the goal line at 3.0 split 50/50.",
+ "generated_at": "2026-10-21T23:43:06+00:00",
+ "headline": "Köln without three strikers, still narrow favourites",
+ "summary": "Saturday's Bundesliga game in Cologne sets a wounded favourite against a side that struggles to create. Reports say Köln are without three senior strikers, and their best recent result was the 2-1 home derby against Gladbach. Schalke lost 0-1 at home to Mainz last weekend and average only 0.90 expected goals a game; Edin Džeko is doubtful, according to Sportschau. Even so, the market makes Köln 47.4% favourites, with the bookmaker's margin removed — under half. In goals, the market rates them only 0.4 the better side, and the goal line sits at 3.0, with over and under level.",
+ "read": "Köln are narrow home favourites at 47.4% against a Schalke side without a win in three, and both teams are short of a recognised centre-forward. The market expects about three goals and rates Köln just under half a goal the better side — a tight game between two teams in the bottom half of the table.",
  "facts": [
   {
-   "fact": "Köln are the market's favourites at 47.4% to win, against Schalke's 28.5%.",
-   "meaning": "The market makes Köln clear favourites without making them overwhelming ones — Schalke are still given better than a one-in-four chance."
+   "fact": "Köln are the favourites at 47.4% — under half the chance, with the draw and Schalke splitting the rest.",
+   "meaning": "The market sees a tight home win, not a mismatch: Köln are the side to back but by a narrow margin."
   },
   {
-   "fact": "Schalke created just 0.43 xG in Saturday's 0-1 home defeat to Mainz, while allowing 1.94.",
-   "meaning": "A side that cannot create chances at home now has to score away in Cologne to take anything from the game."
+   "fact": "Köln are reported to be without all three senior centre-forwards — Dallinga, Ache and Rondic — through injury, though there is new hope over Ache.",
+   "meaning": "The favourites may have to improvise up front, which is a big part of why their price is only just the right side of even money."
   },
   {
-   "fact": "Köln's three senior centre-forwards — Thijs Dallinga, Ragnar Ache and Imad Rondic — are all listed as injured, according to tag24, though BILD reported new hope over Ache.",
-   "meaning": "Köln may go into a home game they are favoured in without a recognised No. 9, with teenager Malek El Mala possibly making his Bundesliga debut."
+   "fact": "Schalke have taken one point from their last three Bundesliga games (LLD).",
+   "meaning": "They come to Cologne on a downward run, which is the form line behind Köln's favouritism."
   },
   {
-   "fact": "The market's fair handicap line is -0.42, with the main line at -0.5 and Köln giving a half-goal.",
-   "meaning": "Köln are rated a little under half a goal better than Schalke, so a one-goal Köln win is roughly the 50/50 point of this match."
+   "fact": "Schalke average only 0.90 expected goals per game this season.",
+   "meaning": "They create very little — the weaker attacking output of the two sides by a wide margin."
   },
   {
-   "fact": "The goal line sits at 3.0, with over and under both priced at 50%.",
-   "meaning": "Three goals is the split point — the market sees an open game rather than a cagey one, despite Schalke's low chance creation."
+   "fact": "On the handicap the market rates Köln about 0.4 goals the better side, with the main line at -0.5.",
+   "meaning": ""
   },
   {
-   "fact": "Köln's last five Bundesliga results read LWLDL — one win, one draw, three defeats.",
-   "meaning": "Their home favouritism rests on venue and opponent rather than a run of results; the 2-1 derby win over Gladbach is their only victory in five."
+   "fact": "The market's goal line sits at 3.0, with over and under both priced at 50%.",
+   "meaning": "Three goals is the expected total — the market is pricing an open game rather than a grind."
   },
   {
-   "fact": "Express reports Schalke could be without up to five players for the trip to Cologne.",
-   "meaning": "The squad is stretched on top of a forward line that has scored four goals in its last five matches."
+   "fact": "Köln have won once in their last five (LWLDL), and that win was the 2-1 home derby against Gladbach.",
+   "meaning": "Köln's favouritism rests on home advantage and Schalke's slump more than on their own results."
   },
   {
-   "fact": "BILD reports that Schalke coach Miron Muslic has 'once again' suffered a shipwreck and must now recognise something.",
-   "meaning": "Schalke arrive with the coach under public scrutiny after three matches without a win — a backdrop that usually sharpens a relegation-threatened squad's approach."
+   "fact": "Schalke have 5 points from six games in their first season back in the Bundesliga.",
+   "meaning": "A promoted side already in the bottom four — the trip to Köln is a pressure game, not a free hit."
   }
  ],
  "article": null,
@@ -101,12 +101,11 @@
    "certainty": "reported"
   }
  ],
- "video_title": "Köln's striker shortage — still favourites?",
+ "video_title": "Köln short up front, still narrow favourites",
  "key_points": [
-  "Köln 47.4% favourites, Schalke 28.5%",
-  "Schalke blanked: 0.43 xG vs Mainz",
-  "Köln missing all three strikers",
-  "Goal line 3.0, split 50/50"
+  "Köln favourites, just under half",
+  "Schalke winless in three",
+  "Market line: three goals"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
