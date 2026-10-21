@@ -1,0 +1,754 @@
+{
+ "id": "2026-10-25-inter-fiorentina",
+ "title": "Inter without Lautaro: still clear favourites?",
+ "match": {
+  "home": "Inter",
+  "away": "Fiorentina",
+  "league": "Serie A",
+  "kickoff": "2026-10-25T11:30:00+00:00",
+  "home_short": "INT",
+  "away_short": "FIO",
+  "home_color": "#0068a8",
+  "away_color": "#4f46e5"
+ },
+ "market": {
+  "fair": {
+   "home": 71.3,
+   "draw": 16.7,
+   "away": 12.0
+  },
+  "move": {
+   "home": 2.0,
+   "draw": -0.9,
+   "away": -1.1
+  },
+  "side": "home",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 69.3
+   },
+   {
+    "t": "2026-10-19T04:26:00+00:00",
+    "v": 69.3
+   },
+   {
+    "t": "2026-10-19T07:36:00+00:00",
+    "v": 69.3
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "v": 71.3
+   },
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "v": 71.3
+   },
+   {
+    "t": "2026-10-20T04:23:00+00:00",
+    "v": 71.3
+   },
+   {
+    "t": "2026-10-21T04:24:00+00:00",
+    "v": 71.3
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 69.3
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 69.3
+    },
+    {
+     "t": "2026-10-19T07:36:00+00:00",
+     "v": 69.3
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 71.3
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 71.3
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 71.3
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 71.3
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 17.7
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 17.7
+    },
+    {
+     "t": "2026-10-19T07:36:00+00:00",
+     "v": 17.7
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 16.7
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 16.7
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 16.7
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 16.7
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 13.0
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 13.0
+    },
+    {
+     "t": "2026-10-19T07:36:00+00:00",
+     "v": 13.0
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 11.9
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 12.0
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 12.0
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 12.0
+    }
+   ]
+  },
+  "goals": 3.34,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Yahoo Sports: Inter captain Lautaro Martinez has a hamstring strain.",
+   "show": {
+    "kind": "absence",
+    "team": "home",
+    "player": "Lautaro Martinez",
+    "status": "doubtful"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-inter-fiorentina/s0.mp3",
+   "words": [
+    {
+     "w": "Yahoo",
+     "start": 0.25,
+     "end": 0.5
+    },
+    {
+     "w": "Sports:",
+     "start": 0.5,
+     "end": 1.15
+    },
+    {
+     "w": "Inter",
+     "start": 1.262,
+     "end": 1.65
+    },
+    {
+     "w": "captain",
+     "start": 1.65,
+     "end": 2.038
+    },
+    {
+     "w": "Lautaro",
+     "start": 2.038,
+     "end": 2.425
+    },
+    {
+     "w": "Martinez",
+     "start": 2.425,
+     "end": 3.025
+    },
+    {
+     "w": "has",
+     "start": 3.025,
+     "end": 3.188
+    },
+    {
+     "w": "a",
+     "start": 3.188,
+     "end": 3.25
+    },
+    {
+     "w": "hamstring",
+     "start": 3.25,
+     "end": 3.825
+    },
+    {
+     "w": "strain.",
+     "start": 3.825,
+     "end": 4.7
+    }
+   ],
+   "durationInFrames": 149
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Inter host Fiorentina at San Siro on Sunday.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-inter-fiorentina/s1.mp3",
+   "words": [
+    {
+     "w": "Inter",
+     "start": 0.25,
+     "end": 0.575
+    },
+    {
+     "w": "host",
+     "start": 0.575,
+     "end": 0.85
+    },
+    {
+     "w": "Fiorentina",
+     "start": 0.85,
+     "end": 1.562
+    },
+    {
+     "w": "at",
+     "start": 1.562,
+     "end": 1.7
+    },
+    {
+     "w": "San",
+     "start": 1.7,
+     "end": 1.988
+    },
+    {
+     "w": "Siro",
+     "start": 1.988,
+     "end": 2.312
+    },
+    {
+     "w": "on",
+     "start": 2.312,
+     "end": 2.513
+    },
+    {
+     "w": "Sunday.",
+     "start": 2.513,
+     "end": 3.4
+    }
+   ],
+   "durationInFrames": 110
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Inter are 1st in Serie A, on 19 points.",
+   "show": {
+    "kind": "table",
+    "team": "home",
+    "rank": 1,
+    "pts": 19
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-inter-fiorentina/s2.mp3",
+   "words": [
+    {
+     "w": "Inter",
+     "start": 0.275,
+     "end": 0.588
+    },
+    {
+     "w": "are",
+     "start": 0.588,
+     "end": 0.675
+    },
+    {
+     "w": "1st",
+     "start": 0.675,
+     "end": 0.963
+    },
+    {
+     "w": "in",
+     "start": 0.963,
+     "end": 1.075
+    },
+    {
+     "w": "Serie",
+     "start": 1.075,
+     "end": 1.45
+    },
+    {
+     "w": "A,",
+     "start": 1.45,
+     "end": 1.75
+    },
+    {
+     "w": "on",
+     "start": 1.825,
+     "end": 1.975
+    },
+    {
+     "w": "19",
+     "start": 1.975,
+     "end": 2.425
+    },
+    {
+     "w": "points.",
+     "start": 2.425,
+     "end": 3.25
+    }
+   ],
+   "durationInFrames": 106
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Fiorentina lost 1-3 at home to Como last weekend.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Como",
+    "score": "1-3",
+    "when": "Sunday"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-inter-fiorentina/s3.mp3",
+   "words": [
+    {
+     "w": "Fiorentina",
+     "start": 0.275,
+     "end": 0.925
+    },
+    {
+     "w": "lost",
+     "start": 0.925,
+     "end": 1.25
+    },
+    {
+     "w": "1-3",
+     "start": 1.25,
+     "end": 1.575
+    },
+    {
+     "w": "at",
+     "start": 1.575,
+     "end": 1.675
+    },
+    {
+     "w": "home",
+     "start": 1.675,
+     "end": 2.1
+    },
+    {
+     "w": "to",
+     "start": 2.1,
+     "end": 2.2
+    },
+    {
+     "w": "Como",
+     "start": 2.2,
+     "end": 2.525
+    },
+    {
+     "w": "last",
+     "start": 2.525,
+     "end": 2.875
+    },
+    {
+     "w": "weekend.",
+     "start": 2.875,
+     "end": 3.825
+    }
+   ],
+   "durationInFrames": 123
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "And Inter create 2.76 expected goals a game.",
+   "show": {
+    "kind": "stat",
+    "label": "Inter xG per game",
+    "value": "2.76"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-inter-fiorentina/s4.mp3",
+   "words": [
+    {
+     "w": "And",
+     "start": 0.25,
+     "end": 0.362
+    },
+    {
+     "w": "Inter",
+     "start": 0.362,
+     "end": 0.7
+    },
+    {
+     "w": "create",
+     "start": 0.7,
+     "end": 1.062
+    },
+    {
+     "w": "2.76",
+     "start": 1.062,
+     "end": 2.15
+    },
+    {
+     "w": "expected",
+     "start": 2.15,
+     "end": 2.725
+    },
+    {
+     "w": "goals",
+     "start": 2.725,
+     "end": 3.062
+    },
+    {
+     "w": "a",
+     "start": 3.062,
+     "end": 3.125
+    },
+    {
+     "w": "game.",
+     "start": 3.125,
+     "end": 3.9
+    }
+   ],
+   "durationInFrames": 125
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "They won 1-0 without their captain in midweek.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Shakhtar Donetsk",
+    "score": "1-0",
+    "when": "Wednesday"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-inter-fiorentina/s5.mp3",
+   "words": [
+    {
+     "w": "They",
+     "start": 0.25,
+     "end": 0.4
+    },
+    {
+     "w": "won",
+     "start": 0.4,
+     "end": 0.537
+    },
+    {
+     "w": "1-0",
+     "start": 0.537,
+     "end": 1.175
+    },
+    {
+     "w": "without",
+     "start": 1.175,
+     "end": 1.488
+    },
+    {
+     "w": "their",
+     "start": 1.488,
+     "end": 1.688
+    },
+    {
+     "w": "captain",
+     "start": 1.688,
+     "end": 2.125
+    },
+    {
+     "w": "in",
+     "start": 2.125,
+     "end": 2.25
+    },
+    {
+     "w": "midweek.",
+     "start": 2.25,
+     "end": 3.125
+    }
+   ],
+   "durationInFrames": 102
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "So the market still makes Inter 71.3% favourites.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 71.3
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-inter-fiorentina/s6.mp3",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.25,
+     "end": 0.338
+    },
+    {
+     "w": "the",
+     "start": 0.338,
+     "end": 0.425
+    },
+    {
+     "w": "market",
+     "start": 0.425,
+     "end": 0.75
+    },
+    {
+     "w": "still",
+     "start": 0.75,
+     "end": 1.025
+    },
+    {
+     "w": "makes",
+     "start": 1.025,
+     "end": 1.3
+    },
+    {
+     "w": "Inter",
+     "start": 1.3,
+     "end": 1.913
+    },
+    {
+     "w": "71.3%",
+     "start": 1.913,
+     "end": 3.35
+    },
+    {
+     "w": "favourites.",
+     "start": 3.35,
+     "end": 4.275
+    }
+   ],
+   "durationInFrames": 136
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects 3.34 goals at San Siro.",
+   "show": {
+    "kind": "goals",
+    "value": 3.34
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-inter-fiorentina/s7.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "market",
+     "start": 0.325,
+     "end": 0.65
+    },
+    {
+     "w": "expects",
+     "start": 0.65,
+     "end": 1.1
+    },
+    {
+     "w": "3.34",
+     "start": 1.1,
+     "end": 2.025
+    },
+    {
+     "w": "goals",
+     "start": 2.025,
+     "end": 2.4
+    },
+    {
+     "w": "at",
+     "start": 2.4,
+     "end": 2.5
+    },
+    {
+     "w": "San",
+     "start": 2.5,
+     "end": 2.788
+    },
+    {
+     "w": "Siro.",
+     "start": 2.788,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 115
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The doubt is in attack, not in the table.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Top of Serie A",
+     "Captain a doubt",
+     "Still clear favourites"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-inter-fiorentina/s8.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.35
+    },
+    {
+     "w": "doubt",
+     "start": 0.35,
+     "end": 0.6
+    },
+    {
+     "w": "is",
+     "start": 0.6,
+     "end": 0.725
+    },
+    {
+     "w": "in",
+     "start": 0.725,
+     "end": 0.825
+    },
+    {
+     "w": "attack,",
+     "start": 0.825,
+     "end": 1.325
+    },
+    {
+     "w": "not",
+     "start": 1.4,
+     "end": 1.587
+    },
+    {
+     "w": "in",
+     "start": 1.587,
+     "end": 1.663
+    },
+    {
+     "w": "the",
+     "start": 1.663,
+     "end": 1.75
+    },
+    {
+     "w": "table.",
+     "start": 1.75,
+     "end": 2.6
+    }
+   ],
+   "durationInFrames": 93
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-inter-fiorentina/s9.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "line_move",
+  "kicker": "MARKET ALERT",
+  "stickers": [
+   "💸",
+   "👀",
+   "👀"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1550161,
+ "prices_as_of": "2026-10-21T21:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

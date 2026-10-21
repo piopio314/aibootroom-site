@@ -1,0 +1,866 @@
+{
+ "id": "2026-10-25-nec-nijmegen-groningen",
+ "title": "NEC winless in 8 — still narrow favourites",
+ "match": {
+  "home": "NEC Nijmegen",
+  "away": "Groningen",
+  "league": "Eredivisie",
+  "kickoff": "2026-10-25T13:30:00+00:00",
+  "home_short": "NEC",
+  "away_short": "GRO",
+  "home_color": "#be123c",
+  "away_color": "#b45309"
+ },
+ "market": {
+  "fair": {
+   "home": 41.7,
+   "draw": 23.7,
+   "away": 34.6
+  },
+  "move": {
+   "home": -3.8,
+   "draw": -0.9,
+   "away": 4.8
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 29.8
+   },
+   {
+    "t": "2026-10-19T06:46:00+00:00",
+    "v": 35.0
+   },
+   {
+    "t": "2026-10-20T03:25:00+00:00",
+    "v": 34.4
+   },
+   {
+    "t": "2026-10-21T03:25:00+00:00",
+    "v": 34.6
+   },
+   {
+    "t": "2026-10-21T06:35:00+00:00",
+    "v": 34.6
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 45.6
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 40.8
+    },
+    {
+     "t": "2026-10-20T03:25:00+00:00",
+     "v": 41.4
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "v": 41.7
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "v": 41.7
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 24.6
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 24.2
+    },
+    {
+     "t": "2026-10-20T03:25:00+00:00",
+     "v": 24.2
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "v": 23.7
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "v": 23.7
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 29.8
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 35.0
+    },
+    {
+     "t": "2026-10-20T03:25:00+00:00",
+     "v": 34.4
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "v": 34.6
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "v": 34.6
+    }
+   ]
+  },
+  "goals": 3.35,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T21:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "NEC Nijmegen have not won in 8 matches, yet they are favourites.",
+   "show": {
+    "kind": "stat",
+    "label": "NEC winless run",
+    "value": "8"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-nec-nijmegen-groningen/s0.mp3",
+   "words": [
+    {
+     "w": "NEC",
+     "start": 0.275,
+     "end": 0.75
+    },
+    {
+     "w": "Nijmegen",
+     "start": 0.75,
+     "end": 1.25
+    },
+    {
+     "w": "have",
+     "start": 1.25,
+     "end": 1.45
+    },
+    {
+     "w": "not",
+     "start": 1.45,
+     "end": 1.65
+    },
+    {
+     "w": "won",
+     "start": 1.65,
+     "end": 1.837
+    },
+    {
+     "w": "in",
+     "start": 1.837,
+     "end": 1.95
+    },
+    {
+     "w": "8",
+     "start": 1.95,
+     "end": 2.175
+    },
+    {
+     "w": "matches,",
+     "start": 2.175,
+     "end": 2.9
+    },
+    {
+     "w": "yet",
+     "start": 3.0,
+     "end": 3.175
+    },
+    {
+     "w": "they",
+     "start": 3.175,
+     "end": 3.325
+    },
+    {
+     "w": "are",
+     "start": 3.325,
+     "end": 3.487
+    },
+    {
+     "w": "favourites.",
+     "start": 3.487,
+     "end": 4.45
+    }
+   ],
+   "durationInFrames": 142
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "They host Groningen on Sunday in the Eredivisie.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-nec-nijmegen-groningen/s1.mp3",
+   "words": [
+    {
+     "w": "They",
+     "start": 0.25,
+     "end": 0.4
+    },
+    {
+     "w": "host",
+     "start": 0.4,
+     "end": 0.725
+    },
+    {
+     "w": "Groningen",
+     "start": 0.725,
+     "end": 1.275
+    },
+    {
+     "w": "on",
+     "start": 1.275,
+     "end": 1.488
+    },
+    {
+     "w": "Sunday",
+     "start": 1.488,
+     "end": 1.95
+    },
+    {
+     "w": "in",
+     "start": 1.95,
+     "end": 2.038
+    },
+    {
+     "w": "the",
+     "start": 2.038,
+     "end": 2.15
+    },
+    {
+     "w": "Eredivisie.",
+     "start": 2.15,
+     "end": 3.25
+    }
+   ],
+   "durationInFrames": 106
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "They made 3.06 xG against Fortuna Sittard and still drew.",
+   "show": {
+    "kind": "stat",
+    "label": "NEC xG v Fortuna",
+    "value": "3.06"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-nec-nijmegen-groningen/s2.mp3",
+   "words": [
+    {
+     "w": "They",
+     "start": 0.25,
+     "end": 0.338
+    },
+    {
+     "w": "made",
+     "start": 0.338,
+     "end": 0.55
+    },
+    {
+     "w": "3.06",
+     "start": 0.55,
+     "end": 1.575
+    },
+    {
+     "w": "xG",
+     "start": 1.575,
+     "end": 2.1
+    },
+    {
+     "w": "against",
+     "start": 2.1,
+     "end": 2.45
+    },
+    {
+     "w": "Fortuna",
+     "start": 2.45,
+     "end": 2.938
+    },
+    {
+     "w": "Sittard",
+     "start": 2.938,
+     "end": 3.325
+    },
+    {
+     "w": "and",
+     "start": 3.325,
+     "end": 3.45
+    },
+    {
+     "w": "still",
+     "start": 3.45,
+     "end": 3.737
+    },
+    {
+     "w": "drew.",
+     "start": 3.737,
+     "end": 4.475
+    }
+   ],
+   "durationInFrames": 142
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Groningen have scored 13 goals in their last 5 league games.",
+   "show": {
+    "kind": "stat",
+    "label": "Groningen goals, last 5",
+    "value": "13"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-nec-nijmegen-groningen/s3.mp3",
+   "words": [
+    {
+     "w": "Groningen",
+     "start": 0.25,
+     "end": 0.637
+    },
+    {
+     "w": "have",
+     "start": 0.637,
+     "end": 0.75
+    },
+    {
+     "w": "scored",
+     "start": 0.75,
+     "end": 1.1
+    },
+    {
+     "w": "13",
+     "start": 1.1,
+     "end": 1.525
+    },
+    {
+     "w": "goals",
+     "start": 1.525,
+     "end": 1.887
+    },
+    {
+     "w": "in",
+     "start": 1.887,
+     "end": 1.962
+    },
+    {
+     "w": "their",
+     "start": 1.962,
+     "end": 2.125
+    },
+    {
+     "w": "last",
+     "start": 2.125,
+     "end": 2.513
+    },
+    {
+     "w": "5",
+     "start": 2.513,
+     "end": 2.875
+    },
+    {
+     "w": "league",
+     "start": 2.875,
+     "end": 3.1
+    },
+    {
+     "w": "games.",
+     "start": 3.1,
+     "end": 3.95
+    }
+   ],
+   "durationInFrames": 127
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "But they lost 5-2 at home to Ajax last week.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Ajax",
+    "score": "5-2",
+    "when": "last week"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-nec-nijmegen-groningen/s4.mp3",
+   "words": [
+    {
+     "w": "But",
+     "start": 0.225,
+     "end": 0.338
+    },
+    {
+     "w": "they",
+     "start": 0.338,
+     "end": 0.475
+    },
+    {
+     "w": "lost",
+     "start": 0.475,
+     "end": 0.825
+    },
+    {
+     "w": "5-2",
+     "start": 0.825,
+     "end": 1.238
+    },
+    {
+     "w": "at",
+     "start": 1.238,
+     "end": 1.325
+    },
+    {
+     "w": "home",
+     "start": 1.325,
+     "end": 1.65
+    },
+    {
+     "w": "to",
+     "start": 1.65,
+     "end": 1.775
+    },
+    {
+     "w": "Ajax",
+     "start": 1.775,
+     "end": 2.275
+    },
+    {
+     "w": "last",
+     "start": 2.275,
+     "end": 2.625
+    },
+    {
+     "w": "week.",
+     "start": 2.625,
+     "end": 3.325
+    }
+   ],
+   "durationInFrames": 108
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Across the market, margin removed, NEC are 41.7% to win.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 41.7
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-nec-nijmegen-groningen/s5.mp3",
+   "words": [
+    {
+     "w": "Across",
+     "start": 0.25,
+     "end": 0.6
+    },
+    {
+     "w": "the",
+     "start": 0.6,
+     "end": 0.7
+    },
+    {
+     "w": "market,",
+     "start": 0.7,
+     "end": 1.125
+    },
+    {
+     "w": "margin",
+     "start": 1.175,
+     "end": 1.525
+    },
+    {
+     "w": "removed,",
+     "start": 1.525,
+     "end": 2.25
+    },
+    {
+     "w": "NEC",
+     "start": 2.375,
+     "end": 2.95
+    },
+    {
+     "w": "are",
+     "start": 2.95,
+     "end": 3.112
+    },
+    {
+     "w": "41.7%",
+     "start": 3.112,
+     "end": 4.675
+    },
+    {
+     "w": "to",
+     "start": 4.675,
+     "end": 4.8
+    },
+    {
+     "w": "win.",
+     "start": 4.8,
+     "end": 5.525
+    }
+   ],
+   "durationInFrames": 174
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "And Groningen's chance has climbed from 29.8% to 34.5%.",
+   "show": {
+    "kind": "move",
+    "team": "away",
+    "from": 29.8,
+    "to": 34.5
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-nec-nijmegen-groningen/s6.mp3",
+   "words": [
+    {
+     "w": "And",
+     "start": 0.225,
+     "end": 0.35
+    },
+    {
+     "w": "Groningen's",
+     "start": 0.35,
+     "end": 0.938
+    },
+    {
+     "w": "chance",
+     "start": 0.938,
+     "end": 1.288
+    },
+    {
+     "w": "has",
+     "start": 1.288,
+     "end": 1.475
+    },
+    {
+     "w": "climbed",
+     "start": 1.475,
+     "end": 1.875
+    },
+    {
+     "w": "from",
+     "start": 1.875,
+     "end": 2.075
+    },
+    {
+     "w": "29.8%",
+     "start": 2.075,
+     "end": 3.75
+    },
+    {
+     "w": "to",
+     "start": 3.75,
+     "end": 3.9
+    },
+    {
+     "w": "34.5%.",
+     "start": 3.9,
+     "end": 6.05
+    }
+   ],
+   "durationInFrames": 190
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "That is why NEC are rated a quarter of a goal better.",
+   "show": {
+    "kind": "phrase",
+    "text": "quarter of a goal"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-nec-nijmegen-groningen/s7.mp3",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.25,
+     "end": 0.412
+    },
+    {
+     "w": "is",
+     "start": 0.412,
+     "end": 0.525
+    },
+    {
+     "w": "why",
+     "start": 0.525,
+     "end": 0.75
+    },
+    {
+     "w": "NEC",
+     "start": 0.75,
+     "end": 1.45
+    },
+    {
+     "w": "are",
+     "start": 1.45,
+     "end": 1.55
+    },
+    {
+     "w": "rated",
+     "start": 1.55,
+     "end": 1.863
+    },
+    {
+     "w": "a",
+     "start": 1.863,
+     "end": 1.925
+    },
+    {
+     "w": "quarter",
+     "start": 1.925,
+     "end": 2.35
+    },
+    {
+     "w": "of",
+     "start": 2.35,
+     "end": 2.438
+    },
+    {
+     "w": "a",
+     "start": 2.438,
+     "end": 2.5
+    },
+    {
+     "w": "goal",
+     "start": 2.5,
+     "end": 2.775
+    },
+    {
+     "w": "better.",
+     "start": 2.775,
+     "end": 3.6
+    }
+   ],
+   "durationInFrames": 116
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "And the goal total has risen from 3.14 to 3.35.",
+   "show": {
+    "kind": "stat",
+    "label": "Expected goals",
+    "from": "3.14",
+    "value": "3.35"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-nec-nijmegen-groningen/s8.mp3",
+   "words": [
+    {
+     "w": "And",
+     "start": 0.25,
+     "end": 0.362
+    },
+    {
+     "w": "the",
+     "start": 0.362,
+     "end": 0.45
+    },
+    {
+     "w": "goal",
+     "start": 0.45,
+     "end": 0.738
+    },
+    {
+     "w": "total",
+     "start": 0.738,
+     "end": 1.15
+    },
+    {
+     "w": "has",
+     "start": 1.15,
+     "end": 1.35
+    },
+    {
+     "w": "risen",
+     "start": 1.35,
+     "end": 1.7
+    },
+    {
+     "w": "from",
+     "start": 1.7,
+     "end": 1.913
+    },
+    {
+     "w": "3.14",
+     "start": 1.913,
+     "end": 3.025
+    },
+    {
+     "w": "to",
+     "start": 3.025,
+     "end": 3.163
+    },
+    {
+     "w": "3.35.",
+     "start": 3.163,
+     "end": 4.675
+    }
+   ],
+   "durationInFrames": 148
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "So NEC stay just ahead, in a game priced for goals.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Winless NEC still favoured",
+     "Groningen close behind",
+     "Open, high-scoring game"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-nec-nijmegen-groningen/s9.mp3",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.275,
+     "end": 0.45
+    },
+    {
+     "w": "NEC",
+     "start": 0.45,
+     "end": 0.95
+    },
+    {
+     "w": "stay",
+     "start": 0.95,
+     "end": 1.225
+    },
+    {
+     "w": "just",
+     "start": 1.225,
+     "end": 1.45
+    },
+    {
+     "w": "ahead,",
+     "start": 1.45,
+     "end": 1.975
+    },
+    {
+     "w": "in",
+     "start": 2.075,
+     "end": 2.163
+    },
+    {
+     "w": "a",
+     "start": 2.163,
+     "end": 2.225
+    },
+    {
+     "w": "game",
+     "start": 2.225,
+     "end": 2.55
+    },
+    {
+     "w": "priced",
+     "start": 2.55,
+     "end": 2.85
+    },
+    {
+     "w": "for",
+     "start": 2.85,
+     "end": 2.975
+    },
+    {
+     "w": "goals.",
+     "start": 2.975,
+     "end": 3.85
+    }
+   ],
+   "durationInFrames": 130
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-nec-nijmegen-groningen/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "line_move",
+  "kicker": "MARKET ALERT",
+  "stickers": [
+   "📈",
+   "👀",
+   "📈"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1552203,
+ "prices_as_of": "2026-10-21T21:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

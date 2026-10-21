@@ -1,0 +1,112 @@
+{
+ "slug": "2026-10-25-nec-nijmegen-groningen",
+ "league": "Eredivisie",
+ "home": "NEC Nijmegen",
+ "away": "Groningen",
+ "kickoff": "2026-10-25T13:30:00+00:00",
+ "generated_at": "2026-10-21T22:05:26+00:00",
+ "headline": "NEC winless in eight but still narrow favourites against Groningen",
+ "summary": "NEC Nijmegen have not won in eight matches, yet they host Groningen on Sunday as narrow favourites. Their problem is not creating chances: they made 3.06 xG against Fortuna Sittard and still drew. Groningen bring 13 goals from their last five league games, but also a 5-2 home defeat by Ajax that raised questions about their defence. Across 10 bookmakers, margin removed, NEC are 41.7% to win; Groningen's chance has climbed from 29.8% to 34.5%. NEC are rated only a quarter of a goal better, and the expected goal total has risen from 3.14 to 3.35.",
+ "read": "NEC host Groningen on an eight-match winless run, and in recent days Groningen's chance has climbed from 29.8% to 34.5% while NEC stay narrow favourites at 41.7%. Both sides arrive on open, high-scoring form — Groningen have 13 goals in five games, NEC have drawn four of five — and the market's 50/50 goal total has risen from 3.14 to 3.35.",
+ "facts": [
+  {
+   "fact": "NEC have gone eight matches without a win in all competitions, most recently a 2-2 home draw with Fortuna Sittard.",
+   "meaning": "The hosts are drawing rather than losing — four of their last five ended level — but they are not winning either."
+  },
+  {
+   "fact": "NEC are the market's favourites at 41.7% fair.",
+   "meaning": "That is only about seven points of probability clear of Groningen's 34.6% — home advantage is doing most of the work here."
+  },
+  {
+   "fact": "Groningen's chance of winning has climbed from 29.8% to 34.5% in recent days.",
+   "meaning": "The visitors have been coming in steadily — this is close to a coin-flip match now."
+  },
+  {
+   "fact": "Groningen have scored 13 goals in their last five Eredivisie matches, including a 5-1 win at Excelsior.",
+   "meaning": "The visitors arrive with the more dangerous attack — more than two and a half goals a game."
+  },
+  {
+   "fact": "Groningen were beaten 5-2 at home by Ajax in their last match.",
+   "meaning": "Five conceded at home is the defensive question mark hanging over Dick Lukkien's side going into this one."
+  },
+  {
+   "fact": "NEC travel to Dinamo Zagreb in the Europa League before this match — three fixtures in eight days, while Groningen have the week clear.",
+   "meaning": "Legs and rotation are a factor for the hosts; the visitors have had a full week to prepare."
+  },
+  {
+   "fact": "NEC created 3.06 xG against Fortuna Sittard and still only drew 2-2.",
+   "meaning": "They are making chances — the problem is turning them into three points, not creating them."
+  },
+  {
+   "fact": "The market's 50/50 goal total has moved from 3.14 to 3.35.",
+   "meaning": "More than three goals is now the midpoint of the market's expectation — an open game is priced."
+  }
+ ],
+ "article": null,
+ "sources": [
+  {
+   "fact": "NEC have gone eight matches without a win, drawing 2-2 at home to Fortuna Sittard after a missed penalty and a late equaliser.",
+   "source": "drimble.nl",
+   "url": "https://drimble.nl/regio/gelderland/nijmegen/108331882/nec-ontsnapt-aan-nederlaag-na-spectaculaire-slotfase-met-gemiste-strafschop-en-late-gelijkmaker.html",
+   "age": "3 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "The late point against Fortuna Sittard did little to ease the discontent around NEC, according to Dutch reports.",
+   "source": "drimble.nl",
+   "url": "https://drimble.nl/regio/gelderland/nijmegen/108331880/de-late-gelijkmaker-van-nec-tegen-fortuna-sittard-kan-de-onvrede-amper-wegnemen.html",
+   "age": "3 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Dusan Tadic has been left out of NEC's squad for the trip to Dinamo Zagreb.",
+   "source": "drimble.nl",
+   "url": "https://drimble.nl/regio/gelderland/nijmegen/108357271/nec-reist-zonder-tadic-af-naar-zagreb.html",
+   "age": "11 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Assistant coach Haris Medunjanin has left NEC of his own accord.",
+   "source": "www.gld.nl",
+   "url": "https://www.gld.nl/sport/8538003/nieuwenhuis-wint-veldrit-nec-onderweg-naar-zagreb",
+   "age": "11 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Willum Willumsson scored his first goal for NEC, a late header for 2-2 against Fortuna Sittard, but reports say he is unsure about a bench role given his limited playing time.",
+   "source": "www.vi.nl",
+   "url": "https://www.vi.nl/nieuws/nec-doelpuntenmaker-willumsson-dubt-over-reserverol",
+   "age": "2 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "NEC are travelling to Zagreb for Europa League duty between league games, with head coach Dick Schreuder in charge.",
+   "source": "drimble.nl",
+   "url": "https://drimble.nl/regio/gelderland/nijmegen/108331882/nec-ontsnapt-aan-nederlaag-na-spectaculaire-slotfase-met-gemiste-strafschop-en-late-gelijkmaker.html",
+   "age": "3 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Groningen were thrashed 5-2 at home by Ajax in their last Eredivisie match.",
+   "source": "www.flashscore.com",
+   "url": "https://www.flashscore.com/news/soccer-eredivisie-ajax-bounce-back-to-overwhelm-fc-groningen-with-five-star-win/8G2lscEU/",
+   "age": "3 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Groningen's 5-2 loss to Ajax exposed defensive problems in Dick Lukkien's team, according to Dagblad van het Noorden, with former Groningen director Hans Nijland offering a solution in a podcast.",
+   "source": "www.dvhn.nl",
+   "url": "https://www.dvhn.nl/sport/fc-groningen/hans-nijland-ziet-oplossing-voor-defensieve-problemen-van-fc-groningen-dan-moet-hans-hateboer-maar-naar-de-bank/163266178.html",
+   "age": "2 days ago",
+   "certainty": "reported"
+  }
+ ],
+ "video_title": "NEC winless in 8 — still narrow favourites",
+ "key_points": [
+  "NEC winless in eight",
+  "Groningen up to 34.5%",
+  "Goal total above three"
+ ],
+ "market": null,
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
+}

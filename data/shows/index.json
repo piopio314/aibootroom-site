@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T22:00:32+00:00",
+ "generated_at": "2026-10-21T22:08:51+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -742,6 +742,62 @@
    "youtube_id": "QfGiCXbBZPE",
    "article": null,
    "seconds": 53
+  },
+  {
+   "id": "2026-10-25-inter-fiorentina",
+   "home": "Inter",
+   "away": "Fiorentina",
+   "league": "Serie A",
+   "kickoff": "2026-10-25T11:30:00+00:00",
+   "title": "Inter without Lautaro: still clear favourites?",
+   "source": "market_desk",
+   "kicker": "MARKET ALERT",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-25-inter-fiorentina.html",
+   "seconds": 40
+  },
+  {
+   "id": "2026-10-25-genk-standard-liege",
+   "home": "Genk",
+   "away": "Standard Liege",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-10-25T12:30:00+00:00",
+   "title": "Genk favourites, but Standard keep creating chances",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-25-genk-standard-liege.html",
+   "seconds": 49
+  },
+  {
+   "id": "2026-10-25-konyaspor-gen-lerbirli-i-s-k",
+   "home": "Konyaspor",
+   "away": "Gençlerbirliği S.K.",
+   "league": "Super Lig",
+   "kickoff": "2026-10-25T13:00:00+00:00",
+   "title": "Konyaspor: 1 goal in five, still favourites",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-25-konyaspor-gen-lerbirli-i-s-k.html",
+   "seconds": 43
+  },
+  {
+   "id": "2026-10-25-nec-nijmegen-groningen",
+   "home": "NEC Nijmegen",
+   "away": "Groningen",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-25T13:30:00+00:00",
+   "title": "NEC winless in 8 — still narrow favourites",
+   "source": "market_desk",
+   "kicker": "MARKET ALERT",
+   "voiced": true,
+   "youtube_id": null,
+   "article": null,
+   "seconds": 51
   },
   {
    "id": "2026-10-25-barcelona-real-madrid",
