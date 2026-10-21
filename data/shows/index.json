@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T21:32:12+00:00",
+ "generated_at": "2026-10-21T21:37:36+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -548,6 +548,34 @@
    "seconds": 43
   },
   {
+   "id": "2026-10-24-racing-santander-espanyol",
+   "home": "Racing Santander",
+   "away": "Espanyol",
+   "league": "La Liga",
+   "kickoff": "2026-10-24T14:15:00+00:00",
+   "title": "Racing Santander concede 3.26 a game — still favourites",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-racing-santander-espanyol.html",
+   "seconds": 51
+  },
+  {
+   "id": "2026-10-24-utrecht-pec-zwolle",
+   "home": "Utrecht",
+   "away": "PEC Zwolle",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-24T14:30:00+00:00",
+   "title": "Zwolle won 4-1, lost their coach — now Utrecht away",
+   "source": "market_desk",
+   "kicker": "FAVOURITE FADING",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-utrecht-pec-zwolle.html",
+   "seconds": 52
+  },
+  {
    "id": "2026-10-24-napoli-as-roma",
    "home": "Napoli",
    "away": "AS Roma",
@@ -558,7 +586,7 @@
    "kicker": "MARKET READ",
    "voiced": true,
    "youtube_id": null,
-   "article": null,
+   "article": "/m/2026-10-24-napoli-as-roma.html",
    "seconds": 48
   },
   {
