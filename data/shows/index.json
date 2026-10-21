@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T13:34:53+00:00",
+ "generated_at": "2026-10-21T13:39:36+00:00",
  "shows": [
   {
    "id": "2026-10-22-juventus-rennes",
@@ -26,6 +26,19 @@
    "voiced": true,
    "youtube_id": null,
    "seconds": 44
+  },
+  {
+   "id": "2026-10-24-napoli-as-roma",
+   "home": "Napoli",
+   "away": "AS Roma",
+   "league": "Serie A",
+   "kickoff": "2026-10-24T16:00:00+00:00",
+   "title": "Roma 37.8%: narrow favourites at Napoli",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "seconds": 48
   },
   {
    "id": "2026-10-24-chelsea-tottenham",

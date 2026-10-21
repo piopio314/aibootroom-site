@@ -1,0 +1,855 @@
+{
+ "id": "2026-10-24-napoli-as-roma",
+ "title": "Roma 37.8%: narrow favourites at Napoli",
+ "match": {
+  "home": "Napoli",
+  "away": "AS Roma",
+  "league": "Serie A",
+  "kickoff": "2026-10-24T16:00:00+00:00",
+  "home_short": "NAP",
+  "away_short": "ROM",
+  "home_color": "#12a0d7",
+  "away_color": "#8e1f2f"
+ },
+ "market": {
+  "fair": {
+   "home": 34.4,
+   "draw": 27.7,
+   "away": 37.8
+  },
+  "move": {
+   "home": 1.0,
+   "draw": 0.1,
+   "away": -1.1
+  },
+  "side": "home",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 33.4
+   },
+   {
+    "t": "2026-10-19T07:36:00+00:00",
+    "v": 33.4
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "v": 34.6
+   },
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "v": 34.6
+   },
+   {
+    "t": "2026-10-20T04:23:00+00:00",
+    "v": 34.4
+   },
+   {
+    "t": "2026-10-21T04:24:00+00:00",
+    "v": 34.4
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 33.4
+    },
+    {
+     "t": "2026-10-19T07:36:00+00:00",
+     "v": 33.4
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 34.6
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 34.6
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 34.4
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 34.4
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 27.7
+    },
+    {
+     "t": "2026-10-19T07:36:00+00:00",
+     "v": 27.7
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 27.8
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 27.8
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 27.7
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 27.7
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 38.9
+    },
+    {
+     "t": "2026-10-19T07:36:00+00:00",
+     "v": 38.9
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 37.6
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 37.6
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 37.8
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 37.8
+    }
+   ]
+  },
+  "goals": 2.54,
+  "goals_rank": 12,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T10:21:00+00:00"
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Roma are narrow favourites at Napoli: 37.8%.",
+   "show": {
+    "kind": "chance",
+    "team": "away",
+    "value": 37.8
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-napoli-as-roma/s0.mp3",
+   "words": [
+    {
+     "w": "Roma",
+     "start": 0.12,
+     "end": 0.52
+    },
+    {
+     "w": "are",
+     "start": 0.6,
+     "end": 0.68
+    },
+    {
+     "w": "narrow",
+     "start": 0.68,
+     "end": 1
+    },
+    {
+     "w": "favourites",
+     "start": 1.0,
+     "end": 1.56
+    },
+    {
+     "w": "at",
+     "start": 1.64,
+     "end": 1.64
+    },
+    {
+     "w": "Napoli:",
+     "start": 1.64,
+     "end": 2.28
+    },
+    {
+     "w": "37.8%.",
+     "start": 2.448,
+     "end": 4.04
+    }
+   ],
+   "durationInFrames": 129
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Saturday in Serie A, and Napoli host Roma.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-napoli-as-roma/s1.mp3",
+   "words": [
+    {
+     "w": "Saturday",
+     "start": 0.12,
+     "end": 0.68
+    },
+    {
+     "w": "in",
+     "start": 0.76,
+     "end": 0.84
+    },
+    {
+     "w": "Serie",
+     "start": 0.92,
+     "end": 1.24
+    },
+    {
+     "w": "A,",
+     "start": 1.24,
+     "end": 1.48
+    },
+    {
+     "w": "and",
+     "start": 1.871,
+     "end": 1.96
+    },
+    {
+     "w": "Napoli",
+     "start": 1.96,
+     "end": 2.36
+    },
+    {
+     "w": "host",
+     "start": 2.44,
+     "end": 2.76
+    },
+    {
+     "w": "Roma.",
+     "start": 2.76,
+     "end": 3.24
+    }
+   ],
+   "durationInFrames": 105
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Napoli are close behind them, at 34.4%.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 34.4
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-napoli-as-roma/s2.mp3",
+   "words": [
+    {
+     "w": "Napoli",
+     "start": 0.12,
+     "end": 0.6
+    },
+    {
+     "w": "are",
+     "start": 0.68,
+     "end": 0.68
+    },
+    {
+     "w": "close",
+     "start": 0.681,
+     "end": 1
+    },
+    {
+     "w": "behind",
+     "start": 1.08,
+     "end": 1.32
+    },
+    {
+     "w": "them,",
+     "start": 1.32,
+     "end": 1.56
+    },
+    {
+     "w": "at",
+     "start": 1.799,
+     "end": 1.88
+    },
+    {
+     "w": "34.4%.",
+     "start": 1.88,
+     "end": 3.32
+    }
+   ],
+   "durationInFrames": 108
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The handicap is level: Roma rated just 0.07 of a goal better.",
+   "show": {
+    "kind": "stat",
+    "label": "Handicap, Roma",
+    "value": "0.07"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-napoli-as-roma/s3.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.12,
+     "end": 0.2
+    },
+    {
+     "w": "handicap",
+     "start": 0.28,
+     "end": 0.76
+    },
+    {
+     "w": "is",
+     "start": 0.84,
+     "end": 0.92
+    },
+    {
+     "w": "level:",
+     "start": 0.92,
+     "end": 1.32
+    },
+    {
+     "w": "Roma",
+     "start": 1.549,
+     "end": 1.96
+    },
+    {
+     "w": "rated",
+     "start": 2.04,
+     "end": 2.36
+    },
+    {
+     "w": "just",
+     "start": 2.36,
+     "end": 2.68
+    },
+    {
+     "w": "0.07",
+     "start": 2.76,
+     "end": 4.04
+    },
+    {
+     "w": "of",
+     "start": 4.12,
+     "end": 4.12
+    },
+    {
+     "w": "a",
+     "start": 4.12,
+     "end": 4.2
+    },
+    {
+     "w": "goal",
+     "start": 4.28,
+     "end": 4.44
+    },
+    {
+     "w": "better.",
+     "start": 4.52,
+     "end": 4.84
+    }
+   ],
+   "durationInFrames": 153
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Napoli lose first-choice defender Buongiorno to a knee injury — a real blow.",
+   "show": {
+    "kind": "absence",
+    "team": "home",
+    "player": "Alessandro Buongiorno",
+    "status": "out"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-napoli-as-roma/s4.mp3",
+   "words": [
+    {
+     "w": "Napoli",
+     "start": 0.12,
+     "end": 0.6
+    },
+    {
+     "w": "lose",
+     "start": 0.6,
+     "end": 0.92
+    },
+    {
+     "w": "first-choice",
+     "start": 1.0,
+     "end": 1.56
+    },
+    {
+     "w": "defender",
+     "start": 1.56,
+     "end": 1.96
+    },
+    {
+     "w": "Buongiorno",
+     "start": 1.96,
+     "end": 2.68
+    },
+    {
+     "w": "to",
+     "start": 2.76,
+     "end": 2.84
+    },
+    {
+     "w": "a",
+     "start": 2.92,
+     "end": 2.92
+    },
+    {
+     "w": "knee",
+     "start": 2.92,
+     "end": 3.16
+    },
+    {
+     "w": "injury",
+     "start": 3.16,
+     "end": 3.44
+    },
+    {
+     "w": "—",
+     "start": 3.44,
+     "end": 3.72
+    },
+    {
+     "w": "a",
+     "start": 3.948,
+     "end": 3.96
+    },
+    {
+     "w": "real",
+     "start": 4.04,
+     "end": 4.36
+    },
+    {
+     "w": "blow.",
+     "start": 4.36,
+     "end": 4.76
+    }
+   ],
+   "durationInFrames": 151
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Roma also miss defender Bah — both sides short at the back.",
+   "show": {
+    "kind": "absence",
+    "team": "away",
+    "player": "M. Bah",
+    "status": "out"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-napoli-as-roma/s5.mp3",
+   "words": [
+    {
+     "w": "Roma",
+     "start": 0.12,
+     "end": 0.52
+    },
+    {
+     "w": "also",
+     "start": 0.6,
+     "end": 0.84
+    },
+    {
+     "w": "miss",
+     "start": 0.84,
+     "end": 1
+    },
+    {
+     "w": "defender",
+     "start": 1.08,
+     "end": 1.48
+    },
+    {
+     "w": "Bah",
+     "start": 1.48,
+     "end": 1.68
+    },
+    {
+     "w": "—",
+     "start": 1.68,
+     "end": 1.88
+    },
+    {
+     "w": "both",
+     "start": 1.986,
+     "end": 2.2
+    },
+    {
+     "w": "sides",
+     "start": 2.28,
+     "end": 2.52
+    },
+    {
+     "w": "short",
+     "start": 2.52,
+     "end": 2.84
+    },
+    {
+     "w": "at",
+     "start": 2.92,
+     "end": 2.92
+    },
+    {
+     "w": "the",
+     "start": 3,
+     "end": 3
+    },
+    {
+     "w": "back.",
+     "start": 3,
+     "end": 3.48
+    }
+   ],
+   "durationInFrames": 112
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Over 2.5 goals is 50.9% — a genuinely split goals game.",
+   "show": {
+    "kind": "over",
+    "line": 2.5,
+    "value": 50.9
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-napoli-as-roma/s6.mp3",
+   "words": [
+    {
+     "w": "Over",
+     "start": 0.12,
+     "end": 0.36
+    },
+    {
+     "w": "2.5",
+     "start": 0.44,
+     "end": 1.16
+    },
+    {
+     "w": "goals",
+     "start": 1.16,
+     "end": 1.64
+    },
+    {
+     "w": "is",
+     "start": 1.64,
+     "end": 1.96
+    },
+    {
+     "w": "50.9%",
+     "start": 2.04,
+     "end": 2.64
+    },
+    {
+     "w": "—",
+     "start": 2.64,
+     "end": 3.24
+    },
+    {
+     "w": "a",
+     "start": 3.557,
+     "end": 3.64
+    },
+    {
+     "w": "genuinely",
+     "start": 3.72,
+     "end": 4.28
+    },
+    {
+     "w": "split",
+     "start": 4.28,
+     "end": 4.52
+    },
+    {
+     "w": "goals",
+     "start": 4.6,
+     "end": 4.84
+    },
+    {
+     "w": "game.",
+     "start": 4.84,
+     "end": 5.24
+    }
+   ],
+   "durationInFrames": 165
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Both teams to score is 56.1%, more likely than not.",
+   "show": {
+    "kind": "stat",
+    "label": "Both teams score",
+    "value": "56.1%"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-napoli-as-roma/s7.mp3",
+   "words": [
+    {
+     "w": "Both",
+     "start": 0.12,
+     "end": 0.44
+    },
+    {
+     "w": "teams",
+     "start": 0.52,
+     "end": 0.76
+    },
+    {
+     "w": "to",
+     "start": 0.76,
+     "end": 0.84
+    },
+    {
+     "w": "score",
+     "start": 0.92,
+     "end": 1.32
+    },
+    {
+     "w": "is",
+     "start": 1.32,
+     "end": 1.56
+    },
+    {
+     "w": "56.1%,",
+     "start": 1.64,
+     "end": 3.16
+    },
+    {
+     "w": "more",
+     "start": 3.398,
+     "end": 3.48
+    },
+    {
+     "w": "likely",
+     "start": 3.56,
+     "end": 3.8
+    },
+    {
+     "w": "than",
+     "start": 3.8,
+     "end": 3.96
+    },
+    {
+     "w": "not.",
+     "start": 4.04,
+     "end": 4.36
+    }
+   ],
+   "durationInFrames": 139
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The draw is the least likely result, at 27.7%.",
+   "show": {
+    "kind": "chance",
+    "team": "draw",
+    "value": 27.7
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-napoli-as-roma/s8.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "draw",
+     "start": 0.36,
+     "end": 0.68
+    },
+    {
+     "w": "is",
+     "start": 0.68,
+     "end": 0.84
+    },
+    {
+     "w": "the",
+     "start": 0.92,
+     "end": 1
+    },
+    {
+     "w": "least",
+     "start": 1.08,
+     "end": 1.32
+    },
+    {
+     "w": "likely",
+     "start": 1.32,
+     "end": 1.72
+    },
+    {
+     "w": "result,",
+     "start": 1.72,
+     "end": 2.2
+    },
+    {
+     "w": "at",
+     "start": 2.44,
+     "end": 2.52
+    },
+    {
+     "w": "27.7%.",
+     "start": 2.52,
+     "end": 4.28
+    }
+   ],
+   "durationInFrames": 136
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "A level match, with Roma a small step ahead.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Roma slight favourites",
+     "Handicap level",
+     "Goals line split"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-napoli-as-roma/s9.mp3",
+   "words": [
+    {
+     "w": "A",
+     "start": 0.04,
+     "end": 0.12
+    },
+    {
+     "w": "level",
+     "start": 0.12,
+     "end": 0.44
+    },
+    {
+     "w": "match,",
+     "start": 0.44,
+     "end": 0.92
+    },
+    {
+     "w": "with",
+     "start": 1.159,
+     "end": 1.4
+    },
+    {
+     "w": "Roma",
+     "start": 1.4,
+     "end": 1.8
+    },
+    {
+     "w": "a",
+     "start": 1.88,
+     "end": 1.88
+    },
+    {
+     "w": "small",
+     "start": 1.96,
+     "end": 2.2
+    },
+    {
+     "w": "step",
+     "start": 2.2,
+     "end": 2.44
+    },
+    {
+     "w": "ahead.",
+     "start": 2.52,
+     "end": 2.92
+    }
+   ],
+   "durationInFrames": 103
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-napoli-as-roma/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.114,
+     "end": 0.52
+    },
+    {
+     "w": "Boot",
+     "start": 0.6,
+     "end": 0.76
+    },
+    {
+     "w": "Room.",
+     "start": 0.76,
+     "end": 1.08
+    },
+    {
+     "w": "Football",
+     "start": 1.386,
+     "end": 1.8
+    },
+    {
+     "w": "analysis,",
+     "start": 1.8,
+     "end": 2.52
+    },
+    {
+     "w": "with",
+     "start": 2.689,
+     "end": 2.84
+    },
+    {
+     "w": "receipts.",
+     "start": 2.84,
+     "end": 3.48
+    }
+   ],
+   "durationInFrames": 137
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "market_read",
+  "kicker": "MARKET READ",
+  "stickers": [
+   "🧠",
+   "👀",
+   "🧠"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1550164,
+ "prices_as_of": "2026-10-21T10:21:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}
