@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T21:24:27+00:00",
+ "generated_at": "2026-10-21T21:32:12+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -464,6 +464,20 @@
    "seconds": 45
   },
   {
+   "id": "2026-10-24-cardiff-birmingham",
+   "home": "Cardiff",
+   "away": "Birmingham",
+   "league": "Championship",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "title": "Birmingham's form meets Cardiff's hold on this fixture",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-cardiff-birmingham.html",
+   "seconds": 49
+  },
+  {
    "id": "2026-10-24-preston-west-brom",
    "home": "Preston",
    "away": "West Brom",
@@ -476,6 +490,62 @@
    "youtube_id": null,
    "article": "/m/2026-10-24-preston-west-brom.html",
    "seconds": 50
+  },
+  {
+   "id": "2026-10-24-qpr-swansea",
+   "home": "QPR",
+   "away": "Swansea",
+   "league": "Championship",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "title": "Swansea top the table — QPR are the home favourites",
+   "source": "market_desk",
+   "kicker": "MARKET ALERT",
+   "voiced": true,
+   "youtube_id": null,
+   "article": null,
+   "seconds": 53
+  },
+  {
+   "id": "2026-10-24-stoke-city-bristol-city",
+   "home": "Stoke City",
+   "away": "Bristol City",
+   "league": "Championship",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "title": "Stoke keep winning; the market stays cautious",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": null,
+   "seconds": 47
+  },
+  {
+   "id": "2026-10-24-west-ham-southampton",
+   "home": "West Ham",
+   "away": "Southampton",
+   "league": "Championship",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "title": "West Ham second, Southampton cannot finish",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-west-ham-southampton.html",
+   "seconds": 54
+  },
+  {
+   "id": "2026-10-24-wolves-watford",
+   "home": "Wolves",
+   "away": "Watford",
+   "league": "Championship",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "title": "Wolves favourites, but Peixoto still under pressure",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-wolves-watford.html",
+   "seconds": 43
   },
   {
    "id": "2026-10-24-napoli-as-roma",

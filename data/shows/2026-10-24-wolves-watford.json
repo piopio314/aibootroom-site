@@ -1,0 +1,709 @@
+{
+ "id": "2026-10-24-wolves-watford",
+ "title": "Wolves favourites, but Peixoto still under pressure",
+ "match": {
+  "home": "Wolves",
+  "away": "Watford",
+  "league": "Championship",
+  "kickoff": "2026-10-24T14:00:00+00:00",
+  "home_short": "WOL",
+  "away_short": "WAT",
+  "home_color": "#9333ea",
+  "away_color": "#15803d"
+ },
+ "market": {
+  "fair": {
+   "home": 68.5,
+   "draw": 19.1,
+   "away": 12.4
+  },
+  "move": {
+   "home": 0.0,
+   "draw": 0.0,
+   "away": 0.0
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-19T22:19:00+00:00",
+    "v": 12.4
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-19T22:19:00+00:00",
+     "v": 68.5
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-19T22:19:00+00:00",
+     "v": 19.1
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-19T22:19:00+00:00",
+     "v": 12.4
+    }
+   ]
+  },
+  "goals": 3.0,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-19T22:19:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 8
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market makes Wolves 68.5% favourites against Watford.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 68.5
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-wolves-watford/s0.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "market",
+     "start": 0.325,
+     "end": 0.637
+    },
+    {
+     "w": "makes",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Wolves",
+     "start": 0.9,
+     "end": 1.5
+    },
+    {
+     "w": "68.5%",
+     "start": 1.5,
+     "end": 3.1
+    },
+    {
+     "w": "favourites",
+     "start": 3.1,
+     "end": 3.575
+    },
+    {
+     "w": "against",
+     "start": 3.575,
+     "end": 3.95
+    },
+    {
+     "w": "Watford.",
+     "start": 3.95,
+     "end": 4.875
+    }
+   ],
+   "durationInFrames": 154
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "They meet at Molineux in the Championship on Saturday.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-wolves-watford/s1.mp3",
+   "words": [
+    {
+     "w": "They",
+     "start": 0.25,
+     "end": 0.4
+    },
+    {
+     "w": "meet",
+     "start": 0.4,
+     "end": 0.6
+    },
+    {
+     "w": "at",
+     "start": 0.6,
+     "end": 0.725
+    },
+    {
+     "w": "Molineux",
+     "start": 0.725,
+     "end": 1.35
+    },
+    {
+     "w": "in",
+     "start": 1.35,
+     "end": 1.438
+    },
+    {
+     "w": "the",
+     "start": 1.438,
+     "end": 1.538
+    },
+    {
+     "w": "Championship",
+     "start": 1.538,
+     "end": 2.25
+    },
+    {
+     "w": "on",
+     "start": 2.25,
+     "end": 2.462
+    },
+    {
+     "w": "Saturday.",
+     "start": 2.462,
+     "end": 3.45
+    }
+   ],
+   "durationInFrames": 112
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Watford lost 5-1 at Cardiff last week.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Cardiff",
+    "score": "1-5",
+    "when": "last week"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-wolves-watford/s2.mp3",
+   "words": [
+    {
+     "w": "Watford",
+     "start": 0.25,
+     "end": 0.625
+    },
+    {
+     "w": "lost",
+     "start": 0.625,
+     "end": 0.925
+    },
+    {
+     "w": "5-1",
+     "start": 0.925,
+     "end": 1.288
+    },
+    {
+     "w": "at",
+     "start": 1.288,
+     "end": 1.375
+    },
+    {
+     "w": "Cardiff",
+     "start": 1.375,
+     "end": 1.775
+    },
+    {
+     "w": "last",
+     "start": 1.775,
+     "end": 2.125
+    },
+    {
+     "w": "week.",
+     "start": 2.125,
+     "end": 2.8
+    }
+   ],
+   "durationInFrames": 92
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Football Insider reports Peixoto could be sacked if Wolves do not win.",
+   "show": {
+    "kind": "news",
+    "source": "Football Insider",
+    "text": "Peixoto could be sacked if Wolves fail to win"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-wolves-watford/s3.mp3",
+   "words": [
+    {
+     "w": "Football",
+     "start": 0.25,
+     "end": 0.6
+    },
+    {
+     "w": "Insider",
+     "start": 0.6,
+     "end": 1.125
+    },
+    {
+     "w": "reports",
+     "start": 1.125,
+     "end": 1.55
+    },
+    {
+     "w": "Peixoto",
+     "start": 1.55,
+     "end": 2.3
+    },
+    {
+     "w": "could",
+     "start": 2.3,
+     "end": 2.413
+    },
+    {
+     "w": "be",
+     "start": 2.413,
+     "end": 2.562
+    },
+    {
+     "w": "sacked",
+     "start": 2.562,
+     "end": 2.925
+    },
+    {
+     "w": "if",
+     "start": 2.925,
+     "end": 3.087
+    },
+    {
+     "w": "Wolves",
+     "start": 3.087,
+     "end": 3.475
+    },
+    {
+     "w": "do",
+     "start": 3.475,
+     "end": 3.6
+    },
+    {
+     "w": "not",
+     "start": 3.6,
+     "end": 3.85
+    },
+    {
+     "w": "win.",
+     "start": 3.85,
+     "end": 4.55
+    }
+   ],
+   "durationInFrames": 145
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Wolves drew 1-1 at home with Portsmouth on Tuesday.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Portsmouth",
+    "score": "1-1",
+    "when": "Tuesday"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-wolves-watford/s4.mp3",
+   "words": [
+    {
+     "w": "Wolves",
+     "start": 0.275,
+     "end": 0.65
+    },
+    {
+     "w": "drew",
+     "start": 0.65,
+     "end": 0.875
+    },
+    {
+     "w": "1-1",
+     "start": 0.875,
+     "end": 1.137
+    },
+    {
+     "w": "at",
+     "start": 1.137,
+     "end": 1.225
+    },
+    {
+     "w": "home",
+     "start": 1.225,
+     "end": 1.562
+    },
+    {
+     "w": "with",
+     "start": 1.562,
+     "end": 1.725
+    },
+    {
+     "w": "Portsmouth",
+     "start": 1.725,
+     "end": 2.3
+    },
+    {
+     "w": "on",
+     "start": 2.3,
+     "end": 2.513
+    },
+    {
+     "w": "Tuesday.",
+     "start": 2.513,
+     "end": 3.475
+    }
+   ],
+   "durationInFrames": 112
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Adam Armstrong has missed Wolves' last 2 games with a back injury.",
+   "show": {
+    "kind": "absence",
+    "team": "home",
+    "player": "Adam Armstrong",
+    "status": "out",
+    "line": "back injury, 2 games missed"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-wolves-watford/s5.mp3",
+   "words": [
+    {
+     "w": "Adam",
+     "start": 0.275,
+     "end": 0.55
+    },
+    {
+     "w": "Armstrong",
+     "start": 0.55,
+     "end": 1.1
+    },
+    {
+     "w": "has",
+     "start": 1.1,
+     "end": 1.3
+    },
+    {
+     "w": "missed",
+     "start": 1.3,
+     "end": 1.575
+    },
+    {
+     "w": "Wolves'",
+     "start": 1.575,
+     "end": 1.95
+    },
+    {
+     "w": "last",
+     "start": 1.95,
+     "end": 2.288
+    },
+    {
+     "w": "2",
+     "start": 2.288,
+     "end": 2.5
+    },
+    {
+     "w": "games",
+     "start": 2.5,
+     "end": 2.888
+    },
+    {
+     "w": "with",
+     "start": 2.888,
+     "end": 2.987
+    },
+    {
+     "w": "a",
+     "start": 2.987,
+     "end": 3.05
+    },
+    {
+     "w": "back",
+     "start": 3.05,
+     "end": 3.325
+    },
+    {
+     "w": "injury.",
+     "start": 3.325,
+     "end": 4.175
+    }
+   ],
+   "durationInFrames": 133
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Watford have conceded 2.0 expected goals a game.",
+   "show": {
+    "kind": "stat",
+    "label": "xG conceded per game",
+    "value": "2.0"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-wolves-watford/s6.mp3",
+   "words": [
+    {
+     "w": "Watford",
+     "start": 0.25,
+     "end": 0.613
+    },
+    {
+     "w": "have",
+     "start": 0.613,
+     "end": 0.725
+    },
+    {
+     "w": "conceded",
+     "start": 0.725,
+     "end": 1.238
+    },
+    {
+     "w": "2.0",
+     "start": 1.238,
+     "end": 1.45
+    },
+    {
+     "w": "expected",
+     "start": 1.45,
+     "end": 2.025
+    },
+    {
+     "w": "goals",
+     "start": 2.025,
+     "end": 2.425
+    },
+    {
+     "w": "a",
+     "start": 2.425,
+     "end": 2.525
+    },
+    {
+     "w": "game.",
+     "start": 2.525,
+     "end": 3.3
+    }
+   ],
+   "durationInFrames": 107
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "So the handicap — a goals head start — is Wolves minus 1.25.",
+   "show": {
+    "kind": "stat",
+    "label": "Wolves minus (goals)",
+    "value": "1.25"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-wolves-watford/s7.mp3",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.25,
+     "end": 0.362
+    },
+    {
+     "w": "the",
+     "start": 0.362,
+     "end": 0.45
+    },
+    {
+     "w": "handicap—",
+     "start": 0.45,
+     "end": 1.125
+    },
+    {
+     "w": "a",
+     "start": 1.2,
+     "end": 1.275
+    },
+    {
+     "w": "goals",
+     "start": 1.275,
+     "end": 1.625
+    },
+    {
+     "w": "head",
+     "start": 1.625,
+     "end": 1.85
+    },
+    {
+     "w": "start—",
+     "start": 1.85,
+     "end": 2.487
+    },
+    {
+     "w": "is",
+     "start": 2.575,
+     "end": 2.725
+    },
+    {
+     "w": "Wolves",
+     "start": 2.725,
+     "end": 3.1
+    },
+    {
+     "w": "minus",
+     "start": 3.1,
+     "end": 3.487
+    },
+    {
+     "w": "1.25.",
+     "start": 3.487,
+     "end": 5.0
+    }
+   ],
+   "durationInFrames": 158
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Wolves are clear favourites, but a win may not save Peixoto.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Clear favourites at home",
+     "Watford's defence is the reason",
+     "Peixoto still under pressure"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-wolves-watford/s8.mp3",
+   "words": [
+    {
+     "w": "Wolves",
+     "start": 0.275,
+     "end": 0.588
+    },
+    {
+     "w": "are",
+     "start": 0.588,
+     "end": 0.675
+    },
+    {
+     "w": "clear",
+     "start": 0.675,
+     "end": 0.963
+    },
+    {
+     "w": "favourites,",
+     "start": 0.963,
+     "end": 1.625
+    },
+    {
+     "w": "but",
+     "start": 1.688,
+     "end": 1.812
+    },
+    {
+     "w": "a",
+     "start": 1.812,
+     "end": 1.913
+    },
+    {
+     "w": "win",
+     "start": 1.913,
+     "end": 2.15
+    },
+    {
+     "w": "may",
+     "start": 2.15,
+     "end": 2.312
+    },
+    {
+     "w": "not",
+     "start": 2.312,
+     "end": 2.55
+    },
+    {
+     "w": "save",
+     "start": 2.55,
+     "end": 2.825
+    },
+    {
+     "w": "Peixoto.",
+     "start": 2.825,
+     "end": 3.975
+    }
+   ],
+   "durationInFrames": 134
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-wolves-watford/s9.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
+  "stickers": [
+   "🎯",
+   "🎯",
+   "🏟️"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1563226,
+ "prices_as_of": "2026-10-21T19:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}
