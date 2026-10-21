@@ -4,45 +4,45 @@
  "home": "Eyüpspor",
  "away": "Kasımpaşa",
  "kickoff": "2026-10-24T10:30:00+00:00",
- "generated_at": "2026-10-21T20:53:55+00:00",
- "headline": "No goals in five games, and Kasımpaşa are the clear favourites",
- "summary": "Eyüpspor are 18th of 18 in the Süper Lig, with 3 points from 8 games and a goal difference of -20. They have lost 5 in a row without scoring, and on 12 October Göztepe won 0-4 at their ground. Kasımpaşa are the visitors on Saturday: 7th on 13 points, after a 4-1 home win over Samsunspor on 18 October. The market makes them 60.6% favourites, against Eyüpspor's 15.9%, and the handicap rates them 0.92 goals the better side. With Eyüpspor not scoring, Over 2.5 goals is only 47%.",
- "read": "Eyüpspor are bottom of the Süper Lig with five straight defeats and no goals scored in any of them, and they host a Kasımpaşa side that has just beaten Samsunspor 4-1 and sits seventh. The market makes Kasımpaşa about 60% favourites and rates them roughly a goal the better side, while the total line of 2.39 suggests the goals may not flow freely.",
+ "generated_at": "2026-10-21T23:35:01+00:00",
+ "headline": "Eyüpspor have not scored in five games; Kasımpaşa visit",
+ "summary": "Eyüpspor have lost their last five Süper Lig games without scoring — 0-19 across that run — and sit 18th of 18 with a goal difference of -20. Kasımpaşa arrive seventh on 13 points after a 4-1 home win over Samsunspor, beaten once in eight league games, and they have won three of the last four meetings. Across 10 bookmakers, with the margin removed, Kasımpaşa are 60.6% favourites, almost four times Eyüpspor's chance. Yet the goals market stays low: Eyüpspor get a head start of 0.92 goals, and over 2.5 goals is only 47%.",
+ "read": "Bottom-of-the-table Eyüpspor have lost five straight league games without scoring, conceding 19, and now host a Kasımpaşa side sitting seventh with one defeat in eight. The market makes Kasımpaşa clear 60.6% favourites, rated about a goal the better, with the goals line leaning just under 2.5.",
  "facts": [
   {
-   "fact": "Eyüpspor have lost their last five Süper Lig matches and have not scored a single goal in any of them.",
-   "meaning": "The bottom side goes into this with no attacking return to fall back on, which is why they start as big underdogs at home."
+   "fact": "Eyüpspor have lost their last five Süper Lig matches by a combined 0-19 without scoring a single goal.",
+   "meaning": "They come into a home game with no attacking return at all in five matches and a defence shipping almost four a game."
   },
   {
-   "fact": "Eyüpspor are 18th of 18 in the Süper Lig with 3 points from 8 games and a goal difference of -20.",
-   "meaning": "They are cut adrift at the bottom, which frames this as a home game against a side with far more to play for in the table."
+   "fact": "Kasımpaşa are 60.6% to win at Eyüpspor, with the hosts at 15.9%.",
+   "meaning": "The visitors are clear favourites, rated roughly four times more likely than the home side."
   },
   {
-   "fact": "Kasımpaşa are 60.6% to win away at Eyüpspor, who are 15.9% — almost four times the home side's chance.",
-   "meaning": "The market sees a clear away favourite rather than a close game in Istanbul."
+   "fact": "Eyüpspor are 18th of 18 with a goal difference of -20 after eight games.",
+   "meaning": "They need points urgently and carry the heaviest defensive record in the division."
   },
   {
-   "fact": "Kasımpaşa beat Samsunspor 4-1 at home on 18 October and sit 7th on 13 points with a WLDWD run.",
-   "meaning": "Emre Belözoğlu's side arrive on the back of their biggest scoring afternoon of the run, with two wins and two draws in five."
+   "fact": "Kasımpaşa beat Samsunspor 4-1 at home on Matchday 8.",
+   "meaning": "They arrive on the back of a four-goal home performance and with their strong start intact."
   },
   {
-   "fact": "The handicap fair line is 0.92 in Eyüpspor's favour on the home line, so Kasımpaşa are rated roughly a goal better on neutral ground.",
-   "meaning": "The market expects a one-goal away win to be about a coin flip — Eyüpspor +1 is the main line and is priced near even money."
+   "fact": "The handicap fair line is 0.92 in Eyüpspor's favour, with the main line set at Eyüpspor +1.",
+   "meaning": "The market expects a Kasımpaşa win by roughly one goal rather than a rout."
   },
   {
-   "fact": "Over 2.5 goals is priced at 47.0%, with the total fair line at 2.39 — the market leans just under three goals.",
-   "meaning": "This is not expected to be a high-scoring game despite the 4-1 last time out for Kasımpaşa."
+   "fact": "Over 2.5 goals is priced at 47.0%, with the market's fair total at 2.39 goals.",
+   "meaning": "The market leans slightly to under 2.5 — a one-sided game, but not necessarily a high-scoring one."
   },
   {
-   "fact": "Eyüpspor +1 on the handicap moved from 50.6% to 52.6% in recent days, while Kasımpaşa -1 drifted the other way.",
-   "meaning": "A small amount of support arrived for the home side with a one-goal start, even as the overall picture stayed firmly in Kasımpaşa's favour."
+   "fact": "Kasımpaşa sit seventh with 13 points from eight games.",
+   "meaning": "They are the established top-half side in this fixture and travel as such."
   },
   {
-   "fact": "Eyüpspor's Y. Barasi is listed as doubtful with an injury, having played 293 minutes across 8 appearances this season.",
-   "meaning": "Their most-used listed attacker is a doubt for a team that has not scored in five games, so the forward line may be even thinner."
+   "fact": "Eyüpspor have conceded 2.84 expected goals per game over their last five while creating 0.93.",
+   "meaning": ""
   }
  ],
- "article": null,
+ "article": "/m/2026-10-24-ey-pspor-kas-mpa-a.html",
  "sources": [
   {
    "fact": "Eyüpspor lost 4-0 away to Göztepe after the international break, according to Haberler.",
@@ -87,11 +87,11 @@
    "certainty": "reported"
   }
  ],
- "video_title": "No goals in five games — Kasımpaşa the clear favourites",
+ "video_title": "Eyüpspor cannot score: Kasımpaşa are clear favourites",
  "key_points": [
-  "Eyüpspor: five defeats, no goals",
-  "Kasımpaşa 4-1 winners, up to 7th",
-  "Market: away side a goal better"
+  "Five straight defeats, zero goals",
+  "Kasımpaşa 60.6% away favourites",
+  "Under 2.5 goals favoured"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."

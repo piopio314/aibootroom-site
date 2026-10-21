@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T23:34:30+00:00",
+ "generated_at": "2026-10-21T23:41:09+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -366,6 +366,34 @@
    "seconds": 45
   },
   {
+   "id": "2026-10-23-vit-ria-sc-maritimo",
+   "home": "Vitória SC",
+   "away": "Maritimo",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-23T19:45:00+00:00",
+   "title": "Vitória are 15th — and still favourites",
+   "source": "market_desk",
+   "kicker": "FAVOURITE FADING",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-23-vit-ria-sc-maritimo.html",
+   "seconds": 46
+  },
+  {
+   "id": "2026-10-24-ey-pspor-kas-mpa-a",
+   "home": "Eyüpspor",
+   "away": "Kasımpaşa",
+   "league": "Super Lig",
+   "kickoff": "2026-10-24T10:30:00+00:00",
+   "title": "Eyüpspor cannot score: Kasımpaşa are clear favourites",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-ey-pspor-kas-mpa-a.html",
+   "seconds": 51
+  },
+  {
    "id": "2026-10-24-aston-villa-manchester-city",
    "home": "Aston Villa",
    "away": "Manchester City",
@@ -392,6 +420,20 @@
    "youtube_id": null,
    "article": "/m/2026-10-24-charlton-norwich.html",
    "seconds": 47
+  },
+  {
+   "id": "2026-10-24-portsmouth-millwall",
+   "home": "Portsmouth",
+   "away": "Millwall",
+   "league": "Championship",
+   "kickoff": "2026-10-24T11:30:00+00:00",
+   "title": "Level on points at Fratton Park: two broken squads",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-portsmouth-millwall.html",
+   "seconds": 45
   },
   {
    "id": "2026-10-24-sheffield-utd-derby",
@@ -432,7 +474,7 @@
    "kicker": "FAVOURITE FADING",
    "voiced": true,
    "youtube_id": null,
-   "article": null,
+   "article": "/m/2026-10-24-como-sassuolo.html",
    "seconds": 52
   },
   {
