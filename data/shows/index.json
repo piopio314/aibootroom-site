@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T23:46:01+00:00",
+ "generated_at": "2026-10-21T23:49:49+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -590,6 +590,20 @@
    "seconds": 49
   },
   {
+   "id": "2026-10-24-lincoln-burnley",
+   "home": "Lincoln",
+   "away": "Burnley",
+   "league": "Championship",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "title": "Burnley in the bottom three — still favourites?",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-lincoln-burnley.html",
+   "seconds": 45
+  },
+  {
    "id": "2026-10-24-preston-west-brom",
    "home": "Preston",
    "away": "West Brom",
@@ -754,7 +768,7 @@
    "kicker": "MATCH PREVIEW",
    "voiced": true,
    "youtube_id": null,
-   "article": null,
+   "article": "/m/2026-10-24-valencia-villarreal.html",
    "seconds": 49
   },
   {

@@ -4,45 +4,45 @@
  "home": "Lincoln",
  "away": "Burnley",
  "kickoff": "2026-10-24T14:00:00+00:00",
- "generated_at": "2026-10-21T21:19:54+00:00",
- "headline": "Burnley favourites at Lincoln despite one win in 11",
- "summary": "Burnley go to Sincil Bank on Saturday 22nd in the Championship with 8 points, and their manager Nicky Hayen has one win in 11 games. The Burnley Express report 15 players ruled out. Lincoln's last home game was a 0-6 defeat by West Ham, which explains why the market average still makes Burnley 41.7% favourites. But the handicap, a head start in goals, rates Burnley only 0.2 goals better, and the goals line is split at 2.5, with over at 50.8%. Burnley's best result of the run was a 4-0 win at Watford on 10 October, their only convincing away display.",
- "read": "Two struggling Championship sides meet at Sincil Bank: Burnley are 22nd with one win in 11 and a manager reported to be under pressure, while Lincoln are 18th and were beaten 0-6 at home in their last home game. The market still makes Burnley 41.7% favourites, but the handicap line of about a quarter of a goal says this is close to even, with the goals line split almost exactly at 2.5.",
+ "generated_at": "2026-10-21T23:46:52+00:00",
+ "headline": "Burnley are 22nd — and still favourites at Lincoln",
+ "summary": "Lincoln lost 0-6 at home to West Ham this month and are still chasing a first home win of the season; they have lost three of their last five. Burnley arrive 22nd with one win in 11, Nicky Hayen under pressure and 15 players ruled out, though he is reported to be in the dugout. Even so, on the market average with the margin removed, Burnley are 41.7% to win, against Lincoln's 31.8%. The handicap tells the closer story: Lincoln get a head start of 0.25 goals, and the fair goals line is 2.53. Burnley are favoured — but only just.",
+ "read": "Two Championship strugglers meet at Sincil Bank: Burnley are 22nd, a year without a home league win and with a manager under pressure, yet still rated 41.7% to win away. Lincoln are 18th, still without a home win and hit for six by West Ham this month, but a handicap fair line of about +0.2 goals and a 2.53 goals total say the market sees a tight, close-to-even game.",
  "facts": [
   {
-   "fact": "Burnley manager Nicky Hayen is reported to be expected in the dugout at Lincoln despite growing pressure, having won just one of his first 11 games in charge.",
-   "meaning": "A manager under pressure going to a ground where his side are expected to win — the backdrop to everything Burnley do on Saturday."
+   "fact": "The market makes Burnley 41.7% to win at Sincil Bank, well clear of Lincoln at 31.8%.",
+   "meaning": "The away side are clear favourites, but with a big slice of the probability sitting outside a Burnley win, this is not priced as a one-sided game."
   },
   {
-   "fact": "Lincoln lost 0-6 at home to West Ham on 14 October, with an xG of 0.39 against 3.23.",
-   "meaning": "The heaviest result in either team's recent run, and the clearest reason the market still rates Burnley above a team sitting higher in the table."
+   "fact": "Burnley manager Nicky Hayen is under growing pressure after one win in his first 11 games, though he is reported to be in the dugout at Lincoln.",
+   "meaning": "A manager fighting for his job takes the division's 22nd-placed side into a game they are still expected to win."
   },
   {
-   "fact": "Burnley are 22nd in the Championship with 8 points from 11 games; Lincoln are 18th on 12 points.",
-   "meaning": "The lower-placed side is the favourite — this is a meeting of two struggling teams, not a top-versus-bottom tie."
-  },
-  {
-   "fact": "Burnley are the favourites at 41.7% to win, against 31.8% for Lincoln and 26.4% for the draw.",
-   "meaning": "More likely than Lincoln to win, but nowhere near a certainty — roughly two chances in five."
-  },
-  {
-   "fact": "Burnley's early team news for the trip lists 15 players ruled out and one fitness doubt, with captain Josh Cullen close to a return.",
-   "meaning": "A heavily stretched squad travelling to a ground Burnley have not visited since 1999."
-  },
-  {
-   "fact": "The handicap fair line is Lincoln +0.2, with the main line at +0.25.",
+   "fact": "Burnley's early team news for the Lincoln trip lists 15 players ruled out and one fitness doubt.",
    "meaning": ""
   },
   {
-   "fact": "Burnley's one convincing result in their last five was a 4-0 win at Watford on 10 October, with an xG of 1.94 against 0.64.",
-   "meaning": "It is away from home that Burnley have produced their best performance of the run — relevant on a trip to Sincil Bank."
+   "fact": "Burnley have gone a full year without a home league win, a run extended by Saturday's 1-2 defeat to Wolves.",
+   "meaning": "Their season is being kept alive by draws rather than wins, and they arrive at Lincoln from the bottom three."
   },
   {
-   "fact": "Lincoln lost 0-3 at Sheffield United on 10 October despite creating the better chances, 1.39 xG to 0.68.",
-   "meaning": "Their results have been harsher than their chance creation, which is part of why they are not bigger underdogs."
+   "fact": "Lincoln lost 0-6 at home to West Ham on 14 October.",
+   "meaning": "Lincoln are 18th and still chasing a first home win of the season — the home form is the weak spot in their record."
+  },
+  {
+   "fact": "On the handicap the market rates Burnley only about a fifth of a goal better, with Lincoln +0.25 a 51.8% shot.",
+   "meaning": "Despite Burnley being the clear match favourite, on the line this is priced as close to an even game — the draw and a narrow Burnley win are the market's main outcomes."
+  },
+  {
+   "fact": "Lincoln out-created Swansea 2.11 to 0.92 in September and still lost 1-2; they also out-created Sheffield United 1.39 to 0.68 and lost 0-3.",
+   "meaning": "Two of Lincoln's defeats came in games they created more than the opposition, so their league position is not simply a story of being outplayed."
+  },
+  {
+   "fact": "The market has the goals fair line at 2.53, with Over 2.5 at 50.8% — effectively a coin flip.",
+   "meaning": "There is no strong lean on total goals, so this is priced as a game that could go either way on scoring."
   }
  ],
- "article": null,
+ "article": "/m/2026-10-24-lincoln-burnley.html",
  "sources": [
   {
    "fact": "Burnley manager Nicky Hayen is reported to be expected in the dugout for the Lincoln match despite growing pressure, having won just one of his first 11 games.",
@@ -101,11 +101,11 @@
    "certainty": "reported"
   }
  ],
- "video_title": "Bottom-three Burnley are still favourites at Lincoln",
+ "video_title": "Burnley in the bottom three — still favourites?",
  "key_points": [
-  "Burnley 22nd, boss under pressure",
-  "Lincoln shipped six at home",
-  "Favourites Burnley 41.7%, line +0.25"
+  "Burnley 41.7% from bottom three",
+  "Hayen under pressure: one win in 11",
+  "Lincoln still chasing first home win"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."

@@ -4,42 +4,42 @@
  "home": "SC Paderborn 07",
  "away": "Hamburger SV",
  "kickoff": "2026-10-24T13:30:00+00:00",
- "generated_at": "2026-10-21T21:14:23+00:00",
- "headline": "Paderborn narrow favourites as in-form Hamburg come to town",
- "summary": "Two teams in very different form meet on Saturday, and the market keeps the home side just in front. Hamburger SV have won 3 straight league games, yet that run has covered a defence that has conceded 13 goals, including two 0-5 defeats in September. Paderborn are 16th with 5 points and drew 2-2 at Werder Bremen last weekend after leading. Across the market average, Paderborn are 39.7% to win and Hamburg 34.0%, separated by only 0.12 of a goal. The fair total is 2.96 goals.",
- "read": "Paderborn are 16th with one win in five and host an HSV side on a three-match winning run, yet the market still makes the home team narrow favourites at 39.7%. Paderborn concede 2.04 expected goals a game and HSV have shipped 13 goals in six, so the market expects about three goals, with both teams scoring more likely than not at 62.5%.",
+ "generated_at": "2026-10-21T23:49:38+00:00",
+ "headline": "Paderborn let a 2-0 lead slip, but the fixture still favours them",
+ "summary": "Paderborn led 2-0 at Werder Bremen on Saturday and drew 2-2 — that is one win in their last five Bundesliga games. Hamburger SV arrive with three straight wins, though the run has been built on scoring: 13 conceded. The fixture still points to the hosts, who have never lost to Hamburg — three wins, two draws, all in the second tier. Across 6 bookmakers, margin removed, Paderborn are 39.7% to Hamburg's 34.0%, and the handicap is level at 0. Over 3.0 goals is a 49.1% chance.",
+ "read": "Hamburger SV come in on three straight wins and sit ninth, while Paderborn are 16th with one win in five and were pegged back from 2-0 at Werder Bremen on Saturday. The market still makes the hosts narrow favourites at 39.7% to 34.0% with the handicap level, and sets the 50/50 goal total just under three.",
  "facts": [
   {
-   "fact": "Paderborn are narrow home favourites at 39.7% to win, with HSV at 34.0%.",
-   "meaning": "The market sees a near coin-flip: home advantage is the only thing putting the home side ahead of a team with far better recent results."
-  },
-  {
-   "fact": "HSV arrive on a three-match winning run in the Bundesliga, the latest a 1-0 home win over Stuttgart.",
-   "meaning": "They come in as the form team of the two, yet are still priced as slight away underdogs."
-  },
-  {
-   "fact": "Paderborn led 2-0 at Werder Bremen on Saturday and drew 2-2, and are described as under pressure before this game.",
-   "meaning": "Paderborn are 16th with one win in five, so a home game against a form side is one they badly need something from."
-  },
-  {
-   "fact": "HSV have conceded 13 goals in six league games, including two 0-5 defeats.",
-   "meaning": "Their winning run has masked a defence that gets taken apart — a fragility the market is pricing by keeping HSV at only 34%."
-  },
-  {
-   "fact": "Paderborn are conceding 2.04 expected goals per game this season.",
-   "meaning": "They give up good chances consistently, so their games tend to be open rather than controlled."
-  },
-  {
-   "fact": "Paderborn have won three and drawn two of their last five meetings with HSV.",
-   "meaning": "Paderborn have not lost to HSV in this run, which is a big part of why they are still the favourites here."
-  },
-  {
-   "fact": "The market's fair handicap line is -0.12 goals — Paderborn are rated barely a tenth of a goal better than HSV.",
+   "fact": "Paderborn are narrow home favourites at 39.7% against HSV's 34.0%, with the handicap set at level (+0).",
    "meaning": ""
   },
   {
-   "fact": "The market's fair total line is 2.96 goals — a game of about three goals.",
-   "meaning": "Over 3.0 is close to a coin-flip, so a 2-1 or 3-1 kind of game rather than a tight 1-0."
+   "fact": "Hamburger SV have won each of their last three Bundesliga matches, against Köln, Hoffenheim and Stuttgart.",
+   "meaning": "The visitors arrive as the form side of the two and sit ninth, above the hosts."
+  },
+  {
+   "fact": "Paderborn have taken one win from their last five Bundesliga games (DLWLL).",
+   "meaning": "A promoted side short of results, and German media describe them as under pressure before this home game."
+  },
+  {
+   "fact": "Paderborn conceded chances worth 3.21 xG in Saturday's 2-2 at Werder Bremen, after leading 2-0.",
+   "meaning": "They were cut open repeatedly in the game they let slip, and HSV's attack is the next test of that back line."
+  },
+  {
+   "fact": "Hamburger SV have conceded 13 goals across their last five league matches.",
+   "meaning": "The winning run has been built on scoring, not on solidity — they have shipped five twice this season."
+  },
+  {
+   "fact": "The market's 50/50 goal total sits at 2.96, with Over 3.0 priced at 49.1%.",
+   "meaning": "Three goals is roughly a coin flip — the market expects an open game, not a tight one."
+  },
+  {
+   "fact": "Paderborn are unbeaten in their last five meetings with HSV — three wins and two draws, including 2-0 at home in March 2025.",
+   "meaning": "The head-to-head is the strongest argument for the hosts, who have handled this opponent repeatedly in the second division."
+  },
+  {
+   "fact": "29 of Paderborn's 30 senior players trained on Wednesday, with only Oliver Batista Meier absent.",
+   "meaning": "The hosts have an almost full squad for a home game they are under pressure to take something from."
   }
  ],
  "article": null,
@@ -101,11 +101,11 @@
    "certainty": "reported"
   }
  ],
- "video_title": "In-form Hamburg visit Paderborn, still not favourites",
+ "video_title": "Hamburg's winning run meets Paderborn's fixture record",
  "key_points": [
-  "HSV on a three-match winning run",
-  "Paderborn 16th, one win in five",
-  "Near coin-flip, three goals expected"
+  "HSV on three straight wins",
+  "Paderborn one win in five",
+  "Market: level, near-three goals"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
