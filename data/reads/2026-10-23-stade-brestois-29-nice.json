@@ -4,42 +4,42 @@
  "home": "Stade Brestois 29",
  "away": "Nice",
  "kickoff": "2026-10-23T18:45:00+00:00",
- "generated_at": "2026-10-21T20:42:10+00:00",
- "headline": "Brest and Nice, one point apart, on a night for Eric Roy",
- "summary": "Brest host Nice in Ligue 1 on Friday, four months after the death of Eric Roy, who coached both clubs; France Bleu reports both will pay tribute. Only one point separates them in mid-table — Brest 10th on 9, Nice 13th on 8. Nice lost 2-1 at Lyon on Sunday, a stoppage-time equaliser ruled out. Brest beat Angers 5-1 in their last home game, though Raphaël Le Guen is out with a broken leg after 450 minutes this season. Across 10 bookmakers, with the margin removed, Brest are favourites at 42.2%, rated 0.25 of a goal better, and the goals line sits at 2.75 with over at 50%.",
- "read": "Brest are narrow home favourites at 42.2%, with the handicap at just -0.25 and only one point separating the sides in mid-table. Both arrive off narrow results — Brest's 1-1 at Lille, Nice's 2-1 defeat at Lyon — and the market sees a close game of about two and a half goals where both teams are more likely than not to score.",
+ "generated_at": "2026-10-21T23:32:14+00:00",
+ "headline": "Brest's 5-1 home win meets Nice's away defeats",
+ "summary": "Brest host Nice on Friday in Ligue 1, 9 points against 8 in mid-table. Brest's 5-1 home win over Angers is why the market makes them 42.2% favourites across 10 bookmakers, margin removed, while Nice are 29.0% to win and have lost their last two away games. But Brest allowed 2.17 expected goals at Lille on Saturday and are without Raphaël Le Guen, 450 minutes this season, in a back line that is already short. The handicap line is a quarter of a goal, and the goal total has slipped to 2.75 from 2.84.",
+ "read": "Brest are narrow home favourites at 42.2% against a Nice side that sits one point and three places below them, with the market rating the hosts roughly a quarter of a goal better. Brest's 5-1 home win over Angers is the form behind the price, while Nice arrive off a 2-1 defeat at Lyon in which a stoppage-time equaliser was ruled out by centimetres.",
  "facts": [
   {
-   "fact": "Brest are the market's favourites at 42.2% to win at home.",
-   "meaning": "The handicap is only -0.25, so the market rates Brest a quarter of a goal the better side — favourite, but a close game."
+   "fact": "Brest are the favourites at 42.2% to win, with the draw at 28.8% and Nice at 29.0%.",
+   "meaning": ""
   },
   {
-   "fact": "Brest are 10th on 9 points, Nice 13th on 8 — one point between them after seven rounds.",
-   "meaning": "A win for either side moves them clear into the top half; defeat leaves Nice in the bottom third."
+   "fact": "Brest beat Angers 5-1 at home in their last home league game on 10 October.",
+   "meaning": "It is their only win in their last four league matches — and the reason they are fancied at home."
   },
   {
-   "fact": "Nice lost 2-1 at Lyon on Sunday, with a stoppage-time equaliser ruled out for centimetres and Keito Nakamura sent off on 70 minutes.",
-   "meaning": "Nice arrive off an away defeat they could easily have drawn."
+   "fact": "Brest conceded 2.17 xG at Lille on Saturday, the most they have allowed in their last five matches.",
+   "meaning": "Their 1-1 draw at Lille came with a warning: they were carved open and Nice's attack will have noticed."
   },
   {
-   "fact": "Friday's match comes four months after the death of Eric Roy, who coached both Brest and Nice, and both clubs will pay tribute to him.",
-   "meaning": "An emotional night at the Stade Francis-Le Blé, on a fixture with a shared history."
+   "fact": "Nice lost 2-1 at Lyon on Sunday and have lost their last two away league matches.",
+   "meaning": "Away from home Nice have been the weaker side, which is exactly where the market's read of this game points."
   },
   {
-   "fact": "The market splits Over and Under 2.75 goals at 50.0% each.",
-   "meaning": "Two or three goals is the expected shape of this game — a normal, compact Ligue 1 night."
+   "fact": "Brest are 10th on 9 points, Nice 13th on 8 — one point between them after seven games.",
+   "meaning": "A mid-table meeting with immediate consequence: the winner moves clear of the other before the weekend's other results."
   },
   {
-   "fact": "Both teams to score is priced at 59.9% by the seven bookmakers offering it.",
-   "meaning": "More likely than not that both sides find the net on Friday."
+   "fact": "Brest are without Raphaël Le Guen, who has played 450 minutes this season, because of a broken leg.",
+   "meaning": "A regular defender is missing, and Brendan Chardonnet is also out with a calf injury, thinning the back line."
   },
   {
-   "fact": "Brest beat Angers 5-1 at home on 10 October.",
-   "meaning": "The one day this season Brest's attack ran riot at home — they lost their other home game to PSG."
+   "fact": "Nice's most-used absentee, defender A. Mendy, has played only 124 minutes this season.",
+   "meaning": "Nice's injury list looks long but is thin on first-team minutes — Olivier Pantaloni has close to a full-strength squad."
   },
   {
-   "fact": "Brest are without defender Raphaël Le Guen, who has 450 minutes in five league games this season, through a broken leg.",
-   "meaning": "He is Brest's most-used absentee; the coach says only he and Chardonnet should miss out."
+   "fact": "The market's goal total has come down from 2.84 to 2.75, with Over 2.75 now at 50.0%.",
+   "meaning": "About two or three goals is the expectation, and it has edged slightly lower in recent days."
   }
  ],
  "article": null,
@@ -101,11 +101,11 @@
    "certainty": "confirmed"
   }
  ],
- "video_title": "Brest vs Nice: one point apart, a night for Eric Roy",
+ "video_title": "Brest's 5-1 home win against Nice's away defeats",
  "key_points": [
-  "Brest 42.2%, quarter-goal favourites",
-  "One point splits 10th and 13th",
-  "2.75 goal line, both score 59.9%"
+  "Brest 42.2% home favourites",
+  "Le Guen and Chardonnet out",
+  "Market sees about 2.75 goals"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
