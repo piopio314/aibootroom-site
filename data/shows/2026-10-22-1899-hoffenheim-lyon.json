@@ -1,0 +1,816 @@
+{
+ "id": "2026-10-22-1899-hoffenheim-lyon",
+ "title": "Lyon top of France, yet underdogs in Sinsheim",
+ "match": {
+  "home": "1899 Hoffenheim",
+  "away": "Lyon",
+  "league": "Europa League",
+  "kickoff": "2026-10-22T19:00:00+00:00",
+  "home_short": "189",
+  "away_short": "LYO",
+  "home_color": "#b45309",
+  "away_color": "#ea580c"
+ },
+ "market": {
+  "fair": {
+   "home": 47.2,
+   "draw": 24.0,
+   "away": 28.8
+  },
+  "move": {
+   "home": 0.0,
+   "draw": -0.0,
+   "away": 0.0
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-20T20:44:00+00:00",
+    "v": 28.8
+   },
+   {
+    "t": "2026-10-21T02:29:00+00:00",
+    "v": 28.8
+   },
+   {
+    "t": "2026-10-21T11:20:00+00:00",
+    "v": 28.8
+   },
+   {
+    "t": "2026-10-21T17:18:00+00:00",
+    "v": 28.8
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 47.2
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 47.2
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 47.2
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 47.2
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 24.1
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 24.1
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 24.1
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 24.0
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 28.8
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 28.8
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 28.8
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 28.8
+    }
+   ]
+  },
+  "goals": 3.15,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-20T20:44:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Lyon are without Loïs Openda, 823 minutes this season.",
+   "show": {
+    "kind": "absence",
+    "team": "away",
+    "player": "Loïs Openda",
+    "status": "out",
+    "line": "823 minutes this season"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-1899-hoffenheim-lyon/s0.mp3",
+   "words": [
+    {
+     "w": "Lyon",
+     "start": 0.12,
+     "end": 0.52
+    },
+    {
+     "w": "are",
+     "start": 0.6,
+     "end": 0.6
+    },
+    {
+     "w": "without",
+     "start": 0.68,
+     "end": 0.84
+    },
+    {
+     "w": "Loïs",
+     "start": 0.84,
+     "end": 1.24
+    },
+    {
+     "w": "Openda,",
+     "start": 1.24,
+     "end": 1.8
+    },
+    {
+     "w": "823",
+     "start": 2.031,
+     "end": 3
+    },
+    {
+     "w": "minutes",
+     "start": 3,
+     "end": 3.32
+    },
+    {
+     "w": "this",
+     "start": 3.4,
+     "end": 3.48
+    },
+    {
+     "w": "season.",
+     "start": 3.48,
+     "end": 3.96
+    }
+   ],
+   "durationInFrames": 127
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "They meet Hoffenheim in the Europa League on Thursday.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-1899-hoffenheim-lyon/s1.mp3",
+   "words": [
+    {
+     "w": "They",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "meet",
+     "start": 0.36,
+     "end": 0.44
+    },
+    {
+     "w": "Hoffenheim",
+     "start": 0.44,
+     "end": 1
+    },
+    {
+     "w": "in",
+     "start": 1.08,
+     "end": 1.08
+    },
+    {
+     "w": "the",
+     "start": 1.08,
+     "end": 1.16
+    },
+    {
+     "w": "Europa",
+     "start": 1.24,
+     "end": 1.56
+    },
+    {
+     "w": "League",
+     "start": 1.64,
+     "end": 1.8
+    },
+    {
+     "w": "on",
+     "start": 1.8,
+     "end": 1.96
+    },
+    {
+     "w": "Thursday.",
+     "start": 1.96,
+     "end": 2.6
+    }
+   ],
+   "durationInFrames": 86
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Hoffenheim ended a run of defeats with a 2-1 win at Gladbach.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Borussia Mönchengladbach",
+    "score": "2-1",
+    "when": "Sunday"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-1899-hoffenheim-lyon/s2.mp3",
+   "words": [
+    {
+     "w": "Hoffenheim",
+     "start": 0.12,
+     "end": 0.6
+    },
+    {
+     "w": "ended",
+     "start": 0.68,
+     "end": 0.84
+    },
+    {
+     "w": "a",
+     "start": 0.84,
+     "end": 0.92
+    },
+    {
+     "w": "run",
+     "start": 1,
+     "end": 1.08
+    },
+    {
+     "w": "of",
+     "start": 1.16,
+     "end": 1.24
+    },
+    {
+     "w": "defeats",
+     "start": 1.24,
+     "end": 1.72
+    },
+    {
+     "w": "with",
+     "start": 1.8,
+     "end": 1.88
+    },
+    {
+     "w": "a",
+     "start": 1.96,
+     "end": 1.96
+    },
+    {
+     "w": "2-1",
+     "start": 1.96,
+     "end": 2.44
+    },
+    {
+     "w": "win",
+     "start": 2.52,
+     "end": 2.68
+    },
+    {
+     "w": "at",
+     "start": 2.76,
+     "end": 2.84
+    },
+    {
+     "w": "Gladbach.",
+     "start": 2.84,
+     "end": 3.48
+    }
+   ],
+   "durationInFrames": 112
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "In Europe, though, they have 0 points so far.",
+   "show": {
+    "kind": "stat",
+    "label": "Hoffenheim EL points",
+    "value": "0"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-1899-hoffenheim-lyon/s3.mp3",
+   "words": [
+    {
+     "w": "In",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "Europe,",
+     "start": 0.28,
+     "end": 0.6
+    },
+    {
+     "w": "though,",
+     "start": 0.716,
+     "end": 1.08
+    },
+    {
+     "w": "they",
+     "start": 1.24,
+     "end": 1.24
+    },
+    {
+     "w": "have",
+     "start": 1.24,
+     "end": 1.48
+    },
+    {
+     "w": "0",
+     "start": 1.56,
+     "end": 1.88
+    },
+    {
+     "w": "points",
+     "start": 1.88,
+     "end": 2.12
+    },
+    {
+     "w": "so",
+     "start": 2.2,
+     "end": 2.36
+    },
+    {
+     "w": "far.",
+     "start": 2.36,
+     "end": 2.84
+    }
+   ],
+   "durationInFrames": 93
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Lyon have won both European games: 6 points.",
+   "show": {
+    "kind": "stat",
+    "label": "Lyon EL points",
+    "value": "6"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-1899-hoffenheim-lyon/s4.mp3",
+   "words": [
+    {
+     "w": "Lyon",
+     "start": 0.12,
+     "end": 0.52
+    },
+    {
+     "w": "have",
+     "start": 0.6,
+     "end": 0.6
+    },
+    {
+     "w": "won",
+     "start": 0.68,
+     "end": 0.84
+    },
+    {
+     "w": "both",
+     "start": 0.84,
+     "end": 1.16
+    },
+    {
+     "w": "European",
+     "start": 1.24,
+     "end": 1.64
+    },
+    {
+     "w": "games:",
+     "start": 1.64,
+     "end": 2.2
+    },
+    {
+     "w": "6",
+     "start": 2.281,
+     "end": 2.68
+    },
+    {
+     "w": "points.",
+     "start": 2.68,
+     "end": 3.08
+    }
+   ],
+   "durationInFrames": 100
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Even so, Hoffenheim are favourites at 47.2% to win.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 47.2
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-1899-hoffenheim-lyon/s5.mp3",
+   "words": [
+    {
+     "w": "Even",
+     "start": 0.12,
+     "end": 0.44
+    },
+    {
+     "w": "so,",
+     "start": 0.52,
+     "end": 0.84
+    },
+    {
+     "w": "Hoffenheim",
+     "start": 1.007,
+     "end": 1.56
+    },
+    {
+     "w": "are",
+     "start": 1.56,
+     "end": 1.64
+    },
+    {
+     "w": "favourites",
+     "start": 1.72,
+     "end": 2.2
+    },
+    {
+     "w": "at",
+     "start": 2.28,
+     "end": 2.28
+    },
+    {
+     "w": "47.2%",
+     "start": 2.28,
+     "end": 3.96
+    },
+    {
+     "w": "to",
+     "start": 4.04,
+     "end": 4.12
+    },
+    {
+     "w": "win.",
+     "start": 4.12,
+     "end": 4.52
+    }
+   ],
+   "durationInFrames": 144
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Lyon's chance is 28.8%, well behind the home side.",
+   "show": {
+    "kind": "chance",
+    "team": "away",
+    "value": 28.8
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-1899-hoffenheim-lyon/s6.mp3",
+   "words": [
+    {
+     "w": "Lyon's",
+     "start": 0.12,
+     "end": 0.6
+    },
+    {
+     "w": "chance",
+     "start": 0.6,
+     "end": 1.08
+    },
+    {
+     "w": "is",
+     "start": 1.16,
+     "end": 1.4
+    },
+    {
+     "w": "28.8%,",
+     "start": 1.4,
+     "end": 2.92
+    },
+    {
+     "w": "well",
+     "start": 3.118,
+     "end": 3.48
+    },
+    {
+     "w": "behind",
+     "start": 3.56,
+     "end": 3.8
+    },
+    {
+     "w": "the",
+     "start": 3.88,
+     "end": 3.88
+    },
+    {
+     "w": "home",
+     "start": 3.88,
+     "end": 4.04
+    },
+    {
+     "w": "side.",
+     "start": 4.12,
+     "end": 4.52
+    }
+   ],
+   "durationInFrames": 143
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market has Hoffenheim under half a goal better: 0.4.",
+   "show": {
+    "kind": "stat",
+    "label": "Hoffenheim better by (goals)",
+    "value": "0.4"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-1899-hoffenheim-lyon/s7.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.12,
+     "end": 0.2
+    },
+    {
+     "w": "market",
+     "start": 0.28,
+     "end": 0.6
+    },
+    {
+     "w": "has",
+     "start": 0.6,
+     "end": 0.76
+    },
+    {
+     "w": "Hoffenheim",
+     "start": 0.84,
+     "end": 1.32
+    },
+    {
+     "w": "under",
+     "start": 1.353,
+     "end": 1.64
+    },
+    {
+     "w": "half",
+     "start": 1.72,
+     "end": 2.04
+    },
+    {
+     "w": "a",
+     "start": 2.12,
+     "end": 2.12
+    },
+    {
+     "w": "goal",
+     "start": 2.12,
+     "end": 2.36
+    },
+    {
+     "w": "better:",
+     "start": 2.44,
+     "end": 2.76
+    },
+    {
+     "w": "0.4.",
+     "start": 2.923,
+     "end": 3.96
+    }
+   ],
+   "durationInFrames": 127
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Both teams to score is rated 64.5%, more likely than not.",
+   "show": {
+    "kind": "stat",
+    "label": "Both teams to score",
+    "value": "64.5"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-1899-hoffenheim-lyon/s8.mp3",
+   "words": [
+    {
+     "w": "Both",
+     "start": 0.12,
+     "end": 0.44
+    },
+    {
+     "w": "teams",
+     "start": 0.44,
+     "end": 0.76
+    },
+    {
+     "w": "to",
+     "start": 0.84,
+     "end": 0.84
+    },
+    {
+     "w": "score",
+     "start": 0.84,
+     "end": 1.24
+    },
+    {
+     "w": "is",
+     "start": 1.32,
+     "end": 1.32
+    },
+    {
+     "w": "rated",
+     "start": 1.4,
+     "end": 1.72
+    },
+    {
+     "w": "64.5%,",
+     "start": 1.72,
+     "end": 3.4
+    },
+    {
+     "w": "more",
+     "start": 3.546,
+     "end": 3.8
+    },
+    {
+     "w": "likely",
+     "start": 3.88,
+     "end": 4.04
+    },
+    {
+     "w": "than",
+     "start": 4.04,
+     "end": 4.2
+    },
+    {
+     "w": "not.",
+     "start": 4.28,
+     "end": 4.6
+    }
+   ],
+   "durationInFrames": 146
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "So the French league leaders arrive as the underdogs here.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "League leaders as underdogs",
+     "Hoffenheim's home edge",
+     "Openda out for Lyon"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-1899-hoffenheim-lyon/s9.mp3",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "the",
+     "start": 0.36,
+     "end": 0.44
+    },
+    {
+     "w": "French",
+     "start": 0.52,
+     "end": 0.76
+    },
+    {
+     "w": "league",
+     "start": 0.76,
+     "end": 1
+    },
+    {
+     "w": "leaders",
+     "start": 1.08,
+     "end": 1.4
+    },
+    {
+     "w": "arrive",
+     "start": 1.4,
+     "end": 1.8
+    },
+    {
+     "w": "as",
+     "start": 1.88,
+     "end": 1.96
+    },
+    {
+     "w": "the",
+     "start": 2.04,
+     "end": 2.04
+    },
+    {
+     "w": "underdogs",
+     "start": 2.04,
+     "end": 2.6
+    },
+    {
+     "w": "here.",
+     "start": 2.68,
+     "end": 2.92
+    }
+   ],
+   "durationInFrames": 102
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-1899-hoffenheim-lyon/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.12,
+     "end": 0.52
+    },
+    {
+     "w": "Boot",
+     "start": 0.52,
+     "end": 0.76
+    },
+    {
+     "w": "Room.",
+     "start": 0.76,
+     "end": 1.08
+    },
+    {
+     "w": "Football",
+     "start": 1.397,
+     "end": 1.8
+    },
+    {
+     "w": "analysis,",
+     "start": 1.8,
+     "end": 2.6
+    },
+    {
+     "w": "with",
+     "start": 2.681,
+     "end": 2.92
+    },
+    {
+     "w": "receipts.",
+     "start": 2.92,
+     "end": 3.48
+    }
+   ],
+   "durationInFrames": 137
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
+  "stickers": [
+   "📊",
+   "🎯",
+   "📊"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1636267,
+ "prices_as_of": "2026-10-21T19:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

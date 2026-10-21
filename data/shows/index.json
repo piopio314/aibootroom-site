@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T20:17:45+00:00",
+ "generated_at": "2026-10-21T20:27:40+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -112,6 +112,62 @@
    "youtube_id": null,
    "article": "/m/2026-10-22-be-ikta-crystal-palace.html",
    "seconds": 45
+  },
+  {
+   "id": "2026-10-22-celje-red-bull-salzburg",
+   "home": "Celje",
+   "away": "Red Bull Salzburg",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Celje have one goal in five — and Salzburg come next",
+   "source": "market_desk",
+   "kicker": "MARKET ALERT",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-22-celje-red-bull-salzburg.html",
+   "seconds": 48
+  },
+  {
+   "id": "2026-10-22-1899-hoffenheim-lyon",
+   "home": "1899 Hoffenheim",
+   "away": "Lyon",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Lyon top of France, yet underdogs in Sinsheim",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": null,
+   "seconds": 44
+  },
+  {
+   "id": "2026-10-22-jagiellonia-anderlecht",
+   "home": "Jagiellonia",
+   "away": "Anderlecht",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Anderlecht: 0 points, still favourites",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": null,
+   "seconds": 53
+  },
+  {
+   "id": "2026-10-22-lillestrom-real-sociedad",
+   "home": "Lillestrom",
+   "away": "Real Sociedad",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Sociedad's must-win night in Norway",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-22-lillestrom-real-sociedad.html",
+   "seconds": 50
   },
   {
    "id": "2026-10-24-aston-villa-manchester-city",

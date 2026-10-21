@@ -1,0 +1,817 @@
+{
+ "id": "2026-10-22-jagiellonia-anderlecht",
+ "title": "Anderlecht: 0 points, still favourites",
+ "match": {
+  "home": "Jagiellonia",
+  "away": "Anderlecht",
+  "league": "Europa League",
+  "kickoff": "2026-10-22T19:00:00+00:00",
+  "home_short": "JAG",
+  "away_short": "AND",
+  "home_color": "#16a34a",
+  "away_color": "#b45309"
+ },
+ "market": {
+  "fair": {
+   "home": 30.7,
+   "draw": 26.5,
+   "away": 42.7
+  },
+  "move": {
+   "home": 0.0,
+   "draw": 0.0,
+   "away": 0.0
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-20T20:44:00+00:00",
+    "v": 42.7
+   },
+   {
+    "t": "2026-10-21T02:29:00+00:00",
+    "v": 42.7
+   },
+   {
+    "t": "2026-10-21T11:20:00+00:00",
+    "v": 42.7
+   },
+   {
+    "t": "2026-10-21T17:18:00+00:00",
+    "v": 42.7
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 30.7
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 30.7
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 30.7
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 30.7
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 26.5
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 26.5
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 26.5
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 26.5
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 42.7
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 42.7
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 42.7
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 42.7
+    }
+   ]
+  },
+  "goals": 2.7,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-20T20:44:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Anderlecht are out of the Belgian Cup, beaten 1-2 at Beerschot.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Beerschot",
+    "score": "1-2",
+    "when": "Sunday"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-jagiellonia-anderlecht/s0.mp3",
+   "words": [
+    {
+     "w": "Anderlecht",
+     "start": 0.275,
+     "end": 0.8
+    },
+    {
+     "w": "are",
+     "start": 0.8,
+     "end": 0.9
+    },
+    {
+     "w": "out",
+     "start": 0.9,
+     "end": 1.062
+    },
+    {
+     "w": "of",
+     "start": 1.062,
+     "end": 1.137
+    },
+    {
+     "w": "the",
+     "start": 1.137,
+     "end": 1.225
+    },
+    {
+     "w": "Belgian",
+     "start": 1.225,
+     "end": 1.688
+    },
+    {
+     "w": "Cup,",
+     "start": 1.688,
+     "end": 2.125
+    },
+    {
+     "w": "beaten",
+     "start": 2.263,
+     "end": 2.575
+    },
+    {
+     "w": "1-2",
+     "start": 2.575,
+     "end": 2.975
+    },
+    {
+     "w": "at",
+     "start": 2.975,
+     "end": 3.1
+    },
+    {
+     "w": "Beerschot.",
+     "start": 3.1,
+     "end": 4.075
+    }
+   ],
+   "durationInFrames": 130
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "On Thursday they travel to Białystok, in the Europa League.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-jagiellonia-anderlecht/s1.mp3",
+   "words": [
+    {
+     "w": "On",
+     "start": 0.25,
+     "end": 0.463
+    },
+    {
+     "w": "Thursday",
+     "start": 0.463,
+     "end": 0.975
+    },
+    {
+     "w": "they",
+     "start": 0.975,
+     "end": 1.125
+    },
+    {
+     "w": "travel",
+     "start": 1.125,
+     "end": 1.525
+    },
+    {
+     "w": "to",
+     "start": 1.525,
+     "end": 1.65
+    },
+    {
+     "w": "Białystok,",
+     "start": 1.65,
+     "end": 2.55
+    },
+    {
+     "w": "in",
+     "start": 2.675,
+     "end": 2.763
+    },
+    {
+     "w": "the",
+     "start": 2.763,
+     "end": 2.85
+    },
+    {
+     "w": "Europa",
+     "start": 2.85,
+     "end": 3.275
+    },
+    {
+     "w": "League.",
+     "start": 3.275,
+     "end": 4.05
+    }
+   ],
+   "durationInFrames": 130
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "They have 0 points in the Europa League and sit 29th.",
+   "show": {
+    "kind": "table",
+    "team": "away",
+    "rank": 29,
+    "pts": 0
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-jagiellonia-anderlecht/s2.mp3",
+   "words": [
+    {
+     "w": "They",
+     "start": 0.25,
+     "end": 0.375
+    },
+    {
+     "w": "have",
+     "start": 0.375,
+     "end": 0.588
+    },
+    {
+     "w": "0",
+     "start": 0.588,
+     "end": 0.963
+    },
+    {
+     "w": "points",
+     "start": 0.963,
+     "end": 1.262
+    },
+    {
+     "w": "in",
+     "start": 1.262,
+     "end": 1.337
+    },
+    {
+     "w": "the",
+     "start": 1.337,
+     "end": 1.425
+    },
+    {
+     "w": "Europa",
+     "start": 1.425,
+     "end": 1.85
+    },
+    {
+     "w": "League",
+     "start": 1.85,
+     "end": 2.375
+    },
+    {
+     "w": "and",
+     "start": 2.375,
+     "end": 2.538
+    },
+    {
+     "w": "sit",
+     "start": 2.538,
+     "end": 2.8
+    },
+    {
+     "w": "29th.",
+     "start": 2.8,
+     "end": 3.85
+    }
+   ],
+   "durationInFrames": 124
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "So why are they favourites? Jagiellonia have lost 4 of their last 5.",
+   "show": {
+    "kind": "form",
+    "team": "home",
+    "results": "LWLLL"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-jagiellonia-anderlecht/s3.mp3",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.275,
+     "end": 0.45
+    },
+    {
+     "w": "why",
+     "start": 0.45,
+     "end": 0.65
+    },
+    {
+     "w": "are",
+     "start": 0.65,
+     "end": 0.738
+    },
+    {
+     "w": "they",
+     "start": 0.738,
+     "end": 0.887
+    },
+    {
+     "w": "favourites?",
+     "start": 0.887,
+     "end": 1.625
+    },
+    {
+     "w": "Jagiellonia",
+     "start": 1.738,
+     "end": 2.5
+    },
+    {
+     "w": "have",
+     "start": 2.5,
+     "end": 2.625
+    },
+    {
+     "w": "lost",
+     "start": 2.625,
+     "end": 2.962
+    },
+    {
+     "w": "4",
+     "start": 2.962,
+     "end": 3.188
+    },
+    {
+     "w": "of",
+     "start": 3.188,
+     "end": 3.263
+    },
+    {
+     "w": "their",
+     "start": 3.263,
+     "end": 3.45
+    },
+    {
+     "w": "last",
+     "start": 3.45,
+     "end": 3.8
+    },
+    {
+     "w": "5.",
+     "start": 3.8,
+     "end": 4.6
+    }
+   ],
+   "durationInFrames": 146
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Jagiellonia concede 1.88 expected goals every game.",
+   "show": {
+    "kind": "stat",
+    "label": "Expected goals conceded",
+    "value": "1.88"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-jagiellonia-anderlecht/s4.mp3",
+   "words": [
+    {
+     "w": "Jagiellonia",
+     "start": 0.275,
+     "end": 0.95
+    },
+    {
+     "w": "concede",
+     "start": 0.95,
+     "end": 1.4
+    },
+    {
+     "w": "1.88",
+     "start": 1.4,
+     "end": 2.388
+    },
+    {
+     "w": "expected",
+     "start": 2.388,
+     "end": 2.975
+    },
+    {
+     "w": "goals",
+     "start": 2.975,
+     "end": 3.375
+    },
+    {
+     "w": "every",
+     "start": 3.375,
+     "end": 3.675
+    },
+    {
+     "w": "game.",
+     "start": 3.675,
+     "end": 4.45
+    }
+   ],
+   "durationInFrames": 142
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "One of their most-used defenders, Wojtuszek, 759 minutes, is out.",
+   "show": {
+    "kind": "absence",
+    "team": "home",
+    "player": "Norbert Wojtuszek",
+    "status": "out",
+    "line": "759 minutes this season"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-jagiellonia-anderlecht/s5.mp3",
+   "words": [
+    {
+     "w": "One",
+     "start": 0.25,
+     "end": 0.362
+    },
+    {
+     "w": "of",
+     "start": 0.362,
+     "end": 0.438
+    },
+    {
+     "w": "their",
+     "start": 0.438,
+     "end": 0.625
+    },
+    {
+     "w": "most-used",
+     "start": 0.625,
+     "end": 1.225
+    },
+    {
+     "w": "defenders,",
+     "start": 1.225,
+     "end": 1.85
+    },
+    {
+     "w": "Wojtuszek,",
+     "start": 1.925,
+     "end": 2.85
+    },
+    {
+     "w": "759",
+     "start": 2.987,
+     "end": 4.175
+    },
+    {
+     "w": "minutes,",
+     "start": 4.175,
+     "end": 4.5
+    },
+    {
+     "w": "is",
+     "start": 4.55,
+     "end": 4.7
+    },
+    {
+     "w": "out.",
+     "start": 4.7,
+     "end": 5.375
+    }
+   ],
+   "durationInFrames": 169
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "So Anderlecht are favourites at 42.7% to win.",
+   "show": {
+    "kind": "chance",
+    "team": "away",
+    "value": 42.7
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-jagiellonia-anderlecht/s6.mp3",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.275,
+     "end": 0.487
+    },
+    {
+     "w": "Anderlecht",
+     "start": 0.487,
+     "end": 1.075
+    },
+    {
+     "w": "are",
+     "start": 1.075,
+     "end": 1.212
+    },
+    {
+     "w": "favourites",
+     "start": 1.212,
+     "end": 1.725
+    },
+    {
+     "w": "at",
+     "start": 1.725,
+     "end": 1.863
+    },
+    {
+     "w": "42.7%",
+     "start": 1.863,
+     "end": 3.425
+    },
+    {
+     "w": "to",
+     "start": 3.425,
+     "end": 3.55
+    },
+    {
+     "w": "win.",
+     "start": 3.55,
+     "end": 4.25
+    }
+   ],
+   "durationInFrames": 136
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Over 2.75 goals: the market says 48.8%.",
+   "show": {
+    "kind": "over",
+    "line": 2.75,
+    "value": 48.8
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-jagiellonia-anderlecht/s7.mp3",
+   "words": [
+    {
+     "w": "Over",
+     "start": 0.25,
+     "end": 0.487
+    },
+    {
+     "w": "2.75",
+     "start": 0.487,
+     "end": 1.675
+    },
+    {
+     "w": "goals:",
+     "start": 1.675,
+     "end": 2.325
+    },
+    {
+     "w": "the",
+     "start": 2.425,
+     "end": 2.525
+    },
+    {
+     "w": "market",
+     "start": 2.525,
+     "end": 2.85
+    },
+    {
+     "w": "says",
+     "start": 2.85,
+     "end": 3.112
+    },
+    {
+     "w": "48.8%.",
+     "start": 3.112,
+     "end": 5.0
+    }
+   ],
+   "durationInFrames": 158
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market rates Anderlecht better by just 0.25 goals.",
+   "show": {
+    "kind": "stat",
+    "label": "Anderlecht better by (goals)",
+    "value": "0.25"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-jagiellonia-anderlecht/s8.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "market",
+     "start": 0.325,
+     "end": 0.65
+    },
+    {
+     "w": "rates",
+     "start": 0.65,
+     "end": 0.938
+    },
+    {
+     "w": "Anderlecht",
+     "start": 0.938,
+     "end": 1.475
+    },
+    {
+     "w": "better",
+     "start": 1.475,
+     "end": 1.875
+    },
+    {
+     "w": "by",
+     "start": 1.875,
+     "end": 2.05
+    },
+    {
+     "w": "just",
+     "start": 2.05,
+     "end": 2.263
+    },
+    {
+     "w": "0.25",
+     "start": 2.263,
+     "end": 3.5
+    },
+    {
+     "w": "goals.",
+     "start": 3.5,
+     "end": 4.375
+    }
+   ],
+   "durationInFrames": 139
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "So the market's read: Anderlecht close favourites, Jagiellonia leaking chances.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Close away favourites",
+     "Jagiellonia leak chances",
+     "Small margin, not a rout"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-jagiellonia-anderlecht/s9.mp3",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.25,
+     "end": 0.362
+    },
+    {
+     "w": "the",
+     "start": 0.362,
+     "end": 0.45
+    },
+    {
+     "w": "market's",
+     "start": 0.45,
+     "end": 0.875
+    },
+    {
+     "w": "read:",
+     "start": 0.875,
+     "end": 1.425
+    },
+    {
+     "w": "Anderlecht",
+     "start": 1.562,
+     "end": 2.0
+    },
+    {
+     "w": "close",
+     "start": 2.0,
+     "end": 2.325
+    },
+    {
+     "w": "favourites,",
+     "start": 2.325,
+     "end": 2.825
+    },
+    {
+     "w": "Jagiellonia",
+     "start": 2.875,
+     "end": 3.7
+    },
+    {
+     "w": "leaking",
+     "start": 3.7,
+     "end": 4.05
+    },
+    {
+     "w": "chances.",
+     "start": 4.05,
+     "end": 5.025
+    }
+   ],
+   "durationInFrames": 166
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-jagiellonia-anderlecht/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
+  "stickers": [
+   "🎯",
+   "📊",
+   "🏟️"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1636273,
+ "prices_as_of": "2026-10-21T19:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}
