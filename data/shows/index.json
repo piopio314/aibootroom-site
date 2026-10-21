@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T20:51:35+00:00",
+ "generated_at": "2026-10-21T20:59:57+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -322,6 +322,34 @@
    "youtube_id": null,
    "article": "/m/2026-10-24-aston-villa-manchester-city.html",
    "seconds": 42
+  },
+  {
+   "id": "2026-10-24-charlton-norwich",
+   "home": "Charlton",
+   "away": "Norwich",
+   "league": "Championship",
+   "kickoff": "2026-10-24T11:30:00+00:00",
+   "title": "Six straight defeats — Norwich still favourites?",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-charlton-norwich.html",
+   "seconds": 47
+  },
+  {
+   "id": "2026-10-24-sheffield-utd-derby",
+   "home": "Sheffield Utd",
+   "away": "Derby",
+   "league": "Championship",
+   "kickoff": "2026-10-24T11:30:00+00:00",
+   "title": "Derby go to Bramall Lane without their first-choice keeper",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-sheffield-utd-derby.html",
+   "seconds": 49
   },
   {
    "id": "2026-10-24-napoli-as-roma",

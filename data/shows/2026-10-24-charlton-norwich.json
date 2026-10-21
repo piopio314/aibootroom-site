@@ -1,0 +1,798 @@
+{
+ "id": "2026-10-24-charlton-norwich",
+ "title": "Six straight defeats — Norwich still favourites?",
+ "match": {
+  "home": "Charlton",
+  "away": "Norwich",
+  "league": "Championship",
+  "kickoff": "2026-10-24T11:30:00+00:00",
+  "home_short": "CHA",
+  "away_short": "NOR",
+  "home_color": "#16a34a",
+  "away_color": "#0891b2"
+ },
+ "market": {
+  "fair": {
+   "home": 29.1,
+   "draw": 26.4,
+   "away": 44.5
+  },
+  "move": {
+   "home": 0.7,
+   "draw": 0.2,
+   "away": -0.9
+  },
+  "side": "home",
+  "timeline": [
+   {
+    "t": "2026-10-19T22:19:00+00:00",
+    "v": 28.4
+   },
+   {
+    "t": "2026-10-20T00:51:00+00:00",
+    "v": 28.4
+   },
+   {
+    "t": "2026-10-20T07:26:00+00:00",
+    "v": 29.1
+   },
+   {
+    "t": "2026-10-20T10:19:00+00:00",
+    "v": 29.1
+   },
+   {
+    "t": "2026-10-20T19:18:00+00:00",
+    "v": 29.1
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-19T22:19:00+00:00",
+     "v": 28.4
+    },
+    {
+     "t": "2026-10-20T00:51:00+00:00",
+     "v": 28.4
+    },
+    {
+     "t": "2026-10-20T07:26:00+00:00",
+     "v": 29.1
+    },
+    {
+     "t": "2026-10-20T10:19:00+00:00",
+     "v": 29.1
+    },
+    {
+     "t": "2026-10-20T19:18:00+00:00",
+     "v": 29.1
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-19T22:19:00+00:00",
+     "v": 26.2
+    },
+    {
+     "t": "2026-10-20T00:51:00+00:00",
+     "v": 26.2
+    },
+    {
+     "t": "2026-10-20T07:26:00+00:00",
+     "v": 26.4
+    },
+    {
+     "t": "2026-10-20T10:19:00+00:00",
+     "v": 26.4
+    },
+    {
+     "t": "2026-10-20T19:18:00+00:00",
+     "v": 26.4
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-19T22:19:00+00:00",
+     "v": 45.4
+    },
+    {
+     "t": "2026-10-20T00:51:00+00:00",
+     "v": 45.4
+    },
+    {
+     "t": "2026-10-20T07:26:00+00:00",
+     "v": 44.5
+    },
+    {
+     "t": "2026-10-20T10:19:00+00:00",
+     "v": 44.5
+    },
+    {
+     "t": "2026-10-20T19:18:00+00:00",
+     "v": 44.5
+    }
+   ]
+  },
+  "goals": 2.54,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-19T22:19:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "6 straight Championship defeats have put Norwich manager Philippe Clement under pressure.",
+   "show": {
+    "kind": "stat",
+    "label": "Norwich straight defeats",
+    "value": "6"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-charlton-norwich/s0.mp3",
+   "words": [
+    {
+     "w": "6",
+     "start": 0.275,
+     "end": 0.525
+    },
+    {
+     "w": "straight",
+     "start": 0.525,
+     "end": 0.887
+    },
+    {
+     "w": "Championship",
+     "start": 0.887,
+     "end": 1.525
+    },
+    {
+     "w": "defeats",
+     "start": 1.525,
+     "end": 2.225
+    },
+    {
+     "w": "have",
+     "start": 2.225,
+     "end": 2.375
+    },
+    {
+     "w": "put",
+     "start": 2.375,
+     "end": 2.612
+    },
+    {
+     "w": "Norwich",
+     "start": 2.612,
+     "end": 3.0
+    },
+    {
+     "w": "manager",
+     "start": 3.0,
+     "end": 3.487
+    },
+    {
+     "w": "Philippe",
+     "start": 3.487,
+     "end": 3.862
+    },
+    {
+     "w": "Clement",
+     "start": 3.862,
+     "end": 4.237
+    },
+    {
+     "w": "under",
+     "start": 4.237,
+     "end": 4.425
+    },
+    {
+     "w": "pressure.",
+     "start": 4.425,
+     "end": 5.275
+    }
+   ],
+   "durationInFrames": 166
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Charlton host Norwich at The Valley on Saturday lunchtime.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-charlton-norwich/s1.mp3",
+   "words": [
+    {
+     "w": "Charlton",
+     "start": 0.275,
+     "end": 0.725
+    },
+    {
+     "w": "host",
+     "start": 0.725,
+     "end": 1.1
+    },
+    {
+     "w": "Norwich",
+     "start": 1.1,
+     "end": 1.462
+    },
+    {
+     "w": "at",
+     "start": 1.462,
+     "end": 1.538
+    },
+    {
+     "w": "The",
+     "start": 1.538,
+     "end": 1.625
+    },
+    {
+     "w": "Valley",
+     "start": 1.625,
+     "end": 2.025
+    },
+    {
+     "w": "on",
+     "start": 2.025,
+     "end": 2.237
+    },
+    {
+     "w": "Saturday",
+     "start": 2.237,
+     "end": 2.725
+    },
+    {
+     "w": "lunchtime.",
+     "start": 2.725,
+     "end": 3.775
+    }
+   ],
+   "durationInFrames": 121
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Top scorer Toure is out for Norwich with a shoulder injury.",
+   "show": {
+    "kind": "absence",
+    "team": "away",
+    "player": "M. Toure",
+    "status": "out"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-charlton-norwich/s2.mp3",
+   "words": [
+    {
+     "w": "Top",
+     "start": 0.25,
+     "end": 0.5
+    },
+    {
+     "w": "scorer",
+     "start": 0.5,
+     "end": 0.9
+    },
+    {
+     "w": "Toure",
+     "start": 0.9,
+     "end": 1.15
+    },
+    {
+     "w": "is",
+     "start": 1.15,
+     "end": 1.275
+    },
+    {
+     "w": "out",
+     "start": 1.275,
+     "end": 1.5
+    },
+    {
+     "w": "for",
+     "start": 1.5,
+     "end": 1.625
+    },
+    {
+     "w": "Norwich",
+     "start": 1.625,
+     "end": 2.1
+    },
+    {
+     "w": "with",
+     "start": 2.1,
+     "end": 2.237
+    },
+    {
+     "w": "a",
+     "start": 2.237,
+     "end": 2.337
+    },
+    {
+     "w": "shoulder",
+     "start": 2.337,
+     "end": 2.75
+    },
+    {
+     "w": "injury.",
+     "start": 2.75,
+     "end": 3.6
+    }
+   ],
+   "durationInFrames": 116
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Without him, they create only 0.73 expected goals a game.",
+   "show": {
+    "kind": "stat",
+    "label": "Norwich xG per game",
+    "value": "0.73"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-charlton-norwich/s3.mp3",
+   "words": [
+    {
+     "w": "Without",
+     "start": 0.25,
+     "end": 0.575
+    },
+    {
+     "w": "him,",
+     "start": 0.575,
+     "end": 0.9
+    },
+    {
+     "w": "they",
+     "start": 0.95,
+     "end": 1.1
+    },
+    {
+     "w": "create",
+     "start": 1.1,
+     "end": 1.425
+    },
+    {
+     "w": "only",
+     "start": 1.425,
+     "end": 1.738
+    },
+    {
+     "w": "0.73",
+     "start": 1.738,
+     "end": 3.025
+    },
+    {
+     "w": "expected",
+     "start": 3.025,
+     "end": 3.6
+    },
+    {
+     "w": "goals",
+     "start": 3.6,
+     "end": 3.987
+    },
+    {
+     "w": "a",
+     "start": 3.987,
+     "end": 4.075
+    },
+    {
+     "w": "game.",
+     "start": 4.075,
+     "end": 4.875
+    }
+   ],
+   "durationInFrames": 154
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Charlton are winless in 8, and Nathan Jones called Saturday inexcusable.",
+   "show": {
+    "kind": "news",
+    "source": "South London Press",
+    "text": "Jones: Watford defeat inexcusable"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-charlton-norwich/s4.mp3",
+   "words": [
+    {
+     "w": "Charlton",
+     "start": 0.275,
+     "end": 0.7
+    },
+    {
+     "w": "are",
+     "start": 0.7,
+     "end": 0.863
+    },
+    {
+     "w": "winless",
+     "start": 0.863,
+     "end": 1.25
+    },
+    {
+     "w": "in",
+     "start": 1.25,
+     "end": 1.375
+    },
+    {
+     "w": "8,",
+     "start": 1.375,
+     "end": 1.875
+    },
+    {
+     "w": "and",
+     "start": 1.975,
+     "end": 2.1
+    },
+    {
+     "w": "Nathan",
+     "start": 2.1,
+     "end": 2.487
+    },
+    {
+     "w": "Jones",
+     "start": 2.487,
+     "end": 2.95
+    },
+    {
+     "w": "called",
+     "start": 2.95,
+     "end": 3.263
+    },
+    {
+     "w": "Saturday",
+     "start": 3.263,
+     "end": 3.8
+    },
+    {
+     "w": "inexcusable.",
+     "start": 3.8,
+     "end": 5.0
+    }
+   ],
+   "durationInFrames": 158
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "But Norwich won the last 3 meetings, all by a single goal.",
+   "show": {
+    "kind": "stat",
+    "label": "Norwich won last meetings",
+    "value": "3"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-charlton-norwich/s5.mp3",
+   "words": [
+    {
+     "w": "But",
+     "start": 0.225,
+     "end": 0.35
+    },
+    {
+     "w": "Norwich",
+     "start": 0.35,
+     "end": 0.725
+    },
+    {
+     "w": "won",
+     "start": 0.725,
+     "end": 0.863
+    },
+    {
+     "w": "the",
+     "start": 0.863,
+     "end": 0.95
+    },
+    {
+     "w": "last",
+     "start": 0.95,
+     "end": 1.275
+    },
+    {
+     "w": "3",
+     "start": 1.275,
+     "end": 1.5
+    },
+    {
+     "w": "meetings,",
+     "start": 1.5,
+     "end": 2.1
+    },
+    {
+     "w": "all",
+     "start": 2.225,
+     "end": 2.45
+    },
+    {
+     "w": "by",
+     "start": 2.45,
+     "end": 2.625
+    },
+    {
+     "w": "a",
+     "start": 2.625,
+     "end": 2.737
+    },
+    {
+     "w": "single",
+     "start": 2.737,
+     "end": 3.1
+    },
+    {
+     "w": "goal.",
+     "start": 3.1,
+     "end": 3.875
+    }
+   ],
+   "durationInFrames": 124
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Even so, across the bookmakers Norwich are 44.5% to win.",
+   "show": {
+    "kind": "chance",
+    "team": "away",
+    "value": 44.5
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-charlton-norwich/s6.mp3",
+   "words": [
+    {
+     "w": "Even",
+     "start": 0.25,
+     "end": 0.537
+    },
+    {
+     "w": "so,",
+     "start": 0.537,
+     "end": 0.9
+    },
+    {
+     "w": "across",
+     "start": 0.975,
+     "end": 1.375
+    },
+    {
+     "w": "the",
+     "start": 1.375,
+     "end": 1.475
+    },
+    {
+     "w": "bookmakers",
+     "start": 1.475,
+     "end": 2.075
+    },
+    {
+     "w": "Norwich",
+     "start": 2.075,
+     "end": 2.712
+    },
+    {
+     "w": "are",
+     "start": 2.712,
+     "end": 2.862
+    },
+    {
+     "w": "44.5%",
+     "start": 2.862,
+     "end": 4.4
+    },
+    {
+     "w": "to",
+     "start": 4.4,
+     "end": 4.525
+    },
+    {
+     "w": "win.",
+     "start": 4.525,
+     "end": 5.25
+    }
+   ],
+   "durationInFrames": 166
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Charlton's chance is 29.1%, well behind the visitors.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 29.1
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-charlton-norwich/s7.mp3",
+   "words": [
+    {
+     "w": "Charlton's",
+     "start": 0.275,
+     "end": 0.762
+    },
+    {
+     "w": "chance",
+     "start": 0.762,
+     "end": 1.15
+    },
+    {
+     "w": "is",
+     "start": 1.15,
+     "end": 1.312
+    },
+    {
+     "w": "29.1%,",
+     "start": 1.312,
+     "end": 3.05
+    },
+    {
+     "w": "well",
+     "start": 3.188,
+     "end": 3.45
+    },
+    {
+     "w": "behind",
+     "start": 3.45,
+     "end": 3.837
+    },
+    {
+     "w": "the",
+     "start": 3.837,
+     "end": 3.925
+    },
+    {
+     "w": "visitors.",
+     "start": 3.925,
+     "end": 4.875
+    }
+   ],
+   "durationInFrames": 154
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Norwich are favourites on the fixture, not on their form.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Favourites on fixture",
+     "Not on their form",
+     "Little between them"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-charlton-norwich/s8.mp3",
+   "words": [
+    {
+     "w": "Norwich",
+     "start": 0.275,
+     "end": 0.65
+    },
+    {
+     "w": "are",
+     "start": 0.65,
+     "end": 0.787
+    },
+    {
+     "w": "favourites",
+     "start": 0.787,
+     "end": 1.238
+    },
+    {
+     "w": "on",
+     "start": 1.238,
+     "end": 1.337
+    },
+    {
+     "w": "the",
+     "start": 1.337,
+     "end": 1.438
+    },
+    {
+     "w": "fixture,",
+     "start": 1.438,
+     "end": 2.05
+    },
+    {
+     "w": "not",
+     "start": 2.15,
+     "end": 2.337
+    },
+    {
+     "w": "on",
+     "start": 2.337,
+     "end": 2.438
+    },
+    {
+     "w": "their",
+     "start": 2.438,
+     "end": 2.638
+    },
+    {
+     "w": "form.",
+     "start": 2.638,
+     "end": 3.45
+    }
+   ],
+   "durationInFrames": 118
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-charlton-norwich/s9.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "market_read",
+  "kicker": "MARKET READ",
+  "stickers": [
+   "👀",
+   "🧠",
+   "🧠"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1563218,
+ "prices_as_of": "2026-10-21T19:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}
