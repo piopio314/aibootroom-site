@@ -1,0 +1,112 @@
+{
+ "slug": "2026-10-25-nacional-sc-braga",
+ "league": "Primeira Liga",
+ "home": "Nacional",
+ "away": "SC Braga",
+ "kickoff": "2026-10-25T18:00:00+00:00",
+ "generated_at": "2026-10-21T22:50:48+00:00",
+ "headline": "Braga's new coach — still 60.2% favourites at Nacional",
+ "summary": "Braga go to Nacional on Sunday with a new coach. Carlos Vicens was sacked after the 1-2 home defeat to Gil Vicente, and Franclim Carvalho takes charge for the first time. Nacional are 16th with 4 points and have lost all 5 of their last matches, so the market still makes Braga 60.2% favourites — the average across 10 bookmakers, with the margin removed. The gap in quality is smaller than it was: Braga are rated about a goal better, trimmed from 1.07 to 0.92 goals. Over 2.5 goals is a 50% call.",
+ "read": "Braga arrive with a new coach and three straight defeats behind them, yet the market still makes them 60% favourites at a Nacional side that has lost five in a row and sits 16th.",
+ "facts": [
+  {
+   "fact": "Braga sacked head coach Carlos Vicens on 20 October and appointed Franclim Carvalho in his place, with this match his first in charge.",
+   "meaning": "A new voice in the dressing room, but also four days of upheaval before a league away game."
+  },
+  {
+   "fact": "Braga lost 1-2 at home to Gil Vicente on Sunday, their third defeat in a row.",
+   "meaning": "Braga arrive on their worst run of the season, having conceded two or more in each of those three games."
+  },
+  {
+   "fact": "Nacional have lost all five of their last matches, the latest a 0-1 exit away to Sanjoanense in the Taça de Portugal.",
+   "meaning": "The hosts come in with no momentum at all, and they went out of the cup to a side from outside the top flight."
+  },
+  {
+   "fact": "Braga are 60.2% to win at Nacional, who are 16.4% — Braga's chance is nearly four times the home side's.",
+   "meaning": "The market makes Braga clear favourites despite their three defeats, with the draw at 23.4%."
+  },
+  {
+   "fact": "Braga's win chance has come down from 63.3% to 60.3% in recent days, with Nacional's rising from 14.5% to 16.2%.",
+   "meaning": "The market has taken some of the certainty out of Braga without abandoning them as favourites."
+  },
+  {
+   "fact": "The handicap fair line has moved from 1.07 to 0.92 goals in Braga's favour.",
+   "meaning": ""
+  },
+  {
+   "fact": "Nacional are 16th of 18 in the Primeira Liga with four points from eight games.",
+   "meaning": "The hosts are already in a relegation fight and have little margin for another heavy home defeat."
+  },
+  {
+   "fact": "Nacional created 2.2 xG against Alverca on 12 September but lost 1-3, conceding 1.16 xG.",
+   "meaning": "Nacional can create at home — the problem has been what they concede and what they take."
+  }
+ ],
+ "article": null,
+ "sources": [
+  {
+   "fact": "SC Braga sacked head coach Carlos Vicens with immediate effect after a disappointing spell in charge.",
+   "source": "tribuna.com",
+   "url": "https://tribuna.com/en/news/2026-10-20-sc-braga-announces-sacking-of-carlos-vicens-with-immediate-effect/",
+   "age": "1 day ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Franclim Carvalho was officially appointed as SC Braga's new head coach, succeeding Carlos Vicens.",
+   "source": "www.record.pt",
+   "url": "https://www.record.pt/futebol/futebol-nacional/liga-betclic/sp--braga/detalhe/oficial-franclim-carvalho-e-o-novo-trreinador-do-sp-braga",
+   "age": "1 day ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Braga suffered a third consecutive defeat, losing 1-2 at home to Gil Vicente in the Primeira Liga on 19 October.",
+   "source": "www.abola.pt",
+   "url": "https://www.abola.pt/noticias/sc-braga-mostra-sangue-de-pau-victor-e-lance-com-horta-tenham-vergonha-na-cara-2026101922180598805",
+   "age": "2 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Braga president António Salvador described the change from Vicens to Carvalho as a cut rather than a transition.",
+   "source": "www.abola.pt",
+   "url": "https://www.abola.pt/noticias/salvador-explica-chicotada-nao-e-uma-transicao-e-um-corte-2026102112172464031",
+   "age": "10 hours ago",
+   "certainty": "opinion"
+  },
+  {
+   "fact": "Braga publicly criticised refereeing as a total loss of direction and demanded higher-level intervention, saying they were harmed against Gil Vicente, Moreirense and Sporting.",
+   "source": "rr.pt",
+   "url": "https://rr.pt/bola-branca/noticia/futebol-nacional/2026/10/20/sc-braga-considera-que-arbitragem-vive-desnorte-total-e-pede-intervencao-superior/489944",
+   "age": "1 day ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "New Braga coach Franclim Carvalho said he always had the desire to sit in this position.",
+   "source": "www.abola.pt",
+   "url": "https://www.abola.pt/noticias/franclim-carvalho-sempre-tive-o-desejo-de-me-sentar-aqui-2026102112572491518",
+   "age": "10 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Braga's António Salvador received a vote of confidence from the SAD amid a period of contestation.",
+   "source": "www.abola.pt",
+   "url": "https://www.abola.pt/noticias/sc-braga-em-tempos-de-contestacao-salvador-recebe-voto-de-louvor-da-sad-2026101917484615813",
+   "age": "2 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Vicens said in his farewell that it was a privilege to have been part of something so special at Braga.",
+   "source": "record.pt",
+   "url": "https://record.pt/futebol/futebol-nacional/liga-betclic/sp--braga/detalhe/carlos-vicens-despede-se-do-sp-braga-um-privilegio-ter-feito-parte-de-algo-tao-especial",
+   "age": "11 hours ago",
+   "certainty": "confirmed"
+  }
+ ],
+ "video_title": "Braga's new coach — still 60% favourites at Nacional",
+ "key_points": [
+  "New Braga coach after three defeats",
+  "Nacional: five straight defeats, 16th",
+  "Braga 60% favourites, down from 63%"
+ ],
+ "market": null,
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
+}

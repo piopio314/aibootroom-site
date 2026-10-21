@@ -1,0 +1,112 @@
+{
+ "slug": "2026-10-25-gent-anderlecht",
+ "league": "Jupiler Pro League",
+ "home": "Gent",
+ "away": "Anderlecht",
+ "kickoff": "2026-10-25T17:30:00+00:00",
+ "generated_at": "2026-10-21T22:46:58+00:00",
+ "headline": "Gent lead the league, and Anderlecht are rated close behind",
+ "summary": "Gent's unbeaten league start survived the weekend; their Belgian Cup run did not. Third-division Union Rochefort held them 3-3 and knocked them out. In the league they are first with 22 points, and on Sunday they host Anderlecht, whose coach Vitor Bruno is fighting for his future, Voetbalkrant report. The difference between the sides is defensive: Gent concede 0.76 expected goals a game, Anderlecht 1.26. That is why the bookmakers keep it close — Gent 38.1% favourites, Anderlecht 30.7%, with a fair goal total of 2.4.",
+ "read": "Gent lead the Pro League with 22 points from eight unbeaten games and are narrow market favourites at 38.1%, but Anderlecht are rated only a fraction of a goal behind — the fair handicap line is -0.13 and the fair goal line 2.4. Anderlecht sit fifth, six points back, with coach Vitor Bruno under pressure and a Thursday Europa League trip to Jagiellonia before this game.",
+ "facts": [
+  {
+   "fact": "Gent are the market's favourites at 38.1%, but the draw (31.1%) and Anderlecht (30.7%) are close behind.",
+   "meaning": ""
+  },
+  {
+   "fact": "Gent lead the Pro League with 22 points from eight games — seven wins, one draw, none lost — with Anderlecht fifth, six points back.",
+   "meaning": "A win would put Gent further clear of one of their main challengers; Anderlecht need it to stay in touch."
+  },
+  {
+   "fact": "Voetbalkrant report that Vitor Bruno is fighting for his future as Anderlecht coach, with the away trips to Jagiellonia on Thursday and to Gent on Sunday seen as decisive.",
+   "meaning": "Anderlecht arrive with their coach under public pressure and two season-defining away games in four days."
+  },
+  {
+   "fact": "Anderlecht have lost three of their last five (LLWWL), including a 1-2 cup exit at Beerschot and a 0-1 defeat at Dinamo Zagreb.",
+   "meaning": "They come into the biggest week of their autumn on a run of defeats, and Bruno publicly rejected talk of a crisis after the cup exit."
+  },
+  {
+   "fact": "Gent's unbeaten start ended in the Belgian Cup: they were held 3-3 by third-division Union Rochefort and knocked out in the round of 32.",
+   "meaning": "The one blemish of their season came in a competition that costs no league points — their league record is untouched."
+  },
+  {
+   "fact": "Gent have conceded just 0.76 xG per game across their last five matches.",
+   "meaning": "They don't need to dominate games to win them — opponents are creating very little against them."
+  },
+  {
+   "fact": "Anderlecht concede 1.26 xG per game, well above Gent's figure, while creating about the same amount going forward.",
+   "meaning": "The difference between first and fifth sits mostly in what the two sides give up, not what they create."
+  },
+  {
+   "fact": "The market's fair goal line is 2.40, with Under 2.5 the favoured side.",
+   "meaning": "More likely than not this is a game of two goals or fewer — a tight, cagey top-of-the-table fixture."
+  }
+ ],
+ "article": null,
+ "sources": [
+  {
+   "fact": "Gent were unbeaten this season before losing to third-division Union Rochefortoise and being knocked out of the Belgian Cup in the round of 32.",
+   "source": "www.voetbalkrant.com",
+   "url": "https://www.voetbalkrant.com/nieuws/2026-10-19/aa-gent-verliest-net-de-wedstrijd-die-het-niet-mocht-verliezen",
+   "age": "3 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Gent lead the Jupiler Pro League going into the match against Anderlecht.",
+   "source": "www.voetbalnieuws.be",
+   "url": "https://www.voetbalnieuws.be/news/930240/kan-kaa-gent-profiteren-drama-bij-europese-tegenstander",
+   "age": "1 day ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Anderlecht sit fifth in the Pro League, six points behind Gent, according to Voetbalkrant.",
+   "source": "www.voetbalkrant.com",
+   "url": "https://www.voetbalkrant.com/nieuws/2026-10-21/twee-wedstrijden-een-opdracht-vitor-bruno-vecht-voor-zijn-toekomst-als-coach-van-anderlecht",
+   "age": "5 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Erik Lambrechts has been appointed as referee for the Gent-Anderlecht match on matchday nine.",
+   "source": "www.voetbalkrant.com",
+   "url": "https://www.voetbalkrant.com/nieuws/2026-10-20/deze-scheidsrechters-moeten-de-topmatchen-van-speeldag-9-in-goede-banen-leiden",
+   "age": "1 day ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Gent began their Conference League campaign with three points, which Voetbalkrant notes could prove important in their push for a top-eight finish.",
+   "source": "www.voetbalkrant.com",
+   "url": "https://www.voetbalkrant.com/nieuws/2026-10-16/kaa-gent-en-stvv-doen-uitstekende-zaken-zo-goed-ziet-het-eruit",
+   "age": "5 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Vitor Bruno said he is fully in love with football and thinks about how to improve Anderlecht even at night, adding that he was not born mauve but loves the club.",
+   "source": "www.dhnet.be",
+   "url": "https://www.dhnet.be/sports/football/division-1a/anderlecht/2026/10/21/je-ne-suis-pas-ne-mauve-mais-je-suis-amoureux-du-club-ce-sera-a-ma-facon-vitor-bruno-promet-une-bonne-prestation-danderlecht-en-pologne-KBS5QOIXXVFDTO7YTD23V3ETPU/",
+   "age": "32 minutes ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Vitor Bruno rejected the suggestion that Anderlecht are in crisis after their cup defeat at Beerschot.",
+   "source": "lavenir.net",
+   "url": "https://lavenir.net/sports/football/d1a/2026/10/19/la-crise-a-anderlecht-je-ne-vois-pas-la-situation-comme-ca-dit-vitor-bruno-apres-la-defaite-au-beerschot-P3CJPSV5TRDM3IKYETYIYORO2Q",
+   "age": "3 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Anderlecht were eliminated from the Belgian Cup by Beerschot, who won at home.",
+   "source": "www.voetbalprimeur.be",
+   "url": "https://www.voetbalprimeur.be/nieuws/2148650/boudeweel-waarschuwt-anderlecht-doemscenario.html",
+   "age": "2 days ago",
+   "certainty": "confirmed"
+  }
+ ],
+ "video_title": "Gent's cup shock, then Anderlecht at home",
+ "key_points": [
+  "Gent top, six points clear",
+  "Bruno's future on the line",
+  "Tight game: line 2.4 goals"
+ ],
+ "market": null,
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
+}
