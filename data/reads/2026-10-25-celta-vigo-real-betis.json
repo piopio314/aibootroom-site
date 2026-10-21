@@ -1,0 +1,181 @@
+{
+ "slug": "2026-10-25-celta-vigo-real-betis",
+ "league": "La Liga",
+ "home": "Celta Vigo",
+ "away": "Real Betis",
+ "kickoff": "2026-10-25T15:15:00+00:00",
+ "generated_at": "2026-10-21T22:26:09+00:00",
+ "headline": "Betis favourites in Vigo, but the handicap is level",
+ "summary": "Real Betis come to Vigo as the better team and the narrow favourite. They are fourth in La Liga, but they lost 2-5 at home to Barcelona last weekend, and Wednesday's Champions League win over Feyenoord left only four days before the Seville derby. Celta, fresher and hard to beat, have drawn five of their nine league games. Spanish media report Facundo Bernal is banned, with Betis appealing. Across 10 bookmakers, margin removed, Betis are 38.9% to win, yet the handicap is level — a tenth of a goal (0.11). Over 2.5 goals leans 51.7%.",
+ "read": "Betis are fourth in La Liga and have won every Champions League game, but they come to Vigo on four days' rest, with the Seville derby to follow and a midfielder banned. The market still makes them narrow favourites at 38.9%, on a level handicap, with a slight lean towards over 2.5 goals.",
+ "facts": [
+  {
+   "fact": "Real Betis are the market's favourites to win in Vigo, at 38.9%.",
+   "meaning": ""
+  },
+  {
+   "fact": "Betis midfielder Facundo Bernal has been given a four-match ban by the Spanish federation for a headbutt on Lamine Yamal, and the club is appealing.",
+   "meaning": "Goal.com reports the ban rules him out of this game unless the appeal succeeds — a midfield option gone for a side playing its third match in eight days."
+  },
+  {
+   "fact": "The handicap is level, with the market's fair line at Celta +0.11 goals.",
+   "meaning": "Betis are rated barely a tenth of a goal the better side — the table gap is almost wiped out by Celta's home advantage."
+  },
+  {
+   "fact": "Real Betis beat Feyenoord 1-0 in the Champions League on Wednesday, Isco scoring from the penalty spot.",
+   "meaning": "They arrive in Vigo with a perfect record in Europe and momentum, but with only four days to recover."
+  },
+  {
+   "fact": "Betis lost 2-5 at home to Barcelona in La Liga last weekend.",
+   "meaning": "The one blowout in an otherwise strong run — the reminder of why the market keeps this close despite Betis's better table position."
+  },
+  {
+   "fact": "Betis had four days between Wednesday's Feyenoord win and this game.",
+   "meaning": "Celta, who last played on Sunday, are the fresher side — seven days' rest against four."
+  },
+  {
+   "fact": "Celta Vigo beat Alaves 2-1 at home on Sunday.",
+   "meaning": "Only their second league win of the season, and it came while being narrowly out-created on xG — they win on fine margins."
+  },
+  {
+   "fact": "Celta have drawn five of their nine La Liga games.",
+   "meaning": "Hard to beat, rarely winning: their league run reads WDWDD, which is why they sit eighth with 11 points."
+  }
+ ],
+ "article": null,
+ "sources": [
+  {
+   "fact": "Real Betis midfielder Facundo Bernal has been given a four-match ban by the Royal Spanish Football Federation after being sent off for headbutting Lamine Yamal, and the club is appealing the sanction to the appeals committee.",
+   "source": "ca.sports.yahoo.com",
+   "url": "https://ca.sports.yahoo.com/news/real-betis-midfielder-facundo-bernal-123344636.html",
+   "age": "10 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Under the ban, Bernal will miss Betis's La Liga match against Celta Vigo unless the club succeeds in reducing the sanction through its appeal.",
+   "source": "goal.com",
+   "url": "https://goal.com/en/news/yamal-crisis-real-betis-accepts-two-sanctions-and-appeals-a-third/blt2f6776eb14272250",
+   "age": "4 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Real Betis beat Feyenoord 1-0 in the Champions League, with Isco scoring from the penalty spot, to maintain a 100% record in the competition.",
+   "source": "www.bbc.com",
+   "url": "https://www.bbc.com/sport/football/live/cw8dz6r33myrt",
+   "age": "3 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Real Betis lost 5-2 at home to Barcelona in La Liga the previous weekend.",
+   "source": "www.bbc.com",
+   "url": "https://www.bbc.com/sport/football/live/ck5ynp68evpvt",
+   "age": "4 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "The Spanish outlet Eldesmarque reports that Betis face Celta away in Vigo on Sunday before playing Sevilla in the Seville derby the following Wednesday.",
+   "source": "eldesmarque.com",
+   "url": "https://eldesmarque.com/futbol/liga-1a-division/20261021/sevilla-fc-real-betis-television-horario-fecha-jornada-13_18_020499561.html",
+   "age": "8 hours ago",
+   "certainty": "reported"
+  }
+ ],
+ "video_title": "Betis better — so why is the handicap level?",
+ "key_points": [
+  "Betis 38.9% favourites in Vigo",
+  "Bernal banned four matches",
+  "Level handicap, over 2.5 lean"
+ ],
+ "market": {
+  "id": 1570427,
+  "slug": "2026-10-25-celta-vigo-real-betis",
+  "league": "La Liga",
+  "kickoff": "2026-10-25T15:15:00+00:00",
+  "home": "Celta Vigo",
+  "away": "Real Betis",
+  "fair": {
+   "home": 33.7,
+   "draw": 27.4,
+   "away": 38.9
+  },
+  "move": {
+   "home": -0.8,
+   "draw": 0.2,
+   "away": 0.5
+  },
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "home": 34.5,
+    "draw": 27.1,
+    "away": 38.4
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "home": 34.5,
+    "draw": 27.1,
+    "away": 38.4
+   },
+   {
+    "t": "2026-10-19T16:24:00+00:00",
+    "home": 34.5,
+    "draw": 27.1,
+    "away": 38.4
+   },
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "home": 34.5,
+    "draw": 27.1,
+    "away": 38.4
+   },
+   {
+    "t": "2026-10-20T04:23:00+00:00",
+    "home": 34.5,
+    "draw": 27.1,
+    "away": 38.4
+   },
+   {
+    "t": "2026-10-20T22:19:00+00:00",
+    "home": 34.3,
+    "draw": 27.4,
+    "away": 38.3
+   },
+   {
+    "t": "2026-10-21T04:24:00+00:00",
+    "home": 34.4,
+    "draw": 27.4,
+    "away": 38.2
+   },
+   {
+    "t": "2026-10-21T07:27:00+00:00",
+    "home": 34.4,
+    "draw": 27.4,
+    "away": 38.2
+   },
+   {
+    "t": "2026-10-21T13:21:00+00:00",
+    "home": 33.9,
+    "draw": 27.4,
+    "away": 38.8
+   },
+   {
+    "t": "2026-10-21T19:18:00+00:00",
+    "home": 33.7,
+    "draw": 27.4,
+    "away": 38.9
+   }
+  ],
+  "goals": {
+   "expected": 2.57,
+   "first": 2.61
+  },
+  "absences": {
+   "home": 0,
+   "away": 0
+  },
+  "read": "2026-10-25-celta-vigo-real-betis",
+  "headline": "Betis favourites in Vigo, but the handicap is level"
+ },
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
+}

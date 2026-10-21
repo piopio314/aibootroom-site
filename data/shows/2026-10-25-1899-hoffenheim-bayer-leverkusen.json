@@ -1,0 +1,755 @@
+{
+ "id": "2026-10-25-1899-hoffenheim-bayer-leverkusen",
+ "title": "Leverkusen's 5 wins meet Hoffenheim's January upset",
+ "match": {
+  "home": "1899 Hoffenheim",
+  "away": "Bayer Leverkusen",
+  "league": "Bundesliga",
+  "kickoff": "2026-10-25T14:30:00+00:00",
+  "home_short": "189",
+  "away_short": "BLE",
+  "home_color": "#b45309",
+  "away_color": "#4f46e5"
+ },
+ "market": {
+  "fair": {
+   "home": 34.6,
+   "draw": 23.9,
+   "away": 41.6
+  },
+  "move": {
+   "home": -0.3,
+   "draw": -0.0,
+   "away": 0.3
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 41.2
+   },
+   {
+    "t": "2026-10-19T05:22:00+00:00",
+    "v": 40.8
+   },
+   {
+    "t": "2026-10-20T05:21:00+00:00",
+    "v": 41.6
+   },
+   {
+    "t": "2026-10-21T05:21:00+00:00",
+    "v": 41.6
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 34.9
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 35.4
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 34.6
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "v": 34.6
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 23.9
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 23.9
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 23.9
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "v": 23.9
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 41.2
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 40.8
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 41.6
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "v": 41.6
+    }
+   ]
+  },
+  "goals": 3.44,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T21:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Leverkusen arrive on 5 straight wins.",
+   "show": {
+    "kind": "form",
+    "team": "away",
+    "results": "WWWWW"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-1899-hoffenheim-bayer-leverkusen/s0.mp3",
+   "words": [
+    {
+     "w": "Leverkusen",
+     "start": 0.275,
+     "end": 0.85
+    },
+    {
+     "w": "arrive",
+     "start": 0.85,
+     "end": 1.238
+    },
+    {
+     "w": "on",
+     "start": 1.238,
+     "end": 1.413
+    },
+    {
+     "w": "5",
+     "start": 1.413,
+     "end": 1.775
+    },
+    {
+     "w": "straight",
+     "start": 1.775,
+     "end": 2.125
+    },
+    {
+     "w": "wins.",
+     "start": 2.125,
+     "end": 2.925
+    }
+   ],
+   "durationInFrames": 96
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "They play at Hoffenheim in the Bundesliga.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-1899-hoffenheim-bayer-leverkusen/s1.mp3",
+   "words": [
+    {
+     "w": "They",
+     "start": 0.25,
+     "end": 0.4
+    },
+    {
+     "w": "play",
+     "start": 0.4,
+     "end": 0.662
+    },
+    {
+     "w": "at",
+     "start": 0.662,
+     "end": 0.738
+    },
+    {
+     "w": "Hoffenheim",
+     "start": 0.738,
+     "end": 1.45
+    },
+    {
+     "w": "in",
+     "start": 1.45,
+     "end": 1.538
+    },
+    {
+     "w": "the",
+     "start": 1.538,
+     "end": 1.625
+    },
+    {
+     "w": "Bundesliga.",
+     "start": 1.625,
+     "end": 2.7
+    }
+   ],
+   "durationInFrames": 89
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Hoffenheim are 14th, with 6 points.",
+   "show": {
+    "kind": "table",
+    "team": "home",
+    "rank": 14,
+    "pts": 6
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-1899-hoffenheim-bayer-leverkusen/s2.mp3",
+   "words": [
+    {
+     "w": "Hoffenheim",
+     "start": 0.25,
+     "end": 0.688
+    },
+    {
+     "w": "are",
+     "start": 0.688,
+     "end": 0.775
+    },
+    {
+     "w": "14th,",
+     "start": 0.775,
+     "end": 1.35
+    },
+    {
+     "w": "with",
+     "start": 1.425,
+     "end": 1.625
+    },
+    {
+     "w": "6",
+     "start": 1.625,
+     "end": 1.925
+    },
+    {
+     "w": "points.",
+     "start": 1.925,
+     "end": 2.75
+    }
+   ],
+   "durationInFrames": 91
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Before Sunday's win at Gladbach, they lost 4 straight.",
+   "show": {
+    "kind": "form",
+    "team": "home",
+    "results": "WLLLL"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-1899-hoffenheim-bayer-leverkusen/s3.mp3",
+   "words": [
+    {
+     "w": "Before",
+     "start": 0.25,
+     "end": 0.575
+    },
+    {
+     "w": "Sunday's",
+     "start": 0.575,
+     "end": 1.075
+    },
+    {
+     "w": "win",
+     "start": 1.075,
+     "end": 1.212
+    },
+    {
+     "w": "at",
+     "start": 1.212,
+     "end": 1.3
+    },
+    {
+     "w": "Gladbach,",
+     "start": 1.3,
+     "end": 1.975
+    },
+    {
+     "w": "they",
+     "start": 2.075,
+     "end": 2.225
+    },
+    {
+     "w": "lost",
+     "start": 2.225,
+     "end": 2.55
+    },
+    {
+     "w": "4",
+     "start": 2.55,
+     "end": 2.775
+    },
+    {
+     "w": "straight.",
+     "start": 2.775,
+     "end": 3.6
+    }
+   ],
+   "durationInFrames": 116
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "But they beat Leverkusen 1-0 here in January.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Leverkusen",
+    "score": "1-0",
+    "when": "January"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-1899-hoffenheim-bayer-leverkusen/s4.mp3",
+   "words": [
+    {
+     "w": "But",
+     "start": 0.225,
+     "end": 0.338
+    },
+    {
+     "w": "they",
+     "start": 0.338,
+     "end": 0.487
+    },
+    {
+     "w": "beat",
+     "start": 0.487,
+     "end": 0.775
+    },
+    {
+     "w": "Leverkusen",
+     "start": 0.775,
+     "end": 1.425
+    },
+    {
+     "w": "1-0",
+     "start": 1.425,
+     "end": 1.95
+    },
+    {
+     "w": "here",
+     "start": 1.95,
+     "end": 2.175
+    },
+    {
+     "w": "in",
+     "start": 2.175,
+     "end": 2.325
+    },
+    {
+     "w": "January.",
+     "start": 2.325,
+     "end": 3.375
+    }
+   ],
+   "durationInFrames": 109
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Their chances add up to 2.63 expected goals a game.",
+   "show": {
+    "kind": "stat",
+    "label": "Leverkusen expected goals",
+    "value": "2.63"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-1899-hoffenheim-bayer-leverkusen/s5.mp3",
+   "words": [
+    {
+     "w": "Their",
+     "start": 0.25,
+     "end": 0.375
+    },
+    {
+     "w": "chances",
+     "start": 0.375,
+     "end": 0.863
+    },
+    {
+     "w": "add",
+     "start": 0.863,
+     "end": 1.062
+    },
+    {
+     "w": "up",
+     "start": 1.062,
+     "end": 1.175
+    },
+    {
+     "w": "to",
+     "start": 1.175,
+     "end": 1.3
+    },
+    {
+     "w": "2.63",
+     "start": 1.3,
+     "end": 2.325
+    },
+    {
+     "w": "expected",
+     "start": 2.325,
+     "end": 2.9
+    },
+    {
+     "w": "goals",
+     "start": 2.9,
+     "end": 3.263
+    },
+    {
+     "w": "a",
+     "start": 3.263,
+     "end": 3.325
+    },
+    {
+     "w": "game.",
+     "start": 3.325,
+     "end": 4.1
+    }
+   ],
+   "durationInFrames": 131
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Yet Leverkusen are only narrow favourites: 41.6% to Hoffenheim's 34.6%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-1899-hoffenheim-bayer-leverkusen/s6.mp3",
+   "words": [
+    {
+     "w": "Yet",
+     "start": 0.25,
+     "end": 0.425
+    },
+    {
+     "w": "Leverkusen",
+     "start": 0.425,
+     "end": 1.125
+    },
+    {
+     "w": "are",
+     "start": 1.125,
+     "end": 1.25
+    },
+    {
+     "w": "only",
+     "start": 1.25,
+     "end": 1.562
+    },
+    {
+     "w": "narrow",
+     "start": 1.562,
+     "end": 1.962
+    },
+    {
+     "w": "favourites:",
+     "start": 1.962,
+     "end": 2.8
+    },
+    {
+     "w": "41.6%",
+     "start": 2.938,
+     "end": 4.375
+    },
+    {
+     "w": "to",
+     "start": 4.375,
+     "end": 4.463
+    },
+    {
+     "w": "Hoffenheim's",
+     "start": 4.463,
+     "end": 5.162
+    },
+    {
+     "w": "34.6%.",
+     "start": 5.162,
+     "end": 7.225
+    }
+   ],
+   "durationInFrames": 225
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Hoffenheim lost their last 2 home games, both 2-3.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Hamburg, Beşiktaş",
+    "score": "2-3",
+    "when": "last 2 at home"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-1899-hoffenheim-bayer-leverkusen/s7.mp3",
+   "words": [
+    {
+     "w": "Hoffenheim",
+     "start": 0.25,
+     "end": 0.675
+    },
+    {
+     "w": "lost",
+     "start": 0.675,
+     "end": 0.912
+    },
+    {
+     "w": "their",
+     "start": 0.912,
+     "end": 1.05
+    },
+    {
+     "w": "last",
+     "start": 1.05,
+     "end": 1.375
+    },
+    {
+     "w": "2",
+     "start": 1.375,
+     "end": 1.575
+    },
+    {
+     "w": "home",
+     "start": 1.575,
+     "end": 1.85
+    },
+    {
+     "w": "games,",
+     "start": 1.85,
+     "end": 2.325
+    },
+    {
+     "w": "both",
+     "start": 2.4,
+     "end": 2.712
+    },
+    {
+     "w": "2-3.",
+     "start": 2.712,
+     "end": 3.6
+    }
+   ],
+   "durationInFrames": 116
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Which is why the total is 3.5 goals — over at 48.6%.",
+   "show": {
+    "kind": "over",
+    "line": 3.5,
+    "value": 48.6
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-1899-hoffenheim-bayer-leverkusen/s8.mp3",
+   "words": [
+    {
+     "w": "Which",
+     "start": 0.25,
+     "end": 0.425
+    },
+    {
+     "w": "is",
+     "start": 0.425,
+     "end": 0.55
+    },
+    {
+     "w": "why",
+     "start": 0.55,
+     "end": 0.738
+    },
+    {
+     "w": "the",
+     "start": 0.738,
+     "end": 0.825
+    },
+    {
+     "w": "total",
+     "start": 0.825,
+     "end": 1.2
+    },
+    {
+     "w": "is",
+     "start": 1.2,
+     "end": 1.363
+    },
+    {
+     "w": "3.5",
+     "start": 1.363,
+     "end": 2.2
+    },
+    {
+     "w": "goals—",
+     "start": 2.2,
+     "end": 2.888
+    },
+    {
+     "w": "over",
+     "start": 2.975,
+     "end": 3.3
+    },
+    {
+     "w": "at",
+     "start": 3.3,
+     "end": 3.462
+    },
+    {
+     "w": "48.6%.",
+     "start": 3.462,
+     "end": 5.35
+    }
+   ],
+   "durationInFrames": 169
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Leverkusen have the form; Hoffenheim have this fixture.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Leverkusen in top form",
+     "Hoffenheim won here in January",
+     "A close, open game"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-1899-hoffenheim-bayer-leverkusen/s9.mp3",
+   "words": [
+    {
+     "w": "Leverkusen",
+     "start": 0.275,
+     "end": 0.85
+    },
+    {
+     "w": "have",
+     "start": 0.85,
+     "end": 1.012
+    },
+    {
+     "w": "the",
+     "start": 1.012,
+     "end": 1.113
+    },
+    {
+     "w": "form;",
+     "start": 1.113,
+     "end": 1.675
+    },
+    {
+     "w": "Hoffenheim",
+     "start": 1.775,
+     "end": 2.325
+    },
+    {
+     "w": "have",
+     "start": 2.325,
+     "end": 2.513
+    },
+    {
+     "w": "this",
+     "start": 2.513,
+     "end": 2.7
+    },
+    {
+     "w": "fixture.",
+     "start": 2.7,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 122
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-1899-hoffenheim-bayer-leverkusen/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
+  "stickers": [
+   "🎯",
+   "🎯",
+   "🎯"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1575197,
+ "prices_as_of": "2026-10-21T21:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

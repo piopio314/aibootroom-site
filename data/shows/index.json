@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T22:18:12+00:00",
+ "generated_at": "2026-10-21T22:28:02+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -854,6 +854,76 @@
    "youtube_id": null,
    "article": null,
    "seconds": 49
+  },
+  {
+   "id": "2026-10-25-hull-city-brentford",
+   "home": "Hull City",
+   "away": "Brentford",
+   "league": "Premier League",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "title": "Brentford lose two midfielders — still clear favourites",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-25-hull-city-brentford.html",
+   "seconds": 51
+  },
+  {
+   "id": "2026-10-25-liverpool-brighton",
+   "home": "Liverpool",
+   "away": "Brighton",
+   "league": "Premier League",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "title": "Brighton bring 5 straight wins to Anfield",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-25-liverpool-brighton.html",
+   "seconds": 44
+  },
+  {
+   "id": "2026-10-25-manchester-united-bournemouth",
+   "home": "Manchester United",
+   "away": "Bournemouth",
+   "league": "Premier League",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "title": "United winless in seven: still favourites at home",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-25-manchester-united-bournemouth.html",
+   "seconds": 48
+  },
+  {
+   "id": "2026-10-25-1899-hoffenheim-bayer-leverkusen",
+   "home": "1899 Hoffenheim",
+   "away": "Bayer Leverkusen",
+   "league": "Bundesliga",
+   "kickoff": "2026-10-25T14:30:00+00:00",
+   "title": "Leverkusen's 5 wins meet Hoffenheim's January upset",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-25-1899-hoffenheim-bayer-leverkusen.html",
+   "seconds": 47
+  },
+  {
+   "id": "2026-10-25-club-brugge-kv-st-truiden",
+   "home": "Club Brugge KV",
+   "away": "St. Truiden",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-10-25T15:00:00+00:00",
+   "title": "Brugge on 5 straight wins host a sliding St Truiden",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-25-club-brugge-kv-st-truiden.html",
+   "seconds": 46
   },
   {
    "id": "2026-10-25-barcelona-real-madrid",

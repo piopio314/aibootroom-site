@@ -1,0 +1,888 @@
+{
+ "id": "2026-10-25-hull-city-brentford",
+ "title": "Brentford lose two midfielders — still clear favourites",
+ "match": {
+  "home": "Hull City",
+  "away": "Brentford",
+  "league": "Premier League",
+  "kickoff": "2026-10-25T14:00:00+00:00",
+  "home_short": "HUL",
+  "away_short": "BRE",
+  "home_color": "#16a34a",
+  "away_color": "#2563eb"
+ },
+ "market": {
+  "fair": {
+   "home": 21.3,
+   "draw": 23.9,
+   "away": 54.8
+  },
+  "move": {
+   "home": -0.8,
+   "draw": -0.7,
+   "away": 1.5
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 53.3
+   },
+   {
+    "t": "2026-10-18T23:16:00+00:00",
+    "v": 53.4
+   },
+   {
+    "t": "2026-10-19T02:31:00+00:00",
+    "v": 54.5
+   },
+   {
+    "t": "2026-10-19T11:20:00+00:00",
+    "v": 54.5
+   },
+   {
+    "t": "2026-10-19T17:18:00+00:00",
+    "v": 54.5
+   },
+   {
+    "t": "2026-10-20T05:21:00+00:00",
+    "v": 54.8
+   },
+   {
+    "t": "2026-10-21T05:21:00+00:00",
+    "v": 54.8
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 22.1
+    },
+    {
+     "t": "2026-10-18T23:16:00+00:00",
+     "v": 22.0
+    },
+    {
+     "t": "2026-10-19T02:31:00+00:00",
+     "v": 21.3
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "v": 21.3
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "v": 21.3
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 21.2
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "v": 21.3
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 24.6
+    },
+    {
+     "t": "2026-10-18T23:16:00+00:00",
+     "v": 24.6
+    },
+    {
+     "t": "2026-10-19T02:31:00+00:00",
+     "v": 24.2
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "v": 24.2
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "v": 24.2
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 24.0
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "v": 23.9
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 53.3
+    },
+    {
+     "t": "2026-10-18T23:16:00+00:00",
+     "v": 53.4
+    },
+    {
+     "t": "2026-10-19T02:31:00+00:00",
+     "v": 54.5
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "v": 54.5
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "v": 54.5
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 54.8
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "v": 54.8
+    }
+   ]
+  },
+  "goals": 2.82,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T21:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Brentford go to Hull without Yarmolyuk and Janelt, both suspended.",
+   "show": {
+    "kind": "absence",
+    "team": "away",
+    "player": "Yarmolyuk & Janelt",
+    "status": "out",
+    "line": ""
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-hull-city-brentford/s0.mp3",
+   "words": [
+    {
+     "w": "Brentford",
+     "start": 0.25,
+     "end": 0.6
+    },
+    {
+     "w": "go",
+     "start": 0.6,
+     "end": 0.738
+    },
+    {
+     "w": "to",
+     "start": 0.738,
+     "end": 0.85
+    },
+    {
+     "w": "Hull",
+     "start": 0.85,
+     "end": 1.125
+    },
+    {
+     "w": "without",
+     "start": 1.125,
+     "end": 1.475
+    },
+    {
+     "w": "Yarmolyuk",
+     "start": 1.475,
+     "end": 2.087
+    },
+    {
+     "w": "and",
+     "start": 2.087,
+     "end": 2.212
+    },
+    {
+     "w": "Janelt,",
+     "start": 2.212,
+     "end": 2.8
+    },
+    {
+     "w": "both",
+     "start": 2.913,
+     "end": 3.225
+    },
+    {
+     "w": "suspended.",
+     "start": 3.225,
+     "end": 4.25
+    }
+   ],
+   "durationInFrames": 136
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Hull host Brentford on Sunday in the Premier League.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-hull-city-brentford/s1.mp3",
+   "words": [
+    {
+     "w": "Hull",
+     "start": 0.25,
+     "end": 0.5
+    },
+    {
+     "w": "host",
+     "start": 0.5,
+     "end": 0.825
+    },
+    {
+     "w": "Brentford",
+     "start": 0.825,
+     "end": 1.238
+    },
+    {
+     "w": "on",
+     "start": 1.238,
+     "end": 1.438
+    },
+    {
+     "w": "Sunday",
+     "start": 1.438,
+     "end": 1.863
+    },
+    {
+     "w": "in",
+     "start": 1.863,
+     "end": 1.938
+    },
+    {
+     "w": "the",
+     "start": 1.938,
+     "end": 2.025
+    },
+    {
+     "w": "Premier",
+     "start": 2.025,
+     "end": 2.425
+    },
+    {
+     "w": "League.",
+     "start": 2.425,
+     "end": 3.15
+    }
+   ],
+   "durationInFrames": 103
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Hull have not won in their last five league games.",
+   "show": {
+    "kind": "form",
+    "team": "home",
+    "results": "LDLDL"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-hull-city-brentford/s2.mp3",
+   "words": [
+    {
+     "w": "Hull",
+     "start": 0.25,
+     "end": 0.45
+    },
+    {
+     "w": "have",
+     "start": 0.45,
+     "end": 0.613
+    },
+    {
+     "w": "not",
+     "start": 0.613,
+     "end": 0.825
+    },
+    {
+     "w": "won",
+     "start": 0.825,
+     "end": 1.012
+    },
+    {
+     "w": "in",
+     "start": 1.012,
+     "end": 1.087
+    },
+    {
+     "w": "their",
+     "start": 1.087,
+     "end": 1.25
+    },
+    {
+     "w": "last",
+     "start": 1.25,
+     "end": 1.613
+    },
+    {
+     "w": "five",
+     "start": 1.613,
+     "end": 1.975
+    },
+    {
+     "w": "league",
+     "start": 1.975,
+     "end": 2.25
+    },
+    {
+     "w": "games.",
+     "start": 2.25,
+     "end": 3.075
+    }
+   ],
+   "durationInFrames": 100
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "At Fulham they created just 0.16 expected goals.",
+   "show": {
+    "kind": "stat",
+    "label": "Hull xG at Fulham",
+    "value": "0.16"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-hull-city-brentford/s3.mp3",
+   "words": [
+    {
+     "w": "At",
+     "start": 0.225,
+     "end": 0.35
+    },
+    {
+     "w": "Fulham",
+     "start": 0.35,
+     "end": 0.637
+    },
+    {
+     "w": "they",
+     "start": 0.637,
+     "end": 0.775
+    },
+    {
+     "w": "created",
+     "start": 0.775,
+     "end": 1.25
+    },
+    {
+     "w": "just",
+     "start": 1.25,
+     "end": 1.488
+    },
+    {
+     "w": "0.16",
+     "start": 1.488,
+     "end": 2.675
+    },
+    {
+     "w": "expected",
+     "start": 2.675,
+     "end": 3.25
+    },
+    {
+     "w": "goals.",
+     "start": 3.25,
+     "end": 4.125
+    }
+   ],
+   "durationInFrames": 132
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Their manager called that first half one of the worst he has seen.",
+   "show": {
+    "kind": "news",
+    "source": "Hull Daily Mail",
+    "text": "Boss: one of worst halves of my reign"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-hull-city-brentford/s4.mp3",
+   "words": [
+    {
+     "w": "Their",
+     "start": 0.25,
+     "end": 0.4
+    },
+    {
+     "w": "manager",
+     "start": 0.4,
+     "end": 0.875
+    },
+    {
+     "w": "called",
+     "start": 0.875,
+     "end": 1.125
+    },
+    {
+     "w": "that",
+     "start": 1.125,
+     "end": 1.387
+    },
+    {
+     "w": "first",
+     "start": 1.387,
+     "end": 1.7
+    },
+    {
+     "w": "half",
+     "start": 1.7,
+     "end": 2.025
+    },
+    {
+     "w": "one",
+     "start": 2.025,
+     "end": 2.163
+    },
+    {
+     "w": "of",
+     "start": 2.163,
+     "end": 2.237
+    },
+    {
+     "w": "the",
+     "start": 2.237,
+     "end": 2.325
+    },
+    {
+     "w": "worst",
+     "start": 2.325,
+     "end": 2.612
+    },
+    {
+     "w": "he",
+     "start": 2.612,
+     "end": 2.688
+    },
+    {
+     "w": "has",
+     "start": 2.688,
+     "end": 2.862
+    },
+    {
+     "w": "seen.",
+     "start": 2.862,
+     "end": 3.625
+    }
+   ],
+   "durationInFrames": 117
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Brentford, though, concede 1.62 expected goals per game.",
+   "show": {
+    "kind": "stat",
+    "label": "Brentford xG conceded",
+    "value": "1.62"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-hull-city-brentford/s5.mp3",
+   "words": [
+    {
+     "w": "Brentford,",
+     "start": 0.25,
+     "end": 0.675
+    },
+    {
+     "w": "though,",
+     "start": 0.713,
+     "end": 0.975
+    },
+    {
+     "w": "concede",
+     "start": 1.05,
+     "end": 1.45
+    },
+    {
+     "w": "1.62",
+     "start": 1.45,
+     "end": 2.4
+    },
+    {
+     "w": "expected",
+     "start": 2.4,
+     "end": 2.925
+    },
+    {
+     "w": "goals",
+     "start": 2.925,
+     "end": 3.275
+    },
+    {
+     "w": "per",
+     "start": 3.275,
+     "end": 3.425
+    },
+    {
+     "w": "game.",
+     "start": 3.425,
+     "end": 4.225
+    }
+   ],
+   "durationInFrames": 135
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Yet Brentford's fair chance, margin removed, rose from 53.3% to 54.8%.",
+   "show": {
+    "kind": "move",
+    "team": "away",
+    "from": 53.3,
+    "to": 54.8
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-hull-city-brentford/s6.mp3",
+   "words": [
+    {
+     "w": "Yet",
+     "start": 0.25,
+     "end": 0.425
+    },
+    {
+     "w": "Brentford's",
+     "start": 0.425,
+     "end": 0.875
+    },
+    {
+     "w": "fair",
+     "start": 0.875,
+     "end": 1.137
+    },
+    {
+     "w": "chance,",
+     "start": 1.137,
+     "end": 1.625
+    },
+    {
+     "w": "margin",
+     "start": 1.7,
+     "end": 2.05
+    },
+    {
+     "w": "removed,",
+     "start": 2.05,
+     "end": 2.875
+    },
+    {
+     "w": "rose",
+     "start": 3.013,
+     "end": 3.375
+    },
+    {
+     "w": "from",
+     "start": 3.375,
+     "end": 3.575
+    },
+    {
+     "w": "53.3%",
+     "start": 3.575,
+     "end": 4.975
+    },
+    {
+     "w": "to",
+     "start": 4.975,
+     "end": 5.1
+    },
+    {
+     "w": "54.8%.",
+     "start": 5.1,
+     "end": 6.925
+    }
+   ],
+   "durationInFrames": 216
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The handicap gives Hull a head start of 0.75 goals.",
+   "show": {
+    "kind": "stat",
+    "label": "Hull head start (goals)",
+    "value": "0.75"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-hull-city-brentford/s7.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "handicap",
+     "start": 0.325,
+     "end": 0.925
+    },
+    {
+     "w": "gives",
+     "start": 0.925,
+     "end": 1.125
+    },
+    {
+     "w": "Hull",
+     "start": 1.125,
+     "end": 1.312
+    },
+    {
+     "w": "a",
+     "start": 1.312,
+     "end": 1.375
+    },
+    {
+     "w": "head",
+     "start": 1.375,
+     "end": 1.6
+    },
+    {
+     "w": "start",
+     "start": 1.6,
+     "end": 1.837
+    },
+    {
+     "w": "of",
+     "start": 1.837,
+     "end": 1.925
+    },
+    {
+     "w": "0.75",
+     "start": 1.925,
+     "end": 3.25
+    },
+    {
+     "w": "goals.",
+     "start": 3.25,
+     "end": 4.125
+    }
+   ],
+   "durationInFrames": 132
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The goal line is 2.75, and over is 51.8%.",
+   "show": {
+    "kind": "over",
+    "line": 2.75,
+    "value": 51.8
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-hull-city-brentford/s8.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "goal",
+     "start": 0.325,
+     "end": 0.55
+    },
+    {
+     "w": "line",
+     "start": 0.55,
+     "end": 0.85
+    },
+    {
+     "w": "is",
+     "start": 0.85,
+     "end": 1.012
+    },
+    {
+     "w": "2.75,",
+     "start": 1.012,
+     "end": 2.425
+    },
+    {
+     "w": "and",
+     "start": 2.525,
+     "end": 2.65
+    },
+    {
+     "w": "over",
+     "start": 2.65,
+     "end": 2.975
+    },
+    {
+     "w": "is",
+     "start": 2.975,
+     "end": 3.138
+    },
+    {
+     "w": "51.8%.",
+     "start": 3.138,
+     "end": 5.0
+    }
+   ],
+   "durationInFrames": 158
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "So the suspensions do not shake it: Brentford are clear favourites at Hull.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Suspensions change little",
+     "Brentford clear favourites",
+     "Hull under pressure"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-hull-city-brentford/s9.mp3",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.25,
+     "end": 0.338
+    },
+    {
+     "w": "the",
+     "start": 0.338,
+     "end": 0.425
+    },
+    {
+     "w": "suspensions",
+     "start": 0.425,
+     "end": 1.125
+    },
+    {
+     "w": "do",
+     "start": 1.125,
+     "end": 1.238
+    },
+    {
+     "w": "not",
+     "start": 1.238,
+     "end": 1.488
+    },
+    {
+     "w": "shake",
+     "start": 1.488,
+     "end": 1.8
+    },
+    {
+     "w": "it:",
+     "start": 1.8,
+     "end": 2.075
+    },
+    {
+     "w": "Brentford",
+     "start": 2.212,
+     "end": 2.7
+    },
+    {
+     "w": "are",
+     "start": 2.7,
+     "end": 2.837
+    },
+    {
+     "w": "clear",
+     "start": 2.837,
+     "end": 3.138
+    },
+    {
+     "w": "favourites",
+     "start": 3.138,
+     "end": 3.6
+    },
+    {
+     "w": "at",
+     "start": 3.6,
+     "end": 3.7
+    },
+    {
+     "w": "Hull.",
+     "start": 3.7,
+     "end": 4.45
+    }
+   ],
+   "durationInFrames": 148
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-hull-city-brentford/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "market_read",
+  "kicker": "MARKET READ",
+  "stickers": [
+   "👀",
+   "📊",
+   "📊"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1557442,
+ "prices_as_of": "2026-10-21T21:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}
