@@ -4,49 +4,107 @@
  "home": "Juventus",
  "away": "Rennes",
  "kickoff": "2026-10-22T16:45:00+00:00",
- "generated_at": "2026-10-21T13:25:59+00:00",
- "headline": "Juventus 60.7% favourites at home to Rennes",
- "summary": "Juventus are clear 60.7% favourites for Thursday's Europa League home game against Rennes in Turin. The market rates them about a goal better, on a handicap line of -1. The draw is 22.0%, above a Rennes win at 17.3%. Juventus are missing key attackers, including Yildiz, while Rennes list Lepaul as doubtful with an ankle problem. The goals line is 2.75, and over is 51.2% — the market sees roughly three goals. Both teams to score is 53.3%, so Rennes are more likely than not to find the net. Rennes +1 at 51.7% makes a narrow Juventus win close to even.",
- "read": "Juventus are clear 60.7% favourites in Turin, rated about a full goal better than Rennes on a handicap line of -0.94. The market expects roughly three goals and makes both teams to score more likely than not, while pricing Rennes +1 at 51.7% — a one-goal home win is no more than a coin flip.",
+ "generated_at": "2026-10-21T14:07:54+00:00",
+ "headline": "Juventus after the 0-3: still clear favourites against Rennes",
+ "summary": "Juventus lost 0-3 at home to Lazio on Sunday, their only defeat in their last five games. On Thursday they host Rennes in the Europa League, where they have won both matches and have 6 points. Rennes doubt striker Estéban Lepaul, who has 7 goals this season, and they have conceded 10 goals in their last five games. The market average makes Juventus 60.7% favourites, rates them 1 goal better, and expects 2.75 goals in Turin.",
+ "read": "Juventus are clear 60.7% favourites at home, and the price holds despite the 0-3 defeat to Lazio because their Europa League form — two wins and a +6 goal difference — is the strongest part of their season. Rennes arrive with four points from two European games but a defence that has shipped 10 goals in five, and with top scorer Estéban Lepaul a serious doubt after his penalty hat-trick at Paris FC ended in injury.",
  "facts": [
   {
-   "fact": "Juventus are 60.7% to win at home against Rennes.",
-   "meaning": "clear favourites — more likely than not to take the three points"
+   "fact": "Juventus are priced at 60.7% to win, more than three times Rennes' 17.3%.",
+   "meaning": "A home win is the clear market expectation in Turin, with the draw at 22.0%."
   },
   {
-   "fact": "The market rates Juventus about one goal better than Rennes, with a fair handicap line of -0.94.",
-   "meaning": ""
+   "fact": "Juventus lost 0-3 at home to Lazio in Serie A on Sunday.",
+   "meaning": "It is their only defeat in the last five, and it came in front of their own crowd four days before this game."
   },
   {
-   "fact": "Juventus are without nine players, including K. Yildiz (foot), K. Thuram and M. Locatelli (both knee).",
-   "meaning": "the depth of the squad is being tested, but the price has not shifted"
+   "fact": "Spalletti said after the Lazio defeat that his side lacked tempo, ideas, running and the desire to work hard.",
+   "meaning": "The coach himself framed the performance as an attitude problem, which makes this Europa League night an immediate response test."
   },
   {
-   "fact": "The goals line sits at 2.75, with Over priced at 51.2%.",
-   "meaning": "the market sees roughly three goals — a split, not a shootout"
+   "fact": "Rennes striker Estéban Lepaul has 7 goals in 719 minutes this season and is a serious doubt after going off injured late at Paris FC.",
+   "meaning": "Losing him would remove the finisher from a Rennes side that has been scoring freely but leaking heavily."
   },
   {
-   "fact": "Rennes +1 is a 51.7% shot on the handicap.",
-   "meaning": "a one-goal Juventus win is close to a coin flip — Rennes are expected to keep it tight"
+   "fact": "Juventus are without Francisco Conceição, their most-used absentee this season with 525 minutes across nine appearances.",
+   "meaning": "They must replace a regular wide midfielder on top of Locatelli and Yildiz also being unavailable."
   },
   {
-   "fact": "Both teams to score is 53.3% yes.",
-   "meaning": "more likely than not that Rennes find the net even in defeat"
+   "fact": "Rennes lost 4-3 away at Paris FC on Sunday in a game featuring four converted penalties.",
+   "meaning": "They scored three away from home and still lost, which sums up a side scoring and conceding at the same rate."
   },
   {
-   "fact": "The draw is priced at 22.0%, higher than a Rennes win at 17.3%.",
-   "meaning": "a stalemate is seen as a more realistic route to dropped points than an away victory"
+   "fact": "Juventus top the Europa League league phase with 6 points and a +6 goal difference from two matches.",
+   "meaning": "They have won both European games — 5-0 at home to NEC Nijmegen and 2-1 away at Celta Vigo — so this is the fixture where the domestic mood can be answered."
   },
   {
-   "fact": "Rennes list only one doubt, E. Lepaul, who is questionable with an ankle injury.",
-   "meaning": "the visitors arrive close to full strength for the trip to Turin"
+   "fact": "Rennes sit 13th of 36 in the same Europa League table with 4 points from two games.",
+   "meaning": "They have taken a win and a draw from their opening two European matches while sitting mid-table domestically."
   }
  ],
- "video_title": "Juventus 60.7%: about a goal better",
+ "sources": [
+  {
+   "fact": "Juventus lost 3-0 at home to Lazio in Serie A on 18 October.",
+   "source": "football-italia.net",
+   "url": "https://football-italia.net/spalletti-juventus-inferior-to-lazio-surprised/",
+   "age": "3 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Spalletti said after the Lazio defeat that his side lacked tempo, ideas, running and the desire to work hard.",
+   "source": "football-italia.net",
+   "url": "https://football-italia.net/spalletti-juventus-inferior-to-lazio-surprised/",
+   "age": "3 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Spalletti said in his pre-match press conference that he listened to the players in a meeting and had confirmation of their availability and honesty.",
+   "source": "gazzetta.it",
+   "url": "https://gazzetta.it/Calcio/Serie-A/Juventus/21-10-2026/conferenza-spalletti-le-parole-su-juventus-rennes.shtml",
+   "age": "1 hour ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Most Juventus fans left the Allianz Stadium in the closing minutes of the 3-0 home defeat to Lazio.",
+   "source": "football-italia.net",
+   "url": "https://football-italia.net/what-juventus-fans-did-3-0-home-loss-lazio/",
+   "age": "3 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Buffon believes Spalletti deserves time to turn things around and said the problem cannot just be the coach.",
+   "source": "football-italia.net",
+   "url": "https://football-italia.net/buffon-the-coach-isnt-the-problem-for-juventus/",
+   "age": "1 day ago",
+   "certainty": "opinion"
+  },
+  {
+   "fact": "The match is Juventus's third fixture of the Europa League league phase.",
+   "source": "www.juventus.com",
+   "url": "https://www.juventus.com/it/news/articoli/uefa-europa-league-dove-vedere-juventus-rennes",
+   "age": "1 day ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Tuttosport reports Juventus's final training session before Rennes featured a small-sided game and a double defence.",
+   "source": "www.tuttosport.com",
+   "url": "https://www.tuttosport.com/news/calcio/serie-a/juventus/2026/10/21-152039528/allenamento_juve_partitella_e_doppia_difesa_cosa_dice_il_campo_prima_del_rennes",
+   "age": "3 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Rennes lost 4-3 away at Paris FC in Ligue 1, a match that featured four converted penalties.",
+   "source": "www.lequipe.fr",
+   "url": "https://www.lequipe.fr/Football/Actualites/Le-paris-fc-arrache-la-victoire-dans-le-temps-additionnel-face-a-rennes-et-monte-sur-le-podium-de-ligue-1/1736766",
+   "age": "3 days ago",
+   "certainty": "confirmed"
+  }
+ ],
+ "video_title": "Juventus after the 0-3: still clear favourites",
  "key_points": [
-  "Juventus 60.7% favourites",
-  "Rated one goal better",
-  "Both to score: 53.3%"
+  "Juventus 60.7% after 0-3 home loss",
+  "Rennes' Lepaul: 7 goals, doubt",
+  "Market expects about three goals"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."

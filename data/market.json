@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T13:39:00+00:00",
+ "generated_at": "2026-10-21T14:35:00+00:00",
  "prices_as_of": "2026-10-21T10:21:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
@@ -110,7 +110,7 @@
    "away": 0
   },
   "read": "2026-10-25-barcelona-real-madrid",
-  "headline": "Barcelona 59.4% favourites, but Madrid are closing the gap"
+  "headline": "Barcelona host Clasico with 27 points but after first defeat"
  },
  "weekend": [
   {
@@ -544,7 +544,7 @@
     "away": 0
    },
    "read": "2026-10-24-aston-villa-manchester-city",
-   "headline": "Manchester City 55.7% away favourites at Aston Villa"
+   "headline": "Manchester City's seven wins meet unbeaten Aston Villa"
   },
   {
    "id": 1550164,
@@ -611,7 +611,7 @@
     "away": 1
    },
    "read": "2026-10-24-napoli-as-roma",
-   "headline": "Roma narrow favourites for the trip to Napoli"
+   "headline": "Roma third in Serie A, narrow favourites in Naples"
   },
   {
    "id": 1557439,
@@ -684,7 +684,7 @@
     "away": 0
    },
    "read": "2026-10-24-chelsea-tottenham",
-   "headline": "Chelsea 54.9%: clear favourites by three-quarters of a goal"
+   "headline": "Tottenham's first win, but Chelsea are clear favourites"
   },
   {
    "id": 1552204,
@@ -1636,7 +1636,7 @@
     "away": 1
    },
    "read": "2026-10-22-juventus-rennes",
-   "headline": "Juventus 60.7% favourites at home to Rennes",
+   "headline": "Juventus after the 0-3: still clear favourites against Rennes",
    "competition": "uel"
   },
   {
@@ -2476,7 +2476,7 @@
     "away": 0
    },
    "read": "2026-10-24-aston-villa-manchester-city",
-   "headline": "Manchester City 55.7% away favourites at Aston Villa",
+   "headline": "Manchester City's seven wins meet unbeaten Aston Villa",
    "competition": "39"
   },
   {
@@ -3286,7 +3286,7 @@
     "away": 1
    },
    "read": "2026-10-24-napoli-as-roma",
-   "headline": "Roma narrow favourites for the trip to Napoli",
+   "headline": "Roma third in Serie A, narrow favourites in Naples",
    "competition": "135"
   },
   {
@@ -3346,7 +3346,7 @@
     "away": 0
    },
    "read": "2026-10-24-chelsea-tottenham",
-   "headline": "Chelsea 54.9%: clear favourites by three-quarters of a goal",
+   "headline": "Tottenham's first win, but Chelsea are clear favourites",
    "competition": "39"
   },
   {
@@ -4696,7 +4696,7 @@
     "away": 0
    },
    "read": "2026-10-25-barcelona-real-madrid",
-   "headline": "Barcelona 59.4% favourites, but Madrid are closing the gap",
+   "headline": "Barcelona host Clasico with 27 points but after first defeat",
    "competition": "140"
   },
   {
@@ -5127,36 +5127,44 @@
    "home": "Aston Villa",
    "away": "Manchester City",
    "kickoff": "2026-10-24T11:30:00+00:00",
-   "headline": "Manchester City 55.7% away favourites at Aston Villa",
-   "summary": "Manchester City are clear favourites at Aston Villa in Saturday's Premier League game, 55.7% to win. The market rates City about three-quarters of a goal better than Villa, a handicap line of 0.77. The draw is 22.6%, rated above a Villa win at 21.6%, so a tight Villa Park is seen as more likely than a home victory. Goals are the other part of the picture: the total is 3.09, Over 3.0 has moved from 50.3% to 52.2%, and both teams to score is 60.5%. An open, high-scoring game with City on top.",
-   "read": "Manchester City are clear favourites at Aston Villa, 55.7% to win and rated about three-quarters of a goal the better side. The market expects a high-scoring game: the goals line sits above three, Over 3.0 has shortened to 52.2%, and both teams to score is 60.5%.",
+   "headline": "Manchester City's seven wins meet unbeaten Aston Villa",
+   "summary": "Manchester City have won all 7 league games, including at Liverpool, and lead the Premier League with 21 points. Aston Villa beat Newcastle 1-0 on Saturday and are unbeaten in 5, but Aaron Wan-Bissaka is out for 3 weeks with a hamstring injury. City's Erling Haaland is okay to start, his manager said. The market average makes City 55.7% favourites, more than twice Villa's 21.6% chance, and gives Villa a 0.75-goal head start. The market expects 3.0 goals, and more than that is 52.2% likely.",
+   "read": "Manchester City come to Villa Park as clear favourites at 55.7%, having won all seven of their league games, but Villa are unbeaten in five and have won the last two meetings between the sides. The market expects goals — the total sits at 3.0 with Over at 52.2% — while Villa cover for the absences of Wan-Bissaka and Manzambi and City have Haaland cleared to start.",
    "facts": [
     {
-     "fact": "Manchester City are 55.7% to win at Aston Villa.",
-     "meaning": "clear away favourites, more likely than not to take the three points"
+     "fact": "Manchester City are 55.7% to win at Villa Park — more than twice Aston Villa's 21.6% chance.",
+     "meaning": "The market makes the away side clear favourites, with Villa given barely a fifth of the chance even at home."
     },
     {
-     "fact": "The market rates City about three-quarters of a goal better than Villa, with the handicap fair line at 0.77.",
-     "meaning": "Villa need a +0.75 goal head start for the teams to be seen as level"
+     "fact": "City top the Premier League with 21 points from seven games, having won all seven.",
+     "meaning": "That perfect league record is the backbone of their price as away favourites."
     },
     {
-     "fact": "The draw is 22.6%, priced above a Villa win at 21.6%.",
-     "meaning": "a stalemate is seen as more likely than a home victory"
+     "fact": "Aaron Wan-Bissaka is set to miss at least three weeks with a hamstring injury picked up in Villa's 1-0 win at Newcastle.",
+     "meaning": "Villa must reshuffle their defence for the visit of the league's top scorers."
     },
     {
-     "fact": "The goals line is set at 3.09.",
-     "meaning": "just over three goals expected — a high-scoring game is the market's view"
+     "fact": "Villa are unbeaten in their last five matches — WWDWW — with 15 goals scored and 5 conceded.",
+     "meaning": "They arrive in form and scoring freely, which is why they are not dismissed at home."
     },
     {
-     "fact": "Over 3.0 has shortened from 50.3% to 52.2% in recent days.",
-     "meaning": "money has arrived on goals, and the goals line has crept up with it"
+     "fact": "Erling Haaland was an unused substitute in City's 5-1 Champions League win over AEK Athens, but manager Enzo Maresca said he is 'okay to start on Saturday'.",
+     "meaning": "City's main striker is available and comes into this with fewer minutes in his legs than usual."
     },
     {
-     "fact": "Both teams to score is 60.5%.",
-     "meaning": "more likely than not that both sides find the net"
+     "fact": "The market sets the goal total at 3.0, with Over 3.0 at 52.2% after shortening from 50.3% in recent days.",
+     "meaning": "A game with three goals or more is seen as slightly more likely than not."
+    },
+    {
+     "fact": "Villa won the most recent meeting 2-1 at the Etihad in May, and also beat City 1-0 at Villa Park the October before.",
+     "meaning": "Villa have won the last two meetings — the market still makes City clear favourites."
+    },
+    {
+     "fact": "City have conceded 10 goals in their last five matches.",
+     "meaning": "There is a route into this game for Villa even as big underdogs."
     }
    ],
-   "video_title": "City visit Villa: 3.09 goals expected"
+   "video_title": "City's perfect start meets Villa's unbeaten run"
   },
   {
    "slug": "2026-10-24-chelsea-tottenham",
@@ -5164,44 +5172,44 @@
    "home": "Chelsea",
    "away": "Tottenham",
    "kickoff": "2026-10-24T16:30:00+00:00",
-   "headline": "Chelsea 54.9%: clear favourites by three-quarters of a goal",
-   "summary": "Chelsea's win chance rose from 52.5% to 54.9% in recent days, and they are clear favourites against Tottenham at Stamford Bridge in the Premier League. The market rates Chelsea about three-quarters of a goal better, a handicap of -0.75. Tottenham are 22.5% and the draw 22.7%, both well behind the home side. Over 3.0 goals is 51.2% and both teams to score is 60.6%, so an open London derby is expected.",
-   "read": "Chelsea are clear favourites at 54.9%, rated about three-quarters of a goal better than Tottenham, and their chance has strengthened from 52.5% in recent days while Spurs slipped to 22.5%. The market expects an open derby: the goal line sits on three with Over at 51.2%, Over 2.5 is 61.1% and both teams to score comes in at 60.6%.",
+   "headline": "Tottenham's first win, but Chelsea are clear favourites",
+   "summary": "Tottenham beat Coventry 3-1 on Monday for their first Premier League win of the season, but they created only 0.9 expected goals — the scoreline flattered them. James Maddison and Dejan Kulusevski are back, according to Yahoo Sports, so Spurs have their main creators again. Chelsea are 4th on 13 points after a 2-0 win at Everton; Tottenham are 16th on 6. Chelsea's win chance has risen from 52.5% to 54.9% in recent days, and the market rates them about 0.73 goals stronger. The market expects 3.0 goals.",
+   "read": "Chelsea are clear favourites for the London derby, rated about three-quarters of a goal better than a Tottenham side sitting 16th. Spurs' first league win of the season and the returns of Maddison and Kulusevski give them a route into the game, but the market still expects a home win and roughly three goals.",
    "facts": [
     {
-     "fact": "Chelsea are 54.9% to win the London derby.",
-     "meaning": "clear favourites — more likely than not to take the three points"
+     "fact": "Chelsea are clear favourites for the London derby at 54.9% to win, more than double Tottenham's 22.5%.",
+     "meaning": "The market rates Chelsea comfortably the better side at Stamford Bridge, though the draw is a live 22.7%."
     },
     {
-     "fact": "Chelsea's win chance rose from 52.5% to 54.9% in recent days.",
-     "meaning": "money came for the home side, with Tottenham dropping from 24.2% to 22.5%"
+     "fact": "Tottenham beat Coventry City 3-1 on Monday, their first Premier League win of the season.",
+     "meaning": "Spurs arrive off a win rather than a crisis, and with Maddison, Marmoush and Ben Davies all scoring."
     },
     {
-     "fact": "Chelsea are rated about three-quarters of a goal better than Tottenham, at a -0.75 handicap.",
-     "meaning": "a one-goal Chelsea win only half-wins that handicap, so the market wants a two-goal margin to be comfortable"
+     "fact": "James Maddison and Dejan Kulusevski both returned from injury and featured in Tottenham's 3-1 win over Coventry.",
+     "meaning": "Two of Spurs' main creators are back available for the derby, which is why their attacking threat is bigger than a 6-point start suggests."
     },
     {
-     "fact": "Over 3.0 goals is 51.2% — the goal line sits right on three.",
-     "meaning": "three goals is a coin flip; the market expects an open derby rather than a cagey one"
+     "fact": "Chelsea won 2-0 away at Everton on 17 October.",
+     "meaning": "They come into the derby off a controlled away win, with seven days between matches."
     },
     {
-     "fact": "The draw is 22.7%, level with Tottenham's 22.5% win chance.",
-     "meaning": "the market rates a Spurs win and a draw about the same — neither is close to Chelsea"
+     "fact": "Chelsea's win chance has risen from 52.5% to 54.9% in recent days.",
+     "meaning": "The home side has been strengthened since the weekend, with Tottenham's chance slipping the other way."
     },
     {
-     "fact": "Both teams to score is 60.6%.",
-     "meaning": "more likely than not that both sides find the net at Stamford Bridge"
+     "fact": "Sports Mole reports Tottenham's injury and suspension list for the Chelsea match includes Pedro Porro, Savio and Lucas Bergvall.",
+     "meaning": "Spurs may be without regular options at right-back and in midfield, thinning the squad that has to cover the derby."
     },
     {
-     "fact": "The handicap fair line moved from -0.63 to -0.73.",
-     "meaning": "Chelsea's superiority was deepened by a tenth of a goal, taking it close to a full goal"
+     "fact": "The handicap fair line has moved from -0.63 to -0.73, with Chelsea now rated about three-quarters of a goal better.",
+     "meaning": ""
     },
     {
-     "fact": "Over 2.5 goals is priced at 61.1%.",
-     "meaning": "two goals or fewer is the less likely outcome by a comfortable margin"
+     "fact": "Chelsea have had seven days since their last match; Tottenham played on Monday and have five.",
+     "meaning": "Chelsea go into a high-tempo derby with two extra days of recovery."
     }
    ],
-   "video_title": "Chelsea's chance rises to 54.9% for the London derby"
+   "video_title": "Tottenham's first win — but Chelsea are favourites"
   },
   {
    "slug": "2026-10-25-barcelona-real-madrid",
@@ -5209,40 +5217,44 @@
    "home": "Barcelona",
    "away": "Real Madrid",
    "kickoff": "2026-10-25T20:00:00+00:00",
-   "headline": "Barcelona 59.4% favourites, but Madrid are closing the gap",
-   "summary": "Barcelona are clear favourites for Sunday's Clasico at the Camp Nou, with a 59.4% chance to win. Real Madrid have gained ground, though: their win chance has risen from 19.8% to 24.1%. Barcelona are still rated about one goal better on the handicap at -1.02. The draw is the least likely result at 16.5%. The market expects a high-scoring game: the fair goals total is now 4.18, up from 4.03. Both teams to score is rated 73.2%, so clean sheets are not the expectation.",
-   "read": "Barcelona are clear favourites at 59.4%, but the gap has narrowed: Real Madrid have come in from 19.8% to 24.1% and the handicap has slipped from Barcelona -1.19 to -1.02, so they are rated about one goal better rather than 1.2. The goals side has moved the other way, with the fair total up to 4.18 and over 4.25 close to a coin flip at 48.4% — both teams to score is rated 73.2%, while the draw is the outsider at 16.5%.",
+   "headline": "Barcelona host Clasico with 27 points but after first defeat",
+   "summary": "Barcelona host Real Madrid at Camp Nou on Sunday with the lead in La Liga: 27 points, and they are 1st. But Barcelona lost 2-4 at Paris Saint-Germain on Tuesday, their first defeat this season, and Mundo Deportivo report Jules Kounde is doubtful with an ankle sprain. Reports say Vinicius Jr could miss the Clasico through a 3-match ban. Even so, the market makes Barcelona clear favourites at 59.4%, more than twice Real Madrid's 24.1%. The gap in goals has narrowed, from 1.19 to 1.02, and the market expects 4.18 goals, up from 4.03.",
+   "read": "Barcelona host Real Madrid six points clear at the top of La Liga, days after a 2-4 defeat at PSG ended their unbeaten start and with Olmo injured and Kounde a doubt. The market still makes Barcelona clear favourites and rates them about a goal the better side, in a Clasico expected to produce around four goals, while Madrid may have to do it without the suspended Vinicius Jr.",
    "facts": [
     {
-     "fact": "Barcelona are 59.4% favourites to win the Clasico at home.",
-     "meaning": "clear favourites, but not overwhelming — roughly a 3-in-5 shot"
+     "fact": "Barcelona lead La Liga with 27 points from nine games, six points clear of Real Madrid in third.",
+     "meaning": "Barcelona arrive as leaders with a perfect recent league record, while Madrid need the win to close the gap at the top."
     },
     {
-     "fact": "Real Madrid's win chance has risen from 19.8% to 24.1% in recent days.",
-     "meaning": "a clear 4.2-point move toward Madrid — the tie is rated tighter than it was"
+     "fact": "Vinicius Jr is currently set to miss El Clasico plus two more league fixtures, with Real Madrid pursuing provisional measures to have the ban reduced.",
+     "meaning": "Madrid could be without their main one-against-one threat on the left in the biggest game of their autumn."
     },
     {
-     "fact": "The handicap fair line has moved from Barcelona -1.19 to -1.02.",
-     "meaning": "Barcelona are still rated about one goal better, but a shade less than a few days ago"
+     "fact": "Barcelona lost 2-4 at Paris Saint-Germain on Tuesday, ending an 11-match winning run and their unbeaten start to the season.",
+     "meaning": "Barcelona go into the Clasico off a first defeat, having conceded four for the first time this season."
     },
     {
-     "fact": "The market's fair goals line has moved from 4.03 to 4.18.",
-     "meaning": "about four goals expected — a high-scoring Clasico is the base case"
+     "fact": "Barcelona midfielder Dani Olmo was forced off injured in the first half against PSG and replaced by Fermin Lopez.",
+     "meaning": "Barcelona may have to reshuffle the creative middle of the team for the Clasico."
     },
     {
-     "fact": "Over 4.25 goals is priced at 48.4%, up 3.2 points.",
-     "meaning": "four goals or more is close to a coin flip, and the money has leaned that way"
+     "fact": "Mundo Deportivo reports Barcelona are increasingly pessimistic about Jules Kounde being fit for Sunday's Clasico because of a serious ankle sprain.",
+     "meaning": "Barcelona's first-choice right-sided defender is a doubt, which matters most against Madrid's left-sided attackers."
     },
     {
-     "fact": "Both teams to score is rated 73.2%.",
-     "meaning": "more likely than not that both sides find the net — clean sheets are not the expectation"
+     "fact": "Barcelona are 59.4% favourites to win the Clasico, more than twice Real Madrid's 24.1%.",
+     "meaning": "The market makes Barcelona clear home favourites despite Tuesday's defeat in Paris."
     },
     {
-     "fact": "The draw is the least likely result at 16.5%.",
-     "meaning": "the market strongly leans to a decisive result, with Madrid (24.1%) rated more likely than a draw"
+     "fact": "The market's fair handicap has eased from Barcelona -1.19 to -1.02 in recent days.",
+     "meaning": ""
+    },
+    {
+     "fact": "The market's fair goal line has risen from 4.03 to 4.18 since the weekend.",
+     "meaning": "A high-scoring Clasico is expected — around four goals between them."
     }
    ],
-   "video_title": "Madrid close the gap: 19.8% to 24.1%"
+   "video_title": "Vinicius ban doubt as Barcelona host Real Madrid"
   },
   {
    "slug": "2026-10-24-napoli-as-roma",
@@ -5250,40 +5262,44 @@
    "home": "Napoli",
    "away": "AS Roma",
    "kickoff": "2026-10-24T16:00:00+00:00",
-   "headline": "Roma narrow favourites for the trip to Napoli",
-   "summary": "Roma are narrow favourites for Saturday's Serie A trip to Napoli, at 37.8%, with Napoli close behind on 34.4% — a small margin, not a clear one. The handicap is level: the market rates Roma just 0.07 of a goal better, so this is close to a coin-flip game. Napoli are without first-choice centre-back Alessandro Buongiorno, out with a knee problem, and Roma also miss defender M. Bah. Over 2.5 goals is 50.9% — a genuinely split goals game. Both teams to score is 56.1%, and the draw, at 27.7%, is the least likely result.",
-   "read": "Napoli's win chance has been trimmed upward in recent days while Roma drifted, and with the goals line sitting exactly on 2.5 this is priced as a tight, close-to-even game between two sides each missing a defender.",
+   "headline": "Roma third in Serie A, narrow favourites in Naples",
+   "summary": "Roma go to Naples 3rd in Serie A with 17 points, after a 4-0 home win over Slovan Bratislava on Tuesday. Napoli beat Bodo/Glimt 4-3 in midweek, but Bodo/Glimt created 2.69 expected goals in that game. Italian media report that Napoli's coach Max Allegri faced questions after 2 defeats, and that Paulo Dybala is out, leaving Gasperini thinner in attacking midfield. Even so, the market keeps Roma just ahead at 37.8%, with Napoli close behind at 34.4%. Over 2.5 goals is a 50.9% chance — the market is split on the goals.",
+   "read": "Roma travel to Naples third in Serie A with 17 points and a 4-0 Champions League win behind them, while Napoli are ninth and spent the week answering questions about their coach after two defeats in three. The market makes Roma narrow favourites at 37.8% with a level handicap, and it is split on goals — Over 2.5 is priced at 50.9%.",
    "facts": [
     {
-     "fact": "Roma are the favourites to win at 37.8%.",
-     "meaning": ""
+     "fact": "Roma arrive third in Serie A with 17 points from seven games; Napoli are ninth on 10.",
+     "meaning": "The visitors are the higher-ranked side, but the gap is not big enough to make them clear favourites away from home."
     },
     {
-     "fact": "Napoli's win chance has risen from 32.4% to 33.9% in recent days.",
-     "meaning": "Roma drifted from 40.2% to 38.1% over the same spell — the gap has narrowed, though only slightly"
+     "fact": "Roma are narrow favourites at 37.8%, barely ahead of Napoli's 34.4%, with the draw at 27.7%.",
+     "meaning": "The market expects a tight game with no dominant side."
     },
     {
-     "fact": "Napoli are without defender Alessandro Buongiorno, out with a knee problem.",
-     "meaning": "a first-choice centre-back missing from the side that is trying to hold Roma's attack"
+     "fact": "The handicap is level ball, with the fair line at +0.07 to Napoli — Roma are rated a fraction of a goal the better team even away.",
+     "meaning": "A level handicap means the result is seen as a toss-up; Napoli get almost no home-field credit."
     },
     {
-     "fact": "Roma are missing M. Bah, also listed out with a knee injury.",
-     "meaning": "both squads go into this one short a defender"
+     "fact": "Over 2.5 goals is priced at 50.9%, with the fair goal line at 2.54.",
+     "meaning": "The market is genuinely split on whether this is a high-scoring game."
     },
     {
-     "fact": "Over 2.5 goals is priced at 50.9%.",
-     "meaning": "the market sees exactly 2.5 goals as the 50/50 point — a genuinely split goals game"
+     "fact": "Roma beat Slovan Bratislava 4-0 with a 3.19 to 0.04 xG advantage.",
+     "meaning": "Gasperini's side arrive with a dominant, near-chanceless defensive night behind them."
     },
     {
-     "fact": "Both teams to score is 56.1% yes.",
-     "meaning": "more likely than not that both sides find the net"
+     "fact": "Napoli beat Bodo/Glimt 4-3 but were out-created, 1.57 xG to 2.69 against.",
+     "meaning": "The win came from finishing and a chaotic game rather than control — the same openness Roma can exploit."
     },
     {
-     "fact": "The draw sits at 27.7%, the least likely of the three results.",
-     "meaning": "the market leans towards someone winning this rather than a stalemate"
+     "fact": "Napoli director Giovanni Manna said coach Max Allegri is 'absolutely not in doubt' after the president asked to be 'reassured' following two defeats.",
+     "meaning": "The coach's position was being discussed publicly in the days before this match."
+    },
+    {
+     "fact": "Italian media report two Roma attacking midfielders unavailable: Paulo Dybala is out and Pellegrini's injury complicates Gasperini's choices, with Bryan Cristante back from a knee problem.",
+     "meaning": "Roma's creativity behind the striker is thinner than their form suggests, which is why the visitors are only narrow favourites."
     }
    ],
-   "video_title": "Roma 37.8%: narrow favourites at Napoli"
+   "video_title": "Roma 3rd in Serie A, narrow favourites in Naples"
   },
   {
    "slug": "2026-10-25-crystal-palace-newcastle",
@@ -5303,44 +5319,44 @@
    "home": "Juventus",
    "away": "Rennes",
    "kickoff": "2026-10-22T16:45:00+00:00",
-   "headline": "Juventus 60.7% favourites at home to Rennes",
-   "summary": "Juventus are clear 60.7% favourites for Thursday's Europa League home game against Rennes in Turin. The market rates them about a goal better, on a handicap line of -1. The draw is 22.0%, above a Rennes win at 17.3%. Juventus are missing key attackers, including Yildiz, while Rennes list Lepaul as doubtful with an ankle problem. The goals line is 2.75, and over is 51.2% — the market sees roughly three goals. Both teams to score is 53.3%, so Rennes are more likely than not to find the net. Rennes +1 at 51.7% makes a narrow Juventus win close to even.",
-   "read": "Juventus are clear 60.7% favourites in Turin, rated about a full goal better than Rennes on a handicap line of -0.94. The market expects roughly three goals and makes both teams to score more likely than not, while pricing Rennes +1 at 51.7% — a one-goal home win is no more than a coin flip.",
+   "headline": "Juventus after the 0-3: still clear favourites against Rennes",
+   "summary": "Juventus lost 0-3 at home to Lazio on Sunday, their only defeat in their last five games. On Thursday they host Rennes in the Europa League, where they have won both matches and have 6 points. Rennes doubt striker Estéban Lepaul, who has 7 goals this season, and they have conceded 10 goals in their last five games. The market average makes Juventus 60.7% favourites, rates them 1 goal better, and expects 2.75 goals in Turin.",
+   "read": "Juventus are clear 60.7% favourites at home, and the price holds despite the 0-3 defeat to Lazio because their Europa League form — two wins and a +6 goal difference — is the strongest part of their season. Rennes arrive with four points from two European games but a defence that has shipped 10 goals in five, and with top scorer Estéban Lepaul a serious doubt after his penalty hat-trick at Paris FC ended in injury.",
    "facts": [
     {
-     "fact": "Juventus are 60.7% to win at home against Rennes.",
-     "meaning": "clear favourites — more likely than not to take the three points"
+     "fact": "Juventus are priced at 60.7% to win, more than three times Rennes' 17.3%.",
+     "meaning": "A home win is the clear market expectation in Turin, with the draw at 22.0%."
     },
     {
-     "fact": "The market rates Juventus about one goal better than Rennes, with a fair handicap line of -0.94.",
-     "meaning": ""
+     "fact": "Juventus lost 0-3 at home to Lazio in Serie A on Sunday.",
+     "meaning": "It is their only defeat in the last five, and it came in front of their own crowd four days before this game."
     },
     {
-     "fact": "Juventus are without nine players, including K. Yildiz (foot), K. Thuram and M. Locatelli (both knee).",
-     "meaning": "the depth of the squad is being tested, but the price has not shifted"
+     "fact": "Spalletti said after the Lazio defeat that his side lacked tempo, ideas, running and the desire to work hard.",
+     "meaning": "The coach himself framed the performance as an attitude problem, which makes this Europa League night an immediate response test."
     },
     {
-     "fact": "The goals line sits at 2.75, with Over priced at 51.2%.",
-     "meaning": "the market sees roughly three goals — a split, not a shootout"
+     "fact": "Rennes striker Estéban Lepaul has 7 goals in 719 minutes this season and is a serious doubt after going off injured late at Paris FC.",
+     "meaning": "Losing him would remove the finisher from a Rennes side that has been scoring freely but leaking heavily."
     },
     {
-     "fact": "Rennes +1 is a 51.7% shot on the handicap.",
-     "meaning": "a one-goal Juventus win is close to a coin flip — Rennes are expected to keep it tight"
+     "fact": "Juventus are without Francisco Conceição, their most-used absentee this season with 525 minutes across nine appearances.",
+     "meaning": "They must replace a regular wide midfielder on top of Locatelli and Yildiz also being unavailable."
     },
     {
-     "fact": "Both teams to score is 53.3% yes.",
-     "meaning": "more likely than not that Rennes find the net even in defeat"
+     "fact": "Rennes lost 4-3 away at Paris FC on Sunday in a game featuring four converted penalties.",
+     "meaning": "They scored three away from home and still lost, which sums up a side scoring and conceding at the same rate."
     },
     {
-     "fact": "The draw is priced at 22.0%, higher than a Rennes win at 17.3%.",
-     "meaning": "a stalemate is seen as a more realistic route to dropped points than an away victory"
+     "fact": "Juventus top the Europa League league phase with 6 points and a +6 goal difference from two matches.",
+     "meaning": "They have won both European games — 5-0 at home to NEC Nijmegen and 2-1 away at Celta Vigo — so this is the fixture where the domestic mood can be answered."
     },
     {
-     "fact": "Rennes list only one doubt, E. Lepaul, who is questionable with an ankle injury.",
-     "meaning": "the visitors arrive close to full strength for the trip to Turin"
+     "fact": "Rennes sit 13th of 36 in the same Europa League table with 4 points from two games.",
+     "meaning": "They have taken a win and a draw from their opening two European matches while sitting mid-table domestically."
     }
    ],
-   "video_title": "Juventus 60.7%: about a goal better"
+   "video_title": "Juventus after the 0-3: still clear favourites"
   },
   {
    "slug": "2026-10-21-levante-athletic-club",

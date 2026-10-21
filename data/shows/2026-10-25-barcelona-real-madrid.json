@@ -1,6 +1,6 @@
 {
  "id": "2026-10-25-barcelona-real-madrid",
- "title": "Madrid close the gap: 19.8% to 24.1%",
+ "title": "Vinicius ban doubt as Barcelona host Real Madrid",
  "match": {
   "home": "Barcelona",
   "away": "Real Madrid",
@@ -228,18 +228,20 @@
   "goals": 4.18,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-21T10:21:00+00:00"
+  "prices_as_of": "2026-10-21T10:21:00+00:00",
+  "books": 10
  },
  "scenes": [
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Real Madrid have gained ground: 19.8% to 24.1%.",
+   "text": "Real Madrid could be without Vinicius Jr through a 3-match ban.",
    "show": {
-    "kind": "move",
+    "kind": "absence",
     "team": "away",
-    "from": 19.8,
-    "to": 24.1
+    "player": "Vinicius Jr",
+    "status": "doubtful",
+    "line": "3 matches"
    },
    "first": true,
    "variant": 0,
@@ -253,45 +255,60 @@
     {
      "w": "Madrid",
      "start": 0.52,
-     "end": 0.84
+     "end": 0.92
     },
     {
-     "w": "have",
-     "start": 0.84,
-     "end": 1
+     "w": "could",
+     "start": 0.92,
+     "end": 1.16
     },
     {
-     "w": "gained",
-     "start": 1.08,
+     "w": "be",
+     "start": 1.24,
      "end": 1.32
     },
     {
-     "w": "ground:",
+     "w": "without",
      "start": 1.32,
-     "end": 1.8
+     "end": 1.64
     },
     {
-     "w": "19.8%",
-     "start": 2.039,
-     "end": 3.32
+     "w": "Vinicius",
+     "start": 1.72,
+     "end": 2.12
     },
     {
-     "w": "to",
-     "start": 3.496,
-     "end": 3.64
+     "w": "Jr",
+     "start": 2.12,
+     "end": 2.6
     },
     {
-     "w": "24.1%.",
-     "start": 3.64,
-     "end": 5.24
+     "w": "through",
+     "start": 2.68,
+     "end": 2.84
+    },
+    {
+     "w": "a",
+     "start": 2.92,
+     "end": 2.92
+    },
+    {
+     "w": "3-match",
+     "start": 2.92,
+     "end": 3.48
+    },
+    {
+     "w": "ban.",
+     "start": 3.56,
+     "end": 3.88
     }
    ],
-   "durationInFrames": 165
+   "durationInFrames": 124
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Barcelona host Real Madrid at the Camp Nou on Sunday.",
+   "text": "Barcelona host Real Madrid at Camp Nou on Sunday.",
    "show": {
     "kind": "teams"
    },
@@ -322,90 +339,118 @@
     {
      "w": "at",
      "start": 1.8,
-     "end": 1.8
-    },
-    {
-     "w": "the",
-     "start": 1.88,
      "end": 1.88
     },
     {
      "w": "Camp",
      "start": 1.96,
-     "end": 2.2
+     "end": 2.12
     },
     {
      "w": "Nou",
-     "start": 2.2,
-     "end": 2.44
+     "start": 2.12,
+     "end": 2.36
     },
     {
      "w": "on",
-     "start": 2.52,
-     "end": 2.68
+     "start": 2.44,
+     "end": 2.6
     },
     {
      "w": "Sunday.",
-     "start": 2.68,
-     "end": 3.24
+     "start": 2.6,
+     "end": 3.16
     }
    ],
-   "durationInFrames": 105
+   "durationInFrames": 103
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Barcelona are clear favourites at 59.4%.",
+   "text": "On Tuesday Barcelona lost 2-4 at PSG, their first defeat this season.",
    "show": {
-    "kind": "chance",
+    "kind": "result",
     "team": "home",
-    "value": 59.4
+    "opponent": "Paris Saint-Germain",
+    "score": "2-4",
+    "when": "Tuesday"
    },
    "first": false,
    "variant": 0,
    "audio": "audio/2026-10-25-barcelona-real-madrid/s2.mp3",
    "words": [
     {
-     "w": "Barcelona",
+     "w": "On",
      "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "Tuesday",
+     "start": 0.36,
      "end": 0.76
     },
     {
-     "w": "are",
-     "start": 0.84,
-     "end": 0.84
+     "w": "Barcelona",
+     "start": 0.76,
+     "end": 1.4
     },
     {
-     "w": "clear",
-     "start": 0.84,
-     "end": 1.32
+     "w": "lost",
+     "start": 1.48,
+     "end": 1.64
     },
     {
-     "w": "favourites",
-     "start": 1.32,
-     "end": 1.88
+     "w": "2-4",
+     "start": 1.72,
+     "end": 2.28
     },
     {
      "w": "at",
-     "start": 1.96,
-     "end": 2.04
+     "start": 2.36,
+     "end": 2.36
     },
     {
-     "w": "59.4%.",
-     "start": 2.04,
-     "end": 3.56
+     "w": "PSG,",
+     "start": 2.36,
+     "end": 3.08
+    },
+    {
+     "w": "their",
+     "start": 3.32,
+     "end": 3.4
+    },
+    {
+     "w": "first",
+     "start": 3.4,
+     "end": 3.8
+    },
+    {
+     "w": "defeat",
+     "start": 3.88,
+     "end": 4.12
+    },
+    {
+     "w": "this",
+     "start": 4.12,
+     "end": 4.28
+    },
+    {
+     "w": "season.",
+     "start": 4.36,
+     "end": 4.68
     }
    ],
-   "durationInFrames": 115
+   "durationInFrames": 148
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Barcelona are rated 1.02 goals better on the handicap.",
+   "text": "Barcelona are 1st in La Liga with 27 points.",
    "show": {
-    "kind": "stat",
-    "label": "Handicap",
-    "value": "-1.02"
+    "kind": "table",
+    "team": "home",
+    "rank": 1,
+    "pts": 27
    },
    "first": false,
    "variant": 0,
@@ -422,56 +467,321 @@
      "end": 0.84
     },
     {
-     "w": "rated",
+     "w": "1st",
      "start": 0.84,
-     "end": 1.24
+     "end": 1.32
     },
     {
-     "w": "1.02",
-     "start": 1.24,
-     "end": 2.52
+     "w": "in",
+     "start": 1.4,
+     "end": 1.48
     },
     {
-     "w": "goals",
-     "start": 2.52,
-     "end": 2.84
+     "w": "La",
+     "start": 1.48,
+     "end": 1.64
     },
     {
-     "w": "better",
-     "start": 2.92,
-     "end": 3.16
+     "w": "Liga",
+     "start": 1.72,
+     "end": 2.04
     },
     {
-     "w": "on",
-     "start": 3.24,
-     "end": 3.24
+     "w": "with",
+     "start": 2.04,
+     "end": 2.2
     },
     {
-     "w": "the",
-     "start": 3.32,
+     "w": "27",
+     "start": 2.28,
+     "end": 2.92
+    },
+    {
+     "w": "points.",
+     "start": 3,
      "end": 3.32
-    },
-    {
-     "w": "handicap.",
-     "start": 3.32,
-     "end": 3.96
     }
    ],
-   "durationInFrames": 127
+   "durationInFrames": 108
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "The market now expects 4.18 goals, up from 4.03.",
+   "text": "Mundo Deportivo report Jules Kounde is doubtful with an ankle sprain.",
+   "show": {
+    "kind": "news",
+    "source": "Mundo Deportivo",
+    "text": "Kounde doubtful with ankle sprain"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-barcelona-real-madrid/s4.mp3",
+   "words": [
+    {
+     "w": "Mundo",
+     "start": 0.12,
+     "end": 0.52
+    },
+    {
+     "w": "Deportivo",
+     "start": 0.52,
+     "end": 1.24
+    },
+    {
+     "w": "report",
+     "start": 1.32,
+     "end": 1.64
+    },
+    {
+     "w": "Jules",
+     "start": 1.654,
+     "end": 2.04
+    },
+    {
+     "w": "Kounde",
+     "start": 2.04,
+     "end": 2.52
+    },
+    {
+     "w": "is",
+     "start": 2.601,
+     "end": 2.76
+    },
+    {
+     "w": "doubtful",
+     "start": 2.76,
+     "end": 3.24
+    },
+    {
+     "w": "with",
+     "start": 3.32,
+     "end": 3.4
+    },
+    {
+     "w": "an",
+     "start": 3.48,
+     "end": 3.48
+    },
+    {
+     "w": "ankle",
+     "start": 3.48,
+     "end": 3.8
+    },
+    {
+     "w": "sprain.",
+     "start": 3.88,
+     "end": 4.28
+    }
+   ],
+   "durationInFrames": 136
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Even so, Barcelona are clear 59.4% favourites at home.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 59.4
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-barcelona-real-madrid/s5.mp3",
+   "words": [
+    {
+     "w": "Even",
+     "start": 0.12,
+     "end": 0.36
+    },
+    {
+     "w": "so,",
+     "start": 0.36,
+     "end": 0.76
+    },
+    {
+     "w": "Barcelona",
+     "start": 0.936,
+     "end": 1.56
+    },
+    {
+     "w": "are",
+     "start": 1.64,
+     "end": 1.64
+    },
+    {
+     "w": "clear",
+     "start": 1.64,
+     "end": 2.12
+    },
+    {
+     "w": "59.4%",
+     "start": 2.12,
+     "end": 3.72
+    },
+    {
+     "w": "favourites",
+     "start": 3.8,
+     "end": 4.2
+    },
+    {
+     "w": "at",
+     "start": 4.28,
+     "end": 4.28
+    },
+    {
+     "w": "home.",
+     "start": 4.28,
+     "end": 4.68
+    }
+   ],
+   "durationInFrames": 148
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "That is more than twice Real Madrid's 24.1%.",
+   "show": {
+    "kind": "chance",
+    "team": "away",
+    "value": 24.1
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-barcelona-real-madrid/s6.mp3",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "is",
+     "start": 0.36,
+     "end": 0.44
+    },
+    {
+     "w": "more",
+     "start": 0.52,
+     "end": 0.6
+    },
+    {
+     "w": "than",
+     "start": 0.6,
+     "end": 0.76
+    },
+    {
+     "w": "twice",
+     "start": 0.84,
+     "end": 1.32
+    },
+    {
+     "w": "Real",
+     "start": 1.32,
+     "end": 1.56
+    },
+    {
+     "w": "Madrid's",
+     "start": 1.64,
+     "end": 2.04
+    },
+    {
+     "w": "24.1%.",
+     "start": 2.04,
+     "end": 3.8
+    }
+   ],
+   "durationInFrames": 122
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The gap has narrowed: Barcelona are 1.02 goals better, down from 1.19.",
    "show": {
     "kind": "stat",
-    "label": "Goals expected",
+    "label": "Barcelona better by (goals)",
+    "from": "1.19",
+    "value": "1.02"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-barcelona-real-madrid/s7.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.12,
+     "end": 0.2
+    },
+    {
+     "w": "gap",
+     "start": 0.28,
+     "end": 0.52
+    },
+    {
+     "w": "has",
+     "start": 0.6,
+     "end": 0.6
+    },
+    {
+     "w": "narrowed:",
+     "start": 0.6,
+     "end": 1.16
+    },
+    {
+     "w": "Barcelona",
+     "start": 1.388,
+     "end": 2.12
+    },
+    {
+     "w": "are",
+     "start": 2.12,
+     "end": 2.36
+    },
+    {
+     "w": "1.02",
+     "start": 2.44,
+     "end": 3.48
+    },
+    {
+     "w": "goals",
+     "start": 3.48,
+     "end": 3.8
+    },
+    {
+     "w": "better,",
+     "start": 3.88,
+     "end": 4.2
+    },
+    {
+     "w": "down",
+     "start": 4.44,
+     "end": 4.76
+    },
+    {
+     "w": "from",
+     "start": 4.84,
+     "end": 5
+    },
+    {
+     "w": "1.19.",
+     "start": 5,
+     "end": 6.2
+    }
+   ],
+   "durationInFrames": 194
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects 4.18 goals, up from 4.03 since the weekend.",
+   "show": {
+    "kind": "stat",
+    "label": "Expected goals",
     "from": "4.03",
     "value": "4.18"
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-25-barcelona-real-madrid/s4.mp3",
+   "audio": "audio/2026-10-25-barcelona-real-madrid/s8.mp3",
    "words": [
     {
      "w": "The",
@@ -480,257 +790,135 @@
     },
     {
      "w": "market",
-     "start": 0.28,
+     "start": 0.2,
      "end": 0.52
     },
     {
-     "w": "now",
-     "start": 0.6,
-     "end": 0.76
-    },
-    {
      "w": "expects",
-     "start": 0.76,
-     "end": 1.32
-    },
-    {
-     "w": "4.18",
-     "start": 1.344,
-     "end": 2.36
-    },
-    {
-     "w": "goals,",
-     "start": 2.44,
-     "end": 2.92
-    },
-    {
-     "w": "up",
-     "start": 3.0,
-     "end": 3.24
-    },
-    {
-     "w": "from",
-     "start": 3.32,
-     "end": 3.4
-    },
-    {
-     "w": "4.03.",
-     "start": 3.48,
-     "end": 4.76
-    }
-   ],
-   "durationInFrames": 151
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "Both teams to score is rated 73.2%, so clean sheets are unlikely.",
-   "show": {
-    "kind": "stat",
-    "label": "Both teams score",
-    "value": "73.2"
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-25-barcelona-real-madrid/s5.mp3",
-   "words": [
-    {
-     "w": "Both",
-     "start": 0.12,
-     "end": 0.44
-    },
-    {
-     "w": "teams",
-     "start": 0.52,
-     "end": 0.76
-    },
-    {
-     "w": "to",
-     "start": 0.84,
-     "end": 0.84
-    },
-    {
-     "w": "score",
-     "start": 0.84,
-     "end": 1.32
-    },
-    {
-     "w": "is",
-     "start": 1.4,
-     "end": 1.48
-    },
-    {
-     "w": "rated",
-     "start": 1.48,
-     "end": 1.88
-    },
-    {
-     "w": "73.2%,",
-     "start": 1.88,
-     "end": 3.56
-    },
-    {
-     "w": "so",
-     "start": 3.879,
-     "end": 4.04
-    },
-    {
-     "w": "clean",
-     "start": 4.04,
-     "end": 4.36
-    },
-    {
-     "w": "sheets",
-     "start": 4.44,
-     "end": 4.68
-    },
-    {
-     "w": "are",
-     "start": 4.76,
-     "end": 4.76
-    },
-    {
-     "w": "unlikely.",
-     "start": 4.76,
-     "end": 5.4
-    }
-   ],
-   "durationInFrames": 170
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "A draw, at 16.5%, is the least likely result.",
-   "show": {
-    "kind": "chance",
-    "team": "draw",
-    "value": 16.5
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-25-barcelona-real-madrid/s6.mp3",
-   "words": [
-    {
-     "w": "A",
-     "start": 0.12,
-     "end": 0.2
-    },
-    {
-     "w": "draw,",
-     "start": 0.2,
-     "end": 0.84
-    },
-    {
-     "w": "at",
-     "start": 0.92,
+     "start": 0.6,
      "end": 1.08
     },
     {
-     "w": "16.5%,",
-     "start": 1.16,
-     "end": 2.6
+     "w": "4.18",
+     "start": 1.08,
+     "end": 2.2
     },
     {
-     "w": "is",
-     "start": 2.84,
+     "w": "goals,",
+     "start": 2.28,
+     "end": 2.76
+    },
+    {
+     "w": "up",
+     "start": 2.92,
      "end": 3.08
     },
     {
-     "w": "the",
+     "w": "from",
      "start": 3.16,
-     "end": 3.16
+     "end": 3.4
     },
     {
-     "w": "least",
-     "start": 3.24,
-     "end": 3.56
+     "w": "4.03",
+     "start": 3.4,
+     "end": 4.6
     },
     {
-     "w": "likely",
-     "start": 3.56,
-     "end": 3.88
+     "w": "since",
+     "start": 4.6,
+     "end": 4.84
     },
     {
-     "w": "result.",
-     "start": 3.96,
-     "end": 4.36
+     "w": "the",
+     "start": 4.92,
+     "end": 5
+    },
+    {
+     "w": "weekend.",
+     "start": 5,
+     "end": 5.48
     }
    ],
-   "durationInFrames": 139
+   "durationInFrames": 172
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Barcelona are clear favourites, Madrid are closing, and goals are expected.",
+   "text": "Barcelona are clear favourites, but the market expects a close, high-scoring Clasico.",
    "show": {
     "kind": "verdict",
     "points": [
      "Barcelona clear favourites",
-     "Madrid closing the gap",
+     "Small edge in goals",
      "High-scoring game expected"
     ]
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-25-barcelona-real-madrid/s7.mp3",
+   "audio": "audio/2026-10-25-barcelona-real-madrid/s9.mp3",
    "words": [
     {
      "w": "Barcelona",
      "start": 0.12,
-     "end": 0.76
+     "end": 0.84
     },
     {
      "w": "are",
      "start": 0.84,
-     "end": 0.92
+     "end": 1
     },
     {
      "w": "clear",
-     "start": 0.92,
-     "end": 1.24
+     "start": 1.08,
+     "end": 1.4
     },
     {
      "w": "favourites,",
-     "start": 1.32,
-     "end": 1.88
+     "start": 1.4,
+     "end": 2.04
     },
     {
-     "w": "Madrid",
-     "start": 2.051,
+     "w": "but",
+     "start": 2.28,
+     "end": 2.44
+    },
+    {
+     "w": "the",
+     "start": 2.52,
      "end": 2.52
     },
     {
-     "w": "are",
+     "w": "market",
      "start": 2.6,
-     "end": 2.6
+     "end": 2.84
     },
     {
-     "w": "closing,",
-     "start": 2.6,
-     "end": 3.16
+     "w": "expects",
+     "start": 2.84,
+     "end": 3.24
     },
     {
-     "w": "and",
-     "start": 3.477,
-     "end": 3.56
+     "w": "a",
+     "start": 3.32,
+     "end": 3.32
     },
     {
-     "w": "goals",
-     "start": 3.56,
-     "end": 3.88
+     "w": "close,",
+     "start": 3.32,
+     "end": 3.96
     },
     {
-     "w": "are",
-     "start": 3.96,
-     "end": 4.04
-    },
-    {
-     "w": "expected.",
+     "w": "high-scoring",
      "start": 4.04,
-     "end": 4.6
+     "end": 4.84
+    },
+    {
+     "w": "Clasico.",
+     "start": 4.84,
+     "end": 5.48
     }
    ],
-   "durationInFrames": 153
+   "durationInFrames": 179
   },
   {
    "type": "end",
@@ -738,7 +926,7 @@
    "text": "AI Boot Room. Football analysis, with receipts.",
    "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-25-barcelona-real-madrid/s8.mp3",
+   "audio": "audio/2026-10-25-barcelona-real-madrid/s10.mp3",
    "words": [
     {
      "w": "AI",

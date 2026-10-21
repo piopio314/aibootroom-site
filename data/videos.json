@@ -1,34 +1,34 @@
 {
- "generated_at": "2026-10-21T13:39:36+00:00",
+ "generated_at": "2026-10-21T14:35:22+00:00",
  "has_youtube": false,
  "videos": [
   {
    "id": "2026-10-22-juventus-rennes",
-   "title": "Juventus 60.7%: about a goal better",
+   "title": "Juventus after the 0-3: still clear favourites",
    "home": "Juventus",
    "away": "Rennes",
    "league": "Europa League",
    "kickoff": "2026-10-22T16:45:00+00:00",
-   "seconds": 48,
-   "voiced": true,
-   "youtube_id": null,
-   "pundits": true
-  },
-  {
-   "id": "2026-10-24-aston-villa-manchester-city",
-   "title": "City visit Villa: 3.09 goals expected",
-   "home": "Aston Villa",
-   "away": "Manchester City",
-   "league": "Premier League",
-   "kickoff": "2026-10-24T11:30:00+00:00",
    "seconds": 44,
    "voiced": true,
    "youtube_id": null,
    "pundits": true
   },
   {
+   "id": "2026-10-24-aston-villa-manchester-city",
+   "title": "City's perfect start meets Villa's unbeaten run",
+   "home": "Aston Villa",
+   "away": "Manchester City",
+   "league": "Premier League",
+   "kickoff": "2026-10-24T11:30:00+00:00",
+   "seconds": 46,
+   "voiced": true,
+   "youtube_id": null,
+   "pundits": true
+  },
+  {
    "id": "2026-10-24-napoli-as-roma",
-   "title": "Roma 37.8%: narrow favourites at Napoli",
+   "title": "Roma 3rd in Serie A, narrow favourites in Naples",
    "home": "Napoli",
    "away": "AS Roma",
    "league": "Serie A",
@@ -40,24 +40,24 @@
   },
   {
    "id": "2026-10-24-chelsea-tottenham",
-   "title": "Chelsea's chance rises to 54.9% for the London derby",
+   "title": "Tottenham's first win — but Chelsea are favourites",
    "home": "Chelsea",
    "away": "Tottenham",
    "league": "Premier League",
    "kickoff": "2026-10-24T16:30:00+00:00",
-   "seconds": 38,
+   "seconds": 47,
    "voiced": true,
    "youtube_id": null,
    "pundits": true
   },
   {
    "id": "2026-10-25-barcelona-real-madrid",
-   "title": "Madrid close the gap: 19.8% to 24.1%",
+   "title": "Vinicius ban doubt as Barcelona host Real Madrid",
    "home": "Barcelona",
    "away": "Real Madrid",
    "league": "La Liga",
    "kickoff": "2026-10-25T20:00:00+00:00",
-   "seconds": 42,
+   "seconds": 52,
    "voiced": true,
    "youtube_id": null,
    "pundits": true

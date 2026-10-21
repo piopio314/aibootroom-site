@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T13:39:36+00:00",
+ "generated_at": "2026-10-21T14:35:22+00:00",
  "shows": [
   {
    "id": "2026-10-22-juventus-rennes",
@@ -7,20 +7,7 @@
    "away": "Rennes",
    "league": "Europa League",
    "kickoff": "2026-10-22T16:45:00+00:00",
-   "title": "Juventus 60.7%: about a goal better",
-   "source": "market_desk",
-   "kicker": "MATCH PREVIEW",
-   "voiced": true,
-   "youtube_id": null,
-   "seconds": 48
-  },
-  {
-   "id": "2026-10-24-aston-villa-manchester-city",
-   "home": "Aston Villa",
-   "away": "Manchester City",
-   "league": "Premier League",
-   "kickoff": "2026-10-24T11:30:00+00:00",
-   "title": "City visit Villa: 3.09 goals expected",
+   "title": "Juventus after the 0-3: still clear favourites",
    "source": "market_desk",
    "kicker": "MATCH PREVIEW",
    "voiced": true,
@@ -28,12 +15,25 @@
    "seconds": 44
   },
   {
+   "id": "2026-10-24-aston-villa-manchester-city",
+   "home": "Aston Villa",
+   "away": "Manchester City",
+   "league": "Premier League",
+   "kickoff": "2026-10-24T11:30:00+00:00",
+   "title": "City's perfect start meets Villa's unbeaten run",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "seconds": 46
+  },
+  {
    "id": "2026-10-24-napoli-as-roma",
    "home": "Napoli",
    "away": "AS Roma",
    "league": "Serie A",
    "kickoff": "2026-10-24T16:00:00+00:00",
-   "title": "Roma 37.8%: narrow favourites at Napoli",
+   "title": "Roma 3rd in Serie A, narrow favourites in Naples",
    "source": "market_desk",
    "kicker": "MARKET READ",
    "voiced": true,
@@ -46,12 +46,12 @@
    "away": "Tottenham",
    "league": "Premier League",
    "kickoff": "2026-10-24T16:30:00+00:00",
-   "title": "Chelsea's chance rises to 54.9% for the London derby",
+   "title": "Tottenham's first win — but Chelsea are favourites",
    "source": "market_desk",
    "kicker": "MARKET ALERT",
    "voiced": true,
    "youtube_id": null,
-   "seconds": 38
+   "seconds": 47
   },
   {
    "id": "2026-10-25-barcelona-real-madrid",
@@ -59,12 +59,12 @@
    "away": "Real Madrid",
    "league": "La Liga",
    "kickoff": "2026-10-25T20:00:00+00:00",
-   "title": "Madrid close the gap: 19.8% to 24.1%",
+   "title": "Vinicius ban doubt as Barcelona host Real Madrid",
    "source": "market_desk",
    "kicker": "EL CLÁSICO",
    "voiced": true,
    "youtube_id": null,
-   "seconds": 42
+   "seconds": 52
   }
  ]
 }

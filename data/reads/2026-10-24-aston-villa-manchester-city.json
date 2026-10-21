@@ -4,41 +4,107 @@
  "home": "Aston Villa",
  "away": "Manchester City",
  "kickoff": "2026-10-24T11:30:00+00:00",
- "generated_at": "2026-10-21T13:28:33+00:00",
- "headline": "Manchester City 55.7% away favourites at Aston Villa",
- "summary": "Manchester City are clear favourites at Aston Villa in Saturday's Premier League game, 55.7% to win. The market rates City about three-quarters of a goal better than Villa, a handicap line of 0.77. The draw is 22.6%, rated above a Villa win at 21.6%, so a tight Villa Park is seen as more likely than a home victory. Goals are the other part of the picture: the total is 3.09, Over 3.0 has moved from 50.3% to 52.2%, and both teams to score is 60.5%. An open, high-scoring game with City on top.",
- "read": "Manchester City are clear favourites at Aston Villa, 55.7% to win and rated about three-quarters of a goal the better side. The market expects a high-scoring game: the goals line sits above three, Over 3.0 has shortened to 52.2%, and both teams to score is 60.5%.",
+ "generated_at": "2026-10-21T14:17:06+00:00",
+ "headline": "Manchester City's seven wins meet unbeaten Aston Villa",
+ "summary": "Manchester City have won all 7 league games, including at Liverpool, and lead the Premier League with 21 points. Aston Villa beat Newcastle 1-0 on Saturday and are unbeaten in 5, but Aaron Wan-Bissaka is out for 3 weeks with a hamstring injury. City's Erling Haaland is okay to start, his manager said. The market average makes City 55.7% favourites, more than twice Villa's 21.6% chance, and gives Villa a 0.75-goal head start. The market expects 3.0 goals, and more than that is 52.2% likely.",
+ "read": "Manchester City come to Villa Park as clear favourites at 55.7%, having won all seven of their league games, but Villa are unbeaten in five and have won the last two meetings between the sides. The market expects goals — the total sits at 3.0 with Over at 52.2% — while Villa cover for the absences of Wan-Bissaka and Manzambi and City have Haaland cleared to start.",
  "facts": [
   {
-   "fact": "Manchester City are 55.7% to win at Aston Villa.",
-   "meaning": "clear away favourites, more likely than not to take the three points"
+   "fact": "Manchester City are 55.7% to win at Villa Park — more than twice Aston Villa's 21.6% chance.",
+   "meaning": "The market makes the away side clear favourites, with Villa given barely a fifth of the chance even at home."
   },
   {
-   "fact": "The market rates City about three-quarters of a goal better than Villa, with the handicap fair line at 0.77.",
-   "meaning": "Villa need a +0.75 goal head start for the teams to be seen as level"
+   "fact": "City top the Premier League with 21 points from seven games, having won all seven.",
+   "meaning": "That perfect league record is the backbone of their price as away favourites."
   },
   {
-   "fact": "The draw is 22.6%, priced above a Villa win at 21.6%.",
-   "meaning": "a stalemate is seen as more likely than a home victory"
+   "fact": "Aaron Wan-Bissaka is set to miss at least three weeks with a hamstring injury picked up in Villa's 1-0 win at Newcastle.",
+   "meaning": "Villa must reshuffle their defence for the visit of the league's top scorers."
   },
   {
-   "fact": "The goals line is set at 3.09.",
-   "meaning": "just over three goals expected — a high-scoring game is the market's view"
+   "fact": "Villa are unbeaten in their last five matches — WWDWW — with 15 goals scored and 5 conceded.",
+   "meaning": "They arrive in form and scoring freely, which is why they are not dismissed at home."
   },
   {
-   "fact": "Over 3.0 has shortened from 50.3% to 52.2% in recent days.",
-   "meaning": "money has arrived on goals, and the goals line has crept up with it"
+   "fact": "Erling Haaland was an unused substitute in City's 5-1 Champions League win over AEK Athens, but manager Enzo Maresca said he is 'okay to start on Saturday'.",
+   "meaning": "City's main striker is available and comes into this with fewer minutes in his legs than usual."
   },
   {
-   "fact": "Both teams to score is 60.5%.",
-   "meaning": "more likely than not that both sides find the net"
+   "fact": "The market sets the goal total at 3.0, with Over 3.0 at 52.2% after shortening from 50.3% in recent days.",
+   "meaning": "A game with three goals or more is seen as slightly more likely than not."
+  },
+  {
+   "fact": "Villa won the most recent meeting 2-1 at the Etihad in May, and also beat City 1-0 at Villa Park the October before.",
+   "meaning": "Villa have won the last two meetings — the market still makes City clear favourites."
+  },
+  {
+   "fact": "City have conceded 10 goals in their last five matches.",
+   "meaning": "There is a route into this game for Villa even as big underdogs."
   }
  ],
- "video_title": "City visit Villa: 3.09 goals expected",
+ "sources": [
+  {
+   "fact": "Aaron Wan-Bissaka is set to miss at least three weeks with a hamstring injury suffered in Villa's 1-0 win at Newcastle.",
+   "source": "www.nytimes.com",
+   "url": "https://www.nytimes.com/athletic/7707551/2026/10/20/aston-villa-wan-bissaka-injury-hamstring-news/",
+   "age": "1 day ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Johan Manzambi misses out through injury, though Ian Maatsen has returned to training.",
+   "source": "www.livescore.com",
+   "url": "https://www.livescore.com/en/news/football/team/aston-villa/daily/wednesday-aston-villa-daily-news-20261021/",
+   "age": "8 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Unai Emery said Villa's injuries are 'no excuse'.",
+   "source": "www.livescore.com",
+   "url": "https://www.livescore.com/en/news/football/team/aston-villa/daily/wednesday-aston-villa-daily-news-20261021/",
+   "age": "8 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Villa won 1-0 at Newcastle in the Premier League, with Johan Manzambi scoring the only goal.",
+   "source": "www.theguardian.com",
+   "url": "https://www.theguardian.com/football/live/2026/oct/17/newcastle-v-aston-villa-premier-league-live",
+   "age": "4 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Villa lost 4-0 at Brighton on 23 August in the Premier League.",
+   "source": "www.nbcsports.com",
+   "url": "https://www.nbcsports.com/soccer/news/premier-league-schedule-for-2026-27-season-released",
+   "age": "2 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Enzo Maresca said of Erling Haaland: 'He's okay to start on Saturday.'",
+   "source": "manchestereveningnews.co.uk",
+   "url": "https://manchestereveningnews.co.uk/sport/football/football-news/man-city-charges-live-appeal-34783284",
+   "age": "20 minutes ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "City beat AEK Athens 5-1 in the Champions League, with Phil Foden scoring a hat-trick.",
+   "source": "www.theguardian.com",
+   "url": "https://www.theguardian.com/football/2026/oct/20/manchester-city-aek-athens-champions-league-match-report",
+   "age": "17 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "City sit top of the Premier League table, three points clear of Arsenal.",
+   "source": "www.football.london",
+   "url": "https://www.football.london/premier-league/manchester-city-premier-league-charges-34787025",
+   "age": "2 days ago",
+   "certainty": "reported"
+  }
+ ],
+ "video_title": "City's perfect start meets Villa's unbeaten run",
  "key_points": [
-  "City 55.7% away favourites",
-  "City 0.75 goals better",
-  "Over 3.0 up to 52.2%"
+  "City 55.7%, seven league wins",
+  "Villa unbeaten in five",
+  "Goal line 3.0, Over 52.2%"
  ],
  "market": {
   "id": 1557438,
@@ -111,7 +177,7 @@
    "away": 0
   },
   "read": "2026-10-24-aston-villa-manchester-city",
-  "headline": "Manchester City 55.7% away favourites at Aston Villa"
+  "headline": "Manchester City's seven wins meet unbeaten Aston Villa"
  },
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }
