@@ -1,0 +1,208 @@
+{
+ "slug": "2026-10-26-sevilla-osasuna",
+ "league": "La Liga",
+ "home": "Sevilla",
+ "away": "Osasuna",
+ "kickoff": "2026-10-26T20:00:00+00:00",
+ "generated_at": "2026-10-21T23:11:46+00:00",
+ "headline": "Sevilla's slump meets an Osasuna defence that leaks goals",
+ "summary": "Sevilla have taken 1 point from their last 3 league games, including a 1-4 defeat at Real Madrid eight days ago. Sunday's visitors are Osasuna, who ended a month and a half without a win by beating Racing Santander 2-0. Their problem is at the back: 12 goals conceded in their last five games. Even so, Sevilla are 48.5% favourites — more than double Osasuna's 22.9% — and the market rates them about half a goal the stronger side, with the total at 2.25 goals.",
+ "read": "Sevilla are 48.5% favourites at home and rated about half a goal the better side, even though they have taken one point from three games, including a 1-3 home defeat to Barcelona and a 1-4 loss at Real Madrid. Osasuna arrive having ended a month-and-a-half without a win by beating Racing Santander 2-0 with 3.65 xG, but they have conceded 12 goals in five, and the market sees a controlled game of about 2.25 goals.",
+ "facts": [
+  {
+   "fact": "Sevilla have taken one point from their last three league games: a 1-3 home defeat to Barcelona, a 3-3 draw at Levante and a 1-4 defeat at Real Madrid.",
+   "meaning": "The strong start — back-to-back 1-0 wins in September — has stalled, and Sevilla come home needing a response."
+  },
+  {
+   "fact": "Sevilla are 48.5% to win at home, more than double Osasuna's 22.9%, with the draw at 28.6%.",
+   "meaning": "Sevilla are clear favourites but far from certain — the home win is close to a coin flip."
+  },
+  {
+   "fact": "Osasuna ended a run without a win that Marca put at a month and a half by beating Racing Santander 2-0 on Sunday, with Budimir and Osambela scoring.",
+   "meaning": "They travel to Sevilla with the winless run off their back and a result to build on."
+  },
+  {
+   "fact": "The market expects about 2.25 goals in this game, with Over priced at 49.6%.",
+   "meaning": "The total is right on the line — the market sees a controlled match rather than an open one."
+  },
+  {
+   "fact": "Osasuna have conceded 12 goals in their last five games, giving up 1.92 xG per match.",
+   "meaning": "The away defence is the weakest part of their game, and Sevilla's front line will target it."
+  },
+  {
+   "fact": "Osasuna won the last meeting 2-1 in April, and each of the last five between these two has finished as a draw or a one-goal win.",
+   "meaning": "Recent meetings have been decided by fine margins, which fits a market rating Sevilla only about half a goal the better side."
+  },
+  {
+   "fact": "Sevilla are sixth on 14 points, three clear of Osasuna in tenth on 11.",
+   "meaning": "A win keeps Sevilla in the top six; a defeat would leave the two sides level on points."
+  },
+  {
+   "fact": "One Sevilla midfielder, Giorgi Kochorashvili, has been missing from training this week, according to Mundo Deportivo.",
+   "meaning": "A possible midfield absence four days out — a training absence, not a confirmed injury."
+  }
+ ],
+ "article": "/m/2026-10-26-sevilla-osasuna.html",
+ "sources": [
+  {
+   "fact": "Sevilla lost 4-1 at Real Madrid in their previous LaLiga match, with Kylian Mbappe scoring twice for Real.",
+   "source": "www.bbc.com",
+   "url": "https://www.bbc.com/sport/football/live/cw0k0xyeee56t",
+   "age": "3 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Sevilla have lodged a formal complaint to LaLiga over refereeing decisions in their 4-1 defeat at Real Madrid, including Arda Guler not being sent off and a challenge by Ibrahima Konate on Oso.",
+   "source": "www.espn.com",
+   "url": "https://www.espn.com/soccer/story/_/id/50236214/sevilla-lodge-complaint-real-madrid-defeat-laliga",
+   "age": "12 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Spanish media report that Giorgi Kochorashvili has been absent from Sevilla training as the squad prepares for Osasuna.",
+   "source": "www.mundodeportivo.com",
+   "url": "https://www.mundodeportivo.com/futbol/sevilla/20261021/1004241587/sevilla-regresa-entrenamientos-kochorashvili-sigue-fuera.html",
+   "age": "5 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "ABC reports that Sevilla coach Luis Garcia Plaza will have all three of his forwards available for the Osasuna match if nothing changes.",
+   "source": "www.abc.es",
+   "url": "https://www.abc.es/deportes/orgullodenervion/noticias-sevilla-fc/garcia-plaza-gana-alternativas-gol-20261021214705-nts.html",
+   "age": "3 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Sevilla have taken only one point from their last three league games against Barcelona, Levante and Real Madrid, though they remain sixth in the table.",
+   "source": "www.eldesmarque.com",
+   "url": "https://www.eldesmarque.com/futbol/liga-1a-division/20261021/sevilla-fc-entrenamiento-kochorashvili-sigue-margen-resaca-bernabeu_18_020500965.html",
+   "age": "7 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "El Desmarque reports that Sevilla see the Osasuna match as a chance to return to winning ways and keep their good start to the season going.",
+   "source": "www.eldesmarque.com",
+   "url": "https://www.eldesmarque.com/futbol/liga-1a-division/20261021/sevilla-vuelve-mirar-laliga_18_020493622.html",
+   "age": "13 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Osasuna ended a month-and-a-half without a win thanks to goals from Budimir and Osambela, according to Marca.",
+   "source": "www.marca.com",
+   "url": "https://www.marca.com/futbol/primera-division/cronica/2026/10/18/arrasate-devuelve-sonrisa-osasuna.html",
+   "age": "3 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Marca reports that the recent win has brought a smile back to Osasuna under coach Arrasate.",
+   "source": "www.marca.com",
+   "url": "https://www.marca.com/futbol/primera-division/cronica/2026/10/18/arrasate-devuelve-sonrisa-osasuna.html",
+   "age": "3 days ago",
+   "certainty": "reported"
+  }
+ ],
+ "video_title": "Sevilla's slump vs Osasuna's leaking defence",
+ "key_points": [
+  "Sevilla: 1 point from 3",
+  "Osasuna won 2-0, 3.65 xG",
+  "Sevilla 48.5%, half-goal favourites"
+ ],
+ "market": {
+  "id": 1570431,
+  "slug": "2026-10-26-sevilla-osasuna",
+  "league": "La Liga",
+  "kickoff": "2026-10-26T20:00:00+00:00",
+  "home": "Sevilla",
+  "away": "Osasuna",
+  "fair": {
+   "home": 48.5,
+   "draw": 28.6,
+   "away": 22.9
+  },
+  "move": {
+   "home": -0.3,
+   "draw": 0.6,
+   "away": -0.4
+  },
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "home": 48.8,
+    "draw": 27.9,
+    "away": 23.3
+   },
+   {
+    "t": "2026-10-19T03:27:00+00:00",
+    "home": 49.1,
+    "draw": 27.6,
+    "away": 23.3
+   },
+   {
+    "t": "2026-10-19T09:31:00+00:00",
+    "home": 49.1,
+    "draw": 27.6,
+    "away": 23.3
+   },
+   {
+    "t": "2026-10-19T15:21:00+00:00",
+    "home": 49.0,
+    "draw": 27.7,
+    "away": 23.3
+   },
+   {
+    "t": "2026-10-19T18:26:00+00:00",
+    "home": 49.3,
+    "draw": 27.4,
+    "away": 23.3
+   },
+   {
+    "t": "2026-10-20T04:23:00+00:00",
+    "home": 49.3,
+    "draw": 27.4,
+    "away": 23.3
+   },
+   {
+    "t": "2026-10-20T22:19:00+00:00",
+    "home": 49.7,
+    "draw": 28.2,
+    "away": 22.1
+   },
+   {
+    "t": "2026-10-21T00:51:00+00:00",
+    "home": 49.7,
+    "draw": 28.2,
+    "away": 22.1
+   },
+   {
+    "t": "2026-10-21T04:24:00+00:00",
+    "home": 49.7,
+    "draw": 28.2,
+    "away": 22.1
+   },
+   {
+    "t": "2026-10-21T10:21:00+00:00",
+    "home": 49.7,
+    "draw": 28.2,
+    "away": 22.1
+   },
+   {
+    "t": "2026-10-21T19:18:00+00:00",
+    "home": 48.5,
+    "draw": 28.6,
+    "away": 22.9
+   }
+  ],
+  "goals": {
+   "expected": 2.24,
+   "first": 2.26
+  },
+  "absences": {
+   "home": 0,
+   "away": 0
+  },
+  "read": "2026-10-26-sevilla-osasuna",
+  "headline": "Sevilla's slump meets an Osasuna defence that leaks goals"
+ },
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
+}

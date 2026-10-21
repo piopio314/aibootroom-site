@@ -1,0 +1,166 @@
+{
+ "slug": "2026-10-26-galatasaray-fenerbah-e",
+ "league": "Super Lig",
+ "home": "Galatasaray",
+ "away": "Fenerbahçe",
+ "kickoff": "2026-10-26T18:30:00+00:00",
+ "generated_at": "2026-10-21T23:10:05+00:00",
+ "headline": "Asensio out 3 months as leaders Galatasaray host Fenerbahçe",
+ "summary": "Galatasaray lead the Süper Lig on 19 points and host Fenerbahçe at RAMS Park on Monday in the Intercontinental Derby. BeIN Sports report Fenerbahçe's Marco Asensio is out for 3 months after knee surgery. Galatasaray won 4-2 at Lille in the Champions League in midweek; Fenerbahçe lost 0-6 at Aston Villa in Europe a week earlier, yet still create chances worth 2.57 goals a game. The market makes the hosts 42.5% favourites, with Fenerbahçe at 32.1%, and the handicap line at a quarter of a goal. The goal line is 3.25, so an open derby is expected.",
+ "read": "Galatasaray, top of the Süper Lig, host Fenerbahçe in the Intercontinental Derby at RAMS Park, and the market makes them 42.5% favourites against 32.1%. Both arrive from Champions League nights — Galatasaray won 4-2 at Lille, Fenerbahçe lost 0-6 at Aston Villa and then let a two-goal lead slip against Slavia Prague, a game in which Nathan Ake came off injured — and the market's 50/50 goal total of 3.15 points to an open derby.",
+ "facts": [
+  {
+   "fact": "Galatasaray are 42.5% to win the derby at home, Fenerbahçe 32.1%.",
+   "meaning": "The market makes the league leaders clear favourites, but a derby at RAMS Park is not priced as one-sided."
+  },
+  {
+   "fact": "Galatasaray lead the Süper Lig on 19 points from eight games; Fenerbahçe are third.",
+   "meaning": ""
+  },
+  {
+   "fact": "Galatasaray won 4-2 away at Lille in the Champions League, coming from behind twice for their first points of the campaign.",
+   "meaning": "They go into the derby on a winning note in Europe rather than on the back of their heavy home defeat by Barcelona."
+  },
+  {
+   "fact": "Nathan Ake could not continue after picking up an injury in Fenerbahçe's Champions League match against Slavia Prague, reported a day before this derby build-up.",
+   "meaning": "Fenerbahçe may be without a senior defender at RAMS Park, days after he came off injured."
+  },
+  {
+   "fact": "Marco Asensio will be out for three months after knee surgery, having played through the injury.",
+   "meaning": "Fenerbahçe lose an attacking midfielder for the derby and well beyond it."
+  },
+  {
+   "fact": "Fenerbahçe lost 0-6 away at Aston Villa in the Champions League.",
+   "meaning": "Their away form in Europe is the biggest question mark going into a derby on the road."
+  },
+  {
+   "fact": "Fenerbahçe averaged 2.57 expected goals per game across their last five matches.",
+   "meaning": "They are creating chances at a high rate, so the away side is unlikely to sit deep and defend at RAMS Park."
+  },
+  {
+   "fact": "Galatasaray have conceded 11 goals across their last five matches.",
+   "meaning": "The league leaders score but also leak; home advantage has not meant clean sheets for them."
+  }
+ ],
+ "article": null,
+ "sources": [
+  {
+   "fact": "Galatasaray won 4-2 away at Lille in the Champions League, coming from behind twice to claim their first points of the campaign.",
+   "source": "www.bbc.com",
+   "url": "https://www.bbc.com/sport/football/live/c6ly3z9772g7t",
+   "age": "2 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "After the Lille win, Galatasaray coach Okan Buruk turned his focus to the Fenerbahce derby.",
+   "source": "www.legit.ng",
+   "url": "https://www.legit.ng/sports/football/1737303-galatasaray-coach-reacts-osimhen-scored-champions-league-goal-season/",
+   "age": "3 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Victor Osimhen scored against his former club Lille, his first Champions League goal this season.",
+   "source": "www.legit.ng",
+   "url": "https://www.legit.ng/sports/football/1737303-galatasaray-coach-reacts-osimhen-scored-champions-league-goal-season/",
+   "age": "3 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "The match is the Intercontinental Derby, one of football's biggest rivalries, with Galatasaray based on the European side of the Bosphorus and Fenerbahce on the Asian side.",
+   "source": "boxtobox1.substack.com",
+   "url": "https://boxtobox1.substack.com/p/the-intercontinental-derby-galatasaray",
+   "age": "12 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Fenerbahce were denied a much-needed Champions League win when Slavia Prague came from two goals down to equalise late for 2-2.",
+   "source": "bbc.com",
+   "url": "https://bbc.com/sport/football/live/cxdd821m4j1jt",
+   "age": "1 day ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Nathan Ake could not continue after suffering an injury in Fenerbahce's Champions League match against Slavia Prague ahead of the derby.",
+   "source": "www.hurriyet.com.tr",
+   "url": "https://www.hurriyet.com.tr/sporarena/fenerbahcede-sakatlik-soku-galatasaray-derbisi-oncesi-kotu-haber-43348974",
+   "age": "1 day ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Turkish media criticised Fenerbahce after the Slavia draw, drawing comparisons with Sabah, who beat the Czech side 2-0 a week earlier.",
+   "source": "www.idman.biz",
+   "url": "https://www.idman.biz/en/news/football/162610",
+   "age": "9 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Marco Asensio will be out for three months after knee surgery, having played through injury to help Fenerbahce.",
+   "source": "www.beinsports.com",
+   "url": "https://www.beinsports.com/es-us/football/sper-lig/articles/marco-asensio-tres-meses-de-baja-el-sacrificio-por-el-t%C3%ADtulo-que-termin%C3%B3-en-el-quir%C3%B3fano-2026-10-21",
+   "age": "3 hours ago",
+   "certainty": "reported"
+  }
+ ],
+ "video_title": "Galatasaray vs Fenerbahçe: Asensio out, derby open",
+ "key_points": [
+  "Galatasaray 42.5% at home",
+  "First versus third in the derby",
+  "Market expects over three goals"
+ ],
+ "market": {
+  "id": 1584442,
+  "slug": "2026-10-26-galatasaray-fenerbah-e",
+  "league": "Super Lig",
+  "kickoff": "2026-10-26T18:30:00+00:00",
+  "home": "Galatasaray",
+  "away": "Fenerbahçe",
+  "fair": {
+   "home": 42.5,
+   "draw": 25.5,
+   "away": 32.1
+  },
+  "move": {
+   "home": 0.5,
+   "draw": -0.6,
+   "away": 0.1
+  },
+  "tracked_since": "2026-10-19T16:24:00+00:00",
+  "timeline": [
+   {
+    "t": "2026-10-19T16:24:00+00:00",
+    "home": 42.0,
+    "draw": 26.1,
+    "away": 31.9
+   },
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "home": 41.0,
+    "draw": 25.6,
+    "away": 33.4
+   },
+   {
+    "t": "2026-10-20T04:23:00+00:00",
+    "home": 41.6,
+    "draw": 25.5,
+    "away": 32.9
+   },
+   {
+    "t": "2026-10-21T04:24:00+00:00",
+    "home": 42.5,
+    "draw": 25.5,
+    "away": 32.1
+   }
+  ],
+  "goals": {
+   "expected": 3.15,
+   "first": null
+  },
+  "absences": {
+   "home": 0,
+   "away": 0
+  },
+  "read": "2026-10-26-galatasaray-fenerbah-e",
+  "headline": "Asensio out 3 months as leaders Galatasaray host Fenerbahçe"
+ },
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
+}

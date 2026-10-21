@@ -1,0 +1,862 @@
+{
+ "id": "2026-10-25-sporting-cp-academico-viseu",
+ "title": "Sporting's first defeat came in Europe, not the league",
+ "match": {
+  "home": "Sporting CP",
+  "away": "Academico Viseu",
+  "league": "Primeira Liga",
+  "kickoff": "2026-10-25T20:30:00+00:00",
+  "home_short": "SCP",
+  "away_short": "ACA",
+  "home_color": "#008057",
+  "away_color": "#ea580c"
+ },
+ "market": {
+  "fair": {
+   "home": 76.2,
+   "draw": 15.3,
+   "away": 8.6
+  },
+  "move": {
+   "home": -4.0,
+   "draw": 2.1,
+   "away": 2.4
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 6.2
+   },
+   {
+    "t": "2026-10-19T03:27:00+00:00",
+    "v": 8.4
+   },
+   {
+    "t": "2026-10-19T04:26:00+00:00",
+    "v": 8.6
+   },
+   {
+    "t": "2026-10-19T06:46:00+00:00",
+    "v": 8.6
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "v": 8.6
+   },
+   {
+    "t": "2026-10-19T16:24:00+00:00",
+    "v": 8.7
+   },
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "v": 8.7
+   },
+   {
+    "t": "2026-10-21T04:24:00+00:00",
+    "v": 8.6
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 80.1
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "v": 78.0
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 77.1
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 76.1
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 76.1
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "v": 75.8
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 75.8
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 76.2
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 13.2
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "v": 14.3
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 14.5
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 15.0
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 15.3
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "v": 15.4
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 15.4
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 15.3
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 6.2
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "v": 8.4
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 8.6
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 8.6
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 8.6
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "v": 8.7
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 8.7
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 8.6
+    }
+   ]
+  },
+  "goals": 3.24,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T22:19:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Sporting CP are 76.2% favourites against Académico de Viseu.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 76.2
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-sporting-cp-academico-viseu/s0.mp3",
+   "words": [
+    {
+     "w": "Sporting",
+     "start": 0.25,
+     "end": 0.7
+    },
+    {
+     "w": "CP",
+     "start": 0.7,
+     "end": 1.312
+    },
+    {
+     "w": "are",
+     "start": 1.312,
+     "end": 1.488
+    },
+    {
+     "w": "76.2%",
+     "start": 1.488,
+     "end": 2.938
+    },
+    {
+     "w": "favourites",
+     "start": 2.938,
+     "end": 3.45
+    },
+    {
+     "w": "against",
+     "start": 3.45,
+     "end": 3.788
+    },
+    {
+     "w": "Académico",
+     "start": 3.788,
+     "end": 4.425
+    },
+    {
+     "w": "de",
+     "start": 4.425,
+     "end": 4.575
+    },
+    {
+     "w": "Viseu.",
+     "start": 4.575,
+     "end": 5.475
+    }
+   ],
+   "durationInFrames": 172
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Tuesday brought their first defeat of the season: 2-3 to LASK.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "LASK",
+    "score": "2-3",
+    "when": "Tuesday"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-sporting-cp-academico-viseu/s1.mp3",
+   "words": [
+    {
+     "w": "Tuesday",
+     "start": 0.25,
+     "end": 0.7
+    },
+    {
+     "w": "brought",
+     "start": 0.7,
+     "end": 0.912
+    },
+    {
+     "w": "their",
+     "start": 0.912,
+     "end": 1.113
+    },
+    {
+     "w": "first",
+     "start": 1.113,
+     "end": 1.387
+    },
+    {
+     "w": "defeat",
+     "start": 1.387,
+     "end": 1.688
+    },
+    {
+     "w": "of",
+     "start": 1.688,
+     "end": 1.762
+    },
+    {
+     "w": "the",
+     "start": 1.762,
+     "end": 1.863
+    },
+    {
+     "w": "season:",
+     "start": 1.863,
+     "end": 2.5
+    },
+    {
+     "w": "2-3",
+     "start": 2.638,
+     "end": 3.1
+    },
+    {
+     "w": "to",
+     "start": 3.1,
+     "end": 3.25
+    },
+    {
+     "w": "LASK.",
+     "start": 3.25,
+     "end": 4.475
+    }
+   ],
+   "durationInFrames": 142
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "On Sunday they host Viseu in the Primeira Liga.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-sporting-cp-academico-viseu/s2.mp3",
+   "words": [
+    {
+     "w": "On",
+     "start": 0.25,
+     "end": 0.438
+    },
+    {
+     "w": "Sunday",
+     "start": 0.438,
+     "end": 0.85
+    },
+    {
+     "w": "they",
+     "start": 0.85,
+     "end": 1.0
+    },
+    {
+     "w": "host",
+     "start": 1.0,
+     "end": 1.325
+    },
+    {
+     "w": "Viseu",
+     "start": 1.325,
+     "end": 1.738
+    },
+    {
+     "w": "in",
+     "start": 1.738,
+     "end": 1.812
+    },
+    {
+     "w": "the",
+     "start": 1.812,
+     "end": 1.9
+    },
+    {
+     "w": "Primeira",
+     "start": 1.9,
+     "end": 2.425
+    },
+    {
+     "w": "Liga.",
+     "start": 2.425,
+     "end": 3.15
+    }
+   ],
+   "durationInFrames": 103
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "In the league they are 3rd, unbeaten, with 18 points.",
+   "show": {
+    "kind": "table",
+    "team": "home",
+    "rank": 3,
+    "pts": 18
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-sporting-cp-academico-viseu/s3.mp3",
+   "words": [
+    {
+     "w": "In",
+     "start": 0.25,
+     "end": 0.312
+    },
+    {
+     "w": "the",
+     "start": 0.312,
+     "end": 0.4
+    },
+    {
+     "w": "league",
+     "start": 0.4,
+     "end": 0.588
+    },
+    {
+     "w": "they",
+     "start": 0.588,
+     "end": 0.725
+    },
+    {
+     "w": "are",
+     "start": 0.725,
+     "end": 0.887
+    },
+    {
+     "w": "3rd,",
+     "start": 0.887,
+     "end": 1.325
+    },
+    {
+     "w": "unbeaten,",
+     "start": 1.4,
+     "end": 1.925
+    },
+    {
+     "w": "with",
+     "start": 1.962,
+     "end": 2.125
+    },
+    {
+     "w": "18",
+     "start": 2.125,
+     "end": 2.625
+    },
+    {
+     "w": "points.",
+     "start": 2.625,
+     "end": 3.45
+    }
+   ],
+   "durationInFrames": 112
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Viseu sit 7th with 14 points.",
+   "show": {
+    "kind": "table",
+    "team": "away",
+    "rank": 7,
+    "pts": 14
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-sporting-cp-academico-viseu/s4.mp3",
+   "words": [
+    {
+     "w": "Viseu",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "sit",
+     "start": 0.637,
+     "end": 0.912
+    },
+    {
+     "w": "7th",
+     "start": 0.912,
+     "end": 1.288
+    },
+    {
+     "w": "with",
+     "start": 1.288,
+     "end": 1.45
+    },
+    {
+     "w": "14",
+     "start": 1.45,
+     "end": 1.925
+    },
+    {
+     "w": "points.",
+     "start": 1.925,
+     "end": 2.725
+    }
+   ],
+   "durationInFrames": 90
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "But fourth-tier Fátima beat them 1-0 in the cup last week.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Fátima",
+    "score": "1-0",
+    "when": "last week"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-sporting-cp-academico-viseu/s5.mp3",
+   "words": [
+    {
+     "w": "But",
+     "start": 0.225,
+     "end": 0.35
+    },
+    {
+     "w": "fourth-tier",
+     "start": 0.35,
+     "end": 0.838
+    },
+    {
+     "w": "Fátima",
+     "start": 0.838,
+     "end": 1.387
+    },
+    {
+     "w": "beat",
+     "start": 1.387,
+     "end": 1.613
+    },
+    {
+     "w": "them",
+     "start": 1.613,
+     "end": 1.775
+    },
+    {
+     "w": "1-0",
+     "start": 1.775,
+     "end": 2.325
+    },
+    {
+     "w": "in",
+     "start": 2.325,
+     "end": 2.413
+    },
+    {
+     "w": "the",
+     "start": 2.413,
+     "end": 2.5
+    },
+    {
+     "w": "cup",
+     "start": 2.5,
+     "end": 2.75
+    },
+    {
+     "w": "last",
+     "start": 2.75,
+     "end": 3.125
+    },
+    {
+     "w": "week.",
+     "start": 3.125,
+     "end": 3.8
+    }
+   ],
+   "durationInFrames": 122
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Even in defeat, Sporting created 3.2 expected goals.",
+   "show": {
+    "kind": "stat",
+    "label": "expected goals vs LASK",
+    "value": "3.2"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-sporting-cp-academico-viseu/s6.mp3",
+   "words": [
+    {
+     "w": "Even",
+     "start": 0.25,
+     "end": 0.475
+    },
+    {
+     "w": "in",
+     "start": 0.475,
+     "end": 0.588
+    },
+    {
+     "w": "defeat,",
+     "start": 0.588,
+     "end": 1.05
+    },
+    {
+     "w": "Sporting",
+     "start": 1.125,
+     "end": 1.55
+    },
+    {
+     "w": "created",
+     "start": 1.55,
+     "end": 2.0
+    },
+    {
+     "w": "3.2",
+     "start": 2.0,
+     "end": 2.7
+    },
+    {
+     "w": "expected",
+     "start": 2.7,
+     "end": 3.275
+    },
+    {
+     "w": "goals.",
+     "start": 3.275,
+     "end": 4.15
+    }
+   ],
+   "durationInFrames": 133
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The handicap line sets Sporting's winning margin at 1.75 goals.",
+   "show": {
+    "kind": "stat",
+    "label": "Handicap line (goals)",
+    "value": "1.75"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-sporting-cp-academico-viseu/s7.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "handicap",
+     "start": 0.325,
+     "end": 0.9
+    },
+    {
+     "w": "line",
+     "start": 0.9,
+     "end": 1.25
+    },
+    {
+     "w": "sets",
+     "start": 1.25,
+     "end": 1.5
+    },
+    {
+     "w": "Sporting's",
+     "start": 1.5,
+     "end": 2.025
+    },
+    {
+     "w": "winning",
+     "start": 2.025,
+     "end": 2.3
+    },
+    {
+     "w": "margin",
+     "start": 2.3,
+     "end": 2.675
+    },
+    {
+     "w": "at",
+     "start": 2.675,
+     "end": 2.775
+    },
+    {
+     "w": "1.75",
+     "start": 2.775,
+     "end": 4.0
+    },
+    {
+     "w": "goals.",
+     "start": 4.0,
+     "end": 4.875
+    }
+   ],
+   "durationInFrames": 154
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Record report Borges wants an immediate response.",
+   "show": {
+    "kind": "news",
+    "source": "Record",
+    "text": "Borges wants an immediate response"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-sporting-cp-academico-viseu/s8.mp3",
+   "words": [
+    {
+     "w": "Record",
+     "start": 0.275,
+     "end": 0.625
+    },
+    {
+     "w": "report",
+     "start": 0.625,
+     "end": 1.05
+    },
+    {
+     "w": "Borges",
+     "start": 1.05,
+     "end": 1.475
+    },
+    {
+     "w": "wants",
+     "start": 1.475,
+     "end": 1.712
+    },
+    {
+     "w": "an",
+     "start": 1.712,
+     "end": 1.8
+    },
+    {
+     "w": "immediate",
+     "start": 1.8,
+     "end": 2.275
+    },
+    {
+     "w": "response.",
+     "start": 2.275,
+     "end": 3.275
+    }
+   ],
+   "durationInFrames": 106
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Europe hurt them; the league has not. Sporting stay clear favourites.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Europe hurt them",
+     "League unbeaten",
+     "Sporting clear favourites"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-sporting-cp-academico-viseu/s9.mp3",
+   "words": [
+    {
+     "w": "Europe",
+     "start": 0.275,
+     "end": 0.575
+    },
+    {
+     "w": "hurt",
+     "start": 0.575,
+     "end": 0.787
+    },
+    {
+     "w": "them;",
+     "start": 0.787,
+     "end": 0.925
+    },
+    {
+     "w": "the",
+     "start": 0.963,
+     "end": 1.05
+    },
+    {
+     "w": "league",
+     "start": 1.05,
+     "end": 1.262
+    },
+    {
+     "w": "has",
+     "start": 1.262,
+     "end": 1.45
+    },
+    {
+     "w": "not.",
+     "start": 1.45,
+     "end": 1.95
+    },
+    {
+     "w": "Sporting",
+     "start": 2.062,
+     "end": 2.55
+    },
+    {
+     "w": "stay",
+     "start": 2.55,
+     "end": 2.837
+    },
+    {
+     "w": "clear",
+     "start": 2.837,
+     "end": 3.138
+    },
+    {
+     "w": "favourites.",
+     "start": 3.138,
+     "end": 4.075
+    }
+   ],
+   "durationInFrames": 137
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-sporting-cp-academico-viseu/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "fading_fav",
+  "kicker": "FAVOURITE FADING",
+  "stickers": [
+   "📉",
+   "⏳",
+   "⏳"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1575525,
+ "prices_as_of": "2026-10-21T22:19:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}
