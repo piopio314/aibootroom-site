@@ -480,58 +480,7 @@
      "end": 4.04
     }
    ],
-   "durationInFrames": 129
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "Both teams to score: 60.6%, low-confidence texture.",
-   "show": {
-    "kind": "stat",
-    "label": "both teams score",
-    "value": "60.6"
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-24-chelsea-tottenham/s7.mp3",
-   "words": [
-    {
-     "w": "Both",
-     "start": 0.119,
-     "end": 0.44
-    },
-    {
-     "w": "teams",
-     "start": 0.52,
-     "end": 0.76
-    },
-    {
-     "w": "to",
-     "start": 0.84,
-     "end": 0.84
-    },
-    {
-     "w": "score:",
-     "start": 0.84,
-     "end": 1.4
-    },
-    {
-     "w": "60.6%,",
-     "start": 1.571,
-     "end": 3.08
-    },
-    {
-     "w": "low-confidence",
-     "start": 3.241,
-     "end": 4.12
-    },
-    {
-     "w": "texture.",
-     "start": 4.12,
-     "end": 4.68
-    }
-   ],
-   "durationInFrames": 155
+   "durationInFrames": 136
   },
   {
    "type": "beat",
@@ -544,7 +493,7 @@
    },
    "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-24-chelsea-tottenham/s8.mp3",
+   "audio": "audio/2026-10-24-chelsea-tottenham/s7.mp3",
    "words": [
     {
      "w": "Chelsea",
@@ -585,7 +534,7 @@
    },
    "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-24-chelsea-tottenham/s9.mp3",
+   "audio": "audio/2026-10-24-chelsea-tottenham/s8.mp3",
    "words": [
     {
      "w": "We",
@@ -651,7 +600,7 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-chelsea-tottenham/s10.mp3",
+   "audio": "audio/2026-10-24-chelsea-tottenham/s9.mp3",
    "words": [
     {
      "w": "We",
@@ -697,7 +646,7 @@
    },
    "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-24-chelsea-tottenham/s11.mp3",
+   "audio": "audio/2026-10-24-chelsea-tottenham/s10.mp3",
    "words": [
     {
      "w": "The",
@@ -742,7 +691,7 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-chelsea-tottenham/s12.mp3",
+   "audio": "audio/2026-10-24-chelsea-tottenham/s11.mp3",
    "words": [
     {
      "w": "That",
@@ -811,7 +760,7 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-chelsea-tottenham/s13.mp3",
+   "audio": "audio/2026-10-24-chelsea-tottenham/s12.mp3",
    "words": [
     {
      "w": "Read",
@@ -857,7 +806,7 @@
    "text": "AI Boot Room. Football analysis, with receipts.",
    "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-24-chelsea-tottenham/s14.mp3",
+   "audio": "audio/2026-10-24-chelsea-tottenham/s13.mp3",
    "words": [
     {
      "w": "AI",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T09:01:12+00:00",
+ "generated_at": "2026-10-21T09:20:11+00:00",
  "shows": [
   {
    "id": "2026-10-21-como-manchester-united",
@@ -909,7 +909,7 @@
    "kicker": "MARKET READ",
    "voiced": true,
    "youtube_id": null,
-   "seconds": 63
+   "seconds": 56
   },
   {
    "id": "2026-10-24-samsunspor-amed",
@@ -935,7 +935,7 @@
    "kicker": "MARKET ALERT",
    "voiced": true,
    "youtube_id": null,
-   "seconds": 58
+   "seconds": 54
   },
   {
    "id": "2026-10-24-valencia-villarreal",

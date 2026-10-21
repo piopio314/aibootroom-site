@@ -263,68 +263,6 @@
   {
    "type": "beat",
    "speaker": "scout",
-   "text": "Napoli's handicap firmed from 44.7% to 47.3% on consensus.",
-   "show": {
-    "kind": "stat",
-    "label": "AH Home consensus",
-    "from": 44.7,
-    "value": 47.3
-   },
-   "first": true,
-   "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s3.mp3",
-   "words": [
-    {
-     "w": "Napoli's",
-     "start": 0.12,
-     "end": 0.6
-    },
-    {
-     "w": "handicap",
-     "start": 0.6,
-     "end": 1.16
-    },
-    {
-     "w": "firmed",
-     "start": 1.24,
-     "end": 1.64
-    },
-    {
-     "w": "from",
-     "start": 1.64,
-     "end": 1.88
-    },
-    {
-     "w": "44.7%",
-     "start": 1.88,
-     "end": 3.56
-    },
-    {
-     "w": "to",
-     "start": 3.8,
-     "end": 3.96
-    },
-    {
-     "w": "47.3%",
-     "start": 3.96,
-     "end": 5.64
-    },
-    {
-     "w": "on",
-     "start": 5.72,
-     "end": 5.8
-    },
-    {
-     "w": "consensus.",
-     "start": 5.8,
-     "end": 6.6
-    }
-   ],
-   "durationInFrames": 206
-  },
-  {
-   "type": "beat",
-   "speaker": "scout",
    "text": "Roma moved from 38.9% to 37.8% on the sharp market.",
    "show": {
     "kind": "move",
@@ -332,9 +270,9 @@
     "from": 38.9,
     "to": 37.8
    },
-   "first": false,
+   "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s4.mp3",
+   "audio": "audio/2026-10-24-napoli-as-roma/s3.mp3",
    "words": [
     {
      "w": "Roma",
@@ -400,7 +338,7 @@
    },
    "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s5.mp3",
+   "audio": "audio/2026-10-24-napoli-as-roma/s4.mp3",
    "words": [
     {
      "w": "That",
@@ -476,7 +414,7 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s6.mp3",
+   "audio": "audio/2026-10-24-napoli-as-roma/s5.mp3",
    "words": [
     {
      "w": "The",
@@ -527,7 +465,7 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s7.mp3",
+   "audio": "audio/2026-10-24-napoli-as-roma/s6.mp3",
    "words": [
     {
      "w": "Only",
@@ -573,7 +511,7 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s8.mp3",
+   "audio": "audio/2026-10-24-napoli-as-roma/s7.mp3",
    "words": [
     {
      "w": "Over",
@@ -635,7 +573,7 @@
    },
    "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s9.mp3",
+   "audio": "audio/2026-10-24-napoli-as-roma/s8.mp3",
    "words": [
     {
      "w": "Both",
@@ -690,7 +628,7 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s10.mp3",
+   "audio": "audio/2026-10-24-napoli-as-roma/s9.mp3",
    "words": [
     {
      "w": "Their",
@@ -751,7 +689,7 @@
    },
    "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s11.mp3",
+   "audio": "audio/2026-10-24-napoli-as-roma/s10.mp3",
    "words": [
     {
      "w": "We",
@@ -812,7 +750,7 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s12.mp3",
+   "audio": "audio/2026-10-24-napoli-as-roma/s11.mp3",
    "words": [
     {
      "w": "Five",
@@ -881,7 +819,7 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s13.mp3",
+   "audio": "audio/2026-10-24-napoli-as-roma/s12.mp3",
    "words": [
     {
      "w": "The",
@@ -927,7 +865,7 @@
    "text": "AI Boot Room. Football analysis, with receipts.",
    "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-24-napoli-as-roma/s14.mp3",
+   "audio": "audio/2026-10-24-napoli-as-roma/s13.mp3",
    "words": [
     {
      "w": "AI",
