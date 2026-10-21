@@ -181,7 +181,7 @@
 
   // ── watch: every match with a show (all 10 big leagues) gets a play button; a YouTube short replaces the show once uploaded
   let SHOWS = {}, YT = {};
-  try { (await ABR.json('data/shows/index.json')).shows.forEach(x => SHOWS[x.id] = x); } catch (e) {}
+  try { (await ABR.json('data/shows/index.json')).shows.forEach(x => { SHOWS[x.id] = x; if (x.youtube_id) YT[x.id] = x.youtube_id; }); } catch (e) {}
   try { (await ABR.json('data/videos.json')).videos.forEach(x => { if (x.youtube_id) YT[x.id] = x.youtube_id; }); } catch (e) {}
   const playable = m => m && m.slug && SHOWS[m.slug];
   const playBtn = (m, label) => playable(m) ? `<button class="mplay" data-play="${E(m.slug)}">▶ ${label || 'Watch · 1 min'}${YT[m.slug] ? ' <small>YouTube</small>' : SHOWS[m.slug].source === 'market_desk' ? ' <small>AI pundits</small>' : ''}</button>` : '';
@@ -253,12 +253,15 @@
       const lim = open ? ms.length : 6;
       return `<div class="compblock ${c.cup ? 'cup' : ''}" data-key="${E(c.key)}">
         <div class="comphead"><h3 class="disp">${CUPLOGO[c.key] || ''} ${E(c.name)}</h3><span class="chip">${ms.length} ${ms.length === 1 ? 'match' : 'matches'} · ${E(dayRange(c))}</span>
+          ${c.roundup ? `<button class="btn primary sm roundup" data-yt="${E(c.roundup.youtube_id)}" data-title="${E(c.roundup.title)}">▶ Watch the roundup · ${Math.floor((c.roundup.duration_s || 0) / 60)}:${String(Math.round((c.roundup.duration_s || 0) % 60)).padStart(2, '0')}</button>` : ''}
           ${ms.length > lim ? `<button class="btn ghost sm more" data-c="${E(c.key)}">All ${ms.length} →</button>` : ''}</div>
         <div class="cards">${ms.slice(0, lim).map(card).join('')}</div></div>`;
     }).join('') || '<div class="skeleton">The week’s markets open soon.</div>';
   };
   renderBoard();
   document.addEventListener('click', ev => {
+    const r = ev.target.closest('.comphead .roundup');
+    if (r) { stopTile(); ABR.playVideo({id: '', title: r.dataset.title, home: '', away: '', youtube_id: r.dataset.yt, wide: true}); return; }
     const b = ev.target.closest('#compChips button, .comphead .more'); if (!b) return;
     compFilter = b.dataset.c; try { sessionStorage.setItem('abrComp', compFilter); } catch (e) {}
     stopTile(); renderBoard();

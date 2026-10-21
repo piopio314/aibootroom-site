@@ -275,3 +275,8 @@ footer a { color: var(--text2); } footer a:hover { color: var(--text); }
 .compblock .cards { margin-top: 18px; }
 .scoreboard { margin-top: 44px; padding-top: 28px; border-top: 1px solid var(--line); }
 .scoreboard .sub { color: var(--text2); font-size: 16px; max-width: 760px; margin-top: 4px; }
+
+/* roundup (16:9 long video) in the overlay + the button in each competition header */
+.vbox.wide .vpanel { width: min(1100px, 100%, calc((100vh - 140px) * 16 / 9)); }
+.vbox.wide .vstage { aspect-ratio: 16 / 9; }
+.compblock .comphead .roundup { margin-left: 4px; }

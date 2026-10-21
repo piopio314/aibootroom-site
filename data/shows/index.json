@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T20:44:49+00:00",
+ "generated_at": "2026-10-21T07:40:44+00:00",
  "shows": [
   {
    "id": "2026-10-21-como-manchester-united",
@@ -11,6 +11,7 @@
    "source": "numbers",
    "kicker": "QUIET MARKET",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 32
   },
   {
@@ -23,6 +24,7 @@
    "source": "numbers",
    "kicker": "QUIET MARKET",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 31
   },
   {
@@ -35,6 +37,7 @@
    "source": "market_desk",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 95
   },
   {
@@ -47,6 +50,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -59,6 +63,7 @@
    "source": "numbers",
    "kicker": "QUIET MARKET",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 33
   },
   {
@@ -71,6 +76,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 33
   },
   {
@@ -83,6 +89,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 37
   },
   {
@@ -95,6 +102,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 35
   },
   {
@@ -107,6 +115,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -119,6 +128,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -131,6 +141,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -143,6 +154,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -155,6 +167,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -164,10 +177,11 @@
    "league": "Europa League",
    "kickoff": "2026-10-22T16:45:00+00:00",
    "title": "Juventus v Rennes: what the market says",
-   "source": "numbers",
+   "source": "market_desk",
    "kicker": "GOALS WATCH",
-   "voiced": false,
-   "seconds": 34
+   "voiced": true,
+   "youtube_id": null,
+   "seconds": 73
   },
   {
    "id": "2026-10-22-lech-poznan-sunderland",
@@ -179,6 +193,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 35
   },
   {
@@ -191,6 +206,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -203,6 +219,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 38
   },
   {
@@ -215,6 +232,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 35
   },
   {
@@ -227,6 +245,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 35
   },
   {
@@ -239,6 +258,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 35
   },
   {
@@ -251,6 +271,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 37
   },
   {
@@ -263,6 +284,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -275,6 +297,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -287,6 +310,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 34
   },
   {
@@ -299,6 +323,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -311,6 +336,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -323,6 +349,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 35
   },
   {
@@ -335,6 +362,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 35
   },
   {
@@ -347,6 +375,7 @@
    "source": "numbers",
    "kicker": "QUIET MARKET",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 31
   },
   {
@@ -359,6 +388,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 35
   },
   {
@@ -371,6 +401,7 @@
    "source": "numbers",
    "kicker": "MARKET ALERT",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 58
   },
   {
@@ -383,6 +414,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -395,6 +427,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 50
   },
   {
@@ -407,6 +440,7 @@
    "source": "market_desk",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 101
   },
   {
@@ -419,6 +453,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 37
   },
   {
@@ -431,6 +466,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 60
   },
   {
@@ -443,6 +479,7 @@
    "source": "market_desk",
    "kicker": "QUIET MARKET",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 99
   },
   {
@@ -455,6 +492,7 @@
    "source": "numbers",
    "kicker": "MARKET ALERT",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 47
   },
   {
@@ -467,6 +505,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 58
   },
   {
@@ -479,6 +518,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -491,6 +531,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 53
   },
   {
@@ -503,6 +544,7 @@
    "source": "market_desk",
    "kicker": "QUIET MARKET",
    "voiced": true,
+   "youtube_id": null,
    "seconds": 72
   },
   {
@@ -515,6 +557,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 53
   },
   {
@@ -527,6 +570,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 34
   },
   {
@@ -539,6 +583,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 35
   },
   {
@@ -551,6 +596,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -563,6 +609,7 @@
    "source": "market_desk",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 91
   },
   {
@@ -575,6 +622,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 63
   },
   {
@@ -587,6 +635,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 56
   },
   {
@@ -599,6 +648,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -611,6 +661,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -623,6 +674,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 37
   },
   {
@@ -635,6 +687,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 38
   },
   {
@@ -647,6 +700,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 37
   },
   {
@@ -659,6 +713,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 53
   },
   {
@@ -671,6 +726,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 34
   },
   {
@@ -683,6 +739,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 34
   },
   {
@@ -695,6 +752,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 47
   },
   {
@@ -707,6 +765,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 53
   },
   {
@@ -719,6 +778,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 35
   },
   {
@@ -731,6 +791,7 @@
    "source": "numbers",
    "kicker": "MARKET ALERT",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 47
   },
   {
@@ -743,6 +804,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -755,6 +817,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 35
   },
   {
@@ -767,6 +830,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 34
   },
   {
@@ -779,6 +843,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -791,6 +856,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 54
   },
   {
@@ -803,6 +869,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 34
   },
   {
@@ -815,6 +882,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 54
   },
   {
@@ -827,6 +895,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 35
   },
   {
@@ -839,6 +908,7 @@
    "source": "market_desk",
    "kicker": "TEAM NEWS",
    "voiced": true,
+   "youtube_id": null,
    "seconds": 72
   },
   {
@@ -851,6 +921,7 @@
    "source": "numbers",
    "kicker": "MARKET ALERT",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 48
   },
   {
@@ -863,6 +934,7 @@
    "source": "market_desk",
    "kicker": "MARKET ALERT",
    "voiced": true,
+   "youtube_id": null,
    "seconds": 68
   },
   {
@@ -875,6 +947,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 34
   },
   {
@@ -887,6 +960,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -899,6 +973,7 @@
    "source": "numbers",
    "kicker": "MARKET ALERT",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 48
   },
   {
@@ -911,6 +986,7 @@
    "source": "numbers",
    "kicker": "MARKET ALERT",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 57
   },
   {
@@ -923,6 +999,7 @@
    "source": "numbers",
    "kicker": "MARKET ALERT",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 49
   },
   {
@@ -935,6 +1012,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 49
   },
   {
@@ -947,6 +1025,7 @@
    "source": "numbers",
    "kicker": "FAVOURITE FADING",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 57
   },
   {
@@ -959,6 +1038,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -971,6 +1051,7 @@
    "source": "numbers",
    "kicker": "MARKET ALERT",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 49
   },
   {
@@ -983,6 +1064,7 @@
    "source": "numbers",
    "kicker": "MARKET ALERT",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 57
   },
   {
@@ -995,6 +1077,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -1007,6 +1090,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 55
   },
   {
@@ -1019,6 +1103,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 54
   },
   {
@@ -1031,6 +1116,7 @@
    "source": "numbers",
    "kicker": "MARKET ALERT",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 48
   },
   {
@@ -1043,6 +1129,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 51
   },
   {
@@ -1055,6 +1142,7 @@
    "source": "numbers",
    "kicker": "FAVOURITE FADING",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 57
   },
   {
@@ -1067,6 +1155,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 63
   },
   {
@@ -1079,6 +1168,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 34
   },
   {
@@ -1091,6 +1181,7 @@
    "source": "market_desk",
    "kicker": "MARKET ALERT",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 94
   },
   {
@@ -1103,6 +1194,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 48
   },
   {
@@ -1115,6 +1207,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 58
   },
   {
@@ -1127,6 +1220,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -1139,6 +1233,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 55
   },
   {
@@ -1151,6 +1246,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 38
   },
   {
@@ -1163,6 +1259,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -1175,6 +1272,7 @@
    "source": "numbers",
    "kicker": "MARKET ALERT",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 48
   },
   {
@@ -1187,6 +1285,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 54
   },
   {
@@ -1199,6 +1298,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 35
   },
   {
@@ -1211,6 +1311,7 @@
    "source": "numbers",
    "kicker": "MARKET ALERT",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 48
   },
   {
@@ -1223,6 +1324,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 35
   },
   {
@@ -1235,6 +1337,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 60
   },
   {
@@ -1247,6 +1350,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 53
   },
   {
@@ -1259,6 +1363,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 48
   },
   {
@@ -1271,6 +1376,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 60
   },
   {
@@ -1283,6 +1389,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 53
   },
   {
@@ -1295,6 +1402,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 48
   },
   {
@@ -1307,6 +1415,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -1319,6 +1428,7 @@
    "source": "numbers",
    "kicker": "FAVOURITE FADING",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 49
   },
   {
@@ -1331,6 +1441,7 @@
    "source": "numbers",
    "kicker": "MARKET ALERT",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 49
   },
   {
@@ -1343,6 +1454,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 58
   },
   {
@@ -1355,6 +1467,7 @@
    "source": "numbers",
    "kicker": "MARKET ALERT",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 49
   },
   {
@@ -1367,6 +1480,7 @@
    "source": "numbers",
    "kicker": "MARKET ALERT",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 49
   },
   {
@@ -1379,6 +1493,7 @@
    "source": "numbers",
    "kicker": "MARKET ALERT",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 48
   },
   {
@@ -1391,6 +1506,7 @@
    "source": "market_desk",
    "kicker": "EL CLÁSICO",
    "voiced": true,
+   "youtube_id": null,
    "seconds": 68
   },
   {
@@ -1403,6 +1519,7 @@
    "source": "numbers",
    "kicker": "FAVOURITE FADING",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 50
   },
   {
@@ -1415,6 +1532,7 @@
    "source": "numbers",
    "kicker": "MARKET ALERT",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 48
   },
   {
@@ -1427,6 +1545,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 48
   },
   {
@@ -1439,6 +1558,7 @@
    "source": "numbers",
    "kicker": "SUPER LIG CLASSIC",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 50
   },
   {
@@ -1451,6 +1571,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 54
   },
   {
@@ -1463,6 +1584,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 53
   },
   {
@@ -1475,6 +1597,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 44
   },
   {
@@ -1487,6 +1610,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 46
   },
   {
@@ -1499,6 +1623,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 44
   },
   {
@@ -1511,6 +1636,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 36
   },
   {
@@ -1523,6 +1649,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 34
   },
   {
@@ -1535,6 +1662,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 44
   },
   {
@@ -1547,6 +1675,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 44
   },
   {
@@ -1559,6 +1688,7 @@
    "source": "numbers",
    "kicker": "GOALS WATCH",
    "voiced": false,
+   "youtube_id": null,
    "seconds": 44
   }
  ]

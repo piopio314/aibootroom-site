@@ -65,7 +65,9 @@ ABR.playVideo = async function (v) {
     document.addEventListener('keydown', ev => { if (ev.key === 'Escape') ABR.closeVideo(); });
   }
   const stage = box.querySelector('.vstage');
-  box.querySelector('.vfoot').innerHTML = `<b>${ABR.esc(ABR.short(v.home))} v ${ABR.esc(ABR.short(v.away))}</b>
+  box.classList.toggle('wide', !!v.wide);          // a roundup is a 16:9 long video
+  box.querySelector('.vfoot').innerHTML = v.wide ? `<b>${ABR.esc(v.title || '')}</b>`
+    : `<b>${ABR.esc(ABR.short(v.home))} v ${ABR.esc(ABR.short(v.away))}</b>
     <a class="btn ghost sm" href="match.html?m=${encodeURIComponent(v.id)}">Scenes and all matches →</a>`;
   box.classList.add('on'); document.body.style.overflow = 'hidden';
   if (v.youtube_id) {

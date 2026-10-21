@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T20:51:00+00:00",
+ "generated_at": "2026-10-21T07:40:00+00:00",
  "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
@@ -900,6 +900,7 @@
    "key": "ucl",
    "name": "Champions League",
    "cup": true,
+   "roundup": null,
    "matches": 9,
    "first": "2026-10-21T16:45:00+00:00",
    "last": "2026-10-21T19:00:00+00:00"
@@ -909,6 +910,7 @@
    "key": "uel",
    "name": "Europa League",
    "cup": true,
+   "roundup": null,
    "matches": 18,
    "first": "2026-10-22T16:45:00+00:00",
    "last": "2026-10-22T19:00:00+00:00"
@@ -918,6 +920,7 @@
    "key": "uecl",
    "name": "Conference League",
    "cup": true,
+   "roundup": null,
    "matches": 2,
    "first": "2026-10-22T19:00:00+00:00",
    "last": "2026-10-22T19:00:00+00:00"
@@ -927,6 +930,7 @@
    "key": "39",
    "name": "Premier League",
    "cup": false,
+   "roundup": null,
    "matches": 10,
    "first": "2026-10-23T19:00:00+00:00",
    "last": "2026-10-25T16:30:00+00:00"
@@ -936,6 +940,7 @@
    "key": "140",
    "name": "La Liga",
    "cup": false,
+   "roundup": null,
    "matches": 11,
    "first": "2026-10-21T18:00:00+00:00",
    "last": "2026-10-26T20:00:00+00:00"
@@ -945,6 +950,7 @@
    "key": "78",
    "name": "Bundesliga",
    "cup": false,
+   "roundup": null,
    "matches": 9,
    "first": "2026-10-23T18:30:00+00:00",
    "last": "2026-10-25T16:30:00+00:00"
@@ -954,6 +960,7 @@
    "key": "135",
    "name": "Serie A",
    "cup": false,
+   "roundup": null,
    "matches": 18,
    "first": "2026-10-23T18:45:00+00:00",
    "last": "2026-10-28T19:45:00+00:00"
@@ -963,6 +970,7 @@
    "key": "61",
    "name": "Ligue 1",
    "cup": false,
+   "roundup": null,
    "matches": 9,
    "first": "2026-10-23T18:45:00+00:00",
    "last": "2026-10-25T19:45:00+00:00"
@@ -972,6 +980,7 @@
    "key": "40",
    "name": "Championship",
    "cup": false,
+   "roundup": null,
    "matches": 12,
    "first": "2026-10-23T19:00:00+00:00",
    "last": "2026-10-24T14:00:00+00:00"
@@ -981,6 +990,7 @@
    "key": "88",
    "name": "Eredivisie",
    "cup": false,
+   "roundup": null,
    "matches": 9,
    "first": "2026-10-23T18:00:00+00:00",
    "last": "2026-10-25T19:00:00+00:00"
@@ -990,6 +1000,7 @@
    "key": "94",
    "name": "Primeira Liga",
    "cup": false,
+   "roundup": null,
    "matches": 9,
    "first": "2026-10-23T19:45:00+00:00",
    "last": "2026-10-26T18:45:00+00:00"
@@ -999,6 +1010,7 @@
    "key": "203",
    "name": "Super Lig",
    "cup": false,
+   "roundup": null,
    "matches": 9,
    "first": "2026-10-23T17:00:00+00:00",
    "last": "2026-10-26T18:30:00+00:00"
@@ -1008,6 +1020,7 @@
    "key": "144",
    "name": "Jupiler Pro League",
    "cup": false,
+   "roundup": null,
    "matches": 5,
    "first": "2026-10-23T18:45:00+00:00",
    "last": "2026-10-25T18:15:00+00:00"
@@ -1430,8 +1443,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-22-juventus-rennes",
+   "headline": "Juventus favoured, but -1 sits just off a coin flip",
    "competition": "uel"
   },
   {
@@ -4977,6 +4990,21 @@
    "video_title": "Newcastle repriced, goals untouched"
   },
   {
+   "slug": "2026-10-22-juventus-rennes",
+   "league": "Europa League",
+   "home": "Juventus",
+   "away": "Rennes",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "headline": "Juventus favoured, but -1 sits just off a coin flip",
+   "summary": "Juventus are clear favourites at 60.7% fair to win, against 22.0% for the draw and 17.3% for Rennes. The fair handicap line is -0.94, so at the quoted -1 the home side is 48.2% against 51.8% on Rennes +1 — the favourite sits just the wrong side of a coin flip. The goal line is 2.75 with Over at 51.2% fair versus a 49.7% median, cross-book dispersion rather than a move. With 0.0 hours of price history and no injury reports, every flat reading is an opening snapshot. The only outlier, a longest Rennes price of 6.00 versus a 5.41 average, is under 2 pp of fair probability.",
+   "voices": {
+    "scout": "The shape is straightforward. The sharp book has Juventus at about sixty-one per cent, the draw at twenty-two, Rennes at seventeen. The goal line is two point seven five, Over at fifty-one per cent fair, so a slightly above two-and-a-half-goal game. And the handicap sits at minus one, priced almost exactly fifty-fifty.",
+    "sceptic": "Not almost exactly. The fair line is minus zero point nine four, so at minus one the home side is forty-eight point two against fifty-one point eight on Rennes plus one. That's a gap of three and a half points, and it puts the favourite on the wrong side of the coin. And on Rennes, the longest price at six point zero zero against a five point four one average is eleven per cent in odds — under two points of probability. One snapshot. That's a margin having a bad day, not information.",
+    "gaffer": "So here's the verdict. Juventus are clear favourites at about sixty-one per cent, the fair line is minus zero point nine four, and the goal line is two point seven five with Over just above fifty. But that's the shape of the market, not where it's going."
+   },
+   "video_title": null
+  },
+  {
    "slug": "2026-10-21-levante-athletic-club",
    "league": "La Liga",
    "home": "Levante",
@@ -5020,21 +5048,6 @@
     "gaffer": "Mild leans on a single reading is not a signal — one snapshot is not a settled market."
    },
    "video_title": "Torino vs Monza: a flat board, and one snapshot"
-  },
-  {
-   "slug": "2026-10-24-cagliari-bologna",
-   "league": "Serie A",
-   "home": "Cagliari",
-   "away": "Bologna",
-   "kickoff": "2026-10-24T13:00:00+00:00",
-   "headline": "Bologna favoured, goals lean is a single-book nudge",
-   "summary": "The draw sits at 32.7%. The only movement is a trim to Over 2.25 at the sharp market, from 50.6% to 49.0%, with the fair total slipping from 2.27 to 2.22, while the consensus Over moved just 0.3 points. The handicap fair line is home +0.15, under a quarter goal to Bologna, with the quoted line at +0.25 and only six books pricing it. Cagliari's Riyad Idrissi is listed as missing with a knee problem, with no measurable price reaction.",
-   "voices": {
-    "scout": "The sharp book trimmed Over 2.25 from fifty point six to forty-nine per cent, fair total down from two point two seven to two point two two.",
-    "sceptic": "Two things. The handicap fair line is home plus zero point one five — under a quarter goal, not a full one — and the consensus Over moved three tenths of a point, not one point seven. That's one book adjusting its book, not a low-goals story.",
-    "gaffer": "So the reading is this. The goals lean is one sharp book, not a consensus."
-   },
-   "video_title": "Bologna priced ahead, but the market barely moves"
   }
  ]
 }
