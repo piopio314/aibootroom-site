@@ -1,0 +1,112 @@
+{
+ "slug": "2026-10-25-rennes-strasbourg",
+ "league": "Ligue 1",
+ "home": "Rennes",
+ "away": "Strasbourg",
+ "kickoff": "2026-10-25T16:15:00+00:00",
+ "generated_at": "2026-10-21T22:37:58+00:00",
+ "headline": "Rennes after the chaos: favourites, with Lepaul a doubt",
+ "summary": "Rennes lost 4-3 at Paris FC on Sunday and missed the chance to go top of Ligue 1. The night cost more than points: Estéban Lepaul, who scored a hat-trick, came off injured and L'Équipe reports doubts over his availability. Franck Haise also faces questions after RMC's After Foot asked whether he still controls the team. Even so, Rennes are 54.5% favourites to win — more than twice Strasbourg's 23.8% chance. Strasbourg have lost their last three games and created just 0.24 expected goals at Paris FC. The handicap makes Rennes about three-quarters of a goal the stronger side, and the goal line is 3.25, with over at 51.7%.",
+ "read": "Rennes are clear home favourites at 54.5% with Strasbourg arriving on three straight defeats and almost no chance creation away from home. The market also expects goals — the line is 3.25 with over at 51.7% and both teams to score at 64.6%, which fits a Rennes side that has scored nine and conceded ten in its last five.",
+ "facts": [
+  {
+   "fact": "Rennes lost 4-3 away at Paris FC on Sunday, in a match featuring four penalties, and missed the chance to go top of Ligue 1.",
+   "meaning": "They come home off a chaotic defeat rather than a confidence-building win."
+  },
+  {
+   "fact": "Rennes striker Estéban Lepaul scored a penalty hat-trick at Paris FC — all three of his side's goals — but came off injured late on, and L'Équipe reports doubts over his availability.",
+   "meaning": "The forward who scored every Rennes goal on Sunday is a doubt here, not confirmed out."
+  },
+  {
+   "fact": "Rennes are 54.5% to win at home, more than twice Strasbourg's 23.8%.",
+   "meaning": "The market makes Rennes clear favourites for the three points at Roazhon Park."
+  },
+  {
+   "fact": "Strasbourg have lost their last three Ligue 1 matches, the latest 1-3 at home to PSG after taking the lead.",
+   "meaning": "They arrive 14th and without a win in four league games."
+  },
+  {
+   "fact": "Strasbourg created just 0.24 xG at Paris FC and 0.63 at Nice in their two away defeats.",
+   "meaning": "On the road they have made almost nothing, which is the football case for Rennes' short price."
+  },
+  {
+   "fact": "The goal line sits at 3.25, with over priced at 51.7%.",
+   "meaning": "The market expects an open game: over three goals is more likely than not."
+  },
+  {
+   "fact": "Both teams to score is priced at 64.6%.",
+   "meaning": "The market expects both sides to find the net on Sunday."
+  },
+  {
+   "fact": "Rennes have conceded 10 goals in their last five matches, four at Lyon and four at Paris FC.",
+   "meaning": "A clear favourite with a leaky defence — the reason the goals line is set above three."
+  }
+ ],
+ "article": "/m/2026-10-25-rennes-strasbourg.html",
+ "sources": [
+  {
+   "fact": "Rennes lost 4-3 away to Paris FC in a chaotic match featuring four penalties, with Estéban Lepaul scoring a penalty hat-trick.",
+   "source": "www.goal.com",
+   "url": "https://www.goal.com/en-us/lists/paris-fc-rennes-4-3-ligue-1-penalties/blta66e2034d725e462",
+   "age": "3 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Rennes striker Estéban Lepaul came off injured late in the Paris FC defeat, with L'Équipe reporting doubts over his availability.",
+   "source": "www.lequipe.fr",
+   "url": "https://www.lequipe.fr/Football/Actualites/-je-ne-vois-pas-comment-il-pourrait-jouer-jeudi-rennes-s-inquiete-pour-esteban-lepaul-sorti-sur-blessure-apres-son-triple-historique-sur-penalty/1736848",
+   "age": "3 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "RMC's After Foot podcast reported that Franck Haise 'ne maîtrise plus rien du tout' at Rennes, with criticism also aimed at recruitment.",
+   "source": "rmcsport.bfmtv.com",
+   "url": "https://rmcsport.bfmtv.com/replay-emissions/after-foot/frank-haise-ne-maitrise-plus-rien-du-tout-a-rennes-pour-daniel-un-vrai-souci-sur-le-recrutement-pour-flo-daniel-salue-le-travail-du-pfc-18-10_EN-202610180415.html",
+   "age": "3 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "After the Paris FC defeat, Franck Haise remains supported at Rennes while sporting director Loïc Désiré is under heavy criticism.",
+   "source": "www.foot01.com",
+   "url": "https://www.foot01.com/rennes/rennes-le-directeur-sportif-loic-desire-en-grand-danger",
+   "age": "2 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Rennes missed the chance to go top of Ligue 1 by losing at Paris FC.",
+   "source": "www.lequipe.fr",
+   "url": "https://www.lequipe.fr/Football/Actualites/-je-ne-vois-pas-comment-il-pourrait-jouer-jeudi-rennes-s-inquiete-pour-esteban-lepaul-sorti-sur-blessure-apres-son-triple-historique-sur-penalty/1736848",
+   "age": "3 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Strasbourg led PSG at home but lost 3-1 at the Meinau, with PSG coming from behind.",
+   "source": "www.ouest-france.fr",
+   "url": "https://www.ouest-france.fr/sport/football/ligue-1/direct/direct-rc-strasbourg-psg-suivez-le-match-de-la-7e-journee-de-ligue-1-en-live-7815999d-bcbe-4beb-a579-ab30fdd8ca5a",
+   "age": "4 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Strasbourg were 11th in Ligue 1 before the PSG match, according to Ouest-France.",
+   "source": "www.ouest-france.fr",
+   "url": "https://www.ouest-france.fr/sport/football/ligue-1/direct/direct-rc-strasbourg-psg-suivez-le-match-de-la-7e-journee-de-ligue-1-en-live-7815999d-bcbe-4beb-a579-ab30fdd8ca5a",
+   "age": "4 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Africa Foot reports that Chelsea are closely monitoring Strasbourg youngster Gessime Yassine, who has two goals in seven Ligue 1 games.",
+   "source": "africafoot.com",
+   "url": "https://africafoot.com/chelsea-suivrait-de-pres-gessime-yassine-le-jeune-talent-de-strasbourg/",
+   "age": "1 day ago",
+   "certainty": "reported"
+  }
+ ],
+ "video_title": "Rennes after the chaos: still favourites, Lepaul a doubt",
+ "key_points": [
+  "Rennes 54.5% after Paris FC chaos",
+  "Strasbourg: three straight defeats",
+  "Over 3.25 goals favoured"
+ ],
+ "market": null,
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
+}

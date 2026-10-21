@@ -1,0 +1,773 @@
+{
+ "id": "2026-10-25-auxerre-le-mans",
+ "title": "Auxerre after the 3-1: favourites, but only just",
+ "match": {
+  "home": "Auxerre",
+  "away": "Le Mans",
+  "league": "Ligue 1",
+  "kickoff": "2026-10-25T16:15:00+00:00",
+  "home_short": "AUX",
+  "away_short": "LE",
+  "home_color": "#0891b2",
+  "away_color": "#dc2626"
+ },
+ "market": {
+  "fair": {
+   "home": 45.4,
+   "draw": 25.7,
+   "away": 28.9
+  },
+  "move": {
+   "home": 0.5,
+   "draw": -0.6,
+   "away": 0.1
+  },
+  "side": "home",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 44.8
+   },
+   {
+    "t": "2026-10-19T05:22:00+00:00",
+    "v": 44.9
+   },
+   {
+    "t": "2026-10-20T05:21:00+00:00",
+    "v": 45.0
+   },
+   {
+    "t": "2026-10-21T05:21:00+00:00",
+    "v": 45.4
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 44.8
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 44.9
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 45.0
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "v": 45.4
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 26.3
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 26.3
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 26.1
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "v": 25.7
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 28.8
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 28.8
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 28.9
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "v": 28.9
+    }
+   ]
+  },
+  "goals": 2.82,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T21:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Auxerre won 3-1 at Le Havre, a reference win for Will Still.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Le Havre",
+    "score": "3-1",
+    "when": "Sunday"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-auxerre-le-mans/s0.mp3",
+   "words": [
+    {
+     "w": "Auxerre",
+     "start": 0.275,
+     "end": 0.725
+    },
+    {
+     "w": "won",
+     "start": 0.725,
+     "end": 0.963
+    },
+    {
+     "w": "3-1",
+     "start": 0.963,
+     "end": 1.387
+    },
+    {
+     "w": "at",
+     "start": 1.387,
+     "end": 1.475
+    },
+    {
+     "w": "Le",
+     "start": 1.475,
+     "end": 1.625
+    },
+    {
+     "w": "Havre,",
+     "start": 1.625,
+     "end": 2.175
+    },
+    {
+     "w": "a",
+     "start": 2.312,
+     "end": 2.425
+    },
+    {
+     "w": "reference",
+     "start": 2.425,
+     "end": 2.9
+    },
+    {
+     "w": "win",
+     "start": 2.9,
+     "end": 3.125
+    },
+    {
+     "w": "for",
+     "start": 3.125,
+     "end": 3.25
+    },
+    {
+     "w": "Will",
+     "start": 3.25,
+     "end": 3.462
+    },
+    {
+     "w": "Still.",
+     "start": 3.462,
+     "end": 4.275
+    }
+   ],
+   "durationInFrames": 136
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "They host promoted Le Mans, 16th on 6 points.",
+   "show": {
+    "kind": "table",
+    "team": "away",
+    "rank": 16,
+    "pts": 6
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-auxerre-le-mans/s1.mp3",
+   "words": [
+    {
+     "w": "They",
+     "start": 0.25,
+     "end": 0.4
+    },
+    {
+     "w": "host",
+     "start": 0.4,
+     "end": 0.675
+    },
+    {
+     "w": "promoted",
+     "start": 0.675,
+     "end": 1.062
+    },
+    {
+     "w": "Le",
+     "start": 1.062,
+     "end": 1.15
+    },
+    {
+     "w": "Mans,",
+     "start": 1.15,
+     "end": 1.725
+    },
+    {
+     "w": "16th",
+     "start": 1.837,
+     "end": 2.312
+    },
+    {
+     "w": "on",
+     "start": 2.312,
+     "end": 2.513
+    },
+    {
+     "w": "6",
+     "start": 2.513,
+     "end": 2.8
+    },
+    {
+     "w": "points.",
+     "start": 2.8,
+     "end": 3.625
+    }
+   ],
+   "durationInFrames": 117
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Le Mans lost 0-3 at home to Toulouse last time.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Toulouse",
+    "score": "0-3",
+    "when": "last match"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-auxerre-le-mans/s2.mp3",
+   "words": [
+    {
+     "w": "Le",
+     "start": 0.25,
+     "end": 0.35
+    },
+    {
+     "w": "Mans",
+     "start": 0.35,
+     "end": 0.725
+    },
+    {
+     "w": "lost",
+     "start": 0.725,
+     "end": 1.025
+    },
+    {
+     "w": "0-3",
+     "start": 1.025,
+     "end": 1.512
+    },
+    {
+     "w": "at",
+     "start": 1.512,
+     "end": 1.6
+    },
+    {
+     "w": "home",
+     "start": 1.6,
+     "end": 1.925
+    },
+    {
+     "w": "to",
+     "start": 1.925,
+     "end": 2.025
+    },
+    {
+     "w": "Toulouse",
+     "start": 2.025,
+     "end": 2.45
+    },
+    {
+     "w": "last",
+     "start": 2.45,
+     "end": 2.775
+    },
+    {
+     "w": "time.",
+     "start": 2.775,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 115
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Le Mans also lose Adil Bourabaa for several weeks, Videira says.",
+   "show": {
+    "kind": "absence",
+    "team": "away",
+    "player": "Adil Bourabaa",
+    "status": "out",
+    "line": "several weeks out"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-auxerre-le-mans/s3.mp3",
+   "words": [
+    {
+     "w": "Le",
+     "start": 0.25,
+     "end": 0.35
+    },
+    {
+     "w": "Mans",
+     "start": 0.35,
+     "end": 0.675
+    },
+    {
+     "w": "also",
+     "start": 0.675,
+     "end": 1.025
+    },
+    {
+     "w": "lose",
+     "start": 1.025,
+     "end": 1.288
+    },
+    {
+     "w": "Adil",
+     "start": 1.288,
+     "end": 1.625
+    },
+    {
+     "w": "Bourabaa",
+     "start": 1.625,
+     "end": 2.1
+    },
+    {
+     "w": "for",
+     "start": 2.1,
+     "end": 2.225
+    },
+    {
+     "w": "several",
+     "start": 2.225,
+     "end": 2.6
+    },
+    {
+     "w": "weeks,",
+     "start": 2.6,
+     "end": 3.075
+    },
+    {
+     "w": "Videira",
+     "start": 3.175,
+     "end": 3.737
+    },
+    {
+     "w": "says.",
+     "start": 3.737,
+     "end": 4.525
+    }
+   ],
+   "durationInFrames": 144
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "They have conceded 10 goals in their last 5 games.",
+   "show": {
+    "kind": "stat",
+    "label": "Le Mans conceded, 5 games",
+    "value": "10"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-auxerre-le-mans/s4.mp3",
+   "words": [
+    {
+     "w": "They",
+     "start": 0.25,
+     "end": 0.362
+    },
+    {
+     "w": "have",
+     "start": 0.362,
+     "end": 0.475
+    },
+    {
+     "w": "conceded",
+     "start": 0.475,
+     "end": 0.988
+    },
+    {
+     "w": "10",
+     "start": 0.988,
+     "end": 1.25
+    },
+    {
+     "w": "goals",
+     "start": 1.25,
+     "end": 1.637
+    },
+    {
+     "w": "in",
+     "start": 1.637,
+     "end": 1.712
+    },
+    {
+     "w": "their",
+     "start": 1.712,
+     "end": 1.85
+    },
+    {
+     "w": "last",
+     "start": 1.85,
+     "end": 2.2
+    },
+    {
+     "w": "5",
+     "start": 2.2,
+     "end": 2.55
+    },
+    {
+     "w": "games.",
+     "start": 2.55,
+     "end": 3.4
+    }
+   ],
+   "durationInFrames": 110
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "That is why over 2.75 goals is 51.8% likely.",
+   "show": {
+    "kind": "over",
+    "line": 2.75,
+    "value": 51.8
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-auxerre-le-mans/s5.mp3",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.25,
+     "end": 0.425
+    },
+    {
+     "w": "is",
+     "start": 0.425,
+     "end": 0.55
+    },
+    {
+     "w": "why",
+     "start": 0.55,
+     "end": 0.713
+    },
+    {
+     "w": "over",
+     "start": 0.713,
+     "end": 0.963
+    },
+    {
+     "w": "2.75",
+     "start": 0.963,
+     "end": 2.1
+    },
+    {
+     "w": "goals",
+     "start": 2.1,
+     "end": 2.763
+    },
+    {
+     "w": "is",
+     "start": 2.763,
+     "end": 2.938
+    },
+    {
+     "w": "51.8%",
+     "start": 2.938,
+     "end": 4.25
+    },
+    {
+     "w": "likely.",
+     "start": 4.25,
+     "end": 5.1
+    }
+   ],
+   "durationInFrames": 161
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "But Auxerre's own numbers are modest: 1.57 expected goals a game.",
+   "show": {
+    "kind": "stat",
+    "label": "Auxerre xG per game",
+    "value": "1.57"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-auxerre-le-mans/s6.mp3",
+   "words": [
+    {
+     "w": "But",
+     "start": 0.225,
+     "end": 0.35
+    },
+    {
+     "w": "Auxerre's",
+     "start": 0.35,
+     "end": 0.85
+    },
+    {
+     "w": "own",
+     "start": 0.85,
+     "end": 1.025
+    },
+    {
+     "w": "numbers",
+     "start": 1.025,
+     "end": 1.4
+    },
+    {
+     "w": "are",
+     "start": 1.4,
+     "end": 1.525
+    },
+    {
+     "w": "modest:",
+     "start": 1.525,
+     "end": 2.225
+    },
+    {
+     "w": "1.57",
+     "start": 2.362,
+     "end": 3.55
+    },
+    {
+     "w": "expected",
+     "start": 3.55,
+     "end": 4.125
+    },
+    {
+     "w": "goals",
+     "start": 4.125,
+     "end": 4.487
+    },
+    {
+     "w": "a",
+     "start": 4.487,
+     "end": 4.55
+    },
+    {
+     "w": "game.",
+     "start": 4.55,
+     "end": 5.375
+    }
+   ],
+   "durationInFrames": 169
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market's answer: Auxerre 45.4%, Le Mans 28.9%, the draw 25.7%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-auxerre-le-mans/s7.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "market's",
+     "start": 0.325,
+     "end": 0.75
+    },
+    {
+     "w": "answer:",
+     "start": 0.75,
+     "end": 1.45
+    },
+    {
+     "w": "Auxerre",
+     "start": 1.587,
+     "end": 2.087
+    },
+    {
+     "w": "45.4%,",
+     "start": 2.087,
+     "end": 3.75
+    },
+    {
+     "w": "Le",
+     "start": 3.825,
+     "end": 3.975
+    },
+    {
+     "w": "Mans",
+     "start": 3.975,
+     "end": 4.35
+    },
+    {
+     "w": "28.9%,",
+     "start": 4.35,
+     "end": 5.9
+    },
+    {
+     "w": "the",
+     "start": 5.975,
+     "end": 6.075
+    },
+    {
+     "w": "draw",
+     "start": 6.075,
+     "end": 6.35
+    },
+    {
+     "w": "25.7%.",
+     "start": 6.35,
+     "end": 8.5
+    }
+   ],
+   "durationInFrames": 263
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Auxerre are home favourites, but only just.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Auxerre home favourites",
+     "Le Mans concede heavily",
+     "Market sees a small gap"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-auxerre-le-mans/s8.mp3",
+   "words": [
+    {
+     "w": "Auxerre",
+     "start": 0.275,
+     "end": 0.725
+    },
+    {
+     "w": "are",
+     "start": 0.725,
+     "end": 0.85
+    },
+    {
+     "w": "home",
+     "start": 0.85,
+     "end": 1.188
+    },
+    {
+     "w": "favourites,",
+     "start": 1.188,
+     "end": 1.675
+    },
+    {
+     "w": "but",
+     "start": 1.725,
+     "end": 1.863
+    },
+    {
+     "w": "only",
+     "start": 1.863,
+     "end": 2.163
+    },
+    {
+     "w": "just.",
+     "start": 2.163,
+     "end": 2.875
+    }
+   ],
+   "durationInFrames": 101
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-auxerre-le-mans/s9.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
+  "stickers": [
+   "🏟️",
+   "🎯",
+   "🎯"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1552793,
+ "prices_as_of": "2026-10-21T22:19:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

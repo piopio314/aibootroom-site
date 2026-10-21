@@ -1,0 +1,844 @@
+{
+ "id": "2026-10-25-rennes-strasbourg",
+ "title": "Rennes after the chaos: still favourites, Lepaul a doubt",
+ "match": {
+  "home": "Rennes",
+  "away": "Strasbourg",
+  "league": "Ligue 1",
+  "kickoff": "2026-10-25T16:15:00+00:00",
+  "home_short": "REN",
+  "away_short": "STR",
+  "home_color": "#4f46e5",
+  "away_color": "#2563eb"
+ },
+ "market": {
+  "fair": {
+   "home": 54.5,
+   "draw": 21.7,
+   "away": 23.8
+  },
+  "move": {
+   "home": -0.3,
+   "draw": -0.2,
+   "away": 0.5
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 23.3
+   },
+   {
+    "t": "2026-10-19T05:22:00+00:00",
+    "v": 23.7
+   },
+   {
+    "t": "2026-10-20T05:21:00+00:00",
+    "v": 23.6
+   },
+   {
+    "t": "2026-10-21T05:21:00+00:00",
+    "v": 23.8
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 54.8
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 54.6
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 54.8
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "v": 54.5
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 21.9
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 21.7
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 21.6
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "v": 21.7
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 23.3
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 23.7
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 23.6
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "v": 23.8
+    }
+   ]
+  },
+  "goals": 3.33,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T22:19:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Lepaul scored all 3 Rennes goals at Paris FC, then went off injured.",
+   "show": {
+    "kind": "absence",
+    "team": "home",
+    "player": "Estéban Lepaul",
+    "status": "doubtful",
+    "line": "3 goals at Paris FC"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-rennes-strasbourg/s0.mp3",
+   "words": [
+    {
+     "w": "Lepaul",
+     "start": 0.275,
+     "end": 0.625
+    },
+    {
+     "w": "scored",
+     "start": 0.625,
+     "end": 0.95
+    },
+    {
+     "w": "all",
+     "start": 0.95,
+     "end": 1.163
+    },
+    {
+     "w": "3",
+     "start": 1.163,
+     "end": 1.4
+    },
+    {
+     "w": "Rennes",
+     "start": 1.4,
+     "end": 1.725
+    },
+    {
+     "w": "goals",
+     "start": 1.725,
+     "end": 2.075
+    },
+    {
+     "w": "at",
+     "start": 2.075,
+     "end": 2.175
+    },
+    {
+     "w": "Paris",
+     "start": 2.175,
+     "end": 2.525
+    },
+    {
+     "w": "FC,",
+     "start": 2.525,
+     "end": 3.25
+    },
+    {
+     "w": "then",
+     "start": 3.375,
+     "end": 3.513
+    },
+    {
+     "w": "went",
+     "start": 3.513,
+     "end": 3.675
+    },
+    {
+     "w": "off",
+     "start": 3.675,
+     "end": 3.9
+    },
+    {
+     "w": "injured.",
+     "start": 3.9,
+     "end": 4.675
+    }
+   ],
+   "durationInFrames": 148
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Rennes host Strasbourg at Roazhon Park in Ligue 1.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-rennes-strasbourg/s1.mp3",
+   "words": [
+    {
+     "w": "Rennes",
+     "start": 0.25,
+     "end": 0.475
+    },
+    {
+     "w": "host",
+     "start": 0.475,
+     "end": 0.75
+    },
+    {
+     "w": "Strasbourg",
+     "start": 0.75,
+     "end": 1.363
+    },
+    {
+     "w": "at",
+     "start": 1.363,
+     "end": 1.45
+    },
+    {
+     "w": "Roazhon",
+     "start": 1.45,
+     "end": 1.875
+    },
+    {
+     "w": "Park",
+     "start": 1.875,
+     "end": 2.188
+    },
+    {
+     "w": "in",
+     "start": 2.188,
+     "end": 2.275
+    },
+    {
+     "w": "Ligue",
+     "start": 2.275,
+     "end": 2.5
+    },
+    {
+     "w": "1.",
+     "start": 2.5,
+     "end": 3.225
+    }
+   ],
+   "durationInFrames": 105
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Strasbourg arrive on a losing run.",
+   "show": {
+    "kind": "form",
+    "team": "away",
+    "results": "LLLDW"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-rennes-strasbourg/s2.mp3",
+   "words": [
+    {
+     "w": "Strasbourg",
+     "start": 0.25,
+     "end": 0.8
+    },
+    {
+     "w": "arrive",
+     "start": 0.8,
+     "end": 1.262
+    },
+    {
+     "w": "on",
+     "start": 1.262,
+     "end": 1.363
+    },
+    {
+     "w": "a",
+     "start": 1.363,
+     "end": 1.45
+    },
+    {
+     "w": "losing",
+     "start": 1.45,
+     "end": 1.875
+    },
+    {
+     "w": "run.",
+     "start": 1.875,
+     "end": 2.6
+    }
+   ],
+   "durationInFrames": 86
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Away from home, they made just 0.24 expected goals at Paris FC.",
+   "show": {
+    "kind": "stat",
+    "label": "Strasbourg away xG",
+    "value": "0.24"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-rennes-strasbourg/s3.mp3",
+   "words": [
+    {
+     "w": "Away",
+     "start": 0.275,
+     "end": 0.525
+    },
+    {
+     "w": "from",
+     "start": 0.525,
+     "end": 0.675
+    },
+    {
+     "w": "home,",
+     "start": 0.675,
+     "end": 1.15
+    },
+    {
+     "w": "they",
+     "start": 1.225,
+     "end": 1.375
+    },
+    {
+     "w": "made",
+     "start": 1.375,
+     "end": 1.575
+    },
+    {
+     "w": "just",
+     "start": 1.575,
+     "end": 1.762
+    },
+    {
+     "w": "0.24",
+     "start": 1.762,
+     "end": 2.775
+    },
+    {
+     "w": "expected",
+     "start": 2.775,
+     "end": 3.325
+    },
+    {
+     "w": "goals",
+     "start": 3.325,
+     "end": 3.725
+    },
+    {
+     "w": "at",
+     "start": 3.725,
+     "end": 3.825
+    },
+    {
+     "w": "Paris",
+     "start": 3.825,
+     "end": 4.2
+    },
+    {
+     "w": "FC.",
+     "start": 4.2,
+     "end": 5.125
+    }
+   ],
+   "durationInFrames": 162
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Rennes, though, have conceded 10 goals in recent games.",
+   "show": {
+    "kind": "stat",
+    "label": "Rennes conceded recently",
+    "value": "10"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-rennes-strasbourg/s4.mp3",
+   "words": [
+    {
+     "w": "Rennes,",
+     "start": 0.275,
+     "end": 0.55
+    },
+    {
+     "w": "though,",
+     "start": 0.588,
+     "end": 0.75
+    },
+    {
+     "w": "have",
+     "start": 0.787,
+     "end": 0.9
+    },
+    {
+     "w": "conceded",
+     "start": 0.9,
+     "end": 1.413
+    },
+    {
+     "w": "10",
+     "start": 1.413,
+     "end": 1.675
+    },
+    {
+     "w": "goals",
+     "start": 1.675,
+     "end": 2.075
+    },
+    {
+     "w": "in",
+     "start": 2.075,
+     "end": 2.2
+    },
+    {
+     "w": "recent",
+     "start": 2.2,
+     "end": 2.575
+    },
+    {
+     "w": "games.",
+     "start": 2.575,
+     "end": 3.425
+    }
+   ],
+   "durationInFrames": 111
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "After the Paris FC defeat, RMC asked if Haise still controls Rennes.",
+   "show": {
+    "kind": "news",
+    "source": "RMC After Foot",
+    "text": "Haise 'no longer controls anything' at Rennes"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-rennes-strasbourg/s5.mp3",
+   "words": [
+    {
+     "w": "After",
+     "start": 0.25,
+     "end": 0.487
+    },
+    {
+     "w": "the",
+     "start": 0.487,
+     "end": 0.575
+    },
+    {
+     "w": "Paris",
+     "start": 0.575,
+     "end": 0.925
+    },
+    {
+     "w": "FC",
+     "start": 0.925,
+     "end": 1.3
+    },
+    {
+     "w": "defeat,",
+     "start": 1.3,
+     "end": 1.9
+    },
+    {
+     "w": "RMC",
+     "start": 2.025,
+     "end": 2.638
+    },
+    {
+     "w": "asked",
+     "start": 2.638,
+     "end": 2.975
+    },
+    {
+     "w": "if",
+     "start": 2.975,
+     "end": 3.1
+    },
+    {
+     "w": "Haise",
+     "start": 3.1,
+     "end": 3.425
+    },
+    {
+     "w": "still",
+     "start": 3.425,
+     "end": 3.7
+    },
+    {
+     "w": "controls",
+     "start": 3.7,
+     "end": 4.225
+    },
+    {
+     "w": "Rennes.",
+     "start": 4.225,
+     "end": 5.025
+    }
+   ],
+   "durationInFrames": 159
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The prices still make Rennes 54.5% favourites.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 54.5
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-rennes-strasbourg/s6.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "prices",
+     "start": 0.325,
+     "end": 0.75
+    },
+    {
+     "w": "still",
+     "start": 0.75,
+     "end": 1.025
+    },
+    {
+     "w": "make",
+     "start": 1.025,
+     "end": 1.25
+    },
+    {
+     "w": "Rennes",
+     "start": 1.25,
+     "end": 1.663
+    },
+    {
+     "w": "54.5%",
+     "start": 1.663,
+     "end": 3.2
+    },
+    {
+     "w": "favourites.",
+     "start": 3.2,
+     "end": 4.125
+    }
+   ],
+   "durationInFrames": 132
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The handicap, a head start in goals, makes Rennes 0.75 better.",
+   "show": {
+    "kind": "stat",
+    "label": "Rennes better by (goals)",
+    "value": "0.75"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-rennes-strasbourg/s7.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "handicap,",
+     "start": 0.325,
+     "end": 0.875
+    },
+    {
+     "w": "a",
+     "start": 0.912,
+     "end": 0.975
+    },
+    {
+     "w": "head",
+     "start": 0.975,
+     "end": 1.2
+    },
+    {
+     "w": "start",
+     "start": 1.2,
+     "end": 1.438
+    },
+    {
+     "w": "in",
+     "start": 1.438,
+     "end": 1.575
+    },
+    {
+     "w": "goals,",
+     "start": 1.575,
+     "end": 2.225
+    },
+    {
+     "w": "makes",
+     "start": 2.325,
+     "end": 2.6
+    },
+    {
+     "w": "Rennes",
+     "start": 2.6,
+     "end": 2.913
+    },
+    {
+     "w": "0.75",
+     "start": 2.913,
+     "end": 4.3
+    },
+    {
+     "w": "better.",
+     "start": 4.3,
+     "end": 5.075
+    }
+   ],
+   "durationInFrames": 160
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "That is why the goal line is 3.25, with over at 51.7%.",
+   "show": {
+    "kind": "over",
+    "line": 3.25,
+    "value": 51.7
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-rennes-strasbourg/s8.mp3",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.25,
+     "end": 0.438
+    },
+    {
+     "w": "is",
+     "start": 0.438,
+     "end": 0.55
+    },
+    {
+     "w": "why",
+     "start": 0.55,
+     "end": 0.75
+    },
+    {
+     "w": "the",
+     "start": 0.75,
+     "end": 0.85
+    },
+    {
+     "w": "goal",
+     "start": 0.85,
+     "end": 1.1
+    },
+    {
+     "w": "line",
+     "start": 1.1,
+     "end": 1.425
+    },
+    {
+     "w": "is",
+     "start": 1.425,
+     "end": 1.587
+    },
+    {
+     "w": "3.25,",
+     "start": 1.587,
+     "end": 2.925
+    },
+    {
+     "w": "with",
+     "start": 3.05,
+     "end": 3.225
+    },
+    {
+     "w": "over",
+     "start": 3.225,
+     "end": 3.55
+    },
+    {
+     "w": "at",
+     "start": 3.55,
+     "end": 3.688
+    },
+    {
+     "w": "51.7%.",
+     "start": 3.688,
+     "end": 5.75
+    }
+   ],
+   "durationInFrames": 181
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "A wounded favourite: Rennes are still fancied, and goals are expected.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Wounded Rennes, still favourites",
+     "Lepaul's fitness is the risk",
+     "Goals expected at Roazhon Park"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-rennes-strasbourg/s9.mp3",
+   "words": [
+    {
+     "w": "A",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "wounded",
+     "start": 0.325,
+     "end": 0.738
+    },
+    {
+     "w": "favourite:",
+     "start": 0.738,
+     "end": 1.375
+    },
+    {
+     "w": "Rennes",
+     "start": 1.488,
+     "end": 1.825
+    },
+    {
+     "w": "are",
+     "start": 1.825,
+     "end": 1.925
+    },
+    {
+     "w": "still",
+     "start": 1.925,
+     "end": 2.212
+    },
+    {
+     "w": "fancied,",
+     "start": 2.212,
+     "end": 2.75
+    },
+    {
+     "w": "and",
+     "start": 2.8,
+     "end": 2.938
+    },
+    {
+     "w": "goals",
+     "start": 2.938,
+     "end": 3.35
+    },
+    {
+     "w": "are",
+     "start": 3.35,
+     "end": 3.45
+    },
+    {
+     "w": "expected.",
+     "start": 3.45,
+     "end": 4.45
+    }
+   ],
+   "durationInFrames": 148
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-rennes-strasbourg/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
+  "stickers": [
+   "🏟️",
+   "🎯",
+   "🎯"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1552798,
+ "prices_as_of": "2026-10-21T22:19:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}
