@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T23:53:35+00:00",
+ "generated_at": "2026-10-21T23:58:26+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -828,6 +828,20 @@
    "seconds": 52
   },
   {
+   "id": "2026-10-24-lazio-parma",
+   "home": "Lazio",
+   "away": "Parma",
+   "league": "Serie A",
+   "kickoff": "2026-10-24T18:45:00+00:00",
+   "title": "Lazio after the 3-0 at Juventus: still unbeaten",
+   "source": "market_desk",
+   "kicker": "MARKET ALERT",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-lazio-parma.html",
+   "seconds": 48
+  },
+  {
    "id": "2026-10-24-lens-paris-fc",
    "home": "Lens",
    "away": "Paris FC",
@@ -936,7 +950,7 @@
    "kicker": "MARKET ALERT",
    "voiced": true,
    "youtube_id": null,
-   "article": null,
+   "article": "/m/2026-10-25-nec-nijmegen-groningen.html",
    "seconds": 51
   },
   {
@@ -992,7 +1006,7 @@
    "kicker": "MARKET ALERT",
    "voiced": true,
    "youtube_id": null,
-   "article": null,
+   "article": "/m/2026-10-25-crystal-palace-newcastle.html",
    "seconds": 49
   },
   {

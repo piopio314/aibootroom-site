@@ -1,0 +1,855 @@
+{
+ "id": "2026-10-24-lazio-parma",
+ "title": "Lazio after the 3-0 at Juventus: still unbeaten",
+ "match": {
+  "home": "Lazio",
+  "away": "Parma",
+  "league": "Serie A",
+  "kickoff": "2026-10-24T18:45:00+00:00",
+  "home_short": "LAZ",
+  "away_short": "PAR",
+  "home_color": "#87d8f7",
+  "away_color": "#d4a900"
+ },
+ "market": {
+  "fair": {
+   "home": 66.8,
+   "draw": 20.9,
+   "away": 12.3
+  },
+  "move": {
+   "home": 3.8,
+   "draw": -1.9,
+   "away": -2.0
+  },
+  "side": "home",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 63.0
+   },
+   {
+    "t": "2026-10-19T04:26:00+00:00",
+    "v": 65.0
+   },
+   {
+    "t": "2026-10-19T07:36:00+00:00",
+    "v": 65.0
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "v": 65.0
+   },
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "v": 65.0
+   },
+   {
+    "t": "2026-10-20T04:23:00+00:00",
+    "v": 66.1
+   },
+   {
+    "t": "2026-10-21T04:24:00+00:00",
+    "v": 66.8
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 63.0
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 65.0
+    },
+    {
+     "t": "2026-10-19T07:36:00+00:00",
+     "v": 65.0
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 65.0
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 65.0
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 66.1
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 66.8
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 22.7
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 21.8
+    },
+    {
+     "t": "2026-10-19T07:36:00+00:00",
+     "v": 21.8
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 21.8
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 21.8
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 21.3
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 20.9
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 14.3
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 13.2
+    },
+    {
+     "t": "2026-10-19T07:36:00+00:00",
+     "v": 13.2
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 13.2
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 13.2
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 12.7
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 12.3
+    }
+   ]
+  },
+  "goals": 2.53,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T23:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Lazio are 2nd in Serie A on 19 points, still unbeaten.",
+   "show": {
+    "kind": "table",
+    "team": "home",
+    "rank": 2,
+    "pts": 19
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-lazio-parma/s0.mp3",
+   "words": [
+    {
+     "w": "Lazio",
+     "start": 0.275,
+     "end": 0.7
+    },
+    {
+     "w": "are",
+     "start": 0.7,
+     "end": 0.838
+    },
+    {
+     "w": "2nd",
+     "start": 0.838,
+     "end": 1.188
+    },
+    {
+     "w": "in",
+     "start": 1.188,
+     "end": 1.325
+    },
+    {
+     "w": "Serie",
+     "start": 1.325,
+     "end": 1.7
+    },
+    {
+     "w": "A",
+     "start": 1.7,
+     "end": 1.863
+    },
+    {
+     "w": "on",
+     "start": 1.863,
+     "end": 1.975
+    },
+    {
+     "w": "19",
+     "start": 1.975,
+     "end": 2.4
+    },
+    {
+     "w": "points,",
+     "start": 2.4,
+     "end": 2.975
+    },
+    {
+     "w": "still",
+     "start": 3.112,
+     "end": 3.425
+    },
+    {
+     "w": "unbeaten.",
+     "start": 3.425,
+     "end": 4.4
+    }
+   ],
+   "durationInFrames": 140
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Last Sunday they won 3-0 away at Juventus.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Juventus",
+    "score": "3-0",
+    "when": "Sunday"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-lazio-parma/s1.mp3",
+   "words": [
+    {
+     "w": "Last",
+     "start": 0.25,
+     "end": 0.5
+    },
+    {
+     "w": "Sunday",
+     "start": 0.5,
+     "end": 0.875
+    },
+    {
+     "w": "they",
+     "start": 0.875,
+     "end": 1.025
+    },
+    {
+     "w": "won",
+     "start": 1.025,
+     "end": 1.262
+    },
+    {
+     "w": "3-0",
+     "start": 1.262,
+     "end": 1.8
+    },
+    {
+     "w": "away",
+     "start": 1.8,
+     "end": 2.125
+    },
+    {
+     "w": "at",
+     "start": 2.125,
+     "end": 2.225
+    },
+    {
+     "w": "Juventus.",
+     "start": 2.225,
+     "end": 3.225
+    }
+   ],
+   "durationInFrames": 105
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "But that scoreline came from only 0.57 expected goals.",
+   "show": {
+    "kind": "stat",
+    "label": "Lazio xG at Juventus",
+    "value": "0.57"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-lazio-parma/s2.mp3",
+   "words": [
+    {
+     "w": "But",
+     "start": 0.225,
+     "end": 0.338
+    },
+    {
+     "w": "that",
+     "start": 0.338,
+     "end": 0.525
+    },
+    {
+     "w": "scoreline",
+     "start": 0.525,
+     "end": 1.0
+    },
+    {
+     "w": "came",
+     "start": 1.0,
+     "end": 1.25
+    },
+    {
+     "w": "from",
+     "start": 1.25,
+     "end": 1.4
+    },
+    {
+     "w": "only",
+     "start": 1.4,
+     "end": 1.712
+    },
+    {
+     "w": "0.57",
+     "start": 1.712,
+     "end": 3.038
+    },
+    {
+     "w": "expected",
+     "start": 3.038,
+     "end": 3.625
+    },
+    {
+     "w": "goals.",
+     "start": 3.625,
+     "end": 4.525
+    }
+   ],
+   "durationInFrames": 144
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "On Saturday they host Parma at the Olimpico.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-lazio-parma/s3.mp3",
+   "words": [
+    {
+     "w": "On",
+     "start": 0.25,
+     "end": 0.425
+    },
+    {
+     "w": "Saturday",
+     "start": 0.425,
+     "end": 0.887
+    },
+    {
+     "w": "they",
+     "start": 0.887,
+     "end": 1.025
+    },
+    {
+     "w": "host",
+     "start": 1.025,
+     "end": 1.35
+    },
+    {
+     "w": "Parma",
+     "start": 1.35,
+     "end": 1.725
+    },
+    {
+     "w": "at",
+     "start": 1.725,
+     "end": 1.812
+    },
+    {
+     "w": "the",
+     "start": 1.812,
+     "end": 1.95
+    },
+    {
+     "w": "Olimpico.",
+     "start": 1.95,
+     "end": 2.975
+    }
+   ],
+   "durationInFrames": 97
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Parma lost 0-3 at home to Torino on Monday.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Torino",
+    "score": "0-3",
+    "when": "Monday"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-lazio-parma/s4.mp3",
+   "words": [
+    {
+     "w": "Parma",
+     "start": 0.25,
+     "end": 0.525
+    },
+    {
+     "w": "lost",
+     "start": 0.525,
+     "end": 0.8
+    },
+    {
+     "w": "0-3",
+     "start": 0.8,
+     "end": 1.288
+    },
+    {
+     "w": "at",
+     "start": 1.288,
+     "end": 1.375
+    },
+    {
+     "w": "home",
+     "start": 1.375,
+     "end": 1.85
+    },
+    {
+     "w": "to",
+     "start": 1.85,
+     "end": 1.975
+    },
+    {
+     "w": "Torino",
+     "start": 1.975,
+     "end": 2.5
+    },
+    {
+     "w": "on",
+     "start": 2.5,
+     "end": 2.675
+    },
+    {
+     "w": "Monday.",
+     "start": 2.675,
+     "end": 3.525
+    }
+   ],
+   "durationInFrames": 114
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "According to Il Tempo, Cancellieri has returned to group training.",
+   "show": {
+    "kind": "news",
+    "source": "Il Tempo",
+    "text": "Cancellieri back in group training"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-lazio-parma/s5.mp3",
+   "words": [
+    {
+     "w": "According",
+     "start": 0.25,
+     "end": 0.625
+    },
+    {
+     "w": "to",
+     "start": 0.625,
+     "end": 0.75
+    },
+    {
+     "w": "Il",
+     "start": 0.75,
+     "end": 0.975
+    },
+    {
+     "w": "Tempo,",
+     "start": 0.975,
+     "end": 1.6
+    },
+    {
+     "w": "Cancellieri",
+     "start": 1.762,
+     "end": 2.4
+    },
+    {
+     "w": "has",
+     "start": 2.4,
+     "end": 2.6
+    },
+    {
+     "w": "returned",
+     "start": 2.6,
+     "end": 3.025
+    },
+    {
+     "w": "to",
+     "start": 3.025,
+     "end": 3.15
+    },
+    {
+     "w": "group",
+     "start": 3.15,
+     "end": 3.425
+    },
+    {
+     "w": "training.",
+     "start": 3.425,
+     "end": 4.3
+    }
+   ],
+   "durationInFrames": 137
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Across 10 bookmakers, with the margin removed, Lazio are clear favourites.",
+   "show": {
+    "kind": "stat",
+    "label": "bookmakers, margin removed",
+    "value": "10"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-lazio-parma/s6.mp3",
+   "words": [
+    {
+     "w": "Across",
+     "start": 0.25,
+     "end": 0.575
+    },
+    {
+     "w": "10",
+     "start": 0.575,
+     "end": 0.825
+    },
+    {
+     "w": "bookmakers,",
+     "start": 0.825,
+     "end": 1.375
+    },
+    {
+     "w": "with",
+     "start": 1.413,
+     "end": 1.512
+    },
+    {
+     "w": "the",
+     "start": 1.512,
+     "end": 1.6
+    },
+    {
+     "w": "margin",
+     "start": 1.6,
+     "end": 1.95
+    },
+    {
+     "w": "removed,",
+     "start": 1.95,
+     "end": 2.675
+    },
+    {
+     "w": "Lazio",
+     "start": 2.812,
+     "end": 3.35
+    },
+    {
+     "w": "are",
+     "start": 3.35,
+     "end": 3.513
+    },
+    {
+     "w": "clear",
+     "start": 3.513,
+     "end": 3.812
+    },
+    {
+     "w": "favourites.",
+     "start": 3.812,
+     "end": 4.775
+    }
+   ],
+   "durationInFrames": 151
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "So the market gives Lazio a 66.8% win chance.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 66.8
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-lazio-parma/s7.mp3",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.25,
+     "end": 0.338
+    },
+    {
+     "w": "the",
+     "start": 0.338,
+     "end": 0.425
+    },
+    {
+     "w": "market",
+     "start": 0.425,
+     "end": 0.775
+    },
+    {
+     "w": "gives",
+     "start": 0.775,
+     "end": 1.05
+    },
+    {
+     "w": "Lazio",
+     "start": 1.05,
+     "end": 1.637
+    },
+    {
+     "w": "a",
+     "start": 1.637,
+     "end": 1.762
+    },
+    {
+     "w": "66.8%",
+     "start": 1.762,
+     "end": 3.2
+    },
+    {
+     "w": "win",
+     "start": 3.2,
+     "end": 3.438
+    },
+    {
+     "w": "chance.",
+     "start": 3.438,
+     "end": 4.225
+    }
+   ],
+   "durationInFrames": 135
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Over 2.5 goals is close to a coin-flip at 50.8%.",
+   "show": {
+    "kind": "over",
+    "line": 2.5,
+    "value": 50.8
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-lazio-parma/s8.mp3",
+   "words": [
+    {
+     "w": "Over",
+     "start": 0.25,
+     "end": 0.487
+    },
+    {
+     "w": "2.5",
+     "start": 0.487,
+     "end": 1.25
+    },
+    {
+     "w": "goals",
+     "start": 1.25,
+     "end": 1.7
+    },
+    {
+     "w": "is",
+     "start": 1.7,
+     "end": 1.85
+    },
+    {
+     "w": "close",
+     "start": 1.85,
+     "end": 2.125
+    },
+    {
+     "w": "to",
+     "start": 2.125,
+     "end": 2.212
+    },
+    {
+     "w": "a",
+     "start": 2.212,
+     "end": 2.275
+    },
+    {
+     "w": "coin-flip",
+     "start": 2.275,
+     "end": 2.85
+    },
+    {
+     "w": "at",
+     "start": 2.85,
+     "end": 2.975
+    },
+    {
+     "w": "50.8%.",
+     "start": 2.975,
+     "end": 4.6
+    }
+   ],
+   "durationInFrames": 146
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Lazio's finishing and Parma's form point the same way.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Lazio unbeaten, at the top",
+     "Parma beaten heavily again",
+     "A home win is expected"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-lazio-parma/s9.mp3",
+   "words": [
+    {
+     "w": "Lazio's",
+     "start": 0.275,
+     "end": 0.8
+    },
+    {
+     "w": "finishing",
+     "start": 0.8,
+     "end": 1.212
+    },
+    {
+     "w": "and",
+     "start": 1.212,
+     "end": 1.325
+    },
+    {
+     "w": "Parma's",
+     "start": 1.325,
+     "end": 1.7
+    },
+    {
+     "w": "form",
+     "start": 1.7,
+     "end": 2.112
+    },
+    {
+     "w": "point",
+     "start": 2.112,
+     "end": 2.388
+    },
+    {
+     "w": "the",
+     "start": 2.388,
+     "end": 2.487
+    },
+    {
+     "w": "same",
+     "start": 2.487,
+     "end": 2.8
+    },
+    {
+     "w": "way.",
+     "start": 2.8,
+     "end": 3.5
+    }
+   ],
+   "durationInFrames": 120
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-lazio-parma/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "line_move",
+  "kicker": "MARKET ALERT",
+  "stickers": [
+   "📈",
+   "📈",
+   "📈"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1550162,
+ "prices_as_of": "2026-10-21T23:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

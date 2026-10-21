@@ -4,42 +4,42 @@
  "home": "Atletico Madrid",
  "away": "Deportivo La Coruna",
  "kickoff": "2026-10-24T19:00:00+00:00",
- "generated_at": "2026-10-21T21:56:42+00:00",
- "headline": "Atletico's winning run meets winless Deportivo and a returning Gimenez",
- "summary": "Atletico Madrid are second in La Liga on 22 points and have won their last five league games. Saturday's visitors, Deportivo, are winless in five — three draws and two defeats. Atletico's run ended with a 1-1 in Stuttgart on Tuesday, played a man short, though Julian Alvarez scored his first goal of the season there. Jose Maria Gimenez, more than a decade at Atletico, now faces his old club. Even so, the market makes Atletico 74.3% favourites, and Deportivo get a 1.75-goal handicap — a head start meaning Atletico must win by two clear goals. The goals line is 3.0, with Over at 49.2%.",
- "read": "Atletico Madrid are clear favourites at the Metropolitano — second in La Liga, five straight league wins and 74.3% to win — against a Deportivo side without a victory in five. The market rates Atletico about 1.7 goals the better team and sees the game sitting right on three goals, with José María Giménez returning to face the club he served for more than a decade.",
+ "generated_at": "2026-10-21T23:55:41+00:00",
+ "headline": "Giménez returns to Atletico with Deportivo",
+ "summary": "José María Giménez spent over 10 years at Atletico Madrid, and on Saturday he comes back to the Metropolitano in a Deportivo shirt. Atletico's winning run ended 1-1 in Stuttgart on Tuesday, and they are still 2nd in La Liga on 22 points. Deportivo have drawn 5 of their 9 league games and made 2.13 expected goals at Real Sociedad without winning. Even so, the market makes Atletico 74.3% favourites and gives Deportivo a head start of 1.75 goals; the goals line is 3.0, with over at 49.2%. The win is more likely than not; the size of it is the question.",
+ "read": "Atletico Madrid are second in La Liga on 22 points and the market rates them about 1.7 goals the better side here, making them 74.3% favourites against a Deportivo team without a win in five. Deportivo have drawn five of nine and create enough xG to trouble the Metropolitano, but Atletico come off a 1-1 in Stuttgart with ten men and only four days' rest.",
  "facts": [
   {
-   "fact": "Atletico Madrid are 74.3% to win at home; Deportivo La Coruna are 9.4%.",
-   "meaning": "The market makes Atletico roughly eight times more likely than Deportivo to take the three points."
+   "fact": "Atletico's six-game winning run ended with a 1-1 draw at Stuttgart on Tuesday, a game they finished with ten men after a red card.",
+   "meaning": "They arrive with the run broken rather than their form collapsed, but on a short turnaround."
   },
   {
-   "fact": "Atletico sit second in La Liga with 22 points from nine games and have won their last five league matches.",
-   "meaning": "They are the form side of the division behind Barcelona, and this is the type of home fixture they have been converting."
+   "fact": "Atletico are second in La Liga with 22 points from nine games — seven wins, one draw, one defeat, goal difference +11.",
+   "meaning": "They are the side directly behind leaders Barcelona, and this is the kind of home game a title chase has to convert."
   },
   {
-   "fact": "Atletico's six-game winning run ended with a 1-1 draw at Stuttgart on Tuesday, a game they played with 10 men after a red card.",
-   "meaning": "They arrive unbeaten but off a long European night with a man less — recovery matters four days before kick-off."
+   "fact": "The market makes Atletico 74.3% favourites, with the draw at 16.4% and Deportivo at 9.4%.",
+   "meaning": "Deportivo's chance is roughly an eighth of Atletico's — a clear mismatch on paper, at the Metropolitano."
   },
   {
-   "fact": "Deportivo are winless in their last five La Liga games — three draws and two defeats.",
-   "meaning": "They have been hard to beat but have not turned any of those tight games into a win."
+   "fact": "Deportivo are winless in five (DLDLD) and have drawn five of their nine league games.",
+   "meaning": "They are hard to beat but have not turned decent performances into three points."
   },
   {
-   "fact": "The main handicap is Atletico -1.75 and the fair line sits at -1.67.",
-   "meaning": "The market rates Atletico about 1.7 goals the better team — it expects a clear home win, not just a win."
+   "fact": "Deportivo created 2.13 xG away at Real Sociedad this month and still lost 2-3.",
+   "meaning": "They generate real chances on the road — enough to suggest they can score at the Metropolitano."
   },
   {
-   "fact": "The main goals line is 3.0, with Over priced at 49.2%.",
-   "meaning": "Three goals is a coin-flip total: the market sees Atletico scoring, but not a shootout."
+   "fact": "The market rates Atletico about 1.7 goals the better side — the handicap fair line is -1.67, trimmed from -1.78 in recent days.",
+   "meaning": "Atletico need to win by two for the main -1.75 line to pay, which the market sees as almost a coin flip."
   },
   {
-   "fact": "The fair goals line has slipped from 3.07 to 2.97 in recent days.",
-   "meaning": "The market now sees the game landing just under three goals rather than just over."
+   "fact": "The market expects about three goals — the total line is 3.0, with over and under priced almost level.",
+   "meaning": "A normal-scoring home win is the base case; the market is not pricing a rout."
   },
   {
-   "fact": "José María Giménez, now a Deportivo central defender, faces Atletico — his club for more than a decade — for the first time, and said he asked that no fear clause be included.",
-   "meaning": "Deportivo's back line has a defender who knows exactly how Atletico attack, and a personal point to make."
+   "fact": "Atletico have four days between the Champions League trip to Stuttgart and this game; Deportivo have had eight.",
+   "meaning": "Freshness sits with the visitors, who have not played since 16 October."
   }
  ],
  "article": null,
@@ -101,11 +101,10 @@
    "certainty": "reported"
   }
  ],
- "video_title": "Atletico's five straight wins meet winless Deportivo",
+ "video_title": "Giménez returns to Atletico as the opponent",
  "key_points": [
   "Atletico 74.3% at home",
   "Deportivo winless in five",
-  "Atletico rated 1.7 goals better",
   "Gimenez faces his old club"
  ],
  "market": null,
