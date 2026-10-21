@@ -1,0 +1,852 @@
+{
+ "id": "2026-10-24-gaziantep-fk-erzurumspor-fk",
+ "title": "Gaziantep: 3 defeats, a congress — and still favourites",
+ "match": {
+  "home": "Gaziantep FK",
+  "away": "Erzurumspor FK",
+  "league": "Super Lig",
+  "kickoff": "2026-10-24T13:00:00+00:00",
+  "home_short": "GAZ",
+  "away_short": "ERZ",
+  "home_color": "#ea580c",
+  "away_color": "#4f46e5"
+ },
+ "market": {
+  "fair": {
+   "home": 41.8,
+   "draw": 32.4,
+   "away": 25.9
+  },
+  "move": {
+   "home": 0.5,
+   "draw": -0.4,
+   "away": -0.1
+  },
+  "side": "home",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 41.3
+   },
+   {
+    "t": "2026-10-19T06:46:00+00:00",
+    "v": 41.8
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "v": 41.8
+   },
+   {
+    "t": "2026-10-19T16:24:00+00:00",
+    "v": 41.8
+   },
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "v": 41.8
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 41.3
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 41.8
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 41.8
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "v": 41.8
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 41.8
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 32.8
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 32.4
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 32.4
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "v": 32.4
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 32.4
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 26.0
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 25.9
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 25.9
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "v": 25.9
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 25.9
+    }
+   ]
+  },
+  "goals": 2.28,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Gaziantep have lost 3 in a row — and still start as favourites.",
+   "show": {
+    "kind": "stat",
+    "label": "league defeats in a row",
+    "value": "3"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gaziantep-fk-erzurumspor-fk/s0.mp3",
+   "words": [
+    {
+     "w": "Gaziantep",
+     "start": 0.25,
+     "end": 0.938
+    },
+    {
+     "w": "have",
+     "start": 0.938,
+     "end": 1.05
+    },
+    {
+     "w": "lost",
+     "start": 1.05,
+     "end": 1.387
+    },
+    {
+     "w": "3",
+     "start": 1.387,
+     "end": 1.637
+    },
+    {
+     "w": "in",
+     "start": 1.637,
+     "end": 1.712
+    },
+    {
+     "w": "a",
+     "start": 1.712,
+     "end": 1.8
+    },
+    {
+     "w": "row—",
+     "start": 1.8,
+     "end": 2.362
+    },
+    {
+     "w": "and",
+     "start": 2.45,
+     "end": 2.575
+    },
+    {
+     "w": "still",
+     "start": 2.575,
+     "end": 2.85
+    },
+    {
+     "w": "start",
+     "start": 2.85,
+     "end": 3.138
+    },
+    {
+     "w": "as",
+     "start": 3.138,
+     "end": 3.275
+    },
+    {
+     "w": "favourites.",
+     "start": 3.275,
+     "end": 4.225
+    }
+   ],
+   "durationInFrames": 135
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "On Saturday they host Erzurumspor in the Süper Lig.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gaziantep-fk-erzurumspor-fk/s1.mp3",
+   "words": [
+    {
+     "w": "On",
+     "start": 0.25,
+     "end": 0.438
+    },
+    {
+     "w": "Saturday",
+     "start": 0.438,
+     "end": 0.925
+    },
+    {
+     "w": "they",
+     "start": 0.925,
+     "end": 1.1
+    },
+    {
+     "w": "host",
+     "start": 1.1,
+     "end": 1.438
+    },
+    {
+     "w": "Erzurumspor",
+     "start": 1.438,
+     "end": 2.2
+    },
+    {
+     "w": "in",
+     "start": 2.2,
+     "end": 2.288
+    },
+    {
+     "w": "the",
+     "start": 2.288,
+     "end": 2.388
+    },
+    {
+     "w": "Süper",
+     "start": 2.388,
+     "end": 2.775
+    },
+    {
+     "w": "Lig.",
+     "start": 2.775,
+     "end": 3.45
+    }
+   ],
+   "durationInFrames": 112
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "A club congress is set for 5 November, local media report.",
+   "show": {
+    "kind": "news",
+    "source": "sondakika.com",
+    "text": "Extraordinary congress set for 5 November"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gaziantep-fk-erzurumspor-fk/s2.mp3",
+   "words": [
+    {
+     "w": "A",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "club",
+     "start": 0.325,
+     "end": 0.6
+    },
+    {
+     "w": "congress",
+     "start": 0.6,
+     "end": 1.075
+    },
+    {
+     "w": "is",
+     "start": 1.075,
+     "end": 1.2
+    },
+    {
+     "w": "set",
+     "start": 1.2,
+     "end": 1.45
+    },
+    {
+     "w": "for",
+     "start": 1.45,
+     "end": 1.613
+    },
+    {
+     "w": "5",
+     "start": 1.613,
+     "end": 1.975
+    },
+    {
+     "w": "November,",
+     "start": 1.975,
+     "end": 2.65
+    },
+    {
+     "w": "local",
+     "start": 2.75,
+     "end": 3.075
+    },
+    {
+     "w": "media",
+     "start": 3.075,
+     "end": 3.425
+    },
+    {
+     "w": "report.",
+     "start": 3.425,
+     "end": 4.225
+    }
+   ],
+   "durationInFrames": 135
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Erzurumspor have won 3 of their last 5 — all at home.",
+   "show": {
+    "kind": "form",
+    "team": "away",
+    "results": "WDWLW"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gaziantep-fk-erzurumspor-fk/s3.mp3",
+   "words": [
+    {
+     "w": "Erzurumspor",
+     "start": 0.25,
+     "end": 0.9
+    },
+    {
+     "w": "have",
+     "start": 0.9,
+     "end": 1.1
+    },
+    {
+     "w": "won",
+     "start": 1.1,
+     "end": 1.337
+    },
+    {
+     "w": "3",
+     "start": 1.337,
+     "end": 1.562
+    },
+    {
+     "w": "of",
+     "start": 1.562,
+     "end": 1.637
+    },
+    {
+     "w": "their",
+     "start": 1.637,
+     "end": 1.825
+    },
+    {
+     "w": "last",
+     "start": 1.825,
+     "end": 2.175
+    },
+    {
+     "w": "5—",
+     "start": 2.175,
+     "end": 2.688
+    },
+    {
+     "w": "all",
+     "start": 2.775,
+     "end": 2.938
+    },
+    {
+     "w": "at",
+     "start": 2.938,
+     "end": 3.025
+    },
+    {
+     "w": "home.",
+     "start": 3.025,
+     "end": 3.8
+    }
+   ],
+   "durationInFrames": 122
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Gaziantep are giving 5,000 free tickets to students.",
+   "show": {
+    "kind": "stat",
+    "label": "free tickets for students",
+    "value": "5,000"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gaziantep-fk-erzurumspor-fk/s4.mp3",
+   "words": [
+    {
+     "w": "Gaziantep",
+     "start": 0.25,
+     "end": 0.938
+    },
+    {
+     "w": "are",
+     "start": 0.938,
+     "end": 1.025
+    },
+    {
+     "w": "giving",
+     "start": 1.025,
+     "end": 1.325
+    },
+    {
+     "w": "5,000",
+     "start": 1.325,
+     "end": 2.125
+    },
+    {
+     "w": "free",
+     "start": 2.125,
+     "end": 2.362
+    },
+    {
+     "w": "tickets",
+     "start": 2.362,
+     "end": 2.775
+    },
+    {
+     "w": "to",
+     "start": 2.775,
+     "end": 2.9
+    },
+    {
+     "w": "students.",
+     "start": 2.9,
+     "end": 3.825
+    }
+   ],
+   "durationInFrames": 123
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The worry is defence: Gaziantep allow 2.1 expected goals a game.",
+   "show": {
+    "kind": "stat",
+    "label": "expected goals allowed",
+    "value": "2.1"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gaziantep-fk-erzurumspor-fk/s5.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.35
+    },
+    {
+     "w": "worry",
+     "start": 0.35,
+     "end": 0.65
+    },
+    {
+     "w": "is",
+     "start": 0.65,
+     "end": 0.8
+    },
+    {
+     "w": "defence:",
+     "start": 0.8,
+     "end": 1.525
+    },
+    {
+     "w": "Gaziantep",
+     "start": 1.663,
+     "end": 2.312
+    },
+    {
+     "w": "allow",
+     "start": 2.312,
+     "end": 2.587
+    },
+    {
+     "w": "2.1",
+     "start": 2.587,
+     "end": 3.3
+    },
+    {
+     "w": "expected",
+     "start": 3.3,
+     "end": 3.875
+    },
+    {
+     "w": "goals",
+     "start": 3.875,
+     "end": 4.263
+    },
+    {
+     "w": "a",
+     "start": 4.263,
+     "end": 4.325
+    },
+    {
+     "w": "game.",
+     "start": 4.325,
+     "end": 5.15
+    }
+   ],
+   "durationInFrames": 163
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market, though, still makes Gaziantep 41.8% favourites.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 41.8
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gaziantep-fk-erzurumspor-fk/s6.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "market,",
+     "start": 0.325,
+     "end": 0.675
+    },
+    {
+     "w": "though,",
+     "start": 0.713,
+     "end": 1.05
+    },
+    {
+     "w": "still",
+     "start": 1.15,
+     "end": 1.363
+    },
+    {
+     "w": "makes",
+     "start": 1.363,
+     "end": 1.625
+    },
+    {
+     "w": "Gaziantep",
+     "start": 1.625,
+     "end": 2.45
+    },
+    {
+     "w": "41.8%",
+     "start": 2.45,
+     "end": 3.825
+    },
+    {
+     "w": "favourites.",
+     "start": 3.825,
+     "end": 4.75
+    }
+   ],
+   "durationInFrames": 151
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The handicap — a head start in goals — has Gaziantep barely ahead.",
+   "show": {
+    "kind": "phrase",
+    "text": "almost level on the handicap"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gaziantep-fk-erzurumspor-fk/s7.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "handicap—",
+     "start": 0.325,
+     "end": 0.95
+    },
+    {
+     "w": "a",
+     "start": 1.025,
+     "end": 1.1
+    },
+    {
+     "w": "head",
+     "start": 1.1,
+     "end": 1.35
+    },
+    {
+     "w": "start",
+     "start": 1.35,
+     "end": 1.613
+    },
+    {
+     "w": "in",
+     "start": 1.613,
+     "end": 1.75
+    },
+    {
+     "w": "goals—",
+     "start": 1.75,
+     "end": 2.375
+    },
+    {
+     "w": "has",
+     "start": 2.45,
+     "end": 2.65
+    },
+    {
+     "w": "Gaziantep",
+     "start": 2.65,
+     "end": 3.45
+    },
+    {
+     "w": "barely",
+     "start": 3.45,
+     "end": 3.825
+    },
+    {
+     "w": "ahead.",
+     "start": 3.825,
+     "end": 4.575
+    }
+   ],
+   "durationInFrames": 145
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The goals line is 2.25, with over at 50.9%.",
+   "show": {
+    "kind": "over",
+    "line": 2.25,
+    "value": 50.9
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gaziantep-fk-erzurumspor-fk/s8.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "goals",
+     "start": 0.325,
+     "end": 0.65
+    },
+    {
+     "w": "line",
+     "start": 0.65,
+     "end": 0.975
+    },
+    {
+     "w": "is",
+     "start": 0.975,
+     "end": 1.137
+    },
+    {
+     "w": "2.25,",
+     "start": 1.137,
+     "end": 2.4
+    },
+    {
+     "w": "with",
+     "start": 2.5,
+     "end": 2.65
+    },
+    {
+     "w": "over",
+     "start": 2.65,
+     "end": 2.975
+    },
+    {
+     "w": "at",
+     "start": 2.975,
+     "end": 3.1
+    },
+    {
+     "w": "50.9%.",
+     "start": 3.1,
+     "end": 4.775
+    }
+   ],
+   "durationInFrames": 151
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Two nearly level teams — home advantage is the only real difference.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Sides almost level",
+     "Home ground tips it",
+     "Goals market split evenly"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gaziantep-fk-erzurumspor-fk/s9.mp3",
+   "words": [
+    {
+     "w": "Two",
+     "start": 0.275,
+     "end": 0.5
+    },
+    {
+     "w": "nearly",
+     "start": 0.5,
+     "end": 0.8
+    },
+    {
+     "w": "level",
+     "start": 0.8,
+     "end": 1.125
+    },
+    {
+     "w": "teams—",
+     "start": 1.125,
+     "end": 1.887
+    },
+    {
+     "w": "home",
+     "start": 1.975,
+     "end": 2.237
+    },
+    {
+     "w": "advantage",
+     "start": 2.237,
+     "end": 2.85
+    },
+    {
+     "w": "is",
+     "start": 2.85,
+     "end": 2.962
+    },
+    {
+     "w": "the",
+     "start": 2.962,
+     "end": 3.112
+    },
+    {
+     "w": "only",
+     "start": 3.112,
+     "end": 3.45
+    },
+    {
+     "w": "real",
+     "start": 3.45,
+     "end": 3.725
+    },
+    {
+     "w": "difference.",
+     "start": 3.725,
+     "end": 4.575
+    }
+   ],
+   "durationInFrames": 152
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-gaziantep-fk-erzurumspor-fk/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
+  "stickers": [
+   "📊",
+   "🎯",
+   "📊"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1584443,
+ "prices_as_of": "2026-10-21T19:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

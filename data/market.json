@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T20:59:00+00:00",
+ "generated_at": "2026-10-21T21:08:00+00:00",
  "prices_as_of": "2026-10-21T19:18:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
@@ -1226,8 +1226,8 @@
     "home": 4,
     "away": 7
    },
-   "read": null,
-   "headline": null
+   "read": "2026-10-24-como-sassuolo",
+   "headline": "Como's Manchester United high meets a rested Sassuolo"
   }
  ],
  "competitions": [
@@ -2429,8 +2429,8 @@
     "home": 5,
     "away": 1
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-24-rayo-vallecano-elche",
+   "headline": "Elche cannot score, and Rayo cannot finish",
    "competition": "140"
   },
   {
@@ -2460,7 +2460,7 @@
     "away": 0
    },
    "read": "2026-10-24-cagliari-bologna",
-   "headline": "Bologna favoured, goals lean is a single-book nudge",
+   "headline": "Cagliari 7th, Bologna 15th — yet Bologna are the favourites",
    "competition": "135"
   },
   {
@@ -2489,8 +2489,8 @@
     "home": 4,
     "away": 7
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-24-como-sassuolo",
+   "headline": "Como's Manchester United high meets a rested Sassuolo",
    "competition": "135"
   },
   {
@@ -2519,8 +2519,8 @@
     "home": 2,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-24-gaziantep-fk-erzurumspor-fk",
+   "headline": "Gaziantep call a congress after 3 defeats — and stay favourites",
    "competition": "203"
   },
   {
@@ -2549,8 +2549,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-24-rb-leipzig-sv-elversberg",
+   "headline": "Leipzig's heavy week meets a promoted side above them",
    "competition": "78"
   },
   {
@@ -5259,6 +5259,52 @@
    "article": null
   },
   {
+   "slug": "2026-10-24-rb-leipzig-sv-elversberg",
+   "league": "Bundesliga",
+   "home": "RB Leipzig",
+   "away": "SV Elversberg",
+   "kickoff": "2026-10-24T13:30:00+00:00",
+   "headline": "Leipzig's heavy week meets a promoted side above them",
+   "summary": "Leipzig have lost 1-6 at Bayern Munich and 1-4 at Real Madrid inside five days, and kicker reports that coach Martin Demichelis needs wins now, starting with this one. The visitors are the surprise of the season so far: promoted Elversberg sit above Leipzig with 10 points, and they beat Augsburg 4-3 last weekend. Freshness is theirs too — 7 days to prepare against Leipzig's midweek trip. Across 6 bookmakers, with the margin removed, Leipzig are still 68.6% favourites, rated about 1.5 goals the better side, and a 3.75 goal line points to an open afternoon rather than a controlled home win.",
+   "read": "Leipzig host Elversberg on the back of a 1-6 defeat at Bayern and a 1-4 loss in Madrid, with coach Martin Demichelis reported to need wins now to steady his position. The market still makes Leipzig 68.6% favourites against 13.3% for a promoted Elversberg side sitting above them in the table, and with a 3.75 goal line it expects an open, high-scoring game.",
+   "facts": [
+    {
+     "fact": "Leipzig were beaten 1-6 at Bayern Munich on Saturday, their third Bundesliga defeat of the season.",
+     "meaning": "They come into this home game off a rout, with two wins in their last five in all competitions."
+    },
+    {
+     "fact": "Leipzig lost 1-4 at Real Madrid in the Champions League on Wednesday, three days before this match.",
+     "meaning": "A second heavy defeat in five days, and a midweek trip to Madrid in the legs."
+    },
+    {
+     "fact": "Leipzig are 68.6% to win, with the draw at 18.0% and Elversberg at 13.3%.",
+     "meaning": "The market makes Leipzig about five times more likely to win than the promoted side, despite those two scorelines."
+    },
+    {
+     "fact": "Kicker reports that Leipzig coach Martin Demichelis needs wins against Elversberg, Schalke and Rot-Weiss Essen to quieten growing doubts about him.",
+     "meaning": "This is the first of the three matches the report frames as decisive for the coach."
+    },
+    {
+     "fact": "Elversberg are sixth in the Bundesliga with 10 points from six games, above Leipzig in the table.",
+     "meaning": "The promoted side arrive above their hosts and with nothing to protect."
+    },
+    {
+     "fact": "Elversberg beat Augsburg 4-3 on Saturday, their third win in six Bundesliga games.",
+     "meaning": "They score freely and concede freely — a wide-open game suits them more than a controlled one."
+    },
+    {
+     "fact": "Francis Onyeka was reported out for up to four weeks with a foot ligament injury two days ago, and reported back in Elversberg team training today.",
+     "meaning": "Whether he features is genuinely unclear, and Elversberg's squad news has been described as a growing concern."
+    },
+    {
+     "fact": "Elversberg have had seven days since their last match; Leipzig played in Madrid on Wednesday.",
+     "meaning": ""
+    }
+   ],
+   "video_title": "Leipzig after 1-6 and 1-4: still favourites?",
+   "article": "/m/2026-10-24-rb-leipzig-sv-elversberg.html"
+  },
+  {
    "slug": "2026-10-22-juventus-rennes",
    "league": "Europa League",
    "home": "Juventus",
@@ -5303,52 +5349,6 @@
    ],
    "video_title": "Juventus after the 0-3: still clear favourites",
    "article": "/m/2026-10-22-juventus-rennes.html"
-  },
-  {
-   "slug": "2026-10-22-ofi-bayer-leverkusen",
-   "league": "Europa League",
-   "home": "OFI",
-   "away": "Bayer Leverkusen",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "headline": "Leverkusen's five wins in Crete, and OFI's Hoffenheim warning",
-   "summary": "Leverkusen come to Crete on a run of five straight wins, with 14 goals scored in those matches, and the market makes them 77.8% favourites against OFI's 8.6%. The home side have lost their last three and conceded 11 goals in five, so the gap looks wide. But OFI beat Hoffenheim 2-0 here in September, and that is why the handicap gives them a two-goal head start rather than more. The goals line sits at 3.5, with over and under split at 50%.",
-   "read": "Leverkusen are clear favourites in Crete after five straight wins and 14 goals, while OFI come in off three consecutive defeats and barely created a chance in either of their European and derby losses. The one thing keeping this interesting is OFI's 2-0 home win over Hoffenheim — the market rates Leverkusen about two goals better and splits the 3.5-goal line straight down the middle.",
-   "facts": [
-    {
-     "fact": "Leverkusen are 77.8% favourites to win at OFI, more than nine times the home side's 8.6%.",
-     "meaning": "The market treats this as one of the widest mismatches on the card, not a close away trip."
-    },
-    {
-     "fact": "Leverkusen have won their last five matches in all competitions, scoring 14 goals and conceding four.",
-     "meaning": "They come to Greece in rhythm, not managing a wobble — the run is the reason for the price."
-    },
-    {
-     "fact": "OFI have lost their last three: 1-2 at Rennes, 0-3 at AEK Athens and 3-4 at Kalamata on Sunday.",
-     "meaning": "They have conceded 11 goals in five games and arrive on the back of a seven-goal defeat."
-    },
-    {
-     "fact": "OFI have already beaten a Bundesliga side in this competition, stunning Hoffenheim 2-0 at home.",
-     "meaning": "It is their only win in five and the reason this is not treated as a formality for Leverkusen."
-    },
-    {
-     "fact": "Leverkusen's 4-0 win at Lech Poznan came with 5.22 xG created and 0.57 allowed.",
-     "meaning": "Their Europa League form is built on volume of chances, not just finishing — they can overwhelm a defence."
-    },
-    {
-     "fact": "OFI created just 0.12 xG in their 1-2 defeat at Rennes, and 0.21 in the 0-3 at AEK.",
-     "meaning": "Against organised opposition they have barely produced a chance, which is the worry against Leverkusen."
-    },
-    {
-     "fact": "Leverkusen are without striker C. Kofane, who has three goals in six appearances this season.",
-     "meaning": "They lose a squad forward who has been finding the net, but the run has been built across the whole front line."
-    },
-    {
-     "fact": "Victor Boniface, who has played 12 minutes this season, was left out of Leverkusen's Europa League squad for the Greece trip, with Jonas Hofmann picked as Martin Terrier's replacement.",
-     "meaning": "A squad-list call rather than a first XI blow — the forward line still travels strong."
-    }
-   ],
-   "video_title": "Leverkusen's 14 goals meet OFI's Hoffenheim night",
-   "article": "/m/2026-10-22-ofi-bayer-leverkusen.html"
   }
  ]
 }

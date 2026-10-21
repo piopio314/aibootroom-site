@@ -4,17 +4,108 @@
  "home": "Cagliari",
  "away": "Bologna",
  "kickoff": "2026-10-24T13:00:00+00:00",
- "generated_at": "2026-10-19T14:04:00+00:00",
- "headline": "Bologna favoured, goals lean is a single-book nudge",
- "summary": "The draw sits at 32.7%. The only movement is a trim to Over 2.25 at the sharp market, from 50.6% to 49.0%, with the fair total slipping from 2.27 to 2.22, while the consensus Over moved just 0.3 points. The handicap fair line is home +0.15, under a quarter goal to Bologna, with the quoted line at +0.25 and only six books pricing it. Cagliari's Riyad Idrissi is listed as missing with a knee problem, with no measurable price reaction.",
- "read": null,
- "facts": [],
- "article": null,
- "sources": [],
- "video_title": "Bologna priced ahead, but the market barely moves",
+ "generated_at": "2026-10-21T21:01:45+00:00",
+ "headline": "Cagliari 7th, Bologna 15th — yet Bologna are the favourites",
+ "summary": "Cagliari's unbeaten run ended with a 0-4 defeat at Monza on Sunday, yet they stay 7th with 13 points — a start last matched in 1969/70. On Saturday they host a Bologna side 15th on 5 points, with one win in seven league games. Bologna also lose striker Roberto Piccoli for about 3 weeks, and Italian media report Riccardo Orsolini is training alone. Even so, the market makes Bologna 38.0% favourites to win. The gap it sees is just 0.15 goals: a near-even game.",
+ "read": "Cagliari have the better season — 13 points and seventh place, their best start since 1969/70 — but they host Bologna five days after a 0-4 hiding at Monza. Bologna are still the market's narrow favourite despite sitting 15th with five points and possibly missing both Piccoli and Orsolini, and a goal line of 2.25 says the market expects a tight, low-scoring game.",
+ "facts": [
+  {
+   "fact": "Cagliari's four-match unbeaten run ended with a 0-4 defeat away to Monza on Sunday.",
+   "meaning": "They host Bologna five days after shipping four, so how they respond at home is the first question of the game."
+  },
+  {
+   "fact": "Bologna are the favourites at 38.0% to win at Cagliari, ahead of the draw at 32.7% and the hosts at 29.3%.",
+   "meaning": ""
+  },
+  {
+   "fact": "Bologna sit 15th in Serie A with five points from seven games.",
+   "meaning": "A bottom-half start for the side the market still favours at Cagliari."
+  },
+  {
+   "fact": "Cagliari's 13 points from seven games is their best start to a Serie A season since 1969/70.",
+   "meaning": "The hosts arrive seventh and with genuine belief, one bad afternoon at Monza notwithstanding."
+  },
+  {
+   "fact": "Bologna lost 1-3 at home to Inter on 17 October, their first defeat under Raffaele Palladino.",
+   "meaning": "Palladino's unbeaten start is over, and he has had seven days — more rest than Cagliari — to answer it."
+  },
+  {
+   "fact": "Bologna confirmed striker Roberto Piccoli will be out for about three weeks after the injury he picked up against Inter.",
+   "meaning": "Bologna make the trip without a senior forward option, which sharpens the question of how they score."
+  },
+  {
+   "fact": "Italian media report Riccardo Orsolini is training separately and his availability for the Cagliari match is uncertain.",
+   "meaning": "If he misses out, Bologna would travel without another of their attacking starters."
+  },
+  {
+   "fact": "The handicap fair line is +0.15 — the market rates Bologna only a fraction of a goal better than Cagliari.",
+   "meaning": ""
+  }
+ ],
+ "article": "/m/2026-10-24-cagliari-bologna.html",
+ "sources": [
+  {
+   "fact": "Cagliari's four-game unbeaten run ended with a 4-0 defeat away to Monza.",
+   "source": "sports.yahoo.com",
+   "url": "https://sports.yahoo.com/articles/serie-monza-4-0-cagliari-182500877.html",
+   "age": "2 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Cagliari have taken 13 points from their first seven Serie A matches, a start last matched in the 1969/70 Scudetto season.",
+   "source": "cagliarinews24.com",
+   "url": "https://cagliarinews24.com/cagliari-pisacane-bologna-avvio-record-riscatto",
+   "age": "38 minutes ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Yael Trepy trained fully with the first team for the first time after his swimming pool accident last August.",
+   "source": "www.ansa.it",
+   "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/21/cagliari-dopo-lincidente-in-piscina-trepy-si-allena-con-la-prima-squadra_728b2702-3d9e-49b3-a451-0806950a6205.html",
+   "age": "4 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Cagliari are continuing preparations for the Bologna match at the CRAI Sport Center, with Trepy training with the squad.",
+   "source": "cagliaricalcio.com",
+   "url": "https://cagliaricalcio.com/news/il-report-dal-crai-sport-center-seriea-cagliari-bologna-trepy/",
+   "age": "5 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Former Cagliari staff member Fabio Bazzani says he expects an aggressive Cagliari at home after the heavy defeat to Monza.",
+   "source": "cagliarinews24.com",
+   "url": "https://cagliarinews24.com/bazzani-cagliari-bologna-parole",
+   "age": "2 hours ago",
+   "certainty": "opinion"
+  },
+  {
+   "fact": "Bologna confirmed striker Roberto Piccoli will be out for about three weeks after his injury against Inter.",
+   "source": "sports.yahoo.com",
+   "url": "https://sports.yahoo.com/articles/bologna-confirm-piccoli-least-three-160000144.html",
+   "age": "1 day ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Italian media report that Riccardo Orsolini is training separately and his availability for the Cagliari match is uncertain.",
+   "source": "www.cagliarinews24.com",
+   "url": "https://www.cagliarinews24.com/orsolini-cagliari-bologna-infortunio-news/",
+   "age": "1 hour ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Bologna held a morning session at Casteldebole with treatment for Piccoli and Orsolini, whose presence is to be assessed.",
+   "source": "www.cagliarinews24.com",
+   "url": "https://www.cagliarinews24.com/cagliari-bologna-seduta-mattutina-palladino/",
+   "age": "10 hours ago",
+   "certainty": "reported"
+  }
+ ],
+ "video_title": "Cagliari's strong start meets Bologna's narrow favouritism",
  "key_points": [
-  "Bologna 38.0% fair vs Cagliari 29.3% — a 9-point gap, dead flat for 14.6 h",
-  "Handicap fair line home +0.15, under a quarter goal to Bologna, unmoved"
+  "0-4 at Monza ends Cagliari run",
+  "Bologna favourites despite five-point start",
+  "Piccoli out three weeks"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."

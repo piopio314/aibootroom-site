@@ -1,0 +1,820 @@
+{
+ "id": "2026-10-24-cagliari-bologna",
+ "title": "Cagliari's strong start meets Bologna's narrow favouritism",
+ "match": {
+  "home": "Cagliari",
+  "away": "Bologna",
+  "league": "Serie A",
+  "kickoff": "2026-10-24T13:00:00+00:00",
+  "home_short": "CAG",
+  "away_short": "BOL",
+  "home_color": "#a6192e",
+  "away_color": "#1a2f48"
+ },
+ "market": {
+  "fair": {
+   "home": 29.3,
+   "draw": 32.7,
+   "away": 38.0
+  },
+  "move": {
+   "home": -0.2,
+   "draw": 0.4,
+   "away": -0.1
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 38.1
+   },
+   {
+    "t": "2026-10-19T01:34:00+00:00",
+    "v": 37.9
+   },
+   {
+    "t": "2026-10-19T07:36:00+00:00",
+    "v": 37.9
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "v": 38.0
+   },
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "v": 38.0
+   },
+   {
+    "t": "2026-10-20T04:23:00+00:00",
+    "v": 38.0
+   },
+   {
+    "t": "2026-10-21T04:24:00+00:00",
+    "v": 38.0
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 29.6
+    },
+    {
+     "t": "2026-10-19T01:34:00+00:00",
+     "v": 29.7
+    },
+    {
+     "t": "2026-10-19T07:36:00+00:00",
+     "v": 29.7
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 29.3
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 29.3
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 29.3
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 29.3
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 32.3
+    },
+    {
+     "t": "2026-10-19T01:34:00+00:00",
+     "v": 32.4
+    },
+    {
+     "t": "2026-10-19T07:36:00+00:00",
+     "v": 32.4
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 32.7
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 32.7
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 32.7
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 32.7
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 38.1
+    },
+    {
+     "t": "2026-10-19T01:34:00+00:00",
+     "v": 37.9
+    },
+    {
+     "t": "2026-10-19T07:36:00+00:00",
+     "v": 37.9
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 38.0
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 38.0
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 38.0
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 38.0
+    }
+   ]
+  },
+  "goals": 2.22,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Cagliari's unbeaten run ended with a 0-4 defeat at Monza on Sunday.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Monza",
+    "score": "0-4",
+    "when": "Sunday"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-cagliari-bologna/s0.mp3",
+   "words": [
+    {
+     "w": "Cagliari's",
+     "start": 0.25,
+     "end": 0.825
+    },
+    {
+     "w": "unbeaten",
+     "start": 0.825,
+     "end": 1.3
+    },
+    {
+     "w": "run",
+     "start": 1.3,
+     "end": 1.9
+    },
+    {
+     "w": "ended",
+     "start": 1.9,
+     "end": 2.212
+    },
+    {
+     "w": "with",
+     "start": 2.212,
+     "end": 2.337
+    },
+    {
+     "w": "a",
+     "start": 2.337,
+     "end": 2.438
+    },
+    {
+     "w": "0-4",
+     "start": 2.438,
+     "end": 2.975
+    },
+    {
+     "w": "defeat",
+     "start": 2.975,
+     "end": 3.337
+    },
+    {
+     "w": "at",
+     "start": 3.337,
+     "end": 3.425
+    },
+    {
+     "w": "Monza",
+     "start": 3.425,
+     "end": 3.85
+    },
+    {
+     "w": "on",
+     "start": 3.85,
+     "end": 4.062
+    },
+    {
+     "w": "Sunday.",
+     "start": 4.062,
+     "end": 4.95
+    }
+   ],
+   "durationInFrames": 157
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "On Saturday they host Bologna in Serie A.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-cagliari-bologna/s1.mp3",
+   "words": [
+    {
+     "w": "On",
+     "start": 0.25,
+     "end": 0.425
+    },
+    {
+     "w": "Saturday",
+     "start": 0.425,
+     "end": 0.838
+    },
+    {
+     "w": "they",
+     "start": 0.838,
+     "end": 0.975
+    },
+    {
+     "w": "host",
+     "start": 0.975,
+     "end": 1.225
+    },
+    {
+     "w": "Bologna",
+     "start": 1.225,
+     "end": 1.675
+    },
+    {
+     "w": "in",
+     "start": 1.675,
+     "end": 1.825
+    },
+    {
+     "w": "Serie",
+     "start": 1.825,
+     "end": 2.35
+    },
+    {
+     "w": "A.",
+     "start": 2.35,
+     "end": 3.025
+    }
+   ],
+   "durationInFrames": 99
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "They are still 7th, with 13 points.",
+   "show": {
+    "kind": "table",
+    "team": "home",
+    "rank": 7,
+    "pts": 13
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-cagliari-bologna/s2.mp3",
+   "words": [
+    {
+     "w": "They",
+     "start": 0.25,
+     "end": 0.375
+    },
+    {
+     "w": "are",
+     "start": 0.375,
+     "end": 0.475
+    },
+    {
+     "w": "still",
+     "start": 0.475,
+     "end": 0.762
+    },
+    {
+     "w": "7th,",
+     "start": 0.762,
+     "end": 1.175
+    },
+    {
+     "w": "with",
+     "start": 1.225,
+     "end": 1.4
+    },
+    {
+     "w": "13",
+     "start": 1.4,
+     "end": 1.825
+    },
+    {
+     "w": "points.",
+     "start": 1.825,
+     "end": 2.65
+    }
+   ],
+   "durationInFrames": 88
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Bologna, though, are 15th, with just 5 points.",
+   "show": {
+    "kind": "table",
+    "team": "away",
+    "rank": 15,
+    "pts": 5
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-cagliari-bologna/s3.mp3",
+   "words": [
+    {
+     "w": "Bologna,",
+     "start": 0.25,
+     "end": 0.65
+    },
+    {
+     "w": "though,",
+     "start": 0.688,
+     "end": 0.8
+    },
+    {
+     "w": "are",
+     "start": 0.838,
+     "end": 0.95
+    },
+    {
+     "w": "15th,",
+     "start": 0.95,
+     "end": 1.525
+    },
+    {
+     "w": "with",
+     "start": 1.6,
+     "end": 1.725
+    },
+    {
+     "w": "just",
+     "start": 1.725,
+     "end": 1.95
+    },
+    {
+     "w": "5",
+     "start": 1.95,
+     "end": 2.3
+    },
+    {
+     "w": "points.",
+     "start": 2.3,
+     "end": 3.125
+    }
+   ],
+   "durationInFrames": 102
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Their record: one win in seven league games.",
+   "show": {
+    "kind": "stat",
+    "label": "wins in 7 games",
+    "value": "1"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-cagliari-bologna/s4.mp3",
+   "words": [
+    {
+     "w": "Their",
+     "start": 0.25,
+     "end": 0.375
+    },
+    {
+     "w": "record:",
+     "start": 0.375,
+     "end": 0.85
+    },
+    {
+     "w": "one",
+     "start": 0.938,
+     "end": 1.2
+    },
+    {
+     "w": "win",
+     "start": 1.2,
+     "end": 1.363
+    },
+    {
+     "w": "in",
+     "start": 1.363,
+     "end": 1.512
+    },
+    {
+     "w": "seven",
+     "start": 1.512,
+     "end": 1.875
+    },
+    {
+     "w": "league",
+     "start": 1.875,
+     "end": 2.1
+    },
+    {
+     "w": "games.",
+     "start": 2.1,
+     "end": 2.925
+    }
+   ],
+   "durationInFrames": 96
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "They also lose striker Roberto Piccoli for about 3 weeks.",
+   "show": {
+    "kind": "absence",
+    "team": "away",
+    "player": "Roberto Piccoli",
+    "status": "out"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-cagliari-bologna/s5.mp3",
+   "words": [
+    {
+     "w": "They",
+     "start": 0.25,
+     "end": 0.375
+    },
+    {
+     "w": "also",
+     "start": 0.375,
+     "end": 0.725
+    },
+    {
+     "w": "lose",
+     "start": 0.725,
+     "end": 0.95
+    },
+    {
+     "w": "striker",
+     "start": 0.95,
+     "end": 1.375
+    },
+    {
+     "w": "Roberto",
+     "start": 1.375,
+     "end": 1.875
+    },
+    {
+     "w": "Piccoli",
+     "start": 1.875,
+     "end": 2.325
+    },
+    {
+     "w": "for",
+     "start": 2.325,
+     "end": 2.438
+    },
+    {
+     "w": "about",
+     "start": 2.438,
+     "end": 2.737
+    },
+    {
+     "w": "3",
+     "start": 2.737,
+     "end": 3.0
+    },
+    {
+     "w": "weeks.",
+     "start": 3.0,
+     "end": 3.75
+    }
+   ],
+   "durationInFrames": 121
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Italian media report Riccardo Orsolini is training alone.",
+   "show": {
+    "kind": "news",
+    "source": "Italian media",
+    "text": "Orsolini training alone"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-cagliari-bologna/s6.mp3",
+   "words": [
+    {
+     "w": "Italian",
+     "start": 0.25,
+     "end": 0.725
+    },
+    {
+     "w": "media",
+     "start": 0.725,
+     "end": 1.05
+    },
+    {
+     "w": "report",
+     "start": 1.05,
+     "end": 1.45
+    },
+    {
+     "w": "Riccardo",
+     "start": 1.45,
+     "end": 1.95
+    },
+    {
+     "w": "Orsolini",
+     "start": 1.95,
+     "end": 2.8
+    },
+    {
+     "w": "is",
+     "start": 2.8,
+     "end": 2.975
+    },
+    {
+     "w": "training",
+     "start": 2.975,
+     "end": 3.35
+    },
+    {
+     "w": "alone.",
+     "start": 3.35,
+     "end": 4.2
+    }
+   ],
+   "durationInFrames": 134
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Even so, the market makes Bologna 38% favourites.",
+   "show": {
+    "kind": "chance",
+    "team": "away",
+    "value": 38
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-cagliari-bologna/s7.mp3",
+   "words": [
+    {
+     "w": "Even",
+     "start": 0.25,
+     "end": 0.537
+    },
+    {
+     "w": "so,",
+     "start": 0.537,
+     "end": 0.9
+    },
+    {
+     "w": "the",
+     "start": 0.938,
+     "end": 1.025
+    },
+    {
+     "w": "market",
+     "start": 1.025,
+     "end": 1.35
+    },
+    {
+     "w": "makes",
+     "start": 1.35,
+     "end": 1.625
+    },
+    {
+     "w": "Bologna",
+     "start": 1.625,
+     "end": 2.175
+    },
+    {
+     "w": "38%",
+     "start": 2.175,
+     "end": 3.15
+    },
+    {
+     "w": "favourites.",
+     "start": 3.15,
+     "end": 4.075
+    }
+   ],
+   "durationInFrames": 130
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The gap the market sees: 0.15 goals.",
+   "show": {
+    "kind": "stat",
+    "label": "Bologna better by (goals)",
+    "value": "0.15"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-cagliari-bologna/s8.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "gap",
+     "start": 0.325,
+     "end": 0.588
+    },
+    {
+     "w": "the",
+     "start": 0.588,
+     "end": 0.675
+    },
+    {
+     "w": "market",
+     "start": 0.675,
+     "end": 1.05
+    },
+    {
+     "w": "sees:",
+     "start": 1.05,
+     "end": 1.6
+    },
+    {
+     "w": "0.15",
+     "start": 1.738,
+     "end": 2.9
+    },
+    {
+     "w": "goals.",
+     "start": 2.9,
+     "end": 3.7
+    }
+   ],
+   "durationInFrames": 119
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "So the table says Cagliari, the market says Bologna — and barely.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Cagliari: better table",
+     "Bologna: narrow favourites",
+     "Almost level in goals"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-cagliari-bologna/s9.mp3",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.25,
+     "end": 0.338
+    },
+    {
+     "w": "the",
+     "start": 0.338,
+     "end": 0.425
+    },
+    {
+     "w": "table",
+     "start": 0.425,
+     "end": 0.775
+    },
+    {
+     "w": "says",
+     "start": 0.775,
+     "end": 1.025
+    },
+    {
+     "w": "Cagliari,",
+     "start": 1.025,
+     "end": 1.65
+    },
+    {
+     "w": "the",
+     "start": 1.75,
+     "end": 1.85
+    },
+    {
+     "w": "market",
+     "start": 1.85,
+     "end": 2.175
+    },
+    {
+     "w": "says",
+     "start": 2.175,
+     "end": 2.4
+    },
+    {
+     "w": "Bologna—",
+     "start": 2.4,
+     "end": 3.013
+    },
+    {
+     "w": "and",
+     "start": 3.075,
+     "end": 3.2
+    },
+    {
+     "w": "barely.",
+     "start": 3.2,
+     "end": 4.075
+    }
+   ],
+   "durationInFrames": 137
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-cagliari-bologna/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
+  "stickers": [
+   "🏟️",
+   "🏟️",
+   "🎯"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1550158,
+ "prices_as_of": "2026-10-21T19:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}
