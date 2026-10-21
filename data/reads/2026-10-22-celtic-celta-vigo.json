@@ -4,42 +4,42 @@
  "home": "Celtic",
  "away": "Celta Vigo",
  "kickoff": "2026-10-22T19:00:00+00:00",
- "generated_at": "2026-10-21T20:23:40+00:00",
- "headline": "Celtic's 7-goal high meets a level European night",
- "summary": "Celtic scored 7 against Hearts on Sunday, but Europe is another story: 33rd of 36 with 0 points after a 1-4 defeat at Benfica and a 1-3 home loss to Ferencvaros. Celta Vigo have also lost twice, each by a single goal, and they arrive without defender Nunez and midfielder Roman. Celtic are missing Auston Trusty for a private matter and are unsure on Cameron Carter-Vickers, who has played 814 minutes. Celta are rated 36.5% and Celtic 35.8%, with the handicap level and over 2.5 goals at 52.3%.",
- "read": "Celtic and Celta Vigo meet in Glasgow with zero points from two Europa League games each, and the market cannot separate them: Celta 36.5%, Celtic 35.8%, with the handicap at level ball. Celtic's 7-1 win over Hearts is the best recent form on show, but they have conceded seven goals across their two European defeats, while Celta lost both of theirs by a single goal and were out-created by Alaves on Sunday.",
+ "generated_at": "2026-10-21T23:23:13+00:00",
+ "headline": "Celtic scored seven, but Europe still says this is level",
+ "summary": "Celtic warmed up for Celta Vigo with a 7-1 win over Hearts on Sunday. Europe tells a different story: two defeats, 0 points, 33rd of 36. Going forward they are fine — 2.28 expected goals a game — but the defence is unsettled, with Cameron Carter-Vickers a doubt. Celta have lost both their Europa League games too and average 1.17 expected goals, yet across bookmakers they are the narrowest favourites at 36.5%. The market makes this level: the handicap gives neither side a head start. Over 2.5 goals is rated 52.3%.",
+ "read": "Celtic answered a 1-4 humbling at Benfica with a 7-1 thrashing of Hearts, but their European defence has now conceded seven goals in two games, and they are missing or doubting key centre-backs. Celta Vigo arrive after a 2-1 win over Alaves in which they were out-created, and the market rates the two sides level, with just over two and a half goals expected.",
  "facts": [
   {
-   "fact": "Celta Vigo are the narrow favourites at 36.5% to win at Celtic Park, with Celtic on 35.8% and the handicap set at level ball (+0).",
-   "meaning": ""
+   "fact": "Both sides have lost both league-phase games: Celtic are 33rd of 36 on zero points with a -5 goal difference, Celta Vigo 28th with -2.",
+   "meaning": "Thursday's loser is left with almost no room to reach the knockout places, which is why both clubs are calling it a must-win."
   },
   {
-   "fact": "Celtic have lost both Europa League matches and sit 33rd of 36 with no points.",
-   "meaning": "A third straight European defeat would leave them with a lot to do to reach the knockout stage."
+   "fact": "Celta Vigo are the narrowest possible favourites: 36.5% to Celtic's 35.8%, with the handicap set at level (+0).",
+   "meaning": "This is a coin-flip in the market's eyes — neither side is rated even a fraction of a goal better."
   },
   {
-   "fact": "Celtic answered the Benfica defeat by beating Hearts 7-1 at home on Sunday, with 4.16 xG to 1.20.",
-   "meaning": "Domestically they are scoring for fun again; the question is whether that travels into Europe, where they have lost their last two."
+   "fact": "Celtic warmed up with a 7-1 home win over Hearts on Sunday, their fourth game in 12 days.",
+   "meaning": "The attack is scoring freely going into a match Celtic have to win."
   },
   {
-   "fact": "Celtic defender Cameron Carter-Vickers is listed as doubtful, having played 814 minutes this season at a 7.46 rating.",
-   "meaning": "He is the heaviest workload on Celtic's absentee list, and the doubt comes in the middle of the defence."
+   "fact": "Celtic have conceded seven goals in their two Europa League defeats, 1-3 at home to Ferencvaros and 1-4 at Benfica.",
+   "meaning": "The defence is why Celtic are not favourites at home against a side that has also lost twice."
   },
   {
-   "fact": "Celta Vigo are without midfielder M. Roman, who has 669 minutes this season with a goal and two assists.",
-   "meaning": "That is the biggest workload missing from the Celta squad, and it comes in the middle of the pitch."
+   "fact": "Celtic's most-used defender Cameron Carter-Vickers (814 minutes, 7.46 rating) is listed as a doubt but was back in training on Wednesday, while Auston Trusty has been ruled out for a private matter.",
+   "meaning": "Celtic's centre-back pairing is unsettled for the game they most need a clean sheet in."
   },
   {
-   "fact": "Celtic confirmed Auston Trusty will miss the Celta Vigo game because of a private matter.",
-   "meaning": "Another defensive absentee for a back line that is already without Johnston and unsure on Carter-Vickers."
-  },
-  {
-   "fact": "Celta Vigo sit 28th of 36 with a −2 goal difference, having lost both Europa League games by a single goal.",
-   "meaning": "They have stayed competitive in Europe in a way Celtic have not — which is why they are marginally favoured in Glasgow."
+   "fact": "Celta Vigo are without midfielder M. Roman, out with a knee injury after 669 minutes, one goal and two assists this season.",
+   "meaning": "Celta lose a regular starter from midfield in a match where the middle of the pitch decides who gets the first point."
   },
   {
    "fact": "Celta beat Alaves 2-1 on Sunday but were out-created, 0.97 xG to 1.06.",
-   "meaning": "Their results are running slightly ahead of their performances, which is part of why the market keeps this at level ball."
+   "meaning": "Their results are running slightly ahead of their performances, which is why the market makes them only marginal favourites away from home."
+  },
+  {
+   "fact": "The market expects goals: over 2.5 is priced at 52.3%, with a fair total of 2.6 goals.",
+   "meaning": "More likely than not, this is a game with three goals or more."
   }
  ],
  "article": null,
@@ -101,11 +101,11 @@
    "certainty": "reported"
   }
  ],
- "video_title": "Celtic's 7-goal high, but no home advantage",
+ "video_title": "Celtic's 7-1 win, but Europe still says level",
  "key_points": [
-  "Coin flip: Celta 36.5%, Celtic 35.8%",
-  "Both pointless after two games",
-  "Over 2.5 goals: 52.3%"
+  "Both on zero points",
+  "Market rates them level",
+  "Celtic: 7-1 win, 7 conceded"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
