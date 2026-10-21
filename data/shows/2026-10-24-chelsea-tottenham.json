@@ -1,6 +1,6 @@
 {
  "id": "2026-10-24-chelsea-tottenham",
- "title": "Chelsea 54.9%: One Snapshot, Two Flat Days",
+ "title": "Chelsea vs Tottenham: market sees a 3-goal game",
  "match": {
   "home": "Chelsea",
   "away": "Tottenham",
@@ -53,857 +53,304 @@
     "v": 54.9
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 52.5
+    },
+    {
+     "t": "2026-10-18T23:16:00+00:00",
+     "v": 54.9
+    },
+    {
+     "t": "2026-10-19T02:31:00+00:00",
+     "v": 54.9
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 54.9
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "v": 55.1
+    },
+    {
+     "t": "2026-10-19T14:23:00+00:00",
+     "v": 55.1
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "v": 54.9
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 23.3
+    },
+    {
+     "t": "2026-10-18T23:16:00+00:00",
+     "v": 22.6
+    },
+    {
+     "t": "2026-10-19T02:31:00+00:00",
+     "v": 22.6
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 22.6
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "v": 22.5
+    },
+    {
+     "t": "2026-10-19T14:23:00+00:00",
+     "v": 22.5
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "v": 22.7
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 24.2
+    },
+    {
+     "t": "2026-10-18T23:16:00+00:00",
+     "v": 22.5
+    },
+    {
+     "t": "2026-10-19T02:31:00+00:00",
+     "v": 22.5
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 22.5
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "v": 22.4
+    },
+    {
+     "t": "2026-10-19T14:23:00+00:00",
+     "v": 22.4
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "v": 22.5
+    }
+   ]
+  },
   "goals": 3.05,
-  "goals_rank": 5,
+  "goals_rank": 7,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T10:19:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
-   "type": "hook",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Twenty-seven minutes after our feed switched on, Chelsea moved from fifty-two and a half per cent to almost fifty-five.",
+   "text": "Chelsea's fair chance moved from 52.5% to 54.9%.",
+   "show": {
+    "kind": "move",
+    "team": "home",
+    "from": 52.5,
+    "to": 54.9
+   },
+   "first": true,
+   "variant": 0,
    "audio": "audio/2026-10-24-chelsea-tottenham/s0.mp3",
    "words": [
     {
-     "w": "Twenty-seven",
+     "w": "Chelsea's",
      "start": 0.12,
-     "end": 0.76
+     "end": 0.6
     },
     {
-     "w": "minutes",
-     "start": 0.76,
-     "end": 1.08
+     "w": "fair",
+     "start": 0.68,
+     "end": 0.84
     },
     {
-     "w": "after",
-     "start": 1.16,
-     "end": 1.4
-    },
-    {
-     "w": "our",
-     "start": 1.4,
-     "end": 1.48
-    },
-    {
-     "w": "feed",
-     "start": 1.56,
-     "end": 1.8
-    },
-    {
-     "w": "switched",
-     "start": 1.8,
-     "end": 2.12
-    },
-    {
-     "w": "on,",
-     "start": 2.2,
-     "end": 2.52
-    },
-    {
-     "w": "Chelsea",
-     "start": 2.758,
-     "end": 3.16
+     "w": "chance",
+     "start": 0.84,
+     "end": 1.32
     },
     {
      "w": "moved",
-     "start": 3.16,
-     "end": 3.56
+     "start": 1.4,
+     "end": 1.64
     },
     {
      "w": "from",
-     "start": 3.56,
-     "end": 3.8
+     "start": 1.64,
+     "end": 1.96
     },
     {
-     "w": "fifty-two",
-     "start": 3.88,
-     "end": 4.28
-    },
-    {
-     "w": "and",
-     "start": 4.28,
-     "end": 4.36
-    },
-    {
-     "w": "a",
-     "start": 4.44,
-     "end": 4.44
-    },
-    {
-     "w": "half",
-     "start": 4.44,
-     "end": 4.68
-    },
-    {
-     "w": "per",
-     "start": 4.68,
-     "end": 4.84
-    },
-    {
-     "w": "cent",
-     "start": 4.84,
-     "end": 5.24
+     "w": "52.5%",
+     "start": 2.04,
+     "end": 3.48
     },
     {
      "w": "to",
-     "start": 5.392,
-     "end": 5.4
+     "start": 3.8,
+     "end": 3.88
     },
     {
-     "w": "almost",
-     "start": 5.4,
-     "end": 5.8
-    },
-    {
-     "w": "fifty-five.",
-     "start": 5.8,
-     "end": 6.68
+     "w": "54.9%.",
+     "start": 3.88,
+     "end": 5.48
     }
    ],
-   "durationInFrames": 215
+   "durationInFrames": 172
   },
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chelsea against Tottenham. Premier League, Saturday.",
+   "text": "Chelsea host Tottenham, Premier League, Saturday.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
    "audio": "audio/2026-10-24-chelsea-tottenham/s1.mp3",
    "words": [
     {
      "w": "Chelsea",
      "start": 0.12,
-     "end": 0.68
+     "end": 0.6
     },
     {
-     "w": "against",
+     "w": "host",
      "start": 0.68,
-     "end": 1
+     "end": 0.92
     },
     {
-     "w": "Tottenham.",
-     "start": 1.0,
-     "end": 1.48
+     "w": "Tottenham,",
+     "start": 0.92,
+     "end": 1.56
     },
     {
      "w": "Premier",
-     "start": 1.864,
-     "end": 2.2
+     "start": 1.64,
+     "end": 2.04
     },
     {
      "w": "League,",
-     "start": 2.2,
-     "end": 2.6
+     "start": 2.12,
+     "end": 2.44
     },
     {
      "w": "Saturday.",
-     "start": 2.681,
-     "end": 3.4
+     "start": 2.522,
+     "end": 3.16
     }
    ],
-   "durationInFrames": 117
+   "durationInFrames": 103
   },
   {
-   "type": "line",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Then, for two days, nothing.",
+   "text": "Tottenham's fair chance is 22.5%.",
+   "show": {
+    "kind": "chance",
+    "team": "away",
+    "value": 22.5
+   },
+   "first": false,
+   "variant": 0,
    "audio": "audio/2026-10-24-chelsea-tottenham/s2.mp3",
    "words": [
     {
-     "w": "Then,",
+     "w": "Tottenham's",
      "start": 0.12,
-     "end": 0.52
+     "end": 0.68
     },
     {
-     "w": "for",
-     "start": 0.676,
-     "end": 0.84
+     "w": "fair",
+     "start": 0.76,
+     "end": 0.92
     },
     {
-     "w": "two",
-     "start": 0.84,
-     "end": 1.08
+     "w": "chance",
+     "start": 0.92,
+     "end": 1.32
     },
     {
-     "w": "days,",
-     "start": 1.08,
+     "w": "is",
+     "start": 1.404,
      "end": 1.64
     },
     {
-     "w": "nothing.",
-     "start": 1.792,
-     "end": 2.28
+     "w": "22.5%.",
+     "start": 1.64,
+     "end": 3.24
     }
    ],
-   "durationInFrames": 83
+   "durationInFrames": 105
   },
   {
-   "type": "goals",
-   "speaker": "scout",
-   "text": "The sharp market went from fifty-two and a half to fifty-four point nine per cent on Chelsea, and pushed the handicap a tenth of a goal toward them, to minus zero point seven three. Four books moved together. That's the shape of an informed move.",
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The draw sits at 22.7% fair.",
+   "show": {
+    "kind": "chance",
+    "team": "draw",
+    "value": 22.7
+   },
+   "first": false,
+   "variant": 0,
    "audio": "audio/2026-10-24-chelsea-tottenham/s3.mp3",
    "words": [
     {
      "w": "The",
-     "start": 0.118,
+     "start": 0.12,
      "end": 0.2
     },
     {
-     "w": "sharp",
+     "w": "draw",
      "start": 0.28,
      "end": 0.52
     },
     {
-     "w": "market",
-     "start": 0.52,
+     "w": "sits",
+     "start": 0.6,
      "end": 0.84
     },
     {
-     "w": "went",
-     "start": 0.92,
+     "w": "at",
+     "start": 0.84,
      "end": 1.08
     },
     {
-     "w": "from",
-     "start": 1.16,
-     "end": 1.32
+     "w": "22.7%",
+     "start": 1.156,
+     "end": 2.68
     },
     {
-     "w": "fifty-two",
-     "start": 1.32,
-     "end": 1.8
-    },
-    {
-     "w": "and",
-     "start": 1.88,
-     "end": 1.88
-    },
-    {
-     "w": "a",
-     "start": 1.96,
-     "end": 1.96
-    },
-    {
-     "w": "half",
-     "start": 1.96,
-     "end": 2.36
-    },
-    {
-     "w": "to",
-     "start": 2.44,
-     "end": 2.44
-    },
-    {
-     "w": "fifty-four",
-     "start": 2.44,
-     "end": 3.08
-    },
-    {
-     "w": "point",
-     "start": 3.08,
-     "end": 3.32
-    },
-    {
-     "w": "nine",
-     "start": 3.4,
-     "end": 3.64
-    },
-    {
-     "w": "per",
-     "start": 3.64,
-     "end": 3.8
-    },
-    {
-     "w": "cent",
-     "start": 3.8,
-     "end": 4.12
-    },
-    {
-     "w": "on",
-     "start": 4.2,
-     "end": 4.2
-    },
-    {
-     "w": "Chelsea,",
-     "start": 4.2,
-     "end": 4.84
-    },
-    {
-     "w": "and",
-     "start": 5.075,
-     "end": 5.24
-    },
-    {
-     "w": "pushed",
-     "start": 5.32,
-     "end": 5.48
-    },
-    {
-     "w": "the",
-     "start": 5.48,
-     "end": 5.56
-    },
-    {
-     "w": "handicap",
-     "start": 5.56,
-     "end": 6.28
-    },
-    {
-     "w": "a",
-     "start": 6.417,
-     "end": 6.44
-    },
-    {
-     "w": "tenth",
-     "start": 6.44,
-     "end": 6.84
-    },
-    {
-     "w": "of",
-     "start": 6.92,
-     "end": 6.92
-    },
-    {
-     "w": "a",
-     "start": 6.92,
-     "end": 7
-    },
-    {
-     "w": "goal",
-     "start": 7,
-     "end": 7.24
-    },
-    {
-     "w": "toward",
-     "start": 7.32,
-     "end": 7.56
-    },
-    {
-     "w": "them,",
-     "start": 7.56,
-     "end": 7.88
-    },
-    {
-     "w": "to",
-     "start": 8.128,
-     "end": 8.28
-    },
-    {
-     "w": "minus",
-     "start": 8.28,
-     "end": 8.68
-    },
-    {
-     "w": "zero",
-     "start": 8.68,
-     "end": 9.08
-    },
-    {
-     "w": "point",
-     "start": 9.08,
-     "end": 9.24
-    },
-    {
-     "w": "seven",
-     "start": 9.35,
-     "end": 9.64
-    },
-    {
-     "w": "three.",
-     "start": 9.64,
-     "end": 10.12
-    },
-    {
-     "w": "Four",
-     "start": 10.432,
-     "end": 10.84
-    },
-    {
-     "w": "books",
-     "start": 10.92,
-     "end": 11.16
-    },
-    {
-     "w": "moved",
-     "start": 11.16,
-     "end": 11.4
-    },
-    {
-     "w": "together.",
-     "start": 11.4,
-     "end": 11.96
-    },
-    {
-     "w": "That's",
-     "start": 12.124,
-     "end": 12.28
-    },
-    {
-     "w": "the",
-     "start": 12.28,
-     "end": 12.36
-    },
-    {
-     "w": "shape",
-     "start": 12.44,
-     "end": 12.68
-    },
-    {
-     "w": "of",
-     "start": 12.68,
-     "end": 12.76
-    },
-    {
-     "w": "an",
-     "start": 12.84,
-     "end": 12.92
-    },
-    {
-     "w": "informed",
-     "start": 12.92,
-     "end": 13.48
-    },
-    {
-     "w": "move.",
-     "start": 13.56,
-     "end": 13.96
+     "w": "fair.",
+     "start": 2.68,
+     "end": 3.16
     }
    ],
-   "durationInFrames": 434
+   "durationInFrames": 103
   },
   {
-   "type": "noise",
-   "speaker": "sceptic",
-   "text": "Or it's a screenshot. Four books carrying the identical timestamp, twenty-seven minutes after we started collecting, is just as easily books reopening overnight or our first capture settling. And we have seven snapshots of history. That's a level, not a trend.",
-   "audio": "audio/2026-10-24-chelsea-tottenham/s4.mp3",
-   "words": [
-    {
-     "w": "Or",
-     "start": 0.118,
-     "end": 0.28
-    },
-    {
-     "w": "it's",
-     "start": 0.36,
-     "end": 0.36
-    },
-    {
-     "w": "a",
-     "start": 0.44,
-     "end": 0.44
-    },
-    {
-     "w": "screenshot.",
-     "start": 0.44,
-     "end": 1.08
-    },
-    {
-     "w": "Four",
-     "start": 1.37,
-     "end": 1.72
-    },
-    {
-     "w": "books",
-     "start": 1.72,
-     "end": 2.04
-    },
-    {
-     "w": "carrying",
-     "start": 2.04,
-     "end": 2.44
-    },
-    {
-     "w": "the",
-     "start": 2.52,
-     "end": 2.52
-    },
-    {
-     "w": "identical",
-     "start": 2.52,
-     "end": 3
-    },
-    {
-     "w": "timestamp,",
-     "start": 3,
-     "end": 3.64
-    },
-    {
-     "w": "twenty-seven",
-     "start": 3.735,
-     "end": 4.28
-    },
-    {
-     "w": "minutes",
-     "start": 4.36,
-     "end": 4.6
-    },
-    {
-     "w": "after",
-     "start": 4.68,
-     "end": 4.84
-    },
-    {
-     "w": "we",
-     "start": 4.84,
-     "end": 4.92
-    },
-    {
-     "w": "started",
-     "start": 4.92,
-     "end": 5.16
-    },
-    {
-     "w": "collecting,",
-     "start": 5.16,
-     "end": 5.64
-    },
-    {
-     "w": "is",
-     "start": 6.117,
-     "end": 6.2
-    },
-    {
-     "w": "just",
-     "start": 6.2,
-     "end": 6.52
-    },
-    {
-     "w": "as",
-     "start": 6.52,
-     "end": 6.6
-    },
-    {
-     "w": "easily",
-     "start": 6.6,
-     "end": 7
-    },
-    {
-     "w": "books",
-     "start": 7,
-     "end": 7.32
-    },
-    {
-     "w": "reopening",
-     "start": 7.32,
-     "end": 7.72
-    },
-    {
-     "w": "overnight",
-     "start": 7.72,
-     "end": 8.36
-    },
-    {
-     "w": "or",
-     "start": 8.44,
-     "end": 8.6
-    },
-    {
-     "w": "our",
-     "start": 8.6,
-     "end": 8.76
-    },
-    {
-     "w": "first",
-     "start": 8.84,
-     "end": 9
-    },
-    {
-     "w": "capture",
-     "start": 9.08,
-     "end": 9.32
-    },
-    {
-     "w": "settling.",
-     "start": 9.32,
-     "end": 9.72
-    },
-    {
-     "w": "And",
-     "start": 10.326,
-     "end": 10.44
-    },
-    {
-     "w": "we",
-     "start": 10.52,
-     "end": 10.52
-    },
-    {
-     "w": "have",
-     "start": 10.6,
-     "end": 10.68
-    },
-    {
-     "w": "seven",
-     "start": 10.68,
-     "end": 11.08
-    },
-    {
-     "w": "snapshots",
-     "start": 11.08,
-     "end": 11.56
-    },
-    {
-     "w": "of",
-     "start": 11.56,
-     "end": 11.72
-    },
-    {
-     "w": "history.",
-     "start": 11.8,
-     "end": 12.2
-    },
-    {
-     "w": "That's",
-     "start": 12.435,
-     "end": 12.68
-    },
-    {
-     "w": "a",
-     "start": 12.68,
-     "end": 12.76
-    },
-    {
-     "w": "level,",
-     "start": 12.76,
-     "end": 13.16
-    },
-    {
-     "w": "not",
-     "start": 13.399,
-     "end": 13.56
-    },
-    {
-     "w": "a",
-     "start": 13.56,
-     "end": 13.64
-    },
-    {
-     "w": "trend.",
-     "start": 13.72,
-     "end": 14.04
-    }
-   ],
-   "durationInFrames": 436
-  },
-  {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The goals market agrees with neither of them. Over three point zero sits at about fifty-one per cent, the fair total barely moved, and both teams to score holds at just over sixty per cent, with no movement at all.",
-   "audio": "audio/2026-10-24-chelsea-tottenham/s5.mp3",
-   "words": [
-    {
-     "w": "The",
-     "start": 0.12,
-     "end": 0.28
-    },
-    {
-     "w": "goals",
-     "start": 0.28,
-     "end": 0.6
-    },
-    {
-     "w": "market",
-     "start": 0.6,
-     "end": 0.92
-    },
-    {
-     "w": "agrees",
-     "start": 0.92,
-     "end": 1.4
-    },
-    {
-     "w": "with",
-     "start": 1.4,
-     "end": 1.48
-    },
-    {
-     "w": "neither",
-     "start": 1.48,
-     "end": 1.88
-    },
-    {
-     "w": "of",
-     "start": 1.88,
-     "end": 2.04
-    },
-    {
-     "w": "them.",
-     "start": 2.12,
-     "end": 2.2
-    },
-    {
-     "w": "Over",
-     "start": 2.598,
-     "end": 2.84
-    },
-    {
-     "w": "three",
-     "start": 2.92,
-     "end": 3.08
-    },
-    {
-     "w": "point",
-     "start": 3.16,
-     "end": 3.24
-    },
-    {
-     "w": "zero",
-     "start": 3.243,
-     "end": 3.64
-    },
-    {
-     "w": "sits",
-     "start": 3.64,
-     "end": 4.12
-    },
-    {
-     "w": "at",
-     "start": 4.2,
-     "end": 4.2
-    },
-    {
-     "w": "about",
-     "start": 4.2,
-     "end": 4.44
-    },
-    {
-     "w": "fifty-one",
-     "start": 4.44,
-     "end": 5
-    },
-    {
-     "w": "per",
-     "start": 5,
-     "end": 5.16
-    },
-    {
-     "w": "cent,",
-     "start": 5.16,
-     "end": 5.56
-    },
-    {
-     "w": "the",
-     "start": 5.958,
-     "end": 5.96
-    },
-    {
-     "w": "fair",
-     "start": 5.96,
-     "end": 6.2
-    },
-    {
-     "w": "total",
-     "start": 6.28,
-     "end": 6.6
-    },
-    {
-     "w": "barely",
-     "start": 6.6,
-     "end": 7
-    },
-    {
-     "w": "moved,",
-     "start": 7,
-     "end": 7.56
-    },
-    {
-     "w": "and",
-     "start": 7.807,
-     "end": 7.96
-    },
-    {
-     "w": "both",
-     "start": 7.96,
-     "end": 8.2
-    },
-    {
-     "w": "teams",
-     "start": 8.28,
-     "end": 8.6
-    },
-    {
-     "w": "to",
-     "start": 8.6,
-     "end": 8.68
-    },
-    {
-     "w": "score",
-     "start": 8.76,
-     "end": 9
-    },
-    {
-     "w": "holds",
-     "start": 9,
-     "end": 9.4
-    },
-    {
-     "w": "at",
-     "start": 9.48,
-     "end": 9.48
-    },
-    {
-     "w": "just",
-     "start": 9.56,
-     "end": 9.72
-    },
-    {
-     "w": "over",
-     "start": 9.72,
-     "end": 9.88
-    },
-    {
-     "w": "sixty",
-     "start": 9.96,
-     "end": 10.28
-    },
-    {
-     "w": "per",
-     "start": 10.36,
-     "end": 10.44
-    },
-    {
-     "w": "cent,",
-     "start": 10.44,
-     "end": 10.84
-    },
-    {
-     "w": "with",
-     "start": 11.065,
-     "end": 11.16
-    },
-    {
-     "w": "no",
-     "start": 11.16,
-     "end": 11.32
-    },
-    {
-     "w": "movement",
-     "start": 11.32,
-     "end": 11.72
-    },
-    {
-     "w": "at",
-     "start": 11.72,
-     "end": 11.8
-    },
-    {
-     "w": "all.",
-     "start": 11.88,
-     "end": 12.2
-    }
-   ],
-   "durationInFrames": 381
-  },
-  {
-   "type": "verdict",
-   "speaker": "gaffer",
-   "text": "The market told us Chelsea are three-quarters of a goal better, and it has gone flat for a day. Until it says it again, we watch.",
-   "bullets": [
-    "Chelsea 54.9% fair, AH fair line -0.73 after one 2.5 pp snapshot",
-    "Flat for 24 hours over just 35.5 hours and 7 snapshots of history",
-    "Goals settled: Over 3.0 at 51.2%, BTTS Yes 60.6% unchanged"
-   ],
-   "stamp": "LOW CONFIDENCE",
-   "audio": "audio/2026-10-24-chelsea-tottenham/s6.mp3",
+   "text": "The handicap is quoted at -0.75 goals.",
+   "show": {
+    "kind": "stat",
+    "label": "handicap line",
+    "value": "-0.75"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-chelsea-tottenham/s4.mp3",
    "words": [
     {
      "w": "The",
@@ -911,138 +358,506 @@
      "end": 0.2
     },
     {
-     "w": "market",
+     "w": "handicap",
      "start": 0.28,
-     "end": 0.6
+     "end": 0.76
     },
     {
-     "w": "told",
-     "start": 0.6,
+     "w": "is",
+     "start": 0.84,
      "end": 0.92
     },
     {
-     "w": "us",
-     "start": 1,
+     "w": "quoted",
+     "start": 0.92,
+     "end": 1.4
+    },
+    {
+     "w": "at",
+     "start": 1.48,
+     "end": 1.48
+    },
+    {
+     "w": "-0.75",
+     "start": 1.48,
+     "end": 3.4
+    },
+    {
+     "w": "goals.",
+     "start": 3.491,
+     "end": 3.96
+    }
+   ],
+   "durationInFrames": 127
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The computed fair line is -0.73.",
+   "show": {
+    "kind": "stat",
+    "label": "fair line",
+    "value": "-0.73"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-chelsea-tottenham/s5.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.118,
+     "end": 0.2
+    },
+    {
+     "w": "computed",
+     "start": 0.28,
+     "end": 0.76
+    },
+    {
+     "w": "fair",
+     "start": 0.76,
      "end": 1
     },
     {
-     "w": "Chelsea",
-     "start": 1.0,
-     "end": 1.56
+     "w": "line",
+     "start": 1.08,
+     "end": 1.4
     },
     {
-     "w": "are",
-     "start": 1.56,
+     "w": "is",
+     "start": 1.483,
      "end": 1.72
     },
     {
-     "w": "three-quarters",
+     "w": "-0.73.",
      "start": 1.72,
+     "end": 3.8
+    }
+   ],
+   "durationInFrames": 122
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Over 3.0 goals is 51.2% fair.",
+   "show": {
+    "kind": "over",
+    "line": 3.0,
+    "value": 51.2
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-chelsea-tottenham/s6.mp3",
+   "words": [
+    {
+     "w": "Over",
+     "start": 0.12,
+     "end": 0.36
+    },
+    {
+     "w": "3.0",
+     "start": 0.44,
+     "end": 1.24
+    },
+    {
+     "w": "goals",
+     "start": 1.24,
+     "end": 1.8
+    },
+    {
+     "w": "is",
+     "start": 1.88,
+     "end": 2.12
+    },
+    {
+     "w": "51.2%",
+     "start": 2.12,
+     "end": 3.56
+    },
+    {
+     "w": "fair.",
+     "start": 3.56,
+     "end": 4.04
+    }
+   ],
+   "durationInFrames": 129
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Both teams to score: 60.6%, low-confidence texture.",
+   "show": {
+    "kind": "stat",
+    "label": "both teams score",
+    "value": "60.6"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-chelsea-tottenham/s7.mp3",
+   "words": [
+    {
+     "w": "Both",
+     "start": 0.119,
+     "end": 0.44
+    },
+    {
+     "w": "teams",
+     "start": 0.52,
+     "end": 0.76
+    },
+    {
+     "w": "to",
+     "start": 0.84,
+     "end": 0.84
+    },
+    {
+     "w": "score:",
+     "start": 0.84,
+     "end": 1.4
+    },
+    {
+     "w": "60.6%,",
+     "start": 1.571,
+     "end": 3.08
+    },
+    {
+     "w": "low-confidence",
+     "start": 3.241,
+     "end": 4.12
+    },
+    {
+     "w": "texture.",
+     "start": 4.12,
+     "end": 4.68
+    }
+   ],
+   "durationInFrames": 155
+  },
+  {
+   "type": "beat",
+   "speaker": "scout",
+   "text": "Chelsea were backed 2.4 points.",
+   "show": {
+    "kind": "stat",
+    "label": "1X2 home move",
+    "value": "2.4"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-chelsea-tottenham/s8.mp3",
+   "words": [
+    {
+     "w": "Chelsea",
+     "start": 0.12,
+     "end": 0.52
+    },
+    {
+     "w": "were",
+     "start": 0.52,
+     "end": 0.6
+    },
+    {
+     "w": "backed",
+     "start": 0.68,
+     "end": 1.08
+    },
+    {
+     "w": "2.4",
+     "start": 1.081,
+     "end": 1.96
+    },
+    {
+     "w": "points.",
+     "start": 1.96,
+     "end": 2.6
+    }
+   ],
+   "durationInFrames": 93
+  },
+  {
+   "type": "beat",
+   "speaker": "sceptic",
+   "text": "We have 7 snapshots, and the opening price is unknown.",
+   "show": {
+    "kind": "stat",
+    "label": "snapshots collected",
+    "value": "7"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-chelsea-tottenham/s9.mp3",
+   "words": [
+    {
+     "w": "We",
+     "start": 0.12,
+     "end": 0.36
+    },
+    {
+     "w": "have",
+     "start": 0.44,
+     "end": 0.52
+    },
+    {
+     "w": "7",
+     "start": 0.52,
+     "end": 1
+    },
+    {
+     "w": "snapshots,",
+     "start": 1.0,
+     "end": 1.88
+    },
+    {
+     "w": "and",
+     "start": 2.199,
+     "end": 2.28
+    },
+    {
+     "w": "the",
+     "start": 2.36,
      "end": 2.44
     },
     {
-     "w": "of",
-     "start": 2.52,
-     "end": 2.52
+     "w": "opening",
+     "start": 2.44,
+     "end": 2.84
     },
     {
-     "w": "a",
-     "start": 2.52,
-     "end": 2.6
-    },
-    {
-     "w": "goal",
-     "start": 2.68,
-     "end": 2.76
-    },
-    {
-     "w": "better,",
+     "w": "price",
      "start": 2.84,
      "end": 3.24
     },
     {
-     "w": "and",
-     "start": 3.477,
-     "end": 3.56
+     "w": "is",
+     "start": 3.373,
+     "end": 3.4
     },
     {
-     "w": "it",
-     "start": 3.64,
-     "end": 3.64
+     "w": "unknown.",
+     "start": 3.402,
+     "end": 4.04
+    }
+   ],
+   "durationInFrames": 129
+  },
+  {
+   "type": "beat",
+   "speaker": "sceptic",
+   "text": "We have 45.9 hours of history.",
+   "show": {
+    "kind": "stat",
+    "label": "hours of history",
+    "value": "45.9"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-chelsea-tottenham/s10.mp3",
+   "words": [
+    {
+     "w": "We",
+     "start": 0.12,
+     "end": 0.36
+    },
+    {
+     "w": "have",
+     "start": 0.36,
+     "end": 0.52
+    },
+    {
+     "w": "45.9",
+     "start": 0.52,
+     "end": 2.04
+    },
+    {
+     "w": "hours",
+     "start": 2.04,
+     "end": 2.36
+    },
+    {
+     "w": "of",
+     "start": 2.44,
+     "end": 2.52
+    },
+    {
+     "w": "history.",
+     "start": 2.52,
+     "end": 3.08
+    }
+   ],
+   "durationInFrames": 107
+  },
+  {
+   "type": "beat",
+   "speaker": "gaffer",
+   "text": "The injury feed has 0 reports.",
+   "show": {
+    "kind": "stat",
+    "label": "injury reports",
+    "value": "0"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-chelsea-tottenham/s11.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "injury",
+     "start": 0.36,
+     "end": 0.6
+    },
+    {
+     "w": "feed",
+     "start": 0.6,
+     "end": 1
     },
     {
      "w": "has",
-     "start": 3.64,
-     "end": 3.8
+     "start": 1.08,
+     "end": 1.24
     },
     {
-     "w": "gone",
-     "start": 3.88,
-     "end": 4.04
+     "w": "0",
+     "start": 1.32,
+     "end": 1.64
     },
     {
-     "w": "flat",
-     "start": 4.04,
-     "end": 4.44
+     "w": "reports.",
+     "start": 1.64,
+     "end": 2.28
+    }
+   ],
+   "durationInFrames": 76
+  },
+  {
+   "type": "beat",
+   "speaker": "gaffer",
+   "text": "That is missing data, not proof both squads are full.",
+   "show": {
+    "kind": "phrase",
+    "text": "absence of data"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-chelsea-tottenham/s12.mp3",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.119,
+     "end": 0.36
+    },
+    {
+     "w": "is",
+     "start": 0.44,
+     "end": 0.52
+    },
+    {
+     "w": "missing",
+     "start": 0.52,
+     "end": 0.92
+    },
+    {
+     "w": "data,",
+     "start": 1.0,
+     "end": 1.48
+    },
+    {
+     "w": "not",
+     "start": 1.618,
+     "end": 1.88
+    },
+    {
+     "w": "proof",
+     "start": 1.96,
+     "end": 2.2
+    },
+    {
+     "w": "both",
+     "start": 2.2,
+     "end": 2.44
+    },
+    {
+     "w": "squads",
+     "start": 2.52,
+     "end": 2.84
+    },
+    {
+     "w": "are",
+     "start": 2.92,
+     "end": 2.92
+    },
+    {
+     "w": "full.",
+     "start": 2.92,
+     "end": 3.4
+    }
+   ],
+   "durationInFrames": 110
+  },
+  {
+   "type": "beat",
+   "speaker": "gaffer",
+   "text": "Read the numbers, wait for team news.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Small lean, not a verdict",
+     "Goals: a 3-goal game",
+     "Wait for team news"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-chelsea-tottenham/s13.mp3",
+   "words": [
+    {
+     "w": "Read",
+     "start": 0.12,
+     "end": 0.36
+    },
+    {
+     "w": "the",
+     "start": 0.44,
+     "end": 0.44
+    },
+    {
+     "w": "numbers,",
+     "start": 0.44,
+     "end": 1.08
+    },
+    {
+     "w": "wait",
+     "start": 1.258,
+     "end": 1.48
     },
     {
      "w": "for",
-     "start": 4.52,
-     "end": 4.6
+     "start": 1.48,
+     "end": 1.64
     },
     {
-     "w": "a",
-     "start": 4.68,
-     "end": 4.68
+     "w": "team",
+     "start": 1.72,
+     "end": 1.88
     },
     {
-     "w": "day.",
-     "start": 4.68,
-     "end": 5.08
-    },
-    {
-     "w": "Until",
-     "start": 5.456,
-     "end": 5.64
-    },
-    {
-     "w": "it",
-     "start": 5.64,
-     "end": 5.72
-    },
-    {
-     "w": "says",
-     "start": 5.72,
-     "end": 5.96
-    },
-    {
-     "w": "it",
-     "start": 6.04,
-     "end": 6.04
-    },
-    {
-     "w": "again,",
-     "start": 6.04,
-     "end": 6.52
-    },
-    {
-     "w": "we",
-     "start": 6.738,
-     "end": 6.84
-    },
-    {
-     "w": "watch.",
-     "start": 6.84,
-     "end": 7.32
+     "w": "news.",
+     "start": 1.88,
+     "end": 2.36
     }
    ],
-   "durationInFrames": 235
+   "durationInFrames": 86
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
-   "audio": "audio/2026-10-24-chelsea-tottenham/s7.mp3",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-chelsea-tottenham/s14.mp3",
    "words": [
     {
      "w": "AI",
@@ -1097,7 +912,7 @@
  },
  "source": "market_desk",
  "fixture_id": 1557439,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice.",
  "voiced": true
 }

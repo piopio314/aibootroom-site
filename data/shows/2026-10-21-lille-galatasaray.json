@@ -29,6 +29,26 @@
     "v": 30.6
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 43.8
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 25.6
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 30.6
+    }
+   ]
+  },
   "goals": 2.95,
   "goals_rank": 8,
   "tracked_since": "2026-10-20T20:44:00+00:00",
@@ -36,10 +56,14 @@
  },
  "scenes": [
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Lille against Galatasaray. Champions League, Wednesday.",
-   "variant": 1,
+   "text": "Lille against Galatasaray, in the Champions League.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "Lille",
@@ -52,131 +76,129 @@
      "end": 1.269
     },
     {
-     "w": "Galatasaray.",
+     "w": "Galatasaray,",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "Champions",
+     "w": "in",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "League,",
+     "w": "the",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "Wednesday.",
+     "w": "Champions",
      "start": 2.423,
      "end": 2.808
+    },
+    {
+     "w": "League.",
+     "start": 2.808,
+     "end": 3.192
     }
    ],
-   "durationInFrames": 132
+   "durationInFrames": 144
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Lille 44%, draw 26%, Galatasaray 31%. Lille are the favourites.",
-   "variant": 1,
+   "text": "Fair chances: Lille 44%, draw 26%, Galatasaray 31%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
-     "w": "Chance",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "to",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "win,",
+     "w": "Lille",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "with",
+     "w": "44%,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "the",
+     "w": "draw",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "bookmaker",
+     "w": "26%,",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "margin",
+     "w": "Galatasaray",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "removed:",
+     "w": "31%.",
      "start": 3.192,
      "end": 3.577
-    },
+    }
+   ],
+   "durationInFrames": 155
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Lille are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Lille favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
     {
      "w": "Lille",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "44%,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "draw",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "26%,",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "Galatasaray",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "31%.",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "Lille",
-     "start": 5.885,
-     "end": 6.269
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "are",
-     "start": 6.269,
-     "end": 6.654
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "the",
-     "start": 6.654,
-     "end": 7.038
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "favourites.",
-     "start": 7.038,
-     "end": 7.423
+     "start": 1.654,
+     "end": 2.038
     }
    ],
-   "durationInFrames": 271
+   "durationInFrames": 120
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 3.0 goals in this match.",
+   "text": "The market expects 3.0 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 3.0
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
@@ -195,49 +217,32 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "3.0",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "3.0",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
     }
    ],
-   "durationInFrames": 167
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Lille favourites at 44%",
-    "Galatasaray +0.0 pts since tracking started",
-    "About 3.0 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
-   "variant": 1,
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Lille favourites, 44%",
+     "About 3.0 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -260,52 +265,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {

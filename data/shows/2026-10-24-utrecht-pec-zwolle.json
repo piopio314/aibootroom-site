@@ -37,17 +37,65 @@
     "v": 20.6
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 58.2
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 58.5
+    },
+    {
+     "t": "2026-10-20T06:34:00+00:00",
+     "v": 57.4
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 21.9
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 21.7
+    },
+    {
+     "t": "2026-10-20T06:34:00+00:00",
+     "v": 22.1
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 19.9
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 19.8
+    },
+    {
+     "t": "2026-10-20T06:34:00+00:00",
+     "v": 20.6
+    }
+   ]
+  },
   "goals": 3.17,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Utrecht against PEC Zwolle. Eredivisie, Saturday.",
-   "variant": 1,
+   "text": "Utrecht against PEC Zwolle, in the Eredivisie.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "Utrecht",
@@ -65,344 +113,254 @@
      "end": 1.654
     },
     {
-     "w": "Zwolle.",
+     "w": "Zwolle,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "Eredivisie,",
+     "w": "in",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "Saturday.",
+     "w": "the",
      "start": 2.423,
      "end": 2.808
+    },
+    {
+     "w": "Eredivisie.",
+     "start": 2.808,
+     "end": 3.192
     }
    ],
-   "durationInFrames": 132
+   "durationInFrames": 144
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Utrecht 57%, draw 22%, PEC Zwolle 21%. Utrecht are the favourites.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Chance",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "to",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "win,",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "with",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "the",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "bookmaker",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "margin",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "removed:",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "Utrecht",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "57%,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "draw",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "22%,",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "PEC",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "Zwolle",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "21%.",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "Utrecht",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "are",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "the",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "favourites.",
-     "start": 7.423,
-     "end": 7.808
-    }
-   ],
-   "durationInFrames": 282
-  },
-  {
-   "type": "line",
-   "speaker": "scout",
-   "text": "Since we started tracking, PEC Zwolle went from 19.9% to 20.6%. The price is moving their way.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Since",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "we",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "started",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "tracking,",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "PEC",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "Zwolle",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "went",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "from",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "19.9%",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "to",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "20.6%.",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "The",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "price",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "is",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "moving",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "their",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "way.",
-     "start": 6.654,
-     "end": 7.038
-    }
-   ],
-   "durationInFrames": 259
-  },
-  {
-   "type": "noise",
-   "speaker": "sceptic",
-   "text": "But a move this small can be normal price noise. We wait for team news before we read too much into it.",
+   "text": "Fair chances: Utrecht 57%, draw 22%, PEC Zwolle 21%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
-     "w": "But",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "a",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "move",
+     "w": "Utrecht",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "this",
+     "w": "57%,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "small",
+     "w": "draw",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "can",
+     "w": "22%,",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "be",
+     "w": "PEC",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "normal",
+     "w": "Zwolle",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "price",
+     "w": "21%.",
+     "start": 3.577,
+     "end": 3.962
+    }
+   ],
+   "durationInFrames": 167
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Utrecht are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Utrecht favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Utrecht",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "are",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "favourites.",
+     "start": 1.654,
+     "end": 2.038
+    }
+   ],
+   "durationInFrames": 120
+  },
+  {
+   "type": "beat",
+   "speaker": "scout",
+   "text": "PEC Zwolle went from 19.9% to 20.6% since we started.",
+   "show": {
+    "kind": "move",
+    "team": "away",
+    "from": 19.9,
+    "to": 20.6
+   },
+   "first": true,
+   "variant": 0,
+   "words": [
+    {
+     "w": "PEC",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Zwolle",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "went",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "from",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "19.9%",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "to",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "20.6%",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "since",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "we",
      "start": 3.577,
      "end": 3.962
     },
     {
-     "w": "noise.",
+     "w": "started.",
      "start": 3.962,
      "end": 4.346
-    },
-    {
-     "w": "We",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "wait",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "for",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "team",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "news",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "before",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "we",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "read",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "too",
-     "start": 7.423,
-     "end": 7.808
-    },
-    {
-     "w": "much",
-     "start": 7.808,
-     "end": 8.192
-    },
-    {
-     "w": "into",
-     "start": 8.192,
-     "end": 8.577
-    },
-    {
-     "w": "it.",
-     "start": 8.577,
-     "end": 8.962
     }
    ],
-   "durationInFrames": 317
+   "durationInFrames": 178
   },
   {
-   "type": "goals",
+   "type": "beat",
+   "speaker": "sceptic",
+   "text": "A move this small can be normal price noise.",
+   "show": {
+    "kind": "phrase",
+    "text": "small move, maybe noise"
+   },
+   "first": true,
+   "variant": 0,
+   "words": [
+    {
+     "w": "A",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "move",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "this",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "small",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "can",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "be",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "normal",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "price",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "noise.",
+     "start": 3.577,
+     "end": 3.962
+    }
+   ],
+   "durationInFrames": 167
+  },
+  {
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 3.2 goals in this match. That is the highest total of the weekend.",
+   "text": "The market expects 3.2 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 3.2
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -421,89 +379,32 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "3.2",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "3.2",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Utrecht favourites at 57%",
-    "PEC Zwolle +0.7 pts since tracking started",
-    "About 3.2 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
-   "variant": 1,
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Utrecht favourites, 57%",
+     "About 3.2 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -526,52 +427,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -617,16 +504,16 @@
  "silent": true,
  "style": "pulse",
  "story": {
-  "format": "goals",
-  "kicker": "GOALS WATCH",
+  "format": "market_read",
+  "kicker": "MARKET READ",
   "stickers": [
-   "⚽",
-   "🔥",
-   "⚽"
+   "🧠",
+   "📊",
+   "🧠"
   ]
  },
  "source": "numbers",
  "fixture_id": 1552199,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

@@ -53,6 +53,98 @@
     "v": 58.5
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 21.8
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 21.8
+    },
+    {
+     "t": "2026-10-19T22:19:00+00:00",
+     "v": 20.0
+    },
+    {
+     "t": "2026-10-20T00:51:00+00:00",
+     "v": 20.0
+    },
+    {
+     "t": "2026-10-20T07:26:00+00:00",
+     "v": 20.0
+    },
+    {
+     "t": "2026-10-20T13:23:00+00:00",
+     "v": 20.0
+    },
+    {
+     "t": "2026-10-20T19:18:00+00:00",
+     "v": 20.0
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 22.1
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 22.1
+    },
+    {
+     "t": "2026-10-19T22:19:00+00:00",
+     "v": 21.5
+    },
+    {
+     "t": "2026-10-20T00:51:00+00:00",
+     "v": 21.5
+    },
+    {
+     "t": "2026-10-20T07:26:00+00:00",
+     "v": 21.5
+    },
+    {
+     "t": "2026-10-20T13:23:00+00:00",
+     "v": 21.5
+    },
+    {
+     "t": "2026-10-20T19:18:00+00:00",
+     "v": 21.5
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 56.1
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 56.1
+    },
+    {
+     "t": "2026-10-19T22:19:00+00:00",
+     "v": 58.5
+    },
+    {
+     "t": "2026-10-20T00:51:00+00:00",
+     "v": 58.5
+    },
+    {
+     "t": "2026-10-20T07:26:00+00:00",
+     "v": 58.5
+    },
+    {
+     "t": "2026-10-20T13:23:00+00:00",
+     "v": 58.5
+    },
+    {
+     "t": "2026-10-20T19:18:00+00:00",
+     "v": 58.5
+    }
+   ]
+  },
   "goals": 3.11,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
@@ -60,53 +152,69 @@
  },
  "scenes": [
   {
-   "type": "hook",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market moved 2.5 points towards Middlesbrough.",
-   "variant": 1,
+   "text": "Middlesbrough's win chance moved from 56.1% to 58.5%.",
+   "show": {
+    "kind": "move",
+    "team": "away",
+    "from": 56.1,
+    "to": 58.5
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
-     "w": "The",
+     "w": "Middlesbrough's",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "market",
+     "w": "win",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "moved",
+     "w": "chance",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "2.5",
+     "w": "moved",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "points",
+     "w": "from",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "towards",
+     "w": "56.1%",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "Middlesbrough.",
+     "w": "to",
      "start": 2.808,
      "end": 3.192
+    },
+    {
+     "w": "58.5%.",
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 144
+   "durationInFrames": 155
   },
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Bolton against Middlesbrough. Championship, Friday.",
+   "text": "Bolton against Middlesbrough, in the Championship.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
@@ -120,46 +228,12 @@
      "end": 1.269
     },
     {
-     "w": "Middlesbrough.",
+     "w": "Middlesbrough,",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "Championship,",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "Friday.",
-     "start": 2.038,
-     "end": 2.423
-    }
-   ],
-   "durationInFrames": 121
-  },
-  {
-   "type": "split",
-   "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Bolton 20%, draw 22%, Middlesbrough 58%. Middlesbrough are the favourites.",
-   "variant": 2,
-   "words": [
-    {
-     "w": "Chance",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "to",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "win,",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "with",
+     "w": "in",
      "start": 1.654,
      "end": 2.038
     },
@@ -169,166 +243,109 @@
      "end": 2.423
     },
     {
-     "w": "bookmaker",
+     "w": "Championship.",
      "start": 2.423,
      "end": 2.808
-    },
-    {
-     "w": "margin",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "removed:",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "Bolton",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "20%,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "draw",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "22%,",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "Middlesbrough",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "58%.",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "Middlesbrough",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "are",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "the",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "favourites.",
-     "start": 7.038,
-     "end": 7.423
     }
    ],
-   "durationInFrames": 271
+   "durationInFrames": 132
   },
   {
-   "type": "line",
-   "speaker": "scout",
-   "text": "Since we started tracking, Middlesbrough went from 56.1% to 58.5%. The price is moving their way.",
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Fair chances: Bolton 20%, draw 22%, Middlesbrough 58%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
-     "w": "Since",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "we",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "started",
+     "w": "Bolton",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "tracking,",
+     "w": "20%,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "Middlesbrough",
+     "w": "draw",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "went",
+     "w": "22%,",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "from",
+     "w": "Middlesbrough",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "56.1%",
+     "w": "58%.",
      "start": 3.192,
      "end": 3.577
-    },
-    {
-     "w": "to",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "58.5%.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "The",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "price",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "is",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "moving",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "their",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "way.",
-     "start": 6.269,
-     "end": 6.654
     }
    ],
-   "durationInFrames": 248
+   "durationInFrames": 155
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 3.1 goals in this match. That is the highest total of the weekend.",
+   "text": "Middlesbrough are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Middlesbrough favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Middlesbrough",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "are",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "favourites.",
+     "start": 1.654,
+     "end": 2.038
+    }
+   ],
+   "durationInFrames": 120
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects 3.1 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 3.1
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
@@ -347,89 +364,32 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "3.1",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "3.1",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Middlesbrough favourites at 58%",
-    "Middlesbrough +2.5 pts since tracking started",
-    "About 3.1 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
-   "variant": 1,
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Middlesbrough favourites, 58%",
+     "About 3.1 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -452,52 +412,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {

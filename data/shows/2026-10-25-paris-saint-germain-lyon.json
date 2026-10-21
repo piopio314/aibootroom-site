@@ -37,6 +37,50 @@
     "v": 70.7
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 68.2
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 69.9
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 70.7
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 17.4
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 16.7
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 16.3
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 14.4
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 13.4
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 13.0
+    }
+   ]
+  },
   "goals": 3.5,
   "goals_rank": 3,
   "tracked_since": "2026-10-18T22:49:00+00:00",
@@ -44,63 +88,79 @@
  },
  "scenes": [
   {
-   "type": "hook",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market moved 2.5 points towards Paris Saint Germain.",
-   "variant": 2,
+   "text": "Paris Saint Germain's win chance moved from 68.2% to 70.7%.",
+   "show": {
+    "kind": "move",
+    "team": "home",
+    "from": 68.2,
+    "to": 70.7
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
-     "w": "The",
+     "w": "Paris",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "market",
+     "w": "Saint",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "moved",
+     "w": "Germain's",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "2.5",
+     "w": "win",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "points",
+     "w": "chance",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "towards",
+     "w": "moved",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "Paris",
+     "w": "from",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "Saint",
+     "w": "68.2%",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Germain.",
+     "w": "to",
      "start": 3.577,
      "end": 3.962
+    },
+    {
+     "w": "70.7%.",
+     "start": 3.962,
+     "end": 4.346
     }
    ],
-   "durationInFrames": 167
+   "durationInFrames": 178
   },
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Paris Saint Germain against Lyon. Ligue 1, Sunday.",
+   "text": "Paris Saint Germain against Lyon, in the Ligue 1.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
@@ -124,251 +184,150 @@
      "end": 2.038
     },
     {
-     "w": "Lyon.",
+     "w": "Lyon,",
      "start": 2.038,
      "end": 2.423
+    },
+    {
+     "w": "in",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "the",
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "Ligue",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "1,",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "Sunday.",
      "start": 3.192,
      "end": 3.577
+    },
+    {
+     "w": "1.",
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 155
+   "durationInFrames": 167
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Paris Saint Germain 71%, draw 16%, Lyon 13%. Paris Saint Germain are the favourites.",
-   "variant": 1,
+   "text": "Fair chances: Paris Saint Germain 71%, draw 16%, Lyon 13%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
-     "w": "Chance",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "to",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "win,",
+     "w": "Paris",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "with",
+     "w": "Saint",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "the",
+     "w": "Germain",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "bookmaker",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "margin",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "removed:",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "Paris",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "Saint",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "Germain",
-     "start": 4.346,
-     "end": 4.731
     },
     {
      "w": "71%,",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "draw",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "16%,",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "Lyon",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "13%.",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "Paris",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "Saint",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "Germain",
-     "start": 7.423,
-     "end": 7.808
-    },
-    {
-     "w": "are",
-     "start": 7.808,
-     "end": 8.192
-    },
-    {
-     "w": "the",
-     "start": 8.192,
-     "end": 8.577
-    },
-    {
-     "w": "favourites.",
-     "start": 8.577,
-     "end": 8.962
-    }
-   ],
-   "durationInFrames": 317
-  },
-  {
-   "type": "line",
-   "speaker": "scout",
-   "text": "Since we started tracking, Paris Saint Germain went from 68.2% to 70.7%. The price is moving their way.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Since",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "we",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "started",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "tracking,",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "Paris",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "Saint",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "Germain",
+     "w": "draw",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "went",
+     "w": "16%,",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "from",
+     "w": "Lyon",
      "start": 3.577,
      "end": 3.962
     },
     {
-     "w": "68.2%",
+     "w": "13%.",
      "start": 3.962,
      "end": 4.346
-    },
-    {
-     "w": "to",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "70.7%.",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "The",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "price",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "is",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "moving",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "their",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "way.",
-     "start": 7.038,
-     "end": 7.423
     }
    ],
-   "durationInFrames": 271
+   "durationInFrames": 178
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 3.5 goals in this match.",
-   "variant": 1,
+   "text": "Paris Saint Germain are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Paris Saint Germain favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Paris",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Saint",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Germain",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "are",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "the",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "favourites.",
+     "start": 2.423,
+     "end": 2.808
+    }
+   ],
+   "durationInFrames": 132
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects 3.5 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 3.5
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -386,49 +345,32 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "3.5",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "3.5",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
     }
    ],
-   "durationInFrames": 167
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Paris Saint Germain favourites at 71%",
-    "Paris Saint Germain +2.5 pts since tracking started",
-    "About 3.5 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
-   "variant": 1,
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Paris Saint Germain favourites, 71%",
+     "About 3.5 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -451,52 +393,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {

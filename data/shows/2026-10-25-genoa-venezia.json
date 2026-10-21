@@ -45,17 +45,89 @@
     "v": 24.7
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 46.4
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 45.6
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 45.2
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 45.2
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 45.2
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 29.6
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 29.4
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 30.1
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 30.1
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 30.1
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 24.0
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 24.9
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 24.8
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 24.7
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 24.7
+    }
+   ]
+  },
   "goals": 2.43,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Genoa against Venezia. Serie A, Sunday.",
-   "variant": 1,
+   "text": "Genoa against Venezia, in the Serie A.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "Genoa",
@@ -68,355 +140,250 @@
      "end": 1.269
     },
     {
-     "w": "Venezia.",
+     "w": "Venezia,",
      "start": 1.269,
      "end": 1.654
+    },
+    {
+     "w": "in",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "the",
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "Serie",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "A,",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "Sunday.",
      "start": 2.423,
      "end": 2.808
+    },
+    {
+     "w": "A.",
+     "start": 2.808,
+     "end": 3.192
     }
    ],
-   "durationInFrames": 132
+   "durationInFrames": 144
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Genoa 45%, draw 30%, Venezia 25%. Genoa are the favourites.",
-   "variant": 2,
+   "text": "Fair chances: Genoa 45%, draw 30%, Venezia 25%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
-     "w": "Chance",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "to",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "win,",
+     "w": "Genoa",
      "start": 1.269,
      "end": 1.654
-    },
-    {
-     "w": "with",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "the",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "bookmaker",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "margin",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "removed:",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "Genoa",
-     "start": 3.577,
-     "end": 3.962
     },
     {
      "w": "45%,",
-     "start": 3.962,
-     "end": 4.346
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "draw",
-     "start": 4.346,
-     "end": 4.731
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "30%,",
-     "start": 4.731,
-     "end": 5.115
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "Venezia",
-     "start": 5.115,
-     "end": 5.5
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "25%.",
-     "start": 5.5,
-     "end": 5.885
-    },
+     "start": 3.192,
+     "end": 3.577
+    }
+   ],
+   "durationInFrames": 155
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Genoa are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Genoa favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
     {
      "w": "Genoa",
-     "start": 5.885,
-     "end": 6.269
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "are",
-     "start": 6.269,
-     "end": 6.654
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "the",
-     "start": 6.654,
-     "end": 7.038
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "favourites.",
-     "start": 7.038,
-     "end": 7.423
-    }
-   ],
-   "durationInFrames": 271
-  },
-  {
-   "type": "line",
-   "speaker": "scout",
-   "text": "Since we started tracking, Venezia went from 24.0% to 24.7%. The price is moving their way.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Since",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "we",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "started",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "tracking,",
      "start": 1.654,
      "end": 2.038
-    },
+    }
+   ],
+   "durationInFrames": 120
+  },
+  {
+   "type": "beat",
+   "speaker": "scout",
+   "text": "Venezia went from 24.0% to 24.7% since we started.",
+   "show": {
+    "kind": "move",
+    "team": "away",
+    "from": 24.0,
+    "to": 24.7
+   },
+   "first": true,
+   "variant": 0,
+   "words": [
     {
      "w": "Venezia",
-     "start": 2.038,
-     "end": 2.423
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "went",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "from",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "24.0%",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "to",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "24.7%.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "The",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "price",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "is",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "moving",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "their",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "way.",
-     "start": 6.269,
-     "end": 6.654
-    }
-   ],
-   "durationInFrames": 248
-  },
-  {
-   "type": "noise",
-   "speaker": "sceptic",
-   "text": "But a move this small can be normal price noise. We wait for team news before we read too much into it.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "But",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "a",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "move",
+     "w": "from",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "this",
+     "w": "24.0%",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "small",
+     "w": "to",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "can",
+     "w": "24.7%",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "be",
+     "w": "since",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "normal",
+     "w": "we",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "price",
+     "w": "started.",
      "start": 3.577,
      "end": 3.962
+    }
+   ],
+   "durationInFrames": 167
+  },
+  {
+   "type": "beat",
+   "speaker": "sceptic",
+   "text": "A move this small can be normal price noise.",
+   "show": {
+    "kind": "phrase",
+    "text": "small move, maybe noise"
+   },
+   "first": true,
+   "variant": 0,
+   "words": [
+    {
+     "w": "A",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "move",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "this",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "small",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "can",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "be",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "normal",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "price",
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "noise.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "We",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "wait",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "for",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "team",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "news",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "before",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "we",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "read",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "too",
-     "start": 7.423,
-     "end": 7.808
-    },
-    {
-     "w": "much",
-     "start": 7.808,
-     "end": 8.192
-    },
-    {
-     "w": "into",
-     "start": 8.192,
-     "end": 8.577
-    },
-    {
-     "w": "it.",
-     "start": 8.577,
-     "end": 8.962
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 317
+   "durationInFrames": 167
   },
   {
-   "type": "injury",
+   "type": "beat",
    "speaker": "sceptic",
-   "injuries": {
-    "home": [
-     {
-      "player": "L. Venturino",
-      "status": "Missing Fixture",
-      "reason": "Jumpers Knee"
-     }
-    ],
-    "away": [
-     {
-      "player": "M. Šverko",
-      "status": "Missing Fixture",
-      "reason": "Hip Injury"
-     }
-    ]
+   "text": "Team news: 1 Genoa player is out or doubtful.",
+   "show": {
+    "kind": "stat",
+    "label": "Genoa absences",
+    "value": "1"
    },
-   "text": "Team news: 1 player out or doubtful for Genoa, 1 for Venezia. Known absences are usually already in the price.",
+   "first": false,
    "variant": 0,
    "words": [
     {
@@ -435,98 +402,108 @@
      "end": 1.654
     },
     {
-     "w": "player",
+     "w": "Genoa",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "out",
+     "w": "player",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "or",
+     "w": "is",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "doubtful",
+     "w": "out",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "for",
+     "w": "or",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Genoa,",
+     "w": "doubtful.",
      "start": 3.577,
      "end": 3.962
+    }
+   ],
+   "durationInFrames": 167
+  },
+  {
+   "type": "beat",
+   "speaker": "sceptic",
+   "text": "Team news: 1 Venezia player is out or doubtful.",
+   "show": {
+    "kind": "stat",
+    "label": "Venezia absences",
+    "value": "1"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Team",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "news:",
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "1",
-     "start": 3.962,
-     "end": 4.346
+     "start": 1.269,
+     "end": 1.654
     },
     {
-     "w": "for",
-     "start": 4.346,
-     "end": 4.731
+     "w": "Venezia",
+     "start": 1.654,
+     "end": 2.038
     },
     {
-     "w": "Venezia.",
-     "start": 4.731,
-     "end": 5.115
+     "w": "player",
+     "start": 2.038,
+     "end": 2.423
     },
     {
-     "w": "Known",
-     "start": 5.115,
-     "end": 5.5
+     "w": "is",
+     "start": 2.423,
+     "end": 2.808
     },
     {
-     "w": "absences",
-     "start": 5.5,
-     "end": 5.885
+     "w": "out",
+     "start": 2.808,
+     "end": 3.192
     },
     {
-     "w": "are",
-     "start": 5.885,
-     "end": 6.269
+     "w": "or",
+     "start": 3.192,
+     "end": 3.577
     },
     {
-     "w": "usually",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "already",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "in",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "the",
-     "start": 7.423,
-     "end": 7.808
-    },
-    {
-     "w": "price.",
-     "start": 7.808,
-     "end": 8.192
+     "w": "doubtful.",
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 294
+   "durationInFrames": 167
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 2.4 goals in this match. That is the highest total of the weekend.",
-   "variant": 1,
+   "text": "The market expects 2.4 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 2.4
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -544,89 +521,32 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "2.4",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "2.4",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Genoa favourites at 45%",
-    "Venezia +0.7 pts since tracking started",
-    "About 2.4 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
-   "variant": 1,
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Genoa favourites, 45%",
+     "About 2.4 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -649,52 +569,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -740,16 +646,16 @@
  "silent": true,
  "style": "pulse",
  "story": {
-  "format": "goals",
-  "kicker": "GOALS WATCH",
+  "format": "market_read",
+  "kicker": "MARKET READ",
   "stickers": [
-   "⚽",
-   "⚽",
-   "🎯"
+   "🧠",
+   "🧠",
+   "👀"
   ]
  },
  "source": "numbers",
  "fixture_id": 1550160,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

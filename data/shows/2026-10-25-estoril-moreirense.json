@@ -45,61 +45,145 @@
     "v": 51.3
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 49.1
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 52.0
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 52.0
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 52.0
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 51.3
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 26.6
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 24.9
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 24.9
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 24.9
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 25.7
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 24.3
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 23.1
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 23.1
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 23.1
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 23.0
+    }
+   ]
+  },
   "goals": 2.52,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
-   "type": "hook",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market moved 2.2 points towards Estoril.",
+   "text": "Estoril's win chance moved from 49.1% to 51.3%.",
+   "show": {
+    "kind": "move",
+    "team": "home",
+    "from": 49.1,
+    "to": 51.3
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
-     "w": "The",
+     "w": "Estoril's",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "market",
+     "w": "win",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "moved",
+     "w": "chance",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "2.2",
+     "w": "moved",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "points",
+     "w": "from",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "towards",
+     "w": "49.1%",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "Estoril.",
+     "w": "to",
      "start": 2.808,
      "end": 3.192
+    },
+    {
+     "w": "51.3%.",
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 144
+   "durationInFrames": 155
   },
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Estoril against Moreirense. Primeira Liga, Sunday.",
-   "variant": 1,
+   "text": "Estoril against Moreirense, in the Primeira Liga.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
      "w": "Estoril",
@@ -112,220 +196,129 @@
      "end": 1.269
     },
     {
-     "w": "Moreirense.",
+     "w": "Moreirense,",
      "start": 1.269,
      "end": 1.654
+    },
+    {
+     "w": "in",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "the",
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "Primeira",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "Liga,",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "Sunday.",
      "start": 2.423,
      "end": 2.808
+    },
+    {
+     "w": "Liga.",
+     "start": 2.808,
+     "end": 3.192
     }
    ],
-   "durationInFrames": 132
+   "durationInFrames": 144
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Estoril 51%, draw 26%, Moreirense 23%. Estoril are the favourites.",
+   "text": "Fair chances: Estoril 51%, draw 26%, Moreirense 23%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
-     "w": "Chance",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "to",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "win,",
+     "w": "Estoril",
      "start": 1.269,
      "end": 1.654
-    },
-    {
-     "w": "with",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "the",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "bookmaker",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "margin",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "removed:",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "Estoril",
-     "start": 3.577,
-     "end": 3.962
     },
     {
      "w": "51%,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "draw",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "26%,",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "Moreirense",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "23%.",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "Estoril",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "are",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "the",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "favourites.",
-     "start": 7.038,
-     "end": 7.423
-    }
-   ],
-   "durationInFrames": 271
-  },
-  {
-   "type": "line",
-   "speaker": "scout",
-   "text": "Since we started tracking, Estoril went from 49.1% to 51.3%. The price is moving their way.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Since",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "we",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "started",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "tracking,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "Estoril",
+     "w": "draw",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "went",
+     "w": "26%,",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "from",
+     "w": "Moreirense",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "49.1%",
+     "w": "23%.",
      "start": 3.192,
      "end": 3.577
-    },
-    {
-     "w": "to",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "51.3%.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "The",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "price",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "is",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "moving",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "their",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "way.",
-     "start": 6.269,
-     "end": 6.654
     }
    ],
-   "durationInFrames": 248
+   "durationInFrames": 155
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 2.5 goals in this match. That is the highest total of the weekend.",
+   "text": "Estoril are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Estoril favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Estoril",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "are",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "favourites.",
+     "start": 1.654,
+     "end": 2.038
+    }
+   ],
+   "durationInFrames": 120
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects 2.5 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 2.5
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
@@ -344,89 +337,32 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "2.5",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "2.5",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Estoril favourites at 51%",
-    "Estoril +2.2 pts since tracking started",
-    "About 2.5 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
-   "variant": 1,
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Estoril favourites, 51%",
+     "About 2.5 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -449,52 +385,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -550,6 +472,6 @@
  },
  "source": "numbers",
  "fixture_id": 1575519,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

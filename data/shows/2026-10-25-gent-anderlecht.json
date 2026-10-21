@@ -33,60 +33,108 @@
     "v": 38.6
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 37.1
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 38.6
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 31.6
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 31.4
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 31.3
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 30.1
+    }
+   ]
+  },
   "goals": 2.39,
   "goals_rank": 1,
   "tracked_since": "2026-10-19T04:26:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
-   "type": "hook",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market moved 1.5 points towards Gent.",
-   "variant": 2,
+   "text": "Gent's win chance moved from 37.1% to 38.6%.",
+   "show": {
+    "kind": "move",
+    "team": "home",
+    "from": 37.1,
+    "to": 38.6
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
-     "w": "The",
+     "w": "Gent's",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "market",
+     "w": "win",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "moved",
+     "w": "chance",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "1.5",
+     "w": "moved",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "points",
+     "w": "from",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "towards",
+     "w": "37.1%",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "Gent.",
+     "w": "to",
      "start": 2.808,
      "end": 3.192
+    },
+    {
+     "w": "38.6%.",
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 144
+   "durationInFrames": 155
   },
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Gent against Anderlecht. Jupiler Pro League, Sunday.",
+   "text": "Gent against Anderlecht, in the Jupiler Pro League.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
@@ -100,225 +148,134 @@
      "end": 1.269
     },
     {
-     "w": "Anderlecht.",
+     "w": "Anderlecht,",
      "start": 1.269,
      "end": 1.654
+    },
+    {
+     "w": "in",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "the",
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "Jupiler",
-     "start": 1.654,
-     "end": 2.038
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "Pro",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "League,",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "Sunday.",
      "start": 2.808,
      "end": 3.192
+    },
+    {
+     "w": "League.",
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 144
+   "durationInFrames": 155
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Gent 39%, draw 31%, Anderlecht 30%. Gent are the favourites.",
-   "variant": 2,
+   "text": "Fair chances: Gent 39%, draw 31%, Anderlecht 30%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
-     "w": "Chance",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "to",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "win,",
+     "w": "Gent",
      "start": 1.269,
      "end": 1.654
-    },
-    {
-     "w": "with",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "the",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "bookmaker",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "margin",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "removed:",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "Gent",
-     "start": 3.577,
-     "end": 3.962
     },
     {
      "w": "39%,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "draw",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "31%,",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "Anderlecht",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "30%.",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "Gent",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "are",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "the",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "favourites.",
-     "start": 7.038,
-     "end": 7.423
-    }
-   ],
-   "durationInFrames": 271
-  },
-  {
-   "type": "line",
-   "speaker": "scout",
-   "text": "Since we started tracking, Gent went from 37.1% to 38.6%. The price is moving their way.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Since",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "we",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "started",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "tracking,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "Gent",
+     "w": "draw",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "went",
+     "w": "31%,",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "from",
+     "w": "Anderlecht",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "37.1%",
+     "w": "30%.",
      "start": 3.192,
      "end": 3.577
-    },
-    {
-     "w": "to",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "38.6%.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "The",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "price",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "is",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "moving",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "their",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "way.",
-     "start": 6.269,
-     "end": 6.654
     }
    ],
-   "durationInFrames": 248
+   "durationInFrames": 155
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 2.4 goals in this match. That is the highest total of the weekend.",
+   "text": "Gent are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Gent favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Gent",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "are",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "favourites.",
+     "start": 1.654,
+     "end": 2.038
+    }
+   ],
+   "durationInFrames": 120
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects 2.4 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 2.4
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
@@ -337,88 +294,31 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "2.4",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "2.4",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Gent favourites at 39%",
-    "Gent +1.5 pts since tracking started",
-    "About 2.4 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Gent favourites, 39%",
+     "About 2.4 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -442,52 +342,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -533,16 +419,16 @@
  "silent": true,
  "style": "pulse",
  "story": {
-  "format": "goals",
-  "kicker": "GOALS WATCH",
+  "format": "market_read",
+  "kicker": "MARKET READ",
   "stickers": [
-   "⚽",
-   "🔥",
-   "🔥"
+   "🧠",
+   "📊",
+   "📊"
   ]
  },
  "source": "numbers",
  "fixture_id": 1558656,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

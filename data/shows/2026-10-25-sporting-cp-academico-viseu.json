@@ -53,66 +53,174 @@
     "v": 8.7
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 80.1
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "v": 78.0
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 77.1
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 76.1
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 76.1
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "v": 75.8
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 75.8
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 13.2
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "v": 14.3
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 14.5
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 15.0
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 15.3
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "v": 15.4
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 15.4
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 6.2
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "v": 8.4
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 8.6
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 8.6
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 8.6
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "v": 8.7
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 8.7
+    }
+   ]
+  },
   "goals": 3.24,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
-   "type": "hook",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market moved 2.4 points towards Academico Viseu.",
+   "text": "Academico Viseu's win chance moved from 6.2% to 8.7%.",
+   "show": {
+    "kind": "move",
+    "team": "away",
+    "from": 6.2,
+    "to": 8.7
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
-     "w": "The",
+     "w": "Academico",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "market",
+     "w": "Viseu's",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "moved",
+     "w": "win",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "2.4",
+     "w": "chance",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "points",
+     "w": "moved",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "towards",
+     "w": "from",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "Academico",
+     "w": "6.2%",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "Viseu.",
+     "w": "to",
      "start": 3.192,
      "end": 3.577
+    },
+    {
+     "w": "8.7%.",
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 155
+   "durationInFrames": 167
   },
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Sporting CP against Academico Viseu. Primeira Liga, Sunday.",
-   "variant": 1,
+   "text": "Sporting CP against Academico Viseu, in the Primeira Liga.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
      "w": "Sporting",
@@ -135,241 +243,145 @@
      "end": 2.038
     },
     {
-     "w": "Viseu.",
+     "w": "Viseu,",
      "start": 2.038,
      "end": 2.423
+    },
+    {
+     "w": "in",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "the",
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "Primeira",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "Liga,",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "Sunday.",
-     "start": 3.192,
-     "end": 3.577
-    }
-   ],
-   "durationInFrames": 155
-  },
-  {
-   "type": "split",
-   "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Sporting CP 76%, draw 15%, Academico Viseu 9%. Sporting CP are the favourites.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Chance",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "to",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "win,",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "with",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "the",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "bookmaker",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "margin",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "removed:",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Sporting",
+     "w": "Liga.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "CP",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "76%,",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "draw",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "15%,",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "Academico",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "Viseu",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "9%.",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "Sporting",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "CP",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "are",
-     "start": 7.423,
-     "end": 7.808
-    },
-    {
-     "w": "the",
-     "start": 7.808,
-     "end": 8.192
-    },
-    {
-     "w": "favourites.",
-     "start": 8.192,
-     "end": 8.577
     }
    ],
-   "durationInFrames": 305
+   "durationInFrames": 167
   },
   {
-   "type": "line",
-   "speaker": "scout",
-   "text": "Since we started tracking, Academico Viseu went from 6.2% to 8.7%. The price is moving their way.",
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Fair chances: Sporting CP 76%, draw 15%, Academico Viseu 9%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
-     "w": "Since",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "we",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "started",
+     "w": "Sporting",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "tracking,",
+     "w": "CP",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "Academico",
+     "w": "76%,",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "Viseu",
+     "w": "draw",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "went",
+     "w": "15%,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "from",
+     "w": "Academico",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "6.2%",
+     "w": "Viseu",
      "start": 3.577,
      "end": 3.962
     },
     {
-     "w": "to",
+     "w": "9%.",
      "start": 3.962,
      "end": 4.346
-    },
-    {
-     "w": "8.7%.",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "The",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "price",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "is",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "moving",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "their",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "way.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 178
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 3.2 goals in this match. That is the highest total of the weekend.",
-   "variant": 1,
+   "text": "Sporting CP are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Sporting CP favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Sporting",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "CP",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "are",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "the",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "favourites.",
+     "start": 2.038,
+     "end": 2.423
+    }
+   ],
+   "durationInFrames": 121
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects 3.2 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 3.2
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -387,89 +399,32 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "3.2",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "3.2",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Sporting CP favourites at 76%",
-    "Academico Viseu +2.4 pts since tracking started",
-    "About 3.2 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
-   "variant": 1,
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Sporting CP favourites, 76%",
+     "About 3.2 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -492,52 +447,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -593,6 +534,6 @@
  },
  "source": "numbers",
  "fixture_id": 1575525,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

@@ -29,6 +29,26 @@
     "v": 28.8
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 47.2
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 24.1
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 28.8
+    }
+   ]
+  },
   "goals": 3.14,
   "goals_rank": 1,
   "tracked_since": "2026-10-20T20:44:00+00:00",
@@ -36,10 +56,14 @@
  },
  "scenes": [
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "1899 Hoffenheim against Lyon. Europa League, Thursday.",
-   "variant": 1,
+   "text": "1899 Hoffenheim against Lyon, in the Europa League.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "1899",
@@ -57,142 +81,140 @@
      "end": 1.654
     },
     {
-     "w": "Lyon.",
+     "w": "Lyon,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "Europa",
+     "w": "in",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "League,",
+     "w": "the",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "Thursday.",
+     "w": "Europa",
      "start": 2.808,
      "end": 3.192
+    },
+    {
+     "w": "League.",
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 144
+   "durationInFrames": 155
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: 1899 Hoffenheim 47%, draw 24%, Lyon 29%. 1899 Hoffenheim are the favourites.",
+   "text": "Fair chances: 1899 Hoffenheim 47%, draw 24%, Lyon 29%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
-     "w": "Chance",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "to",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "win,",
+     "w": "1899",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "with",
+     "w": "Hoffenheim",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "the",
+     "w": "47%,",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "bookmaker",
+     "w": "draw",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "margin",
+     "w": "24%,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "removed:",
+     "w": "Lyon",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "1899",
+     "w": "29%.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "Hoffenheim",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "47%,",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "draw",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "24%,",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "Lyon",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "29%.",
-     "start": 5.885,
-     "end": 6.269
-    },
+    }
+   ],
+   "durationInFrames": 167
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "1899 Hoffenheim are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "1899 Hoffenheim favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
     {
      "w": "1899",
-     "start": 6.269,
-     "end": 6.654
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "Hoffenheim",
-     "start": 6.654,
-     "end": 7.038
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "are",
-     "start": 7.038,
-     "end": 7.423
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "the",
-     "start": 7.423,
-     "end": 7.808
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "favourites.",
-     "start": 7.808,
-     "end": 8.192
+     "start": 2.038,
+     "end": 2.423
     }
    ],
-   "durationInFrames": 294
+   "durationInFrames": 121
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 3.1 goals in this match. That is the highest total of the weekend.",
-   "variant": 1,
+   "text": "The market expects 3.1 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 3.1
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -210,89 +232,32 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "3.1",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "3.1",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "1899 Hoffenheim favourites at 47%",
-    "Lyon +0.0 pts since tracking started",
-    "About 3.1 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
-   "variant": 1,
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "1899 Hoffenheim favourites, 47%",
+     "About 3.1 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -315,52 +280,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -406,12 +357,12 @@
  "silent": true,
  "style": "pulse",
  "story": {
-  "format": "goals",
-  "kicker": "GOALS WATCH",
+  "format": "quiet",
+  "kicker": "QUIET MARKET",
   "stickers": [
-   "🔥",
-   "🎯",
-   "🔥"
+   "😴",
+   "🧊",
+   "😴"
   ]
  },
  "source": "numbers",

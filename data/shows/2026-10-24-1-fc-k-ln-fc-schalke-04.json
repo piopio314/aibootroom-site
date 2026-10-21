@@ -29,17 +29,41 @@
     "v": 28.5
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 47.4
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 24.1
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 28.5
+    }
+   ]
+  },
   "goals": 3.0,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "1. FC Köln against FC Schalke 04. Bundesliga, Saturday.",
-   "variant": 1,
+   "text": "1. FC Köln against FC Schalke 04, in the Bundesliga.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "1.",
@@ -72,46 +96,129 @@
      "end": 2.808
     },
     {
-     "w": "04.",
+     "w": "04,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "Bundesliga,",
+     "w": "in",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Saturday.",
+     "w": "the",
      "start": 3.577,
      "end": 3.962
+    },
+    {
+     "w": "Bundesliga.",
+     "start": 3.962,
+     "end": 4.346
     }
    ],
-   "durationInFrames": 167
+   "durationInFrames": 178
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: 1. FC Köln 47%, draw 24%, FC Schalke 04 28%. 1. FC Köln are the favourites.",
-   "variant": 2,
+   "text": "Fair chances: 1. FC Köln 47%, draw 24%, FC Schalke 04 28%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
-     "w": "Chance",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "to",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "win,",
+     "w": "1.",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "with",
+     "w": "FC",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "Köln",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "47%,",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "draw",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "24%,",
+     "start": 3.192,
+     "end": 3.577
+    },
+    {
+     "w": "FC",
+     "start": 3.577,
+     "end": 3.962
+    },
+    {
+     "w": "Schalke",
+     "start": 3.962,
+     "end": 4.346
+    },
+    {
+     "w": "04",
+     "start": 4.346,
+     "end": 4.731
+    },
+    {
+     "w": "28%.",
+     "start": 4.731,
+     "end": 5.115
+    }
+   ],
+   "durationInFrames": 201
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "1. FC Köln are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "1. FC Köln favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "1.",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "FC",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "Köln",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "are",
      "start": 1.654,
      "end": 2.038
     },
@@ -121,108 +228,23 @@
      "end": 2.423
     },
     {
-     "w": "bookmaker",
+     "w": "favourites.",
      "start": 2.423,
      "end": 2.808
-    },
-    {
-     "w": "margin",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "removed:",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "1.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "FC",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "Köln",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "47%,",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "draw",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "24%,",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "FC",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "Schalke",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "04",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "28%.",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "1.",
-     "start": 7.423,
-     "end": 7.808
-    },
-    {
-     "w": "FC",
-     "start": 7.808,
-     "end": 8.192
-    },
-    {
-     "w": "Köln",
-     "start": 8.192,
-     "end": 8.577
-    },
-    {
-     "w": "are",
-     "start": 8.577,
-     "end": 8.962
-    },
-    {
-     "w": "the",
-     "start": 8.962,
-     "end": 9.346
-    },
-    {
-     "w": "favourites.",
-     "start": 9.346,
-     "end": 9.731
     }
    ],
-   "durationInFrames": 340
+   "durationInFrames": 132
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 3.0 goals in this match. That is the highest total of the weekend.",
-   "variant": 1,
+   "text": "The market expects 3.0 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 3.0
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -240,89 +262,32 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "3.0",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "3.0",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "1. FC Köln favourites at 47%",
-    "FC Schalke 04 +0.0 pts since tracking started",
-    "About 3.0 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
-   "variant": 1,
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "1. FC Köln favourites, 47%",
+     "About 3.0 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -345,52 +310,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -436,16 +387,16 @@
  "silent": true,
  "style": "pulse",
  "story": {
-  "format": "goals",
-  "kicker": "GOALS WATCH",
+  "format": "quiet",
+  "kicker": "QUIET MARKET",
   "stickers": [
-   "🔥",
-   "🎯",
-   "🎯"
+   "😴",
+   "🧊",
+   "🧊"
   ]
  },
  "source": "numbers",
  "fixture_id": 1575201,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

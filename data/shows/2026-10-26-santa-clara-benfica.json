@@ -45,16 +45,88 @@
     "v": 67.7
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 12.1
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "v": 11.9
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 11.4
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 11.1
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 11.2
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 20.8
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "v": 21.5
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 21.4
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 21.1
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 20.9
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 67.1
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "v": 66.8
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 67.1
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 67.2
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 67.7
+    }
+   ]
+  },
   "goals": 2.55,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Santa Clara against Benfica. Primeira Liga, Monday.",
+   "text": "Santa Clara against Benfica, in the Primeira Liga.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -73,344 +145,254 @@
      "end": 1.654
     },
     {
-     "w": "Benfica.",
+     "w": "Benfica,",
      "start": 1.654,
      "end": 2.038
+    },
+    {
+     "w": "in",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "the",
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "Primeira",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "Liga,",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "Monday.",
-     "start": 2.808,
-     "end": 3.192
-    }
-   ],
-   "durationInFrames": 144
-  },
-  {
-   "type": "split",
-   "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Santa Clara 11%, draw 21%, Benfica 68%. Benfica are the favourites.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Chance",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "to",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "win,",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "with",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "the",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "bookmaker",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "margin",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "removed:",
+     "w": "Liga.",
      "start": 3.192,
      "end": 3.577
-    },
-    {
-     "w": "Santa",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "Clara",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "11%,",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "draw",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "21%,",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "Benfica",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "68%.",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "Benfica",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "are",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "the",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "favourites.",
-     "start": 7.423,
-     "end": 7.808
     }
    ],
-   "durationInFrames": 282
+   "durationInFrames": 155
   },
   {
-   "type": "line",
-   "speaker": "scout",
-   "text": "Since we started tracking, Benfica went from 67.1% to 67.7%. The price is moving their way.",
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Fair chances: Santa Clara 11%, draw 21%, Benfica 68%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
-     "w": "Since",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "we",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "started",
+     "w": "Santa",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "tracking,",
+     "w": "Clara",
      "start": 1.654,
      "end": 2.038
+    },
+    {
+     "w": "11%,",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "draw",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "21%,",
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "Benfica",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "went",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "from",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "67.1%",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "to",
+     "w": "68%.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "67.7%.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "The",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "price",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "is",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "moving",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "their",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "way.",
-     "start": 6.269,
-     "end": 6.654
     }
    ],
-   "durationInFrames": 248
+   "durationInFrames": 167
   },
   {
-   "type": "noise",
-   "speaker": "sceptic",
-   "text": "But a move this small can be normal price noise. We wait for team news before we read too much into it.",
-   "variant": 1,
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Benfica are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Benfica favourites"
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
-     "w": "But",
+     "w": "Benfica",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "a",
+     "w": "are",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "move",
+     "w": "the",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "this",
+     "w": "favourites.",
+     "start": 1.654,
+     "end": 2.038
+    }
+   ],
+   "durationInFrames": 120
+  },
+  {
+   "type": "beat",
+   "speaker": "scout",
+   "text": "Benfica went from 67.1% to 67.7% since we started.",
+   "show": {
+    "kind": "move",
+    "team": "away",
+    "from": 67.1,
+    "to": 67.7
+   },
+   "first": true,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Benfica",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "went",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "from",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "67.1%",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "small",
+     "w": "to",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "can",
+     "w": "67.7%",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "be",
+     "w": "since",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "normal",
+     "w": "we",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "price",
+     "w": "started.",
      "start": 3.577,
      "end": 3.962
+    }
+   ],
+   "durationInFrames": 167
+  },
+  {
+   "type": "beat",
+   "speaker": "sceptic",
+   "text": "A move this small can be normal price noise.",
+   "show": {
+    "kind": "phrase",
+    "text": "small move, maybe noise"
+   },
+   "first": true,
+   "variant": 0,
+   "words": [
+    {
+     "w": "A",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "move",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "this",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "small",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "can",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "be",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "normal",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "price",
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "noise.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "We",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "wait",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "for",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "team",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "news",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "before",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "we",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "read",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "too",
-     "start": 7.423,
-     "end": 7.808
-    },
-    {
-     "w": "much",
-     "start": 7.808,
-     "end": 8.192
-    },
-    {
-     "w": "into",
-     "start": 8.192,
-     "end": 8.577
-    },
-    {
-     "w": "it.",
-     "start": 8.577,
-     "end": 8.962
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 317
+   "durationInFrames": 167
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 2.5 goals in this match. That is the highest total of the weekend.",
+   "text": "The market expects 2.5 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 2.5
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -429,89 +411,32 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "2.5",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "2.5",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Benfica favourites at 68%",
-    "Benfica +0.5 pts since tracking started",
-    "About 2.5 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
-   "variant": 1,
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Benfica favourites, 68%",
+     "About 2.5 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -534,52 +459,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -625,16 +536,16 @@
  "silent": true,
  "style": "pulse",
  "story": {
-  "format": "goals",
-  "kicker": "GOALS WATCH",
+  "format": "market_read",
+  "kicker": "MARKET READ",
   "stickers": [
-   "⚽",
-   "🔥",
-   "🔥"
+   "🧠",
+   "📊",
+   "📊"
   ]
  },
  "source": "numbers",
  "fixture_id": 1575524,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

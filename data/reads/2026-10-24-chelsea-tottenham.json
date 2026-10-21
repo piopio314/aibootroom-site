@@ -4,19 +4,15 @@
  "home": "Chelsea",
  "away": "Tottenham",
  "kickoff": "2026-10-24T16:30:00+00:00",
- "generated_at": "2026-10-20T12:05:56+00:00",
- "headline": "Chelsea clear favourites, but the move has stalled",
- "summary": "Chelsea are the market's clear favourite at 54.9% fair, with the draw at 22.7% and Tottenham at 22.5%. The fair Asian handicap line sits at -0.73, after a 2.5 percentage point shift to the home side and a tenth-goal line move. All of it landed inside one snapshot 27 minutes after our feed came online, and it has held flat for the last 24 hours, so it reads as a level rather than a trend. Goals look settled: Over 3.0 is 51.2% at the sharp market with a fair total of 3.05, and both teams to score holds at 60.6% consensus. Zero injury reports in our feed is an empty feed, not a clean bill of health.",
- "voices": {
-  "scout": "The sharp market went from fifty-two and a half to fifty-four point nine per cent on Chelsea, and pushed the handicap a tenth of a goal toward them, to minus zero point seven three. Four books moved together. That's the shape of an informed move.",
-  "sceptic": "Or it's a screenshot. Four books carrying the identical timestamp, twenty-seven minutes after we started collecting, is just as easily books reopening overnight or our first capture settling. And we have seven snapshots of history. That's a level, not a trend.",
-  "gaffer": "The market told us Chelsea are three-quarters of a goal better, and it has gone flat for a day. Until it says it again, we watch."
- },
- "video_title": "Chelsea 54.9%: One Snapshot, Two Flat Days",
+ "generated_at": "2026-10-21T08:47:39+00:00",
+ "headline": "Chelsea vs Tottenham: the market sees a 3-goal game",
+ "summary": "The market makes Chelsea clear favourites at 54.9% fair chance, the bookmaker's margin removed, with the draw at 22.7% and Tottenham at 22.5%. The handicap is quoted at -0.75 goals, with the computed fair line at -0.73, so the market rates Chelsea about three-quarters of a goal better. Since tracking started, Chelsea's 1X2 chance moved 2.4 points and the handicap fair line moved from -0.63 to -0.73. Both moves fall inside the gap between our first two snapshots, across 7 snapshots and 45.9 hours, and the true opening price is unknown. On goals, Over 3.0 is 51.2% fair and both teams to score is 60.6%, low-confidence context. The injury feed is empty, which is absence of data, not proof of full availability.",
+ "voices": {},
+ "video_title": "Chelsea vs Tottenham: market sees a 3-goal game",
  "key_points": [
-  "Chelsea 54.9% fair, AH fair line -0.73 after one 2.5 pp snapshot",
-  "Flat for 24 hours over just 35.5 hours and 7 snapshots of history",
-  "Goals settled: Over 3.0 at 51.2%, BTTS Yes 60.6% unchanged"
+  "Chelsea 54.9% fair, draw 22.7%, Spurs 22.5% — AH quoted -0.75, fair -0.73",
+  "A 2.4 pp 1x2 lean and 2.5 pp AH move, both inside our first snapshot gap",
+  "True opening unknown, 7 snapshots in 46 hours, 0 injury reports"
  ],
  "market": {
   "id": 1557439,
@@ -89,7 +85,7 @@
    "away": 0
   },
   "read": "2026-10-24-chelsea-tottenham",
-  "headline": "Chelsea clear favourites, but the move has stalled"
+  "headline": "Chelsea vs Tottenham: the market sees a 3-goal game"
  },
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }

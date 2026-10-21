@@ -57,6 +57,110 @@
     "v": 31.0
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 46.0
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "v": 46.0
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 45.2
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 44.5
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "v": 44.5
+    },
+    {
+     "t": "2026-10-19T14:23:00+00:00",
+     "v": 44.5
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "v": 44.7
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 44.7
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 24.0
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "v": 24.0
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 24.4
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 24.3
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "v": 24.3
+    },
+    {
+     "t": "2026-10-19T14:23:00+00:00",
+     "v": 24.3
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "v": 24.3
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 24.3
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 30.0
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "v": 30.0
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 30.4
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 31.1
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "v": 31.1
+    },
+    {
+     "t": "2026-10-19T14:23:00+00:00",
+     "v": 31.1
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "v": 31.0
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 31.0
+    }
+   ]
+  },
   "goals": 2.96,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
@@ -64,54 +168,70 @@
  },
  "scenes": [
   {
-   "type": "hook",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market moved 1.0 points towards Brighton.",
-   "variant": 2,
+   "text": "Brighton's win chance moved from 30.0% to 31.0%.",
+   "show": {
+    "kind": "move",
+    "team": "away",
+    "from": 30.0,
+    "to": 31.0
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
-     "w": "The",
+     "w": "Brighton's",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "market",
+     "w": "win",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "moved",
+     "w": "chance",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "1.0",
+     "w": "moved",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "points",
+     "w": "from",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "towards",
+     "w": "30.0%",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "Brighton.",
+     "w": "to",
      "start": 2.808,
      "end": 3.192
+    },
+    {
+     "w": "31.0%.",
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 144
+   "durationInFrames": 155
   },
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Liverpool against Brighton. Premier League, Sunday.",
-   "variant": 1,
+   "text": "Liverpool against Brighton, in the Premier League.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
      "w": "Liverpool",
@@ -124,340 +244,130 @@
      "end": 1.269
     },
     {
-     "w": "Brighton.",
+     "w": "Brighton,",
      "start": 1.269,
      "end": 1.654
+    },
+    {
+     "w": "in",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "the",
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "Premier",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "League,",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "Sunday.",
      "start": 2.423,
      "end": 2.808
+    },
+    {
+     "w": "League.",
+     "start": 2.808,
+     "end": 3.192
     }
    ],
-   "durationInFrames": 132
+   "durationInFrames": 144
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Liverpool 45%, draw 24%, Brighton 31%. Liverpool are the favourites.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Chance",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "to",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "win,",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "with",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "the",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "bookmaker",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "margin",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "removed:",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "Liverpool",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "45%,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "draw",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "24%,",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "Brighton",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "31%.",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "Liverpool",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "are",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "the",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "favourites.",
-     "start": 7.038,
-     "end": 7.423
-    }
-   ],
-   "durationInFrames": 271
-  },
-  {
-   "type": "line",
-   "speaker": "scout",
-   "text": "Since we started tracking, Brighton went from 30.0% to 31.0%. The price is moving their way.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Since",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "we",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "started",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "tracking,",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "Brighton",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "went",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "from",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "30.0%",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "to",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "31.0%.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "The",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "price",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "is",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "moving",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "their",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "way.",
-     "start": 6.269,
-     "end": 6.654
-    }
-   ],
-   "durationInFrames": 248
-  },
-  {
-   "type": "noise",
-   "speaker": "sceptic",
-   "text": "But a move this small can be normal price noise. We wait for team news before we read too much into it.",
+   "text": "Fair chances: Liverpool 45%, draw 24%, Brighton 31%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
-     "w": "But",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "a",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "move",
+     "w": "Liverpool",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "this",
+     "w": "45%,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "small",
+     "w": "draw",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "can",
+     "w": "24%,",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "be",
+     "w": "Brighton",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "normal",
+     "w": "31%.",
      "start": 3.192,
      "end": 3.577
-    },
-    {
-     "w": "price",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "noise.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "We",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "wait",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "for",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "team",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "news",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "before",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "we",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "read",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "too",
-     "start": 7.423,
-     "end": 7.808
-    },
-    {
-     "w": "much",
-     "start": 7.808,
-     "end": 8.192
-    },
-    {
-     "w": "into",
-     "start": 8.192,
-     "end": 8.577
-    },
-    {
-     "w": "it.",
-     "start": 8.577,
-     "end": 8.962
     }
    ],
-   "durationInFrames": 317
+   "durationInFrames": 155
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 3.0 goals in this match. That is the highest total of the weekend.",
-   "variant": 1,
+   "text": "Liverpool are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Liverpool favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Liverpool",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "are",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "favourites.",
+     "start": 1.654,
+     "end": 2.038
+    }
+   ],
+   "durationInFrames": 120
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects 3.0 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 3.0
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -475,88 +385,31 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "3.0",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "3.0",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Liverpool favourites at 45%",
-    "Brighton +1.0 pts since tracking started",
-    "About 3.0 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Liverpool favourites, 45%",
+     "About 3.0 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -580,52 +433,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -671,12 +510,12 @@
  "silent": true,
  "style": "pulse",
  "story": {
-  "format": "goals",
-  "kicker": "GOALS WATCH",
+  "format": "market_read",
+  "kicker": "MARKET READ",
   "stickers": [
-   "🎯",
-   "🔥",
-   "🎯"
+   "👀",
+   "📊",
+   "👀"
   ]
  },
  "source": "numbers",

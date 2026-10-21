@@ -1,0 +1,79 @@
+{
+ "slug": "2026-10-24-napoli-as-roma",
+ "league": "Serie A",
+ "home": "Napoli",
+ "away": "AS Roma",
+ "kickoff": "2026-10-24T16:00:00+00:00",
+ "generated_at": "2026-10-21T08:49:18+00:00",
+ "headline": "Napoli vs Roma: a near coin-flip on the market",
+ "summary": "The market makes Roma a narrow favourite at a fair 37.8%, with Napoli at 34.4% and the draw at 27.7% — close to a coin flip. The biggest moves since we started tracking are small: Napoli's level-ball handicap firmed from 44.7% to 47.3% on consensus, while Roma eased from 38.9% to 37.8% on the sharp market. Two details keep this measured. The handicap's fair line moved only 0.04, and only 5 books quote it. We also hold just 5 price snapshots over 45.9 hours, and every first mover is stamped at the same moment — consistent with a collection snapshot rather than informed money. Goals give no direction either: over 2.5 sits at 50.9%. Both listed injuries were on our first injury list, so we cannot date when they became public.",
+ "voices": {},
+ "video_title": "Napoli vs Roma: a near coin-flip the market won't call",
+ "key_points": [
+  "Roma 37.8% vs Napoli 34.4% — a near coin-flip",
+  "AH Home +0 firmed ~2.5 pp on consensus but fair line moved only 0.04, on 5 books",
+  "Both injuries predate nothing we can time — news effect unverifiable"
+ ],
+ "market": {
+  "id": 1550164,
+  "slug": "2026-10-24-napoli-as-roma",
+  "league": "Serie A",
+  "kickoff": "2026-10-24T16:00:00+00:00",
+  "home": "Napoli",
+  "away": "AS Roma",
+  "fair": {
+   "home": 34.4,
+   "draw": 27.7,
+   "away": 37.8
+  },
+  "move": {
+   "home": 1.0,
+   "draw": 0.1,
+   "away": -1.1
+  },
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "home": 33.4,
+    "draw": 27.7,
+    "away": 38.9
+   },
+   {
+    "t": "2026-10-19T07:36:00+00:00",
+    "home": 33.4,
+    "draw": 27.7,
+    "away": 38.9
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "home": 34.6,
+    "draw": 27.8,
+    "away": 37.6
+   },
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "home": 34.6,
+    "draw": 27.8,
+    "away": 37.6
+   },
+   {
+    "t": "2026-10-20T04:23:00+00:00",
+    "home": 34.4,
+    "draw": 27.7,
+    "away": 37.8
+   }
+  ],
+  "goals": {
+   "expected": 2.54,
+   "first": 2.54
+  },
+  "absences": {
+   "home": 1,
+   "away": 1
+  },
+  "read": "2026-10-24-napoli-as-roma",
+  "headline": "Napoli vs Roma: a near coin-flip on the market"
+ },
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
+}

@@ -4,19 +4,14 @@
  "home": "Barcelona",
  "away": "Real Madrid",
  "kickoff": "2026-10-25T20:00:00+00:00",
- "generated_at": "2026-10-20T08:03:17+00:00",
- "headline": "Clasico: Barcelona still favoured, handicap eases",
- "summary": "The market makes Barcelona clear favourites for the Clasico at 60.4% fair, with the draw at 16.9% and Real Madrid at 22.7%. Since our collector first saw the board, the Barcelona minus-one handicap fair slipped from 54.8% to 51.5% and the fair line eased from -1.19 to -1.07, with the result market moving in the same direction. That reads as a single market-wide re-rating of Real Madrid's chances rather than separate signals. Goals are priced high and flat: Over 4.0 at 50.6%, fair total 4.03, both teams to score at 72.3%. The injury feed is empty, which means no news data rather than no news. Confidence: medium.",
- "voices": {
-  "scout": "Since we first saw this market, Barcelona's minus one handicap fair has slipped from about fifty-five per cent to fifty-one and a half, and the fair line has come in from minus one point one nine to minus one point oh seven. Home win's down from sixty-three to sixty point four, Real Madrid up from nineteen point eight to twenty-two point seven. Someone moved before the news.",
-  "sceptic": "Or nobody moved on news at all. The sharp book and a soft book repriced together at four twenty-six, then the rest followed — that's a market-wide adjustment, not one informed book. And the result and handicap are the same money on the same opinion, so it's one re-rating, not three signals. On a seven-book board, that fair-line drift is a nudge.",
-  "gaffer": "So the reading is one market-wide re-rating of Real Madrid's chances, medium confidence, and a goals line parked at four."
- },
- "video_title": "Clasico: Barcelona down a tenth, goals flat",
+ "generated_at": "2026-10-21T08:47:03+00:00",
+ "headline": "Clásico: a small trim to Barcelona, a steady goals line",
+ "summary": "The market still makes Barcelona clear favourites for the Clásico at 60.4% fair chance, with the draw at 16.9% and Real Madrid at 22.7%. But Barcelona's price has been trimmed: the handicap at the sharp market fell 3.2 points, and the fair line eased from -1.19 to -1.07 — about a tenth of a goal. The full field moved a little less, 2.5 points, and the whole adjustment landed in two batches before flattening for the last 24 hours. With no injury reports and only 45.9 hours of price history, this reads as early-week rebalancing of an initially home-heavy price. The goals market barely moved: a 4.03 fair total, Over 4.0 at 50.6% and both teams scoring at 72.3%.",
+ "voices": {},
+ "video_title": "Clásico: a tenth of a goal, and then nothing",
  "key_points": [
-  "AH Home -1 fair 54.8% → 51.5%; fair line -1.19 → -1.07 in two synchronous waves",
-  "1X2 confirms one re-rating: Home 63.0% → 60.4%, Away 19.8% → 22.7%",
-  "Goals line flat at 4.03, Over 4.0 at 50.6%; injury feed empty, so no news data — not no news"
+  "Move landed in two batches on 19 Oct, flat for the last 24 hours — no live steam",
+  "Goals line steady: Over 4.0 at 50.6%, fair total 4.03, BTTS Yes up 1.8 pp"
  ],
  "market": {
   "id": 1570426,
@@ -89,7 +84,7 @@
    "away": 0
   },
   "read": "2026-10-25-barcelona-real-madrid",
-  "headline": "Clasico: Barcelona still favoured, handicap eases"
+  "headline": "Clásico: a small trim to Barcelona, a steady goals line"
  },
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }

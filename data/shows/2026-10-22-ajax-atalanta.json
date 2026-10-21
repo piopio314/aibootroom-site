@@ -29,6 +29,26 @@
     "v": 30.4
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 43.9
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 25.8
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 30.4
+    }
+   ]
+  },
   "goals": 2.91,
   "goals_rank": 11,
   "tracked_since": "2026-10-20T20:44:00+00:00",
@@ -36,9 +56,13 @@
  },
  "scenes": [
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Ajax against Atalanta. Conference League, Thursday.",
+   "text": "Ajax against Atalanta, in the Conference League.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -52,132 +76,130 @@
      "end": 1.269
     },
     {
-     "w": "Atalanta.",
+     "w": "Atalanta,",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "Conference",
+     "w": "in",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "League,",
+     "w": "the",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "Thursday.",
+     "w": "Conference",
      "start": 2.423,
      "end": 2.808
+    },
+    {
+     "w": "League.",
+     "start": 2.808,
+     "end": 3.192
     }
    ],
-   "durationInFrames": 132
+   "durationInFrames": 144
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Ajax 44%, draw 26%, Atalanta 30%. Ajax are the favourites.",
-   "variant": 1,
+   "text": "Fair chances: Ajax 44%, draw 26%, Atalanta 30%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
-     "w": "Chance",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "to",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "win,",
+     "w": "Ajax",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "with",
+     "w": "44%,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "the",
+     "w": "draw",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "bookmaker",
+     "w": "26%,",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "margin",
+     "w": "Atalanta",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "removed:",
+     "w": "30%.",
      "start": 3.192,
      "end": 3.577
-    },
+    }
+   ],
+   "durationInFrames": 155
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Ajax are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Ajax favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
     {
      "w": "Ajax",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "44%,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "draw",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "26%,",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "Atalanta",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "30%.",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "Ajax",
-     "start": 5.885,
-     "end": 6.269
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "are",
-     "start": 6.269,
-     "end": 6.654
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "the",
-     "start": 6.654,
-     "end": 7.038
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "favourites.",
-     "start": 7.038,
-     "end": 7.423
+     "start": 1.654,
+     "end": 2.038
     }
    ],
-   "durationInFrames": 271
+   "durationInFrames": 120
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 2.9 goals in this match.",
-   "variant": 1,
+   "text": "The market expects 2.9 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 2.9
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -195,49 +217,32 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "2.9",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "2.9",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
     }
    ],
-   "durationInFrames": 167
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Ajax favourites at 44%",
-    "Atalanta +0.0 pts since tracking started",
-    "About 2.9 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
-   "variant": 1,
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Ajax favourites, 44%",
+     "About 2.9 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -260,52 +265,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {

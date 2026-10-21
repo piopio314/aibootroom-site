@@ -37,17 +37,65 @@
     "v": 28.9
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 44.8
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 44.9
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 45.0
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 26.3
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 26.3
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 26.1
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 28.8
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 28.8
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 28.9
+    }
+   ]
+  },
   "goals": 2.75,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Auxerre against Le Mans. Ligue 1, Sunday.",
-   "variant": 1,
+   "text": "Auxerre against Le Mans, in the Ligue 1.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "Auxerre",
@@ -65,136 +113,134 @@
      "end": 1.654
     },
     {
-     "w": "Mans.",
+     "w": "Mans,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "Ligue",
+     "w": "in",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "1,",
+     "w": "the",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "Sunday.",
+     "w": "Ligue",
      "start": 2.808,
      "end": 3.192
+    },
+    {
+     "w": "1.",
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 144
+   "durationInFrames": 155
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Auxerre 45%, draw 26%, Le Mans 29%. Auxerre are the favourites.",
-   "variant": 1,
+   "text": "Fair chances: Auxerre 45%, draw 26%, Le Mans 29%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
-     "w": "Chance",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "to",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "win,",
+     "w": "Auxerre",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "with",
+     "w": "45%,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "the",
+     "w": "draw",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "bookmaker",
+     "w": "26%,",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "margin",
+     "w": "Le",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "removed:",
+     "w": "Mans",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Auxerre",
+     "w": "29%.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "45%,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "draw",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "26%,",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "Le",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "Mans",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "29%.",
-     "start": 5.885,
-     "end": 6.269
-    },
+    }
+   ],
+   "durationInFrames": 167
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Auxerre are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Auxerre favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
     {
      "w": "Auxerre",
-     "start": 6.269,
-     "end": 6.654
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "are",
-     "start": 6.654,
-     "end": 7.038
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "the",
-     "start": 7.038,
-     "end": 7.423
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "favourites.",
-     "start": 7.423,
-     "end": 7.808
+     "start": 1.654,
+     "end": 2.038
     }
    ],
-   "durationInFrames": 282
+   "durationInFrames": 120
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 2.8 goals in this match. That is the highest total of the weekend.",
+   "text": "The market expects 2.8 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 2.8
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
@@ -213,89 +259,32 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "2.8",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "2.8",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Auxerre favourites at 45%",
-    "Le Mans +0.1 pts since tracking started",
-    "About 2.8 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
-   "variant": 1,
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Auxerre favourites, 45%",
+     "About 2.8 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -318,52 +307,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -409,16 +384,16 @@
  "silent": true,
  "style": "pulse",
  "story": {
-  "format": "goals",
-  "kicker": "GOALS WATCH",
+  "format": "quiet",
+  "kicker": "QUIET MARKET",
   "stickers": [
-   "⚽",
-   "🎯",
-   "🎯"
+   "🤫",
+   "🧊",
+   "🧊"
   ]
  },
  "source": "numbers",
  "fixture_id": 1552793,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

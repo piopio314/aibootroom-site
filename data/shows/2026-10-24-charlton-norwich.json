@@ -45,6 +45,74 @@
     "v": 29.1
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-19T22:19:00+00:00",
+     "v": 28.4
+    },
+    {
+     "t": "2026-10-20T00:51:00+00:00",
+     "v": 28.4
+    },
+    {
+     "t": "2026-10-20T07:26:00+00:00",
+     "v": 29.1
+    },
+    {
+     "t": "2026-10-20T10:19:00+00:00",
+     "v": 29.1
+    },
+    {
+     "t": "2026-10-20T19:18:00+00:00",
+     "v": 29.1
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-19T22:19:00+00:00",
+     "v": 26.2
+    },
+    {
+     "t": "2026-10-20T00:51:00+00:00",
+     "v": 26.2
+    },
+    {
+     "t": "2026-10-20T07:26:00+00:00",
+     "v": 26.4
+    },
+    {
+     "t": "2026-10-20T10:19:00+00:00",
+     "v": 26.4
+    },
+    {
+     "t": "2026-10-20T19:18:00+00:00",
+     "v": 26.4
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-19T22:19:00+00:00",
+     "v": 45.4
+    },
+    {
+     "t": "2026-10-20T00:51:00+00:00",
+     "v": 45.4
+    },
+    {
+     "t": "2026-10-20T07:26:00+00:00",
+     "v": 44.5
+    },
+    {
+     "t": "2026-10-20T10:19:00+00:00",
+     "v": 44.5
+    },
+    {
+     "t": "2026-10-20T19:18:00+00:00",
+     "v": 44.5
+    }
+   ]
+  },
   "goals": 2.54,
   "goals_rank": 1,
   "tracked_since": "2026-10-19T22:19:00+00:00",
@@ -52,10 +120,14 @@
  },
  "scenes": [
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Charlton against Norwich. Championship, Saturday.",
-   "variant": 1,
+   "text": "Charlton against Norwich, in the Championship.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "Charlton",
@@ -68,46 +140,12 @@
      "end": 1.269
     },
     {
-     "w": "Norwich.",
+     "w": "Norwich,",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "Championship,",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "Saturday.",
-     "start": 2.038,
-     "end": 2.423
-    }
-   ],
-   "durationInFrames": 121
-  },
-  {
-   "type": "split",
-   "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Charlton 29%, draw 26%, Norwich 44%. Norwich are the favourites.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Chance",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "to",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "win,",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "with",
+     "w": "in",
      "start": 1.654,
      "end": 2.038
     },
@@ -117,286 +155,230 @@
      "end": 2.423
     },
     {
-     "w": "bookmaker",
+     "w": "Championship.",
      "start": 2.423,
      "end": 2.808
+    }
+   ],
+   "durationInFrames": 132
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Fair chances: Charlton 29%, draw 26%, Norwich 44%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Fair",
+     "start": 0.5,
+     "end": 0.885
     },
     {
-     "w": "margin",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "removed:",
-     "start": 3.192,
-     "end": 3.577
+     "w": "chances:",
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "Charlton",
-     "start": 3.577,
-     "end": 3.962
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "29%,",
-     "start": 3.962,
-     "end": 4.346
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "draw",
-     "start": 4.346,
-     "end": 4.731
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "26%,",
-     "start": 4.731,
-     "end": 5.115
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "Norwich",
-     "start": 5.115,
-     "end": 5.5
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "44%.",
-     "start": 5.5,
-     "end": 5.885
-    },
+     "start": 3.192,
+     "end": 3.577
+    }
+   ],
+   "durationInFrames": 155
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Norwich are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Norwich favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
     {
      "w": "Norwich",
-     "start": 5.885,
-     "end": 6.269
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "are",
-     "start": 6.269,
-     "end": 6.654
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "the",
-     "start": 6.654,
-     "end": 7.038
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "favourites.",
-     "start": 7.038,
-     "end": 7.423
-    }
-   ],
-   "durationInFrames": 271
-  },
-  {
-   "type": "line",
-   "speaker": "scout",
-   "text": "Since we started tracking, Charlton went from 28.4% to 29.1%. The price is moving their way.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Since",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "we",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "started",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "tracking,",
      "start": 1.654,
      "end": 2.038
-    },
+    }
+   ],
+   "durationInFrames": 120
+  },
+  {
+   "type": "beat",
+   "speaker": "scout",
+   "text": "Charlton went from 28.4% to 29.1% since we started.",
+   "show": {
+    "kind": "move",
+    "team": "home",
+    "from": 28.4,
+    "to": 29.1
+   },
+   "first": true,
+   "variant": 0,
+   "words": [
     {
      "w": "Charlton",
-     "start": 2.038,
-     "end": 2.423
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "went",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "from",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "28.4%",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "to",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "29.1%.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "The",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "price",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "is",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "moving",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "their",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "way.",
-     "start": 6.269,
-     "end": 6.654
-    }
-   ],
-   "durationInFrames": 248
-  },
-  {
-   "type": "noise",
-   "speaker": "sceptic",
-   "text": "But a move this small can be normal price noise. We wait for team news before we read too much into it.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "But",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "a",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "move",
+     "w": "from",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "this",
+     "w": "28.4%",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "small",
+     "w": "to",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "can",
+     "w": "29.1%",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "be",
+     "w": "since",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "normal",
+     "w": "we",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "price",
+     "w": "started.",
      "start": 3.577,
      "end": 3.962
+    }
+   ],
+   "durationInFrames": 167
+  },
+  {
+   "type": "beat",
+   "speaker": "sceptic",
+   "text": "A move this small can be normal price noise.",
+   "show": {
+    "kind": "phrase",
+    "text": "small move, maybe noise"
+   },
+   "first": true,
+   "variant": 0,
+   "words": [
+    {
+     "w": "A",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "move",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "this",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "small",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "can",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "be",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "normal",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "price",
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "noise.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "We",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "wait",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "for",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "team",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "news",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "before",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "we",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "read",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "too",
-     "start": 7.423,
-     "end": 7.808
-    },
-    {
-     "w": "much",
-     "start": 7.808,
-     "end": 8.192
-    },
-    {
-     "w": "into",
-     "start": 8.192,
-     "end": 8.577
-    },
-    {
-     "w": "it.",
-     "start": 8.577,
-     "end": 8.962
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 317
+   "durationInFrames": 167
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 2.5 goals in this match. That is the highest total of the weekend.",
-   "variant": 1,
+   "text": "The market expects 2.5 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 2.5
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -414,88 +396,31 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "2.5",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "2.5",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Norwich favourites at 44%",
-    "Charlton +0.7 pts since tracking started",
-    "About 2.5 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Norwich favourites, 44%",
+     "About 2.5 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -519,52 +444,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -610,12 +521,12 @@
  "silent": true,
  "style": "pulse",
  "story": {
-  "format": "goals",
-  "kicker": "GOALS WATCH",
+  "format": "market_read",
+  "kicker": "MARKET READ",
   "stickers": [
-   "🎯",
-   "⚽",
-   "⚽"
+   "👀",
+   "🧠",
+   "🧠"
   ]
  },
  "source": "numbers",

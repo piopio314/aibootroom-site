@@ -49,6 +49,86 @@
     "v": 49.3
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 48.8
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "v": 49.1
+    },
+    {
+     "t": "2026-10-19T09:31:00+00:00",
+     "v": 49.1
+    },
+    {
+     "t": "2026-10-19T15:21:00+00:00",
+     "v": 49.0
+    },
+    {
+     "t": "2026-10-19T18:26:00+00:00",
+     "v": 49.3
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 49.3
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 27.9
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "v": 27.6
+    },
+    {
+     "t": "2026-10-19T09:31:00+00:00",
+     "v": 27.6
+    },
+    {
+     "t": "2026-10-19T15:21:00+00:00",
+     "v": 27.7
+    },
+    {
+     "t": "2026-10-19T18:26:00+00:00",
+     "v": 27.4
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 27.4
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 23.3
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "v": 23.3
+    },
+    {
+     "t": "2026-10-19T09:31:00+00:00",
+     "v": 23.3
+    },
+    {
+     "t": "2026-10-19T15:21:00+00:00",
+     "v": 23.3
+    },
+    {
+     "t": "2026-10-19T18:26:00+00:00",
+     "v": 23.3
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 23.3
+    }
+   ]
+  },
   "goals": 2.33,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
@@ -56,9 +136,13 @@
  },
  "scenes": [
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Sevilla against Osasuna. La Liga, Monday.",
+   "text": "Sevilla against Osasuna, in the La Liga.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -72,340 +156,250 @@
      "end": 1.269
     },
     {
-     "w": "Osasuna.",
+     "w": "Osasuna,",
      "start": 1.269,
      "end": 1.654
+    },
+    {
+     "w": "in",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "the",
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "La",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "Liga,",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "Monday.",
      "start": 2.423,
      "end": 2.808
+    },
+    {
+     "w": "Liga.",
+     "start": 2.808,
+     "end": 3.192
     }
    ],
-   "durationInFrames": 132
+   "durationInFrames": 144
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Sevilla 49%, draw 27%, Osasuna 23%. Sevilla are the favourites.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Chance",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "to",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "win,",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "with",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "the",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "bookmaker",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "margin",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "removed:",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "Sevilla",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "49%,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "draw",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "27%,",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "Osasuna",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "23%.",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "Sevilla",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "are",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "the",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "favourites.",
-     "start": 7.038,
-     "end": 7.423
-    }
-   ],
-   "durationInFrames": 271
-  },
-  {
-   "type": "line",
-   "speaker": "scout",
-   "text": "Since we started tracking, Sevilla went from 48.8% to 49.3%. The price is moving their way.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Since",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "we",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "started",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "tracking,",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "Sevilla",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "went",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "from",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "48.8%",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "to",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "49.3%.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "The",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "price",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "is",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "moving",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "their",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "way.",
-     "start": 6.269,
-     "end": 6.654
-    }
-   ],
-   "durationInFrames": 248
-  },
-  {
-   "type": "noise",
-   "speaker": "sceptic",
-   "text": "But a move this small can be normal price noise. We wait for team news before we read too much into it.",
+   "text": "Fair chances: Sevilla 49%, draw 27%, Osasuna 23%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
-     "w": "But",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "a",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "move",
+     "w": "Sevilla",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "this",
+     "w": "49%,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "small",
+     "w": "draw",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "can",
+     "w": "27%,",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "be",
+     "w": "Osasuna",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "normal",
+     "w": "23%.",
+     "start": 3.192,
+     "end": 3.577
+    }
+   ],
+   "durationInFrames": 155
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Sevilla are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Sevilla favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Sevilla",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "are",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "favourites.",
+     "start": 1.654,
+     "end": 2.038
+    }
+   ],
+   "durationInFrames": 120
+  },
+  {
+   "type": "beat",
+   "speaker": "scout",
+   "text": "Sevilla went from 48.8% to 49.3% since we started.",
+   "show": {
+    "kind": "move",
+    "team": "home",
+    "from": 48.8,
+    "to": 49.3
+   },
+   "first": true,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Sevilla",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "went",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "from",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "48.8%",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "to",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "49.3%",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "since",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "we",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "price",
+     "w": "started.",
      "start": 3.577,
      "end": 3.962
+    }
+   ],
+   "durationInFrames": 167
+  },
+  {
+   "type": "beat",
+   "speaker": "sceptic",
+   "text": "A move this small can be normal price noise.",
+   "show": {
+    "kind": "phrase",
+    "text": "small move, maybe noise"
+   },
+   "first": true,
+   "variant": 0,
+   "words": [
+    {
+     "w": "A",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "move",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "this",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "small",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "can",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "be",
+     "start": 2.423,
+     "end": 2.808
+    },
+    {
+     "w": "normal",
+     "start": 2.808,
+     "end": 3.192
+    },
+    {
+     "w": "price",
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "noise.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "We",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "wait",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "for",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "team",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "news",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "before",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "we",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "read",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "too",
-     "start": 7.423,
-     "end": 7.808
-    },
-    {
-     "w": "much",
-     "start": 7.808,
-     "end": 8.192
-    },
-    {
-     "w": "into",
-     "start": 8.192,
-     "end": 8.577
-    },
-    {
-     "w": "it.",
-     "start": 8.577,
-     "end": 8.962
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 317
+   "durationInFrames": 167
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 2.3 goals in this match. That is the highest total of the weekend.",
-   "variant": 1,
+   "text": "The market expects 2.3 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 2.3
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -423,89 +417,32 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "2.3",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "2.3",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Sevilla favourites at 49%",
-    "Sevilla +0.5 pts since tracking started",
-    "About 2.3 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
-   "variant": 1,
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Sevilla favourites, 49%",
+     "About 2.3 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -528,52 +465,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -619,12 +542,12 @@
  "silent": true,
  "style": "pulse",
  "story": {
-  "format": "goals",
-  "kicker": "GOALS WATCH",
+  "format": "quiet",
+  "kicker": "QUIET MARKET",
   "stickers": [
-   "⚽",
-   "⚽",
-   "⚽"
+   "🤫",
+   "🤫",
+   "🤫"
   ]
  },
  "source": "numbers",

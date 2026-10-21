@@ -37,60 +37,120 @@
     "v": 34.4
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 45.6
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 40.8
+    },
+    {
+     "t": "2026-10-20T03:25:00+00:00",
+     "v": 41.4
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 24.6
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 24.2
+    },
+    {
+     "t": "2026-10-20T03:25:00+00:00",
+     "v": 24.2
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 29.8
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 35.0
+    },
+    {
+     "t": "2026-10-20T03:25:00+00:00",
+     "v": 34.4
+    }
+   ]
+  },
   "goals": 3.23,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
-   "type": "hook",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market moved 4.5 points towards Groningen.",
+   "text": "Groningen's win chance moved from 29.8% to 34.4%.",
+   "show": {
+    "kind": "move",
+    "team": "away",
+    "from": 29.8,
+    "to": 34.4
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
-     "w": "The",
+     "w": "Groningen's",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "market",
+     "w": "win",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "moved",
+     "w": "chance",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "4.5",
+     "w": "moved",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "points",
+     "w": "from",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "towards",
+     "w": "29.8%",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "Groningen.",
+     "w": "to",
      "start": 2.808,
      "end": 3.192
+    },
+    {
+     "w": "34.4%.",
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 144
+   "durationInFrames": 155
   },
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "NEC Nijmegen against Groningen. Eredivisie, Sunday.",
+   "text": "NEC Nijmegen against Groningen, in the Eredivisie.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
@@ -109,225 +169,134 @@
      "end": 1.654
     },
     {
-     "w": "Groningen.",
+     "w": "Groningen,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "Eredivisie,",
+     "w": "in",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "Sunday.",
-     "start": 2.423,
-     "end": 2.808
-    }
-   ],
-   "durationInFrames": 132
-  },
-  {
-   "type": "split",
-   "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: NEC Nijmegen 41%, draw 24%, Groningen 34%. NEC Nijmegen are the favourites.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Chance",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "to",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "win,",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "with",
-     "start": 1.654,
-     "end": 2.038
     },
     {
      "w": "the",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "bookmaker",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "margin",
+     "w": "Eredivisie.",
      "start": 2.808,
      "end": 3.192
-    },
-    {
-     "w": "removed:",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "NEC",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "Nijmegen",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "41%,",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "draw",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "24%,",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "Groningen",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "34%.",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "NEC",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "Nijmegen",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "are",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "the",
-     "start": 7.423,
-     "end": 7.808
-    },
-    {
-     "w": "favourites.",
-     "start": 7.808,
-     "end": 8.192
     }
    ],
-   "durationInFrames": 294
+   "durationInFrames": 144
   },
   {
-   "type": "line",
-   "speaker": "scout",
-   "text": "Since we started tracking, Groningen went from 29.8% to 34.4%. The price is moving their way.",
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Fair chances: NEC Nijmegen 41%, draw 24%, Groningen 34%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
-     "w": "Since",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "we",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "started",
+     "w": "NEC",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "tracking,",
+     "w": "Nijmegen",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "Groningen",
+     "w": "41%,",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "went",
+     "w": "draw",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "from",
+     "w": "24%,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "29.8%",
+     "w": "Groningen",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "to",
+     "w": "34%.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "34.4%.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "The",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "price",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "is",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "moving",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "their",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "way.",
-     "start": 6.269,
-     "end": 6.654
     }
    ],
-   "durationInFrames": 248
+   "durationInFrames": 167
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 3.2 goals in this match. That is the highest total of the weekend.",
+   "text": "NEC Nijmegen are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "NEC Nijmegen favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "NEC",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Nijmegen",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "are",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "the",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "favourites.",
+     "start": 2.038,
+     "end": 2.423
+    }
+   ],
+   "durationInFrames": 121
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects 3.2 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 3.2
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
@@ -346,89 +315,32 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "3.2",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "3.2",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "NEC Nijmegen favourites at 41%",
-    "Groningen +4.5 pts since tracking started",
-    "About 3.2 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
-   "variant": 1,
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "NEC Nijmegen favourites, 41%",
+     "About 3.2 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -451,52 +363,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -552,6 +450,6 @@
  },
  "source": "numbers",
  "fixture_id": 1552203,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

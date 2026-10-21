@@ -37,16 +37,64 @@
     "v": 9.8
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 70.2
+    },
+    {
+     "t": "2026-10-19T09:31:00+00:00",
+     "v": 70.2
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 70.2
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 20.0
+    },
+    {
+     "t": "2026-10-19T09:31:00+00:00",
+     "v": 20.0
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 20.0
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 9.8
+    },
+    {
+     "t": "2026-10-19T09:31:00+00:00",
+     "v": 9.8
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 9.8
+    }
+   ]
+  },
   "goals": 2.76,
   "goals_rank": 1,
   "tracked_since": "2026-10-19T04:26:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "AS Roma against Cagliari. Serie A, Tuesday.",
+   "text": "AS Roma against Cagliari, in the Serie A.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -65,157 +113,140 @@
      "end": 1.654
     },
     {
-     "w": "Cagliari.",
+     "w": "Cagliari,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "Serie",
+     "w": "in",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "A,",
+     "w": "the",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "Tuesday.",
+     "w": "Serie",
      "start": 2.808,
      "end": 3.192
+    },
+    {
+     "w": "A.",
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 144
+   "durationInFrames": 155
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: AS Roma 70%, draw 20%, Cagliari 10%. AS Roma are the favourites.",
-   "variant": 2,
+   "text": "Fair chances: AS Roma 70%, draw 20%, Cagliari 10%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
-     "w": "Chance",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "to",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "win,",
+     "w": "AS",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "with",
+     "w": "Roma",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "the",
+     "w": "70%,",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "bookmaker",
+     "w": "draw",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "margin",
+     "w": "20%,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "removed:",
+     "w": "Cagliari",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "AS",
+     "w": "10%.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "Roma",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "70%,",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "draw",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "20%,",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "Cagliari",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "10%.",
-     "start": 5.885,
-     "end": 6.269
-    },
+    }
+   ],
+   "durationInFrames": 167
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "AS Roma are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "AS Roma favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
     {
      "w": "AS",
-     "start": 6.269,
-     "end": 6.654
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "Roma",
-     "start": 6.654,
-     "end": 7.038
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "are",
-     "start": 7.038,
-     "end": 7.423
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "the",
-     "start": 7.423,
-     "end": 7.808
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "favourites.",
-     "start": 7.808,
-     "end": 8.192
+     "start": 2.038,
+     "end": 2.423
     }
    ],
-   "durationInFrames": 294
+   "durationInFrames": 121
   },
   {
-   "type": "injury",
+   "type": "beat",
    "speaker": "sceptic",
-   "injuries": {
-    "home": [
-     {
-      "player": "M. Bah",
-      "status": "Missing Fixture",
-      "reason": "Jumpers Knee"
-     }
-    ],
-    "away": [
-     {
-      "player": "Riyad Idrissi",
-      "status": "Missing Fixture",
-      "reason": "Jumpers Knee"
-     }
-    ]
+   "text": "Team news: 1 AS Roma player is out or doubtful.",
+   "show": {
+    "kind": "stat",
+    "label": "AS Roma absences",
+    "value": "1"
    },
-   "text": "Team news: 1 player out or doubtful for AS Roma, 1 for Cagliari. Known absences are usually already in the price.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -234,103 +265,113 @@
      "end": 1.654
     },
     {
-     "w": "player",
+     "w": "AS",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "out",
+     "w": "Roma",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "or",
+     "w": "player",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "doubtful",
+     "w": "is",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "for",
+     "w": "out",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "AS",
+     "w": "or",
      "start": 3.577,
      "end": 3.962
     },
     {
-     "w": "Roma,",
+     "w": "doubtful.",
      "start": 3.962,
      "end": 4.346
+    }
+   ],
+   "durationInFrames": 178
+  },
+  {
+   "type": "beat",
+   "speaker": "sceptic",
+   "text": "Team news: 1 Cagliari player is out or doubtful.",
+   "show": {
+    "kind": "stat",
+    "label": "Cagliari absences",
+    "value": "1"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Team",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "news:",
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "1",
-     "start": 4.346,
-     "end": 4.731
+     "start": 1.269,
+     "end": 1.654
     },
     {
-     "w": "for",
-     "start": 4.731,
-     "end": 5.115
+     "w": "Cagliari",
+     "start": 1.654,
+     "end": 2.038
     },
     {
-     "w": "Cagliari.",
-     "start": 5.115,
-     "end": 5.5
+     "w": "player",
+     "start": 2.038,
+     "end": 2.423
     },
     {
-     "w": "Known",
-     "start": 5.5,
-     "end": 5.885
+     "w": "is",
+     "start": 2.423,
+     "end": 2.808
     },
     {
-     "w": "absences",
-     "start": 5.885,
-     "end": 6.269
+     "w": "out",
+     "start": 2.808,
+     "end": 3.192
     },
     {
-     "w": "are",
-     "start": 6.269,
-     "end": 6.654
+     "w": "or",
+     "start": 3.192,
+     "end": 3.577
     },
     {
-     "w": "usually",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "already",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "in",
-     "start": 7.423,
-     "end": 7.808
-    },
-    {
-     "w": "the",
-     "start": 7.808,
-     "end": 8.192
-    },
-    {
-     "w": "price.",
-     "start": 8.192,
-     "end": 8.577
+     "w": "doubtful.",
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 305
+   "durationInFrames": 167
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 2.8 goals in this match. That is the highest total of the weekend.",
-   "variant": 1,
+   "text": "The market expects 2.8 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 2.8
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -348,88 +389,31 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "2.8",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "2.8",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "AS Roma favourites at 70%",
-    "Cagliari +0.0 pts since tracking started",
-    "About 2.8 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "AS Roma favourites, 70%",
+     "About 2.8 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -453,52 +437,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -544,16 +514,16 @@
  "silent": true,
  "style": "pulse",
  "story": {
-  "format": "goals",
-  "kicker": "GOALS WATCH",
+  "format": "quiet",
+  "kicker": "QUIET MARKET",
   "stickers": [
-   "🔥",
-   "🎯",
-   "🔥"
+   "😴",
+   "🧊",
+   "😴"
   ]
  },
  "source": "numbers",
  "fixture_id": 1550168,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

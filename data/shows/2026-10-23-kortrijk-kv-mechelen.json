@@ -37,65 +37,125 @@
     "v": 35.4
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 38.7
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 37.4
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 37.4
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 27.2
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 27.2
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 27.2
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 34.0
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 35.4
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 35.4
+    }
+   ]
+  },
   "goals": 2.64,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
-   "type": "hook",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market moved 1.4 points towards KV Mechelen.",
-   "variant": 2,
+   "text": "KV Mechelen's win chance moved from 34.0% to 35.4%.",
+   "show": {
+    "kind": "move",
+    "team": "away",
+    "from": 34.0,
+    "to": 35.4
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
-     "w": "The",
+     "w": "KV",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "market",
+     "w": "Mechelen's",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "moved",
+     "w": "win",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "1.4",
+     "w": "chance",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "points",
+     "w": "moved",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "towards",
+     "w": "from",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "KV",
+     "w": "34.0%",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "Mechelen.",
+     "w": "to",
      "start": 3.192,
      "end": 3.577
+    },
+    {
+     "w": "35.4%.",
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 155
+   "durationInFrames": 167
   },
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Kortrijk against KV Mechelen. Jupiler Pro League, Friday.",
+   "text": "Kortrijk against KV Mechelen, in the Jupiler Pro League.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
@@ -114,354 +174,139 @@
      "end": 1.654
     },
     {
-     "w": "Mechelen.",
+     "w": "Mechelen,",
      "start": 1.654,
      "end": 2.038
+    },
+    {
+     "w": "in",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "the",
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "Jupiler",
-     "start": 2.038,
-     "end": 2.423
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "Pro",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "League,",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "Friday.",
      "start": 3.192,
      "end": 3.577
+    },
+    {
+     "w": "League.",
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 155
+   "durationInFrames": 167
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Kortrijk 37%, draw 27%, KV Mechelen 35%. Kortrijk are the favourites.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Chance",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "to",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "win,",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "with",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "the",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "bookmaker",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "margin",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "removed:",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "Kortrijk",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "37%,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "draw",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "27%,",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "KV",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "Mechelen",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "35%.",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "Kortrijk",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "are",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "the",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "favourites.",
-     "start": 7.423,
-     "end": 7.808
-    }
-   ],
-   "durationInFrames": 282
-  },
-  {
-   "type": "line",
-   "speaker": "scout",
-   "text": "Since we started tracking, KV Mechelen went from 34.0% to 35.4%. The price is moving their way.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Since",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "we",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "started",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "tracking,",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "KV",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "Mechelen",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "went",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "from",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "34.0%",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "to",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "35.4%.",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "The",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "price",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "is",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "moving",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "their",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "way.",
-     "start": 6.654,
-     "end": 7.038
-    }
-   ],
-   "durationInFrames": 259
-  },
-  {
-   "type": "noise",
-   "speaker": "sceptic",
-   "text": "But a move this small can be normal price noise. We wait for team news before we read too much into it.",
+   "text": "Fair chances: Kortrijk 37%, draw 27%, KV Mechelen 35%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
-     "w": "But",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "a",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "move",
+     "w": "Kortrijk",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "this",
+     "w": "37%,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "small",
+     "w": "draw",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "can",
+     "w": "27%,",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "be",
+     "w": "KV",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "normal",
+     "w": "Mechelen",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "price",
+     "w": "35%.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "noise.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "We",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "wait",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "for",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "team",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "news",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "before",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "we",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "read",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "too",
-     "start": 7.423,
-     "end": 7.808
-    },
-    {
-     "w": "much",
-     "start": 7.808,
-     "end": 8.192
-    },
-    {
-     "w": "into",
-     "start": 8.192,
-     "end": 8.577
-    },
-    {
-     "w": "it.",
-     "start": 8.577,
-     "end": 8.962
     }
    ],
-   "durationInFrames": 317
+   "durationInFrames": 167
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 2.6 goals in this match. That is the highest total of the weekend.",
+   "text": "Kortrijk are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Kortrijk favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Kortrijk",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "are",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "favourites.",
+     "start": 1.654,
+     "end": 2.038
+    }
+   ],
+   "durationInFrames": 120
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects 2.6 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 2.6
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
@@ -480,89 +325,32 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "2.6",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "2.6",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Kortrijk favourites at 37%",
-    "KV Mechelen +1.4 pts since tracking started",
-    "About 2.6 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
-   "variant": 1,
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Kortrijk favourites, 37%",
+     "About 2.6 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -585,52 +373,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -676,16 +450,16 @@
  "silent": true,
  "style": "pulse",
  "story": {
-  "format": "goals",
-  "kicker": "GOALS WATCH",
+  "format": "market_read",
+  "kicker": "MARKET READ",
   "stickers": [
-   "🔥",
-   "🔥",
-   "🔥"
+   "📊",
+   "📊",
+   "📊"
   ]
  },
  "source": "numbers",
  "fixture_id": 1558657,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

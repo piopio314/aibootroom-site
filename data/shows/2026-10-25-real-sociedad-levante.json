@@ -45,17 +45,89 @@
     "v": 54.9
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 54.6
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 54.6
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "v": 54.8
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 54.8
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 54.9
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 23.5
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 23.5
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "v": 23.3
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 23.3
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 23.3
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 21.9
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 21.9
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "v": 21.9
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 21.9
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 21.8
+    }
+   ]
+  },
   "goals": 2.93,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Real Sociedad against Levante. La Liga, Sunday.",
-   "variant": 1,
+   "text": "Real Sociedad against Levante, in the La Liga.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "Real",
@@ -73,141 +145,139 @@
      "end": 1.654
     },
     {
-     "w": "Levante.",
+     "w": "Levante,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "La",
+     "w": "in",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "Liga,",
+     "w": "the",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "Sunday.",
+     "w": "La",
      "start": 2.808,
      "end": 3.192
+    },
+    {
+     "w": "Liga.",
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 144
+   "durationInFrames": 155
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Real Sociedad 55%, draw 23%, Levante 22%. Real Sociedad are the favourites.",
+   "text": "Fair chances: Real Sociedad 55%, draw 23%, Levante 22%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
-     "w": "Chance",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "to",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "win,",
+     "w": "Real",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "with",
+     "w": "Sociedad",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "the",
+     "w": "55%,",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "bookmaker",
+     "w": "draw",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "margin",
+     "w": "23%,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "removed:",
+     "w": "Levante",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Real",
+     "w": "22%.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "Sociedad",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "55%,",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "draw",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "23%,",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "Levante",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "22%.",
-     "start": 5.885,
-     "end": 6.269
-    },
+    }
+   ],
+   "durationInFrames": 167
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Real Sociedad are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Real Sociedad favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
     {
      "w": "Real",
-     "start": 6.269,
-     "end": 6.654
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "Sociedad",
-     "start": 6.654,
-     "end": 7.038
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "are",
-     "start": 7.038,
-     "end": 7.423
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "the",
-     "start": 7.423,
-     "end": 7.808
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "favourites.",
-     "start": 7.808,
-     "end": 8.192
+     "start": 2.038,
+     "end": 2.423
     }
    ],
-   "durationInFrames": 294
+   "durationInFrames": 121
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 2.9 goals in this match. That is the highest total of the weekend.",
+   "text": "The market expects 2.9 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 2.9
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
@@ -226,88 +296,31 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "2.9",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "2.9",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Real Sociedad favourites at 55%",
-    "Real Sociedad +0.3 pts since tracking started",
-    "About 2.9 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Real Sociedad favourites, 55%",
+     "About 2.9 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -331,52 +344,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -422,16 +421,16 @@
  "silent": true,
  "style": "pulse",
  "story": {
-  "format": "goals",
-  "kicker": "GOALS WATCH",
+  "format": "quiet",
+  "kicker": "QUIET MARKET",
   "stickers": [
-   "⚽",
-   "🔥",
-   "⚽"
+   "🤫",
+   "😴",
+   "🤫"
   ]
  },
  "source": "numbers",
  "fixture_id": 1570430,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

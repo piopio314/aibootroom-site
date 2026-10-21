@@ -37,66 +37,126 @@
     "v": 19.8
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 61.1
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 61.3
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 60.2
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 20.1
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 20.1
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 20.0
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 18.8
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 18.6
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 19.8
+    }
+   ]
+  },
   "goals": 2.99,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
-   "type": "hook",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market moved 1.0 points towards Le Havre.",
-   "variant": 2,
+   "text": "Le Havre's win chance moved from 18.8% to 19.8%.",
+   "show": {
+    "kind": "move",
+    "team": "away",
+    "from": 18.8,
+    "to": 19.8
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
-     "w": "The",
+     "w": "Le",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "market",
+     "w": "Havre's",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "moved",
+     "w": "win",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "1.0",
+     "w": "chance",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "points",
+     "w": "moved",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "towards",
+     "w": "from",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "Le",
+     "w": "18.8%",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "Havre.",
+     "w": "to",
      "start": 3.192,
      "end": 3.577
+    },
+    {
+     "w": "19.8%.",
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 155
+   "durationInFrames": 167
   },
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Marseille against Le Havre. Ligue 1, Sunday.",
-   "variant": 1,
+   "text": "Marseille against Le Havre, in the Ligue 1.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
      "w": "Marseille",
@@ -114,349 +174,134 @@
      "end": 1.654
     },
     {
-     "w": "Havre.",
+     "w": "Havre,",
      "start": 1.654,
      "end": 2.038
+    },
+    {
+     "w": "in",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "the",
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "Ligue",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "1,",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "Sunday.",
      "start": 2.808,
      "end": 3.192
+    },
+    {
+     "w": "1.",
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 144
+   "durationInFrames": 155
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Marseille 60%, draw 20%, Le Havre 20%. Marseille are the favourites.",
+   "text": "Fair chances: Marseille 60%, draw 20%, Le Havre 20%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
-     "w": "Chance",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "to",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "win,",
+     "w": "Marseille",
      "start": 1.269,
      "end": 1.654
-    },
-    {
-     "w": "with",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "the",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "bookmaker",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "margin",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "removed:",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "Marseille",
-     "start": 3.577,
-     "end": 3.962
     },
     {
      "w": "60%,",
-     "start": 3.962,
-     "end": 4.346
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "draw",
-     "start": 4.346,
-     "end": 4.731
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "20%,",
-     "start": 4.731,
-     "end": 5.115
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "Le",
-     "start": 5.115,
-     "end": 5.5
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "Havre",
-     "start": 5.5,
-     "end": 5.885
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "20%.",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "Marseille",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "are",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "the",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "favourites.",
-     "start": 7.423,
-     "end": 7.808
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 282
+   "durationInFrames": 167
   },
   {
-   "type": "line",
-   "speaker": "scout",
-   "text": "Since we started tracking, Le Havre went from 18.8% to 19.8%. The price is moving their way.",
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Marseille are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Marseille favourites"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
-     "w": "Since",
+     "w": "Marseille",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "we",
+     "w": "are",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "started",
+     "w": "the",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "tracking,",
+     "w": "favourites.",
      "start": 1.654,
      "end": 2.038
-    },
-    {
-     "w": "Le",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "Havre",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "went",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "from",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "18.8%",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "to",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "19.8%.",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "The",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "price",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "is",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "moving",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "their",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "way.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 120
   },
   {
-   "type": "noise",
-   "speaker": "sceptic",
-   "text": "But a move this small can be normal price noise. We wait for team news before we read too much into it.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "But",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "a",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "move",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "this",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "small",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "can",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "be",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "normal",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "price",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "noise.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "We",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "wait",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "for",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "team",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "news",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "before",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "we",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "read",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "too",
-     "start": 7.423,
-     "end": 7.808
-    },
-    {
-     "w": "much",
-     "start": 7.808,
-     "end": 8.192
-    },
-    {
-     "w": "into",
-     "start": 8.192,
-     "end": 8.577
-    },
-    {
-     "w": "it.",
-     "start": 8.577,
-     "end": 8.962
-    }
-   ],
-   "durationInFrames": 317
-  },
-  {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 3.0 goals in this match. That is the highest total of the weekend.",
+   "text": "The market expects 3.0 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 3.0
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
@@ -475,88 +320,31 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "3.0",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "3.0",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Marseille favourites at 60%",
-    "Le Havre +1.0 pts since tracking started",
-    "About 3.0 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Marseille favourites, 60%",
+     "About 3.0 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -580,52 +368,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -671,16 +445,16 @@
  "silent": true,
  "style": "pulse",
  "story": {
-  "format": "goals",
-  "kicker": "GOALS WATCH",
+  "format": "market_read",
+  "kicker": "MARKET READ",
   "stickers": [
-   "⚽",
-   "🎯",
-   "⚽"
+   "🧠",
+   "👀",
+   "🧠"
   ]
  },
  "source": "numbers",
  "fixture_id": 1552796,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

@@ -95,7 +95,16 @@
   const starts = []; let acc = 0;
   for (const s of show.scenes) { starts.push(acc); acc += s.durationInFrames; }
   const sceneBox = document.getElementById('scenes');
-  sceneBox.innerHTML = show.scenes.map((s, i) => `<button data-i="${i}">${i + 1}. ${E(LABEL[s.type] || s.type)}</button>`).join('');
+  const KIND = {teams: 'The match', chance: 'Win chance', chances: 'Win chances', move: 'Price line', goals: 'Goals',
+                over: 'Over / under', absence: 'Team news', verdict: 'The reading'};
+  const PERSON = {scout: 'The Scout', sceptic: 'The Sceptic', gaffer: 'The Gaffer'};
+  const label = s => {          // beat scenes (video/PRODUCTION.md): name the chapter after what it shows
+    if (s.type !== 'beat') return LABEL[s.type] || s.type;
+    const k = (s.show || {}).kind;
+    if (k === 'stat' && s.show.label) return String(s.show.label).replace(/^./, c => c.toUpperCase()).slice(0, 22);
+    return KIND[k] || PERSON[String(s.speaker).toLowerCase()] || 'Market read';
+  };
+  sceneBox.innerHTML = show.scenes.map((s, i) => `<button data-i="${i}">${i + 1}. ${E(label(s))}</button>`).join('');
   const el = document.getElementById('player'); el.innerHTML = '';
   let cur = -1;
   const api = ABRShow.mount(el, show, f => {

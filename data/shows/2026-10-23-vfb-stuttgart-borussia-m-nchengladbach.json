@@ -37,66 +37,126 @@
     "v": 69.8
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 67.9
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 68.8
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 69.8
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 17.1
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 16.8
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 16.4
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 15.0
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 14.4
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 13.7
+    }
+   ]
+  },
   "goals": 3.8,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
-   "type": "hook",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market moved 1.9 points towards VfB Stuttgart.",
-   "variant": 2,
+   "text": "VfB Stuttgart's win chance moved from 67.9% to 69.8%.",
+   "show": {
+    "kind": "move",
+    "team": "home",
+    "from": 67.9,
+    "to": 69.8
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
-     "w": "The",
+     "w": "VfB",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "market",
+     "w": "Stuttgart's",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "moved",
+     "w": "win",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "1.9",
+     "w": "chance",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "points",
+     "w": "moved",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "towards",
+     "w": "from",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "VfB",
+     "w": "67.9%",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "Stuttgart.",
+     "w": "to",
      "start": 3.192,
      "end": 3.577
+    },
+    {
+     "w": "69.8%.",
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 155
+   "durationInFrames": 167
   },
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "VfB Stuttgart against Borussia Mönchengladbach. Bundesliga, Friday.",
-   "variant": 1,
+   "text": "VfB Stuttgart against Borussia Mönchengladbach, in the Bundesliga.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
      "w": "VfB",
@@ -119,235 +179,139 @@
      "end": 2.038
     },
     {
-     "w": "Mönchengladbach.",
+     "w": "Mönchengladbach,",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "Bundesliga,",
+     "w": "in",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "Friday.",
+     "w": "the",
      "start": 2.808,
      "end": 3.192
+    },
+    {
+     "w": "Bundesliga.",
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 144
+   "durationInFrames": 155
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: VfB Stuttgart 70%, draw 16%, Borussia Mönchengladbach 14%. VfB Stuttgart are the favourites.",
-   "variant": 1,
+   "text": "Fair chances: VfB Stuttgart 70%, draw 16%, Borussia Mönchengladbach 14%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
-     "w": "Chance",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "to",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "win,",
+     "w": "VfB",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "with",
+     "w": "Stuttgart",
      "start": 1.654,
      "end": 2.038
-    },
-    {
-     "w": "the",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "bookmaker",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "margin",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "removed:",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "VfB",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "Stuttgart",
-     "start": 3.962,
-     "end": 4.346
     },
     {
      "w": "70%,",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "draw",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "16%,",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "Borussia",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "Mönchengladbach",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "14%.",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "VfB",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "Stuttgart",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "are",
-     "start": 7.423,
-     "end": 7.808
-    },
-    {
-     "w": "the",
-     "start": 7.808,
-     "end": 8.192
-    },
-    {
-     "w": "favourites.",
-     "start": 8.192,
-     "end": 8.577
-    }
-   ],
-   "durationInFrames": 305
-  },
-  {
-   "type": "line",
-   "speaker": "scout",
-   "text": "Since we started tracking, VfB Stuttgart went from 67.9% to 69.8%. The price is moving their way.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Since",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "we",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "started",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "tracking,",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "VfB",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "Stuttgart",
+     "w": "draw",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "went",
+     "w": "16%,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "from",
+     "w": "Borussia",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "67.9%",
+     "w": "Mönchengladbach",
      "start": 3.577,
      "end": 3.962
     },
     {
-     "w": "to",
+     "w": "14%.",
      "start": 3.962,
      "end": 4.346
-    },
-    {
-     "w": "69.8%.",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "The",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "price",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "is",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "moving",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "their",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "way.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 178
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 3.8 goals in this match. That is the highest total of the weekend.",
+   "text": "VfB Stuttgart are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "VfB Stuttgart favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "VfB",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "Stuttgart",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "are",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "the",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "favourites.",
+     "start": 2.038,
+     "end": 2.423
+    }
+   ],
+   "durationInFrames": 121
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects 3.8 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 3.8
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
@@ -366,89 +330,32 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "3.8",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "3.8",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "VfB Stuttgart favourites at 70%",
-    "VfB Stuttgart +1.9 pts since tracking started",
-    "About 3.8 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
-   "variant": 1,
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "VfB Stuttgart favourites, 70%",
+     "About 3.8 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -471,52 +378,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -562,16 +455,16 @@
  "silent": true,
  "style": "pulse",
  "story": {
-  "format": "goals",
-  "kicker": "GOALS WATCH",
+  "format": "market_read",
+  "kicker": "MARKET READ",
   "stickers": [
-   "⚽",
-   "🎯",
-   "🎯"
+   "🧠",
+   "👀",
+   "👀"
   ]
  },
  "source": "numbers",
  "fixture_id": 1575196,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

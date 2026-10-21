@@ -49,61 +49,157 @@
     "v": 37.5
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 33.9
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "v": 32.3
+    },
+    {
+     "t": "2026-10-19T09:31:00+00:00",
+     "v": 32.3
+    },
+    {
+     "t": "2026-10-19T15:21:00+00:00",
+     "v": 32.4
+    },
+    {
+     "t": "2026-10-19T18:26:00+00:00",
+     "v": 32.3
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 32.4
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 30.2
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "v": 30.2
+    },
+    {
+     "t": "2026-10-19T09:31:00+00:00",
+     "v": 30.2
+    },
+    {
+     "t": "2026-10-19T15:21:00+00:00",
+     "v": 30.1
+    },
+    {
+     "t": "2026-10-19T18:26:00+00:00",
+     "v": 30.1
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 30.1
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 35.9
+    },
+    {
+     "t": "2026-10-19T03:27:00+00:00",
+     "v": 37.5
+    },
+    {
+     "t": "2026-10-19T09:31:00+00:00",
+     "v": 37.5
+    },
+    {
+     "t": "2026-10-19T15:21:00+00:00",
+     "v": 37.5
+    },
+    {
+     "t": "2026-10-19T18:26:00+00:00",
+     "v": 37.6
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 37.5
+    }
+   ]
+  },
   "goals": 2.32,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
-   "type": "hook",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market moved 1.6 points towards Leeds.",
-   "variant": 2,
+   "text": "Leeds's win chance moved from 35.9% to 37.5%.",
+   "show": {
+    "kind": "move",
+    "team": "away",
+    "from": 35.9,
+    "to": 37.5
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
-     "w": "The",
+     "w": "Leeds's",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "market",
+     "w": "win",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "moved",
+     "w": "chance",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "1.6",
+     "w": "moved",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "points",
+     "w": "from",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "towards",
+     "w": "35.9%",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "Leeds.",
+     "w": "to",
      "start": 2.808,
      "end": 3.192
+    },
+    {
+     "w": "37.5%.",
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 144
+   "durationInFrames": 155
   },
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Sunderland against Leeds. Premier League, Sunday.",
-   "variant": 1,
+   "text": "Sunderland against Leeds, in the Premier League.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
      "w": "Sunderland",
@@ -116,221 +212,130 @@
      "end": 1.269
     },
     {
-     "w": "Leeds.",
+     "w": "Leeds,",
      "start": 1.269,
      "end": 1.654
+    },
+    {
+     "w": "in",
+     "start": 1.654,
+     "end": 2.038
+    },
+    {
+     "w": "the",
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "Premier",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "League,",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "Sunday.",
      "start": 2.423,
      "end": 2.808
+    },
+    {
+     "w": "League.",
+     "start": 2.808,
+     "end": 3.192
     }
    ],
-   "durationInFrames": 132
+   "durationInFrames": 144
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Sunderland 32%, draw 30%, Leeds 38%. Leeds are the favourites.",
+   "text": "Fair chances: Sunderland 32%, draw 30%, Leeds 38%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
-     "w": "Chance",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "to",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
-    },
-    {
-     "w": "win,",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "with",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "the",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "bookmaker",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "margin",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "removed:",
-     "start": 3.192,
-     "end": 3.577
     },
     {
      "w": "Sunderland",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "32%,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "draw",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "30%,",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "Leeds",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "38%.",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "Leeds",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "are",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "the",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "favourites.",
-     "start": 7.038,
-     "end": 7.423
-    }
-   ],
-   "durationInFrames": 271
-  },
-  {
-   "type": "line",
-   "speaker": "scout",
-   "text": "Since we started tracking, Leeds went from 35.9% to 37.5%. The price is moving their way.",
-   "variant": 0,
-   "words": [
-    {
-     "w": "Since",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "we",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "started",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "tracking,",
+     "w": "32%,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "Leeds",
+     "w": "draw",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "went",
+     "w": "30%,",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "from",
+     "w": "Leeds",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "35.9%",
+     "w": "38%.",
      "start": 3.192,
      "end": 3.577
-    },
-    {
-     "w": "to",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "37.5%.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "The",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "price",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "is",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "moving",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "their",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "way.",
-     "start": 6.269,
-     "end": 6.654
     }
    ],
-   "durationInFrames": 248
+   "durationInFrames": 155
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 2.3 goals in this match. That is the highest total of the weekend.",
-   "variant": 1,
+   "text": "Leeds are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Leeds favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Leeds",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "are",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "favourites.",
+     "start": 1.654,
+     "end": 2.038
+    }
+   ],
+   "durationInFrames": 120
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects 2.3 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 2.3
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -348,88 +353,31 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "2.3",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "2.3",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Leeds favourites at 38%",
-    "Leeds +1.6 pts since tracking started",
-    "About 2.3 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Leeds favourites, 38%",
+     "About 2.3 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -453,52 +401,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -544,16 +478,16 @@
  "silent": true,
  "style": "pulse",
  "story": {
-  "format": "goals",
-  "kicker": "GOALS WATCH",
+  "format": "market_read",
+  "kicker": "MARKET READ",
   "stickers": [
-   "🔥",
-   "🎯",
-   "🎯"
+   "📊",
+   "👀",
+   "👀"
   ]
  },
  "source": "numbers",
  "fixture_id": 1557446,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

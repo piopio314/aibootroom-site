@@ -37,6 +37,50 @@
     "v": 57.7
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 17.3
+    },
+    {
+     "t": "2026-10-19T09:31:00+00:00",
+     "v": 17.3
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 17.3
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 25.0
+    },
+    {
+     "t": "2026-10-19T09:31:00+00:00",
+     "v": 25.0
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 25.0
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 57.7
+    },
+    {
+     "t": "2026-10-19T09:31:00+00:00",
+     "v": 57.7
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 57.7
+    }
+   ]
+  },
   "goals": 2.37,
   "goals_rank": 1,
   "tracked_since": "2026-10-19T04:26:00+00:00",
@@ -44,9 +88,13 @@
  },
  "scenes": [
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Genoa against Juventus. Serie A, Wednesday.",
+   "text": "Genoa against Juventus, in the Serie A.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -60,141 +108,130 @@
      "end": 1.269
     },
     {
-     "w": "Juventus.",
+     "w": "Juventus,",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "Serie",
+     "w": "in",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "A,",
+     "w": "the",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "Wednesday.",
+     "w": "Serie",
      "start": 2.423,
      "end": 2.808
+    },
+    {
+     "w": "A.",
+     "start": 2.808,
+     "end": 3.192
     }
    ],
-   "durationInFrames": 132
+   "durationInFrames": 144
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Genoa 17%, draw 25%, Juventus 58%. Juventus are the favourites.",
-   "variant": 1,
+   "text": "Fair chances: Genoa 17%, draw 25%, Juventus 58%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
-     "w": "Chance",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "to",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "win,",
+     "w": "Genoa",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "with",
+     "w": "17%,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "the",
+     "w": "draw",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "bookmaker",
+     "w": "25%,",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "margin",
+     "w": "Juventus",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "removed:",
+     "w": "58%.",
      "start": 3.192,
      "end": 3.577
-    },
-    {
-     "w": "Genoa",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "17%,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "draw",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "25%,",
-     "start": 4.731,
-     "end": 5.115
-    },
+    }
+   ],
+   "durationInFrames": 155
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Juventus are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Juventus favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
     {
      "w": "Juventus",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "58%.",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "Juventus",
-     "start": 5.885,
-     "end": 6.269
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "are",
-     "start": 6.269,
-     "end": 6.654
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "the",
-     "start": 6.654,
-     "end": 7.038
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "favourites.",
-     "start": 7.038,
-     "end": 7.423
+     "start": 1.654,
+     "end": 2.038
     }
    ],
-   "durationInFrames": 271
+   "durationInFrames": 120
   },
   {
-   "type": "injury",
+   "type": "beat",
    "speaker": "sceptic",
-   "injuries": {
-    "home": [
-     {
-      "player": "L. Venturino",
-      "status": "Missing Fixture",
-      "reason": "Jumpers Knee"
-     }
-    ],
-    "away": []
+   "text": "Team news: 1 Genoa player is out or doubtful.",
+   "show": {
+    "kind": "stat",
+    "label": "Genoa absences",
+    "value": "1"
    },
-   "text": "Team news: 1 player out or doubtful for Genoa, 0 for Juventus. Known absences are usually already in the price.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -213,98 +250,48 @@
      "end": 1.654
     },
     {
-     "w": "player",
+     "w": "Genoa",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "out",
+     "w": "player",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "or",
+     "w": "is",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "doubtful",
+     "w": "out",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "for",
+     "w": "or",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Genoa,",
+     "w": "doubtful.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "0",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "for",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "Juventus.",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "Known",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "absences",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "are",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "usually",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "already",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "in",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "the",
-     "start": 7.423,
-     "end": 7.808
-    },
-    {
-     "w": "price.",
-     "start": 7.808,
-     "end": 8.192
     }
    ],
-   "durationInFrames": 294
+   "durationInFrames": 167
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 2.4 goals in this match. That is the highest total of the weekend.",
-   "variant": 1,
+   "text": "The market expects 2.4 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 2.4
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -322,88 +309,31 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "2.4",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "2.4",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Juventus favourites at 58%",
-    "Juventus +0.0 pts since tracking started",
-    "About 2.4 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Juventus favourites, 58%",
+     "About 2.4 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -427,52 +357,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -518,12 +434,12 @@
  "silent": true,
  "style": "pulse",
  "story": {
-  "format": "goals",
-  "kicker": "GOALS WATCH",
+  "format": "quiet",
+  "kicker": "QUIET MARKET",
   "stickers": [
-   "🎯",
-   "🔥",
-   "🎯"
+   "🧊",
+   "😴",
+   "🧊"
   ]
  },
  "source": "numbers",

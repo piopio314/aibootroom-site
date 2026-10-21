@@ -37,66 +37,126 @@
     "v": 33.7
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 43.3
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 40.2
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 40.0
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 25.7
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 26.2
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 26.2
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 31.0
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 33.6
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 33.7
+    }
+   ]
+  },
   "goals": 2.84,
   "goals_rank": 1,
   "tracked_since": "2026-10-18T22:49:00+00:00",
-  "prices_as_of": "2026-10-20T12:31:00+00:00"
+  "prices_as_of": "2026-10-20T20:44:00+00:00"
  },
  "scenes": [
   {
-   "type": "hook",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market moved 2.7 points towards Paris FC.",
-   "variant": 1,
+   "text": "Paris FC's win chance moved from 31.0% to 33.7%.",
+   "show": {
+    "kind": "move",
+    "team": "away",
+    "from": 31.0,
+    "to": 33.7
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
-     "w": "The",
+     "w": "Paris",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "market",
+     "w": "FC's",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "moved",
+     "w": "win",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "2.7",
+     "w": "chance",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "points",
+     "w": "moved",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "towards",
+     "w": "from",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "Paris",
+     "w": "31.0%",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "FC.",
+     "w": "to",
      "start": 3.192,
      "end": 3.577
+    },
+    {
+     "w": "33.7%.",
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 155
+   "durationInFrames": 167
   },
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Lens against Paris FC. Ligue 1, Saturday.",
-   "variant": 1,
+   "text": "Lens against Paris FC, in the Ligue 1.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
      "w": "Lens",
@@ -114,231 +174,135 @@
      "end": 1.654
     },
     {
-     "w": "FC.",
+     "w": "FC,",
      "start": 1.654,
      "end": 2.038
+    },
+    {
+     "w": "in",
+     "start": 2.038,
+     "end": 2.423
+    },
+    {
+     "w": "the",
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "Ligue",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "1,",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "Saturday.",
      "start": 2.808,
      "end": 3.192
+    },
+    {
+     "w": "1.",
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 144
+   "durationInFrames": 155
   },
   {
-   "type": "split",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: Lens 40%, draw 26%, Paris FC 34%. Lens are the favourites.",
+   "text": "Fair chances: Lens 40%, draw 26%, Paris FC 34%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
-     "w": "Chance",
+     "w": "Fair",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "to",
+     "w": "chances:",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "win,",
+     "w": "Lens",
      "start": 1.269,
      "end": 1.654
-    },
-    {
-     "w": "with",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "the",
-     "start": 2.038,
-     "end": 2.423
-    },
-    {
-     "w": "bookmaker",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "margin",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "removed:",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "Lens",
-     "start": 3.577,
-     "end": 3.962
     },
     {
      "w": "40%,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "draw",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "26%,",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "Paris",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "FC",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "34%.",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "Lens",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "are",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "the",
-     "start": 7.038,
-     "end": 7.423
-    },
-    {
-     "w": "favourites.",
-     "start": 7.423,
-     "end": 7.808
-    }
-   ],
-   "durationInFrames": 282
-  },
-  {
-   "type": "line",
-   "speaker": "scout",
-   "text": "Since we started tracking, Paris FC went from 31.0% to 33.7%. The price is moving their way.",
-   "variant": 0,
-   "words": [
-    {
-     "w": "Since",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "we",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "started",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "tracking,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "Paris",
+     "w": "draw",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "FC",
+     "w": "26%,",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "went",
+     "w": "Paris",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "from",
+     "w": "FC",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "31.0%",
+     "w": "34%.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "to",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "33.7%.",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "The",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "price",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "is",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "moving",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "their",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "way.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 167
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 2.8 goals in this match. That is the highest total of the weekend.",
-   "variant": 1,
+   "text": "Lens are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "Lens favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Lens",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "are",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "favourites.",
+     "start": 1.654,
+     "end": 2.038
+    }
+   ],
+   "durationInFrames": 120
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects 2.8 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 2.8
+   },
+   "first": false,
+   "variant": 0,
    "words": [
     {
      "w": "The",
@@ -356,89 +320,32 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "2.8",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "2.8",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "Lens favourites at 40%",
-    "Paris FC +2.7 pts since tracking started",
-    "About 2.8 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
-   "variant": 1,
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Lens favourites, 40%",
+     "About 2.8 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
      "w": "That",
@@ -461,52 +368,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -562,6 +455,6 @@
  },
  "source": "numbers",
  "fixture_id": 1552795,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

@@ -37,6 +37,50 @@
     "v": 40.4
    }
   ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-19T22:19:00+00:00",
+     "v": 37.5
+    },
+    {
+     "t": "2026-10-20T09:23:00+00:00",
+     "v": 41.1
+    },
+    {
+     "t": "2026-10-20T15:21:00+00:00",
+     "v": 40.4
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-19T22:19:00+00:00",
+     "v": 28.0
+    },
+    {
+     "t": "2026-10-20T09:23:00+00:00",
+     "v": 28.0
+    },
+    {
+     "t": "2026-10-20T15:21:00+00:00",
+     "v": 28.1
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-19T22:19:00+00:00",
+     "v": 34.4
+    },
+    {
+     "t": "2026-10-20T09:23:00+00:00",
+     "v": 30.9
+    },
+    {
+     "t": "2026-10-20T15:21:00+00:00",
+     "v": 31.5
+    }
+   ]
+  },
   "goals": 2.45,
   "goals_rank": 1,
   "tracked_since": "2026-10-19T22:19:00+00:00",
@@ -44,53 +88,69 @@
  },
  "scenes": [
   {
-   "type": "hook",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market moved 2.9 points towards QPR.",
-   "variant": 1,
+   "text": "QPR's win chance moved from 37.5% to 40.4%.",
+   "show": {
+    "kind": "move",
+    "team": "home",
+    "from": 37.5,
+    "to": 40.4
+   },
+   "first": true,
+   "variant": 0,
    "words": [
     {
-     "w": "The",
+     "w": "QPR's",
      "start": 0.5,
      "end": 0.885
     },
     {
-     "w": "market",
+     "w": "win",
      "start": 0.885,
      "end": 1.269
     },
     {
-     "w": "moved",
+     "w": "chance",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "2.9",
+     "w": "moved",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "points",
+     "w": "from",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "towards",
+     "w": "37.5%",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "QPR.",
+     "w": "to",
      "start": 2.808,
      "end": 3.192
+    },
+    {
+     "w": "40.4%.",
+     "start": 3.192,
+     "end": 3.577
     }
    ],
-   "durationInFrames": 144
+   "durationInFrames": 155
   },
   {
-   "type": "match",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "QPR against Swansea. Championship, Saturday.",
+   "text": "QPR against Swansea, in the Championship.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
@@ -104,46 +164,12 @@
      "end": 1.269
     },
     {
-     "w": "Swansea.",
+     "w": "Swansea,",
      "start": 1.269,
      "end": 1.654
     },
     {
-     "w": "Championship,",
-     "start": 1.654,
-     "end": 2.038
-    },
-    {
-     "w": "Saturday.",
-     "start": 2.038,
-     "end": 2.423
-    }
-   ],
-   "durationInFrames": 121
-  },
-  {
-   "type": "split",
-   "speaker": "narrator",
-   "text": "Chance to win, with the bookmaker margin removed: QPR 40%, draw 28%, Swansea 32%. QPR are the favourites.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Chance",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "to",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "win,",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "with",
+     "w": "in",
      "start": 1.654,
      "end": 2.038
     },
@@ -153,166 +179,109 @@
      "end": 2.423
     },
     {
-     "w": "bookmaker",
+     "w": "Championship.",
      "start": 2.423,
      "end": 2.808
+    }
+   ],
+   "durationInFrames": 132
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Fair chances: QPR 40%, draw 28%, Swansea 32%.",
+   "show": {
+    "kind": "chances"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "Fair",
+     "start": 0.5,
+     "end": 0.885
     },
     {
-     "w": "margin",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "removed:",
-     "start": 3.192,
-     "end": 3.577
+     "w": "chances:",
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "QPR",
-     "start": 3.577,
-     "end": 3.962
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "40%,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "draw",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "28%,",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "Swansea",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "32%.",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "QPR",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "are",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "the",
-     "start": 6.654,
-     "end": 7.038
-    },
-    {
-     "w": "favourites.",
-     "start": 7.038,
-     "end": 7.423
-    }
-   ],
-   "durationInFrames": 271
-  },
-  {
-   "type": "line",
-   "speaker": "scout",
-   "text": "Since we started tracking, QPR went from 37.5% to 40.4%. The price is moving their way.",
-   "variant": 1,
-   "words": [
-    {
-     "w": "Since",
-     "start": 0.5,
-     "end": 0.885
-    },
-    {
-     "w": "we",
-     "start": 0.885,
-     "end": 1.269
-    },
-    {
-     "w": "started",
-     "start": 1.269,
-     "end": 1.654
-    },
-    {
-     "w": "tracking,",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "QPR",
+     "w": "draw",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "went",
+     "w": "28%,",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "from",
+     "w": "Swansea",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "37.5%",
+     "w": "32%.",
      "start": 3.192,
      "end": 3.577
-    },
-    {
-     "w": "to",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "40.4%.",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "The",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "price",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "is",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "moving",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "their",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "way.",
-     "start": 6.269,
-     "end": 6.654
     }
    ],
-   "durationInFrames": 248
+   "durationInFrames": 155
   },
   {
-   "type": "goals",
+   "type": "beat",
    "speaker": "narrator",
-   "text": "The market expects about 2.5 goals in this match. That is the highest total of the weekend.",
+   "text": "QPR are the favourites.",
+   "show": {
+    "kind": "phrase",
+    "text": "QPR favourites"
+   },
+   "first": false,
+   "variant": 0,
+   "words": [
+    {
+     "w": "QPR",
+     "start": 0.5,
+     "end": 0.885
+    },
+    {
+     "w": "are",
+     "start": 0.885,
+     "end": 1.269
+    },
+    {
+     "w": "the",
+     "start": 1.269,
+     "end": 1.654
+    },
+    {
+     "w": "favourites.",
+     "start": 1.654,
+     "end": 2.038
+    }
+   ],
+   "durationInFrames": 120
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects 2.5 goals.",
+   "show": {
+    "kind": "goals",
+    "value": 2.5
+   },
+   "first": false,
    "variant": 0,
    "words": [
     {
@@ -331,88 +300,31 @@
      "end": 1.654
     },
     {
-     "w": "about",
+     "w": "2.5",
      "start": 1.654,
      "end": 2.038
     },
     {
-     "w": "2.5",
+     "w": "goals.",
      "start": 2.038,
      "end": 2.423
-    },
-    {
-     "w": "goals",
-     "start": 2.423,
-     "end": 2.808
-    },
-    {
-     "w": "in",
-     "start": 2.808,
-     "end": 3.192
-    },
-    {
-     "w": "this",
-     "start": 3.192,
-     "end": 3.577
-    },
-    {
-     "w": "match.",
-     "start": 3.577,
-     "end": 3.962
-    },
-    {
-     "w": "That",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "is",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "the",
-     "start": 4.731,
-     "end": 5.115
-    },
-    {
-     "w": "highest",
-     "start": 5.115,
-     "end": 5.5
-    },
-    {
-     "w": "total",
-     "start": 5.5,
-     "end": 5.885
-    },
-    {
-     "w": "of",
-     "start": 5.885,
-     "end": 6.269
-    },
-    {
-     "w": "the",
-     "start": 6.269,
-     "end": 6.654
-    },
-    {
-     "w": "weekend.",
-     "start": 6.654,
-     "end": 7.038
     }
    ],
-   "durationInFrames": 259
+   "durationInFrames": 121
   },
   {
-   "type": "verdict",
+   "type": "beat",
    "speaker": "gaffer",
-   "bullets": [
-    "QPR favourites at 40%",
-    "QPR +2.9 pts since tracking started",
-    "About 2.5 goals expected"
-   ],
-   "stamp": "THE MARKET",
-   "text": "That is the market's reading of this match. Numbers only, no tips.",
+   "text": "That is the market's reading. Numbers only, no tips.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "QPR favourites, 40%",
+     "About 2.5 goals expected",
+     "Numbers only, no tips"
+    ]
+   },
+   "first": true,
    "variant": 0,
    "words": [
     {
@@ -436,52 +348,38 @@
      "end": 2.038
     },
     {
-     "w": "reading",
+     "w": "reading.",
      "start": 2.038,
      "end": 2.423
     },
     {
-     "w": "of",
+     "w": "Numbers",
      "start": 2.423,
      "end": 2.808
     },
     {
-     "w": "this",
+     "w": "only,",
      "start": 2.808,
      "end": 3.192
     },
     {
-     "w": "match.",
+     "w": "no",
      "start": 3.192,
      "end": 3.577
     },
     {
-     "w": "Numbers",
+     "w": "tips.",
      "start": 3.577,
      "end": 3.962
-    },
-    {
-     "w": "only,",
-     "start": 3.962,
-     "end": 4.346
-    },
-    {
-     "w": "no",
-     "start": 4.346,
-     "end": 4.731
-    },
-    {
-     "w": "tips.",
-     "start": 4.731,
-     "end": 5.115
     }
    ],
-   "durationInFrames": 201
+   "durationInFrames": 167
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
    "variant": 0,
    "words": [
     {
