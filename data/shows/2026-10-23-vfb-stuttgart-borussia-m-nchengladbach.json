@@ -1,0 +1,850 @@
+{
+ "id": "2026-10-23-vfb-stuttgart-borussia-m-nchengladbach",
+ "title": "Gladbach's worst start: Stuttgart still favourites",
+ "match": {
+  "home": "VfB Stuttgart",
+  "away": "Borussia Mönchengladbach",
+  "league": "Bundesliga",
+  "kickoff": "2026-10-23T18:30:00+00:00",
+  "home_short": "STU",
+  "away_short": "BMÖ",
+  "home_color": "#2563eb",
+  "away_color": "#15803d"
+ },
+ "market": {
+  "fair": {
+   "home": 69.8,
+   "draw": 16.4,
+   "away": 13.7
+  },
+  "move": {
+   "home": 1.9,
+   "draw": -0.7,
+   "away": -1.3
+  },
+  "side": "home",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 67.9
+   },
+   {
+    "t": "2026-10-19T05:22:00+00:00",
+    "v": 68.8
+   },
+   {
+    "t": "2026-10-20T05:21:00+00:00",
+    "v": 69.8
+   },
+   {
+    "t": "2026-10-21T02:29:00+00:00",
+    "v": 69.9
+   },
+   {
+    "t": "2026-10-21T14:23:00+00:00",
+    "v": 69.8
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 67.9
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 68.8
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 69.8
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 69.9
+    },
+    {
+     "t": "2026-10-21T14:23:00+00:00",
+     "v": 69.8
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 17.1
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 16.8
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 16.4
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 16.4
+    },
+    {
+     "t": "2026-10-21T14:23:00+00:00",
+     "v": 16.4
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 15.0
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 14.4
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 13.7
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 13.7
+    },
+    {
+     "t": "2026-10-21T14:23:00+00:00",
+     "v": 13.7
+    }
+   ]
+  },
+  "goals": 3.79,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Borussia Mönchengladbach have 0 points — the worst start in their history.",
+   "show": {
+    "kind": "stat",
+    "label": "Gladbach league points",
+    "value": "0"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-23-vfb-stuttgart-borussia-m-nchengladbach/s0.mp3",
+   "words": [
+    {
+     "w": "Borussia",
+     "start": 0.25,
+     "end": 0.7
+    },
+    {
+     "w": "Mönchengladbach",
+     "start": 0.7,
+     "end": 1.6
+    },
+    {
+     "w": "have",
+     "start": 1.6,
+     "end": 1.812
+    },
+    {
+     "w": "0",
+     "start": 1.812,
+     "end": 2.212
+    },
+    {
+     "w": "points—",
+     "start": 2.212,
+     "end": 2.888
+    },
+    {
+     "w": "the",
+     "start": 2.975,
+     "end": 3.075
+    },
+    {
+     "w": "worst",
+     "start": 3.075,
+     "end": 3.425
+    },
+    {
+     "w": "start",
+     "start": 3.425,
+     "end": 3.737
+    },
+    {
+     "w": "in",
+     "start": 3.737,
+     "end": 3.812
+    },
+    {
+     "w": "their",
+     "start": 3.812,
+     "end": 4.0
+    },
+    {
+     "w": "history.",
+     "start": 4.0,
+     "end": 4.875
+    }
+   ],
+   "durationInFrames": 154
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "They go to Stuttgart on Friday night in the Bundesliga.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-vfb-stuttgart-borussia-m-nchengladbach/s1.mp3",
+   "words": [
+    {
+     "w": "They",
+     "start": 0.25,
+     "end": 0.362
+    },
+    {
+     "w": "go",
+     "start": 0.362,
+     "end": 0.487
+    },
+    {
+     "w": "to",
+     "start": 0.487,
+     "end": 0.575
+    },
+    {
+     "w": "Stuttgart",
+     "start": 0.575,
+     "end": 1.125
+    },
+    {
+     "w": "on",
+     "start": 1.125,
+     "end": 1.337
+    },
+    {
+     "w": "Friday",
+     "start": 1.337,
+     "end": 1.825
+    },
+    {
+     "w": "night",
+     "start": 1.825,
+     "end": 2.15
+    },
+    {
+     "w": "in",
+     "start": 2.15,
+     "end": 2.237
+    },
+    {
+     "w": "the",
+     "start": 2.237,
+     "end": 2.325
+    },
+    {
+     "w": "Bundesliga.",
+     "start": 2.325,
+     "end": 3.375
+    }
+   ],
+   "durationInFrames": 109
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Stuttgart are unbeaten in the Champions League, with 7 points.",
+   "show": {
+    "kind": "stat",
+    "label": "Champions League points",
+    "value": "7"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-vfb-stuttgart-borussia-m-nchengladbach/s2.mp3",
+   "words": [
+    {
+     "w": "Stuttgart",
+     "start": 0.25,
+     "end": 0.675
+    },
+    {
+     "w": "are",
+     "start": 0.675,
+     "end": 0.825
+    },
+    {
+     "w": "unbeaten",
+     "start": 0.825,
+     "end": 1.288
+    },
+    {
+     "w": "in",
+     "start": 1.288,
+     "end": 1.363
+    },
+    {
+     "w": "the",
+     "start": 1.363,
+     "end": 1.45
+    },
+    {
+     "w": "Champions",
+     "start": 1.45,
+     "end": 1.975
+    },
+    {
+     "w": "League,",
+     "start": 1.975,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.55,
+     "end": 2.763
+    },
+    {
+     "w": "7",
+     "start": 2.763,
+     "end": 3.125
+    },
+    {
+     "w": "points.",
+     "start": 3.125,
+     "end": 3.95
+    }
+   ],
+   "durationInFrames": 127
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "And yet in the Bundesliga they are 13th, on 6 points.",
+   "show": {
+    "kind": "table",
+    "team": "home",
+    "rank": 13,
+    "pts": 6
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-vfb-stuttgart-borussia-m-nchengladbach/s3.mp3",
+   "words": [
+    {
+     "w": "And",
+     "start": 0.25,
+     "end": 0.375
+    },
+    {
+     "w": "yet",
+     "start": 0.375,
+     "end": 0.537
+    },
+    {
+     "w": "in",
+     "start": 0.537,
+     "end": 0.613
+    },
+    {
+     "w": "the",
+     "start": 0.613,
+     "end": 0.7
+    },
+    {
+     "w": "Bundesliga",
+     "start": 0.7,
+     "end": 1.325
+    },
+    {
+     "w": "they",
+     "start": 1.325,
+     "end": 1.475
+    },
+    {
+     "w": "are",
+     "start": 1.475,
+     "end": 1.637
+    },
+    {
+     "w": "13th,",
+     "start": 1.637,
+     "end": 2.275
+    },
+    {
+     "w": "on",
+     "start": 2.375,
+     "end": 2.587
+    },
+    {
+     "w": "6",
+     "start": 2.587,
+     "end": 2.9
+    },
+    {
+     "w": "points.",
+     "start": 2.9,
+     "end": 3.725
+    }
+   ],
+   "durationInFrames": 120
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Gladbach, meanwhile, are conceding 2.17 expected goals a game.",
+   "show": {
+    "kind": "stat",
+    "label": "xG conceded per game",
+    "value": "2.17"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-vfb-stuttgart-borussia-m-nchengladbach/s4.mp3",
+   "words": [
+    {
+     "w": "Gladbach,",
+     "start": 0.25,
+     "end": 0.75
+    },
+    {
+     "w": "meanwhile,",
+     "start": 0.787,
+     "end": 1.5
+    },
+    {
+     "w": "are",
+     "start": 1.6,
+     "end": 1.7
+    },
+    {
+     "w": "conceding",
+     "start": 1.7,
+     "end": 2.212
+    },
+    {
+     "w": "2.17",
+     "start": 2.212,
+     "end": 3.25
+    },
+    {
+     "w": "expected",
+     "start": 3.25,
+     "end": 3.825
+    },
+    {
+     "w": "goals",
+     "start": 3.825,
+     "end": 4.188
+    },
+    {
+     "w": "a",
+     "start": 4.188,
+     "end": 4.275
+    },
+    {
+     "w": "game.",
+     "start": 4.275,
+     "end": 5.1
+    }
+   ],
+   "durationInFrames": 161
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Even so, the market average makes Stuttgart 69.8% favourites.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 69.8
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-vfb-stuttgart-borussia-m-nchengladbach/s5.mp3",
+   "words": [
+    {
+     "w": "Even",
+     "start": 0.25,
+     "end": 0.537
+    },
+    {
+     "w": "so,",
+     "start": 0.537,
+     "end": 0.9
+    },
+    {
+     "w": "the",
+     "start": 0.938,
+     "end": 1.025
+    },
+    {
+     "w": "market",
+     "start": 1.025,
+     "end": 1.375
+    },
+    {
+     "w": "average",
+     "start": 1.375,
+     "end": 1.8
+    },
+    {
+     "w": "makes",
+     "start": 1.8,
+     "end": 2.05
+    },
+    {
+     "w": "Stuttgart",
+     "start": 2.05,
+     "end": 2.538
+    },
+    {
+     "w": "69.8%",
+     "start": 2.538,
+     "end": 3.975
+    },
+    {
+     "w": "favourites.",
+     "start": 3.975,
+     "end": 4.9
+    }
+   ],
+   "durationInFrames": 155
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Stuttgart may be without right-back Vagnoman, who has played 778 minutes.",
+   "show": {
+    "kind": "absence",
+    "team": "home",
+    "player": "Vagnoman",
+    "status": "doubtful",
+    "line": "778 minutes this season"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-vfb-stuttgart-borussia-m-nchengladbach/s6.mp3",
+   "words": [
+    {
+     "w": "Stuttgart",
+     "start": 0.25,
+     "end": 0.725
+    },
+    {
+     "w": "may",
+     "start": 0.725,
+     "end": 0.9
+    },
+    {
+     "w": "be",
+     "start": 0.9,
+     "end": 1.05
+    },
+    {
+     "w": "without",
+     "start": 1.05,
+     "end": 1.4
+    },
+    {
+     "w": "right-back",
+     "start": 1.4,
+     "end": 1.925
+    },
+    {
+     "w": "Vagnoman,",
+     "start": 1.925,
+     "end": 2.725
+    },
+    {
+     "w": "who",
+     "start": 2.825,
+     "end": 2.938
+    },
+    {
+     "w": "has",
+     "start": 2.938,
+     "end": 3.1
+    },
+    {
+     "w": "played",
+     "start": 3.1,
+     "end": 3.438
+    },
+    {
+     "w": "778",
+     "start": 3.438,
+     "end": 4.75
+    },
+    {
+     "w": "minutes.",
+     "start": 4.75,
+     "end": 5.55
+    }
+   ],
+   "durationInFrames": 175
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Gladbach have conceded 17 goals in their last 5 league games.",
+   "show": {
+    "kind": "stat",
+    "label": "Goals conceded, last 5",
+    "value": "17"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-vfb-stuttgart-borussia-m-nchengladbach/s7.mp3",
+   "words": [
+    {
+     "w": "Gladbach",
+     "start": 0.25,
+     "end": 0.688
+    },
+    {
+     "w": "have",
+     "start": 0.688,
+     "end": 0.8
+    },
+    {
+     "w": "conceded",
+     "start": 0.8,
+     "end": 1.312
+    },
+    {
+     "w": "17",
+     "start": 1.312,
+     "end": 1.925
+    },
+    {
+     "w": "goals",
+     "start": 1.925,
+     "end": 2.312
+    },
+    {
+     "w": "in",
+     "start": 2.312,
+     "end": 2.388
+    },
+    {
+     "w": "their",
+     "start": 2.388,
+     "end": 2.55
+    },
+    {
+     "w": "last",
+     "start": 2.55,
+     "end": 2.938
+    },
+    {
+     "w": "5",
+     "start": 2.938,
+     "end": 3.3
+    },
+    {
+     "w": "league",
+     "start": 3.3,
+     "end": 3.55
+    },
+    {
+     "w": "games.",
+     "start": 3.55,
+     "end": 4.4
+    }
+   ],
+   "durationInFrames": 140
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "That is why the market expects 3.75 goals here.",
+   "show": {
+    "kind": "goals",
+    "value": 3.75
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-vfb-stuttgart-borussia-m-nchengladbach/s8.mp3",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.25,
+     "end": 0.412
+    },
+    {
+     "w": "is",
+     "start": 0.412,
+     "end": 0.525
+    },
+    {
+     "w": "why",
+     "start": 0.525,
+     "end": 0.713
+    },
+    {
+     "w": "the",
+     "start": 0.713,
+     "end": 0.8
+    },
+    {
+     "w": "market",
+     "start": 0.8,
+     "end": 1.175
+    },
+    {
+     "w": "expects",
+     "start": 1.175,
+     "end": 1.663
+    },
+    {
+     "w": "3.75",
+     "start": 1.663,
+     "end": 2.85
+    },
+    {
+     "w": "goals",
+     "start": 2.85,
+     "end": 3.175
+    },
+    {
+     "w": "here.",
+     "start": 3.175,
+     "end": 3.825
+    }
+   ],
+   "durationInFrames": 123
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Crisis against European form: Stuttgart are the clear favourites.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Worst start meets European form",
+     "Gladbach's defence under pressure",
+     "Stuttgart clear home favourites"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-vfb-stuttgart-borussia-m-nchengladbach/s9.mp3",
+   "words": [
+    {
+     "w": "Crisis",
+     "start": 0.25,
+     "end": 0.675
+    },
+    {
+     "w": "against",
+     "start": 0.675,
+     "end": 1.0
+    },
+    {
+     "w": "European",
+     "start": 1.0,
+     "end": 1.538
+    },
+    {
+     "w": "form:",
+     "start": 1.538,
+     "end": 2.1
+    },
+    {
+     "w": "Stuttgart",
+     "start": 2.237,
+     "end": 2.8
+    },
+    {
+     "w": "are",
+     "start": 2.8,
+     "end": 2.888
+    },
+    {
+     "w": "the",
+     "start": 2.888,
+     "end": 2.975
+    },
+    {
+     "w": "clear",
+     "start": 2.975,
+     "end": 3.263
+    },
+    {
+     "w": "favourites.",
+     "start": 3.263,
+     "end": 4.225
+    }
+   ],
+   "durationInFrames": 142
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-23-vfb-stuttgart-borussia-m-nchengladbach/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "market_read",
+  "kicker": "MARKET READ",
+  "stickers": [
+   "🧠",
+   "👀",
+   "👀"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1575196,
+ "prices_as_of": "2026-10-21T19:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

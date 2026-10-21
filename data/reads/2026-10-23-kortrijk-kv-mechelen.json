@@ -1,0 +1,105 @@
+{
+ "slug": "2026-10-23-kortrijk-kv-mechelen",
+ "league": "Jupiler Pro League",
+ "home": "Kortrijk",
+ "away": "KV Mechelen",
+ "kickoff": "2026-10-23T18:45:00+00:00",
+ "generated_at": "2026-10-21T20:44:58+00:00",
+ "headline": "Kortrijk 17th, a new coach, and a level game with Mechelen",
+ "summary": "Kortrijk open the weekend 17th in the Jupiler Pro League, with 3 points from eight games and a goal difference of minus 16. Daniel Beichler, barely a week into the job, has promised a 'new' Kortrijk, VoetbalNieuws reports. Their last match was a 0-3 defeat at Genk. Mechelen arrive on back-to-back wins — 4-3 over St. Truiden, then 5-1 over Eupen in the cup — although the league win brought only 0.74 expected goals. The market is level: Kortrijk 37.4%, Mechelen 35.4%, with the handicap at 0.",
+ "read": "Kortrijk are 17th with one win in eight and have just changed coach, yet at home they are still priced only fractionally ahead of Mechelen, with the handicap at level. Mechelen arrive on back-to-back wins — though their 4-3 over St. Truiden came with less xG than they allowed — and both teams to score is the likelier side at 57.7%.",
+ "facts": [
+  {
+   "fact": "Kortrijk are 17th of 18 in the Jupiler Pro League with three points from eight games — one win, seven defeats and a goal difference of -16.",
+   "meaning": "The home side start the weekend in the bottom two and need a result to stop the season running away from them."
+  },
+  {
+   "fact": "Daniel Beichler, in charge barely a week, has announced a 'new' Kortrijk for Friday's match, reported by VoetbalNieuws.",
+   "meaning": ""
+  },
+  {
+   "fact": "Mechelen's first league win of the season was 4-3 at home to St. Truiden, despite being out-created 1.45 xG to 0.74.",
+   "meaning": "They arrive with a win behind them, but the numbers say it was a wild, high-variance game rather than a controlled one."
+  },
+  {
+   "fact": "Kortrijk are priced 37.4% to win, Mechelen 35.4%, with the handicap set at level (+0).",
+   "meaning": ""
+  },
+  {
+   "fact": "Kortrijk lost 0-3 at Genk in their last league match, creating 0.65 xG to Genk's 1.78.",
+   "meaning": "Their last competitive outing was one-sided in both boxes — the new coach inherits a side that was beaten comfortably."
+  },
+  {
+   "fact": "Kortrijk have not played since 10 October — 13 days — while Mechelen were in cup action on Sunday.",
+   "meaning": "The new coach has had two full weeks with the squad; Mechelen come in on a short week after a midweek-style turnaround."
+  },
+  {
+   "fact": "Both teams to score is priced at 57.7%, more likely than not.",
+   "meaning": "The market expects both defences to be breached even with the result this tight."
+  },
+  {
+   "fact": "Mechelen won 3-0 on their last visit to Kortrijk, in November 2023.",
+   "meaning": "Mechelen have had the upper hand in this fixture in recent seasons, including on Kortrijk's own ground."
+  }
+ ],
+ "article": null,
+ "sources": [
+  {
+   "fact": "Daniel Beichler is Kortrijk's head coach and, after a difficult debut at Genk, is counting on a more collective and aggressive Kortrijk against Mechelen, according to voetbalfocus.be.",
+   "source": "voetbalfocus.be",
+   "url": "https://voetbalfocus.be/kv-kortrijk-beichler-andere-ploeg-kv-mechelen/",
+   "age": "5 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Beichler has announced a 'new' Kortrijk for Friday's ninth matchday opener, according to VoetbalNieuws.",
+   "source": "www.voetbalnieuws.be",
+   "url": "https://www.voetbalnieuws.be/news/930451/beichler-kondigt-nieuw-kv-kortrijk-aan",
+   "age": "5 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Kortrijk have had a poor start to the season, described as dramatic in the Jupiler Pro League and already out of the Croky Cup, per VoetbalNieuws.",
+   "source": "voetbalnieuws.be",
+   "url": "https://voetbalnieuws.be/news/929570/kv-kortrijk-grijpt-in-volgend-ontslag-is-een-feit",
+   "age": "5 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Kortrijk continue to overhaul their sporting staff: barely a week after a new head coach and assistant arrived, Markus Pflanz is leaving and Kurt Bataille is taking another role, per Voetbalkrant.",
+   "source": "voetbalkrant.com",
+   "url": "https://voetbalkrant.com/nieuws/2026-10-18/kv-kortrijk-blijft-ingrijpen-opnieuw-twee-opvallende-wijzigingen",
+   "age": "3 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Mechelen finally took their first league win of the season against STVV (4-3) and followed it with a convincing 5-1 cup win over Eupen, according to Voetbalnieuws.",
+   "source": "www.voetbalnieuws.be",
+   "url": "https://www.voetbalnieuws.be/news/930036/kv-mechelen-ontdekt-goudhaantje-dankzij-domme-oefenmatch",
+   "age": "2 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Mechelen have had an uncomfortable start to the season and are currently fighting against relegation and to avoid last place, per Voetbalkrant.",
+   "source": "voetbalkrant.com",
+   "url": "https://voetbalkrant.com/nieuws/2026-10-19/van-brederode-kv-mechelen-komt-met-grote-uitspraken-over-beker-en-competitie",
+   "age": "3 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Nineteen-year-old midfielder Marco Decherf has convinced his coach and teammates and become Mechelen's new engine in midfield, according to Voetbalprimeur and HBVL.",
+   "source": "www.voetbalprimeur.be",
+   "url": "https://www.voetbalprimeur.be/nieuws/2148959/decherf-werpt-zich-op-tot-spelmaker-bij-kv-mechelen.html",
+   "age": "1 day ago",
+   "certainty": "reported"
+  }
+ ],
+ "video_title": "Kortrijk 17th, a new coach — and Mechelen in form",
+ "key_points": [
+  "Kortrijk: one win in eight",
+  "New coach, 'new' Kortrijk",
+  "Level line: 37.4% v 35.4%"
+ ],
+ "market": null,
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
+}

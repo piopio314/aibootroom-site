@@ -1,0 +1,833 @@
+{
+ "id": "2026-10-22-monaco-sc-freiburg",
+ "title": "Monaco narrow favourites as Freiburg bring the chances",
+ "match": {
+  "home": "Monaco",
+  "away": "SC Freiburg",
+  "league": "Conference League",
+  "kickoff": "2026-10-22T19:00:00+00:00",
+  "home_short": "MON",
+  "away_short": "FRE",
+  "home_color": "#be123c",
+  "away_color": "#b45309"
+ },
+ "market": {
+  "fair": {
+   "home": 41.8,
+   "draw": 26.9,
+   "away": 31.3
+  },
+  "move": {
+   "home": -0.3,
+   "draw": 0.5,
+   "away": -0.2
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-20T20:44:00+00:00",
+    "v": 31.5
+   },
+   {
+    "t": "2026-10-21T03:25:00+00:00",
+    "v": 31.5
+   },
+   {
+    "t": "2026-10-21T06:35:00+00:00",
+    "v": 31.5
+   },
+   {
+    "t": "2026-10-21T09:23:00+00:00",
+    "v": 31.3
+   },
+   {
+    "t": "2026-10-21T18:25:00+00:00",
+    "v": 31.3
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 42.1
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "v": 42.1
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "v": 42.1
+    },
+    {
+     "t": "2026-10-21T09:23:00+00:00",
+     "v": 41.8
+    },
+    {
+     "t": "2026-10-21T18:25:00+00:00",
+     "v": 41.8
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 26.5
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "v": 26.5
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "v": 26.5
+    },
+    {
+     "t": "2026-10-21T09:23:00+00:00",
+     "v": 26.9
+    },
+    {
+     "t": "2026-10-21T18:25:00+00:00",
+     "v": 26.9
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 31.5
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "v": 31.5
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "v": 31.5
+    },
+    {
+     "t": "2026-10-21T09:23:00+00:00",
+     "v": 31.3
+    },
+    {
+     "t": "2026-10-21T18:25:00+00:00",
+     "v": 31.3
+    }
+   ]
+  },
+  "goals": 2.67,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-20T20:44:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Freiburg have averaged 1.98 expected goals across their last five.",
+   "show": {
+    "kind": "stat",
+    "label": "Freiburg xG per game",
+    "value": "1.98"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-monaco-sc-freiburg/s0.mp3",
+   "words": [
+    {
+     "w": "Freiburg",
+     "start": 0.12,
+     "end": 0.68
+    },
+    {
+     "w": "have",
+     "start": 0.76,
+     "end": 0.76
+    },
+    {
+     "w": "averaged",
+     "start": 0.76,
+     "end": 1.24
+    },
+    {
+     "w": "1.98",
+     "start": 1.24,
+     "end": 2.44
+    },
+    {
+     "w": "expected",
+     "start": 2.44,
+     "end": 2.92
+    },
+    {
+     "w": "goals",
+     "start": 2.92,
+     "end": 3.32
+    },
+    {
+     "w": "across",
+     "start": 3.32,
+     "end": 3.72
+    },
+    {
+     "w": "their",
+     "start": 3.8,
+     "end": 3.8
+    },
+    {
+     "w": "last",
+     "start": 3.88,
+     "end": 4.2
+    },
+    {
+     "w": "five.",
+     "start": 4.2,
+     "end": 4.76
+    }
+   ],
+   "durationInFrames": 151
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "On Thursday they visit Monaco in the Conference League.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-monaco-sc-freiburg/s1.mp3",
+   "words": [
+    {
+     "w": "On",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "Thursday",
+     "start": 0.28,
+     "end": 0.92
+    },
+    {
+     "w": "they",
+     "start": 0.92,
+     "end": 1.16
+    },
+    {
+     "w": "visit",
+     "start": 1.24,
+     "end": 1.48
+    },
+    {
+     "w": "Monaco",
+     "start": 1.48,
+     "end": 2.2
+    },
+    {
+     "w": "in",
+     "start": 2.28,
+     "end": 2.28
+    },
+    {
+     "w": "the",
+     "start": 2.36,
+     "end": 2.36
+    },
+    {
+     "w": "Conference",
+     "start": 2.36,
+     "end": 2.92
+    },
+    {
+     "w": "League.",
+     "start": 2.92,
+     "end": 3.32
+    }
+   ],
+   "durationInFrames": 108
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Monaco's unbeaten league run ended on Sunday, 0-1 at Lorient.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Lorient",
+    "score": "0-1",
+    "when": "Sunday"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-monaco-sc-freiburg/s2.mp3",
+   "words": [
+    {
+     "w": "Monaco's",
+     "start": 0.119,
+     "end": 0.68
+    },
+    {
+     "w": "unbeaten",
+     "start": 0.682,
+     "end": 1.24
+    },
+    {
+     "w": "league",
+     "start": 1.32,
+     "end": 1.56
+    },
+    {
+     "w": "run",
+     "start": 1.56,
+     "end": 1.88
+    },
+    {
+     "w": "ended",
+     "start": 1.961,
+     "end": 2.28
+    },
+    {
+     "w": "on",
+     "start": 2.28,
+     "end": 2.44
+    },
+    {
+     "w": "Sunday,",
+     "start": 2.44,
+     "end": 3.08
+    },
+    {
+     "w": "0-1",
+     "start": 3.16,
+     "end": 3.96
+    },
+    {
+     "w": "at",
+     "start": 3.96,
+     "end": 4.04
+    },
+    {
+     "w": "Lorient.",
+     "start": 4.04,
+     "end": 4.6
+    }
+   ],
+   "durationInFrames": 146
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "In those same five games, Monaco's average is only 1.18.",
+   "show": {
+    "kind": "stat",
+    "label": "Monaco xG per game",
+    "value": "1.18"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-monaco-sc-freiburg/s3.mp3",
+   "words": [
+    {
+     "w": "In",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "those",
+     "start": 0.36,
+     "end": 0.44
+    },
+    {
+     "w": "same",
+     "start": 0.44,
+     "end": 0.76
+    },
+    {
+     "w": "five",
+     "start": 0.84,
+     "end": 1.08
+    },
+    {
+     "w": "games,",
+     "start": 1.08,
+     "end": 1.64
+    },
+    {
+     "w": "Monaco's",
+     "start": 1.88,
+     "end": 2.28
+    },
+    {
+     "w": "average",
+     "start": 2.28,
+     "end": 2.76
+    },
+    {
+     "w": "is",
+     "start": 2.76,
+     "end": 2.84
+    },
+    {
+     "w": "only",
+     "start": 2.92,
+     "end": 3.16
+    },
+    {
+     "w": "1.18.",
+     "start": 3.16,
+     "end": 4.44
+    }
+   ],
+   "durationInFrames": 141
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Freiburg lost too: 1-2 at Leverkusen on Sunday.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Leverkusen",
+    "score": "1-2",
+    "when": "Sunday"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-monaco-sc-freiburg/s4.mp3",
+   "words": [
+    {
+     "w": "Freiburg",
+     "start": 0.118,
+     "end": 0.68
+    },
+    {
+     "w": "lost",
+     "start": 0.68,
+     "end": 1
+    },
+    {
+     "w": "too:",
+     "start": 1.08,
+     "end": 1.4
+    },
+    {
+     "w": "1-2",
+     "start": 1.512,
+     "end": 2.2
+    },
+    {
+     "w": "at",
+     "start": 2.2,
+     "end": 2.28
+    },
+    {
+     "w": "Leverkusen",
+     "start": 2.28,
+     "end": 2.92
+    },
+    {
+     "w": "on",
+     "start": 3,
+     "end": 3
+    },
+    {
+     "w": "Sunday.",
+     "start": 3.0,
+     "end": 3.64
+    }
+   ],
+   "durationInFrames": 117
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "According to SWR, Freiburg are without defender Philipp Lienhart.",
+   "show": {
+    "kind": "absence",
+    "team": "away",
+    "player": "Philipp Lienhart",
+    "status": "out"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-monaco-sc-freiburg/s5.mp3",
+   "words": [
+    {
+     "w": "According",
+     "start": 0.12,
+     "end": 0.52
+    },
+    {
+     "w": "to",
+     "start": 0.52,
+     "end": 0.6
+    },
+    {
+     "w": "SWR,",
+     "start": 0.6,
+     "end": 1.56
+    },
+    {
+     "w": "Freiburg",
+     "start": 1.72,
+     "end": 2.36
+    },
+    {
+     "w": "are",
+     "start": 2.44,
+     "end": 2.52
+    },
+    {
+     "w": "without",
+     "start": 2.52,
+     "end": 2.92
+    },
+    {
+     "w": "defender",
+     "start": 3.0,
+     "end": 3.48
+    },
+    {
+     "w": "Philipp",
+     "start": 3.48,
+     "end": 3.8
+    },
+    {
+     "w": "Lienhart.",
+     "start": 3.8,
+     "end": 4.36
+    }
+   ],
+   "durationInFrames": 139
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Even so, the market makes Monaco favourites: 41.8%.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 41.8
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-monaco-sc-freiburg/s6.mp3",
+   "words": [
+    {
+     "w": "Even",
+     "start": 0.12,
+     "end": 0.36
+    },
+    {
+     "w": "so,",
+     "start": 0.44,
+     "end": 0.84
+    },
+    {
+     "w": "the",
+     "start": 0.928,
+     "end": 1.08
+    },
+    {
+     "w": "market",
+     "start": 1.16,
+     "end": 1.4
+    },
+    {
+     "w": "makes",
+     "start": 1.48,
+     "end": 1.64
+    },
+    {
+     "w": "Monaco",
+     "start": 1.64,
+     "end": 2.04
+    },
+    {
+     "w": "favourites:",
+     "start": 2.04,
+     "end": 2.76
+    },
+    {
+     "w": "41.8%.",
+     "start": 2.85,
+     "end": 4.44
+    }
+   ],
+   "durationInFrames": 141
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market rates them 0.25 goals apart — almost level.",
+   "show": {
+    "kind": "stat",
+    "label": "Monaco better by (goals)",
+    "value": "0.25"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-monaco-sc-freiburg/s7.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "market",
+     "start": 0.28,
+     "end": 0.6
+    },
+    {
+     "w": "rates",
+     "start": 0.68,
+     "end": 0.84
+    },
+    {
+     "w": "them",
+     "start": 0.92,
+     "end": 1.08
+    },
+    {
+     "w": "0.25",
+     "start": 1.08,
+     "end": 2.2
+    },
+    {
+     "w": "goals",
+     "start": 2.274,
+     "end": 2.52
+    },
+    {
+     "w": "apart",
+     "start": 2.6,
+     "end": 2.76
+    },
+    {
+     "w": "—",
+     "start": 2.76,
+     "end": 2.92
+    },
+    {
+     "w": "almost",
+     "start": 3.076,
+     "end": 3.48
+    },
+    {
+     "w": "level.",
+     "start": 3.48,
+     "end": 3.96
+    }
+   ],
+   "durationInFrames": 127
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Over 2.75 goals is only 48.3% — a tight game expected.",
+   "show": {
+    "kind": "over",
+    "line": 2.75,
+    "value": 48.3
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-monaco-sc-freiburg/s8.mp3",
+   "words": [
+    {
+     "w": "Over",
+     "start": 0.12,
+     "end": 0.36
+    },
+    {
+     "w": "2.75",
+     "start": 0.44,
+     "end": 1.4
+    },
+    {
+     "w": "goals",
+     "start": 1.423,
+     "end": 1.96
+    },
+    {
+     "w": "is",
+     "start": 2.04,
+     "end": 2.04
+    },
+    {
+     "w": "only",
+     "start": 2.04,
+     "end": 2.36
+    },
+    {
+     "w": "48.3%",
+     "start": 2.36,
+     "end": 3.16
+    },
+    {
+     "w": "—",
+     "start": 3.16,
+     "end": 3.96
+    },
+    {
+     "w": "a",
+     "start": 4.119,
+     "end": 4.12
+    },
+    {
+     "w": "tight",
+     "start": 4.12,
+     "end": 4.44
+    },
+    {
+     "w": "game",
+     "start": 4.52,
+     "end": 4.68
+    },
+    {
+     "w": "expected.",
+     "start": 4.68,
+     "end": 5.32
+    }
+   ],
+   "durationInFrames": 167
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Monaco are narrow favourites at home; Freiburg's chances keep it close.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Narrow home favourites",
+     "Freiburg create more",
+     "A close game"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-monaco-sc-freiburg/s9.mp3",
+   "words": [
+    {
+     "w": "Monaco",
+     "start": 0.12,
+     "end": 0.68
+    },
+    {
+     "w": "are",
+     "start": 0.76,
+     "end": 0.84
+    },
+    {
+     "w": "narrow",
+     "start": 0.84,
+     "end": 1.24
+    },
+    {
+     "w": "favourites",
+     "start": 1.32,
+     "end": 1.72
+    },
+    {
+     "w": "at",
+     "start": 1.8,
+     "end": 1.88
+    },
+    {
+     "w": "home;",
+     "start": 1.88,
+     "end": 2.28
+    },
+    {
+     "w": "Freiburg's",
+     "start": 2.431,
+     "end": 3
+    },
+    {
+     "w": "chances",
+     "start": 3.08,
+     "end": 3.48
+    },
+    {
+     "w": "keep",
+     "start": 3.48,
+     "end": 3.64
+    },
+    {
+     "w": "it",
+     "start": 3.72,
+     "end": 3.8
+    },
+    {
+     "w": "close.",
+     "start": 3.8,
+     "end": 4.28
+    }
+   ],
+   "durationInFrames": 143
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-monaco-sc-freiburg/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.052,
+     "end": 0.44
+    },
+    {
+     "w": "Boot",
+     "start": 0.52,
+     "end": 0.68
+    },
+    {
+     "w": "Room.",
+     "start": 0.76,
+     "end": 1.08
+    },
+    {
+     "w": "Football",
+     "start": 1.24,
+     "end": 1.72
+    },
+    {
+     "w": "analysis,",
+     "start": 1.72,
+     "end": 2.44
+    },
+    {
+     "w": "with",
+     "start": 2.586,
+     "end": 2.84
+    },
+    {
+     "w": "receipts.",
+     "start": 2.84,
+     "end": 3.56
+    }
+   ],
+   "durationInFrames": 140
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
+  "stickers": [
+   "🎯",
+   "🏟️",
+   "🎯"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1636454,
+ "prices_as_of": "2026-10-21T19:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

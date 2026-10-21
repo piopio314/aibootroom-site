@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T20:36:16+00:00",
+ "generated_at": "2026-10-21T20:45:33+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -224,6 +224,62 @@
    "youtube_id": null,
    "article": "/m/2026-10-22-ajax-atalanta.html",
    "seconds": 40
+  },
+  {
+   "id": "2026-10-22-monaco-sc-freiburg",
+   "home": "Monaco",
+   "away": "SC Freiburg",
+   "league": "Conference League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Monaco narrow favourites as Freiburg bring the chances",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-22-monaco-sc-freiburg.html",
+   "seconds": 51
+  },
+  {
+   "id": "2026-10-23-go-ahead-eagles-telstar",
+   "home": "GO Ahead Eagles",
+   "away": "Telstar",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-23T18:00:00+00:00",
+   "title": "Winless Go Ahead still favourites against Telstar",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-23-go-ahead-eagles-telstar.html",
+   "seconds": 49
+  },
+  {
+   "id": "2026-10-23-vfb-stuttgart-borussia-m-nchengladbach",
+   "home": "VfB Stuttgart",
+   "away": "Borussia Mönchengladbach",
+   "league": "Bundesliga",
+   "kickoff": "2026-10-23T18:30:00+00:00",
+   "title": "Gladbach's worst start: Stuttgart still favourites",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": null,
+   "seconds": 52
+  },
+  {
+   "id": "2026-10-23-torino-monza",
+   "home": "Torino",
+   "away": "Monza",
+   "league": "Serie A",
+   "kickoff": "2026-10-23T18:45:00+00:00",
+   "title": "Torino's winning run meets Varela's Monza",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-23-torino-monza.html",
+   "seconds": 53
   },
   {
    "id": "2026-10-24-aston-villa-manchester-city",
