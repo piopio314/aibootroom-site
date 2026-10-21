@@ -1,0 +1,762 @@
+{
+ "id": "2026-10-25-g-ztepe-orum-fk",
+ "title": "Göztepe at home, still chasing a first home win",
+ "match": {
+  "home": "Göztepe",
+  "away": "Çorum FK",
+  "league": "Super Lig",
+  "kickoff": "2026-10-25T16:00:00+00:00",
+  "home_short": "GÖZ",
+  "away_short": "ÇOR",
+  "home_color": "#9333ea",
+  "away_color": "#be123c"
+ },
+ "market": {
+  "fair": {
+   "home": 43.7,
+   "draw": 26.2,
+   "away": 30.1
+  },
+  "move": {
+   "home": 0.0,
+   "draw": 0.0,
+   "away": 0.0
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-19T04:26:00+00:00",
+    "v": 30.1
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "v": 30.1
+   },
+   {
+    "t": "2026-10-19T16:24:00+00:00",
+    "v": 30.1
+   },
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "v": 30.1
+   },
+   {
+    "t": "2026-10-20T04:23:00+00:00",
+    "v": 30.1
+   },
+   {
+    "t": "2026-10-21T04:24:00+00:00",
+    "v": 30.1
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 43.7
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 43.7
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "v": 43.7
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 43.7
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 43.7
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 43.7
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 26.2
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 26.2
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "v": 26.2
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 26.2
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 26.2
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 26.2
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 30.1
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 30.1
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "v": 30.1
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 30.1
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 30.1
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 30.1
+    }
+   ]
+  },
+  "goals": 2.84,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-19T04:26:00+00:00",
+  "prices_as_of": "2026-10-21T21:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Göztepe have 0 home league wins this season.",
+   "show": {
+    "kind": "stat",
+    "label": "Home league wins",
+    "value": "0"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-g-ztepe-orum-fk/s0.mp3",
+   "words": [
+    {
+     "w": "Göztepe",
+     "start": 0.25,
+     "end": 0.662
+    },
+    {
+     "w": "have",
+     "start": 0.662,
+     "end": 0.863
+    },
+    {
+     "w": "0",
+     "start": 0.863,
+     "end": 1.25
+    },
+    {
+     "w": "home",
+     "start": 1.25,
+     "end": 1.525
+    },
+    {
+     "w": "league",
+     "start": 1.525,
+     "end": 1.775
+    },
+    {
+     "w": "wins",
+     "start": 1.775,
+     "end": 2.075
+    },
+    {
+     "w": "this",
+     "start": 2.075,
+     "end": 2.25
+    },
+    {
+     "w": "season.",
+     "start": 2.25,
+     "end": 3.075
+    }
+   ],
+   "durationInFrames": 100
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "They host Çorum FK in the Süper Lig this weekend.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-g-ztepe-orum-fk/s1.mp3",
+   "words": [
+    {
+     "w": "They",
+     "start": 0.25,
+     "end": 0.375
+    },
+    {
+     "w": "host",
+     "start": 0.375,
+     "end": 0.662
+    },
+    {
+     "w": "Çorum",
+     "start": 0.662,
+     "end": 1.025
+    },
+    {
+     "w": "FK",
+     "start": 1.025,
+     "end": 1.538
+    },
+    {
+     "w": "in",
+     "start": 1.538,
+     "end": 1.613
+    },
+    {
+     "w": "the",
+     "start": 1.613,
+     "end": 1.712
+    },
+    {
+     "w": "Süper",
+     "start": 1.712,
+     "end": 2.1
+    },
+    {
+     "w": "Lig",
+     "start": 2.1,
+     "end": 2.35
+    },
+    {
+     "w": "this",
+     "start": 2.35,
+     "end": 2.55
+    },
+    {
+     "w": "weekend.",
+     "start": 2.55,
+     "end": 3.475
+    }
+   ],
+   "durationInFrames": 112
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "They arrive on 2 straight league wins, both away from home.",
+   "show": {
+    "kind": "stat",
+    "label": "Straight league wins",
+    "value": "2"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-g-ztepe-orum-fk/s2.mp3",
+   "words": [
+    {
+     "w": "They",
+     "start": 0.25,
+     "end": 0.4
+    },
+    {
+     "w": "arrive",
+     "start": 0.4,
+     "end": 0.738
+    },
+    {
+     "w": "on",
+     "start": 0.738,
+     "end": 0.887
+    },
+    {
+     "w": "2",
+     "start": 0.887,
+     "end": 1.1
+    },
+    {
+     "w": "straight",
+     "start": 1.1,
+     "end": 1.4
+    },
+    {
+     "w": "league",
+     "start": 1.4,
+     "end": 1.625
+    },
+    {
+     "w": "wins,",
+     "start": 1.625,
+     "end": 2.025
+    },
+    {
+     "w": "both",
+     "start": 2.125,
+     "end": 2.4
+    },
+    {
+     "w": "away",
+     "start": 2.4,
+     "end": 2.675
+    },
+    {
+     "w": "from",
+     "start": 2.675,
+     "end": 2.85
+    },
+    {
+     "w": "home.",
+     "start": 2.85,
+     "end": 3.625
+    }
+   ],
+   "durationInFrames": 117
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Göztepe create 2.36 expected goals a game.",
+   "show": {
+    "kind": "stat",
+    "label": "Expected goals created",
+    "value": "2.36"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-g-ztepe-orum-fk/s3.mp3",
+   "words": [
+    {
+     "w": "Göztepe",
+     "start": 0.25,
+     "end": 0.7
+    },
+    {
+     "w": "create",
+     "start": 0.7,
+     "end": 1.038
+    },
+    {
+     "w": "2.36",
+     "start": 1.038,
+     "end": 2.05
+    },
+    {
+     "w": "expected",
+     "start": 2.05,
+     "end": 2.625
+    },
+    {
+     "w": "goals",
+     "start": 2.625,
+     "end": 2.987
+    },
+    {
+     "w": "a",
+     "start": 2.987,
+     "end": 3.075
+    },
+    {
+     "w": "game.",
+     "start": 3.075,
+     "end": 3.85
+    }
+   ],
+   "durationInFrames": 124
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Çorum have scored 14 goals in their last 5 games.",
+   "show": {
+    "kind": "stat",
+    "label": "Goals, last 5 games",
+    "value": "14"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-g-ztepe-orum-fk/s4.mp3",
+   "words": [
+    {
+     "w": "Çorum",
+     "start": 0.275,
+     "end": 0.562
+    },
+    {
+     "w": "have",
+     "start": 0.562,
+     "end": 0.675
+    },
+    {
+     "w": "scored",
+     "start": 0.675,
+     "end": 1.025
+    },
+    {
+     "w": "14",
+     "start": 1.025,
+     "end": 1.5
+    },
+    {
+     "w": "goals",
+     "start": 1.5,
+     "end": 1.863
+    },
+    {
+     "w": "in",
+     "start": 1.863,
+     "end": 1.938
+    },
+    {
+     "w": "their",
+     "start": 1.938,
+     "end": 2.1
+    },
+    {
+     "w": "last",
+     "start": 2.1,
+     "end": 2.45
+    },
+    {
+     "w": "5",
+     "start": 2.45,
+     "end": 2.8
+    },
+    {
+     "w": "games.",
+     "start": 2.8,
+     "end": 3.65
+    }
+   ],
+   "durationInFrames": 118
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Turkish site egetelgraf.com reports Miroshi and Sundberg back from injury.",
+   "show": {
+    "kind": "news",
+    "source": "egetelgraf.com",
+    "text": "Miroshi and Sundberg back from injury"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-g-ztepe-orum-fk/s5.mp3",
+   "words": [
+    {
+     "w": "Turkish",
+     "start": 0.25,
+     "end": 0.625
+    },
+    {
+     "w": "site",
+     "start": 0.625,
+     "end": 0.9
+    },
+    {
+     "w": "egetelgraf.com",
+     "start": 0.9,
+     "end": 2.25
+    },
+    {
+     "w": "reports",
+     "start": 2.25,
+     "end": 2.725
+    },
+    {
+     "w": "Miroshi",
+     "start": 2.725,
+     "end": 3.275
+    },
+    {
+     "w": "and",
+     "start": 3.275,
+     "end": 3.413
+    },
+    {
+     "w": "Sundberg",
+     "start": 3.413,
+     "end": 3.925
+    },
+    {
+     "w": "back",
+     "start": 3.925,
+     "end": 4.2
+    },
+    {
+     "w": "from",
+     "start": 4.2,
+     "end": 4.35
+    },
+    {
+     "w": "injury.",
+     "start": 4.35,
+     "end": 5.2
+    }
+   ],
+   "durationInFrames": 164
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Across the market, Göztepe are favourites at 43.7%.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 43.7
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-g-ztepe-orum-fk/s6.mp3",
+   "words": [
+    {
+     "w": "Across",
+     "start": 0.25,
+     "end": 0.588
+    },
+    {
+     "w": "the",
+     "start": 0.588,
+     "end": 0.675
+    },
+    {
+     "w": "market,",
+     "start": 0.675,
+     "end": 1.275
+    },
+    {
+     "w": "Göztepe",
+     "start": 1.375,
+     "end": 1.913
+    },
+    {
+     "w": "are",
+     "start": 1.913,
+     "end": 2.038
+    },
+    {
+     "w": "favourites",
+     "start": 2.038,
+     "end": 2.55
+    },
+    {
+     "w": "at",
+     "start": 2.55,
+     "end": 2.688
+    },
+    {
+     "w": "43.7%.",
+     "start": 2.688,
+     "end": 4.75
+    }
+   ],
+   "durationInFrames": 151
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects 2.84 goals at the Gürsel Aksel.",
+   "show": {
+    "kind": "goals",
+    "value": 2.84
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-g-ztepe-orum-fk/s7.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "market",
+     "start": 0.325,
+     "end": 0.65
+    },
+    {
+     "w": "expects",
+     "start": 0.65,
+     "end": 1.113
+    },
+    {
+     "w": "2.84",
+     "start": 1.113,
+     "end": 2.025
+    },
+    {
+     "w": "goals",
+     "start": 2.025,
+     "end": 2.413
+    },
+    {
+     "w": "at",
+     "start": 2.413,
+     "end": 2.487
+    },
+    {
+     "w": "the",
+     "start": 2.487,
+     "end": 2.575
+    },
+    {
+     "w": "Gürsel",
+     "start": 2.575,
+     "end": 3.013
+    },
+    {
+     "w": "Aksel.",
+     "start": 3.013,
+     "end": 3.875
+    }
+   ],
+   "durationInFrames": 124
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "So the first home win is close, but not certain.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "First home win?",
+     "Chance creation is there",
+     "Çorum scoring freely"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-g-ztepe-orum-fk/s8.mp3",
+   "words": [
+    {
+     "w": "So",
+     "start": 0.25,
+     "end": 0.362
+    },
+    {
+     "w": "the",
+     "start": 0.362,
+     "end": 0.45
+    },
+    {
+     "w": "first",
+     "start": 0.45,
+     "end": 0.75
+    },
+    {
+     "w": "home",
+     "start": 0.75,
+     "end": 1.0
+    },
+    {
+     "w": "win",
+     "start": 1.0,
+     "end": 1.188
+    },
+    {
+     "w": "is",
+     "start": 1.188,
+     "end": 1.337
+    },
+    {
+     "w": "close,",
+     "start": 1.337,
+     "end": 1.8
+    },
+    {
+     "w": "but",
+     "start": 1.875,
+     "end": 2.025
+    },
+    {
+     "w": "not",
+     "start": 2.025,
+     "end": 2.288
+    },
+    {
+     "w": "certain.",
+     "start": 2.288,
+     "end": 3.075
+    }
+   ],
+   "durationInFrames": 107
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-g-ztepe-orum-fk/s9.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
+  "stickers": [
+   "🏟️",
+   "📊",
+   "📊"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1584444,
+ "prices_as_of": "2026-10-21T22:19:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

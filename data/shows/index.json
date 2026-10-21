@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T22:30:48+00:00",
+ "generated_at": "2026-10-21T22:34:04+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -938,6 +938,34 @@
    "youtube_id": null,
    "article": null,
    "seconds": 46
+  },
+  {
+   "id": "2026-10-25-sparta-rotterdam-ajax",
+   "home": "Sparta Rotterdam",
+   "away": "Ajax",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-25T15:45:00+00:00",
+   "title": "Sparta have conceded 15 in five — Ajax visit on Sunday",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-25-sparta-rotterdam-ajax.html",
+   "seconds": 48
+  },
+  {
+   "id": "2026-10-25-g-ztepe-orum-fk",
+   "home": "Göztepe",
+   "away": "Çorum FK",
+   "league": "Super Lig",
+   "kickoff": "2026-10-25T16:00:00+00:00",
+   "title": "Göztepe at home, still chasing a first home win",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-25-g-ztepe-orum-fk.html",
+   "seconds": 42
   },
   {
    "id": "2026-10-25-barcelona-real-madrid",
