@@ -1,0 +1,856 @@
+{
+ "id": "2026-10-25-atalanta-frosinone",
+ "title": "Sarri under pressure: Atalanta host Frosinone",
+ "match": {
+  "home": "Atalanta",
+  "away": "Frosinone",
+  "league": "Serie A",
+  "kickoff": "2026-10-25T14:00:00+00:00",
+  "home_short": "ATA",
+  "away_short": "FRO",
+  "home_color": "#b45309",
+  "away_color": "#4f46e5"
+ },
+ "market": {
+  "fair": {
+   "home": 52.8,
+   "draw": 22.9,
+   "away": 24.3
+  },
+  "move": {
+   "home": -3.2,
+   "draw": 0.5,
+   "away": 2.8
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 21.5
+   },
+   {
+    "t": "2026-10-19T01:34:00+00:00",
+    "v": 22.3
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "v": 23.7
+   },
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "v": 23.6
+   },
+   {
+    "t": "2026-10-20T04:23:00+00:00",
+    "v": 23.6
+   },
+   {
+    "t": "2026-10-21T04:24:00+00:00",
+    "v": 24.3
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 56.0
+    },
+    {
+     "t": "2026-10-19T01:34:00+00:00",
+     "v": 55.3
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 53.7
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 53.9
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 53.9
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 52.8
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 22.4
+    },
+    {
+     "t": "2026-10-19T01:34:00+00:00",
+     "v": 22.4
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 22.6
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 22.5
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 22.5
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 22.9
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 21.5
+    },
+    {
+     "t": "2026-10-19T01:34:00+00:00",
+     "v": 22.3
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 23.7
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 23.6
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 23.6
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 24.3
+    }
+   ]
+  },
+  "goals": 3.39,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T21:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Atalanta have already lost 4 league games this season.",
+   "show": {
+    "kind": "stat",
+    "label": "Atalanta league defeats",
+    "value": "4"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-atalanta-frosinone/s0.mp3",
+   "words": [
+    {
+     "w": "Atalanta",
+     "start": 0.25,
+     "end": 0.787
+    },
+    {
+     "w": "have",
+     "start": 0.787,
+     "end": 0.9
+    },
+    {
+     "w": "already",
+     "start": 0.9,
+     "end": 1.275
+    },
+    {
+     "w": "lost",
+     "start": 1.275,
+     "end": 1.688
+    },
+    {
+     "w": "4",
+     "start": 1.688,
+     "end": 1.925
+    },
+    {
+     "w": "league",
+     "start": 1.925,
+     "end": 2.2
+    },
+    {
+     "w": "games",
+     "start": 2.2,
+     "end": 2.575
+    },
+    {
+     "w": "this",
+     "start": 2.575,
+     "end": 2.75
+    },
+    {
+     "w": "season.",
+     "start": 2.75,
+     "end": 3.6
+    }
+   ],
+   "durationInFrames": 116
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Italian media say Sarri's position depends on the next 2 matches.",
+   "show": {
+    "kind": "news",
+    "source": "La Repubblica",
+    "text": "Sarri's job depends on next 2 matches"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-atalanta-frosinone/s1.mp3",
+   "words": [
+    {
+     "w": "Italian",
+     "start": 0.25,
+     "end": 0.725
+    },
+    {
+     "w": "media",
+     "start": 0.725,
+     "end": 1.188
+    },
+    {
+     "w": "say",
+     "start": 1.188,
+     "end": 1.438
+    },
+    {
+     "w": "Sarri's",
+     "start": 1.438,
+     "end": 1.875
+    },
+    {
+     "w": "position",
+     "start": 1.875,
+     "end": 2.612
+    },
+    {
+     "w": "depends",
+     "start": 2.612,
+     "end": 3.013
+    },
+    {
+     "w": "on",
+     "start": 3.013,
+     "end": 3.112
+    },
+    {
+     "w": "the",
+     "start": 3.112,
+     "end": 3.2
+    },
+    {
+     "w": "next",
+     "start": 3.2,
+     "end": 3.475
+    },
+    {
+     "w": "2",
+     "start": 3.475,
+     "end": 3.675
+    },
+    {
+     "w": "matches.",
+     "start": 3.675,
+     "end": 4.625
+    }
+   ],
+   "durationInFrames": 147
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Sunday's Serie A match: Atalanta host Frosinone in Bergamo.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-atalanta-frosinone/s2.mp3",
+   "words": [
+    {
+     "w": "Sunday's",
+     "start": 0.275,
+     "end": 0.7
+    },
+    {
+     "w": "Serie",
+     "start": 0.7,
+     "end": 1.125
+    },
+    {
+     "w": "A",
+     "start": 1.125,
+     "end": 1.275
+    },
+    {
+     "w": "match:",
+     "start": 1.275,
+     "end": 1.825
+    },
+    {
+     "w": "Atalanta",
+     "start": 2.0,
+     "end": 2.55
+    },
+    {
+     "w": "host",
+     "start": 2.55,
+     "end": 2.888
+    },
+    {
+     "w": "Frosinone",
+     "start": 2.888,
+     "end": 3.525
+    },
+    {
+     "w": "in",
+     "start": 3.525,
+     "end": 3.675
+    },
+    {
+     "w": "Bergamo.",
+     "start": 3.675,
+     "end": 4.6
+    }
+   ],
+   "durationInFrames": 146
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Frosinone arrive 6th with 13 points, above Atalanta.",
+   "show": {
+    "kind": "table",
+    "team": "away",
+    "rank": 6,
+    "pts": 13
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-atalanta-frosinone/s3.mp3",
+   "words": [
+    {
+     "w": "Frosinone",
+     "start": 0.275,
+     "end": 0.85
+    },
+    {
+     "w": "arrive",
+     "start": 0.85,
+     "end": 1.188
+    },
+    {
+     "w": "6th",
+     "start": 1.188,
+     "end": 1.512
+    },
+    {
+     "w": "with",
+     "start": 1.512,
+     "end": 1.675
+    },
+    {
+     "w": "13",
+     "start": 1.675,
+     "end": 2.1
+    },
+    {
+     "w": "points,",
+     "start": 2.1,
+     "end": 2.65
+    },
+    {
+     "w": "above",
+     "start": 2.75,
+     "end": 3.05
+    },
+    {
+     "w": "Atalanta.",
+     "start": 3.05,
+     "end": 4.1
+    }
+   ],
+   "durationInFrames": 131
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "They also bring Raimondo, Serie A's top scorer, with 7 goals.",
+   "show": {
+    "kind": "stat",
+    "label": "Raimondo Serie A goals",
+    "value": "7"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-atalanta-frosinone/s4.mp3",
+   "words": [
+    {
+     "w": "They",
+     "start": 0.25,
+     "end": 0.35
+    },
+    {
+     "w": "also",
+     "start": 0.35,
+     "end": 0.65
+    },
+    {
+     "w": "bring",
+     "start": 0.65,
+     "end": 0.825
+    },
+    {
+     "w": "Raimondo,",
+     "start": 0.825,
+     "end": 1.575
+    },
+    {
+     "w": "Serie",
+     "start": 1.712,
+     "end": 2.1
+    },
+    {
+     "w": "A's",
+     "start": 2.1,
+     "end": 2.375
+    },
+    {
+     "w": "top",
+     "start": 2.375,
+     "end": 2.65
+    },
+    {
+     "w": "scorer,",
+     "start": 2.65,
+     "end": 3.025
+    },
+    {
+     "w": "with",
+     "start": 3.062,
+     "end": 3.237
+    },
+    {
+     "w": "7",
+     "start": 3.237,
+     "end": 3.6
+    },
+    {
+     "w": "goals.",
+     "start": 3.6,
+     "end": 4.475
+    }
+   ],
+   "durationInFrames": 142
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Frosinone have won 3 of their last 5 league games.",
+   "show": {
+    "kind": "form",
+    "team": "away",
+    "results": "WLWDW"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-atalanta-frosinone/s5.mp3",
+   "words": [
+    {
+     "w": "Frosinone",
+     "start": 0.275,
+     "end": 0.85
+    },
+    {
+     "w": "have",
+     "start": 0.85,
+     "end": 1.05
+    },
+    {
+     "w": "won",
+     "start": 1.05,
+     "end": 1.288
+    },
+    {
+     "w": "3",
+     "start": 1.288,
+     "end": 1.538
+    },
+    {
+     "w": "of",
+     "start": 1.538,
+     "end": 1.613
+    },
+    {
+     "w": "their",
+     "start": 1.613,
+     "end": 1.8
+    },
+    {
+     "w": "last",
+     "start": 1.8,
+     "end": 2.15
+    },
+    {
+     "w": "5",
+     "start": 2.15,
+     "end": 2.5
+    },
+    {
+     "w": "league",
+     "start": 2.5,
+     "end": 2.775
+    },
+    {
+     "w": "games.",
+     "start": 2.775,
+     "end": 3.6
+    }
+   ],
+   "durationInFrames": 116
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "In recent days Atalanta's win chance slipped from 56.0% to 52.8%.",
+   "show": {
+    "kind": "move",
+    "team": "home",
+    "from": 56.0,
+    "to": 52.8
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-atalanta-frosinone/s6.mp3",
+   "words": [
+    {
+     "w": "In",
+     "start": 0.275,
+     "end": 0.375
+    },
+    {
+     "w": "recent",
+     "start": 0.375,
+     "end": 0.75
+    },
+    {
+     "w": "days",
+     "start": 0.75,
+     "end": 1.262
+    },
+    {
+     "w": "Atalanta's",
+     "start": 1.262,
+     "end": 1.925
+    },
+    {
+     "w": "win",
+     "start": 1.925,
+     "end": 2.163
+    },
+    {
+     "w": "chance",
+     "start": 2.163,
+     "end": 2.538
+    },
+    {
+     "w": "slipped",
+     "start": 2.538,
+     "end": 2.825
+    },
+    {
+     "w": "from",
+     "start": 2.825,
+     "end": 3.025
+    },
+    {
+     "w": "56.0%",
+     "start": 3.025,
+     "end": 4.325
+    },
+    {
+     "w": "to",
+     "start": 4.325,
+     "end": 4.475
+    },
+    {
+     "w": "52.8%.",
+     "start": 4.475,
+     "end": 6.3
+    }
+   ],
+   "durationInFrames": 197
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "In goals, Atalanta are rated 0.65 better than Frosinone.",
+   "show": {
+    "kind": "stat",
+    "label": "Atalanta better by (goals)",
+    "value": "0.65"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-atalanta-frosinone/s7.mp3",
+   "words": [
+    {
+     "w": "In",
+     "start": 0.275,
+     "end": 0.4
+    },
+    {
+     "w": "goals,",
+     "start": 0.4,
+     "end": 0.875
+    },
+    {
+     "w": "Atalanta",
+     "start": 0.95,
+     "end": 1.575
+    },
+    {
+     "w": "are",
+     "start": 1.575,
+     "end": 1.675
+    },
+    {
+     "w": "rated",
+     "start": 1.675,
+     "end": 2.013
+    },
+    {
+     "w": "0.65",
+     "start": 2.013,
+     "end": 3.25
+    },
+    {
+     "w": "better",
+     "start": 3.25,
+     "end": 3.6
+    },
+    {
+     "w": "than",
+     "start": 3.6,
+     "end": 3.788
+    },
+    {
+     "w": "Frosinone.",
+     "start": 3.788,
+     "end": 4.9
+    }
+   ],
+   "durationInFrames": 155
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Both teams to score is priced at 65.5%.",
+   "show": {
+    "kind": "stat",
+    "label": "Both teams to score",
+    "value": "65.5%"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-atalanta-frosinone/s8.mp3",
+   "words": [
+    {
+     "w": "Both",
+     "start": 0.25,
+     "end": 0.475
+    },
+    {
+     "w": "teams",
+     "start": 0.475,
+     "end": 0.825
+    },
+    {
+     "w": "to",
+     "start": 0.825,
+     "end": 0.95
+    },
+    {
+     "w": "score",
+     "start": 0.95,
+     "end": 1.238
+    },
+    {
+     "w": "is",
+     "start": 1.238,
+     "end": 1.375
+    },
+    {
+     "w": "priced",
+     "start": 1.375,
+     "end": 1.725
+    },
+    {
+     "w": "at",
+     "start": 1.725,
+     "end": 1.863
+    },
+    {
+     "w": "65.5%.",
+     "start": 1.863,
+     "end": 3.975
+    }
+   ],
+   "durationInFrames": 127
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Atalanta remain favourites, but this is a test, not a routine win.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Atalanta still favourites",
+     "Sarri under scrutiny",
+     "no routine win"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-atalanta-frosinone/s9.mp3",
+   "words": [
+    {
+     "w": "Atalanta",
+     "start": 0.25,
+     "end": 0.8
+    },
+    {
+     "w": "remain",
+     "start": 0.8,
+     "end": 1.188
+    },
+    {
+     "w": "favourites,",
+     "start": 1.188,
+     "end": 1.85
+    },
+    {
+     "w": "but",
+     "start": 1.925,
+     "end": 2.075
+    },
+    {
+     "w": "this",
+     "start": 2.075,
+     "end": 2.275
+    },
+    {
+     "w": "is",
+     "start": 2.275,
+     "end": 2.4
+    },
+    {
+     "w": "a",
+     "start": 2.4,
+     "end": 2.513
+    },
+    {
+     "w": "test,",
+     "start": 2.513,
+     "end": 2.925
+    },
+    {
+     "w": "not",
+     "start": 3.0,
+     "end": 3.163
+    },
+    {
+     "w": "a",
+     "start": 3.163,
+     "end": 3.225
+    },
+    {
+     "w": "routine",
+     "start": 3.225,
+     "end": 3.7
+    },
+    {
+     "w": "win.",
+     "start": 3.7,
+     "end": 4.425
+    }
+   ],
+   "durationInFrames": 148
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-atalanta-frosinone/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "fading_fav",
+  "kicker": "FAVOURITE FADING",
+  "stickers": [
+   "😬",
+   "📉",
+   "😬"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1550157,
+ "prices_as_of": "2026-10-21T21:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

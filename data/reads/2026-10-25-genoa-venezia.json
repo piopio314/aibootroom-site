@@ -1,0 +1,112 @@
+{
+ "slug": "2026-10-25-genoa-venezia",
+ "league": "Serie A",
+ "home": "Genoa",
+ "away": "Venezia",
+ "kickoff": "2026-10-25T14:00:00+00:00",
+ "generated_at": "2026-10-21T22:10:32+00:00",
+ "headline": "Bottom two at Marassi: the market still leans to the home side",
+ "summary": "Genoa host Venezia at Marassi on Sunday with the bottom two in Serie A meeting: 17th with 4 points against 20th with 3. Venezia arrive in better mood — Davide Nicola won his first game 1-0 against Napoli — but the market makes Genoa 45% favourites, with Venezia at 24.9% and the draw at 30.1%. Genoa create little: 1.13 expected goals a game after a 0-2 defeat at Roma. Their advantage is small, about a quarter of a goal on the handicap. Venezia concede 2.27 expected goals against, yet Over 2.5 goals has slipped from 50.4% to 48.1%. Home ground, not form, explains the price.",
+ "read": null,
+ "facts": [
+  {
+   "fact": "Genoa and Venezia are the bottom two in Serie A — 17th hosting 20th.",
+   "meaning": "A direct relegation six-pointer in late October, with both clubs already in the drop zone."
+  },
+  {
+   "fact": "Venezia beat Napoli 1-0 on 17 October for their first Serie A points of the season, in Davide Nicola's first match in charge.",
+   "meaning": "They travel to Genoa with the mood around the club transformed after a winless start."
+  },
+  {
+   "fact": "Genoa lost 0-2 at Roma on 17 October.",
+   "meaning": "A second heavy away defeat leaves the home side short of confidence going into a game they are expected to win."
+  },
+  {
+   "fact": "The market makes Genoa 45.0% favourites to win on home soil.",
+   "meaning": "Favourites, but nowhere near a safe price — this is a bottom-two game and the draw takes a big share."
+  },
+  {
+   "fact": "Genoa coach Daniele De Rossi called Sunday's game a relegation battle but 'not a last chance', with his side on 4 points from seven matches.",
+   "meaning": "The home coach accepts the pressure around the fixture without treating it as decisive."
+  },
+  {
+   "fact": "Venezia's last five matches have averaged 2.27 xG against per game.",
+   "meaning": "Their games are open and chances flow at both ends — they have to outscore opponents to get anything."
+  },
+  {
+   "fact": "The market's fair handicap line is -0.35 goals, rating Genoa about a third of a goal the better side.",
+   "meaning": "Genoa are only marginal favourites on the handicap — a draw would leave the quarter-ball backers half-beaten."
+  },
+  {
+   "fact": "Genoa's treatment room is clearing: Hamed Traorè will be available despite a minor muscle issue and Baldanzi is back in the group, leaving L. Venturino (knee) as their one listed absentee.",
+   "meaning": "De Rossi has attacking options he could not be sure of earlier in the week."
+  }
+ ],
+ "article": "/m/2026-10-25-genoa-venezia.html",
+ "sources": [
+  {
+   "fact": "Genoa coach Daniele De Rossi said the match against Venezia will be a relegation battle but not a last chance.",
+   "source": "www.gazzetta.it",
+   "url": "https://www.gazzetta.it/calcio/fantanews/consigli-fantacalcio/centrocampisti-consigliati/19-10-2026/genoa-de-rossi-punta-su-traore-contro-venezia-puo-giocare-titolare.shtml",
+   "age": "3 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Italian media describe Sunday's Genoa-Venezia match as a relegation fight (match salvezza).",
+   "source": "www.pianetagenoa1893.net",
+   "url": "https://www.pianetagenoa1893.net/rassegna-stampa/repubblica-genova-genoa-traore-e-baldanzi-pronti-affrontare-il-venezia/",
+   "age": "1 day ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Hamed Traorè had a minor muscle issue but will be available against Venezia, and Baldanzi has also returned to the group.",
+   "source": "telenord.it",
+   "url": "https://telenord.it/genoa-lieve-fastidio-muscolare-traore-ma-venezia-ci-sara-110172",
+   "age": "12 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Genoa hope to recover several players, with Ehizibue fit and Meichtry and Colombo in a race against time.",
+   "source": "genova.repubblica.it",
+   "url": "https://genova.repubblica.it/sport/2026/10/20/news/il_genoa_fa_la_conta_pronti_traore_e_baldanzi_per_l_assalto_al_venezia-425659452/",
+   "age": "2 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Italian media report Genoa are managing a crowded treatment room before the Venezia match.",
+   "source": "www.archyde.com",
+   "url": "https://www.archyde.com/injury-updates-inter-roma-lecce-fiorentina-atalanta-and-genoa/",
+   "age": "1 day ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Genoa are set to return to a back four against Venezia, with De Rossi hoping to repeat the first half they played against Fiorentina.",
+   "source": "www.pianetagenoa1893.net",
+   "url": "https://www.pianetagenoa1893.net/primo-piano/repubblica-genova-il-genoa-torna-alla-difesa-a-4-contro-il-venezia/",
+   "age": "14 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Davide Nicola was appointed Venezia head coach and won his debut match 1-0 against Napoli.",
+   "source": "sports.yahoo.com",
+   "url": "https://sports.yahoo.com/articles/serie-venezia-vs-napoli-probable-083500541.html",
+   "age": "5 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Venezia beat Napoli 1-0 for their first Serie A points of the season, with Akor Adams scoring.",
+   "source": "foxsports.com",
+   "url": "https://foxsports.com/articles/soccer/napoli-stunned-by-previously-winless-venezia-psg-warms-up-for-barcelona-showdown-with-a-victory",
+   "age": "4 days ago",
+   "certainty": "confirmed"
+  }
+ ],
+ "video_title": "Bottom two at Marassi: Genoa narrow favourites",
+ "key_points": [
+  "Bottom two meet at Marassi",
+  "Venezia beat Napoli 1-0",
+  "Genoa 45% home favourites"
+ ],
+ "market": null,
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
+}

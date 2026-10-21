@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T22:08:00+00:00",
+ "generated_at": "2026-10-21T22:18:00+00:00",
  "prices_as_of": "2026-10-21T21:18:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
@@ -616,7 +616,7 @@
     "away": 0
    },
    "read": "2026-10-25-crystal-palace-newcastle",
-   "headline": "Newcastle repriced to 40.4%; goals markets unmoved"
+   "headline": "Newcastle lose again: still the favourites at Palace?"
   },
   {
    "id": 1557444,
@@ -700,8 +700,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null
+   "read": "2026-10-25-liverpool-brighton",
+   "headline": "Brighton bring 5 straight wins; Liverpool remain slight favourites"
   },
   {
    "id": 1570427,
@@ -3695,8 +3695,8 @@
     "home": 2,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-25-atalanta-frosinone",
+   "headline": "Sarri under pressure as Frosinone arrive above Atalanta",
    "competition": "135"
   },
   {
@@ -3725,8 +3725,8 @@
     "home": 1,
     "away": 1
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-25-genoa-venezia",
+   "headline": "Bottom two at Marassi: the market still leans to the home side",
    "competition": "135"
   },
   {
@@ -3755,8 +3755,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-25-monaco-lille",
+   "headline": "Lille arrive four days after another heavy defeat; Monaco only narrow favourites",
    "competition": "61"
   },
   {
@@ -3786,7 +3786,7 @@
     "away": 0
    },
    "read": "2026-10-25-crystal-palace-newcastle",
-   "headline": "Newcastle repriced to 40.4%; goals markets unmoved",
+   "headline": "Newcastle lose again: still the favourites at Palace?",
    "competition": "39"
   },
   {
@@ -3845,8 +3845,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-25-liverpool-brighton",
+   "headline": "Brighton bring 5 straight wins; Liverpool remain slight favourites",
    "competition": "39"
   },
   {

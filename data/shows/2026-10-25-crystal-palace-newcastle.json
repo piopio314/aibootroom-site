@@ -1,0 +1,844 @@
+{
+ "id": "2026-10-25-crystal-palace-newcastle",
+ "title": "Newcastle lose again: still the favourites at Palace?",
+ "match": {
+  "home": "Crystal Palace",
+  "away": "Newcastle",
+  "league": "Premier League",
+  "kickoff": "2026-10-25T14:00:00+00:00",
+  "home_short": "CRY",
+  "away_short": "NEW",
+  "home_color": "#1b458f",
+  "away_color": "#241f20"
+ },
+ "market": {
+  "fair": {
+   "home": 32.7,
+   "draw": 26.5,
+   "away": 40.8
+  },
+  "move": {
+   "home": -3.1,
+   "draw": -0.2,
+   "away": 3.3
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 37.5
+   },
+   {
+    "t": "2026-10-18T23:16:00+00:00",
+    "v": 40.4
+   },
+   {
+    "t": "2026-10-19T02:31:00+00:00",
+    "v": 40.4
+   },
+   {
+    "t": "2026-10-19T11:20:00+00:00",
+    "v": 40.6
+   },
+   {
+    "t": "2026-10-19T17:18:00+00:00",
+    "v": 40.7
+   },
+   {
+    "t": "2026-10-20T05:21:00+00:00",
+    "v": 40.7
+   },
+   {
+    "t": "2026-10-21T05:21:00+00:00",
+    "v": 40.8
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 35.8
+    },
+    {
+     "t": "2026-10-18T23:16:00+00:00",
+     "v": 32.8
+    },
+    {
+     "t": "2026-10-19T02:31:00+00:00",
+     "v": 32.8
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "v": 32.7
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "v": 32.7
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 32.7
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "v": 32.7
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 26.7
+    },
+    {
+     "t": "2026-10-18T23:16:00+00:00",
+     "v": 26.8
+    },
+    {
+     "t": "2026-10-19T02:31:00+00:00",
+     "v": 26.8
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "v": 26.7
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "v": 26.6
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 26.6
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "v": 26.5
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 37.5
+    },
+    {
+     "t": "2026-10-18T23:16:00+00:00",
+     "v": 40.4
+    },
+    {
+     "t": "2026-10-19T02:31:00+00:00",
+     "v": 40.4
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "v": 40.6
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "v": 40.7
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 40.7
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "v": 40.8
+    }
+   ]
+  },
+  "goals": 2.93,
+  "goals_rank": 8,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T21:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Newcastle lost 0-1 at home to Aston Villa on Friday.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Aston Villa",
+    "score": "0-1",
+    "when": "Friday"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-crystal-palace-newcastle/s0.mp3",
+   "words": [
+    {
+     "w": "Newcastle",
+     "start": 0.275,
+     "end": 0.8
+    },
+    {
+     "w": "lost",
+     "start": 0.8,
+     "end": 1.075
+    },
+    {
+     "w": "0-1",
+     "start": 1.075,
+     "end": 1.462
+    },
+    {
+     "w": "at",
+     "start": 1.462,
+     "end": 1.55
+    },
+    {
+     "w": "home",
+     "start": 1.55,
+     "end": 2.138
+    },
+    {
+     "w": "to",
+     "start": 2.138,
+     "end": 2.275
+    },
+    {
+     "w": "Aston",
+     "start": 2.275,
+     "end": 2.675
+    },
+    {
+     "w": "Villa",
+     "start": 2.675,
+     "end": 2.975
+    },
+    {
+     "w": "on",
+     "start": 2.975,
+     "end": 3.188
+    },
+    {
+     "w": "Friday.",
+     "start": 3.188,
+     "end": 4.1
+    }
+   ],
+   "durationInFrames": 131
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Now they travel to Selhurst Park to face Crystal Palace.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-crystal-palace-newcastle/s1.mp3",
+   "words": [
+    {
+     "w": "Now",
+     "start": 0.275,
+     "end": 0.463
+    },
+    {
+     "w": "they",
+     "start": 0.463,
+     "end": 0.6
+    },
+    {
+     "w": "travel",
+     "start": 0.6,
+     "end": 0.975
+    },
+    {
+     "w": "to",
+     "start": 0.975,
+     "end": 1.113
+    },
+    {
+     "w": "Selhurst",
+     "start": 1.113,
+     "end": 1.6
+    },
+    {
+     "w": "Park",
+     "start": 1.6,
+     "end": 1.925
+    },
+    {
+     "w": "to",
+     "start": 1.925,
+     "end": 2.05
+    },
+    {
+     "w": "face",
+     "start": 2.05,
+     "end": 2.35
+    },
+    {
+     "w": "Crystal",
+     "start": 2.35,
+     "end": 2.75
+    },
+    {
+     "w": "Palace.",
+     "start": 2.75,
+     "end": 3.65
+    }
+   ],
+   "durationInFrames": 118
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Palace's own week was worse: a 0-5 defeat at Brighton.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Brighton",
+    "score": "0-5",
+    "when": "Sunday"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-crystal-palace-newcastle/s2.mp3",
+   "words": [
+    {
+     "w": "Palace's",
+     "start": 0.25,
+     "end": 0.762
+    },
+    {
+     "w": "own",
+     "start": 0.762,
+     "end": 1.025
+    },
+    {
+     "w": "week",
+     "start": 1.025,
+     "end": 1.238
+    },
+    {
+     "w": "was",
+     "start": 1.238,
+     "end": 1.4
+    },
+    {
+     "w": "worse:",
+     "start": 1.4,
+     "end": 2.0
+    },
+    {
+     "w": "a",
+     "start": 2.138,
+     "end": 2.263
+    },
+    {
+     "w": "0-5",
+     "start": 2.263,
+     "end": 2.975
+    },
+    {
+     "w": "defeat",
+     "start": 2.975,
+     "end": 3.337
+    },
+    {
+     "w": "at",
+     "start": 3.337,
+     "end": 3.425
+    },
+    {
+     "w": "Brighton.",
+     "start": 3.425,
+     "end": 4.3
+    }
+   ],
+   "durationInFrames": 137
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "BBC Sport reports Pierre Sage is fighting to keep his job.",
+   "show": {
+    "kind": "news",
+    "source": "BBC Sport",
+    "text": "Sage fighting to keep his job"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-crystal-palace-newcastle/s3.mp3",
+   "words": [
+    {
+     "w": "BBC",
+     "start": 0.25,
+     "end": 0.825
+    },
+    {
+     "w": "Sport",
+     "start": 0.825,
+     "end": 1.175
+    },
+    {
+     "w": "reports",
+     "start": 1.175,
+     "end": 1.6
+    },
+    {
+     "w": "Pierre",
+     "start": 1.6,
+     "end": 1.863
+    },
+    {
+     "w": "Sage",
+     "start": 1.863,
+     "end": 2.337
+    },
+    {
+     "w": "is",
+     "start": 2.337,
+     "end": 2.5
+    },
+    {
+     "w": "fighting",
+     "start": 2.5,
+     "end": 2.85
+    },
+    {
+     "w": "to",
+     "start": 2.85,
+     "end": 2.95
+    },
+    {
+     "w": "keep",
+     "start": 2.95,
+     "end": 3.163
+    },
+    {
+     "w": "his",
+     "start": 3.163,
+     "end": 3.337
+    },
+    {
+     "w": "job.",
+     "start": 3.337,
+     "end": 4.125
+    }
+   ],
+   "durationInFrames": 132
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Palace have conceded 9 goals in their last 5 games.",
+   "show": {
+    "kind": "stat",
+    "label": "Conceded in last 5",
+    "value": "9"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-crystal-palace-newcastle/s4.mp3",
+   "words": [
+    {
+     "w": "Palace",
+     "start": 0.25,
+     "end": 0.562
+    },
+    {
+     "w": "have",
+     "start": 0.562,
+     "end": 0.675
+    },
+    {
+     "w": "conceded",
+     "start": 0.675,
+     "end": 1.188
+    },
+    {
+     "w": "9",
+     "start": 1.188,
+     "end": 1.5
+    },
+    {
+     "w": "goals",
+     "start": 1.5,
+     "end": 1.863
+    },
+    {
+     "w": "in",
+     "start": 1.863,
+     "end": 1.938
+    },
+    {
+     "w": "their",
+     "start": 1.938,
+     "end": 2.075
+    },
+    {
+     "w": "last",
+     "start": 2.075,
+     "end": 2.425
+    },
+    {
+     "w": "5",
+     "start": 2.425,
+     "end": 2.775
+    },
+    {
+     "w": "games.",
+     "start": 2.775,
+     "end": 3.625
+    }
+   ],
+   "durationInFrames": 117
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Newcastle still make chances: 1.84 expected goals at Coventry.",
+   "show": {
+    "kind": "stat",
+    "label": "Expected goals at Coventry",
+    "value": "1.84"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-crystal-palace-newcastle/s5.mp3",
+   "words": [
+    {
+     "w": "Newcastle",
+     "start": 0.275,
+     "end": 0.85
+    },
+    {
+     "w": "still",
+     "start": 0.85,
+     "end": 1.062
+    },
+    {
+     "w": "make",
+     "start": 1.062,
+     "end": 1.288
+    },
+    {
+     "w": "chances:",
+     "start": 1.288,
+     "end": 2.075
+    },
+    {
+     "w": "1.84",
+     "start": 2.188,
+     "end": 3.175
+    },
+    {
+     "w": "expected",
+     "start": 3.175,
+     "end": 3.75
+    },
+    {
+     "w": "goals",
+     "start": 3.75,
+     "end": 4.15
+    },
+    {
+     "w": "at",
+     "start": 4.15,
+     "end": 4.25
+    },
+    {
+     "w": "Coventry.",
+     "start": 4.25,
+     "end": 5.2
+    }
+   ],
+   "durationInFrames": 164
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Newcastle's win chance has risen from 37.5% to 40.8% in recent days.",
+   "show": {
+    "kind": "move",
+    "team": "away",
+    "from": 37.5,
+    "to": 40.8
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-crystal-palace-newcastle/s6.mp3",
+   "words": [
+    {
+     "w": "Newcastle's",
+     "start": 0.275,
+     "end": 0.875
+    },
+    {
+     "w": "win",
+     "start": 0.875,
+     "end": 1.113
+    },
+    {
+     "w": "chance",
+     "start": 1.113,
+     "end": 1.488
+    },
+    {
+     "w": "has",
+     "start": 1.488,
+     "end": 1.675
+    },
+    {
+     "w": "risen",
+     "start": 1.675,
+     "end": 2.025
+    },
+    {
+     "w": "from",
+     "start": 2.025,
+     "end": 2.237
+    },
+    {
+     "w": "37.5%",
+     "start": 2.237,
+     "end": 4.35
+    },
+    {
+     "w": "to",
+     "start": 4.35,
+     "end": 4.5
+    },
+    {
+     "w": "40.8%",
+     "start": 4.5,
+     "end": 5.725
+    },
+    {
+     "w": "in",
+     "start": 5.725,
+     "end": 5.85
+    },
+    {
+     "w": "recent",
+     "start": 5.85,
+     "end": 6.225
+    },
+    {
+     "w": "days.",
+     "start": 6.225,
+     "end": 7.125
+    }
+   ],
+   "durationInFrames": 222
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Both defences have leaked, so Over 3 goals is a 48.3% chance.",
+   "show": {
+    "kind": "over",
+    "line": 3.0,
+    "value": 48.3
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-crystal-palace-newcastle/s7.mp3",
+   "words": [
+    {
+     "w": "Both",
+     "start": 0.25,
+     "end": 0.525
+    },
+    {
+     "w": "defences",
+     "start": 0.525,
+     "end": 1.012
+    },
+    {
+     "w": "have",
+     "start": 1.012,
+     "end": 1.175
+    },
+    {
+     "w": "leaked,",
+     "start": 1.175,
+     "end": 1.7
+    },
+    {
+     "w": "so",
+     "start": 1.825,
+     "end": 1.975
+    },
+    {
+     "w": "Over",
+     "start": 1.975,
+     "end": 2.237
+    },
+    {
+     "w": "3",
+     "start": 2.237,
+     "end": 2.475
+    },
+    {
+     "w": "goals",
+     "start": 2.475,
+     "end": 2.875
+    },
+    {
+     "w": "is",
+     "start": 2.875,
+     "end": 2.987
+    },
+    {
+     "w": "a",
+     "start": 2.987,
+     "end": 3.087
+    },
+    {
+     "w": "48.3%",
+     "start": 3.087,
+     "end": 4.537
+    },
+    {
+     "w": "chance.",
+     "start": 4.537,
+     "end": 5.325
+    }
+   ],
+   "durationInFrames": 168
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Neither side is in form, yet the market keeps Newcastle favourites.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Neither side in form",
+     "Newcastle still favourites",
+     "An open game expected"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-crystal-palace-newcastle/s8.mp3",
+   "words": [
+    {
+     "w": "Neither",
+     "start": 0.275,
+     "end": 0.613
+    },
+    {
+     "w": "side",
+     "start": 0.613,
+     "end": 0.912
+    },
+    {
+     "w": "is",
+     "start": 0.912,
+     "end": 1.025
+    },
+    {
+     "w": "in",
+     "start": 1.025,
+     "end": 1.188
+    },
+    {
+     "w": "form,",
+     "start": 1.188,
+     "end": 1.75
+    },
+    {
+     "w": "yet",
+     "start": 1.85,
+     "end": 1.988
+    },
+    {
+     "w": "the",
+     "start": 1.988,
+     "end": 2.075
+    },
+    {
+     "w": "market",
+     "start": 2.075,
+     "end": 2.425
+    },
+    {
+     "w": "keeps",
+     "start": 2.425,
+     "end": 2.712
+    },
+    {
+     "w": "Newcastle",
+     "start": 2.712,
+     "end": 3.337
+    },
+    {
+     "w": "favourites.",
+     "start": 3.337,
+     "end": 4.275
+    }
+   ],
+   "durationInFrames": 143
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-crystal-palace-newcastle/s9.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "line_move",
+  "kicker": "MARKET ALERT",
+  "stickers": [
+   "💸",
+   "📈",
+   "📈"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1557441,
+ "prices_as_of": "2026-10-21T21:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

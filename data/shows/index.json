@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T22:08:51+00:00",
+ "generated_at": "2026-10-21T22:18:12+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -798,6 +798,62 @@
    "youtube_id": null,
    "article": null,
    "seconds": 51
+  },
+  {
+   "id": "2026-10-25-psv-eindhoven-feyenoord",
+   "home": "PSV Eindhoven",
+   "away": "Feyenoord",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-25T13:30:00+00:00",
+   "title": "Unbeaten Feyenoord go to PSV as underdogs",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": null,
+   "seconds": 50
+  },
+  {
+   "id": "2026-10-25-atalanta-frosinone",
+   "home": "Atalanta",
+   "away": "Frosinone",
+   "league": "Serie A",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "title": "Sarri under pressure: Atalanta host Frosinone",
+   "source": "market_desk",
+   "kicker": "FAVOURITE FADING",
+   "voiced": true,
+   "youtube_id": null,
+   "article": null,
+   "seconds": 52
+  },
+  {
+   "id": "2026-10-25-genoa-venezia",
+   "home": "Genoa",
+   "away": "Venezia",
+   "league": "Serie A",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "title": "Bottom two at Marassi: Genoa narrow favourites",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-25-genoa-venezia.html",
+   "seconds": 53
+  },
+  {
+   "id": "2026-10-25-crystal-palace-newcastle",
+   "home": "Crystal Palace",
+   "away": "Newcastle",
+   "league": "Premier League",
+   "kickoff": "2026-10-25T14:00:00+00:00",
+   "title": "Newcastle lose again: still the favourites at Palace?",
+   "source": "market_desk",
+   "kicker": "MARKET ALERT",
+   "voiced": true,
+   "youtube_id": null,
+   "article": null,
+   "seconds": 49
   },
   {
    "id": "2026-10-25-barcelona-real-madrid",
