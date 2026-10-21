@@ -42,6 +42,7 @@
    "meaning": "Villa Park and this fixture have been awkward for City, and Villa have the recent upper hand."
   }
  ],
+ "article": null,
  "sources": [
   {
    "fact": "Aaron Wan-Bissaka is set to miss at least three weeks with a hamstring injury suffered in Villa's 1-0 win at Newcastle.",
@@ -173,8 +174,8 @@
    "first": 3.01
   },
   "absences": {
-   "home": 0,
-   "away": 0
+   "home": 4,
+   "away": 2
   },
   "read": "2026-10-24-aston-villa-manchester-city",
   "headline": "City lead the league, but Villa Park has been awkward"

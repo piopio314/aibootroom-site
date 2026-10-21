@@ -288,7 +288,7 @@
     return `<div class="persona"><div class="role">${E(r.league)} · ${E(ABR.when(r.kickoff))}</div><h3 class="disp">${E(S(r.home))} v ${E(S(r.away))}</h3>
       <p>${E(r.read || r.summary)}</p>
       ${facts.length ? `<div class="says">${facts.map(f => `<div>${E(f.fact)}${f.meaning ? ` <span style="color:var(--text2)">— ${E(f.meaning)}</span>` : ''}</div>`).join('')}</div>` : ''}
-      <a class="btn ghost sm" href="${readUrl(r.slug)}" style="margin-top:16px">Read the full note →</a></div>`;
+      <a class="btn ${r.article ? 'primary' : 'ghost'} sm" href="${r.article || readUrl(r.slug)}" style="margin-top:16px">${r.article ? '📖 Read the full preview →' : 'Read the full note →'}</a></div>`;
   }).join('') || '<div class="skeleton">The first reads of the week are being written.</div>';
 
   // ── videos: a YouTube embed when the short is on YouTube, otherwise the match show plays here (assets/show.js)

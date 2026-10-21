@@ -119,7 +119,8 @@
   document.getElementById('nextprev').innerHTML =
     (prev ? `<a class="btn ghost sm" href="match.html?m=${encodeURIComponent(prev.id)}">← ${E(S(prev.home))} – ${E(S(prev.away))}</a>` : '') +
     (next ? `<a class="btn primary sm" href="match.html?m=${encodeURIComponent(next.id)}">Next: ${E(S(next.home))} – ${E(S(next.away))} →</a>` : '') +
-    (show.source === 'market_desk' ? `<a class="btn ghost sm" href="read.html?r=${encodeURIComponent(show.id)}">Full market read</a>` : '');
+    (pick.article ? `<a class="btn primary sm" href="${pick.article}">📖 Read the full preview</a>` :
+     show.source === 'market_desk' ? `<a class="btn ghost sm" href="read.html?r=${encodeURIComponent(show.id)}">Full market read</a>` : '');
 })();
 </script>
 </body>

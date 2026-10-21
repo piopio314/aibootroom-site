@@ -42,6 +42,7 @@
    "meaning": "Madrid are now roughly a one-in-four shot at Camp Nou, up from one-in-five."
   }
  ],
+ "article": "/m/2026-10-25-barcelona-real-madrid.html",
  "sources": [
   {
    "fact": "Barcelona's 11-game winning run ended with a 4-2 Champions League defeat to PSG, their first loss of the season.",
@@ -114,14 +115,14 @@
   "home": "Barcelona",
   "away": "Real Madrid",
   "fair": {
-   "home": 59.4,
+   "home": 59.6,
    "draw": 16.5,
-   "away": 24.1
+   "away": 23.9
   },
   "move": {
-   "home": -3.6,
+   "home": -3.4,
    "draw": -0.6,
-   "away": 4.2
+   "away": 4.1
   },
   "tracked_since": "2026-10-18T22:49:00+00:00",
   "timeline": [
@@ -196,10 +197,22 @@
     "home": 59.4,
     "draw": 16.5,
     "away": 24.1
+   },
+   {
+    "t": "2026-10-21T13:21:00+00:00",
+    "home": 59.2,
+    "draw": 16.6,
+    "away": 24.2
+   },
+   {
+    "t": "2026-10-21T19:18:00+00:00",
+    "home": 59.6,
+    "draw": 16.5,
+    "away": 23.9
    }
   ],
   "goals": {
-   "expected": 4.18,
+   "expected": 4.19,
    "first": 4.03
   },
   "absences": {

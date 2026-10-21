@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T19:01:26+00:00",
+ "generated_at": "2026-10-21T19:58:50+00:00",
  "shows": [
   {
    "id": "2026-10-22-juventus-rennes",
@@ -12,6 +12,7 @@
    "kicker": "MATCH PREVIEW",
    "voiced": true,
    "youtube_id": null,
+   "article": null,
    "seconds": 48
   },
   {
@@ -25,6 +26,7 @@
    "kicker": "MATCH PREVIEW",
    "voiced": true,
    "youtube_id": null,
+   "article": null,
    "seconds": 42
   },
   {
@@ -38,6 +40,7 @@
    "kicker": "MARKET READ",
    "voiced": true,
    "youtube_id": null,
+   "article": null,
    "seconds": 48
   },
   {
@@ -51,6 +54,7 @@
    "kicker": "MARKET ALERT",
    "voiced": true,
    "youtube_id": null,
+   "article": null,
    "seconds": 51
   },
   {
@@ -64,6 +68,7 @@
    "kicker": "EL CLÁSICO",
    "voiced": true,
    "youtube_id": null,
+   "article": "/m/2026-10-25-barcelona-real-madrid.html",
    "seconds": 55
   }
  ]
