@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T20:27:40+00:00",
+ "generated_at": "2026-10-21T20:36:16+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -168,6 +168,62 @@
    "youtube_id": null,
    "article": "/m/2026-10-22-lillestrom-real-sociedad.html",
    "seconds": 50
+  },
+  {
+   "id": "2026-10-22-olympiakos-piraeus-sparta-praha",
+   "home": "Olympiakos Piraeus",
+   "away": "Sparta Praha",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Olympiakos without El Kaabi: still clear favourites",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-22-olympiakos-piraeus-sparta-praha.html",
+   "seconds": 50
+  },
+  {
+   "id": "2026-10-22-omonia-nicosia-benfica",
+   "home": "Omonia Nicosia",
+   "away": "Benfica",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Omonia's perfect start meets Benfica's Milan and Celtic wins",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-22-omonia-nicosia-benfica.html",
+   "seconds": 51
+  },
+  {
+   "id": "2026-10-22-plzen-levski-sofia",
+   "home": "Plzen",
+   "away": "Levski Sofia",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Plzen on 0 points host hard-to-break Levski",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-22-plzen-levski-sofia.html",
+   "seconds": 53
+  },
+  {
+   "id": "2026-10-22-ajax-atalanta",
+   "home": "Ajax",
+   "away": "Atalanta",
+   "league": "Conference League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "title": "Ajax after Split: favourites by a quarter of a goal",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-22-ajax-atalanta.html",
+   "seconds": 40
   },
   {
    "id": "2026-10-24-aston-villa-manchester-city",

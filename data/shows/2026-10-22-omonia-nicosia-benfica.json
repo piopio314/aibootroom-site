@@ -1,0 +1,851 @@
+{
+ "id": "2026-10-22-omonia-nicosia-benfica",
+ "title": "Omonia's perfect start meets Benfica's Milan and Celtic wins",
+ "match": {
+  "home": "Omonia Nicosia",
+  "away": "Benfica",
+  "league": "Europa League",
+  "kickoff": "2026-10-22T19:00:00+00:00",
+  "home_short": "OMO",
+  "away_short": "BEN",
+  "home_color": "#dc2626",
+  "away_color": "#e83030"
+ },
+ "market": {
+  "fair": {
+   "home": 11.9,
+   "draw": 17.7,
+   "away": 70.4
+  },
+  "move": {
+   "home": -0.4,
+   "draw": -0.4,
+   "away": 0.8
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-20T20:44:00+00:00",
+    "v": 69.6
+   },
+   {
+    "t": "2026-10-21T02:29:00+00:00",
+    "v": 70.1
+   },
+   {
+    "t": "2026-10-21T11:20:00+00:00",
+    "v": 70.4
+   },
+   {
+    "t": "2026-10-21T17:18:00+00:00",
+    "v": 70.4
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 12.3
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 12.0
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 11.9
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 11.9
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 18.1
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 17.9
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 17.7
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 17.7
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "v": 69.6
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 70.1
+    },
+    {
+     "t": "2026-10-21T11:20:00+00:00",
+     "v": 70.4
+    },
+    {
+     "t": "2026-10-21T17:18:00+00:00",
+     "v": 70.4
+    }
+   ]
+  },
+  "goals": 2.98,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-20T20:44:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Benfica beat Celtic 4-1 in the Europa League last week.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Celtic",
+    "score": "4-1",
+    "when": "last week"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s0.mp3",
+   "words": [
+    {
+     "w": "Benfica",
+     "start": 0.12,
+     "end": 0.6
+    },
+    {
+     "w": "beat",
+     "start": 0.68,
+     "end": 0.84
+    },
+    {
+     "w": "Celtic",
+     "start": 0.84,
+     "end": 1.4
+    },
+    {
+     "w": "4-1",
+     "start": 1.4,
+     "end": 2.04
+    },
+    {
+     "w": "in",
+     "start": 2.12,
+     "end": 2.12
+    },
+    {
+     "w": "the",
+     "start": 2.2,
+     "end": 2.2
+    },
+    {
+     "w": "Europa",
+     "start": 2.2,
+     "end": 2.6
+    },
+    {
+     "w": "League",
+     "start": 2.68,
+     "end": 2.84
+    },
+    {
+     "w": "last",
+     "start": 2.92,
+     "end": 3.16
+    },
+    {
+     "w": "week.",
+     "start": 3.16,
+     "end": 3.56
+    }
+   ],
+   "durationInFrames": 115
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "On Thursday they visit Omonia in Nicosia.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s1.mp3",
+   "words": [
+    {
+     "w": "On",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "Thursday",
+     "start": 0.36,
+     "end": 0.84
+    },
+    {
+     "w": "they",
+     "start": 0.84,
+     "end": 1
+    },
+    {
+     "w": "visit",
+     "start": 1.08,
+     "end": 1.32
+    },
+    {
+     "w": "Omonia",
+     "start": 1.32,
+     "end": 1.88
+    },
+    {
+     "w": "in",
+     "start": 1.96,
+     "end": 2.04
+    },
+    {
+     "w": "Nicosia.",
+     "start": 2.04,
+     "end": 2.68
+    }
+   ],
+   "durationInFrames": 88
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Omonia won both games too, creating only 0.32 expected goals against Celta.",
+   "show": {
+    "kind": "stat",
+    "label": "Omonia expected goals",
+    "value": "0.32"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s2.mp3",
+   "words": [
+    {
+     "w": "Omonia",
+     "start": 0.12,
+     "end": 0.52
+    },
+    {
+     "w": "won",
+     "start": 0.6,
+     "end": 0.76
+    },
+    {
+     "w": "both",
+     "start": 0.76,
+     "end": 1.08
+    },
+    {
+     "w": "games",
+     "start": 1.16,
+     "end": 1.48
+    },
+    {
+     "w": "too,",
+     "start": 1.48,
+     "end": 1.8
+    },
+    {
+     "w": "creating",
+     "start": 2.04,
+     "end": 2.44
+    },
+    {
+     "w": "only",
+     "start": 2.52,
+     "end": 2.68
+    },
+    {
+     "w": "0.32",
+     "start": 2.68,
+     "end": 3.96
+    },
+    {
+     "w": "expected",
+     "start": 3.96,
+     "end": 4.44
+    },
+    {
+     "w": "goals",
+     "start": 4.52,
+     "end": 4.84
+    },
+    {
+     "w": "against",
+     "start": 4.84,
+     "end": 5.16
+    },
+    {
+     "w": "Celta.",
+     "start": 5.24,
+     "end": 5.64
+    }
+   ],
+   "durationInFrames": 177
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "They equalised in stoppage time on Monday, leaving 3 days' rest.",
+   "show": {
+    "kind": "stat",
+    "label": "Omonia rest days",
+    "value": "3"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s3.mp3",
+   "words": [
+    {
+     "w": "They",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "equalised",
+     "start": 0.36,
+     "end": 0.84
+    },
+    {
+     "w": "in",
+     "start": 0.84,
+     "end": 1
+    },
+    {
+     "w": "stoppage",
+     "start": 1.08,
+     "end": 1.48
+    },
+    {
+     "w": "time",
+     "start": 1.48,
+     "end": 1.72
+    },
+    {
+     "w": "on",
+     "start": 1.8,
+     "end": 1.88
+    },
+    {
+     "w": "Monday,",
+     "start": 1.88,
+     "end": 2.44
+    },
+    {
+     "w": "leaving",
+     "start": 2.6,
+     "end": 2.92
+    },
+    {
+     "w": "3",
+     "start": 2.92,
+     "end": 3.24
+    },
+    {
+     "w": "days'",
+     "start": 3.32,
+     "end": 3.48
+    },
+    {
+     "w": "rest.",
+     "start": 3.48,
+     "end": 4.04
+    }
+   ],
+   "durationInFrames": 129
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Marco Silva confirmed Claudio Echeverri will start, according to CNN Brasil.",
+   "show": {
+    "kind": "news",
+    "source": "CNN Brasil",
+    "text": "Echeverri to start in Nicosia"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s4.mp3",
+   "words": [
+    {
+     "w": "Marco",
+     "start": 0.12,
+     "end": 0.44
+    },
+    {
+     "w": "Silva",
+     "start": 0.52,
+     "end": 0.76
+    },
+    {
+     "w": "confirmed",
+     "start": 0.76,
+     "end": 1.4
+    },
+    {
+     "w": "Claudio",
+     "start": 1.4,
+     "end": 1.88
+    },
+    {
+     "w": "Echeverri",
+     "start": 1.88,
+     "end": 2.44
+    },
+    {
+     "w": "will",
+     "start": 2.52,
+     "end": 2.6
+    },
+    {
+     "w": "start,",
+     "start": 2.6,
+     "end": 3.24
+    },
+    {
+     "w": "according",
+     "start": 3.32,
+     "end": 3.64
+    },
+    {
+     "w": "to",
+     "start": 3.72,
+     "end": 3.72
+    },
+    {
+     "w": "CNN",
+     "start": 3.72,
+     "end": 4.2
+    },
+    {
+     "w": "Brasil.",
+     "start": 4.2,
+     "end": 4.76
+    }
+   ],
+   "durationInFrames": 151
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Benfica also travel without Barrenechea, who has 11 appearances.",
+   "show": {
+    "kind": "absence",
+    "team": "away",
+    "player": "Enzo Barrenechea",
+    "status": "out",
+    "line": "11 appearances this season"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s5.mp3",
+   "words": [
+    {
+     "w": "Benfica",
+     "start": 0.12,
+     "end": 0.6
+    },
+    {
+     "w": "also",
+     "start": 0.6,
+     "end": 1
+    },
+    {
+     "w": "travel",
+     "start": 1.08,
+     "end": 1.4
+    },
+    {
+     "w": "without",
+     "start": 1.48,
+     "end": 1.72
+    },
+    {
+     "w": "Barrenechea,",
+     "start": 1.72,
+     "end": 2.44
+    },
+    {
+     "w": "who",
+     "start": 2.68,
+     "end": 2.76
+    },
+    {
+     "w": "has",
+     "start": 2.76,
+     "end": 2.92
+    },
+    {
+     "w": "11",
+     "start": 3.0,
+     "end": 3.32
+    },
+    {
+     "w": "appearances.",
+     "start": 3.32,
+     "end": 4.04
+    }
+   ],
+   "durationInFrames": 129
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Even so, the market makes Benfica 70% favourites to win.",
+   "show": {
+    "kind": "chance",
+    "team": "away",
+    "value": 70
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s6.mp3",
+   "words": [
+    {
+     "w": "Even",
+     "start": 0.12,
+     "end": 0.36
+    },
+    {
+     "w": "so,",
+     "start": 0.44,
+     "end": 0.76
+    },
+    {
+     "w": "the",
+     "start": 0.929,
+     "end": 1.08
+    },
+    {
+     "w": "market",
+     "start": 1.16,
+     "end": 1.4
+    },
+    {
+     "w": "makes",
+     "start": 1.48,
+     "end": 1.64
+    },
+    {
+     "w": "Benfica",
+     "start": 1.64,
+     "end": 2.28
+    },
+    {
+     "w": "70%",
+     "start": 2.282,
+     "end": 3.24
+    },
+    {
+     "w": "favourites",
+     "start": 3.24,
+     "end": 3.72
+    },
+    {
+     "w": "to",
+     "start": 3.8,
+     "end": 3.8
+    },
+    {
+     "w": "win.",
+     "start": 3.8,
+     "end": 4.2
+    }
+   ],
+   "durationInFrames": 134
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The handicap gives Omonia a head start of 1.25 goals.",
+   "show": {
+    "kind": "stat",
+    "label": "Omonia head start (goals)",
+    "value": "1.25"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s7.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.12,
+     "end": 0.28
+    },
+    {
+     "w": "handicap",
+     "start": 0.36,
+     "end": 0.84
+    },
+    {
+     "w": "gives",
+     "start": 0.84,
+     "end": 1.16
+    },
+    {
+     "w": "Omonia",
+     "start": 1.24,
+     "end": 1.64
+    },
+    {
+     "w": "a",
+     "start": 1.664,
+     "end": 1.8
+    },
+    {
+     "w": "head",
+     "start": 1.88,
+     "end": 2.04
+    },
+    {
+     "w": "start",
+     "start": 2.12,
+     "end": 2.52
+    },
+    {
+     "w": "of",
+     "start": 2.52,
+     "end": 2.68
+    },
+    {
+     "w": "1.25",
+     "start": 2.76,
+     "end": 3.8
+    },
+    {
+     "w": "goals.",
+     "start": 3.8,
+     "end": 4.36
+    }
+   ],
+   "durationInFrames": 139
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects about 3.0 goals; over is a 49.6% chance.",
+   "show": {
+    "kind": "over",
+    "line": 3.0,
+    "value": 49.6
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s8.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.12,
+     "end": 0.2
+    },
+    {
+     "w": "market",
+     "start": 0.28,
+     "end": 0.52
+    },
+    {
+     "w": "expects",
+     "start": 0.52,
+     "end": 1
+    },
+    {
+     "w": "about",
+     "start": 1.08,
+     "end": 1.32
+    },
+    {
+     "w": "3.0",
+     "start": 1.4,
+     "end": 2.28
+    },
+    {
+     "w": "goals;",
+     "start": 2.28,
+     "end": 2.84
+    },
+    {
+     "w": "over",
+     "start": 2.997,
+     "end": 3.48
+    },
+    {
+     "w": "is",
+     "start": 3.56,
+     "end": 3.64
+    },
+    {
+     "w": "a",
+     "start": 3.72,
+     "end": 3.72
+    },
+    {
+     "w": "49.6%",
+     "start": 3.72,
+     "end": 5.24
+    },
+    {
+     "w": "chance.",
+     "start": 5.32,
+     "end": 5.72
+    }
+   ],
+   "durationInFrames": 180
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Omonia earned their wins the hard way; Benfica beat Milan and Celtic.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Benfica beat Milan and Celtic",
+     "Omonia won the harder way",
+     "The gap explains the price"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s9.mp3",
+   "words": [
+    {
+     "w": "Omonia",
+     "start": 0.12,
+     "end": 0.6
+    },
+    {
+     "w": "earned",
+     "start": 0.68,
+     "end": 0.84
+    },
+    {
+     "w": "their",
+     "start": 0.84,
+     "end": 1
+    },
+    {
+     "w": "wins",
+     "start": 1.08,
+     "end": 1.32
+    },
+    {
+     "w": "the",
+     "start": 1.4,
+     "end": 1.48
+    },
+    {
+     "w": "hard",
+     "start": 1.48,
+     "end": 1.72
+    },
+    {
+     "w": "way;",
+     "start": 1.8,
+     "end": 2.12
+    },
+    {
+     "w": "Benfica",
+     "start": 2.301,
+     "end": 2.92
+    },
+    {
+     "w": "beat",
+     "start": 3.0,
+     "end": 3.16
+    },
+    {
+     "w": "Milan",
+     "start": 3.16,
+     "end": 3.64
+    },
+    {
+     "w": "and",
+     "start": 3.72,
+     "end": 3.72
+    },
+    {
+     "w": "Celtic.",
+     "start": 3.72,
+     "end": 4.28
+    }
+   ],
+   "durationInFrames": 143
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.114,
+     "end": 0.52
+    },
+    {
+     "w": "Boot",
+     "start": 0.6,
+     "end": 0.76
+    },
+    {
+     "w": "Room.",
+     "start": 0.76,
+     "end": 1.08
+    },
+    {
+     "w": "Football",
+     "start": 1.386,
+     "end": 1.8
+    },
+    {
+     "w": "analysis,",
+     "start": 1.8,
+     "end": 2.52
+    },
+    {
+     "w": "with",
+     "start": 2.689,
+     "end": 2.84
+    },
+    {
+     "w": "receipts.",
+     "start": 2.84,
+     "end": 3.48
+    }
+   ],
+   "durationInFrames": 137
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "market_read",
+  "kicker": "MARKET READ",
+  "stickers": [
+   "📊",
+   "🧠",
+   "📊"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1636311,
+ "prices_as_of": "2026-10-21T19:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}
