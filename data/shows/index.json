@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T22:57:06+00:00",
+ "generated_at": "2026-10-21T23:01:08+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -1064,6 +1064,34 @@
    "youtube_id": null,
    "article": "/m/2026-10-25-real-sociedad-levante.html",
    "seconds": 53
+  },
+  {
+   "id": "2026-10-25-union-st-gilloise-cercle-brugge",
+   "home": "Union St. Gilloise",
+   "away": "Cercle Brugge",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-10-25T18:15:00+00:00",
+   "title": "Union unbeaten, Cercle winless: the gap in Brussels",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": null,
+   "seconds": 41
+  },
+  {
+   "id": "2026-10-25-udinese-ac-milan",
+   "home": "Udinese",
+   "away": "AC Milan",
+   "league": "Serie A",
+   "kickoff": "2026-10-25T19:45:00+00:00",
+   "title": "Udinese's 5 defeats in a row — now unbeaten Milan visit",
+   "source": "market_desk",
+   "kicker": "MARKET ALERT",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-25-udinese-ac-milan.html",
+   "seconds": 50
   },
   {
    "id": "2026-10-25-barcelona-real-madrid",

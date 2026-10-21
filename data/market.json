@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T22:56:00+00:00",
+ "generated_at": "2026-10-21T23:01:00+00:00",
  "prices_as_of": "2026-10-21T22:19:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
@@ -846,8 +846,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null
+   "read": "2026-10-25-paris-saint-germain-lyon",
+   "headline": "PSG lose three to injury, still favourites against Lyon"
   },
   {
    "id": 1584442,
@@ -4505,8 +4505,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-25-paris-saint-germain-lyon",
+   "headline": "PSG lose three to injury, still favourites against Lyon",
    "competition": "61"
   },
   {
@@ -5206,6 +5206,52 @@
    "article": "/m/2026-10-24-napoli-as-roma.html"
   },
   {
+   "slug": "2026-10-25-paris-saint-germain-lyon",
+   "league": "Ligue 1",
+   "home": "Paris Saint Germain",
+   "away": "Lyon",
+   "kickoff": "2026-10-25T19:45:00+00:00",
+   "headline": "PSG lose three to injury, still favourites against Lyon",
+   "summary": "PSG beat Barcelona, then lost three players in the same night. Kvaratskhelia ruptured his ACL and is out for the season; captain Marquinhos and Ousmane Dembélé were injured too, according to Sky Sports. Yet PSG have won five straight, scoring 16 goals, and on Sunday they host Lyon — both on 14 points at the top of Ligue 1. Lyon beat Nice 2-1 despite a red card. Across the market average, PSG's win chance slipped from 70.7% to 67.3%, but they are still rated 1.33 goals the stronger side. The Paris police have asked for the match to be postponed.",
+   "read": "PSG meet Lyon at the top of Ligue 1, but they do it without Kvaratskhelia — out for the season with an ACL rupture — and fellow Barcelona casualties Marquinhos and Dembélé. The market still makes PSG clear favourites at 67.3% and rates them about 1.3 goals stronger, while the Paris police prefecture has asked for the match to be postponed.",
+   "facts": [
+    {
+     "fact": "Khvicha Kvaratskhelia ruptured the ACL in his right knee in the win over Barcelona and will undergo surgery, ending his season.",
+     "meaning": "PSG lose a first-choice wide attacker for the rest of the campaign, five days before this game."
+    },
+    {
+     "fact": "Captain Marquinhos and Ousmane Dembélé were also injured in that same Champions League win over Barcelona.",
+     "meaning": "Three key players — a winger, the main forward and the captain at centre-back — lost in one night, a structural change rather than a rotation."
+    },
+    {
+     "fact": "PSG's chance of winning fell from 70.7% to 67.3% in the last 24 hours.",
+     "meaning": "Still clear favourites, but the market has taken a slice off them before kick-off."
+    },
+    {
+     "fact": "The Paris police prefecture has asked for this round-eight Ligue 1 fixture to be postponed, citing planned protests this weekend and the NFL game at the Stade de France on Sunday.",
+     "meaning": "The game is officially at risk of not being played at all — a bigger question than form or team news."
+    },
+    {
+     "fact": "PSG have won all five of their last matches, scoring 16 goals.",
+     "meaning": "They arrive in top scoring form — the problem this week is who is available, not how they have been playing."
+    },
+    {
+     "fact": "Lyon lead Ligue 1 on goal difference, level on 14 points with PSG after seven games.",
+     "meaning": "This is a genuine top-of-the-table clash, not a routine home fixture."
+    },
+    {
+     "fact": "Lyon beat Nice 2-1 despite Nakamura's red card in the 70th minute.",
+     "meaning": "They arrive on four wins in five, having taken three points a man down — and likely without the dismissed Nakamura here."
+    },
+    {
+     "fact": "The handicap fair line has PSG about 1.33 goals better than Lyon, with the main line at -1.25.",
+     "meaning": "The market sees a comfortable PSG win rather than a rout — roughly one and a third goals of superiority."
+    }
+   ],
+   "video_title": "PSG after the Barcelona night: still favourites?",
+   "article": null
+  },
+  {
    "slug": "2026-10-25-psv-eindhoven-feyenoord",
    "league": "Eredivisie",
    "home": "PSV Eindhoven",
@@ -5342,52 +5388,6 @@
    ],
    "video_title": "Saka off after 10 minutes: Arsenal still favourites?",
    "article": "/m/2026-10-24-arsenal-everton.html"
-  },
-  {
-   "slug": "2026-10-24-valencia-villarreal",
-   "league": "La Liga",
-   "home": "Valencia",
-   "away": "Villarreal",
-   "kickoff": "2026-10-24T16:30:00+00:00",
-   "headline": "Wounded at Anfield, Villarreal are narrow favourites at Mestalla",
-   "summary": "Valencia are 19th in La Liga with 6 points, so Saturday's derby at Mestalla is a pressure game for them. Villarreal arrive from a 4-3 defeat at Anfield on Wednesday and have had only 4 days to recover; Valencia have had 7. Two La Liga draws, with Racing Santander and Athletic Club, have stopped Valencia's slide, and Copete may return after the knee injury he suffered against Villarreal. Even so, the market makes Villarreal 44% favourites, and the handicap gives Valencia a quarter of a goal. The total-goals line is 2.75, with the over at 49.6%.",
-   "read": "Valencia are 19th with one win in nine and need this derby to relieve the pressure on Javier Aguirre, but they host a Villarreal side that has won three of the last five meetings and creates far more (2.02 xG per game to Valencia's 1.10). Villarreal are the 44.0% favourites but arrive four days after throwing away a 2-0 lead at Anfield, so the market still makes it only a quarter-goal game, with around three goals expected.",
-   "facts": [
-    {
-     "fact": "Valencia sit 19th in La Liga with 6 points from 9 games — one win, three draws, five defeats and a goal difference of -9.",
-     "meaning": "The home side are in the relegation places and this regional derby is a pressure game for them, not a free hit."
-    },
-    {
-     "fact": "Villarreal are the market's favourites at 44.0% to win at Mestalla, against Valencia's 30.1%.",
-     "meaning": "The visitors are clearly the more likely winners, but not by a landslide — over a quarter of the market's weight sits on the draw."
-    },
-    {
-     "fact": "Villarreal lost 4-3 at Liverpool in the Champions League on Tuesday after leading 2-0, as reported by The Guardian.",
-     "meaning": "They arrive at Mestalla off a painful collapse rather than a smooth run-in, and with the emotional cost of a European away night."
-    },
-    {
-     "fact": "Villarreal have 4 days between that Anfield match and kick-off; Valencia have had 7 since their 0-0 with Athletic Club.",
-     "meaning": ""
-    },
-    {
-     "fact": "The market's 50/50 handicap line has Valencia receiving a quarter goal — the fair line is +0.27 from the home perspective.",
-     "meaning": "Villarreal are rated only about a quarter of a goal better than a side sitting 19th, so the market expects a tight, one-goal-ish game."
-    },
-    {
-     "fact": "Villarreal created 2.38 xG at home to Elche last weekend and drew 0-0.",
-     "meaning": "Chance creation is not their problem; turning it into goals has been — a warning for a Valencia defence that will sit deeper."
-    },
-    {
-     "fact": "The market's 50/50 goal line sits at 2.75, with Over priced at 49.6%.",
-     "meaning": "The market sees roughly three goals — a game with chances at both ends rather than a cagey 0-0."
-    },
-    {
-     "fact": "Villarreal are unbeaten in the last five meetings with Valencia — three wins and two draws — including 2-1 in February and 0-2 at Mestalla last October.",
-     "meaning": "This fixture has been one-way traffic for a while, and Villarreal have won at Mestalla in this calendar year."
-    }
-   ],
-   "video_title": "Wounded Villarreal visit a Valencia side 19th in La Liga",
-   "article": null
   }
  ]
 }

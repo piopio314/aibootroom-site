@@ -1,0 +1,166 @@
+{
+ "slug": "2026-10-25-paris-saint-germain-lyon",
+ "league": "Ligue 1",
+ "home": "Paris Saint Germain",
+ "away": "Lyon",
+ "kickoff": "2026-10-25T19:45:00+00:00",
+ "generated_at": "2026-10-21T23:00:57+00:00",
+ "headline": "PSG lose three to injury, still favourites against Lyon",
+ "summary": "PSG beat Barcelona, then lost three players in the same night. Kvaratskhelia ruptured his ACL and is out for the season; captain Marquinhos and Ousmane Dembélé were injured too, according to Sky Sports. Yet PSG have won five straight, scoring 16 goals, and on Sunday they host Lyon — both on 14 points at the top of Ligue 1. Lyon beat Nice 2-1 despite a red card. Across the market average, PSG's win chance slipped from 70.7% to 67.3%, but they are still rated 1.33 goals the stronger side. The Paris police have asked for the match to be postponed.",
+ "read": "PSG meet Lyon at the top of Ligue 1, but they do it without Kvaratskhelia — out for the season with an ACL rupture — and fellow Barcelona casualties Marquinhos and Dembélé. The market still makes PSG clear favourites at 67.3% and rates them about 1.3 goals stronger, while the Paris police prefecture has asked for the match to be postponed.",
+ "facts": [
+  {
+   "fact": "Khvicha Kvaratskhelia ruptured the ACL in his right knee in the win over Barcelona and will undergo surgery, ending his season.",
+   "meaning": "PSG lose a first-choice wide attacker for the rest of the campaign, five days before this game."
+  },
+  {
+   "fact": "Captain Marquinhos and Ousmane Dembélé were also injured in that same Champions League win over Barcelona.",
+   "meaning": "Three key players — a winger, the main forward and the captain at centre-back — lost in one night, a structural change rather than a rotation."
+  },
+  {
+   "fact": "PSG's chance of winning fell from 70.7% to 67.3% in the last 24 hours.",
+   "meaning": "Still clear favourites, but the market has taken a slice off them before kick-off."
+  },
+  {
+   "fact": "The Paris police prefecture has asked for this round-eight Ligue 1 fixture to be postponed, citing planned protests this weekend and the NFL game at the Stade de France on Sunday.",
+   "meaning": "The game is officially at risk of not being played at all — a bigger question than form or team news."
+  },
+  {
+   "fact": "PSG have won all five of their last matches, scoring 16 goals.",
+   "meaning": "They arrive in top scoring form — the problem this week is who is available, not how they have been playing."
+  },
+  {
+   "fact": "Lyon lead Ligue 1 on goal difference, level on 14 points with PSG after seven games.",
+   "meaning": "This is a genuine top-of-the-table clash, not a routine home fixture."
+  },
+  {
+   "fact": "Lyon beat Nice 2-1 despite Nakamura's red card in the 70th minute.",
+   "meaning": "They arrive on four wins in five, having taken three points a man down — and likely without the dismissed Nakamura here."
+  },
+  {
+   "fact": "The handicap fair line has PSG about 1.33 goals better than Lyon, with the main line at -1.25.",
+   "meaning": "The market sees a comfortable PSG win rather than a rout — roughly one and a third goals of superiority."
+  }
+ ],
+ "article": null,
+ "sources": [
+  {
+   "fact": "Khvicha Kvaratskhelia ruptured the ACL in his right knee in the win over Barcelona and will undergo surgery, ending his season.",
+   "source": "skysports.com",
+   "url": "https://skysports.com/football/news/13601843/khvicha-kvaratskhelia-psg-forward-set-for-surgery-after-rupturing-acl-in-champions-league-win-over-barcelona",
+   "age": "9 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "PSG lost captain Marquinhos and Ousmane Dembele to injury in the same 4-2 Champions League win over Barcelona.",
+   "source": "skysports.com",
+   "url": "https://skysports.com/football/news/13601843/khvicha-kvaratskhelia-psg-forward-set-for-surgery-after-rupturing-acl-in-champions-league-win-over-barcelona",
+   "age": "9 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Luis Enrique said the injuries to Dembele, Kvaratskhelia and Marquinhos were the 'worst part of the game'.",
+   "source": "www.goal.com",
+   "url": "https://www.goal.com/en-us/lists/paris-saint-germain-injury-barcelona-luis-enrique-ousmane-dembele-kvaratskhelia-marquinhos-triple/bltebf8df386faba375",
+   "age": "17 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "PSG beat Barcelona 4-2 in the Champions League, their third win in three matches, which kept them top of the Champions League table.",
+   "source": "rmcsport.bfmtv.com",
+   "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/direct-psg-barca-suivez-en-live-le-match-de-la-3e-journee-de-ligue-des-champions_LS-202610200301.html",
+   "age": "2 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "The Spanish press praised PSG's performance against Barcelona and described the champion as being on another level and 'king of Europe'.",
+   "source": "rmcsport.bfmtv.com",
+   "url": "https://rmcsport.bfmtv.com/football/ligue-des-champions/le-champion-est-a-un-autre-niveau-le-psg-fait-comprendre-au-barca-qu-il-reste-le-roi-de-l-europe-la-presse-espagnole-impressionnee-par-le-paris-saint-germain-apres-sa-victoire-contre-le-barca-en-ligue-des-champions_AV-202610210163.html",
+   "age": "17 hours ago",
+   "certainty": "opinion"
+  },
+  {
+   "fact": "Barcelona reported PSG to UEFA over a tifo displayed before the Champions League match that they say incites violence and hatred.",
+   "source": "www.bbc.com",
+   "url": "https://www.bbc.com/sport/football/articles/cm4g1jwp9827o",
+   "age": "10 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Lyon beat Nice 2-1 despite having Nakamura sent off in the 70th minute and moved top of Ligue 1 on goal difference.",
+   "source": "www.theguardian.com",
+   "url": "https://www.theguardian.com/football/2026/oct/18/european-football-monaco-rennes-ligue-1-bayer-leverkusen-freiburg-bundesliga-como-fiorentina-seria-a-real-madrid-sevilla-la-liga",
+   "age": "3 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Lyon's win over Nice came after a Europa League victory over Crystal Palace.",
+   "source": "rmcsport.bfmtv.com",
+   "url": "https://rmcsport.bfmtv.com/football/ligue-1/direct-lyon-nice-suivez-le-dernier-match-de-la-7e-journee-de-ligue-1_LS-202610180037.html",
+   "age": "3 days ago",
+   "certainty": "confirmed"
+  }
+ ],
+ "video_title": "PSG after the Barcelona night: still favourites?",
+ "key_points": [
+  "Kvaratskhelia out for the season",
+  "Lyon top, level on 14 points",
+  "PSG rated 1.3 goals better"
+ ],
+ "market": {
+  "id": 1552800,
+  "slug": "2026-10-25-paris-saint-germain-lyon",
+  "league": "Ligue 1",
+  "kickoff": "2026-10-25T19:45:00+00:00",
+  "home": "Paris Saint Germain",
+  "away": "Lyon",
+  "fair": {
+   "home": 67.3,
+   "draw": 17.5,
+   "away": 15.1
+  },
+  "move": {
+   "home": -0.8,
+   "draw": 0.2,
+   "away": 0.7
+  },
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "home": 68.2,
+    "draw": 17.4,
+    "away": 14.4
+   },
+   {
+    "t": "2026-10-19T05:22:00+00:00",
+    "home": 69.9,
+    "draw": 16.7,
+    "away": 13.4
+   },
+   {
+    "t": "2026-10-20T05:21:00+00:00",
+    "home": 70.7,
+    "draw": 16.3,
+    "away": 13.0
+   },
+   {
+    "t": "2026-10-21T05:21:00+00:00",
+    "home": 67.3,
+    "draw": 17.5,
+    "away": 15.1
+   }
+  ],
+  "goals": {
+   "expected": 3.44,
+   "first": 3.47
+  },
+  "absences": {
+   "home": 0,
+   "away": 0
+  },
+  "read": "2026-10-25-paris-saint-germain-lyon",
+  "headline": "PSG lose three to injury, still favourites against Lyon"
+ },
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
+}
