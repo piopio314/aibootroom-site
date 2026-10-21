@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T23:01:08+00:00",
+ "generated_at": "2026-10-21T23:07:04+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -1094,6 +1094,20 @@
    "seconds": 50
   },
   {
+   "id": "2026-10-25-paris-saint-germain-lyon",
+   "home": "Paris Saint Germain",
+   "away": "Lyon",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-25T19:45:00+00:00",
+   "title": "PSG after the Barcelona night: still favourites?",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-25-paris-saint-germain-lyon.html",
+   "seconds": 47
+  },
+  {
    "id": "2026-10-25-barcelona-real-madrid",
    "home": "Barcelona",
    "away": "Real Madrid",
@@ -1106,6 +1120,20 @@
    "youtube_id": null,
    "article": "/m/2026-10-25-barcelona-real-madrid.html",
    "seconds": 55
+  },
+  {
+   "id": "2026-10-26-be-ikta-ba-ak-ehir",
+   "home": "Beşiktaş",
+   "away": "Başakşehir",
+   "league": "Super Lig",
+   "kickoff": "2026-10-26T16:00:00+00:00",
+   "title": "Beşiktaş: home form against the pressure",
+   "source": "market_desk",
+   "kicker": "MARKET ALERT",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-26-be-ikta-ba-ak-ehir.html",
+   "seconds": 52
   }
  ]
 }

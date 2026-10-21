@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T23:01:00+00:00",
+ "generated_at": "2026-10-21T23:06:00+00:00",
  "prices_as_of": "2026-10-21T22:19:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
@@ -4565,8 +4565,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-25-sporting-cp-academico-viseu",
+   "headline": "Sporting's first defeat came in Europe, not in the league",
    "competition": "94"
   },
   {
@@ -4595,8 +4595,8 @@
     "home": 0,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-26-be-ikta-ba-ak-ehir",
+   "headline": "Beşiktaş under pressure, still clear favourites at home",
    "competition": "203"
   },
   {
@@ -5249,7 +5249,7 @@
     }
    ],
    "video_title": "PSG after the Barcelona night: still favourites?",
-   "article": null
+   "article": "/m/2026-10-25-paris-saint-germain-lyon.html"
   },
   {
    "slug": "2026-10-25-psv-eindhoven-feyenoord",
