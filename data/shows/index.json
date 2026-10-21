@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T07:40:44+00:00",
+ "generated_at": "2026-10-21T08:25:52+00:00",
  "shows": [
   {
    "id": "2026-10-21-como-manchester-united",
@@ -1505,9 +1505,9 @@
    "title": "Clasico: Barcelona down a tenth, goals flat",
    "source": "market_desk",
    "kicker": "EL CLÁSICO",
-   "voiced": true,
-   "youtube_id": null,
-   "seconds": 68
+   "voiced": false,
+   "youtube_id": "Ts7pucyEXSM",
+   "seconds": 90
   },
   {
    "id": "2026-10-25-sporting-cp-academico-viseu",

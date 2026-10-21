@@ -1,7 +1,19 @@
 {
- "generated_at": "2026-10-21T07:40:44+00:00",
- "has_youtube": false,
+ "generated_at": "2026-10-21T08:25:52+00:00",
+ "has_youtube": true,
  "videos": [
+  {
+   "id": "2026-10-25-barcelona-real-madrid",
+   "title": "Clasico: Barcelona down a tenth, goals flat",
+   "home": "Barcelona",
+   "away": "Real Madrid",
+   "league": "La Liga",
+   "kickoff": "2026-10-25T20:00:00+00:00",
+   "seconds": 90,
+   "voiced": true,
+   "youtube_id": "Ts7pucyEXSM",
+   "pundits": true
+  },
   {
    "id": "2026-10-22-juventus-rennes",
    "title": "Juventus v Rennes: what the market says",
@@ -45,18 +57,6 @@
    "away": "Tottenham",
    "league": "Premier League",
    "kickoff": "2026-10-24T16:30:00+00:00",
-   "seconds": 68,
-   "voiced": true,
-   "youtube_id": null,
-   "pundits": true
-  },
-  {
-   "id": "2026-10-25-barcelona-real-madrid",
-   "title": "Clasico: Barcelona down a tenth, goals flat",
-   "home": "Barcelona",
-   "away": "Real Madrid",
-   "league": "La Liga",
-   "kickoff": "2026-10-25T20:00:00+00:00",
    "seconds": 68,
    "voiced": true,
    "youtube_id": null,

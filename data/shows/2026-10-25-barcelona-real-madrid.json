@@ -64,880 +64,875 @@
    "speaker": "narrator",
    "text": "Barcelona are still clear favourites at about sixty per cent — but the handicap has quietly given back a tenth of a goal, and nobody can point to the injury list.",
    "variant": 1,
-   "audio": "audio/2026-10-25-barcelona-real-madrid/s0.mp3",
    "words": [
     {
      "w": "Barcelona",
-     "start": 0.12,
-     "end": 0.76
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "are",
-     "start": 0.84,
-     "end": 0.84
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "still",
-     "start": 0.84,
-     "end": 1.16
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "clear",
-     "start": 1.16,
-     "end": 1.48
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "favourites",
-     "start": 1.48,
-     "end": 2.04
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "at",
-     "start": 2.12,
-     "end": 2.12
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "about",
-     "start": 2.2,
-     "end": 2.36
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "sixty",
-     "start": 2.36,
-     "end": 2.76
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "per",
-     "start": 2.84,
-     "end": 2.84
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "cent",
-     "start": 2.84,
-     "end": 3.04
+     "start": 3.962,
+     "end": 4.346
     },
     {
      "w": "—",
-     "start": 3.04,
-     "end": 3.24
+     "start": 4.346,
+     "end": 4.731
     },
     {
      "w": "but",
-     "start": 3.636,
-     "end": 3.72
+     "start": 4.731,
+     "end": 5.115
     },
     {
      "w": "the",
-     "start": 3.72,
-     "end": 3.8
+     "start": 5.115,
+     "end": 5.5
     },
     {
      "w": "handicap",
-     "start": 3.8,
-     "end": 4.36
+     "start": 5.5,
+     "end": 5.885
     },
     {
      "w": "has",
-     "start": 4.36,
-     "end": 4.52
+     "start": 5.885,
+     "end": 6.269
     },
     {
      "w": "quietly",
-     "start": 4.6,
-     "end": 5
+     "start": 6.269,
+     "end": 6.654
     },
     {
      "w": "given",
-     "start": 5,
-     "end": 5.24
+     "start": 6.654,
+     "end": 7.038
     },
     {
      "w": "back",
-     "start": 5.24,
-     "end": 5.56
+     "start": 7.038,
+     "end": 7.423
     },
     {
      "w": "a",
-     "start": 5.64,
-     "end": 5.64
+     "start": 7.423,
+     "end": 7.808
     },
     {
      "w": "tenth",
-     "start": 5.64,
-     "end": 6.04
+     "start": 7.808,
+     "end": 8.192
     },
     {
      "w": "of",
-     "start": 6.12,
-     "end": 6.12
+     "start": 8.192,
+     "end": 8.577
     },
     {
      "w": "a",
-     "start": 6.2,
-     "end": 6.2
+     "start": 8.577,
+     "end": 8.962
     },
     {
      "w": "goal,",
-     "start": 6.28,
-     "end": 6.6
+     "start": 8.962,
+     "end": 9.346
     },
     {
      "w": "and",
-     "start": 6.843,
-     "end": 7
+     "start": 9.346,
+     "end": 9.731
     },
     {
      "w": "nobody",
-     "start": 7.0,
-     "end": 7.48
+     "start": 9.731,
+     "end": 10.115
     },
     {
      "w": "can",
-     "start": 7.56,
-     "end": 7.64
+     "start": 10.115,
+     "end": 10.5
     },
     {
      "w": "point",
-     "start": 7.64,
-     "end": 7.88
+     "start": 10.5,
+     "end": 10.885
     },
     {
      "w": "to",
-     "start": 7.96,
-     "end": 7.96
+     "start": 10.885,
+     "end": 11.269
     },
     {
      "w": "the",
-     "start": 8.04,
-     "end": 8.12
+     "start": 11.269,
+     "end": 11.654
     },
     {
      "w": "injury",
-     "start": 8.12,
-     "end": 8.36
+     "start": 11.654,
+     "end": 12.038
     },
     {
      "w": "list.",
-     "start": 8.44,
-     "end": 8.76
+     "start": 12.038,
+     "end": 12.423
     }
    ],
-   "durationInFrames": 278
+   "durationInFrames": 421
   },
   {
    "type": "match",
    "speaker": "narrator",
    "text": "Barcelona against Real Madrid. La Liga, Sunday.",
    "variant": 1,
-   "audio": "audio/2026-10-25-barcelona-real-madrid/s1.mp3",
    "words": [
     {
      "w": "Barcelona",
-     "start": 0.116,
-     "end": 0.68
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "against",
-     "start": 0.68,
-     "end": 1.08
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "Real",
-     "start": 1.16,
-     "end": 1.32
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "Madrid.",
-     "start": 1.32,
-     "end": 1.8
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "La",
-     "start": 2.266,
-     "end": 2.44
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "Liga,",
-     "start": 2.44,
-     "end": 2.92
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "Sunday.",
-     "start": 3.0,
-     "end": 3.48
+     "start": 2.808,
+     "end": 3.192
     }
    ],
-   "durationInFrames": 119
+   "durationInFrames": 144
   },
   {
    "type": "line",
    "speaker": "scout",
    "text": "Since we first saw this market, Barcelona's minus one handicap fair has slipped from about fifty-five per cent to fifty-one and a half, and the fair line has come in from minus one point one nine to minus one point oh seven. Someone moved before the news.",
    "variant": 0,
-   "audio": "audio/2026-10-25-barcelona-real-madrid/s2.mp3",
    "words": [
     {
      "w": "Since",
-     "start": 0.12,
-     "end": 0.36
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "we",
-     "start": 0.44,
-     "end": 0.52
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "first",
-     "start": 0.6,
-     "end": 0.84
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "saw",
-     "start": 0.84,
-     "end": 1.08
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "this",
-     "start": 1.16,
-     "end": 1.24
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "market,",
-     "start": 1.24,
-     "end": 1.8
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "Barcelona's",
-     "start": 2.039,
-     "end": 2.68
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "minus",
-     "start": 2.76,
-     "end": 3
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "one",
-     "start": 3.08,
-     "end": 3.24
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "handicap",
-     "start": 3.24,
-     "end": 3.8
+     "start": 3.962,
+     "end": 4.346
     },
     {
      "w": "fair",
-     "start": 3.88,
-     "end": 4.04
+     "start": 4.346,
+     "end": 4.731
     },
     {
      "w": "has",
-     "start": 4.041,
-     "end": 4.2
+     "start": 4.731,
+     "end": 5.115
     },
     {
      "w": "slipped",
-     "start": 4.28,
-     "end": 4.68
+     "start": 5.115,
+     "end": 5.5
     },
     {
      "w": "from",
-     "start": 4.76,
-     "end": 4.76
+     "start": 5.5,
+     "end": 5.885
     },
     {
      "w": "about",
-     "start": 4.76,
-     "end": 5.08
+     "start": 5.885,
+     "end": 6.269
     },
     {
      "w": "fifty-five",
-     "start": 5.16,
-     "end": 5.72
+     "start": 6.269,
+     "end": 6.654
     },
     {
      "w": "per",
-     "start": 5.72,
-     "end": 5.88
+     "start": 6.654,
+     "end": 7.038
     },
     {
      "w": "cent",
-     "start": 5.96,
-     "end": 6.28
+     "start": 7.038,
+     "end": 7.423
     },
     {
      "w": "to",
-     "start": 6.444,
-     "end": 6.52
+     "start": 7.423,
+     "end": 7.808
     },
     {
      "w": "fifty-one",
-     "start": 6.52,
-     "end": 7
+     "start": 7.808,
+     "end": 8.192
     },
     {
      "w": "and",
-     "start": 7.08,
-     "end": 7.16
+     "start": 8.192,
+     "end": 8.577
     },
     {
      "w": "a",
-     "start": 7.24,
-     "end": 7.24
+     "start": 8.577,
+     "end": 8.962
     },
     {
      "w": "half,",
-     "start": 7.24,
-     "end": 7.64
+     "start": 8.962,
+     "end": 9.346
     },
     {
      "w": "and",
-     "start": 7.959,
-     "end": 8.04
+     "start": 9.346,
+     "end": 9.731
     },
     {
      "w": "the",
-     "start": 8.12,
-     "end": 8.12
+     "start": 9.731,
+     "end": 10.115
     },
     {
      "w": "fair",
-     "start": 8.12,
-     "end": 8.36
+     "start": 10.115,
+     "end": 10.5
     },
     {
      "w": "line",
-     "start": 8.44,
-     "end": 8.6
+     "start": 10.5,
+     "end": 10.885
     },
     {
      "w": "has",
-     "start": 8.68,
-     "end": 8.68
+     "start": 10.885,
+     "end": 11.269
     },
     {
      "w": "come",
-     "start": 8.76,
-     "end": 8.92
+     "start": 11.269,
+     "end": 11.654
     },
     {
      "w": "in",
-     "start": 8.92,
-     "end": 9.08
+     "start": 11.654,
+     "end": 12.038
     },
     {
      "w": "from",
-     "start": 9.16,
-     "end": 9.24
+     "start": 12.038,
+     "end": 12.423
     },
     {
      "w": "minus",
-     "start": 9.32,
-     "end": 9.64
+     "start": 12.423,
+     "end": 12.808
     },
     {
      "w": "one",
-     "start": 9.64,
-     "end": 9.88
+     "start": 12.808,
+     "end": 13.192
     },
     {
      "w": "point",
-     "start": 9.96,
-     "end": 10.04
+     "start": 13.192,
+     "end": 13.577
     },
     {
      "w": "one",
-     "start": 10.12,
-     "end": 10.28
+     "start": 13.577,
+     "end": 13.962
     },
     {
      "w": "nine",
-     "start": 10.28,
-     "end": 10.68
+     "start": 13.962,
+     "end": 14.346
     },
     {
      "w": "to",
-     "start": 10.783,
-     "end": 10.84
+     "start": 14.346,
+     "end": 14.731
     },
     {
      "w": "minus",
-     "start": 10.92,
-     "end": 11.16
+     "start": 14.731,
+     "end": 15.115
     },
     {
      "w": "one",
-     "start": 11.16,
-     "end": 11.4
+     "start": 15.115,
+     "end": 15.5
     },
     {
      "w": "point",
-     "start": 11.48,
-     "end": 11.64
+     "start": 15.5,
+     "end": 15.885
     },
     {
      "w": "oh",
-     "start": 11.72,
-     "end": 11.72
+     "start": 15.885,
+     "end": 16.269
     },
     {
      "w": "seven.",
-     "start": 11.72,
-     "end": 12.2
+     "start": 16.269,
+     "end": 16.654
     },
     {
      "w": "Someone",
-     "start": 12.537,
-     "end": 13
+     "start": 16.654,
+     "end": 17.038
     },
     {
      "w": "moved",
-     "start": 13.08,
-     "end": 13.4
+     "start": 17.038,
+     "end": 17.423
     },
     {
      "w": "before",
-     "start": 13.48,
-     "end": 13.64
+     "start": 17.423,
+     "end": 17.808
     },
     {
      "w": "the",
-     "start": 13.64,
-     "end": 13.8
+     "start": 17.808,
+     "end": 18.192
     },
     {
      "w": "news.",
-     "start": 13.88,
-     "end": 14.28
+     "start": 18.192,
+     "end": 18.577
     }
    ],
-   "durationInFrames": 443
+   "durationInFrames": 605
   },
   {
    "type": "split",
    "speaker": "sceptic",
    "text": "Or nobody moved on news at all. And the result and handicap are the same money on the same opinion, so it's one re-rating, not three signals. On a seven-book board, that fair-line drift is a nudge.",
    "variant": 2,
-   "audio": "audio/2026-10-25-barcelona-real-madrid/s3.mp3",
    "words": [
     {
      "w": "Or",
-     "start": 0.073,
-     "end": 0.44
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "nobody",
-     "start": 0.52,
-     "end": 0.76
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "moved",
-     "start": 0.76,
-     "end": 1.08
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "on",
-     "start": 1.16,
-     "end": 1.16
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "news",
-     "start": 1.24,
-     "end": 1.4
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "at",
-     "start": 1.48,
-     "end": 1.48
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "all.",
-     "start": 1.48,
-     "end": 1.96
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "And",
-     "start": 2.2,
-     "end": 2.28
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "the",
-     "start": 2.36,
-     "end": 2.36
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "result",
-     "start": 2.36,
-     "end": 2.84
+     "start": 3.962,
+     "end": 4.346
     },
     {
      "w": "and",
-     "start": 2.92,
-     "end": 2.92
+     "start": 4.346,
+     "end": 4.731
     },
     {
      "w": "handicap",
-     "start": 2.92,
-     "end": 3.56
+     "start": 4.731,
+     "end": 5.115
     },
     {
      "w": "are",
-     "start": 3.64,
-     "end": 3.72
+     "start": 5.115,
+     "end": 5.5
     },
     {
      "w": "the",
-     "start": 3.8,
-     "end": 3.8
+     "start": 5.5,
+     "end": 5.885
     },
     {
      "w": "same",
-     "start": 3.8,
-     "end": 4.2
+     "start": 5.885,
+     "end": 6.269
     },
     {
      "w": "money",
-     "start": 4.28,
-     "end": 4.68
+     "start": 6.269,
+     "end": 6.654
     },
     {
      "w": "on",
-     "start": 4.76,
-     "end": 4.76
+     "start": 6.654,
+     "end": 7.038
     },
     {
      "w": "the",
-     "start": 4.84,
-     "end": 4.84
+     "start": 7.038,
+     "end": 7.423
     },
     {
      "w": "same",
-     "start": 4.84,
-     "end": 5.16
+     "start": 7.423,
+     "end": 7.808
     },
     {
      "w": "opinion,",
-     "start": 5.24,
-     "end": 5.72
+     "start": 7.808,
+     "end": 8.192
     },
     {
      "w": "so",
-     "start": 5.955,
-     "end": 6.12
+     "start": 8.192,
+     "end": 8.577
     },
     {
      "w": "it's",
-     "start": 6.2,
-     "end": 6.28
+     "start": 8.577,
+     "end": 8.962
     },
     {
      "w": "one",
-     "start": 6.36,
-     "end": 6.6
+     "start": 8.962,
+     "end": 9.346
     },
     {
      "w": "re-rating,",
-     "start": 6.6,
-     "end": 7.24
+     "start": 9.346,
+     "end": 9.731
     },
     {
      "w": "not",
-     "start": 7.32,
-     "end": 7.64
+     "start": 9.731,
+     "end": 10.115
     },
     {
      "w": "three",
-     "start": 7.72,
-     "end": 7.88
+     "start": 10.115,
+     "end": 10.5
     },
     {
      "w": "signals.",
-     "start": 7.88,
-     "end": 8.52
+     "start": 10.5,
+     "end": 10.885
     },
     {
      "w": "On",
-     "start": 9.122,
-     "end": 9.16
+     "start": 10.885,
+     "end": 11.269
     },
     {
      "w": "a",
-     "start": 9.24,
-     "end": 9.24
+     "start": 11.269,
+     "end": 11.654
     },
     {
      "w": "seven-book",
-     "start": 9.24,
-     "end": 9.8
+     "start": 11.654,
+     "end": 12.038
     },
     {
      "w": "board,",
-     "start": 9.8,
-     "end": 10.28
+     "start": 12.038,
+     "end": 12.423
     },
     {
      "w": "that",
-     "start": 10.44,
-     "end": 10.6
+     "start": 12.423,
+     "end": 12.808
     },
     {
      "w": "fair-line",
-     "start": 10.6,
-     "end": 11.24
+     "start": 12.808,
+     "end": 13.192
     },
     {
      "w": "drift",
-     "start": 11.24,
-     "end": 11.72
+     "start": 13.192,
+     "end": 13.577
     },
     {
      "w": "is",
-     "start": 11.8,
-     "end": 11.8
+     "start": 13.577,
+     "end": 13.962
     },
     {
      "w": "a",
-     "start": 11.88,
-     "end": 11.88
+     "start": 13.962,
+     "end": 14.346
     },
     {
      "w": "nudge.",
-     "start": 11.88,
-     "end": 12.52
+     "start": 14.346,
+     "end": 14.731
     }
    ],
-   "durationInFrames": 391
+   "durationInFrames": 490
   },
   {
    "type": "goals",
    "speaker": "sceptic",
    "text": "The goals line hasn't moved a hair. Over four is still about fifty point six per cent, fair total four point oh three, across every snapshot. And an empty injury feed means we have no news data — not that there is no news.",
    "variant": 1,
-   "audio": "audio/2026-10-25-barcelona-real-madrid/s4.mp3",
    "words": [
     {
      "w": "The",
-     "start": 0.107,
-     "end": 0.28
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "goals",
-     "start": 0.36,
-     "end": 0.6
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "line",
-     "start": 0.68,
-     "end": 0.92
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "hasn't",
-     "start": 0.92,
-     "end": 1.16
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "moved",
-     "start": 1.24,
-     "end": 1.4
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "a",
-     "start": 1.48,
-     "end": 1.48
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "hair.",
-     "start": 1.48,
-     "end": 1.88
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "Over",
-     "start": 2.269,
-     "end": 2.52
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "four",
-     "start": 2.52,
-     "end": 2.92
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "is",
-     "start": 3,
-     "end": 3.08
+     "start": 3.962,
+     "end": 4.346
     },
     {
      "w": "still",
-     "start": 3.16,
-     "end": 3.32
+     "start": 4.346,
+     "end": 4.731
     },
     {
      "w": "about",
-     "start": 3.32,
-     "end": 3.64
+     "start": 4.731,
+     "end": 5.115
     },
     {
      "w": "fifty",
-     "start": 3.72,
-     "end": 3.96
+     "start": 5.115,
+     "end": 5.5
     },
     {
      "w": "point",
-     "start": 3.96,
-     "end": 4.2
+     "start": 5.5,
+     "end": 5.885
     },
     {
      "w": "six",
-     "start": 4.28,
-     "end": 4.52
+     "start": 5.885,
+     "end": 6.269
     },
     {
      "w": "per",
-     "start": 4.6,
-     "end": 4.68
+     "start": 6.269,
+     "end": 6.654
     },
     {
      "w": "cent,",
-     "start": 4.68,
-     "end": 5.08
+     "start": 6.654,
+     "end": 7.038
     },
     {
      "w": "fair",
-     "start": 5.242,
-     "end": 5.48
+     "start": 7.038,
+     "end": 7.423
     },
     {
      "w": "total",
-     "start": 5.48,
-     "end": 5.88
+     "start": 7.423,
+     "end": 7.808
     },
     {
      "w": "four",
-     "start": 5.96,
-     "end": 6.12
+     "start": 7.808,
+     "end": 8.192
     },
     {
      "w": "point",
-     "start": 6.2,
-     "end": 6.28
+     "start": 8.192,
+     "end": 8.577
     },
     {
      "w": "oh",
-     "start": 6.37,
-     "end": 6.44
+     "start": 8.577,
+     "end": 8.962
     },
     {
      "w": "three,",
-     "start": 6.44,
-     "end": 7
+     "start": 8.962,
+     "end": 9.346
     },
     {
      "w": "across",
-     "start": 7.08,
-     "end": 7.48
+     "start": 9.346,
+     "end": 9.731
     },
     {
      "w": "every",
-     "start": 7.56,
-     "end": 7.72
+     "start": 9.731,
+     "end": 10.115
     },
     {
      "w": "snapshot.",
-     "start": 7.72,
-     "end": 8.36
+     "start": 10.115,
+     "end": 10.5
     },
     {
      "w": "And",
-     "start": 8.908,
-     "end": 9.08
+     "start": 10.5,
+     "end": 10.885
     },
     {
      "w": "an",
-     "start": 9.16,
-     "end": 9.16
+     "start": 10.885,
+     "end": 11.269
     },
     {
      "w": "empty",
-     "start": 9.24,
-     "end": 9.56
+     "start": 11.269,
+     "end": 11.654
     },
     {
      "w": "injury",
-     "start": 9.56,
-     "end": 9.96
+     "start": 11.654,
+     "end": 12.038
     },
     {
      "w": "feed",
-     "start": 10.04,
-     "end": 10.36
+     "start": 12.038,
+     "end": 12.423
     },
     {
      "w": "means",
-     "start": 10.36,
-     "end": 10.68
+     "start": 12.423,
+     "end": 12.808
     },
     {
      "w": "we",
-     "start": 10.76,
-     "end": 10.84
+     "start": 12.808,
+     "end": 13.192
     },
     {
      "w": "have",
-     "start": 10.92,
-     "end": 11.08
+     "start": 13.192,
+     "end": 13.577
     },
     {
      "w": "no",
-     "start": 11.08,
-     "end": 11.4
+     "start": 13.577,
+     "end": 13.962
     },
     {
      "w": "news",
-     "start": 11.4,
-     "end": 11.72
+     "start": 13.962,
+     "end": 14.346
     },
     {
      "w": "data",
-     "start": 11.8,
-     "end": 11.96
+     "start": 14.346,
+     "end": 14.731
     },
     {
      "w": "—",
-     "start": 11.96,
-     "end": 12.12
+     "start": 14.731,
+     "end": 15.115
     },
     {
      "w": "not",
-     "start": 12.279,
-     "end": 12.52
+     "start": 15.115,
+     "end": 15.5
     },
     {
      "w": "that",
-     "start": 12.6,
-     "end": 12.6
+     "start": 15.5,
+     "end": 15.885
     },
     {
      "w": "there",
-     "start": 12.68,
-     "end": 12.76
+     "start": 15.885,
+     "end": 16.269
     },
     {
      "w": "is",
-     "start": 12.84,
-     "end": 12.92
+     "start": 16.269,
+     "end": 16.654
     },
     {
      "w": "no",
-     "start": 13,
-     "end": 13.08
+     "start": 16.654,
+     "end": 17.038
     },
     {
      "w": "news.",
-     "start": 13.08,
-     "end": 13.64
+     "start": 17.038,
+     "end": 17.423
     }
    ],
-   "durationInFrames": 424
+   "durationInFrames": 571
   },
   {
    "type": "verdict",
@@ -950,159 +945,157 @@
    ],
    "stamp": "MEDIUM CONFIDENCE",
    "variant": 0,
-   "audio": "audio/2026-10-25-barcelona-real-madrid/s5.mp3",
    "words": [
     {
      "w": "So",
-     "start": 0.12,
-     "end": 0.28
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "the",
-     "start": 0.36,
-     "end": 0.44
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "reading",
-     "start": 0.52,
-     "end": 0.76
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "is",
-     "start": 0.76,
-     "end": 1.08
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "one",
-     "start": 1.16,
-     "end": 1.48
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "market-wide",
-     "start": 1.48,
-     "end": 2.2
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "re-rating",
-     "start": 2.2,
-     "end": 2.76
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "of",
-     "start": 2.84,
-     "end": 2.92
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "Real",
-     "start": 3,
-     "end": 3.16
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "Madrid's",
-     "start": 3.16,
-     "end": 3.48
+     "start": 3.962,
+     "end": 4.346
     },
     {
      "w": "chances,",
-     "start": 3.48,
-     "end": 4.2
+     "start": 4.346,
+     "end": 4.731
     },
     {
      "w": "medium",
-     "start": 4.439,
-     "end": 4.84
+     "start": 4.731,
+     "end": 5.115
     },
     {
      "w": "confidence,",
-     "start": 4.84,
-     "end": 5.48
+     "start": 5.115,
+     "end": 5.5
     },
     {
      "w": "and",
-     "start": 5.72,
-     "end": 5.88
+     "start": 5.5,
+     "end": 5.885
     },
     {
      "w": "a",
-     "start": 5.96,
-     "end": 5.96
+     "start": 5.885,
+     "end": 6.269
     },
     {
      "w": "goals",
-     "start": 6.04,
-     "end": 6.2
+     "start": 6.269,
+     "end": 6.654
     },
     {
      "w": "line",
-     "start": 6.28,
-     "end": 6.44
+     "start": 6.654,
+     "end": 7.038
     },
     {
      "w": "parked",
-     "start": 6.44,
-     "end": 6.84
+     "start": 7.038,
+     "end": 7.423
     },
     {
      "w": "at",
-     "start": 6.92,
-     "end": 6.92
+     "start": 7.423,
+     "end": 7.808
     },
     {
      "w": "four.",
-     "start": 7,
-     "end": 7.32
+     "start": 7.808,
+     "end": 8.192
     }
    ],
-   "durationInFrames": 235
+   "durationInFrames": 294
   },
   {
    "type": "end",
    "speaker": "narrator",
    "text": "AI Boot Room. Football analysis, with receipts.",
    "variant": 0,
-   "audio": "audio/2026-10-25-barcelona-real-madrid/s6.mp3",
    "words": [
     {
      "w": "AI",
-     "start": 0.114,
-     "end": 0.52
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "Boot",
-     "start": 0.6,
-     "end": 0.76
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "Room.",
-     "start": 0.76,
-     "end": 1.08
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "Football",
-     "start": 1.386,
-     "end": 1.8
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "analysis,",
-     "start": 1.8,
-     "end": 2.52
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "with",
-     "start": 2.689,
-     "end": 2.84
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "receipts.",
-     "start": 2.84,
-     "end": 3.48
+     "start": 2.808,
+     "end": 3.192
     }
    ],
-   "durationInFrames": 137
+   "durationInFrames": 171
   }
  ],
  "fps": 30,
- "silent": false,
+ "silent": true,
  "style": "pulse",
  "story": {
   "format": "derby",
@@ -1115,7 +1108,6 @@
  },
  "source": "market_desk",
  "fixture_id": 1570426,
- "prices_as_of": "2026-10-20T12:31:00+00:00",
- "disclaimer": "18+ · Market analysis, not betting advice.",
- "voiced": true
+ "prices_as_of": "2026-10-20T20:44:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
 }
