@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T21:59:52+00:00",
+ "generated_at": "2026-10-21T22:00:32+00:00",
  "has_youtube": true,
  "videos": [
   {
@@ -24,6 +24,42 @@
    "seconds": 64,
    "voiced": true,
    "youtube_id": "6CQCgh737iw",
+   "pundits": true
+  },
+  {
+   "id": "2026-10-22-1899-hoffenheim-lyon",
+   "title": "Lyon top of France, yet underdogs in Sinsheim",
+   "home": "1899 Hoffenheim",
+   "away": "Lyon",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "seconds": 64,
+   "voiced": true,
+   "youtube_id": "NyjyqJdb9XE",
+   "pundits": true
+  },
+  {
+   "id": "2026-10-22-omonia-nicosia-benfica",
+   "title": "Omonia's perfect start meets Benfica's Milan and Celtic wins",
+   "home": "Omonia Nicosia",
+   "away": "Benfica",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "seconds": 66,
+   "voiced": true,
+   "youtube_id": "_RrauhcVuc0",
+   "pundits": true
+  },
+  {
+   "id": "2026-10-22-ajax-atalanta",
+   "title": "Ajax after Split: favourites by a quarter of a goal",
+   "home": "Ajax",
+   "away": "Atalanta",
+   "league": "Conference League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "seconds": 53,
+   "voiced": true,
+   "youtube_id": "wlG43U0ixgI",
    "pundits": true
   },
   {
@@ -55,42 +91,6 @@
    "title": "Ararat's 1-4 lesson, AZ a goal better",
    "home": "Ararat-Armenia",
    "away": "AZ Alkmaar",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "seconds": 47,
-   "voiced": true,
-   "youtube_id": null,
-   "pundits": true
-  },
-  {
-   "id": "2026-10-22-ferencvarosi-tc-torreense",
-   "title": "Torreense's fairytale meets Ferencvaros' perfect start",
-   "home": "Ferencvarosi TC",
-   "away": "Torreense",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "seconds": 51,
-   "voiced": true,
-   "youtube_id": null,
-   "pundits": true
-  },
-  {
-   "id": "2026-10-22-juventus-rennes",
-   "title": "Juventus after the 0-3: still clear favourites",
-   "home": "Juventus",
-   "away": "Rennes",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "seconds": 48,
-   "voiced": true,
-   "youtube_id": null,
-   "pundits": true
-  },
-  {
-   "id": "2026-10-22-lech-poznan-sunderland",
-   "title": "Lech Poznan bottom in Europe: Sunderland still favourites",
-   "home": "Lech Poznan",
-   "away": "Sunderland",
    "league": "Europa League",
    "kickoff": "2026-10-22T16:45:00+00:00",
    "seconds": 47,

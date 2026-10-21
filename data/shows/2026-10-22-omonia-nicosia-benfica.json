@@ -117,60 +117,59 @@
    },
    "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s0.mp3",
    "words": [
     {
      "w": "Benfica",
-     "start": 0.12,
-     "end": 0.6
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "beat",
-     "start": 0.68,
-     "end": 0.84
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "Celtic",
-     "start": 0.84,
-     "end": 1.4
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "4-1",
-     "start": 1.4,
-     "end": 2.04
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "in",
-     "start": 2.12,
-     "end": 2.12
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "the",
-     "start": 2.2,
-     "end": 2.2
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "Europa",
-     "start": 2.2,
-     "end": 2.6
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "League",
-     "start": 2.68,
-     "end": 2.84
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "last",
-     "start": 2.92,
-     "end": 3.16
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "week.",
-     "start": 3.16,
-     "end": 3.56
+     "start": 3.962,
+     "end": 4.346
     }
    ],
-   "durationInFrames": 115
+   "durationInFrames": 178
   },
   {
    "type": "beat",
@@ -181,45 +180,44 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s1.mp3",
    "words": [
     {
      "w": "On",
-     "start": 0.12,
-     "end": 0.28
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "Thursday",
-     "start": 0.36,
-     "end": 0.84
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "they",
-     "start": 0.84,
-     "end": 1
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "visit",
-     "start": 1.08,
-     "end": 1.32
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "Omonia",
-     "start": 1.32,
-     "end": 1.88
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "in",
-     "start": 1.96,
-     "end": 2.04
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "Nicosia.",
-     "start": 2.04,
-     "end": 2.68
+     "start": 2.808,
+     "end": 3.192
     }
    ],
-   "durationInFrames": 88
+   "durationInFrames": 144
   },
   {
    "type": "beat",
@@ -232,70 +230,69 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s2.mp3",
    "words": [
     {
      "w": "Omonia",
-     "start": 0.12,
-     "end": 0.52
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "won",
-     "start": 0.6,
-     "end": 0.76
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "both",
-     "start": 0.76,
-     "end": 1.08
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "games",
-     "start": 1.16,
-     "end": 1.48
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "too,",
-     "start": 1.48,
-     "end": 1.8
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "creating",
-     "start": 2.04,
-     "end": 2.44
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "only",
-     "start": 2.52,
-     "end": 2.68
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "0.32",
-     "start": 2.68,
-     "end": 3.96
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "expected",
-     "start": 3.96,
-     "end": 4.44
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "goals",
-     "start": 4.52,
-     "end": 4.84
+     "start": 3.962,
+     "end": 4.346
     },
     {
      "w": "against",
-     "start": 4.84,
-     "end": 5.16
+     "start": 4.346,
+     "end": 4.731
     },
     {
      "w": "Celta.",
-     "start": 5.24,
-     "end": 5.64
+     "start": 4.731,
+     "end": 5.115
     }
    ],
-   "durationInFrames": 177
+   "durationInFrames": 201
   },
   {
    "type": "beat",
@@ -308,65 +305,64 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s3.mp3",
    "words": [
     {
      "w": "They",
-     "start": 0.12,
-     "end": 0.28
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "equalised",
-     "start": 0.36,
-     "end": 0.84
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "in",
-     "start": 0.84,
-     "end": 1
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "stoppage",
-     "start": 1.08,
-     "end": 1.48
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "time",
-     "start": 1.48,
-     "end": 1.72
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "on",
-     "start": 1.8,
-     "end": 1.88
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "Monday,",
-     "start": 1.88,
-     "end": 2.44
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "leaving",
-     "start": 2.6,
-     "end": 2.92
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "3",
-     "start": 2.92,
-     "end": 3.24
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "days'",
-     "start": 3.32,
-     "end": 3.48
+     "start": 3.962,
+     "end": 4.346
     },
     {
      "w": "rest.",
-     "start": 3.48,
-     "end": 4.04
+     "start": 4.346,
+     "end": 4.731
     }
    ],
-   "durationInFrames": 129
+   "durationInFrames": 190
   },
   {
    "type": "beat",
@@ -379,65 +375,64 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s4.mp3",
    "words": [
     {
      "w": "Marco",
-     "start": 0.12,
-     "end": 0.44
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "Silva",
-     "start": 0.52,
-     "end": 0.76
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "confirmed",
-     "start": 0.76,
-     "end": 1.4
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "Claudio",
-     "start": 1.4,
-     "end": 1.88
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "Echeverri",
-     "start": 1.88,
-     "end": 2.44
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "will",
-     "start": 2.52,
-     "end": 2.6
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "start,",
-     "start": 2.6,
-     "end": 3.24
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "according",
-     "start": 3.32,
-     "end": 3.64
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "to",
-     "start": 3.72,
-     "end": 3.72
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "CNN",
-     "start": 3.72,
-     "end": 4.2
+     "start": 3.962,
+     "end": 4.346
     },
     {
      "w": "Brasil.",
-     "start": 4.2,
-     "end": 4.76
+     "start": 4.346,
+     "end": 4.731
     }
    ],
-   "durationInFrames": 151
+   "durationInFrames": 190
   },
   {
    "type": "beat",
@@ -452,55 +447,54 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s5.mp3",
    "words": [
     {
      "w": "Benfica",
-     "start": 0.12,
-     "end": 0.6
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "also",
-     "start": 0.6,
-     "end": 1
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "travel",
-     "start": 1.08,
-     "end": 1.4
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "without",
-     "start": 1.48,
-     "end": 1.72
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "Barrenechea,",
-     "start": 1.72,
-     "end": 2.44
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "who",
-     "start": 2.68,
-     "end": 2.76
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "has",
-     "start": 2.76,
-     "end": 2.92
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "11",
-     "start": 3.0,
-     "end": 3.32
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "appearances.",
-     "start": 3.32,
-     "end": 4.04
+     "start": 3.577,
+     "end": 3.962
     }
    ],
-   "durationInFrames": 129
+   "durationInFrames": 167
   },
   {
    "type": "beat",
@@ -513,60 +507,59 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s6.mp3",
    "words": [
     {
      "w": "Even",
-     "start": 0.12,
-     "end": 0.36
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "so,",
-     "start": 0.44,
-     "end": 0.76
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "the",
-     "start": 0.929,
-     "end": 1.08
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "market",
-     "start": 1.16,
-     "end": 1.4
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "makes",
-     "start": 1.48,
-     "end": 1.64
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "Benfica",
-     "start": 1.64,
-     "end": 2.28
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "70%",
-     "start": 2.282,
-     "end": 3.24
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "favourites",
-     "start": 3.24,
-     "end": 3.72
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "to",
-     "start": 3.8,
-     "end": 3.8
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "win.",
-     "start": 3.8,
-     "end": 4.2
+     "start": 3.962,
+     "end": 4.346
     }
    ],
-   "durationInFrames": 134
+   "durationInFrames": 178
   },
   {
    "type": "beat",
@@ -579,60 +572,59 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s7.mp3",
    "words": [
     {
      "w": "The",
-     "start": 0.12,
-     "end": 0.28
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "handicap",
-     "start": 0.36,
-     "end": 0.84
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "gives",
-     "start": 0.84,
-     "end": 1.16
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "Omonia",
-     "start": 1.24,
-     "end": 1.64
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "a",
-     "start": 1.664,
-     "end": 1.8
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "head",
-     "start": 1.88,
-     "end": 2.04
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "start",
-     "start": 2.12,
-     "end": 2.52
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "of",
-     "start": 2.52,
-     "end": 2.68
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "1.25",
-     "start": 2.76,
-     "end": 3.8
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "goals.",
-     "start": 3.8,
-     "end": 4.36
+     "start": 3.962,
+     "end": 4.346
     }
    ],
-   "durationInFrames": 139
+   "durationInFrames": 178
   },
   {
    "type": "beat",
@@ -645,65 +637,64 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s8.mp3",
    "words": [
     {
      "w": "The",
-     "start": 0.12,
-     "end": 0.2
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "market",
-     "start": 0.28,
-     "end": 0.52
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "expects",
-     "start": 0.52,
-     "end": 1
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "about",
-     "start": 1.08,
-     "end": 1.32
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "3.0",
-     "start": 1.4,
-     "end": 2.28
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "goals;",
-     "start": 2.28,
-     "end": 2.84
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "over",
-     "start": 2.997,
-     "end": 3.48
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "is",
-     "start": 3.56,
-     "end": 3.64
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "a",
-     "start": 3.72,
-     "end": 3.72
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "49.6%",
-     "start": 3.72,
-     "end": 5.24
+     "start": 3.962,
+     "end": 4.346
     },
     {
      "w": "chance.",
-     "start": 5.32,
-     "end": 5.72
+     "start": 4.346,
+     "end": 4.731
     }
    ],
-   "durationInFrames": 180
+   "durationInFrames": 190
   },
   {
    "type": "beat",
@@ -719,70 +710,69 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s9.mp3",
    "words": [
     {
      "w": "Omonia",
-     "start": 0.12,
-     "end": 0.6
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "earned",
-     "start": 0.68,
-     "end": 0.84
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "their",
-     "start": 0.84,
-     "end": 1
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "wins",
-     "start": 1.08,
-     "end": 1.32
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "the",
-     "start": 1.4,
-     "end": 1.48
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "hard",
-     "start": 1.48,
-     "end": 1.72
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "way;",
-     "start": 1.8,
-     "end": 2.12
+     "start": 2.808,
+     "end": 3.192
     },
     {
      "w": "Benfica",
-     "start": 2.301,
-     "end": 2.92
+     "start": 3.192,
+     "end": 3.577
     },
     {
      "w": "beat",
-     "start": 3.0,
-     "end": 3.16
+     "start": 3.577,
+     "end": 3.962
     },
     {
      "w": "Milan",
-     "start": 3.16,
-     "end": 3.64
+     "start": 3.962,
+     "end": 4.346
     },
     {
      "w": "and",
-     "start": 3.72,
-     "end": 3.72
+     "start": 4.346,
+     "end": 4.731
     },
     {
      "w": "Celtic.",
-     "start": 3.72,
-     "end": 4.28
+     "start": 4.731,
+     "end": 5.115
     }
    ],
-   "durationInFrames": 143
+   "durationInFrames": 201
   },
   {
    "type": "end",
@@ -790,49 +780,48 @@
    "text": "AI Boot Room. Football analysis, with receipts.",
    "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-22-omonia-nicosia-benfica/s10.mp3",
    "words": [
     {
      "w": "AI",
-     "start": 0.114,
-     "end": 0.52
+     "start": 0.5,
+     "end": 0.885
     },
     {
      "w": "Boot",
-     "start": 0.6,
-     "end": 0.76
+     "start": 0.885,
+     "end": 1.269
     },
     {
      "w": "Room.",
-     "start": 0.76,
-     "end": 1.08
+     "start": 1.269,
+     "end": 1.654
     },
     {
      "w": "Football",
-     "start": 1.386,
-     "end": 1.8
+     "start": 1.654,
+     "end": 2.038
     },
     {
      "w": "analysis,",
-     "start": 1.8,
-     "end": 2.52
+     "start": 2.038,
+     "end": 2.423
     },
     {
      "w": "with",
-     "start": 2.689,
-     "end": 2.84
+     "start": 2.423,
+     "end": 2.808
     },
     {
      "w": "receipts.",
-     "start": 2.84,
-     "end": 3.48
+     "start": 2.808,
+     "end": 3.192
     }
    ],
-   "durationInFrames": 137
+   "durationInFrames": 171
   }
  ],
  "fps": 30,
- "silent": false,
+ "silent": true,
  "style": "pulse",
  "story": {
   "format": "market_read",
@@ -845,7 +834,6 @@
  },
  "source": "market_desk",
  "fixture_id": 1636311,
- "prices_as_of": "2026-10-21T19:18:00+00:00",
- "disclaimer": "18+ · Market analysis, not betting advice.",
- "voiced": true
+ "prices_as_of": "2026-10-21T21:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice."
 }

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T21:59:52+00:00",
+ "generated_at": "2026-10-21T22:00:32+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -136,10 +136,10 @@
    "title": "Lyon top of France, yet underdogs in Sinsheim",
    "source": "market_desk",
    "kicker": "MATCH PREVIEW",
-   "voiced": true,
-   "youtube_id": null,
+   "voiced": false,
+   "youtube_id": "NyjyqJdb9XE",
    "article": null,
-   "seconds": 44
+   "seconds": 64
   },
   {
    "id": "2026-10-22-jagiellonia-anderlecht",
@@ -192,10 +192,10 @@
    "title": "Omonia's perfect start meets Benfica's Milan and Celtic wins",
    "source": "market_desk",
    "kicker": "MARKET READ",
-   "voiced": true,
-   "youtube_id": null,
+   "voiced": false,
+   "youtube_id": "_RrauhcVuc0",
    "article": "/m/2026-10-22-omonia-nicosia-benfica.html",
-   "seconds": 51
+   "seconds": 66
   },
   {
    "id": "2026-10-22-plzen-levski-sofia",
@@ -220,10 +220,10 @@
    "title": "Ajax after Split: favourites by a quarter of a goal",
    "source": "market_desk",
    "kicker": "MARKET READ",
-   "voiced": true,
-   "youtube_id": null,
+   "voiced": false,
+   "youtube_id": "wlG43U0ixgI",
    "article": "/m/2026-10-22-ajax-atalanta.html",
-   "seconds": 40
+   "seconds": 53
   },
   {
    "id": "2026-10-22-monaco-sc-freiburg",
