@@ -4,42 +4,42 @@
  "home": "Chelsea",
  "away": "Tottenham",
  "kickoff": "2026-10-24T16:30:00+00:00",
- "generated_at": "2026-10-21T17:29:30+00:00",
- "headline": "Chelsea are 4th, Spurs 16th — and the market agrees",
- "summary": "Chelsea are 4th in the Premier League on 13 points; Tottenham are 16th on 6. Spurs did win on Monday, 3-1 against Coventry, but that came with only 0.9 expected goals, and Saturday takes them to Stamford Bridge. James Maddison and Dejan Kulusevski are back, according to Yahoo Sports, yet Porro, Savio and Bergvall are still out. The market has Chelsea's win chance rising from 52.5% to 54.9%, while Spurs are given 22.5%. The handicap rates Chelsea about 0.73 goals stronger.",
- "read": "Chelsea are clear favourites for the London derby at 54.9% to Spurs' 22.5%, with the table — fourth against 16th — and a run of four straight Premier League wins over Tottenham behind the gap. The market also expects an open game at around three goals, and the one thing pulling against Chelsea is Spurs' returning creativity: Maddison and Kulusevski are back, but Porro, Savio and Bergvall are not.",
+ "generated_at": "2026-10-21T17:55:20+00:00",
+ "headline": "Chelsea v Tottenham: the derby favours the home side",
+ "summary": "Tottenham won their first Premier League game of the season on Monday, beating Coventry 3-1, and now go to Chelsea. Chelsea are 4th with 13 points and won 2-0 at Everton on Friday; their chance has risen from 52.5% to 54.9%, while Tottenham are given 22.5%. Maddison and Kulusevski are back for Spurs, according to Yahoo Sports, but their injury list is still long. Chelsea have had 7 days' rest to Tottenham's 5, and are rated 0.75 of a goal the better side. The total line is 3.0 goals, the over at 51.2%.",
+ "read": "Chelsea are 54.9% favourites for the London derby, with the market strengthening them in recent days as Tottenham sit 16th. Spurs have Maddison and Kulusevski back after Monday's first league win, but they arrive with two fewer days' rest and a long injury list, and the total line sits at three goals.",
  "facts": [
   {
-   "fact": "Chelsea are clear favourites for the London derby at 54.9% to Tottenham's 22.5%.",
-   "meaning": "The market makes Chelsea more than twice as likely as Spurs to win at Stamford Bridge — favourites, not a formality."
+   "fact": "Chelsea are 54.9% favourites to win the London derby — more than twice Tottenham's chance.",
+   "meaning": "The market makes Chelsea clear favourites at Stamford Bridge, though not overwhelming ones."
   },
   {
-   "fact": "Chelsea are fourth in the Premier League on 13 points from seven games; Tottenham are 16th on six, with a goal difference of -4.",
-   "meaning": "This is a derby between a top-four side and a bottom-half one, and that gap is what the price is built on."
+   "fact": "Chelsea are 4th with 13 points from seven games; Tottenham are 16th with six.",
+   "meaning": "A top-four side against one in the bottom half — the gap is the backdrop to the whole derby."
   },
   {
-   "fact": "The market's fair handicap line has moved from -0.63 to -0.73, with the main line at Chelsea -0.75.",
-   "meaning": ""
+   "fact": "Chelsea won 2-0 away at Everton on Friday, their third win in five in all competitions.",
+   "meaning": "They arrive on a good run and with a clean sheet behind them."
   },
   {
-   "fact": "Tottenham won their first Premier League game of the season on Monday, 3-1 at home to Coventry, with Maddison, Marmoush and Ben Davies scoring.",
-   "meaning": "Spurs arrive at Stamford Bridge off a win rather than in a crisis — the pressure has eased a little."
+   "fact": "Tottenham beat Coventry 3-1 on Monday for their first Premier League win of the season.",
+   "meaning": "De Zerbi's side travel in better mood, but it was their first win in seven league games."
   },
   {
-   "fact": "James Maddison and Dejan Kulusevski both returned from injury and featured in Monday's 3-1 win.",
-   "meaning": "Spurs' two main creators are available for the derby, which is exactly what they lacked in their winless start."
+   "fact": "James Maddison and Dejan Kulusevski both returned from injury for Tottenham on Monday — two of their main creators back for the derby.",
+   "meaning": "Spurs have more creativity available than they have had for weeks."
   },
   {
-   "fact": "Pedro Porro, Savio and Lucas Bergvall are on Tottenham's injury and suspension list for the Chelsea match.",
-   "meaning": "Spurs' right side and midfield rotation are stretched for a game where they will spend long spells defending."
+   "fact": "Tottenham's injury and suspension list for the derby is reported to include Pedro Porro, Savio and Lucas Bergvall.",
+   "meaning": "De Zerbi's squad is still stretched despite the returning pair."
   },
   {
-   "fact": "Chelsea have won their last two league games, 5-1 at home to Bournemouth and 2-0 away at Everton.",
-   "meaning": "They come into the derby on their best run of the season, and the Everton win was built on 1.47 xG to 0.43 against."
+   "fact": "The main total line is 3.0 goals, with the over at 51.2% — the market leans, narrowly, to a high-scoring derby.",
+   "meaning": "Three goals is the expected level; the market sees the game as slightly more likely to go above it than below."
   },
   {
-   "fact": "Chelsea have had seven days since their last match; Tottenham played on Monday, five days before the derby.",
-   "meaning": "Chelsea are the fresher side for a Saturday evening kick-off at the Bridge."
+   "fact": "Chelsea have had seven days since Everton; Tottenham five since Monday's win.",
+   "meaning": "Spurs arrive with two fewer days' recovery before a 16:30 kick-off."
   }
  ],
  "sources": [
@@ -100,11 +100,11 @@
    "certainty": "reported"
   }
  ],
- "video_title": "Spurs finally won — now comes Chelsea away",
+ "video_title": "Chelsea v Tottenham: the derby after Spurs' first win",
  "key_points": [
-  "Chelsea 4th, Tottenham 16th",
-  "Chelsea 54.9%, Spurs 22.5%",
-  "Maddison and Kulusevski back for Spurs"
+  "Chelsea 54.9% derby favourites",
+  "Spurs' first league win Monday",
+  "Maddison and Kulusevski back"
  ],
  "market": {
   "id": 1557439,
@@ -177,7 +177,7 @@
    "away": 0
   },
   "read": "2026-10-24-chelsea-tottenham",
-  "headline": "Chelsea are 4th, Spurs 16th — and the market agrees"
+  "headline": "Chelsea v Tottenham: the derby favours the home side"
  },
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }

@@ -4,42 +4,42 @@
  "home": "Barcelona",
  "away": "Real Madrid",
  "kickoff": "2026-10-25T20:00:00+00:00",
- "generated_at": "2026-10-21T17:46:22+00:00",
- "headline": "Barcelona after Paris: still favourites for El Clasico",
- "summary": "El Clasico at Camp Nou comes five days after Barcelona's first defeat of the season, 4-2 in Paris on Tuesday. They still lead La Liga with 27 points, six more than the Real Madrid side that reports say Jose Mourinho now coaches. Madrid are set to be without Vinicius through suspension, but Barcelona have their own concern: Dani Olmo went off injured in Paris. Even so, the market makes Barcelona 59.4% favourites, though Madrid's chance has risen from 19.8% to 24.1% in recent days. The goal line sits at 4.18.",
- "read": "El Clasico at Camp Nou with Barcelona top of La Liga, six points clear of Real Madrid, but arriving off their first defeat of the season, 4-2 at PSG. Barcelona are 59.4% favourites, the market has tightened toward Madrid in recent days, and the goal line sits at 4.25 after both sides' free-scoring weekends.",
+ "generated_at": "2026-10-21T17:59:13+00:00",
+ "headline": "Barcelona hurt in Paris but still clear Clasico favourites",
+ "summary": "Barcelona lead La Liga with 27 points from nine games, six clear of Real Madrid, and Sunday brings the Clasico at Camp Nou. But their 11-match winning run ended on Tuesday: PSG beat them 4-2. Mundo Deportivo report Jules Kounde's ankle is unlikely to be fit, and Dani Olmo went off injured in the first half in Paris. Vinicius Jr is reported to face a three-game ban, with Madrid trying to have it reduced. Margin removed, Barcelona are 59.4% favourites, more than twice Madrid's 24.1% — up from 19.8%. Over 4.25 goals is rated 48.4%, just under half.",
+ "read": "Barcelona lead La Liga by six points and are rated 59.4% to beat Real Madrid at Camp Nou, but they arrive off their first defeat of the season at PSG with injury questions over Kounde and Olmo. Madrid's chance has climbed to 24.1% and the market expects an open game, with the 50/50 goal total above four.",
  "facts": [
   {
-   "fact": "Barcelona's 11-match winning run ended with a 4-2 Champions League defeat at PSG on Tuesday, their first loss of the season.",
-   "meaning": "Barcelona come into the Clasico off a defeat for the first time this season, five days before kick-off."
+   "fact": "Barcelona top La Liga with 27 points from nine games, six clear of Real Madrid in third on 21.",
+   "meaning": "Sunday is a real six-pointer: a Barcelona win would put them nine points clear of their biggest rival."
   },
   {
-   "fact": "Barcelona lead La Liga with 27 points from nine games, unbeaten in the league.",
-   "meaning": "They host the Clasico as league leaders, with the gap to Madrid the prize on the line."
+   "fact": "Barcelona are rated 59.4% to win the Clasico at Camp Nou, more than twice Real Madrid's 24.1%.",
+   "meaning": "More likely than not a Barcelona win; Madrid's chance is roughly one in four."
   },
   {
-   "fact": "Barcelona are 59.4% favourites to win the Clasico, with the draw at 16.5% and Real Madrid at 24.1%.",
-   "meaning": "More likely than not a Barcelona win — but roughly two chances in five that it is not."
+   "fact": "Barcelona's 11-match winning run ended on Tuesday with a 4-2 Champions League defeat at PSG.",
+   "meaning": "Their first loss of the season came five days before the Clasico, and PSG carved out 3.74 xG against them."
   },
   {
-   "fact": "Real Madrid's chance of winning has risen from 19.8% to 24.1% in recent days.",
-   "meaning": "The market rates this Clasico closer than it did a few days ago, even with Barcelona at home."
+   "fact": "Barcelona are increasingly pessimistic that Jules Kounde will be fit for the Clasico because of a serious ankle sprain.",
+   "meaning": "He is Barcelona's first-choice right-back; losing him means reshuffling the back line against Kylian Mbappe."
   },
   {
-   "fact": "Jose Mourinho returns to Camp Nou as Real Madrid coach, with his side six points adrift of the leaders.",
-   "meaning": ""
+   "fact": "Dani Olmo was forced off injured in the first half against PSG and replaced by Fermin Lopez.",
+   "meaning": "Barcelona may go into the Clasico without their main creative midfielder, with Fermin Lopez the replacement."
   },
   {
-   "fact": "Vinicius Junior is set to miss El Clasico plus two more league fixtures through suspension, with Real Madrid seeking provisional measures to reduce the ban.",
-   "meaning": "Madrid are facing the Clasico without one of their first-choice attackers down the left."
+   "fact": "Vinicius Jr is set to miss El Clasico plus two more league fixtures, with Real Madrid pursuing provisional measures to have the ban reduced.",
+   "meaning": "Madrid would be without their main left-sided threat at Camp Nou, and any reduction of the ban changes the picture."
   },
   {
-   "fact": "Barcelona midfielder Dani Olmo was forced off injured in the first half against PSG and replaced by Fermin Lopez.",
-   "meaning": "Barcelona's midfield is a fresh concern only five days before the Clasico."
+   "fact": "Real Madrid's chance of winning at Camp Nou has risen from 19.8% to 24.1% in recent days.",
+   "meaning": "Madrid remain clear underdogs, but what was roughly a one-in-five shot is now nearly one in four."
   },
   {
-   "fact": "Mundo Deportivo reports Barcelona are increasingly pessimistic about Jules Kounde being fit for the Clasico because of a serious ankle sprain.",
-   "meaning": "Barcelona's defence could go into the biggest game of the season short of a first-choice option."
+   "fact": "Over 4.25 goals is now rated 48.4%, up from 45.2% in recent days.",
+   "meaning": "The 50/50 goal total has been pushed past four goals — the market expects an open, high-scoring Clasico."
   }
  ],
  "sources": [
@@ -100,11 +100,11 @@
    "certainty": "reported"
   }
  ],
- "video_title": "El Clasico after Paris: Barcelona still favourites?",
+ "video_title": "Barcelona after Paris: still Clasico favourites?",
  "key_points": [
-  "Barcelona six clear, beaten 4-2",
-  "Barcelona 59.4% favourites at home",
-  "Vinicius banned, Kounde a doubt"
+  "Barcelona six points clear",
+  "Barça 59.4% after first defeat",
+  "Kounde and Olmo fitness doubts"
  ],
  "market": {
   "id": 1570426,
@@ -207,7 +207,7 @@
    "away": 0
   },
   "read": "2026-10-25-barcelona-real-madrid",
-  "headline": "Barcelona after Paris: still favourites for El Clasico"
+  "headline": "Barcelona hurt in Paris but still clear Clasico favourites"
  },
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }

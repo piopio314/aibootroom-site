@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-21T17:47:00+00:00",
+ "generated_at": "2026-10-21T18:00:00+00:00",
  "prices_as_of": "2026-10-21T10:21:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
-  "matches": 477,
+  "matches": 476,
   "price_changes": 162799,
   "leagues": 23,
   "absences": 536,
@@ -110,7 +110,7 @@
    "away": 0
   },
   "read": "2026-10-25-barcelona-real-madrid",
-  "headline": "Barcelona after Paris: still favourites for El Clasico"
+  "headline": "Barcelona hurt in Paris but still clear Clasico favourites"
  },
  "weekend": [
   {
@@ -684,7 +684,7 @@
     "away": 0
    },
    "read": "2026-10-24-chelsea-tottenham",
-   "headline": "Chelsea are 4th, Spurs 16th — and the market agrees"
+   "headline": "Chelsea v Tottenham: the derby favours the home side"
   },
   {
    "id": 1552204,
@@ -1133,8 +1133,8 @@
    "name": "La Liga",
    "cup": false,
    "roundup": null,
-   "matches": 11,
-   "first": "2026-10-21T18:00:00+00:00",
+   "matches": 10,
+   "first": "2026-10-23T19:00:00+00:00",
    "last": "2026-10-26T20:00:00+00:00"
   },
   {
@@ -1219,36 +1219,6 @@
   }
  ],
  "week": [
-  {
-   "id": 1570389,
-   "slug": "2026-10-21-levante-athletic-club",
-   "league": "La Liga",
-   "kickoff": "2026-10-21T18:00:00+00:00",
-   "home": "Levante",
-   "away": "Athletic Club",
-   "fair": {
-    "home": 25.9,
-    "draw": 29.1,
-    "away": 45.0
-   },
-   "move": {
-    "home": 0.6,
-    "draw": -1.7,
-    "away": 1.1
-   },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
-   "goals": {
-    "expected": 2.39,
-    "first": 2.47
-   },
-   "absences": {
-    "home": 3,
-    "away": 5
-   },
-   "read": "2026-10-21-levante-athletic-club",
-   "headline": "Levante vs Athletic: a flat board and a sharp split",
-   "competition": "140"
-  },
   {
    "id": 1635621,
    "slug": "2026-10-21-aston-villa-viking",
@@ -3286,7 +3256,7 @@
     "away": 0
    },
    "read": "2026-10-24-chelsea-tottenham",
-   "headline": "Chelsea are 4th, Spurs 16th — and the market agrees",
+   "headline": "Chelsea v Tottenham: the derby favours the home side",
    "competition": "39"
   },
   {
@@ -4636,7 +4606,7 @@
     "away": 0
    },
    "read": "2026-10-25-barcelona-real-madrid",
-   "headline": "Barcelona after Paris: still favourites for El Clasico",
+   "headline": "Barcelona hurt in Paris but still clear Clasico favourites",
    "competition": "140"
   },
   {
@@ -5142,44 +5112,44 @@
    "home": "Chelsea",
    "away": "Tottenham",
    "kickoff": "2026-10-24T16:30:00+00:00",
-   "headline": "Chelsea are 4th, Spurs 16th — and the market agrees",
-   "summary": "Chelsea are 4th in the Premier League on 13 points; Tottenham are 16th on 6. Spurs did win on Monday, 3-1 against Coventry, but that came with only 0.9 expected goals, and Saturday takes them to Stamford Bridge. James Maddison and Dejan Kulusevski are back, according to Yahoo Sports, yet Porro, Savio and Bergvall are still out. The market has Chelsea's win chance rising from 52.5% to 54.9%, while Spurs are given 22.5%. The handicap rates Chelsea about 0.73 goals stronger.",
-   "read": "Chelsea are clear favourites for the London derby at 54.9% to Spurs' 22.5%, with the table — fourth against 16th — and a run of four straight Premier League wins over Tottenham behind the gap. The market also expects an open game at around three goals, and the one thing pulling against Chelsea is Spurs' returning creativity: Maddison and Kulusevski are back, but Porro, Savio and Bergvall are not.",
+   "headline": "Chelsea v Tottenham: the derby favours the home side",
+   "summary": "Tottenham won their first Premier League game of the season on Monday, beating Coventry 3-1, and now go to Chelsea. Chelsea are 4th with 13 points and won 2-0 at Everton on Friday; their chance has risen from 52.5% to 54.9%, while Tottenham are given 22.5%. Maddison and Kulusevski are back for Spurs, according to Yahoo Sports, but their injury list is still long. Chelsea have had 7 days' rest to Tottenham's 5, and are rated 0.75 of a goal the better side. The total line is 3.0 goals, the over at 51.2%.",
+   "read": "Chelsea are 54.9% favourites for the London derby, with the market strengthening them in recent days as Tottenham sit 16th. Spurs have Maddison and Kulusevski back after Monday's first league win, but they arrive with two fewer days' rest and a long injury list, and the total line sits at three goals.",
    "facts": [
     {
-     "fact": "Chelsea are clear favourites for the London derby at 54.9% to Tottenham's 22.5%.",
-     "meaning": "The market makes Chelsea more than twice as likely as Spurs to win at Stamford Bridge — favourites, not a formality."
+     "fact": "Chelsea are 54.9% favourites to win the London derby — more than twice Tottenham's chance.",
+     "meaning": "The market makes Chelsea clear favourites at Stamford Bridge, though not overwhelming ones."
     },
     {
-     "fact": "Chelsea are fourth in the Premier League on 13 points from seven games; Tottenham are 16th on six, with a goal difference of -4.",
-     "meaning": "This is a derby between a top-four side and a bottom-half one, and that gap is what the price is built on."
+     "fact": "Chelsea are 4th with 13 points from seven games; Tottenham are 16th with six.",
+     "meaning": "A top-four side against one in the bottom half — the gap is the backdrop to the whole derby."
     },
     {
-     "fact": "The market's fair handicap line has moved from -0.63 to -0.73, with the main line at Chelsea -0.75.",
-     "meaning": ""
+     "fact": "Chelsea won 2-0 away at Everton on Friday, their third win in five in all competitions.",
+     "meaning": "They arrive on a good run and with a clean sheet behind them."
     },
     {
-     "fact": "Tottenham won their first Premier League game of the season on Monday, 3-1 at home to Coventry, with Maddison, Marmoush and Ben Davies scoring.",
-     "meaning": "Spurs arrive at Stamford Bridge off a win rather than in a crisis — the pressure has eased a little."
+     "fact": "Tottenham beat Coventry 3-1 on Monday for their first Premier League win of the season.",
+     "meaning": "De Zerbi's side travel in better mood, but it was their first win in seven league games."
     },
     {
-     "fact": "James Maddison and Dejan Kulusevski both returned from injury and featured in Monday's 3-1 win.",
-     "meaning": "Spurs' two main creators are available for the derby, which is exactly what they lacked in their winless start."
+     "fact": "James Maddison and Dejan Kulusevski both returned from injury for Tottenham on Monday — two of their main creators back for the derby.",
+     "meaning": "Spurs have more creativity available than they have had for weeks."
     },
     {
-     "fact": "Pedro Porro, Savio and Lucas Bergvall are on Tottenham's injury and suspension list for the Chelsea match.",
-     "meaning": "Spurs' right side and midfield rotation are stretched for a game where they will spend long spells defending."
+     "fact": "Tottenham's injury and suspension list for the derby is reported to include Pedro Porro, Savio and Lucas Bergvall.",
+     "meaning": "De Zerbi's squad is still stretched despite the returning pair."
     },
     {
-     "fact": "Chelsea have won their last two league games, 5-1 at home to Bournemouth and 2-0 away at Everton.",
-     "meaning": "They come into the derby on their best run of the season, and the Everton win was built on 1.47 xG to 0.43 against."
+     "fact": "The main total line is 3.0 goals, with the over at 51.2% — the market leans, narrowly, to a high-scoring derby.",
+     "meaning": "Three goals is the expected level; the market sees the game as slightly more likely to go above it than below."
     },
     {
-     "fact": "Chelsea have had seven days since their last match; Tottenham played on Monday, five days before the derby.",
-     "meaning": "Chelsea are the fresher side for a Saturday evening kick-off at the Bridge."
+     "fact": "Chelsea have had seven days since Everton; Tottenham five since Monday's win.",
+     "meaning": "Spurs arrive with two fewer days' recovery before a 16:30 kick-off."
     }
    ],
-   "video_title": "Spurs finally won — now comes Chelsea away"
+   "video_title": "Chelsea v Tottenham: the derby after Spurs' first win"
   },
   {
    "slug": "2026-10-25-barcelona-real-madrid",
@@ -5187,44 +5157,44 @@
    "home": "Barcelona",
    "away": "Real Madrid",
    "kickoff": "2026-10-25T20:00:00+00:00",
-   "headline": "Barcelona after Paris: still favourites for El Clasico",
-   "summary": "El Clasico at Camp Nou comes five days after Barcelona's first defeat of the season, 4-2 in Paris on Tuesday. They still lead La Liga with 27 points, six more than the Real Madrid side that reports say Jose Mourinho now coaches. Madrid are set to be without Vinicius through suspension, but Barcelona have their own concern: Dani Olmo went off injured in Paris. Even so, the market makes Barcelona 59.4% favourites, though Madrid's chance has risen from 19.8% to 24.1% in recent days. The goal line sits at 4.18.",
-   "read": "El Clasico at Camp Nou with Barcelona top of La Liga, six points clear of Real Madrid, but arriving off their first defeat of the season, 4-2 at PSG. Barcelona are 59.4% favourites, the market has tightened toward Madrid in recent days, and the goal line sits at 4.25 after both sides' free-scoring weekends.",
+   "headline": "Barcelona hurt in Paris but still clear Clasico favourites",
+   "summary": "Barcelona lead La Liga with 27 points from nine games, six clear of Real Madrid, and Sunday brings the Clasico at Camp Nou. But their 11-match winning run ended on Tuesday: PSG beat them 4-2. Mundo Deportivo report Jules Kounde's ankle is unlikely to be fit, and Dani Olmo went off injured in the first half in Paris. Vinicius Jr is reported to face a three-game ban, with Madrid trying to have it reduced. Margin removed, Barcelona are 59.4% favourites, more than twice Madrid's 24.1% — up from 19.8%. Over 4.25 goals is rated 48.4%, just under half.",
+   "read": "Barcelona lead La Liga by six points and are rated 59.4% to beat Real Madrid at Camp Nou, but they arrive off their first defeat of the season at PSG with injury questions over Kounde and Olmo. Madrid's chance has climbed to 24.1% and the market expects an open game, with the 50/50 goal total above four.",
    "facts": [
     {
-     "fact": "Barcelona's 11-match winning run ended with a 4-2 Champions League defeat at PSG on Tuesday, their first loss of the season.",
-     "meaning": "Barcelona come into the Clasico off a defeat for the first time this season, five days before kick-off."
+     "fact": "Barcelona top La Liga with 27 points from nine games, six clear of Real Madrid in third on 21.",
+     "meaning": "Sunday is a real six-pointer: a Barcelona win would put them nine points clear of their biggest rival."
     },
     {
-     "fact": "Barcelona lead La Liga with 27 points from nine games, unbeaten in the league.",
-     "meaning": "They host the Clasico as league leaders, with the gap to Madrid the prize on the line."
+     "fact": "Barcelona are rated 59.4% to win the Clasico at Camp Nou, more than twice Real Madrid's 24.1%.",
+     "meaning": "More likely than not a Barcelona win; Madrid's chance is roughly one in four."
     },
     {
-     "fact": "Barcelona are 59.4% favourites to win the Clasico, with the draw at 16.5% and Real Madrid at 24.1%.",
-     "meaning": "More likely than not a Barcelona win — but roughly two chances in five that it is not."
+     "fact": "Barcelona's 11-match winning run ended on Tuesday with a 4-2 Champions League defeat at PSG.",
+     "meaning": "Their first loss of the season came five days before the Clasico, and PSG carved out 3.74 xG against them."
     },
     {
-     "fact": "Real Madrid's chance of winning has risen from 19.8% to 24.1% in recent days.",
-     "meaning": "The market rates this Clasico closer than it did a few days ago, even with Barcelona at home."
+     "fact": "Barcelona are increasingly pessimistic that Jules Kounde will be fit for the Clasico because of a serious ankle sprain.",
+     "meaning": "He is Barcelona's first-choice right-back; losing him means reshuffling the back line against Kylian Mbappe."
     },
     {
-     "fact": "Jose Mourinho returns to Camp Nou as Real Madrid coach, with his side six points adrift of the leaders.",
-     "meaning": ""
+     "fact": "Dani Olmo was forced off injured in the first half against PSG and replaced by Fermin Lopez.",
+     "meaning": "Barcelona may go into the Clasico without their main creative midfielder, with Fermin Lopez the replacement."
     },
     {
-     "fact": "Vinicius Junior is set to miss El Clasico plus two more league fixtures through suspension, with Real Madrid seeking provisional measures to reduce the ban.",
-     "meaning": "Madrid are facing the Clasico without one of their first-choice attackers down the left."
+     "fact": "Vinicius Jr is set to miss El Clasico plus two more league fixtures, with Real Madrid pursuing provisional measures to have the ban reduced.",
+     "meaning": "Madrid would be without their main left-sided threat at Camp Nou, and any reduction of the ban changes the picture."
     },
     {
-     "fact": "Barcelona midfielder Dani Olmo was forced off injured in the first half against PSG and replaced by Fermin Lopez.",
-     "meaning": "Barcelona's midfield is a fresh concern only five days before the Clasico."
+     "fact": "Real Madrid's chance of winning at Camp Nou has risen from 19.8% to 24.1% in recent days.",
+     "meaning": "Madrid remain clear underdogs, but what was roughly a one-in-five shot is now nearly one in four."
     },
     {
-     "fact": "Mundo Deportivo reports Barcelona are increasingly pessimistic about Jules Kounde being fit for the Clasico because of a serious ankle sprain.",
-     "meaning": "Barcelona's defence could go into the biggest game of the season short of a first-choice option."
+     "fact": "Over 4.25 goals is now rated 48.4%, up from 45.2% in recent days.",
+     "meaning": "The 50/50 goal total has been pushed past four goals — the market expects an open, high-scoring Clasico."
     }
    ],
-   "video_title": "El Clasico after Paris: Barcelona still favourites?"
+   "video_title": "Barcelona after Paris: still Clasico favourites?"
   },
   {
    "slug": "2026-10-24-napoli-as-roma",
@@ -5329,18 +5299,6 @@
    "video_title": "Juventus after the 0-3: still favourites in Europe?"
   },
   {
-   "slug": "2026-10-21-levante-athletic-club",
-   "league": "La Liga",
-   "home": "Levante",
-   "away": "Athletic Club",
-   "kickoff": "2026-10-21T18:00:00+00:00",
-   "headline": "Levante vs Athletic: a flat board and a sharp split",
-   "summary": "Athletic Club are clear favourites at 43.7% fair against Levante's 25.5%, with the draw at 30.8%. Over 2.5 is frozen at 49.1%, with a fair total of 2.47; both teams to score is slightly favoured at 53.3%. Four injury names — three Levante, one Athletic — produced no visible reaction after our first report at 00:55, though there is no earlier baseline.",
-   "read": "Athletic Club are clear favourites at 43.7% fair against Levante's 25.5% (draw 30.8%), with the AH settled around Levante +0.25 after a rounding-level 0.2–0.3 pp wobble.",
-   "facts": [],
-   "video_title": null
-  },
-  {
    "slug": "2026-10-23-ipswich-nottingham-forest",
    "league": "Premier League",
    "home": "Ipswich",
@@ -5351,6 +5309,18 @@
    "read": null,
    "facts": [],
    "video_title": "Ipswich v Forest: a market asleep at 41.7%"
+  },
+  {
+   "slug": "2026-10-24-cagliari-bologna",
+   "league": "Serie A",
+   "home": "Cagliari",
+   "away": "Bologna",
+   "kickoff": "2026-10-24T13:00:00+00:00",
+   "headline": "Bologna favoured, goals lean is a single-book nudge",
+   "summary": "The draw sits at 32.7%. The only movement is a trim to Over 2.25 at the sharp market, from 50.6% to 49.0%, with the fair total slipping from 2.27 to 2.22, while the consensus Over moved just 0.3 points. The handicap fair line is home +0.15, under a quarter goal to Bologna, with the quoted line at +0.25 and only six books pricing it. Cagliari's Riyad Idrissi is listed as missing with a knee problem, with no measurable price reaction.",
+   "read": null,
+   "facts": [],
+   "video_title": "Bologna priced ahead, but the market barely moves"
   }
  ]
 }

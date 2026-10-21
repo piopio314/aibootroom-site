@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T17:47:18+00:00",
+ "generated_at": "2026-10-21T18:00:53+00:00",
  "shows": [
   {
    "id": "2026-10-22-juventus-rennes",
@@ -46,7 +46,7 @@
    "away": "Tottenham",
    "league": "Premier League",
    "kickoff": "2026-10-24T16:30:00+00:00",
-   "title": "Spurs finally won — now comes Chelsea away",
+   "title": "Chelsea v Tottenham: the derby after Spurs' first win",
    "source": "market_desk",
    "kicker": "MARKET ALERT",
    "voiced": true,
@@ -59,12 +59,12 @@
    "away": "Real Madrid",
    "league": "La Liga",
    "kickoff": "2026-10-25T20:00:00+00:00",
-   "title": "El Clasico after Paris: Barcelona still favourites?",
+   "title": "Barcelona after Paris: still Clasico favourites?",
    "source": "market_desk",
    "kicker": "EL CLÁSICO",
    "voiced": true,
    "youtube_id": null,
-   "seconds": 52
+   "seconds": 50
   }
  ]
 }
