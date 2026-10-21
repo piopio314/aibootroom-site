@@ -4,15 +4,49 @@
  "home": "Chelsea",
  "away": "Tottenham",
  "kickoff": "2026-10-24T16:30:00+00:00",
- "generated_at": "2026-10-21T08:47:39+00:00",
- "headline": "Chelsea vs Tottenham: the market sees a 3-goal game",
- "summary": "The market makes Chelsea clear favourites at 54.9% fair chance, the bookmaker's margin removed, with the draw at 22.7% and Tottenham at 22.5%. The handicap is quoted at -0.75 goals, with the computed fair line at -0.73, so the market rates Chelsea about three-quarters of a goal better. Since tracking started, Chelsea's 1X2 chance moved 2.4 points and the handicap fair line moved from -0.63 to -0.73. Both moves fall inside the gap between our first two snapshots, across 7 snapshots and 45.9 hours, and the true opening price is unknown. On goals, Over 3.0 is 51.2% fair and both teams to score is 60.6%, low-confidence context. The injury feed is empty, which is absence of data, not proof of full availability.",
- "voices": {},
- "video_title": "Chelsea vs Tottenham: market sees a 3-goal game",
+ "generated_at": "2026-10-21T13:22:53+00:00",
+ "headline": "Chelsea 54.9%: clear favourites by three-quarters of a goal",
+ "summary": "Chelsea's win chance rose from 52.5% to 54.9% in recent days, and they are clear favourites against Tottenham at Stamford Bridge in the Premier League. The market rates Chelsea about three-quarters of a goal better, a handicap of -0.75. Tottenham are 22.5% and the draw 22.7%, both well behind the home side. Over 3.0 goals is 51.2% and both teams to score is 60.6%, so an open London derby is expected.",
+ "read": "Chelsea are clear favourites at 54.9%, rated about three-quarters of a goal better than Tottenham, and their chance has strengthened from 52.5% in recent days while Spurs slipped to 22.5%. The market expects an open derby: the goal line sits on three with Over at 51.2%, Over 2.5 is 61.1% and both teams to score comes in at 60.6%.",
+ "facts": [
+  {
+   "fact": "Chelsea are 54.9% to win the London derby.",
+   "meaning": "clear favourites — more likely than not to take the three points"
+  },
+  {
+   "fact": "Chelsea's win chance rose from 52.5% to 54.9% in recent days.",
+   "meaning": "money came for the home side, with Tottenham dropping from 24.2% to 22.5%"
+  },
+  {
+   "fact": "Chelsea are rated about three-quarters of a goal better than Tottenham, at a -0.75 handicap.",
+   "meaning": "a one-goal Chelsea win only half-wins that handicap, so the market wants a two-goal margin to be comfortable"
+  },
+  {
+   "fact": "Over 3.0 goals is 51.2% — the goal line sits right on three.",
+   "meaning": "three goals is a coin flip; the market expects an open derby rather than a cagey one"
+  },
+  {
+   "fact": "The draw is 22.7%, level with Tottenham's 22.5% win chance.",
+   "meaning": "the market rates a Spurs win and a draw about the same — neither is close to Chelsea"
+  },
+  {
+   "fact": "Both teams to score is 60.6%.",
+   "meaning": "more likely than not that both sides find the net at Stamford Bridge"
+  },
+  {
+   "fact": "The handicap fair line moved from -0.63 to -0.73.",
+   "meaning": "Chelsea's superiority was deepened by a tenth of a goal, taking it close to a full goal"
+  },
+  {
+   "fact": "Over 2.5 goals is priced at 61.1%.",
+   "meaning": "two goals or fewer is the less likely outcome by a comfortable margin"
+  }
+ ],
+ "video_title": "Chelsea's chance rises to 54.9% for the London derby",
  "key_points": [
-  "Chelsea 54.9% fair, draw 22.7%, Spurs 22.5% — AH quoted -0.75, fair -0.73",
-  "A 2.4 pp 1x2 lean and 2.5 pp AH move, both inside our first snapshot gap",
-  "True opening unknown, 7 snapshots in 46 hours, 0 injury reports"
+  "Chelsea 54.9% favourites",
+  "0.75 goals better",
+  "Over 3.0 a coin flip"
  ],
  "market": {
   "id": 1557439,
@@ -85,7 +119,7 @@
    "away": 0
   },
   "read": "2026-10-24-chelsea-tottenham",
-  "headline": "Chelsea vs Tottenham: the market sees a 3-goal game"
+  "headline": "Chelsea 54.9%: clear favourites by three-quarters of a goal"
  },
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }

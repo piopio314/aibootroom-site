@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-21T09:01:00+00:00",
- "prices_as_of": "2026-10-20T20:44:00+00:00",
+ "generated_at": "2026-10-21T13:34:00+00:00",
+ "prices_as_of": "2026-10-21T10:21:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
-  "matches": 466,
-  "price_changes": 132822,
+  "matches": 479,
+  "price_changes": 162799,
   "leagues": 23,
-  "absences": 299,
+  "absences": 536,
   "tracking_since": "2026-10-18T22:49:00+00:00"
  },
  "featured": {
@@ -17,14 +17,14 @@
   "home": "Barcelona",
   "away": "Real Madrid",
   "fair": {
-   "home": 60.4,
-   "draw": 16.9,
-   "away": 22.7
+   "home": 59.4,
+   "draw": 16.5,
+   "away": 24.1
   },
   "move": {
-   "home": -2.6,
-   "draw": -0.2,
-   "away": 2.9
+   "home": -3.6,
+   "draw": -0.6,
+   "away": 4.2
   },
   "tracked_since": "2026-10-18T22:49:00+00:00",
   "timeline": [
@@ -69,10 +69,40 @@
     "home": 60.4,
     "draw": 16.9,
     "away": 22.7
+   },
+   {
+    "t": "2026-10-20T22:19:00+00:00",
+    "home": 60.6,
+    "draw": 16.5,
+    "away": 22.9
+   },
+   {
+    "t": "2026-10-21T00:51:00+00:00",
+    "home": 59.6,
+    "draw": 16.7,
+    "away": 23.7
+   },
+   {
+    "t": "2026-10-21T04:24:00+00:00",
+    "home": 59.4,
+    "draw": 16.7,
+    "away": 23.9
+   },
+   {
+    "t": "2026-10-21T07:27:00+00:00",
+    "home": 59.4,
+    "draw": 16.7,
+    "away": 23.9
+   },
+   {
+    "t": "2026-10-21T10:21:00+00:00",
+    "home": 59.4,
+    "draw": 16.5,
+    "away": 24.1
    }
   ],
   "goals": {
-   "expected": 4.03,
+   "expected": 4.18,
    "first": 4.03
   },
   "absences": {
@@ -80,46 +110,9 @@
    "away": 0
   },
   "read": "2026-10-25-barcelona-real-madrid",
-  "headline": "Clásico: a small trim to Barcelona, a steady goals line"
+  "headline": "Barcelona 59.4% favourites, but Madrid are closing the gap"
  },
  "weekend": [
-  {
-   "id": 1635684,
-   "slug": "2026-10-21-lille-galatasaray",
-   "league": "Champions League",
-   "kickoff": "2026-10-21T16:45:00+00:00",
-   "home": "Lille",
-   "away": "Galatasaray",
-   "fair": {
-    "home": 43.8,
-    "draw": 25.6,
-    "away": 30.6
-   },
-   "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "timeline": [
-    {
-     "t": "2026-10-20T20:44:00+00:00",
-     "home": 43.8,
-     "draw": 25.6,
-     "away": 30.6
-    }
-   ],
-   "goals": {
-    "expected": 2.95,
-    "first": 2.95
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null
-  },
   {
    "id": 1635647,
    "slug": "2026-10-21-como-manchester-united",
@@ -128,14 +121,14 @@
    "home": "Como",
    "away": "Manchester United",
    "fair": {
-    "home": 44.2,
-    "draw": 25.3,
-    "away": 30.5
+    "home": 41.2,
+    "draw": 25.5,
+    "away": 33.3
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": -3.0,
+    "draw": 0.3,
+    "away": 2.7
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "timeline": [
@@ -144,15 +137,100 @@
      "home": 44.2,
      "draw": 25.3,
      "away": 30.5
+    },
+    {
+     "t": "2026-10-20T21:20:00+00:00",
+     "home": 44.6,
+     "draw": 24.9,
+     "away": 30.5
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "home": 44.3,
+     "draw": 24.7,
+     "away": 31.0
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "home": 44.0,
+     "draw": 24.6,
+     "away": 31.4
+    },
+    {
+     "t": "2026-10-21T09:23:00+00:00",
+     "home": 41.2,
+     "draw": 25.5,
+     "away": 33.3
     }
    ],
    "goals": {
-    "expected": 2.95,
+    "expected": 3.09,
     "first": 2.95
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 9,
+    "away": 10
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1635684,
+   "slug": "2026-10-21-lille-galatasaray",
+   "league": "Champions League",
+   "kickoff": "2026-10-21T16:45:00+00:00",
+   "home": "Lille",
+   "away": "Galatasaray",
+   "fair": {
+    "home": 44.1,
+    "draw": 25.8,
+    "away": 30.0
+   },
+   "move": {
+    "home": 0.3,
+    "draw": 0.2,
+    "away": -0.5
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "timeline": [
+    {
+     "t": "2026-10-20T20:44:00+00:00",
+     "home": 43.8,
+     "draw": 25.6,
+     "away": 30.6
+    },
+    {
+     "t": "2026-10-20T21:20:00+00:00",
+     "home": 44.2,
+     "draw": 25.3,
+     "away": 30.5
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "home": 43.7,
+     "draw": 25.5,
+     "away": 30.8
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "home": 43.4,
+     "draw": 26.0,
+     "away": 30.6
+    },
+    {
+     "t": "2026-10-21T09:23:00+00:00",
+     "home": 44.1,
+     "draw": 25.8,
+     "away": 30.0
+    }
+   ],
+   "goals": {
+    "expected": 2.85,
+    "first": 2.95
+   },
+   "absences": {
+    "home": 5,
+    "away": 7
    },
    "read": null,
    "headline": null
@@ -165,14 +243,14 @@
    "home": "Bayern München",
    "away": "Arsenal",
    "fair": {
-    "home": 46.3,
-    "draw": 24.5,
-    "away": 29.2
+    "home": 45.8,
+    "draw": 24.7,
+    "away": 29.5
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": -0.4,
+    "draw": 0.1,
+    "away": 0.3
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "timeline": [
@@ -181,15 +259,39 @@
      "home": 46.3,
      "draw": 24.5,
      "away": 29.2
+    },
+    {
+     "t": "2026-10-20T21:20:00+00:00",
+     "home": 46.5,
+     "draw": 24.4,
+     "away": 29.1
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "home": 47.3,
+     "draw": 24.1,
+     "away": 28.6
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "home": 46.3,
+     "draw": 24.7,
+     "away": 29.0
+    },
+    {
+     "t": "2026-10-21T09:23:00+00:00",
+     "home": 45.8,
+     "draw": 24.7,
+     "away": 29.5
     }
    ],
    "goals": {
-    "expected": 2.93,
+    "expected": 3.05,
     "first": 2.93
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 4,
+    "away": 3
    },
    "read": null,
    "headline": null
@@ -202,14 +304,14 @@
    "home": "Real Betis",
    "away": "Feyenoord",
    "fair": {
-    "home": 62.1,
-    "draw": 19.8,
-    "away": 18.1
+    "home": 57.4,
+    "draw": 21.2,
+    "away": 21.4
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": -4.7,
+    "draw": 1.4,
+    "away": 3.3
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "timeline": [
@@ -218,15 +320,39 @@
      "home": 62.1,
      "draw": 19.8,
      "away": 18.1
+    },
+    {
+     "t": "2026-10-20T21:20:00+00:00",
+     "home": 62.2,
+     "draw": 19.8,
+     "away": 18.0
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "home": 62.1,
+     "draw": 19.7,
+     "away": 18.1
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "home": 60.9,
+     "draw": 20.1,
+     "away": 19.0
+    },
+    {
+     "t": "2026-10-21T09:23:00+00:00",
+     "home": 57.4,
+     "draw": 21.2,
+     "away": 21.4
     }
    ],
    "goals": {
-    "expected": 3.47,
+    "expected": 3.45,
     "first": 3.47
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 4,
+    "away": 7
    },
    "read": null,
    "headline": null
@@ -239,14 +365,14 @@
    "home": "Real Madrid",
    "away": "RB Leipzig",
    "fair": {
-    "home": 76.7,
-    "draw": 13.3,
-    "away": 10.0
+    "home": 78.0,
+    "draw": 13.0,
+    "away": 9.0
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": 1.3,
+    "draw": -0.3,
+    "away": -1.0
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "timeline": [
@@ -255,15 +381,39 @@
      "home": 76.7,
      "draw": 13.3,
      "away": 10.0
+    },
+    {
+     "t": "2026-10-20T21:20:00+00:00",
+     "home": 76.7,
+     "draw": 13.3,
+     "away": 9.9
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "home": 76.7,
+     "draw": 13.3,
+     "away": 9.9
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "home": 77.2,
+     "draw": 13.1,
+     "away": 9.7
+    },
+    {
+     "t": "2026-10-21T09:23:00+00:00",
+     "home": 78.0,
+     "draw": 13.0,
+     "away": 9.0
     }
    ],
    "goals": {
-    "expected": 4.12,
+    "expected": 4.23,
     "first": 4.12
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 3,
+    "away": 4
    },
    "read": null,
    "headline": null
@@ -276,14 +426,14 @@
    "home": "Ajax",
    "away": "Atalanta",
    "fair": {
-    "home": 43.9,
-    "draw": 25.8,
-    "away": 30.4
+    "home": 46.2,
+    "draw": 25.1,
+    "away": 28.6
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": 2.4,
+    "draw": -0.6,
+    "away": -1.7
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "timeline": [
@@ -292,10 +442,28 @@
      "home": 43.9,
      "draw": 25.8,
      "away": 30.4
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "home": 45.7,
+     "draw": 25.4,
+     "away": 28.9
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "home": 45.7,
+     "draw": 25.4,
+     "away": 28.9
+    },
+    {
+     "t": "2026-10-21T09:23:00+00:00",
+     "home": 46.2,
+     "draw": 25.1,
+     "away": 28.6
     }
    ],
    "goals": {
-    "expected": 2.91,
+    "expected": 2.93,
     "first": 2.91
    },
    "absences": {
@@ -376,7 +544,7 @@
     "away": 0
    },
    "read": "2026-10-24-aston-villa-manchester-city",
-   "headline": "City 55.7%: a quiet market with one early move"
+   "headline": "Manchester City 55.7% away favourites at Aston Villa"
   },
   {
    "id": 1550164,
@@ -426,6 +594,12 @@
      "home": 34.4,
      "draw": 27.7,
      "away": 37.8
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "home": 34.4,
+     "draw": 27.7,
+     "away": 37.8
     }
    ],
    "goals": {
@@ -437,7 +611,7 @@
     "away": 1
    },
    "read": "2026-10-24-napoli-as-roma",
-   "headline": "Napoli vs Roma: a near coin-flip on the market"
+   "headline": "Napoli vs Roma: near-even match, Roma narrow favourites"
   },
   {
    "id": 1557439,
@@ -510,7 +684,7 @@
     "away": 0
    },
    "read": "2026-10-24-chelsea-tottenham",
-   "headline": "Chelsea vs Tottenham: the market sees a 3-goal game"
+   "headline": "Chelsea 54.9%: clear favourites by three-quarters of a goal"
   },
   {
    "id": 1552204,
@@ -520,14 +694,14 @@
    "home": "PSV Eindhoven",
    "away": "Feyenoord",
    "fair": {
-    "home": 47.7,
-    "draw": 21.8,
-    "away": 30.5
+    "home": 47.3,
+    "draw": 21.9,
+    "away": 30.8
    },
    "move": {
-    "home": -0.0,
-    "draw": -0.4,
-    "away": 0.5
+    "home": -0.5,
+    "draw": -0.3,
+    "away": 0.8
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "timeline": [
@@ -548,6 +722,12 @@
      "home": 47.7,
      "draw": 21.8,
      "away": 30.5
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "home": 47.3,
+     "draw": 21.9,
+     "away": 30.8
     }
    ],
    "goals": {
@@ -569,14 +749,14 @@
    "home": "Paris Saint Germain",
    "away": "Lyon",
    "fair": {
-    "home": 70.7,
-    "draw": 16.3,
-    "away": 13.0
+    "home": 67.3,
+    "draw": 17.5,
+    "away": 15.1
    },
    "move": {
-    "home": 2.5,
-    "draw": -1.1,
-    "away": -1.4
+    "home": -0.8,
+    "draw": 0.2,
+    "away": 0.7
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "timeline": [
@@ -597,10 +777,16 @@
      "home": 70.7,
      "draw": 16.3,
      "away": 13.0
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "home": 67.3,
+     "draw": 17.5,
+     "away": 15.1
     }
    ],
    "goals": {
-    "expected": 3.5,
+    "expected": 3.44,
     "first": 3.47
    },
    "absences": {
@@ -618,14 +804,14 @@
    "home": "Galatasaray",
    "away": "Fenerbahçe",
    "fair": {
-    "home": 41.6,
+    "home": 42.5,
     "draw": 25.5,
-    "away": 32.9
+    "away": 32.1
    },
    "move": {
-    "home": -0.4,
-    "draw": -0.5,
-    "away": 0.9
+    "home": 0.5,
+    "draw": -0.6,
+    "away": 0.1
    },
    "tracked_since": "2026-10-19T16:24:00+00:00",
    "timeline": [
@@ -646,10 +832,16 @@
      "home": 41.6,
      "draw": 25.5,
      "away": 32.9
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "home": 42.5,
+     "draw": 25.5,
+     "away": 32.1
     }
    ],
    "goals": {
-    "expected": 3.14,
+    "expected": 3.15,
     "first": null
    },
    "absences": {
@@ -662,6 +854,93 @@
  ],
  "movers": [
   {
+   "id": 1564379,
+   "slug": "2026-10-24-afc-wimbledon-wycombe",
+   "league": "League One",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "home": "AFC Wimbledon",
+   "away": "Wycombe",
+   "fair": {
+    "home": 24.2,
+    "draw": 25.5,
+    "away": 50.3
+   },
+   "move": {
+    "home": -5.4,
+    "draw": -1.6,
+    "away": 7.1
+   },
+   "tracked_since": "2026-10-19T22:19:00+00:00",
+   "goals": {
+    "expected": 2.68,
+    "first": 2.56
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1564385,
+   "slug": "2026-10-24-huddersfield-wigan",
+   "league": "League One",
+   "kickoff": "2026-10-24T11:30:00+00:00",
+   "home": "Huddersfield",
+   "away": "Wigan",
+   "fair": {
+    "home": 69.1,
+    "draw": 18.1,
+    "away": 12.7
+   },
+   "move": {
+    "home": 5.4,
+    "draw": -3.2,
+    "away": -2.3
+   },
+   "tracked_since": "2026-10-19T22:19:00+00:00",
+   "goals": {
+    "expected": 2.97,
+    "first": 2.83
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
+   "id": 1552792,
+   "slug": "2026-10-25-angers-lorient",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-25T16:15:00+00:00",
+   "home": "Angers",
+   "away": "Lorient",
+   "fair": {
+    "home": 31.6,
+    "draw": 29.1,
+    "away": 39.3
+   },
+   "move": {
+    "home": -4.9,
+    "draw": -0.5,
+    "away": 5.4
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.4,
+    "first": 2.39
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
    "id": 1593339,
    "slug": "2026-10-25-aris-thessalonikis-atromitos",
    "league": "Super League Greece",
@@ -669,18 +948,18 @@
    "home": "Aris Thessalonikis",
    "away": "Atromitos",
    "fair": {
-    "home": 57.4,
-    "draw": 24.6,
-    "away": 17.9
+    "home": 56.7,
+    "draw": 24.9,
+    "away": 18.4
    },
    "move": {
-    "home": 6.1,
-    "draw": -2.6,
-    "away": -3.6
+    "home": 5.4,
+    "draw": -2.4,
+    "away": -3.2
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.4,
+    "expected": 2.39,
     "first": 2.31
    },
    "absences": {
@@ -720,26 +999,26 @@
    "headline": null
   },
   {
-   "id": 1552202,
-   "slug": "2026-10-25-fortuna-sittard-excelsior",
-   "league": "Eredivisie",
-   "kickoff": "2026-10-25T11:15:00+00:00",
-   "home": "Fortuna Sittard",
-   "away": "Excelsior",
+   "id": 1552508,
+   "slug": "2026-10-24-montpellier-red-star-fc-93",
+   "league": "Ligue 2",
+   "kickoff": "2026-10-24T12:00:00+00:00",
+   "home": "Montpellier",
+   "away": "RED Star FC 93",
    "fair": {
-    "home": 39.4,
-    "draw": 25.9,
-    "away": 34.8
+    "home": 38.7,
+    "draw": 25.4,
+    "away": 35.9
    },
    "move": {
-    "home": 3.8,
-    "draw": 0.8,
-    "away": -4.6
+    "home": -2.6,
+    "draw": -2.3,
+    "away": 5.1
    },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "tracked_since": "2026-10-19T13:25:00+00:00",
    "goals": {
-    "expected": 3.0,
-    "first": 3.12
+    "expected": 2.63,
+    "first": 2.45
    },
    "absences": {
     "home": 0,
@@ -749,30 +1028,30 @@
    "headline": null
   },
   {
-   "id": 1552200,
-   "slug": "2026-10-24-willem-ii-cambuur",
-   "league": "Eredivisie",
-   "kickoff": "2026-10-24T16:45:00+00:00",
-   "home": "Willem II",
-   "away": "Cambuur",
+   "id": 1550159,
+   "slug": "2026-10-24-como-sassuolo",
+   "league": "Serie A",
+   "kickoff": "2026-10-24T13:00:00+00:00",
+   "home": "Como",
+   "away": "Sassuolo",
    "fair": {
-    "home": 36.8,
-    "draw": 25.3,
-    "away": 37.9
+    "home": 61.5,
+    "draw": 21.2,
+    "away": 17.3
    },
    "move": {
-    "home": -3.9,
-    "draw": -0.7,
-    "away": 4.5
+    "home": -5.0,
+    "draw": 0.9,
+    "away": 4.1
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 3.15,
-    "first": 3.06
+    "expected": 3.22,
+    "first": 3.23
    },
    "absences": {
     "home": 0,
-    "away": 0
+    "away": 5
    },
    "read": null,
    "headline": null
@@ -785,106 +1064,19 @@
    "home": "NEC Nijmegen",
    "away": "Groningen",
    "fair": {
-    "home": 41.4,
-    "draw": 24.2,
-    "away": 34.4
+    "home": 41.7,
+    "draw": 23.7,
+    "away": 34.6
    },
    "move": {
-    "home": -4.2,
-    "draw": -0.4,
-    "away": 4.5
+    "home": -3.8,
+    "draw": -0.9,
+    "away": 4.8
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 3.23,
+    "expected": 3.35,
     "first": 3.14
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null
-  },
-  {
-   "id": 1575525,
-   "slug": "2026-10-25-sporting-cp-academico-viseu",
-   "league": "Primeira Liga",
-   "kickoff": "2026-10-25T20:30:00+00:00",
-   "home": "Sporting CP",
-   "away": "Academico Viseu",
-   "fair": {
-    "home": 75.8,
-    "draw": 15.4,
-    "away": 8.7
-   },
-   "move": {
-    "home": -4.4,
-    "draw": 2.1,
-    "away": 2.4
-   },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
-   "goals": {
-    "expected": 3.24,
-    "first": 3.32
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null
-  },
-  {
-   "id": 1575523,
-   "slug": "2026-10-25-rio-ave-famalicao",
-   "league": "Primeira Liga",
-   "kickoff": "2026-10-25T18:00:00+00:00",
-   "home": "Rio Ave",
-   "away": "Famalicao",
-   "fair": {
-    "home": 25.1,
-    "draw": 28.5,
-    "away": 46.4
-   },
-   "move": {
-    "home": 2.3,
-    "draw": 1.5,
-    "away": -3.6
-   },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
-   "goals": {
-    "expected": 2.32,
-    "first": 2.45
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null
-  },
-  {
-   "id": 1552506,
-   "slug": "2026-10-24-dijon-rodez",
-   "league": "Ligue 2",
-   "kickoff": "2026-10-24T12:00:00+00:00",
-   "home": "Dijon",
-   "away": "Rodez",
-   "fair": {
-    "home": 47.3,
-    "draw": 24.3,
-    "away": 28.3
-   },
-   "move": {
-    "home": 3.5,
-    "draw": -0.4,
-    "away": -2.9
-   },
-   "tracked_since": "2026-10-19T13:25:00+00:00",
-   "goals": {
-    "expected": 2.96,
-    "first": 2.95
    },
    "absences": {
     "home": 0,
@@ -1035,23 +1227,23 @@
    "home": "Como",
    "away": "Manchester United",
    "fair": {
-    "home": 44.2,
-    "draw": 25.3,
-    "away": 30.5
+    "home": 41.2,
+    "draw": 25.5,
+    "away": 33.3
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": -3.0,
+    "draw": 0.3,
+    "away": 2.7
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 2.95,
+    "expected": 3.09,
     "first": 2.95
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 9,
+    "away": 10
    },
    "read": null,
    "headline": null,
@@ -1065,23 +1257,23 @@
    "home": "Lille",
    "away": "Galatasaray",
    "fair": {
-    "home": 43.8,
-    "draw": 25.6,
-    "away": 30.6
+    "home": 44.1,
+    "draw": 25.8,
+    "away": 30.0
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": 0.3,
+    "draw": 0.2,
+    "away": -0.5
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 2.95,
+    "expected": 2.85,
     "first": 2.95
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 5,
+    "away": 7
    },
    "read": null,
    "headline": null,
@@ -1096,17 +1288,17 @@
    "away": "Athletic Club",
    "fair": {
     "home": 25.9,
-    "draw": 30.6,
-    "away": 43.6
+    "draw": 29.1,
+    "away": 45.0
    },
    "move": {
     "home": 0.6,
-    "draw": -0.2,
-    "away": -0.3
+    "draw": -1.7,
+    "away": 1.1
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.47,
+    "expected": 2.39,
     "first": 2.47
    },
    "absences": {
@@ -1125,23 +1317,23 @@
    "home": "Aston Villa",
    "away": "Viking",
    "fair": {
-    "home": 78.3,
-    "draw": 13.9,
-    "away": 7.8
+    "home": 76.8,
+    "draw": 14.5,
+    "away": 8.7
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": -1.5,
+    "draw": 0.6,
+    "away": 0.9
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 3.81,
+    "expected": 3.64,
     "first": 3.81
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 9,
+    "away": 8
    },
    "read": null,
    "headline": null,
@@ -1155,23 +1347,23 @@
    "home": "Bayern München",
    "away": "Arsenal",
    "fair": {
-    "home": 46.3,
-    "draw": 24.5,
-    "away": 29.2
+    "home": 45.8,
+    "draw": 24.7,
+    "away": 29.5
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": -0.4,
+    "draw": 0.1,
+    "away": 0.3
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 2.93,
+    "expected": 3.05,
     "first": 2.93
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 4,
+    "away": 3
    },
    "read": null,
    "headline": null,
@@ -1185,23 +1377,23 @@
    "home": "Real Betis",
    "away": "Feyenoord",
    "fair": {
-    "home": 62.1,
-    "draw": 19.8,
-    "away": 18.1
+    "home": 57.4,
+    "draw": 21.2,
+    "away": 21.4
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": -4.7,
+    "draw": 1.4,
+    "away": 3.3
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 3.47,
+    "expected": 3.45,
     "first": 3.47
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 4,
+    "away": 7
    },
    "read": null,
    "headline": null,
@@ -1215,23 +1407,23 @@
    "home": "Club Brugge KV",
    "away": "Lens",
    "fair": {
-    "home": 47.6,
-    "draw": 23.3,
-    "away": 29.1
+    "home": 50.6,
+    "draw": 22.8,
+    "away": 26.6
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": 3.0,
+    "draw": -0.5,
+    "away": -2.5
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 3.28,
+    "expected": 3.56,
     "first": 3.28
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 1,
+    "away": 6
    },
    "read": null,
    "headline": null,
@@ -1245,23 +1437,23 @@
    "home": "Inter",
    "away": "Shakhtar Donetsk",
    "fair": {
-    "home": 80.1,
-    "draw": 12.1,
+    "home": 79.7,
+    "draw": 12.5,
     "away": 7.8
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": -0.3,
+    "draw": 0.4,
+    "away": -0.0
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 3.85,
+    "expected": 3.75,
     "first": 3.85
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 4,
+    "away": 10
    },
    "read": null,
    "headline": null,
@@ -1275,23 +1467,23 @@
    "home": "Real Madrid",
    "away": "RB Leipzig",
    "fair": {
-    "home": 76.7,
-    "draw": 13.3,
-    "away": 10.0
+    "home": 78.0,
+    "draw": 13.0,
+    "away": 9.0
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": 1.3,
+    "draw": -0.3,
+    "away": -1.0
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 4.12,
+    "expected": 4.23,
     "first": 4.12
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 3,
+    "away": 4
    },
    "read": null,
    "headline": null,
@@ -1305,23 +1497,23 @@
    "home": "Sporting CP",
    "away": "Lask Linz",
    "fair": {
-    "home": 79.8,
-    "draw": 11.9,
-    "away": 8.2
+    "home": 77.7,
+    "draw": 13.5,
+    "away": 8.8
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": -2.1,
+    "draw": 1.5,
+    "away": 0.6
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 3.7,
+    "expected": 3.5,
     "first": 3.7
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 3,
+    "away": 5
    },
    "read": null,
    "headline": null,
@@ -1336,13 +1528,13 @@
    "away": "AZ Alkmaar",
    "fair": {
     "home": 17.1,
-    "draw": 21.1,
-    "away": 61.8
+    "draw": 21.0,
+    "away": 61.9
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": -0.0,
+    "draw": -0.1,
+    "away": 0.1
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
@@ -1350,8 +1542,8 @@
     "first": 3.04
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 4
    },
    "read": null,
    "headline": null,
@@ -1380,8 +1572,8 @@
     "first": 3.03
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 6,
+    "away": 6
    },
    "read": null,
    "headline": null,
@@ -1395,22 +1587,22 @@
    "home": "Ferencvarosi TC",
    "away": "Torreense",
    "fair": {
-    "home": 69.6,
-    "draw": 18.4,
-    "away": 12.0
+    "home": 70.7,
+    "draw": 17.7,
+    "away": 11.6
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": 1.1,
+    "draw": -0.7,
+    "away": -0.4
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 2.91,
+    "expected": 2.94,
     "first": 2.91
    },
    "absences": {
-    "home": 0,
+    "home": 8,
     "away": 0
    },
    "read": null,
@@ -1440,11 +1632,11 @@
     "first": 2.79
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 10,
+    "away": 1
    },
    "read": "2026-10-22-juventus-rennes",
-   "headline": "Juventus vs Rennes: the opening price, nothing more",
+   "headline": "Juventus 60.7% favourites at home to Rennes",
    "competition": "uel"
   },
   {
@@ -1455,14 +1647,14 @@
    "home": "Lech Poznan",
    "away": "Sunderland",
    "fair": {
-    "home": 20.4,
-    "draw": 23.1,
-    "away": 56.5
+    "home": 20.6,
+    "draw": 23.3,
+    "away": 56.1
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": 0.2,
+    "draw": 0.2,
+    "away": -0.4
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
@@ -1470,8 +1662,8 @@
     "first": 2.61
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 6,
+    "away": 9
    },
    "read": null,
    "headline": null,
@@ -1485,14 +1677,14 @@
    "home": "OFI",
    "away": "Bayer Leverkusen",
    "fair": {
-    "home": 8.7,
-    "draw": 13.7,
-    "away": 77.7
+    "home": 8.6,
+    "draw": 13.6,
+    "away": 77.8
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": -0.1,
+    "draw": -0.1,
+    "away": 0.1
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
@@ -1500,8 +1692,8 @@
     "first": 3.5
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 3,
+    "away": 9
    },
    "read": null,
    "headline": null,
@@ -1521,7 +1713,7 @@
    },
    "move": {
     "home": 0.0,
-    "draw": 0.0,
+    "draw": -0.0,
     "away": 0.0
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
@@ -1530,8 +1722,8 @@
     "first": 3.18
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 8,
+    "away": 3
    },
    "read": null,
    "headline": null,
@@ -1560,8 +1752,8 @@
     "first": 2.77
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 9,
+    "away": 2
    },
    "read": null,
    "headline": null,
@@ -1575,23 +1767,23 @@
    "home": "Beşiktaş",
    "away": "Crystal Palace",
    "fair": {
-    "home": 45.7,
+    "home": 46.0,
     "draw": 24.5,
-    "away": 29.8
+    "away": 29.5
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": 0.3,
+    "draw": 0.1,
+    "away": -0.3
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 3.04,
+    "expected": 3.01,
     "first": 3.04
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 3,
+    "away": 8
    },
    "read": null,
    "headline": null,
@@ -1605,14 +1797,14 @@
    "home": "Bournemouth",
    "away": "AC Milan",
    "fair": {
-    "home": 45.0,
-    "draw": 25.9,
-    "away": 29.1
+    "home": 46.0,
+    "draw": 25.8,
+    "away": 28.2
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": 1.0,
+    "draw": -0.2,
+    "away": -0.9
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
@@ -1620,8 +1812,8 @@
     "first": 2.76
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 7,
+    "away": 3
    },
    "read": null,
    "headline": null,
@@ -1635,23 +1827,23 @@
    "home": "Celje",
    "away": "Red Bull Salzburg",
    "fair": {
-    "home": 19.4,
-    "draw": 22.5,
-    "away": 58.1
+    "home": 18.7,
+    "draw": 22.0,
+    "away": 59.3
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": -0.7,
+    "draw": -0.5,
+    "away": 1.2
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 2.93,
+    "expected": 2.95,
     "first": 2.93
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 1,
+    "away": 7
    },
    "read": null,
    "headline": null,
@@ -1665,14 +1857,14 @@
    "home": "Celtic",
    "away": "Celta Vigo",
    "fair": {
-    "home": 35.6,
+    "home": 34.5,
     "draw": 27.8,
-    "away": 36.7
+    "away": 37.7
    },
    "move": {
-    "home": 0.0,
+    "home": -1.0,
     "draw": 0.0,
-    "away": 0.0
+    "away": 1.0
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
@@ -1680,8 +1872,8 @@
     "first": 2.6
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 5,
+    "away": 6
    },
    "read": null,
    "headline": null,
@@ -1710,8 +1902,8 @@
     "first": 3.14
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 4,
+    "away": 3
    },
    "read": null,
    "headline": null,
@@ -1740,8 +1932,8 @@
     "first": 2.7
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 6,
+    "away": 5
    },
    "read": null,
    "headline": null,
@@ -1770,8 +1962,8 @@
     "first": 2.88
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 4
    },
    "read": null,
    "headline": null,
@@ -1785,14 +1977,14 @@
    "home": "Olympiakos Piraeus",
    "away": "Sparta Praha",
    "fair": {
-    "home": 63.7,
-    "draw": 20.8,
+    "home": 63.8,
+    "draw": 20.7,
     "away": 15.5
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": 0.2,
+    "draw": -0.1,
+    "away": -0.1
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
@@ -1800,8 +1992,8 @@
     "first": 2.72
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 8,
+    "away": 8
    },
    "read": null,
    "headline": null,
@@ -1815,23 +2007,23 @@
    "home": "Omonia Nicosia",
    "away": "Benfica",
    "fair": {
-    "home": 12.3,
-    "draw": 18.1,
-    "away": 69.6
+    "home": 12.0,
+    "draw": 17.9,
+    "away": 70.1
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": -0.3,
+    "draw": -0.2,
+    "away": 0.5
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 2.96,
+    "expected": 2.98,
     "first": 2.96
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 3,
+    "away": 3
    },
    "read": null,
    "headline": null,
@@ -1860,8 +2052,8 @@
     "first": 2.73
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 3,
+    "away": 6
    },
    "read": null,
    "headline": null,
@@ -1875,18 +2067,18 @@
    "home": "Ajax",
    "away": "Atalanta",
    "fair": {
-    "home": 43.9,
-    "draw": 25.8,
-    "away": 30.4
+    "home": 46.2,
+    "draw": 25.1,
+    "away": 28.6
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": 2.4,
+    "draw": -0.6,
+    "away": -1.7
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 2.91,
+    "expected": 2.93,
     "first": 2.91
    },
    "absences": {
@@ -1905,18 +2097,18 @@
    "home": "Monaco",
    "away": "SC Freiburg",
    "fair": {
-    "home": 42.1,
-    "draw": 26.5,
-    "away": 31.5
+    "home": 41.8,
+    "draw": 26.9,
+    "away": 31.3
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": -0.3,
+    "draw": 0.5,
+    "away": -0.2
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 2.75,
+    "expected": 2.67,
     "first": 2.75
    },
    "absences": {
@@ -1935,23 +2127,23 @@
    "home": "Alanyaspor",
    "away": "Kocaelispor",
    "fair": {
-    "home": 48.0,
-    "draw": 28.7,
-    "away": 23.3
+    "home": 47.7,
+    "draw": 29.7,
+    "away": 22.6
    },
    "move": {
-    "home": -2.0,
-    "draw": 0.6,
-    "away": 1.3
+    "home": -2.2,
+    "draw": 1.6,
+    "away": 0.6
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.18,
+    "expected": 2.17,
     "first": 2.2
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 1,
+    "away": 4
    },
    "read": null,
    "headline": null,
@@ -1980,7 +2172,7 @@
     "first": 3.41
    },
    "absences": {
-    "home": 0,
+    "home": 1,
     "away": 0
    },
    "read": null,
@@ -1995,12 +2187,12 @@
    "home": "VfB Stuttgart",
    "away": "Borussia Mönchengladbach",
    "fair": {
-    "home": 69.8,
+    "home": 69.9,
     "draw": 16.4,
     "away": 13.7
    },
    "move": {
-    "home": 1.9,
+    "home": 2.0,
     "draw": -0.7,
     "away": -1.3
    },
@@ -2010,8 +2202,8 @@
     "first": 3.79
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 4,
+    "away": 9
    },
    "read": null,
    "headline": null,
@@ -2025,26 +2217,26 @@
    "home": "Torino",
    "away": "Monza",
    "fair": {
-    "home": 44.2,
-    "draw": 27.7,
-    "away": 28.1
+    "home": 45.4,
+    "draw": 27.9,
+    "away": 26.7
    },
    "move": {
-    "home": -0.6,
-    "draw": 0.7,
-    "away": -0.1
+    "home": 0.6,
+    "draw": 0.9,
+    "away": -1.5
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.43,
+    "expected": 2.47,
     "first": 2.44
    },
    "absences": {
-    "home": 2,
-    "away": 0
+    "home": 4,
+    "away": 5
    },
-   "read": "2026-10-23-torino-monza",
-   "headline": "Torino vs Monza: flat prices, single snapshot, thin picture",
+   "read": null,
+   "headline": null,
    "competition": "135"
   },
   {
@@ -2055,14 +2247,14 @@
    "home": "Stade Brestois 29",
    "away": "Nice",
    "fair": {
-    "home": 42.6,
-    "draw": 29.0,
-    "away": 28.4
+    "home": 42.2,
+    "draw": 28.8,
+    "away": 29.0
    },
    "move": {
-    "home": 0.1,
-    "draw": 0.5,
-    "away": -0.6
+    "home": -0.2,
+    "draw": 0.3,
+    "away": -0.1
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
@@ -2070,8 +2262,8 @@
     "first": 2.84
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 3,
+    "away": 5
    },
    "read": null,
    "headline": null,
@@ -2130,8 +2322,8 @@
     "first": 2.76
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 3
    },
    "read": "2026-10-23-ipswich-nottingham-forest",
    "headline": "Ipswich v Forest: Forest favoured, market barely moves",
@@ -2160,8 +2352,8 @@
     "first": 3.14
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 1,
+    "away": 3
    },
    "read": null,
    "headline": null,
@@ -2175,23 +2367,23 @@
    "home": "Alaves",
    "away": "Malaga",
    "fair": {
-    "home": 54.5,
-    "draw": 25.9,
-    "away": 19.6
+    "home": 54.9,
+    "draw": 25.7,
+    "away": 19.4
    },
    "move": {
-    "home": 1.2,
-    "draw": -0.4,
-    "away": -0.7
+    "home": 1.6,
+    "draw": -0.7,
+    "away": -0.9
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.36,
+    "expected": 2.37,
     "first": 2.34
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 4
    },
    "read": null,
    "headline": null,
@@ -2205,18 +2397,18 @@
    "home": "Vitória SC",
    "away": "Maritimo",
    "fair": {
-    "home": 61.4,
-    "draw": 23.1,
-    "away": 15.5
+    "home": 59.5,
+    "draw": 24.1,
+    "away": 16.4
    },
    "move": {
-    "home": -0.9,
-    "draw": 0.7,
-    "away": 0.2
+    "home": -2.8,
+    "draw": 1.6,
+    "away": 1.1
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.47,
+    "expected": 2.43,
     "first": 2.55
    },
    "absences": {
@@ -2284,7 +2476,7 @@
     "away": 0
    },
    "read": "2026-10-24-aston-villa-manchester-city",
-   "headline": "City 55.7%: a quiet market with one early move",
+   "headline": "Manchester City 55.7% away favourites at Aston Villa",
    "competition": "39"
   },
   {
@@ -2385,18 +2577,18 @@
    "home": "Rayo Vallecano",
    "away": "Elche",
    "fair": {
-    "home": 54.0,
-    "draw": 24.8,
-    "away": 21.2
+    "home": 54.6,
+    "draw": 24.5,
+    "away": 20.9
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": 0.6,
+    "draw": -0.3,
+    "away": -0.3
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.6,
+    "expected": 2.61,
     "first": 2.6
    },
    "absences": {
@@ -2445,18 +2637,18 @@
    "home": "Como",
    "away": "Sassuolo",
    "fair": {
-    "home": 65.2,
-    "draw": 20.8,
-    "away": 14.0
+    "home": 61.5,
+    "draw": 21.2,
+    "away": 17.3
    },
    "move": {
-    "home": -1.2,
-    "draw": 0.4,
-    "away": 0.8
+    "home": -5.0,
+    "draw": 0.9,
+    "away": 4.1
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 3.25,
+    "expected": 3.22,
     "first": 3.23
    },
    "absences": {
@@ -2955,18 +3147,18 @@
    "home": "Racing Santander",
    "away": "Espanyol",
    "fair": {
-    "home": 38.3,
-    "draw": 26.3,
-    "away": 35.4
+    "home": 40.7,
+    "draw": 26.2,
+    "away": 33.2
    },
    "move": {
-    "home": 0.0,
-    "draw": -0.1,
-    "away": 0.0
+    "home": 2.5,
+    "draw": -0.2,
+    "away": -2.3
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.81,
+    "expected": 2.83,
     "first": 2.79
    },
    "absences": {
@@ -2985,18 +3177,18 @@
    "home": "Utrecht",
    "away": "PEC Zwolle",
    "fair": {
-    "home": 57.4,
-    "draw": 22.1,
-    "away": 20.6
+    "home": 56.3,
+    "draw": 22.5,
+    "away": 21.2
    },
    "move": {
-    "home": -0.9,
-    "draw": 0.1,
-    "away": 0.7
+    "home": -1.9,
+    "draw": 0.6,
+    "away": 1.3
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 3.17,
+    "expected": 3.14,
     "first": 3.28
    },
    "absences": {
@@ -3006,36 +3198,6 @@
    "read": null,
    "headline": null,
    "competition": "88"
-  },
-  {
-   "id": 1575518,
-   "slug": "2026-10-24-alverca-arouca",
-   "league": "Primeira Liga",
-   "kickoff": "2026-10-24T14:30:00+00:00",
-   "home": "Alverca",
-   "away": "Arouca",
-   "fair": {
-    "home": 44.0,
-    "draw": 30.4,
-    "away": 25.6
-   },
-   "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
-   },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
-   "goals": {
-    "expected": 2.49,
-    "first": 2.49
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null,
-   "competition": "94"
   },
   {
    "id": 1575520,
@@ -3075,12 +3237,12 @@
    "home": "Toulouse",
    "away": "Estac Troyes",
    "fair": {
-    "home": 58.4,
-    "draw": 22.7,
+    "home": 58.3,
+    "draw": 22.8,
     "away": 18.9
    },
    "move": {
-    "home": 0.1,
+    "home": -0.0,
     "draw": 0.1,
     "away": -0.1
    },
@@ -3124,7 +3286,7 @@
     "away": 1
    },
    "read": "2026-10-24-napoli-as-roma",
-   "headline": "Napoli vs Roma: a near coin-flip on the market",
+   "headline": "Napoli vs Roma: near-even match, Roma narrow favourites",
    "competition": "135"
   },
   {
@@ -3184,7 +3346,7 @@
     "away": 0
    },
    "read": "2026-10-24-chelsea-tottenham",
-   "headline": "Chelsea vs Tottenham: the market sees a 3-goal game",
+   "headline": "Chelsea 54.9%: clear favourites by three-quarters of a goal",
    "competition": "39"
   },
   {
@@ -3195,14 +3357,14 @@
    "home": "Valencia",
    "away": "Villarreal",
    "fair": {
-    "home": 30.6,
-    "draw": 26.1,
-    "away": 43.4
+    "home": 29.8,
+    "draw": 25.8,
+    "away": 44.4
    },
    "move": {
-    "home": 0.1,
-    "draw": 0.1,
-    "away": -0.2
+    "home": -0.7,
+    "draw": -0.1,
+    "away": 0.8
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
@@ -3255,14 +3417,14 @@
    "home": "Willem II",
    "away": "Cambuur",
    "fair": {
-    "home": 36.8,
+    "home": 38.1,
     "draw": 25.3,
-    "away": 37.9
+    "away": 36.6
    },
    "move": {
-    "home": -3.9,
+    "home": -2.6,
     "draw": -0.7,
-    "away": 4.5
+    "away": 3.3
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
@@ -3278,6 +3440,36 @@
    "competition": "88"
   },
   {
+   "id": 1575518,
+   "slug": "2026-10-24-alverca-arouca",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-24T17:00:00+00:00",
+   "home": "Alverca",
+   "away": "Arouca",
+   "fair": {
+    "home": 44.0,
+    "draw": 30.4,
+    "away": 25.6
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.49,
+    "first": 2.49
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "94"
+  },
+  {
    "id": 1550162,
    "slug": "2026-10-24-lazio-parma",
    "league": "Serie A",
@@ -3285,18 +3477,18 @@
    "home": "Lazio",
    "away": "Parma",
    "fair": {
-    "home": 66.1,
-    "draw": 21.3,
-    "away": 12.7
+    "home": 66.8,
+    "draw": 20.9,
+    "away": 12.3
    },
    "move": {
-    "home": 3.1,
-    "draw": -1.5,
-    "away": -1.6
+    "home": 3.8,
+    "draw": -1.9,
+    "away": -2.0
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.52,
+    "expected": 2.53,
     "first": 2.43
    },
    "absences": {
@@ -3315,14 +3507,14 @@
    "home": "Lens",
    "away": "Paris FC",
    "fair": {
-    "home": 40.0,
+    "home": 40.8,
     "draw": 26.2,
-    "away": 33.7
+    "away": 33.0
    },
    "move": {
-    "home": -3.3,
+    "home": -2.5,
     "draw": 0.5,
-    "away": 2.7
+    "away": 2.0
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
@@ -3345,18 +3537,18 @@
    "home": "ADO Den Haag",
    "away": "Heerenveen",
    "fair": {
-    "home": 28.2,
-    "draw": 24.9,
-    "away": 46.9
+    "home": 27.6,
+    "draw": 24.8,
+    "away": 47.6
    },
    "move": {
-    "home": -1.6,
-    "draw": 0.0,
-    "away": 1.6
+    "home": -2.2,
+    "draw": -0.1,
+    "away": 2.3
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 3.2,
+    "expected": 3.21,
     "first": 3.28
    },
    "absences": {
@@ -3375,18 +3567,18 @@
    "home": "Atletico Madrid",
    "away": "Deportivo La Coruna",
    "fair": {
-    "home": 74.3,
-    "draw": 16.1,
-    "away": 9.5
+    "home": 74.2,
+    "draw": 16.4,
+    "away": 9.4
    },
    "move": {
-    "home": -1.5,
-    "draw": 0.8,
-    "away": 0.7
+    "home": -1.6,
+    "draw": 1.1,
+    "away": 0.5
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 3.05,
+    "expected": 2.96,
     "first": 3.07
    },
    "absences": {
@@ -3495,18 +3687,18 @@
    "home": "Genk",
    "away": "Standard Liege",
    "fair": {
-    "home": 53.9,
-    "draw": 25.8,
-    "away": 20.4
+    "home": 54.2,
+    "draw": 25.7,
+    "away": 20.1
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": 0.4,
+    "draw": -0.1,
+    "away": -0.3
    },
    "tracked_since": "2026-10-19T04:26:00+00:00",
    "goals": {
-    "expected": 2.98,
+    "expected": 2.99,
     "first": 2.98
    },
    "absences": {
@@ -3525,18 +3717,18 @@
    "home": "Athletic Club",
    "away": "Getafe",
    "fair": {
-    "home": 58.4,
-    "draw": 23.4,
-    "away": 18.1
+    "home": 58.6,
+    "draw": 23.6,
+    "away": 17.8
    },
    "move": {
-    "home": 0.4,
-    "draw": 0.5,
-    "away": -0.9
+    "home": 0.5,
+    "draw": 0.7,
+    "away": -1.2
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.15,
+    "expected": 2.14,
     "first": 2.2
    },
    "absences": {
@@ -3585,18 +3777,18 @@
    "home": "NEC Nijmegen",
    "away": "Groningen",
    "fair": {
-    "home": 41.4,
-    "draw": 24.2,
-    "away": 34.4
+    "home": 41.7,
+    "draw": 23.7,
+    "away": 34.6
    },
    "move": {
-    "home": -4.2,
-    "draw": -0.4,
-    "away": 4.5
+    "home": -3.8,
+    "draw": -0.9,
+    "away": 4.8
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 3.23,
+    "expected": 3.35,
     "first": 3.14
    },
    "absences": {
@@ -3615,14 +3807,14 @@
    "home": "PSV Eindhoven",
    "away": "Feyenoord",
    "fair": {
-    "home": 47.7,
-    "draw": 21.8,
-    "away": 30.5
+    "home": 47.3,
+    "draw": 21.9,
+    "away": 30.8
    },
    "move": {
-    "home": -0.0,
-    "draw": -0.4,
-    "away": 0.5
+    "home": -0.5,
+    "draw": -0.3,
+    "away": 0.8
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
@@ -3645,14 +3837,14 @@
    "home": "Atalanta",
    "away": "Frosinone",
    "fair": {
-    "home": 53.9,
-    "draw": 22.5,
-    "away": 23.6
+    "home": 52.8,
+    "draw": 22.9,
+    "away": 24.3
    },
    "move": {
-    "home": -2.2,
-    "draw": 0.1,
-    "away": 2.1
+    "home": -3.2,
+    "draw": 0.5,
+    "away": 2.8
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
@@ -3675,14 +3867,14 @@
    "home": "Genoa",
    "away": "Venezia",
    "fair": {
-    "home": 45.2,
+    "home": 45.0,
     "draw": 30.1,
-    "away": 24.7
+    "away": 24.9
    },
    "move": {
-    "home": -1.2,
-    "draw": 0.5,
-    "away": 0.7
+    "home": -1.4,
+    "draw": 0.6,
+    "away": 0.8
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
@@ -3705,18 +3897,18 @@
    "home": "Monaco",
    "away": "Lille",
    "fair": {
-    "home": 44.2,
-    "draw": 29.8,
-    "away": 26.0
+    "home": 44.7,
+    "draw": 30.0,
+    "away": 25.2
    },
    "move": {
-    "home": -0.3,
-    "draw": 0.3,
-    "away": -0.1
+    "home": 0.3,
+    "draw": 0.6,
+    "away": -0.8
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.68,
+    "expected": 2.6,
     "first": 2.75
    },
    "absences": {
@@ -3736,13 +3928,13 @@
    "away": "Newcastle",
    "fair": {
     "home": 32.7,
-    "draw": 26.6,
-    "away": 40.7
+    "draw": 26.5,
+    "away": 40.8
    },
    "move": {
     "home": -3.1,
-    "draw": -0.1,
-    "away": 3.2
+    "draw": -0.2,
+    "away": 3.3
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
@@ -3765,8 +3957,8 @@
    "home": "Hull City",
    "away": "Brentford",
    "fair": {
-    "home": 21.2,
-    "draw": 24.0,
+    "home": 21.3,
+    "draw": 23.9,
     "away": 54.8
    },
    "move": {
@@ -3776,7 +3968,7 @@
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.8,
+    "expected": 2.82,
     "first": 2.75
    },
    "absences": {
@@ -3795,18 +3987,18 @@
    "home": "Liverpool",
    "away": "Brighton",
    "fair": {
-    "home": 44.7,
-    "draw": 24.3,
-    "away": 31.0
+    "home": 45.3,
+    "draw": 24.4,
+    "away": 30.4
    },
    "move": {
-    "home": -1.3,
-    "draw": 0.3,
-    "away": 1.0
+    "home": -0.8,
+    "draw": 0.4,
+    "away": 0.4
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.96,
+    "expected": 3.0,
     "first": 2.97
    },
    "absences": {
@@ -3825,18 +4017,18 @@
    "home": "Manchester United",
    "away": "Bournemouth",
    "fair": {
-    "home": 51.3,
-    "draw": 24.7,
-    "away": 24.0
+    "home": 50.8,
+    "draw": 25.0,
+    "away": 24.2
    },
    "move": {
-    "home": -0.1,
-    "draw": 0.1,
-    "away": -0.0
+    "home": -0.5,
+    "draw": 0.4,
+    "away": 0.1
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.95,
+    "expected": 2.92,
     "first": 2.97
    },
    "absences": {
@@ -3915,18 +4107,18 @@
    "home": "Celta Vigo",
    "away": "Real Betis",
    "fair": {
-    "home": 34.5,
-    "draw": 27.1,
-    "away": 38.4
+    "home": 34.4,
+    "draw": 27.4,
+    "away": 38.2
    },
    "move": {
     "home": -0.1,
-    "draw": -0.0,
-    "away": 0.1
+    "draw": 0.3,
+    "away": -0.2
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.61,
+    "expected": 2.57,
     "first": 2.61
    },
    "absences": {
@@ -3945,18 +4137,18 @@
    "home": "Estoril",
    "away": "Moreirense",
    "fair": {
-    "home": 51.3,
-    "draw": 25.7,
-    "away": 23.0
+    "home": 50.6,
+    "draw": 26.0,
+    "away": 23.5
    },
    "move": {
-    "home": 2.2,
-    "draw": -0.9,
-    "away": -1.3
+    "home": 1.4,
+    "draw": -0.6,
+    "away": -0.8
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.52,
+    "expected": 2.51,
     "first": 2.45
    },
    "absences": {
@@ -3975,18 +4167,18 @@
    "home": "Sparta Rotterdam",
    "away": "Ajax",
    "fair": {
-    "home": 19.0,
-    "draw": 20.2,
-    "away": 60.7
+    "home": 18.6,
+    "draw": 20.0,
+    "away": 61.5
    },
    "move": {
-    "home": 0.8,
-    "draw": 0.4,
-    "away": -1.2
+    "home": 0.3,
+    "draw": 0.1,
+    "away": -0.5
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 3.46,
+    "expected": 3.47,
     "first": 3.47
    },
    "absences": {
@@ -4035,18 +4227,18 @@
    "home": "Angers",
    "away": "Lorient",
    "fair": {
-    "home": 33.9,
-    "draw": 29.4,
-    "away": 36.7
+    "home": 31.6,
+    "draw": 29.1,
+    "away": 39.3
    },
    "move": {
-    "home": -2.7,
-    "draw": -0.1,
-    "away": 2.8
+    "home": -4.9,
+    "draw": -0.5,
+    "away": 5.4
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.39,
+    "expected": 2.4,
     "first": 2.39
    },
    "absences": {
@@ -4065,18 +4257,18 @@
    "home": "Auxerre",
    "away": "Le Mans",
    "fair": {
-    "home": 45.0,
-    "draw": 26.1,
+    "home": 45.4,
+    "draw": 25.7,
     "away": 28.9
    },
    "move": {
-    "home": 0.1,
-    "draw": -0.2,
+    "home": 0.5,
+    "draw": -0.6,
     "away": 0.1
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.75,
+    "expected": 2.82,
     "first": 2.72
    },
    "absences": {
@@ -4095,18 +4287,18 @@
    "home": "Marseille",
    "away": "Le Havre",
    "fair": {
-    "home": 60.2,
-    "draw": 20.0,
-    "away": 19.8
+    "home": 60.6,
+    "draw": 19.7,
+    "away": 19.7
    },
    "move": {
-    "home": -0.9,
-    "draw": -0.2,
+    "home": -0.5,
+    "draw": -0.5,
     "away": 1.0
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.99,
+    "expected": 3.05,
     "first": 2.96
    },
    "absences": {
@@ -4125,14 +4317,14 @@
    "home": "Rennes",
    "away": "Strasbourg",
    "fair": {
-    "home": 54.8,
-    "draw": 21.6,
-    "away": 23.6
+    "home": 54.5,
+    "draw": 21.7,
+    "away": 23.8
    },
    "move": {
-    "home": -0.1,
-    "draw": -0.3,
-    "away": 0.4
+    "home": -0.3,
+    "draw": -0.2,
+    "away": 0.5
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
@@ -4155,18 +4347,18 @@
    "home": "Sunderland",
    "away": "Leeds",
    "fair": {
-    "home": 32.4,
+    "home": 32.0,
     "draw": 30.1,
-    "away": 37.5
+    "away": 37.8
    },
    "move": {
-    "home": -1.5,
-    "draw": -0.1,
-    "away": 1.6
+    "home": -1.9,
+    "draw": -0.0,
+    "away": 1.9
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.32,
+    "expected": 2.31,
     "first": 2.33
    },
    "absences": {
@@ -4185,18 +4377,18 @@
    "home": "SC Freiburg",
    "away": "Bayern München",
    "fair": {
-    "home": 14.6,
-    "draw": 16.0,
-    "away": 69.4
+    "home": 14.7,
+    "draw": 16.1,
+    "away": 69.3
    },
    "move": {
-    "home": -0.9,
+    "home": -0.8,
     "draw": -0.4,
-    "away": 1.3
+    "away": 1.2
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 3.92,
+    "expected": 3.9,
     "first": 4.0
    },
    "absences": {
@@ -4245,18 +4437,18 @@
    "home": "Gent",
    "away": "Anderlecht",
    "fair": {
-    "home": 38.6,
-    "draw": 31.4,
-    "away": 30.1
+    "home": 38.1,
+    "draw": 31.1,
+    "away": 30.7
    },
    "move": {
-    "home": 1.5,
-    "draw": -0.2,
-    "away": -1.2
+    "home": 1.0,
+    "draw": -0.5,
+    "away": -0.5
    },
    "tracked_since": "2026-10-19T04:26:00+00:00",
    "goals": {
-    "expected": 2.39,
+    "expected": 2.4,
     "first": 2.39
    },
    "absences": {
@@ -4276,17 +4468,17 @@
    "away": "Levante",
    "fair": {
     "home": 54.9,
-    "draw": 23.3,
-    "away": 21.8
+    "draw": 23.2,
+    "away": 21.9
    },
    "move": {
     "home": 0.3,
-    "draw": -0.2,
-    "away": -0.1
+    "draw": -0.3,
+    "away": -0.0
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.93,
+    "expected": 2.92,
     "first": 2.9
    },
    "absences": {
@@ -4395,18 +4587,18 @@
    "home": "AZ Alkmaar",
    "away": "Twente",
    "fair": {
-    "home": 43.8,
-    "draw": 24.8,
-    "away": 31.4
+    "home": 43.5,
+    "draw": 25.2,
+    "away": 31.3
    },
    "move": {
-    "home": 2.0,
-    "draw": 0.1,
-    "away": -1.9
+    "home": 1.7,
+    "draw": 0.5,
+    "away": -2.0
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 3.24,
+    "expected": 3.15,
     "first": 3.14
    },
    "absences": {
@@ -4455,18 +4647,18 @@
    "home": "Paris Saint Germain",
    "away": "Lyon",
    "fair": {
-    "home": 70.7,
-    "draw": 16.3,
-    "away": 13.0
+    "home": 67.3,
+    "draw": 17.5,
+    "away": 15.1
    },
    "move": {
-    "home": 2.5,
-    "draw": -1.1,
-    "away": -1.4
+    "home": -0.8,
+    "draw": 0.2,
+    "away": 0.7
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 3.5,
+    "expected": 3.44,
     "first": 3.47
    },
    "absences": {
@@ -4485,18 +4677,18 @@
    "home": "Barcelona",
    "away": "Real Madrid",
    "fair": {
-    "home": 60.4,
-    "draw": 16.9,
-    "away": 22.7
+    "home": 59.4,
+    "draw": 16.5,
+    "away": 24.1
    },
    "move": {
-    "home": -2.6,
-    "draw": -0.2,
-    "away": 2.9
+    "home": -3.6,
+    "draw": -0.6,
+    "away": 4.2
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 4.03,
+    "expected": 4.18,
     "first": 4.03
    },
    "absences": {
@@ -4504,7 +4696,7 @@
     "away": 0
    },
    "read": "2026-10-25-barcelona-real-madrid",
-   "headline": "Clásico: a small trim to Barcelona, a steady goals line",
+   "headline": "Barcelona 59.4% favourites, but Madrid are closing the gap",
    "competition": "140"
   },
   {
@@ -4515,12 +4707,12 @@
    "home": "Sporting CP",
    "away": "Academico Viseu",
    "fair": {
-    "home": 75.8,
-    "draw": 15.4,
-    "away": 8.7
+    "home": 76.2,
+    "draw": 15.3,
+    "away": 8.6
    },
    "move": {
-    "home": -4.4,
+    "home": -4.0,
     "draw": 2.1,
     "away": 2.4
    },
@@ -4545,18 +4737,18 @@
    "home": "Beşiktaş",
    "away": "Başakşehir",
    "fair": {
-    "home": 69.5,
-    "draw": 17.3,
-    "away": 13.2
+    "home": 68.2,
+    "draw": 18.1,
+    "away": 13.8
    },
    "move": {
-    "home": 3.5,
-    "draw": -2.1,
-    "away": -1.4
+    "home": 2.2,
+    "draw": -1.3,
+    "away": -0.9
    },
    "tracked_since": "2026-10-19T19:17:00+00:00",
    "goals": {
-    "expected": 3.4,
+    "expected": 3.37,
     "first": 3.23
    },
    "absences": {
@@ -4575,14 +4767,14 @@
    "home": "Rizespor",
    "away": "Trabzonspor",
    "fair": {
-    "home": 29.5,
-    "draw": 25.4,
-    "away": 45.1
+    "home": 29.6,
+    "draw": 25.1,
+    "away": 45.3
    },
    "move": {
-    "home": 1.5,
-    "draw": 0.3,
-    "away": -1.8
+    "home": 1.6,
+    "draw": 0.0,
+    "away": -1.6
    },
    "tracked_since": "2026-10-19T19:17:00+00:00",
    "goals": {
@@ -4605,18 +4797,18 @@
    "home": "Galatasaray",
    "away": "Fenerbahçe",
    "fair": {
-    "home": 41.6,
+    "home": 42.5,
     "draw": 25.5,
-    "away": 32.9
+    "away": 32.1
    },
    "move": {
-    "home": -0.4,
-    "draw": -0.5,
-    "away": 0.9
+    "home": 0.5,
+    "draw": -0.6,
+    "away": 0.1
    },
    "tracked_since": "2026-10-19T16:24:00+00:00",
    "goals": {
-    "expected": 3.14,
+    "expected": 3.15,
     "first": null
    },
    "absences": {
@@ -4636,13 +4828,13 @@
    "away": "Benfica",
    "fair": {
     "home": 11.2,
-    "draw": 20.9,
-    "away": 67.7
+    "draw": 21.0,
+    "away": 67.4
    },
    "move": {
     "home": -1.0,
-    "draw": 0.1,
-    "away": 0.5
+    "draw": 0.2,
+    "away": 0.3
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
@@ -4665,18 +4857,18 @@
    "home": "Sevilla",
    "away": "Osasuna",
    "fair": {
-    "home": 49.3,
-    "draw": 27.4,
-    "away": 23.3
+    "home": 49.7,
+    "draw": 28.2,
+    "away": 22.1
    },
    "move": {
-    "home": 0.5,
-    "draw": -0.5,
-    "away": 0.0
+    "home": 0.9,
+    "draw": 0.3,
+    "away": -1.2
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.33,
+    "expected": 2.24,
     "first": 2.26
    },
    "absences": {
@@ -4725,14 +4917,14 @@
    "home": "AS Roma",
    "away": "Cagliari",
    "fair": {
-    "home": 70.2,
-    "draw": 20.0,
-    "away": 9.8
+    "home": 70.7,
+    "draw": 19.7,
+    "away": 9.6
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": 0.4,
+    "draw": -0.2,
+    "away": -0.2
    },
    "tracked_since": "2026-10-19T04:26:00+00:00",
    "goals": {
@@ -4875,18 +5067,18 @@
    "home": "Genoa",
    "away": "Juventus",
    "fair": {
-    "home": 17.3,
-    "draw": 25.0,
-    "away": 57.7
+    "home": 17.0,
+    "draw": 24.5,
+    "away": 58.6
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": -0.3,
+    "draw": -0.5,
+    "away": 0.8
    },
    "tracked_since": "2026-10-19T04:26:00+00:00",
    "goals": {
-    "expected": 2.37,
+    "expected": 2.38,
     "first": 2.37
    },
    "absences": {
@@ -4905,14 +5097,14 @@
    "home": "Monza",
    "away": "Napoli",
    "fair": {
-    "home": 22.7,
-    "draw": 25.3,
-    "away": 51.9
+    "home": 25.6,
+    "draw": 24.6,
+    "away": 49.8
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": 2.8,
+    "draw": -0.7,
+    "away": -2.1
    },
    "tracked_since": "2026-10-19T04:26:00+00:00",
    "goals": {
@@ -4935,10 +5127,36 @@
    "home": "Aston Villa",
    "away": "Manchester City",
    "kickoff": "2026-10-24T11:30:00+00:00",
-   "headline": "City 55.7%: a quiet market with one early move",
-   "summary": "Manchester City are the clear favourite: 55.7% fair chance to win, with the draw at 22.6% and Aston Villa at 21.6%. The 1X2 market has been flat for the last 24 hours. The handicap sits at +0.75, and the fair goal total is 3.09. The only non-flat number is Over 3.0 goals at the sharp market: it went from 50.3% to 52.6% inside the first 27 minutes of our tracking, settled back to 52.2% and has not moved in the 45 hours since. With only 7 price snapshots, we cannot say who moved first. No injury news is logged for either side, and the true market opening is unknown.",
-   "voices": {},
-   "video_title": "City 55.7%: a still market, one early flicker"
+   "headline": "Manchester City 55.7% away favourites at Aston Villa",
+   "summary": "Manchester City are clear favourites at Aston Villa in Saturday's Premier League game, 55.7% to win. The market rates City about three-quarters of a goal better than Villa, a handicap line of 0.77. The draw is 22.6%, rated above a Villa win at 21.6%, so a tight Villa Park is seen as more likely than a home victory. Goals are the other part of the picture: the total is 3.09, Over 3.0 has moved from 50.3% to 52.2%, and both teams to score is 60.5%. An open, high-scoring game with City on top.",
+   "read": "Manchester City are clear favourites at Aston Villa, 55.7% to win and rated about three-quarters of a goal the better side. The market expects a high-scoring game: the goals line sits above three, Over 3.0 has shortened to 52.2%, and both teams to score is 60.5%.",
+   "facts": [
+    {
+     "fact": "Manchester City are 55.7% to win at Aston Villa.",
+     "meaning": "clear away favourites, more likely than not to take the three points"
+    },
+    {
+     "fact": "The market rates City about three-quarters of a goal better than Villa, with the handicap fair line at 0.77.",
+     "meaning": "Villa need a +0.75 goal head start for the teams to be seen as level"
+    },
+    {
+     "fact": "The draw is 22.6%, priced above a Villa win at 21.6%.",
+     "meaning": "a stalemate is seen as more likely than a home victory"
+    },
+    {
+     "fact": "The goals line is set at 3.09.",
+     "meaning": "just over three goals expected — a high-scoring game is the market's view"
+    },
+    {
+     "fact": "Over 3.0 has shortened from 50.3% to 52.2% in recent days.",
+     "meaning": "money has arrived on goals, and the goals line has crept up with it"
+    },
+    {
+     "fact": "Both teams to score is 60.5%.",
+     "meaning": "more likely than not that both sides find the net"
+    }
+   ],
+   "video_title": "City visit Villa: 3.09 goals expected"
   },
   {
    "slug": "2026-10-24-chelsea-tottenham",
@@ -4946,10 +5164,44 @@
    "home": "Chelsea",
    "away": "Tottenham",
    "kickoff": "2026-10-24T16:30:00+00:00",
-   "headline": "Chelsea vs Tottenham: the market sees a 3-goal game",
-   "summary": "The market makes Chelsea clear favourites at 54.9% fair chance, the bookmaker's margin removed, with the draw at 22.7% and Tottenham at 22.5%. The handicap is quoted at -0.75 goals, with the computed fair line at -0.73, so the market rates Chelsea about three-quarters of a goal better. Since tracking started, Chelsea's 1X2 chance moved 2.4 points and the handicap fair line moved from -0.63 to -0.73. Both moves fall inside the gap between our first two snapshots, across 7 snapshots and 45.9 hours, and the true opening price is unknown. On goals, Over 3.0 is 51.2% fair and both teams to score is 60.6%, low-confidence context. The injury feed is empty, which is absence of data, not proof of full availability.",
-   "voices": {},
-   "video_title": "Chelsea vs Tottenham: market sees a 3-goal game"
+   "headline": "Chelsea 54.9%: clear favourites by three-quarters of a goal",
+   "summary": "Chelsea's win chance rose from 52.5% to 54.9% in recent days, and they are clear favourites against Tottenham at Stamford Bridge in the Premier League. The market rates Chelsea about three-quarters of a goal better, a handicap of -0.75. Tottenham are 22.5% and the draw 22.7%, both well behind the home side. Over 3.0 goals is 51.2% and both teams to score is 60.6%, so an open London derby is expected.",
+   "read": "Chelsea are clear favourites at 54.9%, rated about three-quarters of a goal better than Tottenham, and their chance has strengthened from 52.5% in recent days while Spurs slipped to 22.5%. The market expects an open derby: the goal line sits on three with Over at 51.2%, Over 2.5 is 61.1% and both teams to score comes in at 60.6%.",
+   "facts": [
+    {
+     "fact": "Chelsea are 54.9% to win the London derby.",
+     "meaning": "clear favourites — more likely than not to take the three points"
+    },
+    {
+     "fact": "Chelsea's win chance rose from 52.5% to 54.9% in recent days.",
+     "meaning": "money came for the home side, with Tottenham dropping from 24.2% to 22.5%"
+    },
+    {
+     "fact": "Chelsea are rated about three-quarters of a goal better than Tottenham, at a -0.75 handicap.",
+     "meaning": "a one-goal Chelsea win only half-wins that handicap, so the market wants a two-goal margin to be comfortable"
+    },
+    {
+     "fact": "Over 3.0 goals is 51.2% — the goal line sits right on three.",
+     "meaning": "three goals is a coin flip; the market expects an open derby rather than a cagey one"
+    },
+    {
+     "fact": "The draw is 22.7%, level with Tottenham's 22.5% win chance.",
+     "meaning": "the market rates a Spurs win and a draw about the same — neither is close to Chelsea"
+    },
+    {
+     "fact": "Both teams to score is 60.6%.",
+     "meaning": "more likely than not that both sides find the net at Stamford Bridge"
+    },
+    {
+     "fact": "The handicap fair line moved from -0.63 to -0.73.",
+     "meaning": "Chelsea's superiority was deepened by a tenth of a goal, taking it close to a full goal"
+    },
+    {
+     "fact": "Over 2.5 goals is priced at 61.1%.",
+     "meaning": "two goals or fewer is the less likely outcome by a comfortable margin"
+    }
+   ],
+   "video_title": "Chelsea's chance rises to 54.9% for the London derby"
   },
   {
    "slug": "2026-10-25-barcelona-real-madrid",
@@ -4957,10 +5209,40 @@
    "home": "Barcelona",
    "away": "Real Madrid",
    "kickoff": "2026-10-25T20:00:00+00:00",
-   "headline": "Clásico: a small trim to Barcelona, a steady goals line",
-   "summary": "The market still makes Barcelona clear favourites for the Clásico at 60.4% fair chance, with the draw at 16.9% and Real Madrid at 22.7%. But Barcelona's price has been trimmed: the handicap at the sharp market fell 3.2 points, and the fair line eased from -1.19 to -1.07 — about a tenth of a goal. The full field moved a little less, 2.5 points, and the whole adjustment landed in two batches before flattening for the last 24 hours. With no injury reports and only 45.9 hours of price history, this reads as early-week rebalancing of an initially home-heavy price. The goals market barely moved: a 4.03 fair total, Over 4.0 at 50.6% and both teams scoring at 72.3%.",
-   "voices": {},
-   "video_title": "Clásico: a tenth of a goal, and then nothing"
+   "headline": "Barcelona 59.4% favourites, but Madrid are closing the gap",
+   "summary": "Barcelona are clear favourites for Sunday's Clasico at the Camp Nou, with a 59.4% chance to win. Real Madrid have gained ground, though: their win chance has risen from 19.8% to 24.1%. Barcelona are still rated about one goal better on the handicap at -1.02. The draw is the least likely result at 16.5%. The market expects a high-scoring game: the fair goals total is now 4.18, up from 4.03. Both teams to score is rated 73.2%, so clean sheets are not the expectation.",
+   "read": "Barcelona are clear favourites at 59.4%, but the gap has narrowed: Real Madrid have come in from 19.8% to 24.1% and the handicap has slipped from Barcelona -1.19 to -1.02, so they are rated about one goal better rather than 1.2. The goals side has moved the other way, with the fair total up to 4.18 and over 4.25 close to a coin flip at 48.4% — both teams to score is rated 73.2%, while the draw is the outsider at 16.5%.",
+   "facts": [
+    {
+     "fact": "Barcelona are 59.4% favourites to win the Clasico at home.",
+     "meaning": "clear favourites, but not overwhelming — roughly a 3-in-5 shot"
+    },
+    {
+     "fact": "Real Madrid's win chance has risen from 19.8% to 24.1% in recent days.",
+     "meaning": "a clear 4.2-point move toward Madrid — the tie is rated tighter than it was"
+    },
+    {
+     "fact": "The handicap fair line has moved from Barcelona -1.19 to -1.02.",
+     "meaning": "Barcelona are still rated about one goal better, but a shade less than a few days ago"
+    },
+    {
+     "fact": "The market's fair goals line has moved from 4.03 to 4.18.",
+     "meaning": "about four goals expected — a high-scoring Clasico is the base case"
+    },
+    {
+     "fact": "Over 4.25 goals is priced at 48.4%, up 3.2 points.",
+     "meaning": "four goals or more is close to a coin flip, and the money has leaned that way"
+    },
+    {
+     "fact": "Both teams to score is rated 73.2%.",
+     "meaning": "more likely than not that both sides find the net — clean sheets are not the expectation"
+    },
+    {
+     "fact": "The draw is the least likely result at 16.5%.",
+     "meaning": "the market strongly leans to a decisive result, with Madrid (24.1%) rated more likely than a draw"
+    }
+   ],
+   "video_title": "Madrid close the gap: 19.8% to 24.1%"
   },
   {
    "slug": "2026-10-24-napoli-as-roma",
@@ -4968,10 +5250,40 @@
    "home": "Napoli",
    "away": "AS Roma",
    "kickoff": "2026-10-24T16:00:00+00:00",
-   "headline": "Napoli vs Roma: a near coin-flip on the market",
-   "summary": "The market makes Roma a narrow favourite at a fair 37.8%, with Napoli at 34.4% and the draw at 27.7% — close to a coin flip. The biggest moves since we started tracking are small: Napoli's level-ball handicap firmed from 44.7% to 47.3% on consensus, while Roma eased from 38.9% to 37.8% on the sharp market. Two details keep this measured. The handicap's fair line moved only 0.04, and only 5 books quote it. We also hold just 5 price snapshots over 45.9 hours, and every first mover is stamped at the same moment — consistent with a collection snapshot rather than informed money. Goals give no direction either: over 2.5 sits at 50.9%. Both listed injuries were on our first injury list, so we cannot date when they became public.",
-   "voices": {},
-   "video_title": "Napoli vs Roma: a near coin-flip the market won't call"
+   "headline": "Napoli vs Roma: near-even match, Roma narrow favourites",
+   "summary": "Napoli host Roma in Serie A on Saturday afternoon, and the market sees a near-even match. Roma are the narrow favourites, with Napoli close behind at 34.4% and the draw the least likely result at 27.7%. Roma's win chance has slipped from 38.9% to 37.8% in recent days. Roma are rated only 0.07 goals better, so neither side gets a head start. Napoli are without centre-back Alessandro Buongiorno because of a knee problem. More than 2.5 goals is 50.9%, and both teams to score is 56.1% — more likely than not.",
+   "read": "Roma are the narrowest of favourites at Napoli, 37.8% against 34.4%, with the handicap set level and Roma rated only 0.07 goals the better side. The market has leaned towards Napoli in recent days, trimming Roma's win chance from 40.2% to 38.1%, while the goals line sits dead on 2.54 with both teams to score at 56.1%.",
+   "facts": [
+    {
+     "fact": "Roma are the narrow favourites at Napoli, priced at 37.8% to win against Napoli's 34.4%.",
+     "meaning": "barely more than a coin-flip between the two sides — this is a near-even match"
+    },
+    {
+     "fact": "The handicap is level, with Roma rated just 0.07 goals the better side.",
+     "meaning": "the market sees almost nothing between Napoli and Roma — one goal either way settles it"
+    },
+    {
+     "fact": "Roma's win chance has slipped from 40.2% to 38.1% across the books in recent days, with Napoli tightening at the same time.",
+     "meaning": "confidence in a Roma away win has softened; the money has leaned towards Napoli"
+    },
+    {
+     "fact": "The goals line sits at 2.54, with Over 2.5 at 50.9%.",
+     "meaning": "the market is split straight down the middle on whether this game reaches three goals"
+    },
+    {
+     "fact": "Both teams to score is priced at 56.1%.",
+     "meaning": "more likely than not that both defences are beaten, even in a tight match"
+    },
+    {
+     "fact": "The draw is the least likely result at 27.7%.",
+     "meaning": "the market expects someone to win this one rather than a stalemate"
+    },
+    {
+     "fact": "Napoli are missing defender Alessandro Buongiorno to a knee problem, and Roma are missing Bah for the same reason.",
+     "meaning": "both squads are a defender light, so neither side carries a clear selection advantage"
+    }
+   ],
+   "video_title": "Roma 37.8%: narrow favourites at Napoli"
   },
   {
    "slug": "2026-10-25-crystal-palace-newcastle",
@@ -4980,12 +5292,9 @@
    "away": "Newcastle",
    "kickoff": "2026-10-25T14:00:00+00:00",
    "headline": "Newcastle repriced to 40.4%; goals markets unmoved",
-   "summary": "The market has Newcastle at 40.4% fair to win at Crystal Palace (Palace 32.8%, draw 26.8%), after a move from 37.5% captured at our 23:16 snapshot on 18 October across four books. The Asian handicap fair line moved 0.12 goals towards Newcastle (0.04 to 0.16), the same repricing seen through a second market. Goals markets are flat: Over 3.0 at 48.1%, fair total 2.92, both teams to score 61.6%. With only 6.5 hours and three price snapshots, the true opening is unknown, and zero injury reports leave no news explanation testable.",
-   "voices": {
-    "scout": "At twenty-three sixteen on the eighteenth, four books we track moved Newcastle from thirty-seven and a half per cent to forty point four, the sharp book from two point five four down to two point three eight. Palace went the other way, to thirty-two point eight. The handicap fair line moved zero point one two goals. That's a repricing with a sharp lead, and I think it's information.",
-    "sceptic": "Careful. Four books, not six. And we took three snapshots in six and a half hours, so 'same minute' is our polling, not their timing. The move could be up to twenty-seven minutes apart. The handicap shift is half a quarter-line, and it's the same repricing seen through a second market, not a second signal. One snapshot can't separate informed money from a soft opening line being corrected.",
-    "gaffer": "So here's the verdict. Newcastle at forty point four per cent, Palace at thirty-two point eight, one three-point move seen through the result and handicap markets. Goals genuinely flat. Confidence low: six and a half hours and three snapshots is not a full day of prices."
-   },
+   "summary": "The Asian handicap fair line moved 0.12 goals towards Newcastle (0.04 to 0.16), the same repricing seen through a second market. Goals markets are flat: Over 3.0 at 48.1%, fair total 2.92, both teams to score 61.6%.",
+   "read": null,
+   "facts": [],
    "video_title": "Newcastle repriced, goals untouched"
   },
   {
@@ -4994,10 +5303,44 @@
    "home": "Juventus",
    "away": "Rennes",
    "kickoff": "2026-10-22T16:45:00+00:00",
-   "headline": "Juventus vs Rennes: the opening price, nothing more",
-   "summary": "Juventus host Rennes in the Europa League with 44 hours to kick-off, and the market has barely been born: just one price snapshot, so every 'flat' reading is by construction. Juventus are a one-goal favourite, with a 60.7% fair win chance against 22.0% for the draw and 17.3% for Rennes. The handicap fair line sits at -0.94, and the -1 line is priced at 48.2%. The goals market is almost balanced: the main line is 2.75, with 51.2% on Over at the sharp market against 49.7% consensus — a 1.5-point gap too small to read as a signal. Both teams to score is 53.3%. The first real hourly moves will tell us more.",
-   "voices": {},
-   "video_title": "Juventus vs Rennes: one snapshot, no movement"
+   "headline": "Juventus 60.7% favourites at home to Rennes",
+   "summary": "Juventus are clear 60.7% favourites for Thursday's Europa League home game against Rennes in Turin. The market rates them about a goal better, on a handicap line of -1. The draw is 22.0%, above a Rennes win at 17.3%. Juventus are missing key attackers, including Yildiz, while Rennes list Lepaul as doubtful with an ankle problem. The goals line is 2.75, and over is 51.2% — the market sees roughly three goals. Both teams to score is 53.3%, so Rennes are more likely than not to find the net. Rennes +1 at 51.7% makes a narrow Juventus win close to even.",
+   "read": "Juventus are clear 60.7% favourites in Turin, rated about a full goal better than Rennes on a handicap line of -0.94. The market expects roughly three goals and makes both teams to score more likely than not, while pricing Rennes +1 at 51.7% — a one-goal home win is no more than a coin flip.",
+   "facts": [
+    {
+     "fact": "Juventus are 60.7% to win at home against Rennes.",
+     "meaning": "clear favourites — more likely than not to take the three points"
+    },
+    {
+     "fact": "The market rates Juventus about one goal better than Rennes, with a fair handicap line of -0.94.",
+     "meaning": ""
+    },
+    {
+     "fact": "Juventus are without nine players, including K. Yildiz (foot), K. Thuram and M. Locatelli (both knee).",
+     "meaning": "the depth of the squad is being tested, but the price has not shifted"
+    },
+    {
+     "fact": "The goals line sits at 2.75, with Over priced at 51.2%.",
+     "meaning": "the market sees roughly three goals — a split, not a shootout"
+    },
+    {
+     "fact": "Rennes +1 is a 51.7% shot on the handicap.",
+     "meaning": "a one-goal Juventus win is close to a coin flip — Rennes are expected to keep it tight"
+    },
+    {
+     "fact": "Both teams to score is 53.3% yes.",
+     "meaning": "more likely than not that Rennes find the net even in defeat"
+    },
+    {
+     "fact": "The draw is priced at 22.0%, higher than a Rennes win at 17.3%.",
+     "meaning": "a stalemate is seen as a more realistic route to dropped points than an away victory"
+    },
+    {
+     "fact": "Rennes list only one doubt, E. Lepaul, who is questionable with an ankle injury.",
+     "meaning": "the visitors arrive close to full strength for the trip to Turin"
+    }
+   ],
+   "video_title": "Juventus 60.7%: about a goal better"
   },
   {
    "slug": "2026-10-21-levante-athletic-club",
@@ -5006,13 +5349,10 @@
    "away": "Athletic Club",
    "kickoff": "2026-10-21T18:00:00+00:00",
    "headline": "Levante vs Athletic: a flat board and a sharp split",
-   "summary": "Athletic Club are clear favourites at 43.7% fair against Levante's 25.5%, with the draw at 30.8%. The Asian handicap sits around Levante +0.25 and moved only 0.2-0.3 percentage points across four snapshots in eight hours. Over 2.5 is frozen at 49.1%, with a fair total of 2.47; both teams to score is slightly favoured at 53.3%. Four injury names — three Levante, one Athletic — produced no visible reaction after our first report at 00:55, though there is no earlier baseline. The notable feature is a pricing split: the sharp market's Home price is 9% above the six-book average, roughly 2.5 points of fair probability, but it is static rather than a move, and with no true opening price the cause can't be pinned down.",
-   "voices": {
-    "scout": "Athletic Club are the clear favourites, about 44 per cent fair against Levante's 25 and a half, draw at 31. And on goals the market has parked itself right on the fence: Over 2.5 at about 49 per cent, a fair total of two point four seven. Eight hours, four snapshots, and not a single meaningful tick. That silence is the story.",
-    "sceptic": "Careful with that word, silence. We don't have an opening price — the collector first saw this market late on the eighteenth, so we've got eight hours of tape, not the whole day. The moves we do have are two-tenths of a point on the one-X-two and about a quarter of a point on the handicap. That's rounding noise, not a market holding its breath.",
-    "gaffer": "So here's the reading. Athletic about 44 per cent, Levante 25 and a half, draw 31. Handicap settled around Levante plus a quarter. Over 2.5 held at 49 per cent, fair total two point four seven. The one telling feature is that sharp-versus-soft split on Levante — roughly two and a half points of fair probability — but it's a static gap, not a move. And with the board flat and the tape this short, there's nothing here worth forcing."
-   },
-   "video_title": "Levante vs Athletic: eight hours, no move"
+   "summary": "Athletic Club are clear favourites at 43.7% fair against Levante's 25.5%, with the draw at 30.8%. Over 2.5 is frozen at 49.1%, with a fair total of 2.47; both teams to score is slightly favoured at 53.3%. Four injury names — three Levante, one Athletic — produced no visible reaction after our first report at 00:55, though there is no earlier baseline.",
+   "read": "Athletic Club are clear favourites at 43.7% fair against Levante's 25.5% (draw 30.8%), with the AH settled around Levante +0.25 after a rounding-level 0.2–0.3 pp wobble.",
+   "facts": [],
+   "video_title": null
   },
   {
    "slug": "2026-10-23-ipswich-nottingham-forest",
@@ -5021,12 +5361,9 @@
    "away": "Nottingham Forest",
    "kickoff": "2026-10-23T19:00:00+00:00",
    "headline": "Ipswich v Forest: Forest favoured, market barely moves",
-   "summary": "The market makes Nottingham Forest the away favourite at 41.7% fair, with Ipswich at 30.7% and the draw at 27.6%. Goals are close to a coin flip on a 2.75 line: Over 49.4%, fair total 2.72. The only tracked movement is the sharp book lengthening Over 2.75 from 1.93 to 1.97 while consensus stayed flat. With eight hours of history, two snapshots and no team news, this reads as routine line maintenance rather than information.",
-   "voices": {
-    "scout": "The handicap is pinned at a fair line of nought point two one, home plus a quarter. That's the flattest thing on the board. And goals are basically a coin flip on two and three-quarter, Over at about forty-nine per cent.",
-    "sceptic": "You've got two snapshots four and a half hours apart. The sharp book took Over from one ninety-three to one ninety-seven, and the consensus didn't move at all. That's one book's line maintenance, not money arriving.",
-    "gaffer": "Two snapshots and one book's nudge isn't a market with a story. We sit this one out until the picture has more than eight hours of life in it."
-   },
+   "summary": "The market makes Nottingham Forest the away favourite at 41.7% fair, with Ipswich at 30.7% and the draw at 27.6%. Goals are close to a coin flip on a 2.75 line: Over 49.4%, fair total 2.72.",
+   "read": null,
+   "facts": [],
    "video_title": "Ipswich v Forest: a market asleep at 41.7%"
   }
  ]

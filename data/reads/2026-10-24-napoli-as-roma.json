@@ -4,15 +4,45 @@
  "home": "Napoli",
  "away": "AS Roma",
  "kickoff": "2026-10-24T16:00:00+00:00",
- "generated_at": "2026-10-21T08:49:18+00:00",
- "headline": "Napoli vs Roma: a near coin-flip on the market",
- "summary": "The market makes Roma a narrow favourite at a fair 37.8%, with Napoli at 34.4% and the draw at 27.7% — close to a coin flip. The biggest moves since we started tracking are small: Napoli's level-ball handicap firmed from 44.7% to 47.3% on consensus, while Roma eased from 38.9% to 37.8% on the sharp market. Two details keep this measured. The handicap's fair line moved only 0.04, and only 5 books quote it. We also hold just 5 price snapshots over 45.9 hours, and every first mover is stamped at the same moment — consistent with a collection snapshot rather than informed money. Goals give no direction either: over 2.5 sits at 50.9%. Both listed injuries were on our first injury list, so we cannot date when they became public.",
- "voices": {},
- "video_title": "Napoli vs Roma: a near coin-flip the market won't call",
+ "generated_at": "2026-10-21T13:31:46+00:00",
+ "headline": "Napoli vs Roma: near-even match, Roma narrow favourites",
+ "summary": "Napoli host Roma in Serie A on Saturday afternoon, and the market sees a near-even match. Roma are the narrow favourites, with Napoli close behind at 34.4% and the draw the least likely result at 27.7%. Roma's win chance has slipped from 38.9% to 37.8% in recent days. Roma are rated only 0.07 goals better, so neither side gets a head start. Napoli are without centre-back Alessandro Buongiorno because of a knee problem. More than 2.5 goals is 50.9%, and both teams to score is 56.1% — more likely than not.",
+ "read": "Roma are the narrowest of favourites at Napoli, 37.8% against 34.4%, with the handicap set level and Roma rated only 0.07 goals the better side. The market has leaned towards Napoli in recent days, trimming Roma's win chance from 40.2% to 38.1%, while the goals line sits dead on 2.54 with both teams to score at 56.1%.",
+ "facts": [
+  {
+   "fact": "Roma are the narrow favourites at Napoli, priced at 37.8% to win against Napoli's 34.4%.",
+   "meaning": "barely more than a coin-flip between the two sides — this is a near-even match"
+  },
+  {
+   "fact": "The handicap is level, with Roma rated just 0.07 goals the better side.",
+   "meaning": "the market sees almost nothing between Napoli and Roma — one goal either way settles it"
+  },
+  {
+   "fact": "Roma's win chance has slipped from 40.2% to 38.1% across the books in recent days, with Napoli tightening at the same time.",
+   "meaning": "confidence in a Roma away win has softened; the money has leaned towards Napoli"
+  },
+  {
+   "fact": "The goals line sits at 2.54, with Over 2.5 at 50.9%.",
+   "meaning": "the market is split straight down the middle on whether this game reaches three goals"
+  },
+  {
+   "fact": "Both teams to score is priced at 56.1%.",
+   "meaning": "more likely than not that both defences are beaten, even in a tight match"
+  },
+  {
+   "fact": "The draw is the least likely result at 27.7%.",
+   "meaning": "the market expects someone to win this one rather than a stalemate"
+  },
+  {
+   "fact": "Napoli are missing defender Alessandro Buongiorno to a knee problem, and Roma are missing Bah for the same reason.",
+   "meaning": "both squads are a defender light, so neither side carries a clear selection advantage"
+  }
+ ],
+ "video_title": "Roma 37.8%: narrow favourites at Napoli",
  "key_points": [
-  "Roma 37.8% vs Napoli 34.4% — a near coin-flip",
-  "AH Home +0 firmed ~2.5 pp on consensus but fair line moved only 0.04, on 5 books",
-  "Both injuries predate nothing we can time — news effect unverifiable"
+  "Roma 37.8% — narrowest of favourites",
+  "Level ball: just 0.07 goals",
+  "Goals line 2.54, dead even"
  ],
  "market": {
   "id": 1550164,
@@ -62,6 +92,12 @@
     "home": 34.4,
     "draw": 27.7,
     "away": 37.8
+   },
+   {
+    "t": "2026-10-21T04:24:00+00:00",
+    "home": 34.4,
+    "draw": 27.7,
+    "away": 37.8
    }
   ],
   "goals": {
@@ -73,7 +109,7 @@
    "away": 1
   },
   "read": "2026-10-24-napoli-as-roma",
-  "headline": "Napoli vs Roma: a near coin-flip on the market"
+  "headline": "Napoli vs Roma: near-even match, Roma narrow favourites"
  },
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }

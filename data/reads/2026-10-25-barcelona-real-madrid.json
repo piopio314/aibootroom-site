@@ -4,14 +4,45 @@
  "home": "Barcelona",
  "away": "Real Madrid",
  "kickoff": "2026-10-25T20:00:00+00:00",
- "generated_at": "2026-10-21T08:47:03+00:00",
- "headline": "Clásico: a small trim to Barcelona, a steady goals line",
- "summary": "The market still makes Barcelona clear favourites for the Clásico at 60.4% fair chance, with the draw at 16.9% and Real Madrid at 22.7%. But Barcelona's price has been trimmed: the handicap at the sharp market fell 3.2 points, and the fair line eased from -1.19 to -1.07 — about a tenth of a goal. The full field moved a little less, 2.5 points, and the whole adjustment landed in two batches before flattening for the last 24 hours. With no injury reports and only 45.9 hours of price history, this reads as early-week rebalancing of an initially home-heavy price. The goals market barely moved: a 4.03 fair total, Over 4.0 at 50.6% and both teams scoring at 72.3%.",
- "voices": {},
- "video_title": "Clásico: a tenth of a goal, and then nothing",
+ "generated_at": "2026-10-21T13:33:00+00:00",
+ "headline": "Barcelona 59.4% favourites, but Madrid are closing the gap",
+ "summary": "Barcelona are clear favourites for Sunday's Clasico at the Camp Nou, with a 59.4% chance to win. Real Madrid have gained ground, though: their win chance has risen from 19.8% to 24.1%. Barcelona are still rated about one goal better on the handicap at -1.02. The draw is the least likely result at 16.5%. The market expects a high-scoring game: the fair goals total is now 4.18, up from 4.03. Both teams to score is rated 73.2%, so clean sheets are not the expectation.",
+ "read": "Barcelona are clear favourites at 59.4%, but the gap has narrowed: Real Madrid have come in from 19.8% to 24.1% and the handicap has slipped from Barcelona -1.19 to -1.02, so they are rated about one goal better rather than 1.2. The goals side has moved the other way, with the fair total up to 4.18 and over 4.25 close to a coin flip at 48.4% — both teams to score is rated 73.2%, while the draw is the outsider at 16.5%.",
+ "facts": [
+  {
+   "fact": "Barcelona are 59.4% favourites to win the Clasico at home.",
+   "meaning": "clear favourites, but not overwhelming — roughly a 3-in-5 shot"
+  },
+  {
+   "fact": "Real Madrid's win chance has risen from 19.8% to 24.1% in recent days.",
+   "meaning": "a clear 4.2-point move toward Madrid — the tie is rated tighter than it was"
+  },
+  {
+   "fact": "The handicap fair line has moved from Barcelona -1.19 to -1.02.",
+   "meaning": "Barcelona are still rated about one goal better, but a shade less than a few days ago"
+  },
+  {
+   "fact": "The market's fair goals line has moved from 4.03 to 4.18.",
+   "meaning": "about four goals expected — a high-scoring Clasico is the base case"
+  },
+  {
+   "fact": "Over 4.25 goals is priced at 48.4%, up 3.2 points.",
+   "meaning": "four goals or more is close to a coin flip, and the money has leaned that way"
+  },
+  {
+   "fact": "Both teams to score is rated 73.2%.",
+   "meaning": "more likely than not that both sides find the net — clean sheets are not the expectation"
+  },
+  {
+   "fact": "The draw is the least likely result at 16.5%.",
+   "meaning": "the market strongly leans to a decisive result, with Madrid (24.1%) rated more likely than a draw"
+  }
+ ],
+ "video_title": "Madrid close the gap: 19.8% to 24.1%",
  "key_points": [
-  "Move landed in two batches on 19 Oct, flat for the last 24 hours — no live steam",
-  "Goals line steady: Over 4.0 at 50.6%, fair total 4.03, BTTS Yes up 1.8 pp"
+  "Barcelona 59.4% favourites",
+  "Madrid 19.8% to 24.1%",
+  "Goals line up to 4.18"
  ],
  "market": {
   "id": 1570426,
@@ -21,14 +52,14 @@
   "home": "Barcelona",
   "away": "Real Madrid",
   "fair": {
-   "home": 60.4,
-   "draw": 16.9,
-   "away": 22.7
+   "home": 59.4,
+   "draw": 16.5,
+   "away": 24.1
   },
   "move": {
-   "home": -2.6,
-   "draw": -0.2,
-   "away": 2.9
+   "home": -3.6,
+   "draw": -0.6,
+   "away": 4.2
   },
   "tracked_since": "2026-10-18T22:49:00+00:00",
   "timeline": [
@@ -73,10 +104,40 @@
     "home": 60.4,
     "draw": 16.9,
     "away": 22.7
+   },
+   {
+    "t": "2026-10-20T22:19:00+00:00",
+    "home": 60.6,
+    "draw": 16.5,
+    "away": 22.9
+   },
+   {
+    "t": "2026-10-21T00:51:00+00:00",
+    "home": 59.6,
+    "draw": 16.7,
+    "away": 23.7
+   },
+   {
+    "t": "2026-10-21T04:24:00+00:00",
+    "home": 59.4,
+    "draw": 16.7,
+    "away": 23.9
+   },
+   {
+    "t": "2026-10-21T07:27:00+00:00",
+    "home": 59.4,
+    "draw": 16.7,
+    "away": 23.9
+   },
+   {
+    "t": "2026-10-21T10:21:00+00:00",
+    "home": 59.4,
+    "draw": 16.5,
+    "away": 24.1
    }
   ],
   "goals": {
-   "expected": 4.03,
+   "expected": 4.18,
    "first": 4.03
   },
   "absences": {
@@ -84,7 +145,7 @@
    "away": 0
   },
   "read": "2026-10-25-barcelona-real-madrid",
-  "headline": "Clásico: a small trim to Barcelona, a steady goals line"
+  "headline": "Barcelona 59.4% favourites, but Madrid are closing the gap"
  },
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }

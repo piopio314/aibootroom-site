@@ -11,7 +11,7 @@
 <meta property="og:image" content="https://www.aibootroom.com/assets/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.aibootroom.com/assets/og-image.png">
-<meta name="description" content="What the betting market thinks about this match, how the price moved and what the AI Boot Room pundits make of it.">
+<meta name="description" content="What the betting market thinks about this match, how the price moved and what it means.">
 <meta name="theme-color" content="#07090d">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,7 +33,7 @@
 <body>
 <header class="nav"><div class="wrap">
   <a class="logo" href="/"><img src="/assets/logo-96.png" alt="" width="38" height="38"><span>AI <em>Boot Room</em></span></a>
-  <nav aria-label="Sections"><a href="/#weekend">This weekend</a><a href="/#movers">Market movers</a><a href="/#bootroom">The Boot Room</a><a href="/#receipts">Receipts</a></nav>
+  <nav aria-label="Sections"><a href="/#weekend">This weekend</a><a href="/#movers">Market movers</a><a href="/#bootroom">Latest reads</a><a href="/#receipts">Receipts</a></nav>
   <span class="sp"></span>
   <a class="btn yt sm" data-yt hidden href="https://www.youtube.com/@AiBootRoom" target="_blank" rel="noopener">▶ YouTube</a>
 </div></header>
@@ -66,11 +66,9 @@
       ${first && last && tl.length > 1 ? `<div class="chart"><div class="ttl"><span>${E(S(m[side]))} win probability in recent days</span><span>${first[side].toFixed(1)}% → <b style="color:var(--text)">${last[side].toFixed(1)}%</b></span></div>${ABR.spark(m, side)}</div>` : ''}
       <div class="hfoot">${m.goals ? `<span>Expected goals <b>${m.goals.expected.toFixed(2)}</b></span>` : ''}<span>Prices <b>updated hourly</b></span></div></div>` : ''}
     <p class="summary">${E(r.summary)}</p>
-    ${r.voices && Object.keys(r.voices).length ? `<div class="kicker" style="margin-top:34px">The Boot Room debate</div>
-      <div class="chat" style="margin-top:14px">${['scout', 'sceptic', 'gaffer'].filter(k => r.voices[k]).map(k => { const P = ABR.PERSONAS[k];
-        return `<div class="msg ${k}"><div class="av" style="background:${P.bg}">${P.emoji}</div><div class="bubble"><b>${E(P.name)} · ${E(P.role.toLowerCase())}</b>${E(r.voices[k])}</div></div>`; }).join('')}</div>` : ''}
+    ${(r.facts || []).length ? `<div class="card"><div class="kicker">The facts</div><ul class="pts" style="margin-top:8px">${r.facts.map(f => `<li>${E(f.fact)}${f.meaning ? ` <span style="color:var(--muted)">— ${E(f.meaning)}</span>` : ''}</li>`).join('')}</ul></div>` : ''}
     ${(r.key_points || []).length ? `<div class="card"><div class="kicker">Key numbers</div><ul class="pts" style="margin-top:8px">${r.key_points.map(p => `<li>${E(p)}</li>`).join('')}</ul></div>` : ''}
-    <div class="share"><a class="btn yt" href="https://www.youtube.com/@AiBootRoom" target="_blank" rel="noopener">▶ Watch the Boot Room on YouTube</a>
+    <div class="share"><a class="btn yt" href="https://www.youtube.com/@AiBootRoom" target="_blank" rel="noopener">▶ Watch on YouTube</a>
       <a class="btn ghost" href="https://x.com/intent/post?text=${encodeURIComponent(r.headline + ' — AI Boot Room')}&url=${encodeURIComponent(location.href)}" target="_blank" rel="noopener">Share on X</a></div>
     <p style="margin-top:26px;color:var(--muted);font-size:14px">${E(r.disclaimer || '')} Read written ${E(ABR.ago(r.generated_at))}.</p>`;
 })();

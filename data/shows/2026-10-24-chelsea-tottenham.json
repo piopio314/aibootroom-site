@@ -1,6 +1,6 @@
 {
  "id": "2026-10-24-chelsea-tottenham",
- "title": "Chelsea chance rises to 54.9% for Tottenham derby",
+ "title": "Chelsea's chance rises to 54.9% for the London derby",
  "match": {
   "home": "Chelsea",
   "away": "Tottenham",
@@ -154,7 +154,7 @@
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Chelsea's win chance climbed from 52.5% to 54.9% before Tottenham visit.",
+   "text": "Chelsea's win chance rose from 52.5% to 54.9% in recent days.",
    "show": {
     "kind": "move",
     "team": "home",
@@ -168,65 +168,65 @@
     {
      "w": "Chelsea's",
      "start": 0.12,
-     "end": 0.52
+     "end": 0.6
     },
     {
      "w": "win",
-     "start": 0.6,
-     "end": 0.76
+     "start": 0.68,
+     "end": 0.84
     },
     {
      "w": "chance",
-     "start": 0.76,
-     "end": 1.16
+     "start": 0.84,
+     "end": 1.24
     },
     {
-     "w": "climbed",
-     "start": 1.24,
+     "w": "rose",
+     "start": 1.32,
      "end": 1.56
     },
     {
      "w": "from",
      "start": 1.56,
-     "end": 1.8
+     "end": 1.72
     },
     {
      "w": "52.5%",
-     "start": 1.88,
+     "start": 1.8,
      "end": 3.32
     },
     {
      "w": "to",
-     "start": 3.559,
+     "start": 3.697,
      "end": 3.72
     },
     {
      "w": "54.9%",
-     "start": 3.8,
-     "end": 5.24
+     "start": 3.72,
+     "end": 5.4
     },
     {
-     "w": "before",
-     "start": 5.32,
-     "end": 5.56
+     "w": "in",
+     "start": 5.48,
+     "end": 5.48
     },
     {
-     "w": "Tottenham",
+     "w": "recent",
      "start": 5.56,
-     "end": 6.04
+     "end": 5.8
     },
     {
-     "w": "visit.",
-     "start": 6.12,
-     "end": 6.36
+     "w": "days.",
+     "start": 5.8,
+     "end": 6.28
     }
    ],
-   "durationInFrames": 199
+   "durationInFrames": 196
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Chelsea host Tottenham in Saturday's London derby.",
+   "text": "Chelsea host Tottenham at Stamford Bridge in the Premier League.",
    "show": {
     "kind": "teams"
    },
@@ -241,295 +241,173 @@
     },
     {
      "w": "host",
-     "start": 0.6,
-     "end": 0.92
+     "start": 0.68,
+     "end": 0.84
     },
     {
      "w": "Tottenham",
-     "start": 1.0,
+     "start": 0.842,
+     "end": 1.32
+    },
+    {
+     "w": "at",
+     "start": 1.4,
      "end": 1.48
     },
     {
+     "w": "Stamford",
+     "start": 1.56,
+     "end": 1.88
+    },
+    {
+     "w": "Bridge",
+     "start": 1.88,
+     "end": 2.28
+    },
+    {
      "w": "in",
-     "start": 1.48,
-     "end": 1.64
+     "start": 2.36,
+     "end": 2.36
     },
     {
-     "w": "Saturday's",
-     "start": 1.72,
-     "end": 2.2
+     "w": "the",
+     "start": 2.44,
+     "end": 2.44
     },
     {
-     "w": "London",
-     "start": 2.2,
-     "end": 2.6
+     "w": "Premier",
+     "start": 2.44,
+     "end": 2.76
     },
     {
-     "w": "derby.",
-     "start": 2.68,
-     "end": 3.08
+     "w": "League.",
+     "start": 2.84,
+     "end": 3.16
     }
    ],
-   "durationInFrames": 107
+   "durationInFrames": 103
   },
   {
    "type": "beat",
-   "speaker": "scout",
-   "text": "On the handicap Chelsea are -0.73, about three-quarters of a goal better.",
+   "speaker": "narrator",
+   "text": "Chelsea's handicap is -0.75: three-quarters of a goal better.",
    "show": {
     "kind": "stat",
     "label": "Chelsea handicap",
-    "value": "-0.73"
+    "value": "-0.75"
    },
-   "first": true,
+   "first": false,
    "variant": 0,
    "audio": "audio/2026-10-24-chelsea-tottenham/s2.mp3",
    "words": [
     {
-     "w": "On",
+     "w": "Chelsea's",
      "start": 0.12,
-     "end": 0.28
-    },
-    {
-     "w": "the",
-     "start": 0.36,
-     "end": 0.36
+     "end": 0.6
     },
     {
      "w": "handicap",
-     "start": 0.36,
-     "end": 1.08
+     "start": 0.6,
+     "end": 1.24
     },
     {
-     "w": "Chelsea",
-     "start": 1.16,
-     "end": 1.56
+     "w": "is",
+     "start": 1.32,
+     "end": 1.4
     },
     {
-     "w": "are",
-     "start": 1.64,
-     "end": 1.64
-    },
-    {
-     "w": "-0.73,",
-     "start": 1.64,
-     "end": 3.56
-    },
-    {
-     "w": "about",
-     "start": 3.641,
-     "end": 3.96
+     "w": "-0.75:",
+     "start": 1.4,
+     "end": 3.32
     },
     {
      "w": "three-quarters",
-     "start": 3.96,
-     "end": 4.68
+     "start": 3.545,
+     "end": 4.2
     },
     {
      "w": "of",
-     "start": 4.76,
-     "end": 4.76
+     "start": 4.2,
+     "end": 4.28
     },
     {
      "w": "a",
-     "start": 4.84,
-     "end": 4.84
+     "start": 4.36,
+     "end": 4.36
     },
     {
      "w": "goal",
-     "start": 4.84,
-     "end": 5.08
+     "start": 4.44,
+     "end": 4.6
     },
     {
      "w": "better.",
-     "start": 5.08,
-     "end": 5.48
+     "start": 4.6,
+     "end": 5
     }
    ],
-   "durationInFrames": 179
+   "durationInFrames": 158
   },
   {
    "type": "beat",
-   "speaker": "sceptic",
-   "text": "Tottenham's chance slipped from 24.2% to 22.5%.",
+   "speaker": "narrator",
+   "text": "Tottenham are 22.5% — the clear underdogs here.",
    "show": {
-    "kind": "move",
+    "kind": "chance",
     "team": "away",
-    "from": 24.2,
-    "to": 22.5
+    "value": 22.5
    },
-   "first": true,
+   "first": false,
    "variant": 0,
    "audio": "audio/2026-10-24-chelsea-tottenham/s3.mp3",
    "words": [
     {
-     "w": "Tottenham's",
+     "w": "Tottenham",
      "start": 0.12,
      "end": 0.6
     },
     {
-     "w": "chance",
-     "start": 0.6,
-     "end": 1.16
+     "w": "are",
+     "start": 0.698,
+     "end": 0.84
     },
     {
-     "w": "slipped",
-     "start": 1.16,
-     "end": 1.48
-    },
-    {
-     "w": "from",
-     "start": 1.56,
+     "w": "22.5%",
+     "start": 0.84,
      "end": 1.64
     },
     {
-     "w": "24.2%",
+     "w": "—",
      "start": 1.64,
-     "end": 3.24
-    },
-    {
-     "w": "to",
-     "start": 3.48,
-     "end": 3.64
-    },
-    {
-     "w": "22.5%.",
-     "start": 3.64,
-     "end": 5.24
-    }
-   ],
-   "durationInFrames": 165
-  },
-  {
-   "type": "beat",
-   "speaker": "sceptic",
-   "text": "The draw is 22.7%, level with Tottenham in the market's view.",
-   "show": {
-    "kind": "chance",
-    "team": "draw",
-    "value": 22.7
-   },
-   "first": false,
-   "variant": 0,
-   "audio": "audio/2026-10-24-chelsea-tottenham/s4.mp3",
-   "words": [
-    {
-     "w": "The",
-     "start": 0.12,
-     "end": 0.28
-    },
-    {
-     "w": "draw",
-     "start": 0.28,
-     "end": 0.76
-    },
-    {
-     "w": "is",
-     "start": 0.797,
-     "end": 1
-    },
-    {
-     "w": "22.7%,",
-     "start": 1.08,
-     "end": 2.68
-    },
-    {
-     "w": "level",
-     "start": 2.918,
-     "end": 3.32
-    },
-    {
-     "w": "with",
-     "start": 3.4,
-     "end": 3.48
-    },
-    {
-     "w": "Tottenham",
-     "start": 3.48,
-     "end": 4.04
-    },
-    {
-     "w": "in",
-     "start": 4.12,
-     "end": 4.12
-    },
-    {
-     "w": "the",
-     "start": 4.12,
-     "end": 4.2
-    },
-    {
-     "w": "market's",
-     "start": 4.28,
-     "end": 4.6
-    },
-    {
-     "w": "view.",
-     "start": 4.6,
-     "end": 4.92
-    }
-   ],
-   "durationInFrames": 163
-  },
-  {
-   "type": "beat",
-   "speaker": "narrator",
-   "text": "The market expects 3.0 goals in this derby.",
-   "show": {
-    "kind": "goals",
-    "value": 3.0
-   },
-   "first": true,
-   "variant": 0,
-   "audio": "audio/2026-10-24-chelsea-tottenham/s5.mp3",
-   "words": [
-    {
-     "w": "The",
-     "start": 0.12,
-     "end": 0.2
-    },
-    {
-     "w": "market",
-     "start": 0.28,
-     "end": 0.6
-    },
-    {
-     "w": "expects",
-     "start": 0.6,
-     "end": 1.08
-    },
-    {
-     "w": "3.0",
-     "start": 1.16,
-     "end": 2.04
-    },
-    {
-     "w": "goals",
-     "start": 2.04,
      "end": 2.44
     },
     {
-     "w": "in",
-     "start": 2.52,
-     "end": 2.52
-    },
-    {
-     "w": "this",
-     "start": 2.6,
+     "w": "the",
+     "start": 2.667,
      "end": 2.76
     },
     {
-     "w": "derby.",
-     "start": 2.76,
-     "end": 3.24
+     "w": "clear",
+     "start": 2.84,
+     "end": 3.16
+    },
+    {
+     "w": "underdogs",
+     "start": 3.16,
+     "end": 3.8
+    },
+    {
+     "w": "here.",
+     "start": 3.88,
+     "end": 4.04
     }
    ],
-   "durationInFrames": 105
+   "durationInFrames": 129
   },
   {
    "type": "beat",
    "speaker": "narrator",
-   "text": "Over 3.0 goals is favoured at 51.2%.",
+   "text": "Over 3.0 goals is 51.2% — an open game is expected.",
    "show": {
     "kind": "over",
     "line": 3.0,
@@ -537,7 +415,7 @@
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-chelsea-tottenham/s6.mp3",
+   "audio": "audio/2026-10-24-chelsea-tottenham/s4.mp3",
    "words": [
     {
      "w": "Over",
@@ -547,48 +425,68 @@
     {
      "w": "3.0",
      "start": 0.44,
-     "end": 1.16
+     "end": 1.08
     },
     {
      "w": "goals",
      "start": 1.16,
-     "end": 1.64
+     "end": 1.48
     },
     {
      "w": "is",
-     "start": 1.64,
-     "end": 1.88
+     "start": 1.48,
+     "end": 1.64
     },
     {
-     "w": "favoured",
-     "start": 1.88,
-     "end": 2.28
+     "w": "51.2%",
+     "start": 1.72,
+     "end": 2.4
     },
     {
-     "w": "at",
-     "start": 2.28,
-     "end": 2.44
+     "w": "—",
+     "start": 2.4,
+     "end": 3.08
     },
     {
-     "w": "51.2%.",
-     "start": 2.44,
+     "w": "an",
+     "start": 3.401,
+     "end": 3.48
+    },
+    {
+     "w": "open",
+     "start": 3.48,
+     "end": 3.8
+    },
+    {
+     "w": "game",
+     "start": 3.88,
+     "end": 4.04
+    },
+    {
+     "w": "is",
+     "start": 4.12,
      "end": 4.12
+    },
+    {
+     "w": "expected.",
+     "start": 4.12,
+     "end": 4.76
     }
    ],
-   "durationInFrames": 139
+   "durationInFrames": 151
   },
   {
    "type": "beat",
-   "speaker": "scout",
-   "text": "Both teams to score is 60.6%, more likely than not.",
+   "speaker": "narrator",
+   "text": "Both teams to score is 60.6% — more likely than not.",
    "show": {
     "kind": "stat",
-    "label": "Both teams score %",
+    "label": "both teams score",
     "value": "60.6"
    },
-   "first": true,
+   "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-chelsea-tottenham/s7.mp3",
+   "audio": "audio/2026-10-24-chelsea-tottenham/s5.mp3",
    "words": [
     {
      "w": "Both",
@@ -608,117 +506,61 @@
     {
      "w": "score",
      "start": 0.92,
-     "end": 1.32
+     "end": 1.24
     },
     {
      "w": "is",
-     "start": 1.4,
-     "end": 1.48
+     "start": 1.32,
+     "end": 1.4
     },
     {
-     "w": "60.6%,",
-     "start": 1.48,
-     "end": 3
+     "w": "60.6%",
+     "start": 1.4,
+     "end": 2.12
+    },
+    {
+     "w": "—",
+     "start": 2.12,
+     "end": 2.84
     },
     {
      "w": "more",
-     "start": 3.118,
-     "end": 3.4
+     "start": 3.062,
+     "end": 3.32
     },
     {
      "w": "likely",
-     "start": 3.48,
+     "start": 3.4,
      "end": 3.64
     },
     {
      "w": "than",
      "start": 3.72,
-     "end": 3.8
+     "end": 3.72
     },
     {
      "w": "not.",
-     "start": 3.8,
-     "end": 4.2
-    }
-   ],
-   "durationInFrames": 141
-  },
-  {
-   "type": "beat",
-   "speaker": "gaffer",
-   "text": "Tottenham are outsiders at 22.5%, but not without hope.",
-   "show": {
-    "kind": "chance",
-    "team": "away",
-    "value": 22.5
-   },
-   "first": true,
-   "variant": 0,
-   "audio": "audio/2026-10-24-chelsea-tottenham/s8.mp3",
-   "words": [
-    {
-     "w": "Tottenham",
-     "start": 0.12,
-     "end": 0.52
-    },
-    {
-     "w": "are",
-     "start": 0.6,
-     "end": 0.6
-    },
-    {
-     "w": "outsiders",
-     "start": 0.6,
-     "end": 1.4
-    },
-    {
-     "w": "at",
-     "start": 1.48,
-     "end": 1.48
-    },
-    {
-     "w": "22.5%,",
-     "start": 1.48,
-     "end": 3
-    },
-    {
-     "w": "but",
-     "start": 3.218,
-     "end": 3.4
-    },
-    {
-     "w": "not",
-     "start": 3.48,
-     "end": 3.64
-    },
-    {
-     "w": "without",
      "start": 3.72,
-     "end": 3.88
-    },
-    {
-     "w": "hope.",
-     "start": 3.88,
-     "end": 4.28
+     "end": 4.12
     }
    ],
-   "durationInFrames": 136
+   "durationInFrames": 132
   },
   {
    "type": "beat",
-   "speaker": "gaffer",
+   "speaker": "narrator",
    "text": "Chelsea are clear favourites, and the market expects goals.",
    "show": {
     "kind": "verdict",
     "points": [
      "Chelsea clear favourites",
-     "Rated about a goal better",
-     "Open game, goals expected"
+     "Three-quarters of a goal better",
+     "Goals expected"
     ]
    },
    "first": false,
    "variant": 0,
-   "audio": "audio/2026-10-24-chelsea-tottenham/s9.mp3",
+   "audio": "audio/2026-10-24-chelsea-tottenham/s6.mp3",
    "words": [
     {
      "w": "Chelsea",
@@ -774,7 +616,7 @@
    "text": "AI Boot Room. Football analysis, with receipts.",
    "first": true,
    "variant": 0,
-   "audio": "audio/2026-10-24-chelsea-tottenham/s10.mp3",
+   "audio": "audio/2026-10-24-chelsea-tottenham/s7.mp3",
    "words": [
     {
      "w": "AI",

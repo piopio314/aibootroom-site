@@ -11,9 +11,9 @@
 <meta property="og:image" content="https://www.aibootroom.com/assets/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.aibootroom.com/assets/og-image.png">
-<meta name="description" content="What the football betting market thinks about every big game, how the prices moved, and why — read by three AI pundits. Football analysis with receipts.">
+<meta name="description" content="What the football betting market thinks about every big game, how the prices moved, and what it means. Football analysis with receipts.">
 <meta property="og:title" content="AI Boot Room — The football betting market, decoded">
-<meta property="og:description" content="Every big game, what the market thinks and how the price moved — read by three AI pundits. Football analysis with receipts.">
+<meta property="og:description" content="Every big game: what the market thinks, how the price moved and what it means. Football analysis with receipts.">
 <meta property="og:url" content="https://www.aibootroom.com/">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#07090d">
@@ -27,7 +27,7 @@
 <header class="nav"><div class="wrap">
   <a class="logo" href="/"><img src="/assets/logo-96.png" alt="" width="38" height="38"><span>AI <em>Boot Room</em></span></a>
   <nav aria-label="Sections">
-    <a href="#weekend">This weekend</a><a href="match.html">Match shows</a><a href="#movers">Market movers</a><a href="#bootroom">The Boot Room</a><a href="#videos">Videos</a><a href="#receipts">Receipts</a>
+    <a href="#weekend">This weekend</a><a href="match.html">Match shows</a><a href="#movers">Market movers</a><a href="#bootroom">Latest reads</a><a href="#videos">Videos</a><a href="#receipts">Receipts</a>
   </nav>
   <span class="sp"></span>
   <a class="btn yt sm" data-yt hidden href="https://www.youtube.com/@AiBootRoom" target="_blank" rel="noopener">▶ YouTube</a>
@@ -39,7 +39,7 @@
     <div>
       <div class="kicker" id="heroKick">Match of the week</div>
       <h1 class="disp" id="heroTitle">The football betting market, decoded.</h1>
-      <p class="sub" id="heroSub">We track every price in 20 leagues, every hour — and three AI pundits explain what moved and why.</p>
+      <p class="sub" id="heroSub">Every price in 20 leagues, every hour — and a one-minute read of what it means for each big game.</p>
       <div class="ctas" id="heroCtas">
         <a class="btn primary" href="#weekend">See this weekend’s market →</a>
         <a class="btn ghost" href="match.html">▶ Watch the match shows</a>
@@ -54,7 +54,7 @@
   <section class="section" id="weekend"><div class="wrap">
     <div class="kicker">This week</div>
     <h2 class="disp">Every big game — leagues and European nights</h2>
-    <p class="lead">Win probabilities from the sharpest prices we track, with the bookmaker’s margin removed. Updated every hour. Press ▶ on a match for its one-minute video with our AI pundits.</p>
+    <p class="lead">Win probabilities from the sharpest prices we track, with the bookmaker’s margin removed. Updated every hour. Press ▶ on a match for its one-minute video.</p>
     <div class="compchips" id="compChips"></div>
     <div id="weekBoard"></div>
     <div class="cards" id="weekendCards" hidden></div>
@@ -71,18 +71,17 @@
 
   <!-- THE BOOT ROOM -->
   <section class="section" id="bootroom"><div class="wrap">
-    <div class="kicker">The Boot Room</div>
-    <h2 class="disp">Three AI pundits. One market. No guesswork.</h2>
-    <p class="lead">Every number comes from the market. The pundits only argue about what it means — and every claim has to survive the Sceptic.</p>
+    <div class="kicker">Latest reads</div>
+    <h2 class="disp">One market. The facts that matter. No guesswork.</h2>
+    <p class="lead">Every number comes from the betting market with the bookmaker’s margin removed. Each read tells you who is favoured and how strongly, what moved and how many goals to expect.</p>
     <div class="panel" id="personas"></div>
-    <div class="debate" id="debate" hidden></div>
   </div></section>
 
   <!-- VIDEOS -->
   <section class="section alt" id="videos"><div class="wrap">
     <div class="head-row"><div><div class="kicker">Watch</div><h2 class="disp">Watch the market, match by match</h2></div><span class="sp"></span>
       <a class="btn ghost sm" href="match.html">All match shows →</a></div>
-    <p class="lead">One match in about a minute: the win chances, how the price moved, the team news and the reading of our AI pundits. Press play — it runs right here.</p>
+    <p class="lead">One match in about a minute: the win chances, how the price moved, the team news and what it all means. Press play — it runs right here.</p>
     <div class="shorts" id="shorts"></div>
   </div></section>
 
@@ -108,7 +107,7 @@
     <div class="steps">
       <div class="step"><div class="n">01</div><b>We watch the market</b><span>Every hour, 20 leagues plus the Champions League, Europa League and Conference League: the sharpest and the softest prices, plus injury and suspension news.</span></div>
       <div class="step"><div class="n">02</div><b>We spot the move</b><span>A model trained on 300,000 past prices flags where a price is likely to shift before kick-off.</span></div>
-      <div class="step"><div class="n">03</div><b>The pundits argue</b><span>Scout, Sceptic and Gaffer test the move against the news. Weak stories die here.</span></div>
+      <div class="step"><div class="n">03</div><b>Every number is checked</b><span>Each fact is verified against the data before it is spoken; what cannot be checked is left out.</span></div>
       <div class="step"><div class="n">04</div><b>We show our work</b><span>A short read, a video — and, rarely, a timestamped pick in the public ledger.</span></div>
     </div>
   </div></section>
@@ -183,7 +182,7 @@
   try { (await ABR.json('data/shows/index.json')).shows.forEach(x => { SHOWS[x.id] = x; if (x.youtube_id) YT[x.id] = x.youtube_id; }); } catch (e) {}
   try { (await ABR.json('data/videos.json')).videos.forEach(x => { if (x.youtube_id) YT[x.id] = x.youtube_id; }); } catch (e) {}
   const playable = m => m && m.slug && SHOWS[m.slug];
-  const playBtn = (m, label) => playable(m) ? `<button class="mplay" data-play="${E(m.slug)}">▶ ${label || 'Watch · 1 min'}${YT[m.slug] ? ' <small>YouTube</small>' : SHOWS[m.slug].source === 'market_desk' ? ' <small>AI pundits</small>' : ''}</button>` : '';
+  const playBtn = (m, label) => playable(m) ? `<button class="mplay" data-play="${E(m.slug)}">▶ ${label || 'Watch · 1 min'}${YT[m.slug] ? ' <small>YouTube</small>' : SHOWS[m.slug].source === 'market_desk' ? ' <small>full read</small>' : ''}</button>` : '';
   document.addEventListener('click', ev => {
     const b = ev.target.closest('[data-play]'); if (!b) return;
     ev.preventDefault(); ev.stopPropagation();
@@ -282,23 +281,15 @@
       <div class="ex">Now ${m.fair[b.side].toFixed(0)}% to win</div>${playBtn(m, 'Watch')}</div>`;
   }).join('') || '<div class="skeleton">Quiet market — no move above 1.5 points yet.</div>';
 
-  // ── the Boot Room: personas with their latest line + one full debate
-  const reads = M.reads || [];
-  const latest = who => reads.find(r => r.voices && r.voices[who]);
-  document.getElementById('personas').innerHTML = ['scout', 'sceptic', 'gaffer'].map(k => {
-    const P = ABR.PERSONAS[k], r = latest(k);
-    return `<div class="persona"><div class="face" style="background:${P.bg}">${P.emoji}</div><div class="role">${E(P.role)}</div><h3 class="disp">${E(P.name)}</h3><p>${E(P.desc)}</p>
-      ${r ? `<a class="says" href="${readUrl(r.slug)}" style="display:block">“${E(r.voices[k].length > 190 ? r.voices[k].slice(0, 187) + '…' : r.voices[k])}”<small>on ${E(S(r.home))} v ${E(S(r.away))}</small></a>` : ''}</div>`;
-  }).join('');
-  const deb = reads.find(r => r.voices && r.voices.scout && r.voices.sceptic && r.voices.gaffer);
-  if (deb) {
-    const el = document.getElementById('debate'); el.hidden = false;
-    el.innerHTML = `<div><span class="chip">${E(deb.league)} · ${E(ABR.when(deb.kickoff))}</span><h3 class="disp">${E(deb.headline)}</h3>
-      <p>${E(deb.summary.length > 460 ? deb.summary.slice(0, 457) + '…' : deb.summary)}</p>
-      <a class="btn primary sm" href="${readUrl(deb.slug)}" style="margin-top:18px">Read the full market note →</a></div>
-      <div class="chat">${['scout', 'sceptic', 'gaffer'].map(k => { const P = ABR.PERSONAS[k];
-        return `<div class="msg ${k}"><div class="av" style="background:${P.bg}">${P.emoji}</div><div class="bubble"><b>${E(P.name)}</b>${E(deb.voices[k])}</div></div>`; }).join('')}</div>`;
-  }
+  // ── latest reads: one card per match — the read + its top facts (no personas since 2026-10-21)
+  const reads = (M.reads || []).filter(r => r.read || r.summary).slice(0, 3);
+  document.getElementById('personas').innerHTML = reads.map(r => {
+    const facts = (r.facts || []).slice(0, 3);
+    return `<div class="persona"><div class="role">${E(r.league)} · ${E(ABR.when(r.kickoff))}</div><h3 class="disp">${E(S(r.home))} v ${E(S(r.away))}</h3>
+      <p>${E(r.read || r.summary)}</p>
+      ${facts.length ? `<div class="says">${facts.map(f => `<div>${E(f.fact)}${f.meaning ? ` <span style="color:var(--text2)">— ${E(f.meaning)}</span>` : ''}</div>`).join('')}</div>` : ''}
+      <a class="btn ghost sm" href="${readUrl(r.slug)}" style="margin-top:16px">Read the full note →</a></div>`;
+  }).join('') || '<div class="skeleton">The first reads of the week are being written.</div>';
 
   // ── videos: a YouTube embed when the short is on YouTube, otherwise the match show plays here (assets/show.js)
   let V = {videos: [], has_youtube: false};

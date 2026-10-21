@@ -6,17 +6,12 @@
  "kickoff": "2026-10-19T19:15:00+00:00",
  "generated_at": "2026-10-19T17:03:26+00:00",
  "headline": "Braga clear favourites, but the market barely moves",
- "summary": "SC Braga are the clear market favourite at 62.5% fair, with the draw at 23.2% and GIL Vicente at 14.3%. The handicap sits at -1, with a fair line of about -0.99 goals. Goals are modest: a fair total of 2.42, Over 2.5 at 47.9% and BTTS Yes at 45.9% — a marginal Under lean of roughly two points. Across a short 17.6-hour, six-snapshot history the largest shift is 2.1 points, inside the noise band, and shared timestamps cannot be separated from snapshot granularity. Both injury lists are empty, which is a data gap rather than confirmation of full availability.",
- "voices": {
-  "scout": "The market's clear enough. Braga at about sixty-three per cent, the draw around twenty-three, GIL Vicente fourteen. A goal handicap, and a total that sits at about two point four goals. And there was a nudge toward Braga at half past one, four books moving together, though it's under two points.",
-  "sceptic": "Four books in the same second isn't a coordinated nudge. We've got six price snapshots in seventeen and a half hours, so anything that repriced in the morning gets stamped with the same afternoon timestamp. A two-point shift on a line parked at a goal isn't a signal. And Over two and a half at forty-eight per cent is a marginal lean, not a firm one.",
-  "gaffer": "So the reading is Braga at about sixty-three per cent, a goal handicap, and a total around two point four. The biggest move all day was two points, inside the noise, and an empty injury list is a data gap, not a clean bill of health. There's nothing here worth putting your name to."
- },
- "video_title": "Braga 63% — six snapshots and no team news",
+ "summary": "SC Braga are the clear market favourite at 62.5% fair, with the draw at 23.2% and GIL Vicente at 14.3%. The handicap sits at -1, with a fair line of about -0.99 goals. Goals are modest: a fair total of 2.42, Over 2.5 at 47.9% and BTTS Yes at 45.9% — a marginal Under lean of roughly two points.",
+ "read": "The market has SC Braga as a clear favourite at 62.5% fair (Draw 23.2%, GIL Vicente 14.3%), with the handicap at -1 and a fair line of about -0.99 goals.",
+ "facts": [],
+ "video_title": null,
  "key_points": [
-  "Braga 62.5% fair, handicap -1, fair line -0.99",
-  "Largest move 2.1 pp; every shift inside noise on 6 snapshots in 17.6 h",
-  "No team news at all — a data gap, not clean bills of health"
+  "Braga 62.5% fair, handicap -1, fair line -0.99"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
