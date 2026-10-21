@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T21:14:32+00:00",
+ "generated_at": "2026-10-21T21:24:27+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -420,6 +420,62 @@
    "youtube_id": null,
    "article": "/m/2026-10-24-fsv-mainz-05-werder-bremen.html",
    "seconds": 48
+  },
+  {
+   "id": "2026-10-24-arsenal-everton",
+   "home": "Arsenal",
+   "away": "Everton",
+   "league": "Premier League",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "title": "Saka off after 10 minutes: Arsenal still favourites?",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-arsenal-everton.html",
+   "seconds": 49
+  },
+  {
+   "id": "2026-10-24-coventry-fulham",
+   "home": "Coventry",
+   "away": "Fulham",
+   "league": "Premier League",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "title": "Fulham's first win: narrow favourites at Coventry",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-coventry-fulham.html",
+   "seconds": 49
+  },
+  {
+   "id": "2026-10-24-blackburn-wrexham",
+   "home": "Blackburn",
+   "away": "Wrexham",
+   "league": "Championship",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "title": "Wrexham's 4-1 win, 7 players out — and a level game",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-blackburn-wrexham.html",
+   "seconds": 45
+  },
+  {
+   "id": "2026-10-24-preston-west-brom",
+   "home": "Preston",
+   "away": "West Brom",
+   "league": "Championship",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "title": "Bottom Preston host promotion-chasing West Brom",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-preston-west-brom.html",
+   "seconds": 50
   },
   {
    "id": "2026-10-24-napoli-as-roma",

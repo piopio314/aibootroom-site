@@ -1,0 +1,814 @@
+{
+ "id": "2026-10-24-coventry-fulham",
+ "title": "Fulham's first win: narrow favourites at Coventry",
+ "match": {
+  "home": "Coventry",
+  "away": "Fulham",
+  "league": "Premier League",
+  "kickoff": "2026-10-24T14:00:00+00:00",
+  "home_short": "COV",
+  "away_short": "FUL",
+  "home_color": "#dc2626",
+  "away_color": "#b45309"
+ },
+ "market": {
+  "fair": {
+   "home": 32.0,
+   "draw": 27.2,
+   "away": 40.8
+  },
+  "move": {
+   "home": -0.4,
+   "draw": 0.3,
+   "away": 0.1
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 40.7
+   },
+   {
+    "t": "2026-10-18T23:16:00+00:00",
+    "v": 40.8
+   },
+   {
+    "t": "2026-10-19T11:20:00+00:00",
+    "v": 40.8
+   },
+   {
+    "t": "2026-10-19T17:18:00+00:00",
+    "v": 40.8
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 32.4
+    },
+    {
+     "t": "2026-10-18T23:16:00+00:00",
+     "v": 32.0
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "v": 32.0
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "v": 32.0
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 26.8
+    },
+    {
+     "t": "2026-10-18T23:16:00+00:00",
+     "v": 27.1
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "v": 27.1
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "v": 27.2
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 40.7
+    },
+    {
+     "t": "2026-10-18T23:16:00+00:00",
+     "v": 40.8
+    },
+    {
+     "t": "2026-10-19T11:20:00+00:00",
+     "v": 40.8
+    },
+    {
+     "t": "2026-10-19T17:18:00+00:00",
+     "v": 40.8
+    }
+   ]
+  },
+  "goals": 2.71,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T19:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Fulham's first Premier League win of the season was 1-0 against Hull.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Hull City",
+    "score": "1-0"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-coventry-fulham/s0.mp3",
+   "words": [
+    {
+     "w": "Fulham's",
+     "start": 0.275,
+     "end": 0.713
+    },
+    {
+     "w": "first",
+     "start": 0.713,
+     "end": 1.025
+    },
+    {
+     "w": "Premier",
+     "start": 1.025,
+     "end": 1.45
+    },
+    {
+     "w": "League",
+     "start": 1.45,
+     "end": 1.725
+    },
+    {
+     "w": "win",
+     "start": 1.725,
+     "end": 1.863
+    },
+    {
+     "w": "of",
+     "start": 1.863,
+     "end": 1.938
+    },
+    {
+     "w": "the",
+     "start": 1.938,
+     "end": 2.038
+    },
+    {
+     "w": "season",
+     "start": 2.038,
+     "end": 2.675
+    },
+    {
+     "w": "was",
+     "start": 2.675,
+     "end": 2.862
+    },
+    {
+     "w": "1-0",
+     "start": 2.862,
+     "end": 3.45
+    },
+    {
+     "w": "against",
+     "start": 3.45,
+     "end": 3.825
+    },
+    {
+     "w": "Hull.",
+     "start": 3.825,
+     "end": 4.575
+    }
+   ],
+   "durationInFrames": 145
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "On Saturday they travel to Coventry in the Premier League.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-coventry-fulham/s1.mp3",
+   "words": [
+    {
+     "w": "On",
+     "start": 0.25,
+     "end": 0.463
+    },
+    {
+     "w": "Saturday",
+     "start": 0.463,
+     "end": 1.1
+    },
+    {
+     "w": "they",
+     "start": 1.1,
+     "end": 1.25
+    },
+    {
+     "w": "travel",
+     "start": 1.25,
+     "end": 1.675
+    },
+    {
+     "w": "to",
+     "start": 1.675,
+     "end": 1.8
+    },
+    {
+     "w": "Coventry",
+     "start": 1.8,
+     "end": 2.375
+    },
+    {
+     "w": "in",
+     "start": 2.375,
+     "end": 2.462
+    },
+    {
+     "w": "the",
+     "start": 2.462,
+     "end": 2.55
+    },
+    {
+     "w": "Premier",
+     "start": 2.55,
+     "end": 2.975
+    },
+    {
+     "w": "League.",
+     "start": 2.975,
+     "end": 3.725
+    }
+   ],
+   "durationInFrames": 120
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Coventry are 17th with 6 points, one place above Fulham.",
+   "show": {
+    "kind": "table",
+    "team": "home",
+    "rank": 17,
+    "pts": 6
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-coventry-fulham/s2.mp3",
+   "words": [
+    {
+     "w": "Coventry",
+     "start": 0.25,
+     "end": 0.7
+    },
+    {
+     "w": "are",
+     "start": 0.7,
+     "end": 0.863
+    },
+    {
+     "w": "17th",
+     "start": 0.863,
+     "end": 1.488
+    },
+    {
+     "w": "with",
+     "start": 1.488,
+     "end": 1.65
+    },
+    {
+     "w": "6",
+     "start": 1.65,
+     "end": 1.9
+    },
+    {
+     "w": "points,",
+     "start": 1.9,
+     "end": 2.5
+    },
+    {
+     "w": "one",
+     "start": 2.6,
+     "end": 2.825
+    },
+    {
+     "w": "place",
+     "start": 2.825,
+     "end": 3.125
+    },
+    {
+     "w": "above",
+     "start": 3.125,
+     "end": 3.438
+    },
+    {
+     "w": "Fulham.",
+     "start": 3.438,
+     "end": 4.3
+    }
+   ],
+   "durationInFrames": 137
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The Athletic reports no win in Arbeloa's first 6 Fulham games.",
+   "show": {
+    "kind": "news",
+    "source": "The Athletic",
+    "text": "No win in Arbeloa's first 6 league games"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-coventry-fulham/s3.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.388
+    },
+    {
+     "w": "Athletic",
+     "start": 0.388,
+     "end": 0.825
+    },
+    {
+     "w": "reports",
+     "start": 0.825,
+     "end": 1.3
+    },
+    {
+     "w": "no",
+     "start": 1.3,
+     "end": 1.475
+    },
+    {
+     "w": "win",
+     "start": 1.475,
+     "end": 1.663
+    },
+    {
+     "w": "in",
+     "start": 1.663,
+     "end": 1.738
+    },
+    {
+     "w": "Arbeloa's",
+     "start": 1.738,
+     "end": 2.55
+    },
+    {
+     "w": "first",
+     "start": 2.55,
+     "end": 2.925
+    },
+    {
+     "w": "6",
+     "start": 2.925,
+     "end": 3.25
+    },
+    {
+     "w": "Fulham",
+     "start": 3.25,
+     "end": 3.65
+    },
+    {
+     "w": "games.",
+     "start": 3.65,
+     "end": 4.525
+    }
+   ],
+   "durationInFrames": 144
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Coventry beat Newcastle 4-1 at home.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Newcastle",
+    "score": "4-1"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-coventry-fulham/s4.mp3",
+   "words": [
+    {
+     "w": "Coventry",
+     "start": 0.25,
+     "end": 0.7
+    },
+    {
+     "w": "beat",
+     "start": 0.7,
+     "end": 0.95
+    },
+    {
+     "w": "Newcastle",
+     "start": 0.95,
+     "end": 1.538
+    },
+    {
+     "w": "4-1",
+     "start": 1.538,
+     "end": 1.962
+    },
+    {
+     "w": "at",
+     "start": 1.962,
+     "end": 2.05
+    },
+    {
+     "w": "home.",
+     "start": 2.05,
+     "end": 2.825
+    }
+   ],
+   "durationInFrames": 93
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "And yet Newcastle out-created them: 1.84 expected goals.",
+   "show": {
+    "kind": "stat",
+    "label": "xG conceded v Newcastle",
+    "value": "1.84"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-coventry-fulham/s5.mp3",
+   "words": [
+    {
+     "w": "And",
+     "start": 0.25,
+     "end": 0.388
+    },
+    {
+     "w": "yet",
+     "start": 0.388,
+     "end": 0.55
+    },
+    {
+     "w": "Newcastle",
+     "start": 0.55,
+     "end": 1.125
+    },
+    {
+     "w": "out-created",
+     "start": 1.125,
+     "end": 1.725
+    },
+    {
+     "w": "them:",
+     "start": 1.725,
+     "end": 2.15
+    },
+    {
+     "w": "1.84",
+     "start": 2.263,
+     "end": 3.25
+    },
+    {
+     "w": "expected",
+     "start": 3.25,
+     "end": 3.825
+    },
+    {
+     "w": "goals.",
+     "start": 3.825,
+     "end": 4.7
+    }
+   ],
+   "durationInFrames": 149
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Fulham, by contrast, allow only 1.05 expected goals a game.",
+   "show": {
+    "kind": "stat",
+    "label": "Fulham xG conceded",
+    "value": "1.05"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-coventry-fulham/s6.mp3",
+   "words": [
+    {
+     "w": "Fulham,",
+     "start": 0.275,
+     "end": 0.6
+    },
+    {
+     "w": "by",
+     "start": 0.637,
+     "end": 0.8
+    },
+    {
+     "w": "contrast,",
+     "start": 0.8,
+     "end": 1.65
+    },
+    {
+     "w": "allow",
+     "start": 1.788,
+     "end": 2.075
+    },
+    {
+     "w": "only",
+     "start": 2.075,
+     "end": 2.375
+    },
+    {
+     "w": "1.05",
+     "start": 2.375,
+     "end": 3.55
+    },
+    {
+     "w": "expected",
+     "start": 3.55,
+     "end": 4.125
+    },
+    {
+     "w": "goals",
+     "start": 4.125,
+     "end": 4.487
+    },
+    {
+     "w": "a",
+     "start": 4.487,
+     "end": 4.575
+    },
+    {
+     "w": "game.",
+     "start": 4.575,
+     "end": 5.375
+    }
+   ],
+   "durationInFrames": 169
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "That is why Fulham are narrow favourites at 40.8%.",
+   "show": {
+    "kind": "chance",
+    "team": "away",
+    "value": 40.8
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-coventry-fulham/s7.mp3",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.25,
+     "end": 0.412
+    },
+    {
+     "w": "is",
+     "start": 0.412,
+     "end": 0.525
+    },
+    {
+     "w": "why",
+     "start": 0.525,
+     "end": 0.738
+    },
+    {
+     "w": "Fulham",
+     "start": 0.738,
+     "end": 1.188
+    },
+    {
+     "w": "are",
+     "start": 1.188,
+     "end": 1.35
+    },
+    {
+     "w": "narrow",
+     "start": 1.35,
+     "end": 1.738
+    },
+    {
+     "w": "favourites",
+     "start": 1.738,
+     "end": 2.275
+    },
+    {
+     "w": "at",
+     "start": 2.275,
+     "end": 2.438
+    },
+    {
+     "w": "40.8%.",
+     "start": 2.438,
+     "end": 4.1
+    }
+   ],
+   "durationInFrames": 131
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The handicap is nearly level: a quarter of a goal to Coventry.",
+   "show": {
+    "kind": "phrase",
+    "text": "nearly level on the handicap"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-coventry-fulham/s8.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.35
+    },
+    {
+     "w": "handicap",
+     "start": 0.35,
+     "end": 1.0
+    },
+    {
+     "w": "is",
+     "start": 1.0,
+     "end": 1.163
+    },
+    {
+     "w": "nearly",
+     "start": 1.163,
+     "end": 1.525
+    },
+    {
+     "w": "level:",
+     "start": 1.525,
+     "end": 2.05
+    },
+    {
+     "w": "a",
+     "start": 2.188,
+     "end": 2.3
+    },
+    {
+     "w": "quarter",
+     "start": 2.3,
+     "end": 2.688
+    },
+    {
+     "w": "of",
+     "start": 2.688,
+     "end": 2.763
+    },
+    {
+     "w": "a",
+     "start": 2.763,
+     "end": 2.862
+    },
+    {
+     "w": "goal",
+     "start": 2.862,
+     "end": 3.225
+    },
+    {
+     "w": "to",
+     "start": 3.225,
+     "end": 3.35
+    },
+    {
+     "w": "Coventry.",
+     "start": 3.35,
+     "end": 4.3
+    }
+   ],
+   "durationInFrames": 137
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The table says Coventry, the chances say Fulham.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Coventry sit higher",
+     "Fulham give up less",
+     "narrow, not comfortable"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-24-coventry-fulham/s9.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "table",
+     "start": 0.325,
+     "end": 0.675
+    },
+    {
+     "w": "says",
+     "start": 0.675,
+     "end": 0.925
+    },
+    {
+     "w": "Coventry,",
+     "start": 0.925,
+     "end": 1.525
+    },
+    {
+     "w": "the",
+     "start": 1.625,
+     "end": 1.75
+    },
+    {
+     "w": "chances",
+     "start": 1.75,
+     "end": 2.2
+    },
+    {
+     "w": "say",
+     "start": 2.2,
+     "end": 2.438
+    },
+    {
+     "w": "Fulham.",
+     "start": 2.438,
+     "end": 3.275
+    }
+   ],
+   "durationInFrames": 113
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-24-coventry-fulham/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
+  "stickers": [
+   "🎯",
+   "🎯",
+   "🎯"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1557440,
+ "prices_as_of": "2026-10-21T19:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}
