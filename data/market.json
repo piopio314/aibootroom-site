@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T20:45:00+00:00",
+ "generated_at": "2026-10-21T20:51:00+00:00",
  "prices_as_of": "2026-10-21T19:18:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
@@ -2189,8 +2189,8 @@
     "home": 1,
     "away": 3
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-23-bolton-middlesbrough",
+   "headline": "Middlesbrough are third but drawing often — and still clear favourites",
    "competition": "40"
   },
   {
@@ -2219,8 +2219,8 @@
     "home": 2,
     "away": 4
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-23-alaves-malaga",
+   "headline": "Bottom Malaga visit Alaves, who have not won in five",
    "competition": "140"
   },
   {
@@ -5059,7 +5059,7 @@
     }
    ],
    "video_title": "City lead the league, but Villa Park has been awkward",
-   "article": null
+   "article": "/m/2026-10-24-aston-villa-manchester-city.html"
   },
   {
    "slug": "2026-10-24-chelsea-tottenham",

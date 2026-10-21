@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T20:45:33+00:00",
+ "generated_at": "2026-10-21T20:51:35+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -282,6 +282,34 @@
    "seconds": 53
   },
   {
+   "id": "2026-10-23-kortrijk-kv-mechelen",
+   "home": "Kortrijk",
+   "away": "KV Mechelen",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-10-23T18:45:00+00:00",
+   "title": "Kortrijk 17th, a new coach — and Mechelen in form",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-23-kortrijk-kv-mechelen.html",
+   "seconds": 47
+  },
+  {
+   "id": "2026-10-23-ipswich-nottingham-forest",
+   "home": "Ipswich",
+   "away": "Nottingham Forest",
+   "league": "Premier League",
+   "kickoff": "2026-10-23T19:00:00+00:00",
+   "title": "Forest are 19th — so why does the market favour them?",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-23-ipswich-nottingham-forest.html",
+   "seconds": 45
+  },
+  {
    "id": "2026-10-24-aston-villa-manchester-city",
    "home": "Aston Villa",
    "away": "Manchester City",
@@ -292,7 +320,7 @@
    "kicker": "MATCH PREVIEW",
    "voiced": true,
    "youtube_id": null,
-   "article": null,
+   "article": "/m/2026-10-24-aston-villa-manchester-city.html",
    "seconds": 42
   },
   {
