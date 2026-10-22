@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T08:34:44+00:00",
+ "generated_at": "2026-10-22T09:26:40+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -786,20 +786,6 @@
    "seconds": 51
   },
   {
-   "id": "2026-10-24-toulouse-estac-troyes",
-   "home": "Toulouse",
-   "away": "Estac Troyes",
-   "league": "Ligue 1",
-   "kickoff": "2026-10-24T15:15:00+00:00",
-   "title": "Troyes on 5 straight defeats; Toulouse clear favourites",
-   "source": "market_desk",
-   "kicker": "MATCH PREVIEW",
-   "voiced": true,
-   "youtube_id": null,
-   "article": "/m/2026-10-24-toulouse-estac-troyes.html",
-   "seconds": 45
-  },
-  {
    "id": "2026-10-24-napoli-as-roma",
    "home": "Napoli",
    "away": "AS Roma",
@@ -1330,6 +1316,20 @@
    "youtube_id": null,
    "article": "/m/2026-10-25-rennes-strasbourg.html",
    "seconds": 51
+  },
+  {
+   "id": "2026-10-24-toulouse-estac-troyes",
+   "home": "Toulouse",
+   "away": "Estac Troyes",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-24T15:15:00+00:00",
+   "title": "Troyes on 5 straight defeats; Toulouse clear favourites",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-toulouse-estac-troyes.html",
+   "seconds": 45
   },
   {
    "id": "2026-10-25-sunderland-leeds",

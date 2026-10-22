@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-22T09:21:00+00:00",
- "prices_as_of": "2026-10-22T08:29:00+00:00",
+ "generated_at": "2026-10-22T09:26:00+00:00",
+ "prices_as_of": "2026-10-22T09:23:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
   "matches": 504,
-  "price_changes": 206561,
+  "price_changes": 208778,
   "leagues": 23,
   "absences": 783,
   "tracking_since": "2026-10-18T22:49:00+00:00"
@@ -129,7 +129,7 @@
   },
   "read": "2026-10-25-barcelona-real-madrid",
   "headline": "Barcelona's perfect league start meets Madrid's Vinicius question",
-  "numbers": null
+  "numbers": "/n/2026-10-25-barcelona-real-madrid.html"
  },
  "weekend": [
   {
@@ -140,14 +140,14 @@
    "home": "Ajax",
    "away": "Atalanta",
    "fair": {
-    "home": 44.1,
-    "draw": 25.4,
-    "away": 30.6
+    "home": 44.6,
+    "draw": 25.5,
+    "away": 30.0
    },
    "move": {
-    "home": 0.2,
-    "draw": -0.4,
-    "away": 0.2
+    "home": 0.7,
+    "draw": -0.3,
+    "away": -0.4
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "timeline": [
@@ -198,10 +198,16 @@
      "home": 44.1,
      "draw": 25.4,
      "away": 30.6
+    },
+    {
+     "t": "2026-10-22T09:23:00+00:00",
+     "home": 44.6,
+     "draw": 25.5,
+     "away": 30.0
     }
    ],
    "goals": {
-    "expected": 3.17,
+    "expected": 3.18,
     "first": 2.91
    },
    "absences": {
@@ -1022,7 +1028,7 @@
    },
    "read": "2026-10-25-paris-saint-germain-lyon",
    "headline": "PSG lose three to injury, still favourites against Lyon",
-   "numbers": null
+   "numbers": "/n/2026-10-25-paris-saint-germain-lyon.html"
   },
   {
    "id": 1584442,
@@ -1084,10 +1090,40 @@
    },
    "read": "2026-10-26-galatasaray-fenerbah-e",
    "headline": "Asensio out for 3 months, and the derby stays close",
-   "numbers": null
+   "numbers": "/n/2026-10-26-galatasaray-fenerbah-e.html"
   }
  ],
  "movers": [
+  {
+   "id": 1636430,
+   "slug": "2026-10-22-fk-jablonec-brighton",
+   "league": "Conference League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "home": "FK Jablonec",
+   "away": "Brighton",
+   "fair": {
+    "home": 7.1,
+    "draw": 12.9,
+    "away": 80.0
+   },
+   "move": {
+    "home": -3.8,
+    "draw": -3.9,
+    "away": 7.7
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 3.28,
+    "first": 3.14
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": "2026-10-22-fk-jablonec-brighton",
+   "headline": "Brighton's five-win run meets Jablonec's unbeaten home record",
+   "numbers": "/n/2026-10-22-fk-jablonec-brighton.html"
+  },
   {
    "id": 1564379,
    "slug": "2026-10-24-afc-wimbledon-wycombe",
@@ -1147,36 +1183,6 @@
    "read": null,
    "headline": null,
    "numbers": null
-  },
-  {
-   "id": 1636430,
-   "slug": "2026-10-22-fk-jablonec-brighton",
-   "league": "Conference League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "home": "FK Jablonec",
-   "away": "Brighton",
-   "fair": {
-    "home": 7.4,
-    "draw": 13.6,
-    "away": 79.0
-   },
-   "move": {
-    "home": -3.5,
-    "draw": -3.2,
-    "away": 6.7
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 3.29,
-    "first": 3.14
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": "2026-10-22-fk-jablonec-brighton",
-   "headline": "Brighton's five-win run meets Jablonec's unbeaten home record",
-   "numbers": "/n/2026-10-22-fk-jablonec-brighton.html"
   },
   {
    "id": 1563827,
@@ -1239,6 +1245,36 @@
    "numbers": null
   },
   {
+   "id": 1636388,
+   "slug": "2026-10-22-sc-braga-gent",
+   "league": "Conference League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "home": "SC Braga",
+   "away": "Gent",
+   "fair": {
+    "home": 50.8,
+    "draw": 26.4,
+    "away": 22.9
+   },
+   "move": {
+    "home": -5.7,
+    "draw": 0.3,
+    "away": 5.4
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.27,
+    "first": 2.29
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": "2026-10-22-sc-braga-gent",
+   "headline": "Braga sack their coach two days before unbeaten Gent",
+   "numbers": null
+  },
+  {
    "id": 1570426,
    "slug": "2026-10-25-barcelona-real-madrid",
    "league": "La Liga",
@@ -1266,7 +1302,7 @@
    },
    "read": "2026-10-25-barcelona-real-madrid",
    "headline": "Barcelona's perfect league start meets Madrid's Vinicius question",
-   "numbers": null
+   "numbers": "/n/2026-10-25-barcelona-real-madrid.html"
   },
   {
    "id": 1636215,
@@ -1297,36 +1333,6 @@
    "read": "2026-10-22-ararat-armenia-az-alkmaar",
    "headline": "Ararat-Armenia, 34th in Europe, host an AZ side a goal stronger",
    "numbers": "/n/2026-10-22-ararat-armenia-az-alkmaar.html"
-  },
-  {
-   "id": 1552508,
-   "slug": "2026-10-24-montpellier-red-star-fc-93",
-   "league": "Ligue 2",
-   "kickoff": "2026-10-24T12:00:00+00:00",
-   "home": "Montpellier",
-   "away": "RED Star FC 93",
-   "fair": {
-    "home": 38.4,
-    "draw": 25.3,
-    "away": 36.3
-   },
-   "move": {
-    "home": -2.9,
-    "draw": -2.4,
-    "away": 5.5
-   },
-   "tracked_since": "2026-10-19T13:25:00+00:00",
-   "goals": {
-    "expected": 2.63,
-    "first": 2.45
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null,
-   "numbers": null
   }
  ],
  "competitions": [
@@ -2023,18 +2029,18 @@
    "home": "Ajax",
    "away": "Atalanta",
    "fair": {
-    "home": 44.1,
-    "draw": 25.4,
-    "away": 30.6
+    "home": 44.6,
+    "draw": 25.5,
+    "away": 30.0
    },
    "move": {
-    "home": 0.2,
-    "draw": -0.4,
-    "away": 0.2
+    "home": 0.7,
+    "draw": -0.3,
+    "away": -0.4
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 3.17,
+    "expected": 3.18,
     "first": 2.91
    },
    "absences": {
@@ -2054,18 +2060,18 @@
    "home": "Monaco",
    "away": "SC Freiburg",
    "fair": {
-    "home": 43.5,
-    "draw": 26.7,
-    "away": 29.8
+    "home": 43.4,
+    "draw": 27.3,
+    "away": 29.4
    },
    "move": {
-    "home": 1.4,
-    "draw": 0.2,
-    "away": -1.6
+    "home": 1.3,
+    "draw": 0.8,
+    "away": -2.1
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 2.7,
+    "expected": 2.74,
     "first": 2.75
    },
    "absences": {
@@ -3254,37 +3260,6 @@
    "headline": "Estrela come home as clear favourites against bottom-side Casa Pia",
    "numbers": "/n/2026-10-24-estrela-casa-pia.html",
    "competition": "94"
-  },
-  {
-   "id": 1552799,
-   "slug": "2026-10-24-toulouse-estac-troyes",
-   "league": "Ligue 1",
-   "kickoff": "2026-10-24T15:15:00+00:00",
-   "home": "Toulouse",
-   "away": "Estac Troyes",
-   "fair": {
-    "home": 58.3,
-    "draw": 22.8,
-    "away": 18.9
-   },
-   "move": {
-    "home": -0.0,
-    "draw": 0.1,
-    "away": -0.1
-   },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
-   "goals": {
-    "expected": 2.89,
-    "first": 2.92
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": "2026-10-24-toulouse-estac-troyes",
-   "headline": "Troyes arrive on 5 straight defeats; Toulouse are 58.3% favourites",
-   "numbers": "/n/2026-10-24-toulouse-estac-troyes.html",
-   "competition": "61"
   },
   {
    "id": 1550164,
@@ -4496,6 +4471,37 @@
    "competition": "61"
   },
   {
+   "id": 1552799,
+   "slug": "2026-10-25-toulouse-estac-troyes",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-25T16:15:00+00:00",
+   "home": "Toulouse",
+   "away": "Estac Troyes",
+   "fair": {
+    "home": 58.3,
+    "draw": 22.8,
+    "away": 18.9
+   },
+   "move": {
+    "home": -0.0,
+    "draw": 0.1,
+    "away": -0.1
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.89,
+    "first": 2.92
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": "2026-10-24-toulouse-estac-troyes",
+   "headline": "Troyes arrive on 5 straight defeats; Toulouse are 58.3% favourites",
+   "numbers": null,
+   "competition": "61"
+  },
+  {
    "id": 1557446,
    "slug": "2026-10-25-sunderland-leeds",
    "league": "Premier League",
@@ -4554,7 +4560,7 @@
    },
    "read": "2026-10-25-sc-freiburg-bayern-m-nchen",
    "headline": "Bayern without Musiala at third-placed Freiburg — still clear favourites",
-   "numbers": null,
+   "numbers": "/n/2026-10-25-sc-freiburg-bayern-m-nchen.html",
    "competition": "78"
   },
   {
@@ -4585,7 +4591,7 @@
    },
    "read": "2026-10-25-lecce-juventus",
    "headline": "Juventus after the 0-3: Spalletti's side still clear favourites",
-   "numbers": null,
+   "numbers": "/n/2026-10-25-lecce-juventus.html",
    "competition": "135"
   },
   {
@@ -4616,7 +4622,7 @@
    },
    "read": "2026-10-25-gent-anderlecht",
    "headline": "Gent top and unbeaten, but only narrow favourites",
-   "numbers": null,
+   "numbers": "/n/2026-10-25-gent-anderlecht.html",
    "competition": "144"
   },
   {
@@ -4647,7 +4653,7 @@
    },
    "read": "2026-10-25-real-sociedad-levante",
    "headline": "Real Sociedad's heavy week meets a Levante side scoring again",
-   "numbers": null,
+   "numbers": "/n/2026-10-25-real-sociedad-levante.html",
    "competition": "140"
   },
   {
@@ -4678,7 +4684,7 @@
    },
    "read": "2026-10-25-nacional-sc-braga",
    "headline": "Braga sack their coach, then travel to Nacional as favourites",
-   "numbers": null,
+   "numbers": "/n/2026-10-25-nacional-sc-braga.html",
    "competition": "94"
   },
   {
@@ -4709,7 +4715,7 @@
    },
    "read": "2026-10-25-rio-ave-famalicao",
    "headline": "Famalicão sacked their coach — and are still the clear favourites",
-   "numbers": null,
+   "numbers": "/n/2026-10-25-rio-ave-famalicao.html",
    "competition": "94"
   },
   {
@@ -4740,7 +4746,7 @@
    },
    "read": "2026-10-25-union-st-gilloise-cercle-brugge",
    "headline": "Union unbeaten, Cercle winless: Sunday's gap in Brussels",
-   "numbers": null,
+   "numbers": "/n/2026-10-25-union-st-gilloise-cercle-brugge.html",
    "competition": "144"
   },
   {
@@ -4771,7 +4777,7 @@
    },
    "read": "2026-10-25-az-alkmaar-twente",
    "headline": "AZ at home and second, but Twente's defence keeps the gap small",
-   "numbers": null,
+   "numbers": "/n/2026-10-25-az-alkmaar-twente.html",
    "competition": "88"
   },
   {
@@ -4802,7 +4808,7 @@
    },
    "read": "2026-10-25-udinese-ac-milan",
    "headline": "Udinese have lost 5 in a row; unbeaten Milan are next",
-   "numbers": null,
+   "numbers": "/n/2026-10-25-udinese-ac-milan.html",
    "competition": "135"
   },
   {
@@ -4833,7 +4839,7 @@
    },
    "read": "2026-10-25-paris-saint-germain-lyon",
    "headline": "PSG lose three to injury, still favourites against Lyon",
-   "numbers": null,
+   "numbers": "/n/2026-10-25-paris-saint-germain-lyon.html",
    "competition": "61"
   },
   {
@@ -4864,7 +4870,7 @@
    },
    "read": "2026-10-25-barcelona-real-madrid",
    "headline": "Barcelona's perfect league start meets Madrid's Vinicius question",
-   "numbers": null,
+   "numbers": "/n/2026-10-25-barcelona-real-madrid.html",
    "competition": "140"
   },
   {
@@ -4895,7 +4901,7 @@
    },
    "read": "2026-10-25-sporting-cp-academico-viseu",
    "headline": "Sporting's first defeat came in Europe, not in the league",
-   "numbers": null,
+   "numbers": "/n/2026-10-25-sporting-cp-academico-viseu.html",
    "competition": "94"
   },
   {
@@ -4926,7 +4932,7 @@
    },
    "read": "2026-10-26-be-ikta-ba-ak-ehir",
    "headline": "Beşiktaş under pressure, still clear favourites at home",
-   "numbers": null,
+   "numbers": "/n/2026-10-26-be-ikta-ba-ak-ehir.html",
    "competition": "203"
   },
   {
@@ -4957,7 +4963,7 @@
    },
    "read": "2026-10-26-rizespor-trabzonspor",
    "headline": "Trabzonspor in form, but the market keeps the derby close",
-   "numbers": null,
+   "numbers": "/n/2026-10-26-rizespor-trabzonspor.html",
    "competition": "203"
   },
   {
@@ -4988,7 +4994,7 @@
    },
    "read": "2026-10-26-galatasaray-fenerbah-e",
    "headline": "Asensio out for 3 months, and the derby stays close",
-   "numbers": null,
+   "numbers": "/n/2026-10-26-galatasaray-fenerbah-e.html",
    "competition": "203"
   },
   {
@@ -5019,7 +5025,7 @@
    },
    "read": "2026-10-26-santa-clara-benfica",
    "headline": "Unbeaten Santa Clara host Benfica — and the market favours the visitors",
-   "numbers": null,
+   "numbers": "/n/2026-10-26-santa-clara-benfica.html",
    "competition": "94"
   },
   {
@@ -5050,7 +5056,7 @@
    },
    "read": "2026-10-26-sevilla-osasuna",
    "headline": "Sevilla's slump meets an Osasuna defence that leaks goals",
-   "numbers": null,
+   "numbers": "/n/2026-10-26-sevilla-osasuna.html",
    "competition": "140"
   },
   {
@@ -5081,7 +5087,7 @@
    },
    "read": null,
    "headline": null,
-   "numbers": null,
+   "numbers": "/n/2026-10-27-sassuolo-lazio.html",
    "competition": "135"
   },
   {
@@ -5112,7 +5118,7 @@
    },
    "read": null,
    "headline": null,
-   "numbers": null,
+   "numbers": "/n/2026-10-27-as-roma-cagliari.html",
    "competition": "135"
   },
   {
@@ -5143,7 +5149,7 @@
    },
    "read": null,
    "headline": null,
-   "numbers": null,
+   "numbers": "/n/2026-10-27-torino-como.html",
    "competition": "135"
   },
   {
@@ -5174,7 +5180,7 @@
    },
    "read": null,
    "headline": null,
-   "numbers": null,
+   "numbers": "/n/2026-10-28-ac-milan-bologna.html",
    "competition": "135"
   },
   {
@@ -5205,7 +5211,7 @@
    },
    "read": null,
    "headline": null,
-   "numbers": null,
+   "numbers": "/n/2026-10-28-parma-udinese.html",
    "competition": "135"
   },
   {
@@ -5236,7 +5242,7 @@
    },
    "read": null,
    "headline": null,
-   "numbers": null,
+   "numbers": "/n/2026-10-28-venezia-inter.html",
    "competition": "135"
   },
   {
@@ -5267,7 +5273,7 @@
    },
    "read": "2026-10-28-genoa-juventus",
    "headline": "Juventus visit Genoa after a heavy defeat, but remain clear favourites",
-   "numbers": null,
+   "numbers": "/n/2026-10-28-genoa-juventus.html",
    "competition": "135"
   },
   {
@@ -5298,7 +5304,7 @@
    },
    "read": null,
    "headline": null,
-   "numbers": null,
+   "numbers": "/n/2026-10-28-monza-napoli.html",
    "competition": "135"
   },
   {

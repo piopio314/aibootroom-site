@@ -106,6 +106,35 @@
   "Braga sack coach two days out",
   "Gent unbeaten in five: DWWWD"
  ],
- "market": null,
+ "market": {
+  "id": 1636388,
+  "slug": "2026-10-22-sc-braga-gent",
+  "league": "Conference League",
+  "kickoff": "2026-10-22T19:00:00+00:00",
+  "home": "SC Braga",
+  "away": "Gent",
+  "fair": {
+   "home": 50.8,
+   "draw": 26.4,
+   "away": 22.9
+  },
+  "move": {
+   "home": -5.7,
+   "draw": 0.3,
+   "away": 5.4
+  },
+  "tracked_since": "2026-10-20T20:44:00+00:00",
+  "goals": {
+   "expected": 2.27,
+   "first": 2.29
+  },
+  "absences": {
+   "home": 0,
+   "away": 0
+  },
+  "read": "2026-10-22-sc-braga-gent",
+  "headline": "Braga sack their coach two days before unbeaten Gent",
+  "numbers": null
+ },
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }

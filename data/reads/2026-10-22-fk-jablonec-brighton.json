@@ -115,18 +115,18 @@
   "home": "FK Jablonec",
   "away": "Brighton",
   "fair": {
-   "home": 7.4,
-   "draw": 13.6,
-   "away": 79.0
+   "home": 7.1,
+   "draw": 12.9,
+   "away": 80.0
   },
   "move": {
-   "home": -3.5,
-   "draw": -3.2,
-   "away": 6.7
+   "home": -3.8,
+   "draw": -3.9,
+   "away": 7.7
   },
   "tracked_since": "2026-10-20T20:44:00+00:00",
   "goals": {
-   "expected": 3.29,
+   "expected": 3.28,
    "first": 3.14
   },
   "absences": {
