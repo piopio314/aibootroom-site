@@ -307,3 +307,21 @@ svg.i.ucl { color: #4ea1ff; } svg.i.uel { color: #ff8a1f; } svg.i.uecl { color: 
 .ticket .risk { margin-top: 6px; } .ticket .verdict { margin-top: 10px; font-size: 14px; text-align: left; }
 .ticket .verdict b { letter-spacing: .06em; margin-right: 6px; }
 .v-right b { color: #2fd27a; } .v-lucky b, .v-unlucky b { color: #ffb020; } .v-wrong b { color: #ff5a5f; } .v-push b { color: #a9b4c2; }
+
+/* v2.55 AI picks at the top of the homepage */
+.picks .pickgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 520px), 1fr)); gap: 22px; margin-top: 26px; }
+.pick { display: grid; grid-template-columns: 200px 1fr; gap: 20px; background: var(--card, #111823); border: 1px solid var(--line, #1f2a38); border-radius: 18px; padding: 16px; }
+.pick .ppost { position: relative; border: 0; padding: 0; border-radius: 14px; overflow: hidden; aspect-ratio: 9 / 16; background: #0b0f14; cursor: pointer; }
+.pick .ppost img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pick .ppost .pp { position: absolute; left: 50%; bottom: 12%; transform: translateX(-50%); width: 58px; height: 58px; border-radius: 50%;
+  background: rgba(255,255,255,.92); color: #111; display: grid; place-items: center; font-size: 22px; }
+.pick .pnone { display: grid; place-items: center; height: 100%; padding: 12px; color: var(--text); font-weight: 800; }
+.pick .top { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; color: var(--muted); }
+.pick h3 { margin: 8px 0 6px; font-size: 22px; }
+.pick .psel { display: flex; gap: 10px; align-items: baseline; font-size: 19px; } .pick .psel span { color: var(--accent); font-weight: 800; }
+.pick .pch { margin-top: 6px; font-size: 14px; color: var(--text2); } .pick .pch .ours { color: var(--accent); }
+.pick .phook { margin: 10px 0 6px; font-weight: 700; } .pick .pwhy { margin: 6px 0 0 18px; padding: 0; font-size: 14px; color: var(--text2); }
+.pick .pwhy li { margin: 4px 0; } .pick .prisk { font-size: 14px; color: var(--text2); margin: 8px 0 0; }
+.pick .pstamp { margin-top: 12px; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+.pick .pverdict { margin-top: 12px; font-size: 14px; } .pick .pverdict span { display: block; color: var(--text2); margin-top: 4px; }
+@media (max-width: 640px) { .pick { grid-template-columns: 1fr; } .pick .ppost { max-width: 260px; margin: 0 auto; } }

@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css?v=255">
+<link rel="stylesheet" href="assets/site.css?v=256">
 </head>
 <body>
 
@@ -51,6 +51,15 @@
   <div class="band"><div class="wrap" id="band"></div></div>
 
   <!-- THIS WEEKEND -->
+  <!-- AI PICKS (v2.55: the picks with receipts lead the page) -->
+  <section class="section picks" id="picks" hidden><div class="wrap">
+    <div class="kicker">AI picks · with receipts</div>
+    <h2 class="disp">Our picks — published before kick-off, settled in public</h2>
+    <p class="lead" id="picksLead">Each pick goes out at least 24 hours before kick-off with its price and our reasons. It is final: never edited, never withdrawn. After the match it is settled here and on X — win or lose, with what went right and what did not.</p>
+    <div class="pickgrid" id="pickGrid"></div>
+    <p style="margin-top:22px"><a class="btn ghost" href="#receipts">The full record →</a></p>
+  </div></section>
+
   <section class="section" id="weekend"><div class="wrap">
     <div class="kicker">This week</div>
     <h2 class="disp">Every big game — leagues and European nights</h2>
@@ -92,7 +101,7 @@
         <div class="kicker">Receipts</div>
         <h2 class="disp">Picks you can check. Every single one.</h2>
         <div class="promise"><div class="ic"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#i-clock"></use></svg></div><div><b>Published at least 24 hours before kick-off</b><span>With the exact time and price. Earlier is better — that’s before the market has made up its mind.</span></div></div>
-        <div class="promise"><div class="ic"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#i-lock"></use></svg></div><div><b>Never edited, never deleted</b><span>A pick withdrawn on late news stays on the list as withdrawn. The full history is public.</span></div></div>
+        <div class="promise"><div class="ic"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#i-lock"></use></svg></div><div><b>Final once published</b><span>Never edited, never withdrawn, never deleted — like a real position at the opening price. The full history is public.</span></div></div>
         <div class="promise"><div class="ic"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#i-ruler-measure"></use></svg></div><div><b>Measured against the closing line</b><span>Not a lucky streak — whether we saw the price before the market did.</span></div></div>
       </div>
       <div class="tickets" id="tickets"></div>
@@ -215,7 +224,7 @@
   const tile = m => {
     if (!playable(m)) return '';
     const x = SHOWS[m.slug], b = ABR.biggest(m), yt = YT[m.slug];
-    const poster = yt ? `<img src="https://i.ytimg.com/vi/${encodeURIComponent(yt)}/hqdefault.jpg" alt="" loading="lazy">`
+    const poster = yt || x.voiced ? `<img src="/posters/${encodeURIComponent(m.slug)}.jpg" alt="" loading="lazy"${yt ? ` onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/${encodeURIComponent(yt)}/hqdefault.jpg'"` : ''}>`
       : `<span class="pk">${E(x.kicker || 'MARKET READ')}</span><span class="pn ${b.d > 0 ? 'up' : b.d < 0 ? 'down' : ''}">${Math.abs(b.d) >= 0.5 ? (b.d > 0 ? '▲' : '▼') + ' ' + Math.abs(b.d).toFixed(1) : `${Math.max(m.fair.home, m.fair.away).toFixed(0)}%`}</span>
          <span class="pt">${E(S(Math.abs(b.d) >= 0.5 ? b.team : (m.fair.home >= m.fair.away ? m.home : m.away)))}</span>`;
     return `<div class="mtile" data-tile="${E(m.slug)}"><button class="poster" aria-label="Play the ${E(S(m.home))} v ${E(S(m.away))} video">${poster}
@@ -297,7 +306,7 @@
   try { V = await ABR.json('data/videos.json'); } catch (e) { /* no videos yet */ }
   if (V.has_youtube) document.querySelectorAll('[data-yt]').forEach(a => a.hidden = false);
   document.getElementById('shorts').innerHTML = V.videos.slice(0, 4).map((v, i) =>
-    `<a class="short" href="match.html?m=${encodeURIComponent(v.id)}" data-v="${i}" style="background:linear-gradient(180deg, hsl(${ABR.hue(v.home)} 45% 24%), #0d1219 72%)">
+    `<a class="short" href="match.html?m=${encodeURIComponent(v.id)}" data-v="${i}" style="background:url('/posters/${encodeURIComponent(v.id)}.jpg') center/cover, linear-gradient(180deg, hsl(${ABR.hue(v.home)} 45% 24%), #0d1219 72%)">
       <span class="chip tag">${E(v.league)}</span>${v.youtube_id ? '' : `<span class="soon">${Math.max(1, Math.round(v.seconds / 60))} min</span>`}<div class="play">${ABR.ic('player-play-filled')}</div>
       <b class="disp">${E(v.title)}</b><span>${E(S(v.home))} v ${E(S(v.away))} · ${E(ABR.when(v.kickoff))}</span></a>`).join('')
     || '<div class="skeleton">The first videos are on their way.</div>';
@@ -305,6 +314,36 @@
     const a = ev.target.closest('[data-v]'); if (!a) return;
     ev.preventDefault(); ABR.playVideo(V.videos[+a.dataset.v]);
   });
+
+  // ── AI picks at the top: every pick with its video (our cover as the poster), reasons, risk and its receipt
+  {
+    const PK = ((L && L.picks) || []).filter(p => p.reasons && p.reasons.length).slice(0, 6);
+    if (PK.length) {
+      document.getElementById('picks').hidden = false;
+      const VS = {RIGHT: 'Right — won and beat the closing price', LUCKY: 'Lucky — won, but the price went against us',
+                  UNLUCKY: 'Unlucky — lost, but we beat the closing price', WRONG: 'Wrong — lost, and the price went against us', PUSH: 'Push — stake back'};
+      document.getElementById('pickGrid').innerHTML = PK.map((p, i) => `<article class="pick">
+        <button class="ppost" data-pick="${i}" aria-label="Play the ${E(S(p.home))} v ${E(S(p.away))} pick video">
+          ${p.poster ? `<img src="${E(p.poster)}" alt="" loading="lazy">` : `<span class="pnone">${E(p.selection)}</span>`}
+          ${p.youtube_id ? `<span class="pp">${ABR.ic('player-play-filled')}</span>` : ''}</button>
+        <div class="pbody">
+          <div class="top"><span class="chip">${E(p.league || '')}</span><span class="when">${E(ABR.when(p.kickoff))}</span></div>
+          <h3>${E(S(p.home))} v ${E(S(p.away))}</h3>
+          <div class="psel"><b>${E(p.selection)}</b><span>@ ${p.odds.toFixed(2)}</span></div>
+          ${p.our_pct != null ? `<div class="pch">Market <b>${p.market_pct_when_set}%</b> · ours <b class="ours">${p.our_pct}%</b></div>` : ''}
+          ${p.hook ? `<p class="phook">${E(p.hook)}</p>` : ''}
+          <ol class="pwhy">${p.reasons.map(r => `<li>${E(r)}</li>`).join('')}</ol>
+          ${p.risk ? `<p class="prisk"><b>The risk:</b> ${E(p.risk)}</p>` : ''}
+          ${p.verdict ? `<div class="pverdict v-${E(p.verdict.toLowerCase())}"><b>${E(p.score ? p.score + ' · ' : '')}${E(VS[p.verdict] || p.verdict)}</b>${p.receipt ? `<span>${E(p.receipt)}</span>` : ''}</div>`
+            : `<div class="pstamp">Published ${E(ABR.when(p.published_at || p.set_at, true))} · ${p.hours_before_kickoff >= 48 ? (p.hours_before_kickoff / 24).toFixed(1) + ' days' : Math.round(p.hours_before_kickoff) + ' h'} before kick-off · final</div>`}
+        </div></article>`).join('');
+      document.getElementById('pickGrid').addEventListener('click', ev => {
+        const b = ev.target.closest('[data-pick]'); if (!b) return;
+        const p = PK[+b.dataset.pick]; if (!p.youtube_id) return;
+        ABR.playVideo({id: '', title: p.title || p.selection, home: p.home, away: p.away, youtube_id: p.youtube_id});
+      });
+    }
+  }
 
   // ── receipts: real published picks only; otherwise a clearly marked specimen
   const picks = (L && L.picks) || [], s = (L && L.summary) || {};

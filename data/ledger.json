@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T11:26:50+00:00",
+ "generated_at": "2026-10-22T16:17:31+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Every pick is timestamped before kick-off and never edited.",
  "summary": {
   "published": 3,
@@ -57,7 +57,9 @@
    "verdict": null,
    "receipt": null,
    "youtube": "https://www.youtube.com/shorts/Ib9AIomep0M",
-   "x": null
+   "x": null,
+   "youtube_id": "Ib9AIomep0M",
+   "poster": "/posters/pick-1570425.jpg"
   },
   {
    "id": "1550162|AH Home -1.25|journal",
@@ -95,7 +97,9 @@
    "verdict": null,
    "receipt": null,
    "youtube": "https://www.youtube.com/shorts/udfJCJXEd2c",
-   "x": null
+   "x": null,
+   "youtube_id": "udfJCJXEd2c",
+   "poster": "/posters/pick-1550162.jpg"
   },
   {
    "id": "1575199|Over 3.25|journal",
@@ -133,7 +137,9 @@
    "verdict": null,
    "receipt": null,
    "youtube": "https://www.youtube.com/shorts/KqMj43B5lwI",
-   "x": null
+   "x": null,
+   "youtube_id": "KqMj43B5lwI",
+   "poster": "/posters/pick-1575199.jpg"
   }
  ]
 }
