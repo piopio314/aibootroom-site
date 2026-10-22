@@ -115,14 +115,14 @@
   "home": "Chelsea",
   "away": "Tottenham",
   "fair": {
-   "home": 57.0,
-   "draw": 21.9,
-   "away": 21.1
+   "home": 56.0,
+   "draw": 22.2,
+   "away": 21.8
   },
   "move": {
-   "home": 4.5,
-   "draw": -1.5,
-   "away": -3.1
+   "home": 3.5,
+   "draw": -1.1,
+   "away": -2.4
   },
   "tracked_since": "2026-10-18T22:49:00+00:00",
   "timeline": [
@@ -173,10 +173,16 @@
     "home": 57.0,
     "draw": 21.9,
     "away": 21.1
+   },
+   {
+    "t": "2026-10-22T14:22:00+00:00",
+    "home": 56.0,
+    "draw": 22.2,
+    "away": 21.8
    }
   ],
   "goals": {
-   "expected": 3.13,
+   "expected": 3.16,
    "first": 3.03
   },
   "absences": {

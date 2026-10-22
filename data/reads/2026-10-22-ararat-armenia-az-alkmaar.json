@@ -94,18 +94,18 @@
   "home": "Ararat-Armenia",
   "away": "AZ Alkmaar",
   "fair": {
-   "home": 13.4,
-   "draw": 18.7,
-   "away": 67.9
+   "home": 12.6,
+   "draw": 18.0,
+   "away": 69.4
   },
   "move": {
-   "home": -3.7,
-   "draw": -2.4,
-   "away": 6.1
+   "home": -4.5,
+   "draw": -3.1,
+   "away": 7.6
   },
   "tracked_since": "2026-10-20T20:44:00+00:00",
   "goals": {
-   "expected": 3.13,
+   "expected": 3.16,
    "first": 3.04
   },
   "absences": {
