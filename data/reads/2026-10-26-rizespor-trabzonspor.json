@@ -4,45 +4,45 @@
  "home": "Rizespor",
  "away": "Trabzonspor",
  "kickoff": "2026-10-26T16:00:00+00:00",
- "generated_at": "2026-10-21T23:07:53+00:00",
- "headline": "Trabzonspor's 4-win run meets a rested Rizespor",
- "summary": "Trabzonspor go to Rizespor for the Black Sea derby having won their last 4 league matches, the best of them a 2-0 win over Beşiktaş on 19 October. Daily Sabah reports Mohamed Salah leads the Süper Lig with 8 goals, though coach Thomas Reis says Paul Onuachu is doubtful. Rizespor lost 0-3 at home to Fenerbahçe, but they have had 10 days to prepare. Even so, the market makes Trabzonspor 45.3% favourites against 29.6%, with the handicap close to level: Rizespor get a 0.25-goal start.",
- "read": "Trabzonspor are the market's favourites for the Black Sea derby at 45.3%, built on four wins in five, a 2-0 win over Beşiktaş and Mohamed Salah's eight goals in eight league rounds. Rizespor are 12th with one win in five but have had 10 days to prepare, and the market expects goals, with a 2.97-goal line and over 3.0 almost level.",
+ "generated_at": "2026-10-22T00:12:50+00:00",
+ "headline": "Trabzonspor in form, but the market keeps the derby close",
+ "summary": "Trabzonspor bring four straight league wins to the Black Sea derby, the latest 2-0 at home to Beşiktaş. Rizespor have won once in their last five, so the form book points one way. Turkish media say Paul Onuachu is doubtful for the visitors. Across eight bookmakers, with the margin removed, Trabzonspor are 45.3% to win at Rizespor, against 29.6% for the home side. They are favourites, yet rated only about a third of a goal better — which is why this derby still looks tight.",
+ "read": "Trabzonspor are the form side of the Süper Lig — four straight wins, 13 goals in five, Salah leading the scoring charts — and they arrive at the Black Sea derby as favourites. The market still calls it close: Rizespor are given a home chance of nearly 30%, the handicap is only a third of a goal, and three goals are expected.",
  "facts": [
   {
-   "fact": "Trabzonspor's last five read W-W-W-W-L, with 13 goals scored and 3 conceded.",
-   "meaning": "The away side comes in as the league's form team, scoring more than two and a half goals a game in that stretch."
+   "fact": "Trabzonspor have won their last four matches, most recently 2-0 at home to Beşiktaş on Sunday.",
+   "meaning": "They arrive at the Black Sea derby as the form team in the division."
   },
   {
-   "fact": "Trabzonspor beat Beşiktaş 2-0 in the Süper Lig on 19 October, with Mohamed Salah scoring the second goal.",
-   "meaning": "The biggest result of their run came days before this trip, and confidence will be high for the derby."
+   "fact": "Trabzonspor are 45.3% to win at Rizespor, against 29.6% for the home side.",
+   "meaning": "Favourites, but only around one and a half times Rizespor's chance — not a one-sided derby."
   },
   {
-   "fact": "Mohamed Salah leads the Süper Lig scoring charts with 8 goals in the opening 8 rounds, according to Daily Sabah.",
-   "meaning": "The league's top scorer is the single biggest threat to a Rizespor side that has kept one clean sheet in their last five."
+   "fact": "Mohamed Salah tops the Süper Lig scoring charts with eight goals in eight games.",
+   "meaning": "Rizespor's back line faces the league's leading scorer in a derby they need to keep tight."
   },
   {
-   "fact": "Trabzonspor coach Thomas Reis said Paul Onuachu and Mustafa Eskihellaç will not feature against Hearts, and that Onuachu is doubtful for the Rizespor match.",
-   "meaning": "Trabzonspor may have to play the derby without their target man, which changes how they attack crosses and long balls."
+   "fact": "Thomas Reis confirmed Paul Onuachu and Mustafa Eskihellaç will miss the Hearts game, and said Onuachu is doubtful for Rizespor.",
+   "meaning": "Trabzonspor may be without their target man for the derby, days after a European tie."
   },
   {
-   "fact": "Rizespor have won once in their last five, reading L-L-D-W-L.",
-   "meaning": "The home side comes into a derby with little momentum, and the market prices them as clear underdogs at home."
+   "fact": "The market rates Trabzonspor only about a third of a goal better, with the fair handicap line at +0.33 in Rizespor's favour at home.",
+   "meaning": ""
   },
   {
-   "fact": "Rizespor lost 0-3 at home to Fenerbahçe on 10 October despite out-creating them 1.52 xG to 0.96.",
-   "meaning": "They are not being overrun at home — the problem has been converting and defending the few chances they allow."
+   "fact": "Trabzonspor's win chance has slipped from 46.9% to 44.9% in the last two days, even after the Beşiktaş win.",
+   "meaning": "The market rates this away derby tighter than the form book suggests."
   },
   {
-   "fact": "Rizespor have had 10 days off since their last match.",
-   "meaning": "Fresh legs for the home side against a Trabzonspor squad in the middle of a European week."
+   "fact": "Trabzonspor are averaging 2.21 expected goals per game across their last five matches.",
+   "meaning": "They are not riding luck — they are creating enough chances to win games comfortably."
   },
   {
-   "fact": "The market's 50/50 goal total is 2.97 — close to three goals a game.",
-   "meaning": "An open derby is expected rather than a cagey one, with over 3.0 goals effectively a coin flip."
+   "fact": "Rizespor have won once in five and lost 0-3 at home to Fenerbahçe on 10 October.",
+   "meaning": "Home form is their soft spot going into the biggest home game of their autumn."
   }
  ],
- "article": null,
+ "article": "/m/2026-10-26-rizespor-trabzonspor.html",
  "sources": [
   {
    "fact": "Trabzonspor beat fierce rivals Beşiktaş 2-0 in the Süper Lig, with Mohamed Salah scoring the second goal.",
@@ -101,11 +101,11 @@
    "certainty": "reported"
   }
  ],
- "video_title": "Trabzonspor's 4-win run meets a rested Rizespor",
+ "video_title": "Trabzonspor in form, but the derby stays close",
  "key_points": [
-  "Trabzonspor 45.3% derby favourites",
-  "Salah: 8 goals in 8",
-  "Onuachu doubtful for the trip"
+  "Trabzonspor: four straight wins",
+  "Salah: eight goals in eight",
+  "Market: a third of a goal"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."

@@ -1,0 +1,717 @@
+{
+ "id": "2026-10-26-rizespor-trabzonspor",
+ "title": "Trabzonspor in form, but the derby stays close",
+ "match": {
+  "home": "Rizespor",
+  "away": "Trabzonspor",
+  "league": "Super Lig",
+  "kickoff": "2026-10-26T16:00:00+00:00",
+  "home_short": "RIZ",
+  "away_short": "TRA",
+  "home_color": "#dc2626",
+  "away_color": "#b45309"
+ },
+ "market": {
+  "fair": {
+   "home": 29.6,
+   "draw": 25.1,
+   "away": 45.3
+  },
+  "move": {
+   "home": 1.6,
+   "draw": 0.0,
+   "away": -1.6
+  },
+  "side": "home",
+  "timeline": [
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "v": 28.0
+   },
+   {
+    "t": "2026-10-20T04:23:00+00:00",
+    "v": 29.5
+   },
+   {
+    "t": "2026-10-21T04:24:00+00:00",
+    "v": 29.6
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 28.0
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 29.5
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 29.6
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 25.1
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 25.4
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 25.1
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 46.9
+    },
+    {
+     "t": "2026-10-20T04:23:00+00:00",
+     "v": 45.1
+    },
+    {
+     "t": "2026-10-21T04:24:00+00:00",
+     "v": 45.3
+    }
+   ]
+  },
+  "goals": 2.97,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-19T19:17:00+00:00",
+  "prices_as_of": "2026-10-21T23:18:00+00:00",
+  "books": 8
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Trabzonspor have won 4 league games in a row.",
+   "show": {
+    "kind": "form",
+    "team": "away",
+    "results": "WWWW"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-26-rizespor-trabzonspor/s0.mp3",
+   "words": [
+    {
+     "w": "Trabzonspor",
+     "start": 0.25,
+     "end": 0.95
+    },
+    {
+     "w": "have",
+     "start": 0.95,
+     "end": 1.125
+    },
+    {
+     "w": "won",
+     "start": 1.125,
+     "end": 1.363
+    },
+    {
+     "w": "4",
+     "start": 1.363,
+     "end": 1.65
+    },
+    {
+     "w": "league",
+     "start": 1.65,
+     "end": 1.925
+    },
+    {
+     "w": "games",
+     "start": 1.925,
+     "end": 2.288
+    },
+    {
+     "w": "in",
+     "start": 2.288,
+     "end": 2.362
+    },
+    {
+     "w": "a",
+     "start": 2.362,
+     "end": 2.425
+    },
+    {
+     "w": "row.",
+     "start": 2.425,
+     "end": 3.15
+    }
+   ],
+   "durationInFrames": 103
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Before the Beşiktaş derby we saw two even sides; Trabzonspor won 2-0.",
+   "show": {
+    "kind": "callback",
+    "when": "19 Oct",
+    "text": "a derby the market could not split",
+    "result": "2-0"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-26-rizespor-trabzonspor/s1.mp3",
+   "words": [
+    {
+     "w": "Before",
+     "start": 0.25,
+     "end": 0.512
+    },
+    {
+     "w": "the",
+     "start": 0.512,
+     "end": 0.6
+    },
+    {
+     "w": "Beşiktaş",
+     "start": 0.6,
+     "end": 1.225
+    },
+    {
+     "w": "derby",
+     "start": 1.225,
+     "end": 1.55
+    },
+    {
+     "w": "we",
+     "start": 1.55,
+     "end": 1.675
+    },
+    {
+     "w": "saw",
+     "start": 1.675,
+     "end": 1.913
+    },
+    {
+     "w": "two",
+     "start": 1.913,
+     "end": 2.125
+    },
+    {
+     "w": "even",
+     "start": 2.125,
+     "end": 2.438
+    },
+    {
+     "w": "sides;",
+     "start": 2.438,
+     "end": 3.1
+    },
+    {
+     "w": "Trabzonspor",
+     "start": 3.225,
+     "end": 3.95
+    },
+    {
+     "w": "won",
+     "start": 3.95,
+     "end": 4.188
+    },
+    {
+     "w": "2-0.",
+     "start": 4.188,
+     "end": 5.15
+    }
+   ],
+   "durationInFrames": 163
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Next the Black Sea derby, away at Rizespor in the Süper Lig.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-26-rizespor-trabzonspor/s2.mp3",
+   "words": [
+    {
+     "w": "Next",
+     "start": 0.25,
+     "end": 0.487
+    },
+    {
+     "w": "the",
+     "start": 0.487,
+     "end": 0.575
+    },
+    {
+     "w": "Black",
+     "start": 0.575,
+     "end": 0.9
+    },
+    {
+     "w": "Sea",
+     "start": 0.9,
+     "end": 1.1
+    },
+    {
+     "w": "derby,",
+     "start": 1.1,
+     "end": 1.675
+    },
+    {
+     "w": "away",
+     "start": 1.8,
+     "end": 2.087
+    },
+    {
+     "w": "at",
+     "start": 2.087,
+     "end": 2.175
+    },
+    {
+     "w": "Rizespor",
+     "start": 2.175,
+     "end": 2.688
+    },
+    {
+     "w": "in",
+     "start": 2.688,
+     "end": 2.763
+    },
+    {
+     "w": "the",
+     "start": 2.763,
+     "end": 2.862
+    },
+    {
+     "w": "Süper",
+     "start": 2.862,
+     "end": 3.25
+    },
+    {
+     "w": "Lig.",
+     "start": 3.25,
+     "end": 3.925
+    }
+   ],
+   "durationInFrames": 126
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Rizespor have won 1 of their last 5 matches.",
+   "show": {
+    "kind": "form",
+    "team": "home",
+    "results": "LLDWL"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-26-rizespor-trabzonspor/s3.mp3",
+   "words": [
+    {
+     "w": "Rizespor",
+     "start": 0.275,
+     "end": 0.8
+    },
+    {
+     "w": "have",
+     "start": 0.8,
+     "end": 1.0
+    },
+    {
+     "w": "won",
+     "start": 1.0,
+     "end": 1.2
+    },
+    {
+     "w": "1",
+     "start": 1.2,
+     "end": 1.337
+    },
+    {
+     "w": "of",
+     "start": 1.337,
+     "end": 1.413
+    },
+    {
+     "w": "their",
+     "start": 1.413,
+     "end": 1.6
+    },
+    {
+     "w": "last",
+     "start": 1.6,
+     "end": 1.975
+    },
+    {
+     "w": "5",
+     "start": 1.975,
+     "end": 2.325
+    },
+    {
+     "w": "matches.",
+     "start": 2.325,
+     "end": 3.275
+    }
+   ],
+   "durationInFrames": 106
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Turkish media report Paul Onuachu is doubtful for Trabzonspor.",
+   "show": {
+    "kind": "absence",
+    "team": "away",
+    "player": "Paul Onuachu",
+    "status": "doubtful"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-26-rizespor-trabzonspor/s4.mp3",
+   "words": [
+    {
+     "w": "Turkish",
+     "start": 0.25,
+     "end": 0.6
+    },
+    {
+     "w": "media",
+     "start": 0.6,
+     "end": 0.925
+    },
+    {
+     "w": "report",
+     "start": 0.925,
+     "end": 1.3
+    },
+    {
+     "w": "Paul",
+     "start": 1.3,
+     "end": 1.538
+    },
+    {
+     "w": "Onuachu",
+     "start": 1.538,
+     "end": 2.487
+    },
+    {
+     "w": "is",
+     "start": 2.487,
+     "end": 2.688
+    },
+    {
+     "w": "doubtful",
+     "start": 2.688,
+     "end": 3.125
+    },
+    {
+     "w": "for",
+     "start": 3.125,
+     "end": 3.25
+    },
+    {
+     "w": "Trabzonspor.",
+     "start": 3.25,
+     "end": 4.475
+    }
+   ],
+   "durationInFrames": 142
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Across 8 bookmakers, with the margin removed.",
+   "show": {
+    "kind": "stat",
+    "label": "bookmakers",
+    "value": "8"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-26-rizespor-trabzonspor/s5.mp3",
+   "words": [
+    {
+     "w": "Across",
+     "start": 0.25,
+     "end": 0.65
+    },
+    {
+     "w": "8",
+     "start": 0.65,
+     "end": 0.875
+    },
+    {
+     "w": "bookmakers,",
+     "start": 0.875,
+     "end": 1.6
+    },
+    {
+     "w": "with",
+     "start": 1.675,
+     "end": 1.788
+    },
+    {
+     "w": "the",
+     "start": 1.788,
+     "end": 1.875
+    },
+    {
+     "w": "margin",
+     "start": 1.875,
+     "end": 2.275
+    },
+    {
+     "w": "removed.",
+     "start": 2.275,
+     "end": 3.2
+    }
+   ],
+   "durationInFrames": 104
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Trabzonspor are 45.3% to win.",
+   "show": {
+    "kind": "chance",
+    "team": "away",
+    "value": 45.3
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-26-rizespor-trabzonspor/s6.mp3",
+   "words": [
+    {
+     "w": "Trabzonspor",
+     "start": 0.25,
+     "end": 0.975
+    },
+    {
+     "w": "are",
+     "start": 0.975,
+     "end": 1.137
+    },
+    {
+     "w": "45.3%",
+     "start": 1.137,
+     "end": 2.625
+    },
+    {
+     "w": "to",
+     "start": 2.625,
+     "end": 2.75
+    },
+    {
+     "w": "win.",
+     "start": 2.75,
+     "end": 3.45
+    }
+   ],
+   "durationInFrames": 112
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Rizespor are 29.6% at home, so Trabzonspor are the favourites.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 29.6
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-26-rizespor-trabzonspor/s7.mp3",
+   "words": [
+    {
+     "w": "Rizespor",
+     "start": 0.275,
+     "end": 0.725
+    },
+    {
+     "w": "are",
+     "start": 0.725,
+     "end": 0.825
+    },
+    {
+     "w": "29.6%",
+     "start": 0.825,
+     "end": 2.188
+    },
+    {
+     "w": "at",
+     "start": 2.188,
+     "end": 2.275
+    },
+    {
+     "w": "home,",
+     "start": 2.275,
+     "end": 2.85
+    },
+    {
+     "w": "so",
+     "start": 2.975,
+     "end": 3.188
+    },
+    {
+     "w": "Trabzonspor",
+     "start": 3.188,
+     "end": 3.975
+    },
+    {
+     "w": "are",
+     "start": 3.975,
+     "end": 4.062
+    },
+    {
+     "w": "the",
+     "start": 4.062,
+     "end": 4.188
+    },
+    {
+     "w": "favourites.",
+     "start": 4.188,
+     "end": 5.2
+    }
+   ],
+   "durationInFrames": 164
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Form points to Trabzonspor; the market keeps the derby close.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Trabzonspor are the form side",
+     "The market keeps it close",
+     "A tight Black Sea derby"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-26-rizespor-trabzonspor/s8.mp3",
+   "words": [
+    {
+     "w": "Form",
+     "start": 0.275,
+     "end": 0.575
+    },
+    {
+     "w": "points",
+     "start": 0.575,
+     "end": 0.9
+    },
+    {
+     "w": "to",
+     "start": 0.9,
+     "end": 1.0
+    },
+    {
+     "w": "Trabzonspor;",
+     "start": 1.0,
+     "end": 1.9
+    },
+    {
+     "w": "the",
+     "start": 2.025,
+     "end": 2.125
+    },
+    {
+     "w": "market",
+     "start": 2.125,
+     "end": 2.475
+    },
+    {
+     "w": "keeps",
+     "start": 2.475,
+     "end": 2.75
+    },
+    {
+     "w": "the",
+     "start": 2.75,
+     "end": 2.85
+    },
+    {
+     "w": "derby",
+     "start": 2.85,
+     "end": 3.2
+    },
+    {
+     "w": "close.",
+     "start": 3.2,
+     "end": 4.125
+    }
+   ],
+   "durationInFrames": 139
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-26-rizespor-trabzonspor/s9.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "market_read",
+  "kicker": "MARKET READ",
+  "stickers": [
+   "👀",
+   "🧠",
+   "📊"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1584446,
+ "prices_as_of": "2026-10-21T23:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}
