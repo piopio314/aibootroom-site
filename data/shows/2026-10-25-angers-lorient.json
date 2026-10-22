@@ -1,0 +1,793 @@
+{
+ "id": "2026-10-25-angers-lorient",
+ "title": "Lorient beat Monaco — now favourites at Angers",
+ "match": {
+  "home": "Angers",
+  "away": "Lorient",
+  "league": "Ligue 1",
+  "kickoff": "2026-10-25T16:15:00+00:00",
+  "home_short": "ANG",
+  "away_short": "LOR",
+  "home_color": "#b45309",
+  "away_color": "#4f46e5"
+ },
+ "market": {
+  "fair": {
+   "home": 31.6,
+   "draw": 29.1,
+   "away": 39.3
+  },
+  "move": {
+   "home": -4.9,
+   "draw": -0.5,
+   "away": 5.4
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 33.9
+   },
+   {
+    "t": "2026-10-19T06:46:00+00:00",
+    "v": 36.6
+   },
+   {
+    "t": "2026-10-20T06:34:00+00:00",
+    "v": 36.7
+   },
+   {
+    "t": "2026-10-21T03:25:00+00:00",
+    "v": 39.3
+   },
+   {
+    "t": "2026-10-21T06:35:00+00:00",
+    "v": 39.3
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 36.5
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 33.9
+    },
+    {
+     "t": "2026-10-20T06:34:00+00:00",
+     "v": 33.9
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "v": 31.6
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "v": 31.6
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 29.5
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 29.5
+    },
+    {
+     "t": "2026-10-20T06:34:00+00:00",
+     "v": 29.4
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "v": 29.1
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "v": 29.1
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 33.9
+    },
+    {
+     "t": "2026-10-19T06:46:00+00:00",
+     "v": 36.6
+    },
+    {
+     "t": "2026-10-20T06:34:00+00:00",
+     "v": 36.7
+    },
+    {
+     "t": "2026-10-21T03:25:00+00:00",
+     "v": 39.3
+    },
+    {
+     "t": "2026-10-21T06:35:00+00:00",
+     "v": 39.3
+    }
+   ]
+  },
+  "goals": 2.4,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T23:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Lorient beat league leaders Monaco 1-0 last weekend.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Monaco",
+    "score": "1-0",
+    "when": "matchday 7"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-angers-lorient/s0.mp3",
+   "words": [
+    {
+     "w": "Lorient",
+     "start": 0.275,
+     "end": 0.625
+    },
+    {
+     "w": "beat",
+     "start": 0.625,
+     "end": 0.85
+    },
+    {
+     "w": "league",
+     "start": 0.85,
+     "end": 1.075
+    },
+    {
+     "w": "leaders",
+     "start": 1.075,
+     "end": 1.512
+    },
+    {
+     "w": "Monaco",
+     "start": 1.512,
+     "end": 2.025
+    },
+    {
+     "w": "1-0",
+     "start": 2.025,
+     "end": 2.55
+    },
+    {
+     "w": "last",
+     "start": 2.55,
+     "end": 2.9
+    },
+    {
+     "w": "weekend.",
+     "start": 2.9,
+     "end": 3.85
+    }
+   ],
+   "durationInFrames": 124
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "On Sunday they travel to Angers in Ligue 1.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-angers-lorient/s1.mp3",
+   "words": [
+    {
+     "w": "On",
+     "start": 0.25,
+     "end": 0.463
+    },
+    {
+     "w": "Sunday",
+     "start": 0.463,
+     "end": 0.975
+    },
+    {
+     "w": "they",
+     "start": 0.975,
+     "end": 1.125
+    },
+    {
+     "w": "travel",
+     "start": 1.125,
+     "end": 1.5
+    },
+    {
+     "w": "to",
+     "start": 1.5,
+     "end": 1.637
+    },
+    {
+     "w": "Angers",
+     "start": 1.637,
+     "end": 2.1
+    },
+    {
+     "w": "in",
+     "start": 2.1,
+     "end": 2.225
+    },
+    {
+     "w": "Ligue",
+     "start": 2.225,
+     "end": 2.45
+    },
+    {
+     "w": "1.",
+     "start": 2.45,
+     "end": 3.15
+    }
+   ],
+   "durationInFrames": 103
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Angers lost 2-5 at home to Marseille.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Marseille",
+    "score": "2-5",
+    "when": "last week"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-angers-lorient/s2.mp3",
+   "words": [
+    {
+     "w": "Angers",
+     "start": 0.275,
+     "end": 0.6
+    },
+    {
+     "w": "lost",
+     "start": 0.6,
+     "end": 0.875
+    },
+    {
+     "w": "2-5",
+     "start": 0.875,
+     "end": 1.312
+    },
+    {
+     "w": "at",
+     "start": 1.312,
+     "end": 1.4
+    },
+    {
+     "w": "home",
+     "start": 1.4,
+     "end": 1.725
+    },
+    {
+     "w": "to",
+     "start": 1.725,
+     "end": 1.812
+    },
+    {
+     "w": "Marseille.",
+     "start": 1.812,
+     "end": 2.725
+    }
+   ],
+   "durationInFrames": 90
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Before that they lost 1-5 at Brest.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Brest",
+    "score": "1-5",
+    "when": "10 Oct"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-angers-lorient/s3.mp3",
+   "words": [
+    {
+     "w": "Before",
+     "start": 0.25,
+     "end": 0.575
+    },
+    {
+     "w": "that",
+     "start": 0.575,
+     "end": 0.825
+    },
+    {
+     "w": "they",
+     "start": 0.825,
+     "end": 0.975
+    },
+    {
+     "w": "lost",
+     "start": 0.975,
+     "end": 1.325
+    },
+    {
+     "w": "1-5",
+     "start": 1.325,
+     "end": 1.762
+    },
+    {
+     "w": "at",
+     "start": 1.762,
+     "end": 1.85
+    },
+    {
+     "w": "Brest.",
+     "start": 1.85,
+     "end": 2.625
+    }
+   ],
+   "durationInFrames": 87
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "And Angers are still without midfielder Haris Belkebla, Ouest-France report.",
+   "show": {
+    "kind": "absence",
+    "team": "home",
+    "player": "Haris Belkebla",
+    "status": "out"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-angers-lorient/s4.mp3",
+   "words": [
+    {
+     "w": "And",
+     "start": 0.25,
+     "end": 0.4
+    },
+    {
+     "w": "Angers",
+     "start": 0.4,
+     "end": 0.8
+    },
+    {
+     "w": "are",
+     "start": 0.8,
+     "end": 0.9
+    },
+    {
+     "w": "still",
+     "start": 0.9,
+     "end": 1.163
+    },
+    {
+     "w": "without",
+     "start": 1.163,
+     "end": 1.5
+    },
+    {
+     "w": "midfielder",
+     "start": 1.5,
+     "end": 2.05
+    },
+    {
+     "w": "Haris",
+     "start": 2.05,
+     "end": 2.425
+    },
+    {
+     "w": "Belkebla,",
+     "start": 2.425,
+     "end": 3.225
+    },
+    {
+     "w": "Ouest-France",
+     "start": 3.388,
+     "end": 4.15
+    },
+    {
+     "w": "report.",
+     "start": 4.15,
+     "end": 5.025
+    }
+   ],
+   "durationInFrames": 159
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market turned: Lorient's price fell from 2.81 to 2.46.",
+   "show": {
+    "kind": "stat",
+    "label": "Lorient price",
+    "from": "2.81",
+    "value": "2.46"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-angers-lorient/s5.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "market",
+     "start": 0.325,
+     "end": 0.65
+    },
+    {
+     "w": "turned:",
+     "start": 0.65,
+     "end": 1.275
+    },
+    {
+     "w": "Lorient's",
+     "start": 1.413,
+     "end": 1.85
+    },
+    {
+     "w": "price",
+     "start": 1.85,
+     "end": 2.175
+    },
+    {
+     "w": "fell",
+     "start": 2.175,
+     "end": 2.4
+    },
+    {
+     "w": "from",
+     "start": 2.4,
+     "end": 2.612
+    },
+    {
+     "w": "2.81",
+     "start": 2.612,
+     "end": 3.525
+    },
+    {
+     "w": "to",
+     "start": 3.525,
+     "end": 3.65
+    },
+    {
+     "w": "2.46.",
+     "start": 3.65,
+     "end": 5.1
+    }
+   ],
+   "durationInFrames": 161
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market average, margin removed, makes them 39.3% favourites.",
+   "show": {
+    "kind": "chance",
+    "team": "away",
+    "value": 39.3
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-angers-lorient/s6.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "market",
+     "start": 0.325,
+     "end": 0.688
+    },
+    {
+     "w": "average,",
+     "start": 0.688,
+     "end": 1.175
+    },
+    {
+     "w": "margin",
+     "start": 1.225,
+     "end": 1.575
+    },
+    {
+     "w": "removed,",
+     "start": 1.575,
+     "end": 2.325
+    },
+    {
+     "w": "makes",
+     "start": 2.425,
+     "end": 2.663
+    },
+    {
+     "w": "them",
+     "start": 2.663,
+     "end": 2.862
+    },
+    {
+     "w": "39.3%",
+     "start": 2.862,
+     "end": 4.45
+    },
+    {
+     "w": "favourites.",
+     "start": 4.45,
+     "end": 5.425
+    }
+   ],
+   "durationInFrames": 171
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The handicap gives Angers a 0.25-goal head start.",
+   "show": {
+    "kind": "stat",
+    "label": "Angers head start (goals)",
+    "value": "0.25"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-angers-lorient/s7.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "handicap",
+     "start": 0.325,
+     "end": 0.925
+    },
+    {
+     "w": "gives",
+     "start": 0.925,
+     "end": 1.15
+    },
+    {
+     "w": "Angers",
+     "start": 1.15,
+     "end": 1.55
+    },
+    {
+     "w": "a",
+     "start": 1.55,
+     "end": 1.663
+    },
+    {
+     "w": "0.25-goal",
+     "start": 1.663,
+     "end": 3.125
+    },
+    {
+     "w": "head",
+     "start": 3.125,
+     "end": 3.35
+    },
+    {
+     "w": "start.",
+     "start": 3.35,
+     "end": 4.1
+    }
+   ],
+   "durationInFrames": 131
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "But Angers won this fixture 2-0 last October.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Lorient",
+    "score": "2-0",
+    "when": "last October"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-angers-lorient/s8.mp3",
+   "words": [
+    {
+     "w": "But",
+     "start": 0.225,
+     "end": 0.35
+    },
+    {
+     "w": "Angers",
+     "start": 0.35,
+     "end": 0.775
+    },
+    {
+     "w": "won",
+     "start": 0.775,
+     "end": 1.0
+    },
+    {
+     "w": "this",
+     "start": 1.0,
+     "end": 1.225
+    },
+    {
+     "w": "fixture",
+     "start": 1.225,
+     "end": 1.637
+    },
+    {
+     "w": "2-0",
+     "start": 1.637,
+     "end": 2.175
+    },
+    {
+     "w": "last",
+     "start": 2.175,
+     "end": 2.5
+    },
+    {
+     "w": "October.",
+     "start": 2.5,
+     "end": 3.425
+    }
+   ],
+   "durationInFrames": 111
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market chooses form over home history — Lorient, but only narrowly.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Angers: home record",
+     "Lorient: better form",
+     "Market follows form"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-25-angers-lorient/s9.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "market",
+     "start": 0.325,
+     "end": 0.688
+    },
+    {
+     "w": "chooses",
+     "start": 0.688,
+     "end": 1.125
+    },
+    {
+     "w": "form",
+     "start": 1.125,
+     "end": 1.387
+    },
+    {
+     "w": "over",
+     "start": 1.387,
+     "end": 1.55
+    },
+    {
+     "w": "home",
+     "start": 1.55,
+     "end": 1.825
+    },
+    {
+     "w": "history—",
+     "start": 1.825,
+     "end": 2.3
+    },
+    {
+     "w": "Lorient,",
+     "start": 2.375,
+     "end": 3.05
+    },
+    {
+     "w": "but",
+     "start": 3.15,
+     "end": 3.3
+    },
+    {
+     "w": "only",
+     "start": 3.3,
+     "end": 3.6
+    },
+    {
+     "w": "narrowly.",
+     "start": 3.6,
+     "end": 4.5
+    }
+   ],
+   "durationInFrames": 150
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-25-angers-lorient/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "line_move",
+  "kicker": "MARKET ALERT",
+  "stickers": [
+   "📈",
+   "📈",
+   "👀"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1552792,
+ "prices_as_of": "2026-10-21T23:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

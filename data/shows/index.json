@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T00:33:56+00:00",
+ "generated_at": "2026-10-22T00:43:07+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -926,6 +926,20 @@
    "seconds": 48
   },
   {
+   "id": "2026-10-24-atletico-madrid-deportivo-la-coruna",
+   "home": "Atletico Madrid",
+   "away": "Deportivo La Coruna",
+   "league": "La Liga",
+   "kickoff": "2026-10-24T19:00:00+00:00",
+   "title": "Atletico after Stuttgart: clear favourites, how big a win?",
+   "source": "market_desk",
+   "kicker": "FAVOURITE FADING",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-atletico-madrid-deportivo-la-coruna.html",
+   "seconds": 54
+  },
+  {
    "id": "2026-10-24-gil-vicente-fc-porto",
    "home": "GIL Vicente",
    "away": "FC Porto",
@@ -1220,6 +1234,20 @@
    "seconds": 42
   },
   {
+   "id": "2026-10-25-angers-lorient",
+   "home": "Angers",
+   "away": "Lorient",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-25T16:15:00+00:00",
+   "title": "Lorient beat Monaco — now favourites at Angers",
+   "source": "market_desk",
+   "kicker": "MARKET ALERT",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-25-angers-lorient.html",
+   "seconds": 48
+  },
+  {
    "id": "2026-10-25-auxerre-le-mans",
    "home": "Auxerre",
    "away": "Le Mans",
@@ -1343,6 +1371,20 @@
    "voiced": true,
    "youtube_id": null,
    "article": "/m/2026-10-25-union-st-gilloise-cercle-brugge.html",
+   "seconds": 41
+  },
+  {
+   "id": "2026-10-25-az-alkmaar-twente",
+   "home": "AZ Alkmaar",
+   "away": "Twente",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-25T19:00:00+00:00",
+   "title": "AZ at home, but Twente's defence keeps it close",
+   "source": "market_desk",
+   "kicker": "MARKET ALERT",
+   "voiced": true,
+   "youtube_id": null,
+   "article": null,
    "seconds": 41
   },
   {

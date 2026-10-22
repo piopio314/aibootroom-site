@@ -4,42 +4,42 @@
  "home": "AZ Alkmaar",
  "away": "Twente",
  "kickoff": "2026-10-25T19:00:00+00:00",
- "generated_at": "2026-10-22T00:14:39+00:00",
- "headline": "AZ are 2nd, but only a quarter of a goal better than Twente",
- "summary": "AZ Alkmaar are 2nd in the Eredivisie on 20 points, but their recent results do not match the table. On Saturday they needed a late equaliser to draw 2-2 at Cambuur. Twente arrive having won 3 of their last 5 and concede just 0.77 expected goals a game, so clear chances are rare against them. Drimble reports that Twente's record signing Filip Thorvaldsen stayed behind injured this midweek. With the bookmaker margin removed, AZ are 43.5% favourites to Twente's 31.3%, and the market rates them only about a quarter of a goal better. The goals line sits at 3.25, with Over at 47.5%.",
- "read": "Twente's record signing Filip Thorvaldsen has been reported injured, and a 3.25 goal line points to an open game between two teams who create chances.",
+ "generated_at": "2026-10-22T00:36:21+00:00",
+ "headline": "AZ at home and second, but Twente's defence keeps the gap small",
+ "summary": "AZ Alkmaar are at home and second in the Eredivisie, 3 points above 5th-placed Twente, yet the market rates them only 0.25 goals better. The reason is Twente's defence: 0.77 expected goals conceded per game across their last five. Twente's record signing Filip Thorvaldsen did not travel, Drimble reports. AZ needed a late goal to draw 2-2 at Cambuur on 18 October. Across the market, margin removed, AZ are 43.5% favourites; the goals line is 3.25, with over 47.5% and both teams scoring 66.2%.",
+ "read": "AZ Alkmaar are at home and above Twente in the table, but the market only makes them a quarter-goal better and gives them a 43.5% chance of winning. Twente arrive with the stronger defensive numbers and a 66.2% both-teams-to-score line pointing to goals at both ends.",
  "facts": [
   {
-   "fact": "AZ Alkmaar are second in the Eredivisie with 20 points from nine games, with Twente fifth.",
-   "meaning": "A meeting of two of the league's top five, with AZ holding both the higher position and home advantage."
+   "fact": "AZ Alkmaar are the market's favourites at 43.5% to win, with Twente on 31.3%.",
+   "meaning": "Home advantage and a higher league position make AZ favourites — but well short of a majority, so dropping points is the likelier single outcome than a comfortable home win."
   },
   {
-   "fact": "Twente's record signing Filip Thorvaldsen missed their midweek European trip through injury, Dutch outlet Drimble reported on Wednesday.",
-   "meaning": "One key absentee: Twente's most expensive attacking option is in doubt for Alkmaar."
+   "fact": "The market's fair handicap line is AZ -0.25 goals.",
+   "meaning": "Essentially a coin flip with a quarter-goal of home advantage attached — the market does not see the second-versus-fifth gap as a real gulf."
   },
   {
-   "fact": "AZ are the market's favourites at 43.5% to win.",
-   "meaning": "Favourites, but not even a coin flip — this is priced as a genuinely close game."
+   "fact": "Twente have conceded only 0.77 xG per game across their last five matches.",
+   "meaning": "Chance creation against them has been minimal, which is the single best argument for why this game is priced so close."
   },
   {
-   "fact": "Twente's last five matches read LWDWW.",
-   "meaning": "They were unbeaten in four before Saturday's home defeat to Utrecht and arrive on the better recent run."
+   "fact": "Twente sit fifth in the Eredivisie with 17 points from nine games.",
+   "meaning": "Three points behind AZ — so the narrow market split reflects a genuinely close matchup, not a mispriced one."
   },
   {
-   "fact": "AZ needed a late equaliser to draw 2-2 at Cambuur on 18 October.",
-   "meaning": "They dropped points to a side below them, days after losing at Feyenoord — the league position and the recent results don't quite match."
+   "fact": "AZ were held 2-2 at Cambuur on 18 October, needing a late rescue to avoid defeat.",
+   "meaning": ""
   },
   {
-   "fact": "Twente have conceded just 0.77 xG per game across their last five matches.",
-   "meaning": "The tightest defence in this matchup by chance quality — AZ's attack faces a side that gives up very little."
+   "fact": "Twente's record signing Filip Thorvaldsen did not travel for the Conference League trip to Lincoln Red Imps because of injury, having first been ill.",
+   "meaning": "If he is still missing at AZ, Twente lose the most expensive attacking option in their squad for a game they are rated close to even in."
   },
   {
-   "fact": "The handicap fair line is AZ -0.25.",
-   "meaning": "The market rates AZ only a quarter of a goal better than Twente — a tight game with the draw very much in play."
+   "fact": "The market's goal line for this match is 3.25.",
+   "meaning": "A line above three goals says the market expects an open game with three or more goals in it, even though the Under is the marginally favoured side."
   },
   {
-   "fact": "AZ have created 1.84 xG per game over their last five matches.",
-   "meaning": "They generate chances consistently, even in the games they have not won, so the goals threat is real."
+   "fact": "Both teams to score is priced at 66.2%, making it more likely than not.",
+   "meaning": "The market expects both defences to be beaten at least once, which sits a little awkwardly with how few chances Twente have conceded."
   }
  ],
  "article": null,
@@ -80,11 +80,11 @@
    "certainty": "reported"
   }
  ],
- "video_title": "AZ are 2nd, but only a quarter of a goal better than Twente",
+ "video_title": "AZ at home, but Twente's defence keeps it close",
  "key_points": [
-  "AZ 43.5% at home",
-  "Thorvaldsen reported injured",
-  "Goal line set at 3.25"
+  "AZ favourites at 43.5%",
+  "Twente three points behind",
+  "Goal line sits at 3.25"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
