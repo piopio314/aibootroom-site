@@ -220,7 +220,7 @@ footer a { color: var(--text2); } footer a:hover { color: var(--text); }
 .mover .mplay { padding: 9px 10px; font-size: 14px; }
 .mcard a.hl { display: block; }
 
-/* video tile on every match card: poster + ▶, plays in place (YouTube embed or the match show) */
+/* video tile on every match card: poster + play icon, plays in place (YouTube embed or the match show) */
 .cards:has(.has-tile) { grid-template-columns: repeat(auto-fill, minmax(min(100%, 500px), 1fr)); }
 .mcard.has-tile { display: grid; grid-template-columns: minmax(0, 1fr) 176px; gap: 18px; align-items: start; }
 .mtile { position: relative; width: 100%; aspect-ratio: 9 / 16; border-radius: 14px; overflow: hidden; background: #030605; border: 1px solid var(--line); }
@@ -294,3 +294,9 @@ footer a { color: var(--text2); } footer a:hover { color: var(--text); }
 footer .legal a, footer .legal button { color: var(--text2); background: none; border: 0; padding: 0; font: inherit; cursor: pointer; }
 footer .legal a:hover, footer .legal button:hover { color: var(--text); }
 footer .legal { display: flex; gap: 18px; }
+
+/* icons (Tabler, assets/icons.svg) — replace every emoji on the site (owner 2026-10-22) */
+svg.i { width: 1.05em; height: 1.05em; vertical-align: -0.16em; flex: none; }
+.promise .ic svg.i { width: 24px; height: 24px; }
+svg.i.ucl { color: #4ea1ff; } svg.i.uel { color: #ff8a1f; } svg.i.uecl { color: #2fd27a; }
+.vclose svg.i { width: 20px; height: 20px; vertical-align: middle; }

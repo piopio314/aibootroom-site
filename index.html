@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/site.css?v=253">
 </head>
 <body>
 
@@ -30,7 +30,7 @@
     <a href="#weekend">This weekend</a><a href="match.html">Match shows</a><a href="#movers">Market movers</a><a href="#bootroom">Latest reads</a><a href="#videos">Videos</a><a href="#receipts">Receipts</a><a href="/media.html">Media check</a>
   </nav>
   <span class="sp"></span>
-  <a class="btn yt sm" data-yt hidden href="https://www.youtube.com/@AiBootRoom" target="_blank" rel="noopener">▶ YouTube</a>
+  <a class="btn yt sm" data-yt hidden href="https://www.youtube.com/@AiBootRoom" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#i-player-play-filled"></use></svg> YouTube</a>
 </div></header>
 
 <main>
@@ -42,7 +42,7 @@
       <p class="sub" id="heroSub">Every price in 20 leagues, every hour — and a one-minute read of what it means for each big game.</p>
       <div class="ctas" id="heroCtas">
         <a class="btn primary" href="#weekend">See this weekend’s market →</a>
-        <a class="btn ghost" href="match.html">▶ Watch the match shows</a>
+        <a class="btn ghost" href="match.html"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#i-player-play-filled"></use></svg> Watch the match shows</a>
       </div>
     </div>
     <div class="hcard" id="heroCard"><div class="skeleton">Loading the market…</div></div>
@@ -54,11 +54,11 @@
   <section class="section" id="weekend"><div class="wrap">
     <div class="kicker">This week</div>
     <h2 class="disp">Every big game — leagues and European nights</h2>
-    <p class="lead">Win probabilities from the sharpest prices we track, with the bookmaker’s margin removed. Updated every hour. Press ▶ on a match for its one-minute video.</p>
+    <p class="lead">Win probabilities from the sharpest prices we track, with the bookmaker’s margin removed. Updated every hour. Press play on a match for its one-minute video.</p>
     <div class="compchips" id="compChips"></div>
     <div id="weekBoard"></div>
     <div class="cards" id="weekendCards" hidden></div>
-    <p style="margin-top:22px"><a class="btn primary" href="match.html">▶ Match videos — one minute each, with voice</a></p>
+    <p style="margin-top:22px"><a class="btn primary" href="match.html"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#i-player-play-filled"></use></svg> Match videos — one minute each, with voice</a></p>
   </div></section>
 
   <!-- MOVERS -->
@@ -91,9 +91,9 @@
       <div>
         <div class="kicker">Receipts</div>
         <h2 class="disp">Picks you can check. Every single one.</h2>
-        <div class="promise"><div class="ic">⏱</div><div><b>Published at least 24 hours before kick-off</b><span>With the exact time and price. Earlier is better — that’s before the market has made up its mind.</span></div></div>
-        <div class="promise"><div class="ic">🔒</div><div><b>Never edited, never deleted</b><span>A pick withdrawn on late news stays on the list as withdrawn. The full history is public.</span></div></div>
-        <div class="promise"><div class="ic">📏</div><div><b>Measured against the closing line</b><span>Not a lucky streak — whether we saw the price before the market did.</span></div></div>
+        <div class="promise"><div class="ic"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#i-clock"></use></svg></div><div><b>Published at least 24 hours before kick-off</b><span>With the exact time and price. Earlier is better — that’s before the market has made up its mind.</span></div></div>
+        <div class="promise"><div class="ic"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#i-lock"></use></svg></div><div><b>Never edited, never deleted</b><span>A pick withdrawn on late news stays on the list as withdrawn. The full history is public.</span></div></div>
+        <div class="promise"><div class="ic"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#i-ruler-measure"></use></svg></div><div><b>Measured against the closing line</b><span>Not a lucky streak — whether we saw the price before the market did.</span></div></div>
       </div>
       <div class="tickets" id="tickets"></div>
     </div>
@@ -115,7 +115,7 @@
   <section class="cta"><div class="wrap">
     <h2 class="disp">The weekend market in 60 seconds</h2>
     <p class="lead">Short videos every matchday: what moved, why, and what the market really thinks.</p>
-    <div class="row"><a class="btn primary" href="match.html">▶ Watch the match shows</a><a class="btn yt" data-yt hidden href="https://www.youtube.com/@AiBootRoom" target="_blank" rel="noopener">▶ Subscribe on YouTube</a>
+    <div class="row"><a class="btn primary" href="match.html"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#i-player-play-filled"></use></svg> Watch the match shows</a><a class="btn yt" data-yt hidden href="https://www.youtube.com/@AiBootRoom" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#i-player-play-filled"></use></svg> Subscribe on YouTube</a>
       <a class="btn ghost" href="https://x.com/AiBootRoom" target="_blank" rel="noopener">Follow on X</a></div>
   </div></section>
 </main>
@@ -182,7 +182,7 @@
   try { (await ABR.json('data/shows/index.json')).shows.forEach(x => { SHOWS[x.id] = x; if (x.youtube_id) YT[x.id] = x.youtube_id; }); } catch (e) {}
   try { (await ABR.json('data/videos.json')).videos.forEach(x => { if (x.youtube_id) YT[x.id] = x.youtube_id; }); } catch (e) {}
   const playable = m => m && m.slug && SHOWS[m.slug];
-  const playBtn = (m, label) => playable(m) ? `<button class="mplay" data-play="${E(m.slug)}">▶ ${label || 'Watch · 1 min'}${YT[m.slug] ? ' <small>YouTube</small>' : SHOWS[m.slug].source === 'market_desk' ? ' <small>full read</small>' : ''}</button>` : '';
+  const playBtn = (m, label) => playable(m) ? `<button class="mplay" data-play="${E(m.slug)}">${ABR.ic('player-play-filled')} ${label || 'Watch · 1 min'}${YT[m.slug] ? ' <small>YouTube</small>' : SHOWS[m.slug].source === 'market_desk' ? ' <small>full read</small>' : ''}</button>` : '';
   document.addEventListener('click', ev => {
     const b = ev.target.closest('[data-play]'); if (!b) return;
     ev.preventDefault(); ev.stopPropagation();
@@ -219,7 +219,7 @@
       : `<span class="pk">${E(x.kicker || 'MARKET READ')}</span><span class="pn ${b.d > 0 ? 'up' : b.d < 0 ? 'down' : ''}">${Math.abs(b.d) >= 0.5 ? (b.d > 0 ? '▲' : '▼') + ' ' + Math.abs(b.d).toFixed(1) : `${Math.max(m.fair.home, m.fair.away).toFixed(0)}%`}</span>
          <span class="pt">${E(S(Math.abs(b.d) >= 0.5 ? b.team : (m.fair.home >= m.fair.away ? m.home : m.away)))}</span>`;
     return `<div class="mtile" data-tile="${E(m.slug)}"><button class="poster" aria-label="Play the ${E(S(m.home))} v ${E(S(m.away))} video">${poster}
-      <span class="pp">▶</span><span class="pd">${yt ? 'YouTube' : x.voiced ? '🔊 voice' : `${Math.max(1, Math.round(x.seconds / 60))} min`}</span></button></div>`;
+      <span class="pp">${ABR.ic('player-play-filled')}</span><span class="pd">${yt ? 'YouTube' : x.voiced ? ABR.ic('volume') + ' voice' : `${Math.max(1, Math.round(x.seconds / 60))} min`}</span></button></div>`;
   };
   const card = m => {
     const b = ABR.biggest(m), tag = 'div', t = tile(m);
@@ -227,14 +227,14 @@
       <div class="top"><span class="chip">${E(m.league)}</span><span class="when">${E(ABR.when(m.kickoff))}</span></div>
       <div class="tm">${ABR.mono(m.home, 34)}${E(S(m.home))}</div><div class="tm">${ABR.mono(m.away, 34)}${E(S(m.away))}</div>
       <div style="margin-top:14px">${ABR.bar(m)}</div>
-      <div class="foot"><span>⚽ ${m.goals ? `Expects ${m.goals.expected.toFixed(1)} goals` : '—'}</span>
+      <div class="foot"><span>${ABR.ic('ball-football')} ${m.goals ? `Expects ${m.goals.expected.toFixed(1)} goals` : '—'}</span>
         <b class="${b.d > 0 ? 'up' : b.d < 0 ? 'down' : ''}">${Math.abs(b.d) >= 1 ? `${b.d > 0 ? '▲' : '▼'} ${E(S(b.team))} ${ABR.sign(b.d)} pts` : 'Price steady'}</b></div>
       ${m.headline ? `<a class="hl" href="${m.read ? readUrl(m.read) : '#'}"><b>THE BOOT ROOM</b>${E(m.headline)} →</a>`
         : m.numbers ? `<a class="hl" href="${E(m.numbers)}"><b>THE NUMBERS</b>Form, table, missing players and price moves →</a>` : ''}</div>${t}</${tag}>`;
   };
   // ── the week's board: cups first, then leagues; chips filter by competition
   const comps = M.competitions || [], week = M.week || [];
-  const CUPLOGO = {ucl: '🏆', uel: '🟠', uecl: '🟢'};
+  const CUPLOGO = {ucl: ABR.ic('trophy', 'ucl'), uel: ABR.ic('trophy', 'uel'), uecl: ABR.ic('trophy', 'uecl')};
   const chips = document.getElementById('compChips');
   let compFilter = 'all';
   try { compFilter = sessionStorage.getItem('abrComp') || 'all'; } catch (e) {}
@@ -242,8 +242,8 @@
   const dayRange = c => { const a = new Date(c.first), b = new Date(c.last); const f = d => d.toLocaleDateString('en-GB', {weekday: 'short', day: 'numeric', timeZone: TZ}); return a.toDateString() === b.toDateString() ? f(a) : `${f(a)} – ${f(b)}`; };
   const renderBoard = () => {
     chips.innerHTML = [`<button data-c="all" class="${compFilter === 'all' ? 'on' : ''}">All <small>${week.length}</small></button>`,
-      `<button data-c="cups" class="${compFilter === 'cups' ? 'on' : ''}">🌍 European cups <small>${week.filter(m => CUPLOGO[m.competition]).length}</small></button>`,
-      `<button data-c="leagues" class="${compFilter === 'leagues' ? 'on' : ''}">🏟️ Leagues <small>${week.filter(m => !CUPLOGO[m.competition]).length}</small></button>`,
+      `<button data-c="cups" class="${compFilter === 'cups' ? 'on' : ''}">${ABR.ic('world')} European cups <small>${week.filter(m => CUPLOGO[m.competition]).length}</small></button>`,
+      `<button data-c="leagues" class="${compFilter === 'leagues' ? 'on' : ''}">${ABR.ic('building-stadium')} Leagues <small>${week.filter(m => !CUPLOGO[m.competition]).length}</small></button>`,
       ...comps.map(c => `<button data-c="${E(c.key)}" class="${compFilter === c.key ? 'on' : ''}">${CUPLOGO[c.key] || ''} ${E(c.name)} <small>${c.matches}</small></button>`)].join('');
     const show = comps.filter(c => compFilter === 'all' || (compFilter === 'cups' && c.cup) || (compFilter === 'leagues' && !c.cup) || c.key === compFilter);
     const open = compFilter !== 'all' && compFilter !== 'cups' && compFilter !== 'leagues';
@@ -252,7 +252,7 @@
       const lim = open ? ms.length : 6;
       return `<div class="compblock ${c.cup ? 'cup' : ''}" data-key="${E(c.key)}">
         <div class="comphead"><h3 class="disp">${CUPLOGO[c.key] || ''} ${E(c.name)}</h3><span class="chip">${ms.length} ${ms.length === 1 ? 'match' : 'matches'} · ${E(dayRange(c))}</span>
-          ${c.roundup ? `<button class="btn primary sm roundup" data-yt="${E(c.roundup.youtube_id)}" data-title="${E(c.roundup.title)}">▶ Watch the roundup · ${Math.floor((c.roundup.duration_s || 0) / 60)}:${String(Math.round((c.roundup.duration_s || 0) % 60)).padStart(2, '0')}</button>` : ''}
+          ${c.roundup ? `<button class="btn primary sm roundup" data-yt="${E(c.roundup.youtube_id)}" data-title="${E(c.roundup.title)}">${ABR.ic('player-play-filled')} Watch the roundup · ${Math.floor((c.roundup.duration_s || 0) / 60)}:${String(Math.round((c.roundup.duration_s || 0) % 60)).padStart(2, '0')}</button>` : ''}
           ${ms.length > lim ? `<button class="btn ghost sm more" data-c="${E(c.key)}">All ${ms.length} →</button>` : ''}</div>
         <div class="cards">${ms.slice(0, lim).map(card).join('')}</div></div>`;
     }).join('') || '<div class="skeleton">The week’s markets open soon.</div>';
@@ -289,7 +289,7 @@
     return `<div class="persona"><div class="role">${E(r.league)} · ${E(ABR.when(r.kickoff))}</div><h3 class="disp">${E(S(r.home))} v ${E(S(r.away))}</h3>
       <p>${E(r.read || r.summary)}</p>
       ${facts.length ? `<div class="says">${facts.map(f => `<div>${E(f.fact)}${f.meaning ? ` <span style="color:var(--text2)">— ${E(f.meaning)}</span>` : ''}</div>`).join('')}</div>` : ''}
-      <a class="btn ${r.article ? 'primary' : 'ghost'} sm" href="${r.article || readUrl(r.slug)}" style="margin-top:16px">${r.article ? '📖 Read the full preview →' : 'Read the full note →'}</a></div>`;
+      <a class="btn ${r.article ? 'primary' : 'ghost'} sm" href="${r.article || readUrl(r.slug)}" style="margin-top:16px">${r.article ? ABR.ic('book') + ' Read the full preview →' : 'Read the full note →'}</a></div>`;
   }).join('') || '<div class="skeleton">The first reads of the week are being written.</div>';
 
   // ── videos: a YouTube embed when the short is on YouTube, otherwise the match show plays here (assets/show.js)
@@ -298,7 +298,7 @@
   if (V.has_youtube) document.querySelectorAll('[data-yt]').forEach(a => a.hidden = false);
   document.getElementById('shorts').innerHTML = V.videos.slice(0, 4).map((v, i) =>
     `<a class="short" href="match.html?m=${encodeURIComponent(v.id)}" data-v="${i}" style="background:linear-gradient(180deg, hsl(${ABR.hue(v.home)} 45% 24%), #0d1219 72%)">
-      <span class="chip tag">${E(v.league)}</span>${v.youtube_id ? '' : `<span class="soon">${Math.max(1, Math.round(v.seconds / 60))} min</span>`}<div class="play">▶</div>
+      <span class="chip tag">${E(v.league)}</span>${v.youtube_id ? '' : `<span class="soon">${Math.max(1, Math.round(v.seconds / 60))} min</span>`}<div class="play">${ABR.ic('player-play-filled')}</div>
       <b class="disp">${E(v.title)}</b><span>${E(S(v.home))} v ${E(S(v.away))} · ${E(ABR.when(v.kickoff))}</span></a>`).join('')
     || '<div class="skeleton">The first videos are on their way.</div>';
   document.getElementById('shorts').addEventListener('click', ev => {

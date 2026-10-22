@@ -1,6 +1,8 @@
 /* AI Boot Room — shared helpers for the homepage and read pages. Data comes from our own JSON files only. */
 const TZ = 'Europe/Madrid';
 const ABR = {
+  // icons: Tabler (MIT) sprite built by tools/brand/icons.py — no emoji anywhere on the site (owner 2026-10-22)
+  ic(name, cls = '') { return `<svg class="i${cls ? ' ' + cls : ''}" aria-hidden="true"><use href="/assets/icons.svg#i-${name}"></use></svg>`; },
   esc(s) { return String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c])); },
   when(iso, long) {
     const d = new Date(iso);
@@ -46,11 +48,6 @@ const ABR = {
       <polyline points="${pts}" fill="none" stroke="${col}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
       <circle cx="${x(last).toFixed(1)}" cy="${y(last[side]).toFixed(1)}" r="5" fill="${col}" stroke="#121821" stroke-width="2"/></svg>`;
   },
-  PERSONAS: {
-    scout:   {emoji: '🔭', bg: '#12324f', name: 'The Scout', role: 'Finds the move', desc: 'Reads every price, every hour. Spots where the market moved first — and can’t wait to tell you about it.'},
-    sceptic: {emoji: '🧐', bg: '#3d1c22', name: 'The Sceptic', role: 'Tries to break it', desc: 'Treats every move as noise until proven otherwise. Weak stories don’t survive the Sceptic.'},
-    gaffer:  {emoji: '🎩', bg: '#3a2c09', name: 'The Gaffer', role: 'Makes the call', desc: 'Hears both sides and settles the reading. Withdraws a pick before kick-off if the news turns.'},
-  },
   async json(url) { const r = await fetch(url + (url.includes('?') ? '&' : '?') + 't=' + Date.now()); if (!r.ok) throw new Error(r.status); return r.json(); },
 };
 
@@ -59,7 +56,7 @@ ABR.playVideo = async function (v) {
   let box = document.getElementById('vbox');
   if (!box) {
     box = document.createElement('div'); box.id = 'vbox'; box.className = 'vbox';
-    box.innerHTML = '<div class="vpanel"><button class="vclose" aria-label="Close">✕</button><div class="vstage"></div><div class="vfoot"></div></div>';
+    box.innerHTML = '<div class="vpanel"><button class="vclose" aria-label="Close"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#i-x"></use></svg></button><div class="vstage"></div><div class="vfoot"></div></div>';
     document.body.append(box);
     box.addEventListener('click', ev => { if (ev.target === box || ev.target.closest('.vclose')) ABR.closeVideo(); });
     document.addEventListener('keydown', ev => { if (ev.key === 'Escape') ABR.closeVideo(); });
