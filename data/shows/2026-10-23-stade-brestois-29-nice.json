@@ -1,0 +1,804 @@
+{
+ "id": "2026-10-23-stade-brestois-29-nice",
+ "title": "Brest and Nice: one point apart, one tribute to Eric Roy",
+ "match": {
+  "home": "Stade Brestois 29",
+  "away": "Nice",
+  "league": "Ligue 1",
+  "kickoff": "2026-10-23T18:45:00+00:00",
+  "home_short": "STA",
+  "away_short": "NIC",
+  "home_color": "#2563eb",
+  "away_color": "#9333ea"
+ },
+ "market": {
+  "fair": {
+   "home": 42.2,
+   "draw": 28.8,
+   "away": 29.0
+  },
+  "move": {
+   "home": -0.2,
+   "draw": 0.3,
+   "away": -0.1
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 29.0
+   },
+   {
+    "t": "2026-10-19T05:22:00+00:00",
+    "v": 27.9
+   },
+   {
+    "t": "2026-10-20T05:21:00+00:00",
+    "v": 28.4
+   },
+   {
+    "t": "2026-10-21T02:29:00+00:00",
+    "v": 29.0
+   },
+   {
+    "t": "2026-10-21T05:21:00+00:00",
+    "v": 29.0
+   },
+   {
+    "t": "2026-10-21T14:23:00+00:00",
+    "v": 29.0
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 42.5
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 43.4
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 42.6
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 42.2
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "v": 42.2
+    },
+    {
+     "t": "2026-10-21T14:23:00+00:00",
+     "v": 42.2
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 28.5
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 28.8
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 29.0
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 28.8
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "v": 28.8
+    },
+    {
+     "t": "2026-10-21T14:23:00+00:00",
+     "v": 28.8
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 29.0
+    },
+    {
+     "t": "2026-10-19T05:22:00+00:00",
+     "v": 27.9
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 28.4
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 29.0
+    },
+    {
+     "t": "2026-10-21T05:21:00+00:00",
+     "v": 29.0
+    },
+    {
+     "t": "2026-10-21T14:23:00+00:00",
+     "v": 29.0
+    }
+   ]
+  },
+  "goals": 2.75,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T23:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Brest are 42.2% favourites against Nice, the bookmakers' average.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 42.2
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-23-stade-brestois-29-nice/s0.mp3",
+   "words": [
+    {
+     "w": "Brest",
+     "start": 0.25,
+     "end": 0.575
+    },
+    {
+     "w": "are",
+     "start": 0.575,
+     "end": 0.738
+    },
+    {
+     "w": "42.2%",
+     "start": 0.738,
+     "end": 2.15
+    },
+    {
+     "w": "favourites",
+     "start": 2.15,
+     "end": 2.575
+    },
+    {
+     "w": "against",
+     "start": 2.575,
+     "end": 2.925
+    },
+    {
+     "w": "Nice,",
+     "start": 2.925,
+     "end": 3.525
+    },
+    {
+     "w": "the",
+     "start": 3.625,
+     "end": 3.75
+    },
+    {
+     "w": "bookmakers'",
+     "start": 3.75,
+     "end": 4.362
+    },
+    {
+     "w": "average.",
+     "start": 4.362,
+     "end": 5.275
+    }
+   ],
+   "durationInFrames": 166
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Brest host Nice in Ligue 1 on Friday evening.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-stade-brestois-29-nice/s1.mp3",
+   "words": [
+    {
+     "w": "Brest",
+     "start": 0.25,
+     "end": 0.55
+    },
+    {
+     "w": "host",
+     "start": 0.55,
+     "end": 0.875
+    },
+    {
+     "w": "Nice",
+     "start": 0.875,
+     "end": 1.175
+    },
+    {
+     "w": "in",
+     "start": 1.175,
+     "end": 1.275
+    },
+    {
+     "w": "Ligue",
+     "start": 1.275,
+     "end": 1.5
+    },
+    {
+     "w": "1",
+     "start": 1.5,
+     "end": 1.775
+    },
+    {
+     "w": "on",
+     "start": 1.775,
+     "end": 1.988
+    },
+    {
+     "w": "Friday",
+     "start": 1.988,
+     "end": 2.45
+    },
+    {
+     "w": "evening.",
+     "start": 2.45,
+     "end": 3.3
+    }
+   ],
+   "durationInFrames": 107
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Only 1 point separates them in mid-table.",
+   "show": {
+    "kind": "stat",
+    "label": "Points between them",
+    "value": "1"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-stade-brestois-29-nice/s2.mp3",
+   "words": [
+    {
+     "w": "Only",
+     "start": 0.25,
+     "end": 0.525
+    },
+    {
+     "w": "1",
+     "start": 0.525,
+     "end": 0.75
+    },
+    {
+     "w": "point",
+     "start": 0.75,
+     "end": 1.113
+    },
+    {
+     "w": "separates",
+     "start": 1.113,
+     "end": 1.675
+    },
+    {
+     "w": "them",
+     "start": 1.675,
+     "end": 1.9
+    },
+    {
+     "w": "in",
+     "start": 1.9,
+     "end": 2.025
+    },
+    {
+     "w": "mid-table.",
+     "start": 2.025,
+     "end": 3.05
+    }
+   ],
+   "durationInFrames": 100
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Brest beat Angers 5-1 at home this month.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Angers",
+    "score": "5-1",
+    "when": "10 October"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-stade-brestois-29-nice/s3.mp3",
+   "words": [
+    {
+     "w": "Brest",
+     "start": 0.25,
+     "end": 0.55
+    },
+    {
+     "w": "beat",
+     "start": 0.55,
+     "end": 0.75
+    },
+    {
+     "w": "Angers",
+     "start": 0.75,
+     "end": 1.137
+    },
+    {
+     "w": "5-1",
+     "start": 1.137,
+     "end": 1.613
+    },
+    {
+     "w": "at",
+     "start": 1.613,
+     "end": 1.7
+    },
+    {
+     "w": "home",
+     "start": 1.7,
+     "end": 2.025
+    },
+    {
+     "w": "this",
+     "start": 2.025,
+     "end": 2.225
+    },
+    {
+     "w": "month.",
+     "start": 2.225,
+     "end": 2.95
+    }
+   ],
+   "durationInFrames": 97
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Nice lost 1-2 at Lyon, where Nakamura was sent off.",
+   "show": {
+    "kind": "result",
+    "team": "away",
+    "opponent": "Lyon",
+    "score": "1-2",
+    "when": "Sunday"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-stade-brestois-29-nice/s4.mp3",
+   "words": [
+    {
+     "w": "Nice",
+     "start": 0.3,
+     "end": 0.575
+    },
+    {
+     "w": "lost",
+     "start": 0.575,
+     "end": 0.9
+    },
+    {
+     "w": "1-2",
+     "start": 0.9,
+     "end": 1.25
+    },
+    {
+     "w": "at",
+     "start": 1.25,
+     "end": 1.35
+    },
+    {
+     "w": "Lyon,",
+     "start": 1.35,
+     "end": 1.975
+    },
+    {
+     "w": "where",
+     "start": 2.075,
+     "end": 2.225
+    },
+    {
+     "w": "Nakamura",
+     "start": 2.225,
+     "end": 2.8
+    },
+    {
+     "w": "was",
+     "start": 2.8,
+     "end": 2.925
+    },
+    {
+     "w": "sent",
+     "start": 2.925,
+     "end": 3.175
+    },
+    {
+     "w": "off.",
+     "start": 3.175,
+     "end": 3.9
+    }
+   ],
+   "durationInFrames": 125
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Brest lose defender Le Guen, who played all 450 minutes.",
+   "show": {
+    "kind": "absence",
+    "team": "home",
+    "player": "Raphaël Le Guen",
+    "status": "out",
+    "line": "450 minutes this season"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-stade-brestois-29-nice/s5.mp3",
+   "words": [
+    {
+     "w": "Brest",
+     "start": 0.25,
+     "end": 0.613
+    },
+    {
+     "w": "lose",
+     "start": 0.613,
+     "end": 0.975
+    },
+    {
+     "w": "defender",
+     "start": 0.975,
+     "end": 1.363
+    },
+    {
+     "w": "Le",
+     "start": 1.363,
+     "end": 1.475
+    },
+    {
+     "w": "Guen,",
+     "start": 1.475,
+     "end": 1.975
+    },
+    {
+     "w": "who",
+     "start": 2.075,
+     "end": 2.2
+    },
+    {
+     "w": "played",
+     "start": 2.2,
+     "end": 2.462
+    },
+    {
+     "w": "all",
+     "start": 2.462,
+     "end": 2.663
+    },
+    {
+     "w": "450",
+     "start": 2.663,
+     "end": 3.55
+    },
+    {
+     "w": "minutes.",
+     "start": 3.55,
+     "end": 4.325
+    }
+   ],
+   "durationInFrames": 138
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Friday is a tribute to Eric Roy, who coached both clubs.",
+   "show": {
+    "kind": "news",
+    "source": "Radio France",
+    "text": "Tribute to Eric Roy before kick-off"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-stade-brestois-29-nice/s6.mp3",
+   "words": [
+    {
+     "w": "Friday",
+     "start": 0.275,
+     "end": 0.7
+    },
+    {
+     "w": "is",
+     "start": 0.7,
+     "end": 0.812
+    },
+    {
+     "w": "a",
+     "start": 0.812,
+     "end": 0.875
+    },
+    {
+     "w": "tribute",
+     "start": 0.875,
+     "end": 1.225
+    },
+    {
+     "w": "to",
+     "start": 1.225,
+     "end": 1.35
+    },
+    {
+     "w": "Eric",
+     "start": 1.35,
+     "end": 1.65
+    },
+    {
+     "w": "Roy,",
+     "start": 1.65,
+     "end": 2.05
+    },
+    {
+     "w": "who",
+     "start": 2.15,
+     "end": 2.3
+    },
+    {
+     "w": "coached",
+     "start": 2.3,
+     "end": 2.65
+    },
+    {
+     "w": "both",
+     "start": 2.65,
+     "end": 2.875
+    },
+    {
+     "w": "clubs.",
+     "start": 2.875,
+     "end": 3.725
+    }
+   ],
+   "durationInFrames": 120
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "And yet the gap is only 0.25 goals.",
+   "show": {
+    "kind": "stat",
+    "label": "Brest better by (goals)",
+    "value": "0.25"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-stade-brestois-29-nice/s7.mp3",
+   "words": [
+    {
+     "w": "And",
+     "start": 0.225,
+     "end": 0.338
+    },
+    {
+     "w": "yet",
+     "start": 0.338,
+     "end": 0.463
+    },
+    {
+     "w": "the",
+     "start": 0.463,
+     "end": 0.55
+    },
+    {
+     "w": "gap",
+     "start": 0.55,
+     "end": 0.812
+    },
+    {
+     "w": "is",
+     "start": 0.812,
+     "end": 0.912
+    },
+    {
+     "w": "only",
+     "start": 0.912,
+     "end": 1.212
+    },
+    {
+     "w": "0.25",
+     "start": 1.212,
+     "end": 2.375
+    },
+    {
+     "w": "goals.",
+     "start": 2.375,
+     "end": 3.25
+    }
+   ],
+   "durationInFrames": 106
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "The market expects 2.75 goals in total.",
+   "show": {
+    "kind": "goals",
+    "value": 2.75
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-stade-brestois-29-nice/s8.mp3",
+   "words": [
+    {
+     "w": "The",
+     "start": 0.25,
+     "end": 0.325
+    },
+    {
+     "w": "market",
+     "start": 0.325,
+     "end": 0.637
+    },
+    {
+     "w": "expects",
+     "start": 0.637,
+     "end": 1.087
+    },
+    {
+     "w": "2.75",
+     "start": 1.087,
+     "end": 2.225
+    },
+    {
+     "w": "goals",
+     "start": 2.225,
+     "end": 2.625
+    },
+    {
+     "w": "in",
+     "start": 2.625,
+     "end": 2.775
+    },
+    {
+     "w": "total.",
+     "start": 2.775,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 115
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Home form leans Brest; the draw stays live.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Home form favours Brest",
+     "Gap only a quarter goal",
+     "The draw stays live"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-stade-brestois-29-nice/s9.mp3",
+   "words": [
+    {
+     "w": "Home",
+     "start": 0.25,
+     "end": 0.5
+    },
+    {
+     "w": "form",
+     "start": 0.5,
+     "end": 0.775
+    },
+    {
+     "w": "leans",
+     "start": 0.775,
+     "end": 1.075
+    },
+    {
+     "w": "Brest;",
+     "start": 1.075,
+     "end": 1.575
+    },
+    {
+     "w": "the",
+     "start": 1.675,
+     "end": 1.775
+    },
+    {
+     "w": "draw",
+     "start": 1.775,
+     "end": 2.05
+    },
+    {
+     "w": "stays",
+     "start": 2.05,
+     "end": 2.425
+    },
+    {
+     "w": "live.",
+     "start": 2.425,
+     "end": 3.225
+    }
+   ],
+   "durationInFrames": 112
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-23-stade-brestois-29-nice/s10.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "steady",
+  "kicker": "MATCH PREVIEW",
+  "stickers": [
+   "🏟️",
+   "🎯",
+   "📊"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1552794,
+ "prices_as_of": "2026-10-21T23:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T00:17:02+00:00",
+ "generated_at": "2026-10-22T00:27:03+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -282,6 +282,20 @@
    "seconds": 64
   },
   {
+   "id": "2026-10-23-alanyaspor-kocaelispor",
+   "home": "Alanyaspor",
+   "away": "Kocaelispor",
+   "league": "Super Lig",
+   "kickoff": "2026-10-23T17:00:00+00:00",
+   "title": "Alanyaspor after the 0-3: still favourites?",
+   "source": "market_desk",
+   "kicker": "MARKET ALERT",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-23-alanyaspor-kocaelispor.html",
+   "seconds": 46
+  },
+  {
    "id": "2026-10-23-go-ahead-eagles-telstar",
    "home": "GO Ahead Eagles",
    "away": "Telstar",
@@ -324,6 +338,20 @@
    "seconds": 53
   },
   {
+   "id": "2026-10-23-stade-brestois-29-nice",
+   "home": "Stade Brestois 29",
+   "away": "Nice",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-23T18:45:00+00:00",
+   "title": "Brest and Nice: one point apart, one tribute to Eric Roy",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-23-stade-brestois-29-nice.html",
+   "seconds": 44
+  },
+  {
    "id": "2026-10-23-kortrijk-kv-mechelen",
    "home": "Kortrijk",
    "away": "KV Mechelen",
@@ -364,6 +392,20 @@
    "youtube_id": null,
    "article": "/m/2026-10-23-bolton-middlesbrough.html",
    "seconds": 45
+  },
+  {
+   "id": "2026-10-23-alaves-malaga",
+   "home": "Alaves",
+   "away": "Malaga",
+   "league": "La Liga",
+   "kickoff": "2026-10-23T19:00:00+00:00",
+   "title": "Malaga winless, Alaves slumping — hosts still favoured",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-23-alaves-malaga.html",
+   "seconds": 49
   },
   {
    "id": "2026-10-23-vit-ria-sc-maritimo",

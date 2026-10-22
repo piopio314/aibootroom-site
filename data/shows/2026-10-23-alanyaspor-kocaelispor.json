@@ -1,0 +1,788 @@
+{
+ "id": "2026-10-23-alanyaspor-kocaelispor",
+ "title": "Alanyaspor after the 0-3: still favourites?",
+ "match": {
+  "home": "Alanyaspor",
+  "away": "Kocaelispor",
+  "league": "Super Lig",
+  "kickoff": "2026-10-23T17:00:00+00:00",
+  "home_short": "ALA",
+  "away_short": "KOC",
+  "home_color": "#16a34a",
+  "away_color": "#be123c"
+ },
+ "market": {
+  "fair": {
+   "home": 47.5,
+   "draw": 29.8,
+   "away": 22.6
+  },
+  "move": {
+   "home": -2.4,
+   "draw": 1.7,
+   "away": 0.7
+  },
+  "side": "away",
+  "timeline": [
+   {
+    "t": "2026-10-18T22:49:00+00:00",
+    "v": 22.0
+   },
+   {
+    "t": "2026-10-19T04:26:00+00:00",
+    "v": 22.0
+   },
+   {
+    "t": "2026-10-19T10:22:00+00:00",
+    "v": 22.0
+   },
+   {
+    "t": "2026-10-19T16:24:00+00:00",
+    "v": 22.0
+   },
+   {
+    "t": "2026-10-19T19:17:00+00:00",
+    "v": 22.0
+   },
+   {
+    "t": "2026-10-20T05:21:00+00:00",
+    "v": 23.3
+   },
+   {
+    "t": "2026-10-21T02:29:00+00:00",
+    "v": 22.6
+   },
+   {
+    "t": "2026-10-21T14:23:00+00:00",
+    "v": 22.6
+   }
+  ],
+  "series": {
+   "home": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 50.0
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 50.0
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 50.0
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "v": 50.0
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 50.0
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 48.0
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 47.7
+    },
+    {
+     "t": "2026-10-21T14:23:00+00:00",
+     "v": 47.5
+    }
+   ],
+   "draw": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 28.1
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 28.1
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 28.1
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "v": 28.1
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 28.1
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 28.7
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 29.7
+    },
+    {
+     "t": "2026-10-21T14:23:00+00:00",
+     "v": 29.8
+    }
+   ],
+   "away": [
+    {
+     "t": "2026-10-18T22:49:00+00:00",
+     "v": 22.0
+    },
+    {
+     "t": "2026-10-19T04:26:00+00:00",
+     "v": 22.0
+    },
+    {
+     "t": "2026-10-19T10:22:00+00:00",
+     "v": 22.0
+    },
+    {
+     "t": "2026-10-19T16:24:00+00:00",
+     "v": 22.0
+    },
+    {
+     "t": "2026-10-19T19:17:00+00:00",
+     "v": 22.0
+    },
+    {
+     "t": "2026-10-20T05:21:00+00:00",
+     "v": 23.3
+    },
+    {
+     "t": "2026-10-21T02:29:00+00:00",
+     "v": 22.6
+    },
+    {
+     "t": "2026-10-21T14:23:00+00:00",
+     "v": 22.6
+    }
+   ]
+  },
+  "goals": 2.15,
+  "goals_rank": 1,
+  "tracked_since": "2026-10-18T22:49:00+00:00",
+  "prices_as_of": "2026-10-21T23:18:00+00:00",
+  "books": 10
+ },
+ "scenes": [
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Alanyaspor lost 0-3 at Fenerbahçe on Saturday.",
+   "show": {
+    "kind": "result",
+    "team": "home",
+    "opponent": "Fenerbahçe",
+    "score": "0-3",
+    "when": "Saturday"
+   },
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-23-alanyaspor-kocaelispor/s0.mp3",
+   "words": [
+    {
+     "w": "Alanyaspor",
+     "start": 0.25,
+     "end": 0.875
+    },
+    {
+     "w": "lost",
+     "start": 0.875,
+     "end": 1.163
+    },
+    {
+     "w": "0-3",
+     "start": 1.163,
+     "end": 1.75
+    },
+    {
+     "w": "at",
+     "start": 1.75,
+     "end": 1.875
+    },
+    {
+     "w": "Fenerbahçe",
+     "start": 1.875,
+     "end": 2.5
+    },
+    {
+     "w": "on",
+     "start": 2.5,
+     "end": 2.712
+    },
+    {
+     "w": "Saturday.",
+     "start": 2.712,
+     "end": 3.7
+    }
+   ],
+   "durationInFrames": 119
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "On Friday they host Kocaelispor in the Süper Lig.",
+   "show": {
+    "kind": "teams"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-alanyaspor-kocaelispor/s1.mp3",
+   "words": [
+    {
+     "w": "On",
+     "start": 0.25,
+     "end": 0.425
+    },
+    {
+     "w": "Friday",
+     "start": 0.425,
+     "end": 0.8
+    },
+    {
+     "w": "they",
+     "start": 0.8,
+     "end": 0.975
+    },
+    {
+     "w": "host",
+     "start": 0.975,
+     "end": 1.3
+    },
+    {
+     "w": "Kocaelispor",
+     "start": 1.3,
+     "end": 1.962
+    },
+    {
+     "w": "in",
+     "start": 1.962,
+     "end": 2.038
+    },
+    {
+     "w": "the",
+     "start": 2.038,
+     "end": 2.138
+    },
+    {
+     "w": "Süper",
+     "start": 2.138,
+     "end": 2.525
+    },
+    {
+     "w": "Lig.",
+     "start": 2.525,
+     "end": 3.2
+    }
+   ],
+   "durationInFrames": 104
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Kocaelispor sit 8th on 12 points, level with their hosts.",
+   "show": {
+    "kind": "table",
+    "team": "away",
+    "rank": 8,
+    "pts": 12
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-alanyaspor-kocaelispor/s2.mp3",
+   "words": [
+    {
+     "w": "Kocaelispor",
+     "start": 0.25,
+     "end": 0.887
+    },
+    {
+     "w": "sit",
+     "start": 0.887,
+     "end": 1.1
+    },
+    {
+     "w": "8th",
+     "start": 1.1,
+     "end": 1.337
+    },
+    {
+     "w": "on",
+     "start": 1.337,
+     "end": 1.475
+    },
+    {
+     "w": "12",
+     "start": 1.475,
+     "end": 1.8
+    },
+    {
+     "w": "points,",
+     "start": 1.8,
+     "end": 2.35
+    },
+    {
+     "w": "level",
+     "start": 2.45,
+     "end": 2.712
+    },
+    {
+     "w": "with",
+     "start": 2.712,
+     "end": 2.837
+    },
+    {
+     "w": "their",
+     "start": 2.837,
+     "end": 3.025
+    },
+    {
+     "w": "hosts.",
+     "start": 3.025,
+     "end": 3.9
+    }
+   ],
+   "durationInFrames": 125
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Kocaelispor are without 2 regular defenders, both muscle injuries.",
+   "show": {
+    "kind": "stat",
+    "label": "Kocaelispor defenders out",
+    "value": "2"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-alanyaspor-kocaelispor/s3.mp3",
+   "words": [
+    {
+     "w": "Kocaelispor",
+     "start": 0.25,
+     "end": 0.875
+    },
+    {
+     "w": "are",
+     "start": 0.875,
+     "end": 0.988
+    },
+    {
+     "w": "without",
+     "start": 0.988,
+     "end": 1.337
+    },
+    {
+     "w": "2",
+     "start": 1.337,
+     "end": 1.575
+    },
+    {
+     "w": "regular",
+     "start": 1.575,
+     "end": 1.988
+    },
+    {
+     "w": "defenders,",
+     "start": 1.988,
+     "end": 2.725
+    },
+    {
+     "w": "both",
+     "start": 2.825,
+     "end": 3.163
+    },
+    {
+     "w": "muscle",
+     "start": 3.163,
+     "end": 3.525
+    },
+    {
+     "w": "injuries.",
+     "start": 3.525,
+     "end": 4.5
+    }
+   ],
+   "durationInFrames": 143
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Even so, Alanyaspor are 47.5% favourites.",
+   "show": {
+    "kind": "chance",
+    "team": "home",
+    "value": 47.5
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-alanyaspor-kocaelispor/s4.mp3",
+   "words": [
+    {
+     "w": "Even",
+     "start": 0.25,
+     "end": 0.537
+    },
+    {
+     "w": "so,",
+     "start": 0.537,
+     "end": 0.9
+    },
+    {
+     "w": "Alanyaspor",
+     "start": 0.975,
+     "end": 1.75
+    },
+    {
+     "w": "are",
+     "start": 1.75,
+     "end": 1.887
+    },
+    {
+     "w": "47.5%",
+     "start": 1.887,
+     "end": 3.5
+    },
+    {
+     "w": "favourites.",
+     "start": 3.5,
+     "end": 4.425
+    }
+   ],
+   "durationInFrames": 141
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "That is the average across 10 bookmakers, margin removed.",
+   "show": {
+    "kind": "stat",
+    "label": "bookmakers, margin removed",
+    "value": "10"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-alanyaspor-kocaelispor/s5.mp3",
+   "words": [
+    {
+     "w": "That",
+     "start": 0.25,
+     "end": 0.425
+    },
+    {
+     "w": "is",
+     "start": 0.425,
+     "end": 0.537
+    },
+    {
+     "w": "the",
+     "start": 0.537,
+     "end": 0.688
+    },
+    {
+     "w": "average",
+     "start": 0.688,
+     "end": 1.087
+    },
+    {
+     "w": "across",
+     "start": 1.087,
+     "end": 1.438
+    },
+    {
+     "w": "10",
+     "start": 1.438,
+     "end": 1.7
+    },
+    {
+     "w": "bookmakers,",
+     "start": 1.7,
+     "end": 2.475
+    },
+    {
+     "w": "margin",
+     "start": 2.575,
+     "end": 3.0
+    },
+    {
+     "w": "removed.",
+     "start": 3.0,
+     "end": 3.95
+    }
+   ],
+   "durationInFrames": 127
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Alanyaspor have conceded 1.94 expected goals a game, more than they create.",
+   "show": {
+    "kind": "stat",
+    "label": "xG conceded per game",
+    "value": "1.94"
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-alanyaspor-kocaelispor/s6.mp3",
+   "words": [
+    {
+     "w": "Alanyaspor",
+     "start": 0.275,
+     "end": 0.988
+    },
+    {
+     "w": "have",
+     "start": 0.988,
+     "end": 1.1
+    },
+    {
+     "w": "conceded",
+     "start": 1.1,
+     "end": 1.6
+    },
+    {
+     "w": "1.94",
+     "start": 1.6,
+     "end": 2.65
+    },
+    {
+     "w": "expected",
+     "start": 2.65,
+     "end": 3.2
+    },
+    {
+     "w": "goals",
+     "start": 3.2,
+     "end": 3.587
+    },
+    {
+     "w": "a",
+     "start": 3.587,
+     "end": 3.675
+    },
+    {
+     "w": "game,",
+     "start": 3.675,
+     "end": 4.275
+    },
+    {
+     "w": "more",
+     "start": 4.412,
+     "end": 4.638
+    },
+    {
+     "w": "than",
+     "start": 4.638,
+     "end": 4.737
+    },
+    {
+     "w": "they",
+     "start": 4.737,
+     "end": 4.875
+    },
+    {
+     "w": "create.",
+     "start": 4.875,
+     "end": 5.75
+    }
+   ],
+   "durationInFrames": 181
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "Over 2.25 goals is only 46.5%, so the market leans under.",
+   "show": {
+    "kind": "over",
+    "line": 2.25,
+    "value": 46.5
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-alanyaspor-kocaelispor/s7.mp3",
+   "words": [
+    {
+     "w": "Over",
+     "start": 0.25,
+     "end": 0.487
+    },
+    {
+     "w": "2.25",
+     "start": 0.487,
+     "end": 1.5
+    },
+    {
+     "w": "goals",
+     "start": 1.5,
+     "end": 1.9
+    },
+    {
+     "w": "is",
+     "start": 1.9,
+     "end": 2.025
+    },
+    {
+     "w": "only",
+     "start": 2.025,
+     "end": 2.337
+    },
+    {
+     "w": "46.5%,",
+     "start": 2.337,
+     "end": 4.25
+    },
+    {
+     "w": "so",
+     "start": 4.375,
+     "end": 4.487
+    },
+    {
+     "w": "the",
+     "start": 4.487,
+     "end": 4.575
+    },
+    {
+     "w": "market",
+     "start": 4.575,
+     "end": 4.975
+    },
+    {
+     "w": "leans",
+     "start": 4.975,
+     "end": 5.325
+    },
+    {
+     "w": "under.",
+     "start": 5.325,
+     "end": 6.075
+    }
+   ],
+   "durationInFrames": 190
+  },
+  {
+   "type": "beat",
+   "speaker": "narrator",
+   "text": "One heavy defeat changes little: they stay favourites.",
+   "show": {
+    "kind": "verdict",
+    "points": [
+     "Defeat, not a collapse",
+     "Kocaelispor short at the back",
+     "Home side still favoured"
+    ]
+   },
+   "first": false,
+   "variant": 0,
+   "audio": "audio/2026-10-23-alanyaspor-kocaelispor/s8.mp3",
+   "words": [
+    {
+     "w": "One",
+     "start": 0.275,
+     "end": 0.5
+    },
+    {
+     "w": "heavy",
+     "start": 0.5,
+     "end": 0.775
+    },
+    {
+     "w": "defeat",
+     "start": 0.775,
+     "end": 1.2
+    },
+    {
+     "w": "changes",
+     "start": 1.2,
+     "end": 1.6
+    },
+    {
+     "w": "little:",
+     "start": 1.6,
+     "end": 2.05
+    },
+    {
+     "w": "they",
+     "start": 2.15,
+     "end": 2.312
+    },
+    {
+     "w": "stay",
+     "start": 2.312,
+     "end": 2.663
+    },
+    {
+     "w": "favourites.",
+     "start": 2.663,
+     "end": 3.6
+    }
+   ],
+   "durationInFrames": 123
+  },
+  {
+   "type": "end",
+   "speaker": "narrator",
+   "text": "AI Boot Room. Football analysis, with receipts.",
+   "first": true,
+   "variant": 0,
+   "audio": "audio/2026-10-23-alanyaspor-kocaelispor/s9.mp3",
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.275,
+     "end": 0.637
+    },
+    {
+     "w": "Boot",
+     "start": 0.637,
+     "end": 0.9
+    },
+    {
+     "w": "Room.",
+     "start": 0.9,
+     "end": 1.35
+    },
+    {
+     "w": "Football",
+     "start": 1.488,
+     "end": 1.875
+    },
+    {
+     "w": "analysis,",
+     "start": 1.875,
+     "end": 2.45
+    },
+    {
+     "w": "with",
+     "start": 2.487,
+     "end": 2.625
+    },
+    {
+     "w": "receipts.",
+     "start": 2.625,
+     "end": 3.55
+    }
+   ],
+   "durationInFrames": 139
+  }
+ ],
+ "fps": 30,
+ "silent": false,
+ "style": "pulse",
+ "story": {
+  "format": "line_move",
+  "kicker": "MARKET ALERT",
+  "stickers": [
+   "📈",
+   "💸",
+   "👀"
+  ]
+ },
+ "source": "market_desk",
+ "fixture_id": 1584439,
+ "prices_as_of": "2026-10-21T23:18:00+00:00",
+ "disclaimer": "18+ · Market analysis, not betting advice.",
+ "voiced": true
+}

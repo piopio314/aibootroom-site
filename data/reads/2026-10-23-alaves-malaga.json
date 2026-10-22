@@ -4,45 +4,45 @@
  "home": "Alaves",
  "away": "Malaga",
  "kickoff": "2026-10-23T19:00:00+00:00",
- "generated_at": "2026-10-21T23:34:19+00:00",
- "headline": "Malaga are bottom, Alaves winless — the market still favours the hosts",
- "summary": "Malaga arrive in Vitoria bottom of La Liga: 20th, 4 points, no win this season, and beaten 5-2 at home by Real Sociedad last Saturday. Alaves have problems of their own — no win in their last 5 — but the market still makes them 54.9% favourites, a fair chance averaged across 10 bookmakers with their margin removed. The goals line is 2.25, with over priced at 53.1%: a narrow home win, and goals just more likely than not.",
- "read": "Malaga come to Vitoria bottom of La Liga and still without a win, and the market makes Alaves 54.9% favourites and about three-quarters of a goal the better side — even though Alaves have lost four of their last five. The total sits at 2.25 with a slight lean to Over, matching a Malaga side that has conceded 11 goals in five matches but also scored in three of them.",
+ "generated_at": "2026-10-22T00:24:17+00:00",
+ "headline": "Winless Malaga visit Alaves, and the hosts are still favoured",
+ "summary": "Malaga are bottom of La Liga: 20th, with 4 points and no win this season. Last Sunday they lost 5-2 at home to Real Sociedad, and the deeper problem is creation — 0.70 expected goals per game. Cadena SER reports Joaquin Munoz is expected to miss Friday with a muscle injury. Alaves are 7th on 11 points, yet they have lost 4 of their last 5, so favouritism is not built on form. Across 10 bookmakers, margin removed, Alaves are 54.9% favourites, rated about three-quarters of a goal better. The main goals line is 2.25, with Over at 53.1%.",
+ "read": "Malaga arrive bottom of La Liga, winless in nine and beaten 5-2 at home by Real Sociedad last weekend, while Alaves have lost four of their last five. The market still makes Alaves clear favourites at 54.9%, rated about 0.7 goals the better team, with a goal line just above two and a quarter.",
  "facts": [
   {
-   "fact": "Alaves are 54.9% favourites to win, more than two and a half times Malaga's 19.4%.",
-   "meaning": "The market makes Alaves more likely than not to take all three points at home."
-  },
-  {
-   "fact": "Malaga are bottom of La Liga with 4 points from nine games and a goal difference of -12.",
-   "meaning": "They arrive in Vitoria as the worst-placed side in the division, which is the base of their 19.4% away chance."
+   "fact": "Malaga are bottom of La Liga with four points from nine games and are still without a win this season.",
+   "meaning": "They arrive at Mendizorroza as the division's 20th-placed side, five points adrift of the team directly above them."
   },
   {
    "fact": "Malaga were beaten 5-2 at home by Real Sociedad on 18 October.",
-   "meaning": "They conceded five at home a week before this trip — the low point of a run of 11 goals let in over five games."
+   "meaning": "They conceded five at their own ground four days before this trip, the heaviest scoreline in their recent run."
   },
   {
-   "fact": "Alaves have not won in five: LLDLL, scoring three goals and conceding seven in that run.",
-   "meaning": "The favourites are on a poor run of their own — this is not a confident home side."
+   "fact": "Malaga have averaged 0.70 expected goals per game across their last five matches.",
+   "meaning": "They are creating very little: only once in that run did they pass one expected goal."
   },
   {
-   "fact": "The main handicap line is Alaves -0.75.",
-   "meaning": ""
+   "fact": "Alaves have lost four of their last five La Liga games, a run of one draw and four defeats.",
+   "meaning": "The home side's own form is poor — they have taken one point from fifteen — so favouritism here is not built on a hot streak."
   },
   {
-   "fact": "Malaga have averaged 0.70 xG created and 1.94 conceded over their last five games.",
-   "meaning": ""
+   "fact": "Alaves sit seventh in La Liga on 11 points after nine matches.",
+   "meaning": "Their early-season points haul has them in the top half despite the current losing run — a home win keeps them there."
   },
   {
-   "fact": "Alaves' -0.75 handicap price firmed from 46.9% to 48.8% fair probability in recent days.",
-   "meaning": "Money came in on Alaves covering the handicap, though the move is small rather than decisive."
+   "fact": "Cadena SER reported nine hours ago that Malaga's Joaquin Munoz has a right soleus muscle injury and is expected to miss Friday's game at Alaves.",
+   "meaning": "Another midfield absence for the division's bottom side, on top of the doubts already on their list."
   },
   {
-   "fact": "The goals line is 2.25, with Over priced at 53.1%.",
-   "meaning": "The market leans slightly towards more than two goals, but not strongly — it does not see a rout."
+   "fact": "Malaga's J. Cruz is listed as doubtful with a muscle injury after 251 minutes across seven appearances this season.",
+   "meaning": "He is a rotation midfielder rather than an automatic starter, so his absence would trim options rather than reshape the eleven."
+  },
+  {
+   "fact": "Alaves are rated 54.9% to win, with the draw at 25.7% and Malaga at 19.4%.",
+   "meaning": "More likely than not that the home side takes the points — but well short of a one-sided price."
   }
  ],
- "article": null,
+ "article": "/m/2026-10-23-alaves-malaga.html",
  "sources": [
   {
    "fact": "Alaves lost 2-1 away to Celta Vigo in La Liga, a result that lifted Celta to eighth in the table.",
@@ -94,11 +94,11 @@
    "certainty": "reported"
   }
  ],
- "video_title": "Malaga bottom, Alaves winless — hosts still favoured",
+ "video_title": "Malaga winless, Alaves slumping — hosts still favoured",
  "key_points": [
-  "Malaga bottom, no win in nine",
-  "Alaves -0.75, 54.9% favourites",
-  "Goals line 2.25, Over favoured"
+  "Malaga winless, bottom of La Liga",
+  "Alaves have lost four of five",
+  "Alaves 54.9% favourites at home"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
