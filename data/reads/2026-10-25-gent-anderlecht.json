@@ -4,42 +4,42 @@
  "home": "Gent",
  "away": "Anderlecht",
  "kickoff": "2026-10-25T17:30:00+00:00",
- "generated_at": "2026-10-21T22:46:58+00:00",
- "headline": "Gent lead the league, and Anderlecht are rated close behind",
- "summary": "Gent's unbeaten league start survived the weekend; their Belgian Cup run did not. Third-division Union Rochefort held them 3-3 and knocked them out. In the league they are first with 22 points, and on Sunday they host Anderlecht, whose coach Vitor Bruno is fighting for his future, Voetbalkrant report. The difference between the sides is defensive: Gent concede 0.76 expected goals a game, Anderlecht 1.26. That is why the bookmakers keep it close — Gent 38.1% favourites, Anderlecht 30.7%, with a fair goal total of 2.4.",
- "read": "Gent lead the Pro League with 22 points from eight unbeaten games and are narrow market favourites at 38.1%, but Anderlecht are rated only a fraction of a goal behind — the fair handicap line is -0.13 and the fair goal line 2.4. Anderlecht sit fifth, six points back, with coach Vitor Bruno under pressure and a Thursday Europa League trip to Jagiellonia before this game.",
+ "generated_at": "2026-10-22T00:06:45+00:00",
+ "headline": "Gent top but out of the cup, and only slight favourites",
+ "summary": "Gent lead the Jupiler Pro League on 22 points, but they come into Sunday's home game after a 3-3 draw with third-division Rochefort ended their Belgian Cup run. Anderlecht sit fifth, 6 points back, and travel to Jagiellonia on Thursday, three days before this game. Voetbalkrant report that Anderlecht coach Vitor Bruno is fighting for his future. Across 10 bookmakers, with the margin removed, Gent are 38.1% to win against Anderlecht's 30.7%, and the handicap, a head start in goals, rates them only 0.13 goals better. The 2.5-goal line leans to the under, with over at 47%.",
+ "read": "League leaders Gent, unbeaten in the league and six points clear of Anderlecht, host a side that has just gone out of the cup and whose coach is reported to be fighting for his job. The market still sees it as close: Gent are favourites at 38.1% and rated only about a quarter of a goal better, with the goals line at 2.40 suggesting a tight, low-scoring game.",
  "facts": [
   {
-   "fact": "Gent are the market's favourites at 38.1%, but the draw (31.1%) and Anderlecht (30.7%) are close behind.",
-   "meaning": ""
+   "fact": "Gent top the Jupiler Pro League with 22 points from eight games, seven wins and one draw.",
+   "meaning": "The league leaders host the team in fifth, with a six-point cushion over them."
   },
   {
-   "fact": "Gent lead the Pro League with 22 points from eight games — seven wins, one draw, none lost — with Anderlecht fifth, six points back.",
-   "meaning": "A win would put Gent further clear of one of their main challengers; Anderlecht need it to stay in touch."
+   "fact": "Voetbalkrant report that Vitor Bruno is fighting for his future as Anderlecht coach, with the away trips to Jagiellonia and Gent described as decisive.",
+   "meaning": "Anderlecht arrive with their coach's job on the line, on the back of a cup exit."
   },
   {
-   "fact": "Voetbalkrant report that Vitor Bruno is fighting for his future as Anderlecht coach, with the away trips to Jagiellonia on Thursday and to Gent on Sunday seen as decisive.",
-   "meaning": "Anderlecht arrive with their coach under public pressure and two season-defining away games in four days."
+   "fact": "Gent were knocked out of the Belgian Cup by third-division Union Rochefortoise, drawing 3-3 before going out.",
+   "meaning": "The league leaders come into this game off the most embarrassing result of their season."
   },
   {
-   "fact": "Anderlecht have lost three of their last five (LLWWL), including a 1-2 cup exit at Beerschot and a 0-1 defeat at Dinamo Zagreb.",
-   "meaning": "They come into the biggest week of their autumn on a run of defeats, and Bruno publicly rejected talk of a crisis after the cup exit."
+   "fact": "Anderlecht sit fifth on 16 points from eight games, six points behind Gent.",
+   "meaning": "A win at Gent would pull Anderlecht right back into the title picture; a defeat leaves them trailing."
   },
   {
-   "fact": "Gent's unbeaten start ended in the Belgian Cup: they were held 3-3 by third-division Union Rochefort and knocked out in the round of 32.",
-   "meaning": "The one blemish of their season came in a competition that costs no league points — their league record is untouched."
+   "fact": "Anderlecht's last five read L-L-W-W-L, including a 1-2 cup defeat at Beerschot and a 0-1 loss at Dinamo Zagreb.",
+   "meaning": "Three defeats in five, two of them away from home in the last eight days."
   },
   {
-   "fact": "Gent have conceded just 0.76 xG per game across their last five matches.",
-   "meaning": "They don't need to dominate games to win them — opponents are creating very little against them."
+   "fact": "Gent are priced 38.1% to win, against Anderlecht's 30.7%.",
+   "meaning": "The market makes Gent clear favourites but gives Anderlecht a live chance — this is no mismatch."
   },
   {
-   "fact": "Anderlecht concede 1.26 xG per game, well above Gent's figure, while creating about the same amount going forward.",
-   "meaning": "The difference between first and fifth sits mostly in what the two sides give up, not what they create."
+   "fact": "The market's handicap line rates Gent only about a quarter of a goal better than Anderlecht, at -0.13.",
+   "meaning": "Despite leading the league, Gent are not seen as dominant here — a one-goal win is roughly the expectation."
   },
   {
-   "fact": "The market's fair goal line is 2.40, with Under 2.5 the favoured side.",
-   "meaning": "More likely than not this is a game of two goals or fewer — a tight, cagey top-of-the-table fixture."
+   "fact": "Gent have conceded only 0.76 expected goals per game across their last five matches.",
+   "meaning": "Anderlecht's attack faces a defence that is giving up very few clear chances."
   }
  ],
  "article": null,
@@ -101,11 +101,11 @@
    "certainty": "confirmed"
   }
  ],
- "video_title": "Gent's cup shock, then Anderlecht at home",
+ "video_title": "Gent out of the cup, still only slight favourites",
  "key_points": [
-  "Gent top, six points clear",
-  "Bruno's future on the line",
-  "Tight game: line 2.4 goals"
+  "Gent unbeaten, top on 22 points",
+  "Bruno fighting for his future",
+  "Gent only a quarter-goal better"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."

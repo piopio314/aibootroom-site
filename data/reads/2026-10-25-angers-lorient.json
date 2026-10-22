@@ -4,42 +4,42 @@
  "home": "Angers",
  "away": "Lorient",
  "kickoff": "2026-10-25T16:15:00+00:00",
- "generated_at": "2026-10-21T22:33:32+00:00",
- "headline": "Lorient, after beating leaders Monaco, go to leaking Angers",
- "summary": "Angers have conceded 10 goals in their last two Ligue 1 games, including a 2-5 home defeat to Marseille on Sunday, and sit 15th. On Sunday they host Lorient, 7th on 11 points, who beat leaders Monaco 1-0 through a Noah Cadiou penalty. Ouest-France report midfielder Haris Belkebla is still out of Angers training, so the defence that shipped five at the weekend is not yet whole. Even so, the market leans under 2.5 goals at 52.8%, and Lorient's win chance has risen from 33.9% to 39.3% in recent days. Angers are only 31.6% at home.",
- "read": "Angers are 15th in Ligue 1 and have conceded ten goals in their last two games, including a 2-5 home defeat to Marseille on Sunday. Lorient arrive seventh after beating leaders Monaco 1-0, and the market has them at 39.3% to win at Angers against 31.6% for the home side, with the handicap now favouring the visitors.",
+ "generated_at": "2026-10-22T00:06:39+00:00",
+ "headline": "Angers have conceded 10 in two — and Lorient arrive after beating Monaco",
+ "summary": "Angers have conceded 10 goals in their last two Ligue 1 matches — 1-5 at Brest, then 2-5 at home to Marseille on Sunday. Next they host Lorient, who beat league leaders Monaco 1-0 last week. Angers are still without midfielder Haris Belkebla, who missed the Marseille defeat. The market has followed those results: Lorient's win chance rose from 33.9% to 39.3%. Even so, the gap stays small — on the fair handicap line Lorient are a quarter of a goal better, 0.15 — and few goals are expected, with under 2.5 at 52.8%.",
+ "read": "Angers have shipped ten goals in two matches — 1-5 at Brest and 2-5 at home to Marseille — and now host a Lorient team that beat leaders Monaco 1-0 last week, led by Angers' former coach Alexandre Dujeux. The market has followed the results: Lorient are now the favourites, rated about 0.15 goals the better side, with under 2.5 goals the lean at 52.8%.",
  "facts": [
   {
-   "fact": "Angers have conceded ten goals in their last two Ligue 1 matches, including a 2-5 home defeat to Marseille on Sunday.",
-   "meaning": "A defence leaking five a game is the story of Angers' season and the reason they start as underdogs on their own pitch."
+   "fact": "Angers have conceded ten goals in their last two Ligue 1 matches — 1-5 at Brest, then 2-5 at home to Marseille on Sunday.",
+   "meaning": "They go into a home game as the leakiest side in the division on current form, with the midfield and back line under pressure."
   },
   {
-   "fact": "Lorient beat Monaco 1-0 on matchday 7, handing the league leaders their first defeat of the season.",
-   "meaning": "Lorient arrive on the back of the best result of their season, against the team that had been top of Ligue 1."
+   "fact": "Lorient beat league leaders Monaco 1-0 on matchday 7 — their third win in five league games.",
+   "meaning": "They arrive with the far better recent record and the confidence of having just beaten the best team in the table."
   },
   {
-   "fact": "Lorient are the favourites for this match at 39.3% to win, with Angers on 31.6% and the draw on 29.1%.",
-   "meaning": "Away from home, Lorient are rated the more likely winner — Angers' home advantage does not make them favourites."
+   "fact": "Lorient's win chance has risen from 33.9% to 39.3% since Sunday, while Angers' has slipped the other way.",
+   "meaning": "A match that was near even four days ago now has a clear away favourite."
   },
   {
-   "fact": "Lorient's chance of winning has risen from 33.9% to 39.3% in recent days.",
-   "meaning": "A game the market once had as close to even now has a clear away favourite."
-  },
-  {
-   "fact": "The handicap fair line has moved from -0.05 to +0.15, so the market now rates Lorient about 0.15 goals the better side.",
+   "fact": "The handicap fair line sits at Angers +0.15 — the market now rates Lorient a fraction of a goal the better side, after Angers were rated marginally ahead before the weekend.",
    "meaning": ""
   },
   {
-   "fact": "Angers are conceding 2.08 expected goals per game across their last five matches.",
-   "meaning": "The 2-5 and 1-5 scorelines are not freak results — the quality of chances against Angers has been consistently high."
+   "fact": "Angers sit 15th of 18 in Ligue 1 after seven matches.",
+   "meaning": "A home defeat here keeps them in the bottom third and turns a bad week into a bad start."
   },
   {
-   "fact": "Lorient sit seventh in Ligue 1 on 11 points from seven games.",
-   "meaning": "Lorient are the higher-placed side coming into this match, which is why the market treats them as favourites away from home."
+   "fact": "Under 2.5 goals is the market lean at 52.8%.",
+   "meaning": "The market expects a tight, low-scoring game even though Angers have just shipped ten goals in two matches."
   },
   {
-   "fact": "The market has Under 2.5 goals at 52.8%, with the goals fair line at 2.4.",
-   "meaning": "More likely than not a game under three goals — despite the goal-fests in Angers' last two matches."
+   "fact": "Lorient average 1.16 xG per game across their last five matches — modest chance creation for a side that has won three of them.",
+   "meaning": "Their wins are built on defending and fine margins, so if they win here it is more likely to be by one goal than by a scoreline."
+  },
+  {
+   "fact": "Haris Belkebla, who missed the Marseille defeat through injury, was still absent from Angers training four days before kick-off.",
+   "meaning": "Angers are likely without another option in the middle as they try to protect a defence that has conceded ten in two."
   }
  ],
  "article": null,
@@ -101,11 +101,11 @@
    "certainty": "reported"
   }
  ],
- "video_title": "Lorient, after beating Monaco, visit leaking Angers",
+ "video_title": "Angers leaked 10 in two — and Lorient just beat Monaco",
  "key_points": [
-  "Angers: 10 conceded in two",
+  "Angers ship 10 in two games",
   "Lorient beat leaders Monaco 1-0",
-  "Market: Lorient 39.3%, Angers 31.6%"
+  "Lorient favourites, under 2.5 lean"
  ],
  "market": {
   "id": 1552792,
@@ -134,7 +134,7 @@
    "away": 0
   },
   "read": "2026-10-25-angers-lorient",
-  "headline": "Lorient, after beating leaders Monaco, go to leaking Angers"
+  "headline": "Angers have conceded 10 in two — and Lorient arrive after beating Monaco"
  },
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }
