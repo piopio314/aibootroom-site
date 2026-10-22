@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-22T11:58:00+00:00",
- "prices_as_of": "2026-10-22T11:20:00+00:00",
+ "generated_at": "2026-10-22T12:58:00+00:00",
+ "prices_as_of": "2026-10-22T12:31:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
   "matches": 504,
-  "price_changes": 212677,
+  "price_changes": 214722,
   "leagues": 23,
-  "absences": 783,
+  "absences": 784,
   "tracking_since": "2026-10-18T22:49:00+00:00"
  },
  "featured": {
@@ -140,14 +140,14 @@
    "home": "Ajax",
    "away": "Atalanta",
    "fair": {
-    "home": 44.6,
-    "draw": 25.5,
-    "away": 30.0
+    "home": 46.0,
+    "draw": 24.8,
+    "away": 29.2
    },
    "move": {
-    "home": 0.7,
-    "draw": -0.3,
-    "away": -0.4
+    "home": 2.1,
+    "draw": -1.0,
+    "away": -1.2
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "timeline": [
@@ -204,10 +204,16 @@
      "home": 44.6,
      "draw": 25.5,
      "away": 30.0
+    },
+    {
+     "t": "2026-10-22T12:31:00+00:00",
+     "home": 46.0,
+     "draw": 24.8,
+     "away": 29.2
     }
    ],
    "goals": {
-    "expected": 3.18,
+    "expected": 3.23,
     "first": 2.91
    },
    "absences": {
@@ -1102,18 +1108,18 @@
    "home": "FK Jablonec",
    "away": "Brighton",
    "fair": {
-    "home": 7.1,
-    "draw": 12.9,
-    "away": 80.0
+    "home": 6.4,
+    "draw": 12.2,
+    "away": 81.4
    },
    "move": {
-    "home": -3.8,
-    "draw": -3.9,
-    "away": 7.7
+    "home": -4.5,
+    "draw": -4.6,
+    "away": 9.1
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 3.28,
+    "expected": 3.32,
     "first": 3.14
    },
    "absences": {
@@ -1245,6 +1251,36 @@
    "numbers": null
   },
   {
+   "id": 1636388,
+   "slug": "2026-10-22-sc-braga-gent",
+   "league": "Conference League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "home": "SC Braga",
+   "away": "Gent",
+   "fair": {
+    "home": 49.9,
+    "draw": 26.9,
+    "away": 23.2
+   },
+   "move": {
+    "home": -6.6,
+    "draw": 0.8,
+    "away": 5.8
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 2.28,
+    "first": 2.29
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": "2026-10-22-sc-braga-gent",
+   "headline": "Braga sack their coach two days before unbeaten Gent",
+   "numbers": null
+  },
+  {
    "id": 1636215,
    "slug": "2026-10-22-ararat-armenia-az-alkmaar",
    "league": "Europa League",
@@ -1302,36 +1338,6 @@
    },
    "read": null,
    "headline": null,
-   "numbers": null
-  },
-  {
-   "id": 1636388,
-   "slug": "2026-10-22-sc-braga-gent",
-   "league": "Conference League",
-   "kickoff": "2026-10-22T19:00:00+00:00",
-   "home": "SC Braga",
-   "away": "Gent",
-   "fair": {
-    "home": 50.8,
-    "draw": 26.4,
-    "away": 22.9
-   },
-   "move": {
-    "home": -5.7,
-    "draw": 0.3,
-    "away": 5.4
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 2.27,
-    "first": 2.29
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": "2026-10-22-sc-braga-gent",
-   "headline": "Braga sack their coach two days before unbeaten Gent",
    "numbers": null
   }
  ],
@@ -1426,7 +1432,12 @@
    "key": "88",
    "name": "Eredivisie",
    "cup": false,
-   "roundup": null,
+   "roundup": {
+    "youtube_id": "ezZqTaODi18",
+    "title": "Eredivisie: every big game this weekend — what the market says",
+    "duration_s": 445.3,
+    "first_kickoff": "2026-10-23T18:00:00+00:00"
+   },
    "matches": 9,
    "first": "2026-10-23T18:00:00+00:00",
    "last": "2026-10-25T19:00:00+00:00"
@@ -1740,7 +1751,7 @@
    },
    "absences": {
     "home": 3,
-    "away": 8
+    "away": 9
    },
    "read": "2026-10-22-be-ikta-crystal-palace",
    "headline": "Palace arrive after a 0-5, and Beşiktaş are the favourites",
@@ -2034,18 +2045,18 @@
    "home": "Ajax",
    "away": "Atalanta",
    "fair": {
-    "home": 44.6,
-    "draw": 25.5,
-    "away": 30.0
+    "home": 46.0,
+    "draw": 24.8,
+    "away": 29.2
    },
    "move": {
-    "home": 0.7,
-    "draw": -0.3,
-    "away": -0.4
+    "home": 2.1,
+    "draw": -1.0,
+    "away": -1.2
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 3.18,
+    "expected": 3.23,
     "first": 2.91
    },
    "absences": {
@@ -2065,18 +2076,18 @@
    "home": "Monaco",
    "away": "SC Freiburg",
    "fair": {
-    "home": 43.4,
-    "draw": 27.3,
-    "away": 29.4
+    "home": 45.2,
+    "draw": 26.6,
+    "away": 28.2
    },
    "move": {
-    "home": 1.3,
-    "draw": 0.8,
-    "away": -2.1
+    "home": 3.1,
+    "draw": 0.2,
+    "away": -3.3
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 2.74,
+    "expected": 2.79,
     "first": 2.75
    },
    "absences": {

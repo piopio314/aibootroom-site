@@ -114,18 +114,18 @@
   "home": "SC Braga",
   "away": "Gent",
   "fair": {
-   "home": 50.8,
-   "draw": 26.4,
-   "away": 22.9
+   "home": 49.9,
+   "draw": 26.9,
+   "away": 23.2
   },
   "move": {
-   "home": -5.7,
-   "draw": 0.3,
-   "away": 5.4
+   "home": -6.6,
+   "draw": 0.8,
+   "away": 5.8
   },
   "tracked_since": "2026-10-20T20:44:00+00:00",
   "goals": {
-   "expected": 2.27,
+   "expected": 2.28,
    "first": 2.29
   },
   "absences": {
