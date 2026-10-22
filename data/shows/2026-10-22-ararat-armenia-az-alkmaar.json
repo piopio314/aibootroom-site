@@ -745,14 +745,14 @@
   "format": "market_read",
   "kicker": "MARKET READ",
   "stickers": [
-   "📊",
-   "📊",
-   "📊"
+   "chart-bar",
+   "chart-bar",
+   "chart-bar"
   ]
  },
  "source": "market_desk",
  "fixture_id": 1636215,
- "prices_as_of": "2026-10-21T19:18:00+00:00",
+ "prices_as_of": "2026-10-22T08:29:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice.",
  "voiced": true
 }
