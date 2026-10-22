@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T11:27:00+00:00",
+ "generated_at": "2026-10-22T11:58:00+00:00",
  "prices_as_of": "2026-10-22T11:20:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
@@ -1446,7 +1446,12 @@
    "key": "203",
    "name": "Super Lig",
    "cup": false,
-   "roundup": null,
+   "roundup": {
+    "youtube_id": "WyZtBqlt1K0",
+    "title": "Super Lig: every big game this weekend — what the market says",
+    "duration_s": 288.3,
+    "first_kickoff": "2026-10-23T17:00:00+00:00"
+   },
    "matches": 9,
    "first": "2026-10-23T17:00:00+00:00",
    "last": "2026-10-26T18:30:00+00:00"
