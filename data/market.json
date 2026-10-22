@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-22T12:58:00+00:00",
- "prices_as_of": "2026-10-22T12:31:00+00:00",
+ "generated_at": "2026-10-22T13:29:00+00:00",
+ "prices_as_of": "2026-10-22T13:23:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
   "matches": 504,
-  "price_changes": 214722,
+  "price_changes": 220573,
   "leagues": 23,
   "absences": 784,
   "tracking_since": "2026-10-18T22:49:00+00:00"
@@ -367,6 +367,12 @@
     },
     {
      "t": "2026-10-22T04:24:00+00:00",
+     "home": 34.2,
+     "draw": 28.0,
+     "away": 37.8
+    },
+    {
+     "t": "2026-10-22T13:23:00+00:00",
      "home": 34.2,
      "draw": 28.0,
      "away": 37.8
@@ -1101,6 +1107,36 @@
  ],
  "movers": [
   {
+   "id": 1564379,
+   "slug": "2026-10-24-afc-wimbledon-wycombe",
+   "league": "League One",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "home": "AFC Wimbledon",
+   "away": "Wycombe",
+   "fair": {
+    "home": 22.2,
+    "draw": 25.0,
+    "away": 52.7
+   },
+   "move": {
+    "home": -7.5,
+    "draw": -2.0,
+    "away": 9.6
+   },
+   "tracked_since": "2026-10-19T22:19:00+00:00",
+   "goals": {
+    "expected": 2.64,
+    "first": 2.56
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "numbers": null
+  },
+  {
    "id": 1636430,
    "slug": "2026-10-22-fk-jablonec-brighton",
    "league": "Conference League",
@@ -1131,36 +1167,6 @@
    "numbers": "/n/2026-10-22-fk-jablonec-brighton.html"
   },
   {
-   "id": 1564379,
-   "slug": "2026-10-24-afc-wimbledon-wycombe",
-   "league": "League One",
-   "kickoff": "2026-10-24T14:00:00+00:00",
-   "home": "AFC Wimbledon",
-   "away": "Wycombe",
-   "fair": {
-    "home": 24.2,
-    "draw": 25.5,
-    "away": 50.3
-   },
-   "move": {
-    "home": -5.4,
-    "draw": -1.6,
-    "away": 7.1
-   },
-   "tracked_since": "2026-10-19T22:19:00+00:00",
-   "goals": {
-    "expected": 2.68,
-    "first": 2.56
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null,
-   "numbers": null
-  },
-  {
    "id": 1564385,
    "slug": "2026-10-24-huddersfield-wigan",
    "league": "League One",
@@ -1168,18 +1174,18 @@
    "home": "Huddersfield",
    "away": "Wigan",
    "fair": {
-    "home": 70.7,
-    "draw": 17.6,
-    "away": 11.7
+    "home": 72.1,
+    "draw": 16.7,
+    "away": 11.2
    },
    "move": {
-    "home": 7.0,
-    "draw": -3.8,
-    "away": -3.3
+    "home": 8.4,
+    "draw": -4.7,
+    "away": -3.8
    },
    "tracked_since": "2026-10-19T22:19:00+00:00",
    "goals": {
-    "expected": 2.97,
+    "expected": 2.99,
     "first": 2.83
    },
    "absences": {
@@ -1198,18 +1204,18 @@
    "home": "Barnet",
    "away": "Oldham",
    "fair": {
-    "home": 55.0,
-    "draw": 24.8,
-    "away": 20.3
+    "home": 55.4,
+    "draw": 24.5,
+    "away": 20.1
    },
    "move": {
-    "home": 6.7,
-    "draw": -1.0,
-    "away": -5.4
+    "home": 7.2,
+    "draw": -1.2,
+    "away": -5.6
    },
    "tracked_since": "2026-10-19T21:18:00+00:00",
    "goals": {
-    "expected": 2.86,
+    "expected": 2.87,
     "first": 2.69
    },
    "absences": {
@@ -1218,36 +1224,6 @@
    },
    "read": null,
    "headline": null,
-   "numbers": null
-  },
-  {
-   "id": 1636475,
-   "slug": "2026-10-22-trabzonspor-heart-of-midlothian",
-   "league": "Conference League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "home": "Trabzonspor",
-   "away": "Heart Of Midlothian",
-   "fair": {
-    "home": 75.6,
-    "draw": 14.1,
-    "away": 10.3
-   },
-   "move": {
-    "home": 6.6,
-    "draw": -3.3,
-    "away": -3.3
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 3.4,
-    "first": 3.23
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": "2026-10-22-trabzonspor-heart-of-midlothian",
-   "headline": "Hearts, four days after 7-1, face in-form Trabzonspor",
    "numbers": null
   },
   {
@@ -1309,6 +1285,36 @@
    "read": "2026-10-22-ararat-armenia-az-alkmaar",
    "headline": "Ararat-Armenia, 34th in Europe, host an AZ side a goal stronger",
    "numbers": "/n/2026-10-22-ararat-armenia-az-alkmaar.html"
+  },
+  {
+   "id": 1636475,
+   "slug": "2026-10-22-trabzonspor-heart-of-midlothian",
+   "league": "Conference League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "home": "Trabzonspor",
+   "away": "Heart Of Midlothian",
+   "fair": {
+    "home": 74.9,
+    "draw": 14.1,
+    "away": 10.9
+   },
+   "move": {
+    "home": 6.0,
+    "draw": -3.3,
+    "away": -2.7
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 3.51,
+    "first": 3.23
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": "2026-10-22-trabzonspor-heart-of-midlothian",
+   "headline": "Hearts, four days after 7-1, face in-form Trabzonspor",
+   "numbers": null
   },
   {
    "id": 1563830,
@@ -1392,7 +1398,12 @@
    "key": "78",
    "name": "Bundesliga",
    "cup": false,
-   "roundup": null,
+   "roundup": {
+    "youtube_id": "oHdBcQwiyqc",
+    "title": "Bundesliga: every big game this weekend — what the market says",
+    "duration_s": 395.3,
+    "first_kickoff": "2026-10-23T18:30:00+00:00"
+   },
    "matches": 9,
    "first": "2026-10-23T18:30:00+00:00",
    "last": "2026-10-25T16:30:00+00:00"
@@ -1402,7 +1413,12 @@
    "key": "135",
    "name": "Serie A",
    "cup": false,
-   "roundup": null,
+   "roundup": {
+    "youtube_id": "-cnJkefZ-as",
+    "title": "Serie A: every big game this weekend — what the market says",
+    "duration_s": 492.7,
+    "first_kickoff": "2026-10-23T18:45:00+00:00"
+   },
    "matches": 20,
    "first": "2026-10-23T18:45:00+00:00",
    "last": "2026-10-29T19:45:00+00:00"
@@ -1412,7 +1428,12 @@
    "key": "61",
    "name": "Ligue 1",
    "cup": false,
-   "roundup": null,
+   "roundup": {
+    "youtube_id": "xCRqUo5GEgk",
+    "title": "Ligue 1: every big game this weekend — what the market says",
+    "duration_s": 386.6,
+    "first_kickoff": "2026-10-23T18:45:00+00:00"
+   },
    "matches": 9,
    "first": "2026-10-23T18:45:00+00:00",
    "last": "2026-10-25T19:45:00+00:00"
@@ -2417,14 +2438,14 @@
    "home": "Eyüpspor",
    "away": "Kasımpaşa",
    "fair": {
-    "home": 15.9,
-    "draw": 23.3,
-    "away": 60.8
+    "home": 15.7,
+    "draw": 23.2,
+    "away": 61.1
    },
    "move": {
-    "home": 0.5,
-    "draw": 0.5,
-    "away": -1.0
+    "home": 0.3,
+    "draw": 0.4,
+    "away": -0.7
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
@@ -2510,14 +2531,14 @@
    "home": "Portsmouth",
    "away": "Millwall",
    "fair": {
-    "home": 39.8,
+    "home": 38.9,
     "draw": 28.7,
-    "away": 31.5
+    "away": 32.4
    },
    "move": {
-    "home": 3.7,
+    "home": 2.8,
     "draw": 0.5,
-    "away": -4.2
+    "away": -3.3
    },
    "tracked_since": "2026-10-19T22:19:00+00:00",
    "goals": {
@@ -2572,18 +2593,18 @@
    "home": "Rayo Vallecano",
    "away": "Elche",
    "fair": {
-    "home": 54.2,
-    "draw": 24.6,
-    "away": 21.2
+    "home": 53.3,
+    "draw": 25.2,
+    "away": 21.5
    },
    "move": {
-    "home": 0.2,
-    "draw": -0.2,
-    "away": 0.0
+    "home": -0.7,
+    "draw": 0.4,
+    "away": 0.3
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.61,
+    "expected": 2.55,
     "first": 2.6
    },
    "absences": {
@@ -2603,14 +2624,14 @@
    "home": "Cagliari",
    "away": "Bologna",
    "fair": {
-    "home": 29.3,
+    "home": 29.6,
     "draw": 32.6,
-    "away": 38.1
+    "away": 37.8
    },
    "move": {
-    "home": -0.3,
+    "home": 0.0,
     "draw": 0.2,
-    "away": 0.0
+    "away": -0.3
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
@@ -2975,18 +2996,18 @@
    "home": "Cardiff",
    "away": "Birmingham",
    "fair": {
-    "home": 36.2,
-    "draw": 25.3,
+    "home": 36.1,
+    "draw": 25.5,
     "away": 38.4
    },
    "move": {
-    "home": -1.3,
-    "draw": -0.3,
+    "home": -1.4,
+    "draw": -0.2,
     "away": 1.6
    },
    "tracked_since": "2026-10-19T22:19:00+00:00",
    "goals": {
-    "expected": 2.98,
+    "expected": 2.95,
     "first": 2.96
    },
    "absences": {
@@ -3006,14 +3027,14 @@
    "home": "Lincoln",
    "away": "Burnley",
    "fair": {
-    "home": 32.7,
-    "draw": 26.6,
-    "away": 40.7
+    "home": 33.4,
+    "draw": 26.7,
+    "away": 39.9
    },
    "move": {
-    "home": 0.5,
-    "draw": -0.0,
-    "away": -0.5
+    "home": 1.3,
+    "draw": 0.1,
+    "away": -1.4
    },
    "tracked_since": "2026-10-19T22:19:00+00:00",
    "goals": {
@@ -3099,18 +3120,18 @@
    "home": "Stoke City",
    "away": "Bristol City",
    "fair": {
-    "home": 40.7,
-    "draw": 28.2,
+    "home": 40.4,
+    "draw": 28.5,
     "away": 31.1
    },
    "move": {
-    "home": -0.4,
-    "draw": 0.0,
-    "away": 0.4
+    "home": -0.7,
+    "draw": 0.4,
+    "away": 0.3
    },
    "tracked_since": "2026-10-19T22:19:00+00:00",
    "goals": {
-    "expected": 2.49,
+    "expected": 2.45,
     "first": 2.47
    },
    "absences": {
@@ -3192,18 +3213,18 @@
    "home": "Racing Santander",
    "away": "Espanyol",
    "fair": {
-    "home": 39.8,
-    "draw": 26.3,
+    "home": 40.0,
+    "draw": 26.1,
     "away": 33.9
    },
    "move": {
-    "home": 1.6,
-    "draw": -0.1,
+    "home": 1.8,
+    "draw": -0.3,
     "away": -1.5
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.83,
+    "expected": 2.86,
     "first": 2.79
    },
    "absences": {
@@ -3533,18 +3554,18 @@
    "home": "Lazio",
    "away": "Parma",
    "fair": {
-    "home": 67.3,
-    "draw": 20.6,
-    "away": 12.1
+    "home": 68.4,
+    "draw": 20.1,
+    "away": 11.5
    },
    "move": {
-    "home": 4.3,
-    "draw": -2.1,
-    "away": -2.2
+    "home": 5.4,
+    "draw": -2.6,
+    "away": -2.8
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.54,
+    "expected": 2.57,
     "first": 2.43
    },
    "absences": {
@@ -3688,18 +3709,18 @@
    "home": "Atletico Madrid",
    "away": "Deportivo La Coruna",
    "fair": {
-    "home": 74.3,
-    "draw": 16.4,
-    "away": 9.4
+    "home": 73.8,
+    "draw": 16.6,
+    "away": 9.6
    },
    "move": {
-    "home": -1.5,
-    "draw": 1.0,
-    "away": 0.5
+    "home": -2.0,
+    "draw": 1.3,
+    "away": 0.7
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.97,
+    "expected": 2.95,
     "first": 3.07
    },
    "absences": {
