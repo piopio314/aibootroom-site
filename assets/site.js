@@ -48,6 +48,35 @@ const ABR = {
       <polyline points="${pts}" fill="none" stroke="${col}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
       <circle cx="${x(last).toFixed(1)}" cy="${y(last[side]).toFixed(1)}" r="5" fill="${col}" stroke="#121821" stroke-width="2"/></svg>`;
   },
+  // one AI pick as a card (homepage + picks page): our poster → YouTube, the pick, market vs ours, hook, reasons, risk, receipt
+  VERDICTS: {RIGHT: 'Right — won and beat the closing price', LUCKY: 'Lucky — won, but the price went against us',
+             UNLUCKY: 'Unlucky — lost, but we beat the closing price', WRONG: 'Wrong — lost, and the price went against us', PUSH: 'Push — stake back'},
+  pickCard(p, i) {
+    const E = ABR.esc, S = ABR.short;
+    const units = p.pnl != null ? `<b class="${p.pnl > 0 ? 'up' : p.pnl < 0 ? 'down' : ''}">${p.pnl > 0 ? '+' : ''}${p.pnl.toFixed(2)} u</b>` : '';
+    return `<article class="pick">
+      <button class="ppost" data-pick="${i}" aria-label="Play the ${E(S(p.home))} v ${E(S(p.away))} pick video">
+        ${p.poster ? `<img src="${E(p.poster)}" alt="" loading="lazy">` : `<span class="pnone">${E(p.selection)}</span>`}
+        ${p.youtube_id ? `<span class="pp">${ABR.ic('player-play-filled')}</span>` : ''}</button>
+      <div class="pbody">
+        <div class="top"><span class="chip">${E(p.league || '')}</span><span class="when">${E(ABR.when(p.kickoff))}</span></div>
+        <h3>${E(S(p.home))} v ${E(S(p.away))}</h3>
+        <div class="psel"><b>${E(p.selection)}</b><span>@ ${p.odds.toFixed(2)}</span></div>
+        ${p.our_pct != null ? `<div class="pch">Market <b>${p.market_pct_when_set}%</b> · ours <b class="ours">${p.our_pct}%</b></div>` : ''}
+        ${p.hook ? `<p class="phook">${E(p.hook)}</p>` : ''}
+        ${(p.reasons || []).length ? `<ol class="pwhy">${p.reasons.map(r => `<li>${E(r)}</li>`).join('')}</ol>` : ''}
+        ${p.risk ? `<p class="prisk"><b>The risk:</b> ${E(p.risk)}</p>` : ''}
+        ${p.verdict ? `<div class="pverdict v-${E(p.verdict.toLowerCase())}"><b>${E(p.score ? p.score + ' · ' : '')}${E(ABR.VERDICTS[p.verdict] || p.verdict)}</b> ${units}${p.receipt ? `<span>${E(p.receipt)}</span>` : ''}</div>`
+          : `<div class="pstamp">Published ${E(ABR.when(p.published_at || p.set_at, true))} · ${p.hours_before_kickoff >= 48 ? (p.hours_before_kickoff / 24).toFixed(1) + ' days' : Math.round(p.hours_before_kickoff) + ' h'} before kick-off · final</div>`}
+      </div></article>`;
+  },
+  bindPickCards(box, list) {
+    box.addEventListener('click', ev => {
+      const b = ev.target.closest('[data-pick]'); if (!b) return;
+      const p = list[+b.dataset.pick]; if (!p || !p.youtube_id) return;
+      ABR.playVideo({id: '', title: p.title || p.selection, home: p.home, away: p.away, youtube_id: p.youtube_id});
+    });
+  },
   async json(url) { const r = await fetch(url + (url.includes('?') ? '&' : '?') + 't=' + Date.now()); if (!r.ok) throw new Error(r.status); return r.json(); },
 };
 

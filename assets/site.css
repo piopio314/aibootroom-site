@@ -198,7 +198,7 @@ footer a { color: var(--text2); } footer a:hover { color: var(--text); }
   .hero p.sub { font-size: 18px; }
   .hcard { padding: 18px; }
   .mover .d { font-size: 26px; }
-  .logo span { display: none; }
+  .logo span { display: inline; font-size: 16px; }
 }
 
 /* video overlay (ABR.playVideo) */
@@ -325,3 +325,47 @@ svg.i.ucl { color: #4ea1ff; } svg.i.uel { color: #ff8a1f; } svg.i.uecl { color: 
 .pick .pstamp { margin-top: 12px; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
 .pick .pverdict { margin-top: 12px; font-size: 14px; } .pick .pverdict span { display: block; color: var(--text2); margin-top: 4px; }
 @media (max-width: 640px) { .pick { grid-template-columns: 1fr; } .pick .ppost { max-width: 260px; margin: 0 auto; } }
+
+/* v2.57 one site menu (assets/nav.js): AI Picks highlighted, a menu button on tablets and phones */
+.nav nav { gap: 18px; align-items: center; }
+.nav nav a { white-space: nowrap; }
+.nav nav a[aria-current] { color: var(--text); }
+.nav nav a.picks, .nav .picks-m { display: inline-flex; align-items: center; gap: 7px; padding: 6px 13px; border-radius: 999px;
+  border: 1.5px solid var(--accent); color: var(--accent); background: rgba(255,176,32,.10); box-shadow: 0 0 18px rgba(255,176,32,.22); font-weight: 800; }
+.nav nav a.picks:hover, .nav .picks-m:hover { background: rgba(255,176,32,.2); color: var(--accent2); }
+.nav .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); flex: none; animation: pkdot 1.8s infinite; }
+@keyframes pkdot { 0% { box-shadow: 0 0 0 0 rgba(47,214,123,.55); } 70% { box-shadow: 0 0 0 8px rgba(47,214,123,0); } 100% { box-shadow: 0 0 0 0 rgba(47,214,123,0); } }
+.nav .picks-m, .nav .menu-btn { display: none; }
+.nav .menu-btn { width: 46px; height: 46px; border-radius: 12px; border: 1px solid var(--line); background: rgba(255,255,255,.06); cursor: pointer;
+  flex-direction: column; justify-content: center; align-items: center; gap: 5px; flex: none; }
+.nav .menu-btn span { display: block; width: 20px; height: 2px; background: var(--text); border-radius: 2px; transition: transform .2s, opacity .2s; }
+.nav.open .menu-btn span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav.open .menu-btn span:nth-child(2) { opacity: 0; }
+.nav.open .menu-btn span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+@media (max-width: 1180px) {
+  .nav .wrap { gap: 12px; }
+  .nav nav { display: none; position: absolute; top: 68px; left: 0; right: 0; flex-direction: column; align-items: stretch; gap: 0;
+    background: var(--bg2); border-bottom: 1px solid var(--line); padding: 8px 16px 18px; box-shadow: 0 18px 40px rgba(0,0,0,.55);
+    max-height: calc(100vh - 68px); overflow-y: auto; }
+  .nav.open nav { display: flex; }
+  .nav nav a { font-size: 18px; padding: 15px 8px; border-bottom: 1px solid var(--line); color: var(--text); }
+  .nav nav a:last-child { border-bottom: 0; }
+  .nav nav a.picks { justify-content: center; margin: 8px 0 6px; padding: 13px; border-bottom: 1.5px solid var(--accent); }
+  .nav .picks-m { display: inline-flex; font-size: 14px; padding: 8px 12px; }
+  .nav .menu-btn { display: inline-flex; }
+}
+@media (max-width: 560px) {
+  .nav .wrap { padding: 0 16px; }
+  .nav .btn.yt { display: none; }
+  .logo { font-size: 17px; } .logo img { width: 34px; height: 34px; }
+}
+
+/* v2.57 phones: nothing wider than the screen */
+@media (max-width: 560px) {
+  .btn { white-space: normal; text-align: center; line-height: 1.25; }
+  .movers, .shorts { grid-template-columns: 1fr; }
+  .ltable { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .hero .ctas, .hero .row { flex-wrap: wrap; }
+  .wrap { padding: 0 16px; }
+  .section { padding: 48px 0; }
+}

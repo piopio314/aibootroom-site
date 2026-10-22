@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script src="/assets/consent.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Picks with receipts — open picks and the full record | AI Boot Room</title>
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/logo-192.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<meta property="og:title" content="AI Picks with receipts — AI Boot Room">
+<meta property="og:image" content="https://www.aibootroom.com/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="description" content="Every AI Boot Room pick: published before kick-off with its price and reasons, never edited, settled in public. Open picks, the record and profit or loss in units.">
+<meta name="theme-color" content="#07090d">
+<link rel="canonical" href="https://aibootroom.com/picks.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css?v=258">
+<script src="/assets/nav.js" defer></script>
+<style>
+  .ph { padding: 46px 0 10px; }
+  .ph h1 { font-size: clamp(34px, 5vw, 58px); line-height: 1.04; margin: 10px 0 14px; }
+  .ph .lead { color: var(--text2); max-width: 760px; font-size: 18px; }
+  .stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; margin: 30px 0 10px; }
+  .stat { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; }
+  .stat .n { font-size: 30px; font-weight: 800; } .stat .l { font-size: 13px; color: var(--muted); margin-top: 2px; }
+  .chartbox { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; margin: 14px 0 0; }
+  .chartbox svg { width: 100%; height: 140px; display: block; }
+  .units-note { font-size: 14px; color: var(--muted); margin-top: 10px; }
+  .hist { width: 100%; border-collapse: collapse; margin-top: 18px; font-size: 15px; }
+  .hist th { text-align: left; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding: 10px 8px; border-bottom: 1px solid var(--line); }
+  .hist td { padding: 12px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  .hist td.n { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .hist .sub { display: block; font-size: 13px; color: var(--muted); margin-top: 3px; }
+  .hist .v { font-weight: 800; letter-spacing: .04em; font-size: 13px; }
+  .v.right { color: #2fd27a; } .v.lucky, .v.unlucky { color: #ffb020; } .v.wrong { color: #ff5a5f; } .v.push { color: #a9b4c2; }
+  .empty { color: var(--muted); padding: 24px 0; }
+  @media (max-width: 900px) { .stats { grid-template-columns: repeat(2, 1fr); } .hist .hide-m { display: none; } }
+  @media (max-width: 560px) { .hist { font-size: 14px; } .hist th, .hist td { padding: 10px 4px; } .stat .n { font-size: 24px; } }
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <a class="logo" href="/"><img src="/assets/logo-96.png" alt="" width="38" height="38"><span>AI <em>Boot Room</em></span></a>
+  <nav aria-label="Sections"></nav>
+  <span class="sp"></span>
+  <a class="btn yt sm" href="https://www.youtube.com/@AiBootRoom" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="/assets/icons.svg#i-player-play-filled"></use></svg> YouTube</a>
+</div></header>
+
+<main>
+  <section class="ph"><div class="wrap">
+    <div class="kicker">AI picks · with receipts</div>
+    <h1>Our picks, and every result</h1>
+    <p class="lead">Each pick is published at least 24 hours before kick-off with its price and our reasons. It is final: never edited,
+      never withdrawn. After the match it is settled here — win or lose, with how the match went.</p>
+    <div class="stats" id="stats"></div>
+    <div class="chartbox" id="chartbox" hidden><div class="kicker" style="font-size:12px">Units over time</div><div id="chart"></div></div>
+    <p class="units-note">How we count: <b>one unit on every pick</b>. A win at a price of 2.00 is <b>+1 unit</b>, a win at 3.00 is <b>+2 units</b>,
+      a loss is <b>−1 unit</b>. Handicap and goal lines can return half or the whole stake. Prices are the market's average when the pick was published.</p>
+  </div></section>
+
+  <section class="section picks" id="open"><div class="wrap">
+    <div class="kicker">Open</div>
+    <h2 class="disp">Waiting for kick-off</h2>
+    <div class="pickgrid" id="openGrid"></div>
+  </div></section>
+
+  <section class="section alt" id="history"><div class="wrap">
+    <div class="kicker">The record</div>
+    <h2 class="disp">Every settled pick</h2>
+    <div id="histBox"></div>
+  </div></section>
+</main>
+
+<footer><div class="wrap">
+  <span class="rg"><b>18+</b><span>Market analysis, not betting advice. Units measure our picks, they are not a stake. If you play, play responsibly — <a href="https://www.jugarbien.es" target="_blank" rel="noopener">jugarbien.es</a></span></span>
+  <span class="sp"></span><span class="legal"><a href="/media.html">Media check</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><button type="button" onclick="ABRConsent.open()">Cookie settings</button></span><span>© 2026 AI Boot Room</span>
+</div></footer>
+
+<script src="/assets/site.js?v=257"></script>
+<script>
+(async () => {
+  const E = ABR.esc, S = ABR.short;
+  let L;
+  try { L = await ABR.json('data/ledger.json'); } catch (e) { L = {summary: {}, picks: []}; }
+  const picks = (L.picks || []).filter(p => p.status !== 'withdrawn');
+  const open = picks.filter(p => p.status === 'pending').sort((a, b) => a.kickoff.localeCompare(b.kickoff));
+  const done = picks.filter(p => p.status === 'settled').sort((a, b) => a.kickoff.localeCompare(b.kickoff));
+  const res = done.filter(p => p.result && p.result !== 'void');
+  const units = res.reduce((a, p) => a + (p.pnl || 0), 0);
+  const won = res.filter(p => (p.pnl || 0) > 0).length, lost = res.filter(p => (p.pnl || 0) < 0).length;
+  const clv = done.filter(p => p.clv_pct != null);
+  const avgClv = clv.length ? clv.reduce((a, p) => a + p.clv_pct, 0) / clv.length : null;
+  const roi = res.length ? 100 * units / res.length : null;
+  const sg = (v, d = 2, suf = '') => v == null ? '—' : `${v > 0 ? '+' : v < 0 ? '−' : ''}${Math.abs(v).toFixed(d)}${suf}`;
+  const tile = (n, l, cls = '') => `<div class="stat"><div class="n ${cls}">${n}</div><div class="l">${l}</div></div>`;
+  document.getElementById('stats').innerHTML =
+    tile(String(picks.length), 'picks published') +
+    tile(String(open.length), 'waiting for kick-off') +
+    tile(res.length ? `${won}–${lost}` : '—', res.length ? `won–lost${res.length - won - lost ? ` · ${res.length - won - lost} push` : ''}` : 'record after the first results') +
+    tile(res.length ? sg(units, 2, ' u') : '—', res.length ? `profit / loss · ROI ${sg(roi, 1, '%')}` : 'profit / loss in units', units > 0 ? 'up' : units < 0 ? 'down' : '') +
+    tile(avgClv == null ? '—' : sg(avgClv, 1, '%'), 'average price vs the closing price', avgClv > 0 ? 'up' : avgClv < 0 ? 'down' : '');
+
+  // units over time
+  if (res.length >= 2) {
+    let run = 0; const pts = [0, ...res.map(p => (run += p.pnl || 0))];
+    const w = 1000, h = 140, mx = Math.max(1, ...pts.map(Math.abs));
+    const x = i => 10 + i * (w - 20) / (pts.length - 1), y = v => h / 2 - v / mx * (h / 2 - 12);
+    document.getElementById('chart').innerHTML = `<svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" role="img" aria-label="units over time">
+      <line x1="0" x2="${w}" y1="${h / 2}" y2="${h / 2}" stroke="#243040" stroke-dasharray="4 6"/>
+      <polyline fill="none" stroke="${run >= 0 ? '#2fd67b' : '#ff5a5f'}" stroke-width="3" vector-effect="non-scaling-stroke"
+        points="${pts.map((v, i) => `${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(' ')}"/></svg>`;
+    document.getElementById('chartbox').hidden = false;
+  }
+
+  const og = document.getElementById('openGrid');
+  og.innerHTML = open.length ? open.map((p, i) => ABR.pickCard(p, i)).join('')
+    : '<p class="empty">No open pick right now. New picks go out as soon as a market opens — usually several days before kick-off.</p>';
+  ABR.bindPickCards(og, open);
+
+  const RES = {win: 'Won', half_win: 'Half won', loss: 'Lost', half_loss: 'Half lost', push: 'Push', void: 'Void'};
+  let run = 0;
+  const rows = done.map(p => {
+    run += (p.result && p.result !== 'void') ? (p.pnl || 0) : 0;
+    const v = (p.verdict || '').toLowerCase();
+    return `<tr><td>${E(new Date(p.kickoff).toLocaleDateString('en-GB', {day: 'numeric', month: 'short', timeZone: 'Europe/Madrid'}))}</td>
+      <td><b>${E(S(p.home))} v ${E(S(p.away))}</b><span class="sub">${E(p.league || '')}</span></td>
+      <td>${E(p.selection)}${p.receipt ? `<span class="sub">${E(p.receipt)}</span>` : ''}</td>
+      <td class="n">${p.odds.toFixed(2)}</td><td class="n">${E(p.score || '')}</td>
+      <td>${E(RES[p.result] || p.result || '')}${p.verdict ? `<span class="sub v ${E(v)}">${E(p.verdict)}</span>` : ''}</td>
+      <td class="n ${p.pnl > 0 ? 'up' : p.pnl < 0 ? 'down' : ''}"><b>${sg(p.pnl, 2, ' u')}</b></td>
+      <td class="n hide-m ${run > 0 ? 'up' : run < 0 ? 'down' : ''}">${sg(run, 2, ' u')}</td>
+      <td class="n hide-m">${p.clv_pct == null ? '—' : sg(p.clv_pct, 1, '%')}</td></tr>`;
+  }).reverse().join('');
+  document.getElementById('histBox').innerHTML = done.length
+    ? `<table class="hist"><thead><tr><th>Date</th><th>Match</th><th>Pick</th><th style="text-align:right">Price</th><th style="text-align:right">Score</th><th>Result</th>
+        <th style="text-align:right">Units</th><th class="hide-m" style="text-align:right">Total</th><th class="hide-m" style="text-align:right">vs close</th></tr></thead><tbody>${rows}</tbody></table>`
+    : '<p class="empty">The first picks are settled after their matches this weekend. Every one stays on this list — wins and losses.</p>';
+})();
+</script>
+</body>
+</html>
