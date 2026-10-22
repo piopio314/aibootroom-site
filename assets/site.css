@@ -300,3 +300,10 @@ svg.i { width: 1.05em; height: 1.05em; vertical-align: -0.16em; flex: none; }
 .promise .ic svg.i { width: 24px; height: 24px; }
 svg.i.ucl { color: #4ea1ff; } svg.i.uel { color: #ff8a1f; } svg.i.uecl { color: #2fd27a; }
 .vclose svg.i { width: 20px; height: 20px; vertical-align: middle; }
+
+/* v2.55 picks with receipts: reasons and the verdict on the ticket */
+.ticket .why { margin-top: 12px; font-size: 14px; color: var(--text2); text-align: left; }
+.ticket .why ol { margin: 6px 0 0 18px; padding: 0; } .ticket .why li { margin: 4px 0; }
+.ticket .risk { margin-top: 6px; } .ticket .verdict { margin-top: 10px; font-size: 14px; text-align: left; }
+.ticket .verdict b { letter-spacing: .06em; margin-right: 6px; }
+.v-right b { color: #2fd27a; } .v-lucky b, .v-unlucky b { color: #ffb020; } .v-wrong b { color: #ff5a5f; } .v-push b { color: #a9b4c2; }

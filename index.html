@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css?v=253">
+<link rel="stylesheet" href="assets/site.css?v=255">
 </head>
 <body>
 
@@ -318,7 +318,10 @@
       <div class="r"><span>Kick-off</span><b>${E(ABR.when(p.kickoff, true))}</b></div>
       <div class="r"><span>Pick</span><b>${E(p.selection)}</b></div><div class="r"><span>Price</span><b>${p.odds.toFixed(2)}</b></div>
       <div class="r"><span>Published</span><b>${E(ABR.when(p.published_at || p.set_at, true))}</b></div>
-      <div class="r"><span>Closing line</span><b>${p.closing_fair_pct != null ? p.closing_fair_pct.toFixed(1) + '% fair' : 'after kick-off'}</b></div>${status}</div>`;
+      <div class="r"><span>Closing line</span><b>${p.closing_fair_pct != null ? p.closing_fair_pct.toFixed(1) + '% fair' : 'after kick-off'}</b></div>
+      ${p.our_pct != null ? `<div class="r"><span>Chance</span><b>market ${p.market_pct_when_set}% · ours ${p.our_pct}%</b></div>` : ''}
+      ${(p.reasons || []).length ? `<div class="why"><b>Why</b><ol>${p.reasons.map(r => `<li>${E(r)}</li>`).join('')}</ol>${p.risk ? `<div class="risk"><b>The risk:</b> ${E(p.risk)}</div>` : ''}</div>` : ''}
+      ${p.verdict ? `<div class="verdict v-${E(p.verdict.toLowerCase())}"><b>${E(p.verdict)}</b> ${E(p.receipt || '')}</div>` : ''}${status}</div>`;
   };
   const tk = document.getElementById('tickets');
   if (picks.length) tk.innerHTML = picks.slice(0, 2).map(ticket).join('');
