@@ -107,6 +107,35 @@
   "Milan lose Ramos, Chukwueze",
   "Two wins from two in Europe"
  ],
- "market": null,
+ "market": {
+  "id": 1636235,
+  "slug": "2026-10-22-bournemouth-ac-milan",
+  "league": "Europa League",
+  "kickoff": "2026-10-22T19:00:00+00:00",
+  "home": "Bournemouth",
+  "away": "AC Milan",
+  "fair": {
+   "home": 51.6,
+   "draw": 24.5,
+   "away": 23.8
+  },
+  "move": {
+   "home": 6.7,
+   "draw": -1.4,
+   "away": -5.3
+  },
+  "tracked_since": "2026-10-20T20:44:00+00:00",
+  "goals": {
+   "expected": 2.75,
+   "first": 2.76
+  },
+  "absences": {
+   "home": 8,
+   "away": 6
+  },
+  "read": "2026-10-22-bournemouth-ac-milan",
+  "headline": "Bournemouth favourites as Milan lose two attackers",
+  "numbers": "/n/2026-10-22-bournemouth-ac-milan.html"
+ },
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }

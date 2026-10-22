@@ -107,6 +107,35 @@
   "Lillestrom: cup winners, second tier",
   "Market sees Sociedad by a goal"
  ],
- "market": null,
+ "market": {
+  "id": 1636288,
+  "slug": "2026-10-22-lillestrom-real-sociedad",
+  "league": "Europa League",
+  "kickoff": "2026-10-22T19:00:00+00:00",
+  "home": "Lillestrom",
+  "away": "Real Sociedad",
+  "fair": {
+   "home": 14.0,
+   "draw": 17.6,
+   "away": 68.4
+  },
+  "move": {
+   "home": -3.7,
+   "draw": -2.8,
+   "away": 6.5
+  },
+  "tracked_since": "2026-10-20T20:44:00+00:00",
+  "goals": {
+   "expected": 3.3,
+   "first": 2.88
+  },
+  "absences": {
+   "home": 2,
+   "away": 4
+  },
+  "read": "2026-10-22-lillestrom-real-sociedad",
+  "headline": "Sociedad need a win in Norway; the market expects a one-goal margin",
+  "numbers": "/n/2026-10-22-lillestrom-real-sociedad.html"
+ },
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }

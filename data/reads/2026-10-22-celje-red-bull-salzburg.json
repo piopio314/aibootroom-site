@@ -107,6 +107,35 @@
   "Celje: one goal in five games",
   "Handicap: Salzburg a goal better"
  ],
- "market": null,
+ "market": {
+  "id": 1636241,
+  "slug": "2026-10-22-celje-red-bull-salzburg",
+  "league": "Europa League",
+  "kickoff": "2026-10-22T19:00:00+00:00",
+  "home": "Celje",
+  "away": "Red Bull Salzburg",
+  "fair": {
+   "home": 16.1,
+   "draw": 20.1,
+   "away": 63.8
+  },
+  "move": {
+   "home": -3.3,
+   "draw": -2.4,
+   "away": 5.7
+  },
+  "tracked_since": "2026-10-20T20:44:00+00:00",
+  "goals": {
+   "expected": 3.12,
+   "first": 2.93
+  },
+  "absences": {
+   "home": 1,
+   "away": 7
+  },
+  "read": "2026-10-22-celje-red-bull-salzburg",
+  "headline": "Salzburg at Celje: how much does the 0-4 still count?",
+  "numbers": "/n/2026-10-22-celje-red-bull-salzburg.html"
+ },
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }
