@@ -107,6 +107,35 @@
   "Salah: eight goals in eight",
   "Trabzonspor rated 1.7 goals better"
  ],
- "market": null,
+ "market": {
+  "id": 1636475,
+  "slug": "2026-10-22-trabzonspor-heart-of-midlothian",
+  "league": "Conference League",
+  "kickoff": "2026-10-22T16:45:00+00:00",
+  "home": "Trabzonspor",
+  "away": "Heart Of Midlothian",
+  "fair": {
+   "home": 75.6,
+   "draw": 14.1,
+   "away": 10.3
+  },
+  "move": {
+   "home": 6.6,
+   "draw": -3.3,
+   "away": -3.3
+  },
+  "tracked_since": "2026-10-20T20:44:00+00:00",
+  "goals": {
+   "expected": 3.4,
+   "first": 3.23
+  },
+  "absences": {
+   "home": 0,
+   "away": 0
+  },
+  "read": "2026-10-22-trabzonspor-heart-of-midlothian",
+  "headline": "Hearts, four days after 7-1, face in-form Trabzonspor",
+  "numbers": null
+ },
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }
