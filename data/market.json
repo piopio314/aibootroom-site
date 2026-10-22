@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T07:31:00+00:00",
+ "generated_at": "2026-10-22T08:27:00+00:00",
  "prices_as_of": "2026-10-22T07:27:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
@@ -128,7 +128,8 @@
    "away": 0
   },
   "read": "2026-10-25-barcelona-real-madrid",
-  "headline": "Barcelona's perfect league start meets Madrid's Vinicius question"
+  "headline": "Barcelona's perfect league start meets Madrid's Vinicius question",
+  "numbers": null
  },
  "weekend": [
   {
@@ -208,7 +209,8 @@
     "away": 0
    },
    "read": "2026-10-22-ajax-atalanta",
-   "headline": "Ajax favourites at home — but by only a quarter of a goal"
+   "headline": "Ajax favourites at home — but by only a quarter of a goal",
+   "numbers": "/n/2026-10-22-ajax-atalanta.html"
   },
   {
    "id": 1557438,
@@ -287,7 +289,8 @@
     "away": 4
    },
    "read": "2026-10-24-aston-villa-manchester-city",
-   "headline": "City lead the league, but Villa Park has been awkward"
+   "headline": "City lead the league, but Villa Park has been awkward",
+   "numbers": null
   },
   {
    "id": 1550164,
@@ -366,7 +369,8 @@
     "away": 5
    },
    "read": "2026-10-24-napoli-as-roma",
-   "headline": "Napoli 'too fragile' as unbeaten Roma come to Naples"
+   "headline": "Napoli 'too fragile' as unbeaten Roma come to Naples",
+   "numbers": null
   },
   {
    "id": 1557439,
@@ -445,7 +449,8 @@
     "away": 9
    },
    "read": "2026-10-24-chelsea-tottenham",
-   "headline": "Maddison and Kulusevski back for Spurs, but Chelsea stay clear favourites"
+   "headline": "Maddison and Kulusevski back for Spurs, but Chelsea stay clear favourites",
+   "numbers": null
   },
   {
    "id": 1570432,
@@ -536,7 +541,8 @@
     "away": 1
    },
    "read": "2026-10-24-valencia-villarreal",
-   "headline": "Wounded at Anfield, Villarreal are narrow favourites at Mestalla"
+   "headline": "Wounded at Anfield, Villarreal are narrow favourites at Mestalla",
+   "numbers": null
   },
   {
    "id": 1552204,
@@ -597,7 +603,8 @@
     "away": 0
    },
    "read": "2026-10-25-psv-eindhoven-feyenoord",
-   "headline": "Unbeaten Feyenoord go to PSV as the underdogs"
+   "headline": "Unbeaten Feyenoord go to PSV as the underdogs",
+   "numbers": null
   },
   {
    "id": 1557441,
@@ -676,7 +683,8 @@
     "away": 0
    },
    "read": "2026-10-25-crystal-palace-newcastle",
-   "headline": "Newcastle lose again: still the favourites at Palace?"
+   "headline": "Newcastle lose again: still the favourites at Palace?",
+   "numbers": null
   },
   {
    "id": 1557444,
@@ -767,7 +775,8 @@
     "away": 0
    },
    "read": "2026-10-25-liverpool-brighton",
-   "headline": "Brighton bring 5 straight wins; Liverpool remain slight favourites"
+   "headline": "Brighton bring 5 straight wins; Liverpool remain slight favourites",
+   "numbers": null
   },
   {
    "id": 1557445,
@@ -846,7 +855,8 @@
     "away": 0
    },
    "read": "2026-10-25-manchester-united-bournemouth",
-   "headline": "United winless in seven but still favourites at Old Trafford"
+   "headline": "United winless in seven but still favourites at Old Trafford",
+   "numbers": null
   },
   {
    "id": 1570427,
@@ -943,7 +953,8 @@
     "away": 0
    },
    "read": "2026-10-25-celta-vigo-real-betis",
-   "headline": "Betis favourites in Vigo, but the handicap is level"
+   "headline": "Betis favourites in Vigo, but the handicap is level",
+   "numbers": null
   },
   {
    "id": 1552800,
@@ -1010,7 +1021,8 @@
     "away": 0
    },
    "read": "2026-10-25-paris-saint-germain-lyon",
-   "headline": "PSG lose three to injury, still favourites against Lyon"
+   "headline": "PSG lose three to injury, still favourites against Lyon",
+   "numbers": null
   },
   {
    "id": 1584442,
@@ -1071,7 +1083,8 @@
     "away": 0
    },
    "read": "2026-10-26-galatasaray-fenerbah-e",
-   "headline": "Asensio out for 3 months, and the derby stays close"
+   "headline": "Asensio out for 3 months, and the derby stays close",
+   "numbers": null
   }
  ],
  "movers": [
@@ -1102,7 +1115,8 @@
     "away": 0
    },
    "read": null,
-   "headline": null
+   "headline": null,
+   "numbers": null
   },
   {
    "id": 1564385,
@@ -1131,7 +1145,8 @@
     "away": 0
    },
    "read": null,
-   "headline": null
+   "headline": null,
+   "numbers": null
   },
   {
    "id": 1636430,
@@ -1160,7 +1175,8 @@
     "away": 0
    },
    "read": "2026-10-22-fk-jablonec-brighton",
-   "headline": "Brighton's five-win run meets Jablonec's unbeaten home record"
+   "headline": "Brighton's five-win run meets Jablonec's unbeaten home record",
+   "numbers": "/n/2026-10-22-fk-jablonec-brighton.html"
   },
   {
    "id": 1563827,
@@ -1189,7 +1205,8 @@
     "away": 0
    },
    "read": null,
-   "headline": null
+   "headline": null,
+   "numbers": null
   },
   {
    "id": 1563830,
@@ -1218,7 +1235,8 @@
     "away": 0
    },
    "read": null,
-   "headline": null
+   "headline": null,
+   "numbers": null
   },
   {
    "id": 1570426,
@@ -1247,7 +1265,8 @@
     "away": 0
    },
    "read": "2026-10-25-barcelona-real-madrid",
-   "headline": "Barcelona's perfect league start meets Madrid's Vinicius question"
+   "headline": "Barcelona's perfect league start meets Madrid's Vinicius question",
+   "numbers": null
   },
   {
    "id": 1552508,
@@ -1276,7 +1295,8 @@
     "away": 0
    },
    "read": null,
-   "headline": null
+   "headline": null,
+   "numbers": null
   },
   {
    "id": 1563831,
@@ -1305,7 +1325,8 @@
     "away": 0
    },
    "read": null,
-   "headline": null
+   "headline": null,
+   "numbers": null
   }
  ],
  "competitions": [
@@ -1459,6 +1480,7 @@
    },
    "read": "2026-10-22-ararat-armenia-az-alkmaar",
    "headline": "Ararat-Armenia, 34th in Europe, host an AZ side a goal stronger",
+   "numbers": "/n/2026-10-22-ararat-armenia-az-alkmaar.html",
    "competition": "uel"
   },
   {
@@ -1489,6 +1511,7 @@
    },
    "read": "2026-10-22-dinamo-zagreb-nec-nijmegen",
    "headline": "Dinamo's scoring run meets a NEC side without Tadić",
+   "numbers": "/n/2026-10-22-dinamo-zagreb-nec-nijmegen.html",
    "competition": "uel"
   },
   {
@@ -1519,6 +1542,7 @@
    },
    "read": "2026-10-22-ferencvarosi-tc-torreense",
    "headline": "Ferencvaros' perfect start against Torreense's second-division cup story",
+   "numbers": "/n/2026-10-22-ferencvarosi-tc-torreense.html",
    "competition": "uel"
   },
   {
@@ -1549,6 +1573,7 @@
    },
    "read": "2026-10-22-juventus-rennes",
    "headline": "Juventus lost 0-3, and the market still makes them favourites",
+   "numbers": "/n/2026-10-22-juventus-rennes.html",
    "competition": "uel"
   },
   {
@@ -1579,6 +1604,7 @@
    },
    "read": "2026-10-22-lech-poznan-sunderland",
    "headline": "Lech Poznan are bottom in Europe — Sunderland are still favourites",
+   "numbers": "/n/2026-10-22-lech-poznan-sunderland.html",
    "competition": "uel"
   },
   {
@@ -1609,6 +1635,7 @@
    },
    "read": "2026-10-22-ofi-bayer-leverkusen",
    "headline": "Leverkusen's five wins in Crete, and OFI's Hoffenheim warning",
+   "numbers": "/n/2026-10-22-ofi-bayer-leverkusen.html",
    "competition": "uel"
   },
   {
@@ -1639,6 +1666,7 @@
    },
    "read": "2026-10-22-union-st-gilloise-hapoel-beer-sheva",
    "headline": "Union play behind closed doors in Düsseldorf — and stay clear favourites",
+   "numbers": "/n/2026-10-22-union-st-gilloise-hapoel-beer-sheva.html",
    "competition": "uel"
   },
   {
@@ -1669,6 +1697,7 @@
    },
    "read": "2026-10-22-sturm-graz-marseille",
    "headline": "Marseille have no Europa League points — and are still favourites in Graz",
+   "numbers": "/n/2026-10-22-sturm-graz-marseille.html",
    "competition": "uel"
   },
   {
@@ -1699,6 +1728,7 @@
    },
    "read": "2026-10-22-be-ikta-crystal-palace",
    "headline": "Palace arrive after a 0-5, and Beşiktaş are the favourites",
+   "numbers": "/n/2026-10-22-be-ikta-crystal-palace.html",
    "competition": "uel"
   },
   {
@@ -1729,6 +1759,7 @@
    },
    "read": "2026-10-22-bournemouth-ac-milan",
    "headline": "Bournemouth favourites as Milan lose two attackers",
+   "numbers": "/n/2026-10-22-bournemouth-ac-milan.html",
    "competition": "uel"
   },
   {
@@ -1759,6 +1790,7 @@
    },
    "read": "2026-10-22-celje-red-bull-salzburg",
    "headline": "Salzburg at Celje: how much does the 0-4 still count?",
+   "numbers": "/n/2026-10-22-celje-red-bull-salzburg.html",
    "competition": "uel"
   },
   {
@@ -1789,6 +1821,7 @@
    },
    "read": "2026-10-22-celtic-celta-vigo",
    "headline": "Celtic scored seven, but Europe still says this is level",
+   "numbers": "/n/2026-10-22-celtic-celta-vigo.html",
    "competition": "uel"
   },
   {
@@ -1819,6 +1852,7 @@
    },
    "read": "2026-10-22-1899-hoffenheim-lyon",
    "headline": "Lyon lead France, yet Hoffenheim are the favourites",
+   "numbers": "/n/2026-10-22-1899-hoffenheim-lyon.html",
    "competition": "uel"
   },
   {
@@ -1849,6 +1883,7 @@
    },
    "read": "2026-10-22-jagiellonia-anderlecht",
    "headline": "Anderlecht have no Europa League points and are still the favourites",
+   "numbers": "/n/2026-10-22-jagiellonia-anderlecht.html",
    "competition": "uel"
   },
   {
@@ -1879,6 +1914,7 @@
    },
    "read": "2026-10-22-lillestrom-real-sociedad",
    "headline": "Sociedad need a win in Norway; the market expects a one-goal margin",
+   "numbers": "/n/2026-10-22-lillestrom-real-sociedad.html",
    "competition": "uel"
   },
   {
@@ -1909,6 +1945,7 @@
    },
    "read": "2026-10-22-olympiakos-piraeus-sparta-praha",
    "headline": "Olympiakos without El Kaabi host unbeaten Sparta Praha",
+   "numbers": "/n/2026-10-22-olympiakos-piraeus-sparta-praha.html",
    "competition": "uel"
   },
   {
@@ -1939,6 +1976,7 @@
    },
    "read": "2026-10-22-omonia-nicosia-benfica",
    "headline": "Omonia's perfect start meets Benfica's wins over Milan and Celtic",
+   "numbers": "/n/2026-10-22-omonia-nicosia-benfica.html",
    "competition": "uel"
   },
   {
@@ -1969,6 +2007,7 @@
    },
    "read": "2026-10-22-plzen-levski-sofia",
    "headline": "Plzen chase a first point against a Levski side built to defend",
+   "numbers": "/n/2026-10-22-plzen-levski-sofia.html",
    "competition": "uel"
   },
   {
@@ -1999,6 +2038,7 @@
    },
    "read": "2026-10-22-ajax-atalanta",
    "headline": "Ajax favourites at home — but by only a quarter of a goal",
+   "numbers": "/n/2026-10-22-ajax-atalanta.html",
    "competition": "uecl"
   },
   {
@@ -2029,6 +2069,7 @@
    },
    "read": "2026-10-22-monaco-sc-freiburg",
    "headline": "Two unbeaten runs end and Monaco stay narrow favourites",
+   "numbers": "/n/2026-10-22-monaco-sc-freiburg.html",
    "competition": "uecl"
   },
   {
@@ -2059,6 +2100,7 @@
    },
    "read": "2026-10-23-alanyaspor-kocaelispor",
    "headline": "Alanyaspor lost 0-3 but stay clear favourites at home",
+   "numbers": "/n/2026-10-23-alanyaspor-kocaelispor.html",
    "competition": "203"
   },
   {
@@ -2089,6 +2131,7 @@
    },
    "read": "2026-10-23-go-ahead-eagles-telstar",
    "headline": "Winless Go Ahead Eagles still favourites against Telstar",
+   "numbers": "/n/2026-10-23-go-ahead-eagles-telstar.html",
    "competition": "88"
   },
   {
@@ -2119,6 +2162,7 @@
    },
    "read": "2026-10-23-vfb-stuttgart-borussia-m-nchengladbach",
    "headline": "Gladbach's worst start meets a Stuttgart side strong in Europe",
+   "numbers": "/n/2026-10-23-vfb-stuttgart-borussia-m-nchengladbach.html",
    "competition": "78"
   },
   {
@@ -2149,6 +2193,7 @@
    },
    "read": "2026-10-23-torino-monza",
    "headline": "Torino's winning run meets a Monza side that won here",
+   "numbers": "/n/2026-10-23-torino-monza.html",
    "competition": "135"
   },
   {
@@ -2179,6 +2224,7 @@
    },
    "read": "2026-10-23-stade-brestois-29-nice",
    "headline": "One point apart, and a night for Eric Roy",
+   "numbers": "/n/2026-10-23-stade-brestois-29-nice.html",
    "competition": "61"
   },
   {
@@ -2209,6 +2255,7 @@
    },
    "read": "2026-10-23-kortrijk-kv-mechelen",
    "headline": "Kortrijk 17th, a new coach, and a level game with Mechelen",
+   "numbers": "/n/2026-10-23-kortrijk-kv-mechelen.html",
    "competition": "144"
   },
   {
@@ -2239,6 +2286,7 @@
    },
    "read": "2026-10-23-ipswich-nottingham-forest",
    "headline": "Forest are 19th and losing — yet the market makes them favourites",
+   "numbers": "/n/2026-10-23-ipswich-nottingham-forest.html",
    "competition": "39"
   },
   {
@@ -2269,6 +2317,7 @@
    },
    "read": "2026-10-23-bolton-middlesbrough",
    "headline": "Middlesbrough unbeaten in 9 head to Bolton as clear favourites",
+   "numbers": "/n/2026-10-23-bolton-middlesbrough.html",
    "competition": "40"
   },
   {
@@ -2299,6 +2348,7 @@
    },
    "read": "2026-10-23-alaves-malaga",
    "headline": "Winless Malaga visit Alaves, and the hosts are still favoured",
+   "numbers": "/n/2026-10-23-alaves-malaga.html",
    "competition": "140"
   },
   {
@@ -2329,6 +2379,7 @@
    },
    "read": "2026-10-23-vit-ria-sc-maritimo",
    "headline": "Vitória SC are 15th, and still clear favourites",
+   "numbers": "/n/2026-10-23-vit-ria-sc-maritimo.html",
    "competition": "94"
   },
   {
@@ -2359,6 +2410,7 @@
    },
    "read": "2026-10-24-ey-pspor-kas-mpa-a",
    "headline": "Eyüpspor have not scored in five games; Kasımpaşa visit",
+   "numbers": null,
    "competition": "203"
   },
   {
@@ -2389,6 +2441,7 @@
    },
    "read": "2026-10-24-aston-villa-manchester-city",
    "headline": "City lead the league, but Villa Park has been awkward",
+   "numbers": null,
    "competition": "39"
   },
   {
@@ -2419,6 +2472,7 @@
    },
    "read": "2026-10-24-charlton-norwich",
    "headline": "Six straight defeats and still favourites: Norwich at Charlton",
+   "numbers": null,
    "competition": "40"
   },
   {
@@ -2449,6 +2503,7 @@
    },
    "read": "2026-10-24-portsmouth-millwall",
    "headline": "Level on points, level in the market at Fratton Park",
+   "numbers": null,
    "competition": "40"
   },
   {
@@ -2479,6 +2534,7 @@
    },
    "read": "2026-10-24-sheffield-utd-derby",
    "headline": "Derby go to Bramall Lane without their first-choice keeper",
+   "numbers": null,
    "competition": "40"
   },
   {
@@ -2509,6 +2565,7 @@
    },
    "read": "2026-10-24-rayo-vallecano-elche",
    "headline": "Rayo dominate but keep drawing — and Vallecas is partly closed",
+   "numbers": null,
    "competition": "140"
   },
   {
@@ -2539,6 +2596,7 @@
    },
    "read": "2026-10-24-cagliari-bologna",
    "headline": "Cagliari 7th, Bologna 15th — yet Bologna are the favourites",
+   "numbers": null,
    "competition": "135"
   },
   {
@@ -2569,6 +2627,7 @@
    },
    "read": "2026-10-24-como-sassuolo",
    "headline": "Como's Manchester United high meets a rested Sassuolo",
+   "numbers": null,
    "competition": "135"
   },
   {
@@ -2599,6 +2658,7 @@
    },
    "read": "2026-10-24-gaziantep-fk-erzurumspor-fk",
    "headline": "Gaziantep call a congress after 3 defeats — and stay favourites",
+   "numbers": null,
    "competition": "203"
   },
   {
@@ -2629,6 +2689,7 @@
    },
    "read": "2026-10-24-rb-leipzig-sv-elversberg",
    "headline": "Leipzig's heavy week meets a promoted side above them",
+   "numbers": null,
    "competition": "78"
   },
   {
@@ -2659,6 +2720,7 @@
    },
    "read": "2026-10-24-fc-augsburg-union-berlin",
    "headline": "Winless Augsburg still favourites as Union Berlin come to the WWK Arena",
+   "numbers": null,
    "competition": "78"
   },
   {
@@ -2689,6 +2751,7 @@
    },
    "read": "2026-10-24-fsv-mainz-05-werder-bremen",
    "headline": "Mainz favourites at home, but their own crowd is the question",
+   "numbers": null,
    "competition": "78"
   },
   {
@@ -2719,6 +2782,7 @@
    },
    "read": "2026-10-24-1-fc-k-ln-fc-schalke-04",
    "headline": "Köln could be without Dallinga and Ache, still clear favourites",
+   "numbers": null,
    "competition": "78"
   },
   {
@@ -2749,6 +2813,7 @@
    },
    "read": "2026-10-24-sc-paderborn-07-hamburger-sv",
    "headline": "Hamburg have won 3 straight, yet Paderborn stay narrow favourites",
+   "numbers": null,
    "competition": "78"
   },
   {
@@ -2779,6 +2844,7 @@
    },
    "read": "2026-10-24-arsenal-everton",
    "headline": "Arsenal favourites, but Saka and a short week complicate it",
+   "numbers": null,
    "competition": "39"
   },
   {
@@ -2809,6 +2875,7 @@
    },
    "read": "2026-10-24-coventry-fulham",
    "headline": "Fulham's first win makes them narrow favourites at Coventry",
+   "numbers": null,
    "competition": "39"
   },
   {
@@ -2839,6 +2906,7 @@
    },
    "read": "2026-10-24-antwerp-charleroi",
    "headline": "Antwerp's crisis, Charleroi's form — and no away fans",
+   "numbers": null,
    "competition": "144"
   },
   {
@@ -2869,6 +2937,7 @@
    },
    "read": "2026-10-24-blackburn-wrexham",
    "headline": "Wrexham's 4-1 win, 7 players out — and a level game",
+   "numbers": null,
    "competition": "40"
   },
   {
@@ -2899,6 +2968,7 @@
    },
    "read": "2026-10-24-cardiff-birmingham",
    "headline": "Birmingham in form, Cardiff's record keeps it close",
+   "numbers": null,
    "competition": "40"
   },
   {
@@ -2929,6 +2999,7 @@
    },
    "read": "2026-10-24-lincoln-burnley",
    "headline": "Burnley are 22nd — and still favourites at Lincoln",
+   "numbers": null,
    "competition": "40"
   },
   {
@@ -2959,6 +3030,7 @@
    },
    "read": "2026-10-24-preston-west-brom",
    "headline": "Bottom Preston host fifth-placed West Brom at Deepdale",
+   "numbers": null,
    "competition": "40"
   },
   {
@@ -2989,6 +3061,7 @@
    },
    "read": "2026-10-24-qpr-swansea",
    "headline": "Swansea lead the Championship; the market still favours QPR",
+   "numbers": null,
    "competition": "40"
   },
   {
@@ -3019,6 +3092,7 @@
    },
    "read": "2026-10-24-stoke-city-bristol-city",
    "headline": "Stoke win, create little — and the market stays careful",
+   "numbers": null,
    "competition": "40"
   },
   {
@@ -3049,6 +3123,7 @@
    },
    "read": "2026-10-24-west-ham-southampton",
    "headline": "West Ham second, Southampton create chances and do not finish",
+   "numbers": null,
    "competition": "40"
   },
   {
@@ -3079,6 +3154,7 @@
    },
    "read": "2026-10-24-wolves-watford",
    "headline": "Wolves favourites but Peixoto under pressure against Watford",
+   "numbers": null,
    "competition": "40"
   },
   {
@@ -3109,6 +3185,7 @@
    },
    "read": "2026-10-24-racing-santander-espanyol",
    "headline": "Racing's leaky defence meets winless Espanyol at El Sardinero",
+   "numbers": null,
    "competition": "140"
   },
   {
@@ -3139,6 +3216,7 @@
    },
    "read": "2026-10-24-utrecht-pec-zwolle",
    "headline": "Zwolle won the derby 4-1, lost their coach, and now go to Utrecht",
+   "numbers": null,
    "competition": "88"
   },
   {
@@ -3169,6 +3247,7 @@
    },
    "read": "2026-10-24-estrela-casa-pia",
    "headline": "Estrela come home as clear favourites against bottom-side Casa Pia",
+   "numbers": null,
    "competition": "94"
   },
   {
@@ -3199,6 +3278,7 @@
    },
    "read": "2026-10-24-toulouse-estac-troyes",
    "headline": "Troyes arrive on 5 straight defeats; Toulouse are 58.3% favourites",
+   "numbers": null,
    "competition": "61"
   },
   {
@@ -3229,6 +3309,7 @@
    },
    "read": "2026-10-24-napoli-as-roma",
    "headline": "Napoli 'too fragile' as unbeaten Roma come to Naples",
+   "numbers": null,
    "competition": "135"
   },
   {
@@ -3259,6 +3340,7 @@
    },
    "read": "2026-10-24-samsunspor-amed",
    "headline": "Samsunspor chase an unwanted record as Amed visit",
+   "numbers": null,
    "competition": "203"
   },
   {
@@ -3289,6 +3371,7 @@
    },
    "read": "2026-10-24-oh-leuven-lommel-united",
    "headline": "Leuven are 15th but go in as favourites against promoted Lommel",
+   "numbers": null,
    "competition": "144"
   },
   {
@@ -3319,6 +3402,7 @@
    },
    "read": "2026-10-24-chelsea-tottenham",
    "headline": "Maddison and Kulusevski back for Spurs, but Chelsea stay clear favourites",
+   "numbers": null,
    "competition": "39"
   },
   {
@@ -3349,6 +3433,7 @@
    },
    "read": "2026-10-24-valencia-villarreal",
    "headline": "Wounded at Anfield, Villarreal are narrow favourites at Mestalla",
+   "numbers": null,
    "competition": "140"
   },
   {
@@ -3379,6 +3464,7 @@
    },
    "read": "2026-10-24-borussia-dortmund-eintracht-frankfurt",
    "headline": "Unbeaten Dortmund host a Frankfurt side that shipped six",
+   "numbers": null,
    "competition": "78"
   },
   {
@@ -3409,6 +3495,7 @@
    },
    "read": "2026-10-24-willem-ii-cambuur",
    "headline": "Willem II: new coach, narrow favourites at home",
+   "numbers": null,
    "competition": "88"
   },
   {
@@ -3439,6 +3526,7 @@
    },
    "read": "2026-10-24-alverca-arouca",
    "headline": "Arouca are 5th, but Alverca are the home favourites",
+   "numbers": null,
    "competition": "94"
   },
   {
@@ -3469,6 +3557,7 @@
    },
    "read": "2026-10-24-lazio-parma",
    "headline": "Unbeaten Lazio host sinking Parma as clear favourites",
+   "numbers": null,
    "competition": "135"
   },
   {
@@ -3499,6 +3588,7 @@
    },
    "read": "2026-10-24-lens-paris-fc",
    "headline": "Lens host Paris FC three days after a 0-3 defeat",
+   "numbers": null,
    "competition": "61"
   },
   {
@@ -3529,6 +3619,7 @@
    },
    "read": "2026-10-24-raal-la-louvi-re-zulte-waregem",
    "headline": "Zulte won the last meeting 4-0 — but arrive on 3 straight defeats",
+   "numbers": null,
    "competition": "144"
   },
   {
@@ -3559,6 +3650,7 @@
    },
    "read": "2026-10-24-kvc-westerlo-sk-beveren",
    "headline": "Westerlo's hot run meets a market that keeps it close",
+   "numbers": null,
    "competition": "144"
   },
   {
@@ -3589,6 +3681,7 @@
    },
    "read": "2026-10-24-ado-den-haag-heerenveen",
    "headline": "ADO's shock win over PSV — and why Heerenveen are favourites",
+   "numbers": null,
    "competition": "88"
   },
   {
@@ -3619,6 +3712,7 @@
    },
    "read": "2026-10-24-atletico-madrid-deportivo-la-coruna",
    "headline": "Giménez returns: Atletico clear favourites against winless Deportivo",
+   "numbers": null,
    "competition": "140"
   },
   {
@@ -3649,6 +3743,7 @@
    },
    "read": "2026-10-24-gil-vicente-fc-porto",
    "headline": "Porto's perfect league start meets a Gil Vicente team on a high",
+   "numbers": null,
    "competition": "94"
   },
   {
@@ -3679,6 +3774,7 @@
    },
    "read": "2026-10-25-fortuna-sittard-excelsior",
    "headline": "Excelsior leak goals, Fortuna create little",
+   "numbers": null,
    "competition": "88"
   },
   {
@@ -3709,6 +3805,7 @@
    },
    "read": "2026-10-25-inter-fiorentina",
    "headline": "Inter unbeaten and top, but their captain is a doubt",
+   "numbers": null,
    "competition": "135"
   },
   {
@@ -3739,6 +3836,7 @@
    },
    "read": "2026-10-25-genk-standard-liege",
    "headline": "Genk favourites at home, but Standard still create chances",
+   "numbers": null,
    "competition": "144"
   },
   {
@@ -3769,6 +3867,7 @@
    },
    "read": "2026-10-25-athletic-club-getafe",
    "headline": "Athletic after Levante: still favourites, but only for a narrow win",
+   "numbers": null,
    "competition": "140"
   },
   {
@@ -3799,6 +3898,7 @@
    },
    "read": "2026-10-25-konyaspor-gen-lerbirli-i-s-k",
    "headline": "Konyaspor favourites despite one goal in five",
+   "numbers": null,
    "competition": "203"
   },
   {
@@ -3829,6 +3929,7 @@
    },
    "read": "2026-10-25-nec-nijmegen-groningen",
    "headline": "NEC winless in eight but still narrow favourites against Groningen",
+   "numbers": null,
    "competition": "88"
   },
   {
@@ -3859,6 +3960,7 @@
    },
    "read": "2026-10-25-psv-eindhoven-feyenoord",
    "headline": "Unbeaten Feyenoord go to PSV as the underdogs",
+   "numbers": null,
    "competition": "88"
   },
   {
@@ -3889,6 +3991,7 @@
    },
    "read": "2026-10-25-atalanta-frosinone",
    "headline": "Sarri under pressure as Frosinone arrive above Atalanta",
+   "numbers": null,
    "competition": "135"
   },
   {
@@ -3919,6 +4022,7 @@
    },
    "read": "2026-10-25-genoa-venezia",
    "headline": "Bottom two at Marassi: the market still leans to the home side",
+   "numbers": null,
    "competition": "135"
   },
   {
@@ -3949,6 +4053,7 @@
    },
    "read": "2026-10-25-monaco-lille",
    "headline": "Level on 14 points, and Monaco hold the fresher legs",
+   "numbers": null,
    "competition": "61"
   },
   {
@@ -3979,6 +4084,7 @@
    },
    "read": "2026-10-25-crystal-palace-newcastle",
    "headline": "Newcastle lose again: still the favourites at Palace?",
+   "numbers": null,
    "competition": "39"
   },
   {
@@ -4009,6 +4115,7 @@
    },
    "read": "2026-10-25-hull-city-brentford",
    "headline": "Brentford lose two midfielders — and still head to Hull as favourites",
+   "numbers": null,
    "competition": "39"
   },
   {
@@ -4039,6 +4146,7 @@
    },
    "read": "2026-10-25-liverpool-brighton",
    "headline": "Brighton bring 5 straight wins; Liverpool remain slight favourites",
+   "numbers": null,
    "competition": "39"
   },
   {
@@ -4069,6 +4177,7 @@
    },
    "read": "2026-10-25-manchester-united-bournemouth",
    "headline": "United winless in seven but still favourites at Old Trafford",
+   "numbers": null,
    "competition": "39"
   },
   {
@@ -4099,6 +4208,7 @@
    },
    "read": "2026-10-25-1899-hoffenheim-bayer-leverkusen",
    "headline": "Leverkusen's 5 straight wins meet a Hoffenheim side that won in January",
+   "numbers": null,
    "competition": "78"
   },
   {
@@ -4129,6 +4239,7 @@
    },
    "read": "2026-10-25-club-brugge-kv-st-truiden",
    "headline": "Five straight wins for Brugge, three league defeats for St Truiden",
+   "numbers": null,
    "competition": "144"
   },
   {
@@ -4159,6 +4270,7 @@
    },
    "read": "2026-10-25-celta-vigo-real-betis",
    "headline": "Betis favourites in Vigo, but the handicap is level",
+   "numbers": null,
    "competition": "140"
   },
   {
@@ -4189,6 +4301,7 @@
    },
    "read": "2026-10-25-estoril-moreirense",
    "headline": "Estoril are bottom of the table and still the favourites",
+   "numbers": null,
    "competition": "94"
   },
   {
@@ -4219,6 +4332,7 @@
    },
    "read": "2026-10-25-sparta-rotterdam-ajax",
    "headline": "Sparta have conceded 15 in five — Ajax visit on Sunday",
+   "numbers": null,
    "competition": "88"
   },
   {
@@ -4249,6 +4363,7 @@
    },
    "read": "2026-10-25-g-ztepe-orum-fk",
    "headline": "Göztepe back at the Gürsel Aksel, still chasing a home win",
+   "numbers": null,
    "competition": "203"
   },
   {
@@ -4279,6 +4394,7 @@
    },
    "read": "2026-10-25-angers-lorient",
    "headline": "Lorient beat Monaco and arrive at Angers as favourites",
+   "numbers": null,
    "competition": "61"
   },
   {
@@ -4309,6 +4425,7 @@
    },
    "read": "2026-10-25-auxerre-le-mans",
    "headline": "Auxerre after their 3-1: favourites, but only just",
+   "numbers": null,
    "competition": "61"
   },
   {
@@ -4339,6 +4456,7 @@
    },
    "read": "2026-10-25-marseille-le-havre",
    "headline": "Bottom Le Havre create like Marseille but cannot finish",
+   "numbers": null,
    "competition": "61"
   },
   {
@@ -4369,6 +4487,7 @@
    },
    "read": "2026-10-25-rennes-strasbourg",
    "headline": "Rennes after the chaos: favourites, with Lepaul a doubt",
+   "numbers": null,
    "competition": "61"
   },
   {
@@ -4399,6 +4518,7 @@
    },
    "read": "2026-10-25-sunderland-leeds",
    "headline": "Sunderland bottom and in trouble, yet Leeds only narrow favourites",
+   "numbers": null,
    "competition": "39"
   },
   {
@@ -4429,6 +4549,7 @@
    },
    "read": "2026-10-25-sc-freiburg-bayern-m-nchen",
    "headline": "Bayern without Musiala at third-placed Freiburg — still clear favourites",
+   "numbers": null,
    "competition": "78"
   },
   {
@@ -4459,6 +4580,7 @@
    },
    "read": "2026-10-25-lecce-juventus",
    "headline": "Juventus after the 0-3: Spalletti's side still clear favourites",
+   "numbers": null,
    "competition": "135"
   },
   {
@@ -4489,6 +4611,7 @@
    },
    "read": "2026-10-25-gent-anderlecht",
    "headline": "Gent top and unbeaten, but only narrow favourites",
+   "numbers": null,
    "competition": "144"
   },
   {
@@ -4519,6 +4642,7 @@
    },
    "read": "2026-10-25-real-sociedad-levante",
    "headline": "Real Sociedad's heavy week meets a Levante side scoring again",
+   "numbers": null,
    "competition": "140"
   },
   {
@@ -4549,6 +4673,7 @@
    },
    "read": "2026-10-25-nacional-sc-braga",
    "headline": "Braga sack their coach, then travel to Nacional as favourites",
+   "numbers": null,
    "competition": "94"
   },
   {
@@ -4579,6 +4704,7 @@
    },
    "read": "2026-10-25-rio-ave-famalicao",
    "headline": "Famalicão sacked their coach — and are still the clear favourites",
+   "numbers": null,
    "competition": "94"
   },
   {
@@ -4609,6 +4735,7 @@
    },
    "read": "2026-10-25-union-st-gilloise-cercle-brugge",
    "headline": "Union unbeaten, Cercle winless: Sunday's gap in Brussels",
+   "numbers": null,
    "competition": "144"
   },
   {
@@ -4639,6 +4766,7 @@
    },
    "read": "2026-10-25-az-alkmaar-twente",
    "headline": "AZ at home and second, but Twente's defence keeps the gap small",
+   "numbers": null,
    "competition": "88"
   },
   {
@@ -4669,6 +4797,7 @@
    },
    "read": "2026-10-25-udinese-ac-milan",
    "headline": "Udinese have lost 5 in a row; unbeaten Milan are next",
+   "numbers": null,
    "competition": "135"
   },
   {
@@ -4699,6 +4828,7 @@
    },
    "read": "2026-10-25-paris-saint-germain-lyon",
    "headline": "PSG lose three to injury, still favourites against Lyon",
+   "numbers": null,
    "competition": "61"
   },
   {
@@ -4729,6 +4859,7 @@
    },
    "read": "2026-10-25-barcelona-real-madrid",
    "headline": "Barcelona's perfect league start meets Madrid's Vinicius question",
+   "numbers": null,
    "competition": "140"
   },
   {
@@ -4759,6 +4890,7 @@
    },
    "read": "2026-10-25-sporting-cp-academico-viseu",
    "headline": "Sporting's first defeat came in Europe, not in the league",
+   "numbers": null,
    "competition": "94"
   },
   {
@@ -4789,6 +4921,7 @@
    },
    "read": "2026-10-26-be-ikta-ba-ak-ehir",
    "headline": "Beşiktaş under pressure, still clear favourites at home",
+   "numbers": null,
    "competition": "203"
   },
   {
@@ -4819,6 +4952,7 @@
    },
    "read": "2026-10-26-rizespor-trabzonspor",
    "headline": "Trabzonspor in form, but the market keeps the derby close",
+   "numbers": null,
    "competition": "203"
   },
   {
@@ -4849,6 +4983,7 @@
    },
    "read": "2026-10-26-galatasaray-fenerbah-e",
    "headline": "Asensio out for 3 months, and the derby stays close",
+   "numbers": null,
    "competition": "203"
   },
   {
@@ -4879,6 +5014,7 @@
    },
    "read": "2026-10-26-santa-clara-benfica",
    "headline": "Unbeaten Santa Clara host Benfica — and the market favours the visitors",
+   "numbers": null,
    "competition": "94"
   },
   {
@@ -4909,6 +5045,7 @@
    },
    "read": "2026-10-26-sevilla-osasuna",
    "headline": "Sevilla's slump meets an Osasuna defence that leaks goals",
+   "numbers": null,
    "competition": "140"
   },
   {
@@ -4939,6 +5076,7 @@
    },
    "read": null,
    "headline": null,
+   "numbers": null,
    "competition": "135"
   },
   {
@@ -4969,6 +5107,7 @@
    },
    "read": null,
    "headline": null,
+   "numbers": null,
    "competition": "135"
   },
   {
@@ -4999,6 +5138,7 @@
    },
    "read": null,
    "headline": null,
+   "numbers": null,
    "competition": "135"
   },
   {
@@ -5029,6 +5169,7 @@
    },
    "read": null,
    "headline": null,
+   "numbers": null,
    "competition": "135"
   },
   {
@@ -5059,6 +5200,7 @@
    },
    "read": null,
    "headline": null,
+   "numbers": null,
    "competition": "135"
   },
   {
@@ -5089,6 +5231,7 @@
    },
    "read": null,
    "headline": null,
+   "numbers": null,
    "competition": "135"
   },
   {
@@ -5117,8 +5260,9 @@
     "home": 1,
     "away": 0
    },
-   "read": null,
-   "headline": null,
+   "read": "2026-10-28-genoa-juventus",
+   "headline": "Juventus visit Genoa after a heavy defeat, but remain clear favourites",
+   "numbers": null,
    "competition": "135"
   },
   {
@@ -5149,6 +5293,7 @@
    },
    "read": null,
    "headline": null,
+   "numbers": null,
    "competition": "135"
   },
   {
@@ -5179,6 +5324,7 @@
    },
    "read": null,
    "headline": null,
+   "numbers": null,
    "competition": "135"
   },
   {
@@ -5209,6 +5355,7 @@
    },
    "read": null,
    "headline": null,
+   "numbers": null,
    "competition": "135"
   }
  ],
