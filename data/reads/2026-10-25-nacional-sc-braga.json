@@ -4,45 +4,45 @@
  "home": "Nacional",
  "away": "SC Braga",
  "kickoff": "2026-10-25T18:00:00+00:00",
- "generated_at": "2026-10-21T22:50:48+00:00",
- "headline": "Braga's new coach — still 60.2% favourites at Nacional",
- "summary": "Braga go to Nacional on Sunday with a new coach. Carlos Vicens was sacked after the 1-2 home defeat to Gil Vicente, and Franclim Carvalho takes charge for the first time. Nacional are 16th with 4 points and have lost all 5 of their last matches, so the market still makes Braga 60.2% favourites — the average across 10 bookmakers, with the margin removed. The gap in quality is smaller than it was: Braga are rated about a goal better, trimmed from 1.07 to 0.92 goals. Over 2.5 goals is a 50% call.",
- "read": "Braga arrive with a new coach and three straight defeats behind them, yet the market still makes them 60% favourites at a Nacional side that has lost five in a row and sits 16th.",
+ "generated_at": "2026-10-22T00:07:45+00:00",
+ "headline": "Braga sack their coach, then travel to Nacional as favourites",
+ "summary": "Braga go to Nacional on Sunday with a new coach, Franclim Carvalho, appointed after Carlos Vicens was sacked following a third straight defeat. Nacional's run is worse: five defeats in a row. Across 10 bookmakers, with the margin removed, Braga are still clear favourites, though their chance of winning has slipped from 63.3% to 60.2%. The gap in goals has narrowed too: Braga are now rated 0.92 goals better than Nacional, down from 1.07. The goal line is 2.5, with a 50.3% chance of more. Last time we called Braga clear favourites, Gil Vicente won 1-2.",
+ "read": "Braga arrive at Nacional with a new coach, Franclim Carvalho, after sacking Carlos Vicens and losing three games in a row.",
  "facts": [
   {
-   "fact": "Braga sacked head coach Carlos Vicens on 20 October and appointed Franclim Carvalho in his place, with this match his first in charge.",
-   "meaning": "A new voice in the dressing room, but also four days of upheaval before a league away game."
+   "fact": "Braga sacked head coach Carlos Vicens with immediate effect and appointed Franclim Carvalho in his place.",
+   "meaning": "Carvalho's first match in charge is this trip to Nacional, so nobody knows yet how Braga will set up or react."
   },
   {
-   "fact": "Braga lost 1-2 at home to Gil Vicente on Sunday, their third defeat in a row.",
-   "meaning": "Braga arrive on their worst run of the season, having conceded two or more in each of those three games."
+   "fact": "Braga lost 1-2 at home to Gil Vicente on 19 October, their third defeat in a row.",
+   "meaning": "A side chasing the European places arrives at Nacional on its worst run of the season so far."
   },
   {
-   "fact": "Nacional have lost all five of their last matches, the latest a 0-1 exit away to Sanjoanense in the Taça de Portugal.",
-   "meaning": "The hosts come in with no momentum at all, and they went out of the cup to a side from outside the top flight."
+   "fact": "Braga are priced as clear away favourites at 60.2% to win, against 16.4% for Nacional and 23.4% for the draw.",
+   "meaning": "The market sees Braga as more likely than not to take three points despite their run of defeats."
   },
   {
-   "fact": "Braga are 60.2% to win at Nacional, who are 16.4% — Braga's chance is nearly four times the home side's.",
-   "meaning": "The market makes Braga clear favourites despite their three defeats, with the draw at 23.4%."
+   "fact": "Braga's chance of winning has come down from 63.3% to 60.2% in recent days.",
+   "meaning": "They are still clear favourites, but with noticeably less conviction than a few days ago."
   },
   {
-   "fact": "Braga's win chance has come down from 63.3% to 60.3% in recent days, with Nacional's rising from 14.5% to 16.2%.",
-   "meaning": "The market has taken some of the certainty out of Braga without abandoning them as favourites."
+   "fact": "Nacional have lost all five of their last matches, a run of LLLLL.",
+   "meaning": "The hosts are in freefall and have not taken a point since early October."
   },
   {
-   "fact": "The handicap fair line has moved from 1.07 to 0.92 goals in Braga's favour.",
+   "fact": "The market's 50/50 handicap line has moved from Nacional +1.07 to +0.92.",
    "meaning": ""
   },
   {
-   "fact": "Nacional are 16th of 18 in the Primeira Liga with four points from eight games.",
-   "meaning": "The hosts are already in a relegation fight and have little margin for another heavy home defeat."
+   "fact": "Nacional are 16th of 18 with a goal difference of -9 after eight games.",
+   "meaning": "Only goal difference separates them from the bottom places, and only one side in the league has conceded more heavily."
   },
   {
-   "fact": "Nacional created 2.2 xG against Alverca on 12 September but lost 1-3, conceding 1.16 xG.",
-   "meaning": "Nacional can create at home — the problem has been what they concede and what they take."
+   "fact": "Braga have scored three goals in their last five matches.",
+   "meaning": "For a side priced at 60% to win away, the attacking output has been thin — they are not blowing teams away."
   }
  ],
- "article": null,
+ "article": "/m/2026-10-25-nacional-sc-braga.html",
  "sources": [
   {
    "fact": "SC Braga sacked head coach Carlos Vicens with immediate effect after a disappointing spell in charge.",
@@ -101,11 +101,11 @@
    "certainty": "confirmed"
   }
  ],
- "video_title": "Braga's new coach — still 60% favourites at Nacional",
+ "video_title": "Braga after the sack: still favourites at Nacional?",
  "key_points": [
-  "New Braga coach after three defeats",
-  "Nacional: five straight defeats, 16th",
-  "Braga 60% favourites, down from 63%"
+  "Braga sack Vicens, appoint Carvalho",
+  "Braga 60% away after three defeats",
+  "Nacional: five straight defeats, 16th"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."

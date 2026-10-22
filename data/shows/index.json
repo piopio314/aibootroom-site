@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T00:07:06+00:00",
+ "generated_at": "2026-10-22T00:10:48+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -1262,6 +1262,20 @@
    "seconds": 53
   },
   {
+   "id": "2026-10-25-nacional-sc-braga",
+   "home": "Nacional",
+   "away": "SC Braga",
+   "league": "Primeira Liga",
+   "kickoff": "2026-10-25T18:00:00+00:00",
+   "title": "Braga after the sack: still favourites at Nacional?",
+   "source": "market_desk",
+   "kicker": "FAVOURITE FADING",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-25-nacional-sc-braga.html",
+   "seconds": 50
+  },
+  {
    "id": "2026-10-25-union-st-gilloise-cercle-brugge",
    "home": "Union St. Gilloise",
    "away": "Cercle Brugge",
@@ -1272,7 +1286,7 @@
    "kicker": "MARKET READ",
    "voiced": true,
    "youtube_id": null,
-   "article": null,
+   "article": "/m/2026-10-25-union-st-gilloise-cercle-brugge.html",
    "seconds": 41
   },
   {
