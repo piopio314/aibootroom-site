@@ -4,45 +4,45 @@
  "home": "FK Crvena Zvezda",
  "away": "FC Copenhagen",
  "kickoff": "2026-10-22T16:45:00+00:00",
- "generated_at": "2026-10-22T07:03:54+00:00",
- "headline": "Red Star's 5-1 home form meets Copenhagen's 3-0 European start",
- "summary": "FK Crvena Zvezda warmed up for Copenhagen with a 5-1 home win on Sunday, and 6.02 expected goals against 0.52 says the scoring form is real. Their Conference League opener went the other way: a 3-2 defeat at Lugano, a late penalty deciding it. Copenhagen beat Braga 3-0 on matchday one, but drew 1-1 at home with Aarhus on Sunday. Novosti reports Ivanić and Katić return to the squad. Across the market, margin removed, Red Star are narrow favourites at 42%, and Over 2.75 is at 50.9%.",
- "read": "Crvena Zvezda host Copenhagen needing a first Conference League point after losing 3-2 at Lugano, against visitors who opened with a 3-0 win over Braga. The market still makes the Serbs narrow home favourites at 42.0% on a quarter-goal handicap, with the goal line at 2.75 splitting the two teams on the night.",
+ "generated_at": "2026-10-22T08:11:52+00:00",
+ "headline": "Zvezda's home scoring meets Copenhagen's 3-0 start",
+ "summary": "Crvena Zvezda have scored 15 goals in their last five games, and that scoring is why the market still favours them after a 3-2 defeat at Lugano, where a late penalty decided it. Copenhagen opened with a 3-0 home win over Braga. Across 10 bookmakers, with the margin removed, Zvezda are 42.0% to win and Copenhagen 31.9% — a close game. The handicap, a head start in goals, has the home side only a quarter of a goal better, and over 2.75 goals carries a 50.9% chance.",
+ "read": "Crvena Zvezda are narrow home favourites at 42.0% despite losing 3-2 at Lugano, because their home form is scoring for fun — 15 goals in five games, including 5-1 on Sunday. Copenhagen arrive second in the table after a 3-0 win over Braga, and the market expects an open game: the total line is 2.75 with over at 50.9% and both teams to score at 60.2%.",
  "facts": [
   {
-   "fact": "Crvena Zvezda are the home favourites at 42.0%, with Copenhagen at 31.9% and the Asian handicap sitting at -0.25.",
-   "meaning": ""
+   "fact": "Crvena Zvezda are the market's favourites at 42.0% to win in Belgrade.",
+   "meaning": "They are rated about a quarter of a goal better than Copenhagen on the handicap (-0.25) — a home win is favoured, but the tie is close to even."
   },
   {
    "fact": "Crvena Zvezda lost their Conference League opener 3-2 at Lugano, with a late penalty deciding it.",
-   "meaning": "They are 24th of 36 with nothing from their opening game, so a home win is the target on Thursday night."
+   "meaning": "They sit 24th of 36 with no points, so the home game already carries knockout-round weight."
   },
   {
-   "fact": "Copenhagen beat Braga 3-0 at home on matchday one, with xG 1.56 to 0.55.",
-   "meaning": "They arrive second in the 36-team table and with the better European result of the two sides."
+   "fact": "Copenhagen opened their campaign with a 3-0 home win over Braga.",
+   "meaning": "They arrive second in the 36-team table with a +3 goal difference and a clean sheet."
   },
   {
-   "fact": "Crvena Zvezda beat Mladost Lucani 5-1 at home on Sunday.",
-   "meaning": "Their domestic scoring form is the strongest argument behind the home price."
+   "fact": "Crvena Zvezda beat Mladost Lucani 5-1 on Sunday with 6.02 xG.",
+   "meaning": "Their chance creation at home is at a level Copenhagen's back line has not met in the Danish league."
   },
   {
-   "fact": "The goal line is 2.75, with Over priced at 50.9% — the market is split on whether this game reaches three goals.",
-   "meaning": "A near coin-flip on Over 2.75, so the expected total sits right around two and three-quarter goals."
+   "fact": "Copenhagen drew 1-1 at home with Aarhus on Sunday despite 2.01 xG.",
+   "meaning": "Two points dropped at Parken, and Midtjylland are now level on points with them at the top of the Superliga."
   },
   {
-   "fact": "Copenhagen drew 1-1 at home with Aarhus on Sunday, xG 2.01 to 0.94.",
-   "meaning": "They dropped points at home before travelling, and Midtjylland are now level with them at the top of the Superliga."
+   "fact": "The market's total-goals line is 2.75, with over priced at 50.9%.",
+   "meaning": "The market expects a game around the three-goal mark — a 2-1 or 2-2 shape rather than a grind."
   },
   {
-   "fact": "Novosti reports that Ivanić and Katić are back in the Crvena Zvezda squad for this match.",
-   "meaning": "Two more options for a side chasing its first points of the campaign."
+   "fact": "Both teams to score is priced at 60.2%.",
+   "meaning": "Both sides finding the net is more likely than not; a clean sheet either way is the minority view."
   },
   {
-   "fact": "Sportska centrala reports that Muhamed Čam will start for Crvena Zvezda after making the strongest impression among the substitutes at Lugano.",
-   "meaning": "One expected change to the XI, giving the home side a fresher option from the start."
+   "fact": "Their only previous meetings, in 2019 Champions League qualifying, both finished level — 1-1 in Belgrade and 2-2 in Copenhagen — before a penalty shootout.",
+   "meaning": "Recent history between these clubs is tight and level, which fits a match the market has at 42% / 26% / 32%."
   }
  ],
- "article": null,
+ "article": "/m/2026-10-22-fk-crvena-zvezda-fc-copenhagen.html",
  "sources": [
   {
    "fact": "Crvena zvezda lost 3-2 away at Lugano in their Conference League opener, with a late penalty deciding it.",
@@ -101,11 +101,11 @@
    "certainty": "reported"
   }
  ],
- "video_title": "Red Star's 5-1 form meets Copenhagen's 3-0 start",
+ "video_title": "Zvezda's 15 goals meet Copenhagen's 3-0 start",
  "key_points": [
-  "Red Star 42% home favourites",
-  "Copenhagen won 3-0 vs Braga",
-  "Goal line 2.75 near coin-flip"
+  "Zvezda favourites despite Lugano loss",
+  "Copenhagen won opener 3-0",
+  "Market sees close to three goals"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
