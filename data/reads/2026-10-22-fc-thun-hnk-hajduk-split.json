@@ -4,108 +4,108 @@
  "home": "FC Thun",
  "away": "HNK Hajduk Split",
  "kickoff": "2026-10-22T19:00:00+00:00",
- "generated_at": "2026-10-22T08:16:26+00:00",
- "headline": "Hajduk bring the form to Thun; the market stays close",
- "summary": "Conference League leaders Hajduk Split arrive at Thun on a run of four wins in five, including a 2-1 home victory over Ajax and a 2-1 win over Dinamo Zagreb. Thun have not won in their last three, and at Twente they created only 0.2 expected goals. Their coach has pushed back on the idea that Hajduk are clear favourites, and the market is not far from his view: Hajduk's win chance is 41.2%, up from 39.9% in recent days, with a fair handicap of just 0.18 goals. Both teams to score is rated 62.5%, and the goals line sits at 3.0, with over at 48.6%.",
- "read": "Hajduk Split arrive as Croatian league leaders on a four-in-five run, having beaten Ajax and Dinamo Zagreb in the last fortnight, while Thun have one win in five and were well beaten on chances by Twente. The market still sees it as close: Hajduk favourites at 41.2%, with a fair handicap of about a fifth of a goal and a 3.0 goals line leaning towards the under.",
+ "generated_at": "2026-10-22T08:31:01+00:00",
+ "headline": "Hajduk Split, fresh from beating Ajax, visit pointless Thun",
+ "summary": "Hajduk Split beat Ajax 2-1 in their Conference League opener and now visit FC Thun, who are 30th of 36 with no points. Thun created just 0.2 expected goals in their opener at Twente. Blick reports that Thun coach Privitelli rejects the view that Hajduk are favourites. The market, with the bookmakers' margin removed, still gives Hajduk a 41.2% win chance, up from 39.9% in recent days. The main goals line is 3.0, which points to an open game. Thun's Nicolas Bürgy says even a draw would be valuable.",
+ "read": "Hajduk Split come to Thun as the market favourites after beating Ajax, while Thun are 30th in the table with no points and have won only one of their last five. The market also expects an open game of about three goals, and Thun's camp says even a draw would be valuable.",
  "facts": [
   {
-   "fact": "Hajduk have won four of their last five, including a 2-1 home win over Ajax on 15 October and a 2-1 win over Dinamo Zagreb.",
-   "meaning": "The visitors arrive in strong form against decent opposition, having beaten both Ajax and Dinamo in the last fortnight."
+   "fact": "Hajduk Split beat Ajax 2-1 at home in their Conference League opener last Thursday.",
+   "meaning": "The visitors arrive with a big result in this competition."
   },
   {
-   "fact": "Hajduk are rated 41.2% to win in Thun, against 32.9% for the home side.",
-   "meaning": "The market makes Hajduk the favourites, but not overwhelming ones, despite the gulf in recent form."
+   "fact": "Thun have won only 1 of their last 5 matches in all competitions: DLLWL, newest first.",
+   "meaning": "The hosts are in poor form coming into a European night."
   },
   {
-   "fact": "Thun have won one of their last five, drawing 2-2 at Schaffhausen in the cup on Sunday and losing 0-1 at Twente in Europe.",
-   "meaning": "The hosts come in on a poor run, and only drew in the cup against lower-league opposition four days ago."
+   "fact": "In the 36-team Conference League table Hajduk are 10th with 3 points, while Thun are 30th with none.",
+   "meaning": "One side has a start to build on, the other already needs points at home."
   },
   {
-   "fact": "At Twente, Thun created just 0.2 xG and allowed 2.32.",
-   "meaning": "Their European opener was a one-sided match in terms of chances even though the scoreline was only 0-1."
+   "fact": "In that opener at Twente, Thun created only 0.2 expected goals.",
+   "meaning": "The hosts barely threatened in their only European game so far."
   },
   {
-   "fact": "The Asian handicap fair line sits at +0.18 home, meaning the market rates Hajduk roughly a fifth of a goal better than Thun.",
-   "meaning": ""
+   "fact": "Croatian journalists see Hajduk as the favourites, but Thun coach Privitelli disagrees, according to Blick.",
+   "meaning": "The Thun camp is not accepting the underdog label."
   },
   {
-   "fact": "The market's goals line is 3.0, with Over at 48.6%.",
-   "meaning": "The books lean slightly towards under three goals, in line with the expectation of a controlled European tie."
+   "fact": "Thun player Nicolas Bürgy says that even a draw against the Ajax conqueror would be valuable, according to Blick.",
+   "meaning": "Thun would take a point from a team that has just beaten Ajax."
   },
   {
-   "fact": "The market has both teams to score at 62.5%.",
-   "meaning": ""
+   "fact": "The match is rated a risk game and Bern cantonal police will be visibly present in Thun, according to 20 Minuten.",
+   "meaning": "Expect heavy security around the stadium on Thursday."
   },
   {
-   "fact": "Thun coach Privitelli pushed back on Croatian journalists' suggestion that Hajduk are favourites, according to Blick.",
-   "meaning": "The hosts are framing themselves as competitive at home, not as a side already beaten."
+   "fact": "The market makes Hajduk the favourites, with a 41.2% chance to win away from home.",
+   "meaning": "Hajduk are the single most likely winner, though the visitors are well short of a certainty."
   }
  ],
- "article": null,
+ "article": "/m/2026-10-22-fc-thun-hnk-hajduk-split.html",
  "sources": [
   {
-   "fact": "Thun coach Privitelli pushes back on Croatian journalists' view that Hajduk are favourites.",
+   "fact": "Hajduk Split beat Ajax in their Conference League league-phase opener, and Blick calls them the \"Ajax conqueror\" ahead of the trip to Thun.",
    "source": "www.blick.ch",
    "url": "https://www.blick.ch/sport/fussball/conference-league/conference-league-so-sieht-thun-seine-chancen-gegen-hajduk-split/5fqlnv2",
    "age": "14 hours ago",
-   "certainty": "confirmed"
-  },
-  {
-   "fact": "Thun player Nicolas Bürgy says even a draw against the Ajax-beating Hajduk side would be valuable.",
-   "source": "www.blick.ch",
-   "url": "https://www.blick.ch/sport/fussball/conference-league/conference-league-so-sieht-thun-seine-chancen-gegen-hajduk-split/5fqlnv2",
-   "age": "14 hours ago",
-   "certainty": "confirmed"
-  },
-  {
-   "fact": "The match is treated as a high-risk game, with Bern cantonal police visibly present in Thun on Thursday after Hajduk fans chanted Nazi slogans before the Ajax match.",
-   "source": "www.20min.ch",
-   "url": "https://www.20min.ch/story/conference-league-kroaten-schocken-mit-hitler-rufen-thun-duell-wird-zu-risikospiel-103652176",
-   "age": "2 days ago",
    "certainty": "reported"
   },
   {
-   "fact": "Thun are checking their own fans' loyalty before the visit of Hajduk, with fans puzzled by special controls.",
-   "source": "blick.ch",
-   "url": "https://blick.ch/sport/fussball/conference-league/so-ruestet-sich-thun-fuer-die-beruechtigten-hajduk-fans/qg9jfm9",
-   "age": "18 minutes ago",
-   "certainty": "reported"
-  },
-  {
-   "fact": "Thun are described as struggling, in contrast to Lugano's unbeaten domestic run.",
-   "source": "www.world-today-news.com",
-   "url": "https://www.world-today-news.com/conference-league-lugano-faces-getafe-while-fc-thun-struggles/",
-   "age": "1 day ago",
-   "certainty": "reported"
-  },
-  {
-   "fact": "Hajduk Split are the Croatian league leaders coming to Thun, and are described as having consistently been among the top contenders domestically in recent years.",
+   "fact": "Bluewin describes Hajduk Split as the leader of the Croatian league, a club that has been among the top contenders there for years.",
    "source": "bluewin.ch",
    "url": "https://bluewin.ch/en/sport/football/thun-vs.-croatian-leader-lugano-at-the-coliseum-li.3644282",
    "age": "4 hours ago",
    "certainty": "reported"
   },
   {
-   "fact": "Hajduk beat Ajax in their Conference League MD1 match in Split on 15 October 2026.",
-   "source": "www.timesofisrael.com",
-   "url": "https://www.timesofisrael.com/crush-the-jews-croatia-leaders-israel-embassy-slam-pro-nazi-chants-ahead-of-soccer-match",
-   "age": "6 days ago",
+   "fact": "Croatian journalists see Hajduk as the favourites, but Thun coach Privitelli disagrees, Blick reports.",
+   "source": "www.blick.ch",
+   "url": "https://www.blick.ch/sport/fussball/conference-league/conference-league-so-sieht-thun-seine-chancen-gegen-hajduk-split/5fqlnv2",
+   "age": "14 hours ago",
    "certainty": "reported"
   },
   {
-   "fact": "Croatian police arrested at least a dozen Hajduk fans a day after supporters held an anti-Semitic rally, clashed with officers and interrupted the Ajax match.",
+   "fact": "Thun player Nicolas Bürgy says that even a draw against Hajduk, the team that beat Ajax, would be valuable for Thun.",
+   "source": "www.blick.ch",
+   "url": "https://www.blick.ch/sport/fussball/conference-league/conference-league-so-sieht-thun-seine-chancen-gegen-hajduk-split/5fqlnv2",
+   "age": "14 hours ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "The match is rated a risk game: Bern cantonal police will be visibly present in Thun on Thursday after Hajduk fans chanted pro-Nazi slogans before the Ajax game.",
+   "source": "www.20min.ch",
+   "url": "https://www.20min.ch/story/conference-league-kroaten-schocken-mit-hitler-rufen-thun-duell-wird-zu-risikospiel-103652176",
+   "age": "2 days ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Croatian leaders condemned Hajduk hardcore fans for pro-Nazi chants during a march before the Ajax match, and police arrested at least a dozen fans afterwards.",
    "source": "sportstar.thehindu.com",
    "url": "https://sportstar.thehindu.com/football/hnk-hajduk-split-fans-arrested-croatia-racism-ajax-anti-semitic-slurs/article71593866.ece",
    "age": "6 days ago",
    "certainty": "reported"
+  },
+  {
+   "fact": "Blick reports that Thun are carrying out special checks on their own fans before Hajduk's visit because the game counts as a risk match.",
+   "source": "blick.ch",
+   "url": "https://blick.ch/sport/fussball/conference-league/so-ruestet-sich-thun-fuer-die-beruechtigten-hajduk-fans/qg9jfm9",
+   "age": "18 minutes ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "After Hajduk, Thun's next home game is against the leader of the Swiss Super League, so the Croatian league leader and the Swiss league leader visit Thun in turn.",
+   "source": "bluewin.ch",
+   "url": "https://bluewin.ch/en/sport/football/thun-vs.-croatian-leader-lugano-at-the-coliseum-li.3644282",
+   "age": "4 hours ago",
+   "certainty": "reported"
   }
  ],
- "video_title": "Hajduk beat Ajax — yet the market stays close",
+ "video_title": "Thun v Hajduk: hosts still need a first point",
  "key_points": [
-  "Hajduk: four wins in five",
-  "Thun: one win in five",
-  "Hajduk favourites at 41.2%"
+  "Hajduk beat Ajax 2-1",
+  "Thun 30th, no points",
+  "About 3 goals expected"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."

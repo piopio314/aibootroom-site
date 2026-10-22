@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T07:21:47+00:00",
+ "generated_at": "2026-10-22T08:34:44+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -1554,6 +1554,20 @@
    "youtube_id": null,
    "article": "/m/2026-10-26-sevilla-osasuna.html",
    "seconds": 47
+  },
+  {
+   "id": "2026-10-28-genoa-juventus",
+   "home": "Genoa",
+   "away": "Juventus",
+   "league": "Serie A",
+   "kickoff": "2026-10-28T19:45:00+00:00",
+   "title": "Juventus after the 0-3: favourites at struggling Genoa",
+   "source": "market_desk",
+   "kicker": "MARKET READ",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-28-genoa-juventus.html",
+   "seconds": 58
   }
  ]
 }
