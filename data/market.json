@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-22T16:04:00+00:00",
- "prices_as_of": "2026-10-22T15:22:00+00:00",
+ "generated_at": "2026-10-22T16:53:00+00:00",
+ "prices_as_of": "2026-10-22T16:25:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
-  "matches": 503,
-  "price_changes": 229180,
+  "matches": 486,
+  "price_changes": 229358,
   "leagues": 23,
   "absences": 784,
   "tracking_since": "2026-10-18T22:49:00+00:00"
@@ -1161,36 +1161,6 @@
    "numbers": null
   },
   {
-   "id": 1636430,
-   "slug": "2026-10-22-fk-jablonec-brighton",
-   "league": "Conference League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "home": "FK Jablonec",
-   "away": "Brighton",
-   "fair": {
-    "home": 6.4,
-    "draw": 12.2,
-    "away": 81.4
-   },
-   "move": {
-    "home": -4.5,
-    "draw": -4.6,
-    "away": 9.1
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 3.32,
-    "first": 3.14
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": "2026-10-22-fk-jablonec-brighton",
-   "headline": "Brighton's five-win run meets Jablonec's unbeaten home record",
-   "numbers": "/n/2026-10-22-fk-jablonec-brighton.html"
-  },
-  {
    "id": 1564385,
    "slug": "2026-10-24-huddersfield-wigan",
    "league": "League One",
@@ -1219,66 +1189,6 @@
    "read": null,
    "headline": null,
    "numbers": null
-  },
-  {
-   "id": 1636215,
-   "slug": "2026-10-22-ararat-armenia-az-alkmaar",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "home": "Ararat-Armenia",
-   "away": "AZ Alkmaar",
-   "fair": {
-    "home": 12.6,
-    "draw": 18.0,
-    "away": 69.4
-   },
-   "move": {
-    "home": -4.5,
-    "draw": -3.1,
-    "away": 7.6
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 3.16,
-    "first": 3.04
-   },
-   "absences": {
-    "home": 2,
-    "away": 5
-   },
-   "read": "2026-10-22-ararat-armenia-az-alkmaar",
-   "headline": "Ararat-Armenia, 34th in Europe, host an AZ side a goal stronger",
-   "numbers": "/n/2026-10-22-ararat-armenia-az-alkmaar.html"
-  },
-  {
-   "id": 1636258,
-   "slug": "2026-10-22-dinamo-zagreb-nec-nijmegen",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "home": "Dinamo Zagreb",
-   "away": "NEC Nijmegen",
-   "fair": {
-    "home": 65.1,
-    "draw": 19.6,
-    "away": 15.3
-   },
-   "move": {
-    "home": 7.3,
-    "draw": -2.5,
-    "away": -4.8
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 3.12,
-    "first": 3.03
-   },
-   "absences": {
-    "home": 6,
-    "away": 9
-   },
-   "read": "2026-10-22-dinamo-zagreb-nec-nijmegen",
-   "headline": "Dinamo's scoring run meets a NEC side without Tadić",
-   "numbers": "/n/2026-10-22-dinamo-zagreb-nec-nijmegen.html"
   },
   {
    "id": 1563827,
@@ -1311,36 +1221,6 @@
    "numbers": null
   },
   {
-   "id": 1636276,
-   "slug": "2026-10-22-juventus-rennes",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "home": "Juventus",
-   "away": "Rennes",
-   "fair": {
-    "home": 67.4,
-    "draw": 19.7,
-    "away": 12.9
-   },
-   "move": {
-    "home": 6.7,
-    "draw": -2.4,
-    "away": -4.4
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 2.93,
-    "first": 2.79
-   },
-   "absences": {
-    "home": 10,
-    "away": 1
-   },
-   "read": "2026-10-22-juventus-rennes",
-   "headline": "Juventus lost 0-3, and the market still makes them favourites",
-   "numbers": "/n/2026-10-22-juventus-rennes.html"
-  },
-  {
    "id": 1636388,
    "slug": "2026-10-22-sc-braga-gent",
    "league": "Conference League",
@@ -1369,6 +1249,126 @@
    "read": "2026-10-22-sc-braga-gent",
    "headline": "Braga sack their coach two days before unbeaten Gent",
    "numbers": null
+  },
+  {
+   "id": 1563830,
+   "slug": "2026-10-24-chesterfield-crewe",
+   "league": "League Two",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "home": "Chesterfield",
+   "away": "Crewe",
+   "fair": {
+    "home": 58.1,
+    "draw": 22.5,
+    "away": 19.4
+   },
+   "move": {
+    "home": 5.8,
+    "draw": -2.4,
+    "away": -3.2
+   },
+   "tracked_since": "2026-10-19T21:18:00+00:00",
+   "goals": {
+    "expected": 2.84,
+    "first": 2.72
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "numbers": null
+  },
+  {
+   "id": 1570426,
+   "slug": "2026-10-25-barcelona-real-madrid",
+   "league": "La Liga",
+   "kickoff": "2026-10-25T20:00:00+00:00",
+   "home": "Barcelona",
+   "away": "Real Madrid",
+   "fair": {
+    "home": 58.1,
+    "draw": 16.4,
+    "away": 25.5
+   },
+   "move": {
+    "home": -4.9,
+    "draw": -0.7,
+    "away": 5.7
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 4.18,
+    "first": 4.03
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": "2026-10-25-barcelona-real-madrid",
+   "headline": "Barcelona's perfect league start meets Madrid's Vinicius question",
+   "numbers": "/n/2026-10-25-barcelona-real-madrid.html"
+  },
+  {
+   "id": 1552508,
+   "slug": "2026-10-24-montpellier-red-star-fc-93",
+   "league": "Ligue 2",
+   "kickoff": "2026-10-24T12:00:00+00:00",
+   "home": "Montpellier",
+   "away": "RED Star FC 93",
+   "fair": {
+    "home": 38.4,
+    "draw": 25.3,
+    "away": 36.3
+   },
+   "move": {
+    "home": -2.9,
+    "draw": -2.4,
+    "away": 5.5
+   },
+   "tracked_since": "2026-10-19T13:25:00+00:00",
+   "goals": {
+    "expected": 2.63,
+    "first": 2.45
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "numbers": null
+  },
+  {
+   "id": 1563831,
+   "slug": "2026-10-24-crawley-town-tranmere",
+   "league": "League Two",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "home": "Crawley Town",
+   "away": "Tranmere",
+   "fair": {
+    "home": 36.0,
+    "draw": 26.3,
+    "away": 37.6
+   },
+   "move": {
+    "home": 5.4,
+    "draw": -0.3,
+    "away": -5.0
+   },
+   "tracked_since": "2026-10-19T21:18:00+00:00",
+   "goals": {
+    "expected": 2.66,
+    "first": 2.68
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "numbers": null
   }
  ],
  "competitions": [
@@ -1378,8 +1378,8 @@
    "name": "Europa League",
    "cup": true,
    "roundup": null,
-   "matches": 18,
-   "first": "2026-10-22T16:45:00+00:00",
+   "matches": 10,
+   "first": "2026-10-22T19:00:00+00:00",
    "last": "2026-10-22T19:00:00+00:00"
   },
   {
@@ -1534,254 +1534,6 @@
   }
  ],
  "week": [
-  {
-   "id": 1636215,
-   "slug": "2026-10-22-ararat-armenia-az-alkmaar",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "home": "Ararat-Armenia",
-   "away": "AZ Alkmaar",
-   "fair": {
-    "home": 12.6,
-    "draw": 18.0,
-    "away": 69.4
-   },
-   "move": {
-    "home": -4.5,
-    "draw": -3.1,
-    "away": 7.6
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 3.16,
-    "first": 3.04
-   },
-   "absences": {
-    "home": 2,
-    "away": 5
-   },
-   "read": "2026-10-22-ararat-armenia-az-alkmaar",
-   "headline": "Ararat-Armenia, 34th in Europe, host an AZ side a goal stronger",
-   "numbers": "/n/2026-10-22-ararat-armenia-az-alkmaar.html",
-   "competition": "uel"
-  },
-  {
-   "id": 1636258,
-   "slug": "2026-10-22-dinamo-zagreb-nec-nijmegen",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "home": "Dinamo Zagreb",
-   "away": "NEC Nijmegen",
-   "fair": {
-    "home": 65.1,
-    "draw": 19.6,
-    "away": 15.3
-   },
-   "move": {
-    "home": 7.3,
-    "draw": -2.5,
-    "away": -4.8
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 3.12,
-    "first": 3.03
-   },
-   "absences": {
-    "home": 6,
-    "away": 9
-   },
-   "read": "2026-10-22-dinamo-zagreb-nec-nijmegen",
-   "headline": "Dinamo's scoring run meets a NEC side without Tadić",
-   "numbers": "/n/2026-10-22-dinamo-zagreb-nec-nijmegen.html",
-   "competition": "uel"
-  },
-  {
-   "id": 1636262,
-   "slug": "2026-10-22-ferencvarosi-tc-torreense",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "home": "Ferencvarosi TC",
-   "away": "Torreense",
-   "fair": {
-    "home": 74.7,
-    "draw": 16.4,
-    "away": 8.9
-   },
-   "move": {
-    "home": 5.2,
-    "draw": -2.0,
-    "away": -3.1
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 2.98,
-    "first": 2.91
-   },
-   "absences": {
-    "home": 9,
-    "away": 1
-   },
-   "read": "2026-10-22-ferencvarosi-tc-torreense",
-   "headline": "Ferencvaros' perfect start against Torreense's second-division cup story",
-   "numbers": "/n/2026-10-22-ferencvarosi-tc-torreense.html",
-   "competition": "uel"
-  },
-  {
-   "id": 1636276,
-   "slug": "2026-10-22-juventus-rennes",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "home": "Juventus",
-   "away": "Rennes",
-   "fair": {
-    "home": 67.4,
-    "draw": 19.7,
-    "away": 12.9
-   },
-   "move": {
-    "home": 6.7,
-    "draw": -2.4,
-    "away": -4.4
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 2.93,
-    "first": 2.79
-   },
-   "absences": {
-    "home": 10,
-    "away": 1
-   },
-   "read": "2026-10-22-juventus-rennes",
-   "headline": "Juventus lost 0-3, and the market still makes them favourites",
-   "numbers": "/n/2026-10-22-juventus-rennes.html",
-   "competition": "uel"
-  },
-  {
-   "id": 1636280,
-   "slug": "2026-10-22-lech-poznan-sunderland",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "home": "Lech Poznan",
-   "away": "Sunderland",
-   "fair": {
-    "home": 20.8,
-    "draw": 24.0,
-    "away": 55.2
-   },
-   "move": {
-    "home": 0.5,
-    "draw": 0.8,
-    "away": -1.3
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 2.73,
-    "first": 2.61
-   },
-   "absences": {
-    "home": 7,
-    "away": 10
-   },
-   "read": "2026-10-22-lech-poznan-sunderland",
-   "headline": "Lech Poznan are bottom in Europe — Sunderland are still favourites",
-   "numbers": "/n/2026-10-22-lech-poznan-sunderland.html",
-   "competition": "uel"
-  },
-  {
-   "id": 1636303,
-   "slug": "2026-10-22-ofi-bayer-leverkusen",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "home": "OFI",
-   "away": "Bayer Leverkusen",
-   "fair": {
-    "home": 7.5,
-    "draw": 12.8,
-    "away": 79.7
-   },
-   "move": {
-    "home": -1.2,
-    "draw": -0.9,
-    "away": 2.1
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 3.53,
-    "first": 3.5
-   },
-   "absences": {
-    "home": 5,
-    "away": 9
-   },
-   "read": "2026-10-22-ofi-bayer-leverkusen",
-   "headline": "Leverkusen's five wins in Crete, and OFI's Hoffenheim warning",
-   "numbers": "/n/2026-10-22-ofi-bayer-leverkusen.html",
-   "competition": "uel"
-  },
-  {
-   "id": 1636330,
-   "slug": "2026-10-22-union-st-gilloise-hapoel-beer-sheva",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "home": "Union St. Gilloise",
-   "away": "Hapoel Beer Sheva",
-   "fair": {
-    "home": 68.3,
-    "draw": 19.1,
-    "away": 12.6
-   },
-   "move": {
-    "home": -4.0,
-    "draw": 2.6,
-    "away": 1.4
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 3.02,
-    "first": 3.18
-   },
-   "absences": {
-    "home": 9,
-    "away": 6
-   },
-   "read": "2026-10-22-union-st-gilloise-hapoel-beer-sheva",
-   "headline": "Union play behind closed doors in Düsseldorf — and stay clear favourites",
-   "numbers": "/n/2026-10-22-union-st-gilloise-hapoel-beer-sheva.html",
-   "competition": "uel"
-  },
-  {
-   "id": 1636340,
-   "slug": "2026-10-22-sturm-graz-marseille",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "home": "Sturm Graz",
-   "away": "Marseille",
-   "fair": {
-    "home": 22.6,
-    "draw": 25.9,
-    "away": 51.4
-   },
-   "move": {
-    "home": -4.0,
-    "draw": -0.1,
-    "away": 4.1
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 2.87,
-    "first": 2.77
-   },
-   "absences": {
-    "home": 10,
-    "away": 4
-   },
-   "read": "2026-10-22-sturm-graz-marseille",
-   "headline": "Marseille have no Europa League points — and are still favourites in Graz",
-   "numbers": "/n/2026-10-22-sturm-graz-marseille.html",
-   "competition": "uel"
-  },
   {
    "id": 1636234,
    "slug": "2026-10-22-be-ikta-crystal-palace",
@@ -2243,7 +1995,7 @@
     "away": 9
    },
    "read": "2026-10-23-vfb-stuttgart-borussia-m-nchengladbach",
-   "headline": "Gladbach's worst start meets a Stuttgart side strong in Europe",
+   "headline": "Gladbach, 0 points from six, visit 13th-placed Stuttgart",
    "numbers": "/n/2026-10-23-vfb-stuttgart-borussia-m-nchengladbach.html",
    "competition": "78"
   },
@@ -2255,18 +2007,18 @@
    "home": "Torino",
    "away": "Monza",
    "fair": {
-    "home": 44.2,
-    "draw": 28.1,
-    "away": 27.7
+    "home": 44.3,
+    "draw": 28.4,
+    "away": 27.2
    },
    "move": {
-    "home": -0.6,
-    "draw": 1.0,
-    "away": -0.5
+    "home": -0.4,
+    "draw": 1.4,
+    "away": -1.0
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.46,
+    "expected": 2.48,
     "first": 2.44
    },
    "absences": {

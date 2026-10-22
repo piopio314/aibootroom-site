@@ -4,108 +4,108 @@
  "home": "VfB Stuttgart",
  "away": "Borussia Mönchengladbach",
  "kickoff": "2026-10-23T18:30:00+00:00",
- "generated_at": "2026-10-21T20:38:47+00:00",
- "headline": "Gladbach's worst start meets a Stuttgart side strong in Europe",
- "summary": "Gladbach arrive at Stuttgart on Friday with 0 points from six Bundesliga games — the worst start in their history — and they are conceding 2.17 expected goals per game. They have let in 17 goals in their last five league matches. Stuttgart are unbeaten in the Champions League with 7 points, but only 13th in the Bundesliga on 6. The market average makes Stuttgart 69.8% favourites, more than five times Gladbach's 13.7%, and it expects 3.75 goals. Stuttgart may also be without right-back Vagnoman, who has played 778 minutes this season.",
- "read": "Gladbach arrive in Stuttgart with zero points from six Bundesliga games and the worst start in their history; Stuttgart, unbeaten in the Champions League but only 13th in the league, are the clear favourites. The market also expects goals — the total line sits at 3.75, with Gladbach shipping 17 in their last five league games.",
+ "generated_at": "2026-10-22T16:06:12+00:00",
+ "headline": "Gladbach, 0 points from six, visit 13th-placed Stuttgart",
+ "summary": "Six games, six defeats, no points: Gladbach arrive in Stuttgart bottom of the Bundesliga, without nine players including forward Tim Kleindienst. Their defence has conceded 17 goals in the last five league games, among them a 0-5 loss at Freiburg. Stuttgart are only 13th with 6 points and lose top scorer Josha Vagnoman to a muscle injury. Yet the gap between the sides is still wide: across 10 bookmakers, margin removed, Stuttgart are 69.3% favourites, more than five times Gladbach's 13.9%. The handicap rates Stuttgart about a goal and a half better, up from 1.41 to 1.47 goals, and the goals line sits at 3.75.",
+ "read": "Gladbach arrive bottom of the Bundesliga with six defeats from six and nine absentees, while Stuttgart are 13th domestically but unbeaten in the Champions League and rate about a goal and a half better. The one caveat for the home side is the loss of top scorer Josha Vagnoman to a muscle injury, but the market still makes Stuttgart clear 69% favourites in a game it expects to be high-scoring.",
  "facts": [
   {
-   "fact": "Borussia Mönchengladbach have lost all six Bundesliga games this season and have zero points — their worst start to a season in club history.",
-   "meaning": "They arrive bottom of the table needing a first win to avoid a seventh straight defeat."
+   "fact": "Gladbach have lost all six Bundesliga games and sit 18th with 0 points and a -12 goal difference.",
+   "meaning": "They arrive as the league's bottom side and risk a seventh straight defeat, which no Bundesliga team has started a season with."
   },
   {
-   "fact": "Stuttgart are 69.8% to win — more than five times Gladbach's 13.7%.",
-   "meaning": "The market sees a clear home favourite rather than a close game."
+   "fact": "Gladbach's last five league matches read LLLLL, including a 0-5 loss at Freiburg and a 1-2 home defeat to Hoffenheim on Sunday.",
+   "meaning": "No win in five and a defence shipping goals every week makes them clear underdogs away from home."
   },
   {
-   "fact": "Gladbach are conceding 2.17 xG per game across their last five league matches.",
-   "meaning": "The chances they allow say the results are deserved, not unlucky."
+   "fact": "Stuttgart lose leading Bundesliga scorer Josha Vagnoman (10 apps, 2 goals, 2 assists, 7.17 rating) to a muscle injury picked up against Atlético Madrid, with several weeks out expected.",
+   "meaning": "A first-choice defender and their top league scorer is gone from the side that is already 13th."
   },
   {
-   "fact": "Stuttgart sit 13th in the Bundesliga with 6 points from six games.",
-   "meaning": "The favourites are struggling domestically too, so this is a meeting of two league strugglers."
+   "fact": "Stuttgart are 69.3% favourites to win, more than five times Gladbach's 13.9%.",
+   "meaning": ""
   },
   {
-   "fact": "Stuttgart are unbeaten in the Champions League with 7 points from three games, after a 1-1 home draw with 10-man Atlético Madrid on Tuesday.",
-   "meaning": "Europe is where their season is going well — that contrast frames this game."
+   "fact": "Gladbach coach Alexander Blessin is without nine players, including forwards Tim Kleindienst and Isaac Lidberg, midfielder Franck Honorat and defender Ko Itakura.",
+   "meaning": "Attacking and defensive options are both thinned for the league's worst-performing side."
   },
   {
-   "fact": "Stuttgart lost 0-1 at Hamburger SV on Saturday despite creating 2.28 xG.",
-   "meaning": "They are making chances and not converting them — the league table undersells them."
+   "fact": "The handicap fair line sits at -1.47 goals for Stuttgart, up from -1.41 in recent days.",
+   "meaning": "The market rates Stuttgart about a goal and a half better than Gladbach — a home win by two or more is roughly a coin flip."
   },
   {
-   "fact": "Stuttgart are without Zagadou, Diehl and Tomas, and right-back Vagnoman is doubtful after 778 minutes this season.",
-   "meaning": "A regular starter at full-back is a doubt in a game Stuttgart are expected to control."
+   "fact": "Stuttgart average 1.89 xG for and 1.31 against in their last five, out-creating Atlético Madrid 1.63-0.91 in the 1-1 Champions League draw.",
+   "meaning": "Their league position (13th, 6 points) undersells the chances they create — they lost 0-1 at Hamburg on Saturday despite 2.28 xG."
   },
   {
-   "fact": "Only 43,709 spectators came to the Borussia-Park for Gladbach's home defeat to Hoffenheim.",
-   "meaning": "The support is thinning as the defeats pile up — this is a club under pressure."
+   "fact": "The goals market makes 3.75 the 50/50 line, with Over at 50.6% and both teams to score at 65%.",
+   "meaning": "The market expects a high-scoring game — a rarity in a match with such a lopsided table."
   }
  ],
  "article": "/m/2026-10-23-vfb-stuttgart-borussia-m-nchengladbach.html",
  "sources": [
   {
-   "fact": "Stuttgart are 13th in the Bundesliga and lost 2-1 at Hamburger SV last time out, their fourth league defeat of the season.",
+   "fact": "VfB Stuttgart will be without leading Bundesliga scorer Josha Vagnoman for the match against Gladbach after he suffered a muscular injury against Atlético Madrid and is expected to miss several weeks.",
+   "source": "onefootball.com",
+   "url": "https://onefootball.com/en/news/vfb-stuttgart-without-leading-bundesliga-scorer-josha-vagnoman-for-gladbach-43654182",
+   "age": "2 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Stuttgart lost their last Bundesliga match against Hamburger SV, their fourth league defeat of the season, according to Welt.",
    "source": "www.welt.de",
    "url": "https://www.welt.de/sport/fussball/bundesliga/article6ad7d26b51e5094f7a57384c/vfb-stuttgart-borussia-moenchengladbach-gladbach-will-den-ersten-saisonsieg-bundesliga.html",
-   "age": "1 day ago",
-   "certainty": "confirmed"
-  },
-  {
-   "fact": "Stuttgart are unbeaten in the Champions League with seven points from three games after a 1-1 home draw with 10-man Atlético Madrid.",
-   "source": "bundesliga.com",
-   "url": "https://bundesliga.com/en/bundesliga/news/vfb-stuttgart-club-atletico-de-madrid-match-report-highlights-matchday-3-39660",
-   "age": "16 hours ago",
-   "certainty": "confirmed"
-  },
-  {
-   "fact": "Stuttgart's disappointing Bundesliga start has reportedly led to unusual consequences for the players, with hefty fines looming for anyone ignoring the measure.",
-   "source": "www.yardbarker.com",
-   "url": "https://www.yardbarker.com/soccer/articles/hefty_fines_loom_poor_start_apparently_has_bizarre_consequences_for_vfb_stuttgart_players/s1_17790_44454293",
-   "age": "12 hours ago",
-   "certainty": "confirmed"
-  },
-  {
-   "fact": "Stuttgart players and officials believe the Champions League performance against Atlético Madrid can be a turning point for their flagging Bundesliga campaign.",
-   "source": "sports.yahoo.com",
-   "url": "https://sports.yahoo.com/articles/vfb-stuttgart-hopeful-special-champions-083400913.html",
-   "age": "12 hours ago",
-   "certainty": "confirmed"
-  },
-  {
-   "fact": "Coach Hoeneß will try to prepare his team for the Gladbach game, with Prömel saying the Atlético performance must be their benchmark.",
-   "source": "www.sportschau.de",
-   "url": "https://www.sportschau.de/regional/swr/swr-was-ist-der-punkt-gegen-atletico-madrid-wert-die-learnings-fuer-den-vfb-stuttgart-100.html",
-   "age": "14 hours ago",
+   "age": "2 days ago",
    "certainty": "reported"
   },
   {
-   "fact": "Stuttgart's challenge is to translate their European form into the league, starting with the visit of Borussia Mönchengladbach on Friday.",
-   "source": "bundesliga.com",
-   "url": "https://bundesliga.com/en/bundesliga/news/vfb-stuttgart-uefa-champions-league-surprise-package-hoeness-atletico-madrid-39663",
-   "age": "9 hours ago",
+   "fact": "Stuttgart players and officials believe their Champions League performance against Atlético Madrid can be a turning point in their disappointing Bundesliga start.",
+   "source": "sports.yahoo.com",
+   "url": "https://sports.yahoo.com/articles/vfb-stuttgart-hopeful-special-champions-083400913.html",
+   "age": "1 day ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Stuttgart's poor Bundesliga start has apparently led to unusual consequences, with players reportedly facing hefty fines if they ignore a measure.",
+   "source": "www.yardbarker.com",
+   "url": "https://www.yardbarker.com/soccer/articles/hefty_fines_loom_poor_start_apparently_has_bizarre_consequences_for_vfb_stuttgart_players/s1_17790_44454293",
+   "age": "1 day ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Stuttgart drew 1-1 at home to Atlético Madrid in the Champions League and remain unbeaten in the competition this season.",
+   "source": "www.bundesliga.com",
+   "url": "https://www.bundesliga.com/en/bundesliga/news/vfb-stuttgart-uefa-champions-league-surprise-package-hoeness-atletico-madrid-39663",
+   "age": "1 day ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Gladbach head coach Alexander Blessin faces nine absentees for the trip to Stuttgart, including forwards Tim Kleindienst and Isaac Lidberg, midfielder Franck Honorat and a defender, and the club's injury situation has not eased.",
+   "source": "www.getfootballnewsgermany.com",
+   "url": "https://www.getfootballnewsgermany.com/2026/blessin-gladbach-bundesliga/",
+   "age": "2 hours ago",
    "certainty": "confirmed"
   },
   {
-   "fact": "Gladbach have zero points from six Bundesliga games, with 8 goals scored and 20 conceded, their worst start to a season in club history.",
-   "source": "bundesliga.com",
-   "url": "https://bundesliga.com/de/bundesliga/news/borussia-monchengladbach-fehlstart-abstiegskampf-mutmacher-bochum-mainz-blessin-39665",
-   "age": "8 hours ago",
-   "certainty": "confirmed"
+   "fact": "Gladbach risk becoming the first team in Bundesliga history to lose their opening seven matches of a season.",
+   "source": "www.getfootballnewsgermany.com",
+   "url": "https://www.getfootballnewsgermany.com/2026/blessin-gladbach-bundesliga/",
+   "age": "2 hours ago",
+   "certainty": "reported"
   },
   {
-   "fact": "Gladbach lost 2-1 at Hoffenheim in the duel of the bottom two, their sixth defeat in six matchdays.",
-   "source": "www.sportschau.de",
-   "url": "https://www.sportschau.de/fussball/bundesliga/hoffenheim-befeuert-gladbachs-abstiegsangst,spielbericht-borussia-moenchengladbach-tsg-hoffenheim-112.html",
-   "age": "3 days ago",
-   "certainty": "confirmed"
+   "fact": "Gladbach have no points from six games, with 8 goals scored and 20 conceded, and face the prospect of a relegation-threatened season, according to Yardbarker.",
+   "source": "yardbarker.com",
+   "url": "https://yardbarker.com/soccer/articles/broken_dressing_room_to_blame_borussia_mnchengladbach_face_an_all_time_unwanted_record_and_the_worst_case_scenario/s1_17790_44454638",
+   "age": "1 day ago",
+   "certainty": "reported"
   }
  ],
- "video_title": "Gladbach's worst start: Stuttgart still favourites",
+ "video_title": "Gladbach bottom at Stuttgart on Friday",
  "key_points": [
-  "Gladbach: 0 points from 6",
-  "Stuttgart 69.8% favourites",
-  "Goals line set at 3.75"
+  "Gladbach: 0 points, 6 losses",
+  "Nine Gladbach players out",
+  "Stuttgart 69% favourites"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."

@@ -1,31 +1,7 @@
 {
- "generated_at": "2026-10-21T22:00:32+00:00",
+ "generated_at": "2026-10-22T16:53:46+00:00",
  "has_youtube": true,
  "videos": [
-  {
-   "id": "2026-10-22-ofi-bayer-leverkusen",
-   "title": "Leverkusen's 14 goals meet OFI's Hoffenheim night",
-   "home": "OFI",
-   "away": "Bayer Leverkusen",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "seconds": 62,
-   "voiced": true,
-   "youtube_id": "88HqVSR_U0s",
-   "pundits": true
-  },
-  {
-   "id": "2026-10-22-sturm-graz-marseille",
-   "title": "Marseille winless in Europe, still favourites in Graz",
-   "home": "Sturm Graz",
-   "away": "Marseille",
-   "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
-   "seconds": 64,
-   "voiced": true,
-   "youtube_id": "6CQCgh737iw",
-   "pundits": true
-  },
   {
    "id": "2026-10-22-1899-hoffenheim-lyon",
    "title": "Lyon top of France, yet underdogs in Sinsheim",
@@ -87,13 +63,37 @@
    "pundits": true
   },
   {
-   "id": "2026-10-22-ararat-armenia-az-alkmaar",
-   "title": "Ararat's 1-4 lesson, AZ a goal better",
-   "home": "Ararat-Armenia",
-   "away": "AZ Alkmaar",
+   "id": "2026-10-22-be-ikta-crystal-palace",
+   "title": "Palace after 0-5: Beşiktaş the favourites in Istanbul",
+   "home": "Beşiktaş",
+   "away": "Crystal Palace",
    "league": "Europa League",
-   "kickoff": "2026-10-22T16:45:00+00:00",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "seconds": 45,
+   "voiced": true,
+   "youtube_id": null,
+   "pundits": true
+  },
+  {
+   "id": "2026-10-22-bournemouth-ac-milan",
+   "title": "Milan lose two attackers — Bournemouth favourites",
+   "home": "Bournemouth",
+   "away": "AC Milan",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
    "seconds": 47,
+   "voiced": true,
+   "youtube_id": null,
+   "pundits": true
+  },
+  {
+   "id": "2026-10-22-celje-red-bull-salzburg",
+   "title": "Celje have one goal in five — and Salzburg come next",
+   "home": "Celje",
+   "away": "Red Bull Salzburg",
+   "league": "Europa League",
+   "kickoff": "2026-10-22T19:00:00+00:00",
+   "seconds": 48,
    "voiced": true,
    "youtube_id": null,
    "pundits": true
