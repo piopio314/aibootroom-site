@@ -94,14 +94,14 @@
   "home": "Celta Vigo",
   "away": "Real Betis",
   "fair": {
-   "home": 33.7,
-   "draw": 27.4,
-   "away": 38.9
+   "home": 33.4,
+   "draw": 27.3,
+   "away": 39.3
   },
   "move": {
-   "home": -0.8,
+   "home": -1.2,
    "draw": 0.2,
-   "away": 0.5
+   "away": 1.0
   },
   "tracked_since": "2026-10-18T22:49:00+00:00",
   "timeline": [
@@ -164,6 +164,12 @@
     "home": 33.7,
     "draw": 27.4,
     "away": 38.9
+   },
+   {
+    "t": "2026-10-22T04:24:00+00:00",
+    "home": 33.4,
+    "draw": 27.3,
+    "away": 39.3
    }
   ],
   "goals": {

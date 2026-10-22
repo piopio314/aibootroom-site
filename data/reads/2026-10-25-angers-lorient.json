@@ -107,34 +107,6 @@
   "Angers conceded five twice running",
   "Handicap fair line shifts away"
  ],
- "market": {
-  "id": 1552792,
-  "slug": "2026-10-25-angers-lorient",
-  "league": "Ligue 1",
-  "kickoff": "2026-10-25T16:15:00+00:00",
-  "home": "Angers",
-  "away": "Lorient",
-  "fair": {
-   "home": 31.8,
-   "draw": 29.0,
-   "away": 39.2
-  },
-  "move": {
-   "home": -4.8,
-   "draw": -0.5,
-   "away": 5.3
-  },
-  "tracked_since": "2026-10-18T22:49:00+00:00",
-  "goals": {
-   "expected": 2.41,
-   "first": 2.39
-  },
-  "absences": {
-   "home": 0,
-   "away": 0
-  },
-  "read": "2026-10-25-angers-lorient",
-  "headline": "Lorient beat Monaco and arrive at Angers as favourites"
- },
+ "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }

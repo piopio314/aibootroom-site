@@ -115,14 +115,14 @@
   "home": "Galatasaray",
   "away": "Fenerbahçe",
   "fair": {
-   "home": 42.5,
-   "draw": 25.5,
-   "away": 32.1
+   "home": 43.7,
+   "draw": 25.0,
+   "away": 31.3
   },
   "move": {
-   "home": 0.5,
-   "draw": -0.6,
-   "away": 0.1
+   "home": 1.7,
+   "draw": -1.0,
+   "away": -0.6
   },
   "tracked_since": "2026-10-19T16:24:00+00:00",
   "timeline": [
@@ -149,6 +149,12 @@
     "home": 42.5,
     "draw": 25.5,
     "away": 32.1
+   },
+   {
+    "t": "2026-10-22T04:24:00+00:00",
+    "home": 43.7,
+    "draw": 25.0,
+    "away": 31.3
    }
   ],
   "goals": {
