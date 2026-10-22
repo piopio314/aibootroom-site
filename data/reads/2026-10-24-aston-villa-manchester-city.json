@@ -115,14 +115,14 @@
   "home": "Aston Villa",
   "away": "Manchester City",
   "fair": {
-   "home": 21.6,
-   "draw": 22.6,
-   "away": 55.7
+   "home": 20.0,
+   "draw": 22.0,
+   "away": 58.1
   },
   "move": {
-   "home": -0.1,
-   "draw": -0.5,
-   "away": 0.6
+   "home": -1.7,
+   "draw": -1.2,
+   "away": 2.9
   },
   "tracked_since": "2026-10-18T22:49:00+00:00",
   "timeline": [
@@ -167,10 +167,16 @@
     "home": 21.6,
     "draw": 22.6,
     "away": 55.7
+   },
+   {
+    "t": "2026-10-22T02:30:00+00:00",
+    "home": 20.0,
+    "draw": 22.0,
+    "away": 58.1
    }
   ],
   "goals": {
-   "expected": 3.09,
+   "expected": 3.11,
    "first": 3.01
   },
   "absences": {

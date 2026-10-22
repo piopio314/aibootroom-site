@@ -115,14 +115,14 @@
   "home": "Paris Saint Germain",
   "away": "Lyon",
   "fair": {
-   "home": 67.3,
-   "draw": 17.5,
-   "away": 15.1
+   "home": 66.1,
+   "draw": 18.0,
+   "away": 15.9
   },
   "move": {
-   "home": -0.8,
-   "draw": 0.2,
-   "away": 0.7
+   "home": -2.1,
+   "draw": 0.6,
+   "away": 1.4
   },
   "tracked_since": "2026-10-18T22:49:00+00:00",
   "timeline": [
@@ -149,10 +149,16 @@
     "home": 67.3,
     "draw": 17.5,
     "away": 15.1
+   },
+   {
+    "t": "2026-10-22T02:30:00+00:00",
+    "home": 66.1,
+    "draw": 18.0,
+    "away": 15.9
    }
   ],
   "goals": {
-   "expected": 3.44,
+   "expected": 3.4,
    "first": 3.47
   },
   "absences": {
