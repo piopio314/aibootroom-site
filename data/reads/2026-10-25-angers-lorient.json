@@ -115,18 +115,18 @@
   "home": "Angers",
   "away": "Lorient",
   "fair": {
-   "home": 31.6,
-   "draw": 29.1,
-   "away": 39.3
+   "home": 31.8,
+   "draw": 29.0,
+   "away": 39.2
   },
   "move": {
-   "home": -4.9,
+   "home": -4.8,
    "draw": -0.5,
-   "away": 5.4
+   "away": 5.3
   },
   "tracked_since": "2026-10-18T22:49:00+00:00",
   "goals": {
-   "expected": 2.4,
+   "expected": 2.41,
    "first": 2.39
   },
   "absences": {

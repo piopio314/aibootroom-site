@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-22T02:59:00+00:00",
- "prices_as_of": "2026-10-22T02:30:00+00:00",
+ "generated_at": "2026-10-22T03:32:00+00:00",
+ "prices_as_of": "2026-10-22T03:25:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
   "matches": 504,
-  "price_changes": 188552,
+  "price_changes": 191970,
   "leagues": 23,
   "absences": 585,
   "tracking_since": "2026-10-18T22:49:00+00:00"
@@ -437,14 +437,14 @@
    "home": "Valencia",
    "away": "Villarreal",
    "fair": {
-    "home": 30.1,
-    "draw": 25.9,
-    "away": 44.0
+    "home": 30.0,
+    "draw": 25.8,
+    "away": 44.1
    },
    "move": {
-    "home": -0.4,
+    "home": -0.5,
     "draw": -0.1,
-    "away": 0.4
+    "away": 0.6
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "timeline": [
@@ -501,6 +501,12 @@
      "home": 30.1,
      "draw": 25.9,
      "away": 44.0
+    },
+    {
+     "t": "2026-10-22T03:25:00+00:00",
+     "home": 30.0,
+     "draw": 25.8,
+     "away": 44.1
     }
    ],
    "goals": {
@@ -522,13 +528,13 @@
    "home": "PSV Eindhoven",
    "away": "Feyenoord",
    "fair": {
-    "home": 47.3,
-    "draw": 21.9,
+    "home": 47.0,
+    "draw": 22.2,
     "away": 30.8
    },
    "move": {
-    "home": -0.5,
-    "draw": -0.3,
+    "home": -0.7,
+    "draw": -0.0,
     "away": 0.8
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
@@ -555,6 +561,12 @@
      "t": "2026-10-21T03:25:00+00:00",
      "home": 47.3,
      "draw": 21.9,
+     "away": 30.8
+    },
+    {
+     "t": "2026-10-22T03:25:00+00:00",
+     "home": 47.0,
+     "draw": 22.2,
      "away": 30.8
     }
    ],
@@ -1121,35 +1133,6 @@
    "headline": null
   },
   {
-   "id": 1552792,
-   "slug": "2026-10-25-angers-lorient",
-   "league": "Ligue 1",
-   "kickoff": "2026-10-25T16:15:00+00:00",
-   "home": "Angers",
-   "away": "Lorient",
-   "fair": {
-    "home": 31.6,
-    "draw": 29.1,
-    "away": 39.3
-   },
-   "move": {
-    "home": -4.9,
-    "draw": -0.5,
-    "away": 5.4
-   },
-   "tracked_since": "2026-10-18T22:49:00+00:00",
-   "goals": {
-    "expected": 2.4,
-    "first": 2.39
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": "2026-10-25-angers-lorient",
-   "headline": "Lorient beat Monaco and arrive at Angers as favourites"
-  },
-  {
    "id": 1593339,
    "slug": "2026-10-25-aris-thessalonikis-atromitos",
    "league": "Super League Greece",
@@ -1208,6 +1191,35 @@
    "headline": null
   },
   {
+   "id": 1552792,
+   "slug": "2026-10-25-angers-lorient",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-25T16:15:00+00:00",
+   "home": "Angers",
+   "away": "Lorient",
+   "fair": {
+    "home": 31.8,
+    "draw": 29.0,
+    "away": 39.2
+   },
+   "move": {
+    "home": -4.8,
+    "draw": -0.5,
+    "away": 5.3
+   },
+   "tracked_since": "2026-10-18T22:49:00+00:00",
+   "goals": {
+    "expected": 2.41,
+    "first": 2.39
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": "2026-10-25-angers-lorient",
+   "headline": "Lorient beat Monaco and arrive at Angers as favourites"
+  },
+  {
    "id": 1552508,
    "slug": "2026-10-24-montpellier-red-star-fc-93",
    "league": "Ligue 2",
@@ -1237,33 +1249,33 @@
    "headline": null
   },
   {
-   "id": 1552203,
-   "slug": "2026-10-25-nec-nijmegen-groningen",
-   "league": "Eredivisie",
-   "kickoff": "2026-10-25T13:30:00+00:00",
-   "home": "NEC Nijmegen",
-   "away": "Groningen",
+   "id": 1569989,
+   "slug": "2026-10-24-las-palmas-real-sociedad-ii",
+   "league": "Segunda Division",
+   "kickoff": "2026-10-24T16:30:00+00:00",
+   "home": "Las Palmas",
+   "away": "Real Sociedad II",
    "fair": {
-    "home": 41.7,
-    "draw": 23.7,
-    "away": 34.6
+    "home": 47.6,
+    "draw": 25.9,
+    "away": 26.5
    },
    "move": {
-    "home": -3.8,
-    "draw": -0.9,
-    "away": 4.8
+    "home": -4.9,
+    "draw": 1.1,
+    "away": 3.8
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 3.35,
-    "first": 3.14
+    "expected": 2.71,
+    "first": 2.64
    },
    "absences": {
     "home": 0,
     "away": 0
    },
-   "read": "2026-10-25-nec-nijmegen-groningen",
-   "headline": "NEC winless in eight but still narrow favourites against Groningen"
+   "read": null,
+   "headline": null
   }
  ],
  "competitions": [
@@ -2027,14 +2039,14 @@
    "home": "GO Ahead Eagles",
    "away": "Telstar",
    "fair": {
-    "home": 59.5,
+    "home": 59.6,
     "draw": 23.3,
     "away": 17.2
    },
    "move": {
     "home": -0.1,
     "draw": 0.3,
-    "away": -0.2
+    "away": -0.3
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
@@ -3077,18 +3089,18 @@
    "home": "Utrecht",
    "away": "PEC Zwolle",
    "fair": {
-    "home": 56.3,
-    "draw": 22.5,
-    "away": 21.2
+    "home": 57.4,
+    "draw": 21.9,
+    "away": 20.6
    },
    "move": {
-    "home": -1.9,
-    "draw": 0.6,
-    "away": 1.3
+    "home": -0.8,
+    "draw": 0.0,
+    "away": 0.7
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 3.14,
+    "expected": 3.15,
     "first": 3.28
    },
    "absences": {
@@ -3287,14 +3299,14 @@
    "home": "Valencia",
    "away": "Villarreal",
    "fair": {
-    "home": 30.1,
-    "draw": 25.9,
-    "away": 44.0
+    "home": 30.0,
+    "draw": 25.8,
+    "away": 44.1
    },
    "move": {
-    "home": -0.4,
+    "home": -0.5,
     "draw": -0.1,
-    "away": 0.4
+    "away": 0.6
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
@@ -3317,18 +3329,18 @@
    "home": "Borussia Dortmund",
    "away": "Eintracht Frankfurt",
    "fair": {
-    "home": 65.2,
-    "draw": 18.4,
+    "home": 65.1,
+    "draw": 18.5,
     "away": 16.4
    },
    "move": {
-    "home": 0.0,
-    "draw": 0.0,
-    "away": 0.0
+    "home": -0.1,
+    "draw": 0.1,
+    "away": -0.1
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 3.59,
+    "expected": 3.51,
     "first": 3.59
    },
    "absences": {
@@ -3617,14 +3629,14 @@
    "home": "Fortuna Sittard",
    "away": "Excelsior",
    "fair": {
-    "home": 39.4,
-    "draw": 25.9,
-    "away": 34.8
+    "home": 39.5,
+    "draw": 26.0,
+    "away": 34.5
    },
    "move": {
-    "home": 3.8,
+    "home": 4.0,
     "draw": 0.8,
-    "away": -4.6
+    "away": -4.8
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
@@ -3767,14 +3779,14 @@
    "home": "NEC Nijmegen",
    "away": "Groningen",
    "fair": {
-    "home": 41.7,
-    "draw": 23.7,
-    "away": 34.6
+    "home": 41.6,
+    "draw": 24.0,
+    "away": 34.4
    },
    "move": {
-    "home": -3.8,
-    "draw": -0.9,
-    "away": 4.8
+    "home": -4.0,
+    "draw": -0.6,
+    "away": 4.5
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
@@ -3797,13 +3809,13 @@
    "home": "PSV Eindhoven",
    "away": "Feyenoord",
    "fair": {
-    "home": 47.3,
-    "draw": 21.9,
+    "home": 47.0,
+    "draw": 22.2,
     "away": 30.8
    },
    "move": {
-    "home": -0.5,
-    "draw": -0.3,
+    "home": -0.7,
+    "draw": -0.0,
     "away": 0.8
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
@@ -4217,18 +4229,18 @@
    "home": "Angers",
    "away": "Lorient",
    "fair": {
-    "home": 31.6,
-    "draw": 29.1,
-    "away": 39.3
+    "home": 31.8,
+    "draw": 29.0,
+    "away": 39.2
    },
    "move": {
-    "home": -4.9,
+    "home": -4.8,
     "draw": -0.5,
-    "away": 5.4
+    "away": 5.3
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.4,
+    "expected": 2.41,
     "first": 2.39
    },
    "absences": {

@@ -115,14 +115,14 @@
   "home": "Valencia",
   "away": "Villarreal",
   "fair": {
-   "home": 30.1,
-   "draw": 25.9,
-   "away": 44.0
+   "home": 30.0,
+   "draw": 25.8,
+   "away": 44.1
   },
   "move": {
-   "home": -0.4,
+   "home": -0.5,
    "draw": -0.1,
-   "away": 0.4
+   "away": 0.6
   },
   "tracked_since": "2026-10-18T22:49:00+00:00",
   "timeline": [
@@ -179,6 +179,12 @@
     "home": 30.1,
     "draw": 25.9,
     "away": 44.0
+   },
+   {
+    "t": "2026-10-22T03:25:00+00:00",
+    "home": 30.0,
+    "draw": 25.8,
+    "away": 44.1
    }
   ],
   "goals": {

@@ -107,34 +107,6 @@
   "Groningen up to 34.5%",
   "Goal total above three"
  ],
- "market": {
-  "id": 1552203,
-  "slug": "2026-10-25-nec-nijmegen-groningen",
-  "league": "Eredivisie",
-  "kickoff": "2026-10-25T13:30:00+00:00",
-  "home": "NEC Nijmegen",
-  "away": "Groningen",
-  "fair": {
-   "home": 41.7,
-   "draw": 23.7,
-   "away": 34.6
-  },
-  "move": {
-   "home": -3.8,
-   "draw": -0.9,
-   "away": 4.8
-  },
-  "tracked_since": "2026-10-18T22:49:00+00:00",
-  "goals": {
-   "expected": 3.35,
-   "first": 3.14
-  },
-  "absences": {
-   "home": 0,
-   "away": 0
-  },
-  "read": "2026-10-25-nec-nijmegen-groningen",
-  "headline": "NEC winless in eight but still narrow favourites against Groningen"
- },
+ "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }
