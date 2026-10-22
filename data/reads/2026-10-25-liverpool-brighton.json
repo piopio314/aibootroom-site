@@ -115,14 +115,14 @@
   "home": "Liverpool",
   "away": "Brighton",
   "fair": {
-   "home": 45.3,
+   "home": 44.8,
    "draw": 24.4,
-   "away": 30.4
+   "away": 30.9
   },
   "move": {
-   "home": -0.8,
+   "home": -1.3,
    "draw": 0.4,
-   "away": 0.4
+   "away": 0.9
   },
   "tracked_since": "2026-10-18T22:49:00+00:00",
   "timeline": [
@@ -179,10 +179,16 @@
     "home": 45.3,
     "draw": 24.4,
     "away": 30.4
+   },
+   {
+    "t": "2026-10-22T05:21:00+00:00",
+    "home": 44.8,
+    "draw": 24.4,
+    "away": 30.9
    }
   ],
   "goals": {
-   "expected": 3.0,
+   "expected": 3.06,
    "first": 2.97
   },
   "absences": {

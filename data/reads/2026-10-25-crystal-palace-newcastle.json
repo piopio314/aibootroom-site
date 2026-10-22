@@ -115,14 +115,14 @@
   "home": "Crystal Palace",
   "away": "Newcastle",
   "fair": {
-   "home": 32.7,
+   "home": 32.6,
    "draw": 26.5,
-   "away": 40.8
+   "away": 41.0
   },
   "move": {
-   "home": -3.1,
+   "home": -3.3,
    "draw": -0.2,
-   "away": 3.3
+   "away": 3.5
   },
   "tracked_since": "2026-10-18T22:49:00+00:00",
   "timeline": [
@@ -167,10 +167,16 @@
     "home": 32.7,
     "draw": 26.5,
     "away": 40.8
+   },
+   {
+    "t": "2026-10-22T05:21:00+00:00",
+    "home": 32.6,
+    "draw": 26.5,
+    "away": 41.0
    }
   ],
   "goals": {
-   "expected": 2.93,
+   "expected": 2.94,
    "first": 2.92
   },
   "absences": {
