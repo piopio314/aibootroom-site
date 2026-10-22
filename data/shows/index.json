@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T00:27:03+00:00",
+ "generated_at": "2026-10-22T00:33:56+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -574,6 +574,20 @@
    "youtube_id": null,
    "article": "/m/2026-10-24-fsv-mainz-05-werder-bremen.html",
    "seconds": 48
+  },
+  {
+   "id": "2026-10-24-1-fc-k-ln-fc-schalke-04",
+   "home": "1. FC Köln",
+   "away": "FC Schalke 04",
+   "league": "Bundesliga",
+   "kickoff": "2026-10-24T13:30:00+00:00",
+   "title": "Köln's striker doubts meet Schalke's blank attack",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-1-fc-k-ln-fc-schalke-04.html",
+   "seconds": 49
   },
   {
    "id": "2026-10-24-arsenal-everton",
@@ -1174,7 +1188,7 @@
    "kicker": "MARKET READ",
    "voiced": true,
    "youtube_id": null,
-   "article": null,
+   "article": "/m/2026-10-25-estoril-moreirense.html",
    "seconds": 41
   },
   {

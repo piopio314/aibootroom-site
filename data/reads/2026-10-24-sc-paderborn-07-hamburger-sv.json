@@ -4,42 +4,42 @@
  "home": "SC Paderborn 07",
  "away": "Hamburger SV",
  "kickoff": "2026-10-24T13:30:00+00:00",
- "generated_at": "2026-10-21T23:49:38+00:00",
- "headline": "Paderborn let a 2-0 lead slip, but the fixture still favours them",
- "summary": "Paderborn led 2-0 at Werder Bremen on Saturday and drew 2-2 — that is one win in their last five Bundesliga games. Hamburger SV arrive with three straight wins, though the run has been built on scoring: 13 conceded. The fixture still points to the hosts, who have never lost to Hamburg — three wins, two draws, all in the second tier. Across 6 bookmakers, margin removed, Paderborn are 39.7% to Hamburg's 34.0%, and the handicap is level at 0. Over 3.0 goals is a 49.1% chance.",
- "read": "Hamburger SV come in on three straight wins and sit ninth, while Paderborn are 16th with one win in five and were pegged back from 2-0 at Werder Bremen on Saturday. The market still makes the hosts narrow favourites at 39.7% to 34.0% with the handicap level, and sets the 50/50 goal total just under three.",
+ "generated_at": "2026-10-22T00:33:44+00:00",
+ "headline": "Hamburg have won 3 straight, yet Paderborn stay narrow favourites",
+ "summary": "Hamburg arrive at Paderborn on a run of 3 straight Bundesliga wins, the latest 1-0 at home to Stuttgart. Yet the market does not make them favourites. Paderborn sit 16th of 18 and drew 2-2 at Werder Bremen on Saturday. Hamburg's problem is at the other end: 13 goals conceded in their last 5. Across 6 bookmakers, with the margin removed, Paderborn win 39.7% of the time and Hamburg 34.0%. The total-goals line is 3.0, so an open game is expected.",
+ "read": "Paderborn are 16th and under pressure after letting a 2-0 lead slip at Werder Bremen, but the market still makes them narrow home favourites over a Hamburg side on a three-match winning run. The goal line sits at 3.0 because both defences have leaked all season, and a level handicap says the market rates the two teams as evenly matched.",
  "facts": [
   {
-   "fact": "Paderborn are narrow home favourites at 39.7% against HSV's 34.0%, with the handicap set at level (+0).",
+   "fact": "Paderborn are narrow home favourites at 39.7% to win, with Hamburg at 34.0%.",
+   "meaning": "The market sees a near-even game in which home advantage only just beats the table gap between the sides."
+  },
+  {
+   "fact": "Hamburg have won their last three Bundesliga matches, most recently 1-0 at home to Stuttgart.",
+   "meaning": "They arrive as clearly the form team of the two, after a dreadful opening to the season."
+  },
+  {
+   "fact": "Hamburg have conceded 13 goals in their last five Bundesliga matches.",
+   "meaning": "Their winning run has papered over a defence that has been taken apart twice in that spell."
+  },
+  {
+   "fact": "Paderborn sit 16th of 18 in the Bundesliga table.",
+   "meaning": "They are in the bottom three places and need a home result; the German press this week described them as under pressure."
+  },
+  {
+   "fact": "Paderborn led 2-0 at Werder Bremen on Saturday and were pegged back to 2-2.",
+   "meaning": "Dropping points from two goals up leaves them without a win in three and turns this home game into a pressured one."
+  },
+  {
+   "fact": "The main total-goals line is set at 3.0, with over and under split almost exactly evenly.",
+   "meaning": "The market expects an open game — three goals is the 50/50 point, well above a typical Bundesliga line."
+  },
+  {
+   "fact": "Paderborn are conceding 2.04 expected goals per game over their last five while creating 1.01.",
+   "meaning": "They are being out-chanced roughly two to one, which is why they cannot pull clear of the bottom of the table."
+  },
+  {
+   "fact": "The handicap fair line is -0.12 in Paderborn's favour, with the main line set at level (0).",
    "meaning": ""
-  },
-  {
-   "fact": "Hamburger SV have won each of their last three Bundesliga matches, against Köln, Hoffenheim and Stuttgart.",
-   "meaning": "The visitors arrive as the form side of the two and sit ninth, above the hosts."
-  },
-  {
-   "fact": "Paderborn have taken one win from their last five Bundesliga games (DLWLL).",
-   "meaning": "A promoted side short of results, and German media describe them as under pressure before this home game."
-  },
-  {
-   "fact": "Paderborn conceded chances worth 3.21 xG in Saturday's 2-2 at Werder Bremen, after leading 2-0.",
-   "meaning": "They were cut open repeatedly in the game they let slip, and HSV's attack is the next test of that back line."
-  },
-  {
-   "fact": "Hamburger SV have conceded 13 goals across their last five league matches.",
-   "meaning": "The winning run has been built on scoring, not on solidity — they have shipped five twice this season."
-  },
-  {
-   "fact": "The market's 50/50 goal total sits at 2.96, with Over 3.0 priced at 49.1%.",
-   "meaning": "Three goals is roughly a coin flip — the market expects an open game, not a tight one."
-  },
-  {
-   "fact": "Paderborn are unbeaten in their last five meetings with HSV — three wins and two draws, including 2-0 at home in March 2025.",
-   "meaning": "The head-to-head is the strongest argument for the hosts, who have handled this opponent repeatedly in the second division."
-  },
-  {
-   "fact": "29 of Paderborn's 30 senior players trained on Wednesday, with only Oliver Batista Meier absent.",
-   "meaning": "The hosts have an almost full squad for a home game they are under pressure to take something from."
   }
  ],
  "article": null,
@@ -101,11 +101,11 @@
    "certainty": "reported"
   }
  ],
- "video_title": "Hamburg's winning run meets Paderborn's fixture record",
+ "video_title": "Hamburg win 3 straight — Paderborn favourites",
  "key_points": [
-  "HSV on three straight wins",
-  "Paderborn one win in five",
-  "Market: level, near-three goals"
+  "HSV: three straight wins",
+  "Paderborn 16th and under pressure",
+  "Level handicap, 3.0 goal line"
  ],
  "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
