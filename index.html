@@ -229,7 +229,8 @@
       <div style="margin-top:14px">${ABR.bar(m)}</div>
       <div class="foot"><span>⚽ ${m.goals ? `Expects ${m.goals.expected.toFixed(1)} goals` : '—'}</span>
         <b class="${b.d > 0 ? 'up' : b.d < 0 ? 'down' : ''}">${Math.abs(b.d) >= 1 ? `${b.d > 0 ? '▲' : '▼'} ${E(S(b.team))} ${ABR.sign(b.d)} pts` : 'Price steady'}</b></div>
-      ${m.headline ? `<a class="hl" href="${m.read ? readUrl(m.read) : '#'}"><b>THE BOOT ROOM</b>${E(m.headline)} →</a>` : ''}</div>${t}</${tag}>`;
+      ${m.headline ? `<a class="hl" href="${m.read ? readUrl(m.read) : '#'}"><b>THE BOOT ROOM</b>${E(m.headline)} →</a>`
+        : m.numbers ? `<a class="hl" href="${E(m.numbers)}"><b>THE NUMBERS</b>Form, table, missing players and price moves →</a>` : ''}</div>${t}</${tag}>`;
   };
   // ── the week's board: cups first, then leagues; chips filter by competition
   const comps = M.competitions || [], week = M.week || [];
