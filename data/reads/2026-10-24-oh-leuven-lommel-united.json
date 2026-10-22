@@ -1,0 +1,112 @@
+{
+ "slug": "2026-10-24-oh-leuven-lommel-united",
+ "league": "Jupiler Pro League",
+ "home": "OH Leuven",
+ "away": "Lommel United",
+ "kickoff": "2026-10-24T16:15:00+00:00",
+ "generated_at": "2026-10-22T01:28:00+00:00",
+ "headline": "Leuven are 15th but go in as favourites against promoted Lommel",
+ "summary": "OH Leuven are 15th in the Jupiler Pro League with 5 points and one win, and they host promoted Lommel at Den Dreef on Saturday without Birger Verstraete, banned for 4 matches after a red card. Even so, the market makes Leuven 50.2% favourites, more than twice Lommel's 25.2%. The visitors are 10th on 11 points, but they lost 1-4 at STVV in the cup on Sunday and gave up 3.27 expected goals away at Union St. Gilloise in September.",
+ "read": "OH Leuven are clear home favourites at around 50% despite sitting 15th with five points, because the market weighs Den Dreef and Lommel's 1-4 cup exit more heavily than the table. Verstraete's four-match suspension is the team news that matters, and a three-goal line points to an open game between two sides with defensive questions.",
+ "facts": [
+  {
+   "fact": "OH Leuven are 50.2% favourites at home, more than double Lommel's 25.2%, even though they are 15th in the table and Lommel are 10th.",
+   "meaning": "The market rates the venue and the mood of the two camps well above the league table."
+  },
+  {
+   "fact": "Birger Verstraete is suspended for four matches after his red card in the cup win over Francs Borains, with an earlier suspended ban now included.",
+   "meaning": "OH Leuven must rebuild their midfield for this game and the next three, not just shuffle for one afternoon."
+  },
+  {
+   "fact": "Lommel were knocked out of the Croky Cup 1-4 at STVV on Sunday.",
+   "meaning": "They come to Den Dreef six days after their heaviest beating of the run, with the defence under scrutiny."
+  },
+  {
+   "fact": "OH Leuven sit 15th with 5 points from 8 games and one win.",
+   "meaning": "This is a home favourite with the record of a side near the bottom, which is why the chance is around 50% and not higher."
+  },
+  {
+   "fact": "Lommel won 3-1 at SK Beveren in their last league match.",
+   "meaning": "That is the same Beveren side that beat OH Leuven 3-0 in September, so the away threat is real."
+  },
+  {
+   "fact": "Lommel gave up 3.27 xG away at Union St. Gilloise in September.",
+   "meaning": "Their away defending is the softest part of the promoted side's game — exactly what a home team with the ball will target."
+  },
+  {
+   "fact": "The total line is 3.0, with over priced at 48.4%.",
+   "meaning": "An open game is the base case here, not a tight favourite-versus-underdog grind."
+  },
+  {
+   "fact": "OH Leuven beat Lommel 5-1 at Den Dreef in a July friendly.",
+   "meaning": "The fixture has been one-sided in Leuven's favour, and the meetings before it at Den Dreef also went the home way."
+  }
+ ],
+ "article": null,
+ "sources": [
+  {
+   "fact": "Birger Verstraete is suspended for four matches after his red card in the cup game against Francs Borains, with a previous suspended ban now included.",
+   "source": "www.voetbalkrant.com",
+   "url": "https://www.voetbalkrant.com/nieuws/2026-10-21/harde-klap-voor-oh-leuven-birger-verstraete-krijgt-zware-straf-na-rode-kaart",
+   "age": "17 hours ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "OH Leuven beat Francs Borains 1-0 in the Croky Cup while playing with ten men after a red card.",
+   "source": "www.voetbalkrant.com",
+   "url": "https://www.voetbalkrant.com/nieuws/2026-10-17/antwerp-en-oh-leuven-krijgen-het-niet-cadeau-croky-cup-zorgt-voor-spanning",
+   "age": "4 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "OH Leuven will face Antwerp in the round of 16 of the Croky Cup.",
+   "source": "robtv.be",
+   "url": "https://robtv.be/nieuws/oh-leuven-speelt-tegen-antwerp-in-achtste-finales-van-croky-cup-215093",
+   "age": "3 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "OH Leuven made an organisational error and now requires Lommel supporters to travel by bus to Den Dreef, despite earlier confirmation that no combined ticket scheme would apply.",
+   "source": "www.voetbalkrant.com",
+   "url": "https://www.voetbalkrant.com/nieuws/2026-10-20/oh-leuven-maakt-fout-en-komt-met-opvallend-gebaar-voor-lommel-supporters",
+   "age": "1 day ago",
+   "certainty": "reported"
+  },
+  {
+   "fact": "Jan Boterberg will referee the OH Leuven-Lommel match on Saturday at 18.15, with Ken Vermeiren as VAR.",
+   "source": "www.voetbalkrant.com",
+   "url": "https://www.voetbalkrant.com/nieuws/2026-10-20/aanduidingen-speeldag-9-ontdek-hier-welke-scheidsrechter-de-wedstrijd-van-uw-favoriete-ploeg-fluit",
+   "age": "2 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Lommel were knocked out of the Croky Cup by STVV, who won the tie comfortably.",
+   "source": "voetbalkrant.com",
+   "url": "https://voetbalkrant.com/nieuws/2026-10-18/stvv-maakt-lommel-helemaal-af-en-kent-ook-meteen-volgende-tegenstander-in-croky-cup",
+   "age": "3 days ago",
+   "certainty": "confirmed"
+  },
+  {
+   "fact": "Analyst Stef Wijnants said he was shocked at how poor Lommel looked and that STVV reassured him in the cup weekend review.",
+   "source": "hbvl.be",
+   "url": "https://hbvl.be/sport/voetbal/analyse.-ik-schrok-ervan-hoe-belabberd-lommel-voor-de-dag-kwam-stvv-heeft-me-gerustgesteld/163262953.html",
+   "age": "2 days ago",
+   "certainty": "opinion"
+  },
+  {
+   "fact": "Timothy Eyoma said the Limburg derby defeat at Stayen left deep marks on Lommel and that he takes the goals conceded personally, but he wants to bounce back against OH Leuven.",
+   "source": "www.hbvl.be",
+   "url": "https://www.hbvl.be/sport/voetbal/van-wereldkampioen-bij-de-u17-tot-sterkhouder-bij-lommel-sk-ik-trek-me-die-tegendoelpunten-persoonlijk-aan/163352527.html",
+   "age": "3 hours ago",
+   "certainty": "confirmed"
+  }
+ ],
+ "video_title": "Verstraete banned 4 games — Leuven still favourites",
+ "key_points": [
+  "Leuven 50% favourites despite 15th",
+  "Verstraete banned for four matches",
+  "Lommel humbled 1-4 in cup"
+ ],
+ "market": null,
+ "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
+}

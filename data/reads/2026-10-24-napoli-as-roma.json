@@ -115,13 +115,13 @@
   "home": "Napoli",
   "away": "AS Roma",
   "fair": {
-   "home": 34.4,
-   "draw": 27.7,
+   "home": 34.2,
+   "draw": 28.0,
    "away": 37.8
   },
   "move": {
-   "home": 1.0,
-   "draw": 0.1,
+   "home": 0.8,
+   "draw": 0.4,
    "away": -1.1
   },
   "tracked_since": "2026-10-18T22:49:00+00:00",
@@ -161,10 +161,16 @@
     "home": 34.4,
     "draw": 27.7,
     "away": 37.8
+   },
+   {
+    "t": "2026-10-22T01:29:00+00:00",
+    "home": 34.2,
+    "draw": 28.0,
+    "away": 37.8
    }
   ],
   "goals": {
-   "expected": 2.54,
+   "expected": 2.53,
    "first": 2.54
   },
   "absences": {

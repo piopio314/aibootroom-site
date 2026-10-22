@@ -107,34 +107,6 @@
   "Como 61.5% but cooling",
   "Total line set at 3.25"
  ],
- "market": {
-  "id": 1550159,
-  "slug": "2026-10-24-como-sassuolo",
-  "league": "Serie A",
-  "kickoff": "2026-10-24T13:00:00+00:00",
-  "home": "Como",
-  "away": "Sassuolo",
-  "fair": {
-   "home": 61.5,
-   "draw": 21.2,
-   "away": 17.3
-  },
-  "move": {
-   "home": -5.0,
-   "draw": 0.9,
-   "away": 4.1
-  },
-  "tracked_since": "2026-10-18T22:49:00+00:00",
-  "goals": {
-   "expected": 3.22,
-   "first": 3.23
-  },
-  "absences": {
-   "home": 4,
-   "away": 7
-  },
-  "read": "2026-10-24-como-sassuolo",
-  "headline": "Como's Manchester United high meets a rested Sassuolo"
- },
+ "market": null,
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }

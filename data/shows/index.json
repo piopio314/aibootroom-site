@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T00:43:07+00:00",
+ "generated_at": "2026-10-22T01:54:28+00:00",
  "shows": [
   {
    "id": "2026-10-22-ararat-armenia-az-alkmaar",
@@ -618,6 +618,20 @@
    "seconds": 49
   },
   {
+   "id": "2026-10-24-antwerp-charleroi",
+   "home": "Antwerp",
+   "away": "Charleroi",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "title": "Antwerp's crisis, Charleroi's form — and no away fans",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": "/m/2026-10-24-antwerp-charleroi.html",
+   "seconds": 48
+  },
+  {
    "id": "2026-10-24-blackburn-wrexham",
    "home": "Blackburn",
    "away": "Wrexham",
@@ -814,6 +828,20 @@
    "seconds": 44
   },
   {
+   "id": "2026-10-24-oh-leuven-lommel-united",
+   "home": "OH Leuven",
+   "away": "Lommel United",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-10-24T16:15:00+00:00",
+   "title": "Verstraete banned 4 games — Leuven still favourites",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": null,
+   "seconds": 49
+  },
+  {
    "id": "2026-10-24-chelsea-tottenham",
    "home": "Chelsea",
    "away": "Tottenham",
@@ -910,6 +938,20 @@
    "youtube_id": null,
    "article": "/m/2026-10-24-lens-paris-fc.html",
    "seconds": 46
+  },
+  {
+   "id": "2026-10-24-raal-la-louvi-re-zulte-waregem",
+   "home": "RAAL La Louvière",
+   "away": "Zulte Waregem",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-10-24T18:45:00+00:00",
+   "title": "Zulte won 4-0 in April — but arrive on 3 straight defeats",
+   "source": "market_desk",
+   "kicker": "MATCH PREVIEW",
+   "voiced": true,
+   "youtube_id": null,
+   "article": null,
+   "seconds": 48
   },
   {
    "id": "2026-10-24-ado-den-haag-heerenveen",
