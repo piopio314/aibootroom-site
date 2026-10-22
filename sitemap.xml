@@ -9,6 +9,10 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://aibootroom.com/media.html</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://aibootroom.com/privacy.html</loc>
     <changefreq>yearly</changefreq>
   </url>
@@ -89,6 +93,14 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://aibootroom.com/m/2026-10-23-alanyaspor-kocaelispor.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://aibootroom.com/m/2026-10-23-alaves-malaga.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://aibootroom.com/m/2026-10-23-bolton-middlesbrough.html</loc>
     <changefreq>daily</changefreq>
   </url>
@@ -102,6 +114,10 @@
   </url>
   <url>
     <loc>https://aibootroom.com/m/2026-10-23-kortrijk-kv-mechelen.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://aibootroom.com/m/2026-10-23-stade-brestois-29-nice.html</loc>
     <changefreq>daily</changefreq>
   </url>
   <url>
