@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-22T14:30:00+00:00",
- "prices_as_of": "2026-10-22T14:22:00+00:00",
+ "generated_at": "2026-10-22T15:33:00+00:00",
+ "prices_as_of": "2026-10-22T15:22:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
   "matches": 503,
-  "price_changes": 226633,
+  "price_changes": 229180,
   "leagues": 23,
   "absences": 784,
   "tracking_since": "2026-10-18T22:49:00+00:00"
@@ -210,10 +210,16 @@
      "home": 46.0,
      "draw": 24.8,
      "away": 29.2
+    },
+    {
+     "t": "2026-10-22T15:22:00+00:00",
+     "home": 46.0,
+     "draw": 24.8,
+     "away": 29.2
     }
    ],
    "goals": {
-    "expected": 3.23,
+    "expected": 3.24,
     "first": 2.91
    },
    "absences": {
@@ -490,14 +496,14 @@
    "home": "Valencia",
    "away": "Villarreal",
    "fair": {
-    "home": 30.0,
-    "draw": 25.8,
-    "away": 44.1
+    "home": 29.5,
+    "draw": 25.9,
+    "away": 44.6
    },
    "move": {
-    "home": -0.5,
-    "draw": -0.1,
-    "away": 0.6
+    "home": -1.0,
+    "draw": -0.0,
+    "away": 1.0
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "timeline": [
@@ -560,10 +566,16 @@
      "home": 30.0,
      "draw": 25.8,
      "away": 44.1
+    },
+    {
+     "t": "2026-10-22T15:22:00+00:00",
+     "home": 29.5,
+     "draw": 25.9,
+     "away": 44.6
     }
    ],
    "goals": {
-    "expected": 2.73,
+    "expected": 2.74,
     "first": 2.75
    },
    "absences": {
@@ -2099,7 +2111,7 @@
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 3.23,
+    "expected": 3.24,
     "first": 2.91
    },
    "absences": {
@@ -2119,14 +2131,14 @@
    "home": "Monaco",
    "away": "SC Freiburg",
    "fair": {
-    "home": 45.2,
-    "draw": 26.6,
+    "home": 45.0,
+    "draw": 26.8,
     "away": 28.2
    },
    "move": {
-    "home": 3.1,
-    "draw": 0.2,
-    "away": -3.3
+    "home": 2.9,
+    "draw": 0.3,
+    "away": -3.2
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
@@ -2200,7 +2212,7 @@
     "away": 0
    },
    "read": "2026-10-23-go-ahead-eagles-telstar",
-   "headline": "Winless Go Ahead Eagles still favourites against Telstar",
+   "headline": "Eagles without a win in five, but still clear favourites",
    "numbers": "/n/2026-10-23-go-ahead-eagles-telstar.html",
    "competition": "88"
   },
@@ -2355,7 +2367,7 @@
     "away": 3
    },
    "read": "2026-10-23-ipswich-nottingham-forest",
-   "headline": "Forest are 19th and losing — yet the market makes them favourites",
+   "headline": "Forest are 19th, yet the market still makes them favourites",
    "numbers": "/n/2026-10-23-ipswich-nottingham-forest.html",
    "competition": "39"
   },
@@ -3452,18 +3464,18 @@
    "home": "Valencia",
    "away": "Villarreal",
    "fair": {
-    "home": 30.0,
-    "draw": 25.8,
-    "away": 44.1
+    "home": 29.5,
+    "draw": 25.9,
+    "away": 44.6
    },
    "move": {
-    "home": -0.5,
-    "draw": -0.1,
-    "away": 0.6
+    "home": -1.0,
+    "draw": -0.0,
+    "away": 1.0
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.73,
+    "expected": 2.74,
     "first": 2.75
    },
    "absences": {
@@ -3514,14 +3526,14 @@
    "home": "Willem II",
    "away": "Cambuur",
    "fair": {
-    "home": 38.1,
+    "home": 37.5,
     "draw": 25.3,
-    "away": 36.6
+    "away": 37.2
    },
    "move": {
-    "home": -2.6,
+    "home": -3.2,
     "draw": -0.7,
-    "away": 3.3
+    "away": 3.9
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
