@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-22T05:41:00+00:00",
- "prices_as_of": "2026-10-22T05:21:00+00:00",
+ "generated_at": "2026-10-22T06:45:00+00:00",
+ "prices_as_of": "2026-10-22T06:35:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
   "matches": 504,
-  "price_changes": 200324,
+  "price_changes": 203121,
   "leagues": 23,
-  "absences": 585,
+  "absences": 783,
   "tracking_since": "2026-10-18T22:49:00+00:00"
  },
  "featured": {
@@ -139,14 +139,14 @@
    "home": "Ajax",
    "away": "Atalanta",
    "fair": {
-    "home": 43.7,
-    "draw": 24.8,
-    "away": 31.6
+    "home": 44.1,
+    "draw": 25.4,
+    "away": 30.6
    },
    "move": {
-    "home": -0.2,
-    "draw": -1.0,
-    "away": 1.2
+    "home": 0.2,
+    "draw": -0.4,
+    "away": 0.2
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "timeline": [
@@ -191,10 +191,16 @@
      "home": 43.7,
      "draw": 24.8,
      "away": 31.6
+    },
+    {
+     "t": "2026-10-22T06:35:00+00:00",
+     "home": 44.1,
+     "draw": 25.4,
+     "away": 30.6
     }
    ],
    "goals": {
-    "expected": 3.04,
+    "expected": 3.17,
     "first": 2.91
    },
    "absences": {
@@ -278,7 +284,7 @@
    },
    "absences": {
     "home": 4,
-    "away": 2
+    "away": 4
    },
    "read": "2026-10-24-aston-villa-manchester-city",
    "headline": "City lead the league, but Villa Park has been awkward"
@@ -356,8 +362,8 @@
     "first": 2.54
    },
    "absences": {
-    "home": 1,
-    "away": 1
+    "home": 5,
+    "away": 5
    },
    "read": "2026-10-24-napoli-as-roma",
    "headline": "Napoli 'too fragile' as unbeaten Roma come to Naples"
@@ -435,8 +441,8 @@
     "first": 3.03
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 6,
+    "away": 9
    },
    "read": "2026-10-24-chelsea-tottenham",
    "headline": "Maddison and Kulusevski back for Spurs, but Chelsea stay clear favourites"
@@ -526,8 +532,8 @@
     "first": 2.75
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 5,
+    "away": 1
    },
    "read": "2026-10-24-valencia-villarreal",
    "headline": "Wounded at Anfield, Villarreal are narrow favourites at Mestalla"
@@ -987,6 +993,12 @@
      "home": 66.1,
      "draw": 18.0,
      "away": 15.9
+    },
+    {
+     "t": "2026-10-22T06:35:00+00:00",
+     "home": 66.1,
+     "draw": 18.0,
+     "away": 15.9
     }
    ],
    "goals": {
@@ -1122,6 +1134,35 @@
    "headline": null
   },
   {
+   "id": 1636430,
+   "slug": "2026-10-22-fk-jablonec-brighton",
+   "league": "Conference League",
+   "kickoff": "2026-10-22T16:45:00+00:00",
+   "home": "FK Jablonec",
+   "away": "Brighton",
+   "fair": {
+    "home": 7.4,
+    "draw": 13.6,
+    "away": 79.0
+   },
+   "move": {
+    "home": -3.5,
+    "draw": -3.2,
+    "away": 6.7
+   },
+   "tracked_since": "2026-10-20T20:44:00+00:00",
+   "goals": {
+    "expected": 3.29,
+    "first": 3.14
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null
+  },
+  {
    "id": 1563827,
    "slug": "2026-10-24-barnet-oldham",
    "league": "League Two",
@@ -1142,35 +1183,6 @@
    "goals": {
     "expected": 2.86,
     "first": 2.69
-   },
-   "absences": {
-    "home": 0,
-    "away": 0
-   },
-   "read": null,
-   "headline": null
-  },
-  {
-   "id": 1636388,
-   "slug": "2026-10-22-sc-braga-gent",
-   "league": "Conference League",
-   "kickoff": "2026-10-22T19:00:00+00:00",
-   "home": "SC Braga",
-   "away": "Gent",
-   "fair": {
-    "home": 50.5,
-    "draw": 26.7,
-    "away": 22.8
-   },
-   "move": {
-    "home": -5.9,
-    "draw": 0.6,
-    "away": 5.3
-   },
-   "tracked_since": "2026-10-20T20:44:00+00:00",
-   "goals": {
-    "expected": 2.26,
-    "first": 2.29
    },
    "absences": {
     "home": 0,
@@ -1473,7 +1485,7 @@
    },
    "absences": {
     "home": 6,
-    "away": 8
+    "away": 9
    },
    "read": "2026-10-22-dinamo-zagreb-nec-nijmegen",
    "headline": "Dinamo's scoring run meets a NEC side without Tadić",
@@ -1562,8 +1574,8 @@
     "first": 2.61
    },
    "absences": {
-    "home": 6,
-    "away": 9
+    "home": 7,
+    "away": 10
    },
    "read": "2026-10-22-lech-poznan-sunderland",
    "headline": "Lech Poznan are bottom in Europe — Sunderland are still favourites",
@@ -1592,7 +1604,7 @@
     "first": 3.5
    },
    "absences": {
-    "home": 4,
+    "home": 5,
     "away": 9
    },
    "read": "2026-10-22-ofi-bayer-leverkusen",
@@ -1623,7 +1635,7 @@
    },
    "absences": {
     "home": 9,
-    "away": 5
+    "away": 6
    },
    "read": "2026-10-22-union-st-gilloise-hapoel-beer-sheva",
    "headline": "Union play behind closed doors in Düsseldorf — and stay clear favourites",
@@ -1652,8 +1664,8 @@
     "first": 2.77
    },
    "absences": {
-    "home": 9,
-    "away": 2
+    "home": 10,
+    "away": 4
    },
    "read": "2026-10-22-sturm-graz-marseille",
    "headline": "Marseille have no Europa League points — and are still favourites in Graz",
@@ -1713,7 +1725,7 @@
    },
    "absences": {
     "home": 8,
-    "away": 4
+    "away": 6
    },
    "read": "2026-10-22-bournemouth-ac-milan",
    "headline": "Bournemouth favourites as Milan lose two attackers",
@@ -1803,7 +1815,7 @@
    },
    "absences": {
     "home": 4,
-    "away": 3
+    "away": 5
    },
    "read": "2026-10-22-1899-hoffenheim-lyon",
    "headline": "Lyon lead France, yet Hoffenheim are the favourites",
@@ -1893,7 +1905,7 @@
    },
    "absences": {
     "home": 9,
-    "away": 8
+    "away": 10
    },
    "read": "2026-10-22-olympiakos-piraeus-sparta-praha",
    "headline": "Olympiakos without El Kaabi host unbeaten Sparta Praha",
@@ -1952,8 +1964,8 @@
     "first": 2.73
    },
    "absences": {
-    "home": 3,
-    "away": 6
+    "home": 5,
+    "away": 7
    },
    "read": "2026-10-22-plzen-levski-sofia",
    "headline": "Plzen chase a first point against a Levski side built to defend",
@@ -1967,18 +1979,18 @@
    "home": "Ajax",
    "away": "Atalanta",
    "fair": {
-    "home": 43.7,
-    "draw": 24.8,
-    "away": 31.6
+    "home": 44.1,
+    "draw": 25.4,
+    "away": 30.6
    },
    "move": {
-    "home": -0.2,
-    "draw": -1.0,
-    "away": 1.2
+    "home": 0.2,
+    "draw": -0.4,
+    "away": 0.2
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 3.04,
+    "expected": 3.17,
     "first": 2.91
    },
    "absences": {
@@ -2008,7 +2020,7 @@
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 2.68,
+    "expected": 2.7,
     "first": 2.75
    },
    "absences": {
@@ -2057,18 +2069,18 @@
    "home": "GO Ahead Eagles",
    "away": "Telstar",
    "fair": {
-    "home": 59.6,
-    "draw": 23.3,
-    "away": 17.2
+    "home": 59.0,
+    "draw": 23.6,
+    "away": 17.4
    },
    "move": {
-    "home": -0.1,
-    "draw": 0.3,
-    "away": -0.3
+    "home": -0.6,
+    "draw": 0.7,
+    "away": -0.0
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 3.3,
+    "expected": 3.29,
     "first": 3.41
    },
    "absences": {
@@ -2373,7 +2385,7 @@
    },
    "absences": {
     "home": 4,
-    "away": 2
+    "away": 4
    },
    "read": "2026-10-24-aston-villa-manchester-city",
    "headline": "City lead the league, but Villa Park has been awkward",
@@ -2522,8 +2534,8 @@
     "first": 2.27
    },
    "absences": {
-    "home": 1,
-    "away": 0
+    "home": 3,
+    "away": 3
    },
    "read": "2026-10-24-cagliari-bologna",
    "headline": "Cagliari 7th, Bologna 15th — yet Bologna are the favourites",
@@ -2612,8 +2624,8 @@
     "first": 3.78
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 6
    },
    "read": "2026-10-24-rb-leipzig-sv-elversberg",
    "headline": "Leipzig's heavy week meets a promoted side above them",
@@ -2642,8 +2654,8 @@
     "first": 3.04
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 6,
+    "away": 6
    },
    "read": "2026-10-24-fc-augsburg-union-berlin",
    "headline": "Winless Augsburg still favourites as Union Berlin come to the WWK Arena",
@@ -2672,8 +2684,8 @@
     "first": 3.04
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 4,
+    "away": 9
    },
    "read": "2026-10-24-fsv-mainz-05-werder-bremen",
    "headline": "Mainz favourites at home, but their own crowd is the question",
@@ -2702,8 +2714,8 @@
     "first": 3.0
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 6,
+    "away": 4
    },
    "read": "2026-10-24-1-fc-k-ln-fc-schalke-04",
    "headline": "Köln could be without Dallinga and Ache, still clear favourites",
@@ -2732,8 +2744,8 @@
     "first": 2.96
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 4,
+    "away": 5
    },
    "read": "2026-10-24-sc-paderborn-07-hamburger-sv",
    "headline": "Hamburg have won 3 straight, yet Paderborn stay narrow favourites",
@@ -2762,7 +2774,7 @@
     "first": 2.61
    },
    "absences": {
-    "home": 0,
+    "home": 4,
     "away": 0
    },
    "read": "2026-10-24-arsenal-everton",
@@ -2792,8 +2804,8 @@
     "first": 2.74
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 4,
+    "away": 2
    },
    "read": "2026-10-24-coventry-fulham",
    "headline": "Fulham's first win makes them narrow favourites at Coventry",
@@ -2852,8 +2864,8 @@
     "first": 2.27
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 6,
+    "away": 7
    },
    "read": "2026-10-24-blackburn-wrexham",
    "headline": "Wrexham's 4-1 win, 7 players out — and a level game",
@@ -2882,8 +2894,8 @@
     "first": 2.96
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 5,
+    "away": 2
    },
    "read": "2026-10-24-cardiff-birmingham",
    "headline": "Birmingham in form, Cardiff's record keeps it close",
@@ -2912,8 +2924,8 @@
     "first": 2.53
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 4,
+    "away": 12
    },
    "read": "2026-10-24-lincoln-burnley",
    "headline": "Burnley are 22nd — and still favourites at Lincoln",
@@ -2942,8 +2954,8 @@
     "first": 2.54
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 5,
+    "away": 2
    },
    "read": "2026-10-24-preston-west-brom",
    "headline": "Bottom Preston host fifth-placed West Brom at Deepdale",
@@ -2972,8 +2984,8 @@
     "first": 2.45
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 4,
+    "away": 2
    },
    "read": "2026-10-24-qpr-swansea",
    "headline": "Swansea lead the Championship; the market still favours QPR",
@@ -3002,8 +3014,8 @@
     "first": 2.47
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 4,
+    "away": 4
    },
    "read": "2026-10-24-stoke-city-bristol-city",
    "headline": "Stoke win, create little — and the market stays careful",
@@ -3032,8 +3044,8 @@
     "first": 3.16
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 1,
+    "away": 1
    },
    "read": "2026-10-24-west-ham-southampton",
    "headline": "West Ham second, Southampton create chances and do not finish",
@@ -3062,8 +3074,8 @@
     "first": 3.0
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 4,
+    "away": 5
    },
    "read": "2026-10-24-wolves-watford",
    "headline": "Wolves favourites but Peixoto under pressure against Watford",
@@ -3092,8 +3104,8 @@
     "first": 2.79
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 1,
+    "away": 2
    },
    "read": "2026-10-24-racing-santander-espanyol",
    "headline": "Racing's leaky defence meets winless Espanyol at El Sardinero",
@@ -3122,8 +3134,8 @@
     "first": 3.28
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 6,
+    "away": 3
    },
    "read": "2026-10-24-utrecht-pec-zwolle",
    "headline": "Zwolle won the derby 4-1, lost their coach, and now go to Utrecht",
@@ -3212,8 +3224,8 @@
     "first": 2.54
    },
    "absences": {
-    "home": 1,
-    "away": 1
+    "home": 5,
+    "away": 5
    },
    "read": "2026-10-24-napoli-as-roma",
    "headline": "Napoli 'too fragile' as unbeaten Roma come to Naples",
@@ -3242,8 +3254,8 @@
     "first": 2.5
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 3,
+    "away": 3
    },
    "read": "2026-10-24-samsunspor-amed",
    "headline": "Samsunspor chase an unwanted record as Amed visit",
@@ -3302,8 +3314,8 @@
     "first": 3.03
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 6,
+    "away": 9
    },
    "read": "2026-10-24-chelsea-tottenham",
    "headline": "Maddison and Kulusevski back for Spurs, but Chelsea stay clear favourites",
@@ -3332,8 +3344,8 @@
     "first": 2.75
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 5,
+    "away": 1
    },
    "read": "2026-10-24-valencia-villarreal",
    "headline": "Wounded at Anfield, Villarreal are narrow favourites at Mestalla",
@@ -3362,8 +3374,8 @@
     "first": 3.59
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 4,
+    "away": 4
    },
    "read": "2026-10-24-borussia-dortmund-eintracht-frankfurt",
    "headline": "Unbeaten Dortmund host a Frankfurt side that shipped six",
@@ -3392,8 +3404,8 @@
     "first": 3.06
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 5,
+    "away": 4
    },
    "read": "2026-10-24-willem-ii-cambuur",
    "headline": "Willem II: new coach, narrow favourites at home",
@@ -3452,8 +3464,8 @@
     "first": 2.43
    },
    "absences": {
-    "home": 2,
-    "away": 0
+    "home": 7,
+    "away": 3
    },
    "read": "2026-10-24-lazio-parma",
    "headline": "Unbeaten Lazio host sinking Parma as clear favourites",
@@ -3482,8 +3494,8 @@
     "first": 2.9
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 5,
+    "away": 2
    },
    "read": "2026-10-24-lens-paris-fc",
    "headline": "Lens host Paris FC three days after a 0-3 defeat",
@@ -3572,8 +3584,8 @@
     "first": 3.28
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
    },
    "read": "2026-10-24-ado-den-haag-heerenveen",
    "headline": "ADO's shock win over PSV — and why Heerenveen are favourites",
@@ -3602,8 +3614,8 @@
     "first": 3.07
    },
    "absences": {
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 6
    },
    "read": "2026-10-24-atletico-madrid-deportivo-la-coruna",
    "headline": "Giménez returns: Atletico clear favourites against winless Deportivo",
