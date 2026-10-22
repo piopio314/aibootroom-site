@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-22T00:42:00+00:00",
- "prices_as_of": "2026-10-21T23:18:00+00:00",
+ "generated_at": "2026-10-22T01:21:00+00:00",
+ "prices_as_of": "2026-10-22T00:50:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed.",
  "totals": {
-  "matches": 468,
-  "price_changes": 178009,
+  "matches": 504,
+  "price_changes": 180223,
   "leagues": 23,
   "absences": 585,
   "tracking_since": "2026-10-18T22:49:00+00:00"
@@ -133,14 +133,14 @@
    "home": "Ajax",
    "away": "Atalanta",
    "fair": {
-    "home": 44.9,
-    "draw": 24.9,
-    "away": 30.2
+    "home": 43.7,
+    "draw": 24.8,
+    "away": 31.6
    },
    "move": {
-    "home": 1.1,
-    "draw": -0.9,
-    "away": -0.2
+    "home": -0.2,
+    "draw": -1.0,
+    "away": 1.2
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "timeline": [
@@ -179,10 +179,16 @@
      "home": 44.9,
      "draw": 24.9,
      "away": 30.2
+    },
+    {
+     "t": "2026-10-22T00:50:00+00:00",
+     "home": 43.7,
+     "draw": 24.8,
+     "away": 31.6
     }
    ],
    "goals": {
-    "expected": 3.03,
+    "expected": 3.04,
     "first": 2.91
    },
    "absences": {
@@ -1353,7 +1359,7 @@
    "name": "Jupiler Pro League",
    "cup": false,
    "roundup": null,
-   "matches": 5,
+   "matches": 9,
    "first": "2026-10-23T18:45:00+00:00",
    "last": "2026-10-25T18:15:00+00:00"
   }
@@ -1907,18 +1913,18 @@
    "home": "Ajax",
    "away": "Atalanta",
    "fair": {
-    "home": 44.9,
-    "draw": 24.9,
-    "away": 30.2
+    "home": 43.7,
+    "draw": 24.8,
+    "away": 31.6
    },
    "move": {
-    "home": 1.1,
-    "draw": -0.9,
-    "away": -0.2
+    "home": -0.2,
+    "draw": -1.0,
+    "away": 1.2
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 3.03,
+    "expected": 3.04,
     "first": 2.91
    },
    "absences": {
@@ -1937,18 +1943,18 @@
    "home": "Monaco",
    "away": "SC Freiburg",
    "fair": {
-    "home": 41.8,
-    "draw": 26.8,
-    "away": 31.3
+    "home": 43.5,
+    "draw": 26.7,
+    "away": 29.8
    },
    "move": {
-    "home": -0.2,
-    "draw": 0.4,
-    "away": -0.1
+    "home": 1.4,
+    "draw": 0.2,
+    "away": -1.6
    },
    "tracked_since": "2026-10-20T20:44:00+00:00",
    "goals": {
-    "expected": 2.67,
+    "expected": 2.68,
     "first": 2.75
    },
    "absences": {
@@ -2177,18 +2183,18 @@
    "home": "Bolton",
    "away": "Middlesbrough",
    "fair": {
-    "home": 20.0,
-    "draw": 21.5,
-    "away": 58.5
+    "home": 18.7,
+    "draw": 20.9,
+    "away": 60.4
    },
    "move": {
-    "home": -1.8,
-    "draw": -0.6,
-    "away": 2.5
+    "home": -3.1,
+    "draw": -1.3,
+    "away": 4.3
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 3.11,
+    "expected": 3.13,
     "first": 3.14
    },
    "absences": {
@@ -2207,18 +2213,18 @@
    "home": "Alaves",
    "away": "Malaga",
    "fair": {
-    "home": 54.9,
-    "draw": 25.7,
+    "home": 54.8,
+    "draw": 25.9,
     "away": 19.4
    },
    "move": {
-    "home": 1.6,
-    "draw": -0.7,
-    "away": -0.9
+    "home": 1.5,
+    "draw": -0.5,
+    "away": -1.0
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.37,
+    "expected": 2.35,
     "first": 2.34
    },
    "absences": {
@@ -2417,18 +2423,18 @@
    "home": "Rayo Vallecano",
    "away": "Elche",
    "fair": {
-    "home": 54.0,
-    "draw": 24.7,
-    "away": 21.3
+    "home": 54.2,
+    "draw": 24.6,
+    "away": 21.2
    },
    "move": {
-    "home": -0.0,
-    "draw": -0.1,
-    "away": 0.1
+    "home": 0.2,
+    "draw": -0.2,
+    "away": 0.0
    },
    "tracked_since": "2026-10-18T22:49:00+00:00",
    "goals": {
-    "expected": 2.6,
+    "expected": 2.61,
     "first": 2.6
    },
    "absences": {
@@ -2740,6 +2746,36 @@
    "competition": "39"
   },
   {
+   "id": 1558653,
+   "slug": "2026-10-24-antwerp-charleroi",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-10-24T14:00:00+00:00",
+   "home": "Antwerp",
+   "away": "Charleroi",
+   "fair": {
+    "home": 23.9,
+    "draw": 23.1,
+    "away": 52.9
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-22T00:50:00+00:00",
+   "goals": {
+    "expected": 2.79,
+    "first": 2.79
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "144"
+  },
+  {
    "id": 1563215,
    "slug": "2026-10-24-blackburn-wrexham",
    "league": "Championship",
@@ -2778,7 +2814,7 @@
    "away": "Birmingham",
    "fair": {
     "home": 36.2,
-    "draw": 25.4,
+    "draw": 25.3,
     "away": 38.4
    },
    "move": {
@@ -2788,7 +2824,7 @@
    },
    "tracked_since": "2026-10-19T22:19:00+00:00",
    "goals": {
-    "expected": 2.97,
+    "expected": 2.98,
     "first": 2.96
    },
    "absences": {
@@ -3160,6 +3196,36 @@
    "competition": "203"
   },
   {
+   "id": 1558658,
+   "slug": "2026-10-24-oh-leuven-lommel-united",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-10-24T16:15:00+00:00",
+   "home": "OH Leuven",
+   "away": "Lommel United",
+   "fair": {
+    "home": 50.2,
+    "draw": 24.5,
+    "away": 25.2
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-22T00:50:00+00:00",
+   "goals": {
+    "expected": 2.94,
+    "first": 2.94
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "144"
+  },
+  {
    "id": 1557439,
    "slug": "2026-10-24-chelsea-tottenham",
    "league": "Premier League",
@@ -3368,6 +3434,66 @@
    "read": "2026-10-24-lens-paris-fc",
    "headline": "Lens host Paris FC three days after a 0-3 defeat",
    "competition": "61"
+  },
+  {
+   "id": 1558659,
+   "slug": "2026-10-24-raal-la-louvi-re-zulte-waregem",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-10-24T18:45:00+00:00",
+   "home": "RAAL La Louvière",
+   "away": "Zulte Waregem",
+   "fair": {
+    "home": 31.1,
+    "draw": 28.1,
+    "away": 40.8
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-22T00:50:00+00:00",
+   "goals": {
+    "expected": 2.51,
+    "first": 2.51
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "144"
+  },
+  {
+   "id": 1558661,
+   "slug": "2026-10-24-kvc-westerlo-sk-beveren",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-10-24T18:45:00+00:00",
+   "home": "KVC Westerlo",
+   "away": "SK Beveren",
+   "fair": {
+    "home": 46.0,
+    "draw": 25.3,
+    "away": 28.7
+   },
+   "move": {
+    "home": 0.0,
+    "draw": 0.0,
+    "away": 0.0
+   },
+   "tracked_since": "2026-10-22T00:50:00+00:00",
+   "goals": {
+    "expected": 3.17,
+    "first": 3.17
+   },
+   "absences": {
+    "home": 0,
+    "away": 0
+   },
+   "read": null,
+   "headline": null,
+   "competition": "144"
   },
   {
    "id": 1552201,

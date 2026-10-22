@@ -115,14 +115,14 @@
   "home": "Ajax",
   "away": "Atalanta",
   "fair": {
-   "home": 44.9,
-   "draw": 24.9,
-   "away": 30.2
+   "home": 43.7,
+   "draw": 24.8,
+   "away": 31.6
   },
   "move": {
-   "home": 1.1,
-   "draw": -0.9,
-   "away": -0.2
+   "home": -0.2,
+   "draw": -1.0,
+   "away": 1.2
   },
   "tracked_since": "2026-10-20T20:44:00+00:00",
   "timeline": [
@@ -161,10 +161,16 @@
     "home": 44.9,
     "draw": 24.9,
     "away": 30.2
+   },
+   {
+    "t": "2026-10-22T00:50:00+00:00",
+    "home": 43.7,
+    "draw": 24.8,
+    "away": 31.6
    }
   ],
   "goals": {
-   "expected": 3.03,
+   "expected": 3.04,
    "first": 2.91
   },
   "absences": {
