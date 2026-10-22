@@ -6,7 +6,7 @@
   "away": "Lyon",
   "league": "Europa League",
   "kickoff": "2026-10-22T19:00:00+00:00",
-  "home_short": "189",
+  "home_short": "HOF",
   "away_short": "LYO",
   "home_color": "#b45309",
   "away_color": "#ea580c"
@@ -792,13 +792,13 @@
   "format": "steady",
   "kicker": "MATCH PREVIEW",
   "stickers": [
-   "📊",
-   "🎯",
-   "📊"
+   "chart-bar",
+   "target",
+   "chart-bar"
   ]
  },
  "source": "market_desk",
  "fixture_id": 1636267,
- "prices_as_of": "2026-10-21T21:18:00+00:00",
+ "prices_as_of": "2026-10-22T08:29:00+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice."
 }

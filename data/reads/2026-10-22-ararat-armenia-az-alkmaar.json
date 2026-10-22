@@ -86,6 +86,35 @@
   "Ararat 34th of 36, no points",
   "Goal line 3.0, lean Over"
  ],
- "market": null,
+ "market": {
+  "id": 1636215,
+  "slug": "2026-10-22-ararat-armenia-az-alkmaar",
+  "league": "Europa League",
+  "kickoff": "2026-10-22T16:45:00+00:00",
+  "home": "Ararat-Armenia",
+  "away": "AZ Alkmaar",
+  "fair": {
+   "home": 13.5,
+   "draw": 19.3,
+   "away": 67.3
+  },
+  "move": {
+   "home": -3.6,
+   "draw": -1.9,
+   "away": 5.5
+  },
+  "tracked_since": "2026-10-20T20:44:00+00:00",
+  "goals": {
+   "expected": 3.13,
+   "first": 3.04
+  },
+  "absences": {
+   "home": 2,
+   "away": 5
+  },
+  "read": "2026-10-22-ararat-armenia-az-alkmaar",
+  "headline": "Ararat-Armenia, 34th in Europe, host an AZ side a goal stronger",
+  "numbers": "/n/2026-10-22-ararat-armenia-az-alkmaar.html"
+ },
  "disclaimer": "18+ · Market analysis, not betting advice. Probabilities are the market's, with the margin removed."
 }
