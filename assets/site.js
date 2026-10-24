@@ -49,8 +49,24 @@ const ABR = {
       <circle cx="${x(last).toFixed(1)}" cy="${y(last[side]).toFixed(1)}" r="5" fill="${col}" stroke="#121821" stroke-width="2"/></svg>`;
   },
   // one AI pick as a card (homepage + picks page): our poster → YouTube, the pick, market vs ours, hook, reasons, risk, receipt
-  VERDICTS: {RIGHT: 'Right — won and beat the closing price', LUCKY: 'Lucky — won, but the price went against us',
-             UNLUCKY: 'Unlucky — lost, but we beat the closing price', WRONG: 'Wrong — lost, and the price went against us', PUSH: 'Push — stake back'},
+  VERDICTS: {RIGHT: 'Right — won, and the market moved toward the pick before kick-off', LUCKY: 'Lucky — won, but the market moved away from the pick',
+             UNLUCKY: 'Unlucky — lost, but the market moved toward the pick', WRONG: 'Wrong — lost, and the market moved away from the pick', PUSH: 'Push — stake back'},
+  HELD: {yes: ['check', 'held'], no: ['x', 'did not hold'], unclear: ['zoom-question', 'unclear']},
+  // after the match: every published reason with whether it held on the pitch, then the risk
+  pickVerdict(p, units) {
+    const E = ABR.esc;
+    return `<div class="pverdict v-${E(p.verdict.toLowerCase())}"><b>${E(p.score ? p.score + ' · ' : '')}${E(ABR.VERDICTS[p.verdict] || p.verdict)}</b> ${units}${p.receipt ? `<span>${E(p.receipt)}</span>` : ''}</div>`;
+  },
+  pickChecks(p) {
+    const E = ABR.esc, H = ABR.HELD;
+    if (!(p.checks || []).length) return '';
+    const n = p.checks.filter(c => c.held === 'yes').length;
+    const li = p.checks.map(c => { const h = H[c.held] || H.unclear;
+      return `<li class="h-${E(c.held)}">${ABR.ic(h[0])}<div><b>${E(c.say || c.label)}</b><span>${E(h[1])}: ${E(c.note || '')}</span></div></li>`; }).join('');
+    const r = p.risk_check, rh = r ? ({yes: 'it happened', no: 'it did not happen', unclear: 'unclear'})[r.happened] || 'unclear' : '';
+    return `<div class="pchecks"><div class="pck-h">Our reasons after the match · ${n} of ${p.checks.length} held</div><ul>${li}</ul>
+      ${r ? `<p class="prisk"><b>The risk we named:</b> ${E(r.say || '')} <span class="rk rk-${E(r.happened)}">${E(rh)}</span> ${E(r.note || '')}</p>` : ''}</div>`;
+  },
   pickCard(p, i) {
     const E = ABR.esc, S = ABR.short;
     const units = p.pnl != null ? `<b class="${p.pnl > 0 ? 'up' : p.pnl < 0 ? 'down' : ''}">${p.pnl > 0 ? '+' : ''}${p.pnl.toFixed(2)} u</b>` : '';
@@ -64,9 +80,9 @@ const ABR = {
         <div class="psel"><b>${E(p.selection)}</b><span>@ ${p.odds.toFixed(2)}</span></div>
         ${p.our_pct != null ? `<div class="pch">Market <b>${p.market_pct_when_set}%</b> · ours <b class="ours">${p.our_pct}%</b></div>` : ''}
         ${p.hook ? `<p class="phook">${E(p.hook)}</p>` : ''}
-        ${(p.reasons || []).length ? `<ol class="pwhy">${p.reasons.map(r => `<li>${E(r)}</li>`).join('')}</ol>` : ''}
-        ${p.risk ? `<p class="prisk"><b>The risk:</b> ${E(p.risk)}</p>` : ''}
-        ${p.verdict ? `<div class="pverdict v-${E(p.verdict.toLowerCase())}"><b>${E(p.score ? p.score + ' · ' : '')}${E(ABR.VERDICTS[p.verdict] || p.verdict)}</b> ${units}${p.receipt ? `<span>${E(p.receipt)}</span>` : ''}</div>`
+        ${(p.checks || []).length ? ABR.pickVerdict(p, units) + ABR.pickChecks(p) : `${(p.reasons || []).length ? `<ol class="pwhy">${p.reasons.map(r => `<li>${E(r)}</li>`).join('')}</ol>` : ''}
+        ${p.risk ? `<p class="prisk"><b>The risk:</b> ${E(p.risk)}</p>` : ''}`}
+        ${p.verdict ? ((p.checks || []).length ? '' : ABR.pickVerdict(p, units))
           : `<div class="pstamp">Published ${E(ABR.when(p.published_at || p.set_at, true))} · ${p.hours_before_kickoff >= 48 ? (p.hours_before_kickoff / 24).toFixed(1) + ' days' : Math.round(p.hours_before_kickoff) + ' h'} before kick-off · final</div>`}
       </div></article>`;
   },

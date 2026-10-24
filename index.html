@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css?v=258">
+<link rel="stylesheet" href="assets/site.css?v=259">
 <script src="/assets/nav.js" defer></script>
 </head>
 <body>
@@ -137,7 +137,7 @@
   <span id="updated"></span><span class="legal"><a href="/media.html">Media check</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><button type="button" onclick="ABRConsent.open()">Cookie settings</button></span><span>© 2026 AI Boot Room</span>
 </div></footer>
 
-<script src="assets/site.js?v=257"></script>
+<script src="assets/site.js?v=258"></script>
 <script>
 (async function () {
   const E = ABR.esc, S = ABR.short;
@@ -331,7 +331,7 @@
   const RES = {win: 'WIN', half_win: '½ WIN', loss: 'LOSS', half_loss: '½ LOSS', push: 'PUSH', void: 'VOID'};
   const ticket = p => {
     const status = p.status === 'withdrawn' ? `<span class="stamp red">WITHDRAWN BEFORE KICK-OFF</span>`
-      : p.status === 'settled' ? `<span class="stamp">${RES[p.result] || 'SETTLED'}${p.clv_pct != null ? ` · CLV ${ABR.sign(p.clv_pct)}%` : ''}</span>`
+      : p.status === 'settled' ? `<span class="stamp">${RES[p.result] || 'SETTLED'}${p.market_move_pp != null ? ` · MARKET ${ABR.sign(p.market_move_pp)} PTS` : ''}</span>`
       : `<span class="stamp grey">PUBLISHED ${p.hours_before_kickoff >= 48 ? (p.hours_before_kickoff / 24).toFixed(1) + ' DAYS' : Math.round(p.hours_before_kickoff) + ' H'} BEFORE KICK-OFF</span>`;
     return `<div class="ticket"><h4>AI BOOT ROOM · PICK RECEIPT</h4>
       <div class="r"><span>Match</span><b>${E(S(p.home))} v ${E(S(p.away))}</b></div>
@@ -356,16 +356,16 @@
         <div class="lstat"><div class="n disp">${s.published || 0}</div><div class="l">picks published</div></div>
         <div class="lstat"><div class="n disp">${s.pending || 0}</div><div class="l">waiting for kick-off</div></div>
         <div class="lstat"><div class="n disp">${settled ? `${rec.win || 0}–${rec.loss || 0}` : '—'}</div><div class="l">${settled ? `record · ½: ${rec.half_win || 0}–${rec.half_loss || 0} · push ${rec.push || 0}` : 'record (after the first results)'}</div></div>
-        <div class="lstat"><div class="n disp ${(s.avg_clv_pct || 0) > 0 ? 'up' : (s.avg_clv_pct || 0) < 0 ? 'down' : ''}">${s.avg_clv_pct == null ? '—' : ABR.sign(s.avg_clv_pct) + '%'}</div><div class="l">average CLV vs closing line${s.beat_close_pct != null ? ` · beat it ${s.beat_close_pct.toFixed(0)}%` : ''}</div></div>
+        <div class="lstat"><div class="n disp ${(s.avg_move_pp || 0) > 0 ? 'up' : (s.avg_move_pp || 0) < 0 ? 'down' : ''}">${s.with_move ? `${s.moved_our_way} of ${s.with_move}` : '—'}</div><div class="l">market moved our way before kick-off${s.avg_move_pp != null ? ` · average ${ABR.sign(s.avg_move_pp)} pts` : ''}</div></div>
       </div>
       ${picks.length ? '' : '<p class="sub">No pick published yet. A pick goes on this board at least 24 hours before kick-off — with its time and price — and never leaves it. Most matches get an analysis, not a pick: the market is right far more often than not.</p>'}</div>`;
   document.getElementById('ledgerBox').innerHTML = board;
   if (picks.length) {
     document.getElementById('ledgerBox').innerHTML = board + `
-<table class="ltable"><thead><tr><th>Kick-off</th><th>Match</th><th>Pick</th><th>Price</th><th class="hide-m">Published</th><th class="hide-m">CLV</th><th>Result</th></tr></thead><tbody>
+<table class="ltable"><thead><tr><th>Kick-off</th><th>Match</th><th>Pick</th><th>Price</th><th class="hide-m">Published</th><th class="hide-m">Market move</th><th>Result</th></tr></thead><tbody>
       ${picks.map(p => `<tr><td>${E(ABR.when(p.kickoff))}</td><td><b>${E(S(p.home))} v ${E(S(p.away))}</b></td><td>${E(p.selection)}</td><td>${p.odds.toFixed(2)}</td>
         <td class="hide-m">${p.hours_before_kickoff >= 48 ? (p.hours_before_kickoff / 24).toFixed(1) + ' days before' : Math.round(p.hours_before_kickoff) + ' h before'}</td>
-        <td class="hide-m ${p.clv_pct > 0 ? 'up' : p.clv_pct < 0 ? 'down' : ''}">${p.clv_pct != null ? ABR.sign(p.clv_pct) + '%' : '—'}</td>
+        <td class="hide-m ${p.market_move_pp > 0 ? 'up' : p.market_move_pp < 0 ? 'down' : ''}">${p.market_move_pp != null ? ABR.sign(p.market_move_pp) + ' pts' : '—'}</td>
         <td>${p.status === 'withdrawn' ? '<span class="pill withdrawn">withdrawn</span>' : p.status === 'settled' ? `<span class="pill ${p.result === 'win' ? 'win' : p.result === 'loss' ? 'loss' : p.result && p.result.startsWith('half') ? 'half' : 'push'}">${E(RES[p.result] || p.result)}${p.score ? ' · ' + E(p.score) : ''}</span>` : '<span class="pill pending">pending</span>'}</td></tr>`).join('')}
       </tbody></table>`;
   }
