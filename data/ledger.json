@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-24T19:12:38+00:00",
+ "generated_at": "2026-10-25T05:55:41+00:00",
  "disclaimer": "18+ · Market analysis, not betting advice. Every pick is timestamped before kick-off and never edited.",
  "summary": {
   "published": 7,
   "in_record": 7,
-  "pending": 6,
-  "settled": 1,
+  "pending": 0,
+  "settled": 7,
   "withdrawn": 0,
   "avg_clv_pct": -5.16,
   "beat_close_pct": 0.0,
@@ -14,13 +14,13 @@
   "moved_our_way": 3,
   "with_move": 7,
   "results": {
-   "win": 0,
+   "win": 2,
    "half_win": 0,
    "push": 0,
-   "half_loss": 0,
-   "loss": 1
+   "half_loss": 1,
+   "loss": 4
   },
-  "units": -1.0,
+  "units": -2.41,
   "avg_odds": 2.0
  },
  "picks": [
@@ -35,7 +35,7 @@
    "set_at": "2026-10-22T11:25:45+00:00",
    "published_at": "2026-10-22T11:25:45+00:00",
    "hours_before_kickoff": 55.6,
-   "status": "pending",
+   "status": "settled",
    "withdrawn_at": null,
    "withdraw_reason": null,
    "source": "AI Boot Room",
@@ -43,9 +43,9 @@
    "closing_source": "sharp market",
    "clv_pct": -5.76,
    "market_move_pp": -0.2,
-   "score": null,
-   "result": null,
-   "pnl": null,
+   "score": "1-0",
+   "result": "loss",
+   "pnl": -1.0,
    "market_selection": "AH Home -1.75",
    "title": "Atletico Madrid -1.75: The Three-Goal Ask",
    "hook": "The market gives Atletico Madrid a 48.3% chance; we make it 50.0%.",
@@ -58,10 +58,33 @@
    "summary": "Our pick is Atletico Madrid -1.75 at 1.96. They need a three-goal win for the full return; a two-goal win returns half. Atletico have 22 points in La Liga.",
    "market_pct_when_set": 48.3,
    "our_pct": 50.0,
-   "verdict": null,
-   "receipt": null,
-   "checks": null,
-   "risk_check": null,
+   "verdict": "WRONG",
+   "receipt": "Alvarez scored on 48 minutes as expected, but Atletico won only 1-0, so -1.75 lost; 1.49 xG to 1.73, 20 shots to 15 and 4 on target to 5 showed a narrow game, with no red cards.",
+   "checks": [
+    {
+     "label": "Table strength",
+     "say": "Atletico have 22 points in La Liga.",
+     "held": "yes",
+     "note": "Atletico won 1-0, though Deportivo's 1.73 xG was higher than Atletico's 1.49."
+    },
+    {
+     "label": "Winless run",
+     "say": "Deportivo have not won in five league games.",
+     "held": "yes",
+     "note": "Deportivo lost 1-0, so their winless run continued."
+    },
+    {
+     "label": "Alvarez off mark",
+     "say": "Julian Alvarez scored his first goal of the season in midweek.",
+     "held": "yes",
+     "note": "Álvarez started, played 90 minutes and scored Atletico's goal on 48'."
+    }
+   ],
+   "risk_check": {
+    "say": "Atletico often win narrowly, so a single-goal win loses this pick.",
+    "happened": "yes",
+    "note": "Atletico won 1-0, a single-goal win, so the -1.75 margin was not met."
+   },
    "receipt_revised_at": null,
    "youtube": "https://www.youtube.com/shorts/Ib9AIomep0M",
    "x": "https://x.com/AiBootRoom/status/2113320770726162899",
@@ -79,7 +102,7 @@
    "set_at": "2026-10-22T11:22:16+00:00",
    "published_at": "2026-10-22T11:22:16+00:00",
    "hours_before_kickoff": 55.4,
-   "status": "pending",
+   "status": "settled",
    "withdrawn_at": null,
    "withdraw_reason": null,
    "source": "AI Boot Room",
@@ -87,9 +110,9 @@
    "closing_source": "sharp market",
    "clv_pct": -9.64,
    "market_move_pp": -3.4,
-   "score": null,
-   "result": null,
-   "pnl": null,
+   "score": "2-1",
+   "result": "half_loss",
+   "pnl": -0.5,
    "market_selection": "AH Home -1.25",
    "title": "Lazio -1.25 vs Parma: we make Lazio 52%",
    "hook": "The market gives Lazio a 48.6% chance here. We make it 52%.",
@@ -102,10 +125,33 @@
    "summary": "Lazio -1.25 at the market average price of 2.0. It needs a Lazio win by two goals; anything narrower returns only part of the pick. We make Lazio 52% for this, above the market's number.",
    "market_pct_when_set": 48.6,
    "our_pct": 52.0,
-   "verdict": null,
-   "receipt": null,
-   "checks": null,
-   "risk_check": null,
+   "verdict": "WRONG",
+   "receipt": "Lazio won 2-1 but by only one goal, so the Lazio -1.25 pick was a half loss and the verdict is WRONG. They dominated with 1.82 expected goals to 0.87 and 21 shots to 10, but Parma scored at 90+5.",
+   "checks": [
+    {
+     "label": "3-0 at Juventus",
+     "say": "Lazio won their last league game 3-0, away at Juventus.",
+     "held": "yes",
+     "note": "Lazio won 2-1 and took 21 shots, so their strong form showed, though not as a 3-0 scoreline."
+    },
+    {
+     "label": "Parma 19th, defence poor",
+     "say": "Parma are 19th and sportparma.com called their defence horrific.",
+     "held": "yes",
+     "note": "Parma conceded two goals and allowed Lazio 1.82 expected goals and 21 shots."
+    },
+    {
+     "label": "Price favours Lazio",
+     "say": "The market now rates Lazio about 1.2 goals the better team.",
+     "held": "yes",
+     "note": "Lazio were clearly the better side on 68% possession and 1.82 expected goals, but the win was only by one."
+    }
+   ],
+   "risk_check": {
+    "say": "Lazio created few chances at Juventus, so a narrow win returns only half.",
+    "happened": "yes",
+    "note": "Lazio won by a single goal at 2-1, exactly the narrow-win case named."
+   },
    "receipt_revised_at": null,
    "youtube": "https://www.youtube.com/shorts/udfJCJXEd2c",
    "x": "https://x.com/AiBootRoom/status/2113320667974091062",
@@ -123,7 +169,7 @@
    "set_at": "2026-10-22T11:24:20+00:00",
    "published_at": "2026-10-22T11:24:20+00:00",
    "hours_before_kickoff": 50.1,
-   "status": "pending",
+   "status": "settled",
    "withdrawn_at": null,
    "withdraw_reason": null,
    "source": "AI Boot Room",
@@ -131,9 +177,9 @@
    "closing_source": "sharp market",
    "clv_pct": -1.5,
    "market_move_pp": 1.7,
-   "score": null,
-   "result": null,
-   "pnl": null,
+   "score": "1-1",
+   "result": "loss",
+   "pnl": -1.0,
    "market_selection": "Over 3.25",
    "title": "Augsburg vs Union Berlin: Over 3.25 goals",
    "hook": "Augsburg vs Union Berlin: the market gives this pick 48.3%; we make it 53.0%.",
@@ -146,10 +192,33 @@
    "summary": "Pick: Over 3.25 goals in Augsburg vs Union Berlin. The market average price is 1.97. The pick wins with four goals; exactly three returns half.",
    "market_pct_when_set": 48.3,
    "our_pct": 53.0,
-   "verdict": null,
-   "receipt": null,
-   "checks": null,
-   "risk_check": null,
+   "verdict": "UNLUCKY",
+   "receipt": "It finished 1-1: goals at 71 and 74 minutes, with expected goals of 1.91 for Augsburg and 1.24 for Union. Chances came as we said, but more goals did not, with a red card for each side.",
+   "checks": [
+    {
+     "label": "Goals in Augsburg games",
+     "say": "Augsburg's recent matches produced 25 goals in total.",
+     "held": "no",
+     "note": "The match produced only two goals in total, not a high-scoring Augsburg game."
+    },
+    {
+     "label": "High xG against",
+     "say": "Augsburg average 3.28 expected goals against.",
+     "held": "no",
+     "note": "Union Berlin recorded 1.24 expected goals, below the 3.28 average cited."
+    },
+    {
+     "label": "Both teams to score",
+     "say": "Both teams to score is priced at 62.4%.",
+     "held": "yes",
+     "note": "Both teams scored: Augsburg at 71' and Union Berlin at 74'."
+    }
+   ],
+   "risk_check": {
+    "say": "If Union Berlin defend deep with a back five, the goals may not come.",
+    "happened": "unclear",
+    "note": "Union had 31% possession and six shots; the input does not confirm a back five."
+   },
    "receipt_revised_at": null,
    "youtube": "https://www.youtube.com/shorts/KqMj43B5lwI",
    "x": "https://x.com/AiBootRoom/status/2113320707396403231",
@@ -167,7 +236,7 @@
    "set_at": "2026-10-22T17:17:53+00:00",
    "published_at": "2026-10-22T17:17:53+00:00",
    "hours_before_kickoff": 43.7,
-   "status": "pending",
+   "status": "settled",
    "withdrawn_at": null,
    "withdraw_reason": null,
    "source": "AI Boot Room",
@@ -175,9 +244,9 @@
    "closing_source": "sharp market",
    "clv_pct": -0.31,
    "market_move_pp": 1.3,
-   "score": null,
-   "result": null,
-   "pnl": null,
+   "score": "2-0",
+   "result": "win",
+   "pnl": 1.03,
    "market_selection": "AH Home -1.25",
    "title": "Como -1.25 v Sassuolo: market 47.8%, our number 50.5%",
    "hook": "The market gives Como a 47.8% chance here. We make it 50.5%.",
@@ -190,10 +259,33 @@
    "summary": "Our pick is Como -1.25, which needs a two-goal Como win; a one-goal win returns half. The market gives Como a 47.8% chance here. We make it 50.5%, with Sassuolo missing their most-used defender and conceding goals in bunches.",
    "market_pct_when_set": 47.8,
    "our_pct": 50.5,
-   "verdict": null,
-   "receipt": null,
-   "checks": null,
-   "risk_check": null,
+   "verdict": "RIGHT",
+   "receipt": "Como won 2-0, Douvikas scoring at 49 and 60 minutes. They had 1.69 expected goals to 0.26 and 6 shots on target to 0; the two-goal margin went as we said. The first half was 0-0, but Sassuolo did not test the keeper and no red card or VAR goal changed it.",
+   "checks": [
+    {
+     "label": "Como league form",
+     "say": "Como have 14 points from their Serie A games this season.",
+     "held": "yes",
+     "note": "Como won 2-0 with 14 shots and 1.69 expected goals."
+    },
+    {
+     "label": "Sassuolo leaking goals",
+     "say": "Sassuolo have conceded 11 goals in their last five matches.",
+     "held": "yes",
+     "note": "Sassuolo conceded both goals in the second half and had 0 shots on target."
+    },
+    {
+     "label": "Leysen ruled out",
+     "say": "Sassuolo's most-used defender Leysen is out with a knee injury.",
+     "held": "yes",
+     "note": "Leysen was not in Sassuolo's squad list for the match."
+    }
+   ],
+   "risk_check": {
+    "say": "If Fabregas rests starters after the Champions League night, Como may not win by two.",
+    "happened": "no",
+    "note": "Como won by two and Douvikas, who started, scored both goals."
+   },
    "receipt_revised_at": null,
    "youtube": "https://www.youtube.com/shorts/D9DSjs67o-U",
    "x": "https://x.com/AiBootRoom/status/2113319800340443336",
@@ -211,7 +303,7 @@
    "set_at": "2026-10-22T17:20:06+00:00",
    "published_at": "2026-10-22T17:20:06+00:00",
    "hours_before_kickoff": 43.7,
-   "status": "pending",
+   "status": "settled",
    "withdrawn_at": null,
    "withdraw_reason": null,
    "source": "AI Boot Room",
@@ -219,9 +311,9 @@
    "closing_source": "sharp market",
    "clv_pct": -8.73,
    "market_move_pp": -0.9,
-   "score": null,
-   "result": null,
-   "pnl": null,
+   "score": "0-2",
+   "result": "win",
+   "pnl": 1.06,
    "market_selection": "AH Away -0.25",
    "title": "Bologna -0.25 at Cagliari: We Make It 47.0%",
    "hook": "The market gives Bologna a 45.2% chance here. We make it 47%.",
@@ -234,10 +326,33 @@
    "summary": "Bologna -0.25: a Bologna win wins the pick, and a draw returns half. The market gives Bologna a 45.2% chance here; we make it 47%. Bologna have had seven days to prepare since their home defeat by Inter.",
    "market_pct_when_set": 45.2,
    "our_pct": 47.0,
-   "verdict": null,
-   "receipt": null,
-   "checks": null,
-   "risk_check": null,
+   "verdict": "LUCKY",
+   "receipt": "Bologna won 0-2 at Cagliari, with 1.64 xG to 0.44 and 10 shots to 4; goals came at 57' and 80'. The away win and Cagliari's low threat went as said, while the thin-attack worry did not show. It was lucky: the chance for the pick fell before kick-off.",
+   "checks": [
+    {
+     "label": "Seven days to prepare",
+     "say": "Palladino has had seven days to prepare after Bologna's first defeat.",
+     "held": "yes",
+     "note": "Bologna won 0-2 with 10 shots and 5 on target, a controlled away display."
+    },
+    {
+     "label": "Won there last time",
+     "say": "Bologna won 2-0 on their last visit to Cagliari.",
+     "held": "yes",
+     "note": "Bologna won 0-2 at Cagliari, repeating the 2-0 win on their last visit."
+    },
+    {
+     "label": "Beaten four at Monza",
+     "say": "Cagliari lost 0-4 at Monza in their last match.",
+     "held": "yes",
+     "note": "Cagliari lost 0-2 at home with only 4 shots and 0.44 xG."
+    }
+   ],
+   "risk_check": {
+    "say": "Piccoli is out for three weeks and Orsolini is a doubt, so Bologna may not score.",
+    "happened": "no",
+    "note": "Bologna scored twice, through Casale at 57' and Bernardeschi at 80', and had 5 shots on goal."
+   },
    "receipt_revised_at": null,
    "youtube": "https://www.youtube.com/shorts/wbvFhgLUJ1o",
    "x": "https://x.com/AiBootRoom/status/2113320318622134492",
@@ -255,7 +370,7 @@
    "set_at": "2026-10-22T17:16:56+00:00",
    "published_at": "2026-10-22T17:16:56+00:00",
    "hours_before_kickoff": 42.2,
-   "status": "pending",
+   "status": "settled",
    "withdrawn_at": null,
    "withdraw_reason": null,
    "source": "AI Boot Room",
@@ -263,9 +378,9 @@
    "closing_source": "sharp market",
    "clv_pct": -2.51,
    "market_move_pp": 1.5,
-   "score": null,
-   "result": null,
-   "pnl": null,
+   "score": "2-1",
+   "result": "loss",
+   "pnl": -1.0,
    "market_selection": "AH Home -1.5",
    "title": "Huddersfield -1.5: we make it 52.5% against Wigan",
    "hook": "The market gives Huddersfield a 48.2% chance; we make it 52.5%.",
@@ -278,10 +393,33 @@
    "summary": "Huddersfield -1.5: Huddersfield must win by two goals or more, and a one-goal win loses the pick. The market gives them a 48.2% chance here and we make it 52.5%. Huddersfield average 2.59 expected goals for, and Wigan are bottom of the table after another defeat.",
    "market_pct_when_set": 48.2,
    "our_pct": 52.5,
-   "verdict": null,
-   "receipt": null,
-   "checks": null,
-   "risk_check": null,
+   "verdict": "UNLUCKY",
+   "receipt": "Huddersfield's 3.08 expected goals and 17 shots backed the strong-attack read, but the pick needed a two-goal win; they led 2-0, then Wigan scored at 90+2 and it ended 2-1, so the pick lost.",
+   "checks": [
+    {
+     "label": "Strong attack",
+     "say": "Huddersfield average 2.59 expected goals for across their recent league games.",
+     "held": "yes",
+     "note": "Huddersfield recorded 3.08 expected goals and 17 shots, scoring twice."
+    },
+    {
+     "label": "Bottom club",
+     "say": "Wigan average 0.57 expected goals for and sit bottom of the table.",
+     "held": "yes",
+     "note": "Wigan recorded 0.54 expected goals and 7 shots and lost 2-1."
+    },
+    {
+     "label": "Seven defeats",
+     "say": "Wigan have lost seven League One games this season, the latest at Oxford.",
+     "held": "yes",
+     "note": "Wigan lost this match 2-1."
+    }
+   ],
+   "risk_check": {
+    "say": "Huddersfield can win by one goal and this pick still loses.",
+    "happened": "yes",
+    "note": "Huddersfield won 2-1, a one-goal margin, so the -1.5 selection lost."
+   },
    "receipt_revised_at": null,
    "youtube": "https://www.youtube.com/shorts/RqWwmszvn3I",
    "x": "https://x.com/AiBootRoom/status/2113319411746587115",
