@@ -137,21 +137,21 @@
       board += ORDER().filter(c => list.some(p => p.lg === c)).map(c => `<div class="lgb" data-lg="${c}"><div class="lgh"><span class="cc">${LG[c][1]}</span>${esc(LG[c][0])}</div>${list.filter(p => p.lg === c).map(p => card(p)).join("")}</div>`).join("");
       board += `</div></div>`;
     }
-    if (!up.length) board += `<div class="day"><div class="empty"><div class="ico">${ic("calendar")}</div><div><b>${D.public ? "No open picks right now" : "Live picks start soon"}</b><p>${D.public ? "Picks appear one to two days before kick-off. The next ones come with the next round of matches." : "The model already prices every match of the 18 leagues. Once live, every pick appears here one to two days before kick-off, and every result stays on the record."}</p></div></div></div>`;
+    if (!up.length) board += `<div class="day"><div class="empty"><div class="ico">${ic("calendar")}</div><div><b>${D.public ? "No open picks right now" : "Live picks start soon"}</b><p>${D.public ? "Picks appear one to two days before kick-off. The next ones come with the next round of matches." : "The model already looks at the matches of the 18 leagues once both teams reach matchday 10, and most of them get no pick. Once live, our picks appear here one to two days before kick-off, and all of them stay on the record."}</p></div></div></div>`;
     const waits = D.leagues.filter(l => l.state === "waiting"), nop = D.leagues.filter(l => l.state === "no_pick");
     if (waits.length) board += `<div class="day"><h3>Not at matchday 10 yet <small>${waits.length} league${waits.length === 1 ? "" : "s"}</small></h3><div class="grid2">${waits.slice(0, 4).map(emptyLeague).join("")}</div></div>`;
     if (nop.length) board += `<div class="day"><h3>No pick this round <small>${nop.length} league${nop.length === 1 ? "" : "s"}</small></h3><div class="grid2">${nop.slice(0, 2).map(emptyRound).join("")}</div></div>`;
     const lgs = ORDER().filter(c => up.some(p => p.lg === c));
     return `<section class="hA"><div class="wrap"><div class="g">
       <div><span class="kicker">Season 2026/27 · live record</span>
-        <h1>One model. Every pick published a day before kick-off. Every result kept.</h1>
-        <p class="sub">A statistical model trained on 14 seasons of matches and market prices picks Asian handicap sides in 18 leagues. No one chooses by hand, nothing is deleted.</p>
+        <h1>One model. Our picks are out a day before kick-off. All of them stay on the record.</h1>
+        <p class="sub">A statistical model trained on 14 seasons of matches and market prices looks at the matches of 18 leagues and picks an Asian handicap side only when it disagrees with the price. Most matches get no pick. No one chooses by hand, nothing is deleted.</p>
         <div class="rec">${kpis(rec)}<div class="chart"><div class="ttl">Units, pick by pick</div>${liveChart(live)}</div></div></div>
-      <div><div class="nextk">${next ? "Next kick-off" : "Next picks"}</div>${next ? card(next, { big: true }) : `<div class="empty"><div class="ico">${ic("hourglass")}</div><div><b>${D.public ? "The next picks come with the next round" : "The first live picks come soon"}</b><p>Every pick is published 24 to 48 hours before kick-off, with the price at that moment, and is final from then on.</p></div></div>`}
+      <div><div class="nextk">${next ? "Next kick-off" : "Next picks"}</div>${next ? card(next, { big: true }) : `<div class="empty"><div class="ico">${ic("hourglass")}</div><div><b>${D.public ? "The next picks come with the next round" : "The first live picks come soon"}</b><p>Our picks are published 24 to 48 hours before kick-off, with the price at that moment, and are final from then on.</p></div></div>`}
         <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap"><a class="btn primary" href="/record.html">${ic("chart-line")} Full record</a><a class="btn ghost" href="/method.html">How it works</a><a class="btn ghost" href="/simulation.html">Seven seasons, replayed</a></div></div>
     </div></div></section>
     <section class="section" style="padding-top:30px"><div class="wrap">
-      <div class="head-row"><div><span class="kicker">The board</span><h2>Open picks</h2><p class="lead">${up.length ? `${up.length} open pick${up.length === 1 ? "" : "s"} in ${lgs.length} league${lgs.length === 1 ? "" : "s"}. ` : ""}Times are Madrid time. Each pick is final from the moment it appears.</p></div></div>
+      <div class="head-row"><div><span class="kicker">The board</span><h2>Open picks</h2><p class="lead">${up.length ? `${up.length} open pick${up.length === 1 ? "" : "s"} in ${lgs.length} league${lgs.length === 1 ? "" : "s"}. ` : ""}Times are Madrid time. A pick is final from the moment it appears.</p></div></div>
       ${lgs.length > 1 ? `<div class="filters" id="filters"><span class="chip on" data-f="">All leagues</span>${lgs.map(c => `<span class="chip" data-f="${c}">${esc(LG[c][0])}</span>`).join("")}</div>` : ""}
       ${board}
       ${recent.length ? `<div class="day"><h3>Just settled <small>last 3 days</small></h3><div class="grid3">${recent.slice(0, 9).map(p => card(p)).join("")}</div></div>` : ""}
@@ -187,22 +187,22 @@
     const row = (name, a) => `<tr><td class="mt">${name}</td><td class="num">${a.n}</td><td class="num">${a.w}–${a.l}–${a.p}</td><td class="num ${cls(a.u)}"><b>${sgn(a.u)}</b></td><td class="num ${cls(a.y)}">${sgn(a.y * 100)}%</td></tr>`;
     const H = ["Picks", "W–L–P", "Units", "Yield"];
     let liveHtml;
-    if (!live.length) liveHtml = `<div class="empty" style="margin-top:14px"><div class="ico">${ic("hourglass")}</div><div><b>The live record starts with the first settled pick</b><p>${D.record.open ? `${D.record.open} pick${D.record.open === 1 ? " is" : "s are"} open now. ` : ""}Every live pick is published 24 to 48 hours before kick-off and settled after the final whistle. Until then this page shows the simulation.</p></div></div><div class="chart" style="margin-top:14px">${liveChart([])}</div>`;
+    if (!live.length) liveHtml = `<div class="empty" style="margin-top:14px"><div class="ico">${ic("hourglass")}</div><div><b>The live record starts with the first settled pick</b><p>${D.record.open ? `${D.record.open} pick${D.record.open === 1 ? " is" : "s are"} open now. ` : ""}Our live picks are published 24 to 48 hours before kick-off and settled after the final whistle. Until then this page shows the simulation.</p></div></div><div class="chart" style="margin-top:14px">${liveChart([])}</div>`;
     else {
       const wkOf = p => monday(p.ko);
       const weeks = [...new Set(live.map(wkOf))].sort().reverse().map(w => row(`<a class="ul" href="/weekly.html?w=${w}">${weekLabel(w)}</a>`, agg(live.filter(p => wkOf(p) === w)))).join("");
       const mk = p => dayKey(p.ko).slice(0, 7);
       const months = [...new Set(live.map(mk))].sort().reverse().map(m => row(fmt(m + "-15T12:00:00Z", { month: "long", year: "numeric" }), agg(live.filter(p => mk(p) === m)))).join("");
       const lgs = ORDER().map(c => [c, agg(live.filter(p => p.lg === c))]).filter(x => x[1].n).map(([c, a]) => row(esc(LG[c][0]), a)).join("");
-      liveHtml = `<div class="banner live"><span class="ico">${ic("check")}</span><div><b>Live record: real picks, published before kick-off</b>Every pick since ${dayLong(D.live_since)} 2026, settled at the reference price shown at publication. Nothing removed, nothing edited.</div></div>
+      liveHtml = `<div class="banner live"><span class="ico">${ic("check")}</span><div><b>Live record: real picks, published before kick-off</b>All our picks since ${dayLong(D.live_since)} 2026, settled at the reference price shown at publication. Nothing removed, nothing edited.</div></div>
       ${kpis(rec)}
       <div class="pg2" style="margin-top:14px"><div class="chart"><div class="ttl">Units, pick by pick</div>${liveChart(live)}</div>
       <div class="mini"><h4>Closing price, for information</h4><p>Average CLV so far: <b style="color:var(--text)">${rec.clv == null ? "—" : sgn(rec.clv) + "%"}</b>. CLV compares the price at publication with the closing price. It is shown for information only: in the simulation it sat slightly below zero (about −0.9%) in every season while the picks still made a profit, so this model is judged by results over many picks, not by CLV.</p></div></div>
       <h3 class="h3s">By week <small>Monday to Sunday</small></h3>${tbl(["Week", ...H], weeks)}
       <div class="cols2"><div><h3 class="h3s">By month</h3>${tbl(["Month", ...H], months)}</div><div><h3 class="h3s">By league <small>small samples are noise</small></h3>${tbl(["League", ...H], lgs)}</div></div>
-      <p class="mut" style="margin-top:12px;font-size:13.5px">Every settled pick as a file: <a class="ul" href="/data/picks.csv" download>${ic("download")} picks.csv</a> · every change to this site is public in its history.</p>`;
+      <p class="mut" style="margin-top:12px;font-size:13.5px">All our settled picks as a file: <a class="ul" href="/data/picks.csv" download>${ic("download")} picks.csv</a> · every change to this site is public in its history.</p>`;
     }
-    return `<div class="wrap"><div class="ph"><span class="kicker">Record</span><h1>Every pick, and how it went</h1>
+    return `<div class="wrap"><div class="ph"><span class="kicker">Record</span><h1>Our picks, and how they went</h1>
       <div class="tabs" id="rtabs"><button data-rt="live" class="${tab === "live" ? "on" : ""}">${ic("check")} Live record</button><button data-rt="sim" class="simt ${tab === "sim" ? "on" : ""}">${ic("chart-line")} Historical simulation</button></div></div>
       <div id="rbody">${tab === "live" ? liveHtml : simTab()}</div></div>`;
   }
@@ -261,7 +261,7 @@
     }
     body += `<tr class="sum"><td class="l" style="color:var(--accent)">All 21 leagues</td>${SE.map(s => `<td>${sgn(S.all.s[s][1])}<span class="n">${S.all.s[s][0]}</span></td>`).join("")}<td style="color:var(--accent)">${sgn(S.all.all[1])}<span class="n">${S.all.all[0]}</span></td><td class="mut" style="font-size:11.5px">${sgn(S.all.all[2])} to ${sgn(S.all.all[3])}</td></tr>`;
     return `<div class="wrap"><div class="ph"><span class="kicker">Simulation</span><h1>Seven seasons, replayed</h1>
-      <p class="lead">Yield of every pick the rules would have made, by league and season, at the sharp price one to two days before kick-off (the same kind of price as the live picks), 1 unit per pick. Small number = picks. <span class="chip sim">SIMULATION</span></p></div>
+      <p class="lead">Yield of all the picks the rules would have made, by league and season, at the sharp price one to two days before kick-off (the same kind of price as the live picks), 1 unit per pick. Small number = picks. <span class="chip sim">SIMULATION</span></p></div>
       <div class="banner sim"><span class="ico">${ic("alert-triangle")}</span><div><b>This is a simulation, not a betting record</b>Each season was picked by a model trained only on earlier seasons, using only what was known before each match. It still has limits: the core leagues were also used to build the model, and 2025/26 covers only part of the season.</div></div>
       <h3 class="h3s">Three kinds of data</h3>
       <div class="periods">
@@ -280,13 +280,13 @@
 
   function pageMethod() {
     const rules = [
-      ["clock", "24 to 48 hours before kick-off", "Every pick appears one to two days before the match, with the price at that moment. Nothing is added later, when team news is out."],
+      ["clock", "24 to 48 hours before kick-off", "Our picks appear one to two days before the match, with the price at that moment. Nothing is added later, when team news is out."],
       ["calendar", "From matchday 10", "A match can be a pick only when both teams have already played at least 9 league matches this season, so it is at least their 10th. Their form numbers come from their last 10 league matches, which at that point can still include the end of last season. From August to October the board is mostly empty."],
       ["world", "18 leagues, fixed in advance", "England (4 divisions), Spain, Italy, Germany and France (2 each), Netherlands, Portugal, Turkey, Belgium, Scotland, Greece. The list does not change during the season."],
-      ["coins", "One reference price for every pick", "The price is the sharp market reference price at the moment of publication, never the best number found anywhere. Results use that price, 1 unit per pick."],
-      ["target", "Zero picking by hand", "Every match that meets the rule is published. No one removes a pick, adds one, or skips a weekend."],
+      ["coins", "One reference price per pick", "The price is the sharp market reference price at the moment of publication, never the best number found anywhere. Results use that price, 1 unit per pick."],
+      ["target", "Zero picking by hand", "Whenever the rule produces a pick, it is published. Most matches produce none. No one removes a pick, adds one, or skips a weekend."],
       ["lock", "Final and kept", "A published pick is never edited or deleted. Every change to the site is in its public history."],
-      ["chart-bar", "Every result on the page", "The model runs the whole season with the same rules. Losing weeks are published the same way as winning ones."],
+      ["chart-bar", "All results on the page", "The model runs the whole season with the same rules. Losing weeks are published the same way as winning ones."],
       ["chart-line", "Live and simulation, never mixed", "Live picks are a record of their own. Past seasons are shown only as a simulation, on separate pages."]];
     return `<div class="wrap"><div class="ph"><span class="kicker">How it works</span><h1>A statistical model, simple rules, all results in public</h1>
       <p class="lead">The model is trained on 14 seasons of matches and market prices. It does one thing: it estimates the chance that a team covers the main Asian handicap line, and compares it with the market.</p></div>
@@ -313,7 +313,7 @@
     return a.getUTCMonth() === b.getUTCMonth() ? `${f(a, { day: "numeric" })}–${f(b, { day: "numeric", month: "long" })}` : `${f(a, { day: "numeric", month: "short" })} – ${f(b, { day: "numeric", month: "short" })}`; }
   function pageWeekly() {
     const live = settled(), weeks = [...new Set(live.map(p => monday(p.ko)))].sort();
-    if (!weeks.length) return `<div class="wrap"><div class="ph"><span class="kicker">Weekly report</span><h1>The first report comes on the Monday after the first picks</h1></div><div class="empty"><div class="ico">${ic("calendar")}</div><div><b>No settled picks yet</b><p>Every Monday: all picks of the week, the results and the season so far. Nothing is added or removed after the fact.</p></div></div></div>`;
+    if (!weeks.length) return `<div class="wrap"><div class="ph"><span class="kicker">Weekly report</span><h1>The first report comes on the Monday after the first picks</h1></div><div class="empty"><div class="ico">${ic("calendar")}</div><div><b>No settled picks yet</b><p>Every Monday: all our picks of the week, the results and the season so far. Nothing is added or removed after the fact.</p></div></div></div>`;
     let w = new URLSearchParams(location.search).get("w"); if (!weeks.includes(w)) w = weeks[weeks.length - 1];
     const i = weeks.indexOf(w), L = live.filter(p => monday(p.ko) === w), a = agg(L), s = agg(live.filter(p => monday(p.ko) <= w));
     const lgs = ORDER().map(c => [c, agg(L.filter(p => p.lg === c))]).filter(x => x[1].n).sort((x, y) => y[1].u - x[1].u);
@@ -326,7 +326,7 @@
         <div class="kpi"><div class="l">Won</div><div class="v">${Math.round(a.w / Math.max(a.w + a.l, 1) * 100)}%</div><div class="s">of picks with a winner</div></div>
         <div class="kpi"><div class="l">Season so far</div><div class="v ${cls(s.u)}">${sgn(s.u)}</div><div class="s">${s.n} picks · yield ${sgn(s.y * 100)}%</div></div></div>
       ${lgs.length > 1 ? `<div class="notes3" style="margin-top:14px"><div><b>Best and worst league this week:</b> ${esc(LG[lgs[0][0]][0])} ${sgn(lgs[0][1].u)} u from ${lgs[0][1].n} pick${lgs[0][1].n === 1 ? "" : "s"}; ${esc(LG[lgs[lgs.length - 1][0]][0])} ${sgn(lgs[lgs.length - 1][1].u)} u from ${lgs[lgs.length - 1][1].n}. Over one week this is noise.</div>${a.clv != null ? `<div><b>For information:</b> average CLV this week ${sgn(a.clv)}%. In the simulation it sat just below zero in every season, so it does not judge the model.</div>` : ""}</div>` : ""}
-      <h3 class="h3s">Every pick of the week <small>${a.n} picks, nothing left out</small></h3>
+      <h3 class="h3s">All our picks of the week <small>${a.n} picks, nothing left out</small></h3>
       <div class="tblwrap scroll-x"><table class="tbl" style="min-width:820px"><thead><tr><th>Day</th><th>League</th><th>Match</th><th>Pick</th><th class="num">Price</th><th class="num">Close</th><th>Result</th><th class="num">Units</th></tr></thead><tbody>${rows}</tbody></table></div>
       <p class="mut" style="font-size:13px;margin-top:10px">Price = reference price at publication; close = closing price, for information. Void matches are not counted.</p></div>`;
   }
