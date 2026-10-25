@@ -53,7 +53,7 @@
     let bar = "";
     for (let i = 1; i <= 10; i++) bar += `<i class="${i <= Math.min(l.md || 0, 10) - 1 ? "f" : i === 10 ? "t" : ""}"></i>`;
     return `<div class="empty"><div class="ico">${ic("hourglass")}</div><div><b>No picks before matchday 10 in ${esc(l.name)}</b>
-      <p>The model waits until every team has played 9 league matches this season.${l.start ? ` Picks start with the matches of ${dayLong(l.start)}.` : ""}</p><div class="mdbar">${bar}</div></div></div>`;
+      <p>A match can be a pick only when both teams have played at least 9 league matches this season.${l.start ? ` In ${esc(l.name)} that starts with the matches of ${dayLong(l.start)}.` : ""}</p><div class="mdbar">${bar}</div></div></div>`;
   }
   const emptyRound = l => `<div class="empty"><div class="ico">${ic("target")}</div><div><b>No pick in ${esc(l.name)} this round</b>
       <p>The model priced the matches of the next three days. None was far enough from the market price. That is part of the record too: nothing is chosen by hand.</p></div></div>`;
@@ -281,7 +281,7 @@
   function pageMethod() {
     const rules = [
       ["clock", "24 to 48 hours before kick-off", "Every pick appears one to two days before the match, with the price at that moment. Nothing is added later, when team news is out."],
-      ["calendar", "From matchday 10", "The model needs this season's numbers. In each league picks start when every team has played 9 league matches. From August to October the board is mostly empty."],
+      ["calendar", "From matchday 10", "A match can be a pick only when both teams have already played at least 9 league matches this season, so it is at least their 10th. Their form numbers come from their last 10 league matches, which at that point can still include the end of last season. From August to October the board is mostly empty."],
       ["world", "18 leagues, fixed in advance", "England (4 divisions), Spain, Italy, Germany and France (2 each), Netherlands, Portugal, Turkey, Belgium, Scotland, Greece. The list does not change during the season."],
       ["coins", "One reference price for every pick", "The price is the sharp market reference price at the moment of publication, never the best number found anywhere. Results use that price, 1 unit per pick."],
       ["target", "Zero picking by hand", "Every match that meets the rule is published. No one removes a pick, adds one, or skips a weekend."],
@@ -291,9 +291,9 @@
     return `<div class="wrap"><div class="ph"><span class="kicker">How it works</span><h1>A statistical model, simple rules, all results in public</h1>
       <p class="lead">The model is trained on 14 seasons of matches and market prices. It does one thing: it estimates the chance that a team covers the main Asian handicap line, and compares it with the market.</p></div>
       <div class="steps" style="margin-top:18px">
-        <div class="step"><div class="n">1</div><b>Reads the season</b><p>For both teams: results, goals, chances created and allowed, form against the line, rest, cup matches and missing players.</p></div>
+        <div class="step"><div class="n">1</div><b>Reads the season</b><p>For both teams, over their last 10 league matches and the season so far: results, goals, chances created and allowed, form against the line, rest, cup matches and missing players.</p></div>
         <div class="step"><div class="n">2</div><b>Reads the market</b><p>The prices for the match, turned into chances without the margin.</p></div>
-        <div class="step"><div class="n">3</div><b>Compares</b><p>When the model's chance to cover is clearly higher than the market's, the side becomes a pick. Most matches are not picks.</p></div>
+        <div class="step"><div class="n">3</div><b>Compares</b><p>When the model's chance to cover is high enough to beat the price by a clear margin, the side becomes a pick. Most matches are not picks.</p></div>
         <div class="step"><div class="n">4</div><b>Publishes and settles</b><p>The pick goes out automatically with its reference price. After the match it is settled at that price.</p></div></div>
       <h3 class="h3s">The rules</h3><div class="rules">${rules.map(([i, t, d]) => `<div class="rule"><span class="ico">${ic(i)}</span><div><b>${t}</b>${d}</div></div>`).join("")}</div>
       <h3 class="h3s">Asian handicap in one minute</h3>
@@ -301,7 +301,7 @@
         <p>The main line is the one where the market sees both sides close to 50/50. That is why a good model wins only a little more often than it loses, and why the record needs hundreds of picks before it means anything.</p></div>
       <h3 class="h3s">What to expect</h3>
       <div class="notes3"><div><b>A small edge, if any.</b> The <a class="ul" href="/simulation.html">simulation</a> found about +${Math.round(S.full[1])} units per 100 picks at the sharp price a day or two before kick-off. Live it will probably be less.</div>
-        <div><b>About 40 picks a week</b> once every league has reached matchday 10, fewer in the first weeks of the season.</div>
+        <div><b>About ${Math.round(S.full[0] / S.weeks.length)} picks a week</b> in the simulation, counted over the weeks of the season with matches. Fewer in the first weeks, while teams reach matchday 10.</div>
         <div><b>Not a promise.</b> Past results, live or simulated, do not tell you what will happen next.</div></div>
       <h3 class="h3s">Who is behind this</h3><div class="prose"><p>AI Boot Room is an independent project run from Spain. It does not take bets, has no betting partners, sells nothing and is not paid for picks.</p></div>
       <div class="legalbox" style="margin-top:18px"><div class="r18">18+</div><div><b style="color:var(--text);display:block;margin-bottom:4px">For adults. Information only.</b>Nothing on this site is advice to bet. If you choose to gamble, only use money you can afford to lose, and stop if it stops being fun. Help in Spain: jugarbien.es.</div></div></div>`;
