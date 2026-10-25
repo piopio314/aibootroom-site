@@ -1,8 +1,7 @@
 /* AI Boot Room — the one site menu for every page (owner 2026-10-22): the same items everywhere, one item highlighted,
    and on phones a menu button that opens the full menu. Pages only need
    <header class="nav"><div class="wrap"><a class="logo">…</a> … </div></header> and this script.
-   v2.63 (owner 2026-10-25): the site is the model's picks; pages of the previous system stay at their addresses with
-   an "archive" banner and noindex (OLD below). */
+   v2.63 (owner 2026-10-25): the site is the model's picks; the previous system's pages were removed. */
 (function () {
   const ITEMS = [
     ['/', 'Picks'],
@@ -13,7 +12,6 @@
   ];
   const PILL = ['/record.html', 'Record'];
   const here = location.pathname.replace(/index\.html$/, '');
-  const OLD = /^\/(m|n|receipts)\/|^\/(read|match|media|picks)\.html$/;
 
   function build(header) {
     const wrap = header.querySelector('.wrap');
@@ -49,18 +47,6 @@
     document.addEventListener('keydown', ev => { if (ev.key === 'Escape') close(); });
     document.addEventListener('click', ev => { if (!header.contains(ev.target)) close(); });
   }
-  function oldBanner(header) {
-    if (!OLD.test(location.pathname) || document.querySelector('.old-system')) return;
-    if (!document.querySelector('meta[name="robots"]')) {
-      const m = document.createElement('meta'); m.name = 'robots'; m.content = 'noindex'; document.head.appendChild(m);
-    }
-    const b = document.createElement('div');
-    b.className = 'old-system';
-    b.setAttribute('style', 'background:#2a2110;border-bottom:1px solid #5a4210;color:#ffe2a6;font:600 14px/1.45 Inter,system-ui,sans-serif;padding:10px 16px;text-align:center');
-    b.innerHTML = 'Archive: this page is from the previous AI Boot Room system and is no longer updated. ' +
-      '<a href="/" style="color:#ffb020;text-decoration:underline">See the live model picks</a>';
-    header.after(b);
-  }
-  const run = () => document.querySelectorAll('header.nav').forEach(h => { build(h); oldBanner(h); });
+  const run = () => document.querySelectorAll('header.nav').forEach(build);
   document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', run) : run();
 })();

@@ -331,7 +331,7 @@
       <p class="mut" style="font-size:13px;margin-top:10px">Price = reference price at publication; close = closing price, for information. Void matches are not counted.</p></div>`;
   }
 
-  const footer = `<footer><div class="wrap"><span class="rg"><b>18+</b><span>Information only, not betting advice. AI Boot Room does not take bets, has no betting partners and is paid by no one for picks. Results are past results. If gambling stops being fun, get help: jugarbien.es.</span></span><span class="sp"></span><a href="/method.html">Rules</a><a href="/archive.html">Old picks (previous system)</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></div></footer>`;
+  const footer = `<footer><div class="wrap"><span class="rg"><b>18+</b><span>Information only, not betting advice. AI Boot Room does not take bets, has no betting partners and is paid by no one for picks. Results are past results. If gambling stops being fun, get help: jugarbien.es.</span></span><span class="sp"></span><a href="/method.html">Rules</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><button type="button" class="ck" onclick="window.ABRConsent && ABRConsent.open()">Cookie settings</button></div></footer>`;
   const PAGES = { home: pageHome, record: pageRecord, pick: pagePick, simulation: pageSimulation, method: pageMethod, weekly: pageWeekly };
 
   function render() {
