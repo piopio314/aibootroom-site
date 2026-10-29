@@ -37,16 +37,33 @@
     return `<div class="res"><span class="sc">${score(p)}</span><span class="chip ${p.k === "won" ? "g" : p.k === "lost" ? "r" : ""}">${ic(p.k === "won" ? "check" : p.k === "lost" ? "x" : "arrow-back-up")} ${p.label}</span>
       <b class="${cls(p.u)}">${sgn(p.u, 2)} u</b>${p.close ? `<span class="mut">closing price ${p.close.toFixed(2)}${p.clv != null ? ` · CLV ${sgn(p.clv)}%` : ""}</span>` : ""}</div>`;
   }
+  /* v2.76 (owner 2026-10-30): the pick tile is the X card — photo band of the place of the match with the big date and
+     CET/CEST time, then the light "paper" with league, teams, the pick, the price at decision, model vs market, the why;
+     a settled pick gets the outcome stamp on the photo, as in the results video. */
+  const tzName = iso => ((new Intl.DateTimeFormat("en-GB", { timeZone: TZ, timeZoneName: "short" }).formatToParts(new Date(iso))
+    .find(x => x.type === "timeZoneName") || {}).value || "").replace(/^GMT\+1$/, "CET").replace(/^GMT\+2$/, "CEST");
+  const dayBig = iso => fmt(iso, { weekday: "short", day: "numeric", month: "short" }).replace(",", "").toUpperCase();
+  const abbr = t => String(t).replace(/[^A-Za-z]/g, "").slice(0, 3).toUpperCase();
   function card(p, o = {}) {
     const done = p.state === "settled" || p.state === "void" || p.state === "playing";
-    return `<a class="pk ${o.big ? "big" : ""} ${p.state === "settled" ? p.k : ""}" href="/pick.html?n=${p.n}">
-      <div class="top">${lgChip(p.lg)}<span class="sp"></span><span class="t">${when(p.ko)}</span></div>
-      ${teams(p)}
-      <div class="sel"><span class="lab">PICK</span><span class="v">${esc(p.team)} ${fmtLine(p.line)}</span><span class="ah">Asian handicap</span></div>
-      <div><div class="mut" style="font-size:12px;margin-bottom:4px">Chance to cover the line</div>${cmp(p)}</div>
-      <div class="meta"><span>Reference price <b>${p.price.toFixed(2)}</b></span><span>${ic("clock")} Published ${when(p.pub)} · ${Math.round(p.hb)} h before</span></div>
-      ${p.why ? `<div class="why">${esc(p.why)}</div>` : ""}
-      ${done ? resLine(p) : `<div class="lockline">${ic("lock")} Pick #${p.n} · final at publication, settled after the match</div>`}
+    const stamp = p.state === "settled" ? `<div class="stamp ${p.k}">${esc(p.label)}<small>${sgn(p.u, 2)} units</small></div>`
+      : p.state === "void" ? `<div class="stamp push">Void</div>` : "";
+    return `<a class="pc ${o.big ? "big" : ""} ${p.state === "settled" ? p.k : ""}" href="/pick.html?n=${p.n}">
+      <div class="band"${p.photo ? ` style="background-image:url('${esc(p.photo)}')"` : ""}>
+        <div class="btop"><span>AI<em>BootRoom</em>.com</span><span>MODEL PICK #${p.n}</span></div>
+        <div class="dt"><b>${dayBig(p.ko)}</b><span>${hm(p.ko)} <i>${tzName(p.ko)}</i></span></div>
+        ${p.credit ? `<div class="cr">${esc(p.credit)}</div>` : ""}${stamp}
+      </div>
+      <div class="paper">
+        <div class="lgn">${esc(LG[p.lg][0])}</div>
+        <div class="tm"><i>${esc(p.hs || abbr(p.home))}</i><span>${esc(p.home)} v ${esc(p.away)}</span><i>${esc(p.as || abbr(p.away))}</i></div>
+        <div class="pr"><div><b>${esc(p.team)} ${fmtLine(p.line)}</b><small>Asian handicap</small></div>
+          <div class="px"><b>${p.price.toFixed(2)}</b><small>Price at decision</small></div></div>
+        <div class="ch"><span>Model <b>${pct(p.model)}</b></span><span>Market <b>${pct(p.mkt)}</b></span></div>
+        ${p.why ? `<p class="wy">${esc(p.why)}</p>` : ""}
+        ${done ? resLine(p) : `<div class="lockline">${ic("lock")} Final from publication · settled after the match</div>`}
+        <div class="ft">Published ${when(p.pub)} ${tzName(p.pub)} · ${Math.round(p.hb)} h before kick-off · 18+</div>
+      </div>
     </a>`;
   }
   function emptyLeague(l) {
@@ -151,7 +168,7 @@
         <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap"><a class="btn primary" href="/record.html">${ic("chart-line")} Full record</a><a class="btn ghost" href="/method.html">How it works</a><a class="btn ghost" href="/simulation.html">Seven seasons, replayed</a></div></div>
     </div></div></section>
     <section class="section" style="padding-top:30px"><div class="wrap">
-      <div class="head-row"><div><span class="kicker">The board</span><h2>Open picks</h2><p class="lead">${up.length ? `${up.length} open pick${up.length === 1 ? "" : "s"} in ${lgs.length} league${lgs.length === 1 ? "" : "s"}. ` : ""}Times are Madrid time. A pick is final from the moment it appears.</p></div></div>
+      <div class="head-row"><div><span class="kicker">The board</span><h2>Open picks</h2><p class="lead">${up.length ? `${up.length} open pick${up.length === 1 ? "" : "s"} in ${lgs.length} league${lgs.length === 1 ? "" : "s"}. ` : ""}Times are Central European (CET/CEST). A pick is final from the moment it appears.</p></div></div>
       ${lgs.length > 1 ? `<div class="filters" id="filters"><span class="chip on" data-f="">All leagues</span>${lgs.map(c => `<span class="chip" data-f="${c}">${esc(LG[c][0])}</span>`).join("")}</div>` : ""}
       ${board}
       ${recent.length ? `<div class="day"><h3>Just settled <small>last 3 days</small></h3><div class="grid3">${recent.slice(0, 9).map(p => card(p)).join("")}</div></div>` : ""}
@@ -230,7 +247,7 @@
     if (!p) return `<div class="wrap"><div class="ph"><span class="kicker">Pick</span><h1>Pick not found</h1><p class="lead">This pick number does not exist (yet). <a class="ul" href="/">Back to the board</a>.</p></div></div>`;
     const done = p.state === "settled";
     const tl = `<ul class="tl">
-      <li class="done"><b>Published · ${when(p.pub)} Madrid</b>${Math.round(p.hb)} hours before kick-off. Reference price ${p.price.toFixed(2)}. From here the pick cannot change.</li>
+      <li class="done"><b>Published · ${when(p.pub)} ${tzName(p.pub)}</b>${Math.round(p.hb)} hours before kick-off. Reference price ${p.price.toFixed(2)}. From here the pick cannot change.</li>
       <li class="${done || p.state === "playing" ? "done" : ""}"><b>Kick-off · ${when(p.ko)}</b>${done && p.close ? `Closing reference price ${p.close.toFixed(2)}${p.clv != null ? ` (CLV ${sgn(p.clv)}%, for information)` : ""}.` : "The closing price is recorded at kick-off, for information."}</li>
       <li class="${done || p.state === "void" ? "done" : ""}"><b>Result</b>${done ? `${esc(p.home)} ${score(p)} ${esc(p.away)}. ${p.label}: ${sgn(p.u, 2)} units.` : p.state === "void" ? "Match not played: the pick is void and does not count." : "Settled automatically after the final whistle."}</li></ul>`;
     const whys = (p.why_more && p.why_more.length ? p.why_more : p.why ? [p.why] : []);
@@ -320,7 +337,7 @@
     const rows = L.map(p => `<tr class="clk" onclick="location.href='/pick.html?n=${p.n}'"><td>${dayShort(p.ko)}</td><td class="mut">${esc(LG[p.lg][0])}</td><td class="mt">${esc(p.home)} <span class="mut">${score(p)}</span> ${esc(p.away)}</td><td class="pkv">${esc(p.team)} ${fmtLine(p.line)}</td><td class="num">${p.price.toFixed(2)}</td><td class="num mut">${p.close ? p.close.toFixed(2) : "—"}</td><td><span class="chip ${p.k === "won" ? "g" : p.k === "lost" ? "r" : ""}">${p.label}</span></td><td class="num ${cls(p.u)}"><b>${sgn(p.u, 2)}</b></td></tr>`).join("");
     const yr = new Date(w + "T12:00:00Z").getUTCFullYear();
     return `<div class="wrap"><div class="ph"><span class="kicker">Weekly report</span><h1>${weekLabel(w)} ${yr}</h1>
-      <div class="wnav">${i > 0 ? `<a class="btn ghost sm" href="?w=${weeks[i - 1]}">← ${weekLabel(weeks[i - 1])}</a>` : ""}<span class="chip">Monday to Sunday, Madrid time</span>${i < weeks.length - 1 ? `<a class="btn ghost sm" href="?w=${weeks[i + 1]}">${weekLabel(weeks[i + 1])} →</a>` : ""}</div></div>
+      <div class="wnav">${i > 0 ? `<a class="btn ghost sm" href="?w=${weeks[i - 1]}">← ${weekLabel(weeks[i - 1])}</a>` : ""}<span class="chip">Monday to Sunday, CET/CEST</span>${i < weeks.length - 1 ? `<a class="btn ghost sm" href="?w=${weeks[i + 1]}">${weekLabel(weeks[i + 1])} →</a>` : ""}</div></div>
       <div class="kpis" style="margin-top:14px"><div class="kpi"><div class="l">This week</div><div class="v">${a.n} picks</div><div class="s">${a.w} won · ${a.l} lost · ${a.p} push</div></div>
         <div class="kpi"><div class="l">Units</div><div class="v ${cls(a.u)}">${sgn(a.u)}</div><div class="s">yield ${sgn(a.y * 100)}%</div></div>
         <div class="kpi"><div class="l">Won</div><div class="v">${Math.round(a.w / Math.max(a.w + a.l, 1) * 100)}%</div><div class="s">of picks with a winner</div></div>
