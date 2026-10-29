@@ -293,3 +293,9 @@ a.pc:hover { transform: translateY(-2px); box-shadow: 0 16px 40px rgba(0,0,0,.45
 @media (max-width: 760px) {
   .pc .dt b { font-size: 30px; } .pc.big .dt b { font-size: 36px; } .pc .pr b, .pc.big .pr b { font-size: 23px; } .pc .px b, .pc.big .px b { font-size: 30px; }
 }
+/* v2.76 the board: an even grid of cards, equal heights per row (the old .lgcols newspaper columns left holes) */
+.cardgrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; align-items: stretch; }
+.cardgrid > .lgb { display: flex; margin: 0; } .cardgrid > .lgb > .pc { flex: 1; }
+.cardgrid .pc .paper { flex: 1; } .cardgrid .pc .ft { margin-top: auto; }
+@media (max-width: 1180px) { .cardgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 760px) { .cardgrid { grid-template-columns: minmax(0, 1fr); } }

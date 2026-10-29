@@ -150,8 +150,11 @@
     const now = Date.now(), recent = live.filter(p => now - new Date(p.ko) < 3 * 864e5).reverse();
     let board = "";
     for (const [, list] of byDay(up)) {
-      board += `<div class="day" data-day><h3>${dayLong(list[0].ko)} <small>${list.length} pick${list.length === 1 ? "" : "s"} · ${new Set(list.map(p => p.lg)).size} league${new Set(list.map(p => p.lg)).size === 1 ? "" : "s"}</small></h3><div class="lgcols">`;
-      board += ORDER().filter(c => list.some(p => p.lg === c)).map(c => `<div class="lgb" data-lg="${c}"><div class="lgh"><span class="cc">${LG[c][1]}</span>${esc(LG[c][0])}</div>${list.filter(p => p.lg === c).map(p => card(p)).join("")}</div>`).join("");
+      board += `<div class="day" data-day><h3>${dayLong(list[0].ko)} <small>${list.length} pick${list.length === 1 ? "" : "s"} · ${new Set(list.map(p => p.lg)).size} league${new Set(list.map(p => p.lg)).size === 1 ? "" : "s"}</small></h3><div class="cardgrid">`;
+      // v2.76: an even grid of cards (owner 2026-10-30: the newspaper columns left holes); the league is on every card,
+      // the wrapper keeps data-lg for the league filter; order = leagues as before, kick-off inside a league
+      board += ORDER().filter(c => list.some(p => p.lg === c)).map(c => list.filter(p => p.lg === c)
+        .map(p => `<div class="lgb" data-lg="${c}">${card(p)}</div>`).join("")).join("");
       board += `</div></div>`;
     }
     if (!up.length) board += `<div class="day"><div class="empty"><div class="ico">${ic("calendar")}</div><div><b>${D.public ? "No open picks right now" : "Live picks start soon"}</b><p>${D.public ? "Picks appear one to two days before kick-off. The next ones come with the next round of matches." : "The model already looks at the matches of the 18 leagues once both teams reach matchday 10, and most of them get no pick. Once live, our picks appear here one to two days before kick-off, and all of them stay on the record."}</p></div></div></div>`;
