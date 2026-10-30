@@ -29,9 +29,10 @@
       const on = href === here || (href !== '/' && here.endsWith(href));
       return `<a href="${href}"${cls ? ` class="${cls}"` : ''}${on ? ' aria-current="page"' : ''}>${cls === 'picks' ? '<span class="dot"></span>' : ''}${label}</a>`;
     }).join('');
-    // phones: the AI Picks pill stays in the bar, everything else sits behind the menu button
+    // phones: Record (amber text + live dot) stays in the bar, hidden on the Record page itself;, everything else sits behind the menu button
     const pill = document.createElement('a');
     pill.href = PILL[0]; pill.className = 'picks-m'; pill.innerHTML = '<span class="dot"></span>' + PILL[1];
+    if (here.endsWith(PILL[0])) pill.setAttribute('aria-current', 'page');
     const btn = document.createElement('button');
     btn.type = 'button'; btn.className = 'menu-btn'; btn.setAttribute('aria-label', 'Open the menu');
     btn.setAttribute('aria-controls', 'siteNav'); btn.setAttribute('aria-expanded', 'false');

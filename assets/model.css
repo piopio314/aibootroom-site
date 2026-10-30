@@ -22,11 +22,15 @@ h1, h2, h3, .disp { font-family: "Space Grotesk", Inter, sans-serif; letter-spac
 .logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 18px; white-space: nowrap; }
 .logo img { width: 36px; height: 36px; display: block; }
 .logo em { font-style: normal; color: var(--accent); }
-.nav nav { display: flex; gap: 20px; font-size: 15px; font-weight: 600; color: var(--text2); align-items: center; }
-.nav nav a { white-space: nowrap; }
-.nav nav a:hover, .nav nav a[aria-current] { color: var(--text); }
-.nav nav a.picks, .nav .picks-m { display: inline-flex; align-items: center; gap: 7px; padding: 6px 13px; border-radius: 999px;
-  border: 1.5px solid var(--accent); color: var(--accent); background: rgba(255,176,32,.10); font-weight: 800; }
+/* v2.78 (owner 2026-10-30): the page you are on = white text + amber bar under it; Record is only amber text with the
+   live dot (its old pill looked like the active page) */
+.nav nav { display: flex; gap: 26px; font-size: 15px; font-weight: 600; color: var(--text2); align-items: stretch; align-self: stretch; }
+.nav nav a { white-space: nowrap; display: inline-flex; align-items: center; position: relative; transition: color .15s; }
+.nav nav a:hover { color: var(--text); }
+.nav nav a[aria-current] { color: var(--text); font-weight: 700; }
+.nav nav a[aria-current]::after { content: ""; position: absolute; left: -2px; right: -2px; bottom: -1px; height: 3px; border-radius: 3px 3px 0 0; background: var(--accent); }
+.nav nav a.picks, .nav .picks-m { display: inline-flex; align-items: center; gap: 7px; color: var(--accent); font-weight: 700; }
+.nav nav a.picks:hover { color: var(--accent2); }
 .nav .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); flex: none; animation: pkdot 1.8s infinite; }
 @keyframes pkdot { 0% { box-shadow: 0 0 0 0 rgba(47,214,123,.55); } 70% { box-shadow: 0 0 0 8px rgba(47,214,123,0); } 100% { box-shadow: 0 0 0 0 rgba(47,214,123,0); } }
 .nav .picks-m, .nav .menu-btn { display: none; }
@@ -217,14 +221,17 @@ footer .ck { background: none; border: 0; padding: 0; font: inherit; cursor: poi
 
 @media (max-width: 1180px) {
   .nav .wrap { gap: 12px; }
-  .nav nav { display: none; position: absolute; top: 66px; left: 0; right: 0; flex-direction: column; align-items: stretch; gap: 0;
+  .nav nav { display: none; position: absolute; top: 66px; left: 0; right: 0; flex-direction: column; align-items: stretch; align-self: auto; gap: 0;
     background: var(--bg2); border-bottom: 1px solid var(--line); padding: 8px 16px 18px; box-shadow: 0 18px 40px rgba(0,0,0,.55);
     max-height: calc(100vh - 66px); overflow-y: auto; }
   .nav.open nav { display: flex; }
-  .nav nav a { font-size: 18px; padding: 15px 8px; border-bottom: 1px solid var(--line); color: var(--text); }
+  .nav nav a { font-size: 18px; padding: 15px 12px; border-bottom: 1px solid var(--line); color: var(--text2); border-radius: 0; }
   .nav nav a:last-child { border-bottom: 0; }
-  .nav nav a.picks { justify-content: center; margin: 8px 0 6px; padding: 13px; border-bottom: 1.5px solid var(--accent); }
-  .nav .picks-m { display: inline-flex; font-size: 14px; padding: 8px 12px; }
+  .nav nav a.picks { color: var(--accent); }
+  .nav nav a[aria-current] { color: var(--text); background: rgba(255,176,32,.08); box-shadow: inset 3px 0 0 var(--accent); }
+  .nav nav a[aria-current]::after { display: none; }
+  .nav .picks-m { display: inline-flex; font-size: 15px; padding: 8px 4px; margin-left: auto; }
+  .nav .picks-m[aria-current] { display: none; }
   .nav .menu-btn { display: inline-flex; }
   .lgcols { columns: 2; }
 }
