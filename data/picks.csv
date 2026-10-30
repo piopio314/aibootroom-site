@@ -1,3 +1,4 @@
 pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,model_chance,market_chance,score,result,units,closing_price,clv_pct
 1,2026-10-28T17:56:00+00:00,2026-10-30T17:30:00+00:00,2. Bundesliga,Energie Cottbus,VfL Bochum,VfL Bochum,-0.25,2.05,0.5099,0.4689,1-2,Covered,1.05,1.93,3.29
 2,2026-10-28T19:01:00+00:00,2026-10-30T19:00:00+00:00,Ligue 2,Nantes,Clermont Foot,Nantes,-1.25,2.04,0.5152,0.4701,1-1,Not covered,-1.0,2.19,-9.97
+3,2026-10-28T20:10:00+00:00,2026-10-30T20:00:00+00:00,La Liga,Villarreal,Espanyol,Espanyol,1.25,1.97,0.5415,0.4949,0-1,Covered,0.97,2.11,-8.5
