@@ -298,33 +298,104 @@
         <div><b>Live is a separate record.</b> Live picks use the same kind of price, but markets get sharper every year and the development seasons flatter the model. The <a class="ul" href="/record.html">live record</a> shows it either way.</div></div></div>`;
   }
 
+  /* v2.77 (owner 2026-10-30, mix A+C+D of method_mockups.html: "people don't read — show it, like to a child"):
+     A four pictures → C try it yourself (is it a pick? / how the handicap pays) → D three numbers, yes/no, questions.
+     The example is our first published pick, with its real numbers; its stamp shows the real state. */
+  const hwPick = () => (D.picks || []).slice().sort((x, y) => x.n - y.n)[0];
+  function ahSettle(l, g) {
+    const part = x => x > 0 ? 1 : x < 0 ? -1 : 0, q = Math.abs(l * 4) % 2 === 1;
+    const h = q ? [part(g + l - 0.25), part(g + l + 0.25)] : [part(g + l), part(g + l)];
+    const w = h.filter(x => x > 0).length, ls = h.filter(x => x < 0).length;
+    return w === 2 ? ["Pick wins", "g"] : ls === 2 ? ["Pick loses", "r"] : w === 1 ? ["Half wins, half back", "g"]
+      : ls === 1 ? ["Half lost, half back", "r"] : ["Stake back", ""];
+  }
   function pageMethod() {
-    const rules = [
-      ["clock", "24 to 48 hours before kick-off", "Our picks appear one to two days before the match, with the price at that moment. Nothing is added later, when team news is out."],
-      ["calendar", "From matchday 10", "A match can be a pick only when both teams have already played at least 9 league matches this season, so it is at least their 10th. Their form numbers come from their last 10 league matches, which at that point can still include the end of last season. From August to October the board is mostly empty."],
-      ["world", "18 leagues, fixed in advance", "England (4 divisions), Spain, Italy, Germany and France (2 each), Netherlands, Portugal, Turkey, Belgium, Scotland, Greece. The list does not change during the season."],
-      ["coins", "One reference price per pick", "The price is the sharp market reference price at the moment of publication, never the best number found anywhere. Results use that price, 1 unit per pick."],
-      ["target", "Zero picking by hand", "Whenever the rule produces a pick, it is published. Most matches produce none. No one removes a pick, adds one, or skips a weekend."],
-      ["lock", "Final and kept", "A published pick is never edited or deleted. Every change to the site is in its public history."],
-      ["chart-bar", "All results on the page", "The model runs the whole season with the same rules. Losing weeks are published the same way as winning ones."],
-      ["chart-line", "Live and simulation, never mixed", "Live picks are a record of their own. Past seasons are shown only as a simulation, on separate pages."]];
-    return `<div class="wrap"><div class="ph"><span class="kicker">How it works</span><h1>A statistical model, simple rules, all results in public</h1>
-      <p class="lead">The model is trained on 14 seasons of matches and market prices. It does one thing: it estimates the chance that a team covers the main Asian handicap line, and compares it with the market.</p></div>
-      <div class="steps" style="margin-top:18px">
-        <div class="step"><div class="n">1</div><b>Reads the season</b><p>For both teams, over their last 10 league matches and the season so far: results, goals, chances created and allowed, form against the line, rest, cup matches and missing players.</p></div>
-        <div class="step"><div class="n">2</div><b>Reads the market</b><p>The prices for the match, turned into chances without the margin.</p></div>
-        <div class="step"><div class="n">3</div><b>Compares</b><p>When the model's chance to cover is high enough to beat the price by a clear margin, the side becomes a pick. Most matches are not picks.</p></div>
-        <div class="step"><div class="n">4</div><b>Publishes and settles</b><p>The pick goes out automatically with its reference price. After the match it is settled at that price.</p></div></div>
-      <h3 class="h3s">The rules</h3><div class="rules">${rules.map(([i, t, d]) => `<div class="rule"><span class="ico">${ic(i)}</span><div><b>${t}</b>${d}</div></div>`).join("")}</div>
-      <h3 class="h3s">Asian handicap in one minute</h3>
-      <div class="prose"><p>A handicap gives one team a start. <b>Fulham +0.25</b> means Fulham start with a quarter of a goal: if Fulham win, the pick wins; if the match is a draw, half the stake wins and half comes back; if Fulham lose, the pick loses. <b>Mainz −0.25</b> is the other way round: a draw loses half.</p>
-        <p>The main line is the one where the market sees both sides close to 50/50. That is why a good model wins only a little more often than it loses, and why the record needs hundreds of picks before it means anything.</p></div>
-      <h3 class="h3s">What to expect</h3>
-      <div class="notes3"><div><b>A small edge, if any.</b> The <a class="ul" href="/simulation.html">simulation</a> found about +${Math.round(S.full[1])} units per 100 picks at the sharp price a day or two before kick-off. Live it will probably be less.</div>
-        <div><b>About ${Math.round(S.full[0] / S.weeks.length)} picks a week</b> in the simulation, counted over the weeks of the season with matches. Fewer in the first weeks, while teams reach matchday 10.</div>
-        <div><b>Not a promise.</b> Past results, live or simulated, do not tell you what will happen next.</div></div>
-      <h3 class="h3s">Who is behind this</h3><div class="prose"><p>AI Boot Room is an independent project run from Spain. It does not take bets, has no betting partners, sells nothing and is not paid for picks.</p></div>
-      <div class="legalbox" style="margin-top:18px"><div class="r18">18+</div><div><b style="color:var(--text);display:block;margin-bottom:4px">For adults. Information only.</b>Nothing on this site is advice to bet. If you choose to gamble, only use money you can afford to lose, and stop if it stops being fun. Help in Spain: jugarbien.es.</div></div></div>`;
+    const ex = hwPick(), m0 = ex ? ex.model : 0.51, p0 = ex ? ex.price : 2.05, mk0 = ex ? ex.mkt : 0.47;
+    const exName = ex ? `${esc(ex.team)} ${fmtLine(ex.line)}` : "";
+    const done = ex && ex.k && ex.state !== "open" && ex.state !== "playing";
+    const stamp = !ex ? "" : done ? `<span class="st ${ex.k === "won" ? "g" : ex.k === "lost" ? "r" : ""}">${esc(String(ex.label).toUpperCase())}</span>` : `<span class="st a">PUBLISHED</span>`;
+    const bar = (k, w, n, o) => `<div class="hw-bar${o ? " o" : ""}"><span>${k}</span><i><b style="width:${(w * 100).toFixed(1)}%"></b></i><em>${n}</em></div>`;
+    const yes = t => `<li><span class="y">${ic("check")}</span>${t}</li>`, no = t => `<li><span class="n">${ic("x")}</span>${t}</li>`;
+    const q = (t, d, open) => `<details${open ? " open" : ""}><summary>${t}</summary><p>${d}</p></details>`;
+    const egL = ex ? ex.line : -0.25, egT = ex ? esc(ex.team) : "The team";
+    return `<div class="wrap hw"><div class="ph"><span class="kicker">How it works</span><h1>One model. Four steps. Nothing picked by hand.</h1>
+      <p class="lead">Look at the pictures — that is the whole idea.</p></div>
+      <div class="hw-strip">
+        <div class="hw-p"><div class="hw-n">1</div><div class="hw-art"><div class="hw-pitch"></div><span class="hw-tag">18 leagues</span></div>
+          <h3>It looks at the match</h3><p>Results, goals, chances, form — for both teams. Only from matchday 10.</p></div>
+        <div class="hw-p"><div class="hw-n">2</div><div class="hw-art pad"><div class="hw-bars">${bar("Market", mk0, pct(mk0, 0))}${bar("Model", m0, pct(m0, 0), 1)}</div></div>
+          <h3>Two numbers</h3><p>The market's chance and our model's chance. Same question: does the team cover the line?</p></div>
+        <div class="hw-p"><div class="hw-n">3</div><div class="hw-art"><div class="hw-gate">${[40, 55, 30, 90, 45, 60, 35].map((h, i) => `<span class="${i === 3 ? "hit" : ""}" style="height:${h}%"></span>`).join("")}</div></div>
+          <h3>A pick only when they disagree</h3><p>If the model is clearly above the price, it is a pick. Most matches: no pick.</p></div>
+        <div class="hw-p"><div class="hw-n">4</div><div class="hw-art"><div class="hw-rc">${ex ? `Pick #${ex.n} · ${exName} @ ${ex.price.toFixed(2)}<small>Published ${dayShort(ex.pub)} ${hm(ex.pub)} · kick-off ${dayShort(ex.ko)} ${hm(ex.ko)} ${tzName(ex.ko)}</small>${stamp}` : `Pick @ price<small>Published before kick-off</small>`}</div></div>
+          <h3>Posted first. Settled after.</h3><p>Our picks go out before kick-off, here and on X. After the match: the result. Nothing deleted.</p></div>
+      </div>
+      <h2 class="hw-h2">The Asian handicap in one picture</h2>
+      <p class="lead">Example: <b>${egT} ${fmtLine(egL)}</b>.${egL < 0 ? " The team starts a little behind." : egL > 0 ? " The team gets a small head start." : ""}</p>
+      <div class="hw-ah">${[1, 0, -1].map(g => { const [t, c] = ahSettle(egL, g); return `<div class="${c}"><b>${g > 0 ? `${egT} win by 1` : g < 0 ? `${egT} lose by 1` : "Draw"}</b>${t}</div>`; }).join("")}</div>
+
+      <h2 class="hw-h2">Try it yourself</h2>
+      <p class="lead">Move the sliders and press the buttons.</p>
+      <div class="hw-g2">
+        <div class="hw-tool"><h3>Is it a pick?</h3>
+          <label>The model's chance <span class="v" id="hwCm"></span></label><input type="range" id="hwSm" min="30" max="70" step="0.5" value="${(m0 * 100).toFixed(1)}">
+          <label>The price <span class="v" id="hwCp"></span></label><input type="range" id="hwSp" min="1.60" max="2.60" step="0.01" value="${p0.toFixed(2)}">
+          <div class="hw-bars" style="margin-top:16px"><div class="hw-bar"><span>Price says</span><i><b id="hwBp"></b></i><em id="hwTp"></em></div>
+            <div class="hw-bar o"><span>Model says</span><i><b id="hwBm"></b></i><em id="hwTm"></em></div></div>
+          <div class="hw-out" id="hwVerd"></div>
+          ${ex ? `<p class="hw-note">Starts at pick #${ex.n}: model ${pct(m0)}, price ${p0.toFixed(2)}.</p>` : ""}</div>
+        <div class="hw-tool"><h3>How does the handicap pay?</h3>
+          <label>Our team's line</label><div class="hw-btns" id="hwLines"></div>
+          <label>The match ends</label><div class="hw-btns g5" id="hwGds"></div>
+          <div class="hw-out" id="hwAh"></div></div>
+      </div>
+
+      <h2 class="hw-h2">Three numbers to know</h2>
+      <div class="hw-g3">
+        <div class="hw-num"><b>14</b><p>seasons of matches and prices the model learned from</p></div>
+        <div class="hw-num"><b>18</b><p>leagues it looks at — the list does not change</p></div>
+        <div class="hw-num"><b>24–48 h</b><p>before kick-off: when our picks go out</p></div></div>
+      <div class="hw-g2" style="margin-top:16px">
+        <div class="hw-tool"><h3>What we do</h3><ul class="hw-yn">${yes("One statistical model decides. Same rules every day.")}${yes("Our picks are posted before kick-off, with the price.")}${yes("All results are shown — wins and losses.")}</ul></div>
+        <div class="hw-tool"><h3>What we never do</h3><ul class="hw-yn">${no("Pick by hand or by feeling.")}${no("Change or delete a pick after it is posted.")}${no("Promise wins. A pick can lose.")}</ul></div></div>
+
+      <h2 class="hw-h2">Questions</h2>
+      <div class="hw-faq">
+        ${q("Why do most matches get no pick?", "The model picks only when its chance beats the price by a clear margin. Most of the time it does not, so there is no pick.", 1)}
+        ${q("What does the model look at?", "For both teams, over their last 10 league matches and the season so far: results, goals, chances created and allowed, form against the line, rest, cup matches and missing players. Then the market prices, turned into chances without the margin.")}
+        ${q("Why only from matchday 10?", "A match can be a pick only when both teams have already played at least 9 league matches this season. Before that there is too little of the season to judge the teams. From August to October the board is mostly empty.")}
+        ${q("Which leagues?", "England (4 divisions), Spain, Italy, Germany and France (2 each), Netherlands, Portugal, Turkey, Belgium, Scotland, Greece. The list does not change during the season.")}
+        ${q("What is the price on a pick?", "The sharp market reference price at the moment of the decision, never the best number found anywhere. Results are counted at that price, 1 unit per pick.")}
+        ${q("Can a pick be changed or removed?", "No. A published pick is never edited or deleted, and no one adds, removes or skips a pick. Every change to the site is in its public history.")}
+        ${q("Does it win?", `Nobody knows yet. The main line is close to 50/50, so even a good model wins only a little more often than it loses, and the record needs hundreds of picks before it means anything. The <a class="ul" href="/simulation.html">simulation</a> of past seasons found about +${Math.round(S.full[1])} units per 100 picks; live it will probably be less. Past results, live or simulated, do not tell you what will happen next.`)}
+        ${q("Are live picks and the simulation mixed?", "Never. Live picks are a record of their own. Past seasons are shown only as a simulation, on separate pages.")}
+        ${q("Who is behind this?", "AI Boot Room is an independent project run from Spain. It does not take bets, has no betting partners, sells nothing and is not paid for picks. The site is free.")}
+      </div>
+      <div class="legalbox" style="margin-top:22px"><div class="r18">18+</div><div><b style="color:var(--text);display:block;margin-bottom:4px">For adults. Information only.</b>Nothing on this site is advice to bet. If you choose to gamble, only use money you can afford to lose, and stop if it stops being fun. Help in Spain: jugarbien.es.</div></div></div>`;
+  }
+  function wireMethod() {
+    const sm = $("#hwSm"), sp = $("#hwSp");
+    const pick = () => {
+      const m = +sm.value / 100, p = +sp.value, be = 1 / p, e = m * p - 1, ok = e > 0.02;
+      $("#hwCm").textContent = pct(m); $("#hwCp").textContent = p.toFixed(2);
+      $("#hwBp").style.width = (be * 100) + "%"; $("#hwTp").textContent = pct(be);
+      $("#hwBm").style.width = (m * 100) + "%"; $("#hwTm").textContent = pct(m);
+      const v = $("#hwVerd"); v.className = "hw-out " + (ok ? "g" : "");
+      v.innerHTML = `${ok ? "PICK" : "NO PICK"}<small>By the model's chance, this price is worth ${sgn(e * 100)}%. A pick needs more than +2%.</small>`;
+    };
+    sm.oninput = sp.oninput = pick; pick();
+    const LINES = [-1.5, -1, -0.75, -0.5, -0.25, 0, 0.25, 0.5, 0.75, 1, 1.5], GDS = [2, 1, 0, -1, -2];
+    const ex = hwPick(); let L = ex && LINES.includes(ex.line) ? ex.line : -0.25, G = 0;
+    const ah = () => {
+      $("#hwLines").innerHTML = LINES.map(l => `<button type="button" class="${l === L ? "on" : ""}" data-l="${l}">${fmtLine(l)}</button>`).join("");
+      $("#hwGds").innerHTML = GDS.map(g => `<button type="button" class="${g === G ? "on" : ""}" data-g="${g}">${g > 0 ? `Win by ${g}` : g < 0 ? `Lose by ${-g}` : "Draw"}</button>`).join("");
+      const [t, c] = ahSettle(L, G), o = $("#hwAh");
+      o.className = "hw-out " + c;
+      o.innerHTML = `${t}<small>Line ${fmtLine(L)}, our team ${G > 0 ? `wins by ${G}` : G < 0 ? `loses by ${-G}` : "draws"}</small>`;
+    };
+    $("#hwLines").addEventListener("click", e => { const b = e.target.closest("[data-l]"); if (b) { L = +b.dataset.l; ah(); } });
+    $("#hwGds").addEventListener("click", e => { const b = e.target.closest("[data-g]"); if (b) { G = +b.dataset.g; ah(); } });
+    ah();
   }
 
   function monday(iso) { const k = dayKey(iso), d = new Date(k + "T12:00:00Z"); d.setUTCDate(d.getUTCDate() - ((d.getUTCDay() + 6) % 7)); return d.toISOString().slice(0, 10); }
@@ -358,6 +429,7 @@
     const page = document.body.dataset.page;
     $("#app").innerHTML = PAGES[page]() + footer;
     if (page === "home") wireFilters();
+    if (page === "method") wireMethod();
     const r = $("#rtabs");
     if (r) r.addEventListener("click", e => { const b = e.target.closest("[data-rt]"); if (!b) return; history.replaceState(null, "", b.dataset.rt === "sim" ? "#simulation" : location.pathname); render(); });
     const c = $("#copy");
