@@ -5,3 +5,8 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 14,2026-10-29T20:48:00+00:00,2026-10-31T12:00:00+00:00,2. Bundesliga,VfL Wolfsburg,VfL Osnabrück,VfL Osnabrück,1.0,1.96,0.5237,0.4909,2-0,Not covered,-1.0,1.95,-2.51
 13,2026-10-29T20:48:00+00:00,2026-10-31T13:00:00+00:00,Süper Lig,Kocaelispor,Rizespor,Rizespor,0.0,1.97,0.5335,0.4883,0-0,Push,0.0,1.8,6.77
 8,2026-10-29T20:48:00+00:00,2026-10-31T14:00:00+00:00,Serie A,Bologna,Monza,Monza,0.75,1.97,0.5208,0.4949,2-1,Half lost,-0.5,2.0,-3.25
+5,2026-10-29T20:48:00+00:00,2026-10-31T15:00:00+00:00,Championship,Bolton,Bristol City,Bristol City,-0.25,2.05,0.4977,0.4689,2-3,Covered,1.05,2.07,-3.25
+6,2026-10-29T20:48:00+00:00,2026-10-31T15:00:00+00:00,Championship,Middlesbrough,Charlton,Charlton,1.75,1.97,0.5425,0.4883,3-0,Not covered,-1.0,2.05,-6.55
+7,2026-10-29T20:48:00+00:00,2026-10-31T15:00:00+00:00,Championship,Swansea,Blackburn,Swansea,-0.75,2.0,0.5195,0.4805,4-0,Covered,1.0,1.96,-0.51
+15,2026-10-29T20:48:00+00:00,2026-10-31T15:00:00+00:00,League One,Barnsley,Oxford United,Barnsley,0.0,1.87,0.5468,0.513,1-1,Push,0.0,2.05,-11.29
+16,2026-10-29T20:48:00+00:00,2026-10-31T15:00:00+00:00,League One,Leicester,Stevenage,Leicester,-0.75,1.91,0.5344,0.5026,2-2,Not covered,-1.0,1.83,1.61
