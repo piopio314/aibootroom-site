@@ -13,3 +13,5 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 10,2026-10-29T20:48:00+00:00,2026-10-31T17:00:00+00:00,Serie A,Udinese,AS Roma,Udinese,1.0,1.94,0.5284,0.5026,2-5,Not covered,-1.0,1.93,-1.27
 11,2026-10-29T20:48:00+00:00,2026-10-31T17:45:00+00:00,Eredivisie,PSV Eindhoven,Willem II,Willem II,3.0,2.01,0.5845,0.4738,7-0,Not covered,-1.0,1.99,-2.89
 18,2026-10-29T20:48:00+00:00,2026-10-31T18:30:00+00:00,Serie B,Sampdoria,Virtus Entella,Sampdoria,-0.25,2.0,0.5261,0.4819,2-0,Covered,1.0,2.01,-2.81
+4,2026-10-29T20:48:00+00:00,2026-10-31T19:45:00+00:00,Jupiler Pro League,SK Beveren,Union St. Gilloise,SK Beveren,1.0,2.07,0.5067,0.4637,1-2,Push,0.0,2.19,-8.06
+9,2026-10-29T20:48:00+00:00,2026-10-31T19:45:00+00:00,Serie A,AC Milan,Inter,Inter,-0.5,2.01,0.5137,0.4846,3-1,Not covered,-1.0,2.06,-4.36
