@@ -48,7 +48,7 @@
     const done = p.state === "settled" || p.state === "void" || p.state === "playing";
     const stamp = p.state === "settled" ? `<div class="stamp ${p.k}">${esc(p.label)}<small>${sgn(p.u, 2)} units</small></div>`
       : p.state === "void" ? `<div class="stamp push">Void</div>` : "";
-    return `<a class="pc ${o.big ? "big" : ""} ${p.state === "settled" ? p.k : ""}" href="/pick.html?n=${p.n}">
+    return `<a class="pc ${o.big ? "big" : ""} ${p.state === "settled" ? p.k : ""}" href="${p.url || "/pick.html?n=" + p.n}">
       <div class="band"${p.photo ? ` style="background-image:url('${esc(p.photo)}')"` : ""}>
         <div class="btop"><span>AI<em>BootRoom</em>.com</span><span>MODEL PICK #${p.n}</span></div>
         <div class="dt"><b>${dayBig(p.ko)}</b><span>${hm(p.ko)} <i>${tzName(p.ko)}</i></span></div>
@@ -254,7 +254,7 @@
       <li class="${done || p.state === "playing" ? "done" : ""}"><b>Kick-off · ${when(p.ko)}</b>${done && p.close ? `Closing reference price ${p.close.toFixed(2)}${p.clv != null ? ` (CLV ${sgn(p.clv)}%, for information)` : ""}.` : "The closing price is recorded at kick-off, for information."}</li>
       <li class="${done || p.state === "void" ? "done" : ""}"><b>Result</b>${done ? `${esc(p.home)} ${score(p)} ${esc(p.away)}. ${p.label}: ${sgn(p.u, 2)} units.` : p.state === "void" ? "Match not played: the pick is void and does not count." : "Settled automatically after the final whistle."}</li></ul>`;
     const whys = (p.why_more && p.why_more.length ? p.why_more : p.why ? [p.why] : []);
-    const url = location.origin + "/pick.html?n=" + p.n;
+    const url = location.origin + (p.url || "/pick.html?n=" + p.n);
     const xt = encodeURIComponent(`Pick #${p.n}: ${p.team} ${fmtLine(p.line)} vs ${p.opp}, ${dayShort(p.ko)}. Published ${Math.round(p.hb)} h before kick-off.`);
     document.title = `Pick #${p.n}: ${p.team} ${fmtLine(p.line)} | AI Boot Room`;
     return `<div class="wrap"><div class="ph"><span class="kicker">Pick #${p.n} · ${esc(LG[p.lg][0])}</span><h1>${esc(p.team)} ${fmtLine(p.line)} <span class="mut" style="font-size:.55em">vs ${esc(p.opp)}</span></h1></div>
@@ -408,7 +408,7 @@
     let w = new URLSearchParams(location.search).get("w"); if (!weeks.includes(w)) w = weeks[weeks.length - 1];
     const i = weeks.indexOf(w), L = live.filter(p => monday(p.ko) === w), a = agg(L), s = agg(live.filter(p => monday(p.ko) <= w));
     const lgs = ORDER().map(c => [c, agg(L.filter(p => p.lg === c))]).filter(x => x[1].n).sort((x, y) => y[1].u - x[1].u);
-    const rows = L.map(p => `<tr class="clk" onclick="location.href='/pick.html?n=${p.n}'"><td>${dayShort(p.ko)}</td><td class="mut">${esc(LG[p.lg][0])}</td><td class="mt">${esc(p.home)} <span class="mut">${score(p)}</span> ${esc(p.away)}</td><td class="pkv">${esc(p.team)} ${fmtLine(p.line)}</td><td class="num">${p.price.toFixed(2)}</td><td class="num mut">${p.close ? p.close.toFixed(2) : "—"}</td><td><span class="chip ${p.k === "won" ? "g" : p.k === "lost" ? "r" : ""}">${p.label}</span></td><td class="num ${cls(p.u)}"><b>${sgn(p.u, 2)}</b></td></tr>`).join("");
+    const rows = L.map(p => `<tr class="clk" onclick="location.href='${p.url || "/pick.html?n=" + p.n}'"><td>${dayShort(p.ko)}</td><td class="mut">${esc(LG[p.lg][0])}</td><td class="mt">${esc(p.home)} <span class="mut">${score(p)}</span> ${esc(p.away)}</td><td class="pkv">${esc(p.team)} ${fmtLine(p.line)}</td><td class="num">${p.price.toFixed(2)}</td><td class="num mut">${p.close ? p.close.toFixed(2) : "—"}</td><td><span class="chip ${p.k === "won" ? "g" : p.k === "lost" ? "r" : ""}">${p.label}</span></td><td class="num ${cls(p.u)}"><b>${sgn(p.u, 2)}</b></td></tr>`).join("");
     const yr = new Date(w + "T12:00:00Z").getUTCFullYear();
     return `<div class="wrap"><div class="ph"><span class="kicker">Weekly report</span><h1>${weekLabel(w)} ${yr}</h1>
       <div class="wnav">${i > 0 ? `<a class="btn ghost sm" href="?w=${weeks[i - 1]}">← ${weekLabel(weeks[i - 1])}</a>` : ""}<span class="chip">Monday to Sunday, CET/CEST</span>${i < weeks.length - 1 ? `<a class="btn ghost sm" href="?w=${weeks[i + 1]}">${weekLabel(weeks[i + 1])} →</a>` : ""}</div></div>
