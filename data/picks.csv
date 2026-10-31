@@ -4,3 +4,4 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 3,2026-10-28T20:10:00+00:00,2026-10-30T20:00:00+00:00,La Liga,Villarreal,Espanyol,Espanyol,1.25,1.97,0.5415,0.4949,0-1,Covered,0.97,2.11,-8.5
 14,2026-10-29T20:48:00+00:00,2026-10-31T12:00:00+00:00,2. Bundesliga,VfL Wolfsburg,VfL Osnabrück,VfL Osnabrück,1.0,1.96,0.5237,0.4909,2-0,Not covered,-1.0,1.95,-2.51
 13,2026-10-29T20:48:00+00:00,2026-10-31T13:00:00+00:00,Süper Lig,Kocaelispor,Rizespor,Rizespor,0.0,1.97,0.5335,0.4883,0-0,Push,0.0,1.8,6.77
+8,2026-10-29T20:48:00+00:00,2026-10-31T14:00:00+00:00,Serie A,Bologna,Monza,Monza,0.75,1.97,0.5208,0.4949,2-1,Half lost,-0.5,2.0,-3.25
