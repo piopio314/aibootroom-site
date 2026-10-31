@@ -11,3 +11,4 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 15,2026-10-29T20:48:00+00:00,2026-10-31T15:00:00+00:00,League One,Barnsley,Oxford United,Barnsley,0.0,1.87,0.5468,0.513,1-1,Push,0.0,2.05,-11.29
 16,2026-10-29T20:48:00+00:00,2026-10-31T15:00:00+00:00,League One,Leicester,Stevenage,Leicester,-0.75,1.91,0.5344,0.5026,2-2,Not covered,-1.0,1.83,1.61
 10,2026-10-29T20:48:00+00:00,2026-10-31T17:00:00+00:00,Serie A,Udinese,AS Roma,Udinese,1.0,1.94,0.5284,0.5026,2-5,Not covered,-1.0,1.93,-1.27
+11,2026-10-29T20:48:00+00:00,2026-10-31T17:45:00+00:00,Eredivisie,PSV Eindhoven,Willem II,Willem II,3.0,2.01,0.5845,0.4738,7-0,Not covered,-1.0,1.99,-2.89
