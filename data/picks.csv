@@ -19,3 +19,5 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 26,2026-10-30T20:40:00+00:00,2026-11-01T10:30:00+00:00,Süper Lig,Amed,Eyüpspor,Eyüpspor,1.5,2.02,0.5572,0.4767,5-1,Not covered,-1.0,2.08,-5.46
 20,2026-10-30T20:40:00+00:00,2026-11-01T11:30:00+00:00,Serie A,Como,Venezia,Venezia,1.5,2.07,0.5325,0.4719,1-0,Covered,1.07,2.01,0.59
 19,2026-10-30T20:40:00+00:00,2026-11-01T12:30:00+00:00,Jupiler Pro League,Cercle Brugge,Antwerp,Cercle Brugge,-0.5,1.93,0.5365,0.4987,2-1,Covered,0.93,2.08,-9.93
+24,2026-10-30T20:40:00+00:00,2026-11-01T13:00:00+00:00,La Liga,Getafe,Sevilla,Sevilla,-0.25,2.17,0.4891,0.4506,3-1,Not covered,-1.0,2.03,4.34
+28,2026-10-30T20:40:00+00:00,2026-11-01T13:00:00+00:00,Segunda División,Eldense,Granada CF,Eldense,-0.25,2.04,0.5113,0.4715,0-2,Not covered,-1.0,2.06,-3.48
