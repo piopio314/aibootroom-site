@@ -16,3 +16,4 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 4,2026-10-29T20:48:00+00:00,2026-10-31T19:45:00+00:00,Jupiler Pro League,SK Beveren,Union St. Gilloise,SK Beveren,1.0,2.07,0.5067,0.4637,1-2,Push,0.0,2.19,-8.06
 9,2026-10-29T20:48:00+00:00,2026-10-31T19:45:00+00:00,Serie A,AC Milan,Inter,Inter,-0.5,2.01,0.5137,0.4846,3-1,Not covered,-1.0,2.06,-4.36
 12,2026-10-29T20:48:00+00:00,2026-10-31T20:00:00+00:00,La Liga,Barcelona,Alaves,Alaves,2.75,1.88,0.6219,0.513,6-1,Not covered,-1.0,1.84,-0.93
+26,2026-10-30T20:40:00+00:00,2026-11-01T10:30:00+00:00,Süper Lig,Amed,Eyüpspor,Eyüpspor,1.5,2.02,0.5572,0.4767,5-1,Not covered,-1.0,2.08,-5.46
