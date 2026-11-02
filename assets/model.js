@@ -33,7 +33,8 @@
   const score = p => p.score ? `${p.score[0]}–${p.score[1]}` : "";
   function resLine(p) {
     if (p.state === "void") return `<div class="res"><span class="chip">${ic("arrow-back-up")} Void</span><span class="mut">match not played, stake returned</span></div>`;
-    if (p.state === "playing") return `<div class="lockline">${ic("clock")} Pick #${p.n} · match under way, settled after the final whistle</div>`;
+    if (p.off) return `<div class="lockline">${ic("clock")} Pick #${p.n} · match not played as planned, settled when it ends, void if it is not played</div>`;
+    if (p.state === "playing") return `<div class="lockline">${ic("clock")} Pick #${p.n} · ${Date.now() - new Date(p.ko) < 2.5 * 36e5 ? "match under way, settled after the final whistle" : "waiting for the official result"}</div>`;
     return `<div class="res"><span class="sc">${score(p)}</span><span class="chip ${p.k === "won" ? "g" : p.k === "lost" ? "r" : ""}">${ic(p.k === "won" ? "check" : p.k === "lost" ? "x" : "arrow-back-up")} ${p.label}</span>
       <b class="${cls(p.u)}">${sgn(p.u, 2)} u</b>${p.close ? `<span class="mut">closing price ${p.close.toFixed(2)}${p.clv != null ? ` · CLV ${sgn(p.clv)}%` : ""}</span>` : ""}</div>`;
   }
@@ -44,8 +45,9 @@
     .find(x => x.type === "timeZoneName") || {}).value || "").replace(/^GMT\+1$/, "CET").replace(/^GMT\+2$/, "CEST");
   const dayBig = iso => fmt(iso, { weekday: "short", day: "numeric", month: "short" }).replace(",", "").toUpperCase();
   const abbr = t => String(t).replace(/[^A-Za-z]/g, "").slice(0, 3).toUpperCase();
+  const movedNote = p => p.ko_pub ? `<div class="mvd">Kick-off moved · was ${when(p.ko_pub)} ${tzName(p.ko_pub)} when published</div>` : "";
   function card(p, o = {}) {
-    const done = p.state === "settled" || p.state === "void" || p.state === "playing";
+    const done = p.state === "settled" || p.state === "void" || p.state === "playing" || p.off;
     const stamp = p.state === "settled" ? `<div class="stamp ${p.k}">${esc(p.label)}<small>${sgn(p.u, 2)} units</small></div>`
       : p.state === "void" ? `<div class="stamp push">Void</div>` : "";
     return `<a class="pc ${o.big ? "big" : ""} ${p.state === "settled" ? p.k : ""}" href="${p.url || "/pick.html?n=" + p.n}">
@@ -62,6 +64,7 @@
         <div class="ch"><span>Model <b>${pct(p.model)}</b></span><span>Market <b>${pct(p.mkt)}</b></span></div>
         ${p.why ? `<p class="wy">${esc(p.why)}</p>` : ""}
         ${done ? resLine(p) : `<div class="lockline">${ic("lock")} Final from publication · settled after the match</div>`}
+        ${movedNote(p)}
         <div class="ft">Published ${when(p.pub)} ${tzName(p.pub)} · ${Math.round(p.hb)} h before kick-off · 18+</div>
       </div>
     </a>`;
@@ -146,7 +149,7 @@
 
   /* ───────── pages ───────── */
   function pageHome() {
-    const up = open(), live = settled(), rec = agg(live), next = up[0];
+    const up = open(), live = settled(), rec = agg(live), next = up.find(p => p.state === "open" && !p.off);
     const now = Date.now(), recent = live.filter(p => now - new Date(p.ko) < 3 * 864e5).reverse();
     let board = "";
     for (const [, list] of byDay(up)) {
@@ -251,7 +254,7 @@
     const done = p.state === "settled";
     const tl = `<ul class="tl">
       <li class="done"><b>Published · ${when(p.pub)} ${tzName(p.pub)}</b>${Math.round(p.hb)} hours before kick-off. Reference price ${p.price.toFixed(2)}. From here the pick cannot change.</li>
-      <li class="${done || p.state === "playing" ? "done" : ""}"><b>Kick-off · ${when(p.ko)}</b>${done && p.close ? `Closing reference price ${p.close.toFixed(2)}${p.clv != null ? ` (CLV ${sgn(p.clv)}%, for information)` : ""}.` : "The closing price is recorded at kick-off, for information."}</li>
+      <li class="${done || p.state === "playing" ? "done" : ""}"><b>Kick-off · ${when(p.ko)}</b>${p.ko_pub ? `Moved: when published the match was set for ${when(p.ko_pub)} ${tzName(p.ko_pub)}. ` : ""}${done && p.close ? `Closing reference price ${p.close.toFixed(2)}${p.clv != null ? ` (CLV ${sgn(p.clv)}%, for information)` : ""}.` : "The closing price is recorded at kick-off, for information."}</li>
       <li class="${done || p.state === "void" ? "done" : ""}"><b>Result</b>${done ? `${esc(p.home)} ${score(p)} ${esc(p.away)}. ${p.label}: ${sgn(p.u, 2)} units.` : p.state === "void" ? "Match not played: the pick is void and does not count." : "Settled automatically after the final whistle."}</li></ul>`;
     const whys = (p.why_more && p.why_more.length ? p.why_more : p.why ? [p.why] : []);
     const url = location.origin + (p.url || "/pick.html?n=" + p.n);
@@ -438,6 +441,8 @@
   addEventListener("hashchange", () => { if (D && document.body.dataset.page === "record") render(); });
   const bust = Math.floor(Date.now() / 120000);
   Promise.all([fetch(`/data/model.json?t=${bust}`).then(r => r.json()), fetch(`/data/simulation.json?t=${bust}`).then(r => r.json())])
-    .then(([m, s]) => { D = m; S = s; D.leagues.forEach(l => LG[l.c] = [l.name, l.cc]); render(); })
+    .then(([m, s]) => { D = m; S = s; D.leagues.forEach(l => LG[l.c] = [l.name, l.cc]);
+      D.picks.forEach(p => { if (p.state === "open" && new Date(p.ko) <= Date.now()) p.state = "playing"; });   // the data file can be up to a sync old
+      render(); })
     .catch(e => { $("#app").innerHTML = `<div class="wrap loading">The page could not load its data. Please try again in a minute.</div>`; console.error(e); });
 })();
