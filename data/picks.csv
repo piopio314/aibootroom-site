@@ -31,3 +31,7 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 17,2026-10-29T20:48:00+00:00,2026-11-02T19:45:00+00:00,Ligue 2,Reims,Sochaux,Sochaux,0.75,1.94,0.5302,0.4935,2-0,Not covered,-1.0,2.11,-10.96
 32,2026-10-31T20:45:00+00:00,2026-11-02T19:45:00+00:00,Ligue 2,RED Star FC 93,Nancy,RED Star FC 93,-0.25,2.03,0.5034,0.4727,1-4,Not covered,-1.0,2.04,-3.46
 30,2026-10-31T20:45:00+00:00,2026-11-02T20:15:00+00:00,Primeira Liga,GIL Vicente,Vitória SC,Vitória SC,0.0,1.85,0.5537,0.5195,0-0,Push,0.0,1.83,-1.36
+33,2026-11-01T20:08:00+00:00,2026-11-03T19:45:00+00:00,Championship,Charlton,Bolton,Charlton,-0.25,1.96,0.5232,0.4896,0-1,Not covered,-1.0,1.93,-0.99
+34,2026-11-01T20:08:00+00:00,2026-11-03T19:45:00+00:00,Championship,Preston,Sheffield Utd,Preston,0.25,1.98,0.5233,0.4857,2-3,Not covered,-1.0,2.21,-12.78
+35,2026-11-01T20:08:00+00:00,2026-11-03T19:45:00+00:00,Championship,QPR,Burnley,Burnley,0.5,1.85,0.5519,0.5207,1-1,Covered,0.85,1.93,-6.32
+36,2026-11-01T20:08:00+00:00,2026-11-03T19:45:00+00:00,Championship,Watford,Lincoln,Lincoln,0.0,2.07,0.4954,0.4665,1-0,Not covered,-1.0,1.92,5.35
