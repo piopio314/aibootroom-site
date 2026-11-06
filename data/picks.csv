@@ -37,3 +37,5 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 36,2026-11-01T20:08:00+00:00,2026-11-03T19:45:00+00:00,Championship,Watford,Lincoln,Lincoln,0.0,2.07,0.4954,0.4665,1-0,Not covered,-1.0,1.92,5.35
 39,2026-11-04T21:14:00+00:00,2026-11-06T19:00:00+00:00,Ligue 2,Dijon,RED Star FC 93,RED Star FC 93,0.0,1.94,0.5264,0.4935,1-0,Not covered,-1.0,1.82,3.7
 40,2026-11-04T21:14:00+00:00,2026-11-06T19:00:00+00:00,Ligue 2,Nancy,Sochaux,Sochaux,0.75,1.99,0.5285,0.4818,1-0,Half lost,-0.5,2.16,-10.93
+37,2026-11-04T21:14:00+00:00,2026-11-06T19:45:00+00:00,Serie A,Venezia,Udinese,Venezia,-0.25,1.93,0.5317,0.5051,2-1,Covered,0.93,1.97,-3.99
+38,2026-11-04T21:14:00+00:00,2026-11-06T20:00:00+00:00,La Liga,Sevilla,Alaves,Alaves,0.5,1.94,0.5317,0.5026,0-0,Covered,0.94,2.06,-7.69
