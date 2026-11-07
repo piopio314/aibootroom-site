@@ -39,3 +39,5 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 40,2026-11-04T21:14:00+00:00,2026-11-06T19:00:00+00:00,Ligue 2,Nancy,Sochaux,Sochaux,0.75,1.99,0.5285,0.4818,1-0,Half lost,-0.5,2.16,-10.93
 37,2026-11-04T21:14:00+00:00,2026-11-06T19:45:00+00:00,Serie A,Venezia,Udinese,Venezia,-0.25,1.93,0.5317,0.5051,2-1,Covered,0.93,1.97,-3.99
 38,2026-11-04T21:14:00+00:00,2026-11-06T20:00:00+00:00,La Liga,Sevilla,Alaves,Alaves,0.5,1.94,0.5317,0.5026,0-0,Covered,0.94,2.06,-7.69
+44,2026-11-05T20:46:00+00:00,2026-11-07T14:00:00+00:00,Serie A,Cagliari,Frosinone,Cagliari,0.0,2.06,0.5008,0.4731,1-0,Covered,1.06,2.33,-13.99
+50,2026-11-05T20:46:00+00:00,2026-11-07T14:00:00+00:00,Serie B,Padova,Empoli,Empoli,0.25,1.98,0.5159,0.487,2-2,Half covered,0.49,2.04,-5.3
