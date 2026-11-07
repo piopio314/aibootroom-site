@@ -50,3 +50,4 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 45,2026-11-05T20:46:00+00:00,2026-11-07T19:45:00+00:00,Serie A,AS Roma,Sassuolo,Sassuolo,1.75,1.87,0.5627,0.518,3-0,Not covered,-1.0,1.7,6.92
 48,2026-11-05T20:46:00+00:00,2026-11-07T20:00:00+00:00,La Liga,Valencia,Real Madrid,Valencia,1.75,1.85,0.5533,0.5157,0-3,Not covered,-1.0,1.89,-4.42
 43,2026-11-05T20:46:00+00:00,2026-11-07T20:05:00+00:00,Ligue 1,Paris Saint Germain,Estac Troyes,Estac Troyes,2.5,1.94,0.5684,0.5,1-0,Covered,0.94,1.57,18.23
+47,2026-11-05T20:46:00+00:00,2026-11-07T20:30:00+00:00,Primeira Liga,Sporting CP,Moreirense,Moreirense,2.0,2.01,0.5164,0.4766,1-0,Covered,1.01,2.25,-14.08
