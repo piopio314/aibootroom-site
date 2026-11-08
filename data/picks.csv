@@ -52,3 +52,4 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 43,2026-11-05T20:46:00+00:00,2026-11-07T20:05:00+00:00,Ligue 1,Paris Saint Germain,Estac Troyes,Estac Troyes,2.5,1.94,0.5684,0.5,1-0,Covered,0.94,1.57,18.23
 47,2026-11-05T20:46:00+00:00,2026-11-07T20:30:00+00:00,Primeira Liga,Sporting CP,Moreirense,Moreirense,2.0,2.01,0.5164,0.4766,1-0,Covered,1.01,2.25,-14.08
 54,2026-11-06T20:36:00+00:00,2026-11-08T14:00:00+00:00,Premier League,Brighton,Brentford,Brentford,0.5,2.0,0.5279,0.4872,2-0,Not covered,-1.0,2.02,-3.06
+53,2026-11-06T20:36:00+00:00,2026-11-08T15:00:00+00:00,Jupiler Pro League,Gent,Kortrijk,Kortrijk,1.25,1.81,0.5976,0.5323,1-0,Half covered,0.405,1.72,2.18
