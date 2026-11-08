@@ -56,3 +56,4 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 59,2026-11-06T20:36:00+00:00,2026-11-08T15:30:00+00:00,Süper Lig,Alanyaspor,Trabzonspor,Alanyaspor,0.75,2.03,0.5209,0.4741,0-2,Not covered,-1.0,2.15,-8.06
 55,2026-11-06T20:36:00+00:00,2026-11-08T15:45:00+00:00,Eredivisie,Cambuur,PSV Eindhoven,Cambuur,1.5,1.88,0.5426,0.513,2-5,Not covered,-1.0,1.79,2.15
 61,2026-11-06T20:36:00+00:00,2026-11-08T16:00:00+00:00,Scottish Premiership,Celtic,Kilmarnock,Kilmarnock,2.25,1.96,0.561,0.4896,1-0,Covered,0.96,1.85,2.55
+58,2026-11-06T20:36:00+00:00,2026-11-08T17:30:00+00:00,La Liga,Villarreal,Getafe,Villarreal,-1.25,1.99,0.5187,0.491,2-0,Covered,0.99,2.27,-14.5
