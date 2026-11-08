@@ -57,3 +57,5 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 55,2026-11-06T20:36:00+00:00,2026-11-08T15:45:00+00:00,Eredivisie,Cambuur,PSV Eindhoven,Cambuur,1.5,1.88,0.5426,0.513,2-5,Not covered,-1.0,1.79,2.15
 61,2026-11-06T20:36:00+00:00,2026-11-08T16:00:00+00:00,Scottish Premiership,Celtic,Kilmarnock,Kilmarnock,2.25,1.96,0.561,0.4896,1-0,Covered,0.96,1.85,2.55
 58,2026-11-06T20:36:00+00:00,2026-11-08T17:30:00+00:00,La Liga,Villarreal,Getafe,Villarreal,-1.25,1.99,0.5187,0.491,2-0,Covered,0.99,2.27,-14.5
+57,2026-11-06T20:36:00+00:00,2026-11-08T18:00:00+00:00,Primeira Liga,Vitória SC,FC Porto,Vitória SC,0.75,2.07,0.5144,0.4651,1-2,Half lost,-0.5,2.33,-13.58
+60,2026-11-06T20:36:00+00:00,2026-11-08T18:00:00+00:00,Süper Lig,Beşiktaş,Gençlerbirliği S.K.,Gençlerbirliği S.K.,2.0,1.87,0.5477,0.5117,3-0,Not covered,-1.0,2.03,-10.59
