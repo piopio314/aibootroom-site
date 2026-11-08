@@ -59,3 +59,4 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 58,2026-11-06T20:36:00+00:00,2026-11-08T17:30:00+00:00,La Liga,Villarreal,Getafe,Villarreal,-1.25,1.99,0.5187,0.491,2-0,Covered,0.99,2.27,-14.5
 57,2026-11-06T20:36:00+00:00,2026-11-08T18:00:00+00:00,Primeira Liga,Vitória SC,FC Porto,Vitória SC,0.75,2.07,0.5144,0.4651,1-2,Half lost,-0.5,2.33,-13.58
 60,2026-11-06T20:36:00+00:00,2026-11-08T18:00:00+00:00,Süper Lig,Beşiktaş,Gençlerbirliği S.K.,Gençlerbirliği S.K.,2.0,1.87,0.5477,0.5117,3-0,Not covered,-1.0,2.03,-10.59
+56,2026-11-06T20:36:00+00:00,2026-11-08T20:30:00+00:00,Primeira Liga,Estrela,Benfica,Estrela,1.75,1.94,0.5307,0.4935,2-3,Covered,0.94,2.16,-13.45
