@@ -83,3 +83,5 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 81,2026-11-19T20:17:00+00:00,2026-11-21T15:00:00+00:00,League Two,Cheltenham,Bristol Rovers,Bristol Rovers,-0.25,1.99,0.5406,0.4777,0-3,Covered,0.99,2.09,-8.75
 82,2026-11-19T20:17:00+00:00,2026-11-21T15:00:00+00:00,League Two,Crawley Town,Fleetwood Town,Fleetwood Town,-0.25,1.98,0.5315,0.4803,2-1,Not covered,-1.0,1.83,3.89
 83,2026-11-19T20:17:00+00:00,2026-11-21T15:00:00+00:00,League Two,York,Walsall,York,-0.75,2.0,0.5331,0.4751,0-0,Not covered,-1.0,2.05,-6.49
+74,2026-11-19T20:17:00+00:00,2026-11-21T16:00:00+00:00,Süper Lig,Kocaelispor,Fenerbahçe,Fenerbahçe,-1.0,1.96,0.5209,0.4909,2-2,Not covered,-1.0,2.12,-9.73
+85,2026-11-19T20:17:00+00:00,2026-11-21T16:15:00+00:00,Serie B,Catanzaro,Palermo,Catanzaro,0.75,1.93,0.5305,0.5,3-1,Covered,0.93,1.88,0.44
