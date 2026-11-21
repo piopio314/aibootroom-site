@@ -70,3 +70,6 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 68,2026-11-13T17:54:00+00:00,2026-11-15T17:30:00+00:00,Segunda División,Eibar,Cadiz,Cadiz,0.75,2.07,0.5102,0.4651,1-1,Covered,1.07,2.28,-11.88
 70,2026-11-18T20:19:00+00:00,2026-11-20T17:30:00+00:00,2. Bundesliga,SV Darmstadt 98,1. FC Heidenheim,1. FC Heidenheim,-0.5,2.01,0.5126,0.4793,3-1,Not covered,-1.0,2.01,-2.86
 75,2026-11-19T20:17:00+00:00,2026-11-21T12:00:00+00:00,2. Bundesliga,VfL Wolfsburg,Holstein Kiel,Holstein Kiel,0.75,1.99,0.5271,0.4831,3-0,Not covered,-1.0,2.17,-11.16
+72,2026-11-19T20:17:00+00:00,2026-11-21T13:00:00+00:00,Süper Lig,Amed,Rizespor,Rizespor,0.75,1.95,0.5337,0.4935,0-2,Covered,0.95,1.81,4.73
+73,2026-11-19T20:17:00+00:00,2026-11-21T13:00:00+00:00,Süper Lig,Galatasaray,Samsunspor,Samsunspor,1.75,2.03,0.515,0.4714,2-1,Covered,1.03,2.26,-13.44
+86,2026-11-19T20:17:00+00:00,2026-11-21T13:00:00+00:00,Segunda División,Sabadell,Granada CF,Sabadell,-0.25,2.13,0.5213,0.4524,1-1,Half lost,-0.5,2.12,-1.9
