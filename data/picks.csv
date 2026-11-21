@@ -74,3 +74,12 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 73,2026-11-19T20:17:00+00:00,2026-11-21T13:00:00+00:00,Süper Lig,Galatasaray,Samsunspor,Samsunspor,1.75,2.03,0.515,0.4714,2-1,Covered,1.03,2.26,-13.44
 86,2026-11-19T20:17:00+00:00,2026-11-21T13:00:00+00:00,Segunda División,Sabadell,Granada CF,Sabadell,-0.25,2.13,0.5213,0.4524,1-1,Half lost,-0.5,2.12,-1.9
 84,2026-11-19T20:17:00+00:00,2026-11-21T14:00:00+00:00,Serie B,Ascoli,Vicenza Virtus,Vicenza Virtus,0.75,1.87,0.5532,0.5155,2-2,Covered,0.87,2.04,-10.57
+71,2026-11-19T20:17:00+00:00,2026-11-21T15:00:00+00:00,Championship,Middlesbrough,Bristol City,Bristol City,1.25,2.01,0.5093,0.4793,2-0,Not covered,-1.0,2.04,-3.87
+76,2026-11-19T20:17:00+00:00,2026-11-21T15:00:00+00:00,League One,Burton Albion,Luton,Burton Albion,0.75,1.99,0.5135,0.4818,1-2,Half lost,-0.5,2.43,-20.7
+77,2026-11-19T20:17:00+00:00,2026-11-21T15:00:00+00:00,League One,Cambridge United,Stockport County,Stockport County,-0.5,1.83,0.5639,0.5234,0-3,Covered,0.83,1.93,-7.79
+78,2026-11-19T20:17:00+00:00,2026-11-21T15:00:00+00:00,League One,Leyton Orient,AFC Wimbledon,AFC Wimbledon,0.75,1.86,0.5697,0.5144,4-1,Not covered,-1.0,1.97,-8.2
+79,2026-11-19T20:17:00+00:00,2026-11-21T15:00:00+00:00,League One,Mansfield Town,Milton Keynes Dons,Milton Keynes Dons,0.0,1.93,0.5435,0.4974,1-1,Push,0.0,1.89,-0.77
+80,2026-11-19T20:17:00+00:00,2026-11-21T15:00:00+00:00,League Two,Barnet,Port Vale,Port Vale,0.25,1.93,0.5689,0.4934,2-1,Not covered,-1.0,1.98,-6.26
+81,2026-11-19T20:17:00+00:00,2026-11-21T15:00:00+00:00,League Two,Cheltenham,Bristol Rovers,Bristol Rovers,-0.25,1.99,0.5406,0.4777,0-3,Covered,0.99,2.09,-8.75
+82,2026-11-19T20:17:00+00:00,2026-11-21T15:00:00+00:00,League Two,Crawley Town,Fleetwood Town,Fleetwood Town,-0.25,1.98,0.5315,0.4803,2-1,Not covered,-1.0,1.83,3.89
+83,2026-11-19T20:17:00+00:00,2026-11-21T15:00:00+00:00,League Two,York,Walsall,York,-0.75,2.0,0.5331,0.4751,0-0,Not covered,-1.0,2.05,-6.49
