@@ -91,3 +91,4 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 87,2026-11-20T20:14:00+00:00,2026-11-22T15:00:00+00:00,Jupiler Pro League,Kortrijk,Union St. Gilloise,Kortrijk,1.5,1.81,0.5715,0.5311,0-1,Covered,0.81,1.85,-4.64
 91,2026-11-20T20:14:00+00:00,2026-11-22T16:00:00+00:00,Süper Lig,Trabzonspor,Eyüpspor,Eyüpspor,2.25,1.99,0.5498,0.4818,1-0,Covered,0.99,2.08,-7.96
 92,2026-11-20T20:14:00+00:00,2026-11-22T16:15:00+00:00,Serie B,Arezzo,Padova,Arezzo,-0.25,2.01,0.5099,0.4793,1-1,Half lost,-0.5,2.02,-2.84
+93,2026-11-21T20:28:00+00:00,2026-11-23T19:30:00+00:00,Segunda División,AD Ceuta FC,Almeria,AD Ceuta FC,0.5,1.96,0.5506,0.4909,2-3,Not covered,-1.0,1.93,-0.75
