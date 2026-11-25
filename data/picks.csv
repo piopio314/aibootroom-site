@@ -93,3 +93,4 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 92,2026-11-20T20:14:00+00:00,2026-11-22T16:15:00+00:00,Serie B,Arezzo,Padova,Arezzo,-0.25,2.01,0.5099,0.4793,1-1,Half lost,-0.5,2.02,-2.84
 93,2026-11-21T20:28:00+00:00,2026-11-23T19:30:00+00:00,Segunda División,AD Ceuta FC,Almeria,AD Ceuta FC,0.5,1.96,0.5506,0.4909,2-3,Not covered,-1.0,1.93,-0.75
 94,2026-11-22T20:17:00+00:00,2026-11-24T19:45:00+00:00,Championship,Bristol City,Wrexham,Bristol City,0.0,1.79,0.5799,0.5375,1-1,Push,0.0,1.75,-0.51
+98,2026-11-23T20:05:00+00:00,2026-11-25T18:00:00+00:00,Serie B,Cremonese,Avellino,Cremonese,-0.5,1.93,0.5371,0.5,0-1,Not covered,-1.0,2.1,-10.39
