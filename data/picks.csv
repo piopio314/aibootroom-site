@@ -99,3 +99,5 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 97,2026-11-23T20:05:00+00:00,2026-11-25T19:45:00+00:00,Championship,Watford,Blackburn,Watford,0.0,1.88,0.5483,0.513,0-1,Not covered,-1.0,1.81,1.19
 96,2026-11-23T20:05:00+00:00,2026-11-25T20:00:00+00:00,Championship,Stoke City,Millwall,Millwall,0.25,1.91,0.5427,0.5039,2-1,Not covered,-1.0,2.1,-11.06
 102,2026-11-25T20:44:00+00:00,2026-11-27T17:30:00+00:00,2. Bundesliga,1. FC Heidenheim,1. FC Nürnberg,1. FC Heidenheim,-0.25,1.87,0.5527,0.5155,3-1,Covered,0.87,1.99,-8.42
+100,2026-11-25T20:44:00+00:00,2026-11-27T19:45:00+00:00,Jupiler Pro League,OH Leuven,Kortrijk,Kortrijk,0.5,1.9,0.5475,0.5065,2-2,Covered,0.9,1.83,1.07
+101,2026-11-25T20:44:00+00:00,2026-11-27T20:00:00+00:00,Championship,Southampton,Middlesbrough,Middlesbrough,-0.25,2.03,0.5053,0.4741,2-0,Not covered,-1.0,1.85,6.95
