@@ -115,3 +115,4 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 116,2026-11-26T20:46:00+00:00,2026-11-28T15:00:00+00:00,League One,Stevenage,Blackpool,Blackpool,0.5,1.93,0.5287,0.4961,0-0,Covered,0.93,2.04,-8.21
 118,2026-11-26T20:46:00+00:00,2026-11-28T15:00:00+00:00,League Two,Port Vale,Newport County,Port Vale,-0.5,1.9,0.5448,0.5,3-2,Covered,0.9,1.97,-7.22
 119,2026-11-26T20:46:00+00:00,2026-11-28T15:00:00+00:00,League Two,Walsall,Northampton,Northampton,0.0,2.07,0.4991,0.4595,3-0,Not covered,-1.0,2.15,-7.7
+110,2026-11-26T20:46:00+00:00,2026-11-28T15:30:00+00:00,Primeira Liga,Arouca,Rio Ave,Rio Ave,0.75,1.98,0.5203,0.487,0-0,Covered,0.98,1.9,1.79
