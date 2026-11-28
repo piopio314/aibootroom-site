@@ -101,3 +101,5 @@ pick,published_utc,kickoff_utc,league,home,away,pick_team,line,reference_price,m
 102,2026-11-25T20:44:00+00:00,2026-11-27T17:30:00+00:00,2. Bundesliga,1. FC Heidenheim,1. FC Nürnberg,1. FC Heidenheim,-0.25,1.87,0.5527,0.5155,3-1,Covered,0.87,1.99,-8.42
 100,2026-11-25T20:44:00+00:00,2026-11-27T19:45:00+00:00,Jupiler Pro League,OH Leuven,Kortrijk,Kortrijk,0.5,1.9,0.5475,0.5065,2-2,Covered,0.9,1.83,1.07
 101,2026-11-25T20:44:00+00:00,2026-11-27T20:00:00+00:00,Championship,Southampton,Middlesbrough,Middlesbrough,-0.25,2.03,0.5053,0.4741,2-0,Not covered,-1.0,1.85,6.95
+112,2026-11-26T20:46:00+00:00,2026-11-28T12:00:00+00:00,2. Bundesliga,Hertha BSC,Karlsruher SC,Karlsruher SC,1.25,2.01,0.5244,0.4793,4-0,Not covered,-1.0,2.04,-4.14
+113,2026-11-26T20:46:00+00:00,2026-11-28T12:00:00+00:00,2. Bundesliga,Holstein Kiel,1. FC Kaiserslautern,Holstein Kiel,-0.25,2.03,0.5105,0.4741,3-0,Covered,1.03,2.1,-6.03
